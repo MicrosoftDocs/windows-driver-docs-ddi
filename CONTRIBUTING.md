@@ -1,7 +1,6 @@
 # Contributing to Windows Driver Reference Documentation
 
 This page covers the basic steps for contributing to the Windows driver reference documentation.
-If you're looking for the driver conceptual docs, that's in a [different repo](https://github.com/MicrosoftDocs/windows-driver-docs).
 
 ## Architecture
 
