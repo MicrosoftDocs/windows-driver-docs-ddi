@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 01add66e-a007-4b1d-add6-c5be71dd0d61
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcdispatchirp, portcls/PcDispatchIrp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, PcDispatchIrp function [Audio Devices], PcDispatchIrp
+ms.keywords: portcls/PcDispatchIrp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcDispatchIrp
 product: Windows
 targetos: Windows
@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - Irp [in]
-
-Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be dispatched
-
-
 #### - DeviceObject [in]
 
-Pointer to the device object. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the device object. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+
+
+#### - Irp [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> that is to be dispatched
 
 
 ## -returns
@@ -110,11 +110,11 @@ For a code example, see the SB16 sample audio driver in the Microsoft Windows Dr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 <a href="..\portcls\nf-portcls-pcinitializeadapterdriver.md">PcInitializeAdapterDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2BLT
-title: _D3DHAL_DP2BLT
+title: "_D3DHAL_DP2BLT"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. D3DHAL_DP2BLT is used for two dimensional surface blts when D3dDrawPrimitives2 responds to the D3DDP2OP_BLT command token.
 old-location: display\d3dhal_dp2blt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2BLT, display.d3dhal_dp2blt, D3DHAL_DP2BLT, *LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, LPD3DHAL_DP2BLT structure pointer [Display Devices], D3DHAL_DP2BLT structure [Display Devices], d3dhal/D3DHAL_DP2BLT, LPD3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT
+ms.keywords: d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], display.d3dhal_dp2blt, LPD3DHAL_DP2BLT, _D3DHAL_DP2BLT, D3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], *LPD3DHAL_DP2BLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2BLT
 product: Windows
 targetos: Windows

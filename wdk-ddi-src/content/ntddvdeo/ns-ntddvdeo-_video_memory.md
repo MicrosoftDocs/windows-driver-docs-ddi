@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MEMORY
-title: _VIDEO_MEMORY
+title: "_VIDEO_MEMORY"
 author: windows-driver-content
 description: The VIDEO_MEMORY structure holds the address of a requested block of kernel-mode video memory.
 old-location: display\video_memory.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d8b3b45-90d9-4e64-a52d-253c9cb86588
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_MEMORY, Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, PVIDEO_MEMORY structure pointer [Display Devices], PVIDEO_MEMORY, _VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], *PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY, display.video_memory, ntddvdeo/PVIDEO_MEMORY
+ms.keywords: PVIDEO_MEMORY, _VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], ntddvdeo/PVIDEO_MEMORY, VIDEO_MEMORY, PVIDEO_MEMORY structure pointer [Display Devices], *PVIDEO_MEMORY, Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, display.video_memory, ntddvdeo/VIDEO_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	VIDEO_MEMORY
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_MEMORY, VIDEO_MEMORY
+req.typenames: "*PVIDEO_MEMORY, VIDEO_MEMORY"
 ---
 
 # _VIDEO_MEMORY structure
@@ -87,9 +87,9 @@ For structures used in mapping into user-mode video memory, see <a href="..\ntdd
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>
 

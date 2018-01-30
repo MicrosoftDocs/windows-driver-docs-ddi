@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 17a61847-78b7-45b8-b02b-3ba4cdba6bff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommandwide, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4, IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommand
+ms.keywords: GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4, GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommand, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, debugger.getexceptionfiltersecondcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetExceptionFilterSecondCommandWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetExceptionFilterSecondCommand method

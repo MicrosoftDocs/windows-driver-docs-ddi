@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped constructor [Windows Debugging], debugger.extremotetyped_extremotetyped, ExtRemoteTyped interface [Windows Debugging], ExtRemoteTyped constructor, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::ExtRemoteTyped, EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml
+ms.keywords: ExtRemoteTyped constructor [Windows Debugging], debugger.extremotetyped_extremotetyped, ExtRemoteTyped, EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped interface [Windows Debugging], ExtRemoteTyped constructor, ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.ExtRemoteTyped
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::ExtRemoteTyped method
@@ -68,19 +68,21 @@ ExtRemoteTyped();
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64, bool)</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (DEBUG_TYPED_DATA)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (ExtRemoteTyped)</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64, bool)</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (ExtRemoteTyped)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64)</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
+
+<a href="https://msdn.microsoft.com/ae478779-8ec1-4a50-a37c-3017aca2c912">SetPrint</a>
 
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
 
@@ -88,13 +90,11 @@ ExtRemoteTyped();
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-
-<a href="https://msdn.microsoft.com/ae478779-8ec1-4a50-a37c-3017aca2c912">SetPrint</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (DEBUG_TYPED_DATA)</a>
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
 
  
 

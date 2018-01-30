@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 24787963-98c6-4c32-9ba8-2cd4778f8436
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetProcessorTypeNamesWide, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, GetProcessorTypeNamesWide, IDebugControl4, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, debugger.getprocessortypenameswide
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide, IDebugControl4, debugger.getprocessortypenameswide, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, GetProcessorTypeNamesWide method [Windows Debugging], GetProcessorTypeNamesWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetProcessorTypeNamesWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetProcessorTypeNamesWide method

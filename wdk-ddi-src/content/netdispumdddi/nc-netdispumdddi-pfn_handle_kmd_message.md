@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	HandleKernelModeMessage
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---
 
 # PFN_HANDLE_KMD_MESSAGE callback
@@ -107,9 +107,9 @@ The size of the output buffer <i>pOutputBuffer</i>, supplied by the operating sy
 
 
 
-#### - pBytesReturned [out]
+#### - pInputBuffer [in]
 
-A pointer to a buffer, supplied by the operating system, that holds the number of returned bytes that the display miniport driver wrote in <i>pOutputBuffer</i>.
+A pointer to the input buffer, supplied by the operating system.
 
 
 #### - pOutputBuffer [out]
@@ -117,9 +117,9 @@ A pointer to a buffer, supplied by the operating system, that holds the number o
 A pointer to the output buffer, supplied by the operating system.
 
 
-#### - pInputBuffer [in]
+#### - pBytesReturned [out]
 
-A pointer to the input buffer, supplied by the operating system.
+A pointer to a buffer, supplied by the operating system, that holds the number of returned bytes that the display miniport driver wrote in <i>pOutputBuffer</i>.
 
 
 ## -returns
@@ -131,13 +131,13 @@ On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
-
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 

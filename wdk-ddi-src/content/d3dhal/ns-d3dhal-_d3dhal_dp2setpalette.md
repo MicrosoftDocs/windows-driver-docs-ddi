@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETPALETTE
-title: _D3DHAL_DP2SETPALETTE
+title: "_D3DHAL_DP2SETPALETTE"
 author: windows-driver-content
 description: The D3DHAL_DP2SETPALETTE structure is used to associate a palette with a texture when a driver responds to D3DDP2OP_SETPALETTE in D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setpalette.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c472869-028e-41f5-93df-94e91c47b76e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], _D3DHAL_DP2SETPALETTE, display.d3dhal_dp2setpalette, d3dhal/LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], *LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, d3dhal/D3DHAL_DP2SETPALETTE
+ms.keywords: LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, d3dhal/LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], _D3DHAL_DP2SETPALETTE, *LPD3DHAL_DP2SETPALETTE, display.d3dhal_dp2setpalette, d3dhal/D3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SETPALETTE
 product: Windows
 targetos: Windows

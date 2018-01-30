@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols2::GetFieldOffset, IDebugSymbols3, GetFieldOffset method [Windows Debugging], IDebugSymbols interface, debugger.getfieldoffset2, dbgeng/IDebugSymbols::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, IDebugSymbols2::GetFieldOffset, GetFieldOffset, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method
+ms.keywords: IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols interface, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, IDebugSymbols2::GetFieldOffset, debugger.getfieldoffset2, GetFieldOffset method [Windows Debugging], IDebugSymbols::GetFieldOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetFieldOffset
 -	IDebugSymbols2.GetFieldOffset
 -	IDebugSymbols3.GetFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetFieldOffset method

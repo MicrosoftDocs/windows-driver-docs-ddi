@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvdeo.h
-apiname: 
+apiname:
 -	IOCTL_VIDEO_QUERY_AVAIL_MODES
 product: Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
 ---
 
 # IOCTL_VIDEO_QUERY_AVAIL_MODES IOCTL
@@ -110,9 +110,9 @@ If the miniport driver successfully returns the available modes, it sets the <b>
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
 
  
 

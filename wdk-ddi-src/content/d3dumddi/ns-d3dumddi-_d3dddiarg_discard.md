@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DISCARD
-title: _D3DDDIARG_DISCARD
+title: "_D3DDDIARG_DISCARD"
 author: windows-driver-content
 description: Defines video display memory that can be discarded because the contents are no longer needed.
 old-location: display\d3dddiarg_discard.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6efee74e-9e82-4631-8360-19061b0c015d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_DISCARD, display.d3dddiarg_discard, D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], _D3DDDIARG_DISCARD
+ms.keywords: D3DDDIARG_DISCARD, _D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], display.d3dddiarg_discard, d3dumddi/D3DDDIARG_DISCARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DISCARD
 product: Windows
 targetos: Windows

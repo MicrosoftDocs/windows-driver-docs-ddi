@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_PRESENTSURFACE
 product: Windows
 targetos: Windows

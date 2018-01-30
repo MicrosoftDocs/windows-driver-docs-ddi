@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D953C714-6C11-4F8A-A7F9-416A00C518B4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, display.d3dddicb_logumdmarker, D3DDDICB_LOGUMDMARKER
+ms.keywords: display.d3dddicb_logumdmarker, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_LOGUMDMARKER
 product: Windows
 targetos: Windows
@@ -100,9 +100,9 @@ A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a>
 
  
 

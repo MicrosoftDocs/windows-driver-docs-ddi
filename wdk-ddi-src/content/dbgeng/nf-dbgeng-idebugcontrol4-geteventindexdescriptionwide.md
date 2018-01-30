@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, IDebugControl4::GetEventIndexDescriptionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, debugger.geteventindexdescriptionwide, GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging]
+ms.keywords: IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, IDebugControl4, GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], dbgeng/IDebugControl4::GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetEventIndexDescriptionWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetEventIndexDescriptionWide method
@@ -129,9 +129,9 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 

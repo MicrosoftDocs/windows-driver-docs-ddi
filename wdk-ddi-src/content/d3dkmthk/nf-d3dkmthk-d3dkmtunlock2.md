@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DDAA5F5A-4A9C-4E8C-B322-A9B395DC753B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTUnlock2, D3DKMTUnlock2 function [Display Devices], D3DKMTUnlock2, display.d3dkmtunlock2
+ms.keywords: D3DKMTUnlock2 function [Display Devices], D3DKMTUnlock2, display.d3dkmtunlock2, d3dkmthk/D3DKMTUnlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTUnlock2
 product: Windows
 targetos: Windows

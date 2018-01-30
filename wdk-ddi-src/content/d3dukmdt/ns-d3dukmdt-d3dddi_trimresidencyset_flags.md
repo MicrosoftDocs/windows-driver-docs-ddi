@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices]
+ms.keywords: d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], display.d3dddi_trimresidencyset_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_TRIMRESIDENCYSET_FLAGS
 product: Windows
 targetos: Windows

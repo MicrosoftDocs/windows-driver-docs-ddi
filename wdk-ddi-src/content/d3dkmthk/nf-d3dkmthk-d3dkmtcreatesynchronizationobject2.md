@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45849844-a466-4e62-957a-bfe33a464b5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateSynchronizationObject2, d3dkmthk/D3DKMTCreateSynchronizationObject2, display.d3dkmtcreatesynchronizationobject2, OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, D3DKMTCreateSynchronizationObject2 function [Display Devices]
+ms.keywords: D3DKMTCreateSynchronizationObject2, d3dkmthk/D3DKMTCreateSynchronizationObject2, OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, display.d3dkmtcreatesynchronizationobject2, D3DKMTCreateSynchronizationObject2 function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCreateSynchronizationObject2
 product: Windows
 targetos: Windows

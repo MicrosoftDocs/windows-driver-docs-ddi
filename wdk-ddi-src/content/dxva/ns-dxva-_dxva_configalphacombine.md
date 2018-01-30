@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ConfigAlphaCombine
-title: _DXVA_ConfigAlphaCombine
+title: "_DXVA_ConfigAlphaCombine"
 author: windows-driver-content
 description: The DXVA_ConfigAlphaCombine structure is sent by the host decoder to the accelerator to set the configuration for alpha-blending combination operations.
 old-location: display\dxva_configalphacombine.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 588d5e73-4ec2-486b-914f-7076949653ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], LPDXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml, DXVA_ConfigAlphaCombine structure [Display Devices], _DXVA_ConfigAlphaCombine, display.dxva_configalphacombine, *LPDXVA_ConfigAlphaCombine, dxva/DXVA_ConfigAlphaCombine
+ms.keywords: DXVA_ConfigAlphaCombine structure [Display Devices], LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], dxva/LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine, *LPDXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, display.dxva_configalphacombine, _DXVA_ConfigAlphaCombine, dxva/DXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_ConfigAlphaCombine
 product: Windows
 targetos: Windows
-req.typenames: DXVA_ConfigAlphaCombine, *LPDXVA_ConfigAlphaCombine
+req.typenames: "*LPDXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine"
 ---
 
 # _DXVA_ConfigAlphaCombine structure

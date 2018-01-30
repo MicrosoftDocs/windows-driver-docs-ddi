@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	DestroyMiracastContext
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---
 
 # PFN_DESTROY_MIRACAST_CONTEXT callback
@@ -96,11 +96,11 @@ If the display miniport driver is still reporting the Miracast monitor for this 
 
 ## -see-also
 
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_X86_BIOS_ARGUMENTS
-title: _VIDEO_X86_BIOS_ARGUMENTS
+title: "_VIDEO_X86_BIOS_ARGUMENTS"
 author: windows-driver-content
 description: The VIDEO_x86_BIOS_ARGUMENTS structure is used to support full-screen MS-DOS application INT10 calls. It contains seven of the high-end x86 microprocessor registers.
 old-location: display\video_x86_bios_arguments.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0404803-d8a5-4698-a725-12c659cbcaab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], display.video_x86_bios_arguments, video/PVIDEO_X86_BIOS_ARGUMENTS, Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, PVIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], _VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS
+ms.keywords: VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], display.video_x86_bios_arguments, VIDEO_x86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], *PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], video/VIDEO_X86_BIOS_ARGUMENTS, Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, video/PVIDEO_X86_BIOS_ARGUMENTS, _VIDEO_X86_BIOS_ARGUMENTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_X86_BIOS_ARGUMENTS
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_X86_BIOS_ARGUMENTS structure

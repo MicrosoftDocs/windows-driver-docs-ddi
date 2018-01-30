@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-title: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU"
 author: windows-driver-content
 description: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU is used with D3DKMTWaitForSynchronizationObjectFromGpu to wait for a monitored fence to reach a certain value.
 old-location: display\d3dkmt_waitforsynchronizationobjectfromgpu.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F22149E4-0396-46DE-89FE-9B4321D86605
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices]
+ms.keywords: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], display.d3dkmt_waitforsynchronizationobjectfromgpu"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 product: Windows
 targetos: Windows

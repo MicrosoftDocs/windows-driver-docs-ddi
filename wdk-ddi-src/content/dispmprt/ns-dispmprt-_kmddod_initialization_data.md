@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._KMDDOD_INITIALIZATION_DATA
-title: _KMDDOD_INITIALIZATION_DATA
+title: "_KMDDOD_INITIALIZATION_DATA"
 author: windows-driver-content
 description: Contains pointers to functions implemented by a kernel mode display-only driver (KMDOD). The KMDOD's DriverEntry function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 old-location: display\kmddod_initialization_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], dispmprt/KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], display.kmddod_initialization_data
+ms.keywords: dispmprt/PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], _KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, dispmprt/KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], display.kmddod_initialization_data, *PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	KMDDOD_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA
+req.typenames: KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA
 ---
 
 # _KMDDOD_INITIALIZATION_DATA structure

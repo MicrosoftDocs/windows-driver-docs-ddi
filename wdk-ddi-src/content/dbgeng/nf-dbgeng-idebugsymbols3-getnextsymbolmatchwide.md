@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0400ff8c-a6d5-4fbf-b2fb-eb9fd7aabd7e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3, debugger.getnextsymbolmatchwide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method, IDebugSymbols3::GetNextSymbolMatchWide, IDebugSymbols3, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], debugger.getnextsymbolmatchwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetNextSymbolMatchWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetNextSymbolMatchWide method

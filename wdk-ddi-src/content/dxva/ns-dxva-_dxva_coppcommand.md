@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPCommand
-title: _DXVA_COPPCommand
+title: "_DXVA_COPPCommand"
 author: windows-driver-content
 description: The DXVA_COPPCommand structure describes a command sent to a protected video session that is associated with a COPP DirectX VA device.
 old-location: display\dxva_coppcommand.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 08c87f1f-ea50-4521-80a2-67369fc6598a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_COPPCommand, *LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], LPDXVA_COPPCommand, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], display.dxva_coppcommand, dxva/LPDXVA_COPPCommand, _DXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml
+ms.keywords: dxva/LPDXVA_COPPCommand, display.dxva_coppcommand, LPDXVA_COPPCommand, _DXVA_COPPCommand, *LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], DXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml, DXVA_COPPCommand structure [Display Devices], dxva/DXVA_COPPCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_COPPCommand
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_COPPCommand, DXVA_COPPCommand
+req.typenames: DXVA_COPPCommand, *LPDXVA_COPPCommand
 ---
 
 # _DXVA_COPPCommand structure
@@ -83,22 +83,7 @@ Specifies the GUID that identifies the command. The following GUIDs are supporte
 
 
 
-### -field dwSequence
-
-Specifies a sequence number. For the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a> function to process the command, the value in <b>dwSequence</b> must match the 32-bit random starting status sequence number that was passed in the <a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a> function.
-
-
-### -field cbSizeData
-
-Specifies the size, in bytes, of the command data at <b>CommandData</b>.
-
-
-### -field CommandData
-
-Specifies an array that comprises the command data. 
-
-
-##### - guidCommandID.DXVA_COPPSetProtectionLevel
+#### DXVA_COPPSetProtectionLevel
 
 Sets the protection type and level on the physical connector associated with the COPP device.
 
@@ -115,7 +100,7 @@ The DXVA_COPPSetProtectionLevel GUID is defined as follows:
 </tr>
 </table></span></div>
 
-##### - guidCommandID.DXVA_COPPSetSignaling
+#### DXVA_COPPSetSignaling
 
 An instruction about how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 
@@ -132,6 +117,21 @@ The DXVA_COPPSetSignaling GUID is defined as follows:
 </tr>
 </table></span></div>
 
+### -field dwSequence
+
+Specifies a sequence number. For the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a> function to process the command, the value in <b>dwSequence</b> must match the 32-bit random starting status sequence number that was passed in the <a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a> function.
+
+
+### -field cbSizeData
+
+Specifies the size, in bytes, of the command data at <b>CommandData</b>.
+
+
+### -field CommandData
+
+Specifies an array that comprises the command data. 
+
+
 ## -remarks
 
 
@@ -143,15 +143,15 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetsignalingcmddata.md">DXVA_COPPSetSignalingCmdData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
  
 

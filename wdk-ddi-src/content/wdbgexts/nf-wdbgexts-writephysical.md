@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysical function [Windows Debugging], debugger.writephysical, dbgeng/WritePhysical, WritePhysical, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml
+ms.keywords: debugger.writephysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	WritePhysical
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # WritePhysical function

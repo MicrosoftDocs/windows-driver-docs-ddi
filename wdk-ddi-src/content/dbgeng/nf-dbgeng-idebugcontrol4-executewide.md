@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], ExecuteWide method, debugger.executewide, dbgeng/IDebugControl4::ExecuteWide, IDebugControl4, IDebugControl4::ExecuteWide, ExecuteWide method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl4::ExecuteWide, IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4, IDebugControl4::ExecuteWide, ExecuteWide, ExecuteWide method [Windows Debugging], debugger.executewide, ExecuteWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.ExecuteWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::ExecuteWide method

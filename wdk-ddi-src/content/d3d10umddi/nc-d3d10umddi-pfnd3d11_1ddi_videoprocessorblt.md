@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorBlt
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORBLT callback
@@ -100,14 +100,16 @@ HRESULT APIENTRY* pfnVideoProcessorBlt(
 
 
 
-#### - OutputFrame [in]
-
-The zero-based index of the output video frame.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
+
+
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function.
 
 
 
@@ -119,11 +121,9 @@ A handle to the resource for the output view of the video processor. This handle
 
 
 
-#### - hVideoProcessor [in]
+#### - OutputFrame [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function.
-
-
+The zero-based index of the output video frame.
 
 
 #### - StreamCount [in]
@@ -215,19 +215,19 @@ Each input stream is specified through a 	<a href="..\d3d10umddi\ns-d3d10umddi-d
 
 ## -see-also
 
-<b>CreateVideoProcessorOutputView</b>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputstereomode.md">VideoProcessorSetOutputStereoMode</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<b>CreateVideoProcessorOutputView</b>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a>
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_stream.md">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
  
 

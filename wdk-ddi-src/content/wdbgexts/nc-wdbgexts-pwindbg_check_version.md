@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	CheckVersion
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 ---
 
 # PWINDBG_CHECK_VERSION callback

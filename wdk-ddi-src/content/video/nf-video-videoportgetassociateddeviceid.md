@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c40f98b-4d93-4ee8-8217-51e6f1170cf8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], display.videoportgetassociateddeviceid, VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, video/VideoPortGetAssociatedDeviceID
+ms.keywords: VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, video/VideoPortGetAssociatedDeviceID, display.videoportgetassociateddeviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortGetAssociatedDeviceID
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortGetAssociatedDeviceID function

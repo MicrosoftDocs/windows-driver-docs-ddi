@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorGetStreamExtension
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback
@@ -94,21 +94,9 @@ HRESULT APIENTRY* pfnVideoProcessorGetStreamExtension(
 
 
 
-#### - DataSize [in]
-
-The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
-
-
-
-
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 
 
@@ -123,6 +111,18 @@ A handle to the video processor object that was created through a call to the <a
 #### - StreamIndex [in]
 
 The zero-based index of the input stream.
+
+
+#### - pGuid [in]
+
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
+
+
+
+
+#### - DataSize [in]
+
+The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
 
 #### - pData [in, out]

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a73a3bb5-f9f4-41d7-9df7-c7f36a01d157
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldTypeAndOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols3, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml
+ms.keywords: GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, IDebugSymbols3, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, debugger.getfieldtypeandoffset, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetFieldTypeAndOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetFieldTypeAndOffset method
@@ -142,9 +142,9 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

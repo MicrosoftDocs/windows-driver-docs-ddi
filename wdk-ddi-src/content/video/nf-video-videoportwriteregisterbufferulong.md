@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48322143-8c95-4ffa-ac7a-597ed5fb066c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong, VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, display.videoportwriteregisterbufferulong, VideoPortWriteRegisterBufferUlong function [Display Devices]
+ms.keywords: video/VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong, VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, VideoPortWriteRegisterBufferUlong function [Display Devices], display.videoportwriteregisterbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortWriteRegisterBufferUlong
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortWriteRegisterBufferUlong function

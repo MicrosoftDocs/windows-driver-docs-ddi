@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A64D2A22-5702-4931-AF2F-58BB919D764E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, D3D12DDI_TEXTURE_LAYOUT_CAPS_0026 structure [Display Devices], display.d3d12ddi_texture_layout_caps_0026
+ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0026, display.d3d12ddi_texture_layout_caps_0026, D3D12DDI_TEXTURE_LAYOUT_CAPS_0026 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_TEXTURE_LAYOUT_CAPS_0026
 product: Windows
 targetos: Windows

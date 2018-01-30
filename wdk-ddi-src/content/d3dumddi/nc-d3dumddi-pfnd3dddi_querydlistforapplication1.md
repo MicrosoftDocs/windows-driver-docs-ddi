@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	QueryDListForApplication
 product: Windows
 targetos: Windows
@@ -87,6 +87,11 @@ HRESULT APIENTRY* QueryDListForApplication(
 
 
 
+#### - pDefaultToDiscrete [out]
+
+If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
+
+
 #### - hAdapter [in]
 
 A handle to the graphics adapter object.
@@ -95,11 +100,6 @@ A handle to the graphics adapter object.
 #### - pfnEscapeCB [in]
 
 A function pointer to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
-
-
-#### - pDefaultToDiscrete [out]
-
-If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
 
 ## -returns

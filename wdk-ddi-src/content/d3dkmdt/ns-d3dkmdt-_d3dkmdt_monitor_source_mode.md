@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_MONITOR_SOURCE_MODE
-title: _D3DKMDT_MONITOR_SOURCE_MODE
+title: "_D3DKMDT_MONITOR_SOURCE_MODE"
 author: windows-driver-content
 description: The D3DKMDT_MONITOR_SOURCE_MODE structure contains information about a monitor source mode.
 old-location: display\d3dkmdt_monitor_source_mode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bccacf88-b66b-4d55-b3a8-9d9b8cfcede8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, display.d3dkmdt_monitor_source_mode, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], D3DKMDT_MONITOR_SOURCE_MODE, _D3DKMDT_MONITOR_SOURCE_MODE
+ms.keywords: "_D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, display.d3dkmdt_monitor_source_mode, DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], D3DKMDT_MONITOR_SOURCE_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_MONITOR_SOURCE_MODE
 product: Windows
 targetos: Windows

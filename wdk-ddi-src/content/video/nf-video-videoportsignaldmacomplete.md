@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81730acb-ff15-438d-8225-125283f61db2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], video/VideoPortSignalDmaComplete, display.videoportsignaldmacomplete
+ms.keywords: video/VideoPortSignalDmaComplete, VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, VideoPortSignalDmaComplete, display.videoportsignaldmacomplete, VideoPortSignalDmaComplete function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortSignalDmaComplete
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortSignalDmaComplete function

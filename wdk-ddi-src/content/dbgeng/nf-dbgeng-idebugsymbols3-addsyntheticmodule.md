@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 87d9f307-996b-47df-b3dd-368fef6c1042
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, AddSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AddSyntheticModule, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModule method, debugger.addsyntheticmodule, dbgeng/IDebugSymbols3::AddSyntheticModule, AddSyntheticModule, AddSyntheticModule method [Windows Debugging], IDebugSymbols3
+ms.keywords: AddSyntheticModule method [Windows Debugging], AddSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, AddSyntheticModule, dbgeng/IDebugSymbols3::AddSyntheticModule, debugger.addsyntheticmodule, IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModule method, IDebugSymbols3::AddSyntheticModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.AddSyntheticModule
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::AddSyntheticModule method
@@ -134,9 +134,9 @@ For more information about synthetic modules, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

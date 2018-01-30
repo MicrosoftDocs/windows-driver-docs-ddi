@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_UPDATEPALETTE
-title: _D3DDDIARG_UPDATEPALETTE
+title: "_D3DDDIARG_UPDATEPALETTE"
 author: windows-driver-content
 description: The D3DDDIARG_UPDATEPALETTE structure describes parameters that are used to update a texture palette.
 old-location: display\d3dddiarg_updatepalette.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6637c102-4e77-4030-9bb5-ab9fb4bac2c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_abbbfa0f-d2f6-4985-a189-56e4592c1c1e.xml, D3DDDIARG_UPDATEPALETTE structure [Display Devices], _D3DDDIARG_UPDATEPALETTE, display.d3dddiarg_updatepalette, d3dumddi/D3DDDIARG_UPDATEPALETTE, D3DDDIARG_UPDATEPALETTE
+ms.keywords: D3DDDIARG_UPDATEPALETTE structure [Display Devices], D3DDDIARG_UPDATEPALETTE, d3dumddi/D3DDDIARG_UPDATEPALETTE, display.d3dddiarg_updatepalette, UMDisplayDriver_param_Structs_abbbfa0f-d2f6-4985-a189-56e4592c1c1e.xml, _D3DDDIARG_UPDATEPALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_UPDATEPALETTE
 product: Windows
 targetos: Windows

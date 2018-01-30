@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkDdiCreateProcess
 product: Windows
 targetos: Windows

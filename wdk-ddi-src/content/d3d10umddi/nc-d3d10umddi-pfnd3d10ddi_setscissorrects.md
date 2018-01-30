@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	SetScissorRects
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_SETSCISSORRECTS callback
@@ -92,6 +92,16 @@ VOID APIENTRY SetScissorRects(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - NumScissorRects [in]
+
+ The total number of render-target portions that the <i>pRects</i> parameter specifies. 
+
+
 #### - ClearScissorRects [in]
 
  The number of render-target portions after the number of render-target portions that <i>NumScissorRects </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render-target portions (that is, when the Microsoft Direct3D runtime previously called <i>SetScissorRects</i>) and the new number of render-target portions. 
@@ -102,16 +112,6 @@ Note that the number that <i>ClearScissorRects</i> specifies is only an optimiza
 #### - pRects [in]
 
  An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the render-target portions to mark. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - NumScissorRects [in]
-
- The total number of render-target portions that the <i>pRects</i> parameter specifies. 
 
 
 ## -returns
@@ -152,11 +152,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

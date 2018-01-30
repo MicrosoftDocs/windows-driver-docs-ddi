@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_CALLINFO
-title: _tagKSTELEPHONY_CALLINFO
+title: "_tagKSTELEPHONY_CALLINFO"
 author: windows-driver-content
 description: The KSTELEPHONY_CALLINFO structure specifies the type and state of a phone call for the KSPROPERTY_TELEPHONY_CALLINFO property.
 old-location: audio\kstelephony_callinfo.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], ksmedia/PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, ksmedia/KSTELEPHONY_CALLINFO
+ms.keywords: PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], KSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSTELEPHONY_CALLINFO
 product: Windows
 targetos: Windows
-req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
+req.typenames: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO"
 ---
 
 # _tagKSTELEPHONY_CALLINFO structure

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], dbgeng/IDebugAdvanced3::GetSourceFileInformation, debugger.getsourcefileinformation, IDebugAdvanced2::GetSourceFileInformation
+ms.keywords: GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3::GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformation, dbgeng/IDebugAdvanced3::GetSourceFileInformation, dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, debugger.getsourcefileinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugAdvanced2.GetSourceFileInformation
 -	IDebugAdvanced3.GetSourceFileInformation
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugAdvanced3::GetSourceFileInformation method
@@ -81,6 +81,16 @@ Specifies the piece of information to return.  The <i>Which</i> parameter can ta
 
 
 
+#### DEBUG_SRCFILE_SYMBOL_TOKEN
+
+Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
+
+
+#### DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
+
+Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string. 
+
+
 ### -param SourceFile [in]
 
 Specifies the source file whose information is being requested.  The source file is looked up on all the source servers in the source path. 
@@ -109,16 +119,6 @@ Specifies the size in bytes of the <i>Buffer</i> buffer. If <i>Buffer</i> is <b>
 ### -param InfoSize [out, optional]
 
 Specifies the size in bytes of the information returned to the <i>Buffer</i> buffer.  This parameter can be <b>NULL</b> if the data is not required. 
-
-
-##### - Which.DEBUG_SRCFILE_SYMBOL_TOKEN
-
-Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
-
-
-##### - Which.DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
-
-Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string. 
 
 
 ## -returns

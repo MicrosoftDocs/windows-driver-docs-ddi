@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CONTEXTDESTROYDATA
-title: _D3DHAL_CONTEXTDESTROYDATA
+title: "_D3DHAL_CONTEXTDESTROYDATA"
 author: windows-driver-content
 description: The D3DHAL_CONTEXTDESTROYDATA structure contains the information that the D3dContextDestroy function requires to delete a context.
 old-location: display\d3dhal_contextdestroydata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1224f634-b349-4098-a6ad-cbf18742ffb7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA, *LPD3DHAL_CONTEXTDESTROYDATA, _D3DHAL_CONTEXTDESTROYDATA, display.d3dhal_contextdestroydata, d3dhal/D3DHAL_CONTEXTDESTROYDATA
+ms.keywords: d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, *LPD3DHAL_CONTEXTDESTROYDATA, _D3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], LPD3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA, display.d3dhal_contextdestroydata, d3dhal/D3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_CONTEXTDESTROYDATA
 product: Windows
 targetos: Windows

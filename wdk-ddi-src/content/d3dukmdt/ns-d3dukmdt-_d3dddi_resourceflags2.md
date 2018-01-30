@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RESOURCEFLAGS2
-title: _D3DDDI_RESOURCEFLAGS2
+title: "_D3DDDI_RESOURCEFLAGS2"
 author: windows-driver-content
 description: Identifies the type of resource to create in a call to the driver's CreateResource2 function.
 old-location: display\d3dddi_resourceflags2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2, d3dukmdt/D3DDDI_RESOURCEFLAGS2
+ms.keywords: D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, _D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_RESOURCEFLAGS2
 product: Windows
 targetos: Windows
@@ -126,9 +126,9 @@ A 32-bit value that identifies the type of resource to create.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_formatop.md">FORMATOP</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
 
  
 

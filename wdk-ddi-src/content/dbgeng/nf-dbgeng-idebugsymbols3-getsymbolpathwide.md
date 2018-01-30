@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2326130f-7e5f-492f-88a9-9eadeccc4827
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolPathWide method [Windows Debugging], GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolpathwide, IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, GetSymbolPathWide, IDebugSymbols3::GetSymbolPathWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSymbolPathWide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, IDebugSymbols3, GetSymbolPathWide, IDebugSymbols3::GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], debugger.getsymbolpathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSymbolPathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetSymbolPathWide method

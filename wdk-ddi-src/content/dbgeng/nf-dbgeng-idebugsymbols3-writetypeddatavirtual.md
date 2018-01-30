@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, IDebugSymbols2::WriteTypedDataVirtual, debugger.writetypeddatavirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, WriteTypedDataVirtual, debugger.writetypeddatavirtual, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::WriteTypedDataVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.WriteTypedDataVirtual
 -	IDebugSymbols2.WriteTypedDataVirtual
 -	IDebugSymbols3.WriteTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::WriteTypedDataVirtual method

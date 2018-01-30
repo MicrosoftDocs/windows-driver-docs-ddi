@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETDEVICESTATE
-title: _D3DKMT_GETDEVICESTATE
+title: "_D3DKMT_GETDEVICESTATE"
 author: windows-driver-content
 description: The D3DKMT_GETDEVICESTATE structure describes parameters for retrieving the state of a device.
 old-location: display\d3dkmt_getdevicestate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b90f8b63-51d3-4de4-9d8b-91926150fd30
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate, D3DKMT_GETDEVICESTATE structure [Display Devices], _D3DKMT_GETDEVICESTATE, OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml
+ms.keywords: OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml, d3dkmthk/D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate, D3DKMT_GETDEVICESTATE, _D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_GETDEVICESTATE
 product: Windows
 targetos: Windows
@@ -115,11 +115,11 @@ typedef struct _D3DKMT_GETDEVICESTATE {
 
 ## -see-also
 
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_deviceexecution_state.md">D3DKMT_DEVICEEXECUTION_STATE</a>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
 
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_devicestate_type.md">D3DKMT_DEVICESTATE_TYPE</a>
-
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_deviceexecution_state.md">D3DKMT_DEVICEEXECUTION_STATE</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicereset_state.md">D3DKMT_DEVICERESET_STATE</a>
 

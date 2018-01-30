@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetResourceLayout
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
@@ -100,6 +100,11 @@ The subresource count.
 
 
 
+#### - hDevice
+
+A device handle.
+
+
 #### - hResource
 
 A resource handle. 
@@ -110,9 +115,9 @@ A resource handle.
 A kernel handle.
 
 
-#### - hDevice
+#### - TextureLayout [out]
 
-A device handle.
+A pointer to a texture layout.
 
 
 #### - pMipLevelSwizzleTransition [out]
@@ -123,11 +128,6 @@ A pointer to a MIP level swizzle transition.
 #### - SubresourceLayout [out, optional]
 
 A pointer to the subresource layout.
-
-
-#### - TextureLayout [out]
-
-A pointer to a texture layout.
 
 
 ## -returns

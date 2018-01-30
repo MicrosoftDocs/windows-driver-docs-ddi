@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_CHILD_DEVICE_HPD_AWARENESS
-title: _DXGK_CHILD_DEVICE_HPD_AWARENESS
+title: "_DXGK_CHILD_DEVICE_HPD_AWARENESS"
 author: windows-driver-content
 description: The DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration is used to describe the hot plug capabilities of a child device of a display adapter.
 old-location: display\dxgk_child_device_hpd_awareness.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: daef347a-26d4-46cf-82b4-a5852fe49b71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: HpdAwarenessAlwaysConnected, display.dxgk_child_device_hpd_awareness, HpdAwarenessPolled, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessUninitialized, d3dkmdt/HpdAwarenessAlwaysConnected, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], HpdAwarenessInterruptible, PDXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessNone, d3dkmdt/HpdAwarenessPolled, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, d3dkmdt/HpdAwarenessNone, _DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessInterruptible, HpdAwarenessUninitialized, DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS
+ms.keywords: HpdAwarenessAlwaysConnected, HpdAwarenessNone, DXGK_CHILD_DEVICE_HPD_AWARENESS, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], display.dxgk_child_device_hpd_awareness, HpdAwarenessInterruptible, *PDXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessAlwaysConnected, PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessPolled, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, _DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessNone, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessPolled, d3dkmdt/HpdAwarenessUninitialized, HpdAwarenessUninitialized, d3dkmdt/HpdAwarenessInterruptible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGK_CHILD_DEVICE_HPD_AWARENESS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS
+req.typenames: DXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS
 ---
 
 # _DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration

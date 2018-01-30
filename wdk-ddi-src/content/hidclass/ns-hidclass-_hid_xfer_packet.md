@@ -1,6 +1,6 @@
 ---
 UID: NS:hidclass._HID_XFER_PACKET
-title: _HID_XFER_PACKET
+title: "_HID_XFER_PACKET"
 author: windows-driver-content
 description: The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report.
 old-location: hid\hid_xfer_packet.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidclass/PHID_XFER_PACKET, hid.hid_xfer_packet, HID_XFER_PACKET structure [Human Input Devices], *PHID_XFER_PACKET, _HID_XFER_PACKET, hidclass/HID_XFER_PACKET, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, HID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], PHID_XFER_PACKET
+ms.keywords: "_HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], PHID_XFER_PACKET structure pointer [Human Input Devices], HID_XFER_PACKET, hid.hid_xfer_packet, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, hidclass/PHID_XFER_PACKET, PHID_XFER_PACKET, *PHID_XFER_PACKET, hidclass/HID_XFER_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidclass.h
-apiname: 
+apiname:
 -	HID_XFER_PACKET
 product: Windows
 targetos: Windows
-req.typenames: *PHID_XFER_PACKET, HID_XFER_PACKET
+req.typenames: "*PHID_XFER_PACKET, HID_XFER_PACKET"
 ---
 
 # _HID_XFER_PACKET structure
@@ -93,13 +93,13 @@ The HID class driver uses this structure to specify information about a HID repo
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
  
 

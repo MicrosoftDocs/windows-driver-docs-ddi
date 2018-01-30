@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0de394a0-9ae8-4ac9-970b-8575bb7dcc99
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetNextSymbolMatch, IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, GetNextSymbolMatch method [Windows Debugging], debugger.getnextsymbolmatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, IDebugSymbols3, dbgeng/IDebugSymbols2::GetNextSymbolMatch, GetNextSymbolMatch
+ms.keywords: IDebugSymbols3::GetNextSymbolMatch, debugger.getnextsymbolmatch, IDebugSymbols2::GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetNextSymbolMatch, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, dbgeng/IDebugSymbols2::GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, IDebugSymbols3, GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols::GetNextSymbolMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetNextSymbolMatch
 -	IDebugSymbols2.GetNextSymbolMatch
 -	IDebugSymbols3.GetNextSymbolMatch
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetNextSymbolMatch method
@@ -159,11 +159,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 

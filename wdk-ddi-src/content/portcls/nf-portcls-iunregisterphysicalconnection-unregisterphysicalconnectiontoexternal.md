@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 250bf99c-d5fa-459b-bd94-d438368379f1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IUnregisterPhysicalConnection, UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnectionToExternal method [Audio Devices], portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionToExternal method, audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal
+ms.keywords: UnregisterPhysicalConnectionToExternal, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal, IUnregisterPhysicalConnection, UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionToExternal method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ NTSTATUS UnregisterPhysicalConnectionToExternal(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param FromUnknown [in]
@@ -112,11 +112,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
 
 <a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
 

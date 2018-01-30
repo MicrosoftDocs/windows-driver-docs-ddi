@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTRender, D3DKMTRender, OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, D3DKMTRender function [Display Devices], display.d3dkmtrender
+ms.keywords: D3DKMTRender function [Display Devices], d3dkmthk/D3DKMTRender, display.d3dkmtrender, OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, D3DKMTRender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTRender
 product: Windows
 targetos: Windows
@@ -241,9 +241,9 @@ If the OpenGL ICD detects that most of the command buffer flushes are because th
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
 
  
 

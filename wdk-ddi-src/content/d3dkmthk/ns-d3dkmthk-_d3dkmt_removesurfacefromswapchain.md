@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_REMOVESURFACEFROMSWAPCHAIN
-title: _D3DKMT_REMOVESURFACEFROMSWAPCHAIN
+title: "_D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
 author: windows-driver-content
 description: Used to remove a surface from the swap chain.
 old-location: display\d3dkmt-removesurfacefromswapchain.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain, _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices]
+ms.keywords: display.d3dkmt-removesurfacefromswapchain, D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, _D3DKMT_REMOVESURFACEFROMSWAPCHAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_REMOVESURFACEFROMSWAPCHAIN
 product: Windows
 targetos: Windows

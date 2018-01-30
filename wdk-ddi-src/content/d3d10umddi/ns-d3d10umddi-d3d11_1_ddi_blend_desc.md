@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f633261-82b2-4346-b1c2-cd36228af5f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1_DDI_BLEND_DESC, D3D11_1_DDI_BLEND_DESC structure [Display Devices], D3D11_1_DDI_BLEND_DESC, display.d3d11_1_ddi_blend_desc
+ms.keywords: d3d10umddi/D3D11_1_DDI_BLEND_DESC, D3D11_1_DDI_BLEND_DESC, display.d3d11_1_ddi_blend_desc, D3D11_1_DDI_BLEND_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_1_DDI_BLEND_DESC
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ typedef struct D3D11_1_DDI_BLEND_DESC {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_render_target_blend_desc.md">D3D11_1_DDI_RENDER_TARGET_BLEND_DESC</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_render_target_blend_desc.md">D3D11_1_DDI_RENDER_TARGET_BLEND_DESC</a>
 
  
 

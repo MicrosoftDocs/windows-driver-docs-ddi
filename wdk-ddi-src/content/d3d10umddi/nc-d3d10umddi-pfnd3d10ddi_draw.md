@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	Draw
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_DRAW callback
@@ -83,9 +83,9 @@ VOID APIENTRY Draw(
 
 
 
-#### - StartVertexLocation [in]
+#### - hDevice [in]
 
- The first vertex in the vertex buffer that vertices are read from to draw the primitives.
+ A handle to the display device (graphics context).
 
 
 #### - VertexCount [in]
@@ -93,9 +93,9 @@ VOID APIENTRY Draw(
  The number of vertices in the vertex buffer that vertices are read from to draw the primitives.
 
 
-#### - hDevice [in]
+#### - StartVertexLocation [in]
 
- A handle to the display device (graphics context).
+ The first vertex in the vertex buffer that vertices are read from to draw the primitives.
 
 
 ## -returns
@@ -116,9 +116,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

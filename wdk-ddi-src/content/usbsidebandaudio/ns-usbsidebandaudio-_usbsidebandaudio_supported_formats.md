@@ -1,6 +1,6 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_SUPPORTED_FORMATS
-title: _USBSIDEBANDAUDIO_SUPPORTED_FORMATS
+title: "_USBSIDEBANDAUDIO_SUPPORTED_FORMATS"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_supported_formats.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 69D1C328-309B-41FC-8216-971A3C6D38AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS structure pointer [Audio Devices], PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, usbsidebandaudio/PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, audio.usbsidebandaudio_supported_formats, _USBSIDEBANDAUDIO_SUPPORTED_FORMATS, *PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, USBSIDEBANDAUDIO_SUPPORTED_FORMATS, USBSIDEBANDAUDIO_SUPPORTED_FORMATS structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_SUPPORTED_FORMATS
+ms.keywords: PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, audio.usbsidebandaudio_supported_formats, usbsidebandaudio/USBSIDEBANDAUDIO_SUPPORTED_FORMATS, _USBSIDEBANDAUDIO_SUPPORTED_FORMATS, USBSIDEBANDAUDIO_SUPPORTED_FORMATS, USBSIDEBANDAUDIO_SUPPORTED_FORMATS structure [Audio Devices], usbsidebandaudio/PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS structure pointer [Audio Devices], *PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_SUPPORTED_FORMATS
 product: Windows
 targetos: Windows
-req.typenames: *PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS, USBSIDEBANDAUDIO_SUPPORTED_FORMATS
-req.product: Windows 10 or later.
+req.typenames: USBSIDEBANDAUDIO_SUPPORTED_FORMATS, *PUSBSIDEBANDAUDIO_SUPPORTED_FORMATS
 ---
 
 # _USBSIDEBANDAUDIO_SUPPORTED_FORMATS structure
@@ -87,12 +86,12 @@ typedef struct _USBSIDEBANDAUDIO_SUPPORTED_FORMATS {
 
 
 
-#### - Reserved 1
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 

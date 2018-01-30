@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e15b418e-bf4a-49c0-bdb3-24973513e654
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsymboltypename, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolTypeName, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName
+ms.keywords: IDebugSymbolGroup2::GetSymbolTypeName, IDebugSymbolGroup2, debugger.getsymboltypename, ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup2.GetSymbolTypeName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbolGroup2::GetSymbolTypeName method

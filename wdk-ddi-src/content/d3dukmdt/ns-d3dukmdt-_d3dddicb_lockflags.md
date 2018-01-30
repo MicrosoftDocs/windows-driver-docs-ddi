@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_LOCKFLAGS
-title: _D3DDDICB_LOCKFLAGS
+title: "_D3DDDICB_LOCKFLAGS"
 author: windows-driver-content
 description: The D3DDDICB_LOCKFLAGS structure identifies how to lock an allocation.
 old-location: display\d3dddicb_lockflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags, D3DDDICB_LOCKFLAGS structure [Display Devices], _D3DDDICB_LOCKFLAGS, D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, d3dukmdt/D3DDDICB_LOCKFLAGS
+ms.keywords: D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, D3DDDICB_LOCKFLAGS, d3dukmdt/D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS structure [Display Devices], display.d3dddicb_lockflags, _D3DDDICB_LOCKFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDICB_LOCKFLAGS
 product: Windows
 targetos: Windows
@@ -247,13 +247,13 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
 
  
 

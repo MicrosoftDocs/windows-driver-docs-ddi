@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b67edb7a-2e74-4b7b-bbfb-5886e89a10a5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], GetEventCallbacks method, IDebugClient3 interface [Windows Debugging], GetEventCallbacks method, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, IDebugClient::GetEventCallbacks, IDebugClient5, GetEventCallbacks method [Windows Debugging], IDebugClient4 interface, GetEventCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient4::GetEventCallbacks, GetEventCallbacks method [Windows Debugging], dbgeng/IDebugClient4::GetEventCallbacks, dbgeng/IDebugClient5::GetEventCallbacks, IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient::GetEventCallbacks, GetEventCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], GetEventCallbacks method, debugger.geteventcallbacks, GetEventCallbacks, IDebugClient interface [Windows Debugging], GetEventCallbacks method, GetEventCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], GetEventCallbacks method, IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient2::GetEventCallbacks, GetEventCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient5::GetEventCallbacks
+ms.keywords: GetEventCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], GetEventCallbacks method, IDebugClient3 interface [Windows Debugging], GetEventCallbacks method, GetEventCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient5, dbgeng/IDebugClient2::GetEventCallbacks, IDebugClient3::GetEventCallbacks, IDebugClient5 interface [Windows Debugging], GetEventCallbacks method, GetEventCallbacks method [Windows Debugging], IDebugClient4::GetEventCallbacks, IDebugClient::GetEventCallbacks, IDebugClient5::GetEventCallbacks, GetEventCallbacks method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient5::GetEventCallbacks, GetEventCallbacks, IDebugClient interface [Windows Debugging], GetEventCallbacks method, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, dbgeng/IDebugClient::GetEventCallbacks, debugger.geteventcallbacks, dbgeng/IDebugClient4::GetEventCallbacks, GetEventCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, GetEventCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient2 interface [Windows Debugging], GetEventCallbacks method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.GetEventCallbacks
 -	IDebugClient2.GetEventCallbacks
 -	IDebugClient3.GetEventCallbacks
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.GetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::GetEventCallbacks method
@@ -115,19 +115,19 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

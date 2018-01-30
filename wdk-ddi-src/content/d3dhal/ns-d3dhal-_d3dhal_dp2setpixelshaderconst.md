@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETPIXELSHADERCONST
-title: _D3DHAL_DP2SETPIXELSHADERCONST
+title: "_D3DHAL_DP2SETPIXELSHADERCONST"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2SETPIXELSHADERCONST structure is used to set one or more of the pixel shader constant registers when the D3DDP2OP_SETPIXELSHADERCONST opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setpixelshaderconst.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8431fee3-d8c9-4c31-aa74-f5ce55f7fdcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETPIXELSHADERCONSTB, d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTI, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices], *LPD3DHAL_DP2SETPIXELSHADERCONST, _D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONSTI, display.d3dhal_dp2setpixelshaderconst, d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml
+ms.keywords: D3DHAL_DP2SETPIXELSHADERCONSTB, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONSTI, d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONST, d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml, D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTI, _D3DHAL_DP2SETPIXELSHADERCONST, display.d3dhal_dp2setpixelshaderconst, D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SETPIXELSHADERCONST
 product: Windows
 targetos: Windows
@@ -93,9 +93,9 @@ The runtime validates that the specified register range lies within the legal ra
 
 ## -see-also
 
-D3DDP2OP_SETPIXELSHADERCONST
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+D3DDP2OP_SETPIXELSHADERCONST
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
 

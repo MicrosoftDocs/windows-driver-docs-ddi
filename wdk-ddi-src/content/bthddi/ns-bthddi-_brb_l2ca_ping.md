@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_PING
-title: _BRB_L2CA_PING
+title: "_BRB_L2CA_PING"
 author: windows-driver-content
 description: The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 old-location: bltooth\_brb_l2ca_ping.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_L2CA_PING, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bltooth._brb_l2ca_ping, _BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices]
+ms.keywords: bltooth._brb_l2ca_ping, _BRB_L2CA_PING, bthddi/_BRB_L2CA_PING, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, _BRB_L2CA_PING structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_L2CA_PING
 product: Windows
 targetos: Windows
@@ -118,9 +118,9 @@ BRB_L2CA_PING is primarily used for debugging.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536617">BRB_L2CA_PING</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

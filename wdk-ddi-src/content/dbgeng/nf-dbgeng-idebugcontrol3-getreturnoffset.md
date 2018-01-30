@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 65d72369-7ace-4d3d-a15c-6322c0066470
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetReturnOffset method [Windows Debugging], dbgeng/IDebugControl2::GetReturnOffset, IDebugControl3::GetReturnOffset, IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, GetReturnOffset method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetReturnOffset method, IDebugControl2::GetReturnOffset, IDebugControl interface [Windows Debugging], GetReturnOffset method, GetReturnOffset method [Windows Debugging], IDebugControl interface, GetReturnOffset method [Windows Debugging], IDebugControl2 interface, debugger.getreturnoffset, IDebugControl::GetReturnOffset, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset, dbgeng/IDebugControl::GetReturnOffset, IDebugControl3, dbgeng/IDebugControl3::GetReturnOffset
+ms.keywords: GetReturnOffset method [Windows Debugging], IDebugControl3 interface, debugger.getreturnoffset, GetReturnOffset method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetReturnOffset method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset, dbgeng/IDebugControl2::GetReturnOffset, dbgeng/IDebugControl3::GetReturnOffset, IDebugControl2::GetReturnOffset, IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, IDebugControl interface [Windows Debugging], GetReturnOffset method, dbgeng/IDebugControl::GetReturnOffset, IDebugControl3::GetReturnOffset, IDebugControl::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetReturnOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetReturnOffset
 -	IDebugControl2.GetReturnOffset
 -	IDebugControl3.GetReturnOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetReturnOffset method

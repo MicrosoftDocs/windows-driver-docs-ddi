@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPSetSignalingCmdData
-title: _DXVA_COPPSetSignalingCmdData
+title: "_DXVA_COPPSetSignalingCmdData"
 author: windows-driver-content
 description: The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 old-location: display\dxva_coppsetsignalingcmddata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, dxva/DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml, DXVA_COPPSetSignalingCmdData
+ms.keywords: DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_COPPSetSignalingCmdData
 product: Windows
 targetos: Windows
@@ -230,9 +230,9 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
 
  
 

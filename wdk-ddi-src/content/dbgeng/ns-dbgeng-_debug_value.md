@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_VALUE
-title: _DEBUG_VALUE
+title: "_DEBUG_VALUE"
 author: windows-driver-content
 description: The DEBUG_VALUE structure holds register and expression values.
 old-location: debugger\debug_value.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/PDEBUG_VALUE, PDEBUG_VALUE, *PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], DEBUG_VALUE, debugger.debug_value, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, dbgeng/DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], _DEBUG_VALUE
+ms.keywords: "_DEBUG_VALUE, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, dbgeng/DEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], dbgeng/PDEBUG_VALUE, debugger.debug_value, PDEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], *PDEBUG_VALUE, DEBUG_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgEng.h
-apiname: 
+apiname:
 -	DEBUG_VALUE
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_VALUE, DEBUG_VALUE
+req.typenames: DEBUG_VALUE, *PDEBUG_VALUE
 ---
 
 # _DEBUG_VALUE structure
@@ -222,127 +222,127 @@ See Remarks.
 See Remarks.
 
 
-##### - ( unnamed union ).VI32
-
-See Remarks.
-
-
-##### - ( unnamed union ).I16
-
-See Remarks.
-
-
-##### - ( unnamed union ).I64Parts32
-
-See Remarks.
-
-
-###### - ( unnamed union ).( unnamed struct ).Nat
-
-See Remarks.
-
-
-###### - ( unnamed union ).I64Parts32.HighPart
-
-See Remarks.
-
-
-##### - ( unnamed union ).VI8
-
-See Remarks.
-
-
-##### - ( unnamed union ).F128Bytes
-
-See Remarks.
-
-
-###### - ( unnamed union ).( unnamed struct ).I64
-
-See Remarks.
-
-
-##### - ( unnamed union ).F32
-
-See Remarks.
-
-
-##### - ( unnamed union ).F64
-
-See Remarks.
-
-
-##### - ( unnamed union ).I32
-
-See Remarks.
-
-
-##### - ( unnamed union ).F82Bytes
-
-See Remarks.
-
-
 #### - ( unnamed union )
 
  
 
 
-##### - ( unnamed union ).( unnamed struct )
+#### I8
+
+See Remarks.
+
+
+#### I16
+
+See Remarks.
+
+
+#### I32
+
+See Remarks.
+
+
+#### ( unnamed struct )
 
  
 
 
-##### - ( unnamed union ).VI64
+#### I64
 
 See Remarks.
 
 
-##### - ( unnamed union ).VI16
+#### Nat
 
 See Remarks.
 
 
-##### - ( unnamed union ).VF64
+#### F32
 
 See Remarks.
 
 
-###### - ( unnamed union ).F128Parts64.HighPart
+#### F64
 
 See Remarks.
 
 
-###### - ( unnamed union ).I64Parts32.LowPart
+#### F80Bytes
 
 See Remarks.
 
 
-##### - ( unnamed union ).VF32
+#### F82Bytes
 
 See Remarks.
 
 
-##### - ( unnamed union ).F128Parts64
+#### F128Bytes
 
 See Remarks.
 
 
-##### - ( unnamed union ).RawBytes
+#### VI8
 
 See Remarks.
 
 
-##### - ( unnamed union ).F80Bytes
+#### VI16
 
 See Remarks.
 
 
-##### - ( unnamed union ).I8
+#### VI32
 
 See Remarks.
 
 
-###### - ( unnamed union ).F128Parts64.LowPart
+#### VI64
+
+See Remarks.
+
+
+#### VF32
+
+See Remarks.
+
+
+#### VF64
+
+See Remarks.
+
+
+#### I64Parts32
+
+See Remarks.
+
+
+#### LowPart
+
+See Remarks.
+
+
+#### HighPart
+
+See Remarks.
+
+
+#### F128Parts64
+
+See Remarks.
+
+
+#### LowPart
+
+See Remarks.
+
+
+#### HighPart
+
+See Remarks.
+
+
+#### RawBytes
 
 See Remarks.
 

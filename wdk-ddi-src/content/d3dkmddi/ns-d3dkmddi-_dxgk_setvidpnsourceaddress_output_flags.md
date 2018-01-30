@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
-title: _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
+title: "_DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS"
 author: windows-driver-content
 description: A structure containing the flags used to set the VidPN source address.
 old-location: display\dxgk_setvidpnsourceaddress_output_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], display.dxgk_setvidpnsourceaddress_output_flags, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
+ms.keywords: d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 product: Windows
 targetos: Windows

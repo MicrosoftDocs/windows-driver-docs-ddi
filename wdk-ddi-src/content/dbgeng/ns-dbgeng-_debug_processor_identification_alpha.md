@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
-title: _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+title: "_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA"
 author: windows-driver-content
 description: Identifies an Alpha processor.
 old-location: debugger\debug_processor_identification_alpha.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ms.keywords: PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 ---
 
 # _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure

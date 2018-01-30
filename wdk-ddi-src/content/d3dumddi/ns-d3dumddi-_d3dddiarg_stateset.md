@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_STATESET
-title: _D3DDDIARG_STATESET
+title: "_D3DDDIARG_STATESET"
 author: windows-driver-content
 description: The D3DDDIARG_STATESET structure describes how to set a state block.
 old-location: display\d3dddiarg_stateset.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e2d7e78-bdf1-4582-a95c-1cbdd498c200
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_STATESET, display.d3dddiarg_stateset, UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], d3dumddi/D3DDDIARG_STATESET
+ms.keywords: UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, display.d3dddiarg_stateset, D3DDDIARG_STATESET, d3dumddi/D3DDDIARG_STATESET, _D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_STATESET
 product: Windows
 targetos: Windows

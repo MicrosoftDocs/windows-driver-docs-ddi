@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._EMULATOR_ACCESS_ENTRY
-title: _EMULATOR_ACCESS_ENTRY
+title: "_EMULATOR_ACCESS_ENTRY"
 author: windows-driver-content
 description: The EMULATOR_ACCESS_ENTRY structure specifies an element in the EmulatorAccessEntries array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 old-location: display\emulator_access_entry.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: EMULATOR_ACCESS_ENTRY structure [Display Devices], Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], miniport/PEMULATOR_ACCESS_ENTRY, display.emulator_access_entry, _EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, miniport/EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY
+ms.keywords: "_EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], display.emulator_access_entry, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, miniport/PEMULATOR_ACCESS_ENTRY, miniport/EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], PEMULATOR_ACCESS_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	miniport.h
-apiname: 
+apiname:
 -	EMULATOR_ACCESS_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: *PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY
+req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---
 
 # _EMULATOR_ACCESS_ENTRY structure
@@ -124,13 +124,13 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a98dee8a-1911-40e0-b1fd-c7a1ee40a8d7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsystemversionstringwide, dbgeng/IDebugControl4::GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, GetSystemVersionStringWide, IDebugControl4 interface [Windows Debugging], GetSystemVersionStringWide method, IDebugControl4::GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging]
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetSystemVersionStringWide method, GetSystemVersionStringWide, dbgeng/IDebugControl4::GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging], IDebugControl4, debugger.getsystemversionstringwide, IDebugControl4::GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetSystemVersionStringWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetSystemVersionStringWide method
@@ -162,9 +162,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
 
  
 

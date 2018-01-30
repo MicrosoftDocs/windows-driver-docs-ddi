@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SUBMITCOMMANDFLAGS
-title: _DXGK_SUBMITCOMMANDFLAGS
+title: "_DXGK_SUBMITCOMMANDFLAGS"
 author: windows-driver-content
 description: The DXGK_SUBMITCOMMANDFLAGS structure identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 old-location: display\dxgk_submitcommandflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, display.dxgk_submitcommandflags, _DXGK_SUBMITCOMMANDFLAGS
+ms.keywords: DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, _DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SUBMITCOMMANDFLAGS
 product: Windows
 targetos: Windows

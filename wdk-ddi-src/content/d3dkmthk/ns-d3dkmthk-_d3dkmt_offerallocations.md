@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OFFERALLOCATIONS
-title: _D3DKMT_OFFERALLOCATIONS
+title: "_D3DKMT_OFFERALLOCATIONS"
 author: windows-driver-content
 description: Defines the video memory allocations that the driver offers for reuse. Used with the D3DKMTOfferAllocations function.
 old-location: display\d3dkmt_offerallocations.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], d3dkmthk/D3DKMT_OFFERALLOCATIONS, _D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations
+ms.keywords: D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, _D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations, D3DKMT_OFFERALLOCATIONS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OFFERALLOCATIONS
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>
 
  
 

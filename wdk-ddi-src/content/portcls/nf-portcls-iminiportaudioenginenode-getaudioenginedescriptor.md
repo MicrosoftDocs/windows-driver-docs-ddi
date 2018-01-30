@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetAudioEngineDescriptor, IMiniportAudioEngineNode, GetAudioEngineDescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method
+ms.keywords: GetAudioEngineDescriptor, IMiniportAudioEngineNode interface [Audio Devices], GetAudioEngineDescriptor method, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getaudioenginedescriptor, GetAudioEngineDescriptor method [Audio Devices], IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportAudioEngineNode.GetAudioEngineDescriptor
 product: Windows
 targetos: Windows

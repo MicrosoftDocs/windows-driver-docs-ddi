@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ControlledOutput method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput, ControlledOutput method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ControlledOutput method, ControlledOutput method [Windows Debugging], IDebugControl2 interface, ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl2::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl interface, IDebugControl3
+ms.keywords: dbgeng/IDebugControl::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl3 interface, IDebugControl3::ControlledOutput, IDebugControl3, IDebugControl::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl interface [Windows Debugging], ControlledOutput method, ControlledOutput method [Windows Debugging], IDebugControl2 interface, ControlledOutput method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], ControlledOutput method, dbgeng/IDebugControl3::ControlledOutput, IDebugControl2::ControlledOutput, debugger.controlledoutput, IDebugControl3 interface [Windows Debugging], ControlledOutput method, ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.ControlledOutput
 -	IDebugControl2.ControlledOutput
 -	IDebugControl3.ControlledOutput
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::ControlledOutput method
@@ -465,19 +465,19 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
  
 

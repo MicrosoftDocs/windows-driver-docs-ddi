@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a512c846-6896-48ca-a234-b9a30a3bff06
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], Disassemble method, IDebugControl2 interface [Windows Debugging], Disassemble method, IDebugControl2::Disassemble, IDebugControl3 interface [Windows Debugging], Disassemble method, Disassemble method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::Disassemble, IDebugControl3, debugger.disassemble, Disassemble method [Windows Debugging], IDebugControl2 interface, Disassemble method [Windows Debugging], dbgeng/IDebugControl2::Disassemble, IDebugControl::Disassemble, IDebugControl3::Disassemble, Disassemble, Disassemble method [Windows Debugging], IDebugControl interface, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, dbgeng/IDebugControl3::Disassemble
+ms.keywords: IDebugControl2::Disassemble, dbgeng/IDebugControl::Disassemble, Disassemble method [Windows Debugging], Disassemble method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::Disassemble, IDebugControl3::Disassemble, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl3, Disassemble method [Windows Debugging], IDebugControl interface, debugger.disassemble, IDebugControl::Disassemble, IDebugControl2 interface [Windows Debugging], Disassemble method, IDebugControl interface [Windows Debugging], Disassemble method, Disassemble method [Windows Debugging], IDebugControl3 interface, Disassemble, dbgeng/IDebugControl3::Disassemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.Disassemble
 -	IDebugControl2.Disassemble
 -	IDebugControl3.Disassemble
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::Disassemble method
@@ -152,17 +152,17 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
-
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
  
 

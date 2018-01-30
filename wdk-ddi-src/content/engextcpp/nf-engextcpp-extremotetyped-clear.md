@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Clear, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped class [Windows Debugging], debugger.extremotetyped, ExtRemoteTyped, ExtRemoteTyped::Clear, ExtRemoteTyped class [Windows Debugging], described, engextcpp/ExtRemoteTyped
+ms.keywords: ExtRemoteTyped::Clear, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, Clear, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging], described, debugger.extremotetyped, engextcpp/ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::Clear method

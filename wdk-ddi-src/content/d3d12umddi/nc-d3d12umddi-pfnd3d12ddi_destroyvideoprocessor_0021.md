@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnDestroyVideoProcessor
 product: Windows
 targetos: Windows

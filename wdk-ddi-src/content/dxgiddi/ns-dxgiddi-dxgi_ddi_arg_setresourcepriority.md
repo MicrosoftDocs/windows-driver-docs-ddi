@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9d3f5687-bc49-4831-bf56-5d4201ed45de
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_SETRESOURCEPRIORITY structure [Display Devices], dxgiddi/DXGI_DDI_ARG_SETRESOURCEPRIORITY, DXGI_DDI_ARG_SETRESOURCEPRIORITY, UMDisplayDriver_Dx10param_Structs_fda8895f-9cc7-496b-ae2e-bf6b076fc0b3.xml, display.dxgi_ddi_arg_setresourcepriority
+ms.keywords: dxgiddi/DXGI_DDI_ARG_SETRESOURCEPRIORITY, display.dxgi_ddi_arg_setresourcepriority, UMDisplayDriver_Dx10param_Structs_fda8895f-9cc7-496b-ae2e-bf6b076fc0b3.xml, DXGI_DDI_ARG_SETRESOURCEPRIORITY structure [Display Devices], DXGI_DDI_ARG_SETRESOURCEPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_ARG_SETRESOURCEPRIORITY
 product: Windows
 targetos: Windows

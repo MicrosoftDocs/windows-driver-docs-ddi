@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RENDERGDI
-title: _DXGKARG_RENDERGDI
+title: "_DXGKARG_RENDERGDI"
 author: windows-driver-content
 description: The DXGKARG_RENDERGDI structure is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 old-location: display\dxgkarg_rendergdi.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_rendergdi, *INOUT_PDXGKARG_RENDERGDI, _DXGKARG_RENDERGDI, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], d3dkmddi/DXGKARG_RENDERGDI
+ms.keywords: "_DXGKARG_RENDERGDI, display.dxgkarg_rendergdi, *INOUT_PDXGKARG_RENDERGDI, DXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_RENDERGDI
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_ARM64
-title: _DEBUG_PROCESSOR_IDENTIFICATION_ARM64
+title: "_DEBUG_PROCESSOR_IDENTIFICATION_ARM64"
 author: windows-driver-content
 description: Identifies an ARM64 processor.
 old-location: debugger\debug_processor_identification_arm64.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4F47EC75-4D68-4202-9B29-8F6FB36528A5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ARM64, debugger.debug_processor_identification_arm64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure [Windows Debugging], *PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM64
+ms.keywords: DEBUG_PROCESSOR_IDENTIFICATION_ARM64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure pointer [Windows Debugging], debugger.debug_processor_identification_arm64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure [Windows Debugging], dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, _DEBUG_PROCESSOR_IDENTIFICATION_ARM64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM64, *PDEBUG_PROCESSOR_IDENTIFICATION_ARM64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_PROCESSOR_IDENTIFICATION_ARM64
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64
+req.typenames: "*PDEBUG_PROCESSOR_IDENTIFICATION_ARM64, DEBUG_PROCESSOR_IDENTIFICATION_ARM64"
 ---
 
 # _DEBUG_PROCESSOR_IDENTIFICATION_ARM64 structure

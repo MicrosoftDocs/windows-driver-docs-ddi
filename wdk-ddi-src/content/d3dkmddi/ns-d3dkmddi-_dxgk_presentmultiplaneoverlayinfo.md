@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTMULTIPLANEOVERLAYINFO
-title: _DXGK_PRESENTMULTIPLANEOVERLAYINFO
+title: "_DXGK_PRESENTMULTIPLANEOVERLAYINFO"
 author: windows-driver-content
 description: Specifies info on a VidPN input and an overlay plane to display.
 old-location: display\dxgk_presentmultiplaneoverlayinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], display.dxgk_presentmultiplaneoverlayinfo, _DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO
+ms.keywords: d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PRESENTMULTIPLANEOVERLAYINFO
 product: Windows
 targetos: Windows

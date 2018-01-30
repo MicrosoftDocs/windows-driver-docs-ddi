@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
-title: _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
+title: "_D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: A structure used to present the history token for a surface.
 old-location: display\d3dkmt_surfacecomplete_presenthistorytoken.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AF58684E-3516-48F9-B771-63701C00645F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_surfacecomplete_presenthistorytoken, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
+ms.keywords: "_D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, display.d3dkmt_surfacecomplete_presenthistorytoken, d3dkmthk/D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
 product: Windows
 targetos: Windows

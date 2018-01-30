@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCMETHOD_REQUEST
-title: _PCMETHOD_REQUEST
+title: "_PCMETHOD_REQUEST"
 author: windows-driver-content
 description: The PCMETHOD_REQUEST structure specifies a method request.
 old-location: audio\pcmethod_request.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], PCMETHOD_REQUEST, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, _PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST, portcls/PCMETHOD_REQUEST, PPCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], audio.pcmethod_request
+ms.keywords: portcls/PCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], PCMETHOD_REQUEST structure [Audio Devices], PPCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PCMETHOD_REQUEST, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, _PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST, audio.pcmethod_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PCMETHOD_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PCMETHOD_REQUEST, *PPCMETHOD_REQUEST
+req.typenames: "*PPCMETHOD_REQUEST, PCMETHOD_REQUEST"
 ---
 
 # _PCMETHOD_REQUEST structure

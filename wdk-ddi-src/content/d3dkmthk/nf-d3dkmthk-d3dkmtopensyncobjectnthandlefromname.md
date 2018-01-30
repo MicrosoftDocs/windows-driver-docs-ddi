@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtopensyncobjectnthandlefromname, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], D3DKMTOpenSyncObjectNtHandleFromName, d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName
+ms.keywords: d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], D3DKMTOpenSyncObjectNtHandleFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTOpenSyncObjectNtHandleFromName
 product: Windows
 targetos: Windows

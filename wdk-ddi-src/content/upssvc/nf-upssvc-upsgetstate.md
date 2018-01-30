@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: upssvc/UPSGetState, UPSGetState function [Battery Devices], UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, UPSGetState, battery.upsgetstate
+ms.keywords: UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, upssvc/UPSGetState, UPSGetState function [Battery Devices], battery.upsgetstate, UPSGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Upssvc.h
-apiname: 
+apiname:
 -	UPSGetState
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
 ---
 
 # UPSGetState function

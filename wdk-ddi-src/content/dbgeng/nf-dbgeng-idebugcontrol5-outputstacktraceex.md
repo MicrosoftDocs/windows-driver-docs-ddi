@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputStackTraceEx method [Windows Debugging], IDebugControl5::OutputStackTraceEx, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, IDebugControl5
+ms.keywords: dbgeng/IDebugControl5::OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], debugger.idebugcontrol5_outputstacktraceex, IDebugControl5::OutputStackTraceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl5.OutputStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl5::OutputStackTraceEx method
@@ -243,9 +243,9 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
-
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 
  
 

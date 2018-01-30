@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 041f585a-bc1f-4413-9d68-ae18969e4d75
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_release, ExtRemoteTyped::Release, EngExtCpp_Ref_529ae2ad-c867-4b76-a53d-b0e7118f1fcd.xml, ExtRemoteTyped, Release method [Windows Debugging], ExtRemoteTyped interface, Release, ExtRemoteTyped interface [Windows Debugging], Release method, Release method [Windows Debugging]
+ms.keywords: Release, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], Release method, EngExtCpp_Ref_529ae2ad-c867-4b76-a53d-b0e7118f1fcd.xml, debugger.extremotetyped_release, ExtRemoteTyped::Release, Release method [Windows Debugging], ExtRemoteTyped interface, Release method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.Release
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::Release method

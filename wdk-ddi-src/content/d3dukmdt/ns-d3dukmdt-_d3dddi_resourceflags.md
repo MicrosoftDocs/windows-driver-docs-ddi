@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RESOURCEFLAGS
-title: _D3DDDI_RESOURCEFLAGS
+title: "_D3DDDI_RESOURCEFLAGS"
 author: windows-driver-content
 description: The D3DDDI_RESOURCEFLAGS structure identifies the type of resources to create in a call to the driver's CreateResource function.
 old-location: display\d3dddi_resourceflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a466a158-dacf-42cc-b2ad-8af5b2c6c7d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS, D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, _D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices], display.d3dddi_resourceflags
+ms.keywords: display.d3dddi_resourceflags, D3DDDI_RESOURCEFLAGS, d3dukmdt/D3DDDI_RESOURCEFLAGS, D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, _D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_RESOURCEFLAGS
 product: Windows
 targetos: Windows

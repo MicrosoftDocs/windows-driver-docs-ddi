@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a46d7ba9-24fc-4e06-9655-3fc6531d6891
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], CallExtensionWide method, IDebugControl4, IDebugControl4::CallExtensionWide, CallExtensionWide method [Windows Debugging], debugger.callextensionwide, dbgeng/IDebugControl4::CallExtensionWide, CallExtensionWide, CallExtensionWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: debugger.callextensionwide, CallExtensionWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::CallExtensionWide, CallExtensionWide, CallExtensionWide method [Windows Debugging], IDebugControl4::CallExtensionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], CallExtensionWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.CallExtensionWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::CallExtensionWide method
@@ -124,9 +124,9 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
  
 

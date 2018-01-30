@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportWaveRT::NewStream, NewStream method [Audio Devices], audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, IMiniportWaveRT::NewStream, audio.iminiportwavert_newstream, IMiniportWaveRT, NewStream, NewStream method [Audio Devices], IMiniportWaveRT interface, IMiniportWaveRT interface [Audio Devices], NewStream method
+ms.keywords: portcls/IMiniportWaveRT::NewStream, IMiniportWaveRT interface [Audio Devices], NewStream method, IMiniportWaveRT, NewStream method [Audio Devices], IMiniportWaveRT interface, audio.iminiportwavert_newstream, NewStream, NewStream method [Audio Devices], audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, IMiniportWaveRT::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWaveRT.NewStream
 product: Windows
 targetos: Windows
@@ -93,7 +93,7 @@ Specifies a Boolean value that indicates whether to create a capture stream or a
 
 ### -param DataFormat [in]
 
-Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -128,15 +128,15 @@ The <i>DataFormat</i> parameter, which specifies the data format of the stream, 
 
 ## -see-also
 
-IMiniportWaveRTStream
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
 
-<a href="..\portcls\nn-portcls-iminiportwavertstream.md">IPortWaveRTStream</a>
+IMiniportWaveRTStream
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
+<a href="..\portcls\nn-portcls-iminiportwavertstream.md">IPortWaveRTStream</a>
 
  
 

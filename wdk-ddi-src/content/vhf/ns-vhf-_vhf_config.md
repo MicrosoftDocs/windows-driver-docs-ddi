@@ -1,6 +1,6 @@
 ---
 UID: NS:vhf._VHF_CONFIG
-title: _VHF_CONFIG
+title: "_VHF_CONFIG"
 author: windows-driver-content
 description: Contains initial configuration information that is provided by the HID source driver when it calls VhfCreate to create a virtual HID device.
 old-location: hid\vhf_config.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: vhf/VHF_CONFIG, hid.vhf_config, _VHF_CONFIG, *PVHF_CONFIG, VHF_CONFIG structure [Human Input Devices], PVHF_CONFIG structure pointer [Human Input Devices], vhf/PVHF_CONFIG, VHF_CONFIG, PVHF_CONFIG
+ms.keywords: VHF_CONFIG, hid.vhf_config, VHF_CONFIG structure [Human Input Devices], PVHF_CONFIG, vhf/VHF_CONFIG, *PVHF_CONFIG, vhf/PVHF_CONFIG, _VHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	vhf.h
-apiname: 
+apiname:
 -	VHF_CONFIG
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _VHF_CONFIG structure
@@ -100,7 +99,7 @@ Optional. Size of the buffer that VHF must allocate for an asynchronous operatio
 
 ### -field DeviceObject
 
-Required. A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. 
+Required. A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546942">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> call. 
 
 
 ### -field Reserved

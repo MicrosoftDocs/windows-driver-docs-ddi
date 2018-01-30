@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILD
-title: _ACPI_ENUM_CHILD
+title: "_ACPI_ENUM_CHILD"
 author: windows-driver-content
 description: The ACPI_ENUM_CHILD structure is a member of the ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure and contains the full path and name of an object in an ACPI namespace.
 old-location: acpi\acpi_enum_child.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: baa0292a-b327-4fc0-9235-b1b977f93bf9
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, _ACPI_ENUM_CHILD, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], *PACPI_ENUM_CHILD
+ms.keywords: "*PACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], acpi.acpi_enum_child, ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, _ACPI_ENUM_CHILD, acpiioct/ACPI_ENUM_CHILD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	ACPI_ENUM_CHILD
 product: Windows
 targetos: Windows
@@ -97,9 +97,9 @@ For information about how to enumerate child objects of a device, see <a href="h
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
  
 

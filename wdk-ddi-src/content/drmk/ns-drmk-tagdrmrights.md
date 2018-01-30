@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PDRMRIGHTS, tagDRMRIGHTS, drmk/PDRMRIGHTS, PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], drmk/DRMRIGHTS, audio.drmrights, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml
+ms.keywords: DRMRIGHTS, DRMRIGHTS structure [Audio Devices], drmk/PDRMRIGHTS, PDRMRIGHTS, tagDRMRIGHTS, aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, *PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	drmk.h
-apiname: 
+apiname:
 -	DRMRIGHTS
 product: Windows
 targetos: Windows
@@ -80,21 +80,7 @@ Specifies one of the following copy-protection values:
 For more information about <b>CopyProtect</b>, see the Remarks section.
 
 
-### -field Reserved
-
-Reserved for future use. Initialize to zero.
-
-
-### -field DigitalOutputDisable
-
-Specifies one of the following digital output protection values:
-
-
-
-For more information about <b>DigitalOutputDisable</b>, see the Remarks section.
-
-
-##### - CopyProtect.TRUE
+#### TRUE
 
 Enables copy protection. An audio application must not do the following:
 		   
@@ -110,19 +96,33 @@ Pass the content by reference or by value to any other component within the host
 </li>
 </ul>
 
-##### - CopyProtect.FALSE
+#### FALSE
 
 Disables copy protection. Content can be copied without restrictions.
 
 
-##### - DigitalOutputDisable.FALSE
+### -field Reserved
 
-Enables digital outputs. Content can be transferred from the host system to an external component without restrictions.
+Reserved for future use. Initialize to zero.
 
 
-##### - DigitalOutputDisable.TRUE
+### -field DigitalOutputDisable
+
+Specifies one of the following digital output protection values:
+
+
+
+For more information about <b>DigitalOutputDisable</b>, see the Remarks section.
+
+
+#### TRUE
 
 Disable digital outputs. A software component must not transfer the content out of the host system through any type of digital interface. Note that digital output protection does not affect USB devices because the host system includes USB devices.
+
+
+#### FALSE
+
+Enables digital outputs. Content can be transferred from the host system to an external component without restrictions.
 
 
 ## -remarks
@@ -252,15 +252,15 @@ This macro does not return a value.
 
 ## -see-also
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
 
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtcreateallocation, PFND3DKMT_CREATEALLOCATION, OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, d3dkmthk/D3DKMTCreateAllocation, D3DKMTCreateAllocation, D3DKMTCreateAllocation function [Display Devices]
+ms.keywords: D3DKMTCreateAllocation function [Display Devices], d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation, D3DKMTCreateAllocation, OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCreateAllocation
 product: Windows
 targetos: Windows

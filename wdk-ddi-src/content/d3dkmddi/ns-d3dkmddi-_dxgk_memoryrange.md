@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MEMORYRANGE
-title: _DXGK_MEMORYRANGE
+title: "_DXGK_MEMORYRANGE"
 author: windows-driver-content
 description: DXGK_MEMORYRANGE is used with DxgkDdiQueryAdapterInfo and DXGK_QUERYSEGMENTMEMORYSTATE to query bad graphics processing unit (GPU) memory ranges.
 old-location: display\dxgk_memoryrange.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68B9465D-BA5E-4DE3-8A55-B344399FBB5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MEMORYRANGE, DXGK_MEMORYRANGE, d3dkmddi/DXGK_MEMORYRANGE, display.dxgk_memoryrange, DXGK_MEMORYRANGE structure [Display Devices]
+ms.keywords: "_DXGK_MEMORYRANGE, display.dxgk_memoryrange, DXGK_MEMORYRANGE structure [Display Devices], d3dkmddi/DXGK_MEMORYRANGE, DXGK_MEMORYRANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MEMORYRANGE
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ The number of byte in the range. The value must be multiple of the segment page 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentmemorystate.md">DXGK_QUERYSEGMENTMEMORYSTATE</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentmemorystate.md">DXGK_QUERYSEGMENTMEMORYSTATE</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
  
 

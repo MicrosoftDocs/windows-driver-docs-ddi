@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorSetOutputConstriction
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback
@@ -94,18 +94,6 @@ VOID APIENTRY* pfnVideoProcessorSetOutputConstriction(
 
 
 
-#### - Enabled [in]
-
-If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
-
-
-
-
-#### - ConstrictonSize [in]
-
-The sampling size.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -118,6 +106,18 @@ A handle to the display device (graphics context).
 A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
+
+
+#### - Enabled [in]
+
+If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
+
+
+
+
+#### - ConstrictonSize [in]
+
+The sampling size.
 
 
 ## -returns

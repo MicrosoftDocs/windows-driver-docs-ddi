@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORVERTICALBLANKEVENT
-title: _D3DKMT_WAITFORVERTICALBLANKEVENT
+title: "_D3DKMT_WAITFORVERTICALBLANKEVENT"
 author: windows-driver-content
 description: The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 old-location: display\d3dkmt_waitforverticalblankevent.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], D3DKMT_WAITFORVERTICALBLANKEVENT, OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, display.d3dkmt_waitforverticalblankevent, _D3DKMT_WAITFORVERTICALBLANKEVENT
+ms.keywords: display.d3dkmt_waitforverticalblankevent, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], _D3DKMT_WAITFORVERTICALBLANKEVENT, OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, D3DKMT_WAITFORVERTICALBLANKEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_WAITFORVERTICALBLANKEVENT
 product: Windows
 targetos: Windows

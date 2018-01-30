@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SYMBOL_PARAMETERS
-title: _DEBUG_SYMBOL_PARAMETERS
+title: "_DEBUG_SYMBOL_PARAMETERS"
 author: windows-driver-content
 description: The DEBUG_SYMBOL_PARAMETERS structure describes a symbol in a symbol group.
 old-location: debugger\debug_symbol_parameters.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c73ea2b0-e87a-4fb1-9164-ff14d43f1426
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_symbol_parameters, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], dbgeng/PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], dbgeng/DEBUG_SYMBOL_PARAMETERS, Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, *PDEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS, _DEBUG_SYMBOL_PARAMETERS
+ms.keywords: "*PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, _DEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS, dbgeng/DEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS, debugger.debug_symbol_parameters, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], dbgeng/PDEBUG_SYMBOL_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_SYMBOL_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS
+req.typenames: "*PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS"
 ---
 
 # _DEBUG_SYMBOL_PARAMETERS structure

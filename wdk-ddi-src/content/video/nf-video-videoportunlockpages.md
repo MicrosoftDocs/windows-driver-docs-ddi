@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, VideoPortUnlockPages function [Display Devices], display.videoportunlockpages, VideoPortUnlockPages, video/VideoPortUnlockPages
+ms.keywords: display.videoportunlockpages, VideoPortUnlockPages, VideoPortUnlockPages function [Display Devices], video/VideoPortUnlockPages, VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortUnlockPages
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortUnlockPages function

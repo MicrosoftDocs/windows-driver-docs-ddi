@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ed77fddf-c23c-4522-a2c4-875f07d249fb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, debugger.writesymbolwide, WriteSymbolWide, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, IDebugSymbolGroup2, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide method [Windows Debugging]
+ms.keywords: IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, debugger.writesymbolwide, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbolWide method, WriteSymbolWide, WriteSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup2.WriteSymbolWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbolGroup2::WriteSymbolWide method
@@ -116,9 +116,9 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
  
 

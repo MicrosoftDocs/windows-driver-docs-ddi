@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CLIPPEDTRIANGLEFAN
-title: _D3DHAL_CLIPPEDTRIANGLEFAN
+title: "_D3DHAL_CLIPPEDTRIANGLEFAN"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_clippedtrianglefan.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c169c483-ffad-470c-9adb-397e275341e3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_CLIPPEDTRIANGLEFAN, LPD3DHAL_CLIPPEDTRIANGLEFAN, d3dstrct_443edf3e-a245-41c3-ba98-2ee9634363b9.xml, *LPD3DHAL_CLIPPEDTRIANGLEFAN, LPD3DHAL_CLIPPEDTRIANGLEFAN structure pointer [Display Devices], D3DHAL_CLIPPEDTRIANGLEFAN, display.d3dhal_clippedtrianglefan, D3DHAL_CLIPPEDTRIANGLEFAN structure [Display Devices], d3dhal/LPD3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/D3DHAL_CLIPPEDTRIANGLEFAN
+ms.keywords: display.d3dhal_clippedtrianglefan, D3DHAL_CLIPPEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_CLIPPEDTRIANGLEFAN structure pointer [Display Devices], *LPD3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/LPD3DHAL_CLIPPEDTRIANGLEFAN, d3dstrct_443edf3e-a245-41c3-ba98-2ee9634363b9.xml, _D3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/D3DHAL_CLIPPEDTRIANGLEFAN, LPD3DHAL_CLIPPEDTRIANGLEFAN, D3DHAL_CLIPPEDTRIANGLEFAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_CLIPPEDTRIANGLEFAN
 product: Windows
 targetos: Windows

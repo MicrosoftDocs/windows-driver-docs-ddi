@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 197ba249-f7a4-4c98-914c-ecb8984ffd5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, display.d3d11_ddi_createdepthstencilview_flag, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG
+ms.keywords: display.d3d11_ddi_createdepthstencilview_flag, d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG
 product: Windows
 targetos: Windows

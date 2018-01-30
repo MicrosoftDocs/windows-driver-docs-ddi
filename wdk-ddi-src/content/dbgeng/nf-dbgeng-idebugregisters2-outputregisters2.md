@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 444f7264-6072-4ee2-b3fd-030affa502b7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters_ecc2b40a-622b-4f1f-867b-2eb6b575559d.xml, OutputRegisters2 method [Windows Debugging], IDebugRegisters2 interface, OutputRegisters2 method [Windows Debugging], dbgeng/IDebugRegisters2::OutputRegisters2, OutputRegisters2, IDebugRegisters2, IDebugRegisters2::OutputRegisters2, debugger.outputregisters2, IDebugRegisters2 interface [Windows Debugging], OutputRegisters2 method
+ms.keywords: OutputRegisters2 method [Windows Debugging], IDebugRegisters_ecc2b40a-622b-4f1f-867b-2eb6b575559d.xml, IDebugRegisters2::OutputRegisters2, IDebugRegisters2 interface [Windows Debugging], OutputRegisters2 method, debugger.outputregisters2, OutputRegisters2, OutputRegisters2 method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters2, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.OutputRegisters2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::OutputRegisters2 method
@@ -197,9 +197,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553242">OutputRegisters</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553242">OutputRegisters</a>
 
  
 

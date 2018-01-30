@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	DebugExtensionProvideValue
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # PDEBUG_EXTENSION_PROVIDE_VALUE callback
@@ -172,15 +172,15 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 ## -see-also
 
-<i>KnownStructOutput</i>
-
-<i>DebugExtensionQueryValueNames</i>
-
-<i>DebugExtensionNotify</i>
-
 <i>DebugExtensionUninitialize</i>
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+<i>DebugExtensionQueryValueNames</i>
+
+<i>KnownStructOutput</i>
+
+<i>DebugExtensionNotify</i>
 
  
 

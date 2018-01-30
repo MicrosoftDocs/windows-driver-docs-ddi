@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX
-title: _D3DKMT_ACQUIREKEYEDMUTEX
+title: "_D3DKMT_ACQUIREKEYEDMUTEX"
 author: windows-driver-content
 description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the D3DKMTAcquireKeyedMutex function acquires.
 old-location: display\d3dkmt_acquirekeyedmutex.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex, OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, _D3DKMT_ACQUIREKEYEDMUTEX
+ms.keywords: OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], display.d3dkmt_acquirekeyedmutex, D3DKMT_ACQUIREKEYEDMUTEX, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_ACQUIREKEYEDMUTEX
 product: Windows
 targetos: Windows

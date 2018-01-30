@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 693CB919-A1D1-4A82-ABE5-2362431A9B92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, IDebugSystemObjects3, GetSystemByServer, IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, dbgeng/IDebugSystemObjects3::GetSystemByServer, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface
+ms.keywords: dbgeng/IDebugSystemObjects3::GetSystemByServer, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer, IDebugSystemObjects3, IDebugSystemObjects3::GetSystemByServer, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, debugger.idebugsystemobjects3_getsystembyserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects3.GetSystemByServer
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects3::GetSystemByServer method
@@ -85,14 +85,14 @@ HRESULT GetSystemByServer(
 A pointer to an output buffer. 
 
 
-#### - NameSize [out, optional]
-
-A pointer to the name size. 
-
-
 #### - BufferSize [in]
 
 The size of the buffer.
+
+
+#### - NameSize [out, optional]
+
+A pointer to the name size. 
 
 
 ## -returns
@@ -121,9 +121,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

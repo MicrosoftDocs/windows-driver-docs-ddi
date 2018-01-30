@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	kbdmou.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_MOUSE_CONNECT
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS"
 ---
 
 # IOCTL_INTERNAL_MOUSE_CONNECT IOCTL

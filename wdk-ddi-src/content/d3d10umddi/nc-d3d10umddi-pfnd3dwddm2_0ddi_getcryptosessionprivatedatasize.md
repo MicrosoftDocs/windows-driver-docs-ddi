@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetCryptoSessionPrivateDataSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback
@@ -103,19 +103,14 @@ VOID APIENTRY* pfnGetCryptoSessionPrivateDataSize(
 
 
 
-#### - pPrivateOutputSize [out]
-
-Returns the size of private data that the driver needs for output commands.
-
-
-#### - pPrivateInputSize [out]
-
-Returns the size of private data that the driver needs for input commands.
-
-
 #### - pCryptoType [in]
 
 Indicates the crypto type for which the private input and output size is queried.
+
+
+#### - pDecoderProfile [in, optional]
+
+Indicates the decoder profile for which the private input and output size is queried.
 
 
 #### - pKeyExchangeType [in]
@@ -123,9 +118,14 @@ Indicates the crypto type for which the private input and output size is queried
 Indicates the key exchange type for which the private input and output size is queried.
 
 
-#### - pDecoderProfile [in, optional]
+#### - pPrivateInputSize [out]
 
-Indicates the decoder profile for which the private input and output size is queried.
+Returns the size of private data that the driver needs for input commands.
+
+
+#### - pPrivateOutputSize [out]
+
+Returns the size of private data that the driver needs for output commands.
 
 
 ## -returns

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_KERNELOVERLAYINFO
-title: _D3DDDI_KERNELOVERLAYINFO
+title: "_D3DDDI_KERNELOVERLAYINFO"
 author: windows-driver-content
 description: The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode overlay object.
 old-location: display\d3dddi_kerneloverlayinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a9685f8-f201-4d1b-aef6-c4ac78100a80
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_KERNELOVERLAYINFO, d3dukmdt/D3DDDI_KERNELOVERLAYINFO, D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, display.d3dddi_kerneloverlayinfo, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3DDDI_KERNELOVERLAYINFO
+ms.keywords: D3DDDI_KERNELOVERLAYINFO, display.d3dddi_kerneloverlayinfo, _D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, d3dukmdt/D3DDDI_KERNELOVERLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_KERNELOVERLAYINFO
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ typedef struct _D3DDDI_KERNELOVERLAYINFO {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddirect.md">D3DDDIRECT</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
 
  
 

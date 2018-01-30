@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtcreateoverlay, OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, d3dkmthk/D3DKMTCreateOverlay, D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices]
+ms.keywords: OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, D3DKMTCreateOverlay, display.d3dkmtcreateoverlay, d3dkmthk/D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCreateOverlay
 product: Windows
 targetos: Windows

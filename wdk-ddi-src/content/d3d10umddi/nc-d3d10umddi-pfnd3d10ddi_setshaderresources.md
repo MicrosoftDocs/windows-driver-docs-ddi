@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	CsSetShaderResources
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_SETSHADERRESOURCES callback
@@ -93,6 +93,11 @@ VOID APIENTRY CsSetShaderResources(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - Offset [in]
 
  The offset to the first view to set. 
@@ -101,11 +106,6 @@ VOID APIENTRY CsSetShaderResources(
 #### - phShaderResourceViews [in]
 
  An array of handles to the shader resource views, beginning at the offset that <i>Offset</i> specifies.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

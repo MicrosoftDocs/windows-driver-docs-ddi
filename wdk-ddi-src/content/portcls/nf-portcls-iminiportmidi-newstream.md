@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: NewStream method [Audio Devices], IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream, NewStream, IMiniportMidi::NewStream, NewStream method [Audio Devices], IMiniportMidi interface, audio.iminiportmidi_newstream
+ms.keywords: NewStream method [Audio Devices], IMiniportMidi interface, IMiniportMidi, portcls/IMiniportMidi::NewStream, IMiniportMidi interface [Audio Devices], NewStream method, IMiniportMidi::NewStream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, NewStream method [Audio Devices], NewStream, audio.iminiportmidi_newstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportMidi.NewStream
 product: Windows
 targetos: Windows
@@ -85,7 +85,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration values.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> enumeration values.
 
 
 ### -param Pin [in]
@@ -100,7 +100,7 @@ Specifies whether the channel is to be used for capture or for playback. If <b>T
 
 ### -param DataFormat [in]
 
-Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the data format to use for this stream instance.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that specifies the data format to use for this stream instance.
 
 
 ### -param ServiceGroup [out]
@@ -126,15 +126,15 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
 
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4a2be8af-e393-4c7f-9377-cb2842778104
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDisableInterrupt, display.videoportdisableinterrupt, VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, video/VideoPortDisableInterrupt, VideoPortDisableInterrupt function [Display Devices]
+ms.keywords: VideoPortDisableInterrupt, VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, display.videoportdisableinterrupt, VideoPortDisableInterrupt function [Display Devices], video/VideoPortDisableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortDisableInterrupt
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortDisableInterrupt function
@@ -107,13 +106,13 @@ On a multiprocessor computer, a call to <b>VideoPortEnableInterrupt</b> might ru
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 <a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
  
 

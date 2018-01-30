@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._WDBGEXTS_THREAD_OS_INFO
-title: _WDBGEXTS_THREAD_OS_INFO
+title: "_WDBGEXTS_THREAD_OS_INFO"
 author: windows-driver-content
 description: The IG_GET_THREAD_OS_INFO Ioctl operation returns information about an operating system thread in the target. When calling Ioctl with IoctlType set to IG_GET_THREAD_OS_INFO, IpvData should contain an instance of the WDBGEXTS_THREAD_OS_INFO structure.
 old-location: debugger\ig_get_thread_os_info.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5cd1ba71-af2f-4662-b37d-88f4e4aa7624
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: _WDBGEXTS_THREAD_OS_INFO, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, wdbgexts/WDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], *PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging]
+ms.keywords: "_WDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], *PWDBGEXTS_THREAD_OS_INFO, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, wdbgexts/WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	WDBGEXTS_THREAD_OS_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO
-req.product: Windows 10 or later.
+req.typenames: "*PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO"
 ---
 
 # _WDBGEXTS_THREAD_OS_INFO structure

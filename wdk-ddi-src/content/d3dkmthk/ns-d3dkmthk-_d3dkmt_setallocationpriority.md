@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETALLOCATIONPRIORITY
-title: _D3DKMT_SETALLOCATIONPRIORITY
+title: "_D3DKMT_SETALLOCATIONPRIORITY"
 author: windows-driver-content
 description: The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority level to set a resource or list of allocations to.
 old-location: display\d3dkmt_setallocationpriority.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], display.d3dkmt_setallocationpriority, _D3DKMT_SETALLOCATIONPRIORITY, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY
+ms.keywords: display.d3dkmt_setallocationpriority, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], _D3DKMT_SETALLOCATIONPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SETALLOCATIONPRIORITY
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2::GetProcessorTypeNames, debugger.getprocessortypenames, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, GetProcessorTypeNames method [Windows Debugging], dbgeng/IDebugControl3::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, IDebugControl::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetProcessorTypeNames, dbgeng/IDebugControl2::GetProcessorTypeNames, GetProcessorTypeNames, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface
+ms.keywords: dbgeng/IDebugControl3::GetProcessorTypeNames, IDebugControl3::GetProcessorTypeNames, GetProcessorTypeNames, dbgeng/IDebugControl2::GetProcessorTypeNames, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3, IDebugControl2::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetProcessorTypeNames
 -	IDebugControl2.GetProcessorTypeNames
 -	IDebugControl3.GetProcessorTypeNames
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetProcessorTypeNames method
@@ -154,13 +154,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

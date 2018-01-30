@@ -1,6 +1,6 @@
 ---
 UID: NS:sdpnode._SDP_NODE_HEADER
-title: _SDP_NODE_HEADER
+title: "_SDP_NODE_HEADER"
 author: windows-driver-content
 description: The SDP_NODE_HEADER structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_header.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 2c756db7-b7a9-493a-8fb1-8bbc741f8c63
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: *PSDP_NODE_HEADER, _SDP_NODE_HEADER, bltooth.sdp_node_header, sdpnode/SDP_NODE_HEADER, PSDP_NODE_HEADER, SDP_NODE_HEADER structure [Bluetooth Devices], SDP_NODE_HEADER, PSDP_NODE_HEADER structure pointer [Bluetooth Devices], sdpnode/PSDP_NODE_HEADER, bth_structs_9fc0ef9d-c505-4cd8-8ea7-78988215c68a.xml
+ms.keywords: SDP_NODE_HEADER structure [Bluetooth Devices], sdpnode/PSDP_NODE_HEADER, *PSDP_NODE_HEADER, PSDP_NODE_HEADER structure pointer [Bluetooth Devices], _SDP_NODE_HEADER, PSDP_NODE_HEADER, sdpnode/SDP_NODE_HEADER, bltooth.sdp_node_header, bth_structs_9fc0ef9d-c505-4cd8-8ea7-78988215c68a.xml, SDP_NODE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: sdpnode.h
 req.include-header: Sdpnode.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	sdpnode.h
-apiname: 
+apiname:
 -	SDP_NODE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PSDP_NODE_HEADER, SDP_NODE_HEADER
-req.product: Windows 10 or later.
+req.typenames: "*PSDP_NODE_HEADER, SDP_NODE_HEADER"
 ---
 
 # _SDP_NODE_HEADER structure
@@ -116,13 +115,13 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
  
 

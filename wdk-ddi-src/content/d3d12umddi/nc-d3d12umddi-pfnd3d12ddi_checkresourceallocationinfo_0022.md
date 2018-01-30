@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCheckResourceAllocationInfo
 product: Windows
 targetos: Windows
@@ -100,14 +100,9 @@ An alignment restriction value.
 A visible node mask.
 
 
-#### - pInfo [out]
+#### - hDevice
 
-Information for resource allocation.
-
-
-#### - ResourceOptimizationFlags
-
-Resource optimization flags.
+A device handle. 
 
 
 #### - CreateResource [in]
@@ -115,9 +110,14 @@ Resource optimization flags.
 A pointer to a create resource.
 
 
-#### - hDevice
+#### - ResourceOptimizationFlags
 
-A device handle. 
+Resource optimization flags.
+
+
+#### - pInfo [out]
+
+Information for resource allocation.
 
 
 ## -returns

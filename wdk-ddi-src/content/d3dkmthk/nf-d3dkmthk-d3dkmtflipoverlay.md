@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, D3DKMTFlipOverlay
+ms.keywords: D3DKMTFlipOverlay, OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, D3DKMTFlipOverlay function [Display Devices], d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTFlipOverlay
 product: Windows
 targetos: Windows

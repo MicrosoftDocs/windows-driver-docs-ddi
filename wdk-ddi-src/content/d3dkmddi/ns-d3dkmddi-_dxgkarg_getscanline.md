@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_GETSCANLINE
-title: _DXGKARG_GETSCANLINE
+title: "_DXGKARG_GETSCANLINE"
 author: windows-driver-content
 description: The DXGKARG_GETSCANLINE structure contains information about a video present target's vertical blanking status.
 old-location: display\dxgkarg_getscanline.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *INOUT_PDXGKARG_GETSCANLINE, display.dxgkarg_getscanline, DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], d3dkmddi/DXGKARG_GETSCANLINE, _DXGKARG_GETSCANLINE
+ms.keywords: "_DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, *INOUT_PDXGKARG_GETSCANLINE, display.dxgkarg_getscanline, DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_GETSCANLINE
 product: Windows
 targetos: Windows

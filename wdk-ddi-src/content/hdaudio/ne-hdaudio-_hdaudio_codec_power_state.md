@@ -1,6 +1,6 @@
 ---
 UID: NE:hdaudio._HDAUDIO_CODEC_POWER_STATE
-title: _HDAUDIO_CODEC_POWER_STATE
+title: "_HDAUDIO_CODEC_POWER_STATE"
 author: windows-driver-content
 description: The HDAUDIO_CODEC_POWER_STATE enumeration defines constants that specify the different power states that HD Audio codecs can support. All states are from DEVICE_POWER_STATE except PowerCodecD3Cold.
 old-location: audio\hdaudio_codec_power_state.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4C002B40-AD27-4FE2-B07F-5E9715E6CF1F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/PowerCodecUnspecified, PowerCodecD3, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, PowerCodecD3Cold, hdaudio/PowerCodecD3, hdaudio/PowerCodecMaximum, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PowerCodecMaximum, PowerCodecD0, PowerCodecD1, HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3Cold, PowerCodecUnspecified, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], audio.hdaudio_codec_power_state, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], _HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, PHDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE, PowerCodecD2
+ms.keywords: hdaudio/PowerCodecUnspecified, PowerCodecMaximum, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], PowerCodecD0, PowerCodecD2, PHDAUDIO_CODEC_POWER_STATE, _HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, *PHDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PowerCodecD3Cold, hdaudio/PowerCodecD3, audio.hdaudio_codec_power_state, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecMaximum, PowerCodecD3, hdaudio/PowerCodecD3Cold, hdaudio/PowerCodecD0, PowerCodecD1, HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], hdaudio/PowerCodecD1, PowerCodecUnspecified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hdaudio.h
-apiname: 
+apiname:
 -	HDAUDIO_CODEC_POWER_STATE
 product: Windows
 targetos: Windows
@@ -50,7 +50,7 @@ req.typenames: HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE
 
 
 The <b>HDAUDIO_CODEC_POWER_STATE</b> enumeration defines constants that specify the different power states that HD Audio codecs can support.  All states
-are from <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
+are from <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
 
 
 
@@ -113,6 +113,6 @@ Power state Maximum
 ## -remarks
 
 
-For more information about power states, see <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>.
+For more information about power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>.
 
 

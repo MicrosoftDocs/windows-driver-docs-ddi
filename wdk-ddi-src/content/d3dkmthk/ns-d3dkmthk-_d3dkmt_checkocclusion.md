@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKOCCLUSION
-title: _D3DKMT_CHECKOCCLUSION
+title: "_D3DKMT_CHECKOCCLUSION"
 author: windows-driver-content
 description: The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check for occlusion.
 old-location: display\d3dkmt_checkocclusion.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1797b64d-ca2c-4b07-aaad-bef4966b5ca7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_CHECKOCCLUSION, D3DKMT_CHECKOCCLUSION structure [Display Devices], display.d3dkmt_checkocclusion, OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, D3DKMT_CHECKOCCLUSION, _D3DKMT_CHECKOCCLUSION
+ms.keywords: d3dkmthk/D3DKMT_CHECKOCCLUSION, display.d3dkmt_checkocclusion, D3DKMT_CHECKOCCLUSION, OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, _D3DKMT_CHECKOCCLUSION, D3DKMT_CHECKOCCLUSION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CHECKOCCLUSION
 product: Windows
 targetos: Windows

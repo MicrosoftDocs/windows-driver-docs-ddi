@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIO_PACKETSIZE_CONSTRAINTS2
-title: _KSAUDIO_PACKETSIZE_CONSTRAINTS2
+title: "_KSAUDIO_PACKETSIZE_CONSTRAINTS2"
 author: windows-driver-content
 description: The KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure describes the physical hardware constraints.
 old-location: audio\ksaudio_packetsize_constraints2.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: E87C7AA7-A48A-4569-ADD5-9DC143F919B6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_32_BYTE_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_128_BYTE_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_BYTE_ALIGNMENT, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_64_BYTE_ALIGNMENT, FILE_OCTA_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure [Audio Devices], FILE_WORD_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, _KSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2 structure pointer [Audio Devices], ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS2, audio.ksaudio_packetsize_constraints2, FILE_LONG_ALIGNMENT
+ms.keywords: ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_128_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, _KSAUDIO_PACKETSIZE_CONSTRAINTS2, KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure [Audio Devices], PKSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_BYTE_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints2, FILE_QUAD_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS2, FILE_64_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2 structure pointer [Audio Devices], FILE_WORD_ALIGNMENT, FILE_LONG_ALIGNMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIO_PACKETSIZE_CONSTRAINTS2
 product: Windows
 targetos: Windows
@@ -82,6 +82,46 @@ The absolute minimum processing period supported by the driver expressed in hund
 The byte size alignment requirement. Use one of these defined file alignment values:
 <a id="FILE_BYTE_ALIGNMENT"></a><a id="file_byte_alignment"></a>
 
+#### FILE_BYTE_ALIGNMENT
+
+<a id="FILE_WORD_ALIGNMENT"></a><a id="file_word_alignment"></a>
+
+#### FILE_WORD_ALIGNMENT
+
+<a id="FILE_LONG_ALIGNMENT"></a><a id="file_long_alignment"></a>
+
+#### FILE_LONG_ALIGNMENT
+
+<a id="FILE_QUAD_ALIGNMENT"></a><a id="file_quad_alignment"></a>
+
+#### FILE_QUAD_ALIGNMENT
+
+<a id="FILE_OCTA_ALIGNMENT"></a><a id="file_octa_alignment"></a>
+
+#### FILE_OCTA_ALIGNMENT
+
+<a id="FILE_32_BYTE_ALIGNMENT"></a><a id="file_32_byte_alignment"></a>
+
+#### FILE_32_BYTE_ALIGNMENT
+
+<a id="FILE_64_BYTE_ALIGNMENT"></a><a id="file_64_byte_alignment"></a>
+
+#### FILE_64_BYTE_ALIGNMENT
+
+<a id="FILE_128_BYTE_ALIGNMENT"></a><a id="file_128_byte_alignment"></a>
+
+#### FILE_128_BYTE_ALIGNMENT
+
+<a id="FILE_256_BYTE_ALIGNMENT"></a><a id="file_256_byte_alignment"></a>
+
+#### FILE_256_BYTE_ALIGNMENT
+
+<a id="FILE_512_BYTE_ALIGNMENT"></a><a id="file_512_byte_alignment"></a>
+
+#### FILE_512_BYTE_ALIGNMENT
+
+
+
 ### -field MaxPacketSizeInBytes
 
 The absolute maximum packet size supported by the driver in bytes. This can be zero if the driver has no specific maximum packet size. This size should at least be large enough to support 10 ms buffer of any format supported by the pin. This size should also be greater or equal to MinPacketSize constraints. 
@@ -98,46 +138,6 @@ The number of additional constraints for specific processing modes. This value c
 An array of 0 or more processing mode constraints. 
 
 
-
-##### - PacketSizeFileAlignment.FILE_512_BYTE_ALIGNMENT
-
-
-
-##### - PacketSizeFileAlignment.FILE_BYTE_ALIGNMENT
-
-<a id="FILE_WORD_ALIGNMENT"></a><a id="file_word_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_QUAD_ALIGNMENT
-
-<a id="FILE_OCTA_ALIGNMENT"></a><a id="file_octa_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_64_BYTE_ALIGNMENT
-
-<a id="FILE_128_BYTE_ALIGNMENT"></a><a id="file_128_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_256_BYTE_ALIGNMENT
-
-<a id="FILE_512_BYTE_ALIGNMENT"></a><a id="file_512_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_OCTA_ALIGNMENT
-
-<a id="FILE_32_BYTE_ALIGNMENT"></a><a id="file_32_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_WORD_ALIGNMENT
-
-<a id="FILE_LONG_ALIGNMENT"></a><a id="file_long_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_LONG_ALIGNMENT
-
-<a id="FILE_QUAD_ALIGNMENT"></a><a id="file_quad_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_128_BYTE_ALIGNMENT
-
-<a id="FILE_256_BYTE_ALIGNMENT"></a><a id="file_256_byte_alignment"></a>
-
-##### - PacketSizeFileAlignment.FILE_32_BYTE_ALIGNMENT
-
-<a id="FILE_64_BYTE_ALIGNMENT"></a><a id="file_64_byte_alignment"></a>
 
 ## -remarks
 

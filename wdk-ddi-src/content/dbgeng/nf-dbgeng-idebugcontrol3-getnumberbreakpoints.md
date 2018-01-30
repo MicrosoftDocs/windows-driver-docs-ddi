@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetNumberBreakpoints, GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl3, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, dbgeng/IDebugControl::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, dbgeng/IDebugControl3::GetNumberBreakpoints, debugger.getnumberbreakpoints, IDebugControl::GetNumberBreakpoints, dbgeng/IDebugControl2::GetNumberBreakpoints
+ms.keywords: dbgeng/IDebugControl3::GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, GetNumberBreakpoints, IDebugControl3, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetNumberBreakpoints, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl3::GetNumberBreakpoints, debugger.getnumberbreakpoints, IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetNumberBreakpoints
 -	IDebugControl2.GetNumberBreakpoints
 -	IDebugControl3.GetNumberBreakpoints
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetNumberBreakpoints method
@@ -100,15 +100,15 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

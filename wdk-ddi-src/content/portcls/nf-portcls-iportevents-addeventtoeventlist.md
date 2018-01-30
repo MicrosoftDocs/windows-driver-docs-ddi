@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 49b01942-3562-4fb2-907b-8863b2f09f8e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AddEventToEventList, audmp-routines_13ea6aa7-0f65-43d4-b80c-4aa46102c43e.xml, IPortEvents interface [Audio Devices], AddEventToEventList method, IPortEvents, AddEventToEventList method [Audio Devices], portcls/IPortEvents::AddEventToEventList, IPortEvents::AddEventToEventList, audio.iportevents_addeventtoeventlist, AddEventToEventList method [Audio Devices], IPortEvents interface
+ms.keywords: AddEventToEventList method [Audio Devices], IPortEvents interface, AddEventToEventList, portcls/IPortEvents::AddEventToEventList, IPortEvents, audio.iportevents_addeventtoeventlist, audmp-routines_13ea6aa7-0f65-43d4-b80c-4aa46102c43e.xml, AddEventToEventList method [Audio Devices], IPortEvents interface [Audio Devices], AddEventToEventList method, IPortEvents::AddEventToEventList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortEvents.AddEventToEventList
 product: Windows
 targetos: Windows
@@ -69,7 +69,7 @@ void AddEventToEventList(
 
 ### -param EventEntry [in]
 
-Pointer to the event entry that describes the event. This is an opaque system structure of type <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>.
+Pointer to the event entry that describes the event. This is an opaque system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>.
 
 
 ## -returns
@@ -88,13 +88,13 @@ This method is used by a miniport driver's to add events to the event list that 
 
 ## -see-also
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
-
 <a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
+
+<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
  
 

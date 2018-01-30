@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 99eab339-d93c-4afa-95f2-899ceb2e7828
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_CENC_AES_CTR_128, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_CENC_AES_CTR_128, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_NONE, display.d3d12ddi-bitstream-encryption-type-0030, d3d12umddi/D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_NONE, d3d12umddi/D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030 enumeration [Display Devices], D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
+ms.keywords: d3d12umddi/D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_NONE, d3d12umddi/D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_NONE, display.d3d12ddi-bitstream-encryption-type-0030, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_CENC_AES_CTR_128, D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030 enumeration [Display Devices], d3d12umddi/D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030_CENC_AES_CTR_128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
 product: Windows
 targetos: Windows

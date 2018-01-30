@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, GetBreakpointByGuid method [Windows Debugging], IDebugControl5, debugger.idebugcontrol5_getbreakpointbyguid
+ms.keywords: IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, IDebugControl5, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], debugger.idebugcontrol5_getbreakpointbyguid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, GetBreakpointByGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl5.GetBreakpointByGuid
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl5::GetBreakpointByGuid method

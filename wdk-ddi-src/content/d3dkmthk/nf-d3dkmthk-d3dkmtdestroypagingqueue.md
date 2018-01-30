@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 470563BD-F185-4CA2-B4AD-06E1AABD36AD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTDestroyPagingQueue, D3DKMTDestroyPagingQueue, display.d3dkmtdestroypagingqueue, D3DKMTDestroyPagingQueue function [Display Devices]
+ms.keywords: display.d3dkmtdestroypagingqueue, d3dkmthk/D3DKMTDestroyPagingQueue, D3DKMTDestroyPagingQueue, D3DKMTDestroyPagingQueue function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTDestroyPagingQueue
 product: Windows
 targetos: Windows

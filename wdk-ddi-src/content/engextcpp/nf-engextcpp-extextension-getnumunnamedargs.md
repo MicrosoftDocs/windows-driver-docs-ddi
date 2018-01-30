@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc3ea1ba-136b-4257-9aa2-ca9649555869
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], ExtExtension class, debugger.getnumunnamedargs, ExtExtension, GetNumUnnamedArgs method [Windows Debugging], EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, GetNumUnnamedArgs
+ms.keywords: ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, debugger.getnumunnamedargs, ExtExtension, ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs method [Windows Debugging], ExtExtension class, GetNumUnnamedArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtExtension.GetNumUnnamedArgs
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtExtension::GetNumUnnamedArgs method

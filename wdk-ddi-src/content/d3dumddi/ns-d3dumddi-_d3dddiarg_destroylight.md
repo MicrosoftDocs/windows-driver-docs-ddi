@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DESTROYLIGHT
-title: _D3DDDIARG_DESTROYLIGHT
+title: "_D3DDDIARG_DESTROYLIGHT"
 author: windows-driver-content
 description: The D3DDDIARG_DESTROYLIGHT structure contains the index into a light array for the light to destroy.
 old-location: display\d3dddiarg_destroylight.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d019a940-5735-4b35-af99-3aac3dc4270b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DESTROYLIGHT structure [Display Devices], _D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT, d3dumddi/D3DDDIARG_DESTROYLIGHT, UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, display.d3dddiarg_destroylight
+ms.keywords: D3DDDIARG_DESTROYLIGHT structure [Display Devices], d3dumddi/D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT, UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, display.d3dddiarg_destroylight, _D3DDDIARG_DESTROYLIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DESTROYLIGHT
 product: Windows
 targetos: Windows

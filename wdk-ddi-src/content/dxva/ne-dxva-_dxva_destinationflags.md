@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_DestinationFlags
-title: _DXVA_DestinationFlags
+title: "_DXVA_DestinationFlags"
 author: windows-driver-content
 description: The DXVA_DestinationFlags enumeration type contains a collection of flags that identify changes in the current destination surface from the previous destination surface.
 old-location: display\dxva_destinationflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 842c6ece-5304-428c-afbe-2990d239f38a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlags enumeration [Display Devices], dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, DXVA_DestinationFlags, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlags, DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_ColorData_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_ColorData_Changed, _DXVA_DestinationFlags, dxva/DXVA_DestinationFlagMask, display.dxva_destinationflags
+ms.keywords: DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_Background_Changed, _DXVA_DestinationFlags, display.dxva_destinationflags, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlags enumeration [Display Devices], dxva/DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlagMask, DXVA_DestinationFlagMask, DXVA_DestinationFlags, dxva/DXVA_DestinationFlags, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DestinationFlags
 product: Windows
 targetos: Windows
@@ -99,9 +99,9 @@ Indicates that the planar alpha value for the destination surface changed.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
  
 

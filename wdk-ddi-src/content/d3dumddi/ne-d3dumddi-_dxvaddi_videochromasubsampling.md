@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOCHROMASUBSAMPLING
-title: _DXVADDI_VIDEOCHROMASUBSAMPLING
+title: "_DXVADDI_VIDEOCHROMASUBSAMPLING"
 author: windows-driver-content
 description: The DXVADDI_VIDEOCHROMASUBSAMPLING enumeration type contains values that identify the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: display\dxvaddi_videochromasubsampling.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 697b6ac2-9d25-42ad-aac5-44754f19bf2c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsamplingMask, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, display.dxvaddi_videochromasubsampling, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_MPEG1, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, DXVADDI_VideoChromaSubsampling_MPEG2, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsampling_DV_PAL
+ms.keywords: d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_MPEG1, DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, display.dxvaddi_videochromasubsampling, DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_VIDEOCHROMASUBSAMPLING
 product: Windows
 targetos: Windows

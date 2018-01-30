@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DrawTriPatch
 product: Windows
 targetos: Windows
@@ -85,14 +85,14 @@ __checkReturn HRESULT APIENTRY DrawTriPatch(
 
 
 
-#### - pInfo [in]
-
- Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
-
-
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
+
+
+#### - pInfo [in]
+
+ Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
 
 
 #### - pPatch [in]

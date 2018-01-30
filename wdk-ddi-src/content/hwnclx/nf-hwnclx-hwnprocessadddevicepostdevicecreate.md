@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 907cdeac-e2f0-48fa-bbf0-082c0fce6401
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpiobtn.hwnprocessadddevicepostdevicecreate, HwNProcessAddDevicePostDeviceCreate, hwnclx/HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function
+ms.keywords: gpiobtn.hwnprocessadddevicepostdevicecreate, HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, hwnclx/HwNProcessAddDevicePostDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Mshwnclxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Mshwnclxstub.lib
 -	Mshwnclxstub.dll
-apiname: 
+apiname:
 -	HwNProcessAddDevicePostDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
+req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
 ---
 
 # HwNProcessAddDevicePostDeviceCreate function
@@ -52,7 +52,7 @@ req.typenames: *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
 
 
 			
-             Creates I/O queues. It should be called after the client driver’s <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a> callback function is invoked and the device object has been created. 
+             Creates I/O queues. It should be called after the client driver’s <a href="https://msdn.microsoft.com/library/windows/hardware/ff541693">EVT_WDF_DRIVER_DEVICE_ADD</a> callback function is invoked and the device object has been created. 
 
 
 ## -syntax
@@ -96,9 +96,9 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

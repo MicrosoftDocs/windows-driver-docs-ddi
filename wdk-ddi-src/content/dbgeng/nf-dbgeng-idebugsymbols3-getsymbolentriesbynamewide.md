@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method, debugger.getsymbolentriesbynamewide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3, GetSymbolEntriesByNameWide
+ms.keywords: dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3, GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method, debugger.getsymbolentriesbynamewide, GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSymbolEntriesByNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetSymbolEntriesByNameWide method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec691a7c-a569-49dd-af13-bfbf403be297
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, WritePhysical method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical, IDebugDataSpaces4::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], WritePhysical method, IDebugDataSpaces3 interface [Windows Debugging], WritePhysical method, IDebugDataSpaces2 interface [Windows Debugging], WritePhysical method, WritePhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical method, dbgeng/IDebugDataSpaces::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces3::WritePhysical, dbgeng/IDebugDataSpaces2::WritePhysical, IDebugDataSpaces_0e781d56-64f8-4518-b748-5afe9f43c429.xml, debugger.writephysical3, WritePhysical method [Windows Debugging], IDebugDataSpaces2::WritePhysical, dbgeng/IDebugDataSpaces4::WritePhysical, IDebugDataSpaces3::WritePhysical, IDebugDataSpaces::WritePhysical
+ms.keywords: WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces4::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2::WritePhysical, IDebugDataSpaces4, debugger.writephysical3, WritePhysical method [Windows Debugging], WritePhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], WritePhysical method, IDebugDataSpaces4::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::WritePhysical, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical method, IDebugDataSpaces_0e781d56-64f8-4518-b748-5afe9f43c429.xml, IDebugDataSpaces2 interface [Windows Debugging], WritePhysical method, dbgeng/IDebugDataSpaces2::WritePhysical, IDebugDataSpaces interface [Windows Debugging], WritePhysical method, IDebugDataSpaces::WritePhysical, IDebugDataSpaces3::WritePhysical, dbgeng/IDebugDataSpaces::WritePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.WritePhysical
 -	IDebugDataSpaces2.WritePhysical
 -	IDebugDataSpaces3.WritePhysical
 -	IDebugDataSpaces4.WritePhysical
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugDataSpaces4::WritePhysical method

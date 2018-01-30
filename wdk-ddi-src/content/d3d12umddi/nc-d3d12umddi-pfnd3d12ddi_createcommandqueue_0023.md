@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCreateCommandQueue
 product: Windows
 targetos: Windows
@@ -92,14 +92,9 @@ HRESULT APIENTRY* pfnCreateCommandQueue(
 
 
 
-#### - hRTCommandQueue
+#### - hDevice
 
-The handle of the command queue for the driver to use when it calls back into the runtime.
-
-
-#### - hDrvCommandQueue
-
-The handle of a command queue.
+The handle of a device.
 
 
 #### - CreateCommandQueue [in]
@@ -107,9 +102,14 @@ The handle of a command queue.
 An argument used to create a command queue. 
 
 
-#### - hDevice
+#### - hDrvCommandQueue
 
-The handle of a device.
+The handle of a command queue.
+
+
+#### - hRTCommandQueue
+
+The handle of the command queue for the driver to use when it calls back into the runtime.
 
 
 ## -returns

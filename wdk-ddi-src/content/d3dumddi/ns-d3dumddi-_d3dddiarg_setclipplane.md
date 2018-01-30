@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETCLIPPLANE
-title: _D3DDDIARG_SETCLIPPLANE
+title: "_D3DDDIARG_SETCLIPPLANE"
 author: windows-driver-content
 description: The D3DDDIARG_SETCLIPPLANE structure describes a clip plane.
 old-location: display\d3dddiarg_setclipplane.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94e942a4-de66-47a3-89bf-fbec2a408775
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETCLIPPLANE structure [Display Devices], display.d3dddiarg_setclipplane, _D3DDDIARG_SETCLIPPLANE, UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, d3dumddi/D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE
+ms.keywords: D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices], d3dumddi/D3DDDIARG_SETCLIPPLANE, UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, display.d3dddiarg_setclipplane, _D3DDDIARG_SETCLIPPLANE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETCLIPPLANE
 product: Windows
 targetos: Windows

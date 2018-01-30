@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4caffdad-569d-4038-9a11-8827c8439189
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CancelDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup::CancelDelayedService, audmp-routines_7d31f9ff-5b00-4f74-ad2a-08f901db81ff.xml, IServiceGroup interface [Audio Devices], CancelDelayedService method, audio.iservicegroup_canceldelayedservice, portcls/IServiceGroup::CancelDelayedService, IServiceGroup, CancelDelayedService method [Audio Devices], CancelDelayedService
+ms.keywords: portcls/IServiceGroup::CancelDelayedService, IServiceGroup interface [Audio Devices], CancelDelayedService method, CancelDelayedService method [Audio Devices], IServiceGroup interface, audio.iservicegroup_canceldelayedservice, CancelDelayedService, IServiceGroup::CancelDelayedService, CancelDelayedService method [Audio Devices], IServiceGroup, audmp-routines_7d31f9ff-5b00-4f74-ad2a-08f901db81ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IServiceGroup.CancelDelayedService
 product: Windows
 targetos: Windows

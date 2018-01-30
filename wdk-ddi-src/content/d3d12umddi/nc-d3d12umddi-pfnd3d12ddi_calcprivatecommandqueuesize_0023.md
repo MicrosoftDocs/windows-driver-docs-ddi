@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCalcPrivateCommandQueueSize
 product: Windows
 targetos: Windows
@@ -82,14 +82,14 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 
 
 
-#### - CreateCommandQueue [in]
-
-An argument used to create a command queue. 
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - CreateCommandQueue [in]
+
+An argument used to create a command queue. 
 
 
 ## -returns

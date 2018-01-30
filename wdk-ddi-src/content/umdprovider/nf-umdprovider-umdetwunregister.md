@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
+ms.keywords: UMDEtwUnregister, display.umdetwunregister, umdprovider/UMDEtwUnregister, UMDEtwUnregister function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	umdprovider.h
-apiname: 
+apiname:
 -	UMDEtwUnregister
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_SEMANTIC
-req.product: Windows 10 or later.
 ---
 
 # UMDEtwUnregister function

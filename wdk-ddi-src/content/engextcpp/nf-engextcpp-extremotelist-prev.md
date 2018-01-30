@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dc65a1a-2188-417b-9f5c-4a3d2dc0bbb0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList::Prev, debugger.extremotelist_prev, ExtRemoteList class [Windows Debugging], Prev method, EngExtCpp_Ref_46ab35be-6259-4fe5-95fe-06c99244f6bb.xml, Prev, Prev method [Windows Debugging], ExtRemoteList class, Prev method [Windows Debugging]
+ms.keywords: EngExtCpp_Ref_46ab35be-6259-4fe5-95fe-06c99244f6bb.xml, ExtRemoteList, ExtRemoteList::Prev, Prev, Prev method [Windows Debugging], ExtRemoteList class [Windows Debugging], Prev method, debugger.extremotelist_prev, Prev method [Windows Debugging], ExtRemoteList class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteList.Prev
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteList::Prev method

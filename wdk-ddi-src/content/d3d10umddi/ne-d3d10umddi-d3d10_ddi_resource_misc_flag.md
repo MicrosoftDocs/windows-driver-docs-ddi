@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1de11acf-1571-44ae-9bde-2b417bf615b7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3D10_DDI_RESOURCE_MISC_REMOTE, d3d10umddi/D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d10umddi/D3D10_DDI_RESOURCE_MISC_REMOTE, d3d10umddi/D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, d3d10umddi/, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILED, D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d10umddi/D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, D3DWDDM1_3DDI_RESOURCE_MISC_TILED, d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, d3d10umddi/D3D10_DDI_RESOURCE_MISC_SHARED, display.d3d10_ddi_resource_misc_flag, d3d10umddi/D3D10_DDI_RESOURCE_MISC_FLAG, D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, D3D10_DDI_RESOURCE_MISC_SHARED, D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, D3D10_DDI_RESOURCE_MISC_FLAG, D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, d3d10umddi/D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, D3D10_DDI_RESOURCE_MISC_FLAG enumeration [Display Devices], D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, UMDisplayDriver_Dx10param_Structs_0b144bfc-1cec-4e30-b7c6-f7c2cb7d4567.xml, D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS
+ms.keywords: d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILED, d3d10umddi/D3D10_DDI_RESOURCE_MISC_FLAG, d3d10umddi/D3D10_DDI_RESOURCE_MISC_SHARED, D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL, D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, display.d3d10_ddi_resource_misc_flag, D3D10_DDI_RESOURCE_MISC_SHARED, d3d10umddi/D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, D3D10_DDI_RESOURCE_MISC_FLAG, D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, d3d10umddi/D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, D3D10_DDI_RESOURCE_MISC_FLAG enumeration [Display Devices], d3d10umddi/D3D11_DDI_RESOURCE_MISC_BUFFER_STRUCTURED, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_CONTAINS_HW_PROTECTED, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, UMDisplayDriver_Dx10param_Structs_0b144bfc-1cec-4e30-b7c6-f7c2cb7d4567.xml, d3d10umddi/D3D10_DDI_RESOURCE_MISC_DISCARD_ON_PRESENT, d3d10umddi/D3D11_DDI_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, D3DWDDM1_3DDI_RESOURCE_MISC_TILED, D3D11_DDI_RESOURCE_MISC_RESOURCE_CLAMP, D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, D3D10_DDI_RESOURCE_MISC_REMOTE, d3d10umddi/D3D11_1DDI_RESOURCE_MISC_RESTRICTED_CONTENT, d3d10umddi/D3D10_DDI_RESOURCE_MISC_REMOTE, D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, D3D10_DDI_RESOURCE_AUTO_GEN_MIP_MAP, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE, d3d10umddi/, D3DWDDM1_3DDI_RESOURCE_MISC_CROSS_ADAPTER, D3D11_1DDI_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d10umddi/D3DWDDM2_0DDI_RESOURCE_MISC_HW_PROTECTED, d3d10umddi/D3DWDDM1_3DDI_RESOURCE_MISC_TILE_POOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10_DDI_RESOURCE_MISC_FLAG
 product: Windows
 targetos: Windows
@@ -211,27 +211,27 @@ Supported starting with Windows 10.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_genmips.md">GenMips</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_dispatchindirect.md">DispatchIndirect</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_drawinstancedindirect.md">DrawInstancedIndirect</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_drawindexedinstancedindirect.md">DrawIndexedInstancedIndirect</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_drawindexedinstancedindirect.md">DrawIndexedInstancedIndirect</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_setresourceminlod.md">SetResourceMinLOD</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_drawinstancedindirect.md">DrawInstancedIndirect</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_dispatchindirect.md">DispatchIndirect</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_genmips.md">GenMips</a>
 
  
 

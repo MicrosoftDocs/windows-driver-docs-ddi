@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 692d3336-d9cd-438b-a52c-ae4c55070227
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, display.d3dkmtwaitforsynchronizationobject2, D3DKMTWaitForSynchronizationObject2 function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObject2, D3DKMTWaitForSynchronizationObject2
+ms.keywords: display.d3dkmtwaitforsynchronizationobject2, D3DKMTWaitForSynchronizationObject2 function [Display Devices], D3DKMTWaitForSynchronizationObject2, OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTWaitForSynchronizationObject2
 product: Windows
 targetos: Windows

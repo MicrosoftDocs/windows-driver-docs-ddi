@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TRIANGLEFAN_IMM
-title: _D3DHAL_DP2TRIANGLEFAN_IMM
+title: "_D3DHAL_DP2TRIANGLEFAN_IMM"
 author: windows-driver-content
 description: One D3DHAL_DP2TRIANGLEFAN_IMM structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLEFAN_IMM, and is used to render a triangle fan.
 old-location: display\d3dhal_dp2trianglefan_imm.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2f6f184-1178-4578-aafa-0bd088d42634
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM, *LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], _D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], display.d3dhal_dp2trianglefan_imm
+ms.keywords: D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, _D3DHAL_DP2TRIANGLEFAN_IMM, *LPD3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, display.d3dhal_dp2trianglefan_imm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2TRIANGLEFAN_IMM
 product: Windows
 targetos: Windows

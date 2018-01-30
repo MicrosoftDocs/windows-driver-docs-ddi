@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, debugger.createsymbolgroup, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, dbgeng/IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols2::CreateSymbolGroup
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, IDebugSymbols::CreateSymbolGroup, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::CreateSymbolGroup, IDebugSymbols3, CreateSymbolGroup, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, CreateSymbolGroup method [Windows Debugging], debugger.createsymbolgroup, IDebugSymbols3::CreateSymbolGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.CreateSymbolGroup
 -	IDebugSymbols2.CreateSymbolGroup
 -	IDebugSymbols3.CreateSymbolGroup
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::CreateSymbolGroup method
@@ -114,13 +114,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
 <a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamCurrentWritePosition method [Audio Devices], audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode, SetStreamCurrentWritePosition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method
+ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
 product: Windows
 targetos: Windows

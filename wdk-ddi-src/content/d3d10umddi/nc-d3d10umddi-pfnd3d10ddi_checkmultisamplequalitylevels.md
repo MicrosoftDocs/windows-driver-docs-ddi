@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	CheckMultisampleQualityLevels
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback
@@ -92,16 +92,6 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 
 
 
-#### - SampleCount [in]
-
- The number of samples to retrieve the quality levels for. 
-
-
-#### - pNumQualityLevels [out]
-
-A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -110,6 +100,16 @@ A pointer to a variable that receives the number of quality levels that the devi
 #### - Format [in]
 
  A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
+
+
+#### - SampleCount [in]
+
+ The number of samples to retrieve the quality levels for. 
+
+
+#### - pNumQualityLevels [out]
+
+A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples. 
 
 
 ## -returns
@@ -136,9 +136,9 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

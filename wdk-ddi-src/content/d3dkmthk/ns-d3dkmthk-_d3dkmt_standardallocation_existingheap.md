@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
-title: _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
+title: "_D3DKMT_STANDARDALLOCATION_EXISTINGHEAP"
 author: windows-driver-content
 description: Holds information about the existing heap.
 old-location: display\d3dkmt-standardallocation-existingheap.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e97fb29-64a7-4fb5-b07e-a9810499cf1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap, d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
+ms.keywords: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap, _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 product: Windows
 targetos: Windows

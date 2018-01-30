@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._SYM_DUMP_PARAM
-title: _SYM_DUMP_PARAM
+title: "_SYM_DUMP_PARAM"
 author: windows-driver-content
 description: The IG_DUMP_SYMBOL_INFO Ioctl operation provides information about the type of a symbol.
 old-location: debugger\ig_dump_symbol_info.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/SYM_DUMP_PARAM, *PSYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], SYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, debugger.ig_dump_symbol_info, _SYM_DUMP_PARAM, PSYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM
+ms.keywords: SYM_DUMP_PARAM structure [Windows Debugging], *PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], SYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	SYM_DUMP_PARAM
 product: Windows
 targetos: Windows
-req.typenames: *PSYM_DUMP_PARAM, SYM_DUMP_PARAM
-req.product: Windows 10 or later.
+req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
 ---
 
 # _SYM_DUMP_PARAM structure
@@ -475,13 +474,13 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
-
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
 
  
 

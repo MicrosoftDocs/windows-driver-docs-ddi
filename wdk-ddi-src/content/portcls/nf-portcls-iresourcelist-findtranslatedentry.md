@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3e8ae4d-a923-406e-ad1a-f7ed7277f676
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IResourceList interface [Audio Devices], FindTranslatedEntry method, IResourceList::FindTranslatedEntry, FindTranslatedEntry, portcls/IResourceList::FindTranslatedEntry, FindTranslatedEntry method [Audio Devices], IResourceList interface, FindTranslatedEntry method [Audio Devices], audio.iresourcelist_findtranslatedentry, IResourceList, audmp-routines_a4100c1c-8955-46bb-a9cc-8cee22609598.xml
+ms.keywords: IResourceList::FindTranslatedEntry, portcls/IResourceList::FindTranslatedEntry, FindTranslatedEntry method [Audio Devices], IResourceList interface, IResourceList interface [Audio Devices], FindTranslatedEntry method, audmp-routines_a4100c1c-8955-46bb-a9cc-8cee22609598.xml, audio.iresourcelist_findtranslatedentry, IResourceList, FindTranslatedEntry method [Audio Devices], FindTranslatedEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IResourceList.FindTranslatedEntry
 product: Windows
 targetos: Windows
@@ -70,7 +70,7 @@ PCM_PARTIAL_RESOURCE_DESCRIPTOR FindTranslatedEntry(
 
 ### -param Type [in]
 
-Identifies the resource type of the entry to find. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+Identifies the resource type of the entry to find. For a list of valid resource-type values, see the <b>Type</b> member of the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ### -param Index [in]
@@ -94,19 +94,19 @@ The <i>Index</i> parameter indicates which occurrence of an entry of the specifi
 
 For each resource type, a macro is defined to call this method. See <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>.
 
-For more information about translated and untranslated (or "raw") resources, see <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For more information about translated and untranslated (or "raw") resources, see <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
+<a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536984">IResourceList::FindUntranslatedEntry</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETCLIPPLANE
-title: _D3DHAL_DP2SETCLIPPLANE
+title: "_D3DHAL_DP2SETCLIPPLANE"
 author: windows-driver-content
 description: The D3DHAL_SETCLIPPLANE structure allows user defined clip planes to be used in world space.
 old-location: display\d3dhal_dp2setclipplane.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84459f39-42cb-4877-b569-17c51ee2d6e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_91eb9840-4f5f-42c2-84e7-d2461d484bbf.xml, d3dhal/D3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE structure [Display Devices], display.d3dhal_dp2setclipplane, LPD3DHAL_DP2SETCLIPPLANE, LPD3DHAL_DP2SETCLIPPLANE structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE, _D3DHAL_DP2SETCLIPPLANE, *LPD3DHAL_DP2SETCLIPPLANE
+ms.keywords: LPD3DHAL_DP2SETCLIPPLANE, display.d3dhal_dp2setclipplane, d3dstrct_91eb9840-4f5f-42c2-84e7-d2461d484bbf.xml, _D3DHAL_DP2SETCLIPPLANE, LPD3DHAL_DP2SETCLIPPLANE structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2SETCLIPPLANE, d3dhal/D3DHAL_DP2SETCLIPPLANE, *LPD3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SETCLIPPLANE
 product: Windows
 targetos: Windows

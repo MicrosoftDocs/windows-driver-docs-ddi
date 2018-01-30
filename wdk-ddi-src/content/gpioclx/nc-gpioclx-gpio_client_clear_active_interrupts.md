@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Gpioclx.h
-apiname: 
+apiname:
 -	CLIENT_ClearActiveInterrupts
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
 
 # GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS callback
@@ -107,11 +107,11 @@ GpioClx calls the <i>CLIENT_ClearActiveInterrupts</i> callback function at eithe
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698247">GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
  
 

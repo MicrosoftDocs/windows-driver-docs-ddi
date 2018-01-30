@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_ENUM_INFO
-title: _VIDEO_CHILD_ENUM_INFO
+title: "_VIDEO_CHILD_ENUM_INFO"
 author: windows-driver-content
 description: Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
 old-location: display\video_child_enum_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce3b17e9-bcbd-46a4-b379-472abfdb4c2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO, _VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], display.video_child_enum_info, Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, video/PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices]
+ms.keywords: "_VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], video/VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, display.video_child_enum_info, VIDEO_CHILD_ENUM_INFO, video/PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, *PVIDEO_CHILD_ENUM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_CHILD_ENUM_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO
-req.product: Windows 10 or later.
+req.typenames: VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO
 ---
 
 # _VIDEO_CHILD_ENUM_INFO structure

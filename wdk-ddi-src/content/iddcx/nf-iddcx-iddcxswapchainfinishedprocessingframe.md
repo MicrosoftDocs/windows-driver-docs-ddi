@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxSwapChainFinishedProcessingFrame method [Display Devices], IddCxSwapChainFinishedProcessingFrame, iddcx/IddCxSwapChainFinishedProcessingFrame, display.iddcxswapchainfinishedprocessingframe
+ms.keywords: IddCxSwapChainFinishedProcessingFrame method [Display Devices], display.iddcxswapchainfinishedprocessingframe, iddcx/IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _Must_inspect_result_
-topictype: 
+req.irql: "_Must_inspect_result_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IddCxSwapChainFinishedProcessingFrame
 product: Windows
 targetos: Windows

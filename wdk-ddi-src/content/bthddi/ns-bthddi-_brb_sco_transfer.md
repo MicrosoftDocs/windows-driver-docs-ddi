@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_TRANSFER
-title: _BRB_SCO_TRANSFER
+title: "_BRB_SCO_TRANSFER"
 author: windows-driver-content
 description: The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write isochronous data to a SCO channel.
 old-location: bltooth\_brb_sco_transfer.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_TRANSFER structure [Bluetooth Devices], bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, _BRB_SCO_TRANSFER, bthddi/_BRB_SCO_TRANSFER, bltooth._brb_sco_transfer
+ms.keywords: bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bthddi/_BRB_SCO_TRANSFER, _BRB_SCO_TRANSFER, bltooth._brb_sco_transfer, _BRB_SCO_TRANSFER structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_SCO_TRANSFER
 product: Windows
 targetos: Windows
@@ -151,11 +151,11 @@ A pointer to the MDL input buffer. This value should be <b>NULL</b> when the
 
 
 
-##### - DataTag.SCO write
+#### SCO write
 
 
 
-##### - DataTag.
+#### 
 
 
 
@@ -184,13 +184,13 @@ If both
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
 <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

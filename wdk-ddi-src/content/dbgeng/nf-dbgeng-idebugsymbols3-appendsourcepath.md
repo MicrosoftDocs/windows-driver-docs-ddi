@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b82c2206-b81d-4ebf-a8fd-c08d7f57ffc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols::AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, debugger.appendsourcepath, IDebugSymbols3::AppendSourcePath, AppendSourcePath, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, AppendSourcePath method [Windows Debugging], IDebugSymbols2::AppendSourcePath, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, AppendSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, dbgeng/IDebugSymbols::AppendSourcePath
+ms.keywords: dbgeng/IDebugSymbols::AppendSourcePath, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, IDebugSymbols::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface, AppendSourcePath method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::AppendSourcePath, IDebugSymbols3::AppendSourcePath, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface, debugger.appendsourcepath, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, IDebugSymbols3, AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, IDebugSymbols2::AppendSourcePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.AppendSourcePath
 -	IDebugSymbols2.AppendSourcePath
 -	IDebugSymbols3.AppendSourcePath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::AppendSourcePath method
@@ -112,15 +112,15 @@ For more information about manipulating the source path, see <a href="https://ms
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 

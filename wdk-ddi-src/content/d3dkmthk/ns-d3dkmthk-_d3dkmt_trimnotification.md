@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRIMNOTIFICATION
-title: _D3DKMT_TRIMNOTIFICATION
+title: "_D3DKMT_TRIMNOTIFICATION"
 author: windows-driver-content
 description: D3DKMT_TRIMNOTIFICATION is used to notify a driver to trim its memory residency list.
 old-location: display\d3dkmt_trimnotification.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50E3F5CC-AFB9-4527-A812-44295373D80B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION structure [Display Devices], D3DKMT_TRIMNOTIFICATION, display.d3dkmt_trimnotification, d3dkmthk/D3DKMT_TRIMNOTIFICATION
+ms.keywords: display.d3dkmt_trimnotification, _D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION structure [Display Devices], d3dkmthk/D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_TRIMNOTIFICATION
 product: Windows
 targetos: Windows

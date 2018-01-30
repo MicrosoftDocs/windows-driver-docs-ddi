@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5fd3c915-77e0-4f81-9131-0eaf9d3493a3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, debugger.controlledoutputvalist, IDebugControl interface [Windows Debugging], ControlledOutputVaList method, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList, IDebugControl3, IDebugControl2::ControlledOutputVaList, IDebugControl3::ControlledOutputVaList, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method
+ms.keywords: IDebugControl3 interface [Windows Debugging], ControlledOutputVaList method, ControlledOutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], ControlledOutputVaList method, IDebugControl3, ControlledOutputVaList method [Windows Debugging], IDebugControl interface [Windows Debugging], ControlledOutputVaList method, IDebugControl2::ControlledOutputVaList, IDebugControl::ControlledOutputVaList, dbgeng/IDebugControl2::ControlledOutputVaList, dbgeng/IDebugControl::ControlledOutputVaList, dbgeng/IDebugControl3::ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl interface, ControlledOutputVaList, ControlledOutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl3::ControlledOutputVaList, IDebugControl_2ea55393-9577-4639-ac83-5cefb584ff3b.xml, debugger.controlledoutputvalist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.ControlledOutputVaList
 -	IDebugControl2.ControlledOutputVaList
 -	IDebugControl3.ControlledOutputVaList
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::ControlledOutputVaList method
@@ -462,17 +462,17 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
  
 

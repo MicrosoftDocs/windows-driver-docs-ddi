@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], KSAUDIO_MICROPHONE_COORDINATES, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, *PKSAUDIO_MICROPHONE_COORDINATES, ksmedia/PKSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices]
+ms.keywords: "*PKSAUDIO_MICROPHONE_COORDINATES, audio.ksaudio_microphone_coordinates, aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], ksmedia/KSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], ksmedia/PKSAUDIO_MICROPHONE_COORDINATES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIO_MICROPHONE_COORDINATES
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES
+req.typenames: "*PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES"
 ---
 
 # KSAUDIO_MICROPHONE_COORDINATES structure

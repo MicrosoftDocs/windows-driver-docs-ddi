@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b681f00-6cec-4598-abee-e9a97bd53582
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeSize method [Windows Debugging], GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::GetTypeSize, ExtRemoteTyped, debugger.extremotetyped_gettypesize, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, GetTypeSize, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method
+ms.keywords: ExtRemoteTyped::GetTypeSize, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, ExtRemoteTyped, GetTypeSize method [Windows Debugging], debugger.extremotetyped_gettypesize, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, GetTypeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.GetTypeSize
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::GetTypeSize method

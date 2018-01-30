@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNLOCK
-title: _D3DKMT_UNLOCK
+title: "_D3DKMT_UNLOCK"
 author: windows-driver-content
 description: The D3DKMT_UNLOCK structure describes allocations to unlock.
 old-location: display\d3dkmt_unlock.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 397d2ab0-89a0-42a8-a665-ca7e1ed5d8f3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_unlock, D3DKMT_UNLOCK, OpenGL_Structs_d4f3b3e8-fddd-41d2-8a7e-ee43f25a1f2d.xml, D3DKMT_UNLOCK structure [Display Devices], _D3DKMT_UNLOCK, d3dkmthk/D3DKMT_UNLOCK
+ms.keywords: d3dkmthk/D3DKMT_UNLOCK, OpenGL_Structs_d4f3b3e8-fddd-41d2-8a7e-ee43f25a1f2d.xml, D3DKMT_UNLOCK structure [Display Devices], _D3DKMT_UNLOCK, D3DKMT_UNLOCK, display.d3dkmt_unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_UNLOCK
 product: Windows
 targetos: Windows

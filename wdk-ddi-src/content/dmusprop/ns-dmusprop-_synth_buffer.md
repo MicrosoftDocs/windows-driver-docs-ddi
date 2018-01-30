@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_BUFFER
-title: _SYNTH_BUFFER
+title: "_SYNTH_BUFFER"
 author: windows-driver-content
 description: The SYNTH_BUFFER structure specifies DLS data that is being downloaded to a synthesizer.
 old-location: audio\synth_buffer.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51b16308-47a8-42e0-9393-fd93045e4e47
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.synth_buffer, dmusprop/PSYNTH_BUFFER, PSYNTH_BUFFER, dmusprop/SYNTH_BUFFER, *PSYNTH_BUFFER, aud-prop_297e165a-cb0d-4ea1-b69c-b65bcb4ee69a.xml, SYNTH_BUFFER structure [Audio Devices], SYNTH_BUFFER, PSYNTH_BUFFER structure pointer [Audio Devices], _SYNTH_BUFFER
+ms.keywords: dmusprop/PSYNTH_BUFFER, audio.synth_buffer, PSYNTH_BUFFER structure pointer [Audio Devices], SYNTH_BUFFER, PSYNTH_BUFFER, aud-prop_297e165a-cb0d-4ea1-b69c-b65bcb4ee69a.xml, _SYNTH_BUFFER, *PSYNTH_BUFFER, SYNTH_BUFFER structure [Audio Devices], dmusprop/SYNTH_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dmusprop.h
-apiname: 
+apiname:
 -	SYNTH_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_BUFFER, *PSYNTH_BUFFER
+req.typenames: "*PSYNTH_BUFFER, SYNTH_BUFFER"
 ---
 
 # _SYNTH_BUFFER structure

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setsourcepathwide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::SetSourcePathWide, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, SetSourcePathWide, IDebugSymbols3::SetSourcePathWide
+ms.keywords: IDebugSymbols3, SetSourcePathWide, SetSourcePathWide method [Windows Debugging], debugger.setsourcepathwide, SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::SetSourcePathWide, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, dbgeng/IDebugSymbols3::SetSourcePathWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.SetSourcePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::SetSourcePathWide method
@@ -107,11 +107,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4d381718-366b-483b-804d-b12b31832b35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide, IDebugControl4 interface [Windows Debugging], GetExpressionSyntaxNamesWide method, IDebugControl4, IDebugControl4::GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface, GetExpressionSyntaxNamesWide method [Windows Debugging], dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide
+ms.keywords: GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetExpressionSyntaxNamesWide method, GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface, GetExpressionSyntaxNamesWide, IDebugControl4, debugger.getexpressionsyntaxnameswide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetExpressionSyntaxNamesWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetExpressionSyntaxNamesWide method
@@ -154,11 +154,11 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
  
 

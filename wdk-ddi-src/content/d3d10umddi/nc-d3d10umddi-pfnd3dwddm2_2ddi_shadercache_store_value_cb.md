@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnShaderCacheStoreValue
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
@@ -102,9 +102,9 @@ The length of the key.
 The length of the input value.
 
 
-#### - pValue [in]
+#### - pPrecomputedHash [in]
 
-A pointer to an input value. 
+A hash value. 
 
 
 #### - pKey [in]
@@ -112,9 +112,9 @@ A pointer to an input value.
 A pointer to a key.
 
 
-#### - pPrecomputedHash [in]
+#### - pValue [in]
 
-A hash value. 
+A pointer to an input value. 
 
 
 ## -returns

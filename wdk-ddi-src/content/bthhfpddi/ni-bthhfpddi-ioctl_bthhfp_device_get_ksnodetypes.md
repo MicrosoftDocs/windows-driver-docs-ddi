@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bthhfpddi.h
-apiname: 
+apiname:
 -	IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
 product: Windows
 targetos: Windows
-req.typenames: *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION
+req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES IOCTL
@@ -91,13 +91,13 @@ None.
 </tr>
 </table></span></div>
 
-#### -InputType
- The KSNODE type for the intput.
-
-
-
 #### -OutputType
  The KSNODE type for the output.
+
+
+
+#### -InputType
+ The KSNODE type for the intput.
 
 
 
@@ -134,9 +134,9 @@ This request completes immediately.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
  
 

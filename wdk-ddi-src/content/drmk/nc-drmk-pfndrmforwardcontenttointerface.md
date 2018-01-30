@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Drmk.h
-apiname: 
+apiname:
 -	DRMForwardContentToInterface
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # PFNDRMFORWARDCONTENTTOINTERFACE callback

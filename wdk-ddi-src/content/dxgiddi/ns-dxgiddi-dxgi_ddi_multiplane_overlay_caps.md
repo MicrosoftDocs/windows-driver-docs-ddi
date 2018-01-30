@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 269d9a51-bc01-4de4-b160-35c725c174f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS, display.dxgi_ddi_multiplane_overlay_caps, DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
+ms.keywords: dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS, display.dxgi_ddi_multiplane_overlay_caps, DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 product: Windows
 targetos: Windows

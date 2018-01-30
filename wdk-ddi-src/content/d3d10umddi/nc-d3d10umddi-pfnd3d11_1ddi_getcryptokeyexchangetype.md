@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	GetCryptoKeyExchangeType
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback
@@ -101,14 +101,14 @@ The zero-based index of the key exchange type.
 
 
 
-#### - pDecodeProfile [in]
-
-A pointer to a GUID that specifies the decoder profile to query.
-
-
 #### - pCryptoType [in]
 
 A pointer to a GUID that specifies the type of encryption algorithm to query.
+
+
+#### - pDecodeProfile [in]
+
+A pointer to a GUID that specifies the decoder profile to query.
 
 
 #### - pKeyExchangeType [out]

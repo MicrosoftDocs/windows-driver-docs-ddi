@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONUSAGEINFO1
-title: _DXGK_ALLOCATIONUSAGEINFO1
+title: "_DXGK_ALLOCATIONUSAGEINFO1"
 author: windows-driver-content
 description: The DXGK_ALLOCATIONUSAGEINFO1 structure describes how an allocation can be used in DMA buffering.
 old-location: display\dxgk_allocationusageinfo1.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6de3363c-fcf8-4350-acee-b401bb3f82a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_allocationusageinfo1, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1, _DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices], DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml
+ms.keywords: DXGK_ALLOCATIONUSAGEINFO1, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, _DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices], display.dxgk_allocationusageinfo1, DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_ALLOCATIONUSAGEINFO1
 product: Windows
 targetos: Windows

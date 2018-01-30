@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, audio.iportclsruntimepower_unregisterpowercontrolcallback, IPortClsRuntimePower::UnregisterPowerControlCallback, IPortClsRuntimePower
+ms.keywords: audio.iportclsruntimepower_unregisterpowercontrolcallback, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, IPortClsRuntimePower, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IPortClsRuntimePower.UnregisterPowerControlCallback
 product: Windows
 targetos: Windows

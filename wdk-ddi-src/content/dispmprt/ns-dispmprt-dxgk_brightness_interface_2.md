@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0c0b877f-cef0-4e98-9f37-60f2d96b81bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_brightness_interface_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], *PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices]
+ms.keywords: PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices], *PDXGK_BRIGHTNESS_INTERFACE_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, display.dxgk_brightness_interface_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	DXGK_BRIGHTNESS_INTERFACE_2
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2
+req.typenames: DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2
 ---
 
 # DXGK_BRIGHTNESS_INTERFACE_2 structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PATCHFLAGS
-title: _DXGK_PATCHFLAGS
+title: "_DXGK_PATCHFLAGS"
 author: windows-driver-content
 description: The DXGK_PATCHFLAGS structure identifies, in bit-field flags, information about the direct memory access (DMA) buffer that requires patching.
 old-location: display\dxgk_patchflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], _DXGK_PATCHFLAGS, display.dxgk_patchflags, DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, DXGK_PATCHFLAGS
+ms.keywords: DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, display.dxgk_patchflags, DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PATCHFLAGS
 product: Windows
 targetos: Windows
@@ -116,13 +116,13 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
 
  
 

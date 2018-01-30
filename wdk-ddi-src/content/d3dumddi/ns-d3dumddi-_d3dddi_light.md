@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_LIGHT
-title: _D3DDDI_LIGHT
+title: "_D3DDDI_LIGHT"
 author: windows-driver-content
 description: The D3DDDI_LIGHT structure describes a set of lighting properties.
 old-location: display\d3dddi_light.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53204334-bf91-46ad-93cc-84a4ec17ae54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_LIGHT, D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, display.d3dddi_light, d3dumddi/D3DDDI_LIGHT
+ms.keywords: d3dumddi/D3DDDI_LIGHT, D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, display.d3dddi_light, _D3DDDI_LIGHT, D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_LIGHT
 product: Windows
 targetos: Windows

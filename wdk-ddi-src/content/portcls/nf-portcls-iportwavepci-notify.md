@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa65b3c3-196c-4cf4-8c9e-c0c9a33b2881
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Notify method [Audio Devices], IPortWavePci interface, audio.iportwavepci_notify, audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, IPortWavePci::Notify, portcls/IPortWavePci::Notify, Notify, IPortWavePci, Notify method [Audio Devices], IPortWavePci interface [Audio Devices], Notify method
+ms.keywords: IPortWavePci::Notify, portcls/IPortWavePci::Notify, audio.iportwavepci_notify, Notify method [Audio Devices], IPortWavePci interface, Notify, Notify method [Audio Devices], audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, IPortWavePci, IPortWavePci interface [Audio Devices], Notify method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortWavePci.Notify
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
 
  
 

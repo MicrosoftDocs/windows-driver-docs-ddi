@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUFFER_DESCRIPTOR
-title: _HDAUDIO_BUFFER_DESCRIPTOR
+title: "_HDAUDIO_BUFFER_DESCRIPTOR"
 author: windows-driver-content
 description: The HDAUDIO_BUFFER_DESCRIPTOR structure specifies a buffer descriptor, which is an entry in a buffer descriptor list (BDL).
 old-location: audio\hdaudio_buffer_descriptor.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: da07d3c2-0bd5-4e61-87b3-6fda8007cf5f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PHDAUDIO_BUFFER_DESCRIPTOR, _HDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR, audio.hdaudio_buffer_descriptor, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], HDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices]
+ms.keywords: audio.hdaudio_buffer_descriptor, HDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices], aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, *PHDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], PHDAUDIO_BUFFER_DESCRIPTOR, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR, _HDAUDIO_BUFFER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hdaudio.h
-apiname: 
+apiname:
 -	HDAUDIO_BUFFER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR
+req.typenames: "*PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR"
 ---
 
 # _HDAUDIO_BUFFER_DESCRIPTOR structure

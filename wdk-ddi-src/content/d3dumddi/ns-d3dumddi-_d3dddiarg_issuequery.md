@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_ISSUEQUERY
-title: _D3DDDIARG_ISSUEQUERY
+title: "_D3DDDIARG_ISSUEQUERY"
 author: windows-driver-content
 description: The D3DDDIARG_ISSUEQUERY structure describes how to process a query that was created by the CreateQuery function.
 old-location: display\d3dddiarg_issuequery.htm
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_ISSUEQUERY
 product: Windows
 targetos: Windows
@@ -82,9 +82,9 @@ For many query types, start query is never specified (that is, the <b>Begin</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_issuequeryflags.md">D3DDDI_ISSUEQUERYFLAGS</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 

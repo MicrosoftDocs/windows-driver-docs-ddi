@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTEvict function [Display Devices], display.d3dkmtevict, D3DKMTEvict, d3dkmthk/D3DKMTEvict
+ms.keywords: D3DKMTEvict, display.d3dkmtevict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTEvict
 product: Windows
 targetos: Windows

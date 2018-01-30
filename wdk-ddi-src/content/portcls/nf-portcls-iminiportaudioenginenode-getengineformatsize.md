@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, audio.iminiportaudioenginenode_getengineformatsize, IMiniportAudioEngineNode, GetEngineFormatSize method [Audio Devices], GetEngineFormatSize, IMiniportAudioEngineNode::GetEngineFormatSize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
+ms.keywords: GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportAudioEngineNode.GetEngineFormatSize
 product: Windows
 targetos: Windows

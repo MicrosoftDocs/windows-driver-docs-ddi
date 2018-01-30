@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e27c6af5-c9fa-4fe6-ad39-82ea59a0f27b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetFieldNameWide, GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldNameWide, IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, IDebugSymbols3, debugger.getfieldnamewide, GetFieldNameWide method [Windows Debugging], GetFieldNameWide
+ms.keywords: GetFieldNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getfieldnamewide, IDebugSymbols3, GetFieldNameWide, dbgeng/IDebugSymbols3::GetFieldNameWide, IDebugSymbols3::GetFieldNameWide, IDebugSymbols3 interface [Windows Debugging], GetFieldNameWide method, GetFieldNameWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetFieldNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetFieldNameWide method

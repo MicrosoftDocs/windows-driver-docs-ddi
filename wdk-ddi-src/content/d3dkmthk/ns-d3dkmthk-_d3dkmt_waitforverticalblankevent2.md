@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORVERTICALBLANKEVENT2
-title: _D3DKMT_WAITFORVERTICALBLANKEVENT2
+title: "_D3DKMT_WAITFORVERTICALBLANKEVENT2"
 author: windows-driver-content
 description: Describes parameters for multiple wait objects, including a vertical blank event. Supported starting with Windows 8.
 old-location: display\d3dkmt_waitforverticalblankevent2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b83e1d1c-e940-4e7b-8a74-82aee2c54391
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_WAITFORVERTICALBLANKEVENT2, display.d3dkmt_waitforverticalblankevent2, D3DKMT_WAITFORVERTICALBLANKEVENT2, D3DKMT_WAITFORVERTICALBLANKEVENT2 structure [Display Devices], d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2
+ms.keywords: display.d3dkmt_waitforverticalblankevent2, D3DKMT_WAITFORVERTICALBLANKEVENT2 structure [Display Devices], d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2, D3DKMT_WAITFORVERTICALBLANKEVENT2, _D3DKMT_WAITFORVERTICALBLANKEVENT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_WAITFORVERTICALBLANKEVENT2
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9895ee9a-4d8c-4cd4-8df4-fedaf864a178
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, IInterruptSync interface [Audio Devices], CallSynchronizedRoutine method, portcls/IInterruptSync::CallSynchronizedRoutine, IInterruptSync, audio.iinterruptsync_callsynchronizedroutine, CallSynchronizedRoutine method [Audio Devices], IInterruptSync interface, CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], IInterruptSync::CallSynchronizedRoutine
+ms.keywords: audio.iinterruptsync_callsynchronizedroutine, IInterruptSync::CallSynchronizedRoutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, CallSynchronizedRoutine, IInterruptSync interface [Audio Devices], CallSynchronizedRoutine method, portcls/IInterruptSync::CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], IInterruptSync interface, CallSynchronizedRoutine method [Audio Devices], IInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IInterruptSync.CallSynchronizedRoutine
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ Callers of <code>CallSynchronizedRoutine</code> must be running at an IRQL that 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
-
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
 
 <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ff4af0b-df1c-4529-9f80-c9e44d889a63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: netdispumdddi/MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], display.miracast_chunk_data
+ms.keywords: netdispumdddi/MIRACAST_CHUNK_DATA, display.miracast_chunk_data, MIRACAST_CHUNK_DATA structure [Display Devices], MIRACAST_CHUNK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	MIRACAST_CHUNK_DATA
 product: Windows
 targetos: Windows

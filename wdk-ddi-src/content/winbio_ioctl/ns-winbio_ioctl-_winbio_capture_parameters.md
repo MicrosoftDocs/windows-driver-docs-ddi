@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_CAPTURE_PARAMETERS
-title: _WINBIO_CAPTURE_PARAMETERS
+title: "_WINBIO_CAPTURE_PARAMETERS"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL uses the WINBIO_CAPTURE_PARAMETERS structure as input.
 old-location: biometric\winbio_capture_parameters.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 60f35000-c62d-4d1b-8592-862c2d74b7a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS, biometric.winbio_capture_parameters, _WINBIO_CAPTURE_PARAMETERS, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], *PWINBIO_CAPTURE_PARAMETERS
+ms.keywords: winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], *PWINBIO_CAPTURE_PARAMETERS, biometric.winbio_capture_parameters, _WINBIO_CAPTURE_PARAMETERS, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_ioctl.h
-apiname: 
+apiname:
 -	WINBIO_CAPTURE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_CAPTURE_PARAMETERS, *PWINBIO_CAPTURE_PARAMETERS
-req.product: Windows 10 or later.
+req.typenames: "*PWINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS"
 ---
 
 # _WINBIO_CAPTURE_PARAMETERS structure

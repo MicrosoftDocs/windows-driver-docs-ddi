@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e7930e4-ab3e-4981-9533-ed1da8c777dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_770eb1ba-2972-4133-b899-a096a53fc1de.xml, DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure [Display Devices], dxgiddi/DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, display.dxgi_ddi_arg_get_gamma_control_caps
+ms.keywords: dxgiddi/DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, display.dxgi_ddi_arg_get_gamma_control_caps, UMDisplayDriver_Dx10param_Structs_770eb1ba-2972-4133-b899-a096a53fc1de.xml, DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS
 product: Windows
 targetos: Windows

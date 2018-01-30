@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f82416c9-1f4a-4083-b4df-f0d97eae2127
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetInstructionOffset method [Windows Debugging], IDebugRegisters interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters::GetInstructionOffset, IDebugRegisters2::GetInstructionOffset, debugger.getinstructionoffset, IDebugRegisters2, GetInstructionOffset, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, dbgeng/IDebugRegisters2::GetInstructionOffset, GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetInstructionOffset
+ms.keywords: GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, IDebugRegisters::GetInstructionOffset, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, debugger.getinstructionoffset, dbgeng/IDebugRegisters::GetInstructionOffset, GetInstructionOffset, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, dbgeng/IDebugRegisters2::GetInstructionOffset, IDebugRegisters2::GetInstructionOffset, GetInstructionOffset method [Windows Debugging], IDebugRegisters2, IDebugRegisters interface [Windows Debugging], GetInstructionOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters.GetInstructionOffset
 -	IDebugRegisters2.GetInstructionOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::GetInstructionOffset method
@@ -110,11 +110,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
  
 

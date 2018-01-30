@@ -29,18 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 product: Windows
 targetos: Windows
-req.typenames: *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL

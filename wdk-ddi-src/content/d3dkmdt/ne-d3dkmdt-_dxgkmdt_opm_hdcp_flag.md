@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_HDCP_FLAG
-title: _DXGKMDT_OPM_HDCP_FLAG
+title: "_DXGKMDT_OPM_HDCP_FLAG"
 author: windows-driver-content
 description: The DXGKMDT_OPM_HDCP_FLAG enumeration identifies whether a protected output's physical connector is connected to a High-bandwidth Digital Content Protection (HDCP) repeater.
 old-location: display\dxgkmdt_opm_hdcp_flag.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 479a5913-eee6-4f39-9e51-d04708658bc2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmEnums_4969beac-7f4f-4bef-bd67-65599816c9ee.xml, DXGKMDT_OPM_HDCP_FLAG, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG_NONE, DXGKMDT_OPM_HDCP_FLAG_REPEATER, DXGKMDT_OPM_HDCP_FLAG enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_HDCP_FLAG_REPEATER, _DXGKMDT_OPM_HDCP_FLAG, DXGKMDT_OPM_HDCP_FLAG_NONE, display.dxgkmdt_opm_hdcp_flag, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG
+ms.keywords: DmEnums_4969beac-7f4f-4bef-bd67-65599816c9ee.xml, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG_REPEATER, DXGKMDT_OPM_HDCP_FLAG_NONE, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG_NONE, DXGKMDT_OPM_HDCP_FLAG_REPEATER, DXGKMDT_OPM_HDCP_FLAG enumeration [Display Devices], _DXGKMDT_OPM_HDCP_FLAG, display.dxgkmdt_opm_hdcp_flag, DXGKMDT_OPM_HDCP_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKMDT_OPM_HDCP_FLAG
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ An HDCP repeater is a device that allows multiple monitors to display the video 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
  
 

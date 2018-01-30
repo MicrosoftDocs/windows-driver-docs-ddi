@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75CBDD4F-618F-4618-9D53-4A8DF40992B0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, audio.iminiportaudioenginenode_getbuffersizerange, GetBufferSizeRange, IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode::GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface, GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode::GetBufferSizeRange
+ms.keywords: IMiniportAudioEngineNode::GetBufferSizeRange, GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface, GetBufferSizeRange method [Audio Devices], portcls/IMiniportAudioEngineNode::GetBufferSizeRange, IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, audio.iminiportaudioenginenode_getbuffersizerange, IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportAudioEngineNode.GetBufferSizeRange
 product: Windows
 targetos: Windows

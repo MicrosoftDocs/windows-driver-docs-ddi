@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_STATE_CONFIGURATION
-title: _VIDEO_CHILD_STATE_CONFIGURATION
+title: "_VIDEO_CHILD_STATE_CONFIGURATION"
 author: windows-driver-content
 description: The VIDEO_CHILD_STATE_CONFIGURATION structure contains an array of VIDEO_CHILD_STATE structures, each holding the state of a particular child device.
 old-location: display\video_child_state_configuration.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e298ef49-d285-426a-9028-78f7f54340b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_CHILD_STATE_CONFIGURATION, video/PVIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION, video/VIDEO_CHILD_STATE_CONFIGURATION, _VIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], *PVIDEO_CHILD_STATE_CONFIGURATION, display.video_child_state_configuration, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml
+ms.keywords: VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], _VIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], PVIDEO_CHILD_STATE_CONFIGURATION, Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml, video/PVIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION, video/VIDEO_CHILD_STATE_CONFIGURATION, display.video_child_state_configuration, VIDEO_CHILD_STATE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_CHILD_STATE_CONFIGURATION
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_CHILD_STATE_CONFIGURATION structure
@@ -99,13 +98,13 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
 
 <a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
  
 

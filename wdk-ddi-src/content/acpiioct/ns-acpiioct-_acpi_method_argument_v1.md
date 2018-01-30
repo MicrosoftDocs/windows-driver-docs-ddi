@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_METHOD_ARGUMENT_V1
-title: _ACPI_METHOD_ARGUMENT_V1
+title: "_ACPI_METHOD_ARGUMENT_V1"
 author: windows-driver-content
 description: The ACPI_METHOD_ARGUMENT structure contains the value of an input or output argument of an ACPI control method.
 old-location: acpi\acpi_method_argument.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 4038d5a5-9ce7-44cb-a6f0-3033617cfe6a
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, *PACPI_METHOD_ARGUMENT, acpiioct/ACPI_METHOD_ARGUMENT_V1, _ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1, acpi.acpi_method_argument, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices]
+ms.keywords: "*PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], _ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1, acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, *PACPI_METHOD_ARGUMENT, acpi.acpi_method_argument, acpiioct/ACPI_METHOD_ARGUMENT_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	ACPI_METHOD_ARGUMENT_V1
 product: Windows
 targetos: Windows
@@ -94,6 +94,26 @@ The type of the method argument, as specified by one of the following:
 
 
 
+#### ACPI_METHOD_ARGUMENT_INTEGER
+
+<b>Argument</b> contains an integer value of type ULONG.
+
+
+#### ACPI_METHOD_ARGUMENT_STRING
+
+The <b>Data</b> array contains a NULL-terminated ASCII string, and <b>DataLength</b> supplies the number of characters in the string, including the NULL terminator.
+
+
+#### ACPI_METHOD_ARGUMENT_BUFFER
+
+The <b>Data</b> array contains custom data, and <b>DataLength</b> supplies the number of consecutive array elements that contain the custom data, beginning with the <b>Data</b>[0] element.
+
+
+#### ACPI_METHOD_ARGUMENT_PACKAGE
+
+The <b>Data</b> array contains an ACPI package descriptor and <b>DataLength</b> supplies the number of consecutive array elements that contain the package descriptor, beginning with the <b>Data</b>[0] element. 
+
+
 ### -field DataLength
 
 The number of UCHAR elements in the <b>Data</b> array that contains the argument data.
@@ -104,29 +124,9 @@ The number of UCHAR elements in the <b>Data</b> array that contains the argument
 An argument value of type ULONG.
 
 
-##### - Type.ACPI_METHOD_ARGUMENT_STRING
-
-The <b>Data</b> array contains a NULL-terminated ASCII string, and <b>DataLength</b> supplies the number of characters in the string, including the NULL terminator.
-
-
-##### - Type.ACPI_METHOD_ARGUMENT_INTEGER
-
-<b>Argument</b> contains an integer value of type ULONG.
-
-
-##### - Type.ACPI_METHOD_ARGUMENT_PACKAGE
-
-The <b>Data</b> array contains an ACPI package descriptor and <b>DataLength</b> supplies the number of consecutive array elements that contain the package descriptor, beginning with the <b>Data</b>[0] element. 
-
-
 #### - Data
 
 An array of values of type UCHAR that contains argument data.
-
-
-##### - Type.ACPI_METHOD_ARGUMENT_BUFFER
-
-The <b>Data</b> array contains custom data, and <b>DataLength</b> supplies the number of consecutive array elements that contain the custom data, beginning with the <b>Data</b>[0] element.
 
 
 ## -remarks
@@ -158,11 +158,11 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 ## -see-also
 
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
 
  
 

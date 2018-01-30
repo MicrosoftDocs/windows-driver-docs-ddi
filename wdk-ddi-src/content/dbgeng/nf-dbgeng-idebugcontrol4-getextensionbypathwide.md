@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, debugger.getextensionbypathwide, dbgeng/IDebugControl4::GetExtensionByPathWide, IDebugControl4::GetExtensionByPathWide, IDebugControl4, GetExtensionByPathWide method [Windows Debugging]
+ms.keywords: GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetExtensionByPathWide, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, IDebugControl4, GetExtensionByPathWide, debugger.getextensionbypathwide, dbgeng/IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetExtensionByPathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetExtensionByPathWide method
@@ -113,9 +113,9 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
  
 

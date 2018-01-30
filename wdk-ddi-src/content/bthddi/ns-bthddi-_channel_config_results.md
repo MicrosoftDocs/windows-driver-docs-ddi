@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._CHANNEL_CONFIG_RESULTS
-title: _CHANNEL_CONFIG_RESULTS
+title: "_CHANNEL_CONFIG_RESULTS"
 author: windows-driver-content
 description: The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the buffer size of any extra options for the inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_results.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: cda3bfc6-7bdb-4b5a-8845-9a2ca1cc8014
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices], bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS, bthddi/CHANNEL_CONFIG_RESULTS, _CHANNEL_CONFIG_RESULTS, bthddi/PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], bltooth.channel_config_results
+ms.keywords: bthddi/CHANNEL_CONFIG_RESULTS, bthddi/PCHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS, bltooth.channel_config_results, PCHANNEL_CONFIG_RESULTS, _CHANNEL_CONFIG_RESULTS, bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	CHANNEL_CONFIG_RESULTS
 product: Windows
 targetos: Windows
-req.typenames: CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS
+req.typenames: "*PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS"
 ---
 
 # _CHANNEL_CONFIG_RESULTS structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2COLORFILL
-title: _D3DHAL_DP2COLORFILL
+title: "_D3DHAL_DP2COLORFILL"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. D3DHAL_DP2COLORFILL is used for color-fill operations when D3dDrawPrimitives2 responds to the D3DDP2OP_COLORFILL command token.
 old-location: display\d3dhal_dp2colorfill.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6cec8639-1d5e-4b24-8e02-a7ae62740fea
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_41b1733a-0f94-4e04-9f7d-dac688c2bc56.xml, display.d3dhal_dp2colorfill, d3dhal/D3DHAL_DP2COLORFILL, *LPD3DHAL_DP2COLORFILL, _D3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL structure pointer [Display Devices], D3DHAL_DP2COLORFILL structure [Display Devices], D3DHAL_DP2COLORFILL, d3dhal/LPD3DHAL_DP2COLORFILL
+ms.keywords: LPD3DHAL_DP2COLORFILL structure pointer [Display Devices], D3DHAL_DP2COLORFILL structure [Display Devices], d3dhal/D3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL, _D3DHAL_DP2COLORFILL, d3dstrct_41b1733a-0f94-4e04-9f7d-dac688c2bc56.xml, display.d3dhal_dp2colorfill, *LPD3DHAL_DP2COLORFILL, d3dhal/LPD3DHAL_DP2COLORFILL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2COLORFILL
 product: Windows
 targetos: Windows

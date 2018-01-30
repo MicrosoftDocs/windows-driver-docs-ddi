@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ResourceCopyRegion
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_RESOURCECOPYREGION callback
@@ -97,6 +97,16 @@ VOID APIENTRY ResourceCopyRegion(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to copy to.
+
+
 #### - DstSubresource [in]
 
  An index that indicates the destination subresource to copy to. 
@@ -112,14 +122,19 @@ VOID APIENTRY ResourceCopyRegion(
  The y-coordinate of the destination subresource. For one-dimensional (1-D) subresources, <i>DstY</i> is set to zero.
 
 
+#### - DstZ [in]
+
+ The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
+
+
 #### - hSrcResource [in]
 
  A handle to the source resource to copy from.
 
 
-#### - hDevice [in]
+#### - SrcSubresource [in]
 
- A handle to the display device (graphics context).
+ An index that indicates the source subresource to copy from. 
 
 
 #### - pSrcBox [in, optional]
@@ -127,21 +142,6 @@ VOID APIENTRY ResourceCopyRegion(
  A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a> structure that specifies a box that fits on either the source or destination subresource. If <i>pSrcBox</i> is <b>NULL</b>, the driver should copy the entire source subresouce to the destination.
 
 If the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a> structure are such that <b>left</b>&gt;=<b>right</b>, <b>top</b>&gt;=<b>bottom</b>, or <b>front</b>&gt;=<b>back</b>, then <i>pSrcBox</i> is considered empty, and <i>ResourceCopyRegion</i> must not perform any copy operation.
-
-
-#### - DstZ [in]
-
- The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to copy from. 
 
 
 ## -returns
@@ -244,11 +244,11 @@ The source and destination resources must have the same number of samples and qu
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

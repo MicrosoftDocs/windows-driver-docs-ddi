@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RECLAIMALLOCATIONS
-title: _D3DDDICB_RECLAIMALLOCATIONS
+title: "_D3DDDICB_RECLAIMALLOCATIONS"
 author: windows-driver-content
 description: Describes video memory resources that are to be reclaimed and that the user-mode display driver previously offered for reuse. Used with the pfnReclaimAllocationsCb function.
 old-location: display\d3dddicb_reclaimallocations.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61c8fdbf-b003-4caa-af13-ba6f1e22400c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], d3dumddi/D3DDDICB_RECLAIMALLOCATIONS
+ms.keywords: D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, _D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_RECLAIMALLOCATIONS
 product: Windows
 targetos: Windows
@@ -102,11 +102,11 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
  
 

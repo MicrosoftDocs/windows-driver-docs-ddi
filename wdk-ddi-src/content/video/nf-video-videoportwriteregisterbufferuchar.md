@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43ceb589-e90f-4090-88ed-ada813ac6a6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportwriteregisterbufferuchar, video/VideoPortWriteRegisterBufferUchar, VideoPortWriteRegisterBufferUchar, VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml, VideoPortWriteRegisterBufferUchar function [Display Devices]
+ms.keywords: display.videoportwriteregisterbufferuchar, VideoPortWriteRegisterBufferUchar, VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml, VideoPortWriteRegisterBufferUchar function [Display Devices], video/VideoPortWriteRegisterBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortWriteRegisterBufferUchar
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortWriteRegisterBufferUchar function

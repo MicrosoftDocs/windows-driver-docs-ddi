@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetSymbolPath method, debugger.getsymbolpath, IDebugSymbols2::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols3, GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, GetSymbolPath method [Windows Debugging], IDebugSymbols interface, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols2::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, dbgeng/IDebugSymbols2::GetSymbolPath, GetSymbolPath, debugger.getsymbolpath, GetSymbolPath method [Windows Debugging], dbgeng/IDebugSymbols::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetSymbolPath
 -	IDebugSymbols2.GetSymbolPath
 -	IDebugSymbols3.GetSymbolPath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetSymbolPath method
@@ -130,15 +130,15 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 

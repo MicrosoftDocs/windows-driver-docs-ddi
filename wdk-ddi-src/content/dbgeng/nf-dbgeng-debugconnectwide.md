@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DebugConnectWide, DebugConnectWide function [Windows Debugging], DebugConnectWide, debugger.debugconnectwide
+ms.keywords: dbgeng/DebugConnectWide, debugger.debugconnectwide, DebugConnectWide function [Windows Debugging], DebugConnectWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugConnectWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # DebugConnectWide function

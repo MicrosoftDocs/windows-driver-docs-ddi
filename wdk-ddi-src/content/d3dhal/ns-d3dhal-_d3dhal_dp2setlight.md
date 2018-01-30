@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETLIGHT
-title: _D3DHAL_DP2SETLIGHT
+title: "_D3DHAL_DP2SETLIGHT"
 author: windows-driver-content
 description: The D3DHAL_DP2SETLIGHT structure allows lights to be set for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setlight.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 442b5867-b420-46eb-a751-cd460641c505
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], *LPD3DHAL_DP2SETLIGHT, _D3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], display.d3dhal_dp2setlight, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, d3dhal/LPD3DHAL_DP2SETLIGHT
+ms.keywords: D3DHAL_DP2SETLIGHT, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, display.d3dhal_dp2setlight, _D3DHAL_DP2SETLIGHT, d3dhal/D3DHAL_DP2SETLIGHT, *LPD3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], d3dhal/LPD3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SETLIGHT
 product: Windows
 targetos: Windows

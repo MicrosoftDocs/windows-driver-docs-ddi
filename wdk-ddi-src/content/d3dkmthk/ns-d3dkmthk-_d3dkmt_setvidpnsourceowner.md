@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEOWNER
-title: _D3DKMT_SETVIDPNSOURCEOWNER
+title: "_D3DKMT_SETVIDPNSOURCEOWNER"
 author: windows-driver-content
 description: The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or releasing the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 old-location: display\d3dkmt_setvidpnsourceowner.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9154848b-ecbe-4f21-9d27-9013f97c5dde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER, _D3DKMT_SETVIDPNSOURCEOWNER, display.d3dkmt_setvidpnsourceowner, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices]
+ms.keywords: "_D3DKMT_SETVIDPNSOURCEOWNER, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, display.d3dkmt_setvidpnsourceowner, D3DKMT_SETVIDPNSOURCEOWNER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SETVIDPNSOURCEOWNER
 product: Windows
 targetos: Windows

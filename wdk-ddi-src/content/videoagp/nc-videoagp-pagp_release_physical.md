@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	videoagp.h
-apiname: 
+apiname:
 -	AgpReleasePhysical
 product: Windows
 targetos: Windows
-req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
 ---
 
 # PAGP_RELEASE_PHYSICAL callback

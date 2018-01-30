@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, DEBUG_OUTCBI_ANY_FORMAT, IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2, Output2, DEBUG_OUTCBI_DML, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2
+ms.keywords: Output2 method [Windows Debugging], DEBUG_OUTCBI_DML, IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, dbgeng/IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_TEXT, debugger.idebugoutputcallbacks2_output2, DEBUG_OUTCBI_ANY_FORMAT, Output2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugOutputCallbacks2.Output2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugOutputCallbacks2::Output2 method

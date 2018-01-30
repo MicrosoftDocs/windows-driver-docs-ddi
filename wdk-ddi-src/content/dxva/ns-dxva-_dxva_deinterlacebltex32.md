@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceBltEx32
-title: _DXVA_DeinterlaceBltEx32
+title: "_DXVA_DeinterlaceBltEx32"
 author: windows-driver-content
 description: The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate converted video with any supplied video substreams, and for writing the combined output to a destination surface. It is used for forwarding 32-bit DXVA_DeinterlaceBltEx calls on 64-bit drivers.
 old-location: display\dxva_deinterlacebltex32.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae88acca-5d29-4cca-acae-613632d565d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32 structure [Display Devices], DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml, display.dxva_deinterlacebltex32, _DXVA_DeinterlaceBltEx32
+ms.keywords: DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml, DXVA_DeinterlaceBltEx32 structure [Display Devices], display.dxva_deinterlacebltex32, _DXVA_DeinterlaceBltEx32, dxva/DXVA_DeinterlaceBltEx32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DeinterlaceBltEx32
 product: Windows
 targetos: Windows
@@ -126,11 +126,11 @@ Specifies a collection of flags that indicate changes in the current destination
 
 <a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a>
 
-<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
-<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
+<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], ksmedia/WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], PWAVEFORMATEXTENSIBLE, ksmedia/PWAVEFORMATEXTENSIBLE
+ms.keywords: PWAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], WAVEFORMATEXTENSIBLE, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE, aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], audio.waveformatextensible, *PWAVEFORMATEXTENSIBLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	WAVEFORMATEXTENSIBLE
 product: Windows
 targetos: Windows

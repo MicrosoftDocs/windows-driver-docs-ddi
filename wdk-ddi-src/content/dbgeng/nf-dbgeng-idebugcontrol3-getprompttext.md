@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d828cf1-991b-4c2d-882b-de56512a6737
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetPromptText, dbgeng/IDebugControl::GetPromptText, IDebugControl interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetPromptText, dbgeng/IDebugControl3::GetPromptText, GetPromptText, debugger.getprompttext, GetPromptText method [Windows Debugging], IDebugControl interface, GetPromptText method [Windows Debugging], IDebugControl::GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetPromptText method
+ms.keywords: dbgeng/IDebugControl2::GetPromptText, IDebugControl3 interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl interface, GetPromptText method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetPromptText, IDebugControl3, IDebugControl::GetPromptText, IDebugControl interface [Windows Debugging], GetPromptText method, dbgeng/IDebugControl::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, GetPromptText method [Windows Debugging], IDebugControl3::GetPromptText, GetPromptText, debugger.getprompttext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetPromptText
 -	IDebugControl2.GetPromptText
 -	IDebugControl3.GetPromptText
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetPromptText method
@@ -130,15 +130,15 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
  
 

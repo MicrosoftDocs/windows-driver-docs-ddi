@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1eddb631-db85-4243-89a4-a4ab042cee28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IServiceGroup::AddMember, AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, AddMember method [Audio Devices], IServiceGroup, IServiceGroup::AddMember, AddMember method [Audio Devices], IServiceGroup interface, IServiceGroup interface [Audio Devices], AddMember method
+ms.keywords: AddMember method [Audio Devices], IServiceGroup interface, IServiceGroup::AddMember, AddMember, IServiceGroup interface [Audio Devices], AddMember method, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::AddMember, AddMember method [Audio Devices], audio.iservicegroup_addmember, IServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IServiceGroup.AddMember
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ The <code>AddMember</code> method calls <b>AddRef</b> on the <i>pServiceSink</i>
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
  
 

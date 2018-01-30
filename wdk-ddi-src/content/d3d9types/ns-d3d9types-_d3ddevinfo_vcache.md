@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9types._D3DDEVINFO_VCACHE
-title: _D3DDEVINFO_VCACHE
+title: "_D3DDEVINFO_VCACHE"
 author: windows-driver-content
 description: DirectX 8.1 and later versions only. The D3DDEVINFO_VCACHE structure describes vertex-cache information of a device.
 old-location: display\d3ddevinfo_vcache.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3ddevinfo_vcache, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], LPD3DDEVINFO_VCACHE, _D3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], d3d9types/LPD3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE
+ms.keywords: D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE structure pointer [Display Devices], _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, *LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, display.d3ddevinfo_vcache, d3d9types/LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d9types.h
-apiname: 
+apiname:
 -	D3DDEVINFO_VCACHE
 product: Windows
 targetos: Windows
@@ -142,19 +142,19 @@ When the driver completes a vertex-cache query, the driver sets the total size o
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
-<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 D3DDP2OP_CREATEQUERY
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
 
 D3DDP2OP_ISSUEQUERY
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
 
  
 

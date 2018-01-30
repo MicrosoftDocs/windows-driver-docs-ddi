@@ -1,6 +1,6 @@
 ---
 UID: NS:umdprovider._UMDETW_ALLOCATION_USAGE
-title: _UMDETW_ALLOCATION_USAGE
+title: "_UMDETW_ALLOCATION_USAGE"
 author: windows-driver-content
 description: Indicates the reason for mapping from a Microsoft Direct3D memory allocation to a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.
 old-location: display\umdetw_allocation_usage.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], umdprovider/UMDETW_ALLOCATION_USAGE, _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage
+ms.keywords: UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, _UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], umdprovider/UMDETW_ALLOCATION_USAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	umdprovider.h
-apiname: 
+apiname:
 -	UMDETW_ALLOCATION_USAGE
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
 ---
 
 # _UMDETW_ALLOCATION_USAGE structure

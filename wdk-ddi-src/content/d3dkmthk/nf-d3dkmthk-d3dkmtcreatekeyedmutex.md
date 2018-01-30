@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, display.d3dkmtcreatekeyedmutex, d3dkmthk/D3DKMTCreateKeyedMutex
+ms.keywords: D3DKMTCreateKeyedMutex function [Display Devices], display.d3dkmtcreatekeyedmutex, D3DKMTCreateKeyedMutex, PFND3DKMT_CREATEKEYEDMUTEX, OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, d3dkmthk/D3DKMTCreateKeyedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCreateKeyedMutex
 product: Windows
 targetos: Windows

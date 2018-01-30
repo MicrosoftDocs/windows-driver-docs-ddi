@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_IN_MAXDISPLAYPIPELINERATE
 product: Windows
 targetos: Windows

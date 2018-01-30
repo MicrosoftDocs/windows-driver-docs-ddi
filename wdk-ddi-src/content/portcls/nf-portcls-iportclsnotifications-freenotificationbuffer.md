@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsNotifications, IPortClsNotifications::FreeNotificationBuffer, IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, portcls/IPortClsNotifications::FreeNotificationBuffer, FreeNotificationBuffer, audio.iportclsnotifications_freenotification, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface
+ms.keywords: audio.iportclsnotifications_freenotification, IPortClsNotifications::FreeNotificationBuffer, portcls/IPortClsNotifications::FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, FreeNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	IPortClsNotifications.FreeNotificationBuffer
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, GetEventSystem method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, GetEventSystem, GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4::GetEventSystem
+ms.keywords: IDebugSystemObjects3::GetEventSystem, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, dbgeng/IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, dbgeng/IDebugSystemObjects4::GetEventSystem, GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, debugger.geteventsystem, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects3.GetEventSystem
 -	IDebugSystemObjects4.GetEventSystem
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects4::GetEventSystem method
@@ -99,13 +99,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
  
 

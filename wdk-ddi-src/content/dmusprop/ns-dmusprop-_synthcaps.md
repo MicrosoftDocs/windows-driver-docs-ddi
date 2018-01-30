@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTHCAPS
-title: _SYNTHCAPS
+title: "_SYNTHCAPS"
 author: windows-driver-content
 description: The SYNTHCAPS structure specifies the capabilities of a synthesizer.
 old-location: audio\synthcaps.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, SYNTHCAPS structure [Audio Devices], PSYNTHCAPS, dmusprop/PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, *PSYNTHCAPS, _SYNTHCAPS, audio.synthcaps, dmusprop/SYNTHCAPS
+ms.keywords: PSYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, dmusprop/SYNTHCAPS, *PSYNTHCAPS, SYNTHCAPS structure [Audio Devices], audio.synthcaps, SYNTHCAPS, dmusprop/PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], _SYNTHCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dmusprop.h
-apiname: 
+apiname:
 -	SYNTHCAPS
 product: Windows
 targetos: Windows
@@ -86,6 +86,51 @@ Specifies the general capabilities of the driver. This member is a bitfield whos
 
 
 
+#### SYNTH_PC_DLS
+
+The driver supports downloadable sample collections (DLS Level 1).
+
+
+#### SYNTH_PC_EXTERNAL
+
+The synth represents a connection to external hardware.
+
+
+#### SYNTH_PC_SOFTWARESYNTH
+
+The driver implements a software synthesizer.
+
+
+#### SYNTH_PC_MEMORYSIZEFIXED
+
+The memory size given in the <b>MemorySize</b> member is valid and represents the maximum amount of sample memory in bytes. This flag is typically set when the sample memory is not system memory.
+
+
+#### SYNTH_PC_GMINHARDWARE
+
+The synth supports the General MIDI sound set in hardware.
+
+
+#### SYNTH_PC_GSINHARDWARE
+
+The synth supports the Roland GS sound set in hardware.
+
+
+#### SYNTH_PC_REVERB
+
+The synth supports reverb.
+
+
+#### SYNTH_PC_DLS2
+
+The driver supports downloadable sample collections (DLS Level 2).
+
+
+#### SYNTH_PC_SYSTEMMEMORY
+
+The synth can use system memory.
+
+
 ### -field MemorySize
 
 Specifies the amount of sample memory on the device (in bytes). This field should contain the value SYNTH_PC_SYSTEMMEMORY if the device uses system memory for sample memory with no limitation on the amount of memory allocated.
@@ -115,69 +160,24 @@ Specifies the effects that the rendering device is capable of producing. This me
 If the device supports none of these capabilities, set this member to SYNTH_EFFECT_NONE (zero).
 
 
-### -field Description
-
-Contains a text description of the device. This member is a WCHAR array containing a null-terminated string (for example, "Microsoft MPU-401").
-
-
-##### - Flags.SYNTH_PC_GSINHARDWARE
-
-The synth supports the Roland GS sound set in hardware.
-
-
-##### - Flags.SYNTH_PC_DLS2
-
-The driver supports downloadable sample collections (DLS Level 2).
-
-
-##### - Flags.SYNTH_PC_SYSTEMMEMORY
-
-The synth can use system memory.
-
-
-##### - Flags.SYNTH_PC_DLS
-
-The driver supports downloadable sample collections (DLS Level 1).
-
-
-##### - EffectFlags.SYNTH_EFFECT_CHORUS
-
-Rendering device can produce chorus effect.
-
-
-##### - EffectFlags.SYNTH_EFFECT_REVERB
+#### SYNTH_EFFECT_REVERB
 
 Rendering device can produce reverb effect.
 
 
-##### - Flags.SYNTH_PC_GMINHARDWARE
+#### SYNTH_EFFECT_CHORUS
 
-The synth supports the General MIDI sound set in hardware.
-
-
-##### - Flags.SYNTH_PC_MEMORYSIZEFIXED
-
-The memory size given in the <b>MemorySize</b> member is valid and represents the maximum amount of sample memory in bytes. This flag is typically set when the sample memory is not system memory.
+Rendering device can produce chorus effect.
 
 
-##### - Flags.SYNTH_PC_EXTERNAL
-
-The synth represents a connection to external hardware.
-
-
-##### - Flags.SYNTH_PC_REVERB
-
-The synth supports reverb.
-
-
-##### - Flags.SYNTH_PC_SOFTWARESYNTH
-
-The driver implements a software synthesizer.
-
-
-##### - EffectFlags.SYNTH_EFFECT_DELAY
+#### SYNTH_EFFECT_DELAY
 
 Rendering device can produce delay effect.
+
+
+### -field Description
+
+Contains a text description of the device. This member is a WCHAR array containing a null-terminated string (for example, "Microsoft MPU-401").
 
 
 ## -remarks

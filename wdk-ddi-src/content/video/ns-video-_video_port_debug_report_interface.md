@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_DEBUG_REPORT_INTERFACE
-title: _VIDEO_PORT_DEBUG_REPORT_INTERFACE
+title: "_VIDEO_PORT_DEBUG_REPORT_INTERFACE"
 author: windows-driver-content
 description: The VIDEO_PORT_DEBUG_REPORT_INTERFACE structure holds pointers to the Debug Report functions, which are implemented by the video port driver.
 old-location: display\video_port_debug_report_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, PVIDEO_PORT_DEBUG_REPORT_INTERFACE
+ms.keywords: VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, _VIDEO_PORT_DEBUG_REPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_PORT_DEBUG_REPORT_INTERFACE
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_PORT_DEBUG_REPORT_INTERFACE structure
@@ -109,6 +108,11 @@ Pointer to an interface reference function that is implemented by the video port
 Pointer to an interface dereference function that is implemented by the video port driver.
 
 
+#### - DbgReportCreate
+
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function. 
+
+
 #### - DbgReportSecondaryData
 
 Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a> function. 
@@ -117,11 +121,6 @@ Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/w
 #### - DbgReportComplete
 
 Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a> function. 
-
-
-#### - DbgReportCreate
-
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function. 
 
 
 ## -remarks
@@ -143,15 +142,15 @@ Windows XP SP2 and subsequent service packs
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
 
  
 

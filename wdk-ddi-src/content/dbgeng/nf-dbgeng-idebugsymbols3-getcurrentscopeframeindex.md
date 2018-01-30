@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 735934c5-70c4-4bd5-a5ff-e2d313191b69
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentScopeFrameIndex method [Windows Debugging], debugger.getcurrentscopeframeindex, GetCurrentScopeFrameIndex, IDebugSymbols3::GetCurrentScopeFrameIndex, IDebugSymbols3 interface [Windows Debugging], GetCurrentScopeFrameIndex method, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml, GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex, IDebugSymbols3
+ms.keywords: GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetCurrentScopeFrameIndex method, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml, IDebugSymbols3, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex, debugger.getcurrentscopeframeindex, IDebugSymbols3::GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetCurrentScopeFrameIndex
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetCurrentScopeFrameIndex method
@@ -107,13 +107,13 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563155">.frame (Set Local Context)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
  
 

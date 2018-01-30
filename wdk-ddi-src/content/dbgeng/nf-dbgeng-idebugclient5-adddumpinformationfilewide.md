@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient4::AddDumpInformationFileWide, IDebugClient5::AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5, AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml
+ms.keywords: AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, AddDumpInformationFileWide, dbgeng/IDebugClient4::AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], debugger.adddumpinformationfilewide, IDebugClient4::AddDumpInformationFileWide, IDebugClient5, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient4.AddDumpInformationFileWide
 -	IDebugClient5.AddDumpInformationFileWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::AddDumpInformationFileWide method
@@ -120,19 +120,19 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
 
  
 

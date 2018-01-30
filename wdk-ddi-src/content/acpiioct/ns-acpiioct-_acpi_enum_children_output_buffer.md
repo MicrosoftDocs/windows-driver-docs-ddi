@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
-title: _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
+title: "_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
 author: windows-driver-content
 description: The ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure contains an array of object names in an ACPI namespace.
 old-location: acpi\acpi_enum_children_output_buffer.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], acpi.acpi_enum_children_output_buffer, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
+ms.keywords: acpi.acpi_enum_children_output_buffer, _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 product: Windows
 targetos: Windows

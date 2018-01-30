@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DrawRectPatch
 product: Windows
 targetos: Windows
@@ -85,14 +85,14 @@ __checkReturn HRESULT APIENTRY DrawRectPatch(
 
 
 
-#### - pInfo [in]
-
- Optional. A pointer to a D3DDDIRECTPATCH_INFO structure that describes information about the rectangular patch.
-
-
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawrectpatch.md">D3DDDIARG_DRAWRECTPATCH</a> structure that describes the rectangular patch to draw.
+
+
+#### - pInfo [in]
+
+ Optional. A pointer to a D3DDDIRECTPATCH_INFO structure that describes information about the rectangular patch.
 
 
 #### - pPatch [in]

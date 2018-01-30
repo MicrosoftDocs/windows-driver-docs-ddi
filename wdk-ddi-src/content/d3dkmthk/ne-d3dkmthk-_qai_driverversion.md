@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._QAI_DRIVERVERSION
-title: _QAI_DRIVERVERSION
+title: "_QAI_DRIVERVERSION"
 author: windows-driver-content
 description: The D3DKMT_DRIVERVERSION enumeration type contains values that indicate the version of the display driver model that the display miniport driver supports.
 old-location: display\d3dkmt_driverversion.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12ac73ed-f829-4f22-bca9-ccc1dc29f4c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_1, _QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/, KMT_DRIVERVERSION_WDDM_1_3, display.d3dkmt_driverversion, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, D3DKMT_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_0, _QAI_DRIVERVERSION enumeration [Display Devices], OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, d3dkmthk/_QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE
+ms.keywords: "_QAI_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, KMT_DRIVERVERSION_WDDM_2_0, D3DKMT_DRIVERVERSION enumeration [Display Devices], D3DKMT_DRIVERVERSION, OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, _QAI_DRIVERVERSION, display.d3dkmt_driverversion, d3dkmthk/_QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, KMT_DRIVERVERSION_WDDM_1_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DRIVERVERSION
 product: Windows
 targetos: Windows

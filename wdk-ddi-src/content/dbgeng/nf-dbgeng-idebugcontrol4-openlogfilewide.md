@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1e69812e-077e-476f-a253-f0c39575eb32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::OpenLogFileWide, OpenLogFileWide method [Windows Debugging], IDebugControl4 interface, debugger.openlogfilewide, IDebugControl4::OpenLogFileWide, IDebugControl4, OpenLogFileWide, OpenLogFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], OpenLogFileWide method
+ms.keywords: OpenLogFileWide method [Windows Debugging], IDebugControl4 interface, OpenLogFileWide, dbgeng/IDebugControl4::OpenLogFileWide, IDebugControl4 interface [Windows Debugging], OpenLogFileWide method, IDebugControl4, debugger.openlogfilewide, IDebugControl4::OpenLogFileWide, OpenLogFileWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.OpenLogFileWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::OpenLogFileWide method
@@ -115,17 +115,17 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceQueryAvailableModes
-title: _DXVA_DeinterlaceQueryAvailableModes
+title: "_DXVA_DeinterlaceQueryAvailableModes"
 author: windows-driver-content
 description: The DXVA_DeinterlaceQueryAvailableModes structure describes the available deinterlacing or frame-rate conversion modes for a particular input video format.
 old-location: display\dxva_deinterlacequeryavailablemodes.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], _DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, dxva/DXVA_DeinterlaceQueryAvailableModes
+ms.keywords: DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], dxva/DXVA_DeinterlaceQueryAvailableModes, _DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DeinterlaceQueryAvailableModes
 product: Windows
 targetos: Windows

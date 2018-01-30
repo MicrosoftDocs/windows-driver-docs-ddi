@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETSTREAMSOURCE
-title: _D3DDDIARG_SETSTREAMSOURCE
+title: "_D3DDDIARG_SETSTREAMSOURCE"
 author: windows-driver-content
 description: The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer.
 old-location: display\d3dddiarg_setstreamsource.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a178ef0-0741-4b0c-a688-cae3923135ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_SETSTREAMSOURCE, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource, UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml
+ms.keywords: "_D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], d3dumddi/D3DDDIARG_SETSTREAMSOURCE, UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETSTREAMSOURCE
 product: Windows
 targetos: Windows

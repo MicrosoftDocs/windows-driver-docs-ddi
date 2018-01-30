@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	Discard(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_DISCARD callback
@@ -96,9 +96,9 @@ A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 
 
-#### - pRects [in, optional]
+#### - hDevice
 
-An optional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
+A handle to the display device (graphics context).
 
 
 #### - hResourceOrView
@@ -106,9 +106,9 @@ An optional array of <a href="https://msdn.microsoft.com/library/windows/hardwar
 A pointer to a handle to the resource or to the view that is to be discarded.
 
 
-#### - hDevice
+#### - pRects [in, optional]
 
-A handle to the display device (graphics context).
+An optional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <i>Discard(D3D11_1)</i> function discards the entire surface.
 
 
 ## -returns

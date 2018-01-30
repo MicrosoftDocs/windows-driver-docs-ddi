@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_COMMAND_HEADER
-title: _BTH_COMMAND_HEADER
+title: "_BTH_COMMAND_HEADER"
 author: windows-driver-content
 description: The BTH_COMMAND_HEADER structure specifies header information for a vendor-specific HCI command.
 old-location: bltooth\bth_command_header.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 2ed2196f-a966-4766-9acd-f0beca20ed26
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, bltooth.bth_command_header, _BTH_COMMAND_HEADER, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], BTH_COMMAND_HEADER structure [Bluetooth Devices], bthioctl/BTH_COMMAND_HEADER, PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER
+ms.keywords: PBTH_COMMAND_HEADER, bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, *PBTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER structure [Bluetooth Devices], bthioctl/BTH_COMMAND_HEADER, BTH_COMMAND_HEADER, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], bltooth.bth_command_header, _BTH_COMMAND_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Available in Windows Vista, and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Available in Windows Vista, and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthioctl.h
-apiname: 
+apiname:
 -	BTH_COMMAND_HEADER
 product: Windows
 targetos: Windows
-req.typenames: BTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER
+req.typenames: "*PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER"
 ---
 
 # _BTH_COMMAND_HEADER structure

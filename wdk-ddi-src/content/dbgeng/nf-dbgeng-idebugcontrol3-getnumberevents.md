@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb570110-a0a5-4a95-9a26-c4e4ada309b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberevents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, dbgeng/IDebugControl3::GetNumberEvents, GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging], IDebugControl3 interface, GetNumberEvents, IDebugControl3 interface [Windows Debugging], GetNumberEvents method, IDebugControl3, IDebugControl3::GetNumberEvents
+ms.keywords: GetNumberEvents method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetNumberEvents, IDebugControl3, GetNumberEvents, GetNumberEvents method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetNumberEvents method, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, debugger.getnumberevents, IDebugControl3::GetNumberEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetNumberEvents
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetNumberEvents method

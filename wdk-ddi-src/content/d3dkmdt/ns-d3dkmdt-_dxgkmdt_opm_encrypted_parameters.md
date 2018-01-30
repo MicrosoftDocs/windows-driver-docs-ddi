@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ENCRYPTED_PARAMETERS
-title: _DXGKMDT_OPM_ENCRYPTED_PARAMETERS
+title: "_DXGKMDT_OPM_ENCRYPTED_PARAMETERS"
 author: windows-driver-content
 description: The DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure contains data that is encrypted with the public key from an appropriate certificate.
 old-location: display\dxgkmdt_opm_encrypted_parameters.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43aa91cb-584e-47b7-a6d4-2e95adf24a28
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_760ebc6b-c03b-468d-b4b0-29faabd65cd1.xml, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, display.dxgkmdt_opm_encrypted_parameters, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/DXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS structure pointer [Display Devices], DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure [Display Devices]
+ms.keywords: "*PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure [Display Devices], display.dxgkmdt_opm_encrypted_parameters, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DmStructs_760ebc6b-c03b-468d-b4b0-29faabd65cd1.xml, _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/DXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKMDT_OPM_ENCRYPTED_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS
+req.typenames: DXGKMDT_OPM_ENCRYPTED_PARAMETERS, *PDXGKMDT_OPM_ENCRYPTED_PARAMETERS
 ---
 
 # _DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure

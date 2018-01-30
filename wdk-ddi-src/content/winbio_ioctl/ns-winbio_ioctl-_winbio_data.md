@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_DATA
-title: _WINBIO_DATA
+title: "_WINBIO_DATA"
 author: windows-driver-content
 description: The WINBIO_DATA structure specifies data in IOCTL payloads.
 old-location: biometric\winbio_data.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 00dc716c-621f-4312-bf53-6bc3ab492faa
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_DATA, winbio_ioctl/WINBIO_DATA, *PWINBIO_DATA, biometric_ref_1d08ec8c-d73e-462f-a2f3-dce508bc159f.xml, biometric.winbio_data, PWINBIO_DATA structure pointer [Biometric Devices], winbio_ioctl/PWINBIO_DATA, _WINBIO_DATA, PWINBIO_DATA, WINBIO_DATA structure [Biometric Devices]
+ms.keywords: "*PWINBIO_DATA, _WINBIO_DATA, PWINBIO_DATA structure pointer [Biometric Devices], WINBIO_DATA, biometric.winbio_data, WINBIO_DATA structure [Biometric Devices], winbio_ioctl/WINBIO_DATA, PWINBIO_DATA, biometric_ref_1d08ec8c-d73e-462f-a2f3-dce508bc159f.xml, winbio_ioctl/PWINBIO_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_ioctl.h
-apiname: 
+apiname:
 -	WINBIO_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_DATA, WINBIO_DATA
-req.product: Windows 10 or later.
+req.typenames: "*PWINBIO_DATA, WINBIO_DATA"
 ---
 
 # _WINBIO_DATA structure

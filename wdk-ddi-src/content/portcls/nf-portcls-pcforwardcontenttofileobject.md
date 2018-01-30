@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3cad8e61-e016-415a-9aa9-1169267dc729
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_2560382f-57c9-4d3c-9ba0-330374e18663.xml, portcls/PcForwardContentToFileObject, PcForwardContentToFileObject, PcForwardContentToFileObject function [Audio Devices], audio.pcforwardcontenttofileobject
+ms.keywords: PcForwardContentToFileObject function [Audio Devices], PcForwardContentToFileObject, audpc-routines_2560382f-57c9-4d3c-9ba0-330374e18663.xml, portcls/PcForwardContentToFileObject, audio.pcforwardcontenttofileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcForwardContentToFileObject
 product: Windows
 targetos: Windows

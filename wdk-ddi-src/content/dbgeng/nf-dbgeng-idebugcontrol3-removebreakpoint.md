@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce0f5e42-3f4e-48e1-9e73-96bca96e8e23
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::RemoveBreakpoint, IDebugControl2::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, IDebugControl3, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl interface [Windows Debugging], RemoveBreakpoint method, debugger.removebreakpoint, dbgeng/IDebugControl::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::RemoveBreakpoint, IDebugControl::RemoveBreakpoint, RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface
+ms.keywords: dbgeng/IDebugControl::RemoveBreakpoint, dbgeng/IDebugControl2::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, debugger.removebreakpoint, IDebugControl3, IDebugControl interface [Windows Debugging], RemoveBreakpoint method, IDebugControl::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, IDebugControl3::RemoveBreakpoint, dbgeng/IDebugControl3::RemoveBreakpoint, RemoveBreakpoint, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, IDebugControl2::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.RemoveBreakpoint
 -	IDebugControl2.RemoveBreakpoint
 -	IDebugControl3.RemoveBreakpoint
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::RemoveBreakpoint method
@@ -109,15 +109,15 @@ After <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called, the break
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

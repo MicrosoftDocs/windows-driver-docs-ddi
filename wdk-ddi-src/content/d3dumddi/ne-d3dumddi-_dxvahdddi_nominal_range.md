@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_NOMINAL_RANGE
-title: _DXVAHDDDI_NOMINAL_RANGE
+title: "_DXVAHDDDI_NOMINAL_RANGE"
 author: windows-driver-content
 description: Indicates the luminance range of YUV data.
 old-location: display\dxvahdddi_nominal_range.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 952BE36C-0F53-47C3-9C95-E6ECAB9D36D1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE, display.dxvahdddi_nominal_range, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], DXVAHDDDI_NOMINAL_RANGE_16_235, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255
+ms.keywords: DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, _DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, DXVAHDDDI_NOMINAL_RANGE_16_235, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, display.dxvahdddi_nominal_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_NOMINAL_RANGE
 product: Windows
 targetos: Windows

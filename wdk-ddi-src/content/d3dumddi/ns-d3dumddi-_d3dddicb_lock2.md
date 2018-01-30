@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_LOCK2
-title: _D3DDDICB_LOCK2
+title: "_D3DDDICB_LOCK2"
 author: windows-driver-content
 description: D3DDDICB_LOCK2 describes parameters for locking an allocation.
 old-location: display\d3dddicb_lock2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71E2E98D-4C97-4C04-A379-88C2A7CC8428
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_LOCK2, display.d3dddicb_lock2, D3DDDICB_LOCK2, _D3DDDICB_LOCK2, D3DDDICB_LOCK2 structure [Display Devices]
+ms.keywords: D3DDDICB_LOCK2, d3dumddi/D3DDDICB_LOCK2, _D3DDDICB_LOCK2, display.d3dddicb_lock2, D3DDDICB_LOCK2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_LOCK2
 product: Windows
 targetos: Windows

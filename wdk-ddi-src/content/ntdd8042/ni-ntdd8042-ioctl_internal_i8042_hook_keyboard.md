@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdd8042.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
 product: Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_KEYBOARD IOCTL
@@ -164,21 +164,21 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_INVALID_PARAMETER
-
-<b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_KEYBOARD structure.
-
-
 #### -STATUS_SUCCESS
 
 The request completed successfully. 
 
 
+#### -STATUS_INVALID_PARAMETER
+
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_KEYBOARD structure.
+
+
 ## -see-also
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_keyboard.md">INTERNAL_I8042_HOOK_KEYBOARD</a>
-
 <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
+
+<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_keyboard.md">INTERNAL_I8042_HOOK_KEYBOARD</a>
 
  
 

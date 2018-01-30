@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b80efaf0-ecee-40cd-befb-2139a20840a5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], audio.ksrtaudio_buffer, PKSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER, aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, ksmedia/KSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], *PKSRTAUDIO_BUFFER
+ms.keywords: KSRTAUDIO_BUFFER structure [Audio Devices], KSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER, ksmedia/KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSRTAUDIO_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER
+req.typenames: "*PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER"
 ---
 
 # KSRTAUDIO_BUFFER structure
@@ -81,7 +81,7 @@ Specifies the buffer size, in bytes. The driver sets this member to the actual s
 
 ### -field CallMemoryBarrier
 
-Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE </a>,
+Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="https://msdn.microsoft.com/14cde545-e9bb-4b96-ba10-a63595e8a107">MEMORY_CACHING_TYPE </a>,
 
 
 ## -remarks
@@ -93,11 +93,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537494">KSRTAUDIO_BUFFER_PROPERTY</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537494">KSRTAUDIO_BUFFER_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a>
 
  
 

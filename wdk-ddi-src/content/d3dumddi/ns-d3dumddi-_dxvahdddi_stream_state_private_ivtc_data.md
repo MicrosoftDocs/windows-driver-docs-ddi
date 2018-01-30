@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
-title: _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+title: "_DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA"
 author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-state data that is used to query the inverse telecine statistics from the driver.
 old-location: display\dxvahdddi_stream_state_private_ivtc_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_stream_state_private_ivtc_data, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+ms.keywords: "_DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, display.dxvahdddi_stream_state_private_ivtc_data, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 product: Windows
 targetos: Windows

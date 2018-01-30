@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._ENG_EVENT
-title: _ENG_EVENT
+title: "_ENG_EVENT"
 author: windows-driver-content
 description: The ENG_EVENT structure is reserved for system use.
 old-location: display\eng_event.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c785e23-5b80-4518-8a90-3f46e8ad9b1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.eng_event, PENG_EVENT structure pointer [Display Devices], ntddvdeo/ENG_EVENT, ENG_EVENT structure [Display Devices], PENG_EVENT, *PEVENT, ntddvdeo/PENG_EVENT, _ENG_EVENT, ENG_EVENT, Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, *PENG_EVENT
+ms.keywords: PENG_EVENT structure pointer [Display Devices], *PEVENT, Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, *PENG_EVENT, PENG_EVENT, display.eng_event, ENG_EVENT structure [Display Devices], ENG_EVENT, ntddvdeo/ENG_EVENT, ntddvdeo/PENG_EVENT, _ENG_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	ENG_EVENT
 product: Windows
 targetos: Windows
-req.typenames: ENG_EVENT, *PENG_EVENT, *PEVENT
+req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
 ---
 
 # _ENG_EVENT structure

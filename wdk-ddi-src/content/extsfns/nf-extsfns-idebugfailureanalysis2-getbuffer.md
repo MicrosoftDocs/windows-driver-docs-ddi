@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_getbuffer, GetBuffer, extsfns/IDebugFailureAnalysis2::GetBuffer, GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], GetBuffer method, GetBuffer method [Windows Debugging], IDebugFailureAnalysis2::GetBuffer, IDebugFailureAnalysis2
+ms.keywords: GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], GetBuffer method, debugger.idebugfailureanalysis2_getbuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2::GetBuffer, extsfns/IDebugFailureAnalysis2::GetBuffer, GetBuffer, GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	IDebugFailureAnalysis2.GetBuffer
 product: Windows
 targetos: Windows
@@ -100,15 +100,15 @@ If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-A
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

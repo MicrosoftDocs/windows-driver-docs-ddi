@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: InputWide, InputWide method [Windows Debugging], dbgeng/IDebugControl4::InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, debugger.inputwide, IDebugControl4, IDebugControl4::InputWide, InputWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4::InputWide, IDebugControl4, dbgeng/IDebugControl4::InputWide, debugger.inputwide, InputWide method [Windows Debugging], InputWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.InputWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::InputWide method

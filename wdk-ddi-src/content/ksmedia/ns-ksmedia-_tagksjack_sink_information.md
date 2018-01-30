@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSJACK_SINK_INFORMATION
-title: _tagKSJACK_SINK_INFORMATION
+title: "_tagKSJACK_SINK_INFORMATION"
 author: windows-driver-content
 description: The KSJACK_SINK_INFORMATION structure specifies information about a display-related digital audio device, such as an HDMI device or a display port.
 old-location: audio\ksjack_sink_information.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], ksmedia/PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml
+ms.keywords: "_tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, ksmedia/KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], ksmedia/PKSJACK_SINK_INFORMATION, audio.ksjack_sink_information, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], *PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSJACK_SINK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION
+req.typenames: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION"
 ---
 
 # _tagKSJACK_SINK_INFORMATION structure
@@ -128,7 +128,7 @@ Reserved.
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
  
 

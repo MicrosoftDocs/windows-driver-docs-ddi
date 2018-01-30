@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: d3ad851d-ba09-4052-a2d0-d6cb8315e04f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes
+ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidpi/HidP_TranslateUsagesToI8042ScanCodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Hidparse.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_TranslateUsagesToI8042ScanCodes
 product: Windows
 targetos: Windows
@@ -101,6 +101,16 @@ Identifies the key direction for the specified change usage list.
 </table></span></div>
 
 
+#### HidP_Keyboard_Break
+
+Specifies a <i>break</i> direction (key up). The changed usage list contains the usages set to OFF that were previously set to ON (which corresponds to the keys that were previously down, but are now up).
+
+
+#### HidPKeyboard_Make
+
+Specifies a <i>make</i> direction (key down). The changed usage list contains the usages set to ON that were previously set to OFF (which corresponds to the keys that were previously up, but now are down).
+
+
 ### -param ModifierState [in, out]
 
 Pointer to a _HIDP_KEYBOARD_MODIFIER_STATE structure that the caller maintains for use by the translate usages routine. The modifier state structure identifies the state of the keyboard modifier keys. 
@@ -154,34 +164,24 @@ Pointer to a caller-supplied PHIDP_INSERT_SCANCODES-typed callback routine that 
 </table></span></div>
 
 
-### -param InsertCodesContext [in, optional]
-
-Pointer to a caller-defined context that the translate usage routine passes to the <i>InsertCodesProcedure</i> routine.
-
-
-##### - InsertCodesProcedure.Context
+#### Context
 
 Pointer to the context of the caller of the translate usage routine. The translate usage routine passes the <i>InsertCodesContext</i> pointer to the <i>InsertCodesProcedure</i> routine.
 
 
-##### - InsertCodesProcedure.Length
-
-Specifies the length, in bytes, of the scan code. A scan code cannot exceed four bytes.
-
-
-##### - InsertCodesProcedure.NewScanCodes
+#### NewScanCodes
 
 Pointer to the first byte of a scan code that the translate usage routine returns to the caller of the translate usage routine.
 
 
-##### - KeyAction.HidP_Keyboard_Break
+#### Length
 
-Specifies a <i>break</i> direction (key up). The changed usage list contains the usages set to OFF that were previously set to ON (which corresponds to the keys that were previously down, but are now up).
+Specifies the length, in bytes, of the scan code. A scan code cannot exceed four bytes.
 
 
-##### - KeyAction.HidPKeyboard_Make
+### -param InsertCodesContext [in, optional]
 
-Specifies a <i>make</i> direction (key down). The changed usage list contains the usages set to ON that were previously set to OFF (which corresponds to the keys that were previously up, but now are down).
+Pointer to a caller-defined context that the translate usage routine passes to the <i>InsertCodesProcedure</i> routine.
 
 
 ## -returns
@@ -268,11 +268,11 @@ Update the previous usage list to the current usage list.
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_usagelistdifference.md">HidP_UsageListDifference</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_usagelistdifference.md">HidP_UsageListDifference</a>
 
  
 

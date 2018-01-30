@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e75020cf-39b4-434c-b071-dc75de6cc81b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSetVidPnSourceOwner, OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml, display.d3dkmtsetvidpnsourceowner, D3DKMTSetVidPnSourceOwner, D3DKMTSetVidPnSourceOwner function [Display Devices]
+ms.keywords: D3DKMTSetVidPnSourceOwner function [Display Devices], d3dkmthk/D3DKMTSetVidPnSourceOwner, display.d3dkmtsetvidpnsourceowner, D3DKMTSetVidPnSourceOwner, OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTSetVidPnSourceOwner
 product: Windows
 targetos: Windows

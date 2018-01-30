@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PROCAMPVALUES
-title: _DXVADDI_PROCAMPVALUES
+title: "_DXVADDI_PROCAMPVALUES"
 author: windows-driver-content
 description: The DXVADDI_PROCAMPVALUES structure describes the ProcAmp control adjustment values.
 old-location: display\dxvaddi_procampvalues.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bce6931d-af45-42aa-9be2-ded07f98c300
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_PROCAMPVALUES, _DXVADDI_PROCAMPVALUES, display.dxvaddi_procampvalues, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES structure [Display Devices], DXVADDI_PROCAMPVALUES
+ms.keywords: d3dumddi/DXVADDI_PROCAMPVALUES, display.dxvaddi_procampvalues, _DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES structure [Display Devices], DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_PROCAMPVALUES
 product: Windows
 targetos: Windows

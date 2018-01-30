@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff51d0d1-47f1-4df6-b671-d74f791d778b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, dbgeng/IDebugSymbols2::GetModuleByOffset, GetModuleByOffset, IDebugSymbols2::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleByOffset, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, dbgeng/IDebugSymbols::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleByOffset, IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset
+ms.keywords: GetModuleByOffset, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols3::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, GetModuleByOffset method [Windows Debugging], dbgeng/IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset, dbgeng/IDebugSymbols2::GetModuleByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, dbgeng/IDebugSymbols3::GetModuleByOffset, IDebugSymbols2::GetModuleByOffset, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols::GetModuleByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetModuleByOffset
 -	IDebugSymbols2.GetModuleByOffset
 -	IDebugSymbols3.GetModuleByOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetModuleByOffset method
@@ -127,15 +127,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0BD6FCB7-1705-4343-AD41-7362FE095ECB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetStreamChannelVolume, IMiniportStreamAudioEngineNode::GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode, GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelVolume method, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume
+ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelVolume method, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], GetStreamChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelVolume
 product: Windows
 targetos: Windows

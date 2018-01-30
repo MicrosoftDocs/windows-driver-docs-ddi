@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 932953c3-828f-4dcd-918e-5b3b5d8def1c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortReleaseDeviceLock, VideoPortReleaseDeviceLock, VideoPort_Functions_509d905b-a70f-4932-975f-62d4c90c77b9.xml, VideoPortReleaseDeviceLock function [Display Devices], display.videoportreleasedevicelock
+ms.keywords: display.videoportreleasedevicelock, VideoPort_Functions_509d905b-a70f-4932-975f-62d4c90c77b9.xml, video/VideoPortReleaseDeviceLock, VideoPortReleaseDeviceLock function [Display Devices], VideoPortReleaseDeviceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortReleaseDeviceLock
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortReleaseDeviceLock function

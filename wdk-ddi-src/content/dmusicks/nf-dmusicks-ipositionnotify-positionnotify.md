@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1C29A0B4-E50D-4EA2-95A4-4845BD14C88A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPositionNotify::PositionNotify, audio.ipositionnotify_positionnotify, IPositionNotify, dmusicks/IPositionNotify::PositionNotify, PositionNotify method [Audio Devices], IPositionNotify interface, PositionNotify, IPositionNotify interface [Audio Devices], PositionNotify method, PositionNotify method [Audio Devices]
+ms.keywords: PositionNotify, IPositionNotify interface [Audio Devices], PositionNotify method, IPositionNotify::PositionNotify, audio.ipositionnotify_positionnotify, dmusicks/IPositionNotify::PositionNotify, PositionNotify method [Audio Devices], PositionNotify method [Audio Devices], IPositionNotify interface, IPositionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dmusicks.h
-apiname: 
+apiname:
 -	IPositionNotify.PositionNotify
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETINDICES
-title: _D3DDDIARG_SETINDICES
+title: "_D3DDDIARG_SETINDICES"
 author: windows-driver-content
 description: The D3DDDIARG_SETINDICES structure describes parameters for setting the current index buffer.
 old-location: display\d3dddiarg_setindices.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a0b8706-91ba-42a5-aaa2-0381931d64f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETINDICES structure [Display Devices], D3DDDIARG_SETINDICES, _D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, display.d3dddiarg_setindices, UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml
+ms.keywords: D3DDDIARG_SETINDICES structure [Display Devices], D3DDDIARG_SETINDICES, _D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml, display.d3dddiarg_setindices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETINDICES
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CLEAR
-title: _D3DDDIARG_CLEAR
+title: "_D3DDDIARG_CLEAR"
 author: windows-driver-content
 description: The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted clearing operation.
 old-location: display\d3dddiarg_clear.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f437f94c-075e-43e6-bf28-0e7c7bd78c5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CLEAR, display.d3dddiarg_clear, D3DDDIARG_CLEAR structure [Display Devices], _D3DDDIARG_CLEAR, UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, d3dumddi/D3DDDIARG_CLEAR
+ms.keywords: "_D3DDDIARG_CLEAR, D3DDDIARG_CLEAR, UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, D3DDDIARG_CLEAR structure [Display Devices], display.d3dddiarg_clear, d3dumddi/D3DDDIARG_CLEAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CLEAR
 product: Windows
 targetos: Windows

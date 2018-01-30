@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ResourceResolveSubresource
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback
@@ -94,6 +94,16 @@ VOID APIENTRY ResourceResolveSubresource(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
+
+
 #### - DstSubresource [in]
 
  An index that indicates the destination subresource to resolve to. 
@@ -104,24 +114,14 @@ VOID APIENTRY ResourceResolveSubresource(
  A handle to the source resource to resolve from.
 
 
-#### - hDevice [in]
+#### - SrcSubresource [in]
 
- A handle to the display device (graphics context).
+ An index that indicates the source subresource to resolve from. 
 
 
 #### - ResolveFormat [in]
 
  A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
-
-
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to resolve from. 
 
 
 ## -returns
@@ -157,11 +157,11 @@ If both resources are prestructured plus typeless, they must be equal formats, a
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md">ResourceCopy</a>
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md">ResourceCopy</a>
 
  
 

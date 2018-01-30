@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCheckOcclusion function [Display Devices], display.d3dkmtcheckocclusion, d3dkmthk/D3DKMTCheckOcclusion, D3DKMTCheckOcclusion, PFND3DKMT_CHECKOCCLUSION, OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml
+ms.keywords: display.d3dkmtcheckocclusion, D3DKMTCheckOcclusion, PFND3DKMT_CHECKOCCLUSION, D3DKMTCheckOcclusion function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, d3dkmthk/D3DKMTCheckOcclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCheckOcclusion
 product: Windows
 targetos: Windows

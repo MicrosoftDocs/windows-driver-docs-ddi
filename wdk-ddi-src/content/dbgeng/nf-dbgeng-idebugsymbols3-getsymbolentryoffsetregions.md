@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 986774F6-5256-4703-990A-EAB4AB09AF55
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols3_getsymbolentryoffsetregions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method, IDebugSymbols3::GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions
+ms.keywords: IDebugSymbols3::GetSymbolEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSymbolEntryOffsetRegions method [Windows Debugging], GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryOffsetRegions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSymbolEntryOffsetRegions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetSymbolEntryOffsetRegions method
@@ -113,9 +113,9 @@ The quality of information returned is highly
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
-
 <a href="https://msdn.microsoft.com/A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92">IDebugSymbols3::GetSourceEntryOffsetRegions</a>
+
+<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidD_GetNumInputBuffers, hidsdi/HidD_GetNumInputBuffers, hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, HidD_GetNumInputBuffers routine [Human Input Devices]
+ms.keywords: HidD_GetNumInputBuffers routine [Human Input Devices], hid.hidd_getnuminputbuffers, hidsdi/HidD_GetNumInputBuffers, HidD_GetNumInputBuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hid.dll
-apiname: 
+apiname:
 -	HidD_GetNumInputBuffers
 product: Windows
 targetos: Windows
-req.typenames: *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # HidD_GetNumInputBuffers function

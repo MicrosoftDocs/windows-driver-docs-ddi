@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB
-title: _BRB
+title: "_BRB"
 author: windows-driver-content
 description: Profile drivers use Bluetooth request blocks (BRBs), to send requests to the Bluetooth driver stack. The BRB structure defines the format for all supported commands that can be sent to a Bluetooth device.
 old-location: bltooth\brb.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: b9fc6eb9-6793-442a-a736-18929df14f20
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BRB, bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, *PBRB, bthddi/BRB, BRB structure [Bluetooth Devices], PBRB structure pointer [Bluetooth Devices], bthddi/PBRB, _BRB, PBRB, bltooth.brb
+ms.keywords: BRB, _BRB, bltooth.brb, PBRB, bthddi/PBRB, PBRB structure pointer [Bluetooth Devices], bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, BRB structure [Bluetooth Devices], bthddi/BRB, *PBRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	BRB
 product: Windows
 targetos: Windows
-req.typenames: *PBRB, BRB
+req.typenames: BRB, *PBRB
 ---
 
 # _BRB structure
@@ -100,47 +100,20 @@ Describes basic information about the request being sent to the Bluetooth device
       <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>.
 
 
-#### - BrbScoUnregisterServer
+#### - BrbGetDeviceInterfaceString
 
-Defines the format for a command to unregister a previously registered SCO server. For more
-      information about unregistering a SCO server, see 
-      <mshelp:link keywords="bltooth._brb_sco_unregister_server" tabindex="0"><b>
-      _BRB_SCO_UNREGISTER_SERVER</b></mshelp:link>.
-
-
-#### - BrbScoTransfer
-
-Defines the format of a command that reads isochronous data from or writes data to a SCO channel
-      from a Bluetooth device. For more information, see 
-      <a href="..\bthddi\ns-bthddi-_brb_sco_transfer.md">_BRB_SCO_TRANSFER</a>.
+Defines the format for a command to get the interface string of the current Bluetooth device
+      object. For more information about getting the device interface string, see 
+      <mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
+      _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>.
 
 
-#### - BrbL2caAclTransfer
+#### - BrbL2caRegisterServer
 
-Defines the format of a command that performs read and write operations over a L2CAP connection
-      to a Bluetooth device. For more information about ACL transfers, see 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_acl_transfer.md">_BRB_L2CA_ACL_TRANSFER</a>.
-
-
-#### - BrbL2caCloseChannel
-
-Defines the format of a L2CAP close channel command sent to the Bluetooth device. For more
-      information about closing a L2CAP channel, see 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_close_channel.md">_BRB_L2CA_CLOSE_CHANNEL</a>.
-
-
-#### - BrbL2caOpenEnhancedChannel
-
-Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP open channel response commands sent to
-      the Bluetooth device. For more information about opening an enhanced L2CAP channel, see 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_ENHANCED_CHANNEL</a>. This member is present in Windows 8 and later versions of Windows.
-
-
-#### - BrbL2caOpenChannel
-
-Defines the format of the L2CAP open channel and the L2CAP open channel response commands sent to
-      the Bluetooth device. For more information about opening a L2CAP channel, see 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>.
+Defines the format for a command to register a L2CAP server. For more information about
+      registering a L2CAP server, see 
+      <mshelp:link keywords="bltooth._brb_l2ca_register_server" tabindex="0"><b>
+      _BRB_L2CA_REGISTER_SERVER</b></mshelp:link>.
 
 
 #### - BrbL2caUnregisterServer
@@ -151,11 +124,69 @@ Defines the format for a command to unregister a previously registered L2CAP ser
       _BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link>.
 
 
-#### - BrbAclGetMode
+#### - BrbL2caOpenChannel
 
-Defines the format of a command to get the current ACL mode. For more information about getting
-      the current ACL mode, see 
-      <a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>.
+Defines the format of the L2CAP open channel and the L2CAP open channel response commands sent to
+      the Bluetooth device. For more information about opening a L2CAP channel, see 
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>.
+
+
+#### - BrbL2caCloseChannel
+
+Defines the format of a L2CAP close channel command sent to the Bluetooth device. For more
+      information about closing a L2CAP channel, see 
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_close_channel.md">_BRB_L2CA_CLOSE_CHANNEL</a>.
+
+
+#### - BrbL2caPing
+
+Defines the format of a command that sends a L2CAP_EchoReq message to and receives a
+      L2CAP_EchoRsp message from a remote Bluetooth device over a L2CAP connection. For more information
+      about pinging a L2CAP connection, see 
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_ping.md">_BRB_L2CA_PING</a>.
+
+
+#### - BrbL2caAclTransfer
+
+Defines the format of a command that performs read and write operations over a L2CAP connection
+      to a Bluetooth device. For more information about ACL transfers, see 
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_acl_transfer.md">_BRB_L2CA_ACL_TRANSFER</a>.
+
+
+#### - BrbGetLocalBdAddress
+
+Defines the format of a command that returns the address of the local Bluetooth radio. For more
+      information about getting the local Bluetooth device address, see 
+      <a href="..\bthddi\ns-bthddi-_brb_get_local_bd_addr.md">_BRB_GET_LOCAL_BD_ADDR</a>.
+
+
+#### - BrbPsm
+
+Defines the format for the commands that register and unregister a Protocol/Service Multiplexer
+      (PSM) that L2CAP Bluetooth devices connect to. For more information about PSMs, see 
+      <a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>.
+
+
+#### - BrbL2caUpdateChannel
+
+Defines the format of a command that updates the settings of a L2CAP channel to a Bluetooth
+      device. For more information about updaing a L2CAP channel, see 
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_update_channel.md">_BRB_L2CA_UPDATE_CHANNEL</a>.
+
+
+#### - BrbScoRegisterServer
+
+Defines the format for a command to register a SCO server. For more information about registering
+      a SCO server, see 
+      <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>.
+
+
+#### - BrbScoUnregisterServer
+
+Defines the format for a command to unregister a previously registered SCO server. For more
+      information about unregistering a SCO server, see 
+      <mshelp:link keywords="bltooth._brb_sco_unregister_server" tabindex="0"><b>
+      _BRB_SCO_UNREGISTER_SERVER</b></mshelp:link>.
 
 
 #### - BrbScoOpenChannel
@@ -179,11 +210,11 @@ Defines the format of a SCO flush channel command. For more information about fl
       <a href="..\bthddi\ns-bthddi-_brb_sco_flush_channel.md">_BRB_SCO_FLUSH_CHANNEL</a>.
 
 
-#### - BrbPsm
+#### - BrbScoTransfer
 
-Defines the format for the commands that register and unregister a Protocol/Service Multiplexer
-      (PSM) that L2CAP Bluetooth devices connect to. For more information about PSMs, see 
-      <a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>.
+Defines the format of a command that reads isochronous data from or writes data to a SCO channel
+      from a Bluetooth device. For more information, see 
+      <a href="..\bthddi\ns-bthddi-_brb_sco_transfer.md">_BRB_SCO_TRANSFER</a>.
 
 
 #### - BrbScoGetChannelInfo
@@ -194,35 +225,6 @@ Defines the format of a command that reads the settings of a SCO channel to a Bl
       _BRB_SCO_GET_CHANNEL_INFO</b></mshelp:link>.
 
 
-#### - BrbScoRegisterServer
-
-Defines the format for a command to register a SCO server. For more information about registering
-      a SCO server, see 
-      <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>.
-
-
-#### - BrbGetLocalBdAddress
-
-Defines the format of a command that returns the address of the local Bluetooth radio. For more
-      information about getting the local Bluetooth device address, see 
-      <a href="..\bthddi\ns-bthddi-_brb_get_local_bd_addr.md">_BRB_GET_LOCAL_BD_ADDR</a>.
-
-
-#### - BrbGetDeviceInterfaceString
-
-Defines the format for a command to get the interface string of the current Bluetooth device
-      object. For more information about getting the device interface string, see 
-      <mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
-      _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>.
-
-
-#### - BrbL2caUpdateChannel
-
-Defines the format of a command that updates the settings of a L2CAP channel to a Bluetooth
-      device. For more information about updaing a L2CAP channel, see 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_update_channel.md">_BRB_L2CA_UPDATE_CHANNEL</a>.
-
-
 #### - BrbScoGetSystemInfo
 
 Defines the format of a command that reads the SCO settings of the local system. For more
@@ -230,20 +232,11 @@ Defines the format of a command that reads the SCO settings of the local system.
       <a href="..\bthddi\ns-bthddi-_brb_sco_get_system_info.md">_BRB_SCO_GET_SYSTEM_INFO</a>.
 
 
-#### - BrbL2caPing
+#### - BrbAclGetMode
 
-Defines the format of a command that sends a L2CAP_EchoReq message to and receives a
-      L2CAP_EchoRsp message from a remote Bluetooth device over a L2CAP connection. For more information
-      about pinging a L2CAP connection, see 
-      <a href="..\bthddi\ns-bthddi-_brb_l2ca_ping.md">_BRB_L2CA_PING</a>.
-
-
-#### - BrbL2caRegisterServer
-
-Defines the format for a command to register a L2CAP server. For more information about
-      registering a L2CAP server, see 
-      <mshelp:link keywords="bltooth._brb_l2ca_register_server" tabindex="0"><b>
-      _BRB_L2CA_REGISTER_SERVER</b></mshelp:link>.
+Defines the format of a command to get the current ACL mode. For more information about getting
+      the current ACL mode, see 
+      <a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>.
 
 
 #### - BrbAclEnterActiveMode
@@ -254,50 +247,57 @@ Defines the format of a command to enter active ACL mode. For more information a
       _BRB_ACL_ENTER_ACTIVE_MODE</b></mshelp:link>.
 
 
+#### - BrbL2caOpenEnhancedChannel
+
+Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP open channel response commands sent to
+      the Bluetooth device. For more information about opening an enhanced L2CAP channel, see 
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_ENHANCED_CHANNEL</a>. This member is present in Windows 8 and later versions of Windows.
+
+
 ## -see-also
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_sco_close_channel.md">_BRB_SCO_CLOSE_CHANNEL</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_close_channel.md">_BRB_L2CA_CLOSE_CHANNEL</a>
 
-<a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_unregister_server.md">_BRB_SCO_UNREGISTER_SERVER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
+<mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
+   _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
 
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_flush_channel.md">_BRB_SCO_FLUSH_CHANNEL</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
-
-<mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
-   _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_get_local_bd_addr.md">_BRB_GET_LOCAL_BD_ADDR</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_ping.md">_BRB_L2CA_PING</a>
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">_BRB_L2CA_UNREGISTER_SERVER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_acl_transfer.md">_BRB_L2CA_ACL_TRANSFER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_transfer.md">_BRB_SCO_TRANSFER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_get_system_info.md">_BRB_SCO_GET_SYSTEM_INFO</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_update_channel.md">_BRB_L2CA_UPDATE_CHANNEL</a>
 
+<a href="..\bthddi\ns-bthddi-_brb_sco_get_system_info.md">_BRB_SCO_GET_SYSTEM_INFO</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_unregister_server.md">_BRB_SCO_UNREGISTER_SERVER</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_transfer.md">_BRB_SCO_TRANSFER</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_flush_channel.md">_BRB_SCO_FLUSH_CHANNEL</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_acl_transfer.md">_BRB_L2CA_ACL_TRANSFER</a>
+
 <a href="..\bthddi\ns-bthddi-_brb_acl_enter_active_mode.md">_BRB_ACL_ENTER_ACTIVE_MODE</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a>
 
  
 

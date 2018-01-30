@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5, IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, debugger.setkernelconnectionoptionswide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, debugger.setkernelconnectionoptionswide, IDebugClient5, IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.SetKernelConnectionOptionsWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::SetKernelConnectionOptionsWide method
@@ -144,9 +144,9 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_AYUVsample2
-title: _DXVA_AYUVsample2
+title: "_DXVA_AYUVsample2"
 author: windows-driver-content
 description: The DXVA_AYUVsample2 structure is sent by the host decoder to the accelerator to specify Y, Cb, Cr color values, and an associated opacity.
 old-location: display\dxva_ayuvsample2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33e92f7d-2a01-4be2-a6b3-d0bd63db1eeb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, dxva/DXVA_AYUVsample2, _DXVA_AYUVsample2, display.dxva_ayuvsample2, LPDXVA_AYUVsample2, *LPDXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2 structure pointer [Display Devices], DXVA_AYUVsample2
+ms.keywords: dxva/DXVA_AYUVsample2, LPDXVA_AYUVsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, LPDXVA_AYUVsample2 structure pointer [Display Devices], display.dxva_ayuvsample2, *LPDXVA_AYUVsample2, _DXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, DXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_AYUVsample2
 product: Windows
 targetos: Windows
-req.typenames: DXVA_AYUVsample2, *LPDXVA_AYUVsample2
+req.typenames: "*LPDXVA_AYUVsample2, DXVA_AYUVsample2"
 ---
 
 # _DXVA_AYUVsample2 structure
@@ -108,9 +108,9 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
-
 <a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
+
+<a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
 
  
 

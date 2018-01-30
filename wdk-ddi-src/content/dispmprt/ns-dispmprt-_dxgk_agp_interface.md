@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_AGP_INTERFACE
-title: _DXGK_AGP_INTERFACE
+title: "_DXGK_AGP_INTERFACE"
 author: windows-driver-content
 description: The DXGK_AGP_INTERFACE structure contains pointers to functions in the AGP interface, which is implemented by the display port driver.
 old-location: display\dxgk_agp_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebaa2aba-426f-4f5f-b2bf-a8433cdc9205
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_agp_interface, dispmprt/DXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE structure pointer [Display Devices], *PDXGK_AGP_INTERFACE, dispmprt/PDXGK_AGP_INTERFACE, DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, _DXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE structure [Display Devices], DXGK_AGP_INTERFACE
+ms.keywords: PDXGK_AGP_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_AGP_INTERFACE, _DXGK_AGP_INTERFACE, display.dxgk_agp_interface, *PDXGK_AGP_INTERFACE, DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, DXGK_AGP_INTERFACE structure [Display Devices], DXGK_AGP_INTERFACE, dispmprt/DXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_AGP_INTERFACE
 product: Windows
 targetos: Windows

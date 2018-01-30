@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification
+ms.keywords: d3dkmthk/D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification, D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTRegisterTrimNotification
 product: Windows
 targetos: Windows

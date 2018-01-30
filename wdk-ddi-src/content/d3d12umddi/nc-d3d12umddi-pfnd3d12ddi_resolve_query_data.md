@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnResolveQueryData
 product: Windows
 targetos: Windows
@@ -108,14 +108,14 @@ The handle of a destination buffer.
 The destination offset.
 
 
-#### - hQueryHeap
-
-The handle of a query heap.
-
-
 #### - hCommandList
 
 The handle of a command list.
+
+
+#### - hQueryHeap
+
+The handle of a query heap.
 
 
 #### - QueryType

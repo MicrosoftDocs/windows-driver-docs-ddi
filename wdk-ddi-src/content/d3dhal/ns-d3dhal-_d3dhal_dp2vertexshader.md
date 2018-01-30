@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2VERTEXSHADER
-title: _D3DHAL_DP2VERTEXSHADER
+title: "_D3DHAL_DP2VERTEXSHADER"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes a vertex shader, depending on the opcode received (D3DDP2OP_SETVERTEXSHADER or D3DDP2OP_DELETEVERTEXSHADER) by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2vertexshader.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2VERTEXSHADER, *LPD3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], display.d3dhal_dp2vertexshader, D3DHAL_DP2VERTEXSHADER structure [Display Devices], d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, LPD3DHAL_DP2VERTEXSHADER
+ms.keywords: display.d3dhal_dp2vertexshader, D3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, *LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER, _D3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2VERTEXSHADER
 product: Windows
 targetos: Windows
@@ -75,15 +75,15 @@ typedef struct _D3DHAL_DP2VERTEXSHADER {
 
 
 
-###### - dwHandle.Specifies the handle to the vertex shader declaration or code object.
+#### 
 
 
 
-####### - dwHandle.DirectX 9.0 and later versions only.
+#### 
 
 
 
-########## - dwHandle.Specifies the handle to the vertex shader that is assigned by the runtime. For delete requests, the handle is guaranteed to be nonzero. For set requests, the supplied handle can be zero indicating that no vertex shader is currently realized. In this case, the driver should invalidate all previously set streams and free any data associated with them. The runtime guarantees that streams are reinitialized with D3DDP2OP_SETSTREAMSOURCE or D3DDP2OP_SETSTREAMSOURCEUM and a new vertex shader is selected using D3DHAL_DP2VERTEXSHADER before any subsequent rendering operations.
+#### 
 
 
 
@@ -104,29 +104,29 @@ For D3DDP2OP_SETVERTEXSHADERDECL operations, the runtime specifies a legacy FVF 
 
 ## -see-also
 
-D3DDP2OP_DELETEVERTEXSHADERDECL
-
-D3DDP2OP_SETSTREAMSOURCEUM
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setvertexshaderconst.md">D3DHAL_DP2SETVERTEXSHADERCONST</a>
-
 D3DDP2OP_SETVERTEXSHADER
 
-D3DDP2OP_DELETEVERTEXSHADER
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DDP2OP_CREATEVERTEXSHADER
 
-D3DDP2OP_SETSTREAMSOURCE
+D3DDP2OP_SETSTREAMSOURCEUM
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+D3DDP2OP_DELETEVERTEXSHADER
+
+D3DDP2OP_SETVERTEXSHADERDECL
+
+D3DDP2OP_SETVERTEXSHADERFUNC
 
 D3DDP2OP_DELETEVERTEXSHADERFUNC
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
 
-D3DDP2OP_SETVERTEXSHADERFUNC
+D3DDP2OP_SETSTREAMSOURCE
 
-D3DDP2OP_SETVERTEXSHADERDECL
+D3DDP2OP_DELETEVERTEXSHADERDECL
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setvertexshaderconst.md">D3DHAL_DP2SETVERTEXSHADERCONST</a>
 
  
 

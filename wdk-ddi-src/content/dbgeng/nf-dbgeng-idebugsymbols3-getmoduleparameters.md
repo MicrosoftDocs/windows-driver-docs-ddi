@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols::GetModuleParameters, GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, debugger.getmoduleparameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, IDebugSymbols3, dbgeng/IDebugSymbols2::GetModuleParameters
+ms.keywords: GetModuleParameters method [Windows Debugging], dbgeng/IDebugSymbols::GetModuleParameters, debugger.getmoduleparameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, GetModuleParameters, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols::GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::GetModuleParameters, IDebugSymbols2::GetModuleParameters, dbgeng/IDebugSymbols2::GetModuleParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetModuleParameters
 -	IDebugSymbols2.GetModuleParameters
 -	IDebugSymbols3.GetModuleParameters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetModuleParameters method
@@ -138,9 +138,9 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
 <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 

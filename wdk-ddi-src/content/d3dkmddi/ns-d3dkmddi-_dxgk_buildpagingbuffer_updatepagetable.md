@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
-title: _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
+title: "_DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE"
 author: windows-driver-content
 description: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE is used as part of a page table update operation.
 old-location: display\dxgk_buildpagingbuffer_updatepagetable.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable, _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
+ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 product: Windows
 targetos: Windows

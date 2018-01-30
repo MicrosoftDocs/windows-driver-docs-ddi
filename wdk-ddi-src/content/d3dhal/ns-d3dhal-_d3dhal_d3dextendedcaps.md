@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_D3DEXTENDEDCAPS
-title: _D3DHAL_D3DEXTENDEDCAPS
+title: "_D3DHAL_D3DEXTENDEDCAPS"
 author: windows-driver-content
 description: D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
 old-location: display\d3dhal_d3dextendedcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1e63dce-6d51-438c-a4aa-cc17d9292576
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], *LPD3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], _D3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, display.d3dhal_d3dextendedcaps
+ms.keywords: D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], display.d3dhal_d3dextendedcaps, _D3DHAL_D3DEXTENDEDCAPS, *LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], D3DHAL_D3DEXTENDEDCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_D3DEXTENDEDCAPS
 product: Windows
 targetos: Windows
@@ -667,16 +667,6 @@ Reserved for system use.
 Reserved for system use.
 
 
-#### - dwMinStippleWidth, dwMaxStippleWidth
-
-Specify the minimum and maximum stipple widths, in pixels, supported by the driver.
-
-
-#### - dwMinStippleHeight, dwMaxStippleHeight
-
-Specify the minimum and maximum stipple heights, in pixels, supported by the driver.
-
-
 #### - dwMinTextureWidth, dwMaxTextureWidth
 
 Specify the minimum and maximum texture widths, in pixels, supported by the driver or device. This member is typically a power of 2. These members are provided as hints to the application, and it is the application's responsibility to adjust texture sizes when necessary.
@@ -685,6 +675,16 @@ Specify the minimum and maximum texture widths, in pixels, supported by the driv
 #### - dwMinTextureHeight, dwMaxTextureHeight
 
 Specify the minimum and maximum texture heights, in pixels, supported by the driver. This member is typically a power of 2.
+
+
+#### - dwMinStippleWidth, dwMaxStippleWidth
+
+Specify the minimum and maximum stipple widths, in pixels, supported by the driver.
+
+
+#### - dwMinStippleHeight, dwMaxStippleHeight
+
+Specify the minimum and maximum stipple heights, in pixels, supported by the driver.
 
 
 ## -remarks

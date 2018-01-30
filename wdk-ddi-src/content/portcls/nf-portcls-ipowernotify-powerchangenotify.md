@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbc49675-93d1-4ea2-9a3d-b72d76521de7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PowerChangeNotify method [Audio Devices], IPowerNotify interface, IPowerNotify, IPowerNotify interface [Audio Devices], PowerChangeNotify method, PowerChangeNotify, PowerChangeNotify method [Audio Devices], IPowerNotify::PowerChangeNotify, portcls/IPowerNotify::PowerChangeNotify, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml
+ms.keywords: audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, PowerChangeNotify method [Audio Devices], IPowerNotify::PowerChangeNotify, PowerChangeNotify, IPowerNotify, portcls/IPowerNotify::PowerChangeNotify, audio.ipowernotify_powerchangenotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface, IPowerNotify interface [Audio Devices], PowerChangeNotify method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPowerNotify.PowerChangeNotify
 product: Windows
 targetos: Windows

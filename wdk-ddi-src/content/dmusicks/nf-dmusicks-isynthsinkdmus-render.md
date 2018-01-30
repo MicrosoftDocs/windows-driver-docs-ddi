@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 731abdaf-f84b-4d4b-a6e0-ee11899fba27
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.isynthsinkdmus_render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, Render method [Audio Devices], ISynthSinkDMus::Render, ISynthSinkDMus interface [Audio Devices], Render method, ISynthSinkDMus, Render, dmusicks/ISynthSinkDMus::Render, Render method [Audio Devices], ISynthSinkDMus interface
+ms.keywords: dmusicks/ISynthSinkDMus::Render, ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], Render method, audio.isynthsinkdmus_render, Render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, Render method [Audio Devices], ISynthSinkDMus interface, Render method [Audio Devices], ISynthSinkDMus::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dmusicks.h
-apiname: 
+apiname:
 -	ISynthSinkDMus.Render
 product: Windows
 targetos: Windows

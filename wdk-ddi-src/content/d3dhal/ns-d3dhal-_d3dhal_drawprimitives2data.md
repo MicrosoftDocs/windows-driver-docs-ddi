@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DRAWPRIMITIVES2DATA
-title: _D3DHAL_DRAWPRIMITIVES2DATA
+title: "_D3DHAL_DRAWPRIMITIVES2DATA"
 author: windows-driver-content
 description: The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the D3dDrawPrimitives2 function to render primitives.
 old-location: display\d3dhal_drawprimitives2data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, LPD3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, _D3DHAL_DRAWPRIMITIVES2DATA, display.d3dhal_drawprimitives2data, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], *LPD3DHAL_DRAWPRIMITIVES2DATA
+ms.keywords: D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], display.d3dhal_drawprimitives2data, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, _D3DHAL_DRAWPRIMITIVES2DATA, *LPD3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DRAWPRIMITIVES2DATA
 product: Windows
 targetos: Windows
@@ -363,7 +363,39 @@ Each vertex has <i>x, y, z,</i> and <i>w</i> coordinates. This flag is always se
 
 
 
+#### 
+
+
+
+#### 
+
+
+
+#### 
+
+
+
+#### 
+
+
+
 ### -field dwCommandOffset
+
+
+
+#### 
+
+
+
+#### 
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -401,71 +433,39 @@ Points to a render state array that the driver should update when it parses rend
 
 
 
-######### - dwErrorOffset.In addition to the error-offset functionality of DirectX 8.1 and earlier, the driver can specify the total size, in bytes, of the outgoing response buffer or zero if the response buffer is empty of responses. This member specifies response-buffer information only when the ddrval member is set to D3D_OK for successful completion. If this member is nonzero, it indicates that previously submitted queries using the D3DDP2OP_ISSUEQUERY operation completed and that responses to those queries are specified in D3DHAL_DP2RESPONSE and D3DHAL_DP2RESPONSEQUERY structures and available in the outgoing response buffer. Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
+#### 
 
 
 
-####### - dwErrorOffset.DirectX 8.1 and earlier versions only.
+#### 
 
 
 
-####### - dwCommandOffset.DirectX 8.1 and earlier versions only.
+#### 
 
 
 
-###### - dwErrorOffset.The runtime parses the response buffer and updates its internal data structures.
+####  Each D3DHAL_DP2RESPONSEQUERY is followed by the following data related to the query:
 
 
 
-######## - lpDDCommands.In addition to the command-buffer functionality of DirectX 8.1 and earlier, this member can point to a response buffer that the driver returns. Specifically, this response buffer contains one or more D3DHAL_DP2RESPONSE structures, each followed by either D3DHAL_DP2RESPONSEQUERY structures or zero if the response token in the bCommand of D3DHAL_DP2RESPONSE is D3DDP2OP_RESPONSECONTINUE.
+#### BOOL for D3DQUERYTYPE_EVENT
 
 
 
-####### - dwErrorOffset.Specifies the location where the driver writes the offset into the surface that lpDDCommands points to where the first unhandled D3DHAL_DP2COMMAND can be found. The driver must set this value when it returns an error condition in ddrval.
+#### DWORD for D3DQUERYTYPE_OCCLUSION
 
 
 
-######## - lpDDCommands.Points to the DD_SURFACE_LOCAL structure that identifies the DirectDraw surface containing the command data. The fpVidMem member of the embedded DD_SURFACE_GLOBAL structure points to the buffer that contains state change and primitive drawing commands for the driver to process. Specifically, this buffer contains one or more D3DHAL_DP2COMMAND structures, each followed by a D3DHAL_DP2Xxx structure whose exact type is identified by D3DHAL_DP2COMMAND's bCommand member.
+#### D3DDEVINFO_VCACHE structure for D3DQUERYTYPE_VCACHE
 
 
 
-##### - dwErrorOffset.DWORD for D3DQUERYTYPE_OCCLUSION
+#### 
 
 
 
-####### - lpDDCommands.DirectX 8.1 and earlier versions only.
-
-
-
-####### - lpDDCommands.DirectX 9.0 and later versions only.
-
-
-
-###### - dwCommandOffset.Specifies the number of bytes into the surface that lpDDCommands points to and where the command data starts.
-
-
-
-###### - dwErrorOffset.If this member is zero and the ddrval member is set to D3D_OK, the runtime does not bother to check for responses to queries.
-
-
-
-####### - dwCommandOffset.In addition to the command-offset functionality of DirectX 8.1 and earlier, can specify where the response data starts.
-
-
-
-####### - dwCommandOffset.DirectX 9.0 and later versions only.
-
-
-
-####### - dwErrorOffset.DirectX 9.0 and later versions only.
-
-
-
-##### - dwErrorOffset.BOOL for D3DQUERYTYPE_EVENT
-
-
-
-##### - dwErrorOffset.D3DDEVINFO_VCACHE structure for D3DQUERYTYPE_VCACHE
+#### 
 
 
 
@@ -480,15 +480,15 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 ## -see-also
 
-<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
  
 

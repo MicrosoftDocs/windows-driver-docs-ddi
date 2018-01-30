@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a1ebeb8-4a0e-4a1f-9039-13ca8e375e5e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_ef68ce24-ab05-45db-9b37-02367bbba7f4.xml, display.dxgi_ddi_rational, DXGI_DDI_RATIONAL, DXGI_DDI_RATIONAL structure [Display Devices], dxgiddi/DXGI_DDI_RATIONAL
+ms.keywords: dxgiddi/DXGI_DDI_RATIONAL, DXGI_DDI_RATIONAL structure [Display Devices], display.dxgi_ddi_rational, DXGI_DDI_RATIONAL, UMDisplayDriver_Dx10param_Structs_ef68ce24-ab05-45db-9b37-02367bbba7f4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_RATIONAL
 product: Windows
 targetos: Windows

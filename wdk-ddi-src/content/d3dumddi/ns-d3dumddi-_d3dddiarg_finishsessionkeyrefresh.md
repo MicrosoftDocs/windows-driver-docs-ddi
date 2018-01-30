@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_FINISHSESSIONKEYREFRESH
-title: _D3DDDIARG_FINISHSESSIONKEYREFRESH
+title: "_D3DDDIARG_FINISHSESSIONKEYREFRESH"
 author: windows-driver-content
 description: The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the FinishSessionKeyRefresh function.
 old-location: display\d3dddiarg_finishsessionkeyrefresh.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d262012-c4f4-4f86-a3a2-48c2fd7d5216
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_finishsessionkeyrefresh, d3dumddi/D3DDDIARG_FINISHSESSIONKEYREFRESH, _D3DDDIARG_FINISHSESSIONKEYREFRESH, D3DDDIARG_FINISHSESSIONKEYREFRESH, D3DDDIARG_FINISHSESSIONKEYREFRESH structure [Display Devices], UMDisplayDriver_param_Structs_ac18e377-42c2-4c4a-9625-1b0bf29375c2.xml
+ms.keywords: D3DDDIARG_FINISHSESSIONKEYREFRESH, UMDisplayDriver_param_Structs_ac18e377-42c2-4c4a-9625-1b0bf29375c2.xml, D3DDDIARG_FINISHSESSIONKEYREFRESH structure [Display Devices], _D3DDDIARG_FINISHSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_FINISHSESSIONKEYREFRESH, display.d3dddiarg_finishsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_FINISHSESSIONKEYREFRESH
 product: Windows
 targetos: Windows

@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	ReadPhysicalWithFlags
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # ReadPhysicalWithFlags function
@@ -160,9 +159,9 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
-
 <a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
+
+<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readphysical.md">ReadPhysical</a>
 
  
 

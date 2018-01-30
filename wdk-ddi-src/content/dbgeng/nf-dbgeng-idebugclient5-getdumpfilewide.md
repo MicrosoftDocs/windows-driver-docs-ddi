@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient4::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetDumpFileWide, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, debugger.getdumpfilewide, IDebugClient5, IDebugClient5::GetDumpFileWide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method
+ms.keywords: dbgeng/IDebugClient4::GetDumpFileWide, IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide, GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5, GetDumpFileWide, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, IDebugClient4::GetDumpFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient4.GetDumpFileWide
 -	IDebugClient5.GetDumpFileWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::GetDumpFileWide method
@@ -136,15 +136,15 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
  
 

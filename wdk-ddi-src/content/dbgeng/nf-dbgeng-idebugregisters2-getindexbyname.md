@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetIndexByName method [Windows Debugging], IDebugRegisters interface, GetIndexByName, IDebugRegisters interface [Windows Debugging], GetIndexByName method, GetIndexByName method [Windows Debugging], dbgeng/IDebugRegisters::GetIndexByName, dbgeng/IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, IDebugRegisters2, debugger.getindexbyname, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, IDebugRegisters::GetIndexByName, IDebugRegisters2::GetIndexByName
+ms.keywords: dbgeng/IDebugRegisters2::GetIndexByName, IDebugRegisters2::GetIndexByName, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, dbgeng/IDebugRegisters::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters::GetIndexByName, GetIndexByName method [Windows Debugging], GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, GetIndexByName method [Windows Debugging], IDebugRegisters interface, IDebugRegisters interface [Windows Debugging], GetIndexByName method, IDebugRegisters2, debugger.getindexbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters.GetIndexByName
 -	IDebugRegisters2.GetIndexByName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::GetIndexByName method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, debugger.getsymbolinformationwide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, IDebugAdvanced3::GetSymbolInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method
+ms.keywords: IDebugAdvanced3::GetSymbolInformationWide, GetSymbolInformationWide, debugger.getsymbolinformationwide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugAdvanced3.GetSymbolInformationWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugAdvanced3::GetSymbolInformationWide method
@@ -135,11 +135,51 @@ Specifies a 64-bit argument.  This parameter has the following interpretations d
 
 
 
+#### DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
+
+Ignored.
+
+
+#### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+
+The base address of the module whose description is being requested.
+
+
+#### DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
+
+Specifies the address in the target's memory of the symbol whose name is being requested.
+
+
+#### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+
+Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
+
+
 ### -param Arg32 [in]
 
 Specifies a 32-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
 
+
+
+#### DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
+
+The engine breakpoint ID of the desired breakpoint.
+
+
+#### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+
+Set to zero.
+
+
+#### DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
+
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
+
+
+#### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
 
 
 ### -param Buffer [out, optional]
@@ -170,46 +210,6 @@ Specifies the size, in characters, of the string buffer <i>StringBuffer</i>.
 ### -param StringSize [out, optional]
 
 Receives the size, in characters, of the string returned to <i>StringBuffer</i>.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
-
-
-##### - Arg64.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
-
-The base address of the module whose description is being requested.
-
-
-##### - Arg64.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
-
-Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
-
-
-##### - Arg64.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
-
-Specifies the address in the target's memory of the symbol whose name is being requested.
-
-
-##### - Arg32.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
-
-The engine breakpoint ID of the desired breakpoint.
-
-
-##### - Arg32.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
-
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
-
-
-##### - Arg32.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
-
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
-
-
-##### - Arg64.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
-
-Ignored.
-
-
-##### - Arg32.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
-
-Set to zero.
 
 
 ## -returns

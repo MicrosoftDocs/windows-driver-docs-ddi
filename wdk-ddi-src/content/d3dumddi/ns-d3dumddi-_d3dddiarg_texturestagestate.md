@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_TEXTURESTAGESTATE
-title: _D3DDDIARG_TEXTURESTAGESTATE
+title: "_D3DDDIARG_TEXTURESTAGESTATE"
 author: windows-driver-content
 description: The D3DDDIARG_TEXTURESTAGESTATE structure describes how to update a texture at a particular stage in a multiple-texture group.
 old-location: display\d3dddiarg_texturestagestate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4810ec13-ec58-4ed6-ae4f-6690bd72cd8a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_texturestagestate, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, D3DDDIARG_TEXTURESTAGESTATE, _D3DDDIARG_TEXTURESTAGESTATE, UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml
+ms.keywords: d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], display.d3dddiarg_texturestagestate, _D3DDDIARG_TEXTURESTAGESTATE, D3DDDIARG_TEXTURESTAGESTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_TEXTURESTAGESTATE
 product: Windows
 targetos: Windows

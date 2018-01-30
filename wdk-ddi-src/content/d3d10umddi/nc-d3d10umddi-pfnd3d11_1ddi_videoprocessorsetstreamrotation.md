@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorSetStreamRotation
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback
@@ -97,11 +97,6 @@ VOID APIENTRY* pfnVideoProcessorSetStreamRotation(
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -119,6 +114,11 @@ A handle to the video processor object that was created through a call to the <a
 #### - StreamIndex [in]
 
 The zero-based index of the input stream.
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
 
 
 #### - Rotation [in]

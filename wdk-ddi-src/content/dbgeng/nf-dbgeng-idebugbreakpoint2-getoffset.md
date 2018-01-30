@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7da401c9-10c1-4a2b-91ea-c0f9f58fd87a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::GetOffset, dbgeng/IDebugBreakpoint::GetOffset, IDebugBreakpoint2 interface [Windows Debugging], GetOffset method, GetOffset method [Windows Debugging], debugger.getoffset, GetOffset method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetOffset, GetOffset method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::GetOffset, ComOther_020a92c1-effa-4b14-9198-153641401e46.xml, GetOffset, IDebugBreakpoint interface [Windows Debugging], GetOffset method, IDebugBreakpoint2
+ms.keywords: debugger.getoffset, GetOffset method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetOffset, ComOther_020a92c1-effa-4b14-9198-153641401e46.xml, GetOffset method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, IDebugBreakpoint2::GetOffset, IDebugBreakpoint2 interface [Windows Debugging], GetOffset method, dbgeng/IDebugBreakpoint2::GetOffset, GetOffset method [Windows Debugging], IDebugBreakpoint::GetOffset, GetOffset, IDebugBreakpoint interface [Windows Debugging], GetOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.GetOffset
 -	IDebugBreakpoint2.GetOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugBreakpoint2::GetOffset method

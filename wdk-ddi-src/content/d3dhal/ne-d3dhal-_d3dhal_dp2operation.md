@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dhal._D3DHAL_DP2OPERATION
-title: _D3DHAL_DP2OPERATION
+title: "_D3DHAL_DP2OPERATION"
 author: windows-driver-content
 description: The D3DHAL_DP2OPERATION enumerated type specifies the D3dDrawPrimitives2 operation in the bCommand member of the D3DHAL_DP2COMMAND structure.
 old-location: display\d3dhal_dp2operation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d6ff2f23-0b51-4bfc-8172-84a5a39f7785
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDP2OP_COMPOSERECTS, D3DDP2OP_ZRANGE, D3DDP2OP_STATESET, D3DDP2OP_WINFO, d3dhal/D3DDP2OP_SETSCISSORRECT, D3DHAL_DP2OPERATION, d3dhal/D3DDP2OP_VOLUMEBLT, d3dhal/D3DDP2OP_DRAWINDEXEDPRIMITIVE2, d3dhal/D3DDP2OP_SETVERTEXSHADERCONSTB, D3DDP2OP_SETPIXELSHADER, D3DDP2OP_INDEXEDLINELIST, d3dhal/D3DDP2OP_COMPOSERECTS, D3DDP2OP_INDEXEDLINESTRIP, d3dhal/D3DDP2OP_SETINDICES, d3dhal/D3DDP2OP_SETSTREAMSOURCEUM, d3dhal/D3DDP2OP_INDEXEDTRIANGLEFAN, display.d3dhal_dp2operation, d3dhal/D3DDP2OP_SETVERTEXSHADERCONST, D3DDP2OP_BUFFERBLT, d3dhal/D3DDP2OP_TRIANGLESTRIP, d3dhal/D3DDP2OP_SETSTREAMSOURCE2, d3dhal/D3DHAL_DP2OPERATION, d3dhal/D3DDP2OP_DRAWTRIPATCH, D3DDP2OP_ADDDIRTYRECT, D3DDP2OP_CLEAR, d3dhal/D3DDP2OP_DRAWPRIMITIVE, d3dhal/D3DDP2OP_ISSUEQUERY, D3DDP2OP_TRIANGLELIST, D3DDP2OP_UPDATEPALETTE, D3DDP2OP_SETVERTEXSHADERDECL, d3dhal/D3DDP2OP_TRIANGLEFAN_IMM, d3dhal/D3DDP2OP_RESPONSECONTINUE, d3dhal/D3DDP2OP_TEXTURESTAGESTATE, D3DDP2OP_CREATEQUERY, d3dhal/D3DDP2OP_POINTS, d3dhal/D3DDP2OP_SETPIXELSHADER, d3dhal/D3DDP2OP_LINESTRIP, D3DDP2OP_VIEWPORTINFO, D3DDP2OP_DELETEPIXELSHADER, d3dhal/D3DDP2OP_ADDDIRTYBOX, D3DDP2OP_SETTRANSFORM, D3DDP2OP_ADDDIRTYBOX, d3dhal/D3DDP2OP_DELETEVERTEXSHADER, d3dhal/D3DDP2OP_SETDEPTHSTENCIL, D3DDP2OP_SETPIXELSHADERCONSTB, D3DDP2OP_BLT, d3dhal/D3DDP2OP_WINFO, D3DDP2OP_SETPIXELSHADERCONSTI, d3dhal/D3DDP2OP_DRAWRECTPATCH, D3DDP2OP_DRAWPRIMITIVE2, D3DDP2OP_MULTIPLYTRANSFORM, D3DDP2OP_ISSUEQUERY, D3DDP2OP_SETTEXLOD, D3DDP2OP_LINELIST, D3DDP2OP_DELETEVERTEXSHADERFUNC, d3dhal/D3DDP2OP_INDEXEDTRIANGLESTRIP, d3dhal/D3DDP2OP_SETTRANSFORM, D3DDP2OP_SETRENDERTARGET, D3DDP2OP_SETPIXELSHADERCONST, D3DDP2OP_DRAWINDEXEDPRIMITIVE, d3dhal/D3DDP2OP_DELETEVERTEXSHADERFUNC, D3DDP2OP_TRIANGLEFAN_IMM, d3dhal/D3DDP2OP_DELETEVERTEXSHADERDECL, d3dhal/D3DDP2OP_SETCONVOLUTIONKERNELMONO, d3dhal/D3DDP2OP_DRAWINDEXEDPRIMITIVE, D3DDP2OP_GENERATEMIPSUBLEVELS, d3dhal/D3DDP2OP_INDEXEDTRIANGLELIST, d3dhal/D3DDP2OP_SETVERTEXSHADER, D3DHAL_DP2OPERATION enumeration [Display Devices], d3dhal/D3DDP2OP_CREATELIGHT, d3dhal/D3DDP2OP_SETSTREAMSOURCE, D3DDP2OP_SETSTREAMSOURCE2, d3denum_1bc3434b-44db-45ef-81e5-fd085df15178.xml, d3dhal/D3DDP2OP_SETPRIORITY, d3dhal/D3DDP2OP_CREATEQUERY, D3DDP2OP_CLIPPEDTRIANGLEFAN, d3dhal/D3DDP2OP_SETRENDERTARGET2, D3DDP2OP_SETSTREAMSOURCEFREQ, D3DDP2OP_INDEXEDLINELIST2, d3dhal/D3DDP2OP_RENDERSTATE, D3DDP2OP_TRIANGLESTRIP, d3dhal/D3DDP2OP_CREATEVERTEXSHADERDECL, D3DDP2OP_SETVERTEXSHADERCONSTI, d3dhal/D3DDP2OP_SETPIXELSHADERCONSTB, d3dhal/D3DDP2OP_SETVERTEXSHADERFUNC, d3dhal/D3DDP2OP_BLT, d3dhal/D3DDP2OP_CLIPPEDTRIANGLEFAN, D3DDP2OP_TEXTURESTAGESTATE, d3dhal/D3DDP2OP_SETMATERIAL, D3DDP2OP_SETVERTEXSHADERCONSTB, d3dhal/D3DDP2OP_ZRANGE, d3dhal/D3DDP2OP_SETVERTEXSHADERDECL, _D3DHAL_DP2OPERATION, d3dhal/D3DDP2OP_SETPALETTE, d3dhal/D3DDP2OP_SETVERTEXSHADERCONSTI, D3DDP2OP_SETPRIORITY, D3DDP2OP_CREATEVERTEXSHADERDECL, D3DDP2OP_CREATEPIXELSHADER, D3DDP2OP_SETPALETTE, d3dhal/D3DDP2OP_SETTEXLOD, d3dhal/D3DDP2OP_SETCLIPPLANE, D3DDP2OP_DELETEVERTEXSHADERDECL, D3DDP2OP_CREATEVERTEXSHADERFUNC, d3dhal/D3DDP2OP_LINELIST_IMM, D3DDP2OP_INDEXEDTRIANGLEFAN, d3dhal/D3DDP2OP_TRIANGLELIST, d3dhal/D3DDP2OP_SETRENDERTARGET, D3DDP2OP_TEXBLT, D3DDP2OP_RENDERSTATE, D3DDP2OP_DRAWTRIPATCH, D3DDP2OP_VOLUMEBLT, d3dhal/D3DDP2OP_CREATEVERTEXSHADERFUNC, d3dhal/D3DDP2OP_BUFFERBLT, d3dhal/D3DDP2OP_MULTIPLYTRANSFORM, D3DDP2OP_CREATELIGHT, D3DDP2OP_LINELIST_IMM, d3dhal/D3DDP2OP_RESPONSEQUERY, D3DDP2OP_DRAWINDEXEDPRIMITIVE2, d3dhal/D3DDP2OP_CREATEPIXELSHADER, d3dhal/D3DDP2OP_INDEXEDLINELIST2, D3DDP2OP_DELETEQUERY, D3DDP2OP_SETVERTEXSHADERCONST, d3dhal/D3DDP2OP_SURFACEBLT, D3DDP2OP_CREATEVERTEXSHADER, D3DDP2OP_SETCONVOLUTIONKERNELMONO, d3dhal/D3DDP2OP_ADDDIRTYRECT, D3DDP2OP_SETINDICES, D3DDP2OP_SETCLIPPLANE, D3DDP2OP_RESPONSEQUERY, d3dhal/D3DDP2OP_STATESET, D3DDP2OP_SETDEPTHSTENCIL, D3DDP2OP_INDEXEDTRIANGLESTRIP, D3DDP2OP_INDEXEDTRIANGLELIST, d3dhal/D3DDP2OP_SETPIXELSHADERCONSTI, d3dhal/D3DDP2OP_INDEXEDLINESTRIP, d3dhal/D3DDP2OP_DELETEPIXELSHADER, D3DDP2OP_LINESTRIP, D3DDP2OP_SURFACEBLT, D3DDP2OP_COLORFILL, d3dhal/D3DDP2OP_CLEAR, D3DDP2OP_INDEXEDTRIANGLELIST2, D3DDP2OP_SETVERTEXSHADERFUNC, D3DDP2OP_POINTS, D3DDP2OP_RESPONSECONTINUE, D3DDP2OP_SETSTREAMSOURCE, d3dhal/D3DDP2OP_SETLIGHT, d3dhal/D3DDP2OP_INDEXEDTRIANGLELIST2, d3dhal/D3DDP2OP_LINELIST, d3dhal/D3DDP2OP_CREATEVERTEXSHADER, d3dhal/D3DDP2OP_VIEWPORTINFO, D3DDP2OP_TRIANGLEFAN, d3dhal/D3DDP2OP_SETPIXELSHADERCONST, d3dhal/D3DDP2OP_COLORFILL, d3dhal/D3DDP2OP_SETSTREAMSOURCEFREQ, D3DDP2OP_DRAWPRIMITIVE, d3dhal/D3DDP2OP_GENERATEMIPSUBLEVELS, D3DDP2OP_DELETEVERTEXSHADER, d3dhal/D3DDP2OP_DRAWPRIMITIVE2, d3dhal/D3DDP2OP_DELETEQUERY, d3dhal/D3DDP2OP_INDEXEDLINELIST, D3DDP2OP_SETRENDERTARGET2, D3DDP2OP_SETMATERIAL, D3DDP2OP_DRAWRECTPATCH, D3DDP2OP_SETLIGHT, D3DDP2OP_SETVERTEXSHADER, D3DDP2OP_SETSCISSORRECT, d3dhal/D3DDP2OP_TRIANGLEFAN, D3DDP2OP_SETSTREAMSOURCEUM, d3dhal/D3DDP2OP_TEXBLT, d3dhal/D3DDP2OP_UPDATEPALETTE
+ms.keywords: d3dhal/D3DDP2OP_DELETEPIXELSHADER, d3dhal/D3DDP2OP_SETCLIPPLANE, D3DDP2OP_SETPIXELSHADER, d3dhal/D3DDP2OP_DRAWINDEXEDPRIMITIVE2, D3DDP2OP_RENDERSTATE, D3DDP2OP_DELETEQUERY, d3dhal/D3DDP2OP_TRIANGLELIST, d3dhal/D3DDP2OP_INDEXEDTRIANGLELIST2, d3dhal/D3DDP2OP_SETVERTEXSHADERFUNC, D3DDP2OP_SETCLIPPLANE, D3DDP2OP_COLORFILL, _D3DHAL_DP2OPERATION, D3DDP2OP_CREATEVERTEXSHADERDECL, d3dhal/D3DDP2OP_LINELIST, d3dhal/D3DDP2OP_SETSTREAMSOURCEFREQ, d3dhal/D3DDP2OP_WINFO, D3DDP2OP_SETPIXELSHADERCONSTB, D3DDP2OP_DRAWPRIMITIVE, d3dhal/D3DDP2OP_CREATEQUERY, D3DDP2OP_INDEXEDTRIANGLEFAN, D3DDP2OP_CREATEVERTEXSHADER, D3DDP2OP_BUFFERBLT, D3DDP2OP_LINELIST_IMM, d3dhal/D3DDP2OP_STATESET, D3DDP2OP_SETDEPTHSTENCIL, D3DDP2OP_SETVERTEXSHADERCONSTB, d3dhal/D3DDP2OP_DRAWRECTPATCH, d3dhal/D3DDP2OP_DRAWTRIPATCH, d3dhal/D3DDP2OP_MULTIPLYTRANSFORM, D3DDP2OP_SETVERTEXSHADERFUNC, d3dhal/D3DDP2OP_GENERATEMIPSUBLEVELS, D3DDP2OP_SETPIXELSHADERCONSTI, d3dhal/D3DDP2OP_INDEXEDTRIANGLEFAN, D3DDP2OP_INDEXEDTRIANGLESTRIP, d3dhal/D3DDP2OP_ZRANGE, d3dhal/D3DDP2OP_POINTS, d3dhal/D3DDP2OP_SETPIXELSHADERCONST, D3DDP2OP_SETVERTEXSHADERCONST, D3DDP2OP_CLEAR, d3dhal/D3DDP2OP_ISSUEQUERY, D3DDP2OP_RESPONSEQUERY, D3DDP2OP_SETVERTEXSHADER, D3DDP2OP_ADDDIRTYBOX, D3DDP2OP_ZRANGE, D3DDP2OP_CREATELIGHT, D3DDP2OP_CREATEVERTEXSHADERFUNC, d3dhal/D3DDP2OP_TRIANGLEFAN, d3dhal/D3DDP2OP_LINELIST_IMM, D3DDP2OP_DRAWTRIPATCH, D3DDP2OP_TRIANGLELIST, d3dhal/D3DDP2OP_SETVERTEXSHADERDECL, D3DDP2OP_DRAWRECTPATCH, D3DDP2OP_COMPOSERECTS, D3DDP2OP_DRAWPRIMITIVE2, d3dhal/D3DDP2OP_TEXTURESTAGESTATE, d3dhal/D3DDP2OP_CREATELIGHT, d3dhal/D3DDP2OP_SETINDICES, d3dhal/D3DDP2OP_ADDDIRTYRECT, d3dhal/D3DDP2OP_SETPRIORITY, d3dhal/D3DDP2OP_SETTRANSFORM, D3DDP2OP_INDEXEDLINELIST2, D3DDP2OP_TRIANGLESTRIP, D3DDP2OP_INDEXEDLINESTRIP, d3dhal/D3DDP2OP_CREATEVERTEXSHADER, D3DDP2OP_TEXTURESTAGESTATE, D3DDP2OP_SETRENDERTARGET2, D3DDP2OP_SETCONVOLUTIONKERNELMONO, D3DDP2OP_DELETEVERTEXSHADERFUNC, D3DDP2OP_VIEWPORTINFO, D3DDP2OP_POINTS, D3DDP2OP_SETLIGHT, d3dhal/D3DDP2OP_VOLUMEBLT, D3DDP2OP_LINELIST, d3dhal/D3DDP2OP_INDEXEDLINELIST2, D3DDP2OP_SETSTREAMSOURCE, d3dhal/D3DDP2OP_RENDERSTATE, D3DDP2OP_INDEXEDLINELIST, d3dhal/D3DDP2OP_TEXBLT, D3DDP2OP_SETINDICES, d3dhal/D3DDP2OP_DELETEVERTEXSHADER, d3dhal/D3DDP2OP_BUFFERBLT, D3DDP2OP_CREATEQUERY, D3DDP2OP_GENERATEMIPSUBLEVELS, D3DDP2OP_ISSUEQUERY, D3DDP2OP_SETPALETTE, d3dhal/D3DDP2OP_TRIANGLESTRIP, d3dhal/D3DDP2OP_RESPONSECONTINUE, d3dhal/D3DDP2OP_DRAWPRIMITIVE2, D3DDP2OP_SETMATERIAL, D3DDP2OP_WINFO, D3DDP2OP_SETRENDERTARGET, d3dhal/D3DDP2OP_CLIPPEDTRIANGLEFAN, d3denum_1bc3434b-44db-45ef-81e5-fd085df15178.xml, d3dhal/D3DDP2OP_SETRENDERTARGET, d3dhal/D3DDP2OP_SETSTREAMSOURCE, d3dhal/D3DDP2OP_SETMATERIAL, d3dhal/D3DDP2OP_COMPOSERECTS, D3DDP2OP_RESPONSECONTINUE, D3DDP2OP_DELETEPIXELSHADER, d3dhal/D3DDP2OP_DELETEVERTEXSHADERFUNC, d3dhal/D3DDP2OP_SETVERTEXSHADERCONST, d3dhal/D3DDP2OP_SETLIGHT, d3dhal/D3DDP2OP_VIEWPORTINFO, d3dhal/D3DDP2OP_RESPONSEQUERY, d3dhal/D3DDP2OP_CREATEVERTEXSHADERFUNC, d3dhal/D3DDP2OP_SETVERTEXSHADERCONSTI, d3dhal/D3DDP2OP_SETDEPTHSTENCIL, d3dhal/D3DDP2OP_SURFACEBLT, d3dhal/D3DDP2OP_BLT, d3dhal/D3DDP2OP_SETPIXELSHADERCONSTB, D3DDP2OP_DRAWINDEXEDPRIMITIVE, d3dhal/D3DDP2OP_SETVERTEXSHADER, D3DDP2OP_SETSCISSORRECT, D3DDP2OP_MULTIPLYTRANSFORM, d3dhal/D3DDP2OP_CREATEPIXELSHADER, D3DDP2OP_DRAWINDEXEDPRIMITIVE2, d3dhal/D3DDP2OP_SETPIXELSHADER, d3dhal/D3DDP2OP_INDEXEDTRIANGLELIST, d3dhal/D3DDP2OP_INDEXEDLINESTRIP, D3DDP2OP_ADDDIRTYRECT, D3DDP2OP_SETSTREAMSOURCEFREQ, d3dhal/D3DDP2OP_COLORFILL, d3dhal/D3DDP2OP_UPDATEPALETTE, D3DHAL_DP2OPERATION, d3dhal/D3DDP2OP_INDEXEDTRIANGLESTRIP, D3DDP2OP_VOLUMEBLT, D3DDP2OP_SURFACEBLT, D3DDP2OP_CREATEPIXELSHADER, d3dhal/D3DDP2OP_INDEXEDLINELIST, d3dhal/D3DDP2OP_SETCONVOLUTIONKERNELMONO, d3dhal/D3DDP2OP_DRAWPRIMITIVE, D3DDP2OP_INDEXEDTRIANGLELIST2, D3DDP2OP_CLIPPEDTRIANGLEFAN, d3dhal/D3DDP2OP_SETPALETTE, D3DDP2OP_SETTEXLOD, D3DDP2OP_SETSTREAMSOURCEUM, d3dhal/D3DDP2OP_LINESTRIP, d3dhal/D3DDP2OP_SETSCISSORRECT, D3DDP2OP_LINESTRIP, d3dhal/D3DHAL_DP2OPERATION, d3dhal/D3DDP2OP_DELETEVERTEXSHADERDECL, d3dhal/D3DDP2OP_SETPIXELSHADERCONSTI, D3DDP2OP_TRIANGLEFAN, D3DDP2OP_STATESET, D3DDP2OP_SETPIXELSHADERCONST, D3DDP2OP_INDEXEDTRIANGLELIST, D3DDP2OP_SETVERTEXSHADERDECL, D3DDP2OP_DELETEVERTEXSHADER, d3dhal/D3DDP2OP_SETSTREAMSOURCEUM, display.d3dhal_dp2operation, d3dhal/D3DDP2OP_SETRENDERTARGET2, d3dhal/D3DDP2OP_SETVERTEXSHADERCONSTB, D3DDP2OP_UPDATEPALETTE, D3DDP2OP_SETVERTEXSHADERCONSTI, D3DDP2OP_SETPRIORITY, d3dhal/D3DDP2OP_SETSTREAMSOURCE2, D3DDP2OP_BLT, d3dhal/D3DDP2OP_CREATEVERTEXSHADERDECL, D3DDP2OP_TEXBLT, d3dhal/D3DDP2OP_DRAWINDEXEDPRIMITIVE, d3dhal/D3DDP2OP_DELETEQUERY, D3DDP2OP_SETTRANSFORM, D3DDP2OP_TRIANGLEFAN_IMM, D3DHAL_DP2OPERATION enumeration [Display Devices], D3DDP2OP_DELETEVERTEXSHADERDECL, d3dhal/D3DDP2OP_ADDDIRTYBOX, d3dhal/D3DDP2OP_TRIANGLEFAN_IMM, d3dhal/D3DDP2OP_CLEAR, D3DDP2OP_SETSTREAMSOURCE2, d3dhal/D3DDP2OP_SETTEXLOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2OPERATION
 product: Windows
 targetos: Windows
@@ -325,7 +325,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_DELETEVERTEXSHADER
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -333,7 +349,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETVERTEXSHADERCONST
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -341,7 +373,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETSTREAMSOURCEUM
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -349,7 +397,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_DRAWPRIMITIVE
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -357,7 +421,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_CREATEPIXELSHADER
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -365,11 +445,35 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETPIXELSHADER
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETPIXELSHADERCONST
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -383,7 +487,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_DRAWINDEXEDPRIMITIVE2
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -391,7 +511,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_DRAWTRIPATCH
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -399,7 +535,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_BUFFERBLT
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -413,7 +565,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_ADDDIRTYBOX
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -421,7 +589,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_DELETEVERTEXSHADERDECL
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -429,7 +613,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_CREATEVERTEXSHADERFUNC
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -437,7 +637,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETVERTEXSHADERFUNC
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -445,7 +661,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETSCISSORRECT
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -453,7 +685,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_BLT
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -461,7 +709,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETVERTEXSHADERCONSTB
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -469,7 +733,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETRENDERTARGET2
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -477,7 +757,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_RESPONSECONTINUE
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -485,7 +781,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_GENERATEMIPSUBLEVELS
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -493,7 +805,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_ISSUEQUERY
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -501,7 +829,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SETPIXELSHADERCONSTB
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -509,7 +853,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_SURFACEBLT
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -517,383 +877,23 @@ Specifies that a user-defined clip plane is being used. See <a href="..\d3dhal\n
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field D3DDP2OP_COMPOSERECTS
 
 
 
-####### - D3DDP2OP_CREATEVERTEXSHADERDECL.DirectX 9.0 and later versions only.
+#### 
 
 
 
-######## - D3DDP2OP_RESPONSECONTINUE.This token is returned by the driver in a response buffer and indicates that the driver was unable to write all the responses in the command buffer that the runtime supplied because the size of the buffer was too small. The driver writes as many responses as possible and uses the D3DDP2OP_RESPONSEQUERY token to indicate the presence of these responses. As a result of the D3DDP2OP_RESPONSECONTINUE token, the runtime subsequently resubmits an empty command buffer so that the driver can continue to write more responses.
-
-
-
-######## - D3DDP2OP_SETVERTEXSHADERDECL.This token is passed to the driver to set the current vertex shader declaration. All subsequent drawing operations should use the given shader declaration until another is selected. Note that this uses the same structure (D3DHAL_DP2VERTEXSHADER) as D3DDP2OP_SETVERTEXSHADER and D3DDP2OP_DELETEVERTEXSHADERDECL.
-
-
-
-####### - D3DDP2OP_RESPONSEQUERY.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_COLORFILL.Specifies a color-fill operation. See D3DHAL_DP2COLORFILL.
-
-
-
-####### - D3DDP2OP_SETPIXELSHADERCONST.This token is passed to the driver to set one or more pixel shader constant registers. See D3DHAL_DP2SETPIXELSHADERCONST.
-
-
-
-####### - D3DDP2OP_ISSUEQUERY.DirectX 9.0 and later versions only.
-
-
-
-######## - D3DDP2OP_CREATEVERTEXSHADERFUNC.This token is sent to the driver when a vertex shader function is created. This token gives the driver the opportunity to convert the vertex shader code into a hardware specific format and associate this information with the given shader handle. See D3DHAL_DP2CREATEVERTEXSHADERFUNC.
-
-
-
-####### - D3DDP2OP_DRAWINDEXEDPRIMITIVE.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_CREATEVERTEXSHADER.This token is sent to the driver when a vertex shader is created. This token gives the driver the opportunity to convert the vertex shader declaration and code into a hardware specific format and associate this information with the given shader handle. See D3DHAL_DP2CREATEVERTEXSHADER.
-
-
-
-######### - D3DDP2OP_CREATEQUERY.This token is sent to the driver to create driver-side resources for queries that the runtime subsequently issues for processing. The queries are specified by one or more D3DHAL_DP2CREATEQUERY structures. Before the runtime can request to create queries, the runtime must first send D3DGDI2_TYPE_GETD3DQUERYCOUNT and D3DGDI2_TYPE_GETD3DQUERYGetDriverInfo2 requests to determine if the driver supports any query types. For more information about GetDriverInfo2, see Supporting GetDriverInfo2.
-
-
-
-####### - D3DDP2OP_SETVERTEXSHADERCONSTI.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETDEPTHSTENCIL.Sets a new depth buffer in the driver's current context. See the D3DHAL_DP2SETDEPTHSTENCIL structure.
-
-
-
-####### - D3DDP2OP_SETPIXELSHADER.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_SETVERTEXSHADERCONST.This token is passed to the driver to set one or more vertex shader constant registers with float values. The constant registers are specified by a D3DHAL_DP2SETVERTEXSHADERCONST structure. One or more vectors of four single precision floating-point values immediately follow the D3DHAL_DP2SETVERTEXSHADERCONST data structure in the DP2 stream.
-
-
-
-####### - D3DDP2OP_SETVERTEXSHADERCONSTB.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_COMPOSERECTS.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETPIXELSHADERCONSTB.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_ADDDIRTYBOX.DirectX 8.1 and later versions only.
-
-
-
-####### - D3DDP2OP_SETPIXELSHADERCONST.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_DRAWPRIMITIVE2.This token is sent to the driver to draw nonindexed primitives where the vertex data has been transformed by the runtime. Stream zero contains transform and lit vertices and is the only stream that should be accessed. The primitives are specified by one or more D3DHAL_DP2DRAWPRIMITIVE2 structures.
-
-
-
-####### - D3DDP2OP_SURFACEBLT.Specifies a blt operation from a source system memory surface to a destination video memory surface. It is specified by one or more D3DHAL_DP2SURFACEBLT structures.
-
-
-
-####### - D3DDP2OP_DELETEVERTEXSHADER.This token is sent to the driver to notify the driver of the deletion of a vertex shader and to give the driver an opportunity to clean up any driver side resources associated with the given vertex shader. Note that this uses the same structure (D3DHAL_DP2VERTEXSHADER) as D3DDP2OP_SETVERTEXSHADER.
-
-
-
-####### - D3DDP2OP_DRAWPRIMITIVE2.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DELETEVERTEXSHADERFUNC.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DELETEPIXELSHADER.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_BLT.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DRAWRECTPATCH.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DELETEVERTEXSHADERFUNC.This token is sent to the driver to notify the driver of the deletion of a vertex shader function and to give the driver an opportunity to clean up any driver side resources associated with the given vertex shader function. Note that this uses the same structure (D3DHAL_DP2VERTEXSHADER) as D3DDP2OP_DELETEVERTEXSHADER and D3DDP2OP_SETVERTEXSHADERFUNC.
-
-
-
-####### - D3DDP2OP_DELETEQUERY.This token is sent to the driver to notify the driver of the deletion of queries and to give the driver an opportunity to clean up any driver-side resources associated with those queries. This notification is specified by one or more D3DHAL_DP2DELETEQUERY structures.
-
-
-
-####### - D3DDP2OP_SETPIXELSHADERCONSTI.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETRENDERTARGET2.Sets a portion of the render target. See D3DHAL_DP2SETRENDERTARGET2.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCEFREQ.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_COLORFILL.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_ADDDIRTYRECT.DirectX 8.1 and later versions only.
-
-
-
-####### - D3DDP2OP_SURFACEBLT.DirectX 9.0 and later versions only.
-
-
-
-######## - D3DDP2OP_SETVERTEXSHADERCONSTB.This token is passed to the driver to set one or more vertex shader constant registers with Boolean values. The constant registers are specified by a D3DHAL_DP2SETVERTEXSHADERCONST structure. An array of one or more Boolean values immediately follow the D3DHAL_DP2SETVERTEXSHADERCONST data structure in the DP2 stream.
-
-
-
-####### - D3DDP2OP_CREATEVERTEXSHADER.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_CREATEVERTEXSHADERDECL.This token is sent to the driver when a vertex shader declaration is created. This token gives the driver the opportunity to convert the vertex shader declaration into a hardware specific format and associate this information with the given shader handle. See D3DHAL_DP2CREATEVERTEXSHADERDECL.
-
-
-
-######## - D3DDP2OP_DRAWINDEXEDPRIMITIVE2.This token is sent to the driver to draw indexed primitives if the vertex data has been transformed by the runtime. Stream zero contains transform and lit vertices and is the only stream that should be accessed. The indexed primitives are specified by one or more D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structures.
-
-
-
-####### - D3DDP2OP_RESPONSECONTINUE.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_ISSUEQUERY.This token requests that the driver process previously created queries. This request is specified by one or more D3DHAL_DP2ISSUEQUERY structures.
-
-
-
-######## - D3DDP2OP_CREATEPIXELSHADER.This token is sent to the driver when a pixel shader is created. This token gives the driver the opportunity to convert the pixel shader code into a hardware specific format and associate this information with the given shader handle. See D3DHAL_DP2CREATEPIXELSHADER.
-
-
-
-######## - D3DDP2OP_DRAWPRIMITIVE.This token is sent to the driver to draw nonindexed primitives. D3DDP2OP_DRAWPRIMITIVE2 is used if the vertex data has been transformed by the runtime. The primitives are specified by one or more D3DHAL_DP2DRAWPRIMITIVE structures.
-
-
-
-####### - D3DDP2OP_SETRENDERTARGET2.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DRAWPRIMITIVE.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_RESPONSEQUERY.This token is returned by the driver in a response buffer and indicates the presence of query data in the response buffer. The driver specifies one or more D3DHAL_DP2RESPONSEQUERY structures that identify previously issued queries and specify the size of the data related to the queries. Each D3DHAL_DP2RESPONSEQUERY is followed by its query data.
-
-
-
-######## - D3DDP2OP_SETPIXELSHADERCONSTB.This token is passed to the driver to set one or more pixel shader constant registers with Boolean values. The constant registers are specified by a D3DHAL_DP2SETPIXELSHADERCONST structure. An array of one or more Boolean values immediately follow the D3DHAL_DP2SETPIXELSHADERCONST data structure in the DP2 stream.
-
-
-
-####### - D3DDP2OP_DELETEVERTEXSHADERDECL.This token is sent to the driver to notify the driver of the deletion of a vertex shader declaration and to give the driver an opportunity to clean up any driver side resources associated with the given vertex shader declaration. Note that this uses the same structure (D3DHAL_DP2VERTEXSHADER) as D3DDP2OP_DELETEVERTEXSHADER and D3DDP2OP_SETVERTEXSHADERDECL.
-
-
-
-####### - D3DDP2OP_CREATEVERTEXSHADERFUNC.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETINDICES.Sets the current index buffer. See D3DHAL_DP2SETINDICES.
-
-
-
-####### - D3DDP2OP_CREATEQUERY.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETVERTEXSHADERDECL.DirectX 9.0 and later versions only.
-
-
-
-######### - D3DDP2OP_GENERATEMIPSUBLEVELS.Notifies the driver to automatically regenerate the sublevels of a mipmap texture using a specific filter type. This notification is specified with a D3DHAL_DP2GENERATEMIPSUBLEVELS structure. The driver receives this notification after performing some other operation that only accesses the top level of the mipmap texture. For example, a blit operation.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCEUM.Binds a vertex stream source to a user memory buffer. See D3DHAL_DP2SETSTREAMSOURCEUM.
-
-
-
-####### - D3DDP2OP_BUFFERBLT.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_SETSCISSORRECT.Specifies to mark a portion of a 2D resource such as a 2D texture or cube texture. This 2D texture is specified by a D3DHAL_DP2SETSCISSORRECT structure, which is defined as a RECT structure. For more information about RECT, see the DirectX SDK documentation.
-
-
-
-####### - D3DDP2OP_DELETEVERTEXSHADERDECL.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_VOLUMEBLT.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DELETEPIXELSHADER.This token is sent to the driver to notify the driver of the deletion of a pixel shader and to give the driver an opportunity to clean up any driver side resources associated with the given pixel shader. Note that this uses the same structure (D3DHAL_DP2PIXELSHADER) as D3DDP2OP_SETVPIXELSHADER.
-
-
-
-####### - D3DDP2OP_BUFFERBLT.Specifies a blt operation from a source vertex or index buffer to a destination vertex or index buffer. It is specified by one or more D3DHAL_DP2BUFFERBLT structures.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCE.Binds a vertex stream source to a vertex buffer. See D3DHAL_DP2SETSTREAMSOURCE.
-
-
-
-####### - D3DDP2OP_SETINDICES.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETVERTEXSHADER.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETVERTEXSHADERCONST.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_GENERATEMIPSUBLEVELS.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DRAWTRIPATCH.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETSCISSORRECT.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DRAWRECTPATCH.This token is sent to the driver to draw a new rectangular patch, to draw a cached rectangular patch, or to update the specification of a previously defined patch. The patches are specified by one or more D3DHAL_DP2DRAWRECTPATCH structures.
-
-
-
-####### - D3DDP2OP_VOLUMEBLT.Specifies a blt operation from a source volume texture to a destination volume texture. It is specified by one or more D3DHAL_DP2VOLUMEBLT structures.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCEFREQ.Sets the frequency divisor of a stream source that is bound to a vertex buffer. See D3DHAL_DP2SETSTREAMSOURCEFREQ.
-
-
-
-######## - D3DDP2OP_SETVERTEXSHADERCONSTI.This token is passed to the driver to set one or more vertex shader constant registers with integer values. The constant registers are specified by a D3DHAL_DP2SETVERTEXSHADERCONST structure. One or more vectors of four integer values immediately follow the D3DHAL_DP2SETVERTEXSHADERCONST data structure in the DP2 stream.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCE2.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETDEPTHSTENCIL.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DRAWINDEXEDPRIMITIVE2.DirectX 8.0 and later versions only.
-
-
-
-######## - D3DDP2OP_SETPIXELSHADERCONSTI.This token is passed to the driver to set one or more pixel shader constant registers with integer values. The constant registers are specified by a D3DHAL_DP2SETPIXELSHADERCONST structure. One or more vectors of four integer values immediately follow the D3DHAL_DP2SETPIXELSHADERCONST data structure in the DP2 stream.
-
-
-
-####### - D3DDP2OP_BLT.Specifies a blt operation from a source surface to a destination surface. It is specified by one or more D3DHAL_DP2BLT structures.
-
-
-
-####### - D3DDP2OP_COMPOSERECTS.Composes two-dimensional areas from a source surface to a destination surface. See the D3DHAL_DP2COMPOSERECTS structure.
-
-
-
-######## - D3DDP2OP_DRAWINDEXEDPRIMITIVE.This token is sent to the driver to draw indexed primitives. D3DDP2OP_DRAWINDEXEDPRIMITIVE2 is used if the vertex data has been transformed by the runtime. The indexed primitives are specified by one or more D3DHAL_DP2DRAWINDEXEDPRIMITIVE structures.
-
-
-
-####### - D3DDP2OP_SETVERTEXSHADERFUNC.DirectX 9.0 and later versions only.
-
-
-
-######## - D3DDP2OP_SETPIXELSHADER.This token is passed to the driver to set the current pixel shader. All subsequent drawing operations should use the given shader until another is selected. Note that this uses the same structure (D3DHAL_DP2PIXELSHADER) as D3DDP2OP_DELETEPIXELSHADER.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCEUM.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETCONVOLUTIONKERNELMONO.Defines the resolution and weights of the kernel filter. See the D3DHAL_DP2SETCONVOLUTIONKERNELMONO structure.
-
-
-
-######## - D3DDP2OP_ADDDIRTYRECT.Specifies that a portion of a 2D resource--a 2D texture or cube texture--was dirtied in system memory. This 2D texture is specified in a D3DHAL_DP2ADDDIRTYRECT structure. This 2D texture must be reloaded into video memory before being used.
-
-
-
-####### - D3DDP2OP_CREATEPIXELSHADER.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETCONVOLUTIONKERNELMONO.DirectX 9.0 and later versions only.
-
-
-
-######## - D3DDP2OP_ADDDIRTYBOX.Specifies that a portion of a 3D resource--a volume texture--was dirtied in system memory. This volume texture is specified in a D3DHAL_DP2ADDDIRTYBOX structure. This volume must be reloaded into video memory before being used.
-
-
-
-######## - D3DDP2OP_SETVERTEXSHADER.This token is passed to the driver to set the current vertex shader. All subsequent drawing operations should use the given shader until another is selected. Note that this uses the same structure (D3DHAL_DP2VERTEXSHADER) as D3DDP2OP_DELETEVERTEXSHADER.
-
-
-
-######## - D3DDP2OP_SETVERTEXSHADERFUNC.This token is passed to the driver to set the current vertex shader function. All subsequent drawing operations should use the given shader function until another is selected. Note that this uses the same structure (D3DHAL_DP2VERTEXSHADER) as D3DDP2OP_SETVERTEXSHADER and D3DDP2OP_DELETEVERTEXSHADERFUNC.
-
-
-
-####### - D3DDP2OP_DELETEVERTEXSHADER.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_DELETEQUERY.DirectX 9.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCE.DirectX 8.0 and later versions only.
-
-
-
-####### - D3DDP2OP_SETSTREAMSOURCE2.Binds a portion of a vertex stream source to a vertex buffer. See D3DHAL_DP2SETSTREAMSOURCE2.
-
-
-
-####### - D3DDP2OP_DRAWTRIPATCH.This token is sent to the driver to draw a new triangular patch, to draw a cached triangular patch, or to update the specification of a previously defined patch. The patches are specified by one or more D3DHAL_DP2DRAWTRIPATCH structures.
+#### 
 
 
 

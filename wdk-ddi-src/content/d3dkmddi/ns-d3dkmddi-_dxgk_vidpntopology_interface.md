@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDPNTOPOLOGY_INTERFACE
-title: _DXGK_VIDPNTOPOLOGY_INTERFACE
+title: "_DXGK_VIDPNTOPOLOGY_INTERFACE"
 author: windows-driver-content
 description: The DXGK_VIDPNTOPOLOGY_INTERFACE structure contains pointers to functions that belong to the VidPn Topology interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpntopology_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_VIDPNTOPOLOGY_INTERFACE, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, display.dxgk_vidpntopology_interface, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices]
+ms.keywords: display.dxgk_vidpntopology_interface, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE, _DXGK_VIDPNTOPOLOGY_INTERFACE, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_VIDPNTOPOLOGY_INTERFACE
 product: Windows
 targetos: Windows

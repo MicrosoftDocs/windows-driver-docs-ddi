@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_FLAGS
-title: _D3DDDI_MULTIPLANE_OVERLAY_FLAGS
+title: "_D3DDDI_MULTIPLANE_OVERLAY_FLAGS"
 author: windows-driver-content
 description: Identifies a flip operation to be performed on an overlay plane.
 old-location: display\d3dddi_multiplane_overlay_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b91d87e8-3f63-45ac-919f-3597957ea497
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAGS, display.d3dddi_multiplane_overlay_flags, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices]
+ms.keywords: display.d3dddi_multiplane_overlay_flags, D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_FLAGS, _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_MULTIPLANE_OVERLAY_FLAGS
 product: Windows
 targetos: Windows

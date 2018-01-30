@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B3D4AE97-9CDB-425D-A04B-E164852FDF19
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient5_pushoutputlineprefixwide, dbgeng/IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, IDebugClient5, IDebugClient5::PushOutputLinePrefixWide
+ms.keywords: PushOutputLinePrefixWide, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefixWide, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, IDebugClient5, PushOutputLinePrefixWide method [Windows Debugging], debugger.idebugclient5_pushoutputlineprefixwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.PushOutputLinePrefixWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::PushOutputLinePrefixWide method

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvdeo.h
-apiname: 
+apiname:
 -	IOCTL_VIDEO_GET_CHILD_STATE
 product: Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
 ---
 
 # IOCTL_VIDEO_GET_CHILD_STATE IOCTL
@@ -160,9 +160,9 @@ The video miniport driver sets the <b>Information</b> member of the <a href="..\
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d82b4e91-6734-4644-811d-fb64cfb9f5c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_ddi_query_data_pipeline_statistics, d3d10umddi/D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_68a59a1f-0f02-4be2-b417-5c4064df23fb.xml, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
+ms.keywords: d3d10umddi/D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d11_ddi_query_data_pipeline_statistics, UMDisplayDriver_Dx11param_Structs_68a59a1f-0f02-4be2-b417-5c4064df23fb.xml, D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
 product: Windows
 targetos: Windows

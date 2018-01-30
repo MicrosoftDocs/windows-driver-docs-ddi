@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b7d930e-7003-4875-8a2b-6ce50ea606c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_b3c96163-7085-43eb-a8da-84f0f824e069.xml, d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex3d_shaderresourceview, D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure [Display Devices], D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
+ms.keywords: D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_b3c96163-7085-43eb-a8da-84f0f824e069.xml, D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure [Display Devices], display.d3d10ddiarg_tex3d_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW
 product: Windows
 targetos: Windows
@@ -87,9 +87,9 @@ If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start f
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
 

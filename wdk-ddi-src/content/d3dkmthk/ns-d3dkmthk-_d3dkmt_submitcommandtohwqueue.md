@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITCOMMANDTOHWQUEUE
-title: _D3DKMT_SUBMITCOMMANDTOHWQUEUE
+title: "_D3DKMT_SUBMITCOMMANDTOHWQUEUE"
 author: windows-driver-content
 description: A structure that holds information to submit a command to the hardware queue.
 old-location: display\d3dkmt_submitcommandtohwqueue.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3807BD27-FAE4-4E12-A825-A9FAFB7A6ACA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SUBMITCOMMANDTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, display.d3dkmt_submitcommandtohwqueue, _D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices]
+ms.keywords: D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], display.d3dkmt_submitcommandtohwqueue, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, _D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SUBMITCOMMANDTOHWQUEUE
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIOMODULE_NOTIFICATION
-title: _KSAUDIOMODULE_NOTIFICATION
+title: "_KSAUDIOMODULE_NOTIFICATION"
 author: windows-driver-content
 description: The KSAUDIOMODULE_NOTIFICATION structure describes the properties associated with audio modules change notification.
 old-location: audio\ksaudiomodule_notification.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], KSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices]
+ms.keywords: KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], *PKSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, ksmedia/KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIOMODULE_NOTIFICATION
 product: Windows
 targetos: Windows

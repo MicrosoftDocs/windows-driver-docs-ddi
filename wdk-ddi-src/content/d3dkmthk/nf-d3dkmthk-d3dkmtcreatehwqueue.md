@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], display.d3dkmtcreatehwqueue, d3dkmthk/D3DKMTCreateHwQueue
+ms.keywords: display.d3dkmtcreatehwqueue, d3dkmthk/D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], D3DKMTCreateHwQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMTCreateHwQueue
 product: Windows
 targetos: Windows

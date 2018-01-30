@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETQUERYDATA
-title: _D3DDDIARG_GETQUERYDATA
+title: "_D3DDDIARG_GETQUERYDATA"
 author: windows-driver-content
 description: The D3DDDIARG_GETQUERYDATA structure contains query information that was retrieved from the user-mode display driver.
 old-location: display\d3dddiarg_getquerydata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98c6ada1-89a4-4cbd-bb6c-98c190fa15d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, _D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata, d3dumddi/D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA structure [Display Devices]
+ms.keywords: D3DDDIARG_GETQUERYDATA structure [Display Devices], UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, D3DDDIARG_GETQUERYDATA, _D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata, d3dumddi/D3DDDIARG_GETQUERYDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_GETQUERYDATA
 product: Windows
 targetos: Windows

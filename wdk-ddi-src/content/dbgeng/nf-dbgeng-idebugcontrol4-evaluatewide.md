@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EvaluateWide, EvaluateWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::EvaluateWide, EvaluateWide method [Windows Debugging], debugger.evaluatewide, IDebugControl4::EvaluateWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], EvaluateWide method
+ms.keywords: debugger.evaluatewide, IDebugControl4::EvaluateWide, EvaluateWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], EvaluateWide method, EvaluateWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, EvaluateWide, dbgeng/IDebugControl4::EvaluateWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.EvaluateWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::EvaluateWide method
@@ -138,13 +138,13 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RENDER
-title: _D3DDDICB_RENDER
+title: "_D3DDDICB_RENDER"
 author: windows-driver-content
 description: The D3DDDICB_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dddicb_render.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a2bf1a8-d416-46bc-a9ba-9122407ea2a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_render, D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, D3DDDICB_RENDER, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], _D3DDDICB_RENDER, D3DDDICB_RENDER, display.d3dddicb_render, D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_RENDER
 product: Windows
 targetos: Windows
@@ -248,13 +248,13 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
 
  
 

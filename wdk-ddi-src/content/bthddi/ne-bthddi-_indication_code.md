@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._INDICATION_CODE
-title: _INDICATION_CODE
+title: "_INDICATION_CODE"
 author: windows-driver-content
 description: The INDICATION_CODE enumeration type indicates to a profile driver what type of L2CAP event has occurred.
 old-location: bltooth\indication_code.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 7fc374e3-ca5b-476d-bc44-afb28ecf9920
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: IndicationRemoteConfigResponse, IndicationRemoteConfigRequest, IndicationUnpersonalizeDevice, IndicationRecvPacket, IndicationRemoteConnect, bthddi/IndicationRemoteConnectLE, bthddi/IndicationRemoteConnect, IndicationAddReference, bthddi/IndicationFreeExtraOptions, *PINDICATION_CODE, bthddi/INDICATION_CODE, IndicationFreeExtraOptions, bthddi/IndicationUnpairDevice, bthddi/IndicationRecvPacket, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/IndicationPairDevice, IndicationRemoteConnectLE, INDICATION_CODE, IndicationUnpairDevice, PINDICATION_CODE enumeration pointer [Bluetooth Devices], bltooth.indication_code, bthddi/IndicationUnpersonalizeDevice, bthddi/IndicationRemoteConfigRequest, PINDICATION_CODE, _INDICATION_CODE, bthddi/IndicationRemoteDisconnect, INDICATION_CODE enumeration [Bluetooth Devices], IndicationPairDevice, IndicationRemoteDisconnect, bthddi/IndicationReleaseReference, bthddi/IndicationRemoteConfigResponse, bthddi/PINDICATION_CODE, IndicationReleaseReference, bthddi/IndicationAddReference
+ms.keywords: bthddi/IndicationRemoteConfigRequest, IndicationRemoteConfigResponse, bthddi/IndicationFreeExtraOptions, IndicationRemoteConnect, bthddi/IndicationRemoteConfigResponse, IndicationRemoteConfigRequest, _INDICATION_CODE, PINDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/PINDICATION_CODE, IndicationRecvPacket, IndicationRemoteConnectLE, PINDICATION_CODE, IndicationUnpersonalizeDevice, INDICATION_CODE enumeration [Bluetooth Devices], bltooth.indication_code, INDICATION_CODE, bthddi/IndicationPairDevice, bthddi/IndicationUnpairDevice, bthddi/INDICATION_CODE, bthddi/IndicationRecvPacket, IndicationReleaseReference, bthddi/IndicationReleaseReference, bthddi/IndicationRemoteConnectLE, IndicationUnpairDevice, bthddi/IndicationUnpersonalizeDevice, *PINDICATION_CODE, IndicationRemoteDisconnect, IndicationPairDevice, IndicationAddReference, bthddi/IndicationRemoteDisconnect, bthddi/IndicationAddReference, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/IndicationRemoteConnect, IndicationFreeExtraOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	INDICATION_CODE
 product: Windows
 targetos: Windows
-req.typenames: *PINDICATION_CODE, INDICATION_CODE
+req.typenames: INDICATION_CODE, *PINDICATION_CODE
 ---
 
 # _INDICATION_CODE enumeration
@@ -187,13 +187,13 @@ A value from this enumeration is passed to a profile driver's
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
 <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
  
 

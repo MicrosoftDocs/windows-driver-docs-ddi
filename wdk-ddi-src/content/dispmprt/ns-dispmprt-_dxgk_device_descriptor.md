@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DEVICE_DESCRIPTOR
-title: _DXGK_DEVICE_DESCRIPTOR
+title: "_DXGK_DEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: The DXGK_DEVICE_DESCRIPTOR structure is used by the display port driver to request that the display miniport driver return all or a portion of a monitor's Extended Display Identification Data (EDID).
 old-location: display\dxgk_device_descriptor.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6d89426-54d3-4f90-8687-c60e515b4d62
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], display.dxgk_device_descriptor, PDXGK_DEVICE_DESCRIPTOR, dispmprt/DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices]
+ms.keywords: "*PDXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, dispmprt/DXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], DXGK_DEVICE_DESCRIPTOR structure [Display Devices], DXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, _DXGK_DEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR
+req.typenames: "*PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR"
 ---
 
 # _DXGK_DEVICE_DESCRIPTOR structure
@@ -93,11 +93,11 @@ The display port driver passes a DXGK_DEVICE_DESCRIPTOR structure to <a href="..
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
 <a href="..\dispmprt\ns-dispmprt-_dxgk_generic_descriptor.md">DXGK_GENERIC_DESCRIPTOR</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
  
 

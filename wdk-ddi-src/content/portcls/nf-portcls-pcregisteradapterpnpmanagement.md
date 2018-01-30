@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: DF597216-FB81-466C-871E-5E08C69B78DA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcregisteradapterpnpmanagement, PcRegisterAdapterPnPManagement, portcls/PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement
+ms.keywords: PcRegisterAdapterPnPManagement function [Audio Devices], audio.pcregisteradapterpnpmanagement, PcRegisterAdapterPnpManagement, PcRegisterAdapterPnPManagement, portcls/PcRegisterAdapterPnPManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcRegisterAdapterPnPManagement
 product: Windows
 targetos: Windows
@@ -76,7 +76,7 @@ TBD
 
 ### -param DeviceObject [in]
 
-Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 #### - pUnknown [in]
@@ -102,13 +102,13 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\portcls\nf-portcls-pcunregisteradapterpnpmanagement.md">PcUnregisterAdapterPnpManagement</a>
+<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
 
 <a href="..\portcls\nn-portcls-iadapterpnpmanagement.md">IAdapterPnpManagement</a>
 
-<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
+<a href="..\portcls\nf-portcls-pcunregisteradapterpnpmanagement.md">PcUnregisterAdapterPnpManagement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
  
 

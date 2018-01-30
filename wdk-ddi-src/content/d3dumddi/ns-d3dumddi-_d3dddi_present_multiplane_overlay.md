@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_PRESENT_MULTIPLANE_OVERLAY
-title: _D3DDDI_PRESENT_MULTIPLANE_OVERLAY
+title: "_D3DDDI_PRESENT_MULTIPLANE_OVERLAY"
 author: windows-driver-content
 description: Specifies an overlay plane to display.
 old-location: display\d3dddi_present_multiplane_overlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_present_multiplane_overlay, _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY
+ms.keywords: display.d3dddi_present_multiplane_overlay, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_COLORIMETRY
-title: _DXGK_COLORIMETRY
+title: "_DXGK_COLORIMETRY"
 author: windows-driver-content
 description: Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
 old-location: display\dxgk_colorimetry.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], d3dkmddi/DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, _DXGK_COLORIMETRY, PDXGK_COLORIMETRY, display.dxgk_colorimetry, PDXGK_COLORIMETRY structure pointer [Display Devices], d3dkmddi/PDXGK_COLORIMETRY
+ms.keywords: "_DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], display.dxgk_colorimetry, d3dkmddi/DXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_COLORIMETRY
 product: Windows
 targetos: Windows
-req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
+req.typenames: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY"
 ---
 
 # _DXGK_COLORIMETRY structure

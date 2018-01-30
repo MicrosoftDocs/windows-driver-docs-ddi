@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GenerateEventList method [Audio Devices], IPortEvents interface, IPortEvents interface [Audio Devices], GenerateEventList method, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, IPortEvents, GenerateEventList, portcls/IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, GenerateEventList method [Audio Devices], IPortEvents::GenerateEventList
+ms.keywords: IPortEvents interface [Audio Devices], GenerateEventList method, GenerateEventList, portcls/IPortEvents::GenerateEventList, IPortEvents, GenerateEventList method [Audio Devices], IPortEvents::GenerateEventList, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, GenerateEventList method [Audio Devices], IPortEvents interface, audio.iportevents_generateeventlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level. (See Remarks section.)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortEvents.GenerateEventList
 product: Windows
 targetos: Windows

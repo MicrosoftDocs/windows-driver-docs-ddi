@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ab98312f-0240-498f-992a-b05cbcc64c04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::SetExpressionSyntax, SetExpressionSyntax method [Windows Debugging], debugger.setexpressionsyntax, IDebugControl3 interface [Windows Debugging], SetExpressionSyntax method, SetExpressionSyntax, IDebugControl_6f1ebcec-908b-4f00-b9cf-e7a036bc05e5.xml, IDebugControl3::SetExpressionSyntax, SetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, IDebugControl3
+ms.keywords: SetExpressionSyntax, IDebugControl3::SetExpressionSyntax, dbgeng/IDebugControl3::SetExpressionSyntax, IDebugControl3, SetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, IDebugControl_6f1ebcec-908b-4f00-b9cf-e7a036bc05e5.xml, IDebugControl3 interface [Windows Debugging], SetExpressionSyntax method, debugger.setexpressionsyntax, SetExpressionSyntax method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.SetExpressionSyntax
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::SetExpressionSyntax method
@@ -74,12 +74,12 @@ Specifies the syntax that the engine will use to evaluate expressions.  It can b
 
 
 
-##### - Flags.DEBUG_EXPR_MASM
+#### DEBUG_EXPR_MASM
 
 Expressions will be evaluated according to MASM syntax. For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552157">MASM Numbers and Operators</a>.
 
 
-##### - Flags.DEBUG_EXPR_CPLUSPLUS
+#### DEBUG_EXPR_CPLUSPLUS
 
 Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540372">C++ Numbers and Operators</a>.
 
@@ -121,11 +121,11 @@ After the expression syntax has been changed, the engine sends out notification 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 

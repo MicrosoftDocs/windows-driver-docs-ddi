@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CheckDirectFlipSupport(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT callback
@@ -94,9 +94,9 @@ If this parameter has a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>, 
 
 
 
-#### - hResource2
+#### - hDevice
 
-A resource in the DWM's swapchain.
+A handle to the display device (graphics context).
 
 
 #### - hResource1
@@ -104,9 +104,9 @@ A resource in the DWM's swapchain.
 A resource in the application's swapchain.
 
 
-#### - hDevice
+#### - hResource2
 
-A handle to the display device (graphics context).
+A resource in the DWM's swapchain.
 
 
 #### - pSupported [out]
@@ -139,11 +139,11 @@ The user-mode driver should ensure that the managed primary allocations of the a
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 

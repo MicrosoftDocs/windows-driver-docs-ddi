@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c0122c96-5bd3-4c1f-85d3-5d4ead5c0c86
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PKSDS3D_HRTF_FILTER_FORMAT_MSG, aud-prop_5ad5b67d-5302-44e1-b4e0-16d66334f57b.xml, PKSDS3D_HRTF_FILTER_FORMAT_MSG, ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG, audio.ksds3d_hrtf_filter_format_msg, ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG structure [Audio Devices], PKSDS3D_HRTF_FILTER_FORMAT_MSG structure pointer [Audio Devices]
+ms.keywords: ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG, audio.ksds3d_hrtf_filter_format_msg, PKSDS3D_HRTF_FILTER_FORMAT_MSG structure pointer [Audio Devices], *PKSDS3D_HRTF_FILTER_FORMAT_MSG, aud-prop_5ad5b67d-5302-44e1-b4e0-16d66334f57b.xml, ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG, PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDS3D_HRTF_FILTER_FORMAT_MSG
 product: Windows
 targetos: Windows
-req.typenames: *PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG
+req.typenames: KSDS3D_HRTF_FILTER_FORMAT_MSG, *PKSDS3D_HRTF_FILTER_FORMAT_MSG
 ---
 
 # KSDS3D_HRTF_FILTER_FORMAT_MSG structure
@@ -120,9 +120,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537353">KSPROPERTY_HRTF3D_FILTER_FORMAT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537353">KSPROPERTY_HRTF3D_FILTER_FORMAT</a>
 
  
 

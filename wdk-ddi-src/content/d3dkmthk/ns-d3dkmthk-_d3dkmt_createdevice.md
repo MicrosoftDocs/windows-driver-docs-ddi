@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEDEVICE
-title: _D3DKMT_CREATEDEVICE
+title: "_D3DKMT_CREATEDEVICE"
 author: windows-driver-content
 description: The D3DKMT_CREATEDEVICE structure describes a kernel-mode device context.
 old-location: display\d3dkmt_createdevice.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_createdevice, _D3DKMT_CREATEDEVICE, D3DKMT_CREATEDEVICE structure [Display Devices], D3DKMT_CREATEDEVICE, d3dkmthk/D3DKMT_CREATEDEVICE, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml
+ms.keywords: d3dkmthk/D3DKMT_CREATEDEVICE, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml, D3DKMT_CREATEDEVICE structure [Display Devices], D3DKMT_CREATEDEVICE, _D3DKMT_CREATEDEVICE, display.d3dkmt_createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATEDEVICE
 product: Windows
 targetos: Windows
@@ -138,9 +138,9 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdeviceflags.md">D3DKMT_CREATEDEVICEFLAGS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdeviceflags.md">D3DKMT_CREATEDEVICEFLAGS</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE3
-title: _DXGK_MULTIPLANE_OVERLAY_PLANE3
+title: "_DXGK_MULTIPLANE_OVERLAY_PLANE3"
 author: windows-driver-content
 description: Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
 old-location: display\dxgk_multiplane_overlay_plane3.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2C524702-A819-4B91-B236-E00B2820813C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3 structure [Display Devices], display.dxgk_multiplane_overlay_plane3, _DXGK_MULTIPLANE_OVERLAY_PLANE3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE3
+ms.keywords: display.dxgk_multiplane_overlay_plane3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3, _DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MULTIPLANE_OVERLAY_PLANE3
 product: Windows
 targetos: Windows
@@ -144,12 +144,12 @@ Private driver data.
 A structure of type DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 that specifies overlay plane attributes.
 
 
-#### - pPrimaryData
-
-An array of DXGK_PRIMARYDATA structures that contain information on each allocation contributing to the display operation.
-
-
 #### - pContext
 
 An array of handles to the contexts that contributed to a display operation.
+
+
+#### - pPrimaryData
+
+An array of DXGK_PRIMARYDATA structures that contain information on each allocation contributing to the display operation.
 

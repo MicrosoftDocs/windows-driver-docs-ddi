@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030
 product: Windows
 targetos: Windows
@@ -91,14 +91,14 @@ The transform operation being performed.
 
 
 
-#### - pInputArguments [in]
-
-The input arguments for the transform being performed.
-
-
 #### - pOutputArguments [in]
 
 The output arguments for the transform being performed.
+
+
+#### - pInputArguments [in]
+
+The input arguments for the transform being performed.
 
 
 ## -returns

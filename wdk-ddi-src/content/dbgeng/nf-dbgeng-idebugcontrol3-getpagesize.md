@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, dbgeng/IDebugControl3::GetPageSize, debugger.getpagesize, GetPageSize method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl2::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, GetPageSize, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl3, GetPageSize method [Windows Debugging], IDebugControl interface, IDebugControl2::GetPageSize
+ms.keywords: IDebugControl::GetPageSize, dbgeng/IDebugControl::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], GetPageSize, IDebugControl3, dbgeng/IDebugControl2::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, IDebugControl3::GetPageSize, IDebugControl3 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl3::GetPageSize, debugger.getpagesize, GetPageSize method [Windows Debugging], IDebugControl interface, IDebugControl2::GetPageSize, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl interface [Windows Debugging], GetPageSize method, GetPageSize method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetPageSize
 -	IDebugControl2.GetPageSize
 -	IDebugControl3.GetPageSize
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetPageSize method

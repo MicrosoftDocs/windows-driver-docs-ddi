@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONUSAGEHINT
-title: _DXGK_ALLOCATIONUSAGEHINT
+title: "_DXGK_ALLOCATIONUSAGEHINT"
 author: windows-driver-content
 description: The DXGK_ALLOCATIONUSAGEHINT structure contains allocation usage and version information that is used as a hint about how to use an allocation.
 old-location: display\dxgk_allocationusagehint.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, _DXGK_ALLOCATIONUSAGEHINT, DXGK_ALLOCATIONUSAGEHINT, display.dxgk_allocationusagehint
+ms.keywords: DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, DXGK_ALLOCATIONUSAGEHINT, DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, _DXGK_ALLOCATIONUSAGEHINT, display.dxgk_allocationusagehint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_ALLOCATIONUSAGEHINT
 product: Windows
 targetos: Windows
@@ -82,9 +82,9 @@ typedef struct _DXGK_ALLOCATIONUSAGEHINT {
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusageinfo1.md">DXGK_ALLOCATIONUSAGEINFO1</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusageinfo1.md">DXGK_ALLOCATIONUSAGEINFO1</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 

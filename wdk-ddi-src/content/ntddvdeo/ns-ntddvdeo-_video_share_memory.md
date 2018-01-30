@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_SHARE_MEMORY
-title: _VIDEO_SHARE_MEMORY
+title: "_VIDEO_SHARE_MEMORY"
 author: windows-driver-content
 description: The VIDEO_SHARE_MEMORY structure is used in a request to the video miniport driver for a block of user-mode memory to be shared with the specified process.
 old-location: display\video_share_memory.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2339da67-78cd-49d4-a70c-fd774706fe3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_SHARE_MEMORY structure pointer [Display Devices], _VIDEO_SHARE_MEMORY, ntddvdeo/PVIDEO_SHARE_MEMORY, ntddvdeo/VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY, Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, display.video_share_memory, PVIDEO_SHARE_MEMORY, *PVIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices]
+ms.keywords: display.video_share_memory, VIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY structure pointer [Display Devices], *PVIDEO_SHARE_MEMORY, _VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices], Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, ntddvdeo/VIDEO_SHARE_MEMORY, ntddvdeo/PVIDEO_SHARE_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	VIDEO_SHARE_MEMORY
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY
+req.typenames: VIDEO_SHARE_MEMORY, *PVIDEO_SHARE_MEMORY
 ---
 
 # _VIDEO_SHARE_MEMORY structure
@@ -101,11 +101,11 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
 ## -see-also
 
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a>
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	GetNextChunkData
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---
 
 # PFN_GET_NEXT_CHUNK_DATA callback
@@ -118,11 +118,6 @@ The number of additional events that are supplied in the <i>pAdditionalWaitEvent
 
 
 
-#### - pChunkDataBuffer [out]
-
-A pointer to a buffer of type  <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a> that the operating system provides to store information about the next encode chunk. This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
-
-
 #### - pAdditionalWaitEvents [in, optional]
 
 An optional pointer to an array of events that  <b>GetNextChunkData</b> will wait on while waiting for a new encode chunk.
@@ -135,6 +130,11 @@ A pointer to a variable that contains the size, in bytes, of the <i>pChunkDataBu
 When <b>GetNextChunkData</b> is called, this parameter contains the size of <i>pChunkDataBuffer</i>.
 
 When  <b>GetNextChunkData</b> returns a success code, this parameter contains the size of actual encode chunk data returned in <i>pChunkDataBuffer</i>.
+
+
+#### - pChunkDataBuffer [out]
+
+A pointer to a buffer of type  <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a> that the operating system provides to store information about the next encode chunk. This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
 
 
 #### - pOutstandingChunksToProcess [out]
@@ -177,9 +177,9 @@ In a call to this function, as many available packets as can fit will be placed 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_data.md">MIRACAST_CHUNK_DATA</a>
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 

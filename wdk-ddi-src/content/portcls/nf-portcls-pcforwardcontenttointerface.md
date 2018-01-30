@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5aa6aa90-ef41-467e-a096-5ab660b3f357
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, audio.pcforwardcontenttointerface, PcForwardContentToInterface, portcls/PcForwardContentToInterface, PcForwardContentToInterface function [Audio Devices]
+ms.keywords: PcForwardContentToInterface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, PcForwardContentToInterface function [Audio Devices], portcls/PcForwardContentToInterface, audio.pcforwardcontenttointerface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcForwardContentToInterface
 product: Windows
 targetos: Windows

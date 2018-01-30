@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getstackoffset2, dbgeng/IDebugRegisters2::GetStackOffset2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, IDebugRegisters2::GetStackOffset2, GetStackOffset2, IDebugRegisters2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method
+ms.keywords: debugger.getstackoffset2, GetStackOffset2 method [Windows Debugging], dbgeng/IDebugRegisters2::GetStackOffset2, GetStackOffset2, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, IDebugRegisters2, IDebugRegisters2::GetStackOffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.GetStackOffset2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::GetStackOffset2 method
@@ -144,9 +144,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548403">GetStackOffset</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548403">GetStackOffset</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a8e7641-c946-4feb-b6d7-54ef63de9e76
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_PROCESSIDTYPE_DWM, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_HANDLE, D3D11_1DDI_PROCESSIDTYPE_HANDLE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_DWM, D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, display.d3d11_1ddi_authenticated_process_identifier_type
+ms.keywords: d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_HANDLE, D3D11_1DDI_PROCESSIDTYPE_HANDLE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Display Devices], D3D11_1DDI_PROCESSIDTYPE_DWM, display.d3d11_1ddi_authenticated_process_identifier_type, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_DWM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 product: Windows
 targetos: Windows

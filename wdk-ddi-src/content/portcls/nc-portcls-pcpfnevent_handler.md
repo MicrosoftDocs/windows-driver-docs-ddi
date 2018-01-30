@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	EventHandler
 product: Windows
 targetos: Windows
-req.typenames: PosValueStatisticsEntry
+req.typenames: "*PBATTERY_STATUS, BATTERY_STATUS"
 ---
 
 # PCPFNEVENT_HANDLER callback
@@ -109,19 +109,19 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
-<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
+
+<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
 
  
 

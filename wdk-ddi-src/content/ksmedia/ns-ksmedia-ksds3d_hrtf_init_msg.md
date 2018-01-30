@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8e25a1e2-24b1-418c-b1eb-884bdbad63b3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksds3d_hrtf_init_msg, PKSDS3D_HRTF_INIT_MSG, ksmedia/KSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], ksmedia/PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, KSDS3D_HRTF_INIT_MSG, *PKSDS3D_HRTF_INIT_MSG
+ms.keywords: audio.ksds3d_hrtf_init_msg, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], ksmedia/KSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, *PKSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG, ksmedia/PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDS3D_HRTF_INIT_MSG
 product: Windows
 targetos: Windows
@@ -136,11 +136,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
+<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksds3d_hrtf_params_msg.md">KSDS3D_HRTF_PARAMS_MSG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
 
  
 

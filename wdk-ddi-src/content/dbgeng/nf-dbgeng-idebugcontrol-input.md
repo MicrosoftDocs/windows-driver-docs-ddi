@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], Input method, Input method [Windows Debugging], IDebugControl interface, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, IDebugControl::Input, debugger.input, Input method [Windows Debugging], dbgeng/IDebugControl::Input, IDebugControl, Input
+ms.keywords: Input method [Windows Debugging], IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, debugger.input, Input method [Windows Debugging], IDebugControl interface, IDebugControl, IDebugControl interface [Windows Debugging], Input method, dbgeng/IDebugControl::Input, Input, IDebugControl::Input
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.Input
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl::Input method

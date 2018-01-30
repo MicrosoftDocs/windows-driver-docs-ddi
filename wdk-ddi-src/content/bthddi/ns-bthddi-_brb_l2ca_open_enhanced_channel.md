@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_OPEN_ENHANCED_CHANNEL
-title: _BRB_L2CA_OPEN_ENHANCED_CHANNEL
+title: "_BRB_L2CA_OPEN_ENHANCED_CHANNEL"
 author: windows-driver-content
 description: The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP channel to a remote device, or send a response for accepting/rejecting an incoming enhanced L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_l2ca_open_enhanced_channel, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel, BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices]
+ms.keywords: bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bthddi.h
-apiname: 
+apiname:
 -	BRB_L2CA_OPEN_ENHANCED_CHANNEL
 product: Windows
 targetos: Windows
@@ -403,6 +403,14 @@ A
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field ChannelFlags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
@@ -546,8 +554,8 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
-     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> for which to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 
@@ -574,7 +582,14 @@ Specifies the incoming queue length in message transfer units (MTUs).
 Reserved member. Do not use.
 
 
-##### - ( unnamed struct ).Response
+#### - ( unnamed struct )
+
+A 
+      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+      about the current BRB.
+
+
+#### Response
 
 This member is used as an input parameter for a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request and an
        output parameter for the <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request.
@@ -690,54 +705,25 @@ The remote device accepted the connection.
 </table> 
 
 
-##### - ( unnamed struct ).ResponseStatus
+#### ResponseStatus
 
 
 
-###### - ChannelHandle.For a BRB_L2CA_OPEN_ENHANCED_CHANNEL request, this member will contain a handle to identify the enhanced L2CAP
-     channel, if the open channel request completes successfully.
-
-
-
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_NO_INFORMATION
-
-
-
-#### - ( unnamed struct )
-
-A 
-      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
-      about the current BRB.
-
-
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
-
-
-
-###### - ( unnamed struct ).ResponseStatus.If during a call to the BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE BRB the 
+#### If during a call to the BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE BRB the 
        Response member is set to CONNECT_RSP_RESULT_PENDING, this member is valid and contains one of
        the following values:
 
 
 
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_AUTHORIZATION_PENDING
+#### CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
 
 
 
-######## - ChannelHandle.For a BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE request, the profile driver (acting as a server) provides
-     this member's value prior to sending the BRB down the driver stack. This member's value should be set to
-     the 
-     INDICATION_PARAMETERS structure's 
-     ConnectionHandle member value if the 
-     INDICATION_CODE enumeration's 
-     IndicationRemoteConnect value is specified. These values are passed as the 
-     Parameters and 
-     Indication arguments of the profile driver's 
-     L2CAP Callback Function that was
-     registered as the 
-     IndicationCallback member when the profile driver built and sent a 
-     
-     BRB_L2CA_REGISTER_SERVER request.
+#### CONNECT_RSP_STATUS_AUTHORIZATION_PENDING
+
+
+
+#### CONNECT_RSP_STATUS_NO_INFORMATION
 
 
 

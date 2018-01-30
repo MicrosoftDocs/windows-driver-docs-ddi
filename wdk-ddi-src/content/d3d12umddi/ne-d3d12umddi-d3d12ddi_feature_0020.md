@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93192DAD-D81E-4A2E-A74B-66F7F5BA0B2D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020_VIDEO, display.d3d12ddi_feature_0020, d3d12umddi/D3D12DDI_FEATURE_0020_VIDEO, D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020 enumeration [Display Devices]
+ms.keywords: D3D12DDI_FEATURE_0020_VIDEO, d3d12umddi/D3D12DDI_FEATURE_0020_VIDEO, D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020 enumeration [Display Devices], d3d12umddi/D3D12DDI_FEATURE_0020, display.d3d12ddi_feature_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_FEATURE_0020
 product: Windows
 targetos: Windows

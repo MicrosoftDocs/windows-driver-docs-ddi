@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RENDER
-title: _DXGKARG_RENDER
+title: "_DXGKARG_RENDER"
 author: windows-driver-content
 description: The DXGKARG_RENDER structure describes members for generating a direct memory access (DMA) buffer from a command buffer.
 old-location: display\dxgkarg_render.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_render, DXGKARG_RENDER structure [Display Devices], _DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, *INOUT_PDXGKARG_RENDER, d3dkmddi/DXGKARG_RENDER, DXGKARG_RENDER
+ms.keywords: "_DXGKARG_RENDER, display.dxgkarg_render, *INOUT_PDXGKARG_RENDER, DXGKARG_RENDER structure [Display Devices], d3dkmddi/DXGKARG_RENDER, DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_RENDER
 product: Windows
 targetos: Windows
@@ -166,15 +166,15 @@ typedef struct _DXGKARG_RENDER {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
  
 

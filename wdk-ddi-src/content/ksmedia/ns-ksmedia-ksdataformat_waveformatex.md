@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b4c0cca8-6277-4458-b1f1-894848987074
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksdataformat_waveformatex, ksmedia/PKSDATAFORMAT_WAVEFORMATEX, aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, ksmedia/KSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices], KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], KSDATAFORMAT_WAVEFORMATEX, *PKSDATAFORMAT_WAVEFORMATEX
+ms.keywords: audio.ksdataformat_waveformatex, ksmedia/PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, *PKSDATAFORMAT_WAVEFORMATEX, ksmedia/KSDATAFORMAT_WAVEFORMATEX, aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDATAFORMAT_WAVEFORMATEX
 product: Windows
 targetos: Windows
-req.typenames: *PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX
+req.typenames: "*PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX"
 ---
 
 # KSDATAFORMAT_WAVEFORMATEX structure
@@ -89,13 +89,13 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
-
 <a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536764">IMiniport::DataRangeIntersection</a>
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff561656(v=vs.85).aspx">KSDATAFORMAT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
  
 

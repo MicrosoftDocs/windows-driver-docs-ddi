@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 79bb55db-dd4d-4cad-927e-e1126463bded
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10DDIARG_CALCPRIVATEDEVICESIZE, D3D10DDIARG_CALCPRIVATEDEVICESIZE, display.d3d10ddiarg_calcprivatedevicesize, UMDisplayDriver_Dx10param_Structs_5d15afa8-1d91-4823-ba91-391e64e9374d.xml, D3D10DDIARG_CALCPRIVATEDEVICESIZE structure [Display Devices]
+ms.keywords: D3D10DDIARG_CALCPRIVATEDEVICESIZE structure [Display Devices], display.d3d10ddiarg_calcprivatedevicesize, D3D10DDIARG_CALCPRIVATEDEVICESIZE, d3d10umddi/D3D10DDIARG_CALCPRIVATEDEVICESIZE, UMDisplayDriver_Dx10param_Structs_5d15afa8-1d91-4823-ba91-391e64e9374d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10DDIARG_CALCPRIVATEDEVICESIZE
 product: Windows
 targetos: Windows
@@ -88,7 +88,19 @@ The driver is required only to monitor the high 16 bits. The driver should ensur
 
 
 
-##### - Flags.The flag that is set in the 0xE mask of the Flags member
+#### D3D10DDI_CREATEDEVICE_FLAG_DISABLE_EXTRA_THREAD_CREATION (0x1)
+
+If this flag is set, the user-mode display driver should not run multiple threads simultaneously when it processes calls to its functions from the Direct3D runtime. A driver can typically start and run multiple threads to process operations faster, unless the D3D10DDI_CREATEDEVICE_FLAG_DISABLE_EXTRA_THREAD_CREATION flag is set.
+
+
+#### D3D11DDI_CREATEDEVICE_FLAG_SINGLETHREADED (0x10)
+
+Supported in Windows 7 and later versions. 
+
+This flag informs the user-mode display driver that the application is single threaded. The Direct3D version 11 runtime allows multiple application threads to enter the driver if the driver allows this mode of operation. However, not all applications can run multiple threads. If this flag is set, the driver does not expect multiple threads to enter it and run simultaneously. The driver can avoid synchronization if this flag is set.
+
+
+#### The flag that is set in the 0xE mask of the Flags member
 
 Supported in Windows 7 and later versions. 
 
@@ -107,18 +119,6 @@ This flag represents the level of 3-D pipeline that the driver should support fo
 </td>
 </tr>
 </table></span></div>
-
-##### - Flags.D3D11DDI_CREATEDEVICE_FLAG_SINGLETHREADED (0x10)
-
-Supported in Windows 7 and later versions. 
-
-This flag informs the user-mode display driver that the application is single threaded. The Direct3D version 11 runtime allows multiple application threads to enter the driver if the driver allows this mode of operation. However, not all applications can run multiple threads. If this flag is set, the driver does not expect multiple threads to enter it and run simultaneously. The driver can avoid synchronization if this flag is set.
-
-
-##### - Flags.D3D10DDI_CREATEDEVICE_FLAG_DISABLE_EXTRA_THREAD_CREATION (0x1)
-
-If this flag is set, the user-mode display driver should not run multiple threads simultaneously when it processes calls to its functions from the Direct3D runtime. A driver can typically start and run multiple threads to process operations faster, unless the D3D10DDI_CREATEDEVICE_FLAG_DISABLE_EXTRA_THREAD_CREATION flag is set.
-
 
 ## -see-also
 

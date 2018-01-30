@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CALLBACKS3
-title: _D3DHAL_CALLBACKS3
+title: "_D3DHAL_CALLBACKS3"
 author: windows-driver-content
 description: D3DHAL_CALLBACKS3 is one of several callback structures that describe the Direct3D support provided by the driver.
 old-location: display\d3dhal_callbacks3.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], _D3DHAL_CALLBACKS3, display.d3dhal_callbacks3, *LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], d3dhal/LPD3DHAL_CALLBACKS3
+ms.keywords: "*LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], LPD3DHAL_CALLBACKS3, _D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, D3DHAL_CALLBACKS3, display.d3dhal_callbacks3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_CALLBACKS3
 product: Windows
 targetos: Windows
@@ -157,15 +157,15 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
-
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DDP2OP_CLEAR
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
+
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
 
  
 

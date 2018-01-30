@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_OPM_INTERFACE_3
-title: _DXGK_OPM_INTERFACE_3
+title: "_DXGK_OPM_INTERFACE_3"
 author: windows-driver-content
 description: The DXGK_OPM_INTERFACE_3 structure contains pointers to functions in the Output Protection Manager (OPM) Interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_opm_interface_3.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_OPM_INTERFACE_3, dispmprt/DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices]
+ms.keywords: "_DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, dispmprt/PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices], *PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, dispmprt/DXGK_OPM_INTERFACE_3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_OPM_INTERFACE_3
 product: Windows
 targetos: Windows
-req.typenames: DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3
+req.typenames: "*PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3"
 ---
 
 # _DXGK_OPM_INTERFACE_3 structure
@@ -100,12 +100,12 @@ A pointer to a private context block. <b>Context</b> must be set to <b>NULL</b>.
 
 ### -field InterfaceReference
 
-A pointer to an interface reference function that is implemented by the display miniport driver. For more information about the operation of an interface reference function, see the Remarks section of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to an interface reference function that is implemented by the display miniport driver. For more information about the operation of an interface reference function, see the Remarks section of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure.
 
 
 ### -field InterfaceDereference
 
-A pointer to an interface dereference function that is implemented by the display miniport driver. For more information about the operation of an interface dereference function, see the Remarks section of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to an interface dereference function that is implemented by the display miniport driver. For more information about the operation of an interface dereference function, see the Remarks section of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure.
 
 
 ### -field DxgkDdiOPMGetCertificateSize

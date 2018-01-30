@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_PRE_START_INFO
-title: _DXGK_PRE_START_INFO
+title: "_DXGK_PRE_START_INFO"
 author: windows-driver-content
 description: Structure to allow very simple data to be exchanged between the OS and driver which may be required prior to start device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 old-location: display\dxgk_pre_start_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4CCDA951-A583-48C4-98D7-D278183D8893
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/DXGK_PRE_START_INFO, DXGK_PRE_START_INFO, _DXGK_PRE_START_INFO, PDXGK_PRE_START_INFO, display.dxgk_pre_start_info, dispmprt/PDXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], PDXGK_PRE_START_INFO structure pointer [Display Devices]
+ms.keywords: PDXGK_PRE_START_INFO structure pointer [Display Devices], dispmprt/PDXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO, dispmprt/DXGK_PRE_START_INFO, _DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], display.dxgk_pre_start_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_PRE_START_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO
+req.typenames: "*PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO"
 ---
 
 # _DXGK_PRE_START_INFO structure

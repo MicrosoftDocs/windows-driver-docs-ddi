@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
-title: _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
+title: "_D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE"
 author: windows-driver-content
 description: Used to open a protected session from the NT handle.
 old-location: display\d3dkmt-openprotectedsessionfromnthandle.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], display.d3dkmt-openprotectedsessionfromnthandle, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
+ms.keywords: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, display.d3dkmt-openprotectedsessionfromnthandle, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 product: Windows
 targetos: Windows

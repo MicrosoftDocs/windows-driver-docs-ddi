@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e746fc3d-ebfd-41a1-b640-6f803423bd95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSDS3D_HRTF_PARAMS_MSG, PKSDS3D_HRTF_PARAMS_MSG structure pointer [Audio Devices], aud-prop_1f9e726f-d9b6-43e5-8c6e-82e645587ca4.xml, PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG structure [Audio Devices], KSDS3D_HRTF_PARAMS_MSG, ksmedia/PKSDS3D_HRTF_PARAMS_MSG, audio.ksds3d_hrtf_params_msg, *PKSDS3D_HRTF_PARAMS_MSG
+ms.keywords: aud-prop_1f9e726f-d9b6-43e5-8c6e-82e645587ca4.xml, KSDS3D_HRTF_PARAMS_MSG structure [Audio Devices], KSDS3D_HRTF_PARAMS_MSG, ksmedia/KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG, PKSDS3D_HRTF_PARAMS_MSG, PKSDS3D_HRTF_PARAMS_MSG structure pointer [Audio Devices], ksmedia/PKSDS3D_HRTF_PARAMS_MSG, audio.ksds3d_hrtf_params_msg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDS3D_HRTF_PARAMS_MSG
 product: Windows
 targetos: Windows
-req.typenames: KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG
+req.typenames: "*PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG"
 ---
 
 # KSDS3D_HRTF_PARAMS_MSG structure
@@ -113,9 +113,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
 
  
 

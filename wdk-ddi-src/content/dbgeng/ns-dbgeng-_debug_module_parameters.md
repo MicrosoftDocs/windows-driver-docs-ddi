@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_MODULE_PARAMETERS
-title: _DEBUG_MODULE_PARAMETERS
+title: "_DEBUG_MODULE_PARAMETERS"
 author: windows-driver-content
 description: The DEBUG_MODULE_PARAMETERS structure contains most of the parameters for describing a module.
 old-location: debugger\debug_module_parameters.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3f10997f-263f-4d1b-ab0a-d44201aaaf37
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], DEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters, _DEBUG_MODULE_PARAMETERS, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml
+ms.keywords: debugger.debug_module_parameters, DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, _DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_MODULE_PARAMETERS
 product: Windows
 targetos: Windows

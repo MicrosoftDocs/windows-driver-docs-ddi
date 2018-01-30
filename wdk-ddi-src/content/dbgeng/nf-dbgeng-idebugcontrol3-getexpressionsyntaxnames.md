@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c60b1d7b-b82d-4f59-a076-2122da97a161
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames, IDebugControl3, dbgeng/IDebugControl3::GetExpressionSyntaxNames, GetExpressionSyntaxNames method [Windows Debugging]
+ms.keywords: GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetExpressionSyntaxNames, dbgeng/IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetExpressionSyntaxNames
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetExpressionSyntaxNames method
@@ -152,13 +152,13 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
 
  
 

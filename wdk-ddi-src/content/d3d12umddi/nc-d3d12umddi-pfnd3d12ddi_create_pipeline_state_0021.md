@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCreatePipelineState
 product: Windows
 targetos: Windows
@@ -92,6 +92,11 @@ HRESULT APIENTRY* pfnCreatePipelineState(
 
 
 
+#### - hDevice
+
+The handle of a device. 
+
+
 #### - CreatePipelineState [in]
 
 A value used to create a pipeline state.
@@ -100,11 +105,6 @@ A value used to create a pipeline state.
 #### - hPipelineState
 
 The handle of a pipeline state. 
-
-
-#### - hDevice
-
-The handle of a device. 
 
 
 #### - hRTPipelineState

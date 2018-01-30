@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidDpcRoutine
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # PMINIPORT_DPC_ROUTINE callback

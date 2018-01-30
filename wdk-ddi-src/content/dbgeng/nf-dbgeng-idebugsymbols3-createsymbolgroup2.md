@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2, IDebugSymbols3, dbgeng/IDebugSymbols3::CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2, CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method
+ms.keywords: CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3, CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, debugger.createsymbolgroup2, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, dbgeng/IDebugSymbols3::CreateSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.CreateSymbolGroup2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::CreateSymbolGroup2 method
@@ -110,11 +110,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
-<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

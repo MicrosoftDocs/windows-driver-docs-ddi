@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
-title: _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
+title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the D3DKMTSignalSynchronizationObject function signals.
 old-location: display\d3dkmt_signalsynchronizationobject.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dkmt_signalsynchronizationobject, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
+ms.keywords: OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, display.d3dkmt_signalsynchronizationobject, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 product: Windows
 targetos: Windows

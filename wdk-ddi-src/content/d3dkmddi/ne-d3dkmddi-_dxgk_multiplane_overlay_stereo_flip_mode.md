@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-title: _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+title: "_DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
 author: windows-driver-content
 description: Identifies the overlay plane's stereo flip mode. Only the DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE value is supported.
 old-location: display\dxgk_multiplane_overlay_stereo_flip_mode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f226f276-c5d3-460d-9f52-c66ccfd3393f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, display.dxgk_multiplane_overlay_stereo_flip_mode, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1
+ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, display.dxgk_multiplane_overlay_stereo_flip_mode, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 product: Windows
 targetos: Windows

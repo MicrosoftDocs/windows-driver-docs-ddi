@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._CONFIGURABLE_CHARGER_PROPERTY_HEADER
-title: _CONFIGURABLE_CHARGER_PROPERTY_HEADER
+title: "_CONFIGURABLE_CHARGER_PROPERTY_HEADER"
 author: windows-driver-content
 description: The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY.
 old-location: battery\configurable_charger_property_header.htm
@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 1A188828-51CE-4C80-92CB-2C01861082CD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PCONFIGURABLE_CHARGER_PROPERTY_HEADER, CONFIGURABLE_CHARGER_PROPERTY_HEADER, charging/CONFIGURABLE_CHARGER_PROPERTY_HEADER, CONFIGURABLE_CHARGER_PROPERTY_HEADER structure [Battery Devices], PCONFIGURABLE_CHARGER_PROPERTY_HEADER, battery.configurable_charger_property_header, charging/PCONFIGURABLE_CHARGER_PROPERTY_HEADER, PCONFIGURABLE_CHARGER_PROPERTY_HEADER structure pointer [Battery Devices], _CONFIGURABLE_CHARGER_PROPERTY_HEADER
+ms.keywords: CONFIGURABLE_CHARGER_PROPERTY_HEADER, charging/PCONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER, _CONFIGURABLE_CHARGER_PROPERTY_HEADER, PCONFIGURABLE_CHARGER_PROPERTY_HEADER structure pointer [Battery Devices], CONFIGURABLE_CHARGER_PROPERTY_HEADER structure [Battery Devices], battery.configurable_charger_property_header, charging/CONFIGURABLE_CHARGER_PROPERTY_HEADER, PCONFIGURABLE_CHARGER_PROPERTY_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	charging.h
-apiname: 
+apiname:
 -	CONFIGURABLE_CHARGER_PROPERTY_HEADER
 product: Windows
 targetos: Windows

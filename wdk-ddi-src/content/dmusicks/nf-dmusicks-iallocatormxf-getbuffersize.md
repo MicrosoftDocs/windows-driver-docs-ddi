@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3a35769-a98a-40f5-bdc1-db964d2a967c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iallocatormxf_getbuffersize, dmusicks/IAllocatorMXF::GetBufferSize, GetBufferSize, IAllocatorMXF interface [Audio Devices], GetBufferSize method, IAllocatorMXF::GetBufferSize, GetBufferSize method [Audio Devices], IAllocatorMXF interface, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, IAllocatorMXF, GetBufferSize method [Audio Devices]
+ms.keywords: dmusicks/IAllocatorMXF::GetBufferSize, IAllocatorMXF, audio.iallocatormxf_getbuffersize, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, IAllocatorMXF interface [Audio Devices], GetBufferSize method, GetBufferSize method [Audio Devices], IAllocatorMXF interface, GetBufferSize method [Audio Devices], GetBufferSize, IAllocatorMXF::GetBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dmusicks.h
-apiname: 
+apiname:
 -	IAllocatorMXF.GetBufferSize
 product: Windows
 targetos: Windows

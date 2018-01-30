@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, IDebugControl7::GetDebuggeeType2, IDebugControl7, GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], debugger.idebugcontrol7_getdebuggeetype2, dbgeng/IDebugControl7::GetDebuggeeType2
+ms.keywords: dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2, IDebugControl7::GetDebuggeeType2, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, IDebugControl7, GetDebuggeeType2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl7.GetDebuggeeType2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl7::GetDebuggeeType2 method

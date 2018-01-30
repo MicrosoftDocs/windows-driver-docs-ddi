@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: adf514e1-5413-4552-b676-7567e8fa9954
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], audio.ksac3_room_type, KSAC3_ROOM_TYPE structure [Audio Devices], KSAC3_ROOM_TYPE, ksmedia/KSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE, *PKSAC3_ROOM_TYPE, aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml
+ms.keywords: ksmedia/KSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], *PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE, aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml, ksmedia/PKSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE structure [Audio Devices], audio.ksac3_room_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAC3_ROOM_TYPE
 product: Windows
 targetos: Windows
-req.typenames: KSAC3_ROOM_TYPE, *PKSAC3_ROOM_TYPE
+req.typenames: "*PKSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE"
 ---
 
 # KSAC3_ROOM_TYPE structure

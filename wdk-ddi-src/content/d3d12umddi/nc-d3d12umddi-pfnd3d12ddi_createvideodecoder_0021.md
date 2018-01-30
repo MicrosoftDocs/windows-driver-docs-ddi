@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCreateVideoDecoder
 product: Windows
 targetos: Windows
@@ -85,14 +85,14 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 The handle of a driver video decoder.
 
 
-#### - CreateVideoDecoder [in]
-
-The arguments used to create a video decoder.
-
-
 #### - hDevice
 
 The handle of the device.
+
+
+#### - CreateVideoDecoder [in]
+
+The arguments used to create a video decoder.
 
 
 ## -returns

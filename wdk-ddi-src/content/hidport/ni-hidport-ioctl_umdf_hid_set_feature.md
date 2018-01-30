@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hidport.h
-apiname: 
+apiname:
 -	IOCTL_UMDF_HID_SET_FEATURE
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
 ---
 
 # IOCTL_UMDF_HID_SET_FEATURE IOCTL
@@ -124,9 +124,9 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439657">IOCTL_UMDF_HID_GET_FEATURE</a>
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
 
  
 

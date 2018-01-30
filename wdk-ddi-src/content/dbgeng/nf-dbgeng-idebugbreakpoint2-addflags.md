@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint interface [Windows Debugging], AddFlags method, debugger.addflags, IDebugBreakpoint2, IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, AddFlags method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::AddFlags, IDebugBreakpoint2::AddFlags, AddFlags method [Windows Debugging], AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags
+ms.keywords: ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint interface [Windows Debugging], AddFlags method, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, IDebugBreakpoint::AddFlags, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, debugger.addflags, AddFlags method [Windows Debugging], IDebugBreakpoint2::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, dbgeng/IDebugBreakpoint::AddFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.AddFlags
 -	IDebugBreakpoint2.AddFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugBreakpoint2::AddFlags method

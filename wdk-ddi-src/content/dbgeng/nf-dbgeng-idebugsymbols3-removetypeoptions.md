@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 68967a4f-9192-4716-85bd-1bcbc022c445
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::RemoveTypeOptions, IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, IDebugSymbols2 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols3 interface [Windows Debugging], RemoveTypeOptions method, RemoveTypeOptions method [Windows Debugging], dbgeng/IDebugSymbols2::RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveTypeOptions, IDebugSymbols3, RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::RemoveTypeOptions, debugger.removetypeoptions
+ms.keywords: debugger.removetypeoptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols2 interface, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3, IDebugSymbols2::RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, IDebugSymbols2 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols3 interface [Windows Debugging], RemoveTypeOptions method, RemoveTypeOptions, dbgeng/IDebugSymbols2::RemoveTypeOptions, dbgeng/IDebugSymbols3::RemoveTypeOptions, IDebugSymbols3::RemoveTypeOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols2.RemoveTypeOptions
 -	IDebugSymbols3.RemoveTypeOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::RemoveTypeOptions method

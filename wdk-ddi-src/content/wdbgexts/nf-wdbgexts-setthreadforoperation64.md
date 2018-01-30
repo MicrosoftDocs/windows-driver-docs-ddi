@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	SetThreadForOperation64
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # SetThreadForOperation64 function

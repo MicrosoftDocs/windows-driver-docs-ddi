@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RECLAIMRESOURCES
-title: _D3DDDIARG_RECLAIMRESOURCES
+title: "_D3DDDIARG_RECLAIMRESOURCES"
 author: windows-driver-content
 description: Describes video memory resources that are to be reclaimed and that the user-mode display driver previously offered for reuse. Used with the ReclaimResources function.
 old-location: display\d3dddiarg_reclaimresources.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], display.d3dddiarg_reclaimresources
+ms.keywords: "_D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], display.d3dddiarg_reclaimresources, d3dumddi/D3DDDIARG_RECLAIMRESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_RECLAIMRESOURCES
 product: Windows
 targetos: Windows
@@ -92,9 +92,9 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
  
 

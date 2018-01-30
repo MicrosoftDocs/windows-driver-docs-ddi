@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4fc874ab-b31d-41ae-baeb-18819c4e3970
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writeiospaceex64, WriteIoSpaceEx64 function [Windows Debugging], WriteIoSpaceEx64, wdbgexts/WriteIoSpaceEx64, WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml
+ms.keywords: WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml, debugger.writeiospaceex64, wdbgexts/WriteIoSpaceEx64, WriteIoSpaceEx64, WriteIoSpaceEx64 function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	WriteIoSpaceEx64
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # WriteIoSpaceEx64 function

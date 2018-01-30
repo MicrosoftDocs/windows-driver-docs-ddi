@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvdeo.h
-apiname: 
+apiname:
 -	IOCTL_VIDEO_ENABLE_CURSOR
 product: Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
 ---
 
 # IOCTL_VIDEO_ENABLE_CURSOR IOCTL

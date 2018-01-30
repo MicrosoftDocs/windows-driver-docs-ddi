@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetNumberSystems, GetNumberSystems method [Windows Debugging], debugger.getnumbersystems, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems, IDebugSystemObjects4
+ms.keywords: GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects3::GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems, debugger.getnumbersystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects3.GetNumberSystems
 -	IDebugSystemObjects4.GetNumberSystems
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects4::GetNumberSystems method
@@ -101,9 +101,9 @@ The method was successful.
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

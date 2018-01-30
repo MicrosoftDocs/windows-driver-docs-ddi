@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_TARGET_MODE
-title: _D3DKMDT_VIDPN_TARGET_MODE
+title: "_D3DKMDT_VIDPN_TARGET_MODE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_TARGET_MODE structure contains information about a video present network (VidPN) target mode.
 old-location: display\d3dkmdt_vidpn_target_mode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a20e955-7ef1-4cb7-8081-42fb69b55fb6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_vidpn_target_mode, D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, _D3DKMDT_VIDPN_TARGET_MODE, DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices]
+ms.keywords: "_D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, D3DKMDT_VIDPN_TARGET_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_VIDPN_TARGET_MODE
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_MAPCONTEXTALLOCATION
-title: _DXGKARGCB_MAPCONTEXTALLOCATION
+title: "_DXGKARGCB_MAPCONTEXTALLOCATION"
 author: windows-driver-content
 description: DXGKARGCB_MAPCONTEXTALLOCATION is used with DxgkCbMapContextAllocation to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 old-location: display\dxgkargcb_mapcontextallocation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkargcb_mapcontextallocation, DXGKARGCB_MAPCONTEXTALLOCATION, _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices]
+ms.keywords: display.dxgkargcb_mapcontextallocation, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, _DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARGCB_MAPCONTEXTALLOCATION
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_INTEGRATEDDISPLAYFLAGS
-title: _DXGK_INTEGRATEDDISPLAYFLAGS
+title: "_DXGK_INTEGRATEDDISPLAYFLAGS"
 author: windows-driver-content
 description: Flags which describe simple properties of an integrated display.
 old-location: display\dxgk_integrateddisplayflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4671B6C1-358A-4CC2-A6FC-0FBA0F26DB07
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_integrateddisplayflags, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, _DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS
+ms.keywords: display.dxgk_integrateddisplayflags, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS, _DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_INTEGRATEDDISPLAYFLAGS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS
+req.typenames: "*PDXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS"
 ---
 
 # _DXGK_INTEGRATEDDISPLAYFLAGS structure

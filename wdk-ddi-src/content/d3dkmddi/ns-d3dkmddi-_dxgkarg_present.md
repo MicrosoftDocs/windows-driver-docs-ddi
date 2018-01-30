@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_PRESENT
-title: _DXGKARG_PRESENT
+title: "_DXGKARG_PRESENT"
 author: windows-driver-content
 description: The DXGKARG_PRESENT structure describes a source-to-primary copy operation.
 old-location: display\dxgkarg_present.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *INOUT_PDXGKARG_PRESENT, DXGKARG_PRESENT, DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, DXGKARG_PRESENT structure [Display Devices], d3dkmddi/DXGKARG_PRESENT, display.dxgkarg_present, _DXGKARG_PRESENT
+ms.keywords: display.dxgkarg_present, *INOUT_PDXGKARG_PRESENT, _DXGKARG_PRESENT, DXGKARG_PRESENT, d3dkmddi/DXGKARG_PRESENT, DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, DXGKARG_PRESENT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_PRESENT
 product: Windows
 targetos: Windows
@@ -253,19 +253,19 @@ The driver is not required to perform any clipping. The Microsoft DirectX graphi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlayinfo.md">DXGK_PRESENTMULTIPLANEOVERLAYINFO</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlayinfo.md">DXGK_PRESENTMULTIPLANEOVERLAYINFO</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
  
 

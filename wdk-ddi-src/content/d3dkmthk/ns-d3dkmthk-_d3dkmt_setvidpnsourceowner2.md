@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEOWNER2
-title: _D3DKMT_SETVIDPNSOURCEOWNER2
+title: "_D3DKMT_SETVIDPNSOURCEOWNER2"
 author: windows-driver-content
 description: Used to set the VidPN source owner.
 old-location: display\d3dkmt-setvidpnsourceowner2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a6477db-23ad-42ad-b1cb-d81c7be4cf38
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt-setvidpnsourceowner2, D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, _D3DKMT_SETVIDPNSOURCEOWNER2
+ms.keywords: "_D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, display.d3dkmt-setvidpnsourceowner2, D3DKMT_SETVIDPNSOURCEOWNER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SETVIDPNSOURCEOWNER2
 product: Windows
 targetos: Windows

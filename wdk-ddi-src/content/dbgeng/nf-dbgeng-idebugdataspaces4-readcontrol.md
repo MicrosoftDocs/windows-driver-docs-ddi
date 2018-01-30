@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 52f65e2a-97a7-4c1c-a021-208bc2520b7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadControl, dbgeng/IDebugDataSpaces4::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::ReadControl, ReadControl, IDebugDataSpaces interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, debugger.readcontrol, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml
+ms.keywords: IDebugDataSpaces2::ReadControl, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, debugger.readcontrol, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces::ReadControl, IDebugDataSpaces4, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], ReadControl method, dbgeng/IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces4::ReadControl, dbgeng/IDebugDataSpaces2::ReadControl, ReadControl, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.ReadControl
 -	IDebugDataSpaces2.ReadControl
 -	IDebugDataSpaces3.ReadControl
 -	IDebugDataSpaces4.ReadControl
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugDataSpaces4::ReadControl method

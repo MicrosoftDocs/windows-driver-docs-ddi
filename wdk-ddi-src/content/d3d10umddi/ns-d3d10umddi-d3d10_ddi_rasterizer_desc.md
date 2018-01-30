@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices], d3d10umddi/D3D10_DDI_RASTERIZER_DESC, UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, display.d3d10_ddi_rasterizer_desc
+ms.keywords: D3D10_DDI_RASTERIZER_DESC structure [Display Devices], D3D10_DDI_RASTERIZER_DESC, display.d3d10_ddi_rasterizer_desc, d3d10umddi/D3D10_DDI_RASTERIZER_DESC, UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10_DDI_RASTERIZER_DESC
 product: Windows
 targetos: Windows

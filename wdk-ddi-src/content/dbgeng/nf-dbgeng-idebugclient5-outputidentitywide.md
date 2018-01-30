@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e8f91713-ea1d-4262-bc0b-dd4e39d1c2c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputIdentityWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::OutputIdentityWide, OutputIdentityWide, OutputIdentityWide method [Windows Debugging], IDebugClient5, dbgeng/IDebugClient5::OutputIdentityWide, IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, debugger.outputidentitywide
+ms.keywords: IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, IDebugClient5::OutputIdentityWide, dbgeng/IDebugClient5::OutputIdentityWide, debugger.outputidentitywide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface, OutputIdentityWide, IDebugClient5, OutputIdentityWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.OutputIdentityWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::OutputIdentityWide method

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
-title: _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+title: "_DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE"
 author: windows-driver-content
 description: Specifies the support attributes that the hardware provides for multiplane overlays.
 old-location: display\dxgk_check_multiplane_overlay_support_plane.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28CC4BE1-D4C1-4D22-885B-D50BE5AD6EE6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, display.dxgk_check_multiplane_overlay_support_plane, _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+ms.keywords: display.dxgk_check_multiplane_overlay_support_plane, d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoTransferFunction
-title: _DXVA_VideoTransferFunction
+title: "_DXVA_VideoTransferFunction"
 author: windows-driver-content
 description: The DXVA_VideoTransferFunction enumeration type contains enumerators that identify the conversion function from R'G'B' to RGB.
 old-location: display\dxva_videotransferfunction.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ed04fd0-685d-4b5a-a23f-337a14506f8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoTransFunc_22_8bit_sRGB, DXVA_VideoTransferFunction, DXVA_VideoTransFuncMask, dxva/DXVA_VideoTransFunc_10, DXVA_VideoTransFunc_22, display.dxva_videotransferfunction, DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFunc_22_709, DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_Unknown, DXVA_VideoTransFunc_18, _DXVA_VideoTransferFunction, DXVA_VideoTransFunc_20, DXVA_VideoTransFunc_22_240M, dxva/DXVA_VideoTransFunc_22_240M, DXVA_VideoTransFunc_10, dxva/DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFuncMask, DXVA_VideoTransferFunction enumeration [Display Devices], DXVA_VideoTransFunc_22_8bit_sRGB, dxva/DXVA_VideoTransFunc_18, DXVA_VideoTransFunc_22_709, dxva/DXVA_VideoTransferFunction, DXVA_VideoTransFunc_Unknown, dxvaref_67be6e0a-79c6-4821-b3c3-899c2a2f9234.xml, dxva/DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_22, dxva/DXVA_VideoTransFunc_20
+ms.keywords: DXVA_VideoTransFuncShift, DXVA_VideoTransFunc_10, dxva/DXVA_VideoTransFunc_20, _DXVA_VideoTransferFunction, dxva/DXVA_VideoTransFunc_18, DXVA_VideoTransFunc_22_709, dxva/DXVA_VideoTransFunc_28, DXVA_VideoTransferFunction enumeration [Display Devices], DXVA_VideoTransFunc_20, dxva/DXVA_VideoTransFunc_22_240M, dxva/DXVA_VideoTransFuncMask, dxva/DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_22_709, dxva/DXVA_VideoTransFunc_10, DXVA_VideoTransFunc_Unknown, dxva/DXVA_VideoTransferFunction, DXVA_VideoTransFunc_22, DXVA_VideoTransFunc_28, dxvaref_67be6e0a-79c6-4821-b3c3-899c2a2f9234.xml, DXVA_VideoTransFuncMask, DXVA_VideoTransferFunction, DXVA_VideoTransFunc_22_8bit_sRGB, display.dxva_videotransferfunction, DXVA_VideoTransFunc_22_240M, dxva/DXVA_VideoTransFunc_22_8bit_sRGB, dxva/DXVA_VideoTransFunc_22, DXVA_VideoTransFunc_18, dxva/DXVA_VideoTransFunc_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_VideoTransferFunction
 product: Windows
 targetos: Windows
@@ -111,11 +111,35 @@ Specifies true 2.0 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field DXVA_VideoTransFunc_22_709
 
 
 
+#### 
+
+
+
+#### 
+
+
+
 ### -field DXVA_VideoTransFunc_22_240M
+
+
+
+#### 
+
+
+
+#### 
 
 
 
@@ -127,30 +151,6 @@ Specifies gamma 2.4 curve with a linear range in the low range, which makes it m
 ### -field DXVA_VideoTransFunc_28
 
 Specifies true 2.8 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
-
-
-###### - DXVA_VideoTransFunc_22_709.The BT709, SMPTE296M, SMPTE170M, BT470, and SMPTE274M primaries (DXVA_VideoPrimaries enumeration type) use this video transfer function.
-
-
-
-####### - DXVA_VideoTransFunc_22.The BT470-2 SysM primaries (DXVA_VideoPrimaries enumeration type) use gamma 2.2.
-
-
-
-###### - DXVA_VideoTransFunc_22_240M.The SMPTE240M and interim 274M primaries (DXVA_VideoPrimaries enumeration type) use this video transfer function.
-
-
-
-####### - DXVA_VideoTransFunc_22_240M.Specifies gamma 2.2 curve with a linear range in the low range.
-
-
-
-####### - DXVA_VideoTransFunc_22_709.Specifies gamma 2.2 curve with a linear range in the low range.
-
-
-
-########## - DXVA_VideoTransFunc_22.Specifies true 2.2 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
-
 
 
 ## -remarks

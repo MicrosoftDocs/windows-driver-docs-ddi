@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: vhf/VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], VhfAsyncOperationComplete, hid._vhfasyncoperationcomplete
+ms.keywords: hid._vhfasyncoperationcomplete, VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], vhf/VhfAsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,21 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: VhfKm.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	VhfKm.lib
 -	VhfKm.dll
-apiname: 
+apiname:
 -	VhfAsyncOperationComplete
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
 ---
 
 # VhfAsyncOperationComplete function

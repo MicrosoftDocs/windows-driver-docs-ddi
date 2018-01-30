@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f5aecd1f-e0f2-47a9-aa70-767a42fefdff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, SetEventCallbacksWide method [Windows Debugging], dbgeng/IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide, IDebugClient5, SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide
+ms.keywords: SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetEventCallbacksWide, debugger.seteventcallbackswide, dbgeng/IDebugClient5::SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, IDebugClient5, SetEventCallbacksWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.SetEventCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::SetEventCallbacksWide method
@@ -111,11 +111,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
 
  
 

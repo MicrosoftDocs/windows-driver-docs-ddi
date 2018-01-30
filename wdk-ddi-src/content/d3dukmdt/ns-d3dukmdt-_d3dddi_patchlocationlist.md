@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_PATCHLOCATIONLIST
-title: _D3DDDI_PATCHLOCATIONLIST
+title: "_D3DDDI_PATCHLOCATIONLIST"
 author: windows-driver-content
 description: The D3DDDI_PATCHLOCATIONLIST structure describes the location of an allocation to patch (that is, assign a physical address to the allocation).
 old-location: display\d3dddi_patchlocationlist.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88cdbf2d-4b66-47c1-97e1-e3b8377ac526
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_PATCHLOCATIONLIST structure [Display Devices], D3DDDI_PATCHLOCATIONLIST, D3D_other_Structs_30473342-0122-445f-81c0-9cf5c62c771e.xml, display.d3dddi_patchlocationlist, _D3DDDI_PATCHLOCATIONLIST, d3dukmdt/D3DDDI_PATCHLOCATIONLIST
+ms.keywords: D3DDDI_PATCHLOCATIONLIST structure [Display Devices], D3DDDI_PATCHLOCATIONLIST, _D3DDDI_PATCHLOCATIONLIST, display.d3dddi_patchlocationlist, d3dukmdt/D3DDDI_PATCHLOCATIONLIST, D3D_other_Structs_30473342-0122-445f-81c0-9cf5c62c771e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_PATCHLOCATIONLIST
 product: Windows
 targetos: Windows
@@ -124,15 +124,15 @@ Setting this member to zero is equivalent to setting the remaining 8 bits (0xFF0
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
  
 

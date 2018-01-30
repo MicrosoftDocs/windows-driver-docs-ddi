@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, audio.iprefetchoffset_setprefetchoffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, IPreFetchOffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface, portcls/IPreFetchOffset::SetPreFetchOffset
+ms.keywords: SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, SetPreFetchOffset, audio.iprefetchoffset_setprefetchoffset, portcls/IPreFetchOffset::SetPreFetchOffset, IPreFetchOffset::SetPreFetchOffset, IPreFetchOffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPreFetchOffset.SetPreFetchOffset
 product: Windows
 targetos: Windows
@@ -102,15 +102,15 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
+<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
  
 

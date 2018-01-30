@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	MiracastIoControl
 product: Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---
 
 # PFN_MIRACAST_IO_CONTROL callback
@@ -115,9 +115,9 @@ The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
 
-#### - pBytesReturned [out, optional]
+#### - pInputBuffer [in]
 
-An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds the number of bytes that the display miniport driver returned.
+A pointer to the input buffer. The <i>InputBufferSize</i> parameter specifies the size of the buffer.
 
 
 #### - pOutputBuffer [out]
@@ -125,9 +125,9 @@ An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds th
 A driver-supplied pointer to the output buffer. The <i>OutputBufferSize</i> parameter specifies the size of the buffer.
 
 
-#### - pInputBuffer [in]
+#### - pBytesReturned [out, optional]
 
-A pointer to the input buffer. The <i>InputBufferSize</i> parameter specifies the size of the buffer.
+An optional driver-supplied pointer to a <b>UINT</b>-type variable that holds the number of bytes that the display miniport driver returned.
 
 
 ## -returns
@@ -148,13 +148,13 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
 
  
 

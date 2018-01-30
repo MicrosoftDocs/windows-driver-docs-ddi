@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOLIGHTING
-title: _DXVADDI_VIDEOLIGHTING
+title: "_DXVADDI_VIDEOLIGHTING"
 author: windows-driver-content
 description: The DXVADDI_VIDEOLIGHTING enumeration type contains values that identify lighting conditions for viewing video.
 old-location: display\dxvaddi_videolighting.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ae1c84e-119a-4649-b3f0-eafbb044dd91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VideoLighting_Unknown, d3dumddi/DXVADDI_VideoLighting_bright, DXVADDI_VideoLighting_dark, d3dumddi/DXVADDI_VideoLighting_dark, display.dxvaddi_videolighting, DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLightingMask, d3dumddi/DXVADDI_VideoLighting_Unknown, DXVADDI_VideoLightingMask, DXVADDI_VideoLighting_bright, DXVADDI_VideoLighting_office, d3dumddi/DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_office, d3dumddi/DXVADDI_VideoLighting_dim, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, _DXVADDI_VIDEOLIGHTING, DXVADDI_VIDEOLIGHTING
+ms.keywords: d3dumddi/DXVADDI_VideoLightingMask, d3dumddi/DXVADDI_VideoLighting_dark, DXVADDI_VideoLightingMask, display.dxvaddi_videolighting, d3dumddi/DXVADDI_VideoLighting_dim, DXVADDI_VideoLighting_Unknown, DXVADDI_VideoLighting_dark, DXVADDI_VideoLighting_office, d3dumddi/DXVADDI_VideoLighting_office, DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, DXVADDI_VideoLighting_bright, _DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_bright, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], d3dumddi/DXVADDI_VideoLighting_Unknown, d3dumddi/DXVADDI_VIDEOLIGHTING, DXVADDI_VIDEOLIGHTING, DXVADDI_VideoLighting_dim
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_VIDEOLIGHTING
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 60bb493c-81a2-45d7-8c2c-939afeda8a14
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], debugger.getmoduleversioninformationwide, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, IDebugSymbols3, IDebugSymbols3::GetModuleVersionInformationWide
+ms.keywords: dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformationWide, IDebugSymbols3, IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetModuleVersionInformationWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetModuleVersionInformationWide method
@@ -159,11 +159,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

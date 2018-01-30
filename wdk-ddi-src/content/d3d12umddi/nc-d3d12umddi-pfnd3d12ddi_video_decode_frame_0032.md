@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_VIDEO_DECODE_FRAME_0030
 product: Windows
 targetos: Windows
@@ -92,6 +92,11 @@ The video decoder.
 
 
 
+#### - SubmissionID
+
+The submission ID.
+
+
 #### - pOutputStreamParameters
 
 The output arguments for the video decode.
@@ -100,11 +105,6 @@ The output arguments for the video decode.
 #### - pInputStreamParameters
 
 The input arguments for the video decode.
-
-
-#### - SubmissionID
-
-The submission ID.
 
 
 ## -returns

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_FREE_DEFERRED_AGP_DATA
-title: _DD_FREE_DEFERRED_AGP_DATA
+title: "_DD_FREE_DEFERRED_AGP_DATA"
 author: windows-driver-content
 description: DirectX 8.0 and later versions and NT-based operating systems only. DD_FREE_DEFERRED_AGP_DATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for D3DGDI2_TYPE_DEFER_AGP_FREES and D3DGDI2_TYPE_FREE_DEFERRED_AGP notifications.
 old-location: display\dd_free_deferred_agp_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38830856-1f66-44d6-9501-9454a31571b7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DD_FREE_DEFERRED_AGP_DATA, DD_FREE_DEFERRED_AGP_DATA structure [Display Devices], DD_FREE_DEFERRED_AGP_DATA, d3dstrct_06ad77f0-33c0-4297-a713-d23f0684dbee.xml, display.dd_free_deferred_agp_data, d3dhal/DD_FREE_DEFERRED_AGP_DATA
+ms.keywords: "_DD_FREE_DEFERRED_AGP_DATA, d3dstrct_06ad77f0-33c0-4297-a713-d23f0684dbee.xml, d3dhal/DD_FREE_DEFERRED_AGP_DATA, display.dd_free_deferred_agp_data, DD_FREE_DEFERRED_AGP_DATA, DD_FREE_DEFERRED_AGP_DATA structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	DD_FREE_DEFERRED_AGP_DATA
 product: Windows
 targetos: Windows

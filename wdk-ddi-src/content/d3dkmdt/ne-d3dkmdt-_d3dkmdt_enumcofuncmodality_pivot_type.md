@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
-title: _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
+title: "_D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE"
 author: windows-driver-content
 description: The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to DxgkDdiEnumVidPnCofuncModality.
 old-location: display\d3dkmdt_enumcofuncmodality_pivot_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba99936a-e76a-4a34-b7cd-762a8f15732c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_EPT_VIDPNTARGET, d3dkmdt/D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_EPT_VIDPNTARGET, D3DKMDT_EPT_SCALING, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration [Display Devices], D3DKMDT_EPT_ROTATION, DmEnums_5abafdb2-5a17-437b-b3e3-9c045c52d582.xml, _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, d3dkmdt/D3DKMDT_EPT_ROTATION, display.d3dkmdt_enumcofuncmodality_pivot_type, d3dkmdt/D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_EPT_SCALING, D3DKMDT_EPT_NOPIVOT, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_EPT_UNINITIALIZED, d3dkmdt/D3DKMDT_EPT_UNINITIALIZED, D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_EPT_NOPIVOT
+ms.keywords: D3DKMDT_EPT_SCALING, D3DKMDT_EPT_NOPIVOT, d3dkmdt/D3DKMDT_EPT_NOPIVOT, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_EPT_ROTATION, D3DKMDT_EPT_VIDPNTARGET, display.d3dkmdt_enumcofuncmodality_pivot_type, d3dkmdt/D3DKMDT_EPT_SCALING, _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_EPT_UNINITIALIZED, D3DKMDT_EPT_ROTATION, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, d3dkmdt/D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_EPT_VIDPNTARGET, DmEnums_5abafdb2-5a17-437b-b3e3-9c045c52d582.xml, d3dkmdt/D3DKMDT_EPT_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
 product: Windows
 targetos: Windows

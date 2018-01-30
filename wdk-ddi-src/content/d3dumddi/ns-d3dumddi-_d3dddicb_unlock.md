@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_UNLOCK
-title: _D3DDDICB_UNLOCK
+title: "_D3DDDICB_UNLOCK"
 author: windows-driver-content
 description: The D3DDDICB_UNLOCK structure describes allocations to unlock.
 old-location: display\d3dddicb_unlock.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e0e6313-1dfa-4b68-8f58-bfa79f3124d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, display.d3dddicb_unlock, D3DDDICB_UNLOCK structure [Display Devices], _D3DDDICB_UNLOCK, D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml
+ms.keywords: display.d3dddicb_unlock, D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, d3dumddi/D3DDDICB_UNLOCK, D3DDDICB_UNLOCK, _D3DDDICB_UNLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_UNLOCK
 product: Windows
 targetos: Windows
@@ -80,9 +80,9 @@ typedef struct _D3DDDICB_UNLOCK {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
  
 

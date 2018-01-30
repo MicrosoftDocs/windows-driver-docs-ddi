@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_OFFSET_REGION
-title: _DEBUG_OFFSET_REGION
+title: "_DEBUG_OFFSET_REGION"
 author: windows-driver-content
 description: Defines a debug offset region.
 old-location: debugger\debug_offset_region.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7116B31A-D584-4B9D-AFB4-5B15B659BE54
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_OFFSET_REGION structure [Windows Debugging], dbgeng/PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, debugger.debug_offset_region, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], *PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION, _DEBUG_OFFSET_REGION
+ms.keywords: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], dbgeng/PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], debugger.debug_offset_region, _DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_OFFSET_REGION
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION
+req.typenames: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION
 ---
 
 # _DEBUG_OFFSET_REGION structure

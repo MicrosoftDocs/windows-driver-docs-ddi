@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_PUBLIC_ACCESS_RANGES
-title: _VIDEO_PUBLIC_ACCESS_RANGES
+title: "_VIDEO_PUBLIC_ACCESS_RANGES"
 author: windows-driver-content
 description: The VIDEO_PUBLIC_ACCESS_RANGES structure contains information about video resources other than frame buffers and video RAM, such as memory-mapped I/O registers or ports.
 old-location: display\video_public_access_ranges.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78912da9-ab02-459c-97b0-477949d4a71d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES, Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, _VIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges, *PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices]
+ms.keywords: VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], _VIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES, *PVIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	VIDEO_PUBLIC_ACCESS_RANGES
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PUBLIC_ACCESS_RANGES, *PVIDEO_PUBLIC_ACCESS_RANGES
+req.typenames: "*PVIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES"
 ---
 
 # _VIDEO_PUBLIC_ACCESS_RANGES structure
@@ -151,9 +151,9 @@ VIDEO_PUBLIC_ACCESS_RANGES is used as an input buffer with the <a href="..\ntddv
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
-
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
 
  
 

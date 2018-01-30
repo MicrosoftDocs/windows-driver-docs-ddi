@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, ExtDeclAlignedBuffer::operator=, ExtBuffer, operator=, operator= method [Windows Debugging], ExtCheckedPointer, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer::operator=, ExtDeclAlignedBuffer, ExtBuffer::operator=, operator= method [Windows Debugging], ExtRemoteTyped class
+ms.keywords: ExtDeclAlignedBuffer::operator=, ExtCheckedPointer::operator=, ExtBuffer, operator= method [Windows Debugging], debugger.extremotetyped_operatorequals_debug_typed_data, ExtBuffer::operator=, ExtDeclAlignedBuffer, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, operator=, operator= method [Windows Debugging], ExtRemoteTyped class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	arrayofelements.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.operator=
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtDeclAlignedBuffer::operator= method
@@ -96,9 +96,9 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
  
 

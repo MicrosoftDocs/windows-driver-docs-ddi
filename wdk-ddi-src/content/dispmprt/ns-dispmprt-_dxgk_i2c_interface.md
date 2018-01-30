@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_I2C_INTERFACE
-title: _DXGK_I2C_INTERFACE
+title: "_DXGK_I2C_INTERFACE"
 author: windows-driver-content
 description: The DXGK_I2C_INTERFACE structure contains pointers to functions in the I2C interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_i2c_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aba0ebc8-2c92-4d27-a35b-9ac25ac6e5ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_I2C_INTERFACE, dispmprt/DXGK_I2C_INTERFACE, DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, *PDXGK_I2C_INTERFACE, display.dxgk_i2c_interface, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], _DXGK_I2C_INTERFACE
+ms.keywords: DXGK_I2C_INTERFACE, dispmprt/DXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE, DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, _DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, PDXGK_I2C_INTERFACE structure pointer [Display Devices], DXGK_I2C_INTERFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_I2C_INTERFACE
 product: Windows
 targetos: Windows

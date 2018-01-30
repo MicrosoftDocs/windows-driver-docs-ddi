@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport, PcNewMiniport
+ms.keywords: audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, audio.pcnewminiport, PcNewMiniport, PcNewMiniport function [Audio Devices], portcls/PcNewMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcNewMiniport
 product: Windows
 targetos: Windows
@@ -180,15 +180,15 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
 <a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
 
 <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
+
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
  
 

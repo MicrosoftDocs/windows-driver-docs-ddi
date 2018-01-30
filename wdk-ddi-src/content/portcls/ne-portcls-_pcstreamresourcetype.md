@@ -1,6 +1,6 @@
 ---
 UID: NE:portcls._PcStreamResourceType
-title: _PcStreamResourceType
+title: "_PcStreamResourceType"
 author: windows-driver-content
 description: This topic discusses the PcStreamResourceType enum, and describes its members. The PcStreamResourceType enum is used to define the type of resources used for specific audio streaming.
 old-location: audio\pcstreamresourcetype.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C9563635-66F3-4835-8153-DECB04580544
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcStreamResourceType enumeration [Audio Devices], portcls/PcStreamResourceType, ePcStreamResourceThread, PcStreamResourceType, *PPcStreamResourceType, ePcStreamResourceInterrupt, PcStreamResourceType, portcls/ePcStreamResourceSet, ePcStreamResourceSet, audio.pcstreamresourcetype, _PcStreamResourceType, *PPcStreamResourceType, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceThread, PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices]
+ms.keywords: PcStreamResourceType, ePcStreamResourceSet, portcls/ePcStreamResourceSet, portcls/ePcStreamResourceThread, PcStreamResourceType enumeration [Audio Devices], portcls/ePcStreamResourceInterrupt, PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], ePcStreamResourceThread, *PPcStreamResourceType, audio.pcstreamresourcetype, ePcStreamResourceInterrupt, PcStreamResourceType, *PPcStreamResourceType, portcls/PcStreamResourceType, _PcStreamResourceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	PcStreamResourceType, *PPcStreamResourceType
 product: Windows
 targetos: Windows

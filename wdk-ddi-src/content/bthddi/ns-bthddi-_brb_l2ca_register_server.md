@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_REGISTER_SERVER
-title: _BRB_L2CA_REGISTER_SERVER
+title: "_BRB_L2CA_REGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_L2CA_REGISTER_SERVER structure to register itself as a server capable of receiving L2CAP connections from remote Bluetooth devices.
 old-location: bltooth\_brb_l2ca_register_server.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER, bltooth._brb_l2ca_register_server, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml
+ms.keywords: bltooth._brb_l2ca_register_server, bthddi/_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_L2CA_REGISTER_SERVER
 product: Windows
 targetos: Windows
@@ -154,8 +154,8 @@ The context to be passed to the callback function that is specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to the 
-     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
-     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> functions to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> functions to
      maintain a reference count. Profile drivers should provide this object in such a way that the Bluetooth
      driver stack can increase the count of the object for as long as the driver stack can call the callback
      function specified in the 
@@ -231,17 +231,17 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
 <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

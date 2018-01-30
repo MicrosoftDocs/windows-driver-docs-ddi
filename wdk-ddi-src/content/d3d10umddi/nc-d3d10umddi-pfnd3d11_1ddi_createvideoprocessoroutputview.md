@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CreateVideoProcessorOutputView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback
@@ -92,6 +92,13 @@ HRESULT APIENTRY* CreateVideoProcessorOutputView(
 
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
 #### - pCreateData [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
@@ -105,13 +112,6 @@ A handle to the driver's private data for the video processor output view. For m
 #### - hRTView [in]
 
 A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
 
 
 ## -returns

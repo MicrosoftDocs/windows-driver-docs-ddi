@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 951b42b6-4d6a-45af-a27f-6e8056676bb0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, IDebugSymbols3::RemoveSyntheticModule, RemoveSyntheticModule, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, debugger.removesyntheticmodule, IDebugSymbols3, dbgeng/IDebugSymbols3::RemoveSyntheticModule
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, RemoveSyntheticModule, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols3, dbgeng/IDebugSymbols3::RemoveSyntheticModule, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, debugger.removesyntheticmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.RemoveSyntheticModule
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::RemoveSyntheticModule method
@@ -119,9 +119,9 @@ For more information about synthetic modules, see Synthetic Modules.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

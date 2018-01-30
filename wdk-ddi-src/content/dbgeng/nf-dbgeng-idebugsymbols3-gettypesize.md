@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6f03eb5-e386-4e88-a729-db08f1fa460c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeSize method [Windows Debugging], IDebugSymbols3 interface, GetTypeSize method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetTypeSize method, IDebugSymbols::GetTypeSize, IDebugSymbols2::GetTypeSize, IDebugSymbols3 interface [Windows Debugging], GetTypeSize method, IDebugSymbols3::GetTypeSize, dbgeng/IDebugSymbols3::GetTypeSize, debugger.gettypesize2, dbgeng/IDebugSymbols2::GetTypeSize, GetTypeSize, GetTypeSize method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, GetTypeSize method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetTypeSize method, IDebugSymbols_d1c65bea-0479-4ca8-bdfa-6c7a7376792a.xml, dbgeng/IDebugSymbols::GetTypeSize
+ms.keywords: IDebugSymbols::GetTypeSize, GetTypeSize method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetTypeSize, GetTypeSize method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeSize method, IDebugSymbols3::GetTypeSize, dbgeng/IDebugSymbols2::GetTypeSize, IDebugSymbols3, dbgeng/IDebugSymbols3::GetTypeSize, GetTypeSize, GetTypeSize method [Windows Debugging], debugger.gettypesize2, IDebugSymbols3 interface [Windows Debugging], GetTypeSize method, dbgeng/IDebugSymbols::GetTypeSize, IDebugSymbols_d1c65bea-0479-4ca8-bdfa-6c7a7376792a.xml, GetTypeSize method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetTypeSize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetTypeSize
 -	IDebugSymbols2.GetTypeSize
 -	IDebugSymbols3.GetTypeSize
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetTypeSize method

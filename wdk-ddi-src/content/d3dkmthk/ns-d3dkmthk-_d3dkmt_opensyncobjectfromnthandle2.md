@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
-title: _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
+title: "_D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2"
 author: windows-driver-content
 description: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 is used with D3DKMTOpenSyncObjectFromNtHandle2 to open a monitored fence object.
 old-location: display\d3dkmt_opensyncobjectfromnthandle2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_opensyncobjectfromnthandle2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
+ms.keywords: display.d3dkmt_opensyncobjectfromnthandle2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 product: Windows
 targetos: Windows

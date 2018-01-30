@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	AssignDebugBinary
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_ASSIGNDEBUGBINARY callback
@@ -93,6 +93,11 @@ The size, in bytes, of the full shader binary.
 
 
 
+#### - hDevice
+
+A handle to the display device (graphics context).
+
+
 #### - hShader
 
 A handle to the driver's private data for the shader object.
@@ -101,11 +106,6 @@ A handle to the driver's private data for the shader object.
 #### - pBinary [in]
 
 A pointer to the full shader binary.
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
 
 
 ## -returns

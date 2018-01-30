@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEALLOCATIONFLAGS
-title: _D3DKMT_CREATEALLOCATIONFLAGS
+title: "_D3DKMT_CREATEALLOCATIONFLAGS"
 author: windows-driver-content
 description: The D3DKMT_CREATEALLOCATIONFLAGS structure identifies how to create an allocation in a call to the D3DKMTCreateAllocation function.
 old-location: display\d3dkmt_createallocationflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ddcb8222-808b-4dfe-9303-a588b3522ebe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_createallocationflags, D3DKMT_CREATEALLOCATIONFLAGS structure [Display Devices], d3dkmthk/D3DKMT_CREATEALLOCATIONFLAGS, _D3DKMT_CREATEALLOCATIONFLAGS, D3DKMT_CREATEALLOCATIONFLAGS, OpenGL_Structs_0b22984b-feef-4975-b7d9-596427c82b2b.xml
+ms.keywords: d3dkmthk/D3DKMT_CREATEALLOCATIONFLAGS, display.d3dkmt_createallocationflags, OpenGL_Structs_0b22984b-feef-4975-b7d9-596427c82b2b.xml, D3DKMT_CREATEALLOCATIONFLAGS, _D3DKMT_CREATEALLOCATIONFLAGS, D3DKMT_CREATEALLOCATIONFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATEALLOCATIONFLAGS
 product: Windows
 targetos: Windows
@@ -232,9 +232,9 @@ Drivers should follow these guidelines on <b>D3DKMT_CREATEALLOCATIONFLAGS</b> sh
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3DKMT_CREATEALLOCATION</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3DKMT_CREATEALLOCATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a4e1f579-8056-4e2b-9b90-735c3414abbd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::RemoveSymbolOptions, dbgeng/IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, debugger.removesymboloptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols3, IDebugSymbols::RemoveSymbolOptions, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, dbgeng/IDebugSymbols3::RemoveSymbolOptions
+ms.keywords: RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::RemoveSymbolOptions, IDebugSymbols3, IDebugSymbols::RemoveSymbolOptions, IDebugSymbols interface [Windows Debugging], RemoveSymbolOptions method, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::RemoveSymbolOptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::RemoveSymbolOptions, IDebugSymbols2 interface [Windows Debugging], RemoveSymbolOptions method, IDebugSymbols_a6b53bc6-23e5-4dae-b3b8-09330e91caba.xml, IDebugSymbols3 interface [Windows Debugging], RemoveSymbolOptions method, debugger.removesymboloptions, RemoveSymbolOptions method [Windows Debugging], IDebugSymbols2::RemoveSymbolOptions, dbgeng/IDebugSymbols::RemoveSymbolOptions, RemoveSymbolOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.RemoveSymbolOptions
 -	IDebugSymbols2.RemoveSymbolOptions
 -	IDebugSymbols3.RemoveSymbolOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::RemoveSymbolOptions method
@@ -110,17 +110,17 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

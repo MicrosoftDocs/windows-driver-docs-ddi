@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLELIST
-title: _D3DHAL_DP2INDEXEDTRIANGLELIST
+title: "_D3DHAL_DP2INDEXEDTRIANGLELIST"
 author: windows-driver-content
 description: One or more D3DHAL_DP2INDEXEDTRIANGLELIST structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLELIST, and are used to render a sequence of unconnected triangles using vertex indices.
 old-location: display\d3dhal_dp2indexedtrianglelist.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 138d226a-85ca-41d0-a0dd-2772194874e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2INDEXEDTRIANGLELIST, D3DHAL_DP2INDEXEDTRIANGLELIST structure [Display Devices], *LPD3DHAL_DP2INDEXEDTRIANGLELIST, display.d3dhal_dp2indexedtrianglelist, _D3DHAL_DP2INDEXEDTRIANGLELIST, d3dstrct_ee454273-b67d-4fe5-8e81-0de4ad80ce9c.xml, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST, LPD3DHAL_DP2INDEXEDTRIANGLELIST structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST, D3DHAL_DP2INDEXEDTRIANGLELIST
+ms.keywords: D3DHAL_DP2INDEXEDTRIANGLELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLELIST structure pointer [Display Devices], *LPD3DHAL_DP2INDEXEDTRIANGLELIST, D3DHAL_DP2INDEXEDTRIANGLELIST, _D3DHAL_DP2INDEXEDTRIANGLELIST, display.d3dhal_dp2indexedtrianglelist, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST, d3dstrct_ee454273-b67d-4fe5-8e81-0de4ad80ce9c.xml, LPD3DHAL_DP2INDEXEDTRIANGLELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2INDEXEDTRIANGLELIST
 product: Windows
 targetos: Windows
@@ -159,13 +159,13 @@ When the command is D3DDP2OP_INDEXEDTRIANGLELIST2, there is a <a href="..\d3dhal
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-D3DDP2OP_INDEXEDTRIANGLELIST
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+D3DDP2OP_INDEXEDTRIANGLELIST
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 

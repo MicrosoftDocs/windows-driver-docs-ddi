@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_TECHNOLOGY
-title: _DXGK_DISPLAY_TECHNOLOGY
+title: "_DXGK_DISPLAY_TECHNOLOGY"
 author: windows-driver-content
 description: Enum used to specify the display technology being used.
 old-location: display\dxgk_display_technology.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4612213A-E79F-4C3B-95B4-8C83C0B5FB32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_DT_INVALID, DXGK_DT_OLED, PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, DXGK_DT_LCD, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], d3dkmdt/DXGK_DT_OTHER, d3dkmdt/DXGK_DT_LCD, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], DXGK_DT_OTHER, _DXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, DXGK_DT_INVALID, d3dkmdt/DXGK_DT_OLED, display.dxgk_display_technology
+ms.keywords: "*PDXGK_DISPLAY_TECHNOLOGY, _DXGK_DISPLAY_TECHNOLOGY, DXGK_DT_OLED, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology, DXGK_DT_INVALID, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_INVALID, DXGK_DT_OTHER, d3dkmdt/DXGK_DT_LCD, DXGK_DT_LCD, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_OLED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGK_DISPLAY_TECHNOLOGY
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY
+req.typenames: DXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY
 ---
 
 # _DXGK_DISPLAY_TECHNOLOGY enumeration

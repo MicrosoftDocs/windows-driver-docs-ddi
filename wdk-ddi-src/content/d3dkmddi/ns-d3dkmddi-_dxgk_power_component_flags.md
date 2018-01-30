@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_POWER_COMPONENT_FLAGS
-title: _DXGK_POWER_COMPONENT_FLAGS
+title: "_DXGK_POWER_COMPONENT_FLAGS"
 author: windows-driver-content
 description: Describes state transition information about a power component.
 old-location: display\dxgk_power_component_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], display.dxgk_power_component_flags, _DXGK_POWER_COMPONENT_FLAGS
+ms.keywords: DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], display.dxgk_power_component_flags, DXGK_POWER_COMPONENT_FLAGS, _DXGK_POWER_COMPONENT_FLAGS, d3dkmddi/DXGK_POWER_COMPONENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_POWER_COMPONENT_FLAGS
 product: Windows
 targetos: Windows

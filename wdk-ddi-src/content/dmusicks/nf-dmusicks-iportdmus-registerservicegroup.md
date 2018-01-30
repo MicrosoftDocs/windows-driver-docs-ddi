@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterServiceGroup method [Audio Devices], IPortDMus interface, audio.iportdmus_registerservicegroup, IPortDMus, RegisterServiceGroup method [Audio Devices], audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, RegisterServiceGroup, dmusicks/IPortDMus::RegisterServiceGroup, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus::RegisterServiceGroup
+ms.keywords: RegisterServiceGroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup, IPortDMus::RegisterServiceGroup, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus, RegisterServiceGroup method [Audio Devices], IPortDMus interface, audio.iportdmus_registerservicegroup, RegisterServiceGroup method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dmusicks.h
-apiname: 
+apiname:
 -	IPortDMus.RegisterServiceGroup
 product: Windows
 targetos: Windows
@@ -104,15 +104,15 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
-
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
 
  
 

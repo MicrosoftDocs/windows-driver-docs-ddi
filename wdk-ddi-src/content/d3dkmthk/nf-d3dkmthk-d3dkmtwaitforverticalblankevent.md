@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForVerticalBlankEvent, OpenGL_Functions_9e2c6684-7429-43d7-b43a-0f11aea6807f.xml, display.d3dkmtwaitforverticalblankevent, D3DKMTWaitForVerticalBlankEvent function [Display Devices], d3dkmthk/D3DKMTWaitForVerticalBlankEvent
+ms.keywords: D3DKMTWaitForVerticalBlankEvent, D3DKMTWaitForVerticalBlankEvent function [Display Devices], OpenGL_Functions_9e2c6684-7429-43d7-b43a-0f11aea6807f.xml, d3dkmthk/D3DKMTWaitForVerticalBlankEvent, display.d3dkmtwaitforverticalblankevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTWaitForVerticalBlankEvent
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO structure pointer [Audio Devices], ksmedia/KSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], ksmedia/PKSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, audio.ksdatarange_audio
+ms.keywords: KSDATARANGE_AUDIO structure [Audio Devices], ksmedia/KSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, PKSDATARANGE_AUDIO structure pointer [Audio Devices], audio.ksdatarange_audio, KSDATARANGE_AUDIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDATARANGE_AUDIO
 product: Windows
 targetos: Windows
@@ -74,7 +74,7 @@ typedef struct {
 
 ### -field DataRange
 
-Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the audio data. This member is an initialized <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure.
+Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the audio data. This member is an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure.
 
 
 ### -field MaximumChannels
@@ -113,7 +113,7 @@ For information about data ranges and intersection handling, see <a href="https:
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
  
 

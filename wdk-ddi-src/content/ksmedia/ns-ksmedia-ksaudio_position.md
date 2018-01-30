@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSAUDIO_POSITION, KSAUDIO_POSITION, audio.ksaudio_position, PKSAUDIO_POSITION, *PKSAUDIO_POSITION, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, PKSAUDIO_POSITION structure pointer [Audio Devices], KSAUDIO_POSITION structure [Audio Devices], ksmedia/PKSAUDIO_POSITION
+ms.keywords: PKSAUDIO_POSITION structure pointer [Audio Devices], *PKSAUDIO_POSITION, audio.ksaudio_position, ksmedia/PKSAUDIO_POSITION, ksmedia/KSAUDIO_POSITION, PKSAUDIO_POSITION, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, KSAUDIO_POSITION structure [Audio Devices], KSAUDIO_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIO_POSITION
 product: Windows
 targetos: Windows
-req.typenames: *PKSAUDIO_POSITION, KSAUDIO_POSITION
+req.typenames: "*PKSAUDIO_POSITION, KSAUDIO_POSITION"
 ---
 
 # KSAUDIO_POSITION structure

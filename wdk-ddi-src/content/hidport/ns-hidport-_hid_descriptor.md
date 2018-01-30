@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_DESCRIPTOR
-title: _HID_DESCRIPTOR
+title: "_HID_DESCRIPTOR"
 author: windows-driver-content
 description: The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
 old-location: hid\hid_descriptor.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 80a6a5d8-b13a-418d-a4bd-941d3a913c1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hid_descriptor, PHID_DESCRIPTOR structure pointer [Human Input Devices], hidport/PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, hidport/HID_DEVICE_ATTRIBUTES, HID_DESCRIPTOR structure [Human Input Devices], PHID_DESCRIPTOR, _HID_DESCRIPTOR, *PHID_DESCRIPTOR, HID_DESCRIPTOR
+ms.keywords: HID_DESCRIPTOR structure [Human Input Devices], *PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, PHID_DESCRIPTOR, hidport/PHID_DESCRIPTOR, hidport/HID_DEVICE_ATTRIBUTES, HID_DESCRIPTOR, PHID_DESCRIPTOR structure pointer [Human Input Devices], hid.hid_descriptor, _HID_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidport.h
-apiname: 
+apiname:
 -	HID_DESCRIPTOR
 product: Windows
 targetos: Windows

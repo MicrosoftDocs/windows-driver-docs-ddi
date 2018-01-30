@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bf916e7c-f03b-4d02-8260-bc90e8957cc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetChar method [Windows Debugging], ExtRemoteData::GetChar, EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetChar method, GetChar, GetChar method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_getchar
+ms.keywords: EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, GetChar method [Windows Debugging], ExtRemoteData, ExtRemoteData::GetChar, ExtRemoteData class [Windows Debugging], GetChar method, GetChar method [Windows Debugging], ExtRemoteData class, GetChar, debugger.extremotedata_getchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.GetChar
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteData::GetChar method

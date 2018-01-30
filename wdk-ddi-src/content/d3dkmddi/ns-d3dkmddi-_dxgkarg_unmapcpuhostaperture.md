@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UNMAPCPUHOSTAPERTURE
-title: _DXGKARG_UNMAPCPUHOSTAPERTURE
+title: "_DXGKARG_UNMAPCPUHOSTAPERTURE"
 author: windows-driver-content
 description: The DXGKARG_UNMAPCPUHOSTAPERTURE structure is used to unmap a previously mapped range of the CPU host aperture.
 old-location: display\dxgkarg_unmapcpuhostaperture.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_unmapcpuhostaperture, _DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices]
+ms.keywords: "_DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture, DXGKARG_UNMAPCPUHOSTAPERTURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_UNMAPCPUHOSTAPERTURE
 product: Windows
 targetos: Windows

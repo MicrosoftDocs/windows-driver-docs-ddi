@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnStateVsSrvCb
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_STATE_VS_SRV_CB callback
@@ -83,9 +83,9 @@ void APIENTRY pfnStateVsSrvCb(
 
 
 
-#### - Count [in]
+#### - hRuntimeDevice [in]
 
- The total number of DDI handles to resource views. The number can be -1, which specifies that <b>pfnStateVsSrvCb</b> will use its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
+ A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
 
 
 #### - Base [in]
@@ -93,9 +93,9 @@ void APIENTRY pfnStateVsSrvCb(
  The beginning of the DDI handles to resource views. 
 
 
-#### - hRuntimeDevice [in]
+#### - Count [in]
 
- A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
+ The total number of DDI handles to resource views. The number can be -1, which specifies that <b>pfnStateVsSrvCb</b> will use its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 
 
 ## -returns

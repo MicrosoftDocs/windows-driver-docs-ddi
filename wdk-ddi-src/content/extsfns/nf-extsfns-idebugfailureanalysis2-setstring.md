@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 38B63AFF-BE37-45FB-9FD2-A49F216E1B81
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_setstring, SetString method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], SetString method, SetString, IDebugFailureAnalysis2::SetString, SetString method [Windows Debugging], extsfns/IDebugFailureAnalysis2::SetString, IDebugFailureAnalysis2
+ms.keywords: IDebugFailureAnalysis2::SetString, SetString method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::SetString, SetString method [Windows Debugging], debugger.idebugfailureanalysis2_setstring, SetString, IDebugFailureAnalysis2 interface [Windows Debugging], SetString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	IDebugFailureAnalysis2.SetString
 product: Windows
 targetos: Windows
@@ -96,15 +96,15 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406612">AddString</a>
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

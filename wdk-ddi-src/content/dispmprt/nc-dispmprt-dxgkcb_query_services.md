@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbQueryServices
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
 ---
 
 # DXGKCB_QUERY_SERVICES callback
@@ -84,7 +84,7 @@ A constant from the <a href="..\dispmprt\ne-dispmprt-dxgk_services.md">DXGK_SERV
 
 ### -param Interface [in, out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that receives the requested interface.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure that receives the requested interface.
 
 
 ## -returns
@@ -170,11 +170,11 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
 

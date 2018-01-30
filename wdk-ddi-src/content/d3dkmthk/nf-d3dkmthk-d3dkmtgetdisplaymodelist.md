@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f813171d-1c7d-4f75-850f-225ea166ff5c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_a132bdb6-955b-4af3-a928-f834f5fdf440.xml, D3DKMTGetDisplayModeList, D3DKMTGetDisplayModeList function [Display Devices], d3dkmthk/D3DKMTGetDisplayModeList, display.d3dkmtgetdisplaymodelist
+ms.keywords: D3DKMTGetDisplayModeList function [Display Devices], d3dkmthk/D3DKMTGetDisplayModeList, OpenGL_Functions_a132bdb6-955b-4af3-a928-f834f5fdf440.xml, display.d3dkmtgetdisplaymodelist, D3DKMTGetDisplayModeList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTGetDisplayModeList
 product: Windows
 targetos: Windows

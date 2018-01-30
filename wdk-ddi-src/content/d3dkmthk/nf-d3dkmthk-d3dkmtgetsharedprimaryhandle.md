@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, d3dkmthk/D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle
+ms.keywords: d3dkmthk/D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle, OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, D3DKMTGetSharedPrimaryHandle function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTGetSharedPrimaryHandle
 product: Windows
 targetos: Windows

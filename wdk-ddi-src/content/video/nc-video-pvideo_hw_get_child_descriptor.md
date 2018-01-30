@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidGetVideoChildDescriptor
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # PVIDEO_HW_GET_CHILD_DESCRIPTOR callback
@@ -231,15 +230,15 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+<a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
 
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
-<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
-
 <a href="..\video\nc-video-pvideo_hw_power_get.md">HwVidGetPowerState</a>
 
-<a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
+<a href="..\video\nf-video-videoportenumeratechildren.md">VideoPortEnumerateChildren</a>
+
+<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
 
  
 

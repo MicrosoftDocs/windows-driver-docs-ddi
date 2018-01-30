@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POINTER_ATTRIBUTES
-title: _VIDEO_POINTER_ATTRIBUTES
+title: "_VIDEO_POINTER_ATTRIBUTES"
 author: windows-driver-content
 description: The VIDEO_POINTER_ATTRIBUTES structure contains attributes of the screen pointer.
 old-location: display\video_pointer_attributes.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa897435-443b-4145-b6ca-7bafdb36b9c1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_POINTER_ATTRIBUTES, ntddvdeo/VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES, Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, display.video_pointer_attributes, VIDEO_MODE_ANIMATE_START, VIDEO_MODE_MONO_POINTER, VIDEO_MODE_COLOR_POINTER, VIDEO_MODE_ANIMATE_UPDATE, _VIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES, VIDEO_MODE_ASYNC_POINTER, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices]
+ms.keywords: VIDEO_MODE_COLOR_POINTER, *PVIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES, ntddvdeo/VIDEO_POINTER_ATTRIBUTES, ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, _VIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], PVIDEO_POINTER_ATTRIBUTES, VIDEO_MODE_ANIMATE_START, VIDEO_MODE_ANIMATE_UPDATE, Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], display.video_pointer_attributes, VIDEO_MODE_MONO_POINTER, VIDEO_MODE_ASYNC_POINTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	VIDEO_POINTER_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES
+req.typenames: VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES
 ---
 
 # _VIDEO_POINTER_ATTRIBUTES structure

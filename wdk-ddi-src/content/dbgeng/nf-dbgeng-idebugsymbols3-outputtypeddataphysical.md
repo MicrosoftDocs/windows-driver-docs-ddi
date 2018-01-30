@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c2ae1ff-bbf1-462f-b9ab-49f74cf12fae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, OutputTypedDataPhysical method [Windows Debugging], OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, OutputTypedDataPhysical, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, debugger.outputtypeddataphysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method
+ms.keywords: OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, debugger.outputtypeddataphysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.OutputTypedDataPhysical
 -	IDebugSymbols2.OutputTypedDataPhysical
 -	IDebugSymbols3.OutputTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::OutputTypedDataPhysical method

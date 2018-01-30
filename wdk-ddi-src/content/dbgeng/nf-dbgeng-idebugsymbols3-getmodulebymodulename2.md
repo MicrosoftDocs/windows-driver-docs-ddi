@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25ebb316-e801-44fa-bb80-dffe9051db7e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleByModuleName2, debugger.getmodulebymodulename2, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method, IDebugSymbols3::GetModuleByModuleName2, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, IDebugSymbols3, GetModuleByModuleName2, GetModuleByModuleName2 method [Windows Debugging]
+ms.keywords: IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, IDebugSymbols3, GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3::GetModuleByModuleName2, GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleByModuleName2, debugger.getmodulebymodulename2, GetModuleByModuleName2, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetModuleByModuleName2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetModuleByModuleName2 method

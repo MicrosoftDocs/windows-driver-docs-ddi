@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C14A3106-AEF7-4BA2-9E21-32D8B2D5BD7E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol6_getexecutionstatusex, GetExecutionStatusEx, IDebugControl6, GetExecutionStatusEx method [Windows Debugging], IDebugControl6::GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, dbgeng/IDebugControl6::GetExecutionStatusEx, IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method
+ms.keywords: IDebugControl6, IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method, GetExecutionStatusEx, debugger.idebugcontrol6_getexecutionstatusex, dbgeng/IDebugControl6::GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, GetExecutionStatusEx method [Windows Debugging], IDebugControl6::GetExecutionStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl6.GetExecutionStatusEx
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl6::GetExecutionStatusEx method

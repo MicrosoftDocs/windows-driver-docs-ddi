@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d311a030-e24c-427c-8a52-0c67d4fac653
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetEventFilterText, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, debugger.geteventfiltertext, IDebugControl2::GetEventFilterText, GetEventFilterText, IDebugControl::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, dbgeng/IDebugControl2::GetEventFilterText, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetEventFilterText method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], GetEventFilterText method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetEventFilterText, IDebugControl interface [Windows Debugging], GetEventFilterText method
+ms.keywords: IDebugControl3::GetEventFilterText, dbgeng/IDebugControl2::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, IDebugControl3, GetEventFilterText method [Windows Debugging], IDebugControl interface, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, IDebugControl interface [Windows Debugging], GetEventFilterText method, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText, IDebugControl::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, GetEventFilterText method [Windows Debugging], dbgeng/IDebugControl3::GetEventFilterText, debugger.geteventfiltertext, IDebugControl2 interface [Windows Debugging], GetEventFilterText method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetEventFilterText
 -	IDebugControl2.GetEventFilterText
 -	IDebugControl3.GetEventFilterText
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetEventFilterText method
@@ -136,15 +136,15 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

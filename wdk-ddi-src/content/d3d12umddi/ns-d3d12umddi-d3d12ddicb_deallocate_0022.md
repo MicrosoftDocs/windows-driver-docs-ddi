@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 977868D1-02E1-4460-9194-2079B986045E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddicb_deallocate_0022, D3D12DDICB_DEALLOCATE_0022 structure [Display Devices], D3D12DDICB_DEALLOCATE_0022, d3d12umddi/D3D12DDICB_DEALLOCATE_0022
+ms.keywords: D3D12DDICB_DEALLOCATE_0022, D3D12DDICB_DEALLOCATE_0022 structure [Display Devices], d3d12umddi/D3D12DDICB_DEALLOCATE_0022, display.d3d12ddicb_deallocate_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDICB_DEALLOCATE_0022
 product: Windows
 targetos: Windows

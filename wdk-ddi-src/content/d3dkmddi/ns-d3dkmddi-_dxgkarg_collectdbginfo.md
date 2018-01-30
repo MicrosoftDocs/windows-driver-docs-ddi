@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COLLECTDBGINFO
-title: _DXGKARG_COLLECTDBGINFO
+title: "_DXGKARG_COLLECTDBGINFO"
 author: windows-driver-content
 description: The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 old-location: display\dxgkarg_collectdbginfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_collectdbginfo, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, VIDEO_TDR_TIMEOUT_DETECTED, DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO structure [Display Devices], _DXGKARG_COLLECTDBGINFO, VIDEO_ENGINE_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO
+ms.keywords: DXGKARG_COLLECTDBGINFO structure [Display Devices], VIDEO_ENGINE_TIMEOUT_DETECTED, DXGKARG_COLLECTDBGINFO, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, _DXGKARG_COLLECTDBGINFO, display.dxgkarg_collectdbginfo, VIDEO_TDR_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_COLLECTDBGINFO
 product: Windows
 targetos: Windows
@@ -122,9 +122,9 @@ Available starting in Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
 

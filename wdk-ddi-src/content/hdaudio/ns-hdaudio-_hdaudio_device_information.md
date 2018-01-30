@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_DEVICE_INFORMATION
-title: _HDAUDIO_DEVICE_INFORMATION
+title: "_HDAUDIO_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The HDAUDIO_DEVICE_INFORMATION structure specifies the hardware capabilities of the HD Audio bus controller.
 old-location: audio\hdaudio_device_information.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 091aee9d-5ecd-481a-b5e2-28b4828b2c2e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.hdaudio_device_information, *PHDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION, hdaudio/HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, _HDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices]
+ms.keywords: HDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], *PHDAUDIO_DEVICE_INFORMATION, audio.hdaudio_device_information, hdaudio/HDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], _HDAUDIO_DEVICE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hdaudio.h
-apiname: 
+apiname:
 -	HDAUDIO_DEVICE_INFORMATION
 product: Windows
 targetos: Windows

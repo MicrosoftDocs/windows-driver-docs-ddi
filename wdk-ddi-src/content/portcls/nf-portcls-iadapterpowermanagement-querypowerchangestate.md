@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAdapterPowerManagement, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, audio.iadapterpowermanagement_querypowerchangestate, QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, QueryPowerChangeState method [Audio Devices], portcls/IAdapterPowerManagement::QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface
+ms.keywords: QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement::QueryPowerChangeState, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, portcls/IAdapterPowerManagement::QueryPowerChangeState, audio.iadapterpowermanagement_querypowerchangestate, IAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IAdapterPowerManagement.QueryPowerChangeState
 product: Windows
 targetos: Windows

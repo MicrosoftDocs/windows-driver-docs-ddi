@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SET_TIMING_FLAGS
-title: _DXGK_SET_TIMING_FLAGS
+title: "_DXGK_SET_TIMING_FLAGS"
 author: windows-driver-content
 description: Structure to hold flags used to modify SetTiming behavior. Currently no flags are defined.
 old-location: display\dxgk_set_timing_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB10EBD3-2CB6-4854-994D-B10929CB27FC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SET_TIMING_FLAGS, PDXGK_SET_TIMING_FLAGS structure pointer [Display Devices], _DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS structure [Display Devices], d3dkmddi/DXGK_SET_TIMING_FLAGS, display.dxgk_set_timing_flags, PDXGK_SET_TIMING_FLAGS, d3dkmddi/PDXGK_SET_TIMING_FLAGS
+ms.keywords: DXGK_SET_TIMING_FLAGS structure [Display Devices], PDXGK_SET_TIMING_FLAGS structure pointer [Display Devices], d3dkmddi/PDXGK_SET_TIMING_FLAGS, PDXGK_SET_TIMING_FLAGS, _DXGK_SET_TIMING_FLAGS, d3dkmddi/DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS, display.dxgk_set_timing_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SET_TIMING_FLAGS
 product: Windows
 targetos: Windows

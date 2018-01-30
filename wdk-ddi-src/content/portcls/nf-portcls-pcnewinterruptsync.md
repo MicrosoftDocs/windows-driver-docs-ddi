@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2455d09a-608e-4529-9c27-ed760c7da675
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewInterruptSync, portcls/PcNewInterruptSync, audio.pcnewinterruptsync, PcNewInterruptSync function [Audio Devices], audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml
+ms.keywords: PcNewInterruptSync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync, audio.pcnewinterruptsync, PcNewInterruptSync function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcNewInterruptSync
 product: Windows
 targetos: Windows
@@ -153,11 +153,11 @@ The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parame
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

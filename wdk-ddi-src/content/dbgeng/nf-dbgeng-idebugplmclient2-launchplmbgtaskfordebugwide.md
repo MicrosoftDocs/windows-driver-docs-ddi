@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47793815-F7AC-4E0D-809C-DBB7497BDA30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: LaunchPlmBgTaskForDebugWide, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, debugger.idebugplmclient2_launchplmbgtaskfordebugwide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2
+ms.keywords: LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, debugger.idebugplmclient2_launchplmbgtaskfordebugwide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugPlmClient2::LaunchPlmBgTaskForDebugWide method

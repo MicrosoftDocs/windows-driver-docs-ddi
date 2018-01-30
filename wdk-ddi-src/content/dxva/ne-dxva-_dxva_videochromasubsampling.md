@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoChromaSubsampling
-title: _DXVA_VideoChromaSubsampling
+title: "_DXVA_VideoChromaSubsampling"
 author: windows-driver-content
 description: The DXVA_VideoChromaSubsampling enumeration type contains enumerators that identify the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: display\dxva_videochromasubsampling.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa8f736f-1311-4217-8750-cdd134c6945c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling, _DXVA_VideoChromaSubsampling, DXVA_VideoChromaSubsamplingShift, DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsampling_DV_PAL, dxva/DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva/DXVA_VideoChromaSubsampling, dxvaref_2939ec96-fb1f-4911-916e-40d043bb58d5.xml, dxva/DXVA_VideoChromaSubsampling_Cosited, DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling_Unknown, DXVA_VideoChromaSubsampling enumeration [Display Devices], DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, display.dxva_videochromasubsampling, dxva/DXVA_VideoChromaSubsampling_MPEG2, dxva/DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling_Horizontally_Cosited, dxva/DXVA_VideoChromaSubsampling_Vertically_Cosited, dxva/DXVA_VideoChromaSubsampling_Unknown, dxva/DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsampling_Vertically_Cosited, dxva/DXVA_VideoChromaSubsamplingShift, dxva/DXVA_VideoChromaSubsampling_Horizontally_Cosited, DXVA_VideoChromaSubsampling_DV_PAL, DXVA_VideoChromaSubsampling_Cosited
+ms.keywords: DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsamplingShift, dxva/DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling_Unknown, DXVA_VideoChromaSubsampling_Horizontally_Cosited, dxva/DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsampling, dxva/DXVA_VideoChromaSubsampling, _DXVA_VideoChromaSubsampling, DXVA_VideoChromaSubsamplingShift, display.dxva_videochromasubsampling, dxva/DXVA_VideoChromaSubsampling_Horizontally_Cosited, DXVA_VideoChromaSubsampling_Vertically_Cosited, dxva/DXVA_VideoChromaSubsampling_Cosited, dxvaref_2939ec96-fb1f-4911-916e-40d043bb58d5.xml, dxva/DXVA_VideoChromaSubsampling_DV_PAL, DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva/DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling_Cosited, DXVA_VideoChromaSubsampling enumeration [Display Devices], dxva/DXVA_VideoChromaSubsampling_ProgressiveChroma, DXVA_VideoChromaSubsampling_DV_PAL, dxva/DXVA_VideoChromaSubsampling_Vertically_Cosited, dxva/DXVA_VideoChromaSubsampling_Unknown, dxva/DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_VideoChromaSubsampling
 product: Windows
 targetos: Windows

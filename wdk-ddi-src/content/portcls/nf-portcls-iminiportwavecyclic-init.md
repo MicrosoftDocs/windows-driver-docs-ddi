@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2f0147d0-9c1d-4f3e-890f-941568220605
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavecyclic_init, Init method [Audio Devices], IMiniportWavweCyclic interface, IMiniportWavweCyclic interface [Audio Devices], Init method, IMiniportWaveCyclic::Init, audmp-routines_d18e9242-160d-4f55-9204-2e425b1f1669.xml, IMiniportWaveCyclic, IMiniportWavweCyclic::Init, Init method [Audio Devices], portcls/IMiniportWavweCyclic::Init, Init
+ms.keywords: portcls/IMiniportWavweCyclic::Init, Init method [Audio Devices], Init, IMiniportWavweCyclic::Init, audio.iminiportwavecyclic_init, IMiniportWavweCyclic interface [Audio Devices], Init method, Init method [Audio Devices], IMiniportWavweCyclic interface, audmp-routines_d18e9242-160d-4f55-9204-2e425b1f1669.xml, IMiniportWaveCyclic, IMiniportWaveCyclic::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWavweCyclic.Init
 product: Windows
 targetos: Windows
@@ -102,13 +102,13 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
+<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
+
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
  
 

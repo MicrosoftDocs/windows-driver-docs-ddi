@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR_RGBA
-title: _DXVAHDDDI_COLOR_RGBA
+title: "_DXVAHDDDI_COLOR_RGBA"
 author: windows-driver-content
 description: The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.
 old-location: display\dxvahdddi_color_rgba.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73779eb1-514e-4103-9af2-0dc0c86cb04e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba, d3dumddi/DXVAHDDDI_COLOR_RGBA, DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml, _DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA structure [Display Devices]
+ms.keywords: d3dumddi/DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA, DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml, _DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba, DXVAHDDDI_COLOR_RGBA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_COLOR_RGBA
 product: Windows
 targetos: Windows

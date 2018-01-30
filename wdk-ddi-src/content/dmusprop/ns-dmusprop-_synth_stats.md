@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_STATS
-title: _SYNTH_STATS
+title: "_SYNTH_STATS"
 author: windows-driver-content
 description: The SYNTH_STATS structure specifies synthesizer performance statistics such as the number of voices playing, CPU usage, number of notes lost, amount of free memory, and peak volume level.
 old-location: audio\synth_stats.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusprop/PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, _SYNTH_STATS, dmusprop/SYNTH_STATS, PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], audio.synth_stats, *PSYNTH_STATS, SYNTH_STATS
+ms.keywords: dmusprop/PSYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, dmusprop/SYNTH_STATS, audio.synth_stats, PSYNTH_STATS structure pointer [Audio Devices], SYNTH_STATS structure [Audio Devices], *PSYNTH_STATS, _SYNTH_STATS, SYNTH_STATS, PSYNTH_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dmusprop.h
-apiname: 
+apiname:
 -	SYNTH_STATS
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # _SYNTH_STATS structure
@@ -80,6 +80,36 @@ Specifies which members of the SYNTH_STATS structure contain valid data. This me
 
 
 
+#### SYNTH_STATS_VOICES
+
+The <b>Voices</b> field contains valid data.
+
+
+#### SYNTH_STATS_TOTAL_CPU
+
+The <b>TotalCPU</b> field contains valid data.
+
+
+#### SYNTH_STATS_CPU_PER_VOICE
+
+The <b>CPUPerVoice</b> field contains valid data.
+
+
+#### SYNTH_STATS_LOST_NOTES
+
+The <b>LostNotes </b>field contains valid data.
+
+
+#### SYNTH_STATS_PEAK_VOLUME
+
+The <b>PeakVolume </b>field contains valid data.
+
+
+#### SYNTH_STATS_FREE_MEMORY
+
+The <b>FreeMemory</b> field contains valid data.
+
+
 ### -field Voices
 
 Specifies the average number of voices playing.
@@ -108,36 +138,6 @@ Specifies the amount of free memory in bytes. This is the storage that remains a
 ### -field PeakVolume
 
 Specifies the peak volume level expressed as decibels multiplied by 100.
-
-
-##### - ValidStats.SYNTH_STATS_PEAK_VOLUME
-
-The <b>PeakVolume </b>field contains valid data.
-
-
-##### - ValidStats.SYNTH_STATS_FREE_MEMORY
-
-The <b>FreeMemory</b> field contains valid data.
-
-
-##### - ValidStats.SYNTH_STATS_CPU_PER_VOICE
-
-The <b>CPUPerVoice</b> field contains valid data.
-
-
-##### - ValidStats.SYNTH_STATS_LOST_NOTES
-
-The <b>LostNotes </b>field contains valid data.
-
-
-##### - ValidStats.SYNTH_STATS_TOTAL_CPU
-
-The <b>TotalCPU</b> field contains valid data.
-
-
-##### - ValidStats.SYNTH_STATS_VOICES
-
-The <b>Voices</b> field contains valid data.
 
 
 ## -remarks

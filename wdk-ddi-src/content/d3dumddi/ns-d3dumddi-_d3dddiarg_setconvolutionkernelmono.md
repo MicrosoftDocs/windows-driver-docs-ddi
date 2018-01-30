@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETCONVOLUTIONKERNELMONO
-title: _D3DDDIARG_SETCONVOLUTIONKERNELMONO
+title: "_D3DDDIARG_SETCONVOLUTIONKERNELMONO"
 author: windows-driver-content
 description: The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for setting the monochrome convolution kernel.
 old-location: display\d3dddiarg_setconvolutionkernelmono.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a7a19c7-2e2d-4e52-920d-68f1d2d77585
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono, D3DDDIARG_SETCONVOLUTIONKERNELMONO, UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, _D3DDDIARG_SETCONVOLUTIONKERNELMONO
+ms.keywords: UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], _D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono, d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETCONVOLUTIONKERNELMONO
 product: Windows
 targetos: Windows

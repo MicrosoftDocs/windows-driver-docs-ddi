@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_ACPI_INFO_ENTRY
-title: _SDEV_SECURE_ACPI_INFO_ENTRY
+title: "_SDEV_SECURE_ACPI_INFO_ENTRY"
 author: windows-driver-content
 description: Defines an information entry for a secure ACPI device for use in a secure device table.
 old-location: acpi\sdev_secure_acpi_info_entry.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: A3FDE9B0-DD6E-4FF5-AD9A-7DF7BF276EFA
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, _SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices]
+ms.keywords: "_SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	acpitabl.h
-apiname: 
+apiname:
 -	SDEV_SECURE_ACPI_INFO_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
+req.typenames: "*PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY"
 ---
 
 # _SDEV_SECURE_ACPI_INFO_ENTRY structure

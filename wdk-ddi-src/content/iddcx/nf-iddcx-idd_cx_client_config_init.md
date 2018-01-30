@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b2cf0d6-1d69-4917-9e97-f8f2563e6d3c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idd_cx_client_config_init, IDD_CX_CLIENT_CONFIG_INIT method [Display Devices], IDD_CX_CLIENT_CONFIG_INIT, iddcx/IDD_CX_CLIENT_CONFIG_INIT
+ms.keywords: iddcx/IDD_CX_CLIENT_CONFIG_INIT, IDD_CX_CLIENT_CONFIG_INIT, display.idd_cx_client_config_init, IDD_CX_CLIENT_CONFIG_INIT method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDD_CX_CLIENT_CONFIG_INIT
 product: Windows
 targetos: Windows

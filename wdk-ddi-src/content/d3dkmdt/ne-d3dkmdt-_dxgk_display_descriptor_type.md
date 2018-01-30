@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_DESCRIPTOR_TYPE
-title: _DXGK_DISPLAY_DESCRIPTOR_TYPE
+title: "_DXGK_DISPLAY_DESCRIPTOR_TYPE"
 author: windows-driver-content
 description: Enum used to express the display descriptor type.
 old-location: display\dxgk_display_descriptor_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2AC0B5CF-67FB-462F-9118-E30FEDE9A019
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DDT_INVALID, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_EDID, DXGK_DDT_EDID, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], _DXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type, *PDXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_INVALID, PDXGK_DISPLAY_DESCRIPTOR_TYPE
+ms.keywords: DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_EDID, PDXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type, DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_INVALID, _DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_INVALID, *PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], d3dkmdt/DXGK_DDT_EDID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGK_DISPLAY_DESCRIPTOR_TYPE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_DISPLAY_DESCRIPTOR_TYPE, *PDXGK_DISPLAY_DESCRIPTOR_TYPE
+req.typenames: "*PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE"
 ---
 
 # _DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration

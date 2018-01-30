@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_Highlight
-title: _DXVA_Highlight
+title: "_DXVA_Highlight"
 author: windows-driver-content
 description: The DXVA_Highlight structure is sent by the host decoder to the accelerator to specify a highlighted rectangular area of a subpicture, and to create an alpha-blending surface with DCCMD data and a DPXD surface.
 old-location: display\dxva_highlight.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 62c5f41a-1db2-4777-af86-67d2345a05c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml, dxva/DXVA_Highlight, dxva/LPDXVA_Highlight, DXVA_Highlight structure [Display Devices], *LPDXVA_Highlight, LPDXVA_Highlight, display.dxva_highlight, DXVA_Highlight, _DXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices]
+ms.keywords: dxva/DXVA_Highlight, DXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml, LPDXVA_Highlight structure pointer [Display Devices], LPDXVA_Highlight, *LPDXVA_Highlight, _DXVA_Highlight, DXVA_Highlight structure [Display Devices], dxva/LPDXVA_Highlight, display.dxva_highlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_Highlight
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_Highlight, DXVA_Highlight
+req.typenames: "*LPDXVA_Highlight, DXVA_Highlight"
 ---
 
 # _DXVA_Highlight structure

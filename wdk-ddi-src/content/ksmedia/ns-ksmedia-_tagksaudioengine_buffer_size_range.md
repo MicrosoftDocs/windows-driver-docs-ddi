@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSAUDIOENGINE_BUFFER_SIZE_RANGE
-title: _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE
+title: "_tagKSAUDIOENGINE_BUFFER_SIZE_RANGE"
 author: windows-driver-content
 description: The KSAUDIOENGINE_BUFFER_SIZE_RANGE structure specifies the minimum and maximum buffer size that the hardware audio engine can support at the instance when it is called.
 old-location: audio\ksaudio_buffer_limits.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7BFF1B51-9559-471C-868C-F3E861CB4914
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSAUDIOENGINE_BUFFER_SIZE_RANGE structure pointer [Audio Devices], PKSAUDIOENGINE_BUFFER_SIZE_RANGE, _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE, *PKSAUDIOENGINE_BUFFER_SIZE_RANGE, audio.ksaudio_buffer_limits, KSAUDIOENGINE_BUFFER_SIZE_RANGE structure [Audio Devices], ksmedia/PKSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/KSAUDIOENGINE_BUFFER_SIZE_RANGE
+ms.keywords: audio.ksaudio_buffer_limits, KSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE structure [Audio Devices], *PKSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/PKSAUDIOENGINE_BUFFER_SIZE_RANGE, PKSAUDIOENGINE_BUFFER_SIZE_RANGE structure pointer [Audio Devices], _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/KSAUDIOENGINE_BUFFER_SIZE_RANGE, PKSAUDIOENGINE_BUFFER_SIZE_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIOENGINE_BUFFER_SIZE_RANGE
 product: Windows
 targetos: Windows
-req.typenames: *PKSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE
+req.typenames: KSAUDIOENGINE_BUFFER_SIZE_RANGE, *PKSAUDIOENGINE_BUFFER_SIZE_RANGE
 ---
 
 # _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE structure

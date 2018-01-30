@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6915215-3654-446b-b30d-b891f439a379
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::GetOffsetByName, dbgeng/IDebugSymbols3::GetOffsetByName, GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2::GetOffsetByName, IDebugSymbols::GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetOffsetByName, IDebugSymbols3 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols3::GetOffsetByName, IDebugSymbols_ef72e546-d27f-4cdf-9eeb-53151680c2d1.xml, GetOffsetByName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols3, debugger.getoffsetbyname, GetOffsetByName method [Windows Debugging]
+ms.keywords: IDebugSymbols2::GetOffsetByName, IDebugSymbols3, IDebugSymbols3::GetOffsetByName, GetOffsetByName method [Windows Debugging], debugger.getoffsetbyname, dbgeng/IDebugSymbols3::GetOffsetByName, dbgeng/IDebugSymbols2::GetOffsetByName, GetOffsetByName method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols_ef72e546-d27f-4cdf-9eeb-53151680c2d1.xml, GetOffsetByName method [Windows Debugging], IDebugSymbols2 interface, GetOffsetByName, dbgeng/IDebugSymbols::GetOffsetByName, IDebugSymbols interface [Windows Debugging], GetOffsetByName method, IDebugSymbols::GetOffsetByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetOffsetByName
 -	IDebugSymbols2.GetOffsetByName
 -	IDebugSymbols3.GetOffsetByName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetOffsetByName method

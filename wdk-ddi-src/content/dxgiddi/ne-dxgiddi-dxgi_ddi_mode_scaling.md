@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfe37343-18a6-46f2-b23f-52fc0ca2f800
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxgiddi/DXGI_DDI_MODE_SCALING, display.dxgi_ddi_mode_scaling, DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED, DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING enumeration [Display Devices], DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED
+ms.keywords: dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING, display.dxgi_ddi_mode_scaling, DXGI_DDI_MODE_SCALING enumeration [Display Devices], DXGI_DDI_MODE_SCALING_STRETCHED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED, DXGI_DDI_MODE_SCALING_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_MODE_SCALING
 product: Windows
 targetos: Windows

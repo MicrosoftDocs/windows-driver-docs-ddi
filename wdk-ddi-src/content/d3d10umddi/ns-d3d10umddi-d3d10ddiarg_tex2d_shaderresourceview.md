@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2282d08e-e192-4a0f-972b-1441cea1fe7d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_ebe6122b-f1bb-4f9d-b677-c721643fe227.xml, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex2d_shaderresourceview, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
+ms.keywords: display.d3d10ddiarg_tex2d_shaderresourceview, d3d10umddi/D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure [Display Devices], D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_ebe6122b-f1bb-4f9d-b677-c721643fe227.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
 product: Windows
 targetos: Windows
@@ -101,9 +101,9 @@ If the <b>ArraySize</b> member is set to -1, the array slices in the texture sta
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
 

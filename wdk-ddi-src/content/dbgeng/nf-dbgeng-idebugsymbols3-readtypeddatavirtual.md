@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::ReadTypedDataVirtual, debugger.readtypeddatavirtual, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols::ReadTypedDataVirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols3, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, ReadTypedDataVirtual, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method
+ms.keywords: ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols::ReadTypedDataVirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, debugger.readtypeddatavirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataVirtual, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.ReadTypedDataVirtual
 -	IDebugSymbols2.ReadTypedDataVirtual
 -	IDebugSymbols3.ReadTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::ReadTypedDataVirtual method

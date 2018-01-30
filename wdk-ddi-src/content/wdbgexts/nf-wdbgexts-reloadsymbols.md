@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5778f57c-52dd-43f4-b0f7-d07e0c40512b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.reloadsymbols, ReloadSymbols, ReloadSymbols function [Windows Debugging], WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, wdbgexts/ReloadSymbols
+ms.keywords: WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, ReloadSymbols function [Windows Debugging], ReloadSymbols, debugger.reloadsymbols, wdbgexts/ReloadSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	ReloadSymbols
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # ReloadSymbols function

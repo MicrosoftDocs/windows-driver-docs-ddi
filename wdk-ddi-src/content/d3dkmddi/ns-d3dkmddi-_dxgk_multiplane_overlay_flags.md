@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_FLAGS
-title: _DXGK_MULTIPLANE_OVERLAY_FLAGS
+title: "_DXGK_MULTIPLANE_OVERLAY_FLAGS"
 author: windows-driver-content
 description: Identifies a flip operation to be performed on an overlay plane.
 old-location: display\dxgk_multiplane_overlay_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2592e308-1d34-464f-8301-9ece54b4d017
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_MULTIPLANE_OVERLAY_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], display.dxgk_multiplane_overlay_flags, DXGK_MULTIPLANE_OVERLAY_FLAGS
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_FLAGS, display.dxgk_multiplane_overlay_flags, _DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MULTIPLANE_OVERLAY_FLAGS
 product: Windows
 targetos: Windows

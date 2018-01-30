@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, debugger.getvalidregionvirtual, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4::GetValidRegionVirtual, GetValidRegionVirtual
+ms.keywords: IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4, IDebugDataSpaces4::GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], debugger.getvalidregionvirtual, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces4.GetValidRegionVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugDataSpaces4::GetValidRegionVirtual method

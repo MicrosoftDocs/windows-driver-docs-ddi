@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_BLT
-title: _D3DDDIARG_BLT
+title: "_D3DDDIARG_BLT"
 author: windows-driver-content
 description: The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bitblt).
 old-location: display\d3dddiarg_blt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9663d0fe-7397-49d7-b860-e466a9311aca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_BLT structure [Display Devices], display.d3dddiarg_blt, d3dumddi/D3DDDIARG_BLT, _D3DDDIARG_BLT, D3DDDIARG_BLT, UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml
+ms.keywords: D3DDDIARG_BLT structure [Display Devices], D3DDDIARG_BLT, display.d3dddiarg_blt, d3dumddi/D3DDDIARG_BLT, _D3DDDIARG_BLT, UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_BLT
 product: Windows
 targetos: Windows
@@ -127,9 +127,9 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
 
  
 

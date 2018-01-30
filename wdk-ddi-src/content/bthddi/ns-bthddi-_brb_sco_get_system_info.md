@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_GET_SYSTEM_INFO
-title: _BRB_SCO_GET_SYSTEM_INFO
+title: "_BRB_SCO_GET_SYSTEM_INFO"
 author: windows-driver-content
 description: The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local system's support for SCO connections.
 old-location: bltooth\_brb_sco_get_system_info.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], _BRB_SCO_GET_SYSTEM_INFO, bthddi/_BRB_SCO_GET_SYSTEM_INFO, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bltooth._brb_sco_get_system_info
+ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO, bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bthddi/_BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_SCO_GET_SYSTEM_INFO
 product: Windows
 targetos: Windows
@@ -171,9 +171,9 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536625">BRB_SCO_GET_SYSTEM_INFO</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

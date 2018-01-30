@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetTexture
 product: Windows
 targetos: Windows
@@ -88,14 +88,14 @@ __checkReturn HRESULT APIENTRY SetTexture(
 
 
 
-#### - hTexture [in]
-
- A handle to the texture to insert.
-
-
 #### - Stage [in]
 
  The stage in a multiple-texture group that indicates where to insert the texture that is specified by the <i>hTexture</i> handle. This parameter can be an integer in the range from 0 through 7, with the highest-numbered texture being closest to the frame buffer.
+
+
+#### - hTexture [in]
+
+ A handle to the texture to insert.
 
 
 ## -returns

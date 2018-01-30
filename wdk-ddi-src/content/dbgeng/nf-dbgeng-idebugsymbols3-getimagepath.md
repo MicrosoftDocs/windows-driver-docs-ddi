@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetImagePath, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::GetImagePath, IDebugSymbols2::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, dbgeng/IDebugSymbols2::GetImagePath, IDebugSymbols3, GetImagePath method [Windows Debugging], dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath, GetImagePath method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, debugger.getimagepath, GetImagePath method [Windows Debugging], IDebugSymbols interface, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetImagePath, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols::GetImagePath, GetImagePath, dbgeng/IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetImagePath
 -	IDebugSymbols2.GetImagePath
 -	IDebugSymbols3.GetImagePath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetImagePath method
@@ -134,13 +134,13 @@ The executable image path can consist of several directories separated by semico
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

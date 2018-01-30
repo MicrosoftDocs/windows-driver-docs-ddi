@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPSignature
-title: _DXVA_COPPSignature
+title: "_DXVA_COPPSignature"
 author: windows-driver-content
 description: The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session.
 old-location: display\dxva_coppsignature.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml, _DXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], LPDXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], *LPDXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxva/DXVA_COPPSignature, display.dxva_coppsignature, DXVA_COPPSignature
+ms.keywords: "_DXVA_COPPSignature, *LPDXVA_COPPSignature, dxva/DXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml, dxva/LPDXVA_COPPSignature, DXVA_COPPSignature, display.dxva_coppsignature, LPDXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_COPPSignature
 product: Windows
 targetos: Windows
-req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
+req.typenames: "*LPDXVA_COPPSignature, DXVA_COPPSignature"
 ---
 
 # _DXVA_COPPSignature structure

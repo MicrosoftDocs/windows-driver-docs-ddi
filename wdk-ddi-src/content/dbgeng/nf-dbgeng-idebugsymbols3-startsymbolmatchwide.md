@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dbf8c1a3-cc59-40d7-8355-62891b5b45d2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartSymbolMatchWide, IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], debugger.startsymbolmatchwide, IDebugSymbols3, dbgeng/IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatchWide method
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], StartSymbolMatchWide method, IDebugSymbols3, StartSymbolMatchWide method [Windows Debugging], StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, debugger.startsymbolmatchwide, IDebugSymbols3::StartSymbolMatchWide, dbgeng/IDebugSymbols3::StartSymbolMatchWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.StartSymbolMatchWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::StartSymbolMatchWide method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, audio.iinterruptsync_registerserviceroutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync
+ms.keywords: audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, audio.iinterruptsync_registerserviceroutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, RegisterServiceRoutine, IInterruptSync, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IInterruptSync.RegisterServiceRoutine
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 165c83cb-c0be-4a09-9220-a5208f660308
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetInterestMask, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_getinterestmask, IDebugEventCallbacks, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, IDebugEventCallbacks::GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask, GetInterestMask method [Windows Debugging]
+ms.keywords: GetInterestMask, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, debugger.idebugeventcallbacks_getinterestmask, IDebugEventCallbacks::GetInterestMask, IDebugEventCallbacks, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, dbgeng/IDebugEventCallbacks::GetInterestMask, GetInterestMask method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::GetInterestMask method

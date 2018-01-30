@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3D12DDICB_RECLAIMALLOCATIONS2
-title: _D3D12DDICB_RECLAIMALLOCATIONS2
+title: "_D3D12DDICB_RECLAIMALLOCATIONS2"
 author: windows-driver-content
 description: Describes video memory resources that are to be reclaimed and that the driver previously offered for reuse.
 old-location: display\d3d12ddicb_reclaimallocations2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B5ADCD5D-301C-4B02-A4B2-90A81A5FBBC9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], display.d3d12ddicb_reclaimallocations2, D3D12DDICB_RECLAIMALLOCATIONS2, _D3D12DDICB_RECLAIMALLOCATIONS2, d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2
+ms.keywords: d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2, _D3D12DDICB_RECLAIMALLOCATIONS2, D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], display.d3d12ddicb_reclaimallocations2, D3D12DDICB_RECLAIMALLOCATIONS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3D12DDICB_RECLAIMALLOCATIONS2
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_PREEMPTION_CAPS
-title: _D3DKMDT_PREEMPTION_CAPS
+title: "_D3DKMDT_PREEMPTION_CAPS"
 author: windows-driver-content
 description: Specifies the capabilities for the preemption of graphic processing unit (GPU) graphics requests that the display miniport driver supports.
 old-location: display\d3dkmdt_preemption_caps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52172edc-77a9-46b9-8382-c57c65b80b93
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], display.d3dkmdt_preemption_caps, D3DKMDT_PREEMPTION_CAPS, _D3DKMDT_PREEMPTION_CAPS
+ms.keywords: D3DKMDT_PREEMPTION_CAPS, _D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], display.d3dkmdt_preemption_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_PREEMPTION_CAPS
 product: Windows
 targetos: Windows
@@ -80,11 +80,11 @@ A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3D
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_graphics_preemption_granularity.md">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_graphics_preemption_granularity.md">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2afdaee6-7714-42d4-a402-3cb85ef3b970
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugEventCallbacks::UnloadModule, debugger.idebugeventcallbacks_unloadmodule, IDebugEventCallbacks, IDebugEventCallbacks::UnloadModule, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, UnloadModule method [Windows Debugging], UnloadModule, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], IDebugEventCallbacks interface
+ms.keywords: UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::UnloadModule, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks, UnloadModule method [Windows Debugging], debugger.idebugeventcallbacks_unloadmodule, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, IDebugEventCallbacks::UnloadModule, UnloadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.UnloadModule
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::UnloadModule method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86b76d13-d8b5-4336-a010-87d7753a367c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPseudoIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetPseudoIndexByNameWide, debugger.getpseudoindexbynamewide, IDebugRegisters2, IDebugRegisters2::GetPseudoIndexByNameWide, dbgeng/IDebugRegisters2::GetPseudoIndexByNameWide, GetPseudoIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByNameWide method
+ms.keywords: dbgeng/IDebugRegisters2::GetPseudoIndexByNameWide, debugger.getpseudoindexbynamewide, GetPseudoIndexByNameWide method [Windows Debugging], GetPseudoIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByNameWide method, IDebugRegisters2::GetPseudoIndexByNameWide, GetPseudoIndexByNameWide, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.GetPseudoIndexByNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::GetPseudoIndexByNameWide method

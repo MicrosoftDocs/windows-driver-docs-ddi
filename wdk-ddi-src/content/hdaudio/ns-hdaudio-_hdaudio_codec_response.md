@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_RESPONSE
-title: _HDAUDIO_CODEC_RESPONSE
+title: "_HDAUDIO_CODEC_RESPONSE"
 author: windows-driver-content
 description: The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec command or an unsolicited response from a codec.
 old-location: audio\hdaudio_codec_response.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE, hdaudio/HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE
+ms.keywords: "_HDAUDIO_CODEC_RESPONSE, hdaudio/HDAUDIO_CODEC_RESPONSE, audio.hdaudio_codec_response, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], hdaudio/PHDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, PHDAUDIO_CODEC_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hdaudio.h
-apiname: 
+apiname:
 -	HDAUDIO_CODEC_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: *PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE
+req.typenames: "*PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE"
 ---
 
 # _HDAUDIO_CODEC_RESPONSE structure
@@ -134,49 +134,49 @@ typedef struct _HDAUDIO_CODEC_RESPONSE {
 Specifies a complete, 64-bit response summary that consists of a 32-bit response, 4-bit codec address, three status bits, and 25 unused bits (set to zero). This value is mostly used in debug messages.
 
 
-##### - ( unnamed struct ).Response
-
-Specifies a 26-bit unsolicited response value.
-
-
-##### - ( unnamed struct ).HasFifoOverrun
-
-Specifies whether a FIFO overrun occurred in the response input ring buffer (RIRB). If 1, a FIFO overrun occurred. If 0, a FIFO overrun did not occur.
-
-
-##### - ( unnamed struct ).IsValid
-
-Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
-
-
-##### - ( unnamed struct ).Unsolicited
-
-Specifies a 32-bit unsolicited response value that consists of a 26-bit response value and a 6-bit tag value.
-
-
-##### - ( unnamed struct ).IsUnsolicitedResponse
-
-Specifies whether the response is unsolicited. If 1, the response is unsolicited. If 0, the response is solicited (that is, a response to a codec command).
-
-
 #### - ( unnamed struct )
 
 Specifies a 26-bit unsolicited response value.
 
 
-###### - ( unnamed struct ).Unsolicited.Response
+#### Unsolicited
+
+Specifies a 32-bit unsolicited response value that consists of a 26-bit response value and a 6-bit tag value.
+
+
+#### Response
 
 Specifies a 26-bit unsolicited response value.
 
 
-##### - ( unnamed struct ).SDataIn
+#### Tag
+
+Specifies a 6-bit tag value for an unsolicited response.
+
+
+#### Response
+
+Specifies a 26-bit unsolicited response value.
+
+
+#### SDataIn
 
 Specifies the 4-bit codec address (SDI line) of the codec that generates the response.
 
 
-###### - ( unnamed struct ).Unsolicited.Tag
+#### IsUnsolicitedResponse
 
-Specifies a 6-bit tag value for an unsolicited response.
+Specifies whether the response is unsolicited. If 1, the response is unsolicited. If 0, the response is solicited (that is, a response to a codec command).
+
+
+#### HasFifoOverrun
+
+Specifies whether a FIFO overrun occurred in the response input ring buffer (RIRB). If 1, a FIFO overrun occurred. If 0, a FIFO overrun did not occur.
+
+
+#### IsValid
+
+Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
 
 
 ## -remarks
@@ -206,9 +206,9 @@ If <b>HasFifoOverrun</b>=0, the codec failed to respond.
 
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
-<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
+
+<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
 
  
 

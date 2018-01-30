@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f4efcbf3-f78a-4e0e-9741-4f9b68814e5b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks interface [Windows Debugging], LoadModule method, debugger.idebugeventcallbacks_loadmodule, IDebugEventCallbacks::LoadModule, IDebugEventCallbacks, LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::LoadModule, LoadModule method [Windows Debugging], ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml
+ms.keywords: LoadModule method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_loadmodule, IDebugEventCallbacks::LoadModule, dbgeng/IDebugEventCallbacks::LoadModule, IDebugEventCallbacks, LoadModule, ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.LoadModule
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::LoadModule method

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_GTFCOMPLIANCE
-title: _D3DKMDT_GTFCOMPLIANCE
+title: "_D3DKMDT_GTFCOMPLIANCE"
 author: windows-driver-content
 description: The D3DKMDT_GTFCOMPLIANCE enumeration is reserved for system use. Do not use it in your driver.
 old-location: display\d3dkmdt_gtfcompliance.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f66bee69-206d-4e94-aca8-72f59569ab4a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_GTF_UNINITIALIZED, D3DKMDT_GTF_NOTCOMPLIANT, d3dkmdt/D3DKMDT_GTF_NOTCOMPLIANT, D3DKMDT_GTFCOMPLIANCE enumeration [Display Devices], DmEnums_c8d6dc39-9079-444a-8441-49617eb1eede.xml, _D3DKMDT_GTFCOMPLIANCE, d3dkmdt/D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTF_COMPLIANT, D3DKMDT_GTFCOMPLIANCE, display.d3dkmdt_gtfcompliance, d3dkmdt/D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTF_UNINITIALIZED
+ms.keywords: D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTF_UNINITIALIZED, d3dkmdt/D3DKMDT_GTF_UNINITIALIZED, display.d3dkmdt_gtfcompliance, d3dkmdt/D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTF_NOTCOMPLIANT, DmEnums_c8d6dc39-9079-444a-8441-49617eb1eede.xml, _D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTFCOMPLIANCE enumeration [Display Devices], D3DKMDT_GTF_NOTCOMPLIANT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_GTFCOMPLIANCE
 product: Windows
 targetos: Windows

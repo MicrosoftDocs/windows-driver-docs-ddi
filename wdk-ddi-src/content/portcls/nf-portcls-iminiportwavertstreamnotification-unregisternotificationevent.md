@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5b264784-7680-4c3b-9fc7-0609c53b53a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices], UnregisterNotificationEvent method, audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification, UnregisterNotificationEvent, portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, audio.iminiportwavertstreamnotification_unregisternotificationevent
+ms.keywords: IMiniportWaveRTStreamNotification interface [Audio Devices], UnregisterNotificationEvent method, audio.iminiportwavertstreamnotification_unregisternotificationevent, audmp-routines_db635e04-50ae-4aed-b5a5-dfb33f14d153.xml, IMiniportWaveRTStreamNotification, portcls/IMiniportWaveRTStreamNotification::UnregisterNotificationEvent, UnregisterNotificationEvent method [Audio Devices], UnregisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, UnregisterNotificationEvent, IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWaveRTStreamNotification.UnregisterNotificationEvent
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETLIGHT
-title: _D3DDDIARG_SETLIGHT
+title: "_D3DDDIARG_SETLIGHT"
 author: windows-driver-content
 description: The D3DDDIARG_SETLIGHT structure describes how to set light properties.
 old-location: display\d3dddiarg_setlight.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, display.d3dddiarg_setlight, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices]
+ms.keywords: D3DDDIARG_SETLIGHT, _D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight, UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, D3DDDIARG_SETLIGHT structure [Display Devices], d3dumddi/D3DDDIARG_SETLIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETLIGHT
 product: Windows
 targetos: Windows
@@ -116,9 +116,9 @@ Disables the light whose index is specified in <b>Index</b>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDICONTENTPROTECTIONCAPS
-title: _DDICONTENTPROTECTIONCAPS
+title: "_DDICONTENTPROTECTIONCAPS"
 author: windows-driver-content
 description: The DDICONTENTPROTECTIONCAPS structure describes a specific encryption and decode combination that the driver uses.
 old-location: display\ddicontentprotectioncaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d223712d-2c77-4bec-b8c0-d677d4caeac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.ddicontentprotectioncaps, d3dumddi/DDICONTENTPROTECTIONCAPS, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, _DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], DDICONTENTPROTECTIONCAPS
+ms.keywords: DDICONTENTPROTECTIONCAPS structure [Display Devices], _DDICONTENTPROTECTIONCAPS, d3dumddi/DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, DDICONTENTPROTECTIONCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DDICONTENTPROTECTIONCAPS
 product: Windows
 targetos: Windows
@@ -77,19 +77,19 @@ typedef struct _DDICONTENTPROTECTIONCAPS {
 A <b>NULL</b> value indicates that no encryption is used. 
 
 
-### -field DecodeProfile
+#### D3DCRYPTOTYPE_AES128_CTR
 
-[in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses along with the encryption type, which the <b>CryptoType</b> member specifies. Not all drivers allow all types of encryption. For example, MPEG2 IDCT frequently requires that the private libraries, which the hardware vendor supplies, perform the proprietary encryption. A <b>NULL</b> value indicates that DirectX VA decode profile is not used. 
+A GUID that indicates the 128-bit AES-CRT block cipher.
 
 
-##### - CryptoType.D3DCRYPTOTYPE_PROPRIETARY
+#### D3DCRYPTOTYPE_PROPRIETARY
 
 A GUID that indicates a proprietary encryption algorithm. 
 
 
-##### - CryptoType.D3DCRYPTOTYPE_AES128_CTR
+### -field DecodeProfile
 
-A GUID that indicates the 128-bit AES-CRT block cipher.
+[in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses along with the encryption type, which the <b>CryptoType</b> member specifies. Not all drivers allow all types of encryption. For example, MPEG2 IDCT frequently requires that the private libraries, which the hardware vendor supplies, perform the proprietary encryption. A <b>NULL</b> value indicates that DirectX VA decode profile is not used. 
 
 
 ## -remarks
@@ -107,9 +107,9 @@ If the runtime specifies NULL_GUID in the <b>CryptoType</b> member, the driver s
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
  
 

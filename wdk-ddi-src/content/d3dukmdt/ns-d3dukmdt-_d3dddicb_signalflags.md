@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_SIGNALFLAGS
-title: _D3DDDICB_SIGNALFLAGS
+title: "_D3DDDICB_SIGNALFLAGS"
 author: windows-driver-content
 description: The D3DDDICB_SIGNALFLAGS structure describes signaling behavior in a call to the pfnSignalSynchronizationObjectCb or pfnSignalSynchronizationObject2Cb functions.
 old-location: display\d3dddicb_signalflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1efe98c4-021b-4312-bbcc-52267e528b5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALFLAGS, _D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS structure [Display Devices], d3dukmdt/D3DDDICB_SIGNALFLAGS, display.d3dddicb_signalflags, D3D_other_Structs_3165168a-bcae-409c-8ca2-741675016ba8.xml
+ms.keywords: d3dukmdt/D3DDDICB_SIGNALFLAGS, _D3DDDICB_SIGNALFLAGS, display.d3dddicb_signalflags, D3D_other_Structs_3165168a-bcae-409c-8ca2-741675016ba8.xml, D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDICB_SIGNALFLAGS
 product: Windows
 targetos: Windows
@@ -128,11 +128,11 @@ A member in the union that is contained in D3DDDICB_SIGNALFLAGS that can hold on
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject2.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_signalsynchronizationobject.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
 
  
 

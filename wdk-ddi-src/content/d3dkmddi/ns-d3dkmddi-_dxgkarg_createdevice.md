@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEDEVICE
-title: _DXGKARG_CREATEDEVICE
+title: "_DXGKARG_CREATEDEVICE"
 author: windows-driver-content
 description: The DXGKARG_CREATEDEVICE structure describes a graphics context device.
 old-location: display\dxgkarg_createdevice.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_CREATEDEVICE, *INOUT_PDXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, DXGKARG_CREATEDEVICE structure [Display Devices], display.dxgkarg_createdevice, d3dkmddi/DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE
+ms.keywords: DXGKARG_CREATEDEVICE, _DXGKARG_CREATEDEVICE, display.dxgkarg_createdevice, d3dkmddi/DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices], *INOUT_PDXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_CREATEDEVICE
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ Supported starting with Windows 10.
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
-title: _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+title: "_D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES"
 author: windows-driver-content
 description: The D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES contains values that indicate the dynamic range of each color channel of a video present target or a monitor.
 old-location: display\d3dkmdt_color_coeff_dynamic_ranges.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7fdd1d52-c406-4da7-adff-4300e795be00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure [Display Devices], DmStructs_33f2d82d-dbb3-4d51-bc3c-5c8e334d5113.xml, d3dkmdt/D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, display.d3dkmdt_color_coeff_dynamic_ranges, D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+ms.keywords: display.d3dkmdt_color_coeff_dynamic_ranges, D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure [Display Devices], D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, DmStructs_33f2d82d-dbb3-4d51-bc3c-5c8e334d5113.xml, d3dkmdt/D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
 product: Windows
 targetos: Windows

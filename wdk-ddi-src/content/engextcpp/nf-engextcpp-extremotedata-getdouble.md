@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f8645e92-659f-42b8-a850-49a434ec2a67
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetDouble method, GetDouble, GetDouble method [Windows Debugging], ExtRemoteData::GetDouble, debugger.extremotedata_getdouble, GetDouble method [Windows Debugging], ExtRemoteData class
+ms.keywords: ExtRemoteData, ExtRemoteData class [Windows Debugging], GetDouble method, GetDouble, GetDouble method [Windows Debugging], GetDouble method [Windows Debugging], ExtRemoteData class, ExtRemoteData::GetDouble, EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, debugger.extremotedata_getdouble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.GetDouble
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteData::GetDouble method
@@ -82,9 +82,9 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544028">ExtRemoteData::GetFloat</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544028">ExtRemoteData::GetFloat</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, portcls/IPortClsNotifications::AllocNotificationBuffer, IPortClsNotifications, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, audio.iportclsnotifications_allocnotification
+ms.keywords: IPortClsNotifications::AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, AllocNotificationBuffer method [Audio Devices], audio.iportclsnotifications_allocnotification, AllocNotificationBuffer, IPortClsNotifications, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, portcls/IPortClsNotifications::AllocNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Portcls.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	IPortClsNotifications.AllocNotificationBuffer
 product: Windows
 targetos: Windows

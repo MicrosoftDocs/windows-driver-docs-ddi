@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEVICESTATE_TYPE
-title: _D3DKMT_DEVICESTATE_TYPE
+title: "_D3DKMT_DEVICESTATE_TYPE"
 author: windows-driver-content
 description: The D3DKMT_DEVICESTATE_TYPE enumeration type contains values that indicate the status of a device.
 old-location: display\d3dkmt_devicestate_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84570bac-63f1-4e34-919f-c150f9f0810e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_devicestate_type, d3dkmthk/D3DKMT_DEVICESTATE_RESET, d3dkmthk/, D3DKMT_DEVICESTATE_EXECUTION, d3dkmthk/D3DKMT_DEVICESTATE_TYPE, d3dkmthk/D3DKMT_DEVICESTATE_EXECUTION, d3dkmthk/D3DKMT_DEVICESTATE_PAGE_FAULT, _D3DKMT_DEVICESTATE_TYPE, D3DKMT_DEVICESTATE_PRESENT_DWM, D3DKMT_DEVICESTATE_TYPE, d3dkmthk/D3DKMT_DEVICESTATE_PRESENT, d3dkmthk/D3DKMT_DEVICESTATE_PRESENT_DWM, D3DKMT_DEVICESTATE_PAGE_FAULT, D3DKMT_DEVICESTATE_TYPE enumeration [Display Devices], D3DKMT_DEVICESTATE_PRESENT, OpenGL_Structs_7446b76d-102c-4d61-bf39-ce1ca17ea036.xml, D3DKMT_DEVICESTATE_RESET
+ms.keywords: d3dkmthk/D3DKMT_DEVICESTATE_EXECUTION, D3DKMT_DEVICESTATE_PRESENT, d3dkmthk/D3DKMT_DEVICESTATE_PRESENT, d3dkmthk/D3DKMT_DEVICESTATE_RESET, d3dkmthk/D3DKMT_DEVICESTATE_TYPE, d3dkmthk/, D3DKMT_DEVICESTATE_TYPE enumeration [Display Devices], d3dkmthk/D3DKMT_DEVICESTATE_PRESENT_DWM, _D3DKMT_DEVICESTATE_TYPE, D3DKMT_DEVICESTATE_PAGE_FAULT, d3dkmthk/D3DKMT_DEVICESTATE_PAGE_FAULT, D3DKMT_DEVICESTATE_RESET, D3DKMT_DEVICESTATE_PRESENT_DWM, display.d3dkmt_devicestate_type, OpenGL_Structs_7446b76d-102c-4d61-bf39-ce1ca17ea036.xml, D3DKMT_DEVICESTATE_EXECUTION, D3DKMT_DEVICESTATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DEVICESTATE_TYPE
 product: Windows
 targetos: Windows

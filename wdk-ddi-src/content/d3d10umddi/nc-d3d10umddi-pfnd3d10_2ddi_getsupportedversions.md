@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	GetSupportedVersions
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10_2DDI_GETSUPPORTEDVERSIONS callback
@@ -92,14 +92,14 @@ HRESULT APIENTRY GetSupportedVersions(
  A handle that identifies the graphics adapter. 
 
 
-#### - pSupportedDDIInterfaceVersions [out, optional]
-
- A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
-
-
 #### - puEntries [in, out]
 
 A pointer to a variable that, on input, contains the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array should return and, on output, the number of entries that the <i>pSupportedDDIInterfaceVersions</i> array actually returns. 
+
+
+#### - pSupportedDDIInterfaceVersions [out, optional]
+
+ A pointer to a block of memory that receives the array of Direct3D interface versions that the driver supports.
 
 
 ## -returns

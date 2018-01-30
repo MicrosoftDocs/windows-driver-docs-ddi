@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._POINTER_SEARCH_PHYSICAL
-title: _POINTER_SEARCH_PHYSICAL
+title: "_POINTER_SEARCH_PHYSICAL"
 author: windows-driver-content
 description: The IG_POINTER_SEARCH_PHYSICAL Ioctl operation searches the target's physical memory for pointers lying within a specified range.
 old-location: debugger\ig_pointer_search_physical.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fdb8376b-fbda-4bee-895e-a306fd0f632a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: *PPOINTER_SEARCH_PHYSICAL, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, wdbgexts/POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, wdbgexts/PPOINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL, _POINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical
+ms.keywords: wdbgexts/POINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], _POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, wdbgexts/PPOINTER_SEARCH_PHYSICAL, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, POINTER_SEARCH_PHYSICAL, *PPOINTER_SEARCH_PHYSICAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	POINTER_SEARCH_PHYSICAL
 product: Windows
 targetos: Windows
-req.typenames: *PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL
-req.product: Windows 10 or later.
+req.typenames: "*PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL"
 ---
 
 # _POINTER_SEARCH_PHYSICAL structure

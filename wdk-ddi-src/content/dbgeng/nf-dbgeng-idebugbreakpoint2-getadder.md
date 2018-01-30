@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f57abfc5-d6ae-474b-bea9-bfc53dff7f57
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetAdder method [Windows Debugging], dbgeng/IDebugBreakpoint::GetAdder, IDebugBreakpoint::GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, debugger.getadder, dbgeng/IDebugBreakpoint2::GetAdder, IDebugBreakpoint interface [Windows Debugging], GetAdder method, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method, GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, IDebugBreakpoint2::GetAdder
+ms.keywords: GetAdder, IDebugBreakpoint2::GetAdder, IDebugBreakpoint2, GetAdder method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetAdder method, dbgeng/IDebugBreakpoint::GetAdder, GetAdder method [Windows Debugging], GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, debugger.getadder, IDebugBreakpoint::GetAdder, dbgeng/IDebugBreakpoint2::GetAdder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.GetAdder
 -	IDebugBreakpoint2.GetAdder
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugBreakpoint2::GetAdder method

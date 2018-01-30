@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C87E70ED-FCB0-47B6-B6A3-A8EBC8E84058
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4, GetNameByInlineContext, IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContext method, GetNameByInlineContext method [Windows Debugging], debugger.idebugsymbols4_getnamebyinlinecontext, dbgeng/IDebugSymbols4::GetNameByInlineContext, GetNameByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4::GetNameByInlineContext
+ms.keywords: GetNameByInlineContext, debugger.idebugsymbols4_getnamebyinlinecontext, GetNameByInlineContext method [Windows Debugging], IDebugSymbols4 interface, GetNameByInlineContext method [Windows Debugging], IDebugSymbols4::GetNameByInlineContext, IDebugSymbols4, dbgeng/IDebugSymbols4::GetNameByInlineContext, IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContext method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols4.GetNameByInlineContext
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols4::GetNameByInlineContext method

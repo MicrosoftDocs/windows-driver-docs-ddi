@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DxgkCbPowerRuntimeControlRequest
 product: Windows
 targetos: Windows
@@ -96,6 +96,11 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 
 
+#### - PowerControlCode [in]
+
+A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
+
+
 #### - InBuffer [in, optional]
 
 An optional pointer to an input buffer.
@@ -106,6 +111,11 @@ An optional pointer to an input buffer.
 The size, in bytes, of the buffer that <i>InBuffer</i> points to.
 
 
+#### - OutBuffer [out, optional]
+
+An optional pointer to an output buffer.
+
+
 #### - OutBufferSize [in]
 
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
@@ -114,16 +124,6 @@ The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 #### - BytesReturned [out, optional]
 
 An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
-
-
-#### - OutBuffer [out, optional]
-
-An optional pointer to an output buffer.
-
-
-#### - PowerControlCode [in]
-
-A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
 
 
 ## -returns
@@ -193,9 +193,9 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 

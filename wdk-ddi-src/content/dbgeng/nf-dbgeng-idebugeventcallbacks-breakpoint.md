@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b9aca2-4630-45e2-bed4-f701018c86a5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks, Breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, debugger.idebugeventcallbacks_breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, dbgeng/IDebugEventCallbacks::Breakpoint, IDebugEventCallbacks::Breakpoint
+ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, Breakpoint, IDebugEventCallbacks::Breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint, IDebugEventCallbacks, Breakpoint method [Windows Debugging], debugger.idebugeventcallbacks_breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.Breakpoint
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::Breakpoint method

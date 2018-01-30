@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartInput method [Windows Debugging], StartInput, debugger.idebuginputcallbacks_startinput, dbgeng/IDebugInputCallbacks::StartInput, IDebugInputCallbacks, IDebugInputCallbacks::StartInput, IDebugInputCallbacks interface [Windows Debugging], StartInput method, ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, StartInput method [Windows Debugging], IDebugInputCallbacks interface
+ms.keywords: StartInput method [Windows Debugging], IDebugInputCallbacks interface, IDebugInputCallbacks, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput, ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, StartInput method [Windows Debugging], StartInput, IDebugInputCallbacks::StartInput, IDebugInputCallbacks interface [Windows Debugging], StartInput method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugInputCallbacks.StartInput
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugInputCallbacks::StartInput method

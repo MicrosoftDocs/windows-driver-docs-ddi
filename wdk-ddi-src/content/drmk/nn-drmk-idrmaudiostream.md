@@ -29,18 +29,18 @@ req.type-library:
 req.lib: drmk.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	drmk.h
-apiname: 
+apiname:
 -	IDrmAudioStream
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # IDrmAudioStream interface

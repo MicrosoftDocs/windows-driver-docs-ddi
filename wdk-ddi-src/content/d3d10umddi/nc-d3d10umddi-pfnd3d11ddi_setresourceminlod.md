@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	SetResourceMinLOD
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11DDI_SETRESOURCEMINLOD callback
@@ -87,6 +87,11 @@ VOID APIENTRY SetResourceMinLOD(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - hResource [in]
 
  A handle to the driver's private data for the resource. 
@@ -95,11 +100,6 @@ VOID APIENTRY SetResourceMinLOD(
 #### - MinLOD [in]
 
  A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

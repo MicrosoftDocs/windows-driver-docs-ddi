@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESTROYALLOCATION
-title: _DXGKARG_DESTROYALLOCATION
+title: "_DXGKARG_DESTROYALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_DESTROYALLOCATION structure describes how the display miniport driver should release allocations.
 old-location: display\dxgkarg_destroyallocation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0679ade4-9bbd-4bbc-ad2a-46bf35cac645
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_destroyallocation, d3dkmddi/DXGKARG_DESTROYALLOCATION, _DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices], DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, DXGKARG_DESTROYALLOCATION
+ms.keywords: "_DXGKARG_DESTROYALLOCATION, DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, DXGKARG_DESTROYALLOCATION, display.dxgkarg_destroyallocation, d3dkmddi/DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_DESTROYALLOCATION
 product: Windows
 targetos: Windows
@@ -101,13 +101,13 @@ The handles in the array that the <b>pAllocationList</b> member specifies are ha
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_destroyallocationflags.md">DXGK_DESTROYALLOCATIONFLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
  
 

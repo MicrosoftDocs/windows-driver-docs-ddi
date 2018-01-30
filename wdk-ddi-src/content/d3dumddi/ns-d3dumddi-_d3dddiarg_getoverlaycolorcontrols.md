@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETOVERLAYCOLORCONTROLS
-title: _D3DDDIARG_GETOVERLAYCOLORCONTROLS
+title: "_D3DDDIARG_GETOVERLAYCOLORCONTROLS"
 author: windows-driver-content
 description: The D3DDDIARG_GETOVERLAYCOLORCONTROLS structure describes the parameters for retrieving an overlay's color-control settings.
 old-location: display\d3dddiarg_getoverlaycolorcontrols.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63d14667-7409-40c8-af03-e4ffedd73e7e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_GETOVERLAYCOLORCONTROLS, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml, display.d3dddiarg_getoverlaycolorcontrols, d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices]
+ms.keywords: UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices], d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS, display.d3dddiarg_getoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_GETOVERLAYCOLORCONTROLS
 product: Windows
 targetos: Windows

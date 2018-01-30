@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputContextStackTrace method [Windows Debugging], IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace, dbgeng/IDebugControl4::OutputContextStackTrace, IDebugControl4, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, debugger.outputcontextstacktrace, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method
+ms.keywords: IDebugControl4::OutputContextStackTrace, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, IDebugControl4, OutputContextStackTrace method [Windows Debugging], debugger.outputcontextstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.OutputContextStackTrace
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::OutputContextStackTrace method
@@ -261,9 +261,9 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
  
 

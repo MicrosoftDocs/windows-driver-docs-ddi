@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
-title: _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration is used to indicate the type of copy protection that is supported by a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_copyprotection_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee9405a6-7d56-4ca6-98c2-fd04addef8cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPMT_NOPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection_type, d3dkmdt/D3DKMDT_VPPMT_NOPROTECTION, D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, DmEnums_48fdc75d-b1cb-4bc2-80b1-0aa79b16f480.xml, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration [Display Devices], _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VPPMT_UNINITIALIZED, D3DKMDT_VPPMT_UNINITIALIZED
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, DmEnums_48fdc75d-b1cb-4bc2-80b1-0aa79b16f480.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE, d3dkmdt/D3DKMDT_VPPMT_UNINITIALIZED, display.d3dkmdt_vidpn_present_path_copyprotection_type, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT, D3DKMDT_VPPMT_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPMT_NOPROTECTION, d3dkmdt/D3DKMDT_VPPMT_MACROVISION_APSTRIGGER, D3DKMDT_VPPMT_NOPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration [Display Devices], _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
 product: Windows
 targetos: Windows

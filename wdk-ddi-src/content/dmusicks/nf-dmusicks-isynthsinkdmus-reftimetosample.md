@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20906bcd-3059-4d10-92cb-8efdef929ccd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus::RefTimeToSample, RefTimeToSample method [Audio Devices], dmusicks/ISynthSinkDMus::RefTimeToSample, audio.isynthsinkdmus_reftimetosample, RefTimeToSample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml
+ms.keywords: ISynthSinkDMus::RefTimeToSample, RefTimeToSample, ISynthSinkDMus, dmusicks/ISynthSinkDMus::RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, audio.isynthsinkdmus_reftimetosample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dmusicks.h
-apiname: 
+apiname:
 -	ISynthSinkDMus.RefTimeToSample
 product: Windows
 targetos: Windows

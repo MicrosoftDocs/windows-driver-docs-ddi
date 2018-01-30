@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidport.h
-apiname: 
+apiname:
 -	IOCTL_HID_GET_REPORT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
 ---
 
 # IOCTL_HID_GET_REPORT_DESCRIPTOR IOCTL

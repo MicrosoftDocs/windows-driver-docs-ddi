@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4d7d84e7-4fa4-4514-9d52-dbae5fed159b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Assemble method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, Assemble method [Windows Debugging], IDebugControl3 interface [Windows Debugging], Assemble method, dbgeng/IDebugControl::Assemble, Assemble, IDebugControl::Assemble, debugger.assemble, dbgeng/IDebugControl2::Assemble, IDebugControl interface [Windows Debugging], Assemble method, Assemble method [Windows Debugging], IDebugControl3 interface, IDebugControl3::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, Assemble method [Windows Debugging], IDebugControl interface, IDebugControl3, dbgeng/IDebugControl3::Assemble
+ms.keywords: IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl::Assemble, Assemble method [Windows Debugging], IDebugControl3 interface, IDebugControl2::Assemble, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl3, dbgeng/IDebugControl::Assemble, Assemble method [Windows Debugging], Assemble, dbgeng/IDebugControl2::Assemble, Assemble method [Windows Debugging], IDebugControl2 interface, IDebugControl3::Assemble, Assemble method [Windows Debugging], IDebugControl interface, debugger.assemble, dbgeng/IDebugControl3::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.Assemble
 -	IDebugControl2.Assemble
 -	IDebugControl3.Assemble
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::Assemble method
@@ -124,15 +124,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
  
 

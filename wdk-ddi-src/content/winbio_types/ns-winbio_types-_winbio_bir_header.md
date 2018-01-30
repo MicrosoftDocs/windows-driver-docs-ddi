@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR_HEADER
-title: _WINBIO_BIR_HEADER
+title: "_WINBIO_BIR_HEADER"
 author: windows-driver-content
 description: The WINBIO_BIR_HEADER structure contains the Common Biometric Exchange File Format (CBEFF) Patron Format A information that describes the rest of the BIR.
 old-location: biometric\winbio_bir_header.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 5053b027-61a9-463a-967c-9e9ff1673b1c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_bir_header, winbio_types/WINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, winbio_types/PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER, _WINBIO_BIR_HEADER, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, WINBIO_BIR_HEADER structure [Biometric Devices], PWINBIO_BIR_HEADER structure pointer [Biometric Devices], *PWINBIO_BIR_HEADER
+ms.keywords: biometric.winbio_bir_header, WINBIO_BIR_HEADER structure [Biometric Devices], PWINBIO_BIR_HEADER structure pointer [Biometric Devices], PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER, _WINBIO_BIR_HEADER, winbio_types/PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, *PWINBIO_BIR_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_types.h
-apiname: 
+apiname:
 -	WINBIO_BIR_HEADER
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_BIR_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_BIR_HEADER structure
@@ -185,9 +184,9 @@ You can find more information about the fields of the standard biometric header 
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
-
 <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
 
  
 

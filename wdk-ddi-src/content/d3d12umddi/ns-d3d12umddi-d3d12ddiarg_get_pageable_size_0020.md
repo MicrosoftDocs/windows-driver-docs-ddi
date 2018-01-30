@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82A5ACBD-EE18-46DF-822B-87ABF331BF44
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size, D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], D3D12DDIARG_GET_PAGEABLE_SIZE_0020
+ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size, d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDIARG_GET_PAGEABLE_SIZE_0020
 product: Windows
 targetos: Windows

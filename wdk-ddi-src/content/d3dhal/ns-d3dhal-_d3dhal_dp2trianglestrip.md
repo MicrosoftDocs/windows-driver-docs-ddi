@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TRIANGLESTRIP
-title: _D3DHAL_DP2TRIANGLESTRIP
+title: "_D3DHAL_DP2TRIANGLESTRIP"
 author: windows-driver-content
 description: One D3DHAL_DP2TRIANGLESTRIP structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLESTRIP, and is used to render the specified connected triangle strip.
 old-location: display\d3dhal_dp2trianglestrip.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfa4f6c3-b174-4bd5-9729-6d835bb87b6a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2TRIANGLESTRIP, d3dhal/D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP, _D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP structure [Display Devices], LPD3DHAL_DP2TRIANGLESTRIP, *LPD3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP structure pointer [Display Devices], display.d3dhal_dp2trianglestrip, d3dstrct_01322dae-8b16-4631-ac3d-f65c5d31c5a3.xml
+ms.keywords: d3dhal/D3DHAL_DP2TRIANGLESTRIP, d3dstrct_01322dae-8b16-4631-ac3d-f65c5d31c5a3.xml, d3dhal/LPD3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP structure pointer [Display Devices], *LPD3DHAL_DP2TRIANGLESTRIP, display.d3dhal_dp2trianglestrip, D3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP structure [Display Devices], _D3DHAL_DP2TRIANGLESTRIP, LPD3DHAL_DP2TRIANGLESTRIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2TRIANGLESTRIP
 product: Windows
 targetos: Windows
-req.typenames: *LPD3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP
+req.typenames: "*LPD3DHAL_DP2TRIANGLESTRIP, D3DHAL_DP2TRIANGLESTRIP"
 ---
 
 # _D3DHAL_DP2TRIANGLESTRIP structure

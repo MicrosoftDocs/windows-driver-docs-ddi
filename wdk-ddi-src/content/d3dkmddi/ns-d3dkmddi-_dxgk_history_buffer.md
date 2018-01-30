@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_HISTORY_BUFFER
-title: _DXGK_HISTORY_BUFFER
+title: "_DXGK_HISTORY_BUFFER"
 author: windows-driver-content
 description: Specifies a history buffer that stores time stamps that record GPU activity throughout the execution lifetime of a direct memory access (DMA) buffer.
 old-location: display\dxgk_history_buffer.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_HISTORY_BUFFER, display.dxgk_history_buffer, DXGK_HISTORY_BUFFER structure [Display Devices], _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER
+ms.keywords: "_DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_HISTORY_BUFFER
 product: Windows
 targetos: Windows
@@ -93,9 +93,9 @@ The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
  
 

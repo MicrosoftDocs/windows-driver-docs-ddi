@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CsSetConstantBuffers(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_SETCONSTANTBUFFERS callback
@@ -103,6 +103,11 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - StartBuffer [in]
 
  The starting constant buffer to set. 
@@ -111,11 +116,6 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
 #### - phBuffers [in]
 
  An array of handles to the constant buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - pFirstConstant [in, optional]
@@ -148,9 +148,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
 
  
 

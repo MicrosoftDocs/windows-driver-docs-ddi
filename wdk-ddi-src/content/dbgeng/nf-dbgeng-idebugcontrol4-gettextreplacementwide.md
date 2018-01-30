@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTextReplacementWide, GetTextReplacementWide method [Windows Debugging], dbgeng/IDebugControl4::GetTextReplacementWide, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, IDebugControl4, debugger.gettextreplacementwide, GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetTextReplacementWide
+ms.keywords: debugger.gettextreplacementwide, GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetTextReplacementWide, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, IDebugControl4, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide, IDebugControl4::GetTextReplacementWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetTextReplacementWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetTextReplacementWide method
@@ -151,15 +151,15 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
  
 

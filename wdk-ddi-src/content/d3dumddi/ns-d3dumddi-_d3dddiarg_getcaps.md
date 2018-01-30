@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETCAPS
-title: _D3DDDIARG_GETCAPS
+title: "_D3DDDIARG_GETCAPS"
 author: windows-driver-content
 description: The D3DDDIARG_GETCAPS structure contains display device capabilities of a particular type.
 old-location: display\d3dddiarg_getcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50063bd0-c9d4-4013-8f83-8f9d92aa87c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_GETCAPS, UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, display.d3dddiarg_getcaps, D3DDDIARG_GETCAPS structure [Display Devices], d3dumddi/D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS
+ms.keywords: UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, _D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps, D3DDDIARG_GETCAPS, d3dumddi/D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_GETCAPS
 product: Windows
 targetos: Windows

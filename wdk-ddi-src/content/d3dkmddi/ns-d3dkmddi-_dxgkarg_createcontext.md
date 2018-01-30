@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATECONTEXT
-title: _DXGKARG_CREATECONTEXT
+title: "_DXGKARG_CREATECONTEXT"
 author: windows-driver-content
 description: The DXGKARG_CREATECONTEXT structure describes parameters to create a device context.
 old-location: display\dxgkarg_createcontext.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94239501-2eeb-479a-851a-14ae665c5887
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_CREATECONTEXT, *INOUT_PDXGKARG_CREATECONTEXT, _DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, display.dxgkarg_createcontext, DXGKARG_CREATECONTEXT
+ms.keywords: display.dxgkarg_createcontext, DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, *INOUT_PDXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT, d3dkmddi/DXGKARG_CREATECONTEXT, _DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_CREATECONTEXT
 product: Windows
 targetos: Windows
@@ -110,17 +110,17 @@ typedef struct _DXGKARG_CREATECONTEXT {
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createcontextflags.md">DXGK_CREATECONTEXTFLAGS</a>
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
 
  
 

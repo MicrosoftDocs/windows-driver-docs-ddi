@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_0c93_5
-title: PCEVENT_ITEM
+title: "*PPCEVENT_ITEM"
 author: windows-driver-content
 description: The PCEVENT_ITEM structure is used to describe an event that is supported by a particular filter, pin, or node.
 old-location: audio\pcevent_item.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PPCEVENT_ITEM, portcls/PCEVENT_ITEM, PPCEVENT_ITEM, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, audio.pcevent_item, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], portcls/PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices]
+ms.keywords: portcls/PPCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PCEVENT_ITEM, PPCEVENT_ITEM, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, *PPCEVENT_ITEM, audio.pcevent_item, portcls/PCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PCEVENT_ITEM
 product: Windows
 targetos: Windows
-req.typenames: PCEVENT_ITEM, *PPCEVENT_ITEM
+req.typenames: "*PPCEVENT_ITEM, PCEVENT_ITEM"
 ---
 
-# PCEVENT_ITEM structure
+# *PPCEVENT_ITEM structure
 
 
 ## -description
@@ -91,9 +91,14 @@ typedef struct {
 
 
 
-##### - Flags.PCEVENT_ITEM_FLAG_ONESHOT
+#### - Set
 
-Indicates that the event notification should be enabled for the next occurrence of this event only. The client does not (and should not) disable the event once it has occurred.
+Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
+
+
+#### - Id
+
+Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
 
 
 #### - Flags
@@ -103,9 +108,19 @@ Specifies the type of event. This member is set to one of the following values:
 
 
 
-##### - Flags.PCEVENT_ITEM_FLAG_ENABLE
+#### PCEVENT_ITEM_FLAG_ENABLE
 
 Indicates the event notification should be enabled for this event type. The driver should continue event notification until the client explicitly disables it.
+
+
+#### PCEVENT_ITEM_FLAG_ONESHOT
+
+Indicates that the event notification should be enabled for the next occurrence of this event only. The client does not (and should not) disable the event once it has occurred.
+
+
+#### PCEVENT_ITEM_FLAG_BASICSUPPORT
+
+If the client specifies this flag, the driver returns STATUS_SUCCESS if it supports the event and an error code if it does not.
 
 
 #### - Handler
@@ -126,21 +141,6 @@ Pointer to the miniport driver's event-handler routine. This member is a functio
 </table></span></div>When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a> structure.
 
 
-##### - Flags.PCEVENT_ITEM_FLAG_BASICSUPPORT
-
-If the client specifies this flag, the driver returns STATUS_SUCCESS if it supports the event and an error code if it does not.
-
-
-#### - Id
-
-Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
-
-
-#### - Set
-
-Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
-
-
 ## -remarks
 
 
@@ -152,9 +152,9 @@ In WDM audio, the target for an event request is either a pin instance or a node
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
-
 <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
 
  
 

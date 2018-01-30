@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_UNLOCKFLAGS
-title: _D3DDDI_UNLOCKFLAGS
+title: "_D3DDDI_UNLOCKFLAGS"
 author: windows-driver-content
 description: The D3DDDI_UNLOCKFLAGS structure identifies how to unlock a resource.
 old-location: display\d3dddi_unlockflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3c3356c-ec7b-4869-896d-9d3b285f0e87
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_UNLOCKFLAGS, D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS structure [Display Devices], d3dumddi/D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags
+ms.keywords: display.d3dddi_unlockflags, D3DDDI_UNLOCKFLAGS structure [Display Devices], D3DDDI_UNLOCKFLAGS, d3dumddi/D3DDDI_UNLOCKFLAGS, _D3DDDI_UNLOCKFLAGS, D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_UNLOCKFLAGS
 product: Windows
 targetos: Windows

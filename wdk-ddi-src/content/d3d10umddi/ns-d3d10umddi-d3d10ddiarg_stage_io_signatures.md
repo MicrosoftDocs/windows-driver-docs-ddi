@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9639bdc8-9b2f-4911-8a09-d5cf16204cf4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, display.d3d10ddiarg_stage_io_signatures, D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES, D3D10DDIARG_STAGE_IO_SIGNATURES
+ms.keywords: D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], D3D10DDIARG_STAGE_IO_SIGNATURES, UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, display.d3d10ddiarg_stage_io_signatures, d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10DDIARG_STAGE_IO_SIGNATURES
 product: Windows
 targetos: Windows

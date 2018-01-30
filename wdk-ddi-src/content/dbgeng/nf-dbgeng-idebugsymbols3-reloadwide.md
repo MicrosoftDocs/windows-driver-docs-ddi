@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], ReloadWide method, ReloadWide method [Windows Debugging], ReloadWide, IDebugSymbols3::ReloadWide, ReloadWide method [Windows Debugging], IDebugSymbols3 interface, debugger.reloadwide, dbgeng/IDebugSymbols3::ReloadWide, IDebugSymbols3
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], ReloadWide method, debugger.reloadwide, ReloadWide method [Windows Debugging], IDebugSymbols3, ReloadWide, ReloadWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide, IDebugSymbols3::ReloadWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.ReloadWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::ReloadWide method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03ff46cb-dfc5-409a-b652-bef8f2b37b59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks interface [Windows Debugging], ExitThread method, IDebugEventCallbacks::ExitThread, IDebugEventCallbacks, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread, ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread, ExitThread method [Windows Debugging]
+ms.keywords: ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread, IDebugEventCallbacks::ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread method [Windows Debugging], ExitThread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ExitThread method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.ExitThread
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::ExitThread method

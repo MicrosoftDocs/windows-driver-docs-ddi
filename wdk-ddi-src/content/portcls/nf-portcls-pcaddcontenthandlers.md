@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c3ae9de0-3c21-498b-a29c-4ec54677826a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_11505f52-36d9-4b58-b1f8-44083705f9b5.xml, PcAddContentHandlers function [Audio Devices], PcAddContentHandlers, audio.pcaddcontenthandlers, portcls/PcAddContentHandlers
+ms.keywords: portcls/PcAddContentHandlers, PcAddContentHandlers, PcAddContentHandlers function [Audio Devices], audio.pcaddcontenthandlers, audpc-routines_11505f52-36d9-4b58-b1f8-44083705f9b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcAddContentHandlers
 product: Windows
 targetos: Windows

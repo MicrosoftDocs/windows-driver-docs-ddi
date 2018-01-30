@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_ALPHABLEND
-title: _DXGK_GDIARG_ALPHABLEND
+title: "_DXGK_GDIARG_ALPHABLEND"
 author: windows-driver-content
 description: The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
 old-location: display\dxgk_gdiarg_alphablend.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_gdiarg_alphablend, DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, DXGK_GDIARG_ALPHABLEND, d3dkmddi/DXGK_GDIARG_ALPHABLEND, _DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices]
+ms.keywords: DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, display.dxgk_gdiarg_alphablend, d3dkmddi/DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], _DXGK_GDIARG_ALPHABLEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GDIARG_ALPHABLEND
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._CHARGINGSTATUSCOMPLETE
-title: _CHARGINGSTATUSCOMPLETE
+title: "_CHARGINGSTATUSCOMPLETE"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\chargingstatuscomplete.htm
@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 5B5BD82A-15A3-40AA-9FE8-191B31CB694A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: battery.chargingstatuscomplete, CHARGINGSTATUSCOMPLETE structure [Battery Devices], charging/BATTERY_INFORMATION, CHARGINGSTATUSCOMPLETE, *PCHARGINGSTATUSCOMPLETE, _CHARGINGSTATUSCOMPLETE
+ms.keywords: "*PCHARGINGSTATUSCOMPLETE, _CHARGINGSTATUSCOMPLETE, battery.chargingstatuscomplete, CHARGINGSTATUSCOMPLETE structure [Battery Devices], CHARGINGSTATUSCOMPLETE, charging/BATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Charging.h
-apiname: 
+apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PCHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE
+req.typenames: CHARGINGSTATUSCOMPLETE, *PCHARGINGSTATUSCOMPLETE
 ---
 
 # _CHARGINGSTATUSCOMPLETE structure

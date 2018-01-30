@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ESCAPE
-title: _DXGKARG_ESCAPE
+title: "_DXGKARG_ESCAPE"
 author: windows-driver-content
 description: The DXGKARG_ESCAPE structure describes information that the user-mode display driver shares with the display miniport driver.
 old-location: display\dxgkarg_escape.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73a1afa6-e156-4733-b204-a9cae4e18563
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_escape, DXGKARG_ESCAPE structure [Display Devices], _DXGKARG_ESCAPE, DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, DXGKARG_ESCAPE, d3dkmddi/DXGKARG_ESCAPE
+ms.keywords: DXGKARG_ESCAPE structure [Display Devices], _DXGKARG_ESCAPE, display.dxgkarg_escape, DXGKARG_ESCAPE, DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, d3dkmddi/DXGKARG_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_ESCAPE
 product: Windows
 targetos: Windows
@@ -98,13 +98,13 @@ typedef struct _DXGKARG_ESCAPE {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
  
 

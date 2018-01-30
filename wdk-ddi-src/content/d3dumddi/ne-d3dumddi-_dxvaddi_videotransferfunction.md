@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOTRANSFERFUNCTION
-title: _DXVADDI_VIDEOTRANSFERFUNCTION
+title: "_DXVADDI_VIDEOTRANSFERFUNCTION"
 author: windows-driver-content
 description: The DXVADDI_VIDEOTRANSFERFUNCTION enumeration type contains values that identify the conversion function from R'G'B' to RGB.
 old-location: display\dxvaddi_videotransferfunction.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d798afe-dc75-4cd0-aad7-1f9824bdcf00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VideoTransFunc_709, DXVADDI_VideoTransFunc_22, DXVADDI_VideoTransFunc_20, DXVADDI_VideoTransFunc_18, DXVADDI_VideoTransFunc_10, DXVADDI_VideoTransFunc_240M, d3dumddi/DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VIDEOTRANSFERFUNCTION, _DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VideoTransFunc_28, DXVA2_Structs_a6fcb795-da10-4824-99b3-5f75a50a17ce.xml, d3dumddi/DXVADDI_VideoTransFunc_18, d3dumddi/DXVADDI_VideoTransFunc_240M, DXVADDI_VideoTransFunc_sRGB, d3dumddi/DXVADDI_VideoTransFunc_22, d3dumddi/DXVADDI_VideoTransFunc_10, DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VideoTransFunc_20, d3dumddi/DXVADDI_VideoTransFunc_sRGB, d3dumddi/DXVADDI_VideoTransFuncMask, DXVADDI_VideoTransFunc_Unknown, d3dumddi/DXVADDI_VideoTransFunc_Unknown, display.dxvaddi_videotransferfunction, DXVADDI_VIDEOTRANSFERFUNCTION enumeration [Display Devices], DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_28
+ms.keywords: DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VideoTransFunc_28, DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_709, d3dumddi/DXVADDI_VideoTransFunc_20, DXVADDI_VideoTransFunc_20, d3dumddi/DXVADDI_VideoTransFunc_Unknown, DXVADDI_VideoTransFunc_240M, display.dxvaddi_videotransferfunction, d3dumddi/DXVADDI_VideoTransFunc_sRGB, DXVADDI_VideoTransFunc_sRGB, d3dumddi/DXVADDI_VideoTransFunc_240M, d3dumddi/DXVADDI_VideoTransFunc_18, d3dumddi/DXVADDI_VideoTransFunc_22, _DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VIDEOTRANSFERFUNCTION enumeration [Display Devices], DXVADDI_VideoTransFunc_Unknown, d3dumddi/DXVADDI_VideoTransFunc_10, DXVADDI_VideoTransFunc_28, DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VideoTransFunc_10, DXVA2_Structs_a6fcb795-da10-4824-99b3-5f75a50a17ce.xml, DXVADDI_VideoTransFunc_22, d3dumddi/DXVADDI_VideoTransFuncMask, d3dumddi/DXVADDI_VIDEOTRANSFERFUNCTION, DXVADDI_VideoTransFunc_18
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_VIDEOTRANSFERFUNCTION
 product: Windows
 targetos: Windows

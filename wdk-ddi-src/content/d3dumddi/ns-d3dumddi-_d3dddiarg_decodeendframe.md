@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECODEENDFRAME
-title: _D3DDDIARG_DECODEENDFRAME
+title: "_D3DDDIARG_DECODEENDFRAME"
 author: windows-driver-content
 description: The D3DDDIARG_DECODEENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) decoder that should stop decoding a frame.
 old-location: display\d3dddiarg_decodeendframe.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 267335d2-37bd-4615-ad8e-5a8805eb93f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_DECODEENDFRAME, UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, display.d3dddiarg_decodeendframe, d3dumddi/D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDIARG_DECODEENDFRAME, display.d3dddiarg_decodeendframe, D3DDDIARG_DECODEENDFRAME structure [Display Devices], D3DDDIARG_DECODEENDFRAME, UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, _D3DDDIARG_DECODEENDFRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DECODEENDFRAME
 product: Windows
 targetos: Windows

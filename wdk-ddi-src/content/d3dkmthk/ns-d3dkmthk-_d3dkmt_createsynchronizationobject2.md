@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESYNCHRONIZATIONOBJECT2
-title: _D3DKMT_CREATESYNCHRONIZATIONOBJECT2
+title: "_D3DKMT_CREATESYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: The D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure describes a synchronization object that the D3DKMTCreateSynchronizationObject2 function creates.
 old-location: display\d3dkmt_createsynchronizationobject2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fa5cf57e-826b-43f6-881d-caf2aecb2dde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT2, OpenGL_Structs_a2f18286-355e-4a93-9692-344fbb2bd5a2.xml, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT2, display.d3dkmt_createsynchronizationobject2, D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DKMT_CREATESYNCHRONIZATIONOBJECT2
+ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dkmt_createsynchronizationobject2, OpenGL_Structs_a2f18286-355e-4a93-9692-344fbb2bd5a2.xml, _D3DKMT_CREATESYNCHRONIZATIONOBJECT2, D3DKMT_CREATESYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATESYNCHRONIZATIONOBJECT2
 product: Windows
 targetos: Windows
@@ -86,9 +86,9 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7128e49d-71e9-4014-9f08-591cfaeba363
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure structure [Display Devices], IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], display.iddcx_metadata, IDDCX_METADATA
+ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure structure [Display Devices], iddcx/IDDCX_METADATA, IDDCX_METADATA structure, display.iddcx_metadata, IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDDCX_METADATA
 product: Windows
 targetos: Windows

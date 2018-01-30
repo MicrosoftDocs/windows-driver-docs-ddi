@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7FAA5C88-2846-4C98-A44A-B53A1A7A953C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsPnp interface [Audio Devices], UnregisterAdapterPnpManagement method, UnregisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp, UnregisterAdapterPnpManagement method [Audio Devices], IPortClsPnp::UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement, portcls/IPortClsPnp::UnregisterAdapterPnpManagement, audio.iportclspnp_unregisteradapterpnpmanagement
+ms.keywords: UnregisterAdapterPnpManagement, IPortClsPnp::UnregisterAdapterPnpManagement, IPortClsPnp, UnregisterAdapterPnpManagement method [Audio Devices], audio.iportclspnp_unregisteradapterpnpmanagement, IPortClsPnp interface [Audio Devices], UnregisterAdapterPnpManagement method, portcls/IPortClsPnp::UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortClsPnp.UnregisterAdapterPnpManagement
 product: Windows
 targetos: Windows
@@ -69,7 +69,7 @@ NTSTATUS UnregisterAdapterPnpManagement(
 
 ### -param DeviceObject [in]
 
-Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter that the PnP management was registered with earlier using <a href="https://msdn.microsoft.com/library/windows/hardware/mt604860">IPortClsPnp::RegisterAdapterPnpManagement</a>.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter that the PnP management was registered with earlier using <a href="https://msdn.microsoft.com/library/windows/hardware/mt604860">IPortClsPnp::RegisterAdapterPnpManagement</a>.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0bc9b0a1-6cd8-4d76-a71e-694a8435773e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterUshort, VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml, display.videoportwriteregisterushort, video/VideoPortWriteRegisterUshort, VideoPortWriteRegisterUshort function [Display Devices]
+ms.keywords: display.videoportwriteregisterushort, VideoPortWriteRegisterUshort function [Display Devices], VideoPortWriteRegisterUshort, video/VideoPortWriteRegisterUshort, VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortWriteRegisterUshort
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortWriteRegisterUshort function

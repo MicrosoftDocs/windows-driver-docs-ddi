@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols::GetNumberModules, IDebugSymbols3::GetNumberModules, GetNumberModules, IDebugSymbols3, IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, debugger.getnumbermodules, GetNumberModules method [Windows Debugging], IDebugSymbols::GetNumberModules
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, dbgeng/IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetNumberModules, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules, GetNumberModules method [Windows Debugging], debugger.getnumbermodules, IDebugSymbols3::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetNumberModules
 -	IDebugSymbols2.GetNumberModules
 -	IDebugSymbols3.GetNumberModules
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetNumberModules method
@@ -117,9 +117,9 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 

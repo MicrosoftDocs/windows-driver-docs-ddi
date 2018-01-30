@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 34c50e32-37c8-4e6a-a666-fce8880cb000
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFromStoredEvent method [Windows Debugging], debugger.setscopefromstoredevent, SetScopeFromStoredEvent method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromStoredEvent, SetScopeFromStoredEvent, IDebugSymbols3, IDebugSymbols_710b59d8-620b-479f-bfeb-dd1196cd2dbc.xml, IDebugSymbols3::SetScopeFromStoredEvent, IDebugSymbols3 interface [Windows Debugging], SetScopeFromStoredEvent method
+ms.keywords: IDebugSymbols_710b59d8-620b-479f-bfeb-dd1196cd2dbc.xml, SetScopeFromStoredEvent, IDebugSymbols3 interface [Windows Debugging], SetScopeFromStoredEvent method, IDebugSymbols3, SetScopeFromStoredEvent method [Windows Debugging], IDebugSymbols3 interface, debugger.setscopefromstoredevent, SetScopeFromStoredEvent method [Windows Debugging], IDebugSymbols3::SetScopeFromStoredEvent, dbgeng/IDebugSymbols3::SetScopeFromStoredEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.SetScopeFromStoredEvent
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::SetScopeFromStoredEvent method
@@ -104,15 +104,15 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562945">.ecxr (Display Exception Context Record)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
  
 

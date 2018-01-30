@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR3
-title: _DXGK_SEGMENTDESCRIPTOR3
+title: "_DXGK_SEGMENTDESCRIPTOR3"
 author: windows-driver-content
 description: Contains information about a driver-supported segment that is composed of both BIOS-reserved memory (which is purged during a transition to a low-power state) and driver-reserved memory.
 old-location: display\dxgk_segmentdescriptor3.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c304fd47-a9c7-46bd-819f-6751eba25459
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3, display.dxgk_segmentdescriptor3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR3
+ms.keywords: display.dxgk_segmentdescriptor3, _DXGK_SEGMENTDESCRIPTOR3, d3dkmddi/DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SEGMENTDESCRIPTOR3
 product: Windows
 targetos: Windows
@@ -162,15 +162,15 @@ This structure is pointed to by the <b>pSegmentDescriptor</b> member of the <a h
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
 
  
 

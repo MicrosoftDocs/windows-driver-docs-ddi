@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnGetDecodeFormatCount
 product: Windows
 targetos: Windows
@@ -88,14 +88,14 @@ The physical adapter of the device to which this operation applies.
 
 
 
-#### - pConfiguration
-
-The decode configuration for the list of formats.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
-
-
 #### - hDrvDevice
 
 The handle of the device.
+
+
+#### - pConfiguration
+
+The decode configuration for the list of formats.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
 ## -returns

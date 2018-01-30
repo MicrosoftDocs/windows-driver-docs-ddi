@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
-title: _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
+title: "_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"
 author: windows-driver-content
 description: Used by new drivers to report per-plane flip completion after a VSYNC.
 old-location: display\dxgk_multiplane_overlay_vsync_info2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CC1371C5-1BAB-458C-BC7F-9844B2BBEA3A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2, _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
+ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 product: Windows
 targetos: Windows

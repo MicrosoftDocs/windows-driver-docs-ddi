@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcForwardIrpSynchronous function [Audio Devices], audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous, audio.pcforwardirpsynchronous, PcForwardIrpSynchronous
+ms.keywords: PcForwardIrpSynchronous function [Audio Devices], portcls/PcForwardIrpSynchronous, audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, PcForwardIrpSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcForwardIrpSynchronous
 product: Windows
 targetos: Windows
@@ -71,12 +71,12 @@ NTSTATUS PcForwardIrpSynchronous(
 
 ### -param DeviceObject [in]
 
-Pointer to the audio device's device object. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the audio device's device object. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param Irp [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be forwarded
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> that is to be forwarded
 
 
 ## -returns
@@ -97,11 +97,11 @@ The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
  
 

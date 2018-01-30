@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ada5d1c-9c46-4f7b-99e5-72aa8f6fee9f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC structure pointer [Audio Devices], ksmedia/KSDATARANGE_MUSIC, KSDATARANGE_MUSIC structure [Audio Devices], audio.ksdatarange_music, ksmedia/PKSDATARANGE_MUSIC, aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, KSDATARANGE_MUSIC
+ms.keywords: ksmedia/KSDATARANGE_MUSIC, aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, KSDATARANGE_MUSIC structure [Audio Devices], PKSDATARANGE_MUSIC structure pointer [Audio Devices], audio.ksdatarange_music, *PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC, ksmedia/PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDATARANGE_MUSIC
 product: Windows
 targetos: Windows
-req.typenames: *PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC
+req.typenames: "*PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC"
 ---
 
 # KSDATARANGE_MUSIC structure
@@ -73,7 +73,7 @@ typedef struct {
 
 ### -field DataRange
 
-Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the DirectMusic data. This member is an initialized <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure.
+Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the DirectMusic data. This member is an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure.
 
 
 ### -field Technology
@@ -81,6 +81,41 @@ Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for 
 Specifies the type of MIDI output device. This member can be one of the following GUIDs:
 
 
+
+
+#### KSMUSIC_TECHNOLOGY_PORT
+
+The device is a MIDI hardware port.
+
+
+#### KSMUSIC_TECHNOLOGY_SYNTH
+
+The device is a synthesizer.
+
+
+#### KSMUSIC_TECHNOLOGY_SQSYNTH
+
+The device is a square-wave synthesizer.
+
+
+#### KSMUSIC_TECHNOLOGY_FMSYNTH
+
+The device is an FM synthesizer.
+
+
+#### KSMUSIC_TECHNOLOGY_MAPPER
+
+The device is the Microsoft MIDI mapper.
+
+
+#### KSMUSIC_TECHNOLOGY_WAVETABLE
+
+The device is a hardware wavetable synthesizer.
+
+
+#### KSMUSIC_TECHNOLOGY_SWSYNTH
+
+The device is a software synthesizer.
 
 
 ### -field Channels
@@ -98,41 +133,6 @@ Specifies the maximum number of simultaneous notes that can be played by an inte
 Specifies which channels an internal synthesizer device responds to, where the least significant bit refers to channel 0 and the most significant bit to channel 15. Port devices that transmit on all channels set this member to 0xFFFF.
 
 
-##### - Technology.KSMUSIC_TECHNOLOGY_SYNTH
-
-The device is a synthesizer.
-
-
-##### - Technology.KSMUSIC_TECHNOLOGY_SQSYNTH
-
-The device is a square-wave synthesizer.
-
-
-##### - Technology.KSMUSIC_TECHNOLOGY_PORT
-
-The device is a MIDI hardware port.
-
-
-##### - Technology.KSMUSIC_TECHNOLOGY_FMSYNTH
-
-The device is an FM synthesizer.
-
-
-##### - Technology.KSMUSIC_TECHNOLOGY_MAPPER
-
-The device is the Microsoft MIDI mapper.
-
-
-##### - Technology.KSMUSIC_TECHNOLOGY_SWSYNTH
-
-The device is a software synthesizer.
-
-
-##### - Technology.KSMUSIC_TECHNOLOGY_WAVETABLE
-
-The device is a hardware wavetable synthesizer.
-
-
 ## -remarks
 
 
@@ -144,7 +144,7 @@ For information about data ranges and intersection handling, see <a href="https:
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
  
 

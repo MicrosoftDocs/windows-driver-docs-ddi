@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 97a8822f-ed0c-43ae-8b4e-08642558773d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_GetExtendedAttributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hid.hidp_getextendedattributes, HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices]
+ms.keywords: hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes, hid.hidp_getextendedattributes, HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Hidparse.lib
 req.dll: 
-req.irql: <= DISPATCH_ LEVEL
-topictype: 
+req.irql: "<= DISPATCH_ LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_GetExtendedAttributes
 product: Windows
 targetos: Windows

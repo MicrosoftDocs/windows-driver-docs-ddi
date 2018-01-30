@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEventFilterCommandWide, IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::SetEventFilterCommandWide, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, IDebugControl4
+ms.keywords: SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, debugger.seteventfiltercommandwide, IDebugControl4::SetEventFilterCommandWide, IDebugControl4, dbgeng/IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.SetEventFilterCommandWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::SetEventFilterCommandWide method

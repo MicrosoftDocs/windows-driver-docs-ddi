@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_MINIDRIVER_REGISTRATION
-title: _HID_MINIDRIVER_REGISTRATION
+title: "_HID_MINIDRIVER_REGISTRATION"
 author: windows-driver-content
 description: The HID_MINIDRIVER_REGISTRATION structure contains registration information that a HID minidriver passes to the HID Client Drivers when the minidriver registers with the class driver.
 old-location: hid\hid_minidriver_registration.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 75c0f546-1a58-45e8-a3eb-3075f07c426b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, _HID_MINIDRIVER_REGISTRATION, hidport/HID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], PHID_MINIDRIVER_REGISTRATION, hid.hid_minidriver_registration, *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices]
+ms.keywords: "_HID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], hidport/PHID_MINIDRIVER_REGISTRATION, hidport/HID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, hid.hid_minidriver_registration, PHID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidport.h
-apiname: 
+apiname:
 -	HID_MINIDRIVER_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # _HID_MINIDRIVER_REGISTRATION structure
@@ -79,7 +79,7 @@ Specifies the HID version that this minidriver supports.
 
 ### -field DriverObject
 
-Pointer to the minidriver's <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
+Pointer to the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>.
 
 
 ### -field RegistryPath
@@ -105,13 +105,13 @@ Reserved for internal system use.
 ## -remarks
 
 
-When a HID minidriver calls <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>, it uses this structure to pass information to the HID class driver. The minidriver must must zero-initialize this structure before setting members. A minidriver sets the members <b>DriverObject</b> and <b>RegistryPath</b> to the driver object and registry path parameters that are passed to the minidriver as system-supplied parameters to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. <b>Revision</b> should be set to HID_REVISION.
+When a HID minidriver calls <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>, it uses this structure to pass information to the HID class driver. The minidriver must must zero-initialize this structure before setting members. A minidriver sets the members <b>DriverObject</b> and <b>RegistryPath</b> to the driver object and registry path parameters that are passed to the minidriver as system-supplied parameters to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. <b>Revision</b> should be set to HID_REVISION.
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
 

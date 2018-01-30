@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0e8ced7c-87f3-4366-8137-b0d19dffc340
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputIdentity method [Windows Debugging], IDebugClient3::OutputIdentity, IDebugClient2 interface [Windows Debugging], OutputIdentity method, IDebugClient5 interface [Windows Debugging], OutputIdentity method, IDebugClient5, IDebugClient interface [Windows Debugging], OutputIdentity method, OutputIdentity method [Windows Debugging], IDebugClient5 interface, IDebugClient4::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient2 interface, IDebugClient::OutputIdentity, IDebugClient4 interface [Windows Debugging], OutputIdentity method, debugger.outputidentity, OutputIdentity method [Windows Debugging], IDebugClient4 interface, IDebugClient3 interface [Windows Debugging], OutputIdentity method, IDebugClient2::OutputIdentity, dbgeng/IDebugClient5::OutputIdentity, IDebugClient5::OutputIdentity, dbgeng/IDebugClient4::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient2::OutputIdentity, dbgeng/IDebugClient::OutputIdentity, dbgeng/IDebugClient3::OutputIdentity, OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient interface, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml
+ms.keywords: IDebugClient3::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::OutputIdentity, IDebugClient5, OutputIdentity method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient5::OutputIdentity, debugger.outputidentity, dbgeng/IDebugClient2::OutputIdentity, IDebugClient2::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient3 interface, IDebugClient5::OutputIdentity, IDebugClient2 interface [Windows Debugging], OutputIdentity method, IDebugClient4 interface [Windows Debugging], OutputIdentity method, OutputIdentity, IDebugClient3 interface [Windows Debugging], OutputIdentity method, dbgeng/IDebugClient::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient4::OutputIdentity, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml, IDebugClient4::OutputIdentity, IDebugClient interface [Windows Debugging], OutputIdentity method, IDebugClient::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient5 interface [Windows Debugging], OutputIdentity method, OutputIdentity method [Windows Debugging], IDebugClient4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.OutputIdentity
 -	IDebugClient2.OutputIdentity
 -	IDebugClient3.OutputIdentity
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.OutputIdentity
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::OutputIdentity method
@@ -125,13 +125,13 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546831">GetIdentity</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 

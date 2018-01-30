@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnDestroyShaderCacheSession
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION callback
@@ -82,14 +82,14 @@ VOID APIENTRY* pfnDestroyShaderCacheSession(
 
 
 
-#### - hCacheSession
-
-The handle of a cache session.
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - hCacheSession
+
+The handle of a cache session.
 
 
 ## -returns

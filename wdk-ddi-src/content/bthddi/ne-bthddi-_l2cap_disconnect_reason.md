@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._L2CAP_DISCONNECT_REASON
-title: _L2CAP_DISCONNECT_REASON
+title: "_L2CAP_DISCONNECT_REASON"
 author: windows-driver-content
 description: The L2CAP_DISCONNECT_REASON enumeration type gives the reason an L2CAP channel has been disconnected.
 old-location: bltooth\l2cap_disconnect_reason.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: L2capDisconnectRequest, bthddi/L2CAP_DISCONNECT_REASON, RadioPoweredDown, HardwareRemoval, bthddi/HardwareRemoval, bthddi/L2capDisconnectRequest, bthddi/RadioPoweredDown, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, L2CAP_DISCONNECT_REASON, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason, bthddi/HciDisconnect, HciDisconnect, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices]
+ms.keywords: bthddi/L2capDisconnectRequest, bthddi/L2CAP_DISCONNECT_REASON, HardwareRemoval, bltooth.l2cap_disconnect_reason, _L2CAP_DISCONNECT_REASON, bthddi/HardwareRemoval, bthddi/RadioPoweredDown, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, HciDisconnect, RadioPoweredDown, bthddi/HciDisconnect, L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], L2capDisconnectRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	L2CAP_DISCONNECT_REASON
 product: Windows
 targetos: Windows

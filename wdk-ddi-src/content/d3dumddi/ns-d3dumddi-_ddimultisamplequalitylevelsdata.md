@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDIMULTISAMPLEQUALITYLEVELSDATA
-title: _DDIMULTISAMPLEQUALITYLEVELSDATA
+title: "_DDIMULTISAMPLEQUALITYLEVELSDATA"
 author: windows-driver-content
 description: The DDIMULTISAMPLEQUALITYLEVELSDATA structure describes the number of multiple-sample quality levels for a given render-target format.
 old-location: display\ddimultisamplequalitylevelsdata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48eeea6a-6a1d-43f7-a74c-3ca896c7b2d4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata, _DDIMULTISAMPLEQUALITYLEVELSDATA, DDIMULTISAMPLEQUALITYLEVELSDATA
+ms.keywords: DDIMULTISAMPLEQUALITYLEVELSDATA, D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, _DDIMULTISAMPLEQUALITYLEVELSDATA, d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DDIMULTISAMPLEQUALITYLEVELSDATA
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ typedef struct _DDIMULTISAMPLEQUALITYLEVELSDATA {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
  
 

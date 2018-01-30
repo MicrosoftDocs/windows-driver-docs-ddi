@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6780f1c-e093-4d91-8909-dabb1ecaefaa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, GetCurrentProcessHandle, debugger.getcurrentprocesshandle, wdbgexts/GetCurrentProcessHandle, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects, GetCurrentProcessHandle function [Windows Debugging], IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects2
+ms.keywords: IDebugSystemObjects, GetCurrentProcessHandle function [Windows Debugging], GetCurrentProcessHandle, wdbgexts/GetCurrentProcessHandle, IDebugSystemObjects3, debugger.getcurrentprocesshandle, IDebugSystemObjects::GetCurrentProcessHandle, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetCurrentProcessHandle
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects3::GetCurrentProcessHandle method

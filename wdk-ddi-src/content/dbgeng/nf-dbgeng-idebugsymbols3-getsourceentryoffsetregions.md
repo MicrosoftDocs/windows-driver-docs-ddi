@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceEntryOffsetRegions, GetSourceEntryOffsetRegions method [Windows Debugging], debugger.idebugsymbols3_getsourceentryoffsetregions, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, IDebugSymbols3::GetSourceEntryOffsetRegions
+ms.keywords: IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, debugger.idebugsymbols3_getsourceentryoffsetregions, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3::GetSourceEntryOffsetRegions, GetSourceEntryOffsetRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSourceEntryOffsetRegions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetSourceEntryOffsetRegions method

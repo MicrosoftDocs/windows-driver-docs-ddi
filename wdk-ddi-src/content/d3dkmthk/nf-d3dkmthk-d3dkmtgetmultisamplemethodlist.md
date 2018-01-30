@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 10084238-dfeb-42a5-9bf0-06cb9b4f440c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTGetMultisampleMethodList function [Display Devices], D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist, d3dkmthk/D3DKMTGetMultisampleMethodList, OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml
+ms.keywords: display.d3dkmtgetmultisamplemethodlist, D3DKMTGetMultisampleMethodList, d3dkmthk/D3DKMTGetMultisampleMethodList, D3DKMTGetMultisampleMethodList function [Display Devices], OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTGetMultisampleMethodList
 product: Windows
 targetos: Windows

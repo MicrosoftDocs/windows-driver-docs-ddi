@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PHYSICALADAPTERCAPS
-title: _DXGK_PHYSICALADAPTERCAPS
+title: "_DXGK_PHYSICALADAPTERCAPS"
 author: windows-driver-content
 description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of a physical adapter.
 old-location: display\dxgk_physicaladaptercaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PHYSICALADAPTERCAPS, Flags.MovePagingSupported, Flags.IoMmuSupported, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, display.dxgk_physicaladaptercaps, Flags.VPRPagingContextRequired
+ms.keywords: Flags.VPRPagingContextRequired, Flags.GpuMmuSupported, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, _DXGK_PHYSICALADAPTERCAPS, Flags.MovePagingSupported, Flags.IoMmuSupported, DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], display.dxgk_physicaladaptercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PHYSICALADAPTERCAPS
 product: Windows
 targetos: Windows

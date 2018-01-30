@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6dbe7da6-31f6-43f2-aa25-be6f13c8d8d8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, wdbgexts/GetTebAddress, debugger.gettebaddress, GetTebAddress function [Windows Debugging], GetTebAddress
+ms.keywords: wdbgexts/GetTebAddress, debugger.gettebaddress, GetTebAddress, GetTebAddress function [Windows Debugging], WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetTebAddress
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # GetTebAddress function

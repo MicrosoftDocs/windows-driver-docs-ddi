@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportacquirespinlock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, VideoPortAcquireSpinLock, video/VideoPortAcquireSpinLock
+ms.keywords: video/VideoPortAcquireSpinLock, VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, VideoPortAcquireSpinLock function [Display Devices], VideoPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortAcquireSpinLock
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortAcquireSpinLock function
@@ -123,9 +122,9 @@ The caller should release the spin lock with <b>VideoPortReleaseSpinLock</b> as 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>
-
 <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
+
+<a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>
 
  
 

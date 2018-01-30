@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DESCRIBEALLOCATIONFLAGS
-title: _DXGK_DESCRIBEALLOCATIONFLAGS
+title: "_DXGK_DESCRIBEALLOCATIONFLAGS"
 author: windows-driver-content
 description: Used in the DXGKARG_DESCRIBEALLOCATION.Flags member to describe whether an existing allocation is being queried for its display mode.
 old-location: display\dxgk_describeallocationflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags, _DXGK_DESCRIBEALLOCATIONFLAGS
+ms.keywords: "_DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_DESCRIBEALLOCATIONFLAGS
 product: Windows
 targetos: Windows

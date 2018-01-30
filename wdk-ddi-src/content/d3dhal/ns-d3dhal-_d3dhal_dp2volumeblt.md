@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2VOLUMEBLT
-title: _D3DHAL_DP2VOLUMEBLT
+title: "_D3DHAL_DP2VOLUMEBLT"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2VOLUMEBLT structure is used for volume texture blts when D3dDrawPrimitives2 responds to the D3DDP2OP_VOLUMEBLT command token.
 old-location: display\d3dhal_dp2volumeblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6c301643-1e1b-4b0c-8827-8eae988b1e9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_44b31cb6-2a36-4d2d-91a3-c59b07d8815b.xml, display.d3dhal_dp2volumeblt, D3DHAL_DP2VOLUMEBLT, _D3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT structure pointer [Display Devices], d3dhal/D3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT, *LPD3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT structure [Display Devices], d3dhal/LPD3DHAL_DP2VOLUMEBLT
+ms.keywords: display.d3dhal_dp2volumeblt, D3DHAL_DP2VOLUMEBLT, *LPD3DHAL_DP2VOLUMEBLT, d3dhal/LPD3DHAL_DP2VOLUMEBLT, d3dhal/D3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT structure pointer [Display Devices], d3dstrct_44b31cb6-2a36-4d2d-91a3-c59b07d8815b.xml, _D3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2VOLUMEBLT
 product: Windows
 targetos: Windows
@@ -123,13 +123,13 @@ See Remarks for <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEX
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
-
 D3DDP2OP_VOLUMEBLT
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEXBLT</a>
+
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

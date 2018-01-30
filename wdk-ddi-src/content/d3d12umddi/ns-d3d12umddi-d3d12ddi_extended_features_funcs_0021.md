@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9E2D8EF5-18D0-4BC5-ADCA-3D3BE76D3BF1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_extended_features_funcs_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
+ms.keywords: display.d3d12ddi_extended_features_funcs_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure [Display Devices], D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 product: Windows
 targetos: Windows

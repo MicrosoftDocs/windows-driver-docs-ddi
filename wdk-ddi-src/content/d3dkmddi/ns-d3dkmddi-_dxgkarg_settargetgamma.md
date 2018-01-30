@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTARGETGAMMA
-title: _DXGKARG_SETTARGETGAMMA
+title: "_DXGKARG_SETTARGETGAMMA"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_SETTARGETGAMMA.
 old-location: display\dxgkarg_settargetgamma.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94BA40BD-3B56-44EF-BAD4-49556E68C550
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/PDXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], display.dxgkarg_settargetgamma, DXGKARG_SETTARGETGAMMA structure [Display Devices], PDXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA, _DXGKARG_SETTARGETGAMMA
+ms.keywords: d3dkmddi/PDXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], _DXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA, display.dxgkarg_settargetgamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_SETTARGETGAMMA
 product: Windows
 targetos: Windows

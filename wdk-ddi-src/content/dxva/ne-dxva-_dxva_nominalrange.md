@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_NominalRange
-title: _DXVA_NominalRange
+title: "_DXVA_NominalRange"
 author: windows-driver-content
 description: The DXVA_NominalRange enumeration type contains enumerators that identify whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black).
 old-location: display\dxva_nominalrange.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_NominalRangeMask, DXVA_NominalRange_Unknown, DXVA_NominalRangeShift, display.dxva_nominalrange, dxva/DXVA_NominalRange_16_235, DXVA_NominalRange_Normal, DXVA_NominalRange_Wide, dxva/DXVA_NominalRange, dxva/DXVA_NominalRange_48_208, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_Wide, dxva/DXVA_NominalRangeMask, DXVA_NominalRange, _DXVA_NominalRange, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRange_0_255, DXVA_NominalRange_16_235, DXVA_NominalRange_48_208, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_0_255
+ms.keywords: DXVA_NominalRange_Unknown, dxva/DXVA_NominalRangeMask, dxva/DXVA_NominalRange_Wide, DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange, DXVA_NominalRange_48_208, _DXVA_NominalRange, dxva/DXVA_NominalRange_Normal, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRange_0_255, DXVA_NominalRange_16_235, dxva/DXVA_NominalRangeShift, DXVA_NominalRange, dxva/DXVA_NominalRange_16_235, dxva/DXVA_NominalRange_48_208, DXVA_NominalRangeShift, DXVA_NominalRange_Wide, dxva/DXVA_NominalRange_0_255, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, display.dxva_nominalrange, DXVA_NominalRangeMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_NominalRange
 product: Windows
 targetos: Windows

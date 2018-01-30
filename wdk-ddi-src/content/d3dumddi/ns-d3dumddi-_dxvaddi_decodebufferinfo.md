@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERINFO
-title: _DXVADDI_DECODEBUFFERINFO
+title: "_DXVADDI_DECODEBUFFERINFO"
 author: windows-driver-content
 description: The DXVADDI_DECODEBUFFERINFO structure describes information about a particular type of compressed buffer that is required for a video decoding scenario.
 old-location: display\dxvaddi_decodebufferinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e0a0ad31-86c1-44bd-b069-70442973a539
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo, DXVADDI_DECODEBUFFERINFO structure [Display Devices], DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, _DXVADDI_DECODEBUFFERINFO, d3dumddi/DXVADDI_DECODEBUFFERINFO
+ms.keywords: DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, _DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO structure [Display Devices], DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo, d3dumddi/DXVADDI_DECODEBUFFERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_DECODEBUFFERINFO
 product: Windows
 targetos: Windows
@@ -107,9 +107,9 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVAD
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
  
 

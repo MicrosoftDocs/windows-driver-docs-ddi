@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRegistryKey interface [Audio Devices], NewSubKey method, NewSubKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::NewSubKey, IRegistryKey, audio.iregistrykey_newsubkey, NewSubKey method [Audio Devices], audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, NewSubKey, IRegistryKey::NewSubKey
+ms.keywords: portcls/IRegistryKey::NewSubKey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, IRegistryKey::NewSubKey, audio.iregistrykey_newsubkey, NewSubKey method [Audio Devices], NewSubKey, NewSubKey method [Audio Devices], IRegistryKey interface, IRegistryKey, IRegistryKey interface [Audio Devices], NewSubKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IRegistryKey.NewSubKey
 product: Windows
 targetos: Windows
@@ -89,7 +89,7 @@ Specifies the type of access that the caller requires to the subkey that is bein
 
 ### -param SubKeyName [in]
 
-Pointer to the name that is to be assigned to the subkey. This parameter must be a valid, non-<b>NULL</b> pointer to an initialized structure of type <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>.
+Pointer to the name that is to be assigned to the subkey. This parameter must be a valid, non-<b>NULL</b> pointer to an initialized structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>.
 
 
 ### -param CreateOptions [in]
@@ -124,15 +124,15 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 ## -see-also
 
+<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
  
 

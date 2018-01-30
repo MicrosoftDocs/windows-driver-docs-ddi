@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_LOCKASYNCFLAGS
-title: _D3DDDI_LOCKASYNCFLAGS
+title: "_D3DDDI_LOCKASYNCFLAGS"
 author: windows-driver-content
 description: The D3DDDI_LOCKASYNCFLAGS structure identifies how to lock a resource.
 old-location: display\d3dddi_lockasyncflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e6dd14c-5192-4c4b-9dcb-716989d24588
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, d3dumddi/D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags, _D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS structure [Display Devices]
+ms.keywords: D3DDDI_LOCKASYNCFLAGS, D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, _D3DDDI_LOCKASYNCFLAGS, d3dumddi/D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags, D3DDDI_LOCKASYNCFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_LOCKASYNCFLAGS
 product: Windows
 targetos: Windows

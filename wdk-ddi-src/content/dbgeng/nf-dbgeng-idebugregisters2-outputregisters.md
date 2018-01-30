@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d1354ab7-4d7d-4cc2-8e30-763d8b881a11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters interface [Windows Debugging], OutputRegisters method, IDebugRegisters2 interface [Windows Debugging], OutputRegisters method, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, IDebugRegisters::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, OutputRegisters method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters, IDebugRegisters2, OutputRegisters, debugger.outputregisters, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2::OutputRegisters
+ms.keywords: IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters, IDebugRegisters2::OutputRegisters, OutputRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters::OutputRegisters, OutputRegisters method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], OutputRegisters method, OutputRegisters, dbgeng/IDebugRegisters2::OutputRegisters, OutputRegisters method [Windows Debugging], IDebugRegisters interface, IDebugRegisters interface [Windows Debugging], OutputRegisters method, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters.OutputRegisters
 -	IDebugRegisters2.OutputRegisters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::OutputRegisters method
@@ -154,9 +154,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553245">OutputRegisters2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
  
 

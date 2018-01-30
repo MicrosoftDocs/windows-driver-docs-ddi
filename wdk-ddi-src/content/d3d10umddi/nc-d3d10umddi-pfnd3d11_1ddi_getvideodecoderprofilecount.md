@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetVideoDecoderProfileCount
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT callback
@@ -82,16 +82,16 @@ VOID APIENTRY* pfnGetVideoDecoderProfileCount(
 
 
 
-#### - pDecodeProfileCount [out]
-
-A pointer to a UINT value that specifies the maximum number of decoder profiles that are supported.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
+
+
+#### - pDecodeProfileCount [out]
+
+A pointer to a UINT value that specifies the maximum number of decoder profiles that are supported.
 
 
 ## -returns

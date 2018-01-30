@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 87f60064-5722-4b4e-af9b-f1d9009a7551
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getcurrentprocesshandle2, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml
+ms.keywords: IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects3::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects4, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, debugger.getcurrentprocesshandle2, IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects2::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects.GetCurrentProcessHandle
 -	IDebugSystemObjects2.GetCurrentProcessHandle
 -	IDebugSystemObjects3.GetCurrentProcessHandle
 -	IDebugSystemObjects4.GetCurrentProcessHandle
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessHandle method

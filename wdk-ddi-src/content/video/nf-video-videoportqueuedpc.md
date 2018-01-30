@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9715ff37-397b-4102-a363-443b8076f881
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortQueueDpc function [Display Devices], VideoPortQueueDpc, video/VideoPortQueueDpc, display.videoportqueuedpc, VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml
+ms.keywords: video/VideoPortQueueDpc, display.videoportqueuedpc, VideoPortQueueDpc, VideoPortQueueDpc function [Display Devices], VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: >= DISPATCH_LEVEL
-topictype: 
+req.irql: ">= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortQueueDpc
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortQueueDpc function

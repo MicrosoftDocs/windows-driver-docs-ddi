@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoDesc
-title: _DXVA_VideoDesc
+title: "_DXVA_VideoDesc"
 author: windows-driver-content
 description: The DXVA_VideoDesc structure is sent by the renderer to the driver to specify a description of the video stream on which the deinterlacing or frame-rate conversion operation is to be performed.
 old-location: display\dxva_videodesc.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_videodesc, dxva/DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], *LPDXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], LPDXVA_VideoDesc, DXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, _DXVA_VideoDesc
+ms.keywords: "_DXVA_VideoDesc, *LPDXVA_VideoDesc, DXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], dxva/DXVA_VideoDesc, display.dxva_videodesc, dxva/LPDXVA_VideoDesc, LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_VideoDesc
 product: Windows
 targetos: Windows

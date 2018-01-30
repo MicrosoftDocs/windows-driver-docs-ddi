@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ffe53d9-ea57-4561-a889-e6369ef0d5d3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces::ReadMsr, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces3::ReadMsr, ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces4::ReadMsr, debugger.readmsr2, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces2::ReadMsr, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml
+ms.keywords: ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, debugger.readmsr2, dbgeng/IDebugDataSpaces2::ReadMsr, dbgeng/IDebugDataSpaces3::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces::ReadMsr, IDebugDataSpaces4, IDebugDataSpaces::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces3::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces2::ReadMsr, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, IDebugDataSpaces4::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.ReadMsr
 -	IDebugDataSpaces2.ReadMsr
 -	IDebugDataSpaces3.ReadMsr
 -	IDebugDataSpaces4.ReadMsr
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugDataSpaces4::ReadMsr method

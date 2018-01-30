@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, D3DKMTCreateContext function [Display Devices], display.d3dkmtcreatecontext, d3dkmthk/D3DKMTCreateContext, D3DKMTCreateContext
+ms.keywords: PFND3DKMT_CREATECONTEXT, d3dkmthk/D3DKMTCreateContext, OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, display.d3dkmtcreatecontext, D3DKMTCreateContext, D3DKMTCreateContext function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCreateContext
 product: Windows
 targetos: Windows

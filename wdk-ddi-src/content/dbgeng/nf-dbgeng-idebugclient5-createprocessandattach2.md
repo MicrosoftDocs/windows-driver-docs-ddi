@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2e479563-8ffd-40cd-a584-d34de2530e1d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateProcessAndAttach2 method [Windows Debugging], dbgeng/IDebugClient5::CreateProcessAndAttach2, CreateProcessAndAttach2, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2 method, IDebugClient_898e4cd4-45bf-43b8-80be-f761743e7f5c.xml, debugger.createprocessandattach2, IDebugClient5::CreateProcessAndAttach2, CreateProcessAndAttach2 method [Windows Debugging], IDebugClient5 interface, IDebugClient5
+ms.keywords: dbgeng/IDebugClient5::CreateProcessAndAttach2, IDebugClient5::CreateProcessAndAttach2, CreateProcessAndAttach2 method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttach2 method [Windows Debugging], IDebugClient_898e4cd4-45bf-43b8-80be-f761743e7f5c.xml, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2 method, IDebugClient5, debugger.createprocessandattach2, CreateProcessAndAttach2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.CreateProcessAndAttach2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::CreateProcessAndAttach2 method
@@ -173,27 +173,27 @@ If <i>CommandLine</i> is not <b>NULL</b> and <i>ProcessId</i> is not zero, then 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
  
 

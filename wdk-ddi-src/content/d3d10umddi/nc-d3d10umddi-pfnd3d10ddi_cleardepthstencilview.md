@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ClearDepthStencilView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback
@@ -97,6 +97,11 @@ VOID APIENTRY ClearDepthStencilView(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - hDepthStencilView [in]
 
  A handle to the depth-stencil view to clear. 
@@ -133,19 +138,14 @@ The stencil value is cleared.
 </table> 
 
 
-#### - Stencil [in]
-
- An unsigned 8-bit integer value to set the stencil to. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - Depth [in]
 
  A single-precision float vector to set the depth to. 
+
+
+#### - Stencil [in]
+
+ An unsigned 8-bit integer value to set the stencil to. 
 
 
 ## -returns
@@ -168,9 +168,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

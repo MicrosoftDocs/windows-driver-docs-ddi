@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENRESOURCE
-title: _D3DKMT_OPENRESOURCE
+title: "_D3DKMT_OPENRESOURCE"
 author: windows-driver-content
 description: The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 old-location: display\d3dkmt_openresource.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, D3DKMT_OPENRESOURCE, _D3DKMT_OPENRESOURCE, d3dkmthk/D3DKMT_OPENRESOURCE, display.d3dkmt_openresource, D3DKMT_OPENRESOURCE structure [Display Devices]
+ms.keywords: OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, display.d3dkmt_openresource, D3DKMT_OPENRESOURCE structure [Display Devices], d3dkmthk/D3DKMT_OPENRESOURCE, _D3DKMT_OPENRESOURCE, D3DKMT_OPENRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OPENRESOURCE
 product: Windows
 targetos: Windows
@@ -147,9 +147,9 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
 
  
 

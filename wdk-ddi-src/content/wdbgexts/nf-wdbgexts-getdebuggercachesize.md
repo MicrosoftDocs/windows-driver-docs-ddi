@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0365ffe5-575b-44a9-8711-837d499be8bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, debugger.getdebuggercachesize, wdbgexts/GetDebuggerCacheSize, GetDebuggerCacheSize, GetDebuggerCacheSize function [Windows Debugging]
+ms.keywords: wdbgexts/GetDebuggerCacheSize, WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, GetDebuggerCacheSize function [Windows Debugging], debugger.getdebuggercachesize, GetDebuggerCacheSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetDebuggerCacheSize
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # GetDebuggerCacheSize function

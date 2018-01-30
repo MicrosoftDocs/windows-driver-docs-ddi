@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient::GetOutputWidth, IDebugClient, dbgeng/IDebugClient::GetOutputWidth, GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], GetOutputWidth method, GetOutputWidth, debugger.idebugclient_getoutputwidth
+ms.keywords: IDebugClient, GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], GetOutputWidth method, GetOutputWidth, debugger.idebugclient_getoutputwidth, IDebugClient::GetOutputWidth, GetOutputWidth method [Windows Debugging], dbgeng/IDebugClient::GetOutputWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.GetOutputWidth
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient::GetOutputWidth method

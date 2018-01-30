@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PATH_UPDATE
-title: _DXGK_PATH_UPDATE
+title: "_DXGK_PATH_UPDATE"
 author: windows-driver-content
 description: Enum which indicates how this path has been modified since the previous successful call to SetTimingsFromVidPn.
 old-location: display\dxgk_path_update.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DCBBFBF7-73B2-4298-BB87-83E1C6D76BD0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, display.dxgk_path_update, d3dkmddi/DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, _DXGK_PATH_UPDATE, DXGK_PATH_UPDATE enumeration [Display Devices], DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE_UNMODIFED, d3dkmddi/DXGK_PATH_UPDATE_ADDED
+ms.keywords: DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE, DXGK_PATH_UPDATE_UNMODIFED, DXGK_PATH_UPDATE_ADDED, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, d3dkmddi/DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE enumeration [Display Devices], d3dkmddi/DXGK_PATH_UPDATE_ADDED, display.dxgk_path_update, _DXGK_PATH_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PATH_UPDATE
 product: Windows
 targetos: Windows

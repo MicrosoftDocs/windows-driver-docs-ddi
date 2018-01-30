@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], ksmedia/KSAC3_BIT_STREAM_MODE, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, ksmedia/PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, *PKSAC3_BIT_STREAM_MODE
+ms.keywords: PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], KSAC3_BIT_STREAM_MODE structure [Audio Devices], ksmedia/PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, ksmedia/KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAC3_BIT_STREAM_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE
+req.typenames: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE"
 ---
 
 # KSAC3_BIT_STREAM_MODE structure

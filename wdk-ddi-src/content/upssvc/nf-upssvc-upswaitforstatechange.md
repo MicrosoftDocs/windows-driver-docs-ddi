@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: ac78dda4-6d14-441b-8e79-3245f7253875
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: battery.upswaitforstatechange, UPSWaitForStateChange function [Battery Devices], upssvc/UPSWaitForStateChange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, UPSWaitForStateChange
+ms.keywords: UPSWaitForStateChange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, UPSWaitForStateChange function [Battery Devices], battery.upswaitforstatechange, upssvc/UPSWaitForStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	upssvc.h
-apiname: 
+apiname:
 -	UPSWaitForStateChange
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
 ---
 
 # UPSWaitForStateChange function
@@ -76,29 +75,29 @@ Specifies the UPS state on which to wait. When the state of the UPS system chang
 
 
 
-### -param anInterval [in]
-
-Specifies a time-out interval, in milliseconds, for the function. If the UPS state has not changed from the specified state when the interval elapses, the function returns. A value of INFINITE means the interval never elapses.
-
-
-##### - aCurrentState.UPS_ONLINE
+#### UPS_ONLINE
 
 Utility-supplied power is normal.
 
 
-##### - aCurrentState.UPS_ONBATTERY
+#### UPS_ONBATTERY
 
 Utility-supplied power is inadequate, and the UPS batteries are discharging.
 
 
-##### - aCurrentState.UPS_LOWBATTERY
+#### UPS_LOWBATTERY
 
 Utility-supplied power is inadequate, and the UPS batteries are critically low.
 
 
-##### - aCurrentState.UPS_NOCOMM
+#### UPS_NOCOMM
 
 Communication with the UPS is not currently established.
+
+
+### -param anInterval [in]
+
+Specifies a time-out interval, in milliseconds, for the function. If the UPS state has not changed from the specified state when the interval elapses, the function returns. A value of INFINITE means the interval never elapses.
 
 
 ## -returns

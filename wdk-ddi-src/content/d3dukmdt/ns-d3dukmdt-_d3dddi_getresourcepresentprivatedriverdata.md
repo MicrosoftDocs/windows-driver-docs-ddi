@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
-title: _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
+title: "_D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA"
 author: windows-driver-content
 description: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA is used with pfnGetResourcePresentPrivateDriverDataCb to query the resource private data, which is associated with the resource during Present.
 old-location: display\d3dddi_getresourcepresentprivatedriverdata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices]
+ms.keywords: d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 product: Windows
 targetos: Windows

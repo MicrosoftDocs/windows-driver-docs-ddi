@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MEMORY_INFORMATION
-title: _VIDEO_MEMORY_INFORMATION
+title: "_VIDEO_MEMORY_INFORMATION"
 author: windows-driver-content
 description: The VIDEO_MEMORY_INFORMATION structure contains information about a mapping of video memory into system space or the private virtual address space of a user-mode process.
 old-location: display\video_memory_information.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7d580d5c-b97f-4d26-9eec-165c5db66a0b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_efc1abe7-c8bb-403f-ae5d-136b25881929.xml, VIDEO_MEMORY_INFORMATION structure [Display Devices], PVIDEO_MEMORY_INFORMATION, _VIDEO_MEMORY_INFORMATION, display.video_memory_information, ntddvdeo/PVIDEO_MEMORY_INFORMATION, ntddvdeo/VIDEO_MEMORY_INFORMATION, *PVIDEO_MEMORY_INFORMATION, PVIDEO_MEMORY_INFORMATION structure pointer [Display Devices], VIDEO_MEMORY_INFORMATION
+ms.keywords: display.video_memory_information, _VIDEO_MEMORY_INFORMATION, ntddvdeo/PVIDEO_MEMORY_INFORMATION, *PVIDEO_MEMORY_INFORMATION, VIDEO_MEMORY_INFORMATION structure [Display Devices], PVIDEO_MEMORY_INFORMATION, ntddvdeo/VIDEO_MEMORY_INFORMATION, PVIDEO_MEMORY_INFORMATION structure pointer [Display Devices], VIDEO_MEMORY_INFORMATION, Video_Structs_efc1abe7-c8bb-403f-ae5d-136b25881929.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	VIDEO_MEMORY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_MEMORY_INFORMATION, VIDEO_MEMORY_INFORMATION
+req.typenames: "*PVIDEO_MEMORY_INFORMATION, VIDEO_MEMORY_INFORMATION"
 ---
 
 # _VIDEO_MEMORY_INFORMATION structure
@@ -103,13 +103,13 @@ In the <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_V
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
-
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unmap_video_memory.md">IOCTL_VIDEO_UNMAP_VIDEO_MEMORY</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
 
  
 

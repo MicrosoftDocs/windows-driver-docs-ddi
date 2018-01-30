@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e04e4567-5ae6-4349-9876-0c2b55c340e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax, IDebugControl3 interface [Windows Debugging], GetExpressionSyntax method, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax, IDebugControl3, IDebugControl3::GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3 interface [Windows Debugging], GetExpressionSyntax method, IDebugControl3::GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], IDebugControl3, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, debugger.getexpressionsyntax, GetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, GetExpressionSyntax, dbgeng/IDebugControl3::GetExpressionSyntax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetExpressionSyntax
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetExpressionSyntax method
@@ -74,12 +74,12 @@ Receives the expression syntax.  It is set to one of the following values:
 
 
 
-##### - Flags.DEBUG_EXPR_MASM
+#### DEBUG_EXPR_MASM
 
 Expressions will be evaluated according to MASM syntax. For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552157">MASM Numbers and Operators</a>.
 
 
-##### - Flags.DEBUG_EXPR_CPLUSPLUS
+#### DEBUG_EXPR_CPLUSPLUS
 
 Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540372">C++ Numbers and Operators</a>.
 
@@ -110,13 +110,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
  
 

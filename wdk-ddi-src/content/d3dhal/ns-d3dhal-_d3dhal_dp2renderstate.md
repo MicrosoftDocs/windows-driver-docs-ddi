@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RENDERSTATE
-title: _D3DHAL_DP2RENDERSTATE
+title: "_D3DHAL_DP2RENDERSTATE"
 author: windows-driver-content
 description: One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_RENDERSTATE, and are used to set the appropriate render state.
 old-location: display\d3dhal_dp2renderstate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2RENDERSTATE, *LPD3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], D3DHAL_DP2RENDERSTATE structure [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate, d3dhal/D3DHAL_DP2RENDERSTATE
+ms.keywords: d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, *LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], display.d3dhal_dp2renderstate, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2RENDERSTATE
 product: Windows
 targetos: Windows
@@ -101,15 +101,15 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-D3DDP2OP_RENDERSTATE
-
-<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+D3DDP2OP_RENDERSTATE
+
+<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
 
  
 

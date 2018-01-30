@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_DEVICE_ATTRIBUTES
-title: _HID_DEVICE_ATTRIBUTES
+title: "_HID_DEVICE_ATTRIBUTES"
 author: windows-driver-content
 description: The HID_DEVICE_ATTRIBUTES structure contains information about a HIDClass device.
 old-location: hid\hid_device_attributes.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: ba874c8a-b0df-475c-b34d-56ad0a3472db
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidport/PHID_DEVICE_ATTRIBUTES, hid.hid_device_attributes, PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES, PHID_DEVICE_ATTRIBUTES structure pointer [Human Input Devices], hidstrct_2ba6111b-4231-40eb-9b08-0b3b396079d8.xml, hidport/HID_DEVICE_ATTRIBUTES, *PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES structure [Human Input Devices], _HID_DEVICE_ATTRIBUTES
+ms.keywords: hid.hid_device_attributes, *PHID_DEVICE_ATTRIBUTES, PHID_DEVICE_ATTRIBUTES, _HID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES, hidport/PHID_DEVICE_ATTRIBUTES, hidport/HID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES structure [Human Input Devices], PHID_DEVICE_ATTRIBUTES structure pointer [Human Input Devices], hidstrct_2ba6111b-4231-40eb-9b08-0b3b396079d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidport.h
-apiname: 
+apiname:
 -	HID_DEVICE_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: *PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES
+req.typenames: "*PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES"
 ---
 
 # _HID_DEVICE_ATTRIBUTES structure

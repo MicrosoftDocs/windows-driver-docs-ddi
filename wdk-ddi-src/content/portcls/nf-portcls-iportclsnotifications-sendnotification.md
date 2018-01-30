@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SendNotification, portcls/IPortClsNotifications::SendNotification, IPortClsNotifications::SendNotification, IPortClsNotifications, audio.iportclsnotifications_sendnotification, SendNotification method [Audio Devices], IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices], SendNotification method, SendNotification method [Audio Devices]
+ms.keywords: portcls/IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices], IPortClsNotifications interface, IPortClsNotifications, audio.iportclsnotifications_sendnotification, IPortClsNotifications interface [Audio Devices], SendNotification method, IPortClsNotifications::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	IPortClsNotifications.SendNotification
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a45c971-3dad-47ad-a819-6f2c6e34ad37
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.createprocesswide, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::CreateProcessWide, IDebugClient5::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient3 interface, CreateProcessWide method [Windows Debugging], dbgeng/IDebugClient5::CreateProcessWide, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, dbgeng/IDebugClient4::CreateProcessWide, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, IDebugClient5, IDebugClient3::CreateProcessWide, IDebugClient4::CreateProcessWide, CreateProcessWide, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, CreateProcessWide method [Windows Debugging], IDebugClient4 interface
+ms.keywords: CreateProcessWide method [Windows Debugging], CreateProcessWide method [Windows Debugging], IDebugClient3 interface, IDebugClient5::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, IDebugClient4::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, debugger.createprocesswide, IDebugClient3::CreateProcessWide, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, dbgeng/IDebugClient5::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, dbgeng/IDebugClient4::CreateProcessWide, CreateProcessWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient3.CreateProcessWide
 -	IDebugClient4.CreateProcessWide
 -	IDebugClient5.CreateProcessWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::CreateProcessWide method
@@ -123,21 +123,21 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

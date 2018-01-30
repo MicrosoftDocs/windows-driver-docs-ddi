@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCreateEx, debugger.debugcreateex, dbgeng/DebugCreateEx, DebugCreateEx function [Windows Debugging]
+ms.keywords: DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, DebugCreateEx, debugger.debugcreateex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugCreateEx
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # DebugCreateEx function

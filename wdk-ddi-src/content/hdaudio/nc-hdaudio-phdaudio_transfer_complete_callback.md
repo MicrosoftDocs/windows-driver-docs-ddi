@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Hdaudio.h
-apiname: 
+apiname:
 -	HDAudioTransferCompleteCallback
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS
 ---
 
 # PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback
@@ -84,14 +84,14 @@ typedef PHDAUDIO_TRANSFER_COMPLETE_CALLBACK HDAudioTransferCompleteCallback;
 
 
 
-#### - Context
-
- This is the same  context value that was specified previously in the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
-
-
 #### - pHDAudioCodecTransfer
 
 A pointer to the codecTransfer array element that contains the codec command and the response that triggered the callback. 
+
+
+#### - Context
+
+ This is the same  context value that was specified previously in the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
 
 
 ## -returns

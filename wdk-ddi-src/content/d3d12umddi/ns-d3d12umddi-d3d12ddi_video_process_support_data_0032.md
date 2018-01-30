@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-video-process-support-data-0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
+ms.keywords: display.d3d12ddi-video-process-support-data-0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure [Display Devices], D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 product: Windows
 targetos: Windows

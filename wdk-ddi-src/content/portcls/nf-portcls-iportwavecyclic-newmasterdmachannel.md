@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbd2b6e2-e332-49ae-aa18-490fd5631479
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveCyclic::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, portcls/IPortWaveCyclic::NewMasterDmaChannel, IPortWaveCyclic, NewMasterDmaChannel, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, audio.iportwavecyclic_newmasterdmachannel
+ms.keywords: IPortWaveCyclic::NewMasterDmaChannel, audio.iportwavecyclic_newmasterdmachannel, portcls/IPortWaveCyclic::NewMasterDmaChannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, IPortWaveCyclic, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel, IPortWaveCyclic interface [Audio Devices], NewMasterDmaChannel method, NewMasterDmaChannel method [Audio Devices], IPortWaveCyclic interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortWaveCyclic.NewMasterDmaChannel
 product: Windows
 targetos: Windows
@@ -124,7 +124,7 @@ Not used. Set to (DMA_SPEED)(-1).
 ## -remarks
 
 
-Parameters <i>MaximumLength</i>, <i>Dma32BitAddresses</i>, <i>Dma64BitAddresses</i>, <i>DmaWidth</i>, and <i>DmaSpeed</i> are similar in meaning to the members of the <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure with the same names.
+Parameters <i>MaximumLength</i>, <i>Dma32BitAddresses</i>, <i>Dma64BitAddresses</i>, <i>DmaWidth</i>, and <i>DmaSpeed</i> are similar in meaning to the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> structure with the same names.
 
 A WaveCyclic device with built-in bus-mastering DMA hardware is referred to as a <i>master device</i>. In contrast, a <i>subordinate device</i> lacks DMA hardware and has to rely on the system DMA controller to perform any data transfers that it requires. The <code>NewMasterDmaChannel</code> method creates a DMA-channel object for a master device. To create a DMA-channel object for a subordinate device, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536902">IPortWaveCyclic::NewSlaveDmaChannel</a> method instead. For more information about master and subordinate devices, see <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> and <a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>.
 
@@ -134,17 +134,17 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536902">IPortWaveCyclic::NewSlaveDmaChannel</a>
+
+<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
  
 

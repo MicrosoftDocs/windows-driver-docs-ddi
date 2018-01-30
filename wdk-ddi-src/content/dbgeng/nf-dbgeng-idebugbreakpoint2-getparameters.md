@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b0e2a3d-2a62-4a79-a4e1-03168277caec
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, debugger.getparameters, dbgeng/IDebugBreakpoint::GetParameters, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetParameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, GetParameters method [Windows Debugging], IDebugBreakpoint interface, GetParameters, IDebugBreakpoint::GetParameters, IDebugBreakpoint interface [Windows Debugging], GetParameters method, IDebugBreakpoint2::GetParameters, IDebugBreakpoint2, GetParameters method [Windows Debugging]
+ms.keywords: IDebugBreakpoint2::GetParameters, GetParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetParameters method, IDebugBreakpoint2, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, dbgeng/IDebugBreakpoint2::GetParameters, IDebugBreakpoint::GetParameters, dbgeng/IDebugBreakpoint::GetParameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, debugger.getparameters, GetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.GetParameters
 -	IDebugBreakpoint2.GetParameters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugBreakpoint2::GetParameters method

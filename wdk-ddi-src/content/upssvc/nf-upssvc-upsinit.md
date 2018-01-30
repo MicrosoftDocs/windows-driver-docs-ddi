@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: abcb1f9c-3de3-430c-87e0-6648d60ca420
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: battery.upsinit, UPSInit function [Battery Devices], upssvc/UPSInit, UPSInit, UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml
+ms.keywords: UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, upssvc/UPSInit, UPSInit, battery.upsinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Upssvc.h
-apiname: 
+apiname:
 -	UPSInit
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
 ---
 
 # UPSInit function

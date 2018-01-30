@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetState, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, audio.iminiportmidistream_setstate, IMiniportMidiStream interface [Audio Devices], SetState method, portcls/IMiniportMidiStream::SetState, SetState method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream, IMiniportMidiStream::SetState, SetState method [Audio Devices]
+ms.keywords: audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, IMiniportMidiStream::SetState, SetState, SetState method [Audio Devices], IMiniportMidiStream interface, audio.iminiportmidistream_setstate, IMiniportMidiStream interface [Audio Devices], SetState method, IMiniportMidiStream, portcls/IMiniportMidiStream::SetState, SetState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportMidiStream.SetState
 product: Windows
 targetos: Windows
@@ -75,7 +75,7 @@ NTSTATUS SetState(
 
 #### - NewState [in]
 
-Specifies the new state that the stream is to be set to. This parameter is a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
+Specifies the new state that the stream is to be set to. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Specifies the new state that the stream is to be set to. This parameter is a <a 
 ## -remarks
 
 
-For an audio filter graph, the four <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration values are interpreted as follows:
+For an audio filter graph, the four <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumeration values are interpreted as follows:
 <ul>
 <li>
 KSSTATE_RUN 
@@ -131,13 +131,13 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 45a041c9-029a-4fa1-91c6-562e56a30b3e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetNameByOffsetWide, GetNameByOffsetWide, IDebugSymbols3, IDebugSymbols3::GetNameByOffsetWide, GetNameByOffsetWide method [Windows Debugging], debugger.getnamebyoffsetwide, IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method
+ms.keywords: GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide, GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetNameByOffsetWide, GetNameByOffsetWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetNameByOffsetWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetNameByOffsetWide method
@@ -151,9 +151,9 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547204">GetNearNameByOffset</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

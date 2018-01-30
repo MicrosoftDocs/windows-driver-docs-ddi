@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GPUENGINETOPOLOGY
-title: _DXGK_GPUENGINETOPOLOGY
+title: "_DXGK_GPUENGINETOPOLOGY"
 author: windows-driver-content
 description: The DXGK_GPUENGINETOPOLOGY structure describes the graphics processing unit (GPU)-engine topology that a driver can support.
 old-location: display\dxgk_gpuenginetopology.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology, DXGK_GPUENGINETOPOLOGY structure [Display Devices], _DXGK_GPUENGINETOPOLOGY, DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml
+ms.keywords: "_DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology, d3dkmddi/DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GPUENGINETOPOLOGY
 product: Windows
 targetos: Windows

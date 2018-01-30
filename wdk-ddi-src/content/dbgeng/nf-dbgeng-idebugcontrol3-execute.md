@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 595aa371-ff7e-48e2-b29a-a7aabc70ebd7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::Execute, Execute method [Windows Debugging], IDebugControl interface, debugger.execute, IDebugControl2 interface [Windows Debugging], Execute method, IDebugControl3 interface [Windows Debugging], Execute method, dbgeng/IDebugControl3::Execute, Execute, dbgeng/IDebugControl2::Execute, Execute method [Windows Debugging], Execute method [Windows Debugging], IDebugControl3 interface, IDebugControl::Execute, dbgeng/IDebugControl::Execute, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, Execute method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], Execute method, IDebugControl3, IDebugControl2::Execute
+ms.keywords: Execute, IDebugControl2 interface [Windows Debugging], Execute method, IDebugControl2::Execute, IDebugControl::Execute, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, IDebugControl3, IDebugControl interface [Windows Debugging], Execute method, IDebugControl3 interface [Windows Debugging], Execute method, Execute method [Windows Debugging], IDebugControl interface, Execute method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::Execute, Execute method [Windows Debugging], dbgeng/IDebugControl2::Execute, IDebugControl3::Execute, Execute method [Windows Debugging], IDebugControl3 interface, debugger.execute, dbgeng/IDebugControl::Execute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.Execute
 -	IDebugControl2.Execute
 -	IDebugControl3.Execute
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::Execute method
@@ -155,13 +155,13 @@ This method executes the given command string.  If the string has multiple comma
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
 
  
 

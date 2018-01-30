@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEQUERY
-title: _D3DHAL_DP2CREATEQUERY
+title: "_D3DHAL_DP2CREATEQUERY"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2createquery.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9998743d-57d5-4289-91c5-1c810bf4ca65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2CREATEQUERY, D3DHAL_DP2CREATEQUERY structure [Display Devices], LPD3DHAL_DP2CREATEQUERY, d3dhal/LPD3DHAL_DP2CREATEQUERY, d3dstrct_d90487be-ec5e-416b-9ca8-fc431596cb27.xml, d3dhal/D3DHAL_DP2CREATEQUERY, LPD3DHAL_DP2CREATEQUERY structure pointer [Display Devices], display.d3dhal_dp2createquery, *LPD3DHAL_DP2CREATEQUERY, _D3DHAL_DP2CREATEQUERY
+ms.keywords: D3DHAL_DP2CREATEQUERY, D3DHAL_DP2CREATEQUERY structure [Display Devices], d3dhal/LPD3DHAL_DP2CREATEQUERY, LPD3DHAL_DP2CREATEQUERY, _D3DHAL_DP2CREATEQUERY, *LPD3DHAL_DP2CREATEQUERY, d3dhal/D3DHAL_DP2CREATEQUERY, display.d3dhal_dp2createquery, LPD3DHAL_DP2CREATEQUERY structure pointer [Display Devices], d3dstrct_d90487be-ec5e-416b-9ca8-fc431596cb27.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2CREATEQUERY
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ DWORD for D3DQUERYTYPE_OCCLUSION. The driver sets this DWORD to the number of pi
 
 ## -see-also
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 D3DDP2OP_CREATEQUERY
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5e364e83-76db-44b0-b5bc-15eed53bbbdf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetShort method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_getshort, ExtRemoteData, ExtRemoteData::GetShort, ExtRemoteData class [Windows Debugging], GetShort method, GetShort, GetShort method [Windows Debugging], EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml
+ms.keywords: EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml, GetShort, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetShort method, debugger.extremotedata_getshort, GetShort method [Windows Debugging], ExtRemoteData class, GetShort method [Windows Debugging], ExtRemoteData::GetShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.GetShort
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteData::GetShort method

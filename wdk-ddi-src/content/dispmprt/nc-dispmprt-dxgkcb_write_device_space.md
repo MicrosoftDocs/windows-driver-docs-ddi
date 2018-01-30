@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbWriteDeviceSpace
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
 ---
 
 # DXGKCB_WRITE_DEVICE_SPACE callback
@@ -87,6 +87,26 @@ The type of write transaction to be performed. This parameter must be one of the
 
 
 
+#### DXGK_WHICHSPACE_BRIDGE
+
+Write to the parent bus device's configuration space.
+
+
+#### DXGK_WHICHSPACE_CONFIG
+
+Write to the display adapter's configuration space.
+
+
+#### DXGK_WHICHSPACE_MCH
+
+Write to the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
+
+
+#### DXGK_WHICHSPACE_ROM
+
+Write to the display adapter's expansion ROM.
+
+
 ### -param Buffer [in]
 
 A pointer to a buffer that supplies the data to be written to the configuration space.
@@ -105,26 +125,6 @@ The number of bytes to be written.
 ### -param BytesWritten [out]
 
 A pointer to a ULONG-typed variable that receives the number of bytes actually written.
-
-
-##### - DataType.DXGK_WHICHSPACE_BRIDGE
-
-Write to the parent bus device's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_CONFIG
-
-Write to the display adapter's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_ROM
-
-Write to the display adapter's expansion ROM.
-
-
-##### - DataType.DXGK_WHICHSPACE_MCH
-
-Write to the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
 
 
 ## -returns

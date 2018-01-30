@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	DefaultConstantBufferUpdateSubresourceUP
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP callback
@@ -95,21 +95,6 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 
 
 
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to copy to. 
-
-
-#### - DepthPitch [in]
-
- The offset, in bytes, to move to the next depth slice of source data.
-
-
-#### - pDstBox [in, optional]
-
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -120,6 +105,16 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
  A handle to the destination resource to copy to.
 
 
+#### - DstSubresource [in]
+
+ An index that indicates the destination subresource to copy to. 
+
+
+#### - pDstBox [in, optional]
+
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
+
+
 #### - pSysMemUP [in]
 
  A pointer to the beginning address of the source data that <i>DefaultConstantBufferUpdateSubresourceUP</i> uses to update the destination subresouce. 
@@ -128,6 +123,11 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 #### - RowPitch [in]
 
  The offset, in bytes, to move to the next row of source data. 
+
+
+#### - DepthPitch [in]
+
+ The offset, in bytes, to move to the next depth slice of source data.
 
 
 ## -returns
@@ -150,13 +150,13 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceupdatesubresourceup.md">ResourceUpdateSubresourceUP</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

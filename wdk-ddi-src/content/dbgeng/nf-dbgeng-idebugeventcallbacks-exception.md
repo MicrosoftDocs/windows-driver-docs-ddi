@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Exception method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::Exception, IDebugEventCallbacks, Exception, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], Exception method, debugger.idebugeventcallbacks_exception, IDebugEventCallbacks::Exception
+ms.keywords: Exception, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception method [Windows Debugging], dbgeng/IDebugEventCallbacks::Exception, IDebugEventCallbacks, IDebugEventCallbacks::Exception, IDebugEventCallbacks interface [Windows Debugging], Exception method, debugger.idebugeventcallbacks_exception, Exception method [Windows Debugging], IDebugEventCallbacks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.Exception
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::Exception method

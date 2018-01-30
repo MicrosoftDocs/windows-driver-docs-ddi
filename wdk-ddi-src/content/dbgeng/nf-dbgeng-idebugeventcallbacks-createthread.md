@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateThread, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread, ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread method [Windows Debugging], IDebugEventCallbacks interface, CreateThread method [Windows Debugging]
+ms.keywords: IDebugEventCallbacks::CreateThread, CreateThread, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, CreateThread method [Windows Debugging], ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, debugger.idebugeventcallbacks_createthread, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks, CreateThread method [Windows Debugging], IDebugEventCallbacks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.CreateThread
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::CreateThread method

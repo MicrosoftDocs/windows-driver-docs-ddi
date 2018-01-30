@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEQUERY
-title: _D3DDDIARG_CREATEQUERY
+title: "_D3DDDIARG_CREATEQUERY"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEQUERY structure identifies a query to create.
 old-location: display\d3dddiarg_createquery.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f80224c6-9046-4471-b6c6-eb14f02fc51f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], _D3DDDIARG_CREATEQUERY, UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
+ms.keywords: display.d3dddiarg_createquery, D3DDDIARG_CREATEQUERY structure [Display Devices], d3dumddi/D3DDDIARG_CREATEQUERY, _D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY, UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CREATEQUERY
 product: Windows
 targetos: Windows
@@ -246,9 +246,9 @@ The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 

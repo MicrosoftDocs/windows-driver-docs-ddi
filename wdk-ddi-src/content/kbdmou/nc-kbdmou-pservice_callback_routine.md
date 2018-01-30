@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	kbdmou.h
-apiname: 
+apiname:
 -	ClassServiceCallback
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS"
 ---
 
 # PSERVICE_CALLBACK_ROUTINE callback
@@ -171,9 +171,9 @@ VOID MouseClassServiceCallback(
 
 ## -see-also
 
-<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
+
+<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
 

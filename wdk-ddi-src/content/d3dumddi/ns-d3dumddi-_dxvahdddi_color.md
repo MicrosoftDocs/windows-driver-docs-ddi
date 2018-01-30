@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR
-title: _DXVAHDDDI_COLOR
+title: "_DXVAHDDDI_COLOR"
 author: windows-driver-content
 description: The DXVAHDDDI_COLOR union contains information that specifies color with either a YCbCr or RGB color structure.
 old-location: display\dxvahdddi_color.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1a2fae-29f1-4143-9d43-b10db300de03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVAHDDDI_COLOR, d3dumddi/DXVAHDDDI_COLOR, DXVAHDDDI_COLOR, DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml, DXVAHDDDI_COLOR union [Display Devices], display.dxvahdddi_color
+ms.keywords: DXVAHDDDI_COLOR union [Display Devices], _DXVAHDDDI_COLOR, d3dumddi/DXVAHDDDI_COLOR, display.dxvahdddi_color, DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml, DXVAHDDDI_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_COLOR
 product: Windows
 targetos: Windows
@@ -80,9 +80,9 @@ typedef union _DXVAHDDDI_COLOR {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a>
 
  
 

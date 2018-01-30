@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44C5BE49-E8D5-4E6C-BDC5-494F180D580A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: eVolumeAttribute, portcls/ePeakMeterAttribute, portcls/eMuteAttribute, audio.echanneltargettype, eChannelTargetType, ePeakMeterAttribute, eChannelTargetType enumeration [Audio Devices], eMuteAttribute, portcls/eVolumeAttribute, portcls/eChannelTargetType
+ms.keywords: audio.echanneltargettype, eVolumeAttribute, portcls/eVolumeAttribute, eChannelTargetType, eMuteAttribute, ePeakMeterAttribute, portcls/ePeakMeterAttribute, eChannelTargetType enumeration [Audio Devices], portcls/eChannelTargetType, portcls/eMuteAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	eChannelTargetType
 product: Windows
 targetos: Windows

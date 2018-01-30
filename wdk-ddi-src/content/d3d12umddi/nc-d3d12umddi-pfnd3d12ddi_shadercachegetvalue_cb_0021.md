@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnShaderCacheGetValueCb
 product: Windows
 targetos: Windows
@@ -110,9 +110,9 @@ The length of the key.
 
 
 
-#### - pValue [out, optional]
+#### - pPrecomputedHash [in]
 
-A pointer to an output value. 
+A hash value.
 
 
 #### - pKey [in]
@@ -120,14 +120,14 @@ A pointer to an output value.
 A pointer to a key.
 
 
+#### - pValue [out, optional]
+
+A pointer to an output value. 
+
+
 #### - pValueLen [in, out]
 
 The length of the output value.
-
-
-#### - pPrecomputedHash [in]
-
-A hash value.
 
 
 ## -returns

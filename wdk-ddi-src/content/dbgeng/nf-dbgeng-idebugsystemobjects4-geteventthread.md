@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a28c9bd-480e-4864-b7ff-9ff0dc1d04ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventThread method [Windows Debugging], IDebugSystemObjects4::GetEventThread, IDebugSystemObjects4 interface [Windows Debugging], GetEventThread method, dbgeng/IDebugSystemObjects3::GetEventThread, IDebugSystemObjects2 interface [Windows Debugging], GetEventThread method, GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects_2074b9ad-a761-42fd-93ed-4774c2ddf3a5.xml, dbgeng/IDebugSystemObjects2::GetEventThread, dbgeng/IDebugSystemObjects4::GetEventThread, IDebugSystemObjects2::GetEventThread, IDebugSystemObjects::GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4, IDebugSystemObjects3 interface [Windows Debugging], GetEventThread method, IDebugSystemObjects interface [Windows Debugging], GetEventThread method, IDebugSystemObjects3::GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects4 interface, GetEventThread method [Windows Debugging], IDebugSystemObjects interface, debugger.geteventthread, dbgeng/IDebugSystemObjects::GetEventThread
+ms.keywords: GetEventThread method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects::GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects2::GetEventThread, IDebugSystemObjects2::GetEventThread, IDebugSystemObjects4::GetEventThread, IDebugSystemObjects4, GetEventThread method [Windows Debugging], GetEventThread method [Windows Debugging], IDebugSystemObjects interface, GetEventThread, IDebugSystemObjects2 interface [Windows Debugging], GetEventThread method, dbgeng/IDebugSystemObjects3::GetEventThread, IDebugSystemObjects interface [Windows Debugging], GetEventThread method, IDebugSystemObjects3::GetEventThread, dbgeng/IDebugSystemObjects::GetEventThread, IDebugSystemObjects4 interface [Windows Debugging], GetEventThread method, dbgeng/IDebugSystemObjects4::GetEventThread, GetEventThread method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_2074b9ad-a761-42fd-93ed-4774c2ddf3a5.xml, debugger.geteventthread, IDebugSystemObjects3 interface [Windows Debugging], GetEventThread method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects.GetEventThread
 -	IDebugSystemObjects2.GetEventThread
 -	IDebugSystemObjects3.GetEventThread
 -	IDebugSystemObjects4.GetEventThread
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects4::GetEventThread method

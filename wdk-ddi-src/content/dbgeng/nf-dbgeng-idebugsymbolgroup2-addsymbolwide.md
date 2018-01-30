@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.addsymbolwide, AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, IDebugSymbolGroup2::AddSymbolWide, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, IDebugSymbolGroup2, AddSymbolWide method [Windows Debugging]
+ms.keywords: AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::AddSymbolWide, AddSymbolWide, AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup2.AddSymbolWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbolGroup2::AddSymbolWide method
@@ -118,13 +118,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:extsfns._DEBUG_FLR_PARAM_TYPE
-title: _DEBUG_FLR_PARAM_TYPE
+title: "_DEBUG_FLR_PARAM_TYPE"
 author: windows-driver-content
 description: The values of DEBUG_FLR_PARAM_TYPE enumeration are tags that indicate the kind of information that is stored in failure analysis entry.
 old-location: debugger\debug_flr_param_type.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: D57D356F-DC11-4C27-97D3-DF40BF2AB490
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ..., extsfns/DEBUG_FLR_PARAM_TYPE, _DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_INVALID, DEBUG_FLR_MASK_ALL, FA_TAG, extsfns/..., DEBUG_FLR_RESERVED, DEBUG_FLR_DRIVER_OBJECT, extsfns/DEBUG_FLR_RESERVED, DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], DEBUG_FLR_INVALID, debugger.debug_flr_param_type, extsfns/DEBUG_FLR_MASK_ALL
+ms.keywords: extsfns/DEBUG_FLR_INVALID, extsfns/DEBUG_FLR_MASK_ALL, extsfns/..., debugger.debug_flr_param_type, DEBUG_FLR_RESERVED, DEBUG_FLR_INVALID, _DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_DRIVER_OBJECT, ..., extsfns/DEBUG_FLR_RESERVED, DEBUG_FLR_MASK_ALL, extsfns/DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], FA_TAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	DEBUG_FLR_PARAM_TYPE
 product: Windows
 targetos: Windows
@@ -3010,13 +3010,13 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

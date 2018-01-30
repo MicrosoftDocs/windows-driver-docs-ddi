@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hidport.h
-apiname: 
+apiname:
 -	IOCTL_UMDF_HID_SET_OUTPUT_REPORT
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
 ---
 
 # IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL

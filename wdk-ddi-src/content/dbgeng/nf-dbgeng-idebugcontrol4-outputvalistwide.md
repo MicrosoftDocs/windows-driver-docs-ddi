@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 34d25938-5640-4e32-949f-94605ac38fa0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputVaListWide, OutputVaListWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], OutputVaListWide method, debugger.outputvalistwide, IDebugControl4, IDebugControl4::OutputVaListWide, OutputVaListWide method [Windows Debugging], dbgeng/IDebugControl4::OutputVaListWide
+ms.keywords: IDebugControl4 interface [Windows Debugging], OutputVaListWide method, OutputVaListWide method [Windows Debugging], dbgeng/IDebugControl4::OutputVaListWide, OutputVaListWide, OutputVaListWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4::OutputVaListWide, debugger.outputvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.OutputVaListWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::OutputVaListWide method
@@ -289,11 +289,11 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 

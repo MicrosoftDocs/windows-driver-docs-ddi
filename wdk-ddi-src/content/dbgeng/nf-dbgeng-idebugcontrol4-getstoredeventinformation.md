@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetStoredEventInformation, dbgeng/IDebugControl4::GetStoredEventInformation, GetStoredEventInformation method [Windows Debugging], debugger.getstoredeventinformation, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, GetStoredEventInformation, IDebugControl4, GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface
+ms.keywords: IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, GetStoredEventInformation method [Windows Debugging], IDebugControl4::GetStoredEventInformation, GetStoredEventInformation, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetStoredEventInformation method, GetStoredEventInformation method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetStoredEventInformation
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetStoredEventInformation method
@@ -157,9 +157,9 @@ For more information, see the topic <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546982">GetLastEventInformation</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546982">GetLastEventInformation</a>
 
  
 

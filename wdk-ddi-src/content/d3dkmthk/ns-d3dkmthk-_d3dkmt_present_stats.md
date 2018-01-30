@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_STATS
-title: _D3DKMT_PRESENT_STATS
+title: "_D3DKMT_PRESENT_STATS"
 author: windows-driver-content
 description: The D3DKMT_PRESENT_STATS structure describes present status for a rendering device.
 old-location: display\d3dkmt_present_stats.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS, display.d3dkmt_present_stats, d3dkmthk/D3DKMT_PRESENT_STATS, OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, D3DKMT_PRESENT_STATS structure [Display Devices]
+ms.keywords: display.d3dkmt_present_stats, D3DKMT_PRESENT_STATS, d3dkmthk/D3DKMT_PRESENT_STATS, _D3DKMT_PRESENT_STATS, OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, D3DKMT_PRESENT_STATS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_PRESENT_STATS
 product: Windows
 targetos: Windows
@@ -109,9 +109,9 @@ Present statistics cannot work for windowed-mode devices. For windowed mode, eac
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
 
  
 

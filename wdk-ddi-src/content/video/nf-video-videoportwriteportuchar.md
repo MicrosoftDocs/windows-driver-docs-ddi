@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f05f765-ca59-4a92-91a0-f1123dd9cd6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWritePortUchar, VideoPort_Functions_cfd3f257-e96f-4f75-a335-6b78aaa47c70.xml, video/VideoPortWritePortUchar, display.videoportwriteportuchar, VideoPortWritePortUchar function [Display Devices]
+ms.keywords: VideoPortWritePortUchar function [Display Devices], VideoPort_Functions_cfd3f257-e96f-4f75-a335-6b78aaa47c70.xml, display.videoportwriteportuchar, VideoPortWritePortUchar, video/VideoPortWritePortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortWritePortUchar
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortWritePortUchar function

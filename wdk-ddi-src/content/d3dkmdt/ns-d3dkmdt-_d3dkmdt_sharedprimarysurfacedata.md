@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_SHAREDPRIMARYSURFACEDATA
-title: _D3DKMDT_SHAREDPRIMARYSURFACEDATA
+title: "_D3DKMDT_SHAREDPRIMARYSURFACEDATA"
 author: windows-driver-content
 description: The D3DKMDT_SHAREDPRIMARYSURFACEDATA structure describes a shared primary surface.
 old-location: display\d3dkmdt_sharedprimarysurfacedata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA, DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, display.d3dkmdt_sharedprimarysurfacedata, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices]
+ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], display.d3dkmdt_sharedprimarysurfacedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_SHAREDPRIMARYSURFACEDATA
 product: Windows
 targetos: Windows
@@ -105,13 +105,13 @@ Multiple processes can lock a shared primary surface. The video memory manager p
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
 
  
 

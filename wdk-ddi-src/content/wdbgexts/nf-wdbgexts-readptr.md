@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, ReadPtr, debugger.readptr, wdbgexts/ReadPtr, ReadPtr function [Windows Debugging]
+ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], wdbgexts/ReadPtr, debugger.readptr, WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	ReadPtr
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # ReadPtr function

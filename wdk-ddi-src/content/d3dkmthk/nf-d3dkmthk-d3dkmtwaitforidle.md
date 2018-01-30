@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForIdle, display.d3dkmtwaitforidle, D3DKMTWaitForIdle function [Display Devices], d3dkmthk/D3DKMTWaitForIdle, OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml
+ms.keywords: d3dkmthk/D3DKMTWaitForIdle, OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, D3DKMTWaitForIdle function [Display Devices], D3DKMTWaitForIdle, display.d3dkmtwaitforidle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTWaitForIdle
 product: Windows
 targetos: Windows

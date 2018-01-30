@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_POWER_RUNTIME_COMPONENT
-title: _DXGK_POWER_RUNTIME_COMPONENT
+title: "_DXGK_POWER_RUNTIME_COMPONENT"
 author: windows-driver-content
 description: Describes information about a power component&#8212;for example, a graphics processing engine, a display device, or a block of memory.
 old-location: display\dxgk_power_runtime_component.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_power_runtime_component, _DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT
+ms.keywords: d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component, _DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], DXGK_POWER_RUNTIME_COMPONENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_POWER_RUNTIME_COMPONENT
 product: Windows
 targetos: Windows

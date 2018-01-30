@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1695abc2-13ef-4168-b3f5-e9e8be55c5f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_f5c7a3e5-651c-48f0-b58c-4a6571c10a61.xml, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMTCheckExclusiveOwnership, D3DKMTCheckExclusiveOwnership, display.d3dkmtcheckexclusiveownership, D3DKMTCheckExclusiveOwnership function [Display Devices]
+ms.keywords: display.d3dkmtcheckexclusiveownership, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP, D3DKMTCheckExclusiveOwnership function [Display Devices], d3dkmthk/D3DKMTCheckExclusiveOwnership, D3DKMTCheckExclusiveOwnership, OpenGL_Functions_f5c7a3e5-651c-48f0-b58c-4a6571c10a61.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCheckExclusiveOwnership
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ For a description of ownership levels of video present sources, see the <a href=
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetvidpnsourceowner.md">D3DKMTSetVidPnSourceOwner</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setvidpnsourceowner.md">D3DKMT_SETVIDPNSOURCEOWNER</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetvidpnsourceowner.md">D3DKMTSetVidPnSourceOwner</a>
 
  
 

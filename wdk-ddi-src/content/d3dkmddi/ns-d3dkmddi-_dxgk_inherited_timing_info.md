@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_INHERITED_TIMING_INFO
-title: _DXGK_INHERITED_TIMING_INFO
+title: "_DXGK_INHERITED_TIMING_INFO"
 author: windows-driver-content
 description: Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds.
 old-location: display\dxgk_inherited_timing_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], d3dkmddi/DXGK_INHERITED_TIMING_INFO, _DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], display.dxgk_inherited_timing_info
+ms.keywords: d3dkmddi/PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info, PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_INHERITED_TIMING_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO
+req.typenames: "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO"
 ---
 
 # _DXGK_INHERITED_TIMING_INFO structure

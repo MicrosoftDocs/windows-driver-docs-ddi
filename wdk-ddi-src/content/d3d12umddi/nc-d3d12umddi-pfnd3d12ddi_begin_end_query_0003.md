@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnBeginQuery
 product: Windows
 targetos: Windows
@@ -92,24 +92,24 @@ VOID  APIENTRY* pfnBeginQuery(
 
 
 
-#### - hQueryHeap
-
-The handle of a query heap, which represents an array of query results.
-
-
-#### - StartElement
-
-The value of the start element.
-
-
 #### - hCommandList
 
 The handle of a command list for which to query. 
 
 
+#### - hQueryHeap
+
+The handle of a query heap, which represents an array of query results.
+
+
 #### - QueryType
 
 The type of query.
+
+
+#### - StartElement
+
+The value of the start element.
 
 
 ## -returns

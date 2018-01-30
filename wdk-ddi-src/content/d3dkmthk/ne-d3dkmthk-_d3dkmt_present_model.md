@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_PRESENT_MODEL
-title: _D3DKMT_PRESENT_MODEL
+title: "_D3DKMT_PRESENT_MODEL"
 author: windows-driver-content
 description: The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation.
 old-location: display\d3dkmt_present_model.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4663cc8e-ce69-4454-afff-03d4a8d82dfb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_PM_REDIRECTED_GDI_SYSMEM, d3dkmthk/D3DKMT_PM_REDIRECTED_BLT, D3DKMT_PRESENT_MODEL, d3dkmthk/D3DKMT_PM_REDIRECTED_FLIP, d3dkmthk/D3DKMT_PM_SCREENCAPTUREFENCE, d3dkmthk/D3DKMT_PRESENT_MODEL, D3DKMT_PM_UNINITIALIZED, D3DKMT_PRESENT_MODEL enumeration [Display Devices], D3DKMT_PM_REDIRECTED_COMPOSITION, _D3DKMT_PRESENT_MODEL, D3DKMT_PM_REDIRECTED_BLT, d3dkmthk/D3DKMT_PM_UNINITIALIZED, d3dkmthk/D3DKMT_PM_REDIRECTED_VISTABLT, d3dkmthk/D3DKMT_PM_REDIRECTED_COMPOSITION, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI, D3DKMT_PM_REDIRECTED_GDI_SYSMEM, D3DKMT_PM_SCREENCAPTUREFENCE, D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PM_REDIRECTED_GDI, D3DKMT_PM_REDIRECTED_VISTABLT, display.d3dkmt_present_model, OpenGL_Structs_b2e4c00b-9072-449d-84c0-7958200e7d9a.xml
+ms.keywords: D3DKMT_PRESENT_MODEL enumeration [Display Devices], D3DKMT_PM_REDIRECTED_COMPOSITION, d3dkmthk/D3DKMT_PM_UNINITIALIZED, d3dkmthk/D3DKMT_PM_REDIRECTED_COMPOSITION, D3DKMT_PM_SCREENCAPTUREFENCE, _D3DKMT_PRESENT_MODEL, D3DKMT_PM_REDIRECTED_BLT, d3dkmthk/D3DKMT_PRESENT_MODEL, D3DKMT_PM_REDIRECTED_VISTABLT, D3DKMT_PM_REDIRECTED_GDI, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI_SYSMEM, D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PRESENT_MODEL, OpenGL_Structs_b2e4c00b-9072-449d-84c0-7958200e7d9a.xml, display.d3dkmt_present_model, d3dkmthk/D3DKMT_PM_REDIRECTED_BLT, d3dkmthk/D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PM_REDIRECTED_GDI_SYSMEM, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI, d3dkmthk/D3DKMT_PM_REDIRECTED_VISTABLT, d3dkmthk/D3DKMT_PM_SCREENCAPTUREFENCE, D3DKMT_PM_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_PRESENT_MODEL
 product: Windows
 targetos: Windows

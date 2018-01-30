@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: aea1d82d-39b8-4535-a5c3-fb987be1e43c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], ntpoapi/BATTERY_REPORTING_SCALE, bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure [Battery Devices], BATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE, ntpoapi/PBATTERY_REPORTING_SCALE, battery.battery_reporting_scale
+ms.keywords: ntpoapi/PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE, ntpoapi/BATTERY_REPORTING_SCALE, battery.battery_reporting_scale, *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, BATTERY_REPORTING_SCALE structure [Battery Devices], PBATTERY_REPORTING_SCALE structure pointer [Battery Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntpoapi.h
-apiname: 
+apiname:
 -	BATTERY_REPORTING_SCALE
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # BATTERY_REPORTING_SCALE structure

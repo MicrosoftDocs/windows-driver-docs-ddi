@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_X86
-title: _DEBUG_PROCESSOR_IDENTIFICATION_X86
+title: "_DEBUG_PROCESSOR_IDENTIFICATION_X86"
 author: windows-driver-content
 description: Identifies an x86 processor.
 old-location: debugger\debug_processor_identification_x86.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B5AD9CE8-B0F0-49BC-984E-4372FD3BF93B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: _DEBUG_PROCESSOR_IDENTIFICATION_X86, debugger.debug_processor_identification_x86, DEBUG_PROCESSOR_IDENTIFICATION_X86 structure [Windows Debugging], dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_X86, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86, PDEBUG_PROCESSOR_IDENTIFICATION_X86, *PDEBUG_PROCESSOR_IDENTIFICATION_X86, PDEBUG_PROCESSOR_IDENTIFICATION_X86 structure pointer [Windows Debugging]
+ms.keywords: "_DEBUG_PROCESSOR_IDENTIFICATION_X86, *PDEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86 structure [Windows Debugging], dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_X86, debugger.debug_processor_identification_x86, DEBUG_PROCESSOR_IDENTIFICATION_X86, PDEBUG_PROCESSOR_IDENTIFICATION_X86 structure pointer [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_X86, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_X86"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_PROCESSOR_IDENTIFICATION_X86
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86
+req.typenames: "*PDEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86"
 ---
 
 # _DEBUG_PROCESSOR_IDENTIFICATION_X86 structure

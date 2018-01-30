@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: FindSourceFile method [Windows Debugging], IDebugSymbols2::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols3::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, FindSourceFile method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, dbgeng/IDebugSymbols3::FindSourceFile, IDebugSymbols interface [Windows Debugging], FindSourceFile method, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3, debugger.findsourcefile, FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile
+ms.keywords: FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::FindSourceFile, IDebugSymbols interface [Windows Debugging], FindSourceFile method, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, IDebugSymbols3, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols::FindSourceFile, FindSourceFile, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.FindSourceFile
 -	IDebugSymbols2.FindSourceFile
 -	IDebugSymbols3.FindSourceFile
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::FindSourceFile method
@@ -176,19 +176,19 @@ The first match found is returned.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
-title: _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
+title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX"
 author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX structure is used as input to an IOCTL_ACPI_EVAL_METHOD_EX request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD_EX request.
 old-location: acpi\acpi_eval_input_buffer_simple_string_ex.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 47991f08-b67d-45f9-ad39-567b6c23c545
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpi.acpi_eval_input_buffer_simple_string_ex, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure pointer [ACPI Devices], acpi-meth-eval-ref_f58bbb60-e173-408c-a95f-a486eec6d32a.xml, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
+ms.keywords: PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpi-meth-eval-ref_f58bbb60-e173-408c-a95f-a486eec6d32a.xml, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, acpi.acpi_eval_input_buffer_simple_string_ex, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
+req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX structure
@@ -121,9 +121,9 @@ Set <b>String</b> to the input string.
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
 
  
 

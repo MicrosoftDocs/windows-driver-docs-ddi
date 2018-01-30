@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Tbd
 req.dll: Tbd
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	tbd
-apiname: 
+apiname:
 -	D3DKMTSubmitCommandToHwQueue
 product: Windows
 targetos: Windows

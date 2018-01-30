@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, dbgeng/IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces4, SearchVirtual2, SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, debugger.searchvirtual2, IDebugDataSpaces4::SearchVirtual2, SearchVirtual2 method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces4.SearchVirtual2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugDataSpaces4::SearchVirtual2 method
@@ -154,9 +154,9 @@ This method searches the target's virtual memory for the first occurrence, subje
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554747">SearchVirtual</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
  
 

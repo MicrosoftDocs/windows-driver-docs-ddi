@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, PcCompletePendingPropertyRequest, portcls/PcCompletePendingPropertyRequest
+ms.keywords: audio.pccompletependingpropertyrequest, portcls/PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Portcls.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcCompletePendingPropertyRequest
 product: Windows
 targetos: Windows
@@ -97,7 +97,7 @@ The driver should call <b>PcCompletePendingPropertyRequest</b> only when the req
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
 
 <a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
 

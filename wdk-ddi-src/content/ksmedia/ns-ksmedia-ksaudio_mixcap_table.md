@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 508d73f6-1660-4663-87f5-8dbd1dff153a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAUDIO_MIXCAP_TABLE, audio.ksaudio_mixcap_table, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], *PKSAUDIO_MIXCAP_TABLE, aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, ksmedia/PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], ksmedia/KSAUDIO_MIXCAP_TABLE
+ms.keywords: KSAUDIO_MIXCAP_TABLE structure [Audio Devices], *PKSAUDIO_MIXCAP_TABLE, aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, KSAUDIO_MIXCAP_TABLE, ksmedia/KSAUDIO_MIXCAP_TABLE, audio.ksaudio_mixcap_table, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], PKSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIO_MIXCAP_TABLE
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE
+req.typenames: "*PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE"
 ---
 
 # KSAUDIO_MIXCAP_TABLE structure
@@ -187,13 +187,13 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
  
 

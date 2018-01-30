@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DRENDERSTATETYPE
-title: _D3DRENDERSTATETYPE
+title: "_D3DRENDERSTATETYPE"
 author: windows-driver-content
 description: The D3DRENDERSTATETYPE enumerated type lists a variety of attributes, or render states.
 old-location: display\d3drenderstatetype.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82978b22-1538-4da0-bcf2-c4c52d2e3429
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: enumeration [Display Devices], _D3DRENDERSTATETYPE, D3DRENDERSTATE_SCENECAPTURE, d3denum_6b8d96f8-ff88-43c3-9850-a213d84d548f.xml, D3DRS_MAXPIXELSHADERINST, d3d9types/, d3d9types/D3DRS_MAXPIXELSHADERINST, d3d9types/D3DRS_MAXVERTEXSHADERINST, d3d9types/D3DRS_DELETERTPATCH, D3DRENDERSTATETYPE, D3DRS_MAXVERTEXSHADERINST, d3d9types/D3DRENDERSTATE_EVICTMANAGEDTEXTURES, d3d9types/D3DRENDERSTATE_SCENECAPTURE, display.d3drenderstatetype, D3DRS_DELETERTPATCH, D3DRENDERSTATE_EVICTMANAGEDTEXTURES
+ms.keywords: D3DRENDERSTATE_SCENECAPTURE, d3d9types/D3DRENDERSTATE_EVICTMANAGEDTEXTURES, d3denum_6b8d96f8-ff88-43c3-9850-a213d84d548f.xml, d3d9types/D3DRS_MAXPIXELSHADERINST, D3DRENDERSTATETYPE, enumeration [Display Devices], _D3DRENDERSTATETYPE, d3d9types/D3DRS_DELETERTPATCH, D3DRS_MAXPIXELSHADERINST, d3d9types/, D3DRS_DELETERTPATCH, d3d9types/D3DRENDERSTATE_SCENECAPTURE, D3DRS_MAXVERTEXSHADERINST, d3d9types/D3DRS_MAXVERTEXSHADERINST, display.d3drenderstatetype, D3DRENDERSTATE_EVICTMANAGEDTEXTURES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d9types.h
-apiname: 
+apiname:
 -	D3DRENDERSTATETYPE
 product: Windows
 targetos: Windows
@@ -491,6 +491,14 @@ enum  {
 
 
 
+#### - D3DRENDERSTATE_EVICTMANAGEDTEXTURES
+
+ Determines whether textures are evicted from memory.
+The driver uses a BOOL data type without a default value to detect whether to evict.
+
+This render state determines whether the driver evicts textures that it manages (as opposed to textures managed by the Direct3D runtime) from video memory. If the render state value is <b>TRUE</b>, the driver evicts the textures. Otherwise, the driver does not evict those textures.
+
+
 #### - D3DRENDERSTATE_SCENECAPTURE
 
 Specifies either begin scene information or end scene information for geometric data captured within a frame.
@@ -501,40 +509,6 @@ See the <i>permedia2</i> sample driver that ships with the Windows Driver Develo
 Using the D3DRENDERSTATE_SCENECAPTURE render state in a <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> call replaces the legacy <b>D3DHALCallbacks</b>-&gt;<i>D3dSceneCapture</i> callback routine.
 
 Care must be taken in updating a driver that implements the legacy <b>D3DHALCallbacks</b>-&gt;<i>D3dSceneCapture</i> callback routine to one using the D3DRENDERSTATE_SCENECAPTURE render state. The <i>D3dSceneCapture</i> callback routine uses the constants D3DHAL_SCENE_CAPTURE_START and D3DHAL_SCENE_CAPTURE_END to indicate, respectively, the beginning and end of a scene. The values of these constants are, respectively, 0 and 1. If you use these constants in place of <b>TRUE</b> and <b>FALSE</b> in this render state, the meaning will be the exact opposite of what you intend.
-
-
-#### - D3DRS_MAXPIXELSHADERINST
-
-<b>DirectX 9.0 and later versions only.</b>
-
-Determines the maximum number of instructions that the pixel shader assembler can execute.
-
-The driver uses a DWORD data type with a default value of D3DINFINITEINSTRUCTIONS (0xffffffff) to report the maximum number of pixel-shader instructions.
-This maximum number depends on the version of the pixel shader that the display device supports as shown in the following table.
-<table>
-<tr>
-<th>Version</th>
-<th>Maximum number</th>
-</tr>
-<tr>
-<td>earlier than 2_0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>2_0</td>
-<td>From 96 to D3DINFINITEINSTRUCTIONS</td>
-</tr>
-<tr>
-<td>3_0 and later</td>
-<td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
-</tr>
-</table> 
-
-D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
-
-Valid values for this render state are numbers that are powers of 2; if the driver sets any other integer, the runtime uses the next nearest power of 2 number.
-
-The runtime sets the <b>MaxVShaderInstructionsExecuted</b> member of the D3DCAPS9 structure to this maximum number.
 
 
 #### - D3DRS_DELETERTPATCH
@@ -577,12 +551,38 @@ Valid values for this render state are numbers that are powers of 2; if the driv
 The runtime sets the <b>MaxVShaderInstructionsExecuted</b> member of the D3DCAPS9 structure to this maximum number.
 
 
-#### - D3DRENDERSTATE_EVICTMANAGEDTEXTURES
+#### - D3DRS_MAXPIXELSHADERINST
 
- Determines whether textures are evicted from memory.
-The driver uses a BOOL data type without a default value to detect whether to evict.
+<b>DirectX 9.0 and later versions only.</b>
 
-This render state determines whether the driver evicts textures that it manages (as opposed to textures managed by the Direct3D runtime) from video memory. If the render state value is <b>TRUE</b>, the driver evicts the textures. Otherwise, the driver does not evict those textures.
+Determines the maximum number of instructions that the pixel shader assembler can execute.
+
+The driver uses a DWORD data type with a default value of D3DINFINITEINSTRUCTIONS (0xffffffff) to report the maximum number of pixel-shader instructions.
+This maximum number depends on the version of the pixel shader that the display device supports as shown in the following table.
+<table>
+<tr>
+<th>Version</th>
+<th>Maximum number</th>
+</tr>
+<tr>
+<td>earlier than 2_0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2_0</td>
+<td>From 96 to D3DINFINITEINSTRUCTIONS</td>
+</tr>
+<tr>
+<td>3_0 and later</td>
+<td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
+</tr>
+</table> 
+
+D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
+
+Valid values for this render state are numbers that are powers of 2; if the driver sets any other integer, the runtime uses the next nearest power of 2 number.
+
+The runtime sets the <b>MaxVShaderInstructionsExecuted</b> member of the D3DCAPS9 structure to this maximum number.
 
 
 ## -remarks

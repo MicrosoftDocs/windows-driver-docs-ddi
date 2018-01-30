@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0dd32160-93d4-4fb8-aed1-9267f38e9909
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxSwapChainReportFrameStatistics method [Display Devices], iddcx/IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics, display.iddcxswapchainreportframestatistics
+ms.keywords: IddCxSwapChainReportFrameStatistics, display.iddcxswapchainreportframestatistics, IddCxSwapChainReportFrameStatistics method [Display Devices], iddcx/IddCxSwapChainReportFrameStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _Must_inspect_result_
-topictype: 
+req.irql: "_Must_inspect_result_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IddCxSwapChainReportFrameStatistics
 product: Windows
 targetos: Windows

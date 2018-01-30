@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 884a5577-3ae8-4444-bf09-3fe4f72dc7d9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide, GetImagePathWide method [Windows Debugging], GetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, GetImagePathWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetImagePathWide, IDebugSymbols3 interface [Windows Debugging], GetImagePathWide method
+ms.keywords: GetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getimagepathwide, dbgeng/IDebugSymbols3::GetImagePathWide, GetImagePathWide, IDebugSymbols3, IDebugSymbols3::GetImagePathWide, IDebugSymbols3 interface [Windows Debugging], GetImagePathWide method, GetImagePathWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetImagePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetImagePathWide method

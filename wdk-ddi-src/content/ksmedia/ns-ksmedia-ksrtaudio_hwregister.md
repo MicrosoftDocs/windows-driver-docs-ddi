@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3d1dc600-f7cb-488e-9f92-678e0a6a58f8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSRTAUDIO_HWREGISTER, aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, ksmedia/KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], audio.ksrtaudio_hwregister
+ms.keywords: ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER, audio.ksrtaudio_hwregister, aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], KSRTAUDIO_HWREGISTER structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSRTAUDIO_HWREGISTER
 product: Windows
 targetos: Windows
-req.typenames: KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER
+req.typenames: "*PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER"
 ---
 
 # KSRTAUDIO_HWREGISTER structure
@@ -119,9 +119,9 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 <a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister_property.md">KSRTAUDIO_HWREGISTER_PROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
 
  
 

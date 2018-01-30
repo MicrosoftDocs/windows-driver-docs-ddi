@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnGetPageableSize
 product: Windows
 targetos: Windows
@@ -82,12 +82,12 @@ UINT64 APIENTRY* pfnGetPageableSize(
 
 
 
-#### - GetPageableSize [in]
-
-Information used to get pageable size.
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - GetPageableSize [in]
+
+Information used to get pageable size.
 

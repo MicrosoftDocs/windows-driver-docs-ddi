@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	IaSetVertexBuffers
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_IA_SETVERTEXBUFFERS callback
@@ -95,6 +95,11 @@ VOID APIENTRY IaSetVertexBuffers(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - StartBuffer [in]
 
  The starting vertex buffer to set. 
@@ -103,11 +108,6 @@ VOID APIENTRY IaSetVertexBuffers(
 #### - phBuffers [in]
 
  An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - pStrides [in]
@@ -138,9 +138,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

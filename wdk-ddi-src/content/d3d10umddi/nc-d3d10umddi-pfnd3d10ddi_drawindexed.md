@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	DrawIndexed
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_DRAWINDEXED callback
@@ -88,6 +88,16 @@ VOID APIENTRY DrawIndexed(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - IndexCount [in]
+
+ The number of indexes in the index buffer that indexes are read from to draw the primitives. 
+
+
 #### - StartIndexLocation [in]
 
  The first index in the index buffer that indexes are read from to draw the primitives. 
@@ -96,16 +106,6 @@ VOID APIENTRY DrawIndexed(
 #### - BaseVertexLocation [in]
 
  The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
-
-
-#### - IndexCount [in]
-
- The number of indexes in the index buffer that indexes are read from to draw the primitives. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns
@@ -126,9 +126,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

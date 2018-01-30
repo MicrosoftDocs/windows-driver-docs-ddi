@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient_getoutputlineprefix, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, GetOutputLinePrefix method [Windows Debugging]
+ms.keywords: GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, GetOutputLinePrefix method [Windows Debugging], IDebugClient::GetOutputLinePrefix, IDebugClient, debugger.idebugclient_getoutputlineprefix, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient::GetOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.GetOutputLinePrefix
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient::GetOutputLinePrefix method

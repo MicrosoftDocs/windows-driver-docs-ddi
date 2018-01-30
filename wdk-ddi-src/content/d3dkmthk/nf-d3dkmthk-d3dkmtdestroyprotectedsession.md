@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e27ab1db-647d-447c-b79d-2553aa088398
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyProtectedSession method [Display Devices], d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession, D3DKMTDestroyProtectedSession
+ms.keywords: display.d3dkmtdestroyprotectedsession, D3DKMTDestroyProtectedSession method [Display Devices], D3DKMTDestroyProtectedSession, d3dkmthk/D3DKMTDestroyProtectedSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMTDestroyProtectedSession
 product: Windows
 targetos: Windows

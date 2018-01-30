@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IResourceList::UntranslatedList, UntranslatedList, portcls/IResourceList::UntranslatedList, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, IResourceList interface [Audio Devices], UntranslatedList method, UntranslatedList method [Audio Devices], IResourceList interface, audio.iresourcelist_untranslatedlist, IResourceList, UntranslatedList method [Audio Devices]
+ms.keywords: audio.iresourcelist_untranslatedlist, UntranslatedList method [Audio Devices], IResourceList interface, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, UntranslatedList, IResourceList interface [Audio Devices], UntranslatedList method, portcls/IResourceList::UntranslatedList, IResourceList, UntranslatedList method [Audio Devices], IResourceList::UntranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IResourceList.UntranslatedList
 product: Windows
 targetos: Windows
@@ -75,7 +75,7 @@ PCM_RESOURCE_LIST UntranslatedList(
 ## -returns
 
 
-<code>UntranslatedList</code> returns a pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. The resources in the list are in untranslated form. This pointer remains valid until the resource list object is deleted.
+<code>UntranslatedList</code> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. The resources in the list are in untranslated form. This pointer remains valid until the resource list object is deleted.
 
 
 
@@ -83,7 +83,7 @@ PCM_RESOURCE_LIST UntranslatedList(
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a>
 
  
 

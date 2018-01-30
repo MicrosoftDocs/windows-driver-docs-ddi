@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2BUFFERBLT
-title: _D3DHAL_DP2BUFFERBLT
+title: "_D3DHAL_DP2BUFFERBLT"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only. D3DHAL_DP2BUFFERBLT is used for vertex or index buffer blts when D3dDrawPrimitives2 responds to the D3DDP2OP_BUFFERBLT command token.
 old-location: display\d3dhal_dp2bufferblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c2cb5c2-7461-40fc-a6c7-e4a107b24f74
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2bufferblt, LPD3DHAL_DP2BUFFERBLT structure pointer [Display Devices], d3dstrct_a8101d2a-8883-434e-8577-90e18bc3f2e0.xml, D3DHAL_DP2BUFFERBLT, LPD3DHAL_DP2BUFFERBLT, *LPD3DHAL_DP2BUFFERBLT, _D3DHAL_DP2BUFFERBLT, d3dhal/D3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT structure [Display Devices], d3dhal/LPD3DHAL_DP2BUFFERBLT
+ms.keywords: "_D3DHAL_DP2BUFFERBLT, d3dhal/LPD3DHAL_DP2BUFFERBLT, LPD3DHAL_DP2BUFFERBLT structure pointer [Display Devices], D3DHAL_DP2BUFFERBLT, display.d3dhal_dp2bufferblt, d3dstrct_a8101d2a-8883-434e-8577-90e18bc3f2e0.xml, LPD3DHAL_DP2BUFFERBLT, d3dhal/D3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT structure [Display Devices], *LPD3DHAL_DP2BUFFERBLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2BUFFERBLT
 product: Windows
 targetos: Windows
@@ -115,9 +115,9 @@ See Remarks for <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEX
 
 D3DDP2OP_BUFFERBLT
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 <a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

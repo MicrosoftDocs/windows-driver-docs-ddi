@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 44e9fca2-54b1-427c-864d-f170a8a26f5e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, VideoPortQueryPerformanceCounter, video/VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], display.videoportqueryperformancecounter
+ms.keywords: VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, VideoPortQueryPerformanceCounter function [Display Devices], VideoPortQueryPerformanceCounter, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortQueryPerformanceCounter
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortQueryPerformanceCounter function

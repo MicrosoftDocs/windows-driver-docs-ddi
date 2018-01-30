@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, dbgeng/IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, debugger.getmoduleversioninformation, IDebugSymbols3
+ms.keywords: GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, debugger.getmoduleversioninformation, IDebugSymbols3, GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleVersionInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols2.GetModuleVersionInformation
 -	IDebugSymbols3.GetModuleVersionInformation
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetModuleVersionInformation method
@@ -162,13 +162,13 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

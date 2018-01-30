@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdd8042._MOUSE_STATE
-title: _MOUSE_STATE
+title: "_MOUSE_STATE"
 author: windows-driver-content
 description: The MOUSE_STATE enumeration type identifies the current state of input from a mouse.
 old-location: hid\mouse_state.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ntdd8042/ZMovement, MouseResetting, ntdd8042/PMOUSE_STATE, MOUSE_STATE enumeration [Human Input Devices], hid.mouse_state, MOUSE_STATE, ntdd8042/MouseExpectingACK, MouseIdle, PMOUSE_STATE enumeration pointer [Human Input Devices], i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, ntdd8042/MouseIdle, ntdd8042/MouseResetting, MouseExpectingACK, ntdd8042/YMovement, ntdd8042/MOUSE_STATE, _MOUSE_STATE, *PMOUSE_STATE, ZMovement, XMovement, YMovement, PMOUSE_STATE, ntdd8042/XMovement
+ms.keywords: ntdd8042/XMovement, ntdd8042/PMOUSE_STATE, MouseIdle, ntdd8042/MouseExpectingACK, hid.mouse_state, YMovement, MOUSE_STATE, ntdd8042/ZMovement, PMOUSE_STATE enumeration pointer [Human Input Devices], XMovement, MOUSE_STATE enumeration [Human Input Devices], ZMovement, _MOUSE_STATE, *PMOUSE_STATE, ntdd8042/MouseResetting, MouseExpectingACK, ntdd8042/YMovement, MouseResetting, ntdd8042/MOUSE_STATE, PMOUSE_STATE, ntdd8042/MouseIdle, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdd8042.h
-apiname: 
+apiname:
 -	MOUSE_STATE
 product: Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ---
 
 # _MOUSE_STATE enumeration
@@ -111,9 +111,9 @@ The MOUSE_STATE enumerator is used as input to a <a href="..\ntdd8042\nc-ntdd804
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
-
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4c8734b1-d7f5-476b-a85f-1d3f4df888b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UnregisterAdapterPowerManagement, portcls/IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, IPortClsPower::UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, IPortClsPower, UnregisterAdapterPowerManagement method [Audio Devices], audio.iportclspower_unregisteradapterpowermanagement
+ms.keywords: audio.iportclspower_unregisteradapterpowermanagement, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, portcls/IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method, IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortClsPower.UnregisterAdapterPowerManagement
 product: Windows
 targetos: Windows
@@ -75,7 +75,7 @@ NTSTATUS UnregisterAdapterPowerManagement(
 
 #### - DeviceObject [in]
 
-Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
@@ -94,11 +94,11 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
 
  
 

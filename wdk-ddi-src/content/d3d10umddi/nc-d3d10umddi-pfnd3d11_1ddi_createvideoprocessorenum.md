@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CreateVideoProcessorEnum
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback
@@ -92,11 +92,6 @@ HRESULT APIENTRY* CreateVideoProcessorEnum(
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -104,14 +99,19 @@ A handle to the display device (graphics context).
 
 
 
-#### - hRTVideoProcessorEnum [in]
+#### - pCreateData [in]
 
-A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
 
 #### - hVideoProcessorEnum [in]
 
 A handle to the driver's private data for the video processor enumeration object. For more information, see the Remarks section.
+
+
+#### - hRTVideoProcessorEnum [in]
+
+A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns
@@ -161,9 +161,9 @@ When the runtime  calls <i>CreateVideoProcessorEnum</i>, it passes the handle to
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorEnumSize </a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
 
  
 

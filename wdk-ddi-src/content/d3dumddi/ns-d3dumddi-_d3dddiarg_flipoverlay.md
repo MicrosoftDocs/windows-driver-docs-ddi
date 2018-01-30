@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_FLIPOVERLAY
-title: _D3DDDIARG_FLIPOVERLAY
+title: "_D3DDDIARG_FLIPOVERLAY"
 author: windows-driver-content
 description: The D3DDDIARG_FLIPOVERLAY structure describes a new resource to display on a given overlay.
 old-location: display\d3dddiarg_flipoverlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36ea4547-e9a0-49c9-8b45-903a2de60923
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_FLIPOVERLAY, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, D3DDDIARG_FLIPOVERLAY structure [Display Devices], display.d3dddiarg_flipoverlay, D3DDDIARG_FLIPOVERLAY, _D3DDDIARG_FLIPOVERLAY
+ms.keywords: d3dumddi/D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, D3DDDIARG_FLIPOVERLAY, D3DDDIARG_FLIPOVERLAY structure [Display Devices], _D3DDDIARG_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_FLIPOVERLAY
 product: Windows
 targetos: Windows

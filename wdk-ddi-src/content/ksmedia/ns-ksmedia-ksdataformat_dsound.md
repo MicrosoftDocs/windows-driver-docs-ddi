@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2b620e4f-8c26-479a-8b06-4e558b0813e5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], ksmedia/KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], KSDATAFORMAT_DSOUND, audio.ksdataformat_dsound, aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml
+ms.keywords: KSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND, audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, *PKSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDATAFORMAT_DSOUND
 product: Windows
 targetos: Windows
-req.typenames: *PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND
+req.typenames: "*PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND"
 ---
 
 # KSDATAFORMAT_DSOUND structure
@@ -70,7 +70,7 @@ typedef struct {
 
 ### -field DataFormat
 
-Specifies the stream's data format. This member is a structure of type <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>.
+Specifies the stream's data format. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>.
 
 
 ### -field BufferDesc
@@ -91,7 +91,7 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536764">IMiniport::DataRangeIntersection</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
  
 

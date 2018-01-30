@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25188616-ac1a-4699-9343-0fa88e27d9b8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::GetNumberInputCallbacks, IDebugClient5::GetNumberInputCallbacks, GetNumberInputCallbacks, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetNumberInputCallbacks method, debugger.getnumberinputcallbacks, IDebugClient5, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface
+ms.keywords: IDebugClient5 interface [Windows Debugging], GetNumberInputCallbacks method, GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, GetNumberInputCallbacks, dbgeng/IDebugClient5::GetNumberInputCallbacks, GetNumberInputCallbacks method [Windows Debugging], debugger.getnumberinputcallbacks, IDebugClient5, IDebugClient5::GetNumberInputCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.GetNumberInputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::GetNumberInputCallbacks method
@@ -109,15 +109,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546892">GetInputCallbacks</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
 
  
 

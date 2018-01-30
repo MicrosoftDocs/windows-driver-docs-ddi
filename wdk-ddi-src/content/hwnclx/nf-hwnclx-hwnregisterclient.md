@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 69de1551-e41f-4d18-89db-28d190676922
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpiobtn.hwnregisterclient, HwNRegisterClient function, hwnclx/HwNRegisterClient, HwNRegisterClient
+ms.keywords: hwnclx/HwNRegisterClient, HwNRegisterClient function, HwNRegisterClient, gpiobtn.hwnregisterclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Mshwnclxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Mshwnclxstub.lib
 -	Mshwnclxstub.dll
-apiname: 
+apiname:
 -	HwNRegisterClient
 product: Windows
 targetos: Windows
-req.typenames: *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
+req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
 ---
 
 # HwNRegisterClient function
@@ -50,7 +50,7 @@ req.typenames: *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
 ## -description
 
 
-Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine is called for initialization. F
+Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine is called for initialization. F
 
 
 ## -syntax
@@ -82,7 +82,7 @@ Pointer to the <a href="https://docs.microsoft.com/en-us/windows-hardware/driver
 
 ### -param RegistryPath [in]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key. 
 
 
 ## -returns
@@ -94,9 +94,9 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

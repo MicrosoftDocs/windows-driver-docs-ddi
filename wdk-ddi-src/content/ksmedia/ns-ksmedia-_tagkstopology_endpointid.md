@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTOPOLOGY_ENDPOINTID
-title: _tagKSTOPOLOGY_ENDPOINTID
+title: "_tagKSTOPOLOGY_ENDPOINTID"
 author: windows-driver-content
 description: The KSTOPOLOGY_ENDPOINTID structure specifies the name and the pin ID of a topology endpoint.
 old-location: audio\kstopology_endpointid.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A84BE3D6-7D2A-4123-979B-F6E1CA8C8B23
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], _tagKSTOPOLOGY_ENDPOINTID, ksmedia/KSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], audio.kstopology_endpointid, PKSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID
+ms.keywords: "*PKSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], KSTOPOLOGY_ENDPOINTID structure [Audio Devices], ksmedia/KSTOPOLOGY_ENDPOINTID, _tagKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSTOPOLOGY_ENDPOINTID
 product: Windows
 targetos: Windows

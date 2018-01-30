@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, display.d3d10ddi_vertex_cache_desc, D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml
+ms.keywords: D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, D3D10DDI_VERTEX_CACHE_DESC, UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml, display.d3d10ddi_vertex_cache_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10DDI_VERTEX_CACHE_DESC
 product: Windows
 targetos: Windows

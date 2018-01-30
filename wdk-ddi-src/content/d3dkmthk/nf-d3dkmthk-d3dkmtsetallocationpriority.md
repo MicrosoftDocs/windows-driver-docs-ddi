@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetAllocationPriority function [Display Devices], display.d3dkmtsetallocationpriority, d3dkmthk/D3DKMTSetAllocationPriority, OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, D3DKMTSetAllocationPriority
+ms.keywords: OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, D3DKMTSetAllocationPriority function [Display Devices], d3dkmthk/D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTSetAllocationPriority
 product: Windows
 targetos: Windows

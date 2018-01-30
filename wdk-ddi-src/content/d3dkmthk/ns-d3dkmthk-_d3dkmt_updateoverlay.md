@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UPDATEOVERLAY
-title: _D3DKMT_UPDATEOVERLAY
+title: "_D3DKMT_UPDATEOVERLAY"
 author: windows-driver-content
 description: The D3DKMT_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\d3dkmt_updateoverlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_UPDATEOVERLAY structure [Display Devices], d3dkmthk/D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay, OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, _D3DKMT_UPDATEOVERLAY
+ms.keywords: D3DKMT_UPDATEOVERLAY structure [Display Devices], _D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY, OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, d3dkmthk/D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_UPDATEOVERLAY
 product: Windows
 targetos: Windows
@@ -86,9 +86,9 @@ typedef struct _D3DKMT_UPDATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdateoverlay.md">D3DKMTUpdateOverlay</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_EVENT_TYPE
-title: _DXGK_EVENT_TYPE
+title: "_DXGK_EVENT_TYPE"
 author: windows-driver-content
 description: The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's DxgkDdiNotifyAcpiEvent function.
 old-location: display\dxgk_event_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df28ae8f-01f7-42c5-99df-2a3fc7401173
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/DxgkAcpiEvent, display.dxgk_event_type, dispmprt/PDXGK_EVENT_TYPE, dispmprt/DxgkPowerStateEvent, dispmprt/DxgkDockingEvent, PDXGK_EVENT_TYPE, DxgkUndefinedEvent, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, DxgkDockingEvent, dispmprt/DXGK_EVENT_TYPE, DxgkAcpiEvent, _DXGK_EVENT_TYPE, IN_DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE, DxgkPowerStateEvent, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], DXGK_EVENT_TYPE enumeration [Display Devices], DXGK_EVENT_TYPE, dispmprt/DxgkUndefinedEvent
+ms.keywords: dispmprt/DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE, dispmprt/DxgkUndefinedEvent, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], IN_DXGK_EVENT_TYPE, DXGK_EVENT_TYPE enumeration [Display Devices], DXGK_EVENT_TYPE, DxgkPowerStateEvent, DxgkAcpiEvent, display.dxgk_event_type, PDXGK_EVENT_TYPE, dispmprt/PDXGK_EVENT_TYPE, dispmprt/DxgkAcpiEvent, dispmprt/DxgkPowerStateEvent, DxgkDockingEvent, DxgkUndefinedEvent, dispmprt/DxgkDockingEvent, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, _DXGK_EVENT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_EVENT_TYPE
 product: Windows
 targetos: Windows

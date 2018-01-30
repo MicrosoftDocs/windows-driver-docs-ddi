@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_BLTFLAGS
-title: _D3DDDI_BLTFLAGS
+title: "_D3DDDI_BLTFLAGS"
 author: windows-driver-content
 description: The D3DDDI_BLTFLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 old-location: display\d3dddi_bltflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 844d6aed-2ca2-45ef-bd53-54344dbdadbf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_BLTFLAGS structure [Display Devices], display.d3dddi_bltflags, D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS
+ms.keywords: D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, display.d3dddi_bltflags, D3DDDI_BLTFLAGS structure [Display Devices], d3dumddi/D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS, _D3DDDI_BLTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_BLTFLAGS
 product: Windows
 targetos: Windows
@@ -264,9 +264,9 @@ The <b>BeginPresentToDwm</b>, <b>ContinuePresentToDwm</b>, and <b>EndPresentToDw
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
 
  
 

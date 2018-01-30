@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._DISPLAY_BRIGHTNESS
-title: _DISPLAY_BRIGHTNESS
+title: "_DISPLAY_BRIGHTNESS"
 author: windows-driver-content
 description: The DISPLAY_BRIGHTNESS structure is reserved for system use.
 old-location: display\display_brightness.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e72c1a7-5712-46fc-a65f-20183830cb72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddvdeo/DISPLAY_BRIGHTNESS, PDISPLAY_BRIGHTNESS, ntddvdeo/PDISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS, display.display_brightness, PDISPLAY_BRIGHTNESS structure pointer [Display Devices], _DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS structure [Display Devices], Video_Structs_9be4657c-394e-4286-8157-e95f3ada36c8.xml
+ms.keywords: PDISPLAY_BRIGHTNESS structure pointer [Display Devices], _DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS, ntddvdeo/DISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS structure [Display Devices], display.display_brightness, PDISPLAY_BRIGHTNESS, Video_Structs_9be4657c-394e-4286-8157-e95f3ada36c8.xml, DISPLAY_BRIGHTNESS, ntddvdeo/PDISPLAY_BRIGHTNESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvdeo.h
-apiname: 
+apiname:
 -	DISPLAY_BRIGHTNESS
 product: Windows
 targetos: Windows
-req.typenames: DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS
+req.typenames: "*PDISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS"
 ---
 
 # _DISPLAY_BRIGHTNESS structure

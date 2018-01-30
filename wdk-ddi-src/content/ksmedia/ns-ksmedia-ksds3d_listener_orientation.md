@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3bcb9a6f-aacc-4b42-ba8e-1a1a4898f96d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSDS3D_LISTENER_ORIENTATION, audio.ksds3d_listener_orientation, KSDS3D_LISTENER_ORIENTATION structure [Audio Devices], PKSDS3D_LISTENER_ORIENTATION structure pointer [Audio Devices], ksmedia/PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION, *PKSDS3D_LISTENER_ORIENTATION, ksmedia/KSDS3D_LISTENER_ORIENTATION, aud-prop_9e525f5b-c264-46e5-84f3-3a7845b61200.xml
+ms.keywords: aud-prop_9e525f5b-c264-46e5-84f3-3a7845b61200.xml, audio.ksds3d_listener_orientation, PKSDS3D_LISTENER_ORIENTATION structure pointer [Audio Devices], ksmedia/PKSDS3D_LISTENER_ORIENTATION, *PKSDS3D_LISTENER_ORIENTATION, ksmedia/KSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION, PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDS3D_LISTENER_ORIENTATION
 product: Windows
 targetos: Windows
-req.typenames: *PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION
+req.typenames: "*PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION"
 ---
 
 # KSDS3D_LISTENER_ORIENTATION structure
@@ -87,9 +87,9 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetOr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537343">KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION</a>
-
 <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537343">KSPROPERTY_DIRECTSOUND3DLISTENER_ORIENTATION</a>
 
  
 

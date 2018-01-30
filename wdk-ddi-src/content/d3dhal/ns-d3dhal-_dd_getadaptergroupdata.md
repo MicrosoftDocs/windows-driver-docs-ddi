@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETADAPTERGROUPDATA
-title: _DD_GETADAPTERGROUPDATA
+title: "_DD_GETADAPTERGROUPDATA"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETADAPTERGROUPDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETADAPTERGROUP.
 old-location: display\dd_getadaptergroupdata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c427880-f809-4b58-8f69-d81a273d705c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, DD_GETADAPTERGROUPDATA structure [Display Devices], d3dhal/DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA, _DD_GETADAPTERGROUPDATA, display.dd_getadaptergroupdata
+ms.keywords: d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, _DD_GETADAPTERGROUPDATA, display.dd_getadaptergroupdata, DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	DD_GETADAPTERGROUPDATA
 product: Windows
 targetos: Windows

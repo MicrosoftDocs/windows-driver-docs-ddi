@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SURFACEBLT
-title: _D3DHAL_DP2SURFACEBLT
+title: "_D3DHAL_DP2SURFACEBLT"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. D3DHAL_DP2SURFACEBLT is used for two dimensional system memory to video memory surface blts when D3dDrawPrimitives2 responds to the D3DDP2OP_SURFACEBLT command token.
 old-location: display\d3dhal_dp2surfaceblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0720635c-77a2-4391-ba75-b276c0d457d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DHAL_DP2SURFACEBLT, *LPD3DHAL_DP2SURFACEBLT, d3dhal/LPD3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT structure [Display Devices], d3dhal/D3DHAL_DP2SURFACEBLT, display.d3dhal_dp2surfaceblt
+ms.keywords: "_D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT, d3dhal/D3DHAL_DP2SURFACEBLT, display.d3dhal_dp2surfaceblt, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, d3dhal/LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT, *LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SURFACEBLT
 product: Windows
 targetos: Windows

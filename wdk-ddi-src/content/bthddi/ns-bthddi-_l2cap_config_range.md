@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_CONFIG_RANGE
-title: _L2CAP_CONFIG_RANGE
+title: "_L2CAP_CONFIG_RANGE"
 author: windows-driver-content
 description: The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the FlushTO member of the _BRB_L2CA_OPEN_CHANNEL structure during incoming requests.
 old-location: bltooth\l2cap_config_range.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 95f288ea-a32a-478f-870b-5aa6ff1edf44
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.l2cap_config_range, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], *PL2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_RANGE, bthddi/L2CAP_CONFIG_RANGE, bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml
+ms.keywords: PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml, bltooth.l2cap_config_range, *PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], _L2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE, bthddi/L2CAP_CONFIG_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	L2CAP_CONFIG_RANGE
 product: Windows
 targetos: Windows
-req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
+req.typenames: "*PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE"
 ---
 
 # _L2CAP_CONFIG_RANGE structure
@@ -114,9 +114,9 @@ A profile driver negotiates these values separately from the flush timeout setti
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_value_range.md">L2CAP_CONFIG_VALUE_RANGE</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+
+<a href="..\bthddi\ns-bthddi-_l2cap_config_value_range.md">L2CAP_CONFIG_VALUE_RANGE</a>
 
  
 

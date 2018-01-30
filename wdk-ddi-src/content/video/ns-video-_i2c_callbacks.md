@@ -1,6 +1,6 @@
 ---
 UID: NS:video._I2C_CALLBACKS
-title: _I2C_CALLBACKS
+title: "_I2C_CALLBACKS"
 author: windows-driver-content
 description: The I2C_CALLBACKS structure contains pointers to functions, implemented by the video miniport driver, that read from and write to the serial data and serial clock lines of the I2C bus.
 old-location: display\i2c_callbacks.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fc67ef79-41c8-414c-aaa9-ef8a80edd696
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_fc21393a-6df2-4b4f-89be-2d3ac46dfcd7.xml, video/PI2C_CALLBACKS, PI2C_CALLBACKS, video/I2C_CALLBACKS, I2C_CALLBACKS, PI2C_CALLBACKS structure pointer [Display Devices], *PI2C_CALLBACKS, I2C_CALLBACKS structure [Display Devices], display.i2c_callbacks, _I2C_CALLBACKS
+ms.keywords: "*PI2C_CALLBACKS, video/I2C_CALLBACKS, I2C_CALLBACKS, display.i2c_callbacks, PI2C_CALLBACKS, PI2C_CALLBACKS structure pointer [Display Devices], video/PI2C_CALLBACKS, Video_Structs_fc21393a-6df2-4b4f-89be-2d3ac46dfcd7.xml, _I2C_CALLBACKS, I2C_CALLBACKS structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	I2C_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: *PI2C_CALLBACKS, I2C_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: I2C_CALLBACKS, *PI2C_CALLBACKS
 ---
 
 # _I2C_CALLBACKS structure
@@ -93,13 +92,13 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 ## -see-also
 
-<a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+
+<a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
 
  
 

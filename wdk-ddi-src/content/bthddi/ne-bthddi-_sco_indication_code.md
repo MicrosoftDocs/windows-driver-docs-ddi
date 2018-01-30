@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._SCO_INDICATION_CODE
-title: _SCO_INDICATION_CODE
+title: "_SCO_INDICATION_CODE"
 author: windows-driver-content
 description: The SCO_INDICATION_CODE enumeration type describes the type of an incoming SCO connection or bonding state change. The Bluetooth driver stack passes a value from this enumeration in the Indication argument of a profile driver's SCO Callback Function.
 old-location: bltooth\sco_indication_code.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/ScoIndicationRemoteDisconnect, bthddi/ScoIndicationAddReference, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, SCO_INDICATION_CODE enumeration [Bluetooth Devices], bthddi/ScoIndicationRemoteConnect, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, ScoIndicationAddReference, PSCO_INDICATION_CODE, *PSCO_INDICATION_CODE, _SCO_INDICATION_CODE, SCO_INDICATION_CODE, ScoIndicationRemoteDisconnect, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, bthddi/ScoIndicationReleaseReference, bltooth.sco_indication_code, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices]
+ms.keywords: bthddi/SCO_INDICATION_CODE, bthddi/ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, bthddi/ScoIndicationAddReference, ScoIndicationAddReference, ScoIndicationRemoteConnect, SCO_INDICATION_CODE, bthddi/PSCO_INDICATION_CODE, bthddi/ScoIndicationRemoteDisconnect, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, _SCO_INDICATION_CODE, PSCO_INDICATION_CODE, bltooth.sco_indication_code, *PSCO_INDICATION_CODE, ScoIndicationReleaseReference, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/ScoIndicationReleaseReference, SCO_INDICATION_CODE enumeration [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	SCO_INDICATION_CODE
 product: Windows
 targetos: Windows
-req.typenames: SCO_INDICATION_CODE, *PSCO_INDICATION_CODE
+req.typenames: "*PSCO_INDICATION_CODE, SCO_INDICATION_CODE"
 ---
 
 # _SCO_INDICATION_CODE enumeration
@@ -101,11 +101,11 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 ## -see-also
 
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
  
 

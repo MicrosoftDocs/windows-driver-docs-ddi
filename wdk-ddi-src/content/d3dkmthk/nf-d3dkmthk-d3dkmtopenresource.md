@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource, OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, D3DKMTOpenResource function [Display Devices], D3DKMTOpenResource
+ms.keywords: d3dkmthk/D3DKMTOpenResource, D3DKMTOpenResource, D3DKMTOpenResource function [Display Devices], display.d3dkmtopenresource, OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-DX-D3DKmt-l1-1-0.dll
 -	API-MS-Win-DX-D3DKmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTOpenResource
 product: Windows
 targetos: Windows
@@ -126,9 +126,9 @@ This function might also return other <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
 
  
 

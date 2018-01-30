@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VPOSVERSIONINFO
-title: _VPOSVERSIONINFO
+title: "_VPOSVERSIONINFO"
 author: windows-driver-content
 description: The VPOSVERSIONINFO structure contains version information about the currently running operating system.
 old-location: display\vposversioninfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6335df5-81d9-4a00-8e97-0ebebb987d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, display.vposversioninfo, _VPOSVERSIONINFO, video/VPOSVERSIONINFO, *PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], VPOSVERSIONINFO structure [Display Devices], PVPOSVERSIONINFO, VPOSVERSIONINFO, video/PVPOSVERSIONINFO
+ms.keywords: PVPOSVERSIONINFO structure pointer [Display Devices], display.vposversioninfo, Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, PVPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], *PVPOSVERSIONINFO, video/VPOSVERSIONINFO, _VPOSVERSIONINFO, video/PVPOSVERSIONINFO, VPOSVERSIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VPOSVERSIONINFO
 product: Windows
 targetos: Windows
-req.typenames: *PVPOSVERSIONINFO, VPOSVERSIONINFO
-req.product: Windows 10 or later.
+req.typenames: "*PVPOSVERSIONINFO, VPOSVERSIONINFO"
 ---
 
 # _VPOSVERSIONINFO structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusicks._DMUS_KERNEL_EVENT
-title: _DMUS_KERNEL_EVENT
+title: "_DMUS_KERNEL_EVENT"
 author: windows-driver-content
 description: The DMUS_KERNEL_EVENT structure is used to package time-stamped music events.
 old-location: audio\dmus_kernel_event.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusicks/PDMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, audio.dmus_kernel_event, *PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT, dmusicks/DMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], DMUS_KERNEL_EVENT structure [Audio Devices], _DMUS_KERNEL_EVENT
+ms.keywords: audio.dmus_kernel_event, dmusicks/PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT structure pointer [Audio Devices], dmusicks/DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT, _DMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dmusicks.h
-apiname: 
+apiname:
 -	DMUS_KERNEL_EVENT
 product: Windows
 targetos: Windows
-req.typenames: *PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT
+req.typenames: "*PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT"
 ---
 
 # _DMUS_KERNEL_EVENT structure
@@ -128,6 +128,21 @@ Specifies whether an event is a package and whether this event concludes the mes
 
 
 
+#### DMUS_KEF_EVENT_COMPLETE (zero)
+
+Specifies messages in which the entire message is contained either in <b>uData.abData</b> or in the buffer pointed to by <b>uData.pbData</b>. The former includes all short messages, and potentially includes very brief SysEx messages (see Microsoft Windows SDK documentation) as well. Keep in mind that <b>sizeof</b>(PBYTE) can be 8 instead of 4 on 64-bit versions of Windows.
+
+
+#### DMUS_KEF_EVENT_INCOMPLETE
+
+Specifies that this event is an incomplete package or SysEx message (see Windows SDK documentation). This flag specifies that the message continues beyond this event. During MIDI capture, the miniport driver can send "uncooked" MIDI events (raw MIDI input data) to the capture sink by specifying this flag.
+
+
+#### DMUS_KEF_PACKAGE_EVENT
+
+Specifies that this event is a package. The <b>uData.pPackageEvt</b> field contains a pointer to a chain of events which should be dealt with atomically.
+
+
 ### -field ullPresTime100ns
 
 Specifies the presentation time for this event. This 64-bit value is expressed in 100-nanosecond units. The master clock should be used to evaluate this presentation time.
@@ -141,21 +156,6 @@ Specifies the presentation time for this event. This 64-bit value is expressed i
 ### -field pNextEvt
 
 Pointer to the next event in the list, or <b>NULL</b> if no event follows. This facilitates passing chains of identically time-stamped messages to the miniport driver. Additionally, hardware that does its own mixing can receive or transmit groups of messages at one time.
-
-
-##### - usFlags.DMUS_KEF_EVENT_COMPLETE (zero)
-
-Specifies messages in which the entire message is contained either in <b>uData.abData</b> or in the buffer pointed to by <b>uData.pbData</b>. The former includes all short messages, and potentially includes very brief SysEx messages (see Microsoft Windows SDK documentation) as well. Keep in mind that <b>sizeof</b>(PBYTE) can be 8 instead of 4 on 64-bit versions of Windows.
-
-
-##### - usFlags.DMUS_KEF_PACKAGE_EVENT
-
-Specifies that this event is a package. The <b>uData.pPackageEvt</b> field contains a pointer to a chain of events which should be dealt with atomically.
-
-
-##### - usFlags.DMUS_KEF_EVENT_INCOMPLETE
-
-Specifies that this event is an incomplete package or SysEx message (see Windows SDK documentation). This flag specifies that the message continues beyond this event. During MIDI capture, the miniport driver can send "uncooked" MIDI events (raw MIDI input data) to the capture sink by specifying this flag.
 
 
 ## -remarks

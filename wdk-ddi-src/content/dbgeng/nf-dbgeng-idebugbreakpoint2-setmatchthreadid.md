@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66170e28-24db-4125-bd4e-ef07e8e82e79
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::SetMatchThreadId, ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, IDebugBreakpoint2 interface [Windows Debugging], SetMatchThreadId method, IDebugBreakpoint interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint::SetMatchThreadId, dbgeng/IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint2, debugger.setmatchthreadid
+ms.keywords: IDebugBreakpoint2, dbgeng/IDebugBreakpoint::SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId, dbgeng/IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint2 interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, debugger.setmatchthreadid, IDebugBreakpoint::SetMatchThreadId, ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, SetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.SetMatchThreadId
 -	IDebugBreakpoint2.SetMatchThreadId
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugBreakpoint2::SetMatchThreadId method

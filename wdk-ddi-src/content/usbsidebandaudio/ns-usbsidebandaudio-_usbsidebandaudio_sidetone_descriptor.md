@@ -1,6 +1,6 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
-title: _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
+title: "_USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_sidetone_descriptor.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: BC337822-C36C-4673-BFA1-3F4C05529C05
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure [Audio Devices], _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure pointer [Audio Devices], *PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, audio.usbsidebandaudio_sidetone_descriptor, USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
+ms.keywords: USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, audio.usbsidebandaudio_sidetone_descriptor, PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure [Audio Devices], PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure pointer [Audio Devices], *PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, *PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: "*PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR"
 ---
 
 # _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure
@@ -81,12 +80,12 @@ typedef struct _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR {
 
 
 
-#### - Reserved 1
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 

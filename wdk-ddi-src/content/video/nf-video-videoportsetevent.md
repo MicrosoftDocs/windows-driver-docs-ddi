@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93db9d51-3f80-47ff-a2c2-3c937b5dcf7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportsetevent, VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, video/VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPortSetEvent
+ms.keywords: VideoPortSetEvent, VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, VideoPortSetEvent function [Display Devices], display.videoportsetevent, video/VideoPortSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortSetEvent
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortSetEvent function

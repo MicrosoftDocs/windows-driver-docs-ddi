@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLESTRIP
-title: _D3DHAL_DP2INDEXEDTRIANGLESTRIP
+title: "_D3DHAL_DP2INDEXEDTRIANGLESTRIP"
 author: windows-driver-content
 description: One or more D3DHAL_DP2INDEXEDTRIANGLESTRIP structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLESTRIP, and are used to render strips of connected triangles using vertex indices.
 old-location: display\d3dhal_dp2indexedtrianglestrip.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 542f89f1-f562-4293-9ca1-96e7a0512772
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], display.d3dhal_dp2indexedtrianglestrip, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices], D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, _D3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
+ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, _D3DHAL_DP2INDEXEDTRIANGLESTRIP, display.d3dhal_dp2indexedtrianglestrip, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2INDEXEDTRIANGLESTRIP
 product: Windows
 targetos: Windows
-req.typenames: D3DHAL_DP2INDEXEDTRIANGLESTRIP, *LPD3DHAL_DP2INDEXEDTRIANGLESTRIP
+req.typenames: "*LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP"
 ---
 
 # _D3DHAL_DP2INDEXEDTRIANGLESTRIP structure
@@ -100,15 +100,15 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-D3DDP2OP_INDEXEDTRIANGLESTRIP
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+
+D3DDP2OP_INDEXEDTRIANGLESTRIP
 
  
 

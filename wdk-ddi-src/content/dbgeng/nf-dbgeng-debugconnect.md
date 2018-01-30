@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77dba83d-cc25-4609-905c-7a036cb7ced9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debugconnect, dbgeng/DebugConnect, ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect function [Windows Debugging], DebugConnect
+ms.keywords: debugger.debugconnect, ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect function [Windows Debugging], dbgeng/DebugConnect, DebugConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugConnect
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # DebugConnect function
@@ -117,9 +117,9 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-Process Server and Smart Client
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
+Process Server and Smart Client
 
  
 

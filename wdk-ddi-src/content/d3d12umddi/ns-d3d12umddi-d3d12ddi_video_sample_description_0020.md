@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B9918A06-6C10-4AD7-97EC-4FA0BC5319AD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, display.d3d12ddi_video_sample_description
+ms.keywords: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, display.d3d12ddi_video_sample_description, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
 product: Windows
 targetos: Windows

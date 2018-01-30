@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCSTREAMRESOURCE_DESCRIPTOR
-title: _PCSTREAMRESOURCE_DESCRIPTOR
+title: "_PCSTREAMRESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: PCSTREAMRESOURCE_DESCRIPTOR defines the stream resource. Use PCSTREAMRESOURCE_DESCRIPTOR_INIT to correctly initialize this structure.
 old-location: audio\pcstreamresource_descriptor.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 978D06FC-B5CC-409C-BE5D-CA4B53005D8C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PPCSTREAMRESOURCE_DESCRIPTOR, portcls/PCSTREAMRESOURCE_DESCRIPTOR, portcls/PPCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], _PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], PPCSTREAMRESOURCE_DESCRIPTOR
+ms.keywords: PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], portcls/PCSTREAMRESOURCE_DESCRIPTOR, _PCSTREAMRESOURCE_DESCRIPTOR, portcls/PPCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], *PPCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor, PCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	PCSTREAMRESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR
+req.typenames: PCSTREAMRESOURCE_DESCRIPTOR, *PPCSTREAMRESOURCE_DESCRIPTOR
 ---
 
 # _PCSTREAMRESOURCE_DESCRIPTOR structure

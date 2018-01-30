@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b5de2450-8003-4866-86e8-1fd251e1552c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method, IDebugSymbolGroup2
+ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide, GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup2.GetSymbolNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbolGroup2::GetSymbolNameWide method

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_QmatrixData
-title: _DXVA_QmatrixData
+title: "_DXVA_QmatrixData"
 author: windows-driver-content
 description: The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to load inverse-quantization matrix data for off-host bitstream compressed video picture decoding.
 old-location: display\dxva_qmatrixdata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *LPDXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], display.dxva_qmatrixdata, LPDXVA_QmatrixData structure pointer [Display Devices], LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml, dxva/LPDXVA_QmatrixData, dxva/DXVA_QmatrixData, DXVA_QmatrixData, _DXVA_QmatrixData
+ms.keywords: dxva/LPDXVA_QmatrixData, LPDXVA_QmatrixData, *LPDXVA_QmatrixData, _DXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], dxva/DXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml, display.dxva_qmatrixdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_QmatrixData
 product: Windows
 targetos: Windows
@@ -147,9 +147,9 @@ The order of the data values within the inverse-quantization matrix is as specif
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
-
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+
+<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
  
 

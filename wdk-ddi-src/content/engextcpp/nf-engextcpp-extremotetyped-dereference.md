@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 27a90926-95f4-43cd-b8d1-1b60ad23d737
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Dereference method [Windows Debugging], EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml, Dereference method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, Dereference, ExtRemoteTyped interface [Windows Debugging], Dereference method, ExtRemoteTyped::Dereference, debugger.extremotetyped_dereference
+ms.keywords: ExtRemoteTyped::Dereference, ExtRemoteTyped, Dereference method [Windows Debugging], ExtRemoteTyped interface, Dereference, debugger.extremotetyped_dereference, ExtRemoteTyped interface [Windows Debugging], Dereference method, Dereference method [Windows Debugging], EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.Dereference
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::Dereference method

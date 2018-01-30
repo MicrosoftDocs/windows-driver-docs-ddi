@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ddd2cc89-1747-46e8-ade0-c4ccb10584f6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputPromptVaListWide method [Windows Debugging], OutputPromptVaListWide, IDebugControl4::OutputPromptVaListWide, IDebugControl4, OutputPromptVaListWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::OutputPromptVaListWide, debugger.outputpromptvalistwide, IDebugControl4 interface [Windows Debugging], OutputPromptVaListWide method
+ms.keywords: OutputPromptVaListWide method [Windows Debugging], OutputPromptVaListWide, debugger.outputpromptvalistwide, OutputPromptVaListWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputPromptVaListWide method, IDebugControl4::OutputPromptVaListWide, dbgeng/IDebugControl4::OutputPromptVaListWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.OutputPromptVaListWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::OutputPromptVaListWide method
@@ -299,9 +299,9 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 

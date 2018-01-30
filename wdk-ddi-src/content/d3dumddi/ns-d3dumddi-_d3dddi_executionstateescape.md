@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_EXECUTIONSTATEESCAPE
-title: _D3DDDI_EXECUTIONSTATEESCAPE
+title: "_D3DDDI_EXECUTIONSTATEESCAPE"
 author: windows-driver-content
 description: Specifies the state of the device.
 old-location: display\d3dddi_executionstateescape.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE
+ms.keywords: d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, _D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], display.d3dddi_executionstateescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_EXECUTIONSTATEESCAPE
 product: Windows
 targetos: Windows

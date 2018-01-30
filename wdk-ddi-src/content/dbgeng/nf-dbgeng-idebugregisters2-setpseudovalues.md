@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters2::SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, debugger.setpseudovalues, IDebugRegisters2::SetPseudoValues, IDebugRegisters2, SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method
+ms.keywords: IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, dbgeng/IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.SetPseudoValues
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::SetPseudoValues method

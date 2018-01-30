@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_QUERYAUTHENICATEDCHANNEL
-title: _D3DDDIARG_QUERYAUTHENICATEDCHANNEL
+title: "_D3DDDIARG_QUERYAUTHENICATEDCHANNEL"
 author: windows-driver-content
 description: The D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure describes authenticated-channel information to query by using the QueryAuthenticatedChannel function.
 old-location: display\d3dddiarg_queryauthenticatedchannel.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d816b4d7-cc99-4a83-9fd2-c7c0659d0318
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, display.d3dddiarg_queryauthenticatedchannel, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, _D3DDDIARG_QUERYAUTHENICATEDCHANNEL
+ms.keywords: "_D3DDDIARG_QUERYAUTHENICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, display.d3dddiarg_queryauthenticatedchannel, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
 product: Windows
 targetos: Windows

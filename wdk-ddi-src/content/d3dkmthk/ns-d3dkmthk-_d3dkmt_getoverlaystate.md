@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETOVERLAYSTATE
-title: _D3DKMT_GETOVERLAYSTATE
+title: "_D3DKMT_GETOVERLAYSTATE"
 author: windows-driver-content
 description: The D3DKMT_GETOVERLAYSTATE structure describes parameters that the D3DKMTGetOverlayState function uses to retrieve status about an overlay.
 old-location: display\d3dkmt_getoverlaystate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe3443e7-0dc9-4c91-88ab-b05bac19516d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_getoverlaystate, OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, D3DKMT_GETOVERLAYSTATE structure [Display Devices], D3DKMT_GETOVERLAYSTATE, d3dkmthk/D3DKMT_GETOVERLAYSTATE, _D3DKMT_GETOVERLAYSTATE
+ms.keywords: OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, _D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE structure [Display Devices], display.d3dkmt_getoverlaystate, d3dkmthk/D3DKMT_GETOVERLAYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_GETOVERLAYSTATE
 product: Windows
 targetos: Windows

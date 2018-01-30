@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._DEBUG_TYPED_DATA
-title: _DEBUG_TYPED_DATA
+title: "_DEBUG_TYPED_DATA"
 author: windows-driver-content
 description: The DEBUG_TYPED_DATA structure describes typed data in the memory of the target.
 old-location: debugger\debug_typed_data.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, DEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging], _DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA, debugger.debug_typed_data, PDEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], *PDEBUG_TYPED_DATA
+ms.keywords: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], DEBUG_TYPED_DATA structure [Windows Debugging], debugger.debug_typed_data, wdbgexts/PDEBUG_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	WdbgExts.h
-apiname: 
+apiname:
 -	DEBUG_TYPED_DATA
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA
-req.product: Windows 10 or later.
+req.typenames: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA"
 ---
 
 # _DEBUG_TYPED_DATA structure

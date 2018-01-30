@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 35e11004-c716-4c6a-ba0a-be04750afb7a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportmidistream_setformat, SetFormat, IMiniportMidiStream::SetFormat, SetFormat method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream, audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, IMiniportMidiStream interface [Audio Devices], SetFormat method, portcls/IMiniportMidiStream::SetFormat, SetFormat method [Audio Devices]
+ms.keywords: audio.iminiportmidistream_setformat, SetFormat, audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, portcls/IMiniportMidiStream::SetFormat, IMiniportMidiStream interface [Audio Devices], SetFormat method, IMiniportMidiStream::SetFormat, IMiniportMidiStream, SetFormat method [Audio Devices], SetFormat method [Audio Devices], IMiniportMidiStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportMidiStream.SetFormat
 product: Windows
 targetos: Windows
@@ -69,7 +69,7 @@ NTSTATUS SetFormat(
 
 ### -param DataFormat [in]
 
-Specifies the new format for the stream. This parameter is a pointer to a structure of type <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>.
+Specifies the new format for the stream. This parameter is a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
  
 

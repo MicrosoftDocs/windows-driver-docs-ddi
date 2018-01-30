@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Hwnclx.h
-apiname: 
+apiname:
 -	*PHWN_CLIENT_START_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE
+req.typenames: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES"
 ---
 
 # HWN_CLIENT_START_DEVICE callback
@@ -50,7 +50,7 @@ req.typenames: *PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPO
 
 
 
-Implemented by the client driver to start the hardware notification component. It is invoked as a result of a call to <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EVT_WDF_DEVICE_D0_ENTRY</a>. 
+Implemented by the client driver to start the hardware notification component. It is invoked as a result of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540848">EVT_WDF_DEVICE_D0_ENTRY</a>. 
 
 
 ## -prototype
@@ -75,7 +75,7 @@ typedef HWN_CLIENT_START_DEVICE *PHWN_CLIENT_START_DEVICE;
 
 ### -param Context [in]
 
-Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
+Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
 ## -returns
@@ -95,9 +95,9 @@ Register your implementation of this callback function by setting the appropriat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

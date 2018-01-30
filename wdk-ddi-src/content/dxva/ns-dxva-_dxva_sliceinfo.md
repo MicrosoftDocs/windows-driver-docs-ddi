@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_SliceInfo
-title: _DXVA_SliceInfo
+title: "_DXVA_SliceInfo"
 author: windows-driver-content
 description: The DXVA_SliceInfo structure is sent by the host decoder to the accelerator to specify the slice-level parameters of a slice of bitstream data for off-host bitstream compressed picture decoding.
 old-location: display\dxva_sliceinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd1d0cf5-2ee2-44d8-945f-492af57c3990
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVA_SliceInfo, dxva/DXVA_SliceInfo, LPDXVA_SliceInfo, DXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml, DXVA_SliceInfo structure [Display Devices], *LPDXVA_SliceInfo, display.dxva_sliceinfo, dxva/LPDXVA_SliceInfo
+ms.keywords: dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml, DXVA_SliceInfo structure [Display Devices], dxva/DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, _DXVA_SliceInfo, DXVA_SliceInfo, display.dxva_sliceinfo, LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], *LPDXVA_SliceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_SliceInfo
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_SliceInfo, DXVA_SliceInfo
+req.typenames: DXVA_SliceInfo, *LPDXVA_SliceInfo
 ---
 
 # _DXVA_SliceInfo structure

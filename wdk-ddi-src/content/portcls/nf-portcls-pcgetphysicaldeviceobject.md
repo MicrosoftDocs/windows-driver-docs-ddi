@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A7917082-4C3F-445A-AD26-32DE670754E5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, PcGetPhysicalDeviceObject
+ms.keywords: audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcGetPhysicalDeviceObject
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, IResourceList, IResourceList::TranslatedList, audio.iresourcelist_translatedlist, TranslatedList, IResourceList interface [Audio Devices], TranslatedList method, TranslatedList method [Audio Devices], IResourceList interface, TranslatedList method [Audio Devices], portcls/IResourceList::TranslatedList
+ms.keywords: portcls/IResourceList::TranslatedList, IResourceList interface [Audio Devices], TranslatedList method, TranslatedList method [Audio Devices], IResourceList interface, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, IResourceList, IResourceList::TranslatedList, TranslatedList, audio.iresourcelist_translatedlist, TranslatedList method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IResourceList.TranslatedList
 product: Windows
 targetos: Windows
@@ -75,7 +75,7 @@ PCM_RESOURCE_LIST TranslatedList(
 ## -returns
 
 
-<code>TranslatedList</code> returns a pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
+<code>TranslatedList</code> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
 
 
 
@@ -83,7 +83,7 @@ PCM_RESOURCE_LIST TranslatedList(
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a>
 
  
 

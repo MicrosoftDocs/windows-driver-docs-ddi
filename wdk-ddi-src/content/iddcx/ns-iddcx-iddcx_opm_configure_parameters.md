@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS, display.iddcx_opm_configure_parameters, IDDCX_OPM_CONFIGURE_PARAMETERS
+ms.keywords: iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS, display.iddcx_opm_configure_parameters, IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDDCX_OPM_CONFIGURE_PARAMETERS
 product: Windows
 targetos: Windows

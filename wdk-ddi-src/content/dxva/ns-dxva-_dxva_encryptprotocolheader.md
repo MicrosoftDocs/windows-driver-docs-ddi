@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_EncryptProtocolHeader
-title: _DXVA_EncryptProtocolHeader
+title: "_DXVA_EncryptProtocolHeader"
 author: windows-driver-content
 description: The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 old-location: display\dxva_encryptprotocolheader.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, _DXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], dxva/LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml
+ms.keywords: dxva/LPDXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, display.dxva_encryptprotocolheader, DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], *LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], _DXVA_EncryptProtocolHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_EncryptProtocolHeader
 product: Windows
 targetos: Windows
-req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
+req.typenames: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader"
 ---
 
 # _DXVA_EncryptProtocolHeader structure

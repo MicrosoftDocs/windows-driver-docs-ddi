@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3, GetModuleNameStringWide, IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, IDebugSymbols3, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getmodulenamestringwide, GetModuleNameStringWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleNameStringWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetModuleNameStringWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetModuleNameStringWide method

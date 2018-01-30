@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb831371-4684-4756-bc01-6c42e5af7e1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsetmonitorcolorspacetransform, d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], D3DKMTSetMonitorColorSpaceTransform
+ms.keywords: display.d3dkmtsetmonitorcolorspacetransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], D3DKMTSetMonitorColorSpaceTransform, d3dkmthk/D3DKMTSetMonitorColorSpaceTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMTSetMonitorColorSpaceTransform
 product: Windows
 targetos: Windows

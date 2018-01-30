@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71a48c1f-1eca-4f3e-a085-99ffc207a7e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], display.d3dkmtwaitforverticalblankevent2, D3DKMTWaitForVerticalBlankEvent2, d3dkmthk/D3DKMTWaitForVerticalBlankEvent2
+ms.keywords: D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], D3DKMTWaitForVerticalBlankEvent2, display.d3dkmtwaitforverticalblankevent2, d3dkmthk/D3DKMTWaitForVerticalBlankEvent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMTWaitForVerticalBlankEvent2
 product: Windows
 targetos: Windows

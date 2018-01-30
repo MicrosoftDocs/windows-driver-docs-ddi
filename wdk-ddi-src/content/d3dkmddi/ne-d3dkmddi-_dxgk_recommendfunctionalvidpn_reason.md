@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
-title: _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
+title: "_DXGK_RECOMMENDFUNCTIONALVIDPN_REASON"
 author: windows-driver-content
 description: The DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration indicates the reason for calling the display miniport driver's DxgkDdiRecommendFunctionalVidPn function.
 old-location: display\dxgk_recommendfunctionalvidpn_reason.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 75dda423-8d5a-4b11-a187-d6703601a366
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_RFVR_FIRMWARE, d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_USERMODE, _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_HOTKEY, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, DXGK_RFVR_UNINITIALIZED, d3dkmddi/DXGK_RFVR_UNINITIALIZED, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], d3dkmddi/DXGK_RFVR_HOTKEY, DXGK_RFVR_USERMODE, display.dxgk_recommendfunctionalvidpn_reason, DXGK_RFVR_FIRMWARE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
+ms.keywords: DXGK_RFVR_FIRMWARE, DXGK_RFVR_HOTKEY, d3dkmddi/DXGK_RFVR_USERMODE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_USERMODE, d3dkmddi/DXGK_RFVR_UNINITIALIZED, _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_FIRMWARE, DXGK_RFVR_UNINITIALIZED, display.dxgk_recommendfunctionalvidpn_reason, d3dkmddi/DXGK_RFVR_HOTKEY, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
 product: Windows
 targetos: Windows

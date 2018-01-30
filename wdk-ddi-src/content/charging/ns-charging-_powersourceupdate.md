@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATE
-title: _POWERSOURCEUPDATE
+title: "_POWERSOURCEUPDATE"
 author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\powersourceupdate.htm
@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: A1BFCCE4-14F0-4F41-A062-71B001CE14AA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: POWERSOURCEUPDATE structure [Battery Devices], battery.powersourceupdate, charging/BATTERY_INFORMATION, *PPOWERSOURCEUPDATE, _POWERSOURCEUPDATE, POWERSOURCEUPDATE
+ms.keywords: POWERSOURCEUPDATE structure [Battery Devices], battery.powersourceupdate, _POWERSOURCEUPDATE, POWERSOURCEUPDATE, *PPOWERSOURCEUPDATE, charging/BATTERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Charging.h
-apiname: 
+apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows

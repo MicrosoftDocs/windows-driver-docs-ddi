@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_CREATEDEVICEFLAGS
-title: _D3DDDI_CREATEDEVICEFLAGS
+title: "_D3DDDI_CREATEDEVICEFLAGS"
 author: windows-driver-content
 description: The D3DDDI_CREATEDEVICEFLAGS structure describes how to create a device.
 old-location: display\d3dddi_createdeviceflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9415dc9-352a-4e93-a0c1-2519c8c89762
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], display.d3dddi_createdeviceflags, _D3DDDI_CREATEDEVICEFLAGS
+ms.keywords: D3DDDI_CREATEDEVICEFLAGS, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, _D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags, D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_CREATEDEVICEFLAGS
 product: Windows
 targetos: Windows

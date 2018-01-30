@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIDEVINFO_VCACHE
-title: _D3DDDIDEVINFO_VCACHE
+title: "_D3DDDIDEVINFO_VCACHE"
 author: windows-driver-content
 description: The D3DDDIDEVINFO_VCACHE structure describes the vertex-cache information of a device.
 old-location: display\d3dddidevinfo_vcache.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 06635207-39fd-4ef9-b388-25513f8194fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddidevinfo_vcache, D3DDDIDEVINFO_VCACHE structure [Display Devices], D3DDDIDEVINFO_VCACHE, D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, _D3DDDIDEVINFO_VCACHE, d3dumddi/D3DDDIDEVINFO_VCACHE
+ms.keywords: display.d3dddidevinfo_vcache, D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, _D3DDDIDEVINFO_VCACHE, D3DDDIDEVINFO_VCACHE structure [Display Devices], D3DDDIDEVINFO_VCACHE, d3dumddi/D3DDDIDEVINFO_VCACHE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIDEVINFO_VCACHE
 product: Windows
 targetos: Windows
@@ -136,17 +136,17 @@ Vertex-cache-based optimization
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getinfo.md">GetInfo</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
 
  
 

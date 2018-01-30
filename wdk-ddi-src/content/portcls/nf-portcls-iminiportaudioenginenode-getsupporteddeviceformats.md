@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2B27E92C-8781-4499-A1E0-7C1BBFFAA2DF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, IMiniportAudioEngineNode, GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode::GetSupportedDeviceFormats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface
+ms.keywords: GetSupportedDeviceFormats, GetSupportedDeviceFormats method [Audio Devices], portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::GetSupportedDeviceFormats, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportAudioEngineNode.GetSupportedDeviceFormats
 product: Windows
 targetos: Windows

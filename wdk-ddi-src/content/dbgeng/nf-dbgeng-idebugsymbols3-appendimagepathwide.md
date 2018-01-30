@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide, IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method, AppendImagePathWide, AppendImagePathWide method [Windows Debugging], IDebugSymbols3::AppendImagePathWide, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols3::AppendImagePathWide, AppendImagePathWide, IDebugSymbols3, debugger.appendimagepathwide, AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AppendImagePathWide, AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.AppendImagePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::AppendImagePathWide method

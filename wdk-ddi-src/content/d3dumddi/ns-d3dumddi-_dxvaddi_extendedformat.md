@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_EXTENDEDFORMAT
-title: _DXVADDI_EXTENDEDFORMAT
+title: "_DXVADDI_EXTENDEDFORMAT"
 author: windows-driver-content
 description: The DXVADDI_EXTENDEDFORMAT structure describes the extended format of the video frame.
 old-location: display\dxvaddi_extendedformat.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4f863bd-12ec-489d-a6e0-6b9242fbb0b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, _DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat, DXVADDI_EXTENDEDFORMAT
+ms.keywords: "_DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat, DXVADDI_EXTENDEDFORMAT structure [Display Devices], DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, d3dumddi/DXVADDI_EXTENDEDFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_EXTENDEDFORMAT
 product: Windows
 targetos: Windows

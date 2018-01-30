@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2afec522-5a40-4db2-9f37-ee7a9b64e823
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Init method [Audio Devices], IMiniportMidi interface, IMiniportMidi::Init, IMiniportMidi, audio.iminiportmidi_init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, IMiniportMidi interface [Audio Devices], Init method, portcls/IMiniportMidi::Init, Init method [Audio Devices], Init
+ms.keywords: IMiniportMidi interface [Audio Devices], Init method, Init method [Audio Devices], IMiniportMidi, Init, IMiniportMidi::Init, Init method [Audio Devices], IMiniportMidi interface, audio.iminiportmidi_init, portcls/IMiniportMidi::Init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportMidi.Init
 product: Windows
 targetos: Windows
@@ -120,19 +120,19 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
  
 

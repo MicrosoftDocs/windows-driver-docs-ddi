@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_POOL
-title: _D3DDDI_POOL
+title: "_D3DDDI_POOL"
 author: windows-driver-content
 description: The D3DDDI_POOL enumeration type contains values that identify particular types of memory pool.
 old-location: display\d3dddi_pool.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3f34183-7595-47b6-a2f1-c32650734a04
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, D3DDDIPOOL_STAGINGMEM, _D3DDDI_POOL, display.d3dddi_pool, D3DDDI_POOL, D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, d3dukmdt/D3DDDIPOOL_STAGINGMEM, D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, D3DDDIPOOL_LOCALVIDMEM, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDI_POOL enumeration [Display Devices], D3DDDIPOOL_VIDEOMEMORY
+ms.keywords: D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDIPOOL_STAGINGMEM, D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, D3DDDIPOOL_VIDEOMEMORY, display.d3dddi_pool, D3DDDIPOOL_SYSTEMMEM, D3DDDIPOOL_NONLOCALVIDMEM, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, D3DDDI_POOL, D3DDDI_POOL enumeration [Display Devices], d3dukmdt/D3DDDI_POOL, D3DDDIPOOL_STAGINGMEM, _D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_POOL
 product: Windows
 targetos: Windows

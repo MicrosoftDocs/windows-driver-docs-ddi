@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_SET_INDICATOR
-title: _WINBIO_SET_INDICATOR
+title: "_WINBIO_SET_INDICATOR"
 author: windows-driver-content
 description: The WINBIO_SET_INDICATOR structure is the IN payload for IOCTL_BIOMETRIC_SET_INDICATOR.
 old-location: biometric\winbio_set_indicator.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_set_indicator, WINBIO_SET_INDICATOR, biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, _WINBIO_SET_INDICATOR, winbio_ioctl/PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], winbio_ioctl/WINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices]
+ms.keywords: PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], _WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR, biometric.winbio_set_indicator, WINBIO_SET_INDICATOR structure [Biometric Devices], biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, winbio_ioctl/WINBIO_SET_INDICATOR, winbio_ioctl/PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_ioctl.h
-apiname: 
+apiname:
 -	WINBIO_SET_INDICATOR
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR
-req.product: Windows 10 or later.
+req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
 ---
 
 # _WINBIO_SET_INDICATOR structure

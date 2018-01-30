@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 01b34b26-2835-4a58-abf3-190da63d25eb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis64 method, GetWindbgExtensionApis64, dbgeng/IDebugControl::GetWindbgExtensionApis64, IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl2::GetWindbgExtensionApis64, debugger.getwindbgextensionapis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl3::GetWindbgExtensionApis64, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis64 method, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl interface, IDebugControl::GetWindbgExtensionApis64, IDebugControl2::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3 interface, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl2 interface
+ms.keywords: IDebugControl::GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl3, IDebugControl2::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis64 method, GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl2 interface, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3 interface, debugger.getwindbgextensionapis64, dbgeng/IDebugControl2::GetWindbgExtensionApis64, IDebugControl3::GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetWindbgExtensionApis64
 -	IDebugControl2.GetWindbgExtensionApis64
 -	IDebugControl3.GetWindbgExtensionApis64
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetWindbgExtensionApis64 method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IKeywordDetectorOemAdapter, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter::VerifyUserKeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, audio.ikeyworddetectoroemadapter_verifyuserkeyword, VerifyUserKeyword
+ms.keywords: keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, VerifyUserKeyword, audio.ikeyworddetectoroemadapter_verifyuserkeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: keyworddetectoroemadapter.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	KeywordDetectorOemAdapter.h
-apiname: 
+apiname:
 -	IKeywordDetectorOemAdapter.VerifyUserKeyword
 product: Windows
 targetos: Windows

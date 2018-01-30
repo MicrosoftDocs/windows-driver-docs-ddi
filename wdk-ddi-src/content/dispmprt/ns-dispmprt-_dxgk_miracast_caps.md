@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_MIRACAST_CAPS
-title: _DXGK_MIRACAST_CAPS
+title: "_DXGK_MIRACAST_CAPS"
 author: windows-driver-content
 description: Used by a display miniport driver to identify capabilities of a Miracast device.
 old-location: display\dxgk_miracast_caps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_miracast_caps, *PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], dispmprt/PDXGK_MIRACAST_CAPS, dispmprt/DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices]
+ms.keywords: dispmprt/PDXGK_MIRACAST_CAPS, dispmprt/DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, *PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS structure pointer [Display Devices], DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	DXGK_MIRACAST_CAPS
 product: Windows
 targetos: Windows

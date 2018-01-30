@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: CE700126-8C29-4218-9248-F722523A4DA3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PC_REBALANCE_TYPE enumeration [Audio Devices], PC_REBALANCE_TYPE, audio.pc_rebalance_type, portcls/PcRebalanceRemoveSubdevices, portcls/PC_REBALANCE_TYPE, PcRebalanceRemoveSubdevices, PcRebalanceNotSupported, portcls/PcRebalanceNotSupported
+ms.keywords: portcls/PcRebalanceNotSupported, PC_REBALANCE_TYPE, portcls/PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, PC_REBALANCE_TYPE enumeration [Audio Devices], PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, portcls/PC_REBALANCE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PC_REBALANCE_TYPE
 product: Windows
 targetos: Windows

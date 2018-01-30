@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6EA01AE7-E5D5-4182-862D-2901185C2BF8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetDeviceFormat, portcls/IMiniportAudioEngineNode::GetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, IMiniportAudioEngineNode, GetDeviceFormat method [Audio Devices], audio.iminiportaudioenginenode_getdeviceformat, IMiniportAudioEngineNode::GetDeviceFormat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface
+ms.keywords: audio.iminiportaudioenginenode_getdeviceformat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceFormat, IMiniportAudioEngineNode::GetDeviceFormat, GetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::GetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportAudioEngineNode.GetDeviceFormat
 product: Windows
 targetos: Windows

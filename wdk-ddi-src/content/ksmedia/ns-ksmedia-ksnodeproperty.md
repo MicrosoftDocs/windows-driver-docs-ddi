@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSNODEPROPERTY structure pointer [Audio Devices], aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, *PKSNODEPROPERTY, audio.ksnodeproperty, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], ksmedia/KSNODEPROPERTY, PKSNODEPROPERTY, ksmedia/PKSNODEPROPERTY
+ms.keywords: KSNODEPROPERTY, PKSNODEPROPERTY, aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, PKSNODEPROPERTY structure pointer [Audio Devices], ksmedia/KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], ksmedia/PKSNODEPROPERTY, audio.ksnodeproperty, *PKSNODEPROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSNODEPROPERTY
 product: Windows
 targetos: Windows
-req.typenames: *PKSNODEPROPERTY, KSNODEPROPERTY
+req.typenames: KSNODEPROPERTY, *PKSNODEPROPERTY
 ---
 
 # KSNODEPROPERTY structure
@@ -71,7 +71,7 @@ typedef struct {
 
 ### -field Property
 
-Specifies the property to get or set. This member is a structure of type <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
+Specifies the property to get or set. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
 
 
 ### -field NodeId
@@ -87,7 +87,7 @@ Reserved for internal use by operating system. Do not use.
 ## -remarks
 
 
-This structure is identical to <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>.
+This structure is identical to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>.
 
 See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.microsoft.com/dcfd139c-fca3-4068-8324-aa2c952dbc1f">Audio Property Requests</a>.
 
@@ -95,9 +95,9 @@ See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
 
  
 

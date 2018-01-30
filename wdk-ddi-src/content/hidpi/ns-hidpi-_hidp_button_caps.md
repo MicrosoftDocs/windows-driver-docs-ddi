@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_BUTTON_CAPS
-title: _HIDP_BUTTON_CAPS
+title: "_HIDP_BUTTON_CAPS"
 author: windows-driver-content
 description: The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button usage (or a set of buttons associated with a usage range).
 old-location: hid\hidp_button_caps.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: d3d77679-6749-4ef5-a8f2-91639587144a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_button_caps, HIDP_BUTTON_CAPS structure [Human Input Devices], PHIDP_BUTTON_CAPS structure pointer [Human Input Devices], PHIDP_BUTTON_CAPS, _HIDP_BUTTON_CAPS, hidpi/PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS, hidstrct_0fa7f0ef-afc7-482a-bcf0-c8c78c3d18f7.xml, *PHIDP_BUTTON_CAPS, hidpi/HIDP_BUTTON_CAPS
+ms.keywords: hidstrct_0fa7f0ef-afc7-482a-bcf0-c8c78c3d18f7.xml, *PHIDP_BUTTON_CAPS, hidpi/PHIDP_BUTTON_CAPS, PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS structure [Human Input Devices], hid.hidp_button_caps, hidpi/HIDP_BUTTON_CAPS, _HIDP_BUTTON_CAPS, PHIDP_BUTTON_CAPS structure pointer [Human Input Devices], HIDP_BUTTON_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidpi.h
-apiname: 
+apiname:
 -	HIDP_BUTTON_CAPS
 product: Windows
 targetos: Windows
-req.typenames: *PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS
+req.typenames: "*PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS"
 ---
 
 # _HIDP_BUTTON_CAPS structure
@@ -263,19 +263,19 @@ For information about the capabilities of HID control values, see <a href="https
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
-
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
-
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_POWER_COMPONENT_MAPPING
-title: _DXGK_POWER_COMPONENT_MAPPING
+title: "_DXGK_POWER_COMPONENT_MAPPING"
 author: windows-driver-content
 description: Used in the DXGK_POWER_RUNTIME_COMPONENT.ComponentMapping member to define the standard component types of the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
 old-location: display\dxgk_power_component_mapping.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6aa00a36-f7a2-4e49-bbd9-1a1ae3592951
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_power_component_mapping, _DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices]
+ms.keywords: display.dxgk_power_component_mapping, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices], DXGK_POWER_COMPONENT_MAPPING, _DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_POWER_COMPONENT_MAPPING
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_BUFFERBLT1
-title: _D3DDDIARG_BUFFERBLT1
+title: "_D3DDDIARG_BUFFERBLT1"
 author: windows-driver-content
 description: Describes the parameters of a buffer bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_bufferblt1.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dd2bf12-741b-4f3a-9c80-367b5d5036b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_BUFFERBLT1 structure [Display Devices], D3DDDIARG_BUFFERBLT1, display.d3dddiarg_bufferblt1, _D3DDDIARG_BUFFERBLT1, d3dumddi/D3DDDIARG_BUFFERBLT1
+ms.keywords: display.d3dddiarg_bufferblt1, d3dumddi/D3DDDIARG_BUFFERBLT1, _D3DDDIARG_BUFFERBLT1, D3DDDIARG_BUFFERBLT1 structure [Display Devices], D3DDDIARG_BUFFERBLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_BUFFERBLT1
 product: Windows
 targetos: Windows

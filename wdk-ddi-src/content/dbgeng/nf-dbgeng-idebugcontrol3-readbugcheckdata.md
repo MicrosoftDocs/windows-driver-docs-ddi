@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadBugCheckData, debugger.readbugcheckdata, ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl2::ReadBugCheckData, IDebugControl::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl3::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl::ReadBugCheckData, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3
+ms.keywords: dbgeng/IDebugControl3::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl interface, IDebugControl3, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, IDebugControl2::ReadBugCheckData, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3::ReadBugCheckData, debugger.readbugcheckdata, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl::ReadBugCheckData, IDebugControl::ReadBugCheckData, ReadBugCheckData, IDebugControl interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.ReadBugCheckData
 -	IDebugControl2.ReadBugCheckData
 -	IDebugControl3.ReadBugCheckData
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::ReadBugCheckData method

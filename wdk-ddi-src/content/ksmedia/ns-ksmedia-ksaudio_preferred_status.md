@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3191aeff-7324-4c2b-9b64-ddc50a561df5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PKSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS, PKSAUDIO_PREFERRED_STATUS, ksmedia/KSAUDIO_PREFERRED_STATUS, PKSAUDIO_PREFERRED_STATUS structure pointer [Audio Devices], aud-prop_a1287dc0-98ad-4071-be11-41e51b6b4846.xml, audio.ksaudio_preferred_status, KSAUDIO_PREFERRED_STATUS structure [Audio Devices], ksmedia/PKSAUDIO_PREFERRED_STATUS
+ms.keywords: "*PKSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS structure [Audio Devices], ksmedia/KSAUDIO_PREFERRED_STATUS, audio.ksaudio_preferred_status, KSAUDIO_PREFERRED_STATUS, ksmedia/PKSAUDIO_PREFERRED_STATUS, aud-prop_a1287dc0-98ad-4071-be11-41e51b6b4846.xml, PKSAUDIO_PREFERRED_STATUS, PKSAUDIO_PREFERRED_STATUS structure pointer [Audio Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIO_PREFERRED_STATUS
 product: Windows
 targetos: Windows
@@ -159,9 +159,9 @@ For information about the preferred device, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537899">SetupPreferredAudioDevices</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537299">KSPROPERTY_AUDIO_PREFERRED_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537899">SetupPreferredAudioDevices</a>
 
  
 

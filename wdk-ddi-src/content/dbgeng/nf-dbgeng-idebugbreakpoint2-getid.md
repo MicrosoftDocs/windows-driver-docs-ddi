@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint::GetId, IDebugBreakpoint interface [Windows Debugging], GetId method, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint2, IDebugBreakpoint2::GetId, debugger.getid, GetId method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetId method, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint2 interface, GetId, GetId method [Windows Debugging], IDebugBreakpoint interface
+ms.keywords: IDebugBreakpoint::GetId, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, IDebugBreakpoint2, IDebugBreakpoint2::GetId, IDebugBreakpoint2 interface [Windows Debugging], GetId method, GetId method [Windows Debugging], GetId method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetId, debugger.getid, GetId method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint interface [Windows Debugging], GetId method, GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.GetId
 -	IDebugBreakpoint2.GetId
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugBreakpoint2::GetId method

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETDISPLAYMODELIST
-title: _D3DKMT_GETDISPLAYMODELIST
+title: "_D3DKMT_GETDISPLAYMODELIST"
 author: windows-driver-content
 description: The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 old-location: display\d3dkmt_getdisplaymodelist.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, _D3DKMT_GETDISPLAYMODELIST, OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, display.d3dkmt_getdisplaymodelist, D3DKMT_GETDISPLAYMODELIST structure [Display Devices]
+ms.keywords: OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, display.d3dkmt_getdisplaymodelist, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, _D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST structure [Display Devices], D3DKMT_GETDISPLAYMODELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_GETDISPLAYMODELIST
 product: Windows
 targetos: Windows
@@ -92,9 +92,9 @@ typedef struct _D3DKMT_GETDISPLAYMODELIST {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdisplaymodelist.md">D3DKMTGetDisplayModeList</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
  
 

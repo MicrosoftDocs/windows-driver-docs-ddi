@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F139A61B-E074-4185-A934-17F6FDBA3F62
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddiarg_createdevice_0003, D3D12DDIARG_CREATEDEVICE_0003 structure [Display Devices], D3D12DDIARG_CREATEDEVICE_0003, d3d12umddi/D3D12DDIARG_CREATEDEVICE_0003
+ms.keywords: D3D12DDIARG_CREATEDEVICE_0003, d3d12umddi/D3D12DDIARG_CREATEDEVICE_0003, D3D12DDIARG_CREATEDEVICE_0003 structure [Display Devices], display.d3d12ddiarg_createdevice_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDIARG_CREATEDEVICE_0003
 product: Windows
 targetos: Windows

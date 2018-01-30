@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_ALLOCATIONINFO
-title: _D3DDDI_ALLOCATIONINFO
+title: "_D3DDDI_ALLOCATIONINFO"
 author: windows-driver-content
 description: The D3DDDI_ALLOCATIONINFO structure describes an allocation.
 old-location: display\d3dddi_allocationinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69181a7c-62bd-4df0-95fc-fe6c3ab14209
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, D3DDDI_ALLOCATIONINFO structure [Display Devices], D3DDDI_ALLOCATIONINFO, _D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo, d3dukmdt/D3DDDI_ALLOCATIONINFO
+ms.keywords: D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, D3DDDI_ALLOCATIONINFO structure [Display Devices], display.d3dddi_allocationinfo, D3DDDI_ALLOCATIONINFO, d3dukmdt/D3DDDI_ALLOCATIONINFO, _D3DDDI_ALLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_ALLOCATIONINFO
 product: Windows
 targetos: Windows
@@ -177,21 +177,21 @@ The allocation is allocated according to preferences; otherwise, the allocation 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_allocate.md">D3DDDICB_ALLOCATE</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
  
 

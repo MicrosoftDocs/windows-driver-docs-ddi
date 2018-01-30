@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VIEWPORTINFO
-title: _D3DDDIARG_VIEWPORTINFO
+title: "_D3DDDIARG_VIEWPORTINFO"
 author: windows-driver-content
 description: The D3DDDIARG_VIEWPORTINFO structure describes the location and size of a view-clipping rectangle.
 old-location: display\d3dddiarg_viewportinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37e69980-fb3a-4abe-a76b-b2bd6827ae64
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_viewportinfo, d3dumddi/D3DDDIARG_VIEWPORTINFO, D3DDDIARG_VIEWPORTINFO, _D3DDDIARG_VIEWPORTINFO, UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, D3DDDIARG_VIEWPORTINFO structure [Display Devices]
+ms.keywords: D3DDDIARG_VIEWPORTINFO structure [Display Devices], d3dumddi/D3DDDIARG_VIEWPORTINFO, _D3DDDIARG_VIEWPORTINFO, UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, display.d3dddiarg_viewportinfo, D3DDDIARG_VIEWPORTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_VIEWPORTINFO
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYDCFROMMEMORY
-title: _D3DKMT_DESTROYDCFROMMEMORY
+title: "_D3DKMT_DESTROYDCFROMMEMORY"
 author: windows-driver-content
 description: The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
 old-location: display\d3dkmt_destroydcfrommemory.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory, OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, _D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], D3DKMT_DESTROYDCFROMMEMORY
+ms.keywords: d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, D3DKMT_DESTROYDCFROMMEMORY, _D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DESTROYDCFROMMEMORY
 product: Windows
 targetos: Windows

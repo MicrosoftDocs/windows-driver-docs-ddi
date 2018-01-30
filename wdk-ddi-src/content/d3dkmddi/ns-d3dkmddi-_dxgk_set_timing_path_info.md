@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SET_TIMING_PATH_INFO
-title: _DXGK_SET_TIMING_PATH_INFO
+title: "_DXGK_SET_TIMING_PATH_INFO"
 author: windows-driver-content
 description: Structure to hold information to modify SetTiming path.
 old-location: display\dxgk_set_timing_path_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SET_TIMING_PATH_INFO structure [Display Devices], DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], PDXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
+ms.keywords: PDXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, _DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], display.dxgk_set_timing_path_info, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], DXGK_SET_TIMING_PATH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SET_TIMING_PATH_INFO
 product: Windows
 targetos: Windows

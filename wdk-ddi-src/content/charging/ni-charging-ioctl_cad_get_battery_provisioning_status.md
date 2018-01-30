@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	charging.h
-apiname: 
+apiname:
 -	IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PPOWERSOURCEID, POWERSOURCEID
+req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ---
 
 # IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL

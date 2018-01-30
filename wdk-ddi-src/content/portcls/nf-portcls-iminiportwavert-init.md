@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavert_init, IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, IMiniportWaveRT, portcls/IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface [Audio Devices], Init method, Init
+ms.keywords: Init method [Audio Devices], IMiniportWaveRT interface, IMiniportWaveRT::Init, Init method [Audio Devices], Init, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], Init method, audio.iminiportwavert_init, portcls/IMiniportWaveRT::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWaveRT.Init
 product: Windows
 targetos: Windows

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CreateVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback
@@ -92,6 +92,13 @@ HRESULT APIENTRY* CreateVideoProcessorInputView(
 
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
 #### - pView [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a> structure. This structure specifies the attributes of the video processor input view to be created.
@@ -105,13 +112,6 @@ A handle to the driver's private data for the video processor input view. For mo
 #### - hRTView [in]
 
 A handle to the video processor input that the driver should use when it calls back into the Direct3D runtime.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
 
 
 ## -returns
@@ -183,9 +183,9 @@ When the runtime  calls <i>CreateVideoProcessorInputView</i>, it passes the hand
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorinputviewsize.md">CalcPrivateVideoProcessorInputViewSize</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorinputviewsize.md">CalcPrivateVideoProcessorInputViewSize</a>
 
  
 

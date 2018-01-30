@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
-title: _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
+title: "_D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR"
 author: windows-driver-content
 description: The D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure describes a Microsoft DirectX Video Acceleration (DirectX VA) video processor to create.
 old-location: display\d3dddiarg_dxvahd_createvideoprocessor.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fafb1b1f-409d-4eab-a5dd-22fd1ab830d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, display.d3dddiarg_dxvahd_createvideoprocessor, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml
+ms.keywords: d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, display.d3dddiarg_dxvahd_createvideoprocessor, _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
 product: Windows
 targetos: Windows

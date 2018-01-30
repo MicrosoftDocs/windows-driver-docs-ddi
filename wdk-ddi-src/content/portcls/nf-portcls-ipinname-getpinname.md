@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97fa159c-ce71-4ce2-8d40-def7671d014c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetPinName, GetPinName method [Audio Devices], audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, portcls/IPinName::GetPinName, GetPinName method [Audio Devices], IPinName interface, IPinName, IPinName interface [Audio Devices], GetPinName method, IPinName::GetPinName, audio.ipinname_getpinname
+ms.keywords: audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, audio.ipinname_getpinname, GetPinName method [Audio Devices], IPinName::GetPinName, GetPinName method [Audio Devices], IPinName interface, GetPinName, IPinName, portcls/IPinName::GetPinName, IPinName interface [Audio Devices], GetPinName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPinName.GetPinName
 product: Windows
 targetos: Windows

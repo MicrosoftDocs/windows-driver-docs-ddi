@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_EVENT_CONTEXT
-title: _DEBUG_EVENT_CONTEXT
+title: "_DEBUG_EVENT_CONTEXT"
 author: windows-driver-content
 description: Defines context information about an event.
 old-location: debugger\debug_event_context.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3748675F-8187-4072-A0D0-3764B4D20288
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_EVENT_CONTEXT, debugger.debug_event_context, _DEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], dbgeng/PDEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], DEBUG_EVENT_CONTEXT
+ms.keywords: "_DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, debugger.debug_event_context, dbgeng/PDEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_EVENT_CONTEXT
 product: Windows
 targetos: Windows

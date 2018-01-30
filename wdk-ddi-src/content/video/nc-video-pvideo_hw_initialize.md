@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidInitialize
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # PVIDEO_HW_INITIALIZE callback
@@ -98,11 +97,11 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
 <a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
  
 

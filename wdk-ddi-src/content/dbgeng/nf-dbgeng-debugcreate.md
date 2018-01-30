@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9dd3632c-4c88-470d-8419-10959eda0454
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCreate, DebugCreate function [Windows Debugging], debugger.debugcreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, dbgeng/DebugCreate
+ms.keywords: debugger.debugcreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, dbgeng/DebugCreate, DebugCreate function [Windows Debugging], DebugCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugCreate
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # DebugCreate function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4655bac3-997e-43d9-b628-b4292ae5509d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getfieldvalue, WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, wdbgexts/GetFieldValue, GetFieldValue, GetFieldValue function [Windows Debugging]
+ms.keywords: debugger.getfieldvalue, WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, GetFieldValue function [Windows Debugging], wdbgexts/GetFieldValue, GetFieldValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: wdbgexts.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetFieldValue
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # GetFieldValue macro

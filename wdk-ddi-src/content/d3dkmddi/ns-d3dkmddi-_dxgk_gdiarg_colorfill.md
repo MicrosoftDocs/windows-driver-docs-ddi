@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_COLORFILL
-title: _DXGK_GDIARG_COLORFILL
+title: "_DXGK_GDIARG_COLORFILL"
 author: windows-driver-content
 description: The DXGK_GDIARG_COLORFILL structure describes the characteristics of a GDI hardware-accelerated color fill operation.
 old-location: display\dxgk_gdiarg_colorfill.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7dad933-31e6-4de2-9753-67c054f44c4a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GDIARG_COLORFILL structure [Display Devices], _DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill, DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, d3dkmddi/DXGK_GDIARG_COLORFILL
+ms.keywords: d3dkmddi/DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill, _DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL structure [Display Devices], DXGK_GDIARG_COLORFILL, DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GDIARG_COLORFILL
 product: Windows
 targetos: Windows
@@ -124,13 +124,13 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_colorfill.md">DXGK_GDIROP_COLORFILL</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
  
 

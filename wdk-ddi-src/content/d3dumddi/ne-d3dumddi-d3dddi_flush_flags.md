@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FE5EF59E-3B37-4947-A7E8-5CBE6137D07D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_FLUSH_FLAGS, display.d3dddi_flush_flags, d3dumddi/D3DDDI_TRIM_MEMORY, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS
+ms.keywords: D3DDDI_TRIM_MEMORY, D3DDDI_FLUSH_FLAGS, display.d3dddi_flush_flags, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_FLUSH_FLAGS
 product: Windows
 targetos: Windows

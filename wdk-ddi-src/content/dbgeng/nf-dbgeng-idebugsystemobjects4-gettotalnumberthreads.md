@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dce67b78-a5e0-4664-b183-f462bcd773c8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTotalNumberThreads method [Windows Debugging], GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreads method, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects2::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2 interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, IDebugSystemObjects4, IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects4::GetTotalNumberThreads, dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreads method, dbgeng/IDebugSystemObjects3::GetTotalNumberThreads, dbgeng/IDebugSystemObjects::GetTotalNumberThreads, debugger.gettotalnumberthreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface
+ms.keywords: dbgeng/IDebugSystemObjects::GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2::GetTotalNumberThreads, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects2 interface [Windows Debugging], GetTotalNumberThreads method, dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, IDebugSystemObjects4::GetTotalNumberThreads, debugger.gettotalnumberthreads, IDebugSystemObjects4, IDebugSystemObjects interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreads method, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects interface, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, dbgeng/IDebugSystemObjects3::GetTotalNumberThreads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects.GetTotalNumberThreads
 -	IDebugSystemObjects2.GetTotalNumberThreads
 -	IDebugSystemObjects3.GetTotalNumberThreads
 -	IDebugSystemObjects4.GetTotalNumberThreads
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects4::GetTotalNumberThreads method

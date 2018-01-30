@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bff9d991-63a1-47af-a351-073c82c0d31c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenAdapterFromDeviceName function [Display Devices], display.d3dkmtopenadapterfromdevicename, OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml, D3DKMTOpenAdapterFromDeviceName, d3dkmthk/D3DKMTOpenAdapterFromDeviceName
+ms.keywords: D3DKMTOpenAdapterFromDeviceName function [Display Devices], display.d3dkmtopenadapterfromdevicename, D3DKMTOpenAdapterFromDeviceName, OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml, d3dkmthk/D3DKMTOpenAdapterFromDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTOpenAdapterFromDeviceName
 product: Windows
 targetos: Windows

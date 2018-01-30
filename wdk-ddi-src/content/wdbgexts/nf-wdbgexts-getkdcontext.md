@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/GetKdContext, debugger.getkdcontext, GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml
+ms.keywords: GetKdContext function [Windows Debugging], GetKdContext, debugger.getkdcontext, wdbgexts/GetKdContext, WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: wdbgexts.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetKdContext
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # GetKdContext macro

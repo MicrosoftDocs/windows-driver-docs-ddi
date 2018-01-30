@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWINDEXEDPRIMITIVE2
-title: _D3DDDIARG_DRAWINDEXEDPRIMITIVE2
+title: "_D3DDDIARG_DRAWINDEXEDPRIMITIVE2"
 author: windows-driver-content
 description: The D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure describes an indexed primitive to draw.
 old-location: display\d3dddiarg_drawindexedprimitive2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91bf3d1d-5be2-4790-9e6d-07db5eed4f06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2, UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices]
+ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DRAWINDEXEDPRIMITIVE2
 product: Windows
 targetos: Windows

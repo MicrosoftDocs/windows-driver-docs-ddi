@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::operator[], GetSimpleValue, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped::~ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::GetSimpleValue, ExtRemoteTyped::Clear, debugger.extremotetyped, operator=, ~ExtRemoteTyped, ExtRemoteTyped::ErtIoctl, engextcpp/ExtRemoteTyped, Clear, ExtRemoteTyped::Copy, Set, Copy, ExtRemoteTyped::Set, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, operator[], ExtRemoteTyped::operator=, ErtIoctl
+ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::Copy, ExtRemoteTyped class [Windows Debugging], ~ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::operator[], ExtRemoteTyped::Clear, ExtRemoteTyped, debugger.extremotetyped, Set, ExtRemoteTyped::ErtIoctl, Clear, Copy, ErtIoctl, operator[], engextcpp/ExtRemoteTyped, GetSimpleValue, ExtRemoteTyped::GetSimpleValue, ExtRemoteTyped::~ExtRemoteTyped, ExtRemoteTyped::Set, ExtRemoteTyped::operator=, operator=
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::~ExtRemoteTyped method

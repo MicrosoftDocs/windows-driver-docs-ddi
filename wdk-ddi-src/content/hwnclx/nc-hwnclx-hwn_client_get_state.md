@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Hwnclx.h
-apiname: 
+apiname:
 -	*PHWN_CLIENT_GET_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE
+req.typenames: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES"
 ---
 
 # HWN_CLIENT_GET_STATE callback
@@ -142,9 +142,9 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.vhfdelete, VhfDelete, vhf/VhfDelete, VhfDelete method [Human Input Devices]
+ms.keywords: vhf/VhfDelete, hid.vhfdelete, VhfDelete method [Human Input Devices], VhfDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,19 @@ req.type-library:
 req.lib: VhfKm.lib
 req.dll: 
 req.irql: If Wait is TRUE, PASSIVE_LEVEL; if Wait is FALSE <= DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	vhfKm.lib
 -	vhfKm.dll
-apiname: 
+apiname:
 -	VhfDelete
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
 ---
 
 # VhfDelete function
@@ -98,7 +97,7 @@ To call <b>VhfDelete</b> synchronously,  call it at PASSIVE_LEVEL with the <i>Wa
 
 To call <b>VhfDelete</b> asynchronously, call it at maximum DISPATCH_LEVEL. If you call it at DISPATCH_LEVEL, then <i>Wait</i> parameter must be set to FALSE, the function returns immediately. VHF invokes the <a href="..\vhf\nc-vhf-evt_vhf_cleanup.md">EvtVhfCleanup</a> callback at a later time after the deletion has completed. 
 
-There are no restrictions on when a KMDF driver should call this function. It is recommended to call it from a function matching the <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> call. For example, if <b>VhfCreate</b> is called from <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>, then call <b>VhfDelete</b> synchronously from <i>EvtDeviceCleanupCallback</i>.
+There are no restrictions on when a KMDF driver should call this function. It is recommended to call it from a function matching the <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> call. For example, if <b>VhfCreate</b> is called from <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>, then call <b>VhfDelete</b> synchronously from <i>EvtDeviceCleanupCallback</i>.
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_PIXEL_VALUE_ACCESS_MODE
-title: _D3DKMDT_PIXEL_VALUE_ACCESS_MODE
+title: "_D3DKMDT_PIXEL_VALUE_ACCESS_MODE"
 author: windows-driver-content
 description: The D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration is used to indicate the way color values or palette indices are stored in the primary surface of a video present source.
 old-location: display\d3dkmdt_pixel_value_access_mode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da4074ac-309d-46b9-b630-79d73ed73f36
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmEnums_ac8b4715-9a7c-4698-8f57-e6125f90f75b.xml, D3DKMDT_PVAM_SETTABLEPALETTE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration [Display Devices], D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_SETTABLEPALETTE, d3dkmdt/D3DKMDT_PVAM_UNINITIALIZED, D3DKMDT_PVAM_PRESETPALETTE, D3DKMDT_PVAM_UNINITIALIZED, d3dkmdt/D3DKMDT_PVAM_PRESETPALETTE, D3DKMDT_PVAM_DIRECT, display.d3dkmdt_pixel_value_access_mode, d3dkmdt/D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_DIRECT, _D3DKMDT_PIXEL_VALUE_ACCESS_MODE
+ms.keywords: d3dkmdt/D3DKMDT_PVAM_UNINITIALIZED, d3dkmdt/D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration [Display Devices], D3DKMDT_PVAM_PRESETPALETTE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PVAM_SETTABLEPALETTE, DmEnums_ac8b4715-9a7c-4698-8f57-e6125f90f75b.xml, display.d3dkmdt_pixel_value_access_mode, D3DKMDT_PVAM_UNINITIALIZED, _D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_SETTABLEPALETTE, d3dkmdt/D3DKMDT_PVAM_PRESETPALETTE, d3dkmdt/D3DKMDT_PVAM_DIRECT, D3DKMDT_PVAM_DIRECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_PIXEL_VALUE_ACCESS_MODE
 product: Windows
 targetos: Windows

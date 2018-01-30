@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ClearUnorderedAccessViewUINT
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback
@@ -87,9 +87,9 @@ VOID APIENTRY ClearUnorderedAccessViewUINT(
 
 
 
-#### - pUints [in]
+#### - hDevice [in]
 
- A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
+ A handle to the display device (graphics context).
 
 
 #### - hUnorderedAccessView [in]
@@ -97,9 +97,9 @@ VOID APIENTRY ClearUnorderedAccessViewUINT(
  A handle to the unordered-access view to clear. 
 
 
-#### - hDevice [in]
+#### - pUints [in]
 
- A handle to the display device (graphics context).
+ A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, IDebugControl4, debugger.getprompttextwide, GetPromptTextWide, GetPromptTextWide method [Windows Debugging], GetPromptTextWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetPromptTextWide, GetPromptTextWide method [Windows Debugging], GetPromptTextWide, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, dbgeng/IDebugControl4::GetPromptTextWide, IDebugControl4, debugger.getprompttextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetPromptTextWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetPromptTextWide method
@@ -128,11 +128,11 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
  
 

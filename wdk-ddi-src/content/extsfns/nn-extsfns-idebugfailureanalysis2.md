@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	IDebugFailureAnalysis2
 product: Windows
 targetos: Windows
@@ -298,9 +298,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUl
 
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">!analyze</a>
 

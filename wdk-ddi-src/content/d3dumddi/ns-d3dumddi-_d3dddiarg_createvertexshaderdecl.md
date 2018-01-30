@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVERTEXSHADERDECL
-title: _D3DDDIARG_CREATEVERTEXSHADERDECL
+title: "_D3DDDIARG_CREATEVERTEXSHADERDECL"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to associate with the vertex shader declaration.
 old-location: display\d3dddiarg_createvertexshaderdecl.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 510f8cda-922e-48de-b95e-daf972e906fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, display.d3dddiarg_createvertexshaderdecl, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], _D3DDDIARG_CREATEVERTEXSHADERDECL
+ms.keywords: display.d3dddiarg_createvertexshaderdecl, D3DDDIARG_CREATEVERTEXSHADERDECL, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, _D3DDDIARG_CREATEVERTEXSHADERDECL, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CREATEVERTEXSHADERDECL
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetConstantNameWide, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide, GetConstantNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetConstantNameWide
+ms.keywords: GetConstantNameWide method [Windows Debugging], IDebugSymbols3, debugger.getconstantnamewide, GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetConstantNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetConstantNameWide method

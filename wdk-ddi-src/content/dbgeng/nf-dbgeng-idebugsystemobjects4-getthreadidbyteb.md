@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 64b98d8b-883b-4a2c-a5de-058bb3b732df
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects2::GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByTeb method, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb, GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects interface [Windows Debugging], GetThreadIdByTeb method, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects::GetThreadIdByTeb
+ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects3::GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects3 interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByTeb method, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, dbgeng/IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByTeb method, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects4, IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects::GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects.GetThreadIdByTeb
 -	IDebugSystemObjects2.GetThreadIdByTeb
 -	IDebugSystemObjects3.GetThreadIdByTeb
 -	IDebugSystemObjects4.GetThreadIdByTeb
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSystemObjects4::GetThreadIdByTeb method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 32d36b6d-9887-43ac-9314-fc682705131e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetLogMask, dbgeng/IDebugControl3::GetLogMask, GetLogMask, GetLogMask method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], GetLogMask method, IDebugControl::GetLogMask, debugger.getlogmask, dbgeng/IDebugControl2::GetLogMask, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetLogMask method, GetLogMask method [Windows Debugging], IDebugControl3, IDebugControl2 interface [Windows Debugging], GetLogMask method, IDebugControl3::GetLogMask, IDebugControl2::GetLogMask
+ms.keywords: debugger.getlogmask, IDebugControl2::GetLogMask, GetLogMask, IDebugControl::GetLogMask, dbgeng/IDebugControl3::GetLogMask, IDebugControl3::GetLogMask, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, IDebugControl3, GetLogMask method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetLogMask method, IDebugControl interface [Windows Debugging], GetLogMask method, dbgeng/IDebugControl2::GetLogMask, GetLogMask method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetLogMask method, GetLogMask method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetLogMask, GetLogMask method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetLogMask
 -	IDebugControl2.GetLogMask
 -	IDebugControl3.GetLogMask
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetLogMask method
@@ -107,15 +107,15 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

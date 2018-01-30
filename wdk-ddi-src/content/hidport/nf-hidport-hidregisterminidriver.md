@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 521928f8-6434-443a-83f0-7e8e00c756b5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidRegisterMinidriver routine [Human Input Devices], HidRegisterMinidriver, hidport/HidRegisterMinidriver, hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml
+ms.keywords: hid.hidregisterminidriver, hidport/HidRegisterMinidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, HidRegisterMinidriver routine [Human Input Devices], HidRegisterMinidriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Hid.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hid.lib
 -	Hid.dll
-apiname: 
+apiname:
 -	HidRegisterMinidriver
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
 ---
 
 # HidRegisterMinidriver function

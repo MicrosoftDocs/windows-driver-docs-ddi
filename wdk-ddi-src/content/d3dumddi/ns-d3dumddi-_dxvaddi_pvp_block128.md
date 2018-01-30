@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PVP_BLOCK128
-title: _DXVADDI_PVP_BLOCK128
+title: "_DXVADDI_PVP_BLOCK128"
 author: windows-driver-content
 description: The DXVADDI_PVP_KEY128 structure contains a 128-bit key that the decode device uses to start decoding a frame.
 old-location: display\dxvaddi_pvp_key128.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4c65d1f-2531-4804-8a86-160b1ddfd692
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_PVP_KEY128, DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVADDI_PVP_KEY128, _DXVADDI_PVP_BLOCK128, display.dxvaddi_pvp_key128, DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_KEY128 structure [Display Devices]
+ms.keywords: DXVADDI_PVP_KEY128 structure [Display Devices], d3dumddi/DXVADDI_PVP_KEY128, DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_KEY128, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_BLOCK128 structure [Display Devices], display.dxvaddi_pvp_key128, _DXVADDI_PVP_BLOCK128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_PVP_BLOCK128
 product: Windows
 targetos: Windows
-req.typenames: DXVADDI_PVP_KEY128, DXVADDI_PVP_BLOCK128
+req.typenames: DXVADDI_PVP_BLOCK128, DXVADDI_PVP_KEY128
 ---
 
 # _DXVADDI_PVP_BLOCK128 structure
@@ -74,11 +74,11 @@ typedef struct _DXVADDI_PVP_BLOCK128 {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodebeginframe.md">D3DDDIARG_DECODEBEGINFRAME</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
 
  
 

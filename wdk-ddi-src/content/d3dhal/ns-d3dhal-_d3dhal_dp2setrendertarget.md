@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETRENDERTARGET
-title: _D3DHAL_DP2SETRENDERTARGET
+title: "_D3DHAL_DP2SETRENDERTARGET"
 author: windows-driver-content
 description: The D3DHAL_DP2SETRENDERTARGET structure is used with the D3DDP2OP_SETRENDERTARGET opcode to map a new rendering target surface and depth buffer in the current context.
 old-location: display\d3dhal_dp2setrendertarget.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0ececf46-23a4-456b-8305-b9cd0ffba4b6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETRENDERTARGET structure [Display Devices], d3dhal/D3DHAL_DP2SETRENDERTARGET, d3dstrct_d3f81bd9-d8fd-4560-b8b3-61af41d4a13b.xml, display.d3dhal_dp2setrendertarget, _D3DHAL_DP2SETRENDERTARGET, LPD3DHAL_DP2SETRENDERTARGET structure pointer [Display Devices], LPD3DHAL_DP2SETRENDERTARGET, d3dhal/LPD3DHAL_DP2SETRENDERTARGET, D3DHAL_DP2SETRENDERTARGET, *LPD3DHAL_DP2SETRENDERTARGET
+ms.keywords: D3DHAL_DP2SETRENDERTARGET structure [Display Devices], d3dhal/LPD3DHAL_DP2SETRENDERTARGET, display.d3dhal_dp2setrendertarget, *LPD3DHAL_DP2SETRENDERTARGET, d3dhal/D3DHAL_DP2SETRENDERTARGET, LPD3DHAL_DP2SETRENDERTARGET structure pointer [Display Devices], LPD3DHAL_DP2SETRENDERTARGET, D3DHAL_DP2SETRENDERTARGET, d3dstrct_d3f81bd9-d8fd-4560-b8b3-61af41d4a13b.xml, _D3DHAL_DP2SETRENDERTARGET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SETRENDERTARGET
 product: Windows
 targetos: Windows
@@ -97,9 +97,9 @@ Store the depth buffer identified by <b>hZBuffer</b> in the driver's context.
 
 ## -see-also
 
-D3DDP2OP_SETRENDERTARGET
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+D3DDP2OP_SETRENDERTARGET
 
  
 

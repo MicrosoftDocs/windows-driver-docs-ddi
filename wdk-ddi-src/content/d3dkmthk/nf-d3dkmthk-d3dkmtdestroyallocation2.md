@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyAllocation2 function [Display Devices], d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2, D3DKMTDestroyAllocation2
+ms.keywords: D3DKMTDestroyAllocation2 function [Display Devices], display.d3dkmtdestroyallocation2, D3DKMTDestroyAllocation2, d3dkmthk/D3DKMTDestroyAllocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTDestroyAllocation2
 product: Windows
 targetos: Windows

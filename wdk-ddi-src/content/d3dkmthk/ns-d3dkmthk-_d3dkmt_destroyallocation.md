@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYALLOCATION
-title: _D3DKMT_DESTROYALLOCATION
+title: "_D3DKMT_DESTROYALLOCATION"
 author: windows-driver-content
 description: The D3DKMT_DESTROYALLOCATION structure describes parameters for releasing allocations.
 old-location: display\d3dkmt_destroyallocation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba85b333-9a43-421a-8687-9630e792cadf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DESTROYALLOCATION structure [Display Devices], _D3DKMT_DESTROYALLOCATION, OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, d3dkmthk/D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation
+ms.keywords: OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, d3dkmthk/D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION structure [Display Devices], display.d3dkmt_destroyallocation, _D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DESTROYALLOCATION
 product: Windows
 targetos: Windows

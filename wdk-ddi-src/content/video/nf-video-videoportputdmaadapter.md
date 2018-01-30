@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 80f1f1bd-57da-46b2-9967-9ba4b08ea057
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortPutDmaAdapter, VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, display.videoportputdmaadapter, VideoPortPutDmaAdapter function [Display Devices], video/VideoPortPutDmaAdapter
+ms.keywords: display.videoportputdmaadapter, VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, video/VideoPortPutDmaAdapter, VideoPortPutDmaAdapter, VideoPortPutDmaAdapter function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortPutDmaAdapter
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortPutDmaAdapter function
@@ -95,9 +94,9 @@ A miniport driver should call this function only if it will not use the same VP_
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+
+<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
  
 

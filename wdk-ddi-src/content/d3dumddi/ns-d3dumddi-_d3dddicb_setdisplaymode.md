@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SETDISPLAYMODE
-title: _D3DDDICB_SETDISPLAYMODE
+title: "_D3DDDICB_SETDISPLAYMODE"
 author: windows-driver-content
 description: The D3DDDICB_SETDISPLAYMODE structure describes the primary allocation that is used to scan out to the display.
 old-location: display\d3dddicb_setdisplaymode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d2f6d53b-2dd7-46ed-8d1e-dea264da4046
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SETDISPLAYMODE structure [Display Devices], D3DDDICB_SETDISPLAYMODE, _D3DDDICB_SETDISPLAYMODE, d3dumddi/D3DDDICB_SETDISPLAYMODE, D3D_param_Structs_4aeee940-b195-4020-ad42-b69a2f34f93e.xml, display.d3dddicb_setdisplaymode
+ms.keywords: "_D3DDDICB_SETDISPLAYMODE, D3DDDICB_SETDISPLAYMODE structure [Display Devices], d3dumddi/D3DDDICB_SETDISPLAYMODE, D3D_param_Structs_4aeee940-b195-4020-ad42-b69a2f34f93e.xml, display.d3dddicb_setdisplaymode, D3DDDICB_SETDISPLAYMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_SETDISPLAYMODE
 product: Windows
 targetos: Windows

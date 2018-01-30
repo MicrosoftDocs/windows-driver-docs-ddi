@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, IDebugControl::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput method [Windows Debugging], IDebugControl interface, ReturnInput method [Windows Debugging], IDebugControl2 interface, debugger.returninput, IDebugControl interface [Windows Debugging], ReturnInput method, dbgeng/IDebugControl2::ReturnInput, IDebugControl3 interface [Windows Debugging], ReturnInput method, IDebugControl2::ReturnInput, IDebugControl3, IDebugControl3::ReturnInput, ReturnInput method [Windows Debugging], ReturnInput, dbgeng/IDebugControl::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl interface, IDebugControl3, ReturnInput method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::ReturnInput, IDebugControl interface [Windows Debugging], ReturnInput method, ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::ReturnInput, IDebugControl::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl2::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, dbgeng/IDebugControl3::ReturnInput, IDebugControl3 interface [Windows Debugging], ReturnInput method, debugger.returninput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.ReturnInput
 -	IDebugControl2.ReturnInput
 -	IDebugControl3.ReturnInput
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::ReturnInput method

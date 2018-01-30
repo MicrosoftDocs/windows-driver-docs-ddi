@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCheckExistingResourceAllocationInfo
 product: Windows
 targetos: Windows
@@ -87,9 +87,9 @@ VOID APIENTRY* pfnCheckExistingResourceAllocationInfo(
 
 
 
-#### - pInfo [out]
+#### - hDevice
 
-Information for resource allocation. 
+A device handle.
 
 
 #### - hResource
@@ -97,9 +97,9 @@ Information for resource allocation.
 A resource handle.
 
 
-#### - hDevice
+#### - pInfo [out]
 
-A device handle.
+Information for resource allocation. 
 
 
 ## -returns

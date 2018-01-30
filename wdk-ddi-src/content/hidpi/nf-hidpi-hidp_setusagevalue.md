@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e59d7087-58eb-4bc3-a4e0-4597ee28dcd6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetUsageValue routine [Human Input Devices], hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, hid.hidp_setusagevalue, HidP_SetUsageValue, hidpi/HidP_SetUsageValue
+ms.keywords: hid.hidp_setusagevalue, hidpi/HidP_SetUsageValue, hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, HidP_SetUsageValue routine [Human Input Devices], HidP_SetUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Hidparse.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_SetUsageValue
 product: Windows
 targetos: Windows
@@ -216,11 +216,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_UPDATEHWCONTEXTSTATE_FLAGS
-title: _DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+title: "_DXGK_UPDATEHWCONTEXTSTATE_FLAGS"
 author: windows-driver-content
 description: Used to update the HW context state flags.
 old-location: display\dxgk_updatehwcontextstate_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS, _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], display.dxgk_updatehwcontextstate_flags
+ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, _DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 product: Windows
 targetos: Windows

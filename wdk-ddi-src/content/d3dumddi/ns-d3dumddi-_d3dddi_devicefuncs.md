@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICEFUNCS
-title: _D3DDDI_DEVICEFUNCS
+title: "_D3DDDI_DEVICEFUNCS"
 author: windows-driver-content
 description: The D3DDDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 old-location: display\d3dddi_devicefuncs.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7345cd67-c10c-46f0-bd56-6f18929f4aa6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs, D3DDDI_DEVICEFUNCS structure [Display Devices], D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml
+ms.keywords: D3DDDI_DEVICEFUNCS structure [Display Devices], d3dumddi/D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS, D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, display.d3dddi_devicefuncs, _D3DDDI_DEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_DEVICEFUNCS
 product: Windows
 targetos: Windows

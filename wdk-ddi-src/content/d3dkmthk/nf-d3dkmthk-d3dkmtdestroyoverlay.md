@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtdestroyoverlay, OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, D3DKMTDestroyOverlay function [Display Devices], D3DKMTDestroyOverlay
+ms.keywords: d3dkmthk/D3DKMTDestroyOverlay, OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, D3DKMTDestroyOverlay function [Display Devices], display.d3dkmtdestroyoverlay, D3DKMTDestroyOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTDestroyOverlay
 product: Windows
 targetos: Windows

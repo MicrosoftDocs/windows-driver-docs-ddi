@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIDPNSOURCEVISIBILITY
-title: _DXGKARG_SETVIDPNSOURCEVISIBILITY
+title: "_DXGKARG_SETVIDPNSOURCEVISIBILITY"
 author: windows-driver-content
 description: The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the DxgkDdiSetVidPnSourceVisibility function.
 old-location: display\dxgkarg_setvidpnsourcevisibility.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 073fbcc4-57d8-4709-9605-a3440b5e8e17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, display.dxgkarg_setvidpnsourcevisibility, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], _DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY, DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml
+ms.keywords: "_DXGKARG_SETVIDPNSOURCEVISIBILITY, DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, display.dxgkarg_setvidpnsourcevisibility, d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_SETVIDPNSOURCEVISIBILITY
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDEO_PRESENT_SOURCE
-title: _D3DKMDT_VIDEO_PRESENT_SOURCE
+title: "_D3DKMDT_VIDEO_PRESENT_SOURCE"
 author: windows-driver-content
 description: The D3DKMDT_VIDEO_PRESENT_SOURCE structure contains the unique identifier of a video present source.
 old-location: display\d3dkmdt_video_present_source.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 907df90c-dfea-40bf-9d08-5f5d87571ed8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE, _D3DKMDT_VIDEO_PRESENT_SOURCE, DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml, display.d3dkmdt_video_present_source
+ms.keywords: DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml, D3DKMDT_VIDEO_PRESENT_SOURCE, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE, _D3DKMDT_VIDEO_PRESENT_SOURCE, display.d3dkmdt_video_present_source, D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_VIDEO_PRESENT_SOURCE
 product: Windows
 targetos: Windows
@@ -91,11 +91,11 @@ For more information about video present sources, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
  
 

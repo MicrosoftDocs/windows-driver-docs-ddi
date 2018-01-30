@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E0638C55-4160-48A5-9378-6AA9AAC8DC36
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex, SetScopeFrameByIndexEx, IDebugSymbols5, IDebugSymbols5::SetScopeFrameByIndexEx
+ms.keywords: SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, SetScopeFrameByIndexEx method [Windows Debugging], debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5::SetScopeFrameByIndexEx, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, IDebugSymbols5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols5.SetScopeFrameByIndexEx
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols5::SetScopeFrameByIndexEx method

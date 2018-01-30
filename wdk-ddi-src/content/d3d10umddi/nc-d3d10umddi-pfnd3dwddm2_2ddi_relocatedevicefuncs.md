@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnRelocateDeviceFuncs
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS callback
@@ -82,14 +82,14 @@ VOID APIENTRY* pfnRelocateDeviceFuncs(
 
 
 
-#### - DeviceFunctions [in]
-
-The device functions table, as a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure.
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - DeviceFunctions [in]
+
+The device functions table, as a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure.
 
 
 ## -returns

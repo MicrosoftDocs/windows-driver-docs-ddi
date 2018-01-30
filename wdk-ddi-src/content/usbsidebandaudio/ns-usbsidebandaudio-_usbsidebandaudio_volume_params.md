@@ -1,6 +1,6 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_VOLUME_PARAMS
-title: _USBSIDEBANDAUDIO_VOLUME_PARAMS
+title: "_USBSIDEBANDAUDIO_VOLUME_PARAMS"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_volume_params.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 253CD4CB-AC8D-4CA0-B620-EB1CC4DFD925
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PUSBSIDEBANDAUDIO_VOLUME_PARAMS structure pointer [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_VOLUME_PARAMS, audio.usbsidebandaudio_volume_params, _USBSIDEBANDAUDIO_VOLUME_PARAMS, PUSBSIDEBANDAUDIO_VOLUME_PARAMS, *PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS structure [Audio Devices], usbsidebandaudio/PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS
+ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_VOLUME_PARAMS, audio.usbsidebandaudio_volume_params, *PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS, PUSBSIDEBANDAUDIO_VOLUME_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_VOLUME_PARAMS structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_VOLUME_PARAMS, PUSBSIDEBANDAUDIO_VOLUME_PARAMS, _USBSIDEBANDAUDIO_VOLUME_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_VOLUME_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: *PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS
-req.product: Windows 10 or later.
+req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
 ---
 
 # _USBSIDEBANDAUDIO_VOLUME_PARAMS structure
@@ -87,12 +86,12 @@ typedef struct _USBSIDEBANDAUDIO_VOLUME_PARAMS {
 
 
 
-#### - Reserved 1
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 

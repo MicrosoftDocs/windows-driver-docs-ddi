@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_ACL_GET_MODE
-title: _BRB_ACL_GET_MODE
+title: "_BRB_ACL_GET_MODE"
 author: windows-driver-content
 description: The _BRB_ACL_GET_MODE structure describes the ACL mode for the specified remote device.
 old-location: bltooth\_brb_acl_get_mode.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 2fe473c8-dcf9-4457-b1b1-c55b3eaa68e6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_ACL_GET_MODE structure [Bluetooth Devices], bthddi/_BRB_ACL_GET_MODE, bltooth._brb_acl_get_mode, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml, _BRB_ACL_GET_MODE
+ms.keywords: bltooth._brb_acl_get_mode, _BRB_ACL_GET_MODE, _BRB_ACL_GET_MODE structure [Bluetooth Devices], bthddi/_BRB_ACL_GET_MODE, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_ACL_GET_MODE
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ To get the current ACL connection state for a remote device, profile drivers sho
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a>
 
 <a href="..\bthddi\ne-bthddi-_acl_mode.md">ACL_MODE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

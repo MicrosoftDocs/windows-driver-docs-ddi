@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTHDOWNLOAD
-title: _SYNTHDOWNLOAD
+title: "_SYNTHDOWNLOAD"
 author: windows-driver-content
 description: The SYNTHDOWNLOAD structure specifies a handle for downloaded DLS data. It also specifies whether the buffer containing the DLS data can be freed.
 old-location: audio\synthdownload.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b6fd9c92-ac36-46ac-b996-d76afaf6b906
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SYNTHDOWNLOAD structure [Audio Devices], SYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], *PSYNTHDOWNLOAD, audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, PSYNTHDOWNLOAD, _SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, dmusprop/SYNTHDOWNLOAD
+ms.keywords: "_SYNTHDOWNLOAD, audio.synthdownload, *PSYNTHDOWNLOAD, SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, dmusprop/PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], PSYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dmusprop.h
-apiname: 
+apiname:
 -	SYNTHDOWNLOAD
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ If the miniport driver makes its own copy of the DLS data, it sets the <i>Free</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537398">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
 
  
 

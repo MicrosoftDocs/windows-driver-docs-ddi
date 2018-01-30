@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
-title: _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+title: "_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST"
 author: windows-driver-content
 description: The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined SDP service and attribute search. This structure is passed as the input buffer to the IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH IOCTL.
 old-location: bltooth\bth_sdp_service_attribute_search_request.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 28255569-57ce-44b7-9d53-9e8797b914c5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.bth_sdp_service_attribute_search_request, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+ms.keywords: PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_service_attribute_search_request, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthioctl.h
-apiname: 
+apiname:
 -	BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+req.typenames: "*PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST"
 ---
 
 # _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure
@@ -82,6 +82,10 @@ typedef struct _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST {
 
 
 
+#### 
+
+
+
 ### -field uuids
 
 An array of UUIDs that represent the services for which to query. Each entry can be a 2-byte,
@@ -94,10 +98,6 @@ An array of UUIDs that represent the services for which to query. Each entry can
 A variable-length array of 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> structures that
      contains the range of SDP attributes for which to search.
-
-
-##### - searchFlags.
-
 
 
 #### - hConnection

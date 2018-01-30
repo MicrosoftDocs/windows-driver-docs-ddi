@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights, PcGetContentRights function [Audio Devices], PcGetContentRights
+ms.keywords: audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights, PcGetContentRights, audio.pcgetcontentrights, PcGetContentRights function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcGetContentRights
 product: Windows
 targetos: Windows

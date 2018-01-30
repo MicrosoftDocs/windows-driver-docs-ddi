@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TEXBLT
-title: _D3DHAL_DP2TEXBLT
+title: "_D3DHAL_DP2TEXBLT"
 author: windows-driver-content
 description: The D3DHAL_DP2TEXBLT structure is used for texture blts when D3dDrawPrimitives2 responds to the D3DDP2OP_TEXBLT command token.
 old-location: display\d3dhal_dp2texblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, d3dhal/LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, _D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], *LPD3DHAL_DP2TEXBLT, display.d3dhal_dp2texblt
+ms.keywords: "*LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, _D3DHAL_DP2TEXBLT, display.d3dhal_dp2texblt, LPD3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, d3dhal/D3DHAL_DP2TEXBLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2TEXBLT
 product: Windows
 targetos: Windows
@@ -137,11 +137,11 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
+D3DDP2OP_TEXBLT
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-D3DDP2OP_TEXBLT
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
  
 

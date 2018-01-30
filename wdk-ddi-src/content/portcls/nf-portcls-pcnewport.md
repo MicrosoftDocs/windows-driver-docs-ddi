@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcNewPort function [Audio Devices], PcNewPort, portcls/PcNewPort, audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml
+ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	PcNewPort
 product: Windows
 targetos: Windows
@@ -187,19 +187,19 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
-
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
 
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+
+<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
  
 

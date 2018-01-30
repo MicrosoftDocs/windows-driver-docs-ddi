@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TRIANGLELIST
-title: _D3DHAL_DP2TRIANGLELIST
+title: "_D3DHAL_DP2TRIANGLELIST"
 author: windows-driver-content
 description: One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLELIST, and is used to render the specified unconnected triangles.
 old-location: display\d3dhal_dp2trianglelist.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9a9b407-dae5-4456-8542-4f5b06af50a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2TRIANGLELIST structure [Display Devices], _D3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, display.d3dhal_dp2trianglelist, d3dhal/LPD3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices]
+ms.keywords: D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST structure [Display Devices], display.d3dhal_dp2trianglelist, *LPD3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, LPD3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], _D3DHAL_DP2TRIANGLELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2TRIANGLELIST
 product: Windows
 targetos: Windows
-req.typenames: *LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST
+req.typenames: "*LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST"
 ---
 
 # _D3DHAL_DP2TRIANGLELIST structure

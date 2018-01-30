@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d41e0774-54b4-43cc-997d-fbd512440450
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavepcistream_service, portcls/IMiniportWavePciStream::Service, Service method [Audio Devices], Service method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream::Service, IMiniportWavePciStream interface [Audio Devices], Service method, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, Service, IMiniportWavePciStream
+ms.keywords: Service method [Audio Devices], IMiniportWavePciStream interface [Audio Devices], Service method, Service method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, IMiniportWavePciStream::Service, audio.iminiportwavepcistream_service, portcls/IMiniportWavePciStream::Service, Service, IMiniportWavePciStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWavePciStream.Service
 product: Windows
 targetos: Windows
@@ -90,15 +90,15 @@ When the miniport driver's ISR calls the port driver's <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536918">IPortWavePci::Notify</a>
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_V2_EX
-title: _ACPI_EVAL_INPUT_BUFFER_V2_EX
+title: "_ACPI_EVAL_INPUT_BUFFER_V2_EX"
 author: windows-driver-content
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_V2_EX structure.
 old-location: acpi\acpi_eval_input_buffer_v2_ex.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 5086CA33-58B0-4F3A-9AE4-428CCE6EFB6B
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/PACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX, acpi.acpi_eval_input_buffer_v2_ex, *PACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX structure [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_V2_EX
+ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX structure pointer [ACPI Devices], acpiioct/PACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V2_EX, acpi.acpi_eval_input_buffer_v2_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_V2_EX, _ACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	ACPI_EVAL_INPUT_BUFFER_V2_EX
 product: Windows
 targetos: Windows
-req.typenames: *PACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX
+req.typenames: "*PACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX"
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_V2_EX structure

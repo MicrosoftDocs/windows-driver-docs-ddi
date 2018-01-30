@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_CERTIFICATE_TYPE
-title: _DXGKMDT_CERTIFICATE_TYPE
+title: "_DXGKMDT_CERTIFICATE_TYPE"
 author: windows-driver-content
 description: The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the DxgkDdiOPMGetCertificateSize and DxgkDdiOPMGetCertificate functions require.
 old-location: display\dxgkmdt_certificate_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aad96bf7-46d3-4859-b324-f48cdb99a594
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_CERTIFICATE_TYPE enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_CERTIFICATE, d3dkmdt/DXGKMDT_UAB_CERTIFICATE, display.dxgkmdt_certificate_type, DXGKMDT_CERTIFICATE_TYPE, d3dkmdt/DXGKMDT_COPP_CERTIFICATE, DXGKMDT_UAB_CERTIFICATE, d3dkmdt/DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_FORCE_ULONG, DXGKMDT_OPM_CERTIFICATE, DXGKMDT_COPP_CERTIFICATE, DmEnums_837195ed-375e-43ef-a854-1d1f0aab0c84.xml, d3dkmdt/DXGKMDT_FORCE_ULONG
+ms.keywords: DXGKMDT_CERTIFICATE_TYPE enumeration [Display Devices], display.dxgkmdt_certificate_type, d3dkmdt/DXGKMDT_FORCE_ULONG, DXGKMDT_OPM_CERTIFICATE, _DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_COPP_CERTIFICATE, DXGKMDT_FORCE_ULONG, DXGKMDT_UAB_CERTIFICATE, d3dkmdt/DXGKMDT_COPP_CERTIFICATE, d3dkmdt/DXGKMDT_OPM_CERTIFICATE, d3dkmdt/DXGKMDT_CERTIFICATE_TYPE, d3dkmdt/DXGKMDT_UAB_CERTIFICATE, DmEnums_837195ed-375e-43ef-a854-1d1f0aab0c84.xml, DXGKMDT_CERTIFICATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKMDT_CERTIFICATE_TYPE
 product: Windows
 targetos: Windows
@@ -103,9 +103,9 @@ For more information about certificates that are used with OPM, download the Out
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
 
  
 

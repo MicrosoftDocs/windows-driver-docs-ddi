@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RENAME
-title: _D3DDDIARG_RENAME
+title: "_D3DDDIARG_RENAME"
 author: windows-driver-content
 description: The D3DDDIARG_RENAME structure describes a resource or a surface within the resource to rename with a new allocation.
 old-location: display\d3dddiarg_rename.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ecddaf4-bce7-4ea0-b53d-e4872fa21f81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_RENAME, UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, D3DDDIARG_RENAME structure [Display Devices], _D3DDDIARG_RENAME, display.d3dddiarg_rename, D3DDDIARG_RENAME
+ms.keywords: "_D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], display.d3dddiarg_rename, D3DDDIARG_RENAME, UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, d3dumddi/D3DDDIARG_RENAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_RENAME
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
 
  
 

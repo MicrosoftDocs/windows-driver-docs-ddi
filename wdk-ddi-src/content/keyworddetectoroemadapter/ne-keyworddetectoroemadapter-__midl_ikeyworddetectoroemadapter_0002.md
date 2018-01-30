@@ -1,6 +1,6 @@
 ---
 UID: NE:keyworddetectoroemadapter.__MIDL_IKeywordDetectorOemAdapter_0002
-title: __MIDL_IKeywordDetectorOemAdapter_0002
+title: "__MIDL_IKeywordDetectorOemAdapter_0002"
 author: windows-driver-content
 description: The KEYWORDID enumeration identifies the phrase text/function of a keyword. The value is also be used in the Windows Biometric Service adapters.
 old-location: audio\keywordid.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: __MIDL_IKeywordDetectorOemAdapter_0002, KwSelection, keyworddetectoroemadapter/ KwSelection, KEYWORDID enumeration [Audio Devices], audio.keywordid, keyworddetectoroemadapter/KEYWORDID, KEYWORDID, keyworddetectoroemadapter/KwInvalid, KwInvalid, KwVoiceAssistant, keyworddetectoroemadapter/ KwVoiceAssistant
+ms.keywords: keyworddetectoroemadapter/ KwSelection, KwInvalid, keyworddetectoroemadapter/KwInvalid, KwVoiceAssistant, KEYWORDID enumeration [Audio Devices], audio.keywordid, KEYWORDID, keyworddetectoroemadapter/ KwVoiceAssistant, KwSelection, keyworddetectoroemadapter/KEYWORDID, __MIDL_IKeywordDetectorOemAdapter_0002
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -26,17 +26,17 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Ks.lib
+req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	KeywordDetectorOemAdapter.h
-apiname: 
+apiname:
 -	KEYWORDID
 product: Windows
 targetos: Windows

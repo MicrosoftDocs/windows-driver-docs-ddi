@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
-title: _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
+title: "_DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY"
 author: windows-driver-content
 description: Specifies overlay planes to display.
 old-location: display\dxgi_ddi_present_multiplane_overlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18811f98-df57-43ab-b8f7-26301abeb823
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay, _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
+ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 product: Windows
 targetos: Windows

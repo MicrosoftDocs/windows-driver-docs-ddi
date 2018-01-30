@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 523b904c-c833-40f2-8173-7ec1c6687b26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, display.idarg_in_opm_configure_protected_output, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices]
+ms.keywords: display.idarg_in_opm_configure_protected_output, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices], iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
 product: Windows
 targetos: Windows

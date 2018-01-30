@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
 product: Windows
 targetos: Windows
@@ -95,14 +95,14 @@ The count.
 The command list.
 
 
-#### - pModes [in]
-
-The modes for the write buffer.
-
-
 #### - pParams [in]
 
 The parameters for the write buffer.
+
+
+#### - pModes [in]
+
+The modes for the write buffer.
 
 
 ## -returns

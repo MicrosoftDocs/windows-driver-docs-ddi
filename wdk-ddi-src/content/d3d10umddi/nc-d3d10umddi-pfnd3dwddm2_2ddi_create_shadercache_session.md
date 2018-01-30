@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnCreateShaderCacheSession
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback
@@ -87,11 +87,6 @@ VOID APIENTRY* pfnCreateShaderCacheSession(
 
 
 
-#### - hRTCacheSession
-
-The handle of the cache session for the driver to use when it calls back into the runtime.
-
-
 #### - hDevice
 
 The handle of a device.
@@ -100,6 +95,11 @@ The handle of a device.
 #### - hCacheSession
 
 The handle of a cache session.
+
+
+#### - hRTCacheSession
+
+The handle of the cache session for the driver to use when it calls back into the runtime.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cec501d9-17e3-46a1-929e-4f9ba35ba721
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, DrmCreateContentMixed, drmk/DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices]
+ms.keywords: audio.drmcreatecontentmixed, aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], drmk/DrmCreateContentMixed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Drmk.lib
 -	Drmk.dll
-apiname: 
+apiname:
 -	DrmCreateContentMixed
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # DrmCreateContentMixed function
@@ -113,8 +113,6 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536254">DEFINE_DRMRIGHTS_DEFAULT</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
@@ -122,6 +120,8 @@ After a KS audio filter finishes using a content ID that it created using <code>
 <a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>
+
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 

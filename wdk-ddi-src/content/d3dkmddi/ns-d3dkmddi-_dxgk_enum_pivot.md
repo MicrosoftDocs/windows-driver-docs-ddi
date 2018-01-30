@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ENUM_PIVOT
-title: _DXGK_ENUM_PIVOT
+title: "_DXGK_ENUM_PIVOT"
 author: windows-driver-content
 description: The DXGK_ENUM_PIVOT structure identifies either a video present source or a video present target as the enumeration pivot in a call to DxgkDdiEnumVidPnCofuncModality.
 old-location: display\dxgk_enum_pivot.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f2a234f3-aec9-4fe5-b720-bed9747d5a7f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ENUM_PIVOT, display.dxgk_enum_pivot, DXGK_ENUM_PIVOT structure [Display Devices], d3dkmddi/DXGK_ENUM_PIVOT, _DXGK_ENUM_PIVOT, DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml
+ms.keywords: display.dxgk_enum_pivot, DXGK_ENUM_PIVOT, _DXGK_ENUM_PIVOT, DXGK_ENUM_PIVOT structure [Display Devices], d3dkmddi/DXGK_ENUM_PIVOT, DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_ENUM_PIVOT
 product: Windows
 targetos: Windows

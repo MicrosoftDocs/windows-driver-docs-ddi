@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VP_SCATTER_GATHER_LIST
-title: _VP_SCATTER_GATHER_LIST
+title: "_VP_SCATTER_GATHER_LIST"
 author: windows-driver-content
 description: The VP_SCATTER_GATHER_LIST structure is a collection of one or more scatter/gather elements.
 old-location: display\vp_scatter_gather_list.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 485a0e20-0fed-4055-985c-1ff6d5d1c3e9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _VP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices], *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST, video/PVP_SCATTER_GATHER_LIST, display.vp_scatter_gather_list, Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml, video/VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST structure [Display Devices]
+ms.keywords: "*PVP_SCATTER_GATHER_LIST, display.vp_scatter_gather_list, VP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST structure [Display Devices], video/VP_SCATTER_GATHER_LIST, _VP_SCATTER_GATHER_LIST, Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml, PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices], video/PVP_SCATTER_GATHER_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VP_SCATTER_GATHER_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
-req.product: Windows 10 or later.
+req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
 ---
 
 # _VP_SCATTER_GATHER_LIST structure

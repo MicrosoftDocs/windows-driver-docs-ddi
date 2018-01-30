@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceGroup interface [Audio Devices], SupportDelayedService method, SupportDelayedService method [Audio Devices], IServiceGroup, SupportDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup::SupportDelayedService, SupportDelayedService, audio.iservicegroup_supportdelayedservice, portcls/IServiceGroup::SupportDelayedService, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml
+ms.keywords: IServiceGroup::SupportDelayedService, SupportDelayedService method [Audio Devices], IServiceGroup interface, audio.iservicegroup_supportdelayedservice, SupportDelayedService method [Audio Devices], SupportDelayedService, IServiceGroup interface [Audio Devices], SupportDelayedService method, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService, IServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: portcls.h
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IServiceGroup.SupportDelayedService
 product: Windows
 targetos: Windows

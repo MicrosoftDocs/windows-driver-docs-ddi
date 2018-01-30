@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CURRENTDISPLAYMODE
-title: _D3DKMT_CURRENTDISPLAYMODE
+title: "_D3DKMT_CURRENTDISPLAYMODE"
 author: windows-driver-content
 description: The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source.
 old-location: display\d3dkmt_currentdisplaymode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], display.d3dkmt_currentdisplaymode, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE
+ms.keywords: D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE, display.d3dkmt_currentdisplaymode, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CURRENTDISPLAYMODE
 product: Windows
 targetos: Windows
@@ -80,9 +80,9 @@ typedef struct _D3DKMT_CURRENTDISPLAYMODE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
  
 

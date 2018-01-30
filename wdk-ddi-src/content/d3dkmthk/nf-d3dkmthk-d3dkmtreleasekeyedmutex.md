@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTReleaseKeyedMutex, OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, display.d3dkmtreleasekeyedmutex, D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices]
+ms.keywords: display.d3dkmtreleasekeyedmutex, D3DKMTReleaseKeyedMutex, d3dkmthk/D3DKMTReleaseKeyedMutex, OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, D3DKMTReleaseKeyedMutex function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-DX-D3DKmt-l1-1-0.dll
 -	API-MS-Win-DX-D3DKmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTReleaseKeyedMutex
 product: Windows
 targetos: Windows

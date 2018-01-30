@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_operator_, ExtRemoteTyped, operator* method [Windows Debugging], ExtRemoteTyped interface, operator* method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], operator* method, EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, ExtRemoteTyped::operator*, operator*
+ms.keywords: operator* method [Windows Debugging], operator*, ExtRemoteTyped, debugger.extremotetyped_operator_, ExtRemoteTyped::operator*, operator* method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], operator* method, EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.operator*
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::operator* method
@@ -84,9 +84,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544233">ExtRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544233">ExtRemoteTyped::Dereference</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544233">ExtRemoteTyped::Dereference</a>
 
  
 

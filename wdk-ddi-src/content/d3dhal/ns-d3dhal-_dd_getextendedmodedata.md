@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETEXTENDEDMODEDATA
-title: _DD_GETEXTENDEDMODEDATA
+title: "_DD_GETEXTENDEDMODEDATA"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETEXTENDEDMODEDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETEXTENDEDMODE.
 old-location: display\dd_getextendedmodedata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50b2a1fd-4214-4ad8-b087-f48c14dbe587
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, DD_GETEXTENDEDMODEDATA structure [Display Devices], display.dd_getextendedmodedata, _DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA
+ms.keywords: display.dd_getextendedmodedata, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, DD_GETEXTENDEDMODEDATA structure [Display Devices], DD_GETEXTENDEDMODEDATA, _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	DD_GETEXTENDEDMODEDATA
 product: Windows
 targetos: Windows

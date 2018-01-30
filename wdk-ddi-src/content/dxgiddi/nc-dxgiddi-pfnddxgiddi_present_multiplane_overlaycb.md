@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dxgiddi.h
-apiname: 
+apiname:
 -	pfnPresentMultiPlaneOverlayCb
 product: Windows
 targetos: Windows

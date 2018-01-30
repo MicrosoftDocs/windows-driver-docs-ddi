@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CONFIGURESHAREDRESOURCE
-title: _D3DKMT_CONFIGURESHAREDRESOURCE
+title: "_D3DKMT_CONFIGURESHAREDRESOURCE"
 author: windows-driver-content
 description: The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the D3DKMTConfigureSharedResource function uses to configure a shared resource.
 old-location: display\d3dkmt_configuresharedresource.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, _D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource
+ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource, _D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CONFIGURESHAREDRESOURCE
 product: Windows
 targetos: Windows

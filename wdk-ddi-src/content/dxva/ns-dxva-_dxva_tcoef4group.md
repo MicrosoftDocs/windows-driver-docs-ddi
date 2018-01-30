@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_TCoef4Group
-title: _DXVA_TCoef4Group
+title: "_DXVA_TCoef4Group"
 author: windows-driver-content
 description: The DXVA_TCoef4Group structure is sent by the host decoder to the accelerator to specify the IDCT coefficient values.
 old-location: display\dxva_tcoef4group.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7ffe847-58ae-42a9-86fd-50a757134b45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_TCoef4Group, DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, dxva/DXVA_TCoef4Group, *LPDXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], dxva/LPDXVA_TCoef4Group, display.dxva_tcoef4group
+ms.keywords: "_DXVA_TCoef4Group, DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, *LPDXVA_TCoef4Group, LPDXVA_TCoef4Group, display.dxva_tcoef4group, dxva/DXVA_TCoef4Group, dxva/LPDXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], LPDXVA_TCoef4Group structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_TCoef4Group
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_TCoef4Group, DXVA_TCoef4Group
+req.typenames: "*LPDXVA_TCoef4Group, DXVA_TCoef4Group"
 ---
 
 # _DXVA_TCoef4Group structure

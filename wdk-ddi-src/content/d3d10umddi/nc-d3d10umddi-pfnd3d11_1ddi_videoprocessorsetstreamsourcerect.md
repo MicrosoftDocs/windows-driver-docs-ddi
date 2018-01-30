@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorSetStreamSourceRect
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback
@@ -99,29 +99,12 @@ VOID APIENTRY* pfnVideoProcessorSetStreamSourceRect(
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
-
-
-
-If <b>FALSE</b>, no source rectangle is applied to the input stream.
-
-
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 
-
-#### - pSourceRect [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the source rectangle.
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
-</div><div> </div>
 
 #### - hVideoProcessor [in]
 
@@ -134,6 +117,23 @@ A handle to the video processor object that was created through a call to the <a
 
 The zero-based index of the input stream.
 
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
+
+
+
+If <b>FALSE</b>, no source rectangle is applied to the input stream.
+
+
+
+
+#### - pSourceRect [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the source rectangle.
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
+</div><div> </div>
 
 ## -returns
 
@@ -157,9 +157,9 @@ If the <b>VideoProcessorSetStreamSourceRect</b> function is never called, or if 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
  
 

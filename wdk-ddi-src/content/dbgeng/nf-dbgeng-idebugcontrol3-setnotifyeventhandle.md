@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c0059a7-4b0f-4b74-b543-ad5904d40033
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::SetNotifyEventHandle, IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, debugger.setnotifyeventhandle, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl2::SetNotifyEventHandle, dbgeng/IDebugControl2::SetNotifyEventHandle, IDebugControl3::SetNotifyEventHandle, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, IDebugControl3, SetNotifyEventHandle, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle method [Windows Debugging], SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, IDebugControl::SetNotifyEventHandle, dbgeng/IDebugControl::SetNotifyEventHandle
+ms.keywords: IDebugControl2::SetNotifyEventHandle, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, IDebugControl3, dbgeng/IDebugControl3::SetNotifyEventHandle, SetNotifyEventHandle method [Windows Debugging], dbgeng/IDebugControl::SetNotifyEventHandle, IDebugControl3::SetNotifyEventHandle, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl::SetNotifyEventHandle, debugger.setnotifyeventhandle, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, dbgeng/IDebugControl2::SetNotifyEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.SetNotifyEventHandle
 -	IDebugControl2.SetNotifyEventHandle
 -	IDebugControl3.SetNotifyEventHandle
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::SetNotifyEventHandle method
@@ -109,13 +109,13 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

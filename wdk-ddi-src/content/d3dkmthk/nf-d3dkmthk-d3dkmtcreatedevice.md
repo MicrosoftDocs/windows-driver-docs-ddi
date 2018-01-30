@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateDevice function [Display Devices], display.d3dkmtcreatedevice, PFND3DKMT_CREATEDEVICE, OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, D3DKMTCreateDevice, d3dkmthk/D3DKMTCreateDevice
+ms.keywords: D3DKMTCreateDevice, OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, display.d3dkmtcreatedevice, d3dkmthk/D3DKMTCreateDevice, PFND3DKMT_CREATEDEVICE, D3DKMTCreateDevice function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTCreateDevice
 product: Windows
 targetos: Windows

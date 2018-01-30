@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::ControlledOutputWide, ControlledOutputWide, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, debugger.controlledoutputwide, ControlledOutputWide method [Windows Debugging], dbgeng/IDebugControl4::ControlledOutputWide
+ms.keywords: debugger.controlledoutputwide, dbgeng/IDebugControl4::ControlledOutputWide, ControlledOutputWide, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::ControlledOutputWide, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, ControlledOutputWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.ControlledOutputWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::ControlledOutputWide method
@@ -465,15 +465,15 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
  
 

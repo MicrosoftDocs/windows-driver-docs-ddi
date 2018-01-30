@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 587b8769-86b6-48bd-b238-84aeb5611668
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolValueText method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolValueText method [Windows Debugging], IDebugSymbolGroup2::GetSymbolValueText, ComOther_2a064ea0-63f4-441f-a79c-e6fc1e9688c7.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueText method, GetSymbolValueText, debugger.getsymbolvaluetext, dbgeng/IDebugSymbolGroup2::GetSymbolValueText, IDebugSymbolGroup2
+ms.keywords: IDebugSymbolGroup2::GetSymbolValueText, GetSymbolValueText, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::GetSymbolValueText, GetSymbolValueText method [Windows Debugging], GetSymbolValueText method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueText method, debugger.getsymbolvaluetext, ComOther_2a064ea0-63f4-441f-a79c-e6fc1e9688c7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup2.GetSymbolValueText
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbolGroup2::GetSymbolValueText method
@@ -137,9 +137,9 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561457">WriteSymbol</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 

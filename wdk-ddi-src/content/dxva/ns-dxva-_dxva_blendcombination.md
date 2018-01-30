@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_BlendCombination
-title: _DXVA_BlendCombination
+title: "_DXVA_BlendCombination"
 author: windows-driver-content
 description: The DXVA_BlendCombination structure is sent by the host decoder to the accelerator to specify how a blended picture is created from a source picture and a graphic image with accompanying alpha-blending information.
 old-location: display\dxva_blendcombination.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae711ec5-841d-49cc-a701-1fb6ecaa9a66
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_BlendCombination, *LPDXVA_BlendCombination, dxva/LPDXVA_BlendCombination, LPDXVA_BlendCombination, LPDXVA_BlendCombination structure pointer [Display Devices], display.dxva_blendcombination, DXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml, _DXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices]
+ms.keywords: "_DXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices], LPDXVA_BlendCombination structure pointer [Display Devices], DXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml, *LPDXVA_BlendCombination, dxva/LPDXVA_BlendCombination, dxva/DXVA_BlendCombination, LPDXVA_BlendCombination, display.dxva_blendcombination"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_BlendCombination
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_BlendCombination, DXVA_BlendCombination
+req.typenames: DXVA_BlendCombination, *LPDXVA_BlendCombination
 ---
 
 # _DXVA_BlendCombination structure
@@ -293,15 +293,15 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
 <a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550469">DD_BEGINMOCOMPFRAMEDATA</a>
 
 <a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
  
 

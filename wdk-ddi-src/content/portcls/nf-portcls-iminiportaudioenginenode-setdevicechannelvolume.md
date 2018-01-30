@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 05DA619B-B36A-4E14-9F63-E12E90E0BDCD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume, audio.iminiportaudioenginenode_setdevicechannelvolume, SetDeviceChannelVolume, IMiniportAudioEngineNode, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method, IMiniportAudioEngineNode::SetDeviceChannelVolume
+ms.keywords: SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelVolume, portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume, IMiniportAudioEngineNode::SetDeviceChannelVolume, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method, audio.iminiportaudioenginenode_setdevicechannelvolume, SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportAudioEngineNode.SetDeviceChannelVolume
 product: Windows
 targetos: Windows

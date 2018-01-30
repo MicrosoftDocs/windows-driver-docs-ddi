@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	VideoProcessBltHD
 product: Windows
 targetos: Windows
@@ -82,14 +82,14 @@ __checkReturn HRESULT APIENTRY VideoProcessBltHD(
 
 
 
-#### - pData [in]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - pData [in]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
 
 
 ## -returns

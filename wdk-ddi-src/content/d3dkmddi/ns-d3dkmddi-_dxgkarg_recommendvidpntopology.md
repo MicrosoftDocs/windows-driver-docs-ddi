@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RECOMMENDVIDPNTOPOLOGY
-title: _DXGKARG_RECOMMENDVIDPNTOPOLOGY
+title: "_DXGKARG_RECOMMENDVIDPNTOPOLOGY"
 author: windows-driver-content
 description: The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's DxgkDdiRecommendVidPnTopology function.
 old-location: display\dxgkarg_recommendvidpntopology.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a3efdc8-4534-4de6-89f8-42d94ba8b9a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], _DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology
+ms.keywords: DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_RECOMMENDVIDPNTOPOLOGY
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ A handle to a VidPN topology object that represents the fallback VidPN topology 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendvidpntopology.md">DxgkDdiRecommendVidPnTopology</a>
-
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_recommendvidpntopology_reason.md">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendvidpntopology.md">DxgkDdiRecommendVidPnTopology</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, ExtRemoteTyped, ExtRemoteTyped::Eval, ExtRemoteTyped interface [Windows Debugging], Eval method, Eval, Eval method [Windows Debugging], debugger.extremotetyped_eval, Eval method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: Eval, Eval method [Windows Debugging], EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, debugger.extremotetyped_eval, ExtRemoteTyped interface [Windows Debugging], Eval method, ExtRemoteTyped::Eval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.Eval
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: DXVA_VideoSample32
 ---
 
 # ExtRemoteTyped::Eval method

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4ddc2d50-4828-4764-a690-27d4d5bd7c74
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidd_flushqueue, HidD_FlushQueue, hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, HidD_FlushQueue routine [Human Input Devices], hidsdi/HidD_FlushQueue
+ms.keywords: HidD_FlushQueue routine [Human Input Devices], HidD_FlushQueue, hidsdi/HidD_FlushQueue, hid.hidd_flushqueue, hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hid.dll
-apiname: 
+apiname:
 -	HidD_FlushQueue
 product: Windows
 targetos: Windows
-req.typenames: *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # HidD_FlushQueue function

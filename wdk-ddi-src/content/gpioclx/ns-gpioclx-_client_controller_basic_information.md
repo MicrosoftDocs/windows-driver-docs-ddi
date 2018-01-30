@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._CLIENT_CONTROLLER_BASIC_INFORMATION
-title: _CLIENT_CONTROLLER_BASIC_INFORMATION
+title: "_CLIENT_CONTROLLER_BASIC_INFORMATION"
 author: windows-driver-content
 description: The CLIENT_CONTROLLER_BASIC_INFORMATION structure contains general-purpose I/O (GPIO) controller hardware attributes and configuration information.
 old-location: gpio\client_controller_basic_information.htm
@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: CE92249C-99B5-411E-B0D7-C1FF4824949E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PCLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION structure [Parallel Ports], PCLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/PCLIENT_CONTROLLER_BASIC_INFORMATION, _CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION, PCLIENT_CONTROLLER_BASIC_INFORMATION structure pointer [Parallel Ports], GPIO.client_controller_basic_information
+ms.keywords: gpioclx/CLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION structure [Parallel Ports], PCLIENT_CONTROLLER_BASIC_INFORMATION structure pointer [Parallel Ports], gpioclx/PCLIENT_CONTROLLER_BASIC_INFORMATION, PCLIENT_CONTROLLER_BASIC_INFORMATION, _CLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION, GPIO.client_controller_basic_information, *PCLIENT_CONTROLLER_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Gpioclx.h
-apiname: 
+apiname:
 -	CLIENT_CONTROLLER_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PCLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION
+req.typenames: CLIENT_CONTROLLER_BASIC_INFORMATION, *PCLIENT_CONTROLLER_BASIC_INFORMATION
 ---
 
 # _CLIENT_CONTROLLER_BASIC_INFORMATION structure

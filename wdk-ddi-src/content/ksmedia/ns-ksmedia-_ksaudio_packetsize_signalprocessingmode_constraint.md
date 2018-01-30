@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT
-title: _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT
+title: "_KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT"
 author: windows-driver-content
 description: The KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure describes the constraints specific to any signal processing mode.
 old-location: audio\ksaudio_packetsize_processingmode_constraint.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0BC6A03C-CF6D-4F56-985E-933E87200DFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], audio.ksaudio_packetsize_processingmode_constraint, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
+ms.keywords: audio.ksaudio_packetsize_processingmode_constraint, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: KeywordDetectorOemAdapter.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 product: Windows
 targetos: Windows

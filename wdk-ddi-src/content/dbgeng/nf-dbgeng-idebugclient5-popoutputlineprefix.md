@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient5_popoutputlineprefix, dbgeng/IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PopOutputLinePrefix, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, IDebugClient5, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging]
+ms.keywords: IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, PopOutputLinePrefix method [Windows Debugging], debugger.idebugclient5_popoutputlineprefix, dbgeng/IDebugClient5::PopOutputLinePrefix, IDebugClient5, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.PopOutputLinePrefix
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugClient5::PopOutputLinePrefix method

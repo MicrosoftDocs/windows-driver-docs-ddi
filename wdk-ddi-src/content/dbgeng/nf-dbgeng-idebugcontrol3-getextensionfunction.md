@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bad50869-472c-4eb7-9bc0-0fa2d27ee753
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetExtensionFunction, IDebugControl3::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl interface, IDebugControl2::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl3 interface, GetExtensionFunction method [Windows Debugging], IDebugControl2 interface, GetExtensionFunction method [Windows Debugging], GetExtensionFunction, IDebugControl2 interface [Windows Debugging], GetExtensionFunction method, IDebugControl interface [Windows Debugging], GetExtensionFunction method, dbgeng/IDebugControl2::GetExtensionFunction, IDebugControl3 interface [Windows Debugging], GetExtensionFunction method, dbgeng/IDebugControl3::GetExtensionFunction, debugger.getextensionfunction, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, IDebugControl3, IDebugControl::GetExtensionFunction
+ms.keywords: IDebugControl2::GetExtensionFunction, IDebugControl2 interface [Windows Debugging], GetExtensionFunction method, IDebugControl3 interface [Windows Debugging], GetExtensionFunction method, IDebugControl interface [Windows Debugging], GetExtensionFunction method, GetExtensionFunction method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl2::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl interface, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, GetExtensionFunction method [Windows Debugging], IDebugControl3 interface, GetExtensionFunction method [Windows Debugging], dbgeng/IDebugControl::GetExtensionFunction, dbgeng/IDebugControl3::GetExtensionFunction, IDebugControl::GetExtensionFunction, IDebugControl3::GetExtensionFunction, debugger.getextensionfunction, GetExtensionFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetExtensionFunction
 -	IDebugControl2.GetExtensionFunction
 -	IDebugControl3.GetExtensionFunction
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetExtensionFunction method
@@ -123,15 +123,15 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 

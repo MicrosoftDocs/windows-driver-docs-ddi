@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c9838b9e-b390-455d-98d6-249a49c9165d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces::WriteMsr, IDebugDataSpaces4, IDebugDataSpaces interface [Windows Debugging], WriteMsr method, IDebugDataSpaces4 interface [Windows Debugging], WriteMsr method, WriteMsr, dbgeng/IDebugDataSpaces::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces3::WriteMsr, dbgeng/IDebugDataSpaces2::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces2 interface, debugger.writemsr2, IDebugDataSpaces3 interface [Windows Debugging], WriteMsr method, WriteMsr method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2::WriteMsr, IDebugDataSpaces4::WriteMsr, IDebugDataSpaces2 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, dbgeng/IDebugDataSpaces3::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces interface
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces2::WriteMsr, dbgeng/IDebugDataSpaces3::WriteMsr, IDebugDataSpaces interface [Windows Debugging], WriteMsr method, dbgeng/IDebugDataSpaces::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces3 interface, WriteMsr, IDebugDataSpaces4::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteMsr method, WriteMsr method [Windows Debugging], IDebugDataSpaces::WriteMsr, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, dbgeng/IDebugDataSpaces4::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces interface, debugger.writemsr2, dbgeng/IDebugDataSpaces2::WriteMsr, WriteMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::WriteMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.WriteMsr
 -	IDebugDataSpaces2.WriteMsr
 -	IDebugDataSpaces3.WriteMsr
 -	IDebugDataSpaces4.WriteMsr
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugDataSpaces4::WriteMsr method

@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_0c93_4
-title: PCMETHOD_ITEM
+title: "*PPCMETHOD_ITEM"
 author: windows-driver-content
 description: The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or node.
 old-location: audio\pcmethod_item.htm
@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PPCMETHOD_ITEM, PCMETHOD_ITEM, portcls/PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM, PPCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item, PCMETHOD_ITEM structure [Audio Devices], audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml
+ms.keywords: PCMETHOD_ITEM structure [Audio Devices], audio.pcmethod_item, PPCMETHOD_ITEM, portcls/PPCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, PCMETHOD_ITEM, portcls/PCMETHOD_ITEM, *PPCMETHOD_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PCMETHOD_ITEM
 product: Windows
 targetos: Windows
-req.typenames: PCMETHOD_ITEM, *PPCMETHOD_ITEM
+req.typenames: "*PPCMETHOD_ITEM, PCMETHOD_ITEM"
 ---
 
-# PCMETHOD_ITEM structure
+# *PPCMETHOD_ITEM structure
 
 
 ## -description
@@ -89,6 +89,16 @@ typedef struct {
 
  
 
+
+
+#### - Set
+
+Specifies the method set. This member is a pointer to a GUID that uniquely identifies the method set.
+
+
+#### - Id
+
+Specifies the method ID. This member identifies a method item in the method set. If the method set contains <i>n</i> items, valid method IDs are integers in the range 0 to <i>n</i>-1.
 
 
 #### - Flags
@@ -150,16 +160,6 @@ The method writes to the parameter buffer.
 </td>
 </tr>
 </table> 
-
-
-#### - Set
-
-Specifies the method set. This member is a pointer to a GUID that uniquely identifies the method set.
-
-
-#### - Id
-
-Specifies the method ID. This member identifies a method item in the method set. If the method set contains <i>n</i> items, valid method IDs are integers in the range 0 to <i>n</i>-1.
 
 
 #### - Handler

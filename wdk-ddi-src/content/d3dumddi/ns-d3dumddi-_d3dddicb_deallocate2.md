@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DEALLOCATE2
-title: _D3DDDICB_DEALLOCATE2
+title: "_D3DDDICB_DEALLOCATE2"
 author: windows-driver-content
 description: The D3DDDICB_DEALLOCATE2 structure describes parameters for releasing allocations with pfnDeallocate2Cb.
 old-location: display\d3dddicb_deallocate2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], display.d3dddicb_deallocate2, _D3DDDICB_DEALLOCATE2
+ms.keywords: "_D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2, d3dumddi/D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], display.d3dddicb_deallocate2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_DEALLOCATE2
 product: Windows
 targetos: Windows

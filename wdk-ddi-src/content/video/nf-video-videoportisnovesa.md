@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e3de4e58-c3e7-426f-bc96-b45cad6b5807
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortIsNoVesa, VideoPort_Functions_b3e65276-fa78-4599-a3e1-fa097cd86e70.xml, VideoPortIsNoVesa function [Display Devices], display.videoportisnovesa, VideoPortIsNoVesa
+ms.keywords: VideoPort_Functions_b3e65276-fa78-4599-a3e1-fa097cd86e70.xml, VideoPortIsNoVesa, video/VideoPortIsNoVesa, display.videoportisnovesa, VideoPortIsNoVesa function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortIsNoVesa
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortIsNoVesa function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDumpFormatFlags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, IDebugControl2::GetDumpFormatFlags, IDebugControl3, IDebugControl3::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], dbgeng/IDebugControl2::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags
+ms.keywords: GetDumpFormatFlags, dbgeng/IDebugControl2::GetDumpFormatFlags, IDebugControl3, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method, debugger.getdumpformatflags, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetDumpFormatFlags, IDebugControl3::GetDumpFormatFlags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl2.GetDumpFormatFlags
 -	IDebugControl3.GetDumpFormatFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetDumpFormatFlags method
@@ -106,13 +106,13 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	SetRenderTargets
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback
@@ -97,19 +97,19 @@ VOID APIENTRY SetRenderTargets(
 
 
 
-#### - hDepthStencilView [in]
+#### - hDevice [in]
 
- A handle to the depth stencil buffer to set. 
+ A handle to the display device (graphics context).
+
+
+#### - phRenderTargetView [in]
+
+ An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
 
 #### - RTargets [in]
 
  The number of elements in the array that <i>phRenderTargetView</i> specifies. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - ClearTargets [in]
@@ -119,9 +119,9 @@ VOID APIENTRY SetRenderTargets(
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
-#### - phRenderTargetView [in]
+#### - hDepthStencilView [in]
 
- An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
+ A handle to the depth stencil buffer to set. 
 
 
 ## -returns
@@ -152,9 +152,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
  
 

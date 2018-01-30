@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], debugger.disassemblewide, DisassembleWide, IDebugControl4 interface [Windows Debugging], DisassembleWide method
+ms.keywords: debugger.disassemblewide, IDebugControl4 interface [Windows Debugging], DisassembleWide method, DisassembleWide method [Windows Debugging], IDebugControl4, DisassembleWide, dbgeng/IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::DisassembleWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.DisassembleWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::DisassembleWide method
@@ -150,13 +150,13 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
  
 

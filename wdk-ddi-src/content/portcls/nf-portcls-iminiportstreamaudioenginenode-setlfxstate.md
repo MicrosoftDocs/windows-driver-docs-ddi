@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 90EED6A9-F25D-4EF9-8523-CFFC90185588
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportstreamaudioenginenode_setlfxstate, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::SetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method, portcls/IMiniportStreamAudioEngineNode::SetLfxState, IMiniportStreamAudioEngineNode, SetLfxState, SetLfxState method [Audio Devices]
+ms.keywords: portcls/IMiniportStreamAudioEngineNode::SetLfxState, IMiniportStreamAudioEngineNode, SetLfxState, IMiniportStreamAudioEngineNode::SetLfxState, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setlfxstate, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	IMiniportStreamAudioEngineNode.SetLfxState
 product: Windows
 targetos: Windows

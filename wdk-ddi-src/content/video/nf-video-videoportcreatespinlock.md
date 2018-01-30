@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb5f3b3e-3358-4181-9c4d-1871be1a7b7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCreateSpinLock, display.videoportcreatespinlock, VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, video/VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices]
+ms.keywords: display.videoportcreatespinlock, video/VideoPortCreateSpinLock, VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices], VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortCreateSpinLock
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 ---
 
 # VideoPortCreateSpinLock function
@@ -95,9 +94,9 @@ This routine must be called before an initial call to <a href="..\video\nf-video
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
-
 <a href="..\video\nf-video-videoportdeletespinlock.md">VideoPortDeleteSpinLock</a>
+
+<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
 
  
 

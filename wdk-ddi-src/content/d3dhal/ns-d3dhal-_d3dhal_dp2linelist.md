@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2LINELIST
-title: _D3DHAL_DP2LINELIST
+title: "_D3DHAL_DP2LINELIST"
 author: windows-driver-content
 description: One D3DHAL_DP2LINELIST structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_LINELIST, and is used to render unconnected line segments.
 old-location: display\d3dhal_dp2linelist.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac8346e9-46ce-4205-a46b-c327888b952d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2LINELIST, _D3DHAL_DP2LINELIST, LPD3DHAL_DP2LINELIST structure pointer [Display Devices], D3DHAL_DP2LINELIST structure [Display Devices], LPD3DHAL_DP2LINELIST, *LPD3DHAL_DP2LINELIST, display.d3dhal_dp2linelist, D3DHAL_DP2LINELIST, d3dstrct_e2e04b99-c6fc-4ee3-bcaf-4794814848a0.xml, d3dhal/D3DHAL_DP2LINELIST
+ms.keywords: d3dhal/D3DHAL_DP2LINELIST, *LPD3DHAL_DP2LINELIST, _D3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST structure [Display Devices], LPD3DHAL_DP2LINELIST, d3dhal/LPD3DHAL_DP2LINELIST, display.d3dhal_dp2linelist, LPD3DHAL_DP2LINELIST structure pointer [Display Devices], d3dstrct_e2e04b99-c6fc-4ee3-bcaf-4794814848a0.xml, D3DHAL_DP2LINELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2LINELIST
 product: Windows
 targetos: Windows
-req.typenames: D3DHAL_DP2LINELIST, *LPD3DHAL_DP2LINELIST
+req.typenames: "*LPD3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST"
 ---
 
 # _D3DHAL_DP2LINELIST structure

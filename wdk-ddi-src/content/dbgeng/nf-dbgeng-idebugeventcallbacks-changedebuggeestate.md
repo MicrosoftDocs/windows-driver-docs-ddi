@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks, IDebugEventCallbacks::ChangeDebuggeeState, ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface
+ms.keywords: ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::ChangeDebuggeeState, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, debugger.idebugeventcallbacks_changedebuggeestate, IDebugEventCallbacks, ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.ChangeDebuggeeState
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugEventCallbacks::ChangeDebuggeeState method

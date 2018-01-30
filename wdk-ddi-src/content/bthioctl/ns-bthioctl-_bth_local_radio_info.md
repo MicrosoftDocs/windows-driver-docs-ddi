@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_LOCAL_RADIO_INFO
-title: _BTH_LOCAL_RADIO_INFO
+title: "_BTH_LOCAL_RADIO_INFO"
 author: windows-driver-content
 description: The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetooth system and radio.
 old-location: bltooth\bth_local_radio_info.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info, bthioctl/BTH_LOCAL_RADIO_INFO, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, BTH_LOCAL_RADIO_INFO, _BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], bthioctl/PBTH_LOCAL_RADIO_INFO
+ms.keywords: PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], bltooth.bth_local_radio_info, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, BTH_LOCAL_RADIO_INFO, _BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], PBTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO, bthioctl/BTH_LOCAL_RADIO_INFO, bthioctl/PBTH_LOCAL_RADIO_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthioctl.h
-apiname: 
+apiname:
 -	BTH_LOCAL_RADIO_INFO
 product: Windows
 targetos: Windows
@@ -122,11 +122,11 @@ The
 
 ## -see-also
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
 
 <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
  
 

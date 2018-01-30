@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 227d7b4f-bf94-4763-bb1f-32efbc087bb1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters interface [Windows Debugging], GetValue method, debugger.getvalue, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, GetValue method [Windows Debugging], GetValue method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2, GetValue method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetValue, IDebugRegisters2 interface [Windows Debugging], GetValue method, dbgeng/IDebugRegisters2::GetValue, GetValue, IDebugRegisters::GetValue, IDebugRegisters2::GetValue
+ms.keywords: IDebugRegisters2::GetValue, GetValue, IDebugRegisters::GetValue, GetValue method [Windows Debugging], debugger.getvalue, IDebugRegisters2, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, IDebugRegisters interface [Windows Debugging], GetValue method, dbgeng/IDebugRegisters2::GetValue, IDebugRegisters2 interface [Windows Debugging], GetValue method, GetValue method [Windows Debugging], IDebugRegisters2 interface, GetValue method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters.GetValue
 -	IDebugRegisters2.GetValue
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugRegisters2::GetValue method
@@ -136,13 +136,13 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
  
 

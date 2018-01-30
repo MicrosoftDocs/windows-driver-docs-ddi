@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetDisplayMode
 product: Windows
 targetos: Windows
@@ -120,11 +120,11 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member of the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdisplaymode.md">D3DDDIARG_SETDISPLAYMODE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdisplaymode.md">D3DDDIARG_SETDISPLAYMODE</a>
 
  
 

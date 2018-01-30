@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, wdbgexts/WritePhysicalWithFlags, debugger.writephysicalwithflags, WritePhysicalWithFlags function [Windows Debugging], WritePhysicalWithFlags
+ms.keywords: wdbgexts/WritePhysicalWithFlags, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, debugger.writephysicalwithflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	WritePhysicalWithFlags
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
 ---
 
 # WritePhysicalWithFlags function
@@ -159,9 +158,9 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
+<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+<a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
 
  
 

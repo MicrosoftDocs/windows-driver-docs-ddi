@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.geteventfiltertextwide, IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4, GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide method [Windows Debugging], dbgeng/IDebugControl4::GetEventFilterTextWide
+ms.keywords: IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], dbgeng/IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4, GetEventFilterTextWide, debugger.geteventfiltertextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetEventFilterTextWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl4::GetEventFilterTextWide method

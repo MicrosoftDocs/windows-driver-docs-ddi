@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_COLORFILLFLAGS
-title: _D3DDDI_COLORFILLFLAGS
+title: "_D3DDDI_COLORFILLFLAGS"
 author: windows-driver-content
 description: The D3DDDI_COLORFILLFLAGS structure describes how to color-fill a rectangle on a surface.
 old-location: display\d3dddi_colorfillflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 672baa43-7fa1-4c10-9d60-c7c8a4729f26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_COLORFILLFLAGS, D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, D3DDDI_COLORFILLFLAGS structure [Display Devices], display.d3dddi_colorfillflags, d3dumddi/D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS
+ms.keywords: d3dumddi/D3DDDI_COLORFILLFLAGS, _D3DDDI_COLORFILLFLAGS, D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, D3DDDI_COLORFILLFLAGS structure [Display Devices], display.d3dddi_colorfillflags, D3DDDI_COLORFILLFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_COLORFILLFLAGS
 product: Windows
 targetos: Windows
@@ -92,9 +92,9 @@ A member in the union that is contained in D3DDDI_COLORFILLFLAGS that can hold o
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
 
  
 

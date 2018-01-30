@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CheckVideoProcessorFormat
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback
@@ -92,9 +92,11 @@ VOID APIENTRY* CheckVideoProcessorFormat(
 
 
 
-#### - Format [in]
+#### - hDevice [in]
 
-The video format to query.
+A handle to the display device (graphics context).
+
+
 
 
 #### - hVideoProcessorEnum [in]
@@ -102,11 +104,9 @@ The video format to query.
 A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function. 
 
 
-#### - hDevice [in]
+#### - Format [in]
 
-A handle to the display device (graphics context).
-
-
+The video format to query.
 
 
 #### - pSupported [out]

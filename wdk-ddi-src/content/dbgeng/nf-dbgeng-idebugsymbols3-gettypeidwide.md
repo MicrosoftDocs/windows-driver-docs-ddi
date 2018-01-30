@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b0f4de6-b800-4bc0-ae1d-97d877e3b91e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeIdWide, debugger.gettypeidwide, GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetTypeIdWide, IDebugSymbols3 interface [Windows Debugging], GetTypeIdWide method, IDebugSymbols3, GetTypeIdWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetTypeIdWide
+ms.keywords: dbgeng/IDebugSymbols3::GetTypeIdWide, IDebugSymbols3::GetTypeIdWide, debugger.gettypeidwide, IDebugSymbols3, GetTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeIdWide method [Windows Debugging], GetTypeIdWide, IDebugSymbols3 interface [Windows Debugging], GetTypeIdWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetTypeIdWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbols3::GetTypeIdWide method

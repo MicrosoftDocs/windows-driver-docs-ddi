@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b3f4af4e-dbba-4f14-8935-f894865cbe7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::GetNumberProcessors, GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, IDebugControl2::GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl::GetNumberProcessors, debugger.getnumberprocessors, dbgeng/IDebugControl2::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, GetNumberProcessors method [Windows Debugging], dbgeng/IDebugControl::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], GetNumberProcessors method, IDebugControl3::GetNumberProcessors, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, IDebugControl3, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetNumberProcessors, debugger.getnumberprocessors, IDebugControl2::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], GetNumberProcessors method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::GetNumberProcessors, GetNumberProcessors, dbgeng/IDebugControl2::GetNumberProcessors, IDebugControl interface [Windows Debugging], GetNumberProcessors method, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, IDebugControl::GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetNumberProcessors
 -	IDebugControl2.GetNumberProcessors
 -	IDebugControl3.GetNumberProcessors
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugControl3::GetNumberProcessors method

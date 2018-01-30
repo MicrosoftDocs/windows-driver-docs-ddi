@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTATIONCAPS
-title: _DXGK_PRESENTATIONCAPS
+title: "_DXGK_PRESENTATIONCAPS"
 author: windows-driver-content
 description: The DXGK_PRESENTATIONCAPS structure identifies presentation capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_presentationcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38de4631-535f-4950-b361-d70f8c638c36
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PRESENTATIONCAPS structure [Display Devices], DmStructs_67f7af73-6eaa-4ac8-ad04-1633bc1504af.xml, display.dxgk_presentationcaps, _DXGK_PRESENTATIONCAPS, d3dkmddi/DXGK_PRESENTATIONCAPS, DXGK_PRESENTATIONCAPS
+ms.keywords: d3dkmddi/DXGK_PRESENTATIONCAPS, DXGK_PRESENTATIONCAPS structure [Display Devices], display.dxgk_presentationcaps, DmStructs_67f7af73-6eaa-4ac8-ad04-1633bc1504af.xml, DXGK_PRESENTATIONCAPS, _DXGK_PRESENTATIONCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PRESENTATIONCAPS
 product: Windows
 targetos: Windows
@@ -350,13 +350,13 @@ A display miniport driver can specify presentation capabilities by setting bits 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
  
 

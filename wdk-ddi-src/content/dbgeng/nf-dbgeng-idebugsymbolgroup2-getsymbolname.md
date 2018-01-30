@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2::GetSymbolName, ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, debugger.getsymbolname, dbgeng/IDebugSymbolGroup::GetSymbolName, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, dbgeng/IDebugSymbolGroup2::GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, GetSymbolName method [Windows Debugging], IDebugSymbolGroup::GetSymbolName
+ms.keywords: IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup2, debugger.getsymbolname, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, IDebugSymbolGroup::GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup::GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, GetSymbolName method [Windows Debugging], GetSymbolName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup.GetSymbolName
 -	IDebugSymbolGroup2.GetSymbolName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
 # IDebugSymbolGroup2::GetSymbolName method
@@ -138,9 +138,9 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
  
 

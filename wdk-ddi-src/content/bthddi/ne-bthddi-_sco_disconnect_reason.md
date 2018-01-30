@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._SCO_DISCONNECT_REASON
-title: _SCO_DISCONNECT_REASON
+title: "_SCO_DISCONNECT_REASON"
 author: windows-driver-content
 description: The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been disconnected.
 old-location: bltooth\sco_disconnect_reason.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, ScoHciDisconnect, ScoDisconnectRequest, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, SCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], bthddi/ScoHciDisconnect, ScoRadioPoweredDown, bthddi/ScoHardwareRemoval, bthddi/ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, ScoHardwareRemoval, bltooth.sco_disconnect_reason, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], *PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON
+ms.keywords: SCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], *PSCO_DISCONNECT_REASON, ScoHardwareRemoval, _SCO_DISCONNECT_REASON, ScoDisconnectRequest, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], bthddi/ScoHardwareRemoval, bthddi/ScoHciDisconnect, bthddi/SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bthddi/ScoDisconnectRequest, bthddi/ScoRadioPoweredDown, ScoHciDisconnect, PSCO_DISCONNECT_REASON, bthddi/PSCO_DISCONNECT_REASON, ScoRadioPoweredDown, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	SCO_DISCONNECT_REASON
 product: Windows
 targetos: Windows
-req.typenames: *PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON
+req.typenames: "*PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON"
 ---
 
 # _SCO_DISCONNECT_REASON enumeration
@@ -114,9 +114,9 @@ Currently,
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
-
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
 
  
 

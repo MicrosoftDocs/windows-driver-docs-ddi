@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_RECLAIMRESOURCES
-title: _DXGI_DDI_ARG_RECLAIMRESOURCES
+title: "_DXGI_DDI_ARG_RECLAIMRESOURCES"
 author: windows-driver-content
 description: Describes video memory resources that are to be reclaimed and that the user-mode display driver previously offered for reuse. Used with the pfnReclaimResources function by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_reclaimresources.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43e34157-2cf1-4e2c-bcd8-c4425e89fb0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES, dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES, _DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], display.dxgi_ddi_arg_reclaimresources
+ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES, display.dxgi_ddi_arg_reclaimresources, _DXGI_DDI_ARG_RECLAIMRESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_ARG_RECLAIMRESOURCES
 product: Windows
 targetos: Windows

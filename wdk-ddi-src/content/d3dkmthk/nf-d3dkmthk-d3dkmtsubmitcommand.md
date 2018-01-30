@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSubmitCommand, D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], display.d3dkmtsubmitcommand
+ms.keywords: D3DKMTSubmitCommand, d3dkmthk/D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], display.d3dkmtsubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTSubmitCommand
 product: Windows
 targetos: Windows
