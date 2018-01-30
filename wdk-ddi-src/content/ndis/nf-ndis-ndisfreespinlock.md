@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4807d413-c40f-4ee8-b670-9afcac809bd2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeSpinLock function [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_c5b1dcb1-afdc-4622-a07b-f81bb7c1f550.xml, NdisFreeSpinLock, netvista.ndisfreespinlock, ndis/NdisFreeSpinLock
+ms.keywords: netvista.ndisfreespinlock, NdisFreeSpinLock, NdisFreeSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSpinLock, ndis_spin_lock_ref_c5b1dcb1-afdc-4622-a07b-f81bb7c1f550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFreeSpinLock
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeSpinLock function
@@ -99,26 +99,26 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-<mshelp:link keywords="netvista.ndisinterlockedremoveheadlist" tabindex="0"><b>
-   NdisInterlockedRemoveHeadList</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
-   NdisInterlockedInsertHeadList</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
-
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+<mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
+   NdisInterlockedInsertTailList</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
 
-<mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
-   NdisInterlockedInsertTailList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
+<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
+   NdisInterlockedInsertHeadList</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisinterlockedremoveheadlist" tabindex="0"><b>
+   NdisInterlockedRemoveHeadList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 

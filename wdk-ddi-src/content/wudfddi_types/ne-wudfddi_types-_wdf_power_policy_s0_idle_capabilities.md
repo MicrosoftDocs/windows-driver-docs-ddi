@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
-title: _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
+title: "_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling.
 old-location: wdf\wdf_power_policy_s0_idle_capabilities.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4a3611d-5eb6-4fb2-a66a-e563569c4790
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleUsbSelectiveSuspend, IdleUsbSelectiveSuspend, wdf.wdf_power_policy_s0_idle_capabilities, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleCannotWakeFromS0, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdfdevice/IdleUsbSelectiveSuspend, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, IdleCanWakeFromS0, wdfdevice/IdleCannotWakeFromS0, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleCanWakeFromS0, IdleCannotWakeFromS0, wudfddi_types/IdleCapsInvalid, wdfdevice/IdleCanWakeFromS0, IdleCapsInvalid, kmdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleCapsInvalid
+ms.keywords: wdfdevice/IdleUsbSelectiveSuspend, IdleCannotWakeFromS0, wudfddi_types/IdleUsbSelectiveSuspend, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleCapsInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleCannotWakeFromS0, IdleUsbSelectiveSuspend, wdfdevice/IdleCanWakeFromS0, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleCapsInvalid, wdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleCannotWakeFromS0, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, IdleCanWakeFromS0, kmdf.wdf_power_policy_s0_idle_capabilities, wudfddi_types/IdleCanWakeFromS0, wdfdevice/IdleCapsInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 product: Windows
 targetos: Windows

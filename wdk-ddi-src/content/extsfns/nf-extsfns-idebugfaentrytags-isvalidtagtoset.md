@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 83B5C54F-182B-4D2F-8ED2-7A0B529F1D2E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFAEntryTags interface [Windows Debugging], IsValidTagToSet method, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags::IsValidTagToSet, IDebugFAEntryTags, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet method [Windows Debugging]
+ms.keywords: IDebugFAEntryTags interface [Windows Debugging], IsValidTagToSet method, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], debugger.idebugfaentrytags_isvalidtagtoset, IDebugFAEntryTags, extsfns/IDebugFAEntryTags::IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IDebugFAEntryTags interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

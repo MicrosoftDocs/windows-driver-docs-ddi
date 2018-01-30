@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: DRMRIGHTS, DRMRIGHTS structure [Audio Devices], drmk/PDRMRIGHTS, PDRMRIGHTS, tagDRMRIGHTS, aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, *PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices]
+ms.keywords: audio.drmrights, drmk/DRMRIGHTS, PDRMRIGHTS, DRMRIGHTS structure [Audio Devices], DRMRIGHTS, *PDRMRIGHTS, tagDRMRIGHTS, drmk/PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -252,17 +252,17 @@ This macro does not return a value.
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
 
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
  
 

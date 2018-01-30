@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_NICPerformance
-title: _MSiSCSI_NICPerformance
+title: "_MSiSCSI_NICPerformance"
 author: windows-driver-content
 description: The MSiSCSI_NICPerformance structure can be used by an iSCSI initiator to report statistics for a network interface card (NIC) port.
 old-location: storage\msiscsi_nicperformance.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 921e6e44-adc2-4257-b11e-941121f5bfd7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiprf/PMSiSCSI_NICPerformance, MSiSCSI_NICPerformance structure [Storage Devices], PMSiSCSI_NICPerformance structure pointer [Storage Devices], *PMSiSCSI_NICPerformance, storage.msiscsi_nicperformance, iscsiprf/MSiSCSI_NICPerformance, MSiSCSI_NICPerformance, PMSiSCSI_NICPerformance, structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml, _MSiSCSI_NICPerformance
+ms.keywords: storage.msiscsi_nicperformance, MSiSCSI_NICPerformance, iscsiprf/PMSiSCSI_NICPerformance, PMSiSCSI_NICPerformance, iscsiprf/MSiSCSI_NICPerformance, MSiSCSI_NICPerformance structure [Storage Devices], _MSiSCSI_NICPerformance, PMSiSCSI_NICPerformance structure pointer [Storage Devices], structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml, *PMSiSCSI_NICPerformance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiprf.h
-apiname: 
+apiname:
 -	MSiSCSI_NICPerformance
 product: Windows
 targetos: Windows

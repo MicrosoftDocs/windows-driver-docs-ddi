@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1cdb0747-7616-414b-8287-1ef73637ed05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_a_to_d_d4c075e6-7a69-4d2f-9017-eccbf55eb9e0.xml, fltkernel/FltDeleteContext, FltDeleteContext function [Installable File System Drivers], ifsk.fltdeletecontext, FltDeleteContext
+ms.keywords: FltDeleteContext function [Installable File System Drivers], FltDeleteContext, ifsk.fltdeletecontext, fltkernel/FltDeleteContext, FltApiRef_a_to_d_d4c075e6-7a69-4d2f-9017-eccbf55eb9e0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltDeleteContext
 product: Windows
 targetos: Windows
@@ -197,23 +197,23 @@ A section context, FLT_SECTION_CONTEXT type, must not be deleted using <b>FltDel
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltdeletevolumecontext.md">FltDeleteVolumeContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreferencecontext.md">FltReferenceContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
 

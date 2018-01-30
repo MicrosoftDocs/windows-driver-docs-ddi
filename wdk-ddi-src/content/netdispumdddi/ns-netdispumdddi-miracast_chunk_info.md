@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7015cbc5-f8d1-4e06-bb02-2706a26877f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_CHUNK_INFO structure [Display Devices], display.miracast_chunk_info, MIRACAST_CHUNK_INFO, netdispumdddi/MIRACAST_CHUNK_INFO
+ms.keywords: netdispumdddi/MIRACAST_CHUNK_INFO, MIRACAST_CHUNK_INFO, display.miracast_chunk_info, MIRACAST_CHUNK_INFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,9 +92,9 @@ The encode bit rate, in kilobits per second, that the user-mode driver reported 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
-
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
+
+<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
 
  
 

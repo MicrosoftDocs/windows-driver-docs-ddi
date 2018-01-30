@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	UsbcStartDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
+req.typenames: "*PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

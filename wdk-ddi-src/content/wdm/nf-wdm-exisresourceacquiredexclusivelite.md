@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81c07809-1c66-4b68-b2d9-05992c778ae6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], wdm/ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite, kernel.exisresourceacquiredexclusivelite
+ms.keywords: ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, wdm/ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite, kernel.exisresourceacquiredexclusivelite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExIsResourceAcquiredExclusiveLite
 product: Windows
 targetos: Windows

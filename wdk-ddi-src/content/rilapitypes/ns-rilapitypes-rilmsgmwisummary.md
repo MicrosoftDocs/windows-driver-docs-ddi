@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 809373c0-210e-4947-a92f-a945b7846da7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgmwisummary_2, RILMSGMWISUMMARY, rilapitypes/RILMSGMWISUMMARY, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWISUMMARY
+ms.keywords: rilapitypes/RILMSGMWISUMMARY, netvista.rilmsgmwisummary_2, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWISUMMARY, RILMSGMWISUMMARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGMWISUMMARY
 product: Windows
 targetos: Windows
-req.typenames: *LPRILMSGMWISUMMARY, RILMSGMWISUMMARY
+req.typenames: "*LPRILMSGMWISUMMARY, RILMSGMWISUMMARY"
 req.product: Windows 10 or later.
 ---
 

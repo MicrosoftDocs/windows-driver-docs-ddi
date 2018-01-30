@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ABANDON_DEVICE
-title: _PEP_ABANDON_DEVICE
+title: "_PEP_ABANDON_DEVICE"
 author: windows-driver-content
 description: The PEP_ABANDON_DEVICE structure identifies a device that has been abandoned and will no longer be used by the operating system.
 old-location: kernel\pep_abandon_device.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15F54054-F20B-43A6-8BCD-3A1C47433B12
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_ABANDON_DEVICE, pepfx/PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE, kernel.pep_abandon_device, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE
+ms.keywords: kernel.pep_abandon_device, PPEP_ABANDON_DEVICE, _PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, pepfx/PPEP_ABANDON_DEVICE, pepfx/PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ABANDON_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE
+req.typenames: "*PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE"
 ---
 
 # _PEP_ABANDON_DEVICE structure
@@ -87,9 +87,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186656">PEP_DPM_ABANDON_DEVICE</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._BOOTDISK_INFORMATION
-title: _BOOTDISK_INFORMATION
+title: "_BOOTDISK_INFORMATION"
 author: windows-driver-content
 description: The BOOTDISK_INFORMATION structure contains basic information describing the boot and system disks.
 old-location: kernel\bootdisk_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd2a525d-fb9d-4fea-b9d7-64b1f498550c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PBOOTDISK_INFORMATION, _BOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION, wdm/BOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION, kernel.bootdisk_information, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.bootdisk_information, wdm/BOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION, _BOOTDISK_INFORMATION, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, wdm/PBOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], BOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	BOOTDISK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION
+req.typenames: "*PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

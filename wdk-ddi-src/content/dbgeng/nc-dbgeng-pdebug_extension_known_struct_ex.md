@@ -40,7 +40,7 @@ apiname:
 -	DebugExtensionKnownStructEx
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55b2d603-f3ac-4a7a-91f5-83d908d1e14b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortRegisterBugcheckCallback function [Display Devices], video/VideoPortRegisterBugcheckCallback, display.videoportregisterbugcheckcallback, VideoPortRegisterBugcheckCallback, VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml
+ms.keywords: VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, video/VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], display.videoportregisterbugcheckcallback, VideoPortRegisterBugcheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortRegisterBugcheckCallback function

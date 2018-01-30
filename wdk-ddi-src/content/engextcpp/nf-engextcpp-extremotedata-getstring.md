@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff0aa7a7-1efd-4d55-8865-f36c039b27a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, ExtRemoteData class [Windows Debugging], GetString method, ExtRemoteData, GetString method [Windows Debugging], debugger.extremotedata_getstring, GetString method [Windows Debugging], ExtRemoteData class, GetString, ExtRemoteData::GetString
+ms.keywords: ExtRemoteData::GetString, EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, GetString, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetString method, GetString method [Windows Debugging], debugger.extremotedata_getstring, GetString method [Windows Debugging], ExtRemoteData class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetString
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetString method
@@ -112,9 +112,9 @@ This method can only be used if the region represented by the <a href="..\engext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544088">ExtRemoteData::ReadBuffer</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544088">ExtRemoteData::ReadBuffer</a>
 
  
 

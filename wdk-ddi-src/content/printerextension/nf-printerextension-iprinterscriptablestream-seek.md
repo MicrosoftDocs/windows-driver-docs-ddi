@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Seek method [Print Devices], IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices], Seek method, printerextension/IPrinterScriptableStream::Seek, Seek method [Print Devices], IPrinterScriptableStream::Seek, Seek, print.iprinterscriptablestream__seek, IPrinterScriptableStream
+ms.keywords: Seek method [Print Devices], IPrinterScriptableStream interface [Print Devices], Seek method, IPrinterScriptableStream, print.iprinterscriptablestream__seek, Seek method [Print Devices], IPrinterScriptableStream interface, IPrinterScriptableStream::Seek, printerextension/IPrinterScriptableStream::Seek, Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptableStream.Seek
 product: Windows
 targetos: Windows

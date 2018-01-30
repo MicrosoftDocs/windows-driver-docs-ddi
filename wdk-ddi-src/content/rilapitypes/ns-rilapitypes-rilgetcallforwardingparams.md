@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f7ebe2a7-b29e-411e-bdfa-744c95645095
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgetcallforwardingparams_2, RILGETCALLFORWARDINGPARAMS, *LPRILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGETCALLFORWARDINGPARAMS
+ms.keywords: rilapitypes/RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETCALLFORWARDINGPARAMS, netvista.rilgetcallforwardingparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGETCALLFORWARDINGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS
+req.typenames: "*LPRILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, icm/WcsSetUsePerUserProfiles, print.wcssetuseperuserprofiles, WcsSetUsePerUserProfiles function [Print Devices], WcsSetUsePerUserProfiles
+ms.keywords: colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, WcsSetUsePerUserProfiles function [Print Devices], icm/WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles, print.wcssetuseperuserprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	WcsSetUsePerUserProfiles
 product: Windows
 targetos: Windows
@@ -81,24 +81,24 @@ A flag value that specifies the class of the device. This parameter must take on
 
 
 
-### -param usePerUserProfiles [in]
-
-A Boolean value that is <b>TRUE</b> if the user wants to use a per-user profile association list for the specified device; otherwise <b>FALSE</b>.
-
-
-##### - dwDeviceClass.CLASS_PRINTER
-
-Specifies a printer.
-
-
-##### - dwDeviceClass.CLASS_MONITOR
+#### CLASS_MONITOR
 
 Specifies a display device.
 
 
-##### - dwDeviceClass.CLASS_SCANNER
+#### CLASS_PRINTER
+
+Specifies a printer.
+
+
+#### CLASS_SCANNER
 
 Specifies an image capture device.
+
+
+### -param usePerUserProfiles [in]
+
+A Boolean value that is <b>TRUE</b> if the user wants to use a per-user profile association list for the specified device; otherwise <b>FALSE</b>.
 
 
 ## -remarks

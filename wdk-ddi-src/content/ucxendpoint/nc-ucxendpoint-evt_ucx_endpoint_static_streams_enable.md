@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	PFN_UCM_CONNECTOR_GET_OPERATING_MODE
 product: Windows
 targetos: Windows

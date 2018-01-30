@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._TOPOLOGY_MAP
-title: _TOPOLOGY_MAP
+title: "_TOPOLOGY_MAP"
 author: windows-driver-content
 description: The TOPOLOGY_MAP structure is used to store an IEEE 1394 bus topology map. The relations between devices are found in the port members of the entries in TOP_Self_ID_Array.
 old-location: ieee\topology_map.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0a4c7ffc-94f9-4068-b650-1da43e45d0ad
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _TOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, 1394/PTOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], 1394/TOPOLOGY_MAP, IEEE.topology_map, PTOPOLOGY_MAP, TOPOLOGY_MAP, *PTOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses]
+ms.keywords: TOPOLOGY_MAP, 1394/TOPOLOGY_MAP, *PTOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, PTOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], 1394/PTOPOLOGY_MAP, _TOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses], IEEE.topology_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	TOPOLOGY_MAP
 product: Windows
 targetos: Windows
-req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
+req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
 ---
 
 # _TOPOLOGY_MAP structure

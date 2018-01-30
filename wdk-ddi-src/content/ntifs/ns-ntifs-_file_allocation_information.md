@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ALLOCATION_INFORMATION
-title: _FILE_ALLOCATION_INFORMATION
+title: "_FILE_ALLOCATION_INFORMATION"
 author: windows-driver-content
 description: The FILE_ALLOCATION_INFORMATION structure is used to set the allocation size for a file.
 old-location: ifsk\file_allocation_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52c62e52-3bf7-40eb-80ff-df14c50c86e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_ALLOCATION_INFORMATION, ntifs/FILE_ALLOCATION_INFORMATION, ntifs/PFILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ifsk.file_allocation_information, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers]
+ms.keywords: ntifs/PFILE_ALLOCATION_INFORMATION, ntifs/FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ifsk.file_allocation_information, *PFILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_ALLOCATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION
+req.typenames: FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION
 ---
 
 # _FILE_ALLOCATION_INFORMATION structure
@@ -101,13 +101,13 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 <a href="..\ntddk\ns-ntddk-_file_end_of_file_information.md">FILE_END_OF_FILE_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
  
 

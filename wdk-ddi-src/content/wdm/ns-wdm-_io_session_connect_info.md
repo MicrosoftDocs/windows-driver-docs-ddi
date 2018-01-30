@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_SESSION_CONNECT_INFO
-title: _IO_SESSION_CONNECT_INFO
+title: "_IO_SESSION_CONNECT_INFO"
 author: windows-driver-content
 description: The IO_SESSION_CONNECT_INFO structure provides information about a user session.
 old-location: kernel\io_session_connect_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9d7ffae-aa9e-44d6-b659-cb5a9068f1d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml, IO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], wdm/IO_SESSION_CONNECT_INFO, _IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO, wdm/PIO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO, kernel.io_session_connect_info
+ms.keywords: "_IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO, wdm/IO_SESSION_CONNECT_INFO, kernel.io_session_connect_info, wdm/PIO_SESSION_CONNECT_INFO, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_SESSION_CONNECT_INFO
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ If a driver is registered to receive notifications of events in a user session, 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
-
 <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
+<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
  
 

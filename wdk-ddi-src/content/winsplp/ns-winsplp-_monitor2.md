@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOR2
-title: _MONITOR2
+title: "_MONITOR2"
 author: windows-driver-content
 description: The MONITOR2 structure contains pointers to the functions defined by print monitors.
 old-location: print\monitor2.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0bfb5119-2034-4e63-9fbe-e2ff42a352d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/LPMONITOR2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, MONITOR2 structure [Print Devices], LPMONITOR2, *PMONITOR2, MONITOR2, PMONITOR2 structure pointer [Print Devices], winsplp/PMONITOR2, print.monitor2, winsplp/MONITOR2, PMONITOR2, _MONITOR2, LPMONITOR2 structure pointer [Print Devices], *LPMONITOR2
+ms.keywords: PMONITOR2, *PMONITOR2, MONITOR2 structure [Print Devices], winsplp/MONITOR2, _MONITOR2, PMONITOR2 structure pointer [Print Devices], winsplp/PMONITOR2, print.monitor2, MONITOR2, LPMONITOR2 structure pointer [Print Devices], LPMONITOR2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, winsplp/LPMONITOR2, *LPMONITOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	MONITOR2
 product: Windows
 targetos: Windows
@@ -287,9 +287,9 @@ If a function is not defined, its pointer must be <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
-
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
  
 

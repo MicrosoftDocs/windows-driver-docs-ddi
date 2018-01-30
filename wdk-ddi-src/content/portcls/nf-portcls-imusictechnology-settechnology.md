@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMusicTechnology interface [Audio Devices], SetTechnology method, SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, audio.imusictechnology_settechnology, SetTechnology method [Audio Devices], IMusicTechnology, portcls/IMusicTechnology::SetTechnology, IMusicTechnology::SetTechnology
+ms.keywords: SetTechnology method [Audio Devices], portcls/IMusicTechnology::SetTechnology, SetTechnology, IMusicTechnology::SetTechnology, IMusicTechnology, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, IMusicTechnology interface [Audio Devices], SetTechnology method, SetTechnology method [Audio Devices], IMusicTechnology interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -148,9 +148,9 @@ For more information, see <a href="https://msdn.microsoft.com/3b7c2907-e67f-458e
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
-
 <a href="..\portcls\nn-portcls-imusictechnology.md">IMusicTechnology</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
 
  
 

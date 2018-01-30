@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, _DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices]
+ms.keywords: display.dxva_procampcontrolblt, DXVA_ProcAmpControlBlt structure [Display Devices], DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, dxva/DXVA_ProcAmpControlBlt, _DXVA_ProcAmpControlBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

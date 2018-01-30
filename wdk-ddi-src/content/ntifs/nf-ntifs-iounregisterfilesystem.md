@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f6a0bff7-85b6-479a-b952-9a3a637e339e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_8799f64d-023b-4a67-8761-0899951596ad.xml, IoUnregisterFileSystem routine [Installable File System Drivers], ifsk.iounregisterfilesystem, IoUnregisterFileSystem, ntifs/IoUnregisterFileSystem
+ms.keywords: IoUnregisterFileSystem, IoUnregisterFileSystem routine [Installable File System Drivers], ifsk.iounregisterfilesystem, ntifs/IoUnregisterFileSystem, ioref_8799f64d-023b-4a67-8761-0899951596ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoUnregisterFileSystem
 product: Windows
 targetos: Windows
@@ -90,11 +90,11 @@ None
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
-
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
  
 

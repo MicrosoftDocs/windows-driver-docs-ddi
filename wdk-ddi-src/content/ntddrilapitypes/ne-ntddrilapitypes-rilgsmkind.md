@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGSMKIND, RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_GPRS, RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RIL_GSMKIND_EDGE, RIL_GSMKIND_MAX
+ms.keywords: ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RILGSMKIND, RIL_GSMKIND_GPRS, RIL_GSMKIND_EDGE, RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_MAX, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX, netvista.rilgsmkind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILGSMKIND
 product: Windows
 targetos: Windows

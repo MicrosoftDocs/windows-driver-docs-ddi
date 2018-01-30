@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5aa96fed-83ca-417e-876d-a734be6f27dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCmResourceListGetDescriptor method, wdfresource/WdfCmResourceListGetDescriptor, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, kmdf.wdfcmresourcelistgetdescriptor, wdf.wdfcmresourcelistgetdescriptor, WdfCmResourceListGetDescriptor
+ms.keywords: kmdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor, WdfCmResourceListGetDescriptor, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, WdfCmResourceListGetDescriptor method, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, wdf.wdfcmresourcelistgetdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfCmResourceListGetDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

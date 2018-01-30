@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b5fe91b-29ae-4c83-b405-4a90e4375b4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreenetbuffer, NdisFreeNetBuffer, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, ndis/NdisFreeNetBuffer
+ms.keywords: netvista.ndisfreenetbuffer, ndis/NdisFreeNetBuffer, ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, NdisFreeNetBuffer, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFreeNetBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeNetBuffer function

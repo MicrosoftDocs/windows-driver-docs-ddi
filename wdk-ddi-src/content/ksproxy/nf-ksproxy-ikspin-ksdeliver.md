@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin interface [Streaming Media Devices], KsDeliver method, stream.ikspin_ksdeliver, KsDeliver method [Streaming Media Devices], IKsPin interface, KsDeliver method [Streaming Media Devices], ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, ksproxy/IKsPin::KsDeliver, IKsPin::KsDeliver, IKsPin, KsDeliver
+ms.keywords: KsDeliver, IKsPin, IKsPin::KsDeliver, KsDeliver method [Streaming Media Devices], KsDeliver method [Streaming Media Devices], IKsPin interface, stream.ikspin_ksdeliver, ksproxy/IKsPin::KsDeliver, IKsPin interface [Streaming Media Devices], KsDeliver method, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin.KsDeliver
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_STOP_AP_PARAMETERS
-title: _DOT11_STOP_AP_PARAMETERS
+title: "_DOT11_STOP_AP_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_stop_ap_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a9dfb490-425a-4011-a008-ab1597f53b85
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_STOP_AP_PARAMETERS, windot11/PDOT11_STOP_AP_PARAMETERS, DOT11_STOP_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_stop_ap_parameters, *PDOT11_STOP_AP_PARAMETERS, windot11/DOT11_STOP_AP_PARAMETERS, PDOT11_STOP_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_STOP_AP_PARAMETERS, _DOT11_STOP_AP_PARAMETERS, Native_802.11_data_types_1c8e69b9-852b-4ad6-87a4-ae13b37f7523.xml
+ms.keywords: DOT11_STOP_AP_PARAMETERS, Native_802.11_data_types_1c8e69b9-852b-4ad6-87a4-ae13b37f7523.xml, _DOT11_STOP_AP_PARAMETERS, windot11/DOT11_STOP_AP_PARAMETERS, *PDOT11_STOP_AP_PARAMETERS, PDOT11_STOP_AP_PARAMETERS, PDOT11_STOP_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_STOP_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_STOP_AP_PARAMETERS, netvista.dot11_stop_ap_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_STOP_AP_PARAMETERS
 product: Windows
 targetos: Windows
@@ -86,6 +86,22 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_STOP_AP_PARAMETERS_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       sizeof(DOT11_STOP_AP_PARAMETERS).
+
+
 ### -field ulReason
 
 The reason why the NIC stopped the AP. An IHV can supply the following range of values:
@@ -98,46 +114,30 @@ If the value of
      inclusive, the operating system takes no action.
 
 
-##### - ulReason.DOT11_STOP_AP_REASON_IHV_END
+#### DOT11_STOP_AP_REASON_AP_ACTIVE
 
-The end value of possible IHV-specified reasons.
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_STOP_AP_PARAMETERS_REVISION_1.
+The miniport driver determined that an AP is already active on another 802.11 MAC entity for
+       this physical wireless LAN adapter.
 
 
-##### - ulReason.DOT11_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
+#### DOT11_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
 
 The miniport driver determined that no valid operating frequency is available.
 
 
-##### - Header.Size
-
-This member must be set to 
-       sizeof(DOT11_STOP_AP_PARAMETERS).
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - ulReason.DOT11_STOP_AP_REASON_IHV_START
-
-The start value of possible IHV-specified reasons.
-
-
-##### - ulReason.DOT11_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
+#### DOT11_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
 
 The miniport driver determined that no good operating channel is available.
 
 
-##### - ulReason.DOT11_STOP_AP_REASON_AP_ACTIVE
+#### DOT11_STOP_AP_REASON_IHV_END
 
-The miniport driver determined that an AP is already active on another 802.11 MAC entity for
-       this physical wireless LAN adapter.
+The end value of possible IHV-specified reasons.
+
+
+#### DOT11_STOP_AP_REASON_IHV_START
+
+The start value of possible IHV-specified reasons.
 
 
 ## -remarks
@@ -152,9 +152,9 @@ The Native 802.11 miniport driver includes a DOT11_STOP_AP_PARAMETERS structure 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567366">NDIS_STATUS_DOT11_STOP_AP</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

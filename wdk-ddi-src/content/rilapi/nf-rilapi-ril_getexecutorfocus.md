@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee510d9f-cfe5-4cfa-98c4-15024208aa5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetExecutorFocus, rilapi/RIL_GetExecutorFocus, netvista.ril_getexecutorfocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_getexecutorfocus, rilapi/RIL_GetExecutorFocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista], RIL_GetExecutorFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetExecutorFocus
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	PEVT_UCX_USBDEVICE_RESET
 product: Windows
 targetos: Windows
-req.typenames: *PSTREAM_INFO, STREAM_INFO
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -106,9 +106,9 @@ The client driver returns completion status in <i>Request</i>.  The driver can c
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_reset.md">USBDEVICE_RESET</a>
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
  
 

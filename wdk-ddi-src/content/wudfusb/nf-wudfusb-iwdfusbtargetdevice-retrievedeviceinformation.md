@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetdevice_retrievedeviceinformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice, RetrieveDeviceInformation, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method
+ms.keywords: UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, RetrieveDeviceInformation method, RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, umdf.iwdfusbtargetdevice_retrievedeviceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.RetrieveDeviceInformation
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -149,9 +149,9 @@ The <b>RetrieveDeviceInformation</b> method generates a UMDF request and synchro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
 
  
 

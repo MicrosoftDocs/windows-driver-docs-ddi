@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 531f5e99-0e04-47dd-86bb-c35aa549c63a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicegetalignmentrequirement, PFN_WDFDEVICEGETALIGNMENTREQUIREMENT, WdfDeviceGetAlignmentRequirement method, WdfDeviceGetAlignmentRequirement, wdfdevice/WdfDeviceGetAlignmentRequirement, DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, wdf.wdfdevicegetalignmentrequirement
+ms.keywords: WdfDeviceGetAlignmentRequirement, wdf.wdfdevicegetalignmentrequirement, PFN_WDFDEVICEGETALIGNMENTREQUIREMENT, kmdf.wdfdevicegetalignmentrequirement, WdfDeviceGetAlignmentRequirement method, wdfdevice/WdfDeviceGetAlignmentRequirement, DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceGetAlignmentRequirement
 product: Windows
 targetos: Windows

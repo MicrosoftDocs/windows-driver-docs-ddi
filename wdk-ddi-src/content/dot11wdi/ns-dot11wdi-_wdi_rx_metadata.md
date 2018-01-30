@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_RX_METADATA
-title: _WDI_RX_METADATA
+title: "_WDI_RX_METADATA"
 author: windows-driver-content
 description: The WDI_RX_METADATA structure defines the RX metadata.
 old-location: netvista\wdi_rx_metadata.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da1ac5d6-fb17-4034-8448-d582bafda870
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_rx_metadata, _WDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_rx_metadata, dot11wdi/PWDI_RX_METADATA, WDI_RX_METADATA, PWDI_RX_METADATA, *PWDI_RX_METADATA, dot11wdi/WDI_RX_METADATA, WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], dot11wdi/PWDI_RX_METADATA, WDI_RX_METADATA, PWDI_RX_METADATA, *PWDI_RX_METADATA, netvista.wdi_rx_metadata, _WDI_RX_METADATA, dot11wdi/WDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_rx_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	WDI_RX_METADATA
 product: Windows
 targetos: Windows

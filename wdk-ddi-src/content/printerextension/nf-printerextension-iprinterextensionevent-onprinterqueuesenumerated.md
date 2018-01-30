@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface
+ms.keywords: OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface, IPrinterExtensionEvent, OnPrinterQueuesEnumerated method [Print Devices], print.iprinterextensionevent_onprinterqueuesenumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterExtensionEvent.OnPrinterQueuesEnumerated
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
+
+<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
 
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d5896e8-b85e-407c-8b3e-cc8ad95c2ab1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILIMSSSTATUSPARAMMASK, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, rilapitypes/RIL_PARAM_IMSSTATUS_ALL, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_ALL, rilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, rilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE, netvista.rilimssstatusparammask_2, rilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, rilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, rilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, rilapitypes/RILIMSSSTATUSPARAMMASK
+ms.keywords: RILIMSSSTATUSPARAMMASK, rilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_IMSSTATUS_ALL, netvista.rilimssstatusparammask_2, rilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_HUICCAPP, rilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, rilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE, rilapitypes/RILIMSSSTATUSPARAMMASK, rilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILIMSSSTATUSPARAMMASK
 product: Windows
 targetos: Windows

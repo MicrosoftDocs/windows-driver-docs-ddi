@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A92A3E2E-1C73-40BD-808A-CBC14404F3E9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxInitializeDeviceInit method [Buses], ucxclass/UcxInitializeDeviceInit, buses._ucxinitializedeviceinit, UcxInitializeDeviceInit
+ms.keywords: UcxInitializeDeviceInit, ucxclass/UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxclass.h
-apiname: 
+apiname:
 -	UcxInitializeDeviceInit
 product: Windows
 targetos: Windows

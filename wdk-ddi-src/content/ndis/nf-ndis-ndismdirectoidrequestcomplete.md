@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11b8d4ed-54c8-4c64-ba9d-2a6fc1b22724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMDirectOidRequestComplete, ndis_request_direct_ref_5f09825b-962f-41a9-b25d-e21c20e23249.xml, NdisMDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMDirectOidRequestComplete, netvista.ndismdirectoidrequestcomplete
+ms.keywords: NdisMDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMDirectOidRequestComplete, ndis/NdisMDirectOidRequestComplete, ndis_request_direct_ref_5f09825b-962f-41a9-b25d-e21c20e23249.xml, netvista.ndismdirectoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDirectOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMDirectOidRequestComplete function
@@ -124,17 +124,17 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
+<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
+   ProtocolDirectOidRequestComplete</i></mshelp:link>
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-   FilterDirectOidRequestComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-   ProtocolDirectOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
+
+<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
+   FilterDirectOidRequestComplete</i></mshelp:link>
 
  
 

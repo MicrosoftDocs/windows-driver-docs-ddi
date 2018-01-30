@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_NOTIFICATION_DESCRIPTOR
-title: _WHEA_NOTIFICATION_DESCRIPTOR
+title: "_WHEA_NOTIFICATION_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_NOTIFICATION_DESCRIPTOR structure describes the notification mechanism that is used by an error source.
 old-location: whea\whea_notification_descriptor.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 5b228bb8-dd31-484d-b87a-ec7fed433a4a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Reserved, *PWHEA_NOTIFICATION_DESCRIPTOR, _WHEA_NOTIFICATION_DESCRIPTOR, AsUSHORT, WHEA_NOTIFICATION_TYPE_NMI, ErrorThresholdWindowRW, SwitchToPollingWindowRW, ntddk/WHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_TYPE_SCI, ErrorThresholdRW, whearef_c2a5ab66-2598-447b-8f5b-d6398c55ff1a.xml, whea.whea_notification_descriptor, WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT, WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT, PollIntervalRW, SwitchToPollingThresholdRW, WHEA_NOTIFICATION_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_NOTIFICATION_TYPE_POLLED, WHEA_NOTIFICATION_DESCRIPTOR
+ms.keywords: ntddk/WHEA_NOTIFICATION_DESCRIPTOR, ErrorThresholdWindowRW, WHEA_NOTIFICATION_TYPE_NMI, SwitchToPollingWindowRW, whearef_c2a5ab66-2598-447b-8f5b-d6398c55ff1a.xml, WHEA_NOTIFICATION_TYPE_POLLED, whea.whea_notification_descriptor, *PWHEA_NOTIFICATION_DESCRIPTOR, PollIntervalRW, SwitchToPollingThresholdRW, _WHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_NOTIFICATION_TYPE_SCI, AsUSHORT, WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT, WHEA_NOTIFICATION_DESCRIPTOR, Reserved, ErrorThresholdRW, WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	WHEA_NOTIFICATION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: WHEA_NOTIFICATION_DESCRIPTOR, *PWHEA_NOTIFICATION_DESCRIPTOR
+req.typenames: "*PWHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_DESCRIPTOR"
 ---
 
 # _WHEA_NOTIFICATION_DESCRIPTOR structure
@@ -541,9 +541,9 @@ A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="..\ntd
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
 
  
 

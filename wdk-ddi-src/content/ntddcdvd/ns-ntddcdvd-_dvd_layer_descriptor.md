@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_LAYER_DESCRIPTOR
-title: _DVD_LAYER_DESCRIPTOR
+title: "_DVD_LAYER_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD layer descriptor.
 old-location: storage\dvd_layer_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dvd_layer_descriptor, ntddcdvd/PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], ntddcdvd/DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, _DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR
+ms.keywords: ntddcdvd/DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], *PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, _DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], ntddcdvd/PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	DVD_LAYER_DESCRIPTOR
 product: Windows
 targetos: Windows

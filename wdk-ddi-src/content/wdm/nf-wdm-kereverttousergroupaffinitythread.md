@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeRevertToUserGroupAffinityThread, k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, KeRevertToUserGroupAffinityThread, kernel.kereverttousergroupaffinitythread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], kernel.kereverttousergroupaffinitythread, KeRevertToUserGroupAffinityThread, k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section).
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)."
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRevertToUserGroupAffinityThread
 product: Windows
 targetos: Windows
@@ -117,11 +117,11 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL an
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
 
 <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
  
 

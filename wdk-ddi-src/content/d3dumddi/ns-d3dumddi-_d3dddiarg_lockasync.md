@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dfe2ab95-e494-430d-81c7-8f209a37024f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_LOCKASYNC, display.d3dddiarg_lockasync, d3dumddi/D3DDDIARG_LOCKASYNC, UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices]"
+ms.keywords: UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, d3dumddi/D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC, display.d3dddiarg_lockasync, _D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,11 +156,11 @@ Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-fie
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockasyncflags.md">D3DDDI_LOCKASYNCFLAGS</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
  
 

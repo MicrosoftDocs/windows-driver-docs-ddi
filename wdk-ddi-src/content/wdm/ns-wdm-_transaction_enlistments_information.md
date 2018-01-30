@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_ENLISTMENTS_INFORMATION
-title: _TRANSACTION_ENLISTMENTS_INFORMATION
+title: "_TRANSACTION_ENLISTMENTS_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTION_ENLISTMENTS_INFORMATION structure contains information about the enlistments that are associated with a transaction object.
 old-location: kernel\transaction_enlistments_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b33a7ed-6892-4b2d-9d7a-cfc43c9fbf68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION, wdm/TRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION, kernel.transaction_enlistments_information, wdm/PTRANSACTION_ENLISTMENTS_INFORMATION
+ms.keywords: wdm/TRANSACTION_ENLISTMENTS_INFORMATION, wdm/PTRANSACTION_ENLISTMENTS_INFORMATION, _TRANSACTION_ENLISTMENTS_INFORMATION, kernel.transaction_enlistments_information, ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, *PTRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	TRANSACTION_ENLISTMENTS_INFORMATION
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a hre
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 <a href="..\wdm\ns-wdm-_transaction_enlistment_pair.md">TRANSACTION_ENLISTMENT_PAIR</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PBUSDATA, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA, BUSDATA, WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, debugger.ig_get_bus_data, GETSETBUSDATA structure [Windows Debugging], GETSETBUSDATA, _GETSETBUSDATA, BUSDATA structure [Windows Debugging], *PBUSDATA, PBUSDATA structure pointer [Windows Debugging]
+ms.keywords: GETSETBUSDATA structure [Windows Debugging], PBUSDATA structure pointer [Windows Debugging], BUSDATA structure [Windows Debugging], _GETSETBUSDATA, debugger.ig_get_bus_data, *PBUSDATA, WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, GETSETBUSDATA, BUSDATA, PBUSDATA, wdbgexts/PBUSDATA, wdbgexts/GETSETBUSDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PBUSDATA, BUSDATA"
+req.product: Windows 10 or later.
 ---
 
 # _GETSETBUSDATA structure

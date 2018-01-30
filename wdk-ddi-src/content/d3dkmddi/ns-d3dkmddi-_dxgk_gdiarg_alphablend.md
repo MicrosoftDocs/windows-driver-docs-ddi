@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, display.dxgk_gdiarg_alphablend, d3dkmddi/DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], _DXGK_GDIARG_ALPHABLEND
+ms.keywords: "_DXGK_GDIARG_ALPHABLEND, display.dxgk_gdiarg_alphablend, DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, d3dkmddi/DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], DXGK_GDIARG_ALPHABLEND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

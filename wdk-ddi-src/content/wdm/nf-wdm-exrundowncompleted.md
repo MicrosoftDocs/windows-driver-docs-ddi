@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exrundowncompleted, ExRundownCompleted, wdm/ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExRundownCompleted routine [Kernel-Mode Driver Architecture], wdm/ExRundownCompleted, ExRundownCompleted, kernel.exrundowncompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExRundownCompleted
 product: Windows
 targetos: Windows

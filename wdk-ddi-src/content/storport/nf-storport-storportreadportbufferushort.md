@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortBufferUshort routine [Storage Devices], storage.storportreadportbufferushort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, storport/StorPortReadPortBufferUshort, StorPortReadPortBufferUshort
+ms.keywords: storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadPortBufferUshort
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>
-
 <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+
+<a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>
 
  
 

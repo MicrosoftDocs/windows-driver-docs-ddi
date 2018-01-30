@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], GetPrintProcessorCapabilities, print.getprintprocessorcapabilities
+ms.keywords: winsplp/GetPrintProcessorCapabilities, print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, GetPrintProcessorCapabilities function [Print Devices], GetPrintProcessorCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	GetPrintProcessorCapabilities
 product: Windows
 targetos: Windows

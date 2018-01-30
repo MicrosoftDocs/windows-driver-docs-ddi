@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_AER_ROOTPORT_DESCRIPTOR
-title: _WHEA_AER_ROOTPORT_DESCRIPTOR
+title: "_WHEA_AER_ROOTPORT_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_AER_ROOTPORT_DESCRIPTOR structure describes a PCI Express (PCIe) root port error source.
 old-location: whea\whea_aer_rootport_descriptor.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 0c92e8d5-eb98-4789-a221-ebf891cd3876
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.whea_aer_rootport_descriptor, *PWHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_AER_ROOTPORT_DESCRIPTOR, _WHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR
+ms.keywords: PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], *PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml, _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_AER_ROOTPORT_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -133,6 +133,41 @@ An AER_ROOTPORT_DESCRIPTOR_FLAGS union that indicates which of the members of th
 </table></span></div>
 
 
+#### UncorrectableErrorMaskRW
+
+A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### UncorrectableErrorSeverityRW
+
+A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity </b>member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### CorrectableErrorMaskRW
+
+A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### AdvancedCapsAndControlRW
+
+A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### RootErrorCommandRW
+
+A single bit that indicates that the operating system can write to the <b>RootErrorCommand</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### Reserved
+
+Reserved for system use.
+
+
+#### AsUSHORT
+
+A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
+
+
 ### -field UncorrectableErrorMask
 
 The contents of the root port's Uncorrectable Error Mask register.
@@ -156,41 +191,6 @@ The contents of the root port's Advanced Error Capabilities and Control register
 ### -field RootErrorCommand
 
 The contents of the root port's Root Error Command register.
-
-
-##### - Flags.Reserved
-
-Reserved for system use.
-
-
-##### - Flags.RootErrorCommandRW
-
-A single bit that indicates that the operating system can write to the <b>RootErrorCommand</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
-##### - Flags.UncorrectableErrorSeverityRW
-
-A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity </b>member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
-##### - Flags.AsUSHORT
-
-A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
-
-
-##### - Flags.AdvancedCapsAndControlRW
-
-A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
-##### - Flags.CorrectableErrorMaskRW
-
-A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
-##### - Flags.UncorrectableErrorMaskRW
-
-A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
 
 
 ## -remarks

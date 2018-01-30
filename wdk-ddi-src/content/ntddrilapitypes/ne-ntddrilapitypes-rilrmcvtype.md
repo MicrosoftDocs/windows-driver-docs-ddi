@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 007c6b45-0bec-4fcf-984a-675aa5336993
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRMCVTYPE, RIL_RMCV_TYPE_BOOLEAN, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RILRMCVTYPE, netvista.rilrmcvtype, RIL_RMCV_TYPE_STRING, ntddrilapitypes/RIL_RMCV_TYPE_STRING, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_RMCV_TYPE_DWORD
+ms.keywords: RIL_RMCV_TYPE_STRING, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_STRING, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_DWORD, netvista.rilrmcvtype, RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_BOOLEAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRMCVTYPE
 product: Windows
 targetos: Windows

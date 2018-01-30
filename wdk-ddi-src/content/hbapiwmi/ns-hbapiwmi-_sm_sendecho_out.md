@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendECHO_OUT
-title: _SM_SendECHO_OUT
+title: "_SM_SendECHO_OUT"
 author: windows-driver-content
 description: The SM_SendECHO_OUT structure is used to receive output parameters from the SM_SendECHO method.
 old-location: storage\sm_sendecho_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b3f948e0-4066-487c-aaa9-de29c0023f10
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_SendECHO_OUT, *PSM_SendECHO_OUT, PSM_SendECHO_OUT structure pointer [Storage Devices], SM_SendECHO_OUT structure [Storage Devices], SM_SendECHO_OUT, storage.sm_sendecho_out, _SM_SendECHO_OUT, structs-Fibre_54c4b9c6-e7c1-4125-9e76-0c3e271f5dea.xml, hbapiwmi/PSM_SendECHO_OUT, hbapiwmi/SM_SendECHO_OUT
+ms.keywords: SM_SendECHO_OUT, hbapiwmi/PSM_SendECHO_OUT, storage.sm_sendecho_out, hbapiwmi/SM_SendECHO_OUT, PSM_SendECHO_OUT, PSM_SendECHO_OUT structure pointer [Storage Devices], _SM_SendECHO_OUT, structs-Fibre_54c4b9c6-e7c1-4125-9e76-0c3e271f5dea.xml, *PSM_SendECHO_OUT, SM_SendECHO_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_SendECHO_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSM_SendECHO_OUT, SM_SendECHO_OUT
+req.typenames: SM_SendECHO_OUT, *PSM_SendECHO_OUT
 ---
 
 # _SM_SendECHO_OUT structure

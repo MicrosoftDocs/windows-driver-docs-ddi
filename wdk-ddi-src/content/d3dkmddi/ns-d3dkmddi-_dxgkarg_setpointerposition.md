@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, _DXGKARG_SETPOINTERPOSITION, d3dkmddi/DXGKARG_SETPOINTERPOSITION
+ms.keywords: DXGKARG_SETPOINTERPOSITION, DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, DXGKARG_SETPOINTERPOSITION structure [Display Devices], d3dkmddi/DXGKARG_SETPOINTERPOSITION, _DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

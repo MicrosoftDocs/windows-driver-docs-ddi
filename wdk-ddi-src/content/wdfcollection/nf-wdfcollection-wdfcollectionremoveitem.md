@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcollection/WdfCollectionRemoveItem, kmdf.wdfcollectionremoveitem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, wdf.wdfcollectionremoveitem, WdfCollectionRemoveItem method, PFN_WDFCOLLECTIONREMOVEITEM
+ms.keywords: kmdf.wdfcollectionremoveitem, PFN_WDFCOLLECTIONREMOVEITEM, WdfCollectionRemoveItem method, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem, WdfCollectionRemoveItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfCollectionRemoveItem
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
+req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
 req.product: Windows 10 or later.
 ---
 

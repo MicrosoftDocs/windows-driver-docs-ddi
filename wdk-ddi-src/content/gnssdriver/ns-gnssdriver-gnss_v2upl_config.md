@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A1DCC547-8CAA-46B9-A855-5F591C69A3B0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_V2UPL_CONFIG, sensors.gnss_v2upl_config, GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG, gnssdriver/PGNSS_V2UPL_CONFIG
+ms.keywords: gnssdriver/PGNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG, sensors.gnss_v2upl_config, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], gnssdriver/GNSS_V2UPL_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_V2UPL_CONFIG
 product: Windows
 targetos: Windows

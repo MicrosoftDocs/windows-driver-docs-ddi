@@ -2,7 +2,7 @@
 UID: NC:ndis.FILTER_CANCEL_SEND_NET_BUFFER_LISTS
 title: FILTER_CANCEL_SEND_NET_BUFFER_LISTS
 author: windows-driver-content
-description: NDIS calls a filter driver's FilterCancelSendNetBufferLists function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.Note  You must declare the function by using the FILTER_CANCEL_SEND_NET_BUFFER_LISTS type. For more information, see the following Examples section. 
+description: NDIS calls a filter driver's FilterCancelSendNetBufferLists function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.Note  You must declare the function by using the FILTER_CANCEL_SEND_NET_BUFFER_LISTS type. For more information, see the following Examples section.
 old-location: netvista\filtercancelsendnetbufferlists.htm
 old-project: netvista
 ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	(*FILTER_CANCEL_SEND_HANDLER)
 product: Windows
 targetos: Windows
@@ -192,22 +192,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
 <mshelp:link keywords="netvista.ndis_get_net_buffer_list_cancel_id" tabindex="0"><b>
    NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndisfcancelsendnetbufferlists" tabindex="0"><b>
    NdisFCancelSendNetBufferLists</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
    NdisFSendNetBufferListsComplete</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
  
 

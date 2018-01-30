@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_SERIAL_DEVICE_DATA
-title: _CM_SERIAL_DEVICE_DATA
+title: "_CM_SERIAL_DEVICE_DATA"
 author: windows-driver-content
 description: The CM_SERIAL_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a serial controller if the system can collect this information during the boot process.
 old-location: kernel\cm_serial_device_data.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c829cc26-e21c-46e7-a70f-fa691a6c52e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SERIAL_DEVICE_DATA, wdm/CM_SERIAL_DEVICE_DATA, *PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, kernel.cm_serial_device_data, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_SERIAL_DEVICE_DATA, kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml
+ms.keywords: kernel.cm_serial_device_data, PCM_SERIAL_DEVICE_DATA, wdm/CM_SERIAL_DEVICE_DATA, _CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_SERIAL_DEVICE_DATA, *PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture], kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	CM_SERIAL_DEVICE_DATA
 product: Windows
 targetos: Windows
@@ -87,11 +87,11 @@ The clock baud rate, in megahertz, at which data is transferred.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

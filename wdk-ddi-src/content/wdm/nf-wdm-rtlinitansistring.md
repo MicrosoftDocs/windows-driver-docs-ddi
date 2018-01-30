@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], wdm/RtlInitAnsiString, kernel.rtlinitansistring, k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml
+ms.keywords: kernel.rtlinitansistring, RtlInitAnsiString, wdm/RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlInitAnsiString
 product: Windows
 targetos: Windows

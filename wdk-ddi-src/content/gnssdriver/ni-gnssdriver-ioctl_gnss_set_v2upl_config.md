@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	IOCTL_GNSS_SET_V2UPL_CONFIG
 product: Windows
 targetos: Windows

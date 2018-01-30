@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.wcsdisassociatecolorprofilefromdevice, colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, WcsDisassociateColorProfileFromDevice function [Print Devices], icm/WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice
+ms.keywords: icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice, colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	WcsDisassociateColorProfileFromDevice
 product: Windows
 targetos: Windows

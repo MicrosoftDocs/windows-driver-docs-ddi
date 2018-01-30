@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, *PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices]
+ms.keywords: PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], stream.transportbasicparms, PTRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, TRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, ksmedia/PTRANSPORTBASICPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	TRANSPORTBASICPARMS
 product: Windows
 targetos: Windows

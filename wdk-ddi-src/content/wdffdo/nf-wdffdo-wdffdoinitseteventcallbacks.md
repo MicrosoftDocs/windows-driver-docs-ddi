@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a47ea47-590c-4395-b38e-d1f1fb1929e1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFDOINITSETEVENTCALLBACKS, WdfFdoInitSetEventCallbacks, DFDeviceObjectFdoPdoRef_3a3fbec9-836c-422e-a921-654fa4866989.xml, WdfFdoInitSetEventCallbacks method, kmdf.wdffdoinitseteventcallbacks, wdf.wdffdoinitseteventcallbacks, wdffdo/WdfFdoInitSetEventCallbacks
+ms.keywords: kmdf.wdffdoinitseteventcallbacks, wdf.wdffdoinitseteventcallbacks, WdfFdoInitSetEventCallbacks method, PFN_WDFFDOINITSETEVENTCALLBACKS, WdfFdoInitSetEventCallbacks, DFDeviceObjectFdoPdoRef_3a3fbec9-836c-422e-a921-654fa4866989.xml, wdffdo/WdfFdoInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfFdoInitSetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 

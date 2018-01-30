@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter, wia_lh/IWiaSegmentationFilter::DetectRegions, DetectRegions, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface
+ms.keywords: image.iwiasegmentationfilter_detectregions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, DetectRegions, IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter::DetectRegions, wia_lh/IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wia_lh.h
-apiname: 
+apiname:
 -	IWiaSegmentationFilter.DetectRegions
 product: Windows
 targetos: Windows

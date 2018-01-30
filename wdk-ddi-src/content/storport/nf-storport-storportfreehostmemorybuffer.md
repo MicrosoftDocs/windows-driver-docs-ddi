@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortFreeHostMemoryBuffer, storage.storportfreehostmemorybuffer, StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices]
+ms.keywords: storage.storportfreehostmemorybuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices], storport/StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortFreeHostMemoryBuffer
 product: Windows
 targetos: Windows

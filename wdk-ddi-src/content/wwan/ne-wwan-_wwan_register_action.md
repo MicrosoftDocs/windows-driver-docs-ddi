@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_ACTION
-title: _WWAN_REGISTER_ACTION
+title: "_WWAN_REGISTER_ACTION"
 author: windows-driver-content
 description: The WWAN_REGISTER_ACTION enumeration lists the different provider network registration actions that are supported by the MB device.
 old-location: netvista\wwan_register_action.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8c343094-0927-4cdd-be39-93dcb25f6bf6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanRegisterActionAutomatic, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterActionMax, *PWWAN_REGISTER_ACTION, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, wwan/WwanRegisterActionMax, PWWAN_REGISTER_ACTION, WwanRegisterActionManual, wwan/WwanRegisterActionManual, WWAN_REGISTER_ACTION, WwanRegisterActionAutomatic, netvista.wwan_register_action, wwan/WWAN_REGISTER_ACTION, _WWAN_REGISTER_ACTION
+ms.keywords: netvista.wwan_register_action, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION, WwanRegisterActionAutomatic, PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionManual, wwan/PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionMax, *PWWAN_REGISTER_ACTION, _WWAN_REGISTER_ACTION, WwanRegisterActionMax, wwan/WwanRegisterActionAutomatic, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, WwanRegisterActionManual, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_REGISTER_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_REGISTER_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION
+req.typenames: "*PWWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION"
 req.product: Windows 10 or later.
 ---
 

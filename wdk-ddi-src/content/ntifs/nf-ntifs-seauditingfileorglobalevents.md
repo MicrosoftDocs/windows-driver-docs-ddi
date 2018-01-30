@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4797126f-c27d-4951-88e7-37c5a475e77d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_06c1ee74-261c-4a57-b009-f76420e14055.xml, ntifs/SeAuditingFileOrGlobalEvents, SeAuditingFileOrGlobalEvents routine [Installable File System Drivers], SeAuditingFileOrGlobalEvents, ifsk.seauditingfileorglobalevents
+ms.keywords: SeAuditingFileOrGlobalEvents, SeAuditingFileOrGlobalEvents routine [Installable File System Drivers], seref_06c1ee74-261c-4a57-b009-f76420e14055.xml, ifsk.seauditingfileorglobalevents, ntifs/SeAuditingFileOrGlobalEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeAuditingFileOrGlobalEvents
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
 <a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
 
 <a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
 

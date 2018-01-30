@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 05d03799-752d-4f59-b96e-1a6d91bee8c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_9150101b-7411-4de2-afd5-0b928ed0e6b1.xml, ntifs/FsRtlIsAnsiCharacterLegalNtfs, FsRtlIsAnsiCharacterLegalNtfs, FsRtlIsAnsiCharacterLegalNtfs function [Installable File System Drivers], ifsk.fsrtlisansicharacterlegalntfs
+ms.keywords: ifsk.fsrtlisansicharacterlegalntfs, ntifs/FsRtlIsAnsiCharacterLegalNtfs, fsrtlref_9150101b-7411-4de2-afd5-0b928ed0e6b1.xml, FsRtlIsAnsiCharacterLegalNtfs, FsRtlIsAnsiCharacterLegalNtfs function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlIsAnsiCharacterLegalNtfs
 product: Windows
 targetos: Windows
@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
-
-
 #### - Character
 
 Pointer to the character to be tested.
+
+
+#### - WildCardsPermissible
+
+Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
 ## -remarks
@@ -99,11 +99,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalhpfs.md">FsRtlIsAnsiCharacterLegalHpfs</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
 
  
 

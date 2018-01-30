@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, ifsk.fltoplockbreakh
+ms.keywords: FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, ifsk.fltoplockbreakh, fltkernel/FltOplockBreakH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltOplockBreakH
 product: Windows
 targetos: Windows
@@ -89,6 +89,16 @@ A bitmask for the associated file I/O operation. A minifilter driver sets bits t
 
 
 
+#### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
+
+Allows an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
+
+
+#### OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
+
+Allows CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
+
+
 ### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>parameters point to. 
@@ -117,6 +127,16 @@ This routine is declared as follows:
 
 
 
+#### CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+#### Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>. 
+
+
 ### -param PrePostCallbackDataRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation must be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
@@ -140,32 +160,12 @@ This routine is declared as follows:
 
 
 
-##### - WaitCompletionRoutine.CallbackData
+#### CallbackData
 
 A pointer to the callback data structure for the I/O operation. 
 
 
-##### - Flags.OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
-
-Allows CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
-
-
-##### - PrePostCallbackDataRoutine.CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-##### - Flags.OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
-
-Allows an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
-
-
-##### - WaitCompletionRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>. 
-
-
-##### - PrePostCallbackDataRoutine.Context
+#### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakH</b>. 
 
@@ -225,11 +225,11 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a>
 

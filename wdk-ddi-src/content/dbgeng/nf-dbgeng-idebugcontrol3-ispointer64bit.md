@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 01003268-844e-4613-ac13-0306396e56b9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IsPointer64Bit, debugger.ispointer64bit, IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, dbgeng/IDebugControl2::IsPointer64Bit, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IDebugControl::IsPointer64Bit
+ms.keywords: IDebugControl::IsPointer64Bit, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, IDebugControl3, IsPointer64Bit method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::IsPointer64Bit, IDebugControl interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], dbgeng/IDebugControl::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IsPointer64Bit, debugger.ispointer64bit, IDebugControl2::IsPointer64Bit, IDebugControl3::IsPointer64Bit, dbgeng/IDebugControl3::IsPointer64Bit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.IsPointer64Bit
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::IsPointer64Bit method

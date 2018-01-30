@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks/KSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable, ks/PKSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE, ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices]
+ms.keywords: KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSCLOCK_FUNCTIONTABLE, ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable, PKSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSCLOCK_FUNCTIONTABLE
 product: Windows
 targetos: Windows

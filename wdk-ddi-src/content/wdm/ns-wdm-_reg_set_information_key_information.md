@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_SET_INFORMATION_KEY_INFORMATION
-title: _REG_SET_INFORMATION_KEY_INFORMATION
+title: "_REG_SET_INFORMATION_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_SET_INFORMATION_KEY_INFORMATION structure describes a new setting for a key's metadata.
 old-location: kernel\reg_set_information_key_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 30b29bda-9cd9-4fc8-b168-e66f69b82358
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_d_f6265b80-6f92-4856-bb8e-49cc97a1c553.xml, *PREG_SET_INFORMATION_KEY_INFORMATION, kernel.reg_set_information_key_information, PREG_SET_INFORMATION_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_INFORMATION_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SET_INFORMATION_KEY_INFORMATION, wdm/PREG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION, wdm/REG_SET_INFORMATION_KEY_INFORMATION
+ms.keywords: wdm/PREG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION, wdm/REG_SET_INFORMATION_KEY_INFORMATION, kstruct_d_f6265b80-6f92-4856-bb8e-49cc97a1c553.xml, *PREG_SET_INFORMATION_KEY_INFORMATION, _REG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_SET_INFORMATION_KEY_INFORMATION, kernel.reg_set_information_key_information, REG_SET_INFORMATION_KEY_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	REG_SET_INFORMATION_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PREG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION
+req.typenames: REG_SET_INFORMATION_KEY_INFORMATION, *PREG_SET_INFORMATION_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 

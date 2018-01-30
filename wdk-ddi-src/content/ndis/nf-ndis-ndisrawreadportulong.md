@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40ecda3a-67ff-48b6-8ee9-7527c7bd9c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisRawReadPortUlong, NdisRawReadPortUlong, miniport_port_raw_ref_a5c1ea12-2ff0-4546-9244-8137c365eb8f.xml, NdisRawReadPortUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisrawreadportulong
+ms.keywords: ndis/NdisRawReadPortUlong, NdisRawReadPortUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisrawreadportulong, NdisRawReadPortUlong, miniport_port_raw_ref_a5c1ea12-2ff0-4546-9244-8137c365eb8f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisRawReadPortUlong
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRawReadPortUlong macro
@@ -92,17 +92,17 @@ Pointer to a caller-supplied variable in which this function returns a ULONG val
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
  
 

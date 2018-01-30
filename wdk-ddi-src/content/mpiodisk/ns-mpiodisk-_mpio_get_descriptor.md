@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_GET_DESCRIPTOR
-title: _MPIO_GET_DESCRIPTOR
+title: "_MPIO_GET_DESCRIPTOR"
 author: windows-driver-content
 description: The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths.
 old-location: storage\mpio_get_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cabd2a6d-20d0-4499-8494-7ad746f2d915
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml, PMPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], mpiodisk/MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], _MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR
+ms.keywords: PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], MPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, MPIO_GET_DESCRIPTOR structure [Storage Devices], structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml, *PMPIO_GET_DESCRIPTOR, _MPIO_GET_DESCRIPTOR, mpiodisk/MPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiodisk.h
-apiname: 
+apiname:
 -	MPIO_GET_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR
+req.typenames: "*PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR"
 ---
 
 # _MPIO_GET_DESCRIPTOR structure

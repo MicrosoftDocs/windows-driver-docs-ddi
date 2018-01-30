@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: abce79d2-1eca-4d62-af4f-434596bfb718
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILOPENUICCLOGICALCHANNELPARAMMASK, rilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPONSE, rilapitypes/RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPLENGTH, rilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, netvista.rilopenuicclogicalchannelparammask_2, rilapitypes/RIL_PARAM_OULC_SELECTRESPONSE
+ms.keywords: rilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, rilapitypes/RIL_PARAM_OULC_SELECTRESPONSE, RIL_PARAM_OULC_ALL, rilapitypes/RIL_PARAM_OULC_ALL, netvista.rilopenuicclogicalchannelparammask_2, RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILOPENUICCLOGICALCHANNELPARAMMASK, RIL_PARAM_OULC_SELECTRESPLENGTH, rilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, RIL_PARAM_OULC_SELECTRESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILOPENUICCLOGICALCHANNELPARAMMASK
 product: Windows
 targetos: Windows

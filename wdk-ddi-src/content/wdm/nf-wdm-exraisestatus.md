@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eefbec75-f441-492b-becb-98434253dd62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExRaiseStatus, kernel.exraisestatus, wdm/ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture], k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml
+ms.keywords: kernel.exraisestatus, k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, ExRaiseStatus, wdm/ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExRaiseStatus
 product: Windows
 targetos: Windows
@@ -89,13 +89,13 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-
-<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
-
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
 <a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
  
 

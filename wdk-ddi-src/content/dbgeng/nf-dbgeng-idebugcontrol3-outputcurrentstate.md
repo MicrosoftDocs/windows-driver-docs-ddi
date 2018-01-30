@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::OutputCurrentState, IDebugControl3, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, IDebugControl3::OutputCurrentState, IDebugControl::OutputCurrentState, dbgeng/IDebugControl::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl interface [Windows Debugging], OutputCurrentState method, debugger.outputcurrentstate, IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl2 interface [Windows Debugging], OutputCurrentState method, OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState, dbgeng/IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], OutputCurrentState method
+ms.keywords: debugger.outputcurrentstate, IDebugControl::OutputCurrentState, IDebugControl3, dbgeng/IDebugControl::OutputCurrentState, dbgeng/IDebugControl2::OutputCurrentState, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, OutputCurrentState, IDebugControl3::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl3::OutputCurrentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputCurrentState
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputCurrentState method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUrbRetrieveControlSetupPacket, udecxurb/UdecxUrbRetrieveControlSetupPacket, buses.udecxurbretrievecontrolsetuppacket, UdecxUrbRetrieveControlSetupPacket function [Buses]
+ms.keywords: udecxurb/UdecxUrbRetrieveControlSetupPacket, buses.udecxurbretrievecontrolsetuppacket, UdecxUrbRetrieveControlSetupPacket function [Buses], UdecxUrbRetrieveControlSetupPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUrbRetrieveControlSetupPacket
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
+req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ To complete the request, the driver must call <a href="..\udecxurb\nf-udecxurb-u
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
  
 

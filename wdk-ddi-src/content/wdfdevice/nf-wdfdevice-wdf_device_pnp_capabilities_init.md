@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5ae60715-ba51-4814-ae34-34967cdbab78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_device_pnp_capabilities_init, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES_INIT, wdf.wdf_device_pnp_capabilities_init, WDF_DEVICE_PNP_CAPABILITIES_INIT, DFDeviceObjectGeneralRef_630e05dc-1566-4dc4-b35c-d9b756629c99.xml, WDF_DEVICE_PNP_CAPABILITIES_INIT function
+ms.keywords: WDF_DEVICE_PNP_CAPABILITIES_INIT function, WDF_DEVICE_PNP_CAPABILITIES_INIT, kmdf.wdf_device_pnp_capabilities_init, DFDeviceObjectGeneralRef_630e05dc-1566-4dc4-b35c-d9b756629c99.xml, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES_INIT, wdf.wdf_device_pnp_capabilities_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_PNP_CAPABILITIES_INIT
 product: Windows
 targetos: Windows

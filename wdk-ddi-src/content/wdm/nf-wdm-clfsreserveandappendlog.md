@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e3ffbf18-151b-42da-8fc1-ae07c152738c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, kernel.clfsreserveandappendlog, wdm/ClfsReserveAndAppendLog, ClfsReserveAndAppendLog
+ms.keywords: ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, wdm/ClfsReserveAndAppendLog, kernel.clfsreserveandappendlog, ClfsReserveAndAppendLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsReserveAndAppendLog
 product: Windows
 targetos: Windows

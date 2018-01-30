@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b0f360-dfe5-4e1f-bdcb-0f908ed129a7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, KeDeregisterProcessorChangeCallback, wdm/KeDeregisterProcessorChangeCallback, kernel.kederegisterprocessorchangecallback
+ms.keywords: wdm/KeDeregisterProcessorChangeCallback, KeDeregisterProcessorChangeCallback, kernel.kederegisterprocessorchangecallback, k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeDeregisterProcessorChangeCallback
 product: Windows
 targetos: Windows

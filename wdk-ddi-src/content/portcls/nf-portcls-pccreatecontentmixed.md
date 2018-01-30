@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9b916d43-26ab-4354-8537-2d4789c5fb52
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcCreateContentMixed, audio.pccreatecontentmixed, PcCreateContentMixed, audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml, PcCreateContentMixed function [Audio Devices]
+ms.keywords: PcCreateContentMixed function [Audio Devices], PcCreateContentMixed, audio.pccreatecontentmixed, portcls/PcCreateContentMixed, audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

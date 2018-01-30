@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsharedprimaryunlocknotification, D3DKMTSharedPrimaryUnLockNotification, OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices]
+ms.keywords: D3DKMTSharedPrimaryUnLockNotification, OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, display.d3dkmtsharedprimaryunlocknotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], d3dkmthk/D3DKMTSharedPrimaryUnLockNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

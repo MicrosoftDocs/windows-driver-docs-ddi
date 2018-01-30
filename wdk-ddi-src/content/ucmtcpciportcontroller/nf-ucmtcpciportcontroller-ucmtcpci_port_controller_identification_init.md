@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4204b849-8195-4a1b-9bb3-1e9cbeb12223
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, buses.ucmtcpci_port_controller_identification_init, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
+ms.keywords: buses.ucmtcpci_port_controller_identification_init, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtcpciportcontroller.h
-apiname: 
+apiname:
 -	UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 product: Windows
 targetos: Windows

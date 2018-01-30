@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_STREAM_DESCRIPTOR
-title: _HW_STREAM_DESCRIPTOR
+title: "_HW_STREAM_DESCRIPTOR"
 author: windows-driver-content
 description: The minidriver uses the HW_STREAM_DESCRIPTOR structure to return stream information to the stream class driver.
 old-location: stream\hw_stream_descriptor.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ebc44350-3093-44ba-a2c9-73133fd18db7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PHW_STREAM_DESCRIPTOR, _HW_STREAM_DESCRIPTOR, strclass-struct_57b4a9ea-44c1-4584-94f4-060a3fa58bf1.xml, stream.hw_stream_descriptor, PHW_STREAM_DESCRIPTOR structure pointer [Streaming Media Devices], strmini/PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR, *PHW_STREAM_DESCRIPTOR, strmini/HW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR structure [Streaming Media Devices]
+ms.keywords: HW_STREAM_DESCRIPTOR structure [Streaming Media Devices], PHW_STREAM_DESCRIPTOR, PHW_STREAM_DESCRIPTOR structure pointer [Streaming Media Devices], stream.hw_stream_descriptor, strmini/PHW_STREAM_DESCRIPTOR, strmini/HW_STREAM_DESCRIPTOR, _HW_STREAM_DESCRIPTOR, *PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR, strclass-struct_57b4a9ea-44c1-4584-94f4-060a3fa58bf1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	HW_STREAM_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: HW_STREAM_DESCRIPTOR, *PHW_STREAM_DESCRIPTOR
+req.typenames: "*PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -90,9 +90,9 @@ The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
-
 <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+
+<a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
 
  
 

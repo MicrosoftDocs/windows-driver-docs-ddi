@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 80444a10-91f3-44b5-ad20-3d3d8f49ca60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FirstEntrySList, k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, wdm/FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], kernel.firstentryslist
+ms.keywords: k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist, FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], wdm/FirstEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FirstEntrySList
 product: Windows
 targetos: Windows

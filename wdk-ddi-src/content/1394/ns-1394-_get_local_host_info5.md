@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO5
-title: _GET_LOCAL_HOST_INFO5
+title: "_GET_LOCAL_HOST_INFO5"
 author: windows-driver-content
 description: The GET_LOCAL_HOST_INFO5 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_HOST_CONFIG_ROM.
 old-location: ieee\get_local_host_info5.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: a0cdf40e-627e-4d39-9c7b-6defcc2f29c3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.get_local_host_info5, 1394/PGET_LOCAL_HOST_INFO5, 1394stct_7be8f02e-9734-40ae-9337-91d9026ec65d.xml, 1394/GET_LOCAL_HOST_INFO5, GET_LOCAL_HOST_INFO5 structure [Buses], PGET_LOCAL_HOST_INFO5 structure pointer [Buses], _GET_LOCAL_HOST_INFO5, GET_LOCAL_HOST_INFO5, *PGET_LOCAL_HOST_INFO5, PGET_LOCAL_HOST_INFO5
+ms.keywords: 1394/GET_LOCAL_HOST_INFO5, _GET_LOCAL_HOST_INFO5, *PGET_LOCAL_HOST_INFO5, IEEE.get_local_host_info5, GET_LOCAL_HOST_INFO5 structure [Buses], 1394/PGET_LOCAL_HOST_INFO5, 1394stct_7be8f02e-9734-40ae-9337-91d9026ec65d.xml, GET_LOCAL_HOST_INFO5, PGET_LOCAL_HOST_INFO5, PGET_LOCAL_HOST_INFO5 structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	GET_LOCAL_HOST_INFO5
 product: Windows
 targetos: Windows
-req.typenames: GET_LOCAL_HOST_INFO5, *PGET_LOCAL_HOST_INFO5
+req.typenames: "*PGET_LOCAL_HOST_INFO5, GET_LOCAL_HOST_INFO5"
 ---
 
 # _GET_LOCAL_HOST_INFO5 structure

@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._NDIS_PARAMETER_TYPE
-title: _NDIS_PARAMETER_TYPE
+title: "_NDIS_PARAMETER_TYPE"
 author: windows-driver-content
 description: The NDIS_PARAMETER_TYPE enumeration type identifies the type of a registry entry.
 old-location: netvista\ndis_parameter_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f17e390a-fa13-4435-ad1e-3fecc035ec41
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisParameterInteger, ndis/NdisParameterInteger, ndis/NdisParameterString, ndis/NdisParameterBinary, NDIS_PARAMETER_TYPE, NdisParameterBinary, ndis/NdisParameterHexInteger, PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, NdisParameterHexInteger, _NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE, NdisParameterString, netvista.ndis_parameter_type, NdisParameterMultiString, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterMultiString, ndis/PNDIS_PARAMETER_TYPE
+ms.keywords: "*PNDIS_PARAMETER_TYPE, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, _NDIS_PARAMETER_TYPE, ndis/NDIS_PARAMETER_TYPE, NdisParameterString, NdisParameterBinary, ndis/NdisParameterBinary, NdisParameterHexInteger, NdisParameterMultiString, ndis/NdisParameterInteger, ndis/PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE, ndis/NdisParameterHexInteger, ndis/NdisParameterString, NdisParameterInteger, ndis/NdisParameterMultiString, PNDIS_PARAMETER_TYPE, netvista.ndis_parameter_type, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_PARAMETER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE
+req.typenames: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE"
 ---
 
 # _NDIS_PARAMETER_TYPE enumeration

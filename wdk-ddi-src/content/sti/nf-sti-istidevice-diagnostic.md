@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: eee5c6d7-17a3-461f-85e0-17f6b7114b19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Diagnostic method [Imaging Devices], stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml, Diagnostic method [Imaging Devices], IStiDevice interface, Diagnostic, image.istidevice_diagnostic, IStiDevice, IStiDevice interface [Imaging Devices], Diagnostic method, sti/IStiDevice::Diagnostic, IStiDevice::Diagnostic
+ms.keywords: IStiDevice::Diagnostic, stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml, IStiDevice interface [Imaging Devices], Diagnostic method, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiDevice interface, sti/IStiDevice::Diagnostic, image.istidevice_diagnostic, IStiDevice, Diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.Diagnostic
 product: Windows
 targetos: Windows

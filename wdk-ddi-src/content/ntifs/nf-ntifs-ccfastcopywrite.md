@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 414d0b36-d7c2-4a01-8ceb-3817a11c422c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/CcFastCopyWrite, CcFastCopyWrite, ifsk.ccfastcopywrite, ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, CcFastCopyWrite routine [Installable File System Drivers]
+ms.keywords: CcFastCopyWrite routine [Installable File System Drivers], ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite, CcFastCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcFastCopyWrite
 product: Windows
 targetos: Windows

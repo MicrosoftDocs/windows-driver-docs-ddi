@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, KsCreateDefaultSecurity function [Streaming Media Devices], KsCreateDefaultSecurity, ks/KsCreateDefaultSecurity, stream.kscreatedefaultsecurity
+ms.keywords: KsCreateDefaultSecurity function [Streaming Media Devices], ks/KsCreateDefaultSecurity, KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCreateDefaultSecurity
 product: Windows
 targetos: Windows

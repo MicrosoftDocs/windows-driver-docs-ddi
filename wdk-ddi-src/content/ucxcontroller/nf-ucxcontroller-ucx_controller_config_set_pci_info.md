@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 493B8E5B-D2CC-453E-8202-69337FAC85ED
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO, buses._ucx_controller_config_set_pci_info, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], UCX_CONTROLLER_CONFIG_SET_PCI_INFO
+ms.keywords: UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO, buses._ucx_controller_config_set_pci_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UCX_CONTROLLER_CONFIG_SET_PCI_INFO
 product: Windows
 targetos: Windows

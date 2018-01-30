@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_NIC_SAVE_STATE
-title: _NDIS_SWITCH_NIC_SAVE_STATE
+title: "_NDIS_SWITCH_NIC_SAVE_STATE"
 author: windows-driver-content
 description: The NDIS_SWITCH_NIC_SAVE_STATE structure specifies the run-time state information for a Hyper-V extensible switch port. The extensible switch extension uses this structure to save or restore run-time port information.
 old-location: netvista\ndis_switch_nic_save_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FBC2EE79-9D36-4CA9-A7BC-9C422DE51B13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_NIC_SAVE_STATE, PNDIS_SWITCH_NIC_SAVE_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_NIC_SAVE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_SAVE_STATE, ntddndis/PNDIS_SWITCH_NIC_SAVE_STATE, *PNDIS_SWITCH_NIC_SAVE_STATE, netvista.ndis_switch_nic_save_state, _NDIS_SWITCH_NIC_SAVE_STATE, ntddndis/NDIS_SWITCH_NIC_SAVE_STATE
+ms.keywords: NDIS_SWITCH_NIC_SAVE_STATE structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_save_state, ntddndis/NDIS_SWITCH_NIC_SAVE_STATE, PNDIS_SWITCH_NIC_SAVE_STATE, PNDIS_SWITCH_NIC_SAVE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_SAVE_STATE, ntddndis/PNDIS_SWITCH_NIC_SAVE_STATE, NDIS_SWITCH_NIC_SAVE_STATE, *PNDIS_SWITCH_NIC_SAVE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_NIC_SAVE_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_NIC_SAVE_STATE, *PNDIS_SWITCH_NIC_SAVE_STATE
+req.typenames: "*PNDIS_SWITCH_NIC_SAVE_STATE, NDIS_SWITCH_NIC_SAVE_STATE"
 ---
 
 # _NDIS_SWITCH_NIC_SAVE_STATE structure
@@ -85,6 +85,13 @@ The type, revision, and size of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure.
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
 
+
+
+#### NDIS_SWITCH_NIC_SAVE_STATE_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_NIC_SAVE_STATE_REVISION_1.
 
 
 ### -field Flags
@@ -135,13 +142,6 @@ A USHORT value that contains the offset from the start of the structure to the r
 
 
 
-##### - Header.NDIS_SWITCH_NIC_SAVE_STATE_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_NIC_SAVE_STATE_REVISION_1.
-
-
 ## -remarks
 
 
@@ -181,11 +181,11 @@ The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure is used in the following OID req
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598267">OID_SWITCH_NIC_RESTORE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

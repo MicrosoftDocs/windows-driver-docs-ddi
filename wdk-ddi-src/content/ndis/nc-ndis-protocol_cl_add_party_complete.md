@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClAddPartyComplete
 product: Windows
 targetos: Windows
@@ -89,6 +89,30 @@ Specifies final status of the client-initiated add-party operation, which can be
 
 
 
+#### NDIS_STATUS_SUCCESS
+
+The given party was added on the client's active multipoint VC.
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS could not allocate sufficient resources to track the new party.
+
+
+#### NDIS_STATUS_FAILURE
+
+The client passed an invalid 
+       <i>NdisVcHandle</i> to 
+       <b>NdisClAddParty</b>.
+
+
+#### NDIS_STATUS_XXX
+
+The call manager's 
+       <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function
+       returned a CM-determined value to indicate why it could not add the party to the VC.
+
+
 ### -param ProtocolPartyContext [in]
 
 Specifies the client-supplied handle originally passed to 
@@ -109,30 +133,6 @@ Pointer to a structure of type
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, originally set up by
      the client for its call to 
      <b>NdisClAddParty</b> but possibly modified subsequently by the call manager.
-
-
-##### - Status.NDIS_STATUS_FAILURE
-
-The client passed an invalid 
-       <i>NdisVcHandle</i> to 
-       <b>NdisClAddParty</b>.
-
-
-##### - Status.NDIS_STATUS_RESOURCES
-
-NDIS could not allocate sufficient resources to track the new party.
-
-
-##### - Status.NDIS_STATUS_XXX
-
-The call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function
-       returned a CM-determined value to indicate why it could not add the party to the VC.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The given party was added on the client's active multipoint VC.
 
 
 ## -returns
@@ -222,21 +222,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
 
  
 

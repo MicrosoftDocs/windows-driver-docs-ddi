@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetBindingCapability_OUT
-title: _GetBindingCapability_OUT
+title: "_GetBindingCapability_OUT"
 author: windows-driver-content
 description: The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingCapability WMI method to the WMI client.
 old-location: storage\getbindingcapability_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c02bb43c-8f9a-470a-ba65-f3a69b5c6110
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetBindingCapability_OUT structure pointer [Storage Devices], PGetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], *PGetBindingCapability_OUT, _GetBindingCapability_OUT, storage.getbindingcapability_out, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, GetBindingCapability_OUT, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml
+ms.keywords: "_GetBindingCapability_OUT, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml, GetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], PGetBindingCapability_OUT, *PGetBindingCapability_OUT, storage.getbindingcapability_out, PGetBindingCapability_OUT structure pointer [Storage Devices], hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetBindingCapability_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
+req.typenames: "*PGetBindingCapability_OUT, GetBindingCapability_OUT"
 ---
 
 # _GetBindingCapability_OUT structure

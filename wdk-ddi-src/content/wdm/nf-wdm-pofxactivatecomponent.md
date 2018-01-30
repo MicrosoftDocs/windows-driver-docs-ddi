@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_FLAG_ASYNC_ONLY, wdm/PoFxActivateComponent, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_BLOCKING, kernel.pofxactivatecomponent
+ms.keywords: PoFxActivateComponent, PO_FX_FLAG_BLOCKING, wdm/PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_ASYNC_ONLY, kernel.pofxactivatecomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxActivateComponent
 product: Windows
 targetos: Windows
@@ -149,15 +149,15 @@ PoFx notifies the driver when a transition between the active condition and idle
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
-
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
-<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
  
 

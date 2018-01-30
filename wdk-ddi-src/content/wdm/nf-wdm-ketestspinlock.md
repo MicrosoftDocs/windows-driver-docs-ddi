@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5386349c-b4b8-43db-8f66-70dc7e71345e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeTestSpinLock routine [Kernel-Mode Driver Architecture], wdm/KeTestSpinLock, KeTestSpinLock, kernel.ketestspinlock, k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml
+ms.keywords: KeTestSpinLock routine [Kernel-Mode Driver Architecture], kernel.ketestspinlock, KeTestSpinLock, wdm/KeTestSpinLock, k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeTestSpinLock
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
-
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
  
 

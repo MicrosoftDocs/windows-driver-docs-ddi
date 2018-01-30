@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8fdb5b1d-bbdb-4774-875a-7cdd047286f5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: kbdmou/CONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], kbdmou/PCONNECT_DATA, PCONNECT_DATA, *PCONNECT_DATA, CONNECT_DATA, CONNECT_DATA structure [Human Input Devices], _CONNECT_DATA, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, hid.connect_data__kbdclass_
+ms.keywords: kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, kbdmou/CONNECT_DATA, PCONNECT_DATA, kbdmou/PCONNECT_DATA, hid.connect_data__kbdclass_, *PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], _CONNECT_DATA, CONNECT_DATA structure [Human Input Devices], CONNECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

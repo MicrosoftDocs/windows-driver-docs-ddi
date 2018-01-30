@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	MiniportQueryOffload
 product: Windows
 targetos: Windows
@@ -153,12 +153,12 @@ The query operation did not succeed. The host stack will terminate the state obj
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndismqueryoffloadstatecomplete" tabindex="0"><b>
    NdisMQueryOffloadStateComplete</b></mshelp:link>

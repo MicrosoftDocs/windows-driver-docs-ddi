@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b1fd540-85cf-45b3-9f39-984bb3b9e200
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SMSREADY_UICCREADY, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SMSREADYSTATE_ALL, RIL_SMSREADYSTATE_ALL, RILSMSREADYSTATE, rilapitypes/RILSMSREADYSTATE, RIL_SMSREADY_SERVICEREADY_3GPP2, rilapitypes/RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate_2, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2
+ms.keywords: RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADY_UICCREADY, rilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, netvista.rilsmsreadystate_2, rilapitypes/RIL_SMSREADY_UICCREADY, RIL_SMSREADY_SERVICEREADY_3GPP2, rilapitypes/RIL_SMSREADYSTATE_ALL, RILSMSREADYSTATE, RIL_SMSREADYSTATE_ALL, rilapitypes/RILSMSREADYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSMSREADYSTATE
 product: Windows
 targetos: Windows

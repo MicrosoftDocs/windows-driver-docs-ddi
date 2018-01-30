@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92a50a96-8bfb-4d5d-8f24-dd29794e55b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGroupActiveProcessorMask, netvista.ndisgroupactiveprocessormask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, NdisGroupActiveProcessorMask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorMask, netvista.ndisgroupactiveprocessormask, NdisGroupActiveProcessorMask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGroupActiveProcessorMask
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGroupActiveProcessorMask function
@@ -112,10 +112,10 @@ The
 <mshelp:link keywords="netvista.ndissystemactiveprocessorcount" tabindex="0"><b>
    NdisSystemActiveProcessorCount</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
 <mshelp:link keywords="netvista.ndisgroupactiveprocessorcount" tabindex="0"><b>
    NdisGroupActiveProcessorCount</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
  
 

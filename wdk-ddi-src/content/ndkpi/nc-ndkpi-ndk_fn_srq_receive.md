@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NdkSrqReceive
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # NDK_FN_SRQ_RECEIVE callback
@@ -93,16 +93,16 @@ The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
 
-#### - pSgl
-
-An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>) that represent the buffers to receive incoming data.
-
-
-
 #### - pNdkSrq [in]
 
 A pointer to an NDK shared receive queue (SRQ) object
 (<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
+
+
+#### - pSgl
+
+An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>) that represent the buffers to receive incoming data.
+
 
 
 ## -returns
@@ -151,9 +151,9 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 

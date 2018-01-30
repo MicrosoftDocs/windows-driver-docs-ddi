@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	HwStorAdapterControl
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 
@@ -955,15 +955,15 @@ HW_ADAPTER_CONTROL (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
-<a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
+
+<a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: af182cd5-23b5-4d5b-b3d4-ec65ec087d0b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], wdm/IoWithinStackLimits, IoWithinStackLimits, kernel.iowithinstacklimits
+ms.keywords: wdm/IoWithinStackLimits, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, IoWithinStackLimits, kernel.iowithinstacklimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWithinStackLimits
 product: Windows
 targetos: Windows
@@ -95,11 +95,11 @@ The <b>IoWithinStackLimits</b> routine considers all possible stack segments and
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
 
 <a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
-
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
  
 

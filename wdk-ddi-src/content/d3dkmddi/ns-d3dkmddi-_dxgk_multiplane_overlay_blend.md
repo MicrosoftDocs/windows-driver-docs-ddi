@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e489919c-c0a7-4792-9758-ce7b587b13cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], display.dxgk_multiplane_overlay_blend, _DXGK_MULTIPLANE_OVERLAY_BLEND, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND
+ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_BLEND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

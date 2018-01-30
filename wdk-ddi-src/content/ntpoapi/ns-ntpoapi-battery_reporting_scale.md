@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: aea1d82d-39b8-4535-a5c3-fb987be1e43c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntpoapi/PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE, ntpoapi/BATTERY_REPORTING_SCALE, battery.battery_reporting_scale, *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, BATTERY_REPORTING_SCALE structure [Battery Devices], PBATTERY_REPORTING_SCALE structure pointer [Battery Devices]
+ms.keywords: ntpoapi/BATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE, bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, BATTERY_REPORTING_SCALE structure [Battery Devices], battery.battery_reporting_scale, ntpoapi/PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], *PBATTERY_REPORTING_SCALE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

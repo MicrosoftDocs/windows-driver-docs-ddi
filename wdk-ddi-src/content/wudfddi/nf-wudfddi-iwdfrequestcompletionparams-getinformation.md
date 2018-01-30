@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetInformation, IWDFRequestCompletionParams, wudfddi/IWDFRequestCompletionParams::GetInformation, GetInformation method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface, GetInformation method, wdf.iwdfrequestcompletionparams_getinformation, GetInformation method, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams::GetInformation
+ms.keywords: GetInformation method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, GetInformation method, wdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, GetInformation, umdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation, GetInformation method, IWDFRequestCompletionParams::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRequestCompletionParams.GetInformation
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

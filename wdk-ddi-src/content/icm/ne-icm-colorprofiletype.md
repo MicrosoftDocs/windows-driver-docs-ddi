@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: icm/CPT_ICC, colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, print.colorprofiletype, icm/CPT_DMP, CPT_GMMP, icm/CPT_GMMP, icm/COLORPROFILETYPE, icm/CPT_CAMP, COLORPROFILETYPE, CPT_ICC, *PCOLORPROFILETYPE, CPT_CAMP, CPT_DMP, COLORPROFILETYPE enumeration [Print Devices]
+ms.keywords: colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, icm/COLORPROFILETYPE, icm/CPT_DMP, *PCOLORPROFILETYPE, COLORPROFILETYPE, icm/CPT_CAMP, CPT_ICC, CPT_DMP, print.colorprofiletype, CPT_CAMP, CPT_GMMP, icm/CPT_GMMP, icm/CPT_ICC, COLORPROFILETYPE enumeration [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	icm.h
-apiname: 
+apiname:
 -	COLORPROFILETYPE
 product: Windows
 targetos: Windows

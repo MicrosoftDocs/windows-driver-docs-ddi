@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdffile_getdevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, GetDevice method, IWDFFile interface, GetDevice method, IWDFFile::GetDevice, umdf.iwdffile_getdevice, IWDFFile, wudfddi/IWDFFile::GetDevice, GetDevice, IWDFFile interface, GetDevice method
+ms.keywords: GetDevice method, IWDFFile interface, IWDFFile::GetDevice, wdf.iwdffile_getdevice, GetDevice method, umdf.iwdffile_getdevice, wudfddi/IWDFFile::GetDevice, IWDFFile, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, IWDFFile interface, GetDevice method, GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFFile.GetDevice
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

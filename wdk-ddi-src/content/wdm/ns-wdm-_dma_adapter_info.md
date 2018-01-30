@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_ADAPTER_INFO
-title: _DMA_ADAPTER_INFO
+title: "_DMA_ADAPTER_INFO"
 author: windows-driver-content
 description: The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INFO_XXX structure that describes the capabilities of a system DMA controller.
 old-location: kernel\dma_adapter_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 181C3421-85D1-457E-85A5-42C84AE41BD6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DMA_ADAPTER_INFO, *PDMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO, _DMA_ADAPTER_INFO, kernel.dma_adapter_info, wdm/PDMA_ADAPTER_INFO, DMA_ADAPTER_INFO, DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture]
+ms.keywords: DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], DMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO, wdm/DMA_ADAPTER_INFO, _DMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO, kernel.dma_adapter_info, *PDMA_ADAPTER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DMA_ADAPTER_INFO
 product: Windows
 targetos: Windows

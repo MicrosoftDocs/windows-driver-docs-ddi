@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, wudfddi/IWDFRemoteTarget::Reopen, Reopen, Reopen method, IWDFRemoteTarget::Reopen, wdf.iwdfremotetarget_reopen, IWDFRemoteTarget, Reopen method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_reopen, IWDFRemoteTarget interface, Reopen method
+ms.keywords: umdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen, Reopen, Reopen method, IWDFRemoteTarget interface, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, IWDFRemoteTarget interface, Reopen method, IWDFRemoteTarget, wdf.iwdfremotetarget_reopen, Reopen method, IWDFRemoteTarget::Reopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.Reopen
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

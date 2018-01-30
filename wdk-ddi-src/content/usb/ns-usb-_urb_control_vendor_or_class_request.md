@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_VENDOR_OR_CLASS_REQUEST
-title: _URB_CONTROL_VENDOR_OR_CLASS_REQUEST
+title: "_URB_CONTROL_VENDOR_OR_CLASS_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure is used by USB client drivers to issue a vendor or class-specific command to a device, interface, endpoint, or other device-defined target.
 old-location: buses\_urb_control_vendor_or_class_request.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, buses._urb_control_vendor_or_class_request, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN
+ms.keywords: usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, buses._urb_control_vendor_or_class_request, USBD_SHORT_TRANSFER_OK, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_CONTROL_VENDOR_OR_CLASS_REQUEST
 product: Windows
 targetos: Windows
@@ -210,11 +210,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoQueryFileDosDeviceName, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ifsk.ioqueryfiledosdevicename, IoQueryFileDosDeviceName routine [Installable File System Drivers], ntifs/IoQueryFileDosDeviceName
+ms.keywords: ntifs/IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, IoQueryFileDosDeviceName, ifsk.ioqueryfiledosdevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoQueryFileDosDeviceName
 product: Windows
 targetos: Windows
@@ -87,7 +87,7 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 } OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;</pre>
 </td>
 </tr>
-</table></span></div><div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.</div><div> </div>
+</table></span></div><div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>.</div><div> </div>
 
 ## -returns
 

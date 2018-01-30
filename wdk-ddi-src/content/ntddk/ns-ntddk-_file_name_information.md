@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_NAME_INFORMATION
-title: _FILE_NAME_INFORMATION
+title: "_FILE_NAME_INFORMATION"
 author: windows-driver-content
 description: The FILE_NAME_INFORMATION structure is used as argument to the ZwQueryInformationFile and ZwSetInformationFile routines.
 old-location: kernel\file_name_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04ec8e82-d74d-4827-8533-aa57e3638a45
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.file_name_information, FILE_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], *PFILE_NAME_INFORMATION, PFILE_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/PFILE_NAME_INFORMATION, kstruct_b_075348cd-50d6-450f-9a9d-a5ad8fd985e3.xml, _FILE_NAME_INFORMATION, PFILE_NAME_INFORMATION, ntddk/FILE_NAME_INFORMATION, FILE_NAME_INFORMATION
+ms.keywords: ntddk/PFILE_NAME_INFORMATION, kernel.file_name_information, _FILE_NAME_INFORMATION, *PFILE_NAME_INFORMATION, ntddk/FILE_NAME_INFORMATION, PFILE_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_075348cd-50d6-450f-9a9d-a5ad8fd985e3.xml, FILE_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_NAME_INFORMATION, PFILE_NAME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	FILE_NAME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_NAME_INFORMATION, FILE_NAME_INFORMATION
+req.typenames: "*PFILE_NAME_INFORMATION, FILE_NAME_INFORMATION"
 ---
 
 # _FILE_NAME_INFORMATION structure
@@ -89,9 +89,9 @@ Callers of <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

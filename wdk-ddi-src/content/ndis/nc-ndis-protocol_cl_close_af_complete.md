@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClCloseAfComplete
 product: Windows
 targetos: Windows
@@ -85,14 +85,14 @@ Specifies the final status of the client-initiated request to close the address 
 
 
 
-### -param ProtocolAfContext [in]
+#### NDIS_STATUS_SUCCESS
 
-Specifies the client-supplied handle to its per-AF context area. The client originally set up this
-     context area and passed this handle to NDIS with 
-     <b>NdisClOpenAddressFamilyEx</b>.
+The address family was closed. The 
+       <i>NdisAfHandle</i> that represented the open address family, which the client stored in its 
+       <i>ProtocolAfContext</i> area, is now invalid.
 
 
-##### - Status.NDIS_STATUS_FAILURE
+#### NDIS_STATUS_FAILURE
 
 Either the AF has associated VC(s) and/or registered SAP(s) that the client must release before
        attempting to close the AF, or the client called 
@@ -100,11 +100,11 @@ Either the AF has associated VC(s) and/or registered SAP(s) that the client must
        "closing."
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+### -param ProtocolAfContext [in]
 
-The address family was closed. The 
-       <i>NdisAfHandle</i> that represented the open address family, which the client stored in its 
-       <i>ProtocolAfContext</i> area, is now invalid.
+Specifies the client-supplied handle to its per-AF context area. The client originally set up this
+     context area and passed this handle to NDIS with 
+     <b>NdisClOpenAddressFamilyEx</b>.
 
 
 ## -returns
@@ -166,20 +166,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
 <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
    NdisFreeToNPagedLookasideList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INTERFACE_USBDI_V3
-title: _USB_BUS_INTERFACE_USBDI_V3
+title: "_USB_BUS_INTERFACE_USBDI_V3"
 author: windows-driver-content
 description: The USB_BUS_INTERFACE_USBDI_V3 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v3.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1183f584-8dfa-4eea-b494-3a2e23ec0294
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, *PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, _USB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], usbbusif/USB_BUS_INTERFACE_USBDI_V3
+ms.keywords: USB_BUS_INTERFACE_USBDI_V3 structure [Buses], USB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], _USB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, *PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	USB_BUS_INTERFACE_USBDI_V3
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
 req.product: Windows 10 or later.
 ---
 

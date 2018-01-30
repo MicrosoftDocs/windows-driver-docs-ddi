@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C16DE51F-6552-4379-B866-D7653B1BA9F2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: eEngineFormatType enumeration [Audio Devices], portcls/eSupportedDeviceFormats, portcls/eDeviceFormat, portcls/eEngineFormatType, eSupportedDeviceFormats, eEngineFormatType, audio.eengineformattype, portcls/eMixFormat, eMixFormat, eDeviceFormat
+ms.keywords: audio.eengineformattype, portcls/eEngineFormatType, eEngineFormatType enumeration [Audio Devices], eMixFormat, portcls/eSupportedDeviceFormats, eEngineFormatType, portcls/eDeviceFormat, eSupportedDeviceFormats, eDeviceFormat, portcls/eMixFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

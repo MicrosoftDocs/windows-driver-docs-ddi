@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRPS_OUT
-title: _SendRPS_OUT
+title: "_SendRPS_OUT"
 author: windows-driver-content
 description: The SendRPS_OUT structure is used to report the output parameter data of the SendRPS WMI method to the WMI client.
 old-location: storage\sendrps_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendRPS_OUT, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml, SendRPS_OUT, hbapiwmi/SendRPS_OUT, *PSendRPS_OUT, storage.sendrps_out, SendRPS_OUT structure [Storage Devices]
+ms.keywords: "_SendRPS_OUT, SendRPS_OUT, hbapiwmi/SendRPS_OUT, *PSendRPS_OUT, SendRPS_OUT structure [Storage Devices], storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRPS_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSendRPS_OUT, SendRPS_OUT
+req.typenames: SendRPS_OUT, *PSendRPS_OUT
 ---
 
 # _SendRPS_OUT structure

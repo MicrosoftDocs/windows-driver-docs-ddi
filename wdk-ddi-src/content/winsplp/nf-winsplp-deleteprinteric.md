@@ -2,13 +2,13 @@
 UID: NF:winsplp.DeletePrinterIC
 title: DeletePrinterIC function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\deleteprinteric.htm
 old-project: print
 ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/DeletePrinterIC, DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric
+ms.keywords: DeletePrinterIC function [Print Devices], winsplp/DeletePrinterIC, print.deleteprinteric, DeletePrinterIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	DeletePrinterIC
 product: Windows
 targetos: Windows

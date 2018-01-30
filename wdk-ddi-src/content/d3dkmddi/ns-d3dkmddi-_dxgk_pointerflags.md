@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d49a089-700e-42c0-a1f3-7b181b8aef96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_pointerflags, DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml, d3dkmddi/DXGK_POINTERFLAGS, DXGK_POINTERFLAGS, _DXGK_POINTERFLAGS, DXGK_POINTERFLAGS structure [Display Devices]
+ms.keywords: DXGK_POINTERFLAGS structure [Display Devices], display.dxgk_pointerflags, DXGK_POINTERFLAGS, d3dkmddi/DXGK_POINTERFLAGS, _DXGK_POINTERFLAGS, DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,9 +113,9 @@ The driver always specifies a color mouse pointer by using a A8R8G8B8 pixel form
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
  
 

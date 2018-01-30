@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4bc3a16b-dc9e-4c15-9083-75ac4608def5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilopenuicclogicalchannelparams, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILOPENUICCLOGICALCHANNELPARAMS, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS
+ms.keywords: RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelparams, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS, *LPRILOPENUICCLOGICALCHANNELPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILOPENUICCLOGICALCHANNELPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS
+req.typenames: "*LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS"
 ---
 
 # RILOPENUICCLOGICALCHANNELPARAMS structure

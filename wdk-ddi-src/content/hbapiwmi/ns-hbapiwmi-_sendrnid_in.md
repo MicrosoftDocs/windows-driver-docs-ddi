@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNID_IN
-title: _SendRNID_IN
+title: "_SendRNID_IN"
 author: windows-driver-content
 description: The SendRNID_IN structure is used to deliver input parameter data to the SendRNID WMI method.
 old-location: storage\sendrnid_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 668c4d1a-52e8-49ea-bd19-e789dfa8dfa5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSendRNID_IN, _SendRNID_IN, hbapiwmi/PSendRNID_IN, SendRNID_IN, storage.sendrnid_in, PSendRNID_IN structure pointer [Storage Devices], PSendRNID_IN, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml, SendRNID_IN structure [Storage Devices], hbapiwmi/SendRNID_IN
+ms.keywords: "*PSendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], PSendRNID_IN, storage.sendrnid_in, SendRNID_IN, hbapiwmi/SendRNID_IN, SendRNID_IN structure [Storage Devices], structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml, _SendRNID_IN, hbapiwmi/PSendRNID_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRNID_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSendRNID_IN, SendRNID_IN
+req.typenames: SendRNID_IN, *PSendRNID_IN
 ---
 
 # _SendRNID_IN structure

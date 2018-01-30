@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 454e51fc-f81a-49c8-9e07-e32819af2642
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LookupPropId method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_lookuppropid, wiauFncs_087766c2-718f-4d02-be7f-869df198c3a7.xml, LookupPropId, CWiauPropertyList, LookupPropId method [Imaging Devices], wiautil/CWiauPropertyList::LookupPropId, CWiauPropertyList interface [Imaging Devices], LookupPropId method, CWiauPropertyList::LookupPropId
+ms.keywords: LookupPropId, wiauFncs_087766c2-718f-4d02-be7f-869df198c3a7.xml, CWiauPropertyList interface [Imaging Devices], LookupPropId method, image.cwiaupropertylist_lookuppropid, LookupPropId method [Imaging Devices], CWiauPropertyList interface, wiautil/CWiauPropertyList::LookupPropId, CWiauPropertyList::LookupPropId, LookupPropId method [Imaging Devices], CWiauPropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.LookupPropId
 product: Windows
 targetos: Windows
@@ -82,9 +82,9 @@ On success, the method returns the index of the property within the property lis
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540392">CWiauPropertyList::GetPropId</a>
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540392">CWiauPropertyList::GetPropId</a>
 
  
 

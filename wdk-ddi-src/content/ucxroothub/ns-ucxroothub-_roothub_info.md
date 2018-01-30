@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_INFO
-title: _ROOTHUB_INFO
+title: "_ROOTHUB_INFO"
 author: windows-driver-content
 description: Provides information about a USB root hub. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_INFO callback function.
 old-location: buses\_roothub_info.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 634398E9-7AAA-424C-8C81-287F70CE3578
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO, _ROOTHUB_INFO, *PROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], P_ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], ROOTHUB_INFO, buses._roothub_info
+ms.keywords: buses._roothub_info, ROOTHUB_INFO, *PROOTHUB_INFO, ROOTHUB_INFO structure [Buses], ucxroothub/_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], P_ROOTHUB_INFO, _ROOTHUB_INFO, ucxroothub/P_ROOTHUB_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	ROOTHUB_INFO
 product: Windows
 targetos: Windows

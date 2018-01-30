@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	(*MINIPORT_PNP_IRP_HANDLER)
 product: Windows
 targetos: Windows
@@ -327,35 +327,35 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<b>MiniportStartDevice</b>
+<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
 
 <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
    NdisAllocateMemoryWithTagPriority</b></mshelp:link>
 
-<mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
-   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
+<mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
+   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+<b>MiniportStartDevice</b>
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
+   MiniportFilterResourceRequirements</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
  
 

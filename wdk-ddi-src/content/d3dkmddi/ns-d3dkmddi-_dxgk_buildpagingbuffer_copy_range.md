@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BA35F50C-7399-41DC-A10B-2F5E4BB24B49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_buildpagingbuffer_copy_range, DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPY_RANGE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE
+ms.keywords: DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPY_RANGE, display.dxgk_buildpagingbuffer_copy_range, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

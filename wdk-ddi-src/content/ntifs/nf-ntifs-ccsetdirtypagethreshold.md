@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccsetdirtypagethreshold, ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ntifs/CcSetDirtyPageThreshold
+ms.keywords: CcSetDirtyPageThreshold routine [Installable File System Drivers], ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ifsk.ccsetdirtypagethreshold, CcSetDirtyPageThreshold, ntifs/CcSetDirtyPageThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcSetDirtyPageThreshold
 product: Windows
 targetos: Windows

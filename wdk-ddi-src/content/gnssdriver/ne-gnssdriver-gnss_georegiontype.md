@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 736A1D63-A96E-4E29-ADFD-F441AC4757C6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_GeoRegion_Circle, sensors.gnss_georegiontype, GNSS_GEOREGIONTYPE, GNSS_GeoRegion_Circle, gnssdriver/GNSS_GEOREGIONTYPE, GNSS_GEOREGIONTYPE enumeration [Sensor Devices]
+ms.keywords: GNSS_GeoRegion_Circle, GNSS_GEOREGIONTYPE enumeration [Sensor Devices], gnssdriver/GNSS_GeoRegion_Circle, gnssdriver/GNSS_GEOREGIONTYPE, GNSS_GEOREGIONTYPE, sensors.gnss_georegiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_GEOREGIONTYPE
 product: Windows
 targetos: Windows

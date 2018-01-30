@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdfio.h
-apiname: 
+apiname:
 -	EvtIoAllocateResourcesForReservedRequest
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
+req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
 req.product: Windows 10 or later.
 ---
 

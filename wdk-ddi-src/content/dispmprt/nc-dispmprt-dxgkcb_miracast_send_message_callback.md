@@ -78,7 +78,7 @@ A pointer to the driver-supplied callback context. The operating system passes t
 
 ### -param pIoStatusBlock [in]
 
-A pointer to a driver-supplied buffer to hold the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure for the completed or canceled user-mode message. This structure holds the status of the I/O call and the number of bytes that the user-mode driver wrote to the output buffer.
+A pointer to a driver-supplied buffer to hold the returned <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the completed or canceled user-mode message. This structure holds the status of the I/O call and the number of bytes that the user-mode driver wrote to the output buffer.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aaca14ff-9ea2-43f4-bfa9-9151d855c3af
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, wudfddi/IWDFIoRequest::GetCompletionParams, wdf.iwdfiorequest_getcompletionparams, IWDFIoRequest::GetCompletionParams, GetCompletionParams method, IWDFIoRequest, IWDFIoRequest interface, GetCompletionParams method, GetCompletionParams, GetCompletionParams method, IWDFIoRequest interface, umdf.iwdfiorequest_getcompletionparams
+ms.keywords: wudfddi/IWDFIoRequest::GetCompletionParams, IWDFIoRequest interface, GetCompletionParams method, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, wdf.iwdfiorequest_getcompletionparams, IWDFIoRequest::GetCompletionParams, IWDFIoRequest, GetCompletionParams, GetCompletionParams method, IWDFIoRequest interface, GetCompletionParams method, umdf.iwdfiorequest_getcompletionparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.GetCompletionParams
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,9 +84,9 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 

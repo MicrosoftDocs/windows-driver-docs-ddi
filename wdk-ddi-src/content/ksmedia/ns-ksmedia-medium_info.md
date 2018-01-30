@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PMEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], ksmedia/PMEDIUM_INFO, ksmedia/MEDIUM_INFO, stream.medium_info, MEDIUM_INFO, PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml
+ms.keywords: MEDIUM_INFO, PMEDIUM_INFO, ksmedia/MEDIUM_INFO, stream.medium_info, PMEDIUM_INFO structure pointer [Streaming Media Devices], *PMEDIUM_INFO, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml, MEDIUM_INFO structure [Streaming Media Devices], ksmedia/PMEDIUM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	MEDIUM_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PMEDIUM_INFO, MEDIUM_INFO
+req.typenames: "*PMEDIUM_INFO, MEDIUM_INFO"
 ---
 
 # MEDIUM_INFO structure

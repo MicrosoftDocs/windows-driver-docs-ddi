@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3f1cd0bf-13ce-49bc-a48e-dc3d89f3c7d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, AddItemToFolder, AddItemToFolder method [Imaging Devices], image.iwiadrvitem_additemtofolder, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, AddItemToFolder method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::AddItemToFolder, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::AddItemToFolder
+ms.keywords: image.iwiadrvitem_additemtofolder, AddItemToFolder method [Imaging Devices], AddItemToFolder method [Imaging Devices], IWiaDrvItem interface, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, IWiaDrvItem, AddItemToFolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder, IWiaDrvItem::AddItemToFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.AddItemToFolder
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -95,9 +95,9 @@ Minidrivers typically use the AddItemToFolder method to add an item to a parent 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4">RemoveItemFromFolder</a>
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+<a href="https://msdn.microsoft.com/f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4">RemoveItemFromFolder</a>
 
  
 

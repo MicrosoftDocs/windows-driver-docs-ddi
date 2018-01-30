@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_EISA_FUNCTION_INFORMATION
-title: _CM_EISA_FUNCTION_INFORMATION
+title: "_CM_EISA_FUNCTION_INFORMATION"
 author: windows-driver-content
 description: The CM_EISA_FUNCTION_INFORMATION structure defines detailed EISA configuration information returned by HalGetBusData for the input BusDataType EisaConfiguration, or by HalGetBusDataByOffset for the input BusDataType EisaConfiguration and the Offset zero, assuming the caller-allocated Buffer is of sufficient Length.
 old-location: kernel\cm_eisa_function_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06034776-4faf-4918-b9ec-bc095455cf14
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/CM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.cm_eisa_function_information, kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, _CM_EISA_FUNCTION_INFORMATION
+ms.keywords: kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, PCM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION, wdm/CM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.cm_eisa_function_information, *PCM_EISA_FUNCTION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	CM_EISA_FUNCTION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: CM_EISA_FUNCTION_INFORMATION, *PCM_EISA_FUNCTION_INFORMATION
+req.typenames: "*PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -237,9 +237,9 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
  
 

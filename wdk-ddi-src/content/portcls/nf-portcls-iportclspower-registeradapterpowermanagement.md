@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f4eb9d18-4352-47e2-bd5f-256e1fa831d3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, RegisterAdapterPowerManagement method [Audio Devices], audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, RegisterAdapterPowerManagement, portcls/IPortClsPower::RegisterAdapterPowerManagement, audio.iportclspower_registeradapterpowermanagement, IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method, IPortClsPower, IPortClsPower::RegisterAdapterPowerManagement
+ms.keywords: audio.iportclspower_registeradapterpowermanagement, RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method, IPortClsPower, RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, RegisterAdapterPowerManagement, portcls/IPortClsPower::RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,7 +86,7 @@ Specifies a pointer to <b>IUnknown</b>. . PortCls queries this <b>IUnknown</b> o
 
 #### - DeviceObject [in]
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
@@ -107,11 +107,11 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
 
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
  
 

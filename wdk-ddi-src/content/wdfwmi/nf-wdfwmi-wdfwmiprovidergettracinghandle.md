@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44ab1cf3-abd3-4100-a6ad-51f2322881b1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiProviderGetTracingHandle method, kmdf.wdfwmiprovidergettracinghandle, PFN_WDFWMIPROVIDERGETTRACINGHANDLE, WdfWmiProviderGetTracingHandle, DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle
+ms.keywords: PFN_WDFWMIPROVIDERGETTRACINGHANDLE, kmdf.wdfwmiprovidergettracinghandle, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle, DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfWmiProviderGetTracingHandle
 product: Windows
 targetos: Windows
@@ -98,11 +98,11 @@ For more information about the <b>WdfWmiProviderGetTracingHandle</b> method, see
 
 ## -see-also
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
  
 

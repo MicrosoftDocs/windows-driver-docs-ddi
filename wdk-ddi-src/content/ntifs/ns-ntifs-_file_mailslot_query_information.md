@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_MAILSLOT_QUERY_INFORMATION
-title: _FILE_MAILSLOT_QUERY_INFORMATION
+title: "_FILE_MAILSLOT_QUERY_INFORMATION"
 author: windows-driver-content
 description: The FILE_MAILSLOT_QUERY_INFORMATION structure contains information about a mailslot.
 old-location: ifsk\file_mailslot_query_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8e3b782a-fe8c-42e1-9786-5f89831b4c10
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_MAILSLOT_QUERY_INFORMATION structure [Installable File System Drivers], _FILE_MAILSLOT_QUERY_INFORMATION, *PFILE_MAILSLOT_QUERY_INFORMATION, PFILE_MAILSLOT_QUERY_INFORMATION structure pointer [Installable File System Drivers], FILE_MAILSLOT_QUERY_INFORMATION, PFILE_MAILSLOT_QUERY_INFORMATION, ifsk.file_mailslot_query_information, ntifs/PFILE_MAILSLOT_QUERY_INFORMATION, ntifs/FILE_MAILSLOT_QUERY_INFORMATION
+ms.keywords: PFILE_MAILSLOT_QUERY_INFORMATION structure pointer [Installable File System Drivers], PFILE_MAILSLOT_QUERY_INFORMATION, ntifs/FILE_MAILSLOT_QUERY_INFORMATION, FILE_MAILSLOT_QUERY_INFORMATION, ifsk.file_mailslot_query_information, _FILE_MAILSLOT_QUERY_INFORMATION, FILE_MAILSLOT_QUERY_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_MAILSLOT_QUERY_INFORMATION, *PFILE_MAILSLOT_QUERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_MAILSLOT_QUERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_MAILSLOT_QUERY_INFORMATION, FILE_MAILSLOT_QUERY_INFORMATION
+req.typenames: "*PFILE_MAILSLOT_QUERY_INFORMATION, FILE_MAILSLOT_QUERY_INFORMATION"
 ---
 
 # _FILE_MAILSLOT_QUERY_INFORMATION structure

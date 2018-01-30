@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate, ucxusbdevice/UcxUsbDeviceCreate, buses._ucxusbdevicecreate
+ms.keywords: buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	UcxUsbDeviceCreate
 product: Windows
 targetos: Windows

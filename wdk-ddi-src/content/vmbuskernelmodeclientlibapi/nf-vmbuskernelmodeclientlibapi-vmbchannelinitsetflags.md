@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12525F3C-12D6-477E-8C7D-3DE9AAA044AE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags, netvista.vmbchannelinitsetflags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], VmbChannelInitSetFlags
+ms.keywords: VmbChannelInitSetFlags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetflags, vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelInitSetFlags
 product: Windows
 targetos: Windows

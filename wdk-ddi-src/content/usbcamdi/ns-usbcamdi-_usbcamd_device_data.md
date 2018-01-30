@@ -1,6 +1,6 @@
 ---
 UID: NS:usbcamdi._USBCAMD_DEVICE_DATA
-title: _USBCAMD_DEVICE_DATA
+title: "_USBCAMD_DEVICE_DATA"
 author: windows-driver-content
 description: This structure is obsolete and is provided to maintain backward compatibility with the original USBCAMD.
 old-location: stream\usbcamd_device_data.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1841be02-e30f-4685-82ea-2d9c02ce7277
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PUSBCAMD_DEVICE_DATA, _USBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], PUSBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, stream.usbcamd_device_data, usbcamdi/PUSBCAMD_DEVICE_DATA
+ms.keywords: PUSBCAMD_DEVICE_DATA, _USBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA, stream.usbcamd_device_data, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], usbcamdi/USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA, usbcamdi/PUSBCAMD_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	USBCAMD_DEVICE_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PUSBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA
+req.typenames: USBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA
 req.product: Windows 10 or later.
 ---
 

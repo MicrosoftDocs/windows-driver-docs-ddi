@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoGetFunctionCodeFromCtlCode, kernel.iogetfunctioncodefromctlcode, k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoGetFunctionCodeFromCtlCode, kernel.iogetfunctioncodefromctlcode, IoGetFunctionCodeFromCtlCode, k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdm.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoGetFunctionCodeFromCtlCode
 product: Windows
 targetos: Windows

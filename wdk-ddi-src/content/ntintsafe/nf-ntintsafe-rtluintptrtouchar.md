@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5E4225F-4C66-44A8-9445-7D7DBAFA1DA4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrtouchar, RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture], RtlUIntPtrToUChar, ntintsafe/RtlUIntPtrToUChar
+ms.keywords: RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouchar, RtlUIntPtrToUChar, ntintsafe/RtlUIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlUIntPtrToUChar
 product: Windows
 targetos: Windows

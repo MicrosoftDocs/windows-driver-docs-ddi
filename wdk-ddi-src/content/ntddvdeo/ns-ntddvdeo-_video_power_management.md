@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9522c504-9bdb-4388-b047-340a211463dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.video_power_management, _VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT, ntddvdeo/PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], ntddvdeo/VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices]
+ms.keywords: VIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], VIDEO_POWER_MANAGEMENT structure [Display Devices], ntddvdeo/PVIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT, _VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT, display.video_power_management, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

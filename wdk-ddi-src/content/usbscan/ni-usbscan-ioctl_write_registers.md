@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbscan.h
-apiname: 
+apiname:
 -	IOCTL_WRITE_REGISTERS
 product: Windows
 targetos: Windows

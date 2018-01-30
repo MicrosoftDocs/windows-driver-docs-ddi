@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._DLGPAGE
-title: _DLGPAGE
+title: "_DLGPAGE"
 author: windows-driver-content
 description: The DLGPAGE structure is used for specifying a property sheet page to CPSUI's ComPropSheet function. The structure's address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.
 old-location: print\dlgpage.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DLGPAGE structure [Print Devices], print.dlgpage, DLGPAGE, compstui/PDLGPAGE, compstui/DLGPAGE, PDLGPAGE structure pointer [Print Devices], *PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, PDLGPAGE, _DLGPAGE
+ms.keywords: "_DLGPAGE, DLGPAGE structure [Print Devices], cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage, *PDLGPAGE, PDLGPAGE, compstui/DLGPAGE, PDLGPAGE structure pointer [Print Devices], compstui/PDLGPAGE, DLGPAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	DLGPAGE
 product: Windows
 targetos: Windows
-req.typenames: *PDLGPAGE, DLGPAGE
+req.typenames: DLGPAGE, *PDLGPAGE
 ---
 
 # _DLGPAGE structure
@@ -155,13 +155,6 @@ An icon handle. If a handle is specified, DPF_ICONID_AS_HICON must be set in the
 </ul>The specified icon is displayed on the page tab. If this value is zero, an icon is not displayed.
 
 
-#### - hDlgTemplate
-
-Caller-supplied handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
-
-Used only if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
-
-
 #### - DlgTemplateID
 
 Caller-supplied resource identifier for a dialog box template. This can refer to an application-supplied DIALOG resource, or it can be one of the following CPSUI-supplied identifiers (defined in compstui.h):
@@ -205,6 +198,13 @@ Generic treeview page.
 The CPSUI-supplied identifiers refer to templates that can display <a href="https://msdn.microsoft.com/library/windows/hardware/ff547142">CPSUI option types</a>. The page size for those templates is 252 by 216 dialog box units. For more information, see <a href="https://msdn.microsoft.com/de33cb29-3941-4232-bd61-d36fb04d69d3">CPSUI-Supplied Pages and Templates</a>.
 
 This member is not used if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
+
+
+#### - hDlgTemplate
+
+Caller-supplied handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
+
+Used only if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 
 ## -remarks

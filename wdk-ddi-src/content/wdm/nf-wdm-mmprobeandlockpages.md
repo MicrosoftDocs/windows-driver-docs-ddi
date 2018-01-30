@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, wdm/MmProbeAndLockPages, kernel.mmprobeandlockpages, MmProbeAndLockPages
+ms.keywords: k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], wdm/MmProbeAndLockPages, MmProbeAndLockPages, kernel.mmprobeandlockpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmProbeAndLockPages
 product: Windows
 targetos: Windows
@@ -131,9 +131,9 @@ This routine does not provide any guarantees about the virtual address that desc
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
-
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
 
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Init method [Audio Devices], IMiniportWaveRT interface, IMiniportWaveRT::Init, Init method [Audio Devices], Init, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], Init method, audio.iminiportwavert_init, portcls/IMiniportWaveRT::Init
+ms.keywords: IMiniportWaveRT, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, Init method [Audio Devices], IMiniportWaveRT interface, portcls/IMiniportWaveRT::Init, IMiniportWaveRT interface [Audio Devices], Init method, IMiniportWaveRT::Init, audio.iminiportwavert_init, Init method [Audio Devices], Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,9 +100,9 @@ For more information about the <i>ResourceList</i> parameter, see the <a href="h
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 
  
 

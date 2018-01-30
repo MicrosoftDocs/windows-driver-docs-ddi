@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 864dbe8d-2771-4532-8a50-ed1bf5286658
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_INTERFACE, *PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices], usbcamdi/PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE, usbcamdi/USBCAMD_INTERFACE, usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml, stream.usbcamd_interface, USBCAMD_INTERFACE structure [Streaming Media Devices]
+ms.keywords: stream.usbcamd_interface, usbcamdi/USBCAMD_INTERFACE, usbcamdi/PUSBCAMD_INTERFACE, *PUSBCAMD_INTERFACE, USBCAMD_INTERFACE, USBCAMD_INTERFACE structure [Streaming Media Devices], usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml, PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	USBCAMD_INTERFACE
 product: Windows
 targetos: Windows
@@ -115,21 +115,21 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568182">SRB_INITIALIZATION_COMPLETE</a>
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
 
  
 

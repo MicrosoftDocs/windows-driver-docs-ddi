@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_UPDATE
-title: _USBDEVICE_UPDATE
+title: "_USBDEVICE_UPDATE"
 author: windows-driver-content
 description: Passed by UCX to update the specified device. This structure is in the request parameters (Parameters.Others.Arg1) of a framework request object passed in the EVT_UCX_USBDEVICE_UPDATE callback function.
 old-location: buses\_usbdevice_update.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7E990E9A-5BF5-4D6B-A5E2-4968FBD1CEBC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PUSBDEVICE_UPDATE, USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], P_USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], buses._usbdevice_update, _USBDEVICE_UPDATE, ucxusbdevice/P_USBDEVICE_UPDATE
+ms.keywords: USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], P_USBDEVICE_UPDATE, _USBDEVICE_UPDATE, *PUSBDEVICE_UPDATE, ucxusbdevice/P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], ucxusbdevice/_USBDEVICE_UPDATE, buses._usbdevice_update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	USBDEVICE_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBDEVICE_UPDATE, USBDEVICE_UPDATE
+req.typenames: "*PUSBDEVICE_UPDATE, USBDEVICE_UPDATE"
 req.product: Windows 10 or later.
 ---
 
@@ -133,13 +133,13 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a>
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
  
 

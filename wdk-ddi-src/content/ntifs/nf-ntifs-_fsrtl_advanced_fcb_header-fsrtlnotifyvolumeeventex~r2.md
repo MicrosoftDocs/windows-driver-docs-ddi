@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyVolumeEventEx, fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ntifs/FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], ifsk.fsrtlnotifyvolumeeventex
+ms.keywords: ifsk.fsrtlnotifyvolumeeventex, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], ntifs/FsRtlNotifyVolumeEventEx, fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, FsRtlNotifyVolumeEventEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNotifyVolumeEventEx
 product: Windows
 targetos: Windows
@@ -103,13 +103,13 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>
-
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
 
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>
 
  
 

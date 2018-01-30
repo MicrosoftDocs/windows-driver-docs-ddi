@@ -1,14 +1,14 @@
 ---
 UID: NS:compstui._OPTCOMBO
-title: _OPTCOMBO
+title: "_OPTCOMBO"
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\optcombo.htm
 old-project: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/OPTCOMBO, POPTCOMBO, *POPTCOMBO, _OPTCOMBO, print.optcombo, compstui/POPTCOMBO, POPTCOMBO structure pointer [Print Devices], OPTCOMBO, OPTCOMBO structure [Print Devices]
+ms.keywords: OPTCOMBO, compstui/OPTCOMBO, POPTCOMBO, *POPTCOMBO, POPTCOMBO structure pointer [Print Devices], compstui/POPTCOMBO, _OPTCOMBO, print.optcombo, OPTCOMBO structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Compstui.h
-apiname: 
+apiname:
 -	OPTCOMBO
 product: Windows
 targetos: Windows
-req.typenames: *POPTCOMBO, OPTCOMBO
+req.typenames: OPTCOMBO, *POPTCOMBO
 ---
 
 # _OPTCOMBO structure

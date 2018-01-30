@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_FILE_ID
-title: _WOF_EXTERNAL_FILE_ID
+title: "_WOF_EXTERNAL_FILE_ID"
 author: windows-driver-content
 description: The WOF_EXTERNAL_FILE_ID structure contains a file ID that is used to open a handle to a mini-filter or driver.
 old-location: ifsk\wof_external_file_id.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5C208DF7-C6CB-419D-B775-74E09DC4D448
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, _WOF_EXTERNAL_FILE_ID, ntifs/PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], ntifs/WOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], WOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id
+ms.keywords: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], _WOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], ntifs/WOF_EXTERNAL_FILE_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	WOF_EXTERNAL_FILE_ID
 product: Windows
 targetos: Windows
-req.typenames: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID
+req.typenames: "*PWOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID"
 ---
 
 # _WOF_EXTERNAL_FILE_ID structure

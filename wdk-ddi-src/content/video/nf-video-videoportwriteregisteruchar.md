@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 259d01a5-d975-48f9-b0cf-4596d12046bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportwriteregisteruchar, VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, VideoPortWriteRegisterUchar function [Display Devices], video/VideoPortWriteRegisterUchar, VideoPortWriteRegisterUchar
+ms.keywords: video/VideoPortWriteRegisterUchar, display.videoportwriteregisteruchar, VideoPortWriteRegisterUchar, VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, VideoPortWriteRegisterUchar function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortWriteRegisterUchar function

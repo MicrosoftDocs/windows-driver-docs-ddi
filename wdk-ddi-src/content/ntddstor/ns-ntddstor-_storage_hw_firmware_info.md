@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_INFO
-title: _STORAGE_HW_FIRMWARE_INFO
+title: "_STORAGE_HW_FIRMWARE_INFO"
 author: windows-driver-content
 description: This structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5A85A7EC-2333-4161-A1E7-55D3420E730C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSTORAGE_HW_FIRMWARE_INFO, _STORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO, storage.storage_hw_firmware_info, ntddstor/PSTORAGE_HW_FIRMWARE_INFO
+ms.keywords: storage.storage_hw_firmware_info, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices], _STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_HW_FIRMWARE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO
+req.typenames: STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
 ---
 
 # _STORAGE_HW_FIRMWARE_INFO structure

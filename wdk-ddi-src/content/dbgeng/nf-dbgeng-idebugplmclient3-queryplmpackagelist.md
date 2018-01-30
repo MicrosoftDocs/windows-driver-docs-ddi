@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageList, IDebugPlmClient3::QueryPlmPackageList, IDebugPlmClient3, debugger.idebugplmclient3_queryplmpackagelist, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method
+ms.keywords: QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::QueryPlmPackageList, IDebugPlmClient3::QueryPlmPackageList, debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, QueryPlmPackageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient3.QueryPlmPackageList
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugPlmClient3::QueryPlmPackageList method

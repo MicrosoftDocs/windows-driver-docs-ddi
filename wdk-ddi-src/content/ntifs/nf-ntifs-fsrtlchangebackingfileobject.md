@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlChangeBackingFileObject, ntifs/FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], ifsk.fsrtlchangebackingfileobject, fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml
+ms.keywords: ntifs/FsRtlChangeBackingFileObject, fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, FsRtlChangeBackingFileObject, ifsk.fsrtlchangebackingfileobject, FsRtlChangeBackingFileObject routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlChangeBackingFileObject
 product: Windows
 targetos: Windows

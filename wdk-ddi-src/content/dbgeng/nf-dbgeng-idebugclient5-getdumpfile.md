@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06317b65-4853-40da-9131-9983918b7157
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDumpFile method [Windows Debugging], IDebugClient5 interface, IDebugClient4::GetDumpFile, IDebugClient5 interface [Windows Debugging], GetDumpFile method, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, debugger.getdumpfile, GetDumpFile method [Windows Debugging], dbgeng/IDebugClient4::GetDumpFile, IDebugClient5::GetDumpFile, dbgeng/IDebugClient5::GetDumpFile, IDebugClient4 interface [Windows Debugging], GetDumpFile method, IDebugClient5, GetDumpFile, GetDumpFile method [Windows Debugging], IDebugClient4 interface
+ms.keywords: GetDumpFile, GetDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient4::GetDumpFile, dbgeng/IDebugClient4::GetDumpFile, IDebugClient4 interface [Windows Debugging], GetDumpFile method, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, dbgeng/IDebugClient5::GetDumpFile, debugger.getdumpfile, IDebugClient5 interface [Windows Debugging], GetDumpFile method, IDebugClient5::GetDumpFile, GetDumpFile method [Windows Debugging], GetDumpFile method [Windows Debugging], IDebugClient5 interface, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugClient5.GetDumpFile
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::GetDumpFile method
@@ -138,13 +138,13 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
  
 

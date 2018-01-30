@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5491f9fb-8f87-41ed-9629-18318554ad90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsRemoveLoadImageNotifyRoutine, ntddk/PsRemoveLoadImageNotifyRoutine, k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, kernel.psremoveloadimagenotifyroutine, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.psremoveloadimagenotifyroutine, ntddk/PsRemoveLoadImageNotifyRoutine, PsRemoveLoadImageNotifyRoutine, k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsRemoveLoadImageNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsRemoveLoadImageNotifyRoutine function

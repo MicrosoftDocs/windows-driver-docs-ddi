@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, StreamClassCallAtNewPriority
+ms.keywords: stream.streamclasscallatnewpriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, StreamClassCallAtNewPriority, strmini/StreamClassCallAtNewPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: (See Parameters section)
-topictype: 
+req.irql: "(See Parameters section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassCallAtNewPriority
 product: Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
+req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
 req.product: Windows 10 or later.
 ---
 

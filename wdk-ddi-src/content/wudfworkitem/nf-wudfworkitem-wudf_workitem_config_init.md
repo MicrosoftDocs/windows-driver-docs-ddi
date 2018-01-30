@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A75AE18F-802F-462B-BF96-5C03408F53CA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_WORKITEM_CONFIG_INIT, wudfworkitem/WUDF_WORKITEM_CONFIG_INIT, wdf.wudf_workitem_config_init, WUDF_WORKITEM_CONFIG_INIT function, umdf.wudf_workitem_config_init
+ms.keywords: wudfworkitem/WUDF_WORKITEM_CONFIG_INIT, wdf.wudf_workitem_config_init, umdf.wudf_workitem_config_init, WUDF_WORKITEM_CONFIG_INIT function, WUDF_WORKITEM_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfworkitem.h
-apiname: 
+apiname:
 -	WUDF_WORKITEM_CONFIG_INIT
 product: Windows
 targetos: Windows

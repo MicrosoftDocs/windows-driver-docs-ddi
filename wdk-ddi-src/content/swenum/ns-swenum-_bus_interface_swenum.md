@@ -1,6 +1,6 @@
 ---
 UID: NS:swenum._BUS_INTERFACE_SWENUM
-title: _BUS_INTERFACE_SWENUM
+title: "_BUS_INTERFACE_SWENUM"
 author: windows-driver-content
 description: The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator object's interface.
 old-location: stream\bus_interface_swenum.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], *PBUS_INTERFACE_SWENUM, _BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], stream.bus_interface_swenum, BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, swenum/BUS_INTERFACE_SWENUM
+ms.keywords: swenum/BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, stream.bus_interface_swenum, swenum/PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], _BUS_INTERFACE_SWENUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	swenum.h
-apiname: 
+apiname:
 -	BUS_INTERFACE_SWENUM
 product: Windows
 targetos: Windows
-req.typenames: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
+req.typenames: "*PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM"
 req.product: Windows 10 or later.
 ---
 

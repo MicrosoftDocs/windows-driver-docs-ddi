@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_IO_TYPE
-title: _WDF_DEVICE_IO_TYPE
+title: "_WDF_DEVICE_IO_TYPE"
 author: windows-driver-content
 description: The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers.
 old-location: wdf\wdf_device_io_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ad08e4f-7a9b-4052-888e-ae01c9c105c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wdfdevice/WDF_DEVICE_IO_TYPE, _WDF_DEVICE_IO_TYPE, wdf.wdf_device_io_type, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, WDF_DEVICE_IO_TYPE, kmdf.wdf_device_io_type, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE enumeration, PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, wdfdevice/WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoUndefined, WdfDeviceIoDirect, WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoDirect, WdfDeviceIoUndefined
+ms.keywords: WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoUndefined, wdfdevice/WdfDeviceIoDirect, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, wdf.wdf_device_io_type, wdfdevice/PWDF_DEVICE_IO_TYPE, kmdf.wdf_device_io_type, wdfdevice/WdfDeviceIoBuffered, WdfDeviceIoBuffered, WDF_DEVICE_IO_TYPE, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, wdfdevice/WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoUndefined, wdfdevice/WDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, WdfDeviceIoDirect, _WDF_DEVICE_IO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_IO_TYPE
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ The <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFI
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
  
 

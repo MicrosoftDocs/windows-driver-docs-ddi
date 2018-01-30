@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_DISPOSITION_INFORMATION_EX
-title: _FILE_DISPOSITION_INFORMATION_EX
+title: "_FILE_DISPOSITION_INFORMATION_EX"
 author: windows-driver-content
 description: The FILE_DISPOSITION_INFORMATION_EX structure is used as an argument to the ZwSetInformationFileEx routine and indicates how the operating system should delete a file.
 old-location: ifsk\file_disposition_information_ex.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], ntddk/FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX, ntddk/PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], PFILE_DISPOSITION_INFORMATION_EX, ifsk.file_disposition_information_ex, FILE_DISPOSITION_INFORMATION_EX, _FILE_DISPOSITION_INFORMATION_EX
+ms.keywords: FILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], _FILE_DISPOSITION_INFORMATION_EX, ntddk/PFILE_DISPOSITION_INFORMATION_EX, ntddk/FILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], *PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX, ifsk.file_disposition_information_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	FILE_DISPOSITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX
+req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX
 ---
 
 # _FILE_DISPOSITION_INFORMATION_EX structure

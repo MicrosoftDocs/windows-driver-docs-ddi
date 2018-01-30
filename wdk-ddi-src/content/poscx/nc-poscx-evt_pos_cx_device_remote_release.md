@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	EvtPosCxDeviceRemoteRelease
 product: Windows
 targetos: Windows
-req.typenames: *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR
+req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

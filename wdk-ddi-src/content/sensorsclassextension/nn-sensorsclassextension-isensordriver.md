@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	ISensorDriver
 product: Windows
 targetos: Windows

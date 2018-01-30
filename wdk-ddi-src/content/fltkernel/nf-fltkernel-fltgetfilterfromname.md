@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 95224198-e86e-4005-b50f-6775e6b8b749
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml, fltkernel/FltGetFilterFromName, FltGetFilterFromName, FltGetFilterFromName routine [Installable File System Drivers], ifsk.fltgetfilterfromname
+ms.keywords: FltGetFilterFromName routine [Installable File System Drivers], FltGetFilterFromName, fltkernel/FltGetFilterFromName, FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml, ifsk.fltgetfilterfromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetFilterFromName
 product: Windows
 targetos: Windows
@@ -124,11 +124,11 @@ To register a minifilter driver with the Filter Manager, call <a href="..\fltker
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B77297BF-09F7-46BD-A75F-D36E5E233E05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetAt method [Print Devices], IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices], GetAt method, printerextension/IPrintSchemaOptionCollection::GetAt, IPrintSchemaOptionCollection::GetAt, GetAt method [Print Devices], GetAt, print.iprintschemaoptioncollection_getat, IPrintSchemaOptionCollection
+ms.keywords: GetAt, print.iprintschemaoptioncollection_getat, GetAt method [Print Devices], IPrintSchemaOptionCollection::GetAt, IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], GetAt method, printerextension/IPrintSchemaOptionCollection::GetAt, GetAt method [Print Devices], IPrintSchemaOptionCollection interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaOptionCollection.GetAt
 product: Windows
 targetos: Windows

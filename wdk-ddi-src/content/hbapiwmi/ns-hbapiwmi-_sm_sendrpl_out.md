@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRPL_OUT
-title: _SM_SendRPL_OUT
+title: "_SM_SendRPL_OUT"
 author: windows-driver-content
 description: The SM_SendRPL_OUT structure is used to receive output parameters from the SM_SendRPL method.
 old-location: storage\sm_sendrpl_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8dfc30a-81ac-4342-9996-0c04db80e5e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_SendRPL_OUT, *PSM_SendRPL_OUT, PSM_SendRPL_OUT, SM_SendRPL_OUT structure [Storage Devices], PSM_SendRPL_OUT structure pointer [Storage Devices], hbapiwmi/PSM_SendRPL_OUT, SM_SendRPL_OUT, structs-Fibre_831fc75d-cdee-4fba-9dd1-22204e814d50.xml, _SM_SendRPL_OUT, storage.sm_sendrpl_out
+ms.keywords: "*PSM_SendRPL_OUT, storage.sm_sendrpl_out, hbapiwmi/SM_SendRPL_OUT, hbapiwmi/PSM_SendRPL_OUT, SM_SendRPL_OUT, SM_SendRPL_OUT structure [Storage Devices], PSM_SendRPL_OUT, _SM_SendRPL_OUT, structs-Fibre_831fc75d-cdee-4fba-9dd1-22204e814d50.xml, PSM_SendRPL_OUT structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_SendRPL_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSM_SendRPL_OUT, SM_SendRPL_OUT
+req.typenames: SM_SendRPL_OUT, *PSM_SendRPL_OUT
 ---
 
 # _SM_SendRPL_OUT structure

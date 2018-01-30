@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 87a873c2-07d3-4f76-bc26-5fcae4b960e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksforwardandcatchirp, ks/KsForwardAndCatchIrp, ksfunc_db5ae1e5-b0c8-4703-866f-a3f060e5ffb3.xml, KsForwardAndCatchIrp, KsForwardAndCatchIrp function [Streaming Media Devices]
+ms.keywords: stream.ksforwardandcatchirp, KsForwardAndCatchIrp function [Streaming Media Devices], ksfunc_db5ae1e5-b0c8-4703-866f-a3f060e5ffb3.xml, ks/KsForwardAndCatchIrp, KsForwardAndCatchIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsForwardAndCatchIrp
 product: Windows
 targetos: Windows

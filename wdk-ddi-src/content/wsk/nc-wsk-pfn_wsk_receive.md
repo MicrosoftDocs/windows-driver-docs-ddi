@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskReceive
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -101,15 +101,7 @@ The WSK_FLAG_WAITALL and WSK_FLAG_DRAIN flags are mutually exclusive. A WSK appl
      specify both of these flags at the same time.
 
 
-### -param Irp [in, out]
-
-A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
-     asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
-
-
-##### - Flags.WSK_FLAG_WAITALL
+#### WSK_FLAG_WAITALL
 
 Wait until the data buffer is completely filled. If this flag is specified, the IRP specified in
        the 
@@ -138,7 +130,7 @@ The specified IRP is canceled.
        by other transport protocols.
 
 
-##### - Flags.WSK_FLAG_DRAIN
+#### WSK_FLAG_DRAIN
 
 Wait until the socket is disconnected, discarding any data that is received on the socket. If
        this flag is specified, the specified IRP will not be completed until one of the following events
@@ -165,6 +157,14 @@ The specified IRP is canceled.
 
 This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
        by other transport protocols.
+
+
+### -param Irp [in, out]
+
+A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
+     asynchronously. For more information about using IRPs with WSK functions, see 
+     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
+     Kernel Functions</mshelp:link>.
 
 
 ## -returns
@@ -315,20 +315,20 @@ When specifying the WSK_FLAG_DRAIN flag to discard any additional data that is r
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
 <mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
    WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 36DA5A61-2DA4-4CD1-8BA5-74444DC002F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDCounterTypeUnknown, ndis/NDIS_PD_COUNTER_TYPE, ndis/PDCounterTypeTransmitQueue, PDCounterTypeMax, ndis/PDCounterTypeUnknown, netvista.ndis_pd_counter_type, PDCounterTypeTransmitQueue, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/PDCounterTypeReceiveFilter, ndis/PDCounterTypeMax, PDCounterTypeReceiveQueue, NDIS_PD_COUNTER_TYPE, PDCounterTypeReceiveFilter, ndis/PDCounterTypeReceiveQueue
+ms.keywords: ndis/PDCounterTypeTransmitQueue, netvista.ndis_pd_counter_type, NDIS_PD_COUNTER_TYPE, PDCounterTypeTransmitQueue, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/PDCounterTypeReceiveFilter, ndis/PDCounterTypeUnknown, PDCounterTypeMax, PDCounterTypeUnknown, PDCounterTypeReceiveFilter, ndis/PDCounterTypeReceiveQueue, PDCounterTypeReceiveQueue, ndis/PDCounterTypeMax, ndis/NDIS_PD_COUNTER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_COUNTER_TYPE
 product: Windows
 targetos: Windows

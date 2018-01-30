@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, audio.iinterruptsync_registerserviceroutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, RegisterServiceRoutine, IInterruptSync, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices]
+ms.keywords: audio.iinterruptsync_registerserviceroutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine, IInterruptSync, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

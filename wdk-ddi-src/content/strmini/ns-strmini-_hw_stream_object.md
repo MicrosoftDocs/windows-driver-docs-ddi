@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_STREAM_OBJECT
-title: _HW_STREAM_OBJECT
+title: "_HW_STREAM_OBJECT"
 author: windows-driver-content
 description: HW_STREAM_OBJECT describes an instance of a minidriver stream.
 old-location: stream\hw_stream_object.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0cb2041a-844d-4ddb-9dab-e1c77c28835a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/HW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml, HW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], stream.hw_stream_object, PHW_STREAM_OBJECT, _HW_STREAM_OBJECT, *PHW_STREAM_OBJECT
+ms.keywords: "*PHW_STREAM_OBJECT, strmini/HW_STREAM_OBJECT, PHW_STREAM_OBJECT, _HW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], HW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], stream.hw_stream_object, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	HW_STREAM_OBJECT
 product: Windows
 targetos: Windows

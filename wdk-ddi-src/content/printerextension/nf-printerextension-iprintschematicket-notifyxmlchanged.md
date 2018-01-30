@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NotifyXmlChanged, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket, print.iprintschematicket_notifyxmlchanged, IPrintSchemaTicket::NotifyXmlChanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
+ms.keywords: IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket, print.iprintschematicket_notifyxmlchanged, NotifyXmlChanged method [Print Devices], printerextension/IPrintSchemaTicket::NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaTicket.NotifyXmlChanged
 product: Windows
 targetos: Windows

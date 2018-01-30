@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PM_WOL_PACKET
-title: _NDIS_PM_WOL_PACKET
+title: "_NDIS_PM_WOL_PACKET"
 author: windows-driver-content
 description: The NDIS_PM_WOL_PACKET enumeration identifies the type of a wake-on-LAN (WOL) packet.
 old-location: netvista\ndis_pm_wol_packet.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 154a9d3d-4bb9-4c63-a820-816b254c69c2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisPMWoLPacketUnspecified, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketMagicPacket, NdisPMWoLPacketIPv4TcpSyn, *PNDIS_PM_WOL_PACKET, ntddndis/NDIS_PM_WOL_PACKET, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketEapolRequestIdMessage, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketBitmapPattern, PNDIS_PM_WOL_PACKET, ntddndis/PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketIPv4TcpSyn, _NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketUnspecified, NDIS_PM_WOL_PACKET, NdisPMWoLPacketIPv6TcpSyn, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, netvista.ndis_pm_wol_packet, ntddndis/NdisPMWoLPacketMaximum, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, NdisPMWoLPacketMaximum, NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketIPv6TcpSyn
+ms.keywords: "_NDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketIPv6TcpSyn, NDIS_PM_WOL_PACKET, ntddndis/NDIS_PM_WOL_PACKET, NdisPMWoLPacketEapolRequestIdMessage, *PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMaximum, ntddndis/PNDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NdisPMWoLPacketIPv4TcpSyn, PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMagicPacket, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketUnspecified, NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketMaximum, ntddndis/NdisPMWoLPacketBitmapPattern, netvista.ndis_pm_wol_packet"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PM_WOL_PACKET
 product: Windows
 targetos: Windows

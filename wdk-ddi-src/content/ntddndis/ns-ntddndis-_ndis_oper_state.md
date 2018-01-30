@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OPER_STATE
-title: _NDIS_OPER_STATE
+title: "_NDIS_OPER_STATE"
 author: windows-driver-content
 description: The NDIS_OPER_STATE structure provides the current operational state of an NDIS network interface.
 old-location: netvista\ndis_oper_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c08f8bcd-23fc-445c-9c42-e5c4edc75d78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_OPER_STATE, netvista.ndis_oper_state, ntddndis/PNDIS_OPER_STATE, PNDIS_OPER_STATE, _NDIS_OPER_STATE, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], NDIS_OPER_STATE, ntddndis/NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml
+ms.keywords: PNDIS_OPER_STATE, ntddndis/NDIS_OPER_STATE, *PNDIS_OPER_STATE, _NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_OPER_STATE, NDIS_OPER_STATE, netvista.ndis_oper_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_OPER_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_OPER_STATE, NDIS_OPER_STATE
+req.typenames: "*PNDIS_OPER_STATE, NDIS_OPER_STATE"
 ---
 
 # _NDIS_OPER_STATE structure
@@ -98,28 +98,28 @@ This member provides the reason why the
 
 
 
-##### - OperationalStatusFlags.NET_IF_OPER_STATUS_DOWN_NOT_AUTHENTICATED
+#### NET_IF_OPER_STATUS_DOWN_NOT_AUTHENTICATED
 
 The operational status is set to <b>NET_IF_OPER_STATUS_DOWN</b> because the default port of the
        miniport adapter is not authenticated.
 
 
-##### - OperationalStatusFlags.NET_IF_OPER_STATUS_DORMANT_LOW_POWER
+#### NET_IF_OPER_STATUS_DOWN_NOT_MEDIA_CONNECTED
 
-The operational status is set to <b>NET_IF_OPER_STATUS_DORMANT</b> because the miniport adapter is in a
-       low power state.
+The operational status is set to <b>NET_IF_OPER_STATUS_DOWN</b> because the miniport adapter is not in
+       a media-connected state.
 
 
-##### - OperationalStatusFlags.NET_IF_OPER_STATUS_DORMANT_PAUSED
+#### NET_IF_OPER_STATUS_DORMANT_PAUSED
 
 The operational status is set to <b>NET_IF_OPER_STATUS_DORMANT</b> because the miniport adapter is in
        the paused or pausing state.
 
 
-##### - OperationalStatusFlags.NET_IF_OPER_STATUS_DOWN_NOT_MEDIA_CONNECTED
+#### NET_IF_OPER_STATUS_DORMANT_LOW_POWER
 
-The operational status is set to <b>NET_IF_OPER_STATUS_DOWN</b> because the miniport adapter is not in
-       a media-connected state.
+The operational status is set to <b>NET_IF_OPER_STATUS_DORMANT</b> because the miniport adapter is in a
+       low power state.
 
 
 ## -remarks
@@ -140,11 +140,11 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

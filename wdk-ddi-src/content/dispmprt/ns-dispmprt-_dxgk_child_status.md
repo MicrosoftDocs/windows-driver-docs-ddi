@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_child_status, dispmprt/DXGK_CHILD_STATUS, _DXGK_CHILD_STATUS, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS structure pointer [Display Devices], DXGK_CHILD_STATUS, PDXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices]
+ms.keywords: PDXGK_CHILD_STATUS, _DXGK_CHILD_STATUS, dispmprt/DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], dispmprt/PDXGK_CHILD_STATUS, display.dxgk_child_status, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS structure pointer [Display Devices], DXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,13 +135,13 @@ An integer, created previously by the display miniport driver, that identifies t
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
 
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_LUNList
-title: _ISCSI_LUNList
+title: "_ISCSI_LUNList"
 author: windows-driver-content
 description: The ISCSI_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.
 old-location: storage\iscsi_lunlist.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c477f38-c24f-45df-ab02-62ee47c0957b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsidef/PISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices], structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, *PISCSI_LUNList, _ISCSI_LUNList, storage.iscsi_lunlist, ISCSI_LUNList, PISCSI_LUNList, ISCSI_LUNList structure [Storage Devices], iscsidef/ISCSI_LUNList
+ms.keywords: "_ISCSI_LUNList, PISCSI_LUNList, structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, ISCSI_LUNList, storage.iscsi_lunlist, iscsidef/PISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices], *PISCSI_LUNList, iscsidef/ISCSI_LUNList, ISCSI_LUNList structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsidef.h
-apiname: 
+apiname:
 -	ISCSI_LUNList
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_LUNList, ISCSI_LUNList
+req.typenames: ISCSI_LUNList, *PISCSI_LUNList
 ---
 
 # _ISCSI_LUNList structure

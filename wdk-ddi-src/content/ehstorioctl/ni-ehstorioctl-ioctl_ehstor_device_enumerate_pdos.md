@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8DF89C18-10CA-4E8B-8E2A-B373C80F7B39
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EnableEvents, IPrinterExtensionManager::EnableEvents, EnableEvents method [Print Devices], IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices], EnableEvents method, print.iprinterextensionmanager_enableevents, printerextension/IPrinterExtensionManager::EnableEvents, IPrinterExtensionManager, EnableEvents method [Print Devices]
+ms.keywords: printerextension/IPrinterExtensionManager::EnableEvents, EnableEvents method [Print Devices], IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], EnableEvents method, EnableEvents, IPrinterExtensionManager::EnableEvents, EnableEvents method [Print Devices], IPrinterExtensionManager interface, print.iprinterextensionmanager_enableevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterExtensionManager.EnableEvents
 product: Windows
 targetos: Windows

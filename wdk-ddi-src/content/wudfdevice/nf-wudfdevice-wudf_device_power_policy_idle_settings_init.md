@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 893F249B-ACD9-4262-93B6-890987A9F591
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wdf.wudf_device_power_policy_idle_settings_init, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, umdf.wudf_device_power_policy_idle_settings_init
+ms.keywords: wdf.wudf_device_power_policy_idle_settings_init, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, umdf.wudf_device_power_policy_idle_settings_init, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfdevice.h
-apiname: 
+apiname:
 -	WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
 product: Windows
 targetos: Windows

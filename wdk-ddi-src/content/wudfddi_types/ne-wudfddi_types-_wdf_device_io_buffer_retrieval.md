@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_DEVICE_IO_BUFFER_RETRIEVAL
-title: _WDF_DEVICE_IO_BUFFER_RETRIEVAL
+title: "_WDF_DEVICE_IO_BUFFER_RETRIEVAL"
 author: windows-driver-content
 description: The WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
 old-location: wdf\wdf_device_io_buffer_retrieval.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, wdf.wdf_device_io_buffer_retrieval, WdfDeviceIoBufferRetrievalInvalid, WdfDeviceIoBufferRetrievalCopyImmediately, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, WDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalDeferred, WdfDeviceIoBufferRetrievalMaximum, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, umdf.wdf_device_io_buffer_retrieval
+ms.keywords: WDF_DEVICE_IO_BUFFER_RETRIEVAL, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, WdfDeviceIoBufferRetrievalDeferred, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wdf.wdf_device_io_buffer_retrieval, WdfDeviceIoBufferRetrievalMaximum, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, umdf.wdf_device_io_buffer_retrieval, WdfDeviceIoBufferRetrievalCopyImmediately
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_DEVICE_IO_BUFFER_RETRIEVAL
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
+req.typenames: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL"
 req.product: Windows 10 or later.
 ---
 

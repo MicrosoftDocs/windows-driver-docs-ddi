@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasCreatePropContext, wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, image.wiascreatepropcontext
+ms.keywords: wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, wiasCreatePropContext, wiamdef/wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], image.wiascreatepropcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasCreatePropContext
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -171,11 +171,11 @@ WIA_IPA_FORMAT
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 555dd967-ea38-45fa-8e7f-5318ca5c6dd2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_EUTRAMRL_TAC, RIL_PARAM_EUTRAMRL_RSRQ, rilapitypes/RIL_PARAM_EUTRAMRL_PHYSCELLID, rilapitypes/RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_MNC, rilapitypes/RILEUTRAMRLPARAMMASK, RIL_PARAM_EUTRAMRL_EARFCN, RILEUTRAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUTRAMRL_ALL, RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_TAC, rilapitypes/RIL_PARAM_EUTRAMRL_RSRP, netvista.rileutramrlparammask, RIL_PARAM_EUTRAMRL_CELLID, RIL_PARAM_EUTRAMRL_RSRP, rilapitypes/RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_MNC, rilapitypes/RIL_PARAM_EUTRAMRL_MCC, rilapitypes/RIL_PARAM_EUTRAMRL_CELLID, RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_RSRQ, RIL_PARAM_EUTRAMRL_MCC
+ms.keywords: rilapitypes/RIL_PARAM_EUTRAMRL_RSRQ, RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_MNC, rilapitypes/RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_MCC, RIL_PARAM_EUTRAMRL_RSRQ, rilapitypes/RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_CELLID, rilapitypes/RIL_PARAM_EUTRAMRL_TAC, netvista.rileutramrlparammask, rilapitypes/RIL_PARAM_EUTRAMRL_RSRP, RIL_PARAM_EUTRAMRL_RSRP, RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_MCC, rilapitypes/RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_MNC, RIL_PARAM_EUTRAMRL_CELLID, RILEUTRAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUTRAMRL_TAC, RIL_PARAM_EUTRAMRL_EARFCN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEUTRAMRLPARAMMASK
 product: Windows
 targetos: Windows

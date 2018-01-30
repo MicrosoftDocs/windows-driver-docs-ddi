@@ -2,13 +2,13 @@
 UID: NE:ksproxy.KSALLOCATORMODE
 title: KSALLOCATORMODE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksallocatormode.htm
 old-project: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksallocatormode, ksproxy/KsAllocatorMode_User, KsAllocatorMode_User, KSALLOCATORMODE, ksproxy/KSALLOCATORMODE, KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_Kernel, KSALLOCATORMODE enumeration [Streaming Media Devices]
+ms.keywords: KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], ksproxy/KsAllocatorMode_User, KsAllocatorMode_Kernel, KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, stream.ksallocatormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksproxy.h
-apiname: 
+apiname:
 -	KSALLOCATORMODE
 product: Windows
 targetos: Windows

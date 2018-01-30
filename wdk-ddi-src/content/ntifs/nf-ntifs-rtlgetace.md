@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlGetAce
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
 <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
  
 

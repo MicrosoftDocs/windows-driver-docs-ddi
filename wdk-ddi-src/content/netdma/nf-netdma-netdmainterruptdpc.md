@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netvista.netdmainterruptdpc, netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, NetDmaInterruptDpc
+ms.keywords: NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netvista.netdmainterruptdpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, NetDmaInterruptDpc, netdma/NetDmaInterruptDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NetDmaInterruptDpc
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
 ---
 
 # NetDmaInterruptDpc function

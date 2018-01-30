@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_METHOD
-title: _WWAN_AUTH_METHOD
+title: "_WWAN_AUTH_METHOD"
 author: windows-driver-content
 description: The WWAN_AUTH_METHOD enumeration lists supported authentication methods.
 old-location: netvista\wwan_auth_method.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, WwanAuthSim, netvista.wwan_auth_method, WwanAuthAkaPrime, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthMethodMax, wwan/WwanAuthAka, _WWAN_AUTH_METHOD, *PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, wwan/WwanAuthSim, WwanAuthAka
+ms.keywords: netvista.wwan_auth_method, wwan/WwanAuthMethodMax, WwanAuthSim, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAka, *PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, wwan/WwanAuthSim, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, WwanAuthAkaPrime, WwanAuthMethodMax, wwan/WWAN_AUTH_METHOD, _WWAN_AUTH_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_METHOD
 product: Windows
 targetos: Windows
@@ -100,9 +100,9 @@ The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> an
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
-
 <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
+
+<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
 
  
 

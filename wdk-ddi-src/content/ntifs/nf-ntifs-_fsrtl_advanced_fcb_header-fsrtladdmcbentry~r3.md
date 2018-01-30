@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4bf256b9-c0a0-4280-a283-9a2ab3c2b8cb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_73de29f7-837c-40a4-b224-ab7266794840.xml, FsRtlAddMcbEntry, FsRtlAddMcbEntry function [Installable File System Drivers], ntifs/FsRtlAddMcbEntry, ifsk.fsrtladdmcbentry
+ms.keywords: ntifs/FsRtlAddMcbEntry, fsrtlref_73de29f7-837c-40a4-b224-ab7266794840.xml, ifsk.fsrtladdmcbentry, FsRtlAddMcbEntry function [Installable File System Drivers], FsRtlAddMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlAddMcbEntry
 product: Windows
 targetos: Windows

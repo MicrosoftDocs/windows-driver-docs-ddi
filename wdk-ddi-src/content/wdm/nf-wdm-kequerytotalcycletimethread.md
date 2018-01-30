@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], wdm/KeQueryTotalCycleTimeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KeQueryTotalCycleTimeThread
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 99de930a-0d01-4177-b0d9-4692cc570303
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinstaller/WdfPreDeviceInstallEx, DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml, WdfPreDeviceInstallEx, WdfPreDeviceInstallEx function, kmdf.wdfpredeviceinstallex, wdf.wdfpredeviceinstallex, PFN_WDFPREDEVICEINSTALLEX
+ms.keywords: WdfPreDeviceInstallEx function, PFN_WDFPREDEVICEINSTALLEX, WdfPreDeviceInstallEx, wdf.wdfpredeviceinstallex, kmdf.wdfpredeviceinstallex, wdfinstaller/WdfPreDeviceInstallEx, DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	N/A
 -	N/A.dll
-apiname: 
+apiname:
 -	WdfPreDeviceInstallEx
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -118,9 +118,9 @@ If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="..\wdfi
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
-
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
+
+<a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
 
  
 

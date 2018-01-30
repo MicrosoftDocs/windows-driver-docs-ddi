@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_TRANSMIT_QUEUE_COUNTER
-title: _NDIS_PD_TRANSMIT_QUEUE_COUNTER
+title: "_NDIS_PD_TRANSMIT_QUEUE_COUNTER"
 author: windows-driver-content
 description: This structure is used to hold counter information for a transmit queue.
 old-location: netvista\ndis_pd_transmit_queue_counter.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 944E824D-8092-4165-97A6-A35858EA0CEB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_transmit_queue_counter, _NDIS_PD_TRANSMIT_QUEUE_COUNTER, NDIS_PD_TRANSMIT_QUEUE_COUNTER, PNDIS_PD_TRANSMIT_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_TRANSMIT_QUEUE_COUNTER, NDIS_PD_TRANSMIT_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_TRANSMIT_QUEUE_COUNTER, PNDIS_PD_TRANSMIT_QUEUE_COUNTER
+ms.keywords: ndis/NDIS_PD_TRANSMIT_QUEUE_COUNTER, NDIS_PD_TRANSMIT_QUEUE_COUNTER, _NDIS_PD_TRANSMIT_QUEUE_COUNTER, NDIS_PD_TRANSMIT_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], netvista.ndis_pd_transmit_queue_counter, ndis/PNDIS_PD_TRANSMIT_QUEUE_COUNTER, PNDIS_PD_TRANSMIT_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PD_TRANSMIT_QUEUE_COUNTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_TRANSMIT_QUEUE_COUNTER
 product: Windows
 targetos: Windows

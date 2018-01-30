@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, MmCanFileBeTruncated, ntifs/MmCanFileBeTruncated
+ms.keywords: MmCanFileBeTruncated routine [Installable File System Drivers], mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, ifsk.mmcanfilebetruncated, MmCanFileBeTruncated, ntifs/MmCanFileBeTruncated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmCanFileBeTruncated
 product: Windows
 targetos: Windows
@@ -113,9 +113,9 @@ One or more users hold references to the data section for the file, and <i>NewFi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
-
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
  
 

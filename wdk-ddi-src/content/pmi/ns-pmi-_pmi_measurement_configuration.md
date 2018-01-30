@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_MEASUREMENT_CONFIGURATION
-title: _PMI_MEASUREMENT_CONFIGURATION
+title: "_PMI_MEASUREMENT_CONFIGURATION"
 author: windows-driver-content
 description: The PMI_MEASUREMENT_CONFIGURATION structure contains information about the current power measurement configuration of a power meter.
 old-location: powermeter\pmi_measurement_configuration.htm
@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION, _PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], pmi/PPMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, powermeter.pmi_measurement_configuration, *PPMI_MEASUREMENT_CONFIGURATION
+ms.keywords: PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], *PPMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, pmi/PPMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, _PMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_MEASUREMENT_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -81,11 +81,11 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
  
 

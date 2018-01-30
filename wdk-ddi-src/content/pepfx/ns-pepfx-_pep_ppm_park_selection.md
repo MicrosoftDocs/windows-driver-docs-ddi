@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PARK_SELECTION
-title: _PEP_PPM_PARK_SELECTION
+title: "_PEP_PPM_PARK_SELECTION"
 author: windows-driver-content
 description: The PEP_PPM_PARK_SELECTION structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption.
 old-location: kernel\pep_ppm_park_selection.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1957D03D-7C85-4A58-A5CC-94D3C9913F5A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PARK_SELECTION, pepfx/PEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, PEP_PPM_PARK_SELECTION
+ms.keywords: PPEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION, _PEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_park_selection, PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_PARK_SELECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_PARK_SELECTION
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION
+req.typenames: "*PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION"
 ---
 
 # _PEP_PPM_PARK_SELECTION structure
@@ -92,14 +92,14 @@ This number does <u>not</u> include processors in the <b>Processors</b> array fo
 The Processors array is guaranteed to contain the processors in increasing order by processor index.
 
 
-##### - Processors.On output
-
-Returns the PEP parking preference for each processor.
-
-
-##### - Processors.On input
+#### On input
 
 Each array element indicates the parking preferences for a particular processor.
+
+
+#### On output
+
+Returns the PEP parking preference for each processor.
 
 
 ## -remarks

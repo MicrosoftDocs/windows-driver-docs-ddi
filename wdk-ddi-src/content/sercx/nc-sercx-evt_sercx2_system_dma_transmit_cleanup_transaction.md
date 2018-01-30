@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	EvtSerCx2SystemDmaTransmitCleanupTransaction
 product: Windows
 targetos: Windows
-req.typenames: *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
+req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,11 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcleanuptransactioncomplete.md">SerCx2SystemDmaTransmitCleanupTransactionComplete</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
  
 

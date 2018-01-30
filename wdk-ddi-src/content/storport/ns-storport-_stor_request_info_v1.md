@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_REQUEST_INFO_V1
-title: _STOR_REQUEST_INFO_V1
+title: "_STOR_REQUEST_INFO_V1"
 author: windows-driver-content
 description: The _STOR_REQUEST_INFO_V1 structure contains details about the storage driver IO request associated with a SCSI request block (SRB). _STOR_REQUEST_INFO_V1 is returned by the StorPortGetRequestInfo routine.
 old-location: storage\stor_request_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storport/_STOR_REQUEST_INFO_V1, StorIoPriorityLow, StorIoPriorityVeryLow, REQUEST_INFO_SEQUENTIAL_IO_FLAG, STOR_REQUEST_INFO_V1 structure [Storage Devices], REQUEST_INFO_WRITE_THROUGH_FLAG, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], STOR_REQUEST_INFO_V1, storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, StorIoPriorityNormal, _STOR_REQUEST_INFO_V1, StorIoPriorityHigh, StorIoPriorityCritical, *PSTOR_REQUEST_INFO_V1, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG
+ms.keywords: REQUEST_INFO_NO_CACHE_FLAG, StorIoPriorityHigh, REQUEST_INFO_SEQUENTIAL_IO_FLAG, storport/PSTOR_REQUEST_INFO_V1, StorIoPriorityNormal, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, REQUEST_INFO_TEMPORARY_FLAG, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], STOR_REQUEST_INFO_V1 structure [Storage Devices], STOR_REQUEST_INFO_V1, StorIoPriorityVeryLow, StorIoPriorityLow, _STOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, StorIoPriorityCritical, REQUEST_INFO_PAGING_IO_FLAG, *PSTOR_REQUEST_INFO_V1, REQUEST_INFO_WRITE_THROUGH_FLAG, storport/_STOR_REQUEST_INFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_REQUEST_INFO_V1
 product: Windows
 targetos: Windows

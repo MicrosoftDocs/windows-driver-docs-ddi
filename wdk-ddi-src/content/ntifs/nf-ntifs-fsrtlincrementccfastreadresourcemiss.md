@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 38264afe-e324-455d-b81a-7dafae8abc1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlincrementccfastreadresourcemiss, ntifs/FsRtlIncrementCcFastReadResourceMiss, fsrtlref_4eb3905b-e599-451e-ba6c-29b800b277a5.xml, FsRtlIncrementCcFastReadResourceMiss routine [Installable File System Drivers], FsRtlIncrementCcFastReadResourceMiss
+ms.keywords: FsRtlIncrementCcFastReadResourceMiss, fsrtlref_4eb3905b-e599-451e-ba6c-29b800b277a5.xml, ifsk.fsrtlincrementccfastreadresourcemiss, FsRtlIncrementCcFastReadResourceMiss routine [Installable File System Drivers], ntifs/FsRtlIncrementCcFastReadResourceMiss
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlIncrementCcFastReadResourceMiss
 product: Windows
 targetos: Windows
@@ -89,13 +89,13 @@ File system drivers should call this function to update the performance counter 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnowait.md">FsRtlIncrementCcFastReadNoWait</a>
 
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadwait.md">FsRtlIncrementCcFastReadWait</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
 
  
 

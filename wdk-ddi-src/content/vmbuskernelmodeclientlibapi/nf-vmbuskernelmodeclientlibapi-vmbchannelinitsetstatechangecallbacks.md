@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4E6088EA-7081-4B80-8F83-15B39A0F30AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelInitSetStateChangeCallbacks, netvista.vmbchannelinitsetstatechangecallbacks, VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks, netvista.vmbchannelinitsetstatechangecallbacks, VmbChannelInitSetStateChangeCallbacks, VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelInitSetStateChangeCallbacks
 product: Windows
 targetos: Windows

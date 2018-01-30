@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_BASE_STATIONS_INFO
-title: _WWAN_BASE_STATIONS_INFO
+title: "_WWAN_BASE_STATIONS_INFO"
 author: windows-driver-content
 description: The WWAN_BASE_STATIONS_INFO structure represents information about both serving and neighboring base stations.
 old-location: netvista\wwan_base_stations_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66460B28-C2B4-4F05-A133-31A753AF9489
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_BASE_STATIONS_INFO, *PWWAN_BASE_STATIONS_INFO, netvista.wwan_base_stations_info, _WWAN_BASE_STATIONS_INFO, wwan/PWWAN_BASE_STATIONS_INFO, WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_BASE_STATIONS_INFO, wwan/WWAN_BASE_STATIONS_INFO, _WWAN_BASE_STATIONS_INFO, wwan/PWWAN_BASE_STATIONS_INFO, WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_base_stations_info, *PWWAN_BASE_STATIONS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_BASE_STATIONS_INFO
 product: Windows
 targetos: Windows
-req.typenames: WWAN_BASE_STATIONS_INFO, *PWWAN_BASE_STATIONS_INFO
+req.typenames: "*PWWAN_BASE_STATIONS_INFO, WWAN_BASE_STATIONS_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -195,29 +195,29 @@ The data buffer containing the base stations information. This buffer is where t
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
-
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
-
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
-
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
-<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
-
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info.md">NDIS_WWAN_BASE_STATIONS_INFO</a>
-
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
+<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
 
 <a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info.md">NDIS_WWAN_BASE_STATIONS_INFO</a>
 
 <a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+
+<a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
+
+<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+
+<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
+
+<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
 
  
 

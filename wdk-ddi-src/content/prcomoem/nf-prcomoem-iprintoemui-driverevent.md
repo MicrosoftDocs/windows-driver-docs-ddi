@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml, DriverEvent, prcomoem/IPrintOemUI::DriverEvent, IPrintOemUI::DriverEvent, IPrintOemUI, IPrintOemUI interface [Print Devices], DriverEvent method, DriverEvent method [Print Devices], IPrintOemUI interface, DriverEvent method [Print Devices], print.iprintoemui_driverevent
+ms.keywords: DriverEvent method [Print Devices], IPrintOemUI interface, DriverEvent method [Print Devices], IPrintOemUI, prcomoem/IPrintOemUI::DriverEvent, print.iprintoemui_driverevent, IPrintOemUI interface [Print Devices], DriverEvent method, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml, IPrintOemUI::DriverEvent, DriverEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.DriverEvent
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

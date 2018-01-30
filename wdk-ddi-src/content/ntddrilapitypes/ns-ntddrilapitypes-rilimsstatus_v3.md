@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4c0ee205-2508-4414-afa5-cb6e7a358fc8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSSTATUS, *LPRILIMSSTATUS_V3, netvista.rilimsstatus_v3, *LPRILIMSSTATUS, ntddrilapitypes/RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], RILIMSSTATUS_V3
+ms.keywords: RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], RILIMSSTATUS, *LPRILIMSSTATUS_V3, *LPRILIMSSTATUS, netvista.rilimsstatus_v3, RILIMSSTATUS_V3, ntddrilapitypes/RILIMSSTATUS_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILIMSSTATUS_V3
 product: Windows
 targetos: Windows
-req.typenames: RILIMSSTATUS, *LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, RILIMSSTATUS_V3
+req.typenames: RILIMSSTATUS_V3, *LPRILIMSSTATUS, RILIMSSTATUS, *LPRILIMSSTATUS_V3
 ---
 
 # RILIMSSTATUS_V3 structure

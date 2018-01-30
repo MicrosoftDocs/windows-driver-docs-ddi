@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoProcessorFilterRange
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE callback
@@ -131,9 +131,9 @@ This callback function does not return a value.
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
 
  
 

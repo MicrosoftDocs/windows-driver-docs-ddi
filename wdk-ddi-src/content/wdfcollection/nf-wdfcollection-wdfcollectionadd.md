@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcollectionadd, WdfCollectionAdd method, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd, WdfCollectionAdd, PFN_WDFCOLLECTIONADD, DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml
+ms.keywords: WdfCollectionAdd method, wdfcollection/WdfCollectionAdd, DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, wdf.wdfcollectionadd, kmdf.wdfcollectionadd, WdfCollectionAdd, PFN_WDFCOLLECTIONADD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfCollectionAdd
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
+req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E97C3EA9-2244-458E-BE5E-6312023118A3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlint8add, RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8Add
+ms.keywords: ntintsafe/RtlInt8Add, RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], kernel.rtlint8add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlInt8Add
 product: Windows
 targetos: Windows

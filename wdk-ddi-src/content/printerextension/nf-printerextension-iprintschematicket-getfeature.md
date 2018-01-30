@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFeature method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::GetFeature, IPrintSchemaTicket, print.iprintschematicket_getfeature, GetFeature method [Print Devices], IPrintSchemaTicket interface [Print Devices], GetFeature method, GetFeature, printerextension/IPrintSchemaTicket::GetFeature
+ms.keywords: printerextension/IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, GetFeature method [Print Devices], IPrintSchemaTicket::GetFeature, GetFeature method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket, GetFeature, IPrintSchemaTicket interface [Print Devices], GetFeature method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaTicket.GetFeature
 product: Windows
 targetos: Windows
@@ -106,13 +106,13 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 <a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
 
-<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 

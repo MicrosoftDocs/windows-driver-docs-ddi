@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_GO_INTENT
-title: _DOT11_WFD_GO_INTENT
+title: "_DOT11_WFD_GO_INTENT"
 author: windows-driver-content
 description: The DOT11_WFD_GO_INTENT structure represents the Group Intent value used during Group Owner Negotiation
 old-location: netvista\_dot11_wfd_go_intent.htm
@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: 8E4F88EF-04A9-4313-AE6A-2467DA08044A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT, windot11/PDOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT, _DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_go_intent
+ms.keywords: "_DOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT, netvista._dot11_wfd_go_intent, PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_GO_INTENT, windot11/DOT11_WFD_GO_INTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_WFD_GO_INTENT
 product: Windows
 targetos: Windows
@@ -80,12 +80,12 @@ typedef struct _DOT11_WFD_GO_INTENT {
 
 
 
-#### - Intent:7
-
-Group ownership intent level. The value of the local device intent is compared to the remote device intent to negociate ownership.
-
-
 #### - TieBreaker:1
 
 If set, indicates that group ownership is granted.
+
+
+#### - Intent:7
+
+Group ownership intent level. The value of the local device intent is compared to the remote device intent to negociate ownership.
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DRIVER_OBJECT
-title: _DRIVER_OBJECT
+title: "_DRIVER_OBJECT"
 author: windows-driver-content
 description: Each driver object represents the image of a loaded kernel-mode driver.
 old-location: kernel\driver_object.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DRIVER_OBJECT, _DRIVER_OBJECT, *PDRIVER_OBJECT, wdm/PDRIVER_OBJECT, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, PDRIVER_OBJECT, DRIVER_OBJECT, kernel.driver_object, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.driver_object, wdm/DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], wdm/PDRIVER_OBJECT, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, _DRIVER_OBJECT, DRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], PDRIVER_OBJECT, *PDRIVER_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DRIVER_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_OBJECT, *PDRIVER_OBJECT
+req.typenames: "*PDRIVER_OBJECT, DRIVER_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -205,13 +205,13 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73402b35-85ce-4bb1-8ec5-619805d5a3e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortReadPortUlong, VideoPortReadPortUlong function [Display Devices], display.videoportreadportulong, VideoPortReadPortUlong, VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml
+ms.keywords: display.videoportreadportulong, VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, VideoPortReadPortUlong function [Display Devices], video/VideoPortReadPortUlong, VideoPortReadPortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadPortUlong function

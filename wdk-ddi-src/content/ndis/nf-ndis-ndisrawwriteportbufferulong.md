@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97aa977-289b-4a46-b724-9a5c1b468b74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, netvista.ndisrawwriteportbufferulong, NdisRawWritePortBufferUlong, ndis/NdisRawWritePortBufferUlong
+ms.keywords: ndis/NdisRawWritePortBufferUlong, miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisrawwriteportbufferulong, NdisRawWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisRawWritePortBufferUlong
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRawWritePortBufferUlong macro
@@ -102,15 +102,15 @@ A miniport driver calls
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferulong.md">NdisRawReadPortBufferUlong</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
  
 

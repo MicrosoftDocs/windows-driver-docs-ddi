@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockBreakToNone, FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone, FltOplockBreakToNone routine [Installable File System Drivers]
+ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, fltkernel/FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], ifsk.fltoplockbreaktonone, FltOplockBreakToNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltOplockBreakToNone
 product: Windows
 targetos: Windows
@@ -109,6 +109,16 @@ This routine is declared as follows:
 
 
 
+#### CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+#### Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
+
+
 ### -param PrePostCallbackDataRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
@@ -132,22 +142,12 @@ This routine is declared as follows:
 
 
 
-##### - WaitCompletionRoutine.CallbackData
+#### CallbackData
 
 A pointer to the callback data structure for the I/O operation. 
 
 
-##### - WaitCompletionRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
-
-
-##### - PrePostCallbackDataRoutine.CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-##### - PrePostCallbackDataRoutine.Context
+#### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
 
@@ -207,13 +207,13 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
  
 

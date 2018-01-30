@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::RemoveFlags, IDebugBreakpoint2::RemoveFlags, debugger.removeflags, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::RemoveFlags, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, RemoveFlags
+ms.keywords: dbgeng/IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint2, IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, RemoveFlags, debugger.removeflags, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint::RemoveFlags, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.RemoveFlags
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::RemoveFlags method

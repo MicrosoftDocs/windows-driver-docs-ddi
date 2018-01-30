@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 01654107-29a1-4f34-bb9a-a17fe36a84fe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.timecode_sample, tagTIMECODE_SAMPLE, *PTIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], TIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml, ksmedia/TIMECODE_SAMPLE
+ms.keywords: "*PTIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], ksmedia/TIMECODE_SAMPLE, TIMECODE_SAMPLE, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml, stream.timecode_sample"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	TIMECODE_SAMPLE
 product: Windows
 targetos: Windows

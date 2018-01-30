@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVD_YUV
-title: _KS_DVD_YUV
+title: "_KS_DVD_YUV"
 author: windows-driver-content
 description: The KS_DVD_YUV structure is used to describe a color in the YUV colorspace.
 old-location: stream\ks_dvd_yuv.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b155d09-6fb2-4c6c-bde6-7eadeb09bc40
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_DVD_YUV, _KS_DVD_YUV, *PKS_DVD_YUV, dvdref_ea41e501-8a59-4d54-8dde-792ce2673b8c.xml, stream.ks_dvd_yuv, PKS_DVD_YUV structure pointer [Streaming Media Devices], KS_DVD_YUV, KS_DVD_YUV structure [Streaming Media Devices], ksmedia/PKS_DVD_YUV, ksmedia/KS_DVD_YUV
+ms.keywords: "*PKS_DVD_YUV, PKS_DVD_YUV, KS_DVD_YUV structure [Streaming Media Devices], stream.ks_dvd_yuv, PKS_DVD_YUV structure pointer [Streaming Media Devices], ksmedia/KS_DVD_YUV, ksmedia/PKS_DVD_YUV, dvdref_ea41e501-8a59-4d54-8dde-792ce2673b8c.xml, _KS_DVD_YUV, KS_DVD_YUV"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVD_YUV
 product: Windows
 targetos: Windows

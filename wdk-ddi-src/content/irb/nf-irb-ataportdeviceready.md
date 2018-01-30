@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 65cbed1a-35f9-44f7-941a-ffc87cc79649
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortDeviceReady, storage.ataportdeviceready, irb/AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices], atartns_28cebf8c-cdda-46f4-9785-184552630769.xml
+ms.keywords: AtaPortDeviceReady, storage.ataportdeviceready, atartns_28cebf8c-cdda-46f4-9785-184552630769.xml, irb/AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaPortDeviceReady
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 5086CA33-58B0-4F3A-9AE4-428CCE6EFB6B
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX structure pointer [ACPI Devices], acpiioct/PACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V2_EX, acpi.acpi_eval_input_buffer_v2_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_V2_EX, _ACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX"
+ms.keywords: acpiioct/ACPI_EVAL_INPUT_BUFFER_V2_EX, ACPI_EVAL_INPUT_BUFFER_V2_EX structure [ACPI Devices], acpi.acpi_eval_input_buffer_v2_ex, PACPI_EVAL_INPUT_BUFFER_V2_EX, PACPI_EVAL_INPUT_BUFFER_V2_EX structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V2_EX, *PACPI_EVAL_INPUT_BUFFER_V2_EX, _ACPI_EVAL_INPUT_BUFFER_V2_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

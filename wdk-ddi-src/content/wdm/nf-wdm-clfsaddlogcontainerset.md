@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 252dc455-e2d9-40db-83ea-a53e5ff8eda0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsAddLogContainerSet, Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml, ClfsAddLogContainerSet, kernel.clfsaddlogcontainerset, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsAddLogContainerSet, kernel.clfsaddlogcontainerset, Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml, wdm/ClfsAddLogContainerSet, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsAddLogContainerSet
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ea6f764-b884-4764-a2ff-19d0170f9b31
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/ZwOpenProcessTokenEx, ntifs/NtOpenProcessTokenEx, ZwOpenProcessTokenEx, ZwOpenProcessTokenEx routine [Kernel-Mode Driver Architecture], k111_ab983257-9c27-4f73-af7c-d903de3a33d3.xml, NtOpenProcessTokenEx, kernel.zwopenprocesstokenex
+ms.keywords: ntifs/ZwOpenProcessTokenEx, ZwOpenProcessTokenEx routine [Kernel-Mode Driver Architecture], kernel.zwopenprocesstokenex, k111_ab983257-9c27-4f73-af7c-d903de3a33d3.xml, ntifs/NtOpenProcessTokenEx, ZwOpenProcessTokenEx, NtOpenProcessTokenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenProcessTokenEx
 -	NtOpenProcessTokenEx
 product: Windows
@@ -209,17 +209,17 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="..\ntifs\nf-ntifs-zwopenthreadtokenex.md">ZwOpenThreadTokenEx</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-zwopenthreadtokenex.md">ZwOpenThreadTokenEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

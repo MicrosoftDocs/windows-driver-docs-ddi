@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 300cdd3b-0c12-45e3-ae45-c26084f3ec12
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReleaseSpinLock, wdm/KeReleaseSpinLock, kernel.kereleasespinlock, k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeReleaseSpinLock, k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, kernel.kereleasespinlock, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture], KeReleaseSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+apiname:
 -	KeReleaseSpinLock
 product: Windows
 targetos: Windows
@@ -82,14 +82,14 @@ TBD
 
 
 
-#### - NewIrql [in]
-
-Specifies the IRQL value saved from the preceding call to <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>.
-
-
 #### - SpinLock [in, out]
 
 Pointer to a spin lock for which the caller provides the storage.
+
+
+#### - NewIrql [in]
+
+Specifies the IRQL value saved from the preceding call to <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>.
 
 
 ## -remarks

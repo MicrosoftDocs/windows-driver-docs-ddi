@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ff1add9-4b9e-42dd-b3e2-53d891788d43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PsReferencePrimaryToken, PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml, ifsk.psreferenceprimarytoken, PsReferencePrimaryToken routine [Installable File System Drivers]
+ms.keywords: PsReferencePrimaryToken, ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml, PsReferencePrimaryToken routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsReferencePrimaryToken
 product: Windows
 targetos: Windows
@@ -100,13 +100,13 @@ This routine is available starting with Microsoft Windows 2000.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
 
  
 

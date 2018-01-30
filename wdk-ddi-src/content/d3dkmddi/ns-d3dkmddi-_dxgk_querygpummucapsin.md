@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], display.dxgk_querygpummucapsin"
+ms.keywords: display.dxgk_querygpummucapsin, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, _DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], DXGK_QUERYGPUMMUCAPSIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

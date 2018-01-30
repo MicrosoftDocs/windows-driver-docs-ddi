@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], debugger.getoutputcallbackswide, dbgeng/IDebugClient5::GetOutputCallbacksWide, IDebugClient5::GetOutputCallbacksWide, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5
+ms.keywords: GetOutputCallbacksWide method [Windows Debugging], IDebugClient5, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide, GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetOutputCallbacksWide, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.GetOutputCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::GetOutputCallbacksWide method
@@ -111,11 +111,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
  
 

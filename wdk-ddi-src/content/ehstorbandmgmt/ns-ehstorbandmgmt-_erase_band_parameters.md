@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._ERASE_BAND_PARAMETERS
-title: _ERASE_BAND_PARAMETERS
+title: "_ERASE_BAND_PARAMETERS"
 author: windows-driver-content
 description: The ERASE_BAND_PARAMETERS structure contains the selection criteria for a band to erase. Additionally, a new authentication key can be set. This structure is input for an IOCTL_EHSTOR_BANDMGMT_ERASE_BAND request.
 old-location: storage\erase_band_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorbandmgmt/ERASE_BAND_PARAMETERS, storage.erase_band_parameters, ERASEBAND_AUTHKEY_CACHING_ENABLED, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS structure [Storage Devices], ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
+ms.keywords: ERASEBAND_AUTHKEY_CACHING_ENABLED, storage.erase_band_parameters, ERASE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], *PERASE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	ERASE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
+req.typenames: "*PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS"
 ---
 
 # _ERASE_BAND_PARAMETERS structure
@@ -134,14 +134,14 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new autho
 To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-##### - NewAuthKeyOffset.Key
-
-A variable-length byte array that contains the key data.
-
-
-##### - NewAuthKeyOffset.KeySize
+#### KeySize
 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
+
+
+#### Key
+
+A variable-length byte array that contains the key data.
 
 
 ## -remarks
@@ -157,9 +157,9 @@ The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> 
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
  
 

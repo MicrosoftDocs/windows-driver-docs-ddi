@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._MONITOR_DISPLAY_STATE
-title: _MONITOR_DISPLAY_STATE
+title: "_MONITOR_DISPLAY_STATE"
 author: windows-driver-content
 description: Indicates the power state of the monitor being displayed on.
 old-location: kernel\monitor_display_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PowerMonitorOn, *PMONITOR_DISPLAY_STATE, kernel.monitor_display_state, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerMonitorOn, wdm/PowerMonitorOff, wdm/PowerMonitorDim, _MONITOR_DISPLAY_STATE, PowerMonitorOff, MONITOR_DISPLAY_STATE, wdm/MONITOR_DISPLAY_STATE, PowerMonitorDim
+ms.keywords: "*PMONITOR_DISPLAY_STATE, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorOff, wdm/PowerMonitorDim, MONITOR_DISPLAY_STATE, kernel.monitor_display_state, PowerMonitorOn, PowerMonitorOff, PowerMonitorDim, wdm/PowerMonitorOn, _MONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	MONITOR_DISPLAY_STATE
 product: Windows
 targetos: Windows
-req.typenames: MONITOR_DISPLAY_STATE, *PMONITOR_DISPLAY_STATE
+req.typenames: "*PMONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROTOCOL_COMMAND
-title: _STORAGE_PROTOCOL_COMMAND
+title: "_STORAGE_PROTOCOL_COMMAND"
 author: windows-driver-content
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
 old-location: storage\storage_protocol_command.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, storage.storage_protocol_command, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], _STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices]
+ms.keywords: storage.storage_protocol_command, _STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PROTOCOL_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
+req.typenames: "*PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND"
 ---
 
 # _STORAGE_PROTOCOL_COMMAND structure

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetDirtyPages routine [Installable File System Drivers], ifsk.ccgetdirtypages, CcGetDirtyPages, ntifs/CcGetDirtyPages, ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml
+ms.keywords: ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, CcGetDirtyPages routine [Installable File System Drivers], CcGetDirtyPages, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcGetDirtyPages
 product: Windows
 targetos: Windows
@@ -99,6 +99,41 @@ VOID (*PDIRTY_PAGE_ROUTINE) (
 </table></span></div>
 
 
+#### FileObject
+
+Pointer to the file object for the file containing the dirty page. 
+
+
+#### FileOffset
+
+Pointer to a variable that specifies the starting byte offset of the dirty page within the cached file. 
+
+
+#### Length
+
+Length, in bytes, of the dirty page. 
+
+
+#### OldestLsn
+
+Oldest logical sequence number (LSN) found in the dirty page. 
+
+
+#### NewestLsn
+
+Newest LSN found in the dirty page. 
+
+
+#### Context1
+
+First context parameter. 
+
+
+#### Context2
+
+Second context parameter. 
+
+
 ### -param Context1 [in]
 
 First context parameter to be passed to the <i>DirtyPageRoutine</i>. 
@@ -107,41 +142,6 @@ First context parameter to be passed to the <i>DirtyPageRoutine</i>.
 ### -param Context2 [in]
 
 Second context parameter to be passed to the <i>DirtyPageRoutine</i>. 
-
-
-##### - DirtyPageRoutine.FileObject
-
-Pointer to the file object for the file containing the dirty page. 
-
-
-##### - DirtyPageRoutine.Context2
-
-Second context parameter. 
-
-
-##### - DirtyPageRoutine.FileOffset
-
-Pointer to a variable that specifies the starting byte offset of the dirty page within the cached file. 
-
-
-##### - DirtyPageRoutine.OldestLsn
-
-Oldest logical sequence number (LSN) found in the dirty page. 
-
-
-##### - DirtyPageRoutine.Context1
-
-First context parameter. 
-
-
-##### - DirtyPageRoutine.Length
-
-Length, in bytes, of the dirty page. 
-
-
-##### - DirtyPageRoutine.NewestLsn
-
-Newest LSN found in the dirty page. 
 
 
 ## -returns

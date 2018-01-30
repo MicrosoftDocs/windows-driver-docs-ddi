@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	srb.h
-apiname: 
+apiname:
 -	(*PHW_INITIALIZE)
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -93,9 +93,9 @@ For more information about the miniport driver initialization routine that is us
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
  
 

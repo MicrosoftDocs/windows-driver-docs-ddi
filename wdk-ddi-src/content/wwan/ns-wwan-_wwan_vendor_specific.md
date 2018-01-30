@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_VENDOR_SPECIFIC
-title: _WWAN_VENDOR_SPECIFIC
+title: "_WWAN_VENDOR_SPECIFIC"
 author: windows-driver-content
 description: The WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 old-location: netvista\wwan_vendor_specific.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e3f024d0-4543-4c28-958f-58a3072027ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC, _WWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], *PWWAN_VENDOR_SPECIFIC, wwan/WWAN_VENDOR_SPECIFIC, netvista.wwan_vendor_specific, WwanRef_9261cb07-079e-4266-8358-fff73af8c31a.xml, PWWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], PWWAN_VENDOR_SPECIFIC
+ms.keywords: netvista.wwan_vendor_specific, wwan/PWWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9261cb07-079e-4266-8358-fff73af8c31a.xml, _WWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], WWAN_VENDOR_SPECIFIC, wwan/WWAN_VENDOR_SPECIFIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_VENDOR_SPECIFIC
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC
+req.typenames: WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC
 req.product: Windows 10 or later.
 ---
 

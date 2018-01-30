@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._REASSIGN_BLOCKS_EX
-title: _REASSIGN_BLOCKS_EX
+title: "_REASSIGN_BLOCKS_EX"
 author: windows-driver-content
 description: The REASSIGN_BLOCKS_EX structure is used in conjunction with the IOCTL_DISK_REASSIGN_BLOCKS_EX request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 old-location: storage\reassign_blocks_ex.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1BE17A0-39F1-496A-AD53-46A3F136D793
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], *PREASSIGN_BLOCKS_EX, _REASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, REASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], ntdddisk/REASSIGN_BLOCKS_EX
+ms.keywords: "*PREASSIGN_BLOCKS_EX, _REASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], PREASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, REASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	REASSIGN_BLOCKS_EX
 product: Windows
 targetos: Windows
-req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
+req.typenames: "*PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX"
 ---
 
 # _REASSIGN_BLOCKS_EX structure

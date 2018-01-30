@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PowerOnDumpDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
+req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
 ---
 
 # PEPCALLBACKPOWERONCRASHDUMPDEVICE callback

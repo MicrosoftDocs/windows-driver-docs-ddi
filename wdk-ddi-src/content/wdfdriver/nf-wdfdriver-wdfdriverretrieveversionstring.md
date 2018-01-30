@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbea7a3c-faae-4779-9a27-6c2b60f2b35c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdriverretrieveversionstring, WdfDriverRetrieveVersionString, DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, wdfdriver/WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, wdf.wdfdriverretrieveversionstring, PFN_WDFDRIVERRETRIEVEVERSIONSTRING
+ms.keywords: PFN_WDFDRIVERRETRIEVEVERSIONSTRING, wdfdriver/WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, wdf.wdfdriverretrieveversionstring, DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, WdfDriverRetrieveVersionString, kmdf.wdfdriverretrieveversionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDriverRetrieveVersionString
 product: Windows
 targetos: Windows
@@ -123,17 +123,17 @@ For more information about library versions, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
 <a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
-<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
 
  
 

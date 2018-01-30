@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91F88EC2-C0BD-42E1-8C57-437909E2CCA2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfcmresourcelist_getcount, IWDFCmResourceList, IWDFCmResourceList::GetCount, GetCount method, IWDFCmResourceList interface, wdf.iwdfcmresourcelist_getcount, GetCount method, wudfddi/IWDFCmResourceList::GetCount, GetCount, IWDFCmResourceList interface, GetCount method
+ms.keywords: wdf.iwdfcmresourcelist_getcount, IWDFCmResourceList::GetCount, umdf.iwdfcmresourcelist_getcount, IWDFCmResourceList, GetCount, GetCount method, IWDFCmResourceList interface, IWDFCmResourceList interface, GetCount method, wudfddi/IWDFCmResourceList::GetCount, GetCount method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFCmResourceList.GetCount
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

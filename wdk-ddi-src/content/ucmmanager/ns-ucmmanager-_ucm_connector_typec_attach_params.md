@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
-title: _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
+title: "_UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
 author: windows-driver-content
 description: Describes the partner that is currently attached to the connector.
 old-location: buses\ucm_connector_typec_attach_params.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D1D4B9D8-0BBF-4592-9EC8-ED294D6D0C90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses], PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, *PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
+ms.keywords: ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, *PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses], ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmmanager.h
-apiname: 
+apiname:
 -	UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_ADD_PAGES
-title: _KBUGCHECK_ADD_PAGES
+title: "_KBUGCHECK_ADD_PAGES"
 author: windows-driver-content
 description: The KBUGCHECK_ADD_PAGES structure describes one or more pages of driver-supplied data to be written by a BugCheckAddPagesCallback callback routine to the crash dump file.
 old-location: kernel\kbugcheck_add_pages.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages
+ms.keywords: PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], *PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, _KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KBUGCHECK_ADD_PAGES
 product: Windows
 targetos: Windows
@@ -88,6 +88,21 @@ Contains private context data for the exclusive use of the callback routine. The
 The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag or the KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS flag, but not both. On entry to the callback routine, <b>Flags</b> is initialized to zero.
 
 
+#### KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a virtual address.
+
+
+#### KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a physical address.
+
+
+#### KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
+
+Indicates that the callback routine requests that it be called again so that it can add more pages.
+
+
 ### -field BugCheckCode
 
 Contains a bug check code, which specifies the reason for the bug check. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h    header file.
@@ -101,21 +116,6 @@ Specifies the physical or virtual address of the page or pages that the callback
 ### -field Count
 
 Specifies the number of contiguous pages to add to the crash dump file, starting from the virtual or physical address that is specified by the <b>Address</b> member. If <b>Count</b> &gt; 1 and <b>Address</b> is a virtual address, the pages are contiguous in virtual memory space. If <b>Count</b> &gt; 1 and <b>Address</b> is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to add any pages to the crash dump file.
-
-
-##### - Flags.KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
-
-Indicates that the <b>Address</b> member contains a physical address.
-
-
-##### - Flags.KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
-
-Indicates that the <b>Address</b> member contains a virtual address.
-
-
-##### - Flags.KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
-
-Indicates that the callback routine requests that it be called again so that it can add more pages.
 
 
 ## -remarks

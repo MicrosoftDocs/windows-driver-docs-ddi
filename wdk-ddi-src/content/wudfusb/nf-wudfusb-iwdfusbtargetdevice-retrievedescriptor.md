@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetdevice_retrievedescriptor, IWDFUsbTargetDevice interface, RetrieveDescriptor method, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, IWDFUsbTargetDevice::RetrieveDescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice, RetrieveDescriptor, RetrieveDescriptor method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor method
+ms.keywords: IWDFUsbTargetDevice interface, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor method, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor, IWDFUsbTargetDevice, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.RetrieveDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

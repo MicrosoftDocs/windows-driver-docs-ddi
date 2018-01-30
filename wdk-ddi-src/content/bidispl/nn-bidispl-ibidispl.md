@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Bidispl.h
-apiname: 
+apiname:
 -	IBidiSpl
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiSpl interface
@@ -109,11 +109,11 @@ Unbinds a printer.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
 <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiSpl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
  
 

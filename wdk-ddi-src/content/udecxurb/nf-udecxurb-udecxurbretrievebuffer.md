@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxurb/UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, UdecxUrbRetrieveBuffer
+ms.keywords: udecxurb/UdecxUrbRetrieveBuffer, buses.udecxurbretrievebuffer, UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUrbRetrieveBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH
+req.typenames: "*PUSB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH"
 req.product: Windows 10 or later.
 ---
 
@@ -124,9 +124,9 @@ The transfer buffer MDL was not valid.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
 

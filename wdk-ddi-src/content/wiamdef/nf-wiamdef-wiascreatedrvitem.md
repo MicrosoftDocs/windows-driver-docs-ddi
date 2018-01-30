@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasCreateDrvItem, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], image.wiascreatedrvitem, wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
+ms.keywords: wiasCreateDrvItem function [Imaging Devices], wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, image.wiascreatedrvitem, wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasCreateDrvItem
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

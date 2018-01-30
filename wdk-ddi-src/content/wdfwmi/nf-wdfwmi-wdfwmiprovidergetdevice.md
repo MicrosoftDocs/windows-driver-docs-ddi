@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d934e44-c6f9-42f7-81a6-202b6c97aca2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiProviderGetDevice, WdfWmiProviderGetDevice, wdf.wdfwmiprovidergetdevice, PFN_WDFWMIPROVIDERGETDEVICE, WdfWmiProviderGetDevice method, DFWMIRef_697647f5-0ece-46e4-8973-07088c8c3739.xml, kmdf.wdfwmiprovidergetdevice
+ms.keywords: PFN_WDFWMIPROVIDERGETDEVICE, WdfWmiProviderGetDevice, wdfwmi/WdfWmiProviderGetDevice, kmdf.wdfwmiprovidergetdevice, DFWMIRef_697647f5-0ece-46e4-8973-07088c8c3739.xml, wdf.wdfwmiprovidergetdevice, WdfWmiProviderGetDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfWmiProviderGetDevice
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
  
 

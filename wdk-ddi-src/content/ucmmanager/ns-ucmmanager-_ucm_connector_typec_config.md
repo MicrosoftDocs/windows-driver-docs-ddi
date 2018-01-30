@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_TYPEC_CONFIG
-title: _UCM_CONNECTOR_TYPEC_CONFIG
+title: "_UCM_CONNECTOR_TYPEC_CONFIG"
 author: windows-driver-content
 description: Describes the configuration options for a Type-C connector.
 old-location: buses\ucm_connector_type_c_config.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_connector_type_c_config, PUCM_CONNECTOR_TYPEC_CONFIG, _UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG
+ms.keywords: UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG, _UCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, *PUCM_CONNECTOR_TYPEC_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmmanager.h
-apiname: 
+apiname:
 -	UCM_CONNECTOR_TYPEC_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PUCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG
+req.typenames: UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_ROOT_CONTROL_REGISTER
-title: _PCI_EXPRESS_ROOT_CONTROL_REGISTER
+title: "_PCI_EXPRESS_ROOT_CONTROL_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_ROOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) root control register of a PCIe capability structure.
 old-location: pci\pci_express_root_control_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0f2c321c-f03b-4655-bbd1-25fcc6c52cfa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], PCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], _PCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml, PCI.pci_express_root_control_register, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER
+ms.keywords: PCI_EXPRESS_ROOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER, pci_struct_ef335e30-c046-4066-8411-27bf96cbcd08.xml, *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_ROOT_CONTROL_REGISTER, PPCI_EXPRESS_ROOT_CONTROL_REGISTER union pointer [Buses], PCI.pci_express_root_control_register, _PCI_EXPRESS_ROOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_ROOT_CONTROL_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER
+req.typenames: "*PPCI_EXPRESS_ROOT_CONTROL_REGISTER, PCI_EXPRESS_ROOT_CONTROL_REGISTER"
 ---
 
 # _PCI_EXPRESS_ROOT_CONTROL_REGISTER structure
@@ -115,9 +115,9 @@ typedef union _PCI_EXPRESS_ROOT_CONTROL_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CONTROL_REGISTER structure.
 
 
-#### - PMEInterruptEnable
+#### - CorrectableSerrEnable
 
-A single bit that indicates that interrupts are enabled for power management events.
+A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
 #### - NonFatalSerrEnable
@@ -125,14 +125,14 @@ A single bit that indicates that interrupts are enabled for power management eve
 A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
-#### - Rsvd
+#### - FatalSerrEnable
 
-Reserved.
+A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
 
 
-#### - CorrectableSerrEnable
+#### - PMEInterruptEnable
 
-A single bit that indicates that a system error should be generated if a correctable error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
+A single bit that indicates that interrupts are enabled for power management events.
 
 
 #### - CRSSoftwareVisibilityEnable
@@ -140,9 +140,9 @@ A single bit that indicates that a system error should be generated if a correct
 A single bit that indicates that the root port is enabled to return configuration request retry status (CRS) completion status to software.
 
 
-#### - FatalSerrEnable
+#### - Rsvd
 
-A single bit that indicates that a system error should be generated if a non-fatal error is reported by any of the devices in the hierarchy that are associated with this root port or by the root port itself.
+Reserved.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NE:printoem._EATTRIBUTE_DATATYPE
-title: _EATTRIBUTE_DATATYPE
+title: "_EATTRIBUTE_DATATYPE"
 author: windows-driver-content
 description: The EATTRIBUTE_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.
 old-location: print\eattribute_datatype.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/kADT_LONG, EATTRIBUTE_DATATYPE, kADT_RECT, printoem/kADT_ASCII, kADT_UNKNOWN, kADT_UNICODE, printoem/kADT_BOOL, printoem/kADT_RECT, kADT_BOOL, printoem/kADT_DWORD, EATTRIBUTE_DATATYPE enumeration [Print Devices], printoem/kADT_UNICODE, kADT_LONG, printoem/kADT_UNKNOWN, kADT_BINARY, printoem/kADT_INT, kADT_INT, print.eattribute_datatype, printoem/kADT_SIZE, _EATTRIBUTE_DATATYPE, printoem/EATTRIBUTE_DATATYPE, kADT_DWORD, kADT_CUSTOMSIZEPARAMS, printoem/kADT_CUSTOMSIZEPARAMS, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, kADT_SIZE, kADT_ASCII, printoem/kADT_BINARY
+ms.keywords: kADT_DWORD, printoem/kADT_UNICODE, printoem/kADT_LONG, kADT_UNICODE, _EATTRIBUTE_DATATYPE, printoem/kADT_DWORD, kADT_UNKNOWN, kADT_INT, printoem/kADT_SIZE, kADT_SIZE, printoem/kADT_RECT, printoem/kADT_INT, EATTRIBUTE_DATATYPE, printoem/kADT_UNKNOWN, print.eattribute_datatype, printoem/EATTRIBUTE_DATATYPE, printoem/kADT_BINARY, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, kADT_RECT, printoem/kADT_CUSTOMSIZEPARAMS, EATTRIBUTE_DATATYPE enumeration [Print Devices], printoem/kADT_BOOL, printoem/kADT_ASCII, kADT_BINARY, kADT_CUSTOMSIZEPARAMS, kADT_BOOL, kADT_LONG, kADT_ASCII
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	EATTRIBUTE_DATATYPE
 product: Windows
 targetos: Windows

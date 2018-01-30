@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REENUMERATE_SELF_INTERFACE_STANDARD
-title: _REENUMERATE_SELF_INTERFACE_STANDARD
+title: "_REENUMERATE_SELF_INTERFACE_STANDARD"
 author: windows-driver-content
 description: The REENUMERATE_SELF_INTERFACE_STANDARD interface structure enables a driver to request that its parent bus driver reenumerate the driver's device. This structure defines the GUID_REENUMERATE_SELF_INTERFACE_STANDARD interface.
 old-location: kernel\reenumerate_self_interface_standard.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f44a57e9-4536-46a7-a80e-d4bbbb2a9ad5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: drvr_interface_6e913216-4d26-4c59-b040-854f5aac2a9a.xml, REENUMERATE_SELF_INTERFACE_STANDARD, wdm/PREENUMERATE_SELF_INTERFACE_STANDARD, PREENUMERATE_SELF_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], PREENUMERATE_SELF_INTERFACE_STANDARD, kernel.reenumerate_self_interface_standard, _REENUMERATE_SELF_INTERFACE_STANDARD, wdm/REENUMERATE_SELF_INTERFACE_STANDARD, *PREENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/REENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD, drvr_interface_6e913216-4d26-4c59-b040-854f5aac2a9a.xml, PREENUMERATE_SELF_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], PREENUMERATE_SELF_INTERFACE_STANDARD, _REENUMERATE_SELF_INTERFACE_STANDARD, *PREENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], kernel.reenumerate_self_interface_standard, wdm/PREENUMERATE_SELF_INTERFACE_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REENUMERATE_SELF_INTERFACE_STANDARD
 product: Windows
 targetos: Windows
-req.typenames: *PREENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD
+req.typenames: REENUMERATE_SELF_INTERFACE_STANDARD, *PREENUMERATE_SELF_INTERFACE_STANDARD
 req.product: Windows 10 or later.
 ---
 
@@ -114,17 +114,17 @@ The <b>REENUMERATE_SELF_INTERFACE_STANDARD</b> structure is an extension of the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546570">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a>
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560837">ReenumerateSelf</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546570">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A7801EE9-BFDB-4F77-9DA4-A6612F63AD48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelMapGpadl, VmbChannelMapGpadl, netvista.vmbchannelmapgpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY
+ms.keywords: VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY, vmbuskernelmodeclientlibapi/VmbChannelMapGpadl, netvista.vmbchannelmapgpadl, VmbChannelMapGpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbChannelMapGpadl
 product: Windows
 targetos: Windows
@@ -133,9 +133,9 @@ function with calls to the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskerne
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md">VmbChannelUnmapGpadl</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md">VmbChannelUnmapGpadl</a>
 
  
 

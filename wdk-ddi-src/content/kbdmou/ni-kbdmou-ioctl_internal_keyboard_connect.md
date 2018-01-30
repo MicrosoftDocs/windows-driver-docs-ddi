@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_KEYBOARD_CONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS"
+req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ---
 
 # IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL

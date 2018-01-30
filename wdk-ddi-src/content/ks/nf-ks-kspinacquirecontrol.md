@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05ff1829-8305-4bc4-be22-233d391a5dc0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, KsPinAcquireControl function [Streaming Media Devices], KsPinAcquireControl, stream.kspinacquirecontrol, ks/KsPinAcquireControl
+ms.keywords: ks/KsPinAcquireControl, avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], stream.kspinacquirecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsPinAcquireControl
 product: Windows
 targetos: Windows

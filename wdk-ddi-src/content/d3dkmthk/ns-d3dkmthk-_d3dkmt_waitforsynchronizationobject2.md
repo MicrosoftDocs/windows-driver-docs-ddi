@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 934bfe32-b54b-477c-a5f8-714caa97f233
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, display.d3dkmt_waitforsynchronizationobject2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
+ms.keywords: OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dkmt_waitforsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

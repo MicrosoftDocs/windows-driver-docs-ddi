@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerSetFailed, ucxcontroller/UcxControllerSetFailed, buses._ucxcontrollersetfailed, UcxControllerSetFailed method [Buses]
+ms.keywords: ucxcontroller/UcxControllerSetFailed, UcxControllerSetFailed, buses._ucxcontrollersetfailed, UcxControllerSetFailed method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UcxControllerSetFailed
 product: Windows
 targetos: Windows

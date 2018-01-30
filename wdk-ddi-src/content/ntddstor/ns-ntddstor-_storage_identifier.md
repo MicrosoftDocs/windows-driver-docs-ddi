@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_IDENTIFIER
-title: _STORAGE_IDENTIFIER
+title: "_STORAGE_IDENTIFIER"
 author: windows-driver-content
 description: The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
 old-location: storage\storage_identifier.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], _STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], storage.storage_identifier, ntddstor/PSTORAGE_IDENTIFIER
+ms.keywords: ntddstor/STORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], *PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, STORAGE_IDENTIFIER structure [Storage Devices], storage.storage_identifier, STORAGE_IDENTIFIER, _STORAGE_IDENTIFIER, ntddstor/PSTORAGE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_IDENTIFIER
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
+req.typenames: "*PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER"
 ---
 
 # _STORAGE_IDENTIFIER structure

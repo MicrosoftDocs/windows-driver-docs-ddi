@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c85590bb-6489-4675-9008-8c5606d0b889
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getcalleridsettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCallerIdSettings, RIL_GetCallerIdSettings
+ms.keywords: rilapi/RIL_GetCallerIdSettings, netvista.ril_getcalleridsettings, RIL_GetCallerIdSettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetCallerIdSettings
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

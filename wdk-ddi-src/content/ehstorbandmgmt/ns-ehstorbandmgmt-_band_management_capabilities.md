@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_MANAGEMENT_CAPABILITIES
-title: _BAND_MANAGEMENT_CAPABILITIES
+title: "_BAND_MANAGEMENT_CAPABILITIES"
 author: windows-driver-content
 description: The BAND_MANAGEMENT_CAPABILITIES structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request.
 old-location: storage\band_management_capabilities.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MEDIAKEY_PROTECTEDBY_AUTHKEY, _BAND_MANAGEMENT_CAPABILITIES, storage.band_management_capabilities, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, 0, PBAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], CAPS_BANDCROSSING_SUPPORTED, CAPS_SID_SECURED, *PBAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], CAPS_ACTIVATED, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES
+ms.keywords: BAND_MANAGEMENT_CAPABILITIES, CAPS_BANDCROSSING_SUPPORTED, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], *PBAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, CAPS_SID_SECURED, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], MEDIAKEY_PROTECTEDBY_AUTHKEY, storage.band_management_capabilities, CAPS_ACTIVATED, 0, _BAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	BAND_MANAGEMENT_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -195,9 +195,9 @@ If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionali
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
  
 

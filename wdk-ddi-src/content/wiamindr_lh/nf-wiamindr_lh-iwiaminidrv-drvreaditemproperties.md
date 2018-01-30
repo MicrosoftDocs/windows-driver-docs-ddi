@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 015c2e02-62aa-4037-9974-c8e4b8784fe5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties method [Imaging Devices], MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, image.iwiaminidrv_drvreaditemproperties, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, IWiaMiniDrv
+ms.keywords: wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv, IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties, image.iwiaminidrv_drvreaditemproperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvReadItemProperties
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -98,19 +98,9 @@ HRESULT drvReadItemProperties(
 
 
 
-#### - plDevErrVal [out]
+#### - pWiasContext [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
-#### - pPropSpec [in]
-
-Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
-
-
-#### - nPropSpec [in]
-
-Indicates the number of items in the <i>pPropSpec</i> array.
+Pointer to a WIA item context.
 
 
 #### - lFlags [in]
@@ -118,9 +108,19 @@ Indicates the number of items in the <i>pPropSpec</i> array.
 Is reserved. Set to zero.
 
 
-#### - pWiasContext [in]
+#### - nPropSpec [in]
 
-Pointer to a WIA item context.
+Indicates the number of items in the <i>pPropSpec</i> array.
+
+
+#### - pPropSpec [in]
+
+Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -141,23 +141,23 @@ In this method, the minidriver should read the requested properties from the dev
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
  
 

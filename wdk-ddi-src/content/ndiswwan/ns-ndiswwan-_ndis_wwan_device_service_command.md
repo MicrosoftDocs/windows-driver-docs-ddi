@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_COMMAND
-title: _NDIS_WWAN_DEVICE_SERVICE_COMMAND
+title: "_NDIS_WWAN_DEVICE_SERVICE_COMMAND"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device service command data.
 old-location: netvista\ndis_wwan_device_service_command.htm
@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: 372625F8-0219-4867-909D-ACCC82F6B97C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND, netvista.ndis_wwan_device_service_command, PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND
+ms.keywords: ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, netvista.ndis_wwan_device_service_command
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_DEVICE_SERVICE_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND
+req.typenames: NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_COMMAND structure

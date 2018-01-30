@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetroutineaddress, FltGetRoutineAddress routine [Installable File System Drivers], FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, FltGetRoutineAddress, fltkernel/FltGetRoutineAddress
+ms.keywords: FltGetRoutineAddress routine [Installable File System Drivers], FltGetRoutineAddress, ifsk.fltgetroutineaddress, FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, fltkernel/FltGetRoutineAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetRoutineAddress
 product: Windows
 targetos: Windows

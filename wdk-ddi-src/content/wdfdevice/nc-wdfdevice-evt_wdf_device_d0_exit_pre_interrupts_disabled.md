@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdfdevice.h
-apiname: 
+apiname:
 -	EvtDeviceD0ExitPreInterruptsDisabled
 product: Windows
 targetos: Windows

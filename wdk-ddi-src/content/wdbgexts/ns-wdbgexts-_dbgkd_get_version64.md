@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 692e58b5-74ea-48f3-a9c2-81953b7d600d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, wdbgexts/DBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], _DBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64, *PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], debugger.ig_get_kernel_version, DBGKD_GET_VERSION64, PDBGKD_GET_VERSION64
+ms.keywords: wdbgexts/DBGKD_GET_VERSION64, debugger.ig_get_kernel_version, *PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], PDBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64"
+req.product: Windows 10 or later.
 ---
 
 # _DBGKD_GET_VERSION64 structure

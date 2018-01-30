@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 801ad433-4d52-4947-93f5-a11521a4df18
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintcorehelperuni_createinstanceofmsxmlobject, CreateInstanceOfMSXMLObject, print_unidrv-pscript_allplugins_b6f2207a-4289-4a1f-ae2d-accc80c68a79.xml, prcomoem/IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, IPrintCoreHelperUni interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, CreateInstanceOfMSXMLObject method [Print Devices]
+ms.keywords: print.iprintcorehelperuni_createinstanceofmsxmlobject, IPrintCoreHelperUni, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, print_unidrv-pscript_allplugins_b6f2207a-4289-4a1f-ae2d-accc80c68a79.xml, IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperUni interface [Print Devices], CreateInstanceOfMSXMLObject method, CreateInstanceOfMSXMLObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperUni.CreateInstanceOfMSXMLObject
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

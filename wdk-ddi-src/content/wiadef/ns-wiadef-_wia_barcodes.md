@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_BARCODES
-title: _WIA_BARCODES
+title: "_WIA_BARCODES"
 author: windows-driver-content
 description: The WIA_BARCODES structure stores header information for the barcode metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_barcodes.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2B89FF49-4376-49A7-B7CC-1C67D89C7E7A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WIA_BARCODES, WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], wiadef/WIA_BARCODES, image.wia_barcodes
+ms.keywords: WIA_BARCODES, _WIA_BARCODES, wiadef/WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], image.wia_barcodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiadef.h
-apiname: 
+apiname:
 -	WIA_BARCODES
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_GRAPHICS_RESOLUTION
-title: _PDEV_ADJUST_GRAPHICS_RESOLUTION
+title: "_PDEV_ADJUST_GRAPHICS_RESOLUTION"
 author: windows-driver-content
 description: The PDEV_ADJUST_GRAPHICS_RESOLUTION structure specifies a graphics resolution value.
 old-location: print\pdev_adjust_graphics_resolution.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d6cebb0d-87ca-4e40-8a87-9579a1026567
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_4e6d42c6-744c-4451-85a3-f5769c0ebfd3.xml, PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PPDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION structure pointer [Print Devices], PDEV_ADJUST_GRAPHICS_RESOLUTION structure [Print Devices], _PDEV_ADJUST_GRAPHICS_RESOLUTION, *PPDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION, print.pdev_adjust_graphics_resolution
+ms.keywords: "*PPDEV_ADJUST_GRAPHICS_RESOLUTION, print.pdev_adjust_graphics_resolution, PDEV_ADJUST_GRAPHICS_RESOLUTION structure [Print Devices], PPDEV_ADJUST_GRAPHICS_RESOLUTION, _PDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION structure pointer [Print Devices], PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PPDEV_ADJUST_GRAPHICS_RESOLUTION, print_unidrv-pscript_rendering_4e6d42c6-744c-4451-85a3-f5769c0ebfd3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	PDEV_ADJUST_GRAPHICS_RESOLUTION
 product: Windows
 targetos: Windows

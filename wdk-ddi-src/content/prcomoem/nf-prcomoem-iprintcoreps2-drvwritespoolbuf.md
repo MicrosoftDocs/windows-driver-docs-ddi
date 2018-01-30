@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, IPrintCorePS2, DrvWriteSpoolBuf
+ms.keywords: IPrintCorePS2::DrvWriteSpoolBuf, IPrintCorePS2, DrvWriteSpoolBuf, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, print.iprintcoreps2_drvwritespoolbuf, DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCorePS2.DrvWriteSpoolBuf
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

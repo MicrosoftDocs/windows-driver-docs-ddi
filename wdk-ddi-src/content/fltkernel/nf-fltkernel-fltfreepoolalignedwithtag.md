@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 295a34e4-734e-41ba-bf2e-378333c14e2c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltfreepoolalignedwithtag, FltFreePoolAlignedWithTag routine [Installable File System Drivers], FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, fltkernel/FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag
+ms.keywords: FltFreePoolAlignedWithTag routine [Installable File System Drivers], ifsk.fltfreepoolalignedwithtag, FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, fltkernel/FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+apiname:
 -	FltFreePoolAlignedWithTag
 product: Windows
 targetos: Windows

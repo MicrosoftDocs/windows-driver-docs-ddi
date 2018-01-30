@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], ntifs/FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal
+ms.keywords: ifsk.fsrtlarenamesequal, FsRtlAreNamesEqual, ntifs/FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlAreNamesEqual
 product: Windows
 targetos: Windows
@@ -112,9 +112,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
 
  
 

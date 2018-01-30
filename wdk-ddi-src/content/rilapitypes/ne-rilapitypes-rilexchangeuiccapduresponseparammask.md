@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6192920a-138b-49d9-ba78-84e3e70cb8df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_ALL, rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, netvista.rilexchangeuiccapduresponseparammask_2, RIL_PARAM_EUAR_RESPONSEAPDU, rilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
+ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, rilapitypes/RIL_PARAM_EUAR_ALL, netvista.rilexchangeuiccapduresponseparammask_2, RILEXCHANGEUICCAPDURESPONSEPARAMMASK, rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, rilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU, RIL_PARAM_EUAR_RESPONSEAPDU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 product: Windows
 targetos: Windows

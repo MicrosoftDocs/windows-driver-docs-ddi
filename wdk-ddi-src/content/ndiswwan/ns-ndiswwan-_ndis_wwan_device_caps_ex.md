@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_CAPS_EX
-title: _NDIS_WWAN_DEVICE_CAPS_EX
+title: "_NDIS_WWAN_DEVICE_CAPS_EX"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_CAPS_EX structure represents the capabilities of the MB device.
 old-location: netvista\ndis_wwan_device_caps_ex.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FC801FA3-699F-4EE5-BED9-35CA696A5E52
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex, *PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, _NDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX, *PNDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_DEVICE_CAPS_EX
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX
+req.typenames: NDIS_WWAN_DEVICE_CAPS_EX, *PNDIS_WWAN_DEVICE_CAPS_EX
 ---
 
 # _NDIS_WWAN_DEVICE_CAPS_EX structure
@@ -199,11 +199,11 @@ A formatted
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
+
 <a href="..\wwan\ns-wwan-_wwan_device_caps_ex.md">WWAN_DEVICE_CAPS_EX</a>
 
 <a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

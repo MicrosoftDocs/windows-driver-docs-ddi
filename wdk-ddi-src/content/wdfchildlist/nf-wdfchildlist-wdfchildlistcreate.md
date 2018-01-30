@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfChildListCreate method, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate, WdfChildListCreate, PFN_WDFCHILDLISTCREATE, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, kmdf.wdfchildlistcreate
+ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, wdfchildlist/WdfChildListCreate, kmdf.wdfchildlistcreate, PFN_WDFCHILDLISTCREATE, WdfChildListCreate method, wdf.wdfchildlistcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfChildListCreate
 product: Windows
 targetos: Windows
@@ -153,9 +153,9 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 <a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 
  
 

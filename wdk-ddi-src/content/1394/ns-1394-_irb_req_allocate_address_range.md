@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ALLOCATE_ADDRESS_RANGE
-title: _IRB_REQ_ALLOCATE_ADDRESS_RANGE
+title: "_IRB_REQ_ALLOCATE_ADDRESS_RANGE"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out a request to allocate an address range.
 old-location: ieee\irb_req_allocate_address_range.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 76D306DF-D604-4B3C-BFED-A855113A55A9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ALLOCATE_ADDRESS_RANGE, _IRB_REQ_ALLOCATE_ADDRESS_RANGE, 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], IEEE.irb_req_allocate_address_range
+ms.keywords: 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, _IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], IRB_REQ_ALLOCATE_ADDRESS_RANGE, IEEE.irb_req_allocate_address_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ALLOCATE_ADDRESS_RANGE
 product: Windows
 targetos: Windows

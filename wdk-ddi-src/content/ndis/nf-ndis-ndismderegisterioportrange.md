@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismderegisterioportrange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], NdisMDeregisterIoPortRange, miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange
+ms.keywords: NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterioportrange, NdisMDeregisterIoPortRange, ndis/NdisMDeregisterIoPortRange, miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDeregisterIoPortRange
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMDeregisterIoPortRange function
@@ -135,9 +135,9 @@ After it calls
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

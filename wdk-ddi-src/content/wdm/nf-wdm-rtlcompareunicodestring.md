@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlcompareunicodestring, RtlCompareUnicodeString, k109_ddeef320-7510-446b-af6f-756c3999bec1.xml
+ms.keywords: RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString, RtlCompareUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlCompareUnicodeString
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3065dddc-e084-4273-93eb-62a51763e213
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_coppstatussignalingcmddata, DXVA_COPPStatusSignalingCmdData, dxva/DXVA_COPPStatusSignalingCmdData, dxvaref_6a90a0a1-2173-4698-9e3d-83db1d5062f2.xml, DXVA_COPPStatusSignalingCmdData structure [Display Devices], _DXVA_COPPStatusSignalingCmdData
+ms.keywords: display.dxva_coppstatussignalingcmddata, DXVA_COPPStatusSignalingCmdData structure [Display Devices], DXVA_COPPStatusSignalingCmdData, dxvaref_6a90a0a1-2173-4698-9e3d-83db1d5062f2.xml, _DXVA_COPPStatusSignalingCmdData, dxva/DXVA_COPPStatusSignalingCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -155,11 +155,11 @@ Specifies an array of additional 32-bit data. Not currently used.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 

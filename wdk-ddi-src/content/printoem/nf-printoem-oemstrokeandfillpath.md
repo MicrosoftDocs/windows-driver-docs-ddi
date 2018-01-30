@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f8a2df5d-426f-4872-8d54-55895c4fe6e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMStrokeAndFillPath function [Print Devices], OEMStrokeAndFillPath, print.oemstrokeandfillpath, printoem/OEMStrokeAndFillPath, print_unidrv-pscript_rendering_e370d4e7-4593-46c7-87dd-93c963400290.xml
+ms.keywords: OEMStrokeAndFillPath, printoem/OEMStrokeAndFillPath, print_unidrv-pscript_rendering_e370d4e7-4593-46c7-87dd-93c963400290.xml, print.oemstrokeandfillpath, OEMStrokeAndFillPath function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMStrokeAndFillPath
 product: Windows
 targetos: Windows

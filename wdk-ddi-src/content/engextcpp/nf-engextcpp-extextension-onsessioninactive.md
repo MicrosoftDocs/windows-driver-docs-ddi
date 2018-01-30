@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6f9b7636-8808-4783-bba7-70b31ae08238
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension, debugger.onsessioninactive, OnSessionInactive method [Windows Debugging], ExtExtension class, OnSessionInactive method [Windows Debugging], ExtExtension class [Windows Debugging], OnSessionInactive method, OnSessionInactive, EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, ExtExtension::OnSessionInactive
+ms.keywords: OnSessionInactive, ExtExtension class [Windows Debugging], OnSessionInactive method, OnSessionInactive method [Windows Debugging], ExtExtension::OnSessionInactive, EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, debugger.onsessioninactive, ExtExtension, OnSessionInactive method [Windows Debugging], ExtExtension class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.OnSessionInactive
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtExtension::OnSessionInactive method
@@ -90,9 +90,9 @@ This method is called at the end of a session.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
 <a href="..\engextcpp\nf-engextcpp-extextension-onsessionactive.md">OnSessionActive</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 

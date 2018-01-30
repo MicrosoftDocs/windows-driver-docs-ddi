@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 042378f0-aa0f-49be-b881-86558ad33baf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IUnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice, portcls/IUnregisterSubdevice::UnregisterSubdevice
+ms.keywords: IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, UnregisterSubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, portcls/IUnregisterSubdevice::UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ NTSTATUS UnregisterSubdevice(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
 ### -param Unknown [in]
@@ -96,11 +96,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 <a href="..\portcls\nn-portcls-iunregistersubdevice.md">IUnregisterSubdevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
  
 

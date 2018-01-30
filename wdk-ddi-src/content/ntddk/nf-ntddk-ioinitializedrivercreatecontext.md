@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d35ed3e-d14f-43ad-9c11-38aa37e76492
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoInitializeDriverCreateContext routine [Installable File System Drivers], ifsk.ioinitializedrivercreatecontext, ntddk/IoInitializeDriverCreateContext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, IoInitializeDriverCreateContext
+ms.keywords: ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ifsk.ioinitializedrivercreatecontext, IoInitializeDriverCreateContext, ntddk/IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	IoInitializeDriverCreateContext
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoInitializeDriverCreateContext function
@@ -92,9 +92,9 @@ Starting in Windows 10, version 1607, this routine sets the <b>SiloContext</b> 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
  
 

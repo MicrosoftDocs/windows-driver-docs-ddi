@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LINKED_DEVICE structure [Display Devices], display.linked_device, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, PLINKED_DEVICE structure pointer [Display Devices], _LINKED_DEVICE, dispmprt/PLINKED_DEVICE, PLINKED_DEVICE, LINKED_DEVICE, dispmprt/LINKED_DEVICE, *PLINKED_DEVICE
+ms.keywords: LINKED_DEVICE, _LINKED_DEVICE, display.linked_device, LINKED_DEVICE structure [Display Devices], PLINKED_DEVICE structure pointer [Display Devices], DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, dispmprt/PLINKED_DEVICE, dispmprt/LINKED_DEVICE, *PLINKED_DEVICE, PLINKED_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

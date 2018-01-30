@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, FsRtlMdlReadEx
+ms.keywords: FsRtlMdlReadEx routine [Installable File System Drivers], ntifs/FsRtlMdlReadEx, FsRtlMdlReadEx, ifsk.fsrtlmdlreadex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlMdlReadEx
 product: Windows
 targetos: Windows
@@ -139,9 +139,9 @@ Similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
 <a href="..\ntifs\nf-ntifs-ccmdlreadcomplete.md">CcMdlReadComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 

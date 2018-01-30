@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITORREG
-title: _MONITORREG
+title: "_MONITORREG"
 author: windows-driver-content
 description: The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
 old-location: print\monitorreg.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PMONITORREG structure pointer [Print Devices], *PMONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/PMONITORREG, winsplp/MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, MONITORREG, _MONITORREG
+ms.keywords: "*PMONITORREG, print.monitorreg, MONITORREG, _MONITORREG, winsplp/PMONITORREG, MONITORREG structure [Print Devices], PMONITORREG structure pointer [Print Devices], winsplp/MONITORREG, PMONITORREG, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	MONITORREG
 product: Windows
 targetos: Windows
-req.typenames: *PMONITORREG, MONITORREG
+req.typenames: "*PMONITORREG, MONITORREG"
 req.product: Windows 10 or later.
 ---
 
@@ -307,9 +307,9 @@ The spooler registry functions use HANDLE and PHANDLE parameter types instead of
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
-
 <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
  
 

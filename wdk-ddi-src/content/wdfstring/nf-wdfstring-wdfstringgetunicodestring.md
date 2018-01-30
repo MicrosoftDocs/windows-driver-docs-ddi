@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfstringgetunicodestring, PFN_WDFSTRINGGETUNICODESTRING, wdfstring/WdfStringGetUnicodeString, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, wdf.wdfstringgetunicodestring
+ms.keywords: WdfStringGetUnicodeString, PFN_WDFSTRINGGETUNICODESTRING, wdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, kmdf.wdfstringgetunicodestring, WdfStringGetUnicodeString method, wdfstring/WdfStringGetUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfStringGetUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -108,9 +108,9 @@ For more information about framework string objects, see <a href="https://docs.m
 
 ## -see-also
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 021f41c4-6ba9-418e-bc18-131ce6d90877
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml, NdisOffloadTcpReceive, ndischimney/NdisOffloadTcpReceive, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpreceive
+ms.keywords: NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], NdisOffloadTcpReceive, netvista.ndisoffloadtcpreceive, ndischimney/NdisOffloadTcpReceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisOffloadTcpReceive
 product: Windows
 targetos: Windows
@@ -142,16 +142,16 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 <mshelp:link keywords="netvista.protocoltcpoffloadreceivecomplete" tabindex="0"><i>
    ProtocolTcpOffloadReceiveComplete</i></mshelp:link>
 
-<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-   NdisTcpOffloadReceiveComplete</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
+   NdisTcpOffloadReceiveComplete</b></mshelp:link>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

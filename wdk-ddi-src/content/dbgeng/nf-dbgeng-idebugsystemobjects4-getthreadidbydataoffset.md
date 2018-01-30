@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f559e0da-ca5c-4fea-aa17-257abfd45f96
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getthreadidbydataoffset, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByDataOffset method, dbgeng/IDebugSystemObjects2::GetThreadIdByDataOffset, IDebugSystemObjects::GetThreadIdByDataOffset, GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects3::GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2::GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByDataOffset method, dbgeng/IDebugSystemObjects::GetThreadIdByDataOffset, IDebugSystemObjects4::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects4::GetThreadIdByDataOffset, IDebugSystemObjects interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects3::GetThreadIdByDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects_bb1b0f35-219b-4883-8df7-d90a96441720.xml, GetThreadIdByDataOffset method [Windows Debugging]
+ms.keywords: IDebugSystemObjects4::GetThreadIdByDataOffset, IDebugSystemObjects2::GetThreadIdByDataOffset, GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, debugger.getthreadidbydataoffset, IDebugSystemObjects4, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByDataOffset method, dbgeng/IDebugSystemObjects::GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects2::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects3::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects4::GetThreadIdByDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects interface [Windows Debugging], GetThreadIdByDataOffset method, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects_bb1b0f35-219b-4883-8df7-d90a96441720.xml, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects3::GetThreadIdByDataOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetThreadIdByDataOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetThreadIdByDataOffset method

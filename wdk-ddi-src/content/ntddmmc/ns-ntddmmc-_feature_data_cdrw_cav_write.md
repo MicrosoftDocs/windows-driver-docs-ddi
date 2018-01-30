@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CDRW_CAV_WRITE
-title: _FEATURE_DATA_CDRW_CAV_WRITE
+title: "_FEATURE_DATA_CDRW_CAV_WRITE"
 author: windows-driver-content
 description: The FEATURE_DATA_CDRW_CAV_WRITE structure contains information about the CD-RW CAV Write feature.
 old-location: storage\feature_data_cdrw_cav_write.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, _FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml
+ms.keywords: storage.feature_data_cdrw_cav_write, _FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml, PFEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_CDRW_CAV_WRITE
 product: Windows
 targetos: Windows

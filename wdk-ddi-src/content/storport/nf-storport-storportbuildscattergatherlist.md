@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cdea67aa-14fa-45c1-8af0-8db48042b1b2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortBuildScatterGatherList routine [Storage Devices], storage.storportbuildscattergatherlist, storport/StorPortBuildScatterGatherList, StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
+ms.keywords: storage.storportbuildscattergatherlist, StorPortBuildScatterGatherList routine [Storage Devices], StorPortBuildScatterGatherList, storport/StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortBuildScatterGatherList
 product: Windows
 targetos: Windows
@@ -121,6 +121,26 @@ ExecutionRoutine (
 The Storport driver calls a miniport driver's <i>ExecutionRoutine</i> at IRQL = DISPATCH_LEVEL.
 
 
+#### DeviceObject
+
+Miniport drivers should ignore this parameter.
+
+
+#### Irp
+
+Miniport drivers should ignore this parameter.
+
+
+#### ScatterGather
+
+A pointer to a <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
+
+
+#### Context
+
+The context value specified in the <b>StorPortBuildScatterGatherList</b> function's <i>Context</i> parameter.
+
+
 ### -param Context [in]
 
 A context value that the port driver passes to the execution routine specified in the <i>ExecutionRoutine</i> parameter. The execution routine uses this value to uniquely identify the request.
@@ -139,26 +159,6 @@ A pointer to a miniport-supplied buffer that receives the scatter/gather list. A
 ### -param ScatterGatherBufferLength [in]
 
 The size, in bytes, of the buffer pointed to by the <i>ScatterGatherBuffer</i> parameter.
-
-
-##### - ExecutionRoutine.Irp
-
-Miniport drivers should ignore this parameter.
-
-
-##### - ExecutionRoutine.Context
-
-The context value specified in the <b>StorPortBuildScatterGatherList</b> function's <i>Context</i> parameter.
-
-
-##### - ExecutionRoutine.ScatterGather
-
-A pointer to a <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
-
-
-##### - ExecutionRoutine.DeviceObject
-
-Miniport drivers should ignore this parameter.
 
 
 ## -returns
@@ -255,9 +255,9 @@ The miniport driver must call <a href="..\storport\nf-storport-storportputscatte
 
 <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
 
-<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
-
 <a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
+
+<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
 
  
 

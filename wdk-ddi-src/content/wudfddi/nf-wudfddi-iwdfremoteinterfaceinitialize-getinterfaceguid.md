@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize, GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid
+ms.keywords: UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteInterfaceInitialize.GetInterfaceGuid
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ For more information about the <b>GetInterfaceGuid</b> method, see <a href="http
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
 
  
 

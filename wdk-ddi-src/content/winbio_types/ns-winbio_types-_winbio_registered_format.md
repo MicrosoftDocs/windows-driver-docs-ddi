@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 70591143-f429-4a6e-8f2a-cc1082f40f6e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_WINBIO_REGISTERED_FORMAT, winbio_types/WINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT, biometric_ref_824bd2c9-98a7-4967-8416-82aadd8ec6ed.xml, biometric.winbio_registered_format, winbio_types/PWINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT structure [Biometric Devices], PWINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT structure pointer [Biometric Devices], *PWINBIO_REGISTERED_FORMAT"
+ms.keywords: biometric.winbio_registered_format, _WINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT, biometric_ref_824bd2c9-98a7-4967-8416-82aadd8ec6ed.xml, *PWINBIO_REGISTERED_FORMAT, winbio_types/PWINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT structure pointer [Biometric Devices], WINBIO_REGISTERED_FORMAT structure [Biometric Devices], winbio_types/WINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_REGISTERED_FORMAT, *PWINBIO_REGISTERED_FORMAT
+req.product: Windows 10 or later.
 ---
 
 # _WINBIO_REGISTERED_FORMAT structure

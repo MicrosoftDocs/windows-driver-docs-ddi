@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], NdisInterlockedAddLargeStatistic
+ms.keywords: netvista.ndisinterlockedaddlargestatistic, NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisInterlockedAddLargeStatistic
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInterlockedAddLargeStatistic macro
@@ -82,16 +82,16 @@ TBD
 
 
 
-#### - Increment [in]
-
-A ULONG value that is added to the value to which the 
-     <i>Addend</i> parameter points.
-
-
 #### - Addend [in]
 
 A pointer to a LARGE_INTEGER value that is incremented by the value of 
      <i>Increment</i> .
+
+
+#### - Increment [in]
+
+A ULONG value that is added to the value to which the 
+     <i>Addend</i> parameter points.
 
 
 ## -remarks

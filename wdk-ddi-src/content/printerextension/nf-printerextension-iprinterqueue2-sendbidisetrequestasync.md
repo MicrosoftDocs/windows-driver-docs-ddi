@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 05FF8A47-A586-4DA7-94AD-A7186265ADB4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SendBidiSetRequestAsync, IPrinterQueue2, IPrinterQueue2::SendBidiSetRequestAsync, IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, print.iprinterqueue2_sendbidisetrequestasync, SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, printerextension/IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices]
+ms.keywords: IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices], IPrinterQueue2 interface, IPrinterQueue2, SendBidiSetRequestAsync, print.iprinterqueue2_sendbidisetrequestasync, IPrinterQueue2 interface [Print Devices], SendBidiSetRequestAsync method, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterQueue2.SendBidiSetRequestAsync
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 <a href="..\printerextension\nn-printerextension-iprinterbidisetrequestcallback.md">IPrinterBidiSetRequestCallback</a>
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
+
+<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTReclaimAllocations2 function [Display Devices], display.d3dkmtreclaimallocations2, d3dkmthk/D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2
+ms.keywords: D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -2,13 +2,13 @@
 UID: NE:winsplp.UI_TYPE
 title: UI_TYPE
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\ui_type.htm
 old-project: print
 ms.assetid: 99C87D65-C633-4AA2-95DF-6AE74428C71D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.ui_type, winsplp/kMessageBox, UI_TYPE enumeration [Print Devices], winsplp/UI_TYPE, kMessageBox, UI_TYPE
+ms.keywords: winsplp/UI_TYPE, winsplp/kMessageBox, UI_TYPE enumeration [Print Devices], UI_TYPE, kMessageBox, print.ui_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	UI_TYPE
 product: Windows
 targetos: Windows

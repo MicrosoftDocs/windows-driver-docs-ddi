@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8d5fea6-d0fd-4dc4-b8ec-10c72381285b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, MmAllocateMappingAddress, kernel.mmallocatemappingaddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], wdm/MmAllocateMappingAddress
+ms.keywords: wdm/MmAllocateMappingAddress, k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], MmAllocateMappingAddress, kernel.mmallocatemappingaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmAllocateMappingAddress
 product: Windows
 targetos: Windows

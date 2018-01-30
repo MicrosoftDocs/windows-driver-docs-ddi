@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45273541-0638-4e8e-b6b7-5183b481ccc4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_FILTERVALUES structure [Display Devices], _DXVADDI_FILTERVALUES, display.dxvaddi_filtervalues, d3dumddi/DXVADDI_FILTERVALUES, DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, DXVADDI_FILTERVALUES
+ms.keywords: display.dxvaddi_filtervalues, DXVADDI_FILTERVALUES, DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, d3dumddi/DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES structure [Display Devices], _DXVADDI_FILTERVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

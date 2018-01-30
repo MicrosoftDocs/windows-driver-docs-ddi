@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00322dbf-0099-439a-8d65-bf530129cea1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml, fwpsk/FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0
+ms.keywords: wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml, netvista.fwpsreassembleforwardfragmentgroup0, FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReassembleForwardFragmentGroup0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsReassembleForwardFragmentGroup0
 product: Windows
 targetos: Windows
@@ -83,6 +83,16 @@ One of the following address families:
 
 
 
+#### AF_INET
+
+The IPv4 address family.
+
+
+#### AF_INET6
+
+The IPv6 address family.
+
+
 ### -param fragmentGroupNblChain [in, out]
 
 A pointer to the 
@@ -121,16 +131,6 @@ Reserved. Callout drivers must set this parameter to zero.
 A pointer to a 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pointer that receives the
      address of the reassembled single network buffer list.
-
-
-##### - addressFamily.AF_INET6
-
-The IPv6 address family.
-
-
-##### - addressFamily.AF_INET
-
-The IPv4 address family.
 
 
 ## -returns
@@ -220,18 +220,18 @@ Because
 
 ## -see-also
 
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

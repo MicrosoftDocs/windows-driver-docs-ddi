@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_DEVICE_CAPABILITIES_EX
-title: _STOR_DEVICE_CAPABILITIES_EX
+title: "_STOR_DEVICE_CAPABILITIES_EX"
 author: windows-driver-content
 description: The STOR_DEVICE_CAPABILITIES_EX structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
 old-location: storage\stor_device_capabilities_ex.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6DCD1F8A-45E3-4084-9688-AE59597D65AF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_device_capabilities_ex, *PSTOR_DEVICE_CAPABILITIES_EX, _STOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], PSTOR_DEVICE_CAPABILITIES_EX, storport/PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], storport/STOR_DEVICE_CAPABILITIES_EX
+ms.keywords: storport/PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, _STOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], PSTOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/STOR_DEVICE_CAPABILITIES_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_DEVICE_CAPABILITIES_EX
 product: Windows
 targetos: Windows
-req.typenames: STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX
+req.typenames: "*PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX"
 req.product: Windows 10 or later.
 ---
 
@@ -196,13 +196,13 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
  
 

@@ -2,13 +2,13 @@
 UID: NF:winspool.PrinterMessageBoxA
 title: PrinterMessageBoxA function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\printermessageboxa.htm
 old-project: print
 ms.assetid: 6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrinterMessageBoxA function [Print Devices], PrinterMessageBoxA, winspool/PrinterMessageBoxA, print.printermessageboxa
+ms.keywords: winspool/PrinterMessageBoxA, PrinterMessageBoxA function [Print Devices], PrinterMessageBoxA, print.printermessageboxa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winspool.h
-apiname: 
+apiname:
 -	PrinterMessageBoxA
 product: Windows
 targetos: Windows

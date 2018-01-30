@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: E0332415-1028-489B-AA81-DF8AEE0A28E8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO.gpio_clx_acquireinterruptlock, GPIO_CLX_AcquireInterruptLock, GPIO_CLX_AcquireInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_AcquireInterruptLock
+ms.keywords: GPIO_CLX_AcquireInterruptLock method [Parallel Ports], GPIO_CLX_AcquireInterruptLock, GPIO.gpio_clx_acquireinterruptlock, gpioclx/GPIO_CLX_AcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5e72aa2e-3aa6-49e5-b49f-339722060d5b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsUnicodeCharacterWild, ntifs/FsRtlIsUnicodeCharacterWild, ifsk.fsrtlisunicodecharacterwild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml
+ms.keywords: ifsk.fsrtlisunicodecharacterwild, FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], ntifs/FsRtlIsUnicodeCharacterWild, fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlIsUnicodeCharacterWild
 product: Windows
 targetos: Windows

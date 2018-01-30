@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_REQUEST_TYPE
-title: _WWAN_USSD_REQUEST_TYPE
+title: "_WWAN_USSD_REQUEST_TYPE"
 author: windows-driver-content
 description: The WWAN_USSD_REQUEST_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) session requests.
 old-location: netvista\wwan_ussd_request_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanUssdRequestCancel, WwanUssdRequestInitiate, wwan/WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE, *PWWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestContinue, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], _WWAN_USSD_REQUEST_TYPE, WwanUssdRequestContinue, netvista.wwan_ussd_request_type
+ms.keywords: wwan/WwanUssdRequestContinue, wwan/WWAN_USSD_REQUEST_TYPE, _WWAN_USSD_REQUEST_TYPE, WwanUssdRequestContinue, *PWWAN_USSD_REQUEST_TYPE, WwanUssdRequestCancel, WWAN_USSD_REQUEST_TYPE, WwanUssdRequestInitiate, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_ussd_request_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_USSD_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE
+req.typenames: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 

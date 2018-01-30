@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_HYPERVISOR_PARTITION_TYPE
-title: _NDIS_HYPERVISOR_PARTITION_TYPE
+title: "_NDIS_HYPERVISOR_PARTITION_TYPE"
 author: windows-driver-content
 description: The NDIS_HYPERVISOR_PARTITION_TYPE enumeration identifies the current partition type that is running on the hypervisor.
 old-location: netvista\ndis_hypervisor_partition_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisHypervisorPartitionTypeUnknown, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionTypeMax, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, PNDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, NDIS_HYPERVISOR_PARTITION_TYPE
+ms.keywords: NdisHypervisorPartitionTypeUnknown, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionTypeMax, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, *PNDIS_HYPERVISOR_PARTITION_TYPE, _NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeMax, NDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/NdisHypervisorPartitionTypeMsHvParent, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_HYPERVISOR_PARTITION_TYPE
 product: Windows
 targetos: Windows

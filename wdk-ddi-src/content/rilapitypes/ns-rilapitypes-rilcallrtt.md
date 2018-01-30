@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLRTT
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLRTT, RILCALLRTT
+req.typenames: RILCALLRTT, *LPRILCALLRTT
 req.product: Windows 10 or later.
 ---
 

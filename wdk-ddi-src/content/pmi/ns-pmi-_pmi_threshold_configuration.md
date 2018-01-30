@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_THRESHOLD_CONFIGURATION
-title: _PMI_THRESHOLD_CONFIGURATION
+title: "_PMI_THRESHOLD_CONFIGURATION"
 author: windows-driver-content
 description: The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
 old-location: powermeter\pmi_threshold_configuration.htm
@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, pmi/PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION
+ms.keywords: PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_THRESHOLD_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_THRESHOLD_CONFIGURATION
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iowmiwriteevent, k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], IoWMIWriteEvent, wdm/IoWMIWriteEvent
+ms.keywords: kernel.iowmiwriteevent, wdm/IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, IoWMIWriteEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMIWriteEvent
 product: Windows
 targetos: Windows

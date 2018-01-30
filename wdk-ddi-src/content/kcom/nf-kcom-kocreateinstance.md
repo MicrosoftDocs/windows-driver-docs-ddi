@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KoCreateInstance
 product: Windows
 targetos: Windows
-req.typenames: CONNECT_DATA, *PCONNECT_DATA
+req.typenames: "*PCONNECT_DATA, CONNECT_DATA"
 ---
 
 # KoCreateInstance function

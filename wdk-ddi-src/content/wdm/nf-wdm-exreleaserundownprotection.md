@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 442FD107-04D4-4194-B64A-21699A70B4B6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotection, wdm/ExReleaseRundownProtection, ExReleaseRundownProtection
+ms.keywords: ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture], ExReleaseRundownProtection, kernel.exreleaserundownprotection, wdm/ExReleaseRundownProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExReleaseRundownProtection
 product: Windows
 targetos: Windows

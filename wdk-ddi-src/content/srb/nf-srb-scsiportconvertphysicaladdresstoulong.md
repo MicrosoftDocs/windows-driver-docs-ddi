@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55c258d2-922a-430a-ba6b-b05a078b712d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortConvertPhysicalAddressToUlong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, storage.scsiportconvertphysicaladdresstoulong, srb/ScsiPortConvertPhysicalAddressToUlong
+ms.keywords: storage.scsiportconvertphysicaladdresstoulong, scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], ScsiPortConvertPhysicalAddressToUlong, srb/ScsiPortConvertPhysicalAddressToUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortConvertPhysicalAddressToUlong
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -83,11 +83,11 @@ Specifies a value of type SCSI_PHYSICAL_ADDRESS.
 
 ## -see-also
 
+<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
 <a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
 
  
 

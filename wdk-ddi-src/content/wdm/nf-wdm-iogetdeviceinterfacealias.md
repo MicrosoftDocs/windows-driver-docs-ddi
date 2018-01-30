@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias, k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, IoGetDeviceInterfaceAlias
+ms.keywords: kernel.iogetdeviceinterfacealias, IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceInterfaceAlias, k104_e33a51e9-4576-4558-9967-9ea27467c326.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetDeviceInterfaceAlias
 product: Windows
 targetos: Windows

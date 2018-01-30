@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1025c89f-8d63-4aeb-be7c-16b555cfa58a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetconnectedpinfileobject, avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, KsPinGetConnectedPinFileObject, ks/KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices]
+ms.keywords: avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, stream.kspingetconnectedpinfileobject, ks/KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], KsPinGetConnectedPinFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinGetConnectedPinFileObject
 product: Windows
 targetos: Windows
@@ -82,9 +82,9 @@ If <i>Pin</i> is a source pin, <b>KsPinGetConnectedPinFileObject</b> returns a p
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
-
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
+<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
  
 

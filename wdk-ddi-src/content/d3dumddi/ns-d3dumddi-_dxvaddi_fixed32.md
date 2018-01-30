@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4188c488-fda4-4596-96f5-f740a5cc9ffc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_FIXED32 structure [Display Devices], display.dxvaddi_fixed32, DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, _DXVADDI_FIXED32, d3dumddi/DXVADDI_FIXED32, DXVADDI_FIXED32
+ms.keywords: DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], _DXVADDI_FIXED32, d3dumddi/DXVADDI_FIXED32, DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, display.dxvaddi_fixed32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

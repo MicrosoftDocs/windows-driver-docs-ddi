@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB
-title: _URB
+title: "_URB"
 author: windows-driver-content
 description: The URB structure is used by USB client drivers to describe USB request blocks (URBs) that send requests to the USB driver stack. The URB structure defines a format for all possible commands that can be sent to a USB device.
 old-location: buses\urb.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f28b2c97-61ee-4843-b3c5-b3a55f172c50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: URB, usb/URB, PURB, buses.urb, URB structure [Buses], usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml, PURB structure pointer [Buses], usb/PURB, _URB
+ms.keywords: usb/URB, URB structure [Buses], buses.urb, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml, PURB structure pointer [Buses], usb/PURB, PURB, URB, _URB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	URB
 product: Windows
 targetos: Windows
-req.typenames: URB, PURB
+req.typenames: PURB, URB
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetActivityIdSrb routine [Storage Devices], StorPortGetActivityIdSrb, storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb
+ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortGetActivityIdSrb
 product: Windows
 targetos: Windows

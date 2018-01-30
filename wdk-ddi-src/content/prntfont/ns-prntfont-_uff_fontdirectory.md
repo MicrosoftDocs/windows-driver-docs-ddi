@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UFF_FONTDIRECTORY
-title: _UFF_FONTDIRECTORY
+title: "_UFF_FONTDIRECTORY"
 author: windows-driver-content
 description: The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 old-location: print\uff_fontdirectory.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY structure pointer [Print Devices], print.uff_fontdirectory, *PUFF_FONTDIRECTORY
+ms.keywords: print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, print.uff_fontdirectory, prntfont/UFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], PUFF_FONTDIRECTORY structure pointer [Print Devices], _UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UFF_FONTDIRECTORY
 product: Windows
 targetos: Windows
-req.typenames: *PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY
+req.typenames: UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY
 req.product: Windows 10 or later.
 ---
 

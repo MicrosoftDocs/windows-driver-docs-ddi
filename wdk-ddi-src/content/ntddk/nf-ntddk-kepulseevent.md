@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57505700-9775-4dac-a106-951da0744631
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kepulseevent, KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, ntddk/KePulseEvent
+ms.keywords: k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, ntddk/KePulseEvent, KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], kernel.kepulseevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KePulseEvent
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KePulseEvent function
@@ -111,19 +111,19 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
  
 

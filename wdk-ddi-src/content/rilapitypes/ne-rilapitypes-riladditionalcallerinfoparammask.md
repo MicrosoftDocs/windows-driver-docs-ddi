@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1de91e12-1f8c-48fa-85e4-c3cb061fce78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_ADDTLCI_ALL, RIL_PARAM_ADDTLCI_CALLERINFO, rilapitypes/RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, netvista.riladditionalcallerinfoparammask_2, RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, RIL_PARAM_ADDTLCI_CALLID, RILADDITIONALCALLERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILADDITIONALCALLERINFOPARAMMASK, RILADDITIONALCALLERINFOPARAMMASK, RIL_PARAM_ADDTLCI_ALL, rilapitypes/RIL_PARAM_ADDTLCI_CALLERINFO, rilapitypes/RIL_PARAM_ADDTLCI_CALLID
+ms.keywords: rilapitypes/RIL_PARAM_ADDTLCI_CALLID, RILADDITIONALCALLERINFOPARAMMASK, rilapitypes/RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, rilapitypes/RIL_PARAM_ADDTLCI_ALL, RILADDITIONALCALLERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.riladditionalcallerinfoparammask_2, RIL_PARAM_ADDTLCI_ALL, rilapitypes/RIL_PARAM_ADDTLCI_CALLERINFO, RIL_PARAM_ADDTLCI_CALLID, RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, rilapitypes/RILADDITIONALCALLERINFOPARAMMASK, RIL_PARAM_ADDTLCI_CALLERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILADDITIONALCALLERINFOPARAMMASK
 product: Windows
 targetos: Windows

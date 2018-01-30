@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 90cc2c3b-8fb2-4450-9c20-06e1e4d1fe47
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyCleanup routine [Installable File System Drivers], ifsk.fsrtlnotifycleanup, FsRtlNotifyCleanup, fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, ntifs/FsRtlNotifyCleanup
+ms.keywords: fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, ifsk.fsrtlnotifycleanup, FsRtlNotifyCleanup routine [Installable File System Drivers], FsRtlNotifyCleanup, ntifs/FsRtlNotifyCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNotifyCleanup
 product: Windows
 targetos: Windows
@@ -102,9 +102,9 @@ If a notify structure is found that matches <i>FsContext</i>, <b>FsRtlNotifyClea
 
 <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 

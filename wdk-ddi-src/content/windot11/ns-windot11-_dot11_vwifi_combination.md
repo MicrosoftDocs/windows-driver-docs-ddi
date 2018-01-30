@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_VWIFI_COMBINATION
-title: _DOT11_VWIFI_COMBINATION
+title: "_DOT11_VWIFI_COMBINATION"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_vwifi_combination.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 05be98a8-dad2-4539-b725-e898db19a789
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_vwifi_combination, DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION, Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_VWIFI_COMBINATION
+ms.keywords: "*PDOT11_VWIFI_COMBINATION, windot11/DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_combination, PDOT11_VWIFI_COMBINATION, Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, _DOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_VWIFI_COMBINATION
 product: Windows
 targetos: Windows
-req.typenames: DOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION
+req.typenames: "*PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION"
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,22 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_VWIFI_COMBINATION_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       sizeof(DOT11_VWIFI_COMBINATION).
+
+
 ### -field uNumInfrastructure
 
 The number of 802.11 infrastructure stations supported. For more information, see the following
@@ -104,22 +120,6 @@ The number of Adhoc Stations supported. For more information, see the following 
 
 The number of Soft AP Stations supported. For more information, see the following Remarks
      section.
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_VWIFI_COMBINATION_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       sizeof(DOT11_VWIFI_COMBINATION).
 
 
 ## -remarks

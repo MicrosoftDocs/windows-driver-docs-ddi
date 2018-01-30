@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCloseSectionForDataScan routine [Installable File System Drivers], ifsk.fltclosesectionfordatascan, fltkernel/FltCloseSectionForDataScan, FltCloseSectionForDataScan
+ms.keywords: ifsk.fltclosesectionfordatascan, FltCloseSectionForDataScan, fltkernel/FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+apiname:
 -	FltCloseSectionForDataScan
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ After <b>FltCloseSectionForDataScan</b> returns, operations that conflict with t
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
  
 

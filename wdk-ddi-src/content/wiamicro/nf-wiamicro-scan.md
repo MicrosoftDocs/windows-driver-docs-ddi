@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Scan, Scan function [Imaging Devices], image.scan, wiamicro/Scan, MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml
+ms.keywords: wiamicro/Scan, image.scan, Scan function [Imaging Devices], MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, Scan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	Scan
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -150,11 +150,11 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 ## -see-also
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05057ae7-0f91-4f5a-8c72-652ec04ee3ab
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwOpenKeyEx, k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], ZwOpenKeyEx, kernel.zwopenkeyex
+ms.keywords: k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, kernel.zwopenkeyex, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], ZwOpenKeyEx, wdm/ZwOpenKeyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenKeyEx
 product: Windows
 targetos: Windows
@@ -215,15 +215,15 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

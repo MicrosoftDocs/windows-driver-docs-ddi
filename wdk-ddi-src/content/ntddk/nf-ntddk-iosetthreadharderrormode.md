@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bedb6399-8f79-477a-9a90-4a7dec5c5dae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iosetthreadharderrormode, IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], IoSetThreadHardErrorMode, ntddk/IoSetThreadHardErrorMode, k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml
+ms.keywords: IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], IoSetThreadHardErrorMode, kernel.iosetthreadharderrormode, k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml, ntddk/IoSetThreadHardErrorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetThreadHardErrorMode
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetThreadHardErrorMode function

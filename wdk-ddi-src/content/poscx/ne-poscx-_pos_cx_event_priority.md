@@ -1,6 +1,6 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_PRIORITY
-title: _POS_CX_EVENT_PRIORITY
+title: "_POS_CX_EVENT_PRIORITY"
 author: windows-driver-content
 description: The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
 old-location: pos\pos_cx_event_priority.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 835DC1E4-2D49-4D43-A545-5D4288412EC6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY, _POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_INVALID, POS_CX_EVENT_PRIORITY enumeration, poscx/POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_CONTROL, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY_INVALID
+ms.keywords: poscx/POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY_INVALID, POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY_INVALID, poscx/POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY enumeration, poscx/POS_CX_EVENT_PRIORITY_CONTROL, _POS_CX_EVENT_PRIORITY, pos.pos_cx_event_priority, POS_CX_EVENT_PRIORITY_CONTROL, POS_CX_EVENT_PRIORITY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	POS_CX_EVENT_PRIORITY
 product: Windows
 targetos: Windows

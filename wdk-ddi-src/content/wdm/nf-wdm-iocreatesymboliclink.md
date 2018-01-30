@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: be080007-f88e-4cea-b15d-58dc4ac2cb66
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateSymbolicLink, kernel.iocreatesymboliclink, wdm/IoCreateSymbolicLink, k104_8311eaf7-a12f-470d-b81f-83a12697ddbe.xml, IoCreateSymbolicLink routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoCreateSymbolicLink, k104_8311eaf7-a12f-470d-b81f-83a12697ddbe.xml, IoCreateSymbolicLink routine [Kernel-Mode Driver Architecture], wdm/IoCreateSymbolicLink, kernel.iocreatesymboliclink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoCreateSymbolicLink
 product: Windows
 targetos: Windows

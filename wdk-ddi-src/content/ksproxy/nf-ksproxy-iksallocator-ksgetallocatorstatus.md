@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 139F4465-1228-4603-B92F-4CB73E1A6DC0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.iksallocator_ksgetallocatorstatus, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], KsGetAllocatorStatus method, ksproxy/IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator interface, IKsAllocator, KsGetAllocatorStatus, IKsAllocator::KsGetAllocatorStatus
+ms.keywords: KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator::KsGetAllocatorStatus, IKsAllocator, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorStatus, IKsAllocator interface [Streaming Media Devices], KsGetAllocatorStatus method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsAllocator.KsGetAllocatorStatus
 product: Windows
 targetos: Windows

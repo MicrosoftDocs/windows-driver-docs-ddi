@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskSocketConnect
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -105,6 +105,21 @@ The type of the socket that is being created. The following socket types are sup
 For more information about the socket types that are supported for each supported address family, see
      
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
+
+
+#### SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
+#### SOCK_DGRAM
+
+Supports unreliable connectionless datagram communication.
+
+
+#### SOCK_RAW
+
+Supports raw access to the transport protocol.
 
 
 ### -param Protocol [in]
@@ -185,21 +200,6 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
      <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
      Kernel Functions</mshelp:link>.
-
-
-##### - SocketType.SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
-
-
-##### - SocketType.SOCK_RAW
-
-Supports raw access to the transport protocol.
-
-
-##### - SocketType.SOCK_DGRAM
-
-Supports unreliable connectionless datagram communication.
 
 
 #### - Dispatch [in, optional]
@@ -308,26 +308,26 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
-
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
  
 

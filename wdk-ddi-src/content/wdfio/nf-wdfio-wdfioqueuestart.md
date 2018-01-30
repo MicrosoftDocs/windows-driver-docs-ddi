@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueStart, kmdf.wdfioqueuestart, WdfIoQueueStart method, WdfIoQueueStart, DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, PFN_WDFIOQUEUESTART, wdf.wdfioqueuestart
+ms.keywords: DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, wdfio/WdfIoQueueStart, WdfIoQueueStart method, wdf.wdfioqueuestart, WdfIoQueueStart, kmdf.wdfioqueuestart, PFN_WDFIOQUEUESTART
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueStart
 product: Windows
 targetos: Windows

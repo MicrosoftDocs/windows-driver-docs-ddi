@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 290d0b06-ccf7-4792-b7bb-556092845e55
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxFinishFcbInitialization function [Installable File System Drivers], RxFinishFcbInitialization, RDBSS_NTC_SPOOLFILE, fcb/RxFinishFcbInitialization, RDBSS_NTC_MAILSLOT, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml, ifsk.rxfinishfcbinitialization, RDBSS_NTC_STORAGE_TYPE_FILE, RDBSS_NTC_STORAGE_TYPE_UNKNOWN, RDBSS_NTC_STORAGE_TYPE_DIRECTORY
+ms.keywords: RDBSS_NTC_MAILSLOT, RDBSS_NTC_STORAGE_TYPE_FILE, RDBSS_NTC_STORAGE_TYPE_UNKNOWN, ifsk.rxfinishfcbinitialization, RxFinishFcbInitialization, RDBSS_NTC_SPOOLFILE, fcb/RxFinishFcbInitialization, RxFinishFcbInitialization function [Installable File System Drivers], RDBSS_NTC_STORAGE_TYPE_DIRECTORY, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fcb.h
-apiname: 
+apiname:
 -	RxFinishFcbInitialization
 product: Windows
 targetos: Windows
@@ -176,43 +176,43 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
 <a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 <a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFCB</a>
 
-<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
+
+<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
 
 <a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
 
 <a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
 
-<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
+<a href="..\fcb\nf-fcb-rxfinalizevnetroot.md">RxFinalizeVNetRoot</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 <a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
 
-<a href="..\fcb\nf-fcb-rxfinalizevnetroot.md">RxFinalizeVNetRoot</a>
+<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 <a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
 
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
+<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
 
  
 

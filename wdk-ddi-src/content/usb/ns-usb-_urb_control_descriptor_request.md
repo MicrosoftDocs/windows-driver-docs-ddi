@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_DESCRIPTOR_REQUEST
-title: _URB_CONTROL_DESCRIPTOR_REQUEST
+title: "_URB_CONTROL_DESCRIPTOR_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_DESCRIPTOR_REQUEST structure is used by USB client drivers to get or set descriptors on a USB device.
 old-location: buses\_urb_control_descriptor_request.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml, _URB_CONTROL_DESCRIPTOR_REQUEST, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, buses._urb_control_descriptor_request
+ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_CONTROL_DESCRIPTOR_REQUEST
 product: Windows
 targetos: Windows
@@ -179,21 +179,21 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

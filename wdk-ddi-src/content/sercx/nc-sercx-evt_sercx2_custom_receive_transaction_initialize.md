@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	EvtSerCx2CustomReceiveTransactionInitialize
 product: Windows
 targetos: Windows
-req.typenames: *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
+req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
 ---
 
@@ -116,13 +116,13 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
  
 

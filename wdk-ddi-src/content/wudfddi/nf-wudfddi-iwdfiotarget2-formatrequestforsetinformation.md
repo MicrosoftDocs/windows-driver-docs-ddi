@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoTarget2::FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, IWDFIoTarget2, wdf.iwdfiotarget2_formatrequestforsetinformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, FormatRequestForSetInformation method, FormatRequestForSetInformation method, IWDFIoTarget2 interface, umdf.iwdfiotarget2_formatrequestforsetinformation, IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation
+ms.keywords: umdf.iwdfiotarget2_formatrequestforsetinformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, IWDFIoTarget2, wdf.iwdfiotarget2_formatrequestforsetinformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, FormatRequestForSetInformation method, IWDFIoTarget2 interface, FormatRequestForSetInformation method, IWDFIoTarget2::FormatRequestForSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTarget2.FormatRequestForSetInformation
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -81,7 +81,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 
 ### -param InformationClass [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
+A <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
 
 
 ### -param pFile [in, optional]
@@ -134,9 +134,9 @@ Use the <b>FormatRequestForSetInformation</b> method, followed by the <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559184">IWDFIoTarget2::FormatRequestForQueryInformation</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559184">IWDFIoTarget2::FormatRequestForQueryInformation</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 62f0bfd3-b8d9-4b29-a811-91a6c66dc24f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers], prefix/RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, RxpAcquirePrefixTableLockExclusive, ifsk.rxpacquireprefixtablelockexclusive
+ms.keywords: RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, ifsk.rxpacquireprefixtablelockexclusive, prefix/RxpAcquirePrefixTableLockExclusive, RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prefix.h
-apiname: 
+apiname:
 -	RxpAcquirePrefixTableLockExclusive
 product: Windows
 targetos: Windows
-req.typenames: *PSHIMOPTS, SHIMOPTS
+req.typenames: "*PSHIMOPTS, SHIMOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -115,17 +115,17 @@ Normal kernel APC delivery should be disabled before calling this routine. Disab
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
-
-<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
+<a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 <a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
 
 <a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 

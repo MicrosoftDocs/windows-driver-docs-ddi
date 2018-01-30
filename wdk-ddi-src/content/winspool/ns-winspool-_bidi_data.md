@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_DATA
-title: _BIDI_DATA
+title: "_BIDI_DATA"
 author: windows-driver-content
 description: The BIDI_DATA structure is used to store the values of a bidi schema.
 old-location: print\bidi_data.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9e0f3044-01c0-4dec-b34c-0f33ccfe3300
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PBIDI_DATA structure pointer [Print Devices], *PBIDI_DATA, _BIDI_DATA, *LPBIDI_DATA, winspool/PBIDI_DATA, LPBIDI_DATA structure pointer [Print Devices], BIDI_DATA structure [Print Devices], spoolfnc_6e6c0bc2-88f6-43ab-8183-42ee1a91e593.xml, winspool/BIDI_DATA, PBIDI_DATA, print.bidi_data, LPBIDI_DATA, BIDI_DATA, winspool/LPBIDI_DATA
+ms.keywords: LPBIDI_DATA, spoolfnc_6e6c0bc2-88f6-43ab-8183-42ee1a91e593.xml, *PBIDI_DATA, LPBIDI_DATA structure pointer [Print Devices], _BIDI_DATA, print.bidi_data, PBIDI_DATA structure pointer [Print Devices], BIDI_DATA structure [Print Devices], PBIDI_DATA, BIDI_DATA, winspool/PBIDI_DATA, winspool/LPBIDI_DATA, winspool/BIDI_DATA, *LPBIDI_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BIDI_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PBIDI_DATA, BIDI_DATA, *LPBIDI_DATA
+req.typenames: "*LPBIDI_DATA, BIDI_DATA, *PBIDI_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -122,9 +122,9 @@ The <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a
 
 <a href="..\winspool\ne-winspool-bidi_type.md">BIDI_TYPE</a>
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
-
 <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a>
+
+<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SID_IDENTIFIER_AUTHORITY
-title: _SID_IDENTIFIER_AUTHORITY
+title: "_SID_IDENTIFIER_AUTHORITY"
 author: windows-driver-content
 description: The SID_IDENTIFIER_AUTHORITY structure represents the top-level authority of a security identifier (SID).
 old-location: ifsk\sid_identifier_authority.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 66d8b02d-fbab-4ff7-8f47-858b9f143171
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PSID_IDENTIFIER_AUTHORITY, _SID_IDENTIFIER_AUTHORITY, ntifs/SID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY, ntifs/PSID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY, ifsk.sid_identifier_authority, securitystructures_d1535875-a778-4b95-b736-e357e5379c19.xml, SID_IDENTIFIER_AUTHORITY structure [Installable File System Drivers], PSID_IDENTIFIER_AUTHORITY structure pointer [Installable File System Drivers]
+ms.keywords: PSID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY structure [Installable File System Drivers], ntifs/SID_IDENTIFIER_AUTHORITY, securitystructures_d1535875-a778-4b95-b736-e357e5379c19.xml, PSID_IDENTIFIER_AUTHORITY structure pointer [Installable File System Drivers], _SID_IDENTIFIER_AUTHORITY, ifsk.sid_identifier_authority, *PSID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY, ntifs/PSID_IDENTIFIER_AUTHORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SID_IDENTIFIER_AUTHORITY
 product: Windows
 targetos: Windows
-req.typenames: *PSID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY
+req.typenames: "*PSID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY"
 ---
 
 # _SID_IDENTIFIER_AUTHORITY structure
@@ -147,9 +147,9 @@ SECURITY_NT_AUTHORITY
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
 <a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

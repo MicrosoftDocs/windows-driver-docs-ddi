@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbd_isusbdinterfaceversionsupported, USBD_IsInterfaceVersionSupported routine [Buses], usbdlib/USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported
+ms.keywords: USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], buses.usbd_isusbdinterfaceversionsupported, usbdlib/USBD_IsInterfaceVersionSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname: 
+apiname:
 -	USBD_IsInterfaceVersionSupported
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

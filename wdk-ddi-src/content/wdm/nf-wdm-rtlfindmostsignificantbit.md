@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 372a155f-e270-49ab-a5ab-9b933b29ed74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindMostSignificantBit, k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], kernel.rtlfindmostsignificantbit, wdm/RtlFindMostSignificantBit
+ms.keywords: RtlFindMostSignificantBit, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], kernel.rtlfindmostsignificantbit, wdm/RtlFindMostSignificantBit, k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlFindMostSignificantBit
 product: Windows
 targetos: Windows

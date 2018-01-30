@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CommitAsync method [Print Devices], IPrintSchemaTicket, CommitAsync, IPrintSchemaTicket interface [Print Devices], CommitAsync method, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync, CommitAsync method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::CommitAsync
+ms.keywords: CommitAsync, CommitAsync method [Print Devices], print.iprintschematicket_commitasync, IPrintSchemaTicket::CommitAsync, IPrintSchemaTicket interface [Print Devices], CommitAsync method, CommitAsync method [Print Devices], IPrintSchemaTicket interface, printerextension/IPrintSchemaTicket::CommitAsync, IPrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaTicket.CommitAsync
 product: Windows
 targetos: Windows

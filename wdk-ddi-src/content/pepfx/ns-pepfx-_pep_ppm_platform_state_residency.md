@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PLATFORM_STATE_RESIDENCY
-title: _PEP_PPM_PLATFORM_STATE_RESIDENCY
+title: "_PEP_PPM_PLATFORM_STATE_RESIDENCY"
 author: windows-driver-content
 description: The PEP_PPM_PLATFORM_STATE_RESIDENCY structure specifies the accumulated residency time and transition count for a particular platform idle state.
 old-location: kernel\pep_ppm_platform_state_residency.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 35DB4043-F1B6-43C0-B8E7-FCEFF1E7E459
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCY, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCY, PPEP_PPM_PLATFORM_STATE_RESIDENCY structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY, kernel.pep_ppm_platform_state_residency, PEP_PPM_PLATFORM_STATE_RESIDENCY structure [Kernel-Mode Driver Architecture], *PPEP_PPM_PLATFORM_STATE_RESIDENCY, _PEP_PPM_PLATFORM_STATE_RESIDENCY
+ms.keywords: PEP_PPM_PLATFORM_STATE_RESIDENCY structure [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCY, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCY, *PPEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY, _PEP_PPM_PLATFORM_STATE_RESIDENCY, kernel.pep_ppm_platform_state_residency, PPEP_PPM_PLATFORM_STATE_RESIDENCY structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_PLATFORM_STATE_RESIDENCY
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY
+req.typenames: PEP_PPM_PLATFORM_STATE_RESIDENCY, *PPEP_PPM_PLATFORM_STATE_RESIDENCY
 ---
 
 # _PEP_PPM_PLATFORM_STATE_RESIDENCY structure

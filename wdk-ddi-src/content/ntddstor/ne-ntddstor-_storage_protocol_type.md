@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_TYPE
-title: _STORAGE_PROTOCOL_TYPE
+title: "_STORAGE_PROTOCOL_TYPE"
 author: windows-driver-content
 description: This enumeration is used to define the different storage command protocols that are used between software and hardware.
 old-location: storage\storage_protocol_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ProtocolTypeScsi, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, ProtocolTypeAta, ProtocolTypeUfs, ProtocolTypeProprietary, ProtocolTypeNvme, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeProprietary, storage.storage_protocol_type, ntddstor/ProtocolTypeUfs, ProtocolTypeSd, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeSd
+ms.keywords: ProtocolTypeSd, ProtocolTypeMaxReserved, ntddstor/ProtocolTypeAta, ProtocolTypeNvme, ProtocolTypeAta, ntddstor/ProtocolTypeNvme, *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeUfs, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeSd, storage.storage_protocol_type, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], STORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeMaxReserved, _STORAGE_PROTOCOL_TYPE, ProtocolTypeUfs, ntddstor/ProtocolTypeScsi, ProtocolTypeScsi, ProtocolTypeProprietary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PROTOCOL_TYPE
 product: Windows
 targetos: Windows

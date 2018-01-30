@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74bfe9fb-f751-46a6-a95b-f715ebedd2ec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmIsDriverVerifying, wdm/MmIsDriverVerifying, k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, kernel.mmisdriververifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture]
+ms.keywords: k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, MmIsDriverVerifying, wdm/MmIsDriverVerifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], kernel.mmisdriververifying
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmIsDriverVerifying
 product: Windows
 targetos: Windows
@@ -97,9 +97,9 @@ For example, if driver A has an import table through which it calls one or more 
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
  
 

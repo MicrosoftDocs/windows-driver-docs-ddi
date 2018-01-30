@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_PARTITION_INFO
-title: _DISK_PARTITION_INFO
+title: "_DISK_PARTITION_INFO"
 author: windows-driver-content
 description: The DISK_PARTITION_INFO structure is used to report information about the disk's partition table.
 old-location: storage\disk_partition_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14df0604-39cd-4743-a051-894d63f4417c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_PARTITION_INFO structure [Storage Devices], ntdddisk/PDISK_PARTITION_INFO, _DISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Storage Devices], ntdddisk/DISK_PARTITION_INFO, PDISK_PARTITION_INFO, *PDISK_PARTITION_INFO, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, DISK_PARTITION_INFO, storage.disk_partition_info
+ms.keywords: PDISK_PARTITION_INFO, _DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], *PDISK_PARTITION_INFO, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, ntdddisk/DISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Storage Devices], storage.disk_partition_info, ntdddisk/PDISK_PARTITION_INFO, DISK_PARTITION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DISK_PARTITION_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDISK_PARTITION_INFO, DISK_PARTITION_INFO
+req.typenames: "*PDISK_PARTITION_INFO, DISK_PARTITION_INFO"
 ---
 
 # _DISK_PARTITION_INFO structure
@@ -117,7 +117,17 @@ Size of this structure in bytes. Set to <b>sizeof</b>(DISK_PARTITION_INFO).
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table the disk contains.
 
 
-##### - Mbr.CheckSum
+#### - Mbr
+
+If <b>PartitionStyle</b> == MBR
+
+
+#### Signature
+
+Specifies the signature value, which uniquely identifies the disk. The <b>Mbr</b> member of the union is used to specify the disk signature data for a disk formatted with a Master Boot Record (MBR) format partition table. Any other value indicates that the partition is not a boot partition. This member is valid when <b>PartitionStyle</b> is <b>PARTITION_STYLE_MBR</b>. 
+
+
+#### CheckSum
 
 Specifies the checksum for the master boot record. The <b>Mbr</b> member of the union is used to specify the disk signature data for a disk formatted with a Master Boot Record (MBR) format partition table. This member is valid when <b>PartitionStyle</b> is <b>PARTITION_STYLE_MBR</b>. 
 
@@ -127,26 +137,16 @@ Specifies the checksum for the master boot record. The <b>Mbr</b> member of the 
 If <b>PartitionStyle</b> == GPT
 
 
-##### - Gpt.DiskId
+#### DiskId
 
 Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of the union is used to specify the disk signature data for a disk that is formatted with a GUID Partition Table (GPT) format partition table. This member is valid when <b>PartitionStyle</b> is <b>PARTITION_STYLE_GPT</b>. The GUID data type is described on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565392">Using GUIDs in Drivers</a> reference page.
 
 
-#### - Mbr
-
-If <b>PartitionStyle</b> == MBR
-
-
-##### - Mbr.Signature
-
-Specifies the signature value, which uniquely identifies the disk. The <b>Mbr</b> member of the union is used to specify the disk signature data for a disk formatted with a Master Boot Record (MBR) format partition table. Any other value indicates that the partition is not a boot partition. This member is valid when <b>PartitionStyle</b> is <b>PARTITION_STYLE_MBR</b>. 
-
-
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E257606A-66EE-4F53-B661-F5FFC63E1F54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_postmultiplaneoverlaypresent, d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices]
+ms.keywords: d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices], DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkarg_postmultiplaneoverlaypresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

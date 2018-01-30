@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ntifs/FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards, ifsk.fsrtldoesnamecontainwildcards
+ms.keywords: ntifs/FsRtlDoesNameContainWildCards, ifsk.fsrtldoesnamecontainwildcards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, FsRtlDoesNameContainWildCards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlDoesNameContainWildCards
 product: Windows
 targetos: Windows

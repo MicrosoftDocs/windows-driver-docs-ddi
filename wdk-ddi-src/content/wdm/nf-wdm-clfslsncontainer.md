@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 006edbf7-b3f8-45f2-902e-03d86e83b0a0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnContainer routine [Kernel-Mode Driver Architecture], wdm/ClfsLsnContainer, kernel.clfslsncontainer, Clfs_87c1e289-57b7-414d-a78e-8074a75d1262.xml, ClfsLsnContainer
+ms.keywords: kernel.clfslsncontainer, Clfs_87c1e289-57b7-414d-a78e-8074a75d1262.xml, wdm/ClfsLsnContainer, ClfsLsnContainer routine [Kernel-Mode Driver Architecture], ClfsLsnContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsLsnContainer
 product: Windows
 targetos: Windows
@@ -90,11 +90,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
+<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
 
 <a href="..\wdm\nf-wdm-clfslsncreate.md">ClfsLsnCreate</a>
 
-<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
+<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
 
  
 

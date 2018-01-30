@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_QOS_PARAMETERS
-title: _NDIS_QOS_PARAMETERS
+title: "_NDIS_QOS_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_QOS_PARAMETERS structure specifies the NDIS Quality of Service (QoS) parameters that are enabled on a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 old-location: netvista\ndis_qos_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83eb72a8-d35b-445d-a207-c14a3bedd308
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_qos_parameters
+ms.keywords: netvista.ndis_qos_parameters, ntddndis/PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_QOS_PARAMETERS, _NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_QOS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_QOS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: PNDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS
+req.typenames: NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS
 ---
 
 # _NDIS_QOS_PARAMETERS structure
@@ -88,6 +88,13 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+#### NDIS_QOS_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_QOS_PARAMETERS_REVISION_1.
+
+
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the status of the NDIS QoS parameters for the network adapter. For more information about this member, see <a href="https://docs.microsoft.com/">Overview of the Flags Member</a>.
@@ -119,6 +126,21 @@ An array of <b>UCHAR</b> elements that specifies the TSA assigned to each traffi
 Each element of the <b>TsaAssignmentTable</b> array contains one of the following values:
 
 
+
+
+#### NDIS_QOS_TSA_STRICT
+
+The strict priority algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
+
+
+#### NDIS_QOS_TSA_CBS
+
+The IEEE 802.1Qav credit-based shaper (CBS) algorithm must be used as the TSA for the traffic class.
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the DCB component (Msdcb.sys) does not support the CBS TSA and won't enable this parameter through object identifier (OID) method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>. For more information on the DCB component, see <a href="https://msdn.microsoft.com/ECB156D8-ECD5-49DE-BC75-6562B90F6056">NDIS QoS Architecture for Data Center Bridging</a>.</div><div> </div>
+
+#### NDIS_QOS_TSA_ETS
+
+The IEEE 802.1Qaz Enhanced Transmission Selection (ETS) algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/952ECB1E-96AD-4717-8E49-68558E7E9AD4">Enhanced Transmission Selection (ETS) Algorithm</a>.
 
 
 ### -field PfcEnable
@@ -187,28 +209,6 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first element i
 
 <div class="alert"><b>Note</b>  If <b>NumClassificationElements</b> is set to zero, this member is ignored.  </div><div> </div>
 
-##### - TsaAssignmentTable.NDIS_QOS_TSA_STRICT
-
-The strict priority algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
-
-
-##### - TsaAssignmentTable.NDIS_QOS_TSA_ETS
-
-The IEEE 802.1Qaz Enhanced Transmission Selection (ETS) algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://msdn.microsoft.com/952ECB1E-96AD-4717-8E49-68558E7E9AD4">Enhanced Transmission Selection (ETS) Algorithm</a>.
-
-
-##### - Header.NDIS_QOS_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_QOS_PARAMETERS_REVISION_1.
-
-
-##### - TsaAssignmentTable.NDIS_QOS_TSA_CBS
-
-The IEEE 802.1Qav credit-based shaper (CBS) algorithm must be used as the TSA for the traffic class.
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the DCB component (Msdcb.sys) does not support the CBS TSA and won't enable this parameter through object identifier (OID) method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>. For more information on the DCB component, see <a href="https://msdn.microsoft.com/ECB156D8-ECD5-49DE-BC75-6562B90F6056">NDIS QoS Architecture for Data Center Bridging</a>.</div><div> </div>
-
 ## -remarks
 
 
@@ -266,24 +266,24 @@ For more information on the DCB component, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
-
 <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
     NdisMSetMiniportAttributes</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <b></b>
 

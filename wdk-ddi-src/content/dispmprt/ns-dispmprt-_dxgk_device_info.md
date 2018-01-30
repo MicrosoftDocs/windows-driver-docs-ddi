@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcdae08f-69a6-496b-8391-d2b505fb86d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], PDXGK_DEVICE_INFO structure pointer [Display Devices], dispmprt/DXGK_DEVICE_INFO, DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, _DXGK_DEVICE_INFO, display.dxgk_device_info
+ms.keywords: display.dxgk_device_info, DXGK_DEVICE_INFO structure [Display Devices], DXGK_DEVICE_INFO, PDXGK_DEVICE_INFO, _DXGK_DEVICE_INFO, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, PDXGK_DEVICE_INFO structure pointer [Display Devices], dispmprt/PDXGK_DEVICE_INFO, dispmprt/DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ A Unicode string that holds the registry path of the software key for the displa
 
 ### -field TranslatedResourceList
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
+A pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
 
 
 ### -field SystemMemorySize
@@ -129,11 +129,11 @@ The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_dev
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
  
 

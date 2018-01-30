@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_DIRECTORY_INFORMATION
-title: _FILE_DIRECTORY_INFORMATION
+title: "_FILE_DIRECTORY_INFORMATION"
 author: windows-driver-content
 description: The FILE_DIRECTORY_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_directory_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 012c3178-f3a0-449b-b4a2-91fff4af1a17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], FILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION, _FILE_DIRECTORY_INFORMATION, *PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_DIRECTORY_INFORMATION, ifsk.file_directory_information, ntifs/FILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml
+ms.keywords: ifsk.file_directory_information, FILE_DIRECTORY_INFORMATION, ntifs/FILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], *PFILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, _FILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_DIRECTORY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION
+req.typenames: "*PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION"
 ---
 
 # _FILE_DIRECTORY_INFORMATION structure
@@ -158,9 +158,9 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
 <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
  
 

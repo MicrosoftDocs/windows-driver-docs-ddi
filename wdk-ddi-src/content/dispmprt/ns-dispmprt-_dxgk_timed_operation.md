@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b377ba5-cd3b-433e-bd9c-315203c3bc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_TIMED_OPERATION structure pointer [Display Devices], PDXGK_TIMED_OPERATION, _DXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION, display.dxgk_timed_operation, DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], dispmprt/DXGK_TIMED_OPERATION
+ms.keywords: DXGK_TIMED_OPERATION structure [Display Devices], _DXGK_TIMED_OPERATION, DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, *PDXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION, dispmprt/DXGK_TIMED_OPERATION, display.dxgk_timed_operation, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], DXGK_TIMED_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

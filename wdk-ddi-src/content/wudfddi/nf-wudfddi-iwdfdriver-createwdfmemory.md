@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ea754db-3bed-48d9-825f-7ee7b5e169b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver interface, CreateWdfMemory method, CreateWdfMemory, wdf.iwdfdriver_createwdfmemory, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml, umdf.iwdfdriver_createwdfmemory, IWDFDriver::CreateWdfMemory, CreateWdfMemory method, IWDFDriver, CreateWdfMemory method, IWDFDriver interface, wudfddi/IWDFDriver::CreateWdfMemory
+ms.keywords: IWDFDriver::CreateWdfMemory, IWDFDriver interface, CreateWdfMemory method, wudfddi/IWDFDriver::CreateWdfMemory, CreateWdfMemory, umdf.iwdfdriver_createwdfmemory, CreateWdfMemory method, IWDFDriver interface, IWDFDriver, wdf.iwdfdriver_createwdfmemory, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml, CreateWdfMemory method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDriver.CreateWdfMemory
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -117,19 +117,19 @@ A UMDF driver cannot create a memory object with a zero-specified size buffer. I
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
  
 

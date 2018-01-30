@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, print.iprintoemuni_halftonepattern, HalftonePattern, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, IPrintOemUni interface [Print Devices], HalftonePattern method, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern method [Print Devices]
+ms.keywords: prcomoem/IPrintOemUni::HalftonePattern, IPrintOemUni, HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern method [Print Devices], print.iprintoemuni_halftonepattern, HalftonePattern, IPrintOemUni interface [Print Devices], HalftonePattern method, IPrintOemUni::HalftonePattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.HalftonePattern
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

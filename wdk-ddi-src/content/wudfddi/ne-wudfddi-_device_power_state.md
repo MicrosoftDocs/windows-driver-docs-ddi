@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi._DEVICE_POWER_STATE
-title: _DEVICE_POWER_STATE
+title: "_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The DEVICE_POWER_STATE enumeration identifies the device power states that a device can enter.
 old-location: wdf\device_power_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PDEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PowerDeviceMaximum, PowerDeviceD3, PowerDeviceMaximum, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, umdf.device_power_state, PowerDeviceD2, wudfddi/PowerDeviceD0, PowerDeviceD1, wudfddi/PowerDeviceUnspecified, wudfddi/PowerDeviceD2, wudfddi/PowerDeviceD1, DEVICE_POWER_STATE, PowerDeviceD0, _DEVICE_POWER_STATE, wudfddi/PowerDeviceD3, wudfddi/PDEVICE_POWER_STATE, wdf.device_power_state, DEVICE_POWER_STATE enumeration, PowerDeviceUnspecified, wudfddi/DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
+ms.keywords: DEVICE_POWER_STATE, _DEVICE_POWER_STATE, PowerDeviceD3, wudfddi/PowerDeviceD3, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PowerDeviceD0, PowerDeviceD0, wudfddi/DEVICE_POWER_STATE, wudfddi/PowerDeviceD1, wudfddi/PDEVICE_POWER_STATE, PowerDeviceD1, wudfddi/PowerDeviceMaximum, DEVICE_POWER_STATE enumeration, umdf.device_power_state, PowerDeviceD2, PowerDeviceMaximum, wdf.device_power_state, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, PowerDeviceUnspecified, wudfddi/PowerDeviceUnspecified, PDEVICE_POWER_STATE, wudfddi/PowerDeviceD2, *PDEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows

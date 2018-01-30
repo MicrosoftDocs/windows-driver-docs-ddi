@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_COUNTER_VALUE
-title: _NDIS_PD_COUNTER_VALUE
+title: "_NDIS_PD_COUNTER_VALUE"
 author: windows-driver-content
 description: This structure is used to hold a counter value for a queue or filter counter.
 old-location: netvista\ndis_pd_counter_value.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0C2424C5-F6EE-4D07-B5C3-CEC3520AFFDC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE, _NDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_COUNTER_VALUE, *PNDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value
+ms.keywords: NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_COUNTER_VALUE, _NDIS_PD_COUNTER_VALUE, ndis/PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], *PNDIS_PD_COUNTER_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_COUNTER_VALUE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b681f00-6cec-4598-abee-e9a97bd53582
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::GetTypeSize, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, ExtRemoteTyped, GetTypeSize method [Windows Debugging], debugger.extremotetyped_gettypesize, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, GetTypeSize
+ms.keywords: ExtRemoteTyped::GetTypeSize, debugger.extremotetyped_gettypesize, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, GetTypeSize, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, GetTypeSize method [Windows Debugging], ExtRemoteTyped, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetTypeSize
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetTypeSize method
@@ -75,9 +75,9 @@ ULONG GetTypeSize();
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
 
  
 

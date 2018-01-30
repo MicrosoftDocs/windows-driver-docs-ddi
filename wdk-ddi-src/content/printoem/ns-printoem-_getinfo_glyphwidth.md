@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHWIDTH
-title: _GETINFO_GLYPHWIDTH
+title: "_GETINFO_GLYPHWIDTH"
 author: windows-driver-content
 description: The GETINFO_GLYPHWIDTH structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphwidth.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/GETINFO_GLYPHWIDTH, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, _GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], GETINFO_GLYPHWIDTH structure [Print Devices], GETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH
+ms.keywords: "*PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], PGETINFO_GLYPHWIDTH, _GETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH structure [Print Devices], printoem/PGETINFO_GLYPHWIDTH, printoem/GETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	GETINFO_GLYPHWIDTH
 product: Windows
 targetos: Windows

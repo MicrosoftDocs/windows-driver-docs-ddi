@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bbf4852c-0fa5-47c0-a77e-7114b2a77549
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_ADAPTERFUNCS structure [Display Devices], d3dumddi/D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs, D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, _D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS
+ms.keywords: D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, d3dumddi/D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS structure [Display Devices], D3DDDI_ADAPTERFUNCS, _D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,11 +108,11 @@ typedef HRESULT (APIENTRY *PFND3DDDI_CLOSEADAPTER)(IN HANDLE hAdapter);</pre>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_openadapter.md">D3DDDIARG_OPENADAPTER</a>
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_closeadapter.md">CloseAdapter</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk._FWPS_BIND_REQUEST0
-title: _FWPS_BIND_REQUEST0
+title: "_FWPS_BIND_REQUEST0"
 author: windows-driver-content
 description: The FWPS_BIND_REQUEST0 structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V4 and FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V6 layers.
 old-location: netvista\fwps_bind_request0.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml, _FWPS_BIND_REQUEST0
+ms.keywords: netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml, fwpsk/FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_BIND_REQUEST0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_BIND_REQUEST0
 product: Windows
 targetos: Windows
@@ -151,16 +151,16 @@ Call
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
-
 <mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
    FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>
 
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
  
 

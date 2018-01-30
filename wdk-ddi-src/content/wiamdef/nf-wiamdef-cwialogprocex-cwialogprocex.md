@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx method [Imaging Devices], image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method
+ms.keywords: CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], wiamdef/CWiaLogProcEx::CWiaLogProcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiamdef.h
-apiname: 
+apiname:
 -	CWiaLogProcEx.CWiaLogProcEx
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -103,14 +103,14 @@ Defines the <b>INT</b> parameter <i>DetailLevel</i>.
 Defines the <b>IWiaLogEx</b> parameter <i>*pIWiaLog</i>.
 
 
-#### - lMethodId = 0
-
-Defines the <b>LONG</b> parameter <i>lMethodId</i>.
-
-
 #### - *pszMsg
 
 Defines the <b>CHAR</b> parameter <i>*pszMsg</i>.
+
+
+#### - lMethodId = 0
+
+Defines the <b>LONG</b> parameter <i>lMethodId</i>.
 
 
 ## -returns

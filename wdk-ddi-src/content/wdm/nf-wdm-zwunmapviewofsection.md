@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, wdm/ZwUnmapViewOfSection, NtUnmapViewOfSection, k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ZwUnmapViewOfSection, NtUnmapViewOfSection, kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwUnmapViewOfSection
 -	NtUnmapViewOfSection
 product: Windows
@@ -127,11 +127,11 @@ On return from <b>ZwUnmapViewOfSection</b>, the virtual-address region occupied 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemuimxdc_adjustimageablearea, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, IPrintOemUIMXDC::AdjustImageableArea, IPrintOemUIMXDC, AdjustImageableArea, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
+ms.keywords: IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, AdjustImageableArea, IPrintOemUIMXDC, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, AdjustImageableArea method [Print Devices], print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUIMXDC.AdjustImageableArea
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

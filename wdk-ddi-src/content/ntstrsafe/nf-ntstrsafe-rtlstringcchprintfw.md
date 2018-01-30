@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintf, ntstrsafe/RtlStringCchPrintfW
+ms.keywords: RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfA, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml, RtlStringCchPrintfW, kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], RtlStringCchPrintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchPrintfW
 -	RtlStringCchPrintfA
 -	RtlStringCchPrintfW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchPrintfW function
@@ -221,9 +221,9 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to h
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
 

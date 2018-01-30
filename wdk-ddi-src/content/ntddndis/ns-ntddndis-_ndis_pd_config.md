@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CONFIG
-title: _NDIS_PD_CONFIG
+title: "_NDIS_PD_CONFIG"
 author: windows-driver-content
 description: This structure holds configuration data for the PD provider.
 old-location: netvista\ndis_pd_config.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2B010641-4CFA-40B6-AB77-BE9F85347134
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_PD_CONFIG, NDIS_PD_CONFIG, ntddndis/NDIS_PD_CONFIG, netvista.ndis_pd_config, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CONFIG, netvista.ndis_pd_config, ntddndis/NDIS_PD_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PD_CONFIG
 product: Windows
 targetos: Windows

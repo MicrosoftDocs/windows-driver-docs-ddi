@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PREDICT_FAILURE
-title: _STORAGE_PREDICT_FAILURE
+title: "_STORAGE_PREDICT_FAILURE"
 author: windows-driver-content
 description: The STORAGE_PREDICT_FAILURE structure is used in conjunction with IOCTL_STORAGE_PREDICT_FAILURE to report whether a device is currently predicting a failure.
 old-location: storage\storage_predict_failure.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b88ec6d-a7e0-4bb8-8a12-c7f170ac2334
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], ntddstor/STORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], ntddstor/PSTORAGE_PREDICT_FAILURE, storage.storage_predict_failure, PSTORAGE_PREDICT_FAILURE, structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml, *PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE, _STORAGE_PREDICT_FAILURE
+ms.keywords: STORAGE_PREDICT_FAILURE, ntddstor/STORAGE_PREDICT_FAILURE, storage.storage_predict_failure, PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml, *PSTORAGE_PREDICT_FAILURE, ntddstor/PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], _STORAGE_PREDICT_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PREDICT_FAILURE
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE
+req.typenames: "*PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE"
 ---
 
 # _STORAGE_PREDICT_FAILURE structure

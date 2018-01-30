@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaswritepagebuftofile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiamdef/wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices], wiasWritePageBufToFile
+ms.keywords: wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, image.wiaswritepagebuftofile, wiasWritePageBufToFile function [Imaging Devices], wiamdef/wiasWritePageBufToFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasWritePageBufToFile
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -131,11 +131,11 @@ if (!WriteFile((HANDLE)(LONG_PTR)pmdtc-&gt;hFile,
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftostream.md">wiasWritePageBufToStream</a>
 
  
 

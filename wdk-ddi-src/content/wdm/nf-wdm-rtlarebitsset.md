@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7343f619-cf89-4768-b488-fe95f1da749d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], kernel.rtlarebitsset, wdm/RtlAreBitsSet, k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml
+ms.keywords: wdm/RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, kernel.rtlarebitsset, RtlAreBitsSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (See Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL (See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlAreBitsSet
 product: Windows
 targetos: Windows
@@ -101,15 +101,15 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
+<a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
 
 <a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
 
-<a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
+<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
 
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 <a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 

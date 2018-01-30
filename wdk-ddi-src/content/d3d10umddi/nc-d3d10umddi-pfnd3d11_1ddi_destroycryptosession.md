@@ -40,7 +40,7 @@ apiname:
 -	pfnDestroyCryptoSession
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_DESTROYCRYPTOSESSION callback

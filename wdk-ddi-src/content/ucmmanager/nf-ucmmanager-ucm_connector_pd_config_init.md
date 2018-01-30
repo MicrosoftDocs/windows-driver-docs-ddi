@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 59663F6C-5C8E-4403-8097-7E6D9A075A60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], buses.ucm_connector_pd_config_init
+ms.keywords: buses.ucm_connector_pd_config_init, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], UCM_CONNECTOR_PD_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmmanager.h
-apiname: 
+apiname:
 -	UCM_CONNECTOR_PD_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 

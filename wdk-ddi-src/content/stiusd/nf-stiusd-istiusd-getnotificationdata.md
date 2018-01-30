@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetNotificationData, GetNotificationData method [Imaging Devices], stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, image.istiusd_getnotificationdata, stiusd/IStiUSD::GetNotificationData, IStiUSD, IStiUSD interface [Imaging Devices], GetNotificationData method, IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices], IStiUSD interface
+ms.keywords: stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD, IStiUSD interface [Imaging Devices], GetNotificationData method, IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices], stiusd/IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices], IStiUSD interface, GetNotificationData, image.istiusd_getnotificationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.GetNotificationData
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

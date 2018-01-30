@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClDropPartyComplete
 product: Windows
 targetos: Windows
@@ -88,15 +88,14 @@ Specifies the final status of the client-initiated drop-party operation, which c
 
 
 
-### -param ProtocolPartyContext [in]
+#### NDIS_STATUS_SUCCESS
 
-Specifies the handle to the client's per-party context area, which the client originally supplied
-     to NDIS either when it called 
-     <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a> or 
-     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+The party has been dropped. The 
+       <i>NdisPartyHandle</i> that represented this party, which the client stored in its 
+       <i>ProtocolPartyContext</i> area, is now invalid.
 
 
-##### - Status.NDIS_STATUS_FAILURE
+#### NDIS_STATUS_FAILURE
 
 The given party was the last remaining on the client's multipoint VC. Therefore, the client
        should call 
@@ -104,11 +103,12 @@ The given party was the last remaining on the client's multipoint VC. Therefore,
        party.
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+### -param ProtocolPartyContext [in]
 
-The party has been dropped. The 
-       <i>NdisPartyHandle</i> that represented this party, which the client stored in its 
-       <i>ProtocolPartyContext</i> area, is now invalid.
+Specifies the handle to the client's per-party context area, which the client originally supplied
+     to NDIS either when it called 
+     <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a> or 
+     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
 
 
 ## -returns
@@ -172,22 +172,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
 <a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
 <a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
    NdisFreeToNPagedLookasideList</b></mshelp:link>
 
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 

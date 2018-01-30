@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 812679d2-b05c-4533-b4b2-01b973b0d80f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_BLT_FLAGS structure [Display Devices], DXGI_DDI_ARG_BLT_FLAGS, dxgiddi/DXGI_DDI_ARG_BLT_FLAGS, display.dxgi_ddi_arg_blt_flags, UMDisplayDriver_Dx10param_Structs_22ccf0e7-83cc-443e-b4a1-c1a2f3bc24a0.xml
+ms.keywords: display.dxgi_ddi_arg_blt_flags, DXGI_DDI_ARG_BLT_FLAGS structure [Display Devices], dxgiddi/DXGI_DDI_ARG_BLT_FLAGS, DXGI_DDI_ARG_BLT_FLAGS, UMDisplayDriver_Dx10param_Structs_22ccf0e7-83cc-443e-b4a1-c1a2f3bc24a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

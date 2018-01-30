@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4c65d1f-2531-4804-8a86-160b1ddfd692
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_PVP_KEY128 structure [Display Devices], d3dumddi/DXVADDI_PVP_KEY128, DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_KEY128, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_BLOCK128 structure [Display Devices], display.dxvaddi_pvp_key128, _DXVADDI_PVP_BLOCK128
+ms.keywords: "_DXVADDI_PVP_BLOCK128, DXVADDI_PVP_KEY128 structure [Display Devices], display.dxvaddi_pvp_key128, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_KEY128, DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, d3dumddi/DXVADDI_PVP_KEY128"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

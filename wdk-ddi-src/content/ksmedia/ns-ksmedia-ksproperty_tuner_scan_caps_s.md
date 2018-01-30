@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5f05b24b-cf46-4302-a445-a9df029661cd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S structure [Streaming Media Devices], stream.ksproperty_tuner_scan_caps_s, *PKSPROPERTY_TUNER_SCAN_CAPS_S, vidcapstruct_fbbea2b1-4a4d-40f0-b988-4ffab19155f5.xml, ksmedia/KSPROPERTY_TUNER_SCAN_CAPS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_SCAN_CAPS_S
+ms.keywords: ksmedia/PKSPROPERTY_TUNER_SCAN_CAPS_S, ksmedia/KSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S, stream.ksproperty_tuner_scan_caps_s, vidcapstruct_fbbea2b1-4a4d-40f0-b988-4ffab19155f5.xml, *PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S, PKSPROPERTY_TUNER_SCAN_CAPS_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_SCAN_CAPS_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_TUNER_SCAN_CAPS_S
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_TUNER_SCAN_CAPS_S, KSPROPERTY_TUNER_SCAN_CAPS_S
+req.typenames: KSPROPERTY_TUNER_SCAN_CAPS_S, *PKSPROPERTY_TUNER_SCAN_CAPS_S
 ---
 
 # KSPROPERTY_TUNER_SCAN_CAPS_S structure
@@ -100,13 +100,13 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
 
  
 

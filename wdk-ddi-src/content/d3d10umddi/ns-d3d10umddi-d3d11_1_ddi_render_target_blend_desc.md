@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc, d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices]
+ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices], display.d3d11_1_ddi_render_target_blend_desc, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -190,15 +190,15 @@ Writes red, green, blue, and a transparency level
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D11_1)</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_logic_op.md">D3D11_1_DDI_LOGIC_OP</a>
 
  
 

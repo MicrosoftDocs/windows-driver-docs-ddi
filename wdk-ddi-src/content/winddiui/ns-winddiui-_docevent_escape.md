@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCEVENT_ESCAPE
-title: _DOCEVENT_ESCAPE
+title: "_DOCEVENT_ESCAPE"
 author: windows-driver-content
 description: The DOCEVENT_ESCAPE structure is a container for values used as parameters for the ExtEscape function.
 old-location: print\docevent_escape.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOCEVENT_ESCAPE structure pointer [Print Devices], *PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], print.docevent_escape, winddiui/PDOCEVENT_ESCAPE, winddiui/DOCEVENT_ESCAPE, _DOCEVENT_ESCAPE, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, DOCEVENT_ESCAPE, PDOCEVENT_ESCAPE
+ms.keywords: PDOCEVENT_ESCAPE structure pointer [Print Devices], PDOCEVENT_ESCAPE, *PDOCEVENT_ESCAPE, winddiui/DOCEVENT_ESCAPE, _DOCEVENT_ESCAPE, winddiui/PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, print.docevent_escape, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, DOCEVENT_ESCAPE structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DOCEVENT_ESCAPE
 product: Windows
 targetos: Windows
-req.typenames: DOCEVENT_ESCAPE, *PDOCEVENT_ESCAPE
+req.typenames: "*PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE"
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ Refer to the Microsoft Windows SDK documentation for a description of the <b>Ext
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
+
+<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
  
 

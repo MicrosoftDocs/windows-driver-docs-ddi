@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_FORWARD_OPTIONS_FLAGS
-title: _WDF_REQUEST_FORWARD_OPTIONS_FLAGS
+title: "_WDF_REQUEST_FORWARD_OPTIONS_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_FORWARD_OPTIONS structure.
 old-location: wdf\wdf_request_forward_options_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6161bfd3-482c-4571-bd88-2e25d32b34a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS, WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration, wdf.wdf_request_forward_options_flags, WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, WDF_REQUEST_FORWARD_OPTIONS_FLAGS, DFRequestObjectRef_cad8f6c6-9c76-4dc3-ac3f-3938e5174563.xml, kmdf.wdf_request_forward_options_flags, wdfrequest/WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET
+ms.keywords: wdf.wdf_request_forward_options_flags, _WDF_REQUEST_FORWARD_OPTIONS_FLAGS, WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, kmdf.wdf_request_forward_options_flags, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS, DFRequestObjectRef_cad8f6c6-9c76-4dc3-ac3f-3938e5174563.xml, WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_FORWARD_OPTIONS_FLAGS
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._MINIDRV_TRANSFER_CONTEXT
-title: _MINIDRV_TRANSFER_CONTEXT
+title: "_MINIDRV_TRANSFER_CONTEXT"
 author: windows-driver-content
 description: The MINIDRV_TRANSFER_CONTEXT structure is used to store image and other information needed for a memory-callback data transfer or a file data transfer.
 old-location: image\minidrv_transfer_context.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT, _MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT
+ms.keywords: MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, _MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, image.minidrv_transfer_context, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], *PMINIDRV_TRANSFER_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	MINIDRV_TRANSFER_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT
+req.typenames: "*PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -487,13 +487,13 @@ WIA service
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a>
 
  
 

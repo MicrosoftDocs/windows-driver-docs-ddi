@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a9fe509e-ef15-49ac-beca-339e3582d16e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_ADDRTYPE_NATIONAL, RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_SUBSCRIBER, rilapitypes/RIL_ADDRTYPE_EMAIL, rilapitypes/RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_ALPHANUM, RILADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_ADDRTYPE_NETWKSPECIFIC, RIL_ADDRTYPE_EMAIL, rilapitypes/RILADDRESSTYPE, rilapitypes/RIL_ADDRTYPE_ABBREV, RIL_ADDRTYPE_ABBREV, rilapitypes/RIL_ADDRTYPE_ALPHANUM, RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_SUBSCRIBER, RIL_ADDRTYPE_NATIONAL, rilapitypes/RIL_ADDRTYPE_UNKNOWN, RIL_ADDRTYPE_NETWKSPECIFIC, netvista.riladdresstype, RILADDRESSTYPE, RIL_ADDRTYPE_UNKNOWN
+ms.keywords: RIL_ADDRTYPE_NATIONAL, RIL_ADDRTYPE_ABBREV, rilapitypes/RIL_ADDRTYPE_NETWKSPECIFIC, RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_ALPHANUM, rilapitypes/RIL_ADDRTYPE_UNKNOWN, rilapitypes/RIL_ADDRTYPE_NATIONAL, rilapitypes/RIL_ADDRTYPE_IP, netvista.riladdresstype, rilapitypes/RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_EMAIL, rilapitypes/RIL_ADDRTYPE_SUBSCRIBER, rilapitypes/RIL_ADDRTYPE_ABBREV, rilapitypes/RILADDRESSTYPE, RIL_ADDRTYPE_SUBSCRIBER, RILADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ADDRTYPE_ALPHANUM, RIL_ADDRTYPE_UNKNOWN, rilapitypes/RIL_ADDRTYPE_EMAIL, RIL_ADDRTYPE_NETWKSPECIFIC, RILADDRESSTYPE, RIL_ADDRTYPE_INTERNATIONAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILADDRESSTYPE
 product: Windows
 targetos: Windows

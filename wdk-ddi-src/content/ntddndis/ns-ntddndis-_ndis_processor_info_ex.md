@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PROCESSOR_INFO_EX
-title: _NDIS_PROCESSOR_INFO_EX
+title: "_NDIS_PROCESSOR_INFO_EX"
 author: windows-driver-content
 description: The NDIS_PROCESSOR_INFO_EX structure specifies information about a processor in the local computer.
 old-location: netvista\ndis_processor_info_ex.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e4f28f30-32bc-4bbc-8e95-f87dfe80229d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, ntddndis/PNDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX, netvista.ndis_processor_info_ex, _NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX
+ms.keywords: PNDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], netvista.ndis_processor_info_ex, *PNDIS_PROCESSOR_INFO_EX, ntddndis/PNDIS_PROCESSOR_INFO_EX, _NDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PROCESSOR_INFO_EX
 product: Windows
 targetos: Windows
@@ -129,10 +129,10 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 <a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
-
 <mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
    NdisGetProcessorInformationEx</b></mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
  
 

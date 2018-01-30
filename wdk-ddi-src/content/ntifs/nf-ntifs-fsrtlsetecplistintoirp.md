@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], ntifs/FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp, fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, ifsk.fsrtlsetecplistintoirp
+ms.keywords: ifsk.fsrtlsetecplistintoirp, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, ntifs/FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlSetEcpListIntoIrp
 product: Windows
 targetos: Windows
@@ -135,9 +135,9 @@ To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation,
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlgetecplistfromirp.md">FsRtlGetEcpListFromIrp</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlgetecplistfromirp.md">FsRtlGetEcpListFromIrp</a>
 
  
 

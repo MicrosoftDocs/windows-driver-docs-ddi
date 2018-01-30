@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 825AA3FC-1D2E-4D71-8F21-C89A249B3F1A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_request_data_object_init_ulong, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
+ms.keywords: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_request_data_object_init_ulong, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongToInt function [Kernel-Mode Driver Architecture], kernel.rtllongtoint, RtlLongToInt, ntintsafe/RtlLongToInt
+ms.keywords: RtlLongToInt, RtlLongToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToInt, kernel.rtllongtoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongToInt
 product: Windows
 targetos: Windows

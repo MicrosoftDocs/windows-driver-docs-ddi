@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ControlPrintProcessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, winsplp/ControlPrintProcessor, ControlPrintProcessor function [Print Devices], print.controlprintprocessor
+ms.keywords: ControlPrintProcessor function [Print Devices], ControlPrintProcessor, winsplp/ControlPrintProcessor, print.controlprintprocessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Nwprint.lib
 -	Nwprint.dll
-apiname: 
+apiname:
 -	ControlPrintProcessor
 product: Windows
 targetos: Windows
@@ -134,9 +134,9 @@ Based on the value received for <i>Command</i>, the function should either pause
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
-
 <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
+
+<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
 
  
 

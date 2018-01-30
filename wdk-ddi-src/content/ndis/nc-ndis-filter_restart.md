@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	FilterRestart
 product: Windows
 targetos: Windows
@@ -304,39 +304,39 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<mshelp:link keywords="netvista.ndis_filter_restart_parameters" tabindex="0"><b>
+   NDIS_FILTER_RESTART_PARAMETERS</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
 <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
    NdisAllocateMemoryWithTagPriority</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+<mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
+   NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+
+<mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
+   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
-<mshelp:link keywords="netvista.oid_gen_miniport_restart_attributes" tabindex="0">
-   OID_GEN_MINIPORT_RESTART_ATTRIBUTES</mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
-<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
-
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<mshelp:link keywords="netvista.ndis_restart_general_attributes" tabindex="0"><b>
-   NDIS_RESTART_GENERAL_ATTRIBUTES</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_filter_restart_parameters" tabindex="0"><b>
-   NDIS_FILTER_RESTART_PARAMETERS</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_END_OF_FILE_INFORMATION
-title: _FILE_END_OF_FILE_INFORMATION
+title: "_FILE_END_OF_FILE_INFORMATION"
 author: windows-driver-content
 description: The FILE_END_OF_FILE_INFORMATION structure is used as an argument to the ZwSetInformationFile routine.
 old-location: kernel\file_end_of_file_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9af172d9-2309-4731-82bf-55ec99c475a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/FILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, _FILE_END_OF_FILE_INFORMATION, PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml
+ms.keywords: ntddk/FILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION, PFILE_END_OF_FILE_INFORMATION, _FILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, *PFILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	FILE_END_OF_FILE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION
+req.typenames: "*PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION"
 ---
 
 # _FILE_END_OF_FILE_INFORMATION structure
@@ -81,9 +81,9 @@ The absolute new end of file position as a byte offset from the start of the fil
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

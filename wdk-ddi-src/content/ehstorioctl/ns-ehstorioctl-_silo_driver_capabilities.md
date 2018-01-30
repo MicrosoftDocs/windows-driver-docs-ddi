@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._SILO_DRIVER_CAPABILITIES
-title: _SILO_DRIVER_CAPABILITIES
+title: "_SILO_DRIVER_CAPABILITIES"
 author: windows-driver-content
 description: This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. SILO_DRIVER_CAPABILITIES is included in the system buffer of an IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES request.
 old-location: storage\silo_driver_capabilities.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.silo_driver_capabilities, ehstorioctl/PSILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], CAP_BANDING_SUPPORT, PSILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION, SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices]
+ms.keywords: ehstorioctl/SILO_DRIVER_CAPABILITIES, _SILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, SILO_DRIVER_CAPABILITIES structure [Storage Devices], PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], CAP_ON_DEMAND_AUTHENTICATION, *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities, PSILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	SILO_DRIVER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # _SILO_DRIVER_CAPABILITIES structure
@@ -133,11 +133,11 @@ To receive band management requests from the enhanced storage class driver, a si
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
  
 

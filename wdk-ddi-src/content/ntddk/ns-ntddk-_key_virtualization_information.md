@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._KEY_VIRTUALIZATION_INFORMATION
-title: _KEY_VIRTUALIZATION_INFORMATION
+title: "_KEY_VIRTUALIZATION_INFORMATION"
 author: windows-driver-content
 description: The KEY_VIRTUALIZATION_INFORMATION structure defines the basic information that is available for a registry key or subkey.
 old-location: kernel\key_virtualization_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 128dd4ed-12c6-472a-b63c-d2d217b5c716
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _KEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION, ntddk/PKEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PKEY_VIRTUALIZATION_INFORMATION, kstruct_c_00c77a09-ed8d-4a66-9b18-b971c9eab5ce.xml, kernel.key_virtualization_information, ntddk/KEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_VIRTUALIZATION_INFORMATION
+ms.keywords: ntddk/PKEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_c_00c77a09-ed8d-4a66-9b18-b971c9eab5ce.xml, ntddk/KEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], KEY_VIRTUALIZATION_INFORMATION, _KEY_VIRTUALIZATION_INFORMATION, *PKEY_VIRTUALIZATION_INFORMATION, kernel.key_virtualization_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	KEY_VIRTUALIZATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: KEY_VIRTUALIZATION_INFORMATION, *PKEY_VIRTUALIZATION_INFORMATION
+req.typenames: "*PKEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION"
 ---
 
 # _KEY_VIRTUALIZATION_INFORMATION structure
@@ -104,21 +104,21 @@ This value is reserved for system use.
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
+<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
-<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
  
 

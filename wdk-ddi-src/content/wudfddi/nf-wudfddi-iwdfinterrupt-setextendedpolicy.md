@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetExtendedPolicy method, IWDFInterrupt interface, wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, SetExtendedPolicy, IWDFInterrupt interface, SetExtendedPolicy method, wudfddi/IWDFInterrupt::SetExtendedPolicy, umdf.iwdfinterrupt_setextendedpolicy, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy
+ms.keywords: IWDFInterrupt interface, SetExtendedPolicy method, umdf.iwdfinterrupt_setextendedpolicy, SetExtendedPolicy method, IWDFInterrupt interface, wudfddi/IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy, wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFInterrupt.SetExtendedPolicy
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
  
 

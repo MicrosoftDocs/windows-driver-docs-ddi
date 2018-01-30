@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_RELATED_CONTEXTS
-title: _FLT_RELATED_CONTEXTS
+title: "_FLT_RELATED_CONTEXTS"
 author: windows-driver-content
 description: The FLT_RELATED_CONTEXTS structure contains a minifilter driver's contexts for the objects associated with an I/O operation.
 old-location: ifsk\flt_related_contexts.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d9b4bba-0216-48cf-81aa-160b7252ba20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], FLT_RELATED_CONTEXTS structure [Installable File System Drivers], _FLT_RELATED_CONTEXTS, FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, PFLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS, fltkernel/PFLT_RELATED_CONTEXTS, ifsk.flt_related_contexts, fltkernel/FLT_RELATED_CONTEXTS
+ms.keywords: "_FLT_RELATED_CONTEXTS, FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, FLT_RELATED_CONTEXTS structure [Installable File System Drivers], fltkernel/FLT_RELATED_CONTEXTS, ifsk.flt_related_contexts, fltkernel/PFLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], FLT_RELATED_CONTEXTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltkernel.h
-apiname: 
+apiname:
 -	FLT_RELATED_CONTEXTS
 product: Windows
 targetos: Windows
-req.typenames: FLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS
+req.typenames: "*PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS"
 ---
 
 # _FLT_RELATED_CONTEXTS structure
@@ -117,15 +117,15 @@ For more information about using contexts, see the reference entry for <a href="
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontexts.md">FltReleaseContexts</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontexts.md">FltReleaseContexts</a>
 
  
 

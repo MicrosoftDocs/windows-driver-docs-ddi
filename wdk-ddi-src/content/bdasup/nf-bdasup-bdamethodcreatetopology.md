@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1f0e8fdc-ae3d-4f5e-b047-b3b7bf73d389
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaMethodCreateTopology, stream.bdamethodcreatetopology, BdaMethodCreateTopology function [Streaming Media Devices], bdaref_3e082bad-4178-430a-aca0-3af6324a0aa2.xml, bdasup/BdaMethodCreateTopology
+ms.keywords: bdasup/BdaMethodCreateTopology, stream.bdamethodcreatetopology, BdaMethodCreateTopology function [Streaming Media Devices], BdaMethodCreateTopology, bdaref_3e082bad-4178-430a-aca0-3af6324a0aa2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaMethodCreateTopology
 product: Windows
 targetos: Windows
@@ -108,15 +108,15 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
 
 <a href="..\bdasup\nf-bdasup-bdacreatetopology.md">BdaCreateTopology</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetContextStackTraceEx, IDebugControl5, IDebugControl5::GetContextStackTraceEx, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx method [Windows Debugging], dbgeng/IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, debugger.idebugcontrol5_getcontextstacktraceex
+ms.keywords: debugger.idebugcontrol5_getcontextstacktraceex, dbgeng/IDebugControl5::GetContextStackTraceEx, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx, IDebugControl5, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, GetContextStackTraceEx method [Windows Debugging], IDebugControl5::GetContextStackTraceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.GetContextStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl5::GetContextStackTraceEx method
@@ -150,11 +150,11 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 

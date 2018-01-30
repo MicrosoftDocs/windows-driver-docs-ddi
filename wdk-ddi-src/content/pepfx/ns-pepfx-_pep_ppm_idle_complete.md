@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_IDLE_COMPLETE
-title: _PEP_PPM_IDLE_COMPLETE
+title: "_PEP_PPM_IDLE_COMPLETE"
 author: windows-driver-content
 description: The PEP_PPM_IDLE_COMPLETE structure describe the idle states from which the processor and hardware platform are waking.
 old-location: kernel\pep_ppm_idle_complete.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE, _PEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_complete
+ms.keywords: PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_complete, pepfx/PPEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, _PEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_IDLE_COMPLETE
 product: Windows
 targetos: Windows
@@ -87,11 +87,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
 
  
 

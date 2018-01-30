@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5ef976a7-5be6-414b-a558-75c107f75d61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: mrxfcb/RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml, ifsk.rxacquiresharedfcbresourceinmrx, RxAcquireSharedFcbResourceInMRx
+ms.keywords: RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml, ifsk.rxacquiresharedfcbresourceinmrx, mrxfcb/RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mrxfcb.h
-apiname: 
+apiname:
 -	RxAcquireSharedFcbResourceInMRx
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # RxAcquireSharedFcbResourceInMRx function
@@ -126,13 +126,13 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRx </b>should be r
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
 
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
  
 

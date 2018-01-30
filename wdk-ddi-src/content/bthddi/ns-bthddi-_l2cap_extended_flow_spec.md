@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: B190484F-1A87-4C52-A1FF-4D4EB593A963
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], *PL2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], _L2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC, bthddi/L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec
+ms.keywords: "_L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], bthddi/L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], bltooth.l2cap_extended_flow_spec, *PL2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

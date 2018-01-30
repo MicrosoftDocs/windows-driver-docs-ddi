@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ee54b382-7b69-4d8d-8728-fe2bff7884cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdasup/BdaStartChanges, BdaStartChanges, bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml, stream.bdastartchanges, BdaStartChanges function [Streaming Media Devices]
+ms.keywords: BdaStartChanges, bdasup/BdaStartChanges, bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml, BdaStartChanges function [Streaming Media Devices], stream.bdastartchanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaStartChanges
 product: Windows
 targetos: Windows
@@ -97,13 +97,13 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563418">KSMETHOD_BDA_START_CHANGES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
+
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 <a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
 

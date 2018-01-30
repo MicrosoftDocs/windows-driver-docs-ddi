@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_SCALE_PARAMETERS
-title: _NDIS_RECEIVE_SCALE_PARAMETERS
+title: "_NDIS_RECEIVE_SCALE_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_RECEIVE_SCALE_PARAMETERS structure specifies the receive side scaling (RSS) parameters for a miniport adapter.
 old-location: netvista\ndis_receive_scale_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d51042e-06b4-4105-889f-84a368e5735a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED, NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_scale_parameters, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, NDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml
+ms.keywords: NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_SCALE_PARAMETERS, _NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS, netvista.ndis_receive_scale_parameters, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_SCALE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS
+req.typenames: "*PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS"
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS structure
@@ -304,22 +304,22 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 ## -see-also
 
+<mshelp:link keywords="netvista.ndis_rss_hash_func_from_hash_info" tabindex="0"><b>
+   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</b></mshelp:link>
+
 <mshelp:link keywords="netvista.ndis_rss_hash_type_from_hash_info" tabindex="0"><b>
    NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</b></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_rss_hash_info_from_type_and_func" tabindex="0"><b>
    NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_rss_hash_func_from_hash_info" tabindex="0"><b>
-   NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</b></mshelp:link>
+<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+<mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._GET_LENGTH_INFORMATION
-title: _GET_LENGTH_INFORMATION
+title: "_GET_LENGTH_INFORMATION"
 author: windows-driver-content
 description: The GET_LENGTH_INFORMATION structure is used with the IOCTL_DISK_GET_LENGTH_INFO to obtain the length, in bytes, of a disk, partition, or volume.
 old-location: storage\get_length_information.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c5af24f-fd99-4a64-afd4-aaa8168b1dc5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION structure [Storage Devices], GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION, PGET_LENGTH_INFORMATION structure pointer [Storage Devices], _GET_LENGTH_INFORMATION, ntdddisk/PGET_LENGTH_INFORMATION, storage.get_length_information, structs-disk_6efbf7e7-9fc2-44b0-a9f8-b83219b07a64.xml, ntdddisk/GET_LENGTH_INFORMATION
+ms.keywords: GET_LENGTH_INFORMATION structure [Storage Devices], PGET_LENGTH_INFORMATION structure pointer [Storage Devices], ntdddisk/PGET_LENGTH_INFORMATION, structs-disk_6efbf7e7-9fc2-44b0-a9f8-b83219b07a64.xml, ntdddisk/GET_LENGTH_INFORMATION, storage.get_length_information, _GET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, PGET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	GET_LENGTH_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
+req.typenames: "*PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION"
 ---
 
 # _GET_LENGTH_INFORMATION structure

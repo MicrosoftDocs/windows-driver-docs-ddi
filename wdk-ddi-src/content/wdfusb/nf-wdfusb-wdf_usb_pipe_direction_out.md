@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 404e1893-8ee2-429c-b7e3-e6d8d01eaa1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WDF_USB_PIPE_DIRECTION_OUT, WDF_USB_PIPE_DIRECTION_OUT, WDF_USB_PIPE_DIRECTION_OUT function, wdf.wdf_usb_pipe_direction_out, kmdf.wdf_usb_pipe_direction_out, DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml
+ms.keywords: wdf.wdf_usb_pipe_direction_out, kmdf.wdf_usb_pipe_direction_out, WDF_USB_PIPE_DIRECTION_OUT, wdfusb/WDF_USB_PIPE_DIRECTION_OUT, DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, WDF_USB_PIPE_DIRECTION_OUT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_USB_PIPE_DIRECTION_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

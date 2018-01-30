@@ -40,7 +40,7 @@ apiname:
 -	CreateVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback
@@ -183,9 +183,9 @@ When the runtime  calls <i>CreateVideoProcessorInputView</i>, it passes the hand
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorinputviewsize.md">CalcPrivateVideoProcessorInputViewSize</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
 
  
 

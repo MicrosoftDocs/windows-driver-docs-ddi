@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	IOCTL_EHSTOR_BANDMGMT_ACTIVATE
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_K
 </table></span></div>
 
 
-#### -AuthKeyOffset
+#### -StructSize
 
-The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
+The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
 
 
 #### -Flags
@@ -122,9 +122,9 @@ A bitmask of activation flags. This is a bitwise OR value of the following.
 </table> 
 
 
-#### -Key
+#### -AuthKeyOffset
 
-A variable length byte array that contains the key data.
+The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
 
 
 #### -KeySize
@@ -132,9 +132,9 @@ A variable length byte array that contains the key data.
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-#### -StructSize
+#### -Key
 
-The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
+A variable length byte array that contains the key data.
 
 
 ### -input-buffer-length
@@ -227,9 +227,9 @@ enabled. A REG_DWORD value of 0 allows security activation on the storage device
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_revert.md">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_revert.md">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
 
  
 

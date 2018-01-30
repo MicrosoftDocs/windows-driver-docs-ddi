@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsymbolinformation, GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], dbgeng/IDebugAdvanced2::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml
+ms.keywords: dbgeng/IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, IDebugAdvanced3, debugger.getsymbolinformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, dbgeng/IDebugAdvanced2::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugAdvanced3.GetSymbolInformation
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::GetSymbolInformation method

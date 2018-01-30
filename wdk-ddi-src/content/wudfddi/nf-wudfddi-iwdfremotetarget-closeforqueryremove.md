@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, CloseForQueryRemove, wdf.iwdfremotetarget_closeforqueryremove, CloseForQueryRemove method, CloseForQueryRemove method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, IWDFRemoteTarget interface, CloseForQueryRemove method, umdf.iwdfremotetarget_closeforqueryremove, IWDFRemoteTarget, IWDFRemoteTarget::CloseForQueryRemove
+ms.keywords: CloseForQueryRemove method, IWDFRemoteTarget interface, IWDFRemoteTarget::CloseForQueryRemove, wdf.iwdfremotetarget_closeforqueryremove, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, umdf.iwdfremotetarget_closeforqueryremove, CloseForQueryRemove, CloseForQueryRemove method, IWDFRemoteTarget, IWDFRemoteTarget interface, CloseForQueryRemove method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.CloseForQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

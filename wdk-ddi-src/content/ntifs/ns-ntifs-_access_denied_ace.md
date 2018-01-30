@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ACCESS_DENIED_ACE
-title: _ACCESS_DENIED_ACE
+title: "_ACCESS_DENIED_ACE"
 author: windows-driver-content
 description: The ACCESS_DENIED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) controlling access to an object.
 old-location: ifsk\access_denied_ace.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a7030210-2907-45c7-a689-5e41db7c81b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/ACCESS_DENIED_ACE, PACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml, _ACCESS_DENIED_ACE, ACCESS_DENIED_ACE, *PACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], ACCESS_DENIED_ACE structure [Installable File System Drivers], ifsk.access_denied_ace
+ms.keywords: ACCESS_DENIED_ACE structure [Installable File System Drivers], ntifs/ACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], PACCESS_DENIED_ACE, ifsk.access_denied_ace, ntifs/PACCESS_DENIED_ACE, *PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, _ACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	ACCESS_DENIED_ACE
 product: Windows
 targetos: Windows
@@ -95,19 +95,19 @@ This structure must be aligned on a 32-bit boundary.
 
 <a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

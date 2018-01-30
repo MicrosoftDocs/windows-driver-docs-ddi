@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5B9EBE82-A49A-4AD9-B07B-C0D17C5F3732
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports], SerCx2CustomTransmitTransactionCleanupComplete, serports.sercx2customtransmittransactioncleanupcomplete, 2/SerCx2CustomTransmitTransactionCleanupComplete
+ms.keywords: serports.sercx2customtransmittransactioncleanupcomplete, SerCx2CustomTransmitTransactionCleanupComplete, 2/SerCx2CustomTransmitTransactionCleanupComplete, SerCx2CustomTransmitTransactionCleanupComplete method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SerCx2CustomTransmitTransactionCleanupComplete
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/E72E68BC-A60A-41BE
 
 ## -see-also
 
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a>
+
 <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
-
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a>
 
  
 

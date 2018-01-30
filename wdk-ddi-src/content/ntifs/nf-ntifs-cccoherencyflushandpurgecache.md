@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCoherencyFlushAndPurgeCache, ntifs/CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache
+ms.keywords: ccref_79641311-568b-472c-9950-2e46472affcf.xml, CcCoherencyFlushAndPurgeCache, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcCoherencyFlushAndPurgeCache
 product: Windows
 targetos: Windows

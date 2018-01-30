@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ec30c51-5e07-496b-96af-8eafb564d98d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackSelfManagedIo interface, OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo, umdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, OnSelfManagedIoSuspend method, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, OnSelfManagedIoSuspend, UMDFDeviceObjectRef_87fc0596-4d08-4c55-88b0-e2ad9d085745.xml, wdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend
+ms.keywords: OnSelfManagedIoSuspend method, wdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, IPnpCallbackSelfManagedIo, OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoSuspend, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoSuspend method, umdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, UMDFDeviceObjectRef_87fc0596-4d08-4c55-88b0-e2ad9d085745.xml, IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,9 +96,9 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 

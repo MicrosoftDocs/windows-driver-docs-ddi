@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 47b0b1da-e29b-45cc-921b-69d630670b44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmNotifyCloseAddressFamily, condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], netvista.ndismcmnotifycloseaddressfamily, ndis/NdisMCmNotifyCloseAddressFamily
+ms.keywords: NdisMCmNotifyCloseAddressFamily, netvista.ndismcmnotifycloseaddressfamily, ndis/NdisMCmNotifyCloseAddressFamily, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmNotifyCloseAddressFamily
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmNotifyCloseAddressFamily macro
@@ -109,10 +109,6 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
-
 <mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
    NdisCmNotifyCloseAddressFamily</b></mshelp:link>
 
@@ -120,6 +116,10 @@ If
    ProtocolCmNotifyCloseAfComplete</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 

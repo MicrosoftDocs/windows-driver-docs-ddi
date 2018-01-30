@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E288541F-9FE4-4CF6-A576-21620A828C5C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlushorttouchar, RtlUShortToUChar, RtlUShortToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUShortToUChar
+ms.keywords: RtlUShortToUChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttouchar, RtlUShortToUChar, ntintsafe/RtlUShortToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlUShortToUChar
 product: Windows
 targetos: Windows

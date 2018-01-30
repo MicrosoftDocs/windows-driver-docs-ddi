@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_CONCURRENCYINFO
-title: _KSCAMERA_PROFILE_CONCURRENCYINFO
+title: "_KSCAMERA_PROFILE_CONCURRENCYINFO"
 author: windows-driver-content
 description: An array of KSCAMERA_PROFILE_CONCURRENCYINFO structures form the Camera.Concurrency parameter of the KSDEVICE_PROFILE_INFO structure (whose array size is specified by Camera.CountOfConcurrency parameter) indicating which profiles the profile identified in the KSCAMERA_PROFILE_INFO structure may run simultaneously on different cameras.
 old-location: stream\kscamera_profile_concurrencyinfo.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4E0A9CE6-2FA0-46A5-B478-C088E5FF1BAD
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO, _KSCAMERA_PROFILE_CONCURRENCYINFO, stream.kscamera_profile_concurrencyinfo, PKSCAMERA_PROFILE_CONCURRENCYINFO structure pointer [Streaming Media Devices], KSCAMERA_PROFILE_CONCURRENCYINFO structure [Streaming Media Devices], KSCAMERA_PROFILE_CONCURRENCYINFO, PKSCAMERA_PROFILE_CONCURRENCYINFO
+ms.keywords: PKSCAMERA_PROFILE_CONCURRENCYINFO, stream.kscamera_profile_concurrencyinfo, KSCAMERA_PROFILE_CONCURRENCYINFO structure [Streaming Media Devices], _KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYINFO, PKSCAMERA_PROFILE_CONCURRENCYINFO structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_PROFILE_CONCURRENCYINFO
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYINFO
+req.typenames: "*PKSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO"
 ---
 
 # _KSCAMERA_PROFILE_CONCURRENCYINFO structure

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL
+ms.keywords: "_BRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth.brb_l2ca_open_enhanced_channel, PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -554,8 +554,8 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> for which to
+     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
+     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 

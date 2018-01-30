@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml, display.d3dkmt_gdimodel_presenthistorytoken
+ms.keywords: display.d3dkmt_gdimodel_presenthistorytoken, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

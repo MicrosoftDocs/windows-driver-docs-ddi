@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDispatchFastReadFailure function [Streaming Media Devices], stream.ksdispatchfastreadfailure, ks/KsDispatchFastReadFailure, KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml
+ms.keywords: ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure, KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], ks/KsDispatchFastReadFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDispatchFastReadFailure
 product: Windows
 targetos: Windows

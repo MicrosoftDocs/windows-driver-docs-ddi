@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_PERFORMANCE_COUNTERS
-title: _NDIS_NDK_PERFORMANCE_COUNTERS
+title: "_NDIS_NDK_PERFORMANCE_COUNTERS"
 author: windows-driver-content
 description: The NDIS_NDK_PERFORMANCE_COUNTERS structure contains the NDK performance counters.
 old-location: netvista\ndis_ndk_performance_counters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA752989-B49B-4832-8821-8B45AB3304CD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, _NDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NDK_PERFORMANCE_COUNTERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS
+req.typenames: "*PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS"
 ---
 
 # _NDIS_NDK_PERFORMANCE_COUNTERS structure

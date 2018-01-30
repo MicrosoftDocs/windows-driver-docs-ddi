@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5df074ff-572d-47f7-9c5c-4423b200cddc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauDbgDump, image.wiaudbgdump
+ms.keywords: wiautil/wiauDbgDump, wiauDbgDump function [Imaging Devices], image.wiaudbgdump, wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiauDbgDump
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	wiauDbgDump
 product: Windows
 targetos: Windows
@@ -116,13 +116,13 @@ The <b>wiauDbgDump</b> function typically is used to log a message along with on
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
-
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
  
 

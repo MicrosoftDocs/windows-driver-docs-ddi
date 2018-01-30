@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml, wiamdef/wiasDownSampleBuffer, image.wiasdownsamplebuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices]
+ms.keywords: image.wiasdownsamplebuffer, wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml, wiasDownSampleBuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasDownSampleBuffer
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

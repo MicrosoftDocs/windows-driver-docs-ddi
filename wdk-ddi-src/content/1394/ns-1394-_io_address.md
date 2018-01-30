@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IO_ADDRESS
-title: _IO_ADDRESS
+title: "_IO_ADDRESS"
 author: windows-driver-content
 description: The IO_ADDRESS structure specifies the 1394 64-bit destination address for read, write and lock operations.
 old-location: ieee\io_address.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: db703d46-d37f-442a-a543-ce9e9c5ea3cb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.io_address, IO_ADDRESS structure [Buses], 1394/IO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, 1394/PIO_ADDRESS, IO_ADDRESS, PIO_ADDRESS, *PIO_ADDRESS, _IO_ADDRESS, PIO_ADDRESS structure pointer [Buses]
+ms.keywords: IEEE.io_address, PIO_ADDRESS, 1394/PIO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, IO_ADDRESS, PIO_ADDRESS structure pointer [Buses], *PIO_ADDRESS, 1394/IO_ADDRESS, _IO_ADDRESS, IO_ADDRESS structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IO_ADDRESS
 product: Windows
 targetos: Windows
@@ -80,17 +80,17 @@ Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537633">REQUEST_ASYNC_LOCK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537634">REQUEST_ASYNC_READ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537633">REQUEST_ASYNC_LOCK</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537435">NODE_ADDRESS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9ec4ae29-7c9f-4da6-ae5d-57de9423cb30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetLastEventInformationWide, GetLastEventInformationWide, GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface, debugger.getlasteventinformationwide, IDebugControl4, IDebugControl4::GetLastEventInformationWide, IDebugControl4 interface [Windows Debugging], GetLastEventInformationWide method, GetLastEventInformationWide method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl4::GetLastEventInformationWide, IDebugControl4 interface [Windows Debugging], GetLastEventInformationWide method, IDebugControl4::GetLastEventInformationWide, debugger.getlasteventinformationwide, GetLastEventInformationWide method [Windows Debugging], IDebugControl4, GetLastEventInformationWide, GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetLastEventInformationWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetLastEventInformationWide method

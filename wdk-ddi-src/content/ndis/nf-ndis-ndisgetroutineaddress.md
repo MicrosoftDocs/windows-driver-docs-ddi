@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetRoutineAddress, ndis/NdisGetRoutineAddress, netvista.ndisgetroutineaddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisgetroutineaddress, ndis/NdisGetRoutineAddress, NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetRoutineAddress
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetRoutineAddress function
@@ -114,9 +114,9 @@ Typically, an NDIS driver calls
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
  
 

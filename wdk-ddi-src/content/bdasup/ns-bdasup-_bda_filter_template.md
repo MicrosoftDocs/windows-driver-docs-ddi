@@ -1,6 +1,6 @@
 ---
 UID: NS:bdasup._BDA_FILTER_TEMPLATE
-title: _BDA_FILTER_TEMPLATE
+title: "_BDA_FILTER_TEMPLATE"
 author: windows-driver-content
 description: The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter.
 old-location: stream\bda_filter_template.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 93078225-3487-46db-b13e-e2013be86d97
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, *PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE, stream.bda_filter_template, _BDA_FILTER_TEMPLATE
+ms.keywords: bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, *PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], stream.bda_filter_template, _BDA_FILTER_TEMPLATE, bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdasup.h
-apiname: 
+apiname:
 -	BDA_FILTER_TEMPLATE
 product: Windows
 targetos: Windows
-req.typenames: *PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE
+req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
 ---
 
 # _BDA_FILTER_TEMPLATE structure
@@ -88,11 +88,11 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
  
 

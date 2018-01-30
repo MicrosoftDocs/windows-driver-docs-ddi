@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3beafad2-7157-434a-a073-2b47026c8fc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, netvista.rilconfparticipantstatus_2
+ms.keywords: RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS, rilapitypes/RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilconfparticipantstatus_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCONFPARTICIPANTSTATUS
 product: Windows
 targetos: Windows
-req.typenames: RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS
+req.typenames: "*LPRILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS"
 req.product: Windows 10 or later.
 ---
 

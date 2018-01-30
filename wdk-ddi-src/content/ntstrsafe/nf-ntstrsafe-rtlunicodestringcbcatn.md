@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, RtlUnicodeStringCbCatN, ntstrsafe/RtlUnicodeStringCbCatN, kernel.rtlunicodestringcbcatn, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatn, ntstrsafe/RtlUnicodeStringCbCatN, safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringCbCatN
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCbCatN function
@@ -155,11 +155,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatn.md">RtlUnicodeStringCchCatN</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatnex.md">RtlUnicodeStringCbCatNEx</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatn.md">RtlUnicodeStringCchCatN</a>
 
  
 

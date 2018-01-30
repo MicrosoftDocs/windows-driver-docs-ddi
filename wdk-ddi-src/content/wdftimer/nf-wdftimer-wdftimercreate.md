@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdftimer/WdfTimerCreate, WdfTimerCreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, kmdf.wdftimercreate, WdfTimerCreate method, wdf.wdftimercreate, PFN_WDFTIMERCREATE
+ms.keywords: wdf.wdftimercreate, wdftimer/WdfTimerCreate, WdfTimerCreate, WdfTimerCreate method, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, kmdf.wdftimercreate, PFN_WDFTIMERCREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfTimerCreate
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -177,15 +177,15 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
-
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
-
 <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
  
 

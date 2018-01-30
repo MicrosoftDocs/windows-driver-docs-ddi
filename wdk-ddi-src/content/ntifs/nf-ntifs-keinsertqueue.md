@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0aee6102-e9e3-41dc-a222-36bebb3d4294
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/KeInsertQueue, KeInsertQueue routine [Installable File System Drivers], keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, ifsk.keinsertqueue, KeInsertQueue
+ms.keywords: KeInsertQueue routine [Installable File System Drivers], ntifs/KeInsertQueue, ifsk.keinsertqueue, keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, KeInsertQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeInsertQueue
 product: Windows
 targetos: Windows
@@ -100,17 +100,17 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-
-<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 <a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
 <a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
+
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
+
+<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, print.iprintoemuimxdc_adjustdpi, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI, IPrintOemUIMXDC, IPrintOemUIMXDC::AdjustDPI, prcomoem/IPrintOemUIMXDC::AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml
+ms.keywords: IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, IPrintOemUIMXDC::AdjustDPI, print.iprintoemuimxdc_adjustdpi, IPrintOemUIMXDC, prcomoem/IPrintOemUIMXDC::AdjustDPI, AdjustDPI method [Print Devices], AdjustDPI method [Print Devices], IPrintOemUIMXDC interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUIMXDC.AdjustDPI
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

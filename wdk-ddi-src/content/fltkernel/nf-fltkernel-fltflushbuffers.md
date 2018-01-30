@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltFlushBuffers, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], ifsk.fltflushbuffers, FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml
+ms.keywords: FltFlushBuffers, ifsk.fltflushbuffers, FltFlushBuffers routine [Installable File System Drivers], FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, fltkernel/FltFlushBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+apiname:
 -	FltFlushBuffers
 product: Windows
 targetos: Windows

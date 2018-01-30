@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2f6072d2-808b-452f-a789-0c6f63195440
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exinitializelookasidelistex, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, wdm/ExInitializeLookasideListEx, ExInitializeLookasideListEx
+ms.keywords: k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, wdm/ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], kernel.exinitializelookasidelistex, ExInitializeLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInitializeLookasideListEx
 product: Windows
 targetos: Windows
@@ -193,7 +193,7 @@ After <b>ExInitializeLookasideListEx</b> returns, the lookaside list is initiali
 
 If the driver does not supply <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines, the <b>ExAllocateFromLookasideListEx</b> and <b>ExFreeToLookasideListEx</b> routines use default allocation and deallocation routines instead.
 
-There is no benefit to providing <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines that do nothing but call <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. The same effect can be achieved with better performance by simply setting the <i>Allocate</i> and <i>Free</i> parameters to <b>NULL</b>.
+There is no benefit to providing <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines that do nothing but call <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. The same effect can be achieved with better performance by simply setting the <i>Allocate</i> and <i>Free</i> parameters to <b>NULL</b>.
 
 Before a driver unloads, it must explicitly free any lookaside lists it created. Failure to do so is a serious programming error. Call the <a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a> routine to free a lookaside list. This routine frees the storage for any remaining entries in the specified lookaside list and then removes the list from the system-wide set of active lookaside lists.
 
@@ -209,33 +209,33 @@ Callers of <b>ExInitializeLookasideListEx</b> can be running at IRQL &lt;= DISPA
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
-
-<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+<a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a>
+
+<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
+
+<a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
 
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
  
 

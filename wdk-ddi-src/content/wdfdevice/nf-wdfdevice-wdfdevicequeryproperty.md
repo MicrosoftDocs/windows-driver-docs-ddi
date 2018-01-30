@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicequeryproperty, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, kmdf.wdfdevicequeryproperty, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, PFN_WDFDEVICEQUERYPROPERTY, wdfdevice/WdfDeviceQueryProperty
+ms.keywords: wdf.wdfdevicequeryproperty, WdfDeviceQueryProperty, wdfdevice/WdfDeviceQueryProperty, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, PFN_WDFDEVICEQUERYPROPERTY, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceQueryProperty
 product: Windows
 targetos: Windows

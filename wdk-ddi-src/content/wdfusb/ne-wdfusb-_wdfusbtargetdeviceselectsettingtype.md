@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WdfUsbTargetDeviceSelectSettingType
-title: _WdfUsbTargetDeviceSelectSettingType
+title: "_WdfUsbTargetDeviceSelectSettingType"
 author: windows-driver-content
 description: The WdfUsbTargetDeviceSelectSettingType enumeration defines techniques for specifying an alternate setting for a USB interface.
 old-location: wdf\wdfusbtargetdeviceselectsettingtype.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, wdfusb/WdfUsbTargetDeviceSelectSettingType, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, wdf.wdfusbtargetdeviceselectsettingtype, WdfUsbTargetDeviceSelectSettingType enumeration, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, _WdfUsbTargetDeviceSelectSettingType, kmdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType
+ms.keywords: kmdf.wdfusbtargetdeviceselectsettingtype, WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeUrb, _WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType enumeration, WdfUsbInterfaceSelectSettingTypeSetting, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, wdfusb/WdfUsbTargetDeviceSelectSettingType, WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdf.wdfusbtargetdeviceselectsettingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceSelectSettingType
 product: Windows
 targetos: Windows

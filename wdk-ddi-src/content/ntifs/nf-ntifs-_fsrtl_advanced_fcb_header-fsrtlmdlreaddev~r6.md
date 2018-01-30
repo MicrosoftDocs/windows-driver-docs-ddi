@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f364fc4b-a3c4-4010-a089-59a00ec3f872
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlmdlreaddev, ntifs/FsRtlMdlReadDev, fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlMdlReadDev, fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, FsRtlMdlReadDev routine [Installable File System Drivers], FsRtlMdlReadDev, ifsk.fsrtlmdlreaddev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlMdlReadDev
 product: Windows
 targetos: Windows
@@ -126,9 +126,9 @@ The routine is similar to <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadcompletedev~r2.md">FsRtlMdlReadCompleteDev</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadcompletedev~r2.md">FsRtlMdlReadCompleteDev</a>
 
  
 

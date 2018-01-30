@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f101fc66-40a9-4077-b651-cef0a0e247d4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlcreateunicodestring, RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml, RtlCreateUnicodeString routine [Installable File System Drivers], ntifs/RtlCreateUnicodeString
+ms.keywords: RtlCreateUnicodeString routine [Installable File System Drivers], RtlCreateUnicodeString, ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlCreateUnicodeString
 product: Windows
 targetos: Windows
@@ -97,9 +97,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
  
 

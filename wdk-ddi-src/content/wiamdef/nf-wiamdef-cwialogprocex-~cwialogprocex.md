@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: FD0C52E0-0E77-4F4C-AA38-E0D610AF3CD0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProcEx interface [Imaging Devices], ~CWiaLogProcEx method, CWiaLogProcEx::~CWiaLogProcEx, wiamdef/CWiaLogProcEx::~CWiaLogProcEx, CWiaLogProcEx, ~CWiaLogProcEx method [Imaging Devices], ~CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, ~CWiaLogProcEx, image.cwialogprocex__cwialogprocex
+ms.keywords: CWiaLogProcEx, wiamdef/CWiaLogProcEx::~CWiaLogProcEx, CWiaLogProcEx::~CWiaLogProcEx, ~CWiaLogProcEx, image.cwialogprocex__cwialogprocex, ~CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx interface [Imaging Devices], ~CWiaLogProcEx method, ~CWiaLogProcEx method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiamdef.h
-apiname: 
+apiname:
 -	CWiaLogProcEx.~CWiaLogProcEx
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

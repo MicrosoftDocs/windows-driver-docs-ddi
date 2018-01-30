@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, ksmedia/KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], ksmedia/PKSJACK_SINK_INFORMATION, audio.ksjack_sink_information, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], *PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION"
+ms.keywords: KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], *PKSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -128,7 +128,7 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
  
 

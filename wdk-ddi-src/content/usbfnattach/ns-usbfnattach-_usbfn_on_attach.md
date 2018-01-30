@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnattach._USBFN_ON_ATTACH
-title: _USBFN_ON_ATTACH
+title: "_USBFN_ON_ATTACH"
 author: windows-driver-content
 description: Describes the detected port type and attach action.
 old-location: buses\usbfn_on_attach.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2CD75FA9-F77E-4AC5-870E-69CF05DB9312
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnattach/PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH, *PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], USBFN_ON_ATTACH, buses.usbfn_on_attach, USBFN_ON_ATTACH structure [Buses], usbfnattach/USBFN_ON_ATTACH, _USBFN_ON_ATTACH
+ms.keywords: buses.usbfn_on_attach, USBFN_ON_ATTACH structure [Buses], _USBFN_ON_ATTACH, PUSBFN_ON_ATTACH, usbfnattach/PUSBFN_ON_ATTACH, *PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], USBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnattach.h
-apiname: 
+apiname:
 -	USBFN_ON_ATTACH
 product: Windows
 targetos: Windows
-req.typenames: USBFN_ON_ATTACH, *PUSBFN_ON_ATTACH
+req.typenames: "*PUSBFN_ON_ATTACH, USBFN_ON_ATTACH"
 req.product: Windows 10 or later.
 ---
 

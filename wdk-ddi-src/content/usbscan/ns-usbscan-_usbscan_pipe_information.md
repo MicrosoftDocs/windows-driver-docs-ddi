@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_PIPE_INFORMATION
-title: _USBSCAN_PIPE_INFORMATION
+title: "_USBSCAN_PIPE_INFORMATION"
 author: windows-driver-content
 description: The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a USBSCAN_PIPE_CONFIGURATION structure.
 old-location: image\usbscan_pipe_information.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a13bec15-67e1-45f9-be90-dee5c555ad64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: usbscan/PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], *PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, image.usbscan_pipe_information, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], usbscan/USBSCAN_PIPE_INFORMATION, _USBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION
+ms.keywords: "_USBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], usbscan/USBSCAN_PIPE_INFORMATION, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, *PUSBSCAN_PIPE_INFORMATION, usbscan/PUSBSCAN_PIPE_INFORMATION, image.usbscan_pipe_information, PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbscan.h
-apiname: 
+apiname:
 -	USBSCAN_PIPE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION
+req.typenames: "*PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

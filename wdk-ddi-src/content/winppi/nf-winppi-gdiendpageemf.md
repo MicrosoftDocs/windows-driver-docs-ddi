@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.gdiendpageemf, GdiEndPageEMF, GdiEndPageEMF function [Print Devices], gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, winppi/GdiEndPageEMF
+ms.keywords: gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, winppi/GdiEndPageEMF, GdiEndPageEMF function [Print Devices], print.gdiendpageemf, GdiEndPageEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiEndPageEMF
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -83,7 +83,7 @@ Caller-supplied flags. The following flag is defined:
 
 
 
-##### - dwOptimization.EMF_PP_COLOR_OPTIMIZATION
+#### EMF_PP_COLOR_OPTIMIZATION
 
 Enable color optimization. For more information, see Remarks.
 

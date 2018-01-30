@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpcidevice._UCMTCPCI_DEVICE_CONFIG
-title: _UCMTCPCI_DEVICE_CONFIG
+title: "_UCMTCPCI_DEVICE_CONFIG"
 author: windows-driver-content
 description: Used in the client driver's call to UcmTcpciDeviceInitialize. Call UCMTCPCI_DEVICE_CONFIG_INIT to initialize this structure.
 old-location: buses\ucmtcpci_device_config.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74de7f2a-8738-472b-8a22-983a82e29fcb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmtcpci_device_config, _UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG
+ms.keywords: PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG, _UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], UCMTCPCI_DEVICE_CONFIG, buses.ucmtcpci_device_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtcpcidevice.h
-apiname: 
+apiname:
 -	UCMTCPCI_DEVICE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG
+req.typenames: "*PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

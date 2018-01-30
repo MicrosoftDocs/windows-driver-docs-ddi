@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_FS_DEVICE_INFORMATION
-title: _FILE_FS_DEVICE_INFORMATION
+title: "_FILE_FS_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_DEVICE_INFORMATION structure provides file system device information about the type of device object associated with a file object.
 old-location: kernel\file_fs_device_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0849bbc2-cfc7-4437-896d-3f46e8f6461a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, PFILE_FS_DEVICE_INFORMATION, *PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, wdm/FILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PFILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_FS_DEVICE_INFORMATION, kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, _FILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	FILE_FS_DEVICE_INFORMATION
 product: Windows
 targetos: Windows

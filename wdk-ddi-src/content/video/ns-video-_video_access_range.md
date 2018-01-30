@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 200c957d-2ba4-488b-afd7-609c13543a7a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], VIDEO_ACCESS_RANGE, display.video_access_range, PVIDEO_ACCESS_RANGE, Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], video/PVIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
+ms.keywords: display.video_access_range, video/PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE, _VIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, *PVIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], video/VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE
+req.product: Windows 10 or later.
 ---
 
 # _VIDEO_ACCESS_RANGE structure
@@ -171,31 +172,31 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
+<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+<a href="..\video\nf-video-videoportinitialize.md">VideoPortInitialize</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
-
-<a href="..\video\nf-video-videoportinitialize.md">VideoPortInitialize</a>
-
 <a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
 
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
-
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_SYSTEM_LATENCY
-title: _PEP_SYSTEM_LATENCY
+title: "_PEP_SYSTEM_LATENCY"
 author: windows-driver-content
 description: The PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance.
 old-location: kernel\pep_system_latency.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, *PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], PEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY, pepfx/PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY, _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], *PPEP_SYSTEM_LATENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_SYSTEM_LATENCY
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY
+req.typenames: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY"
 ---
 
 # _PEP_SYSTEM_LATENCY structure

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9683b171-4f2e-4a18-89b7-76d49001be37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_CreateConfigurationRequestEx routine [Buses], usbdlib/USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx, buses.usbd_createconfigurationrequestex, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml
+ms.keywords: buses.usbd_createconfigurationrequestex, USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml, usbdlib/USBD_CreateConfigurationRequestEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbd.lib
 -	Usbd.dll
-apiname: 
+apiname:
 -	USBD_CreateConfigurationRequestEx
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,7 @@ The returned value is a pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> s
 
 After the USB driver stack completes the select-configuration request, you can inspect the  <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structures.  The <b>Pipes</b> member of <b>USBD_INTERFACE_INFORMATION</b> points to an array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. The USB bus driver fills the array of <b>USBD_PIPE_INFORMATION</b> structures with information about the  pipes associated with the endpoints of the interface. The client driver can obtain pipe handles from the <code>Pipes[i].PipeHandle</code> and use them to send I/O requests to specific pipes. 
 
-After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
+After you have completed all operations with the returned <a href="..\usb\ns-usb-_urb.md">URB</a>, you must free the <b>URB</b> by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
 
 You can  allocate the configuration descriptor and the array from nonpaged or paged pool. Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL if the memory pointed to by <i>ConfigurationDescriptor</i> and <i>InterfaceList</i> is allocated from nonpaged pool. Otherwise, callers must run at IRQL &lt; DISPATCH_LEVEL.
 
@@ -107,13 +107,13 @@ You can  allocate the configuration descriptor and the array from nonpaged or pa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
-<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
  
 

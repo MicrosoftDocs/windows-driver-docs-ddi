@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_GET_DESCRIPTOR
-title: _USBSCAN_GET_DESCRIPTOR
+title: "_USBSCAN_GET_DESCRIPTOR"
 author: windows-driver-content
 description: The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_USB_DESCRIPTOR.
 old-location: image\usbscan_get_descriptor.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 250c0022-ceaa-40c6-8431-9ec53438fdb9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _USBSCAN_GET_DESCRIPTOR, stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml, USBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR, usbscan/USBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], PUSBSCAN_GET_DESCRIPTOR, PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], image.usbscan_get_descriptor, usbscan/PUSBSCAN_GET_DESCRIPTOR
+ms.keywords: PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], image.usbscan_get_descriptor, PUSBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR, usbscan/USBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR, _USBSCAN_GET_DESCRIPTOR, usbscan/PUSBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbscan.h
-apiname: 
+apiname:
 -	USBSCAN_GET_DESCRIPTOR
 product: Windows
 targetos: Windows

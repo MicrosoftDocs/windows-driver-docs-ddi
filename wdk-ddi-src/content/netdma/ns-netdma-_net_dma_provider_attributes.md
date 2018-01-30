@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PROVIDER_ATTRIBUTES
-title: _NET_DMA_PROVIDER_ATTRIBUTES
+title: "_NET_DMA_PROVIDER_ATTRIBUTES"
 author: windows-driver-content
 description: The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration attributes for a NetDMA provider.
 old-location: netvista\net_dma_provider_attributes.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b5a7e9e-b10b-4c94-80b1-172cd9f0c9ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netvista.net_dma_provider_attributes, NET_DMA_PROVIDER_ATTRIBUTES
+ms.keywords: PNET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netdma/NET_DMA_PROVIDER_ATTRIBUTES, netvista.net_dma_provider_attributes, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, netdma/PNET_DMA_PROVIDER_ATTRIBUTES, _NET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NET_DMA_PROVIDER_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES
+req.typenames: "*PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES"
 ---
 
 # _NET_DMA_PROVIDER_ATTRIBUTES structure
@@ -140,14 +140,14 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 <mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
    NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
 <a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
  
 

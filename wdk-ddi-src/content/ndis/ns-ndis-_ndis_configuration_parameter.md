@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_CONFIGURATION_PARAMETER
-title: _NDIS_CONFIGURATION_PARAMETER
+title: "_NDIS_CONFIGURATION_PARAMETER"
 author: windows-driver-content
 description: The NDIS_CONFIGURATION_PARAMETER structure contains the data and type of a named entry in the registry.
 old-location: netvista\ndis_configuration_parameter.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 80250799-4263-43c0-85d5-f1c1c1fb0bae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_configuration_parameter, PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], NDIS_CONFIGURATION_PARAMETER, PNDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, ndis/NDIS_CONFIGURATION_PARAMETER
+ms.keywords: PNDIS_CONFIGURATION_PARAMETER structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_configuration_parameter, NDIS_CONFIGURATION_PARAMETER structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_PARAMETER, *PNDIS_CONFIGURATION_PARAMETER, ndis/NDIS_CONFIGURATION_PARAMETER, ndis_configuration_ref_14664bdb-06c7-4d27-b71b-d6a69f3e3396.xml, NDIS_CONFIGURATION_PARAMETER, _NDIS_CONFIGURATION_PARAMETER, ndis/PNDIS_CONFIGURATION_PARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_CONFIGURATION_PARAMETER
 product: Windows
 targetos: Windows
@@ -144,15 +144,15 @@ To write parameters to the registry, an NDIS driver can call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+
 <a href="..\ndis\ns-ndis-binary_data.md">BINARY_DATA</a>
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
 
  
 

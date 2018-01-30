@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
 -	ksproxy.h.dll
-apiname: 
+apiname:
 -	IKsObject
 product: Windows
 targetos: Windows

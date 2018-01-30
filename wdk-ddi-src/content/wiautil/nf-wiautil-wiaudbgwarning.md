@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f10f1c28-0bfd-44c5-a0aa-9f9227f775d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgWarning, wiauDbgWarning function [Imaging Devices], image.wiaudbgwarning, wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, wiautil/wiauDbgWarning
+ms.keywords: wiautil/wiauDbgWarning, wiauDbgWarning function [Imaging Devices], wiauDbgWarning, wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, image.wiaudbgwarning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	wiauDbgWarning
 product: Windows
 targetos: Windows
@@ -99,13 +99,13 @@ None
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
  
 

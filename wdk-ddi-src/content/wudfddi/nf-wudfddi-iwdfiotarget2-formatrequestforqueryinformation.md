@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget2 interface, FormatRequestForQueryInformation method, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, FormatRequestForQueryInformation method, IWDFIoTarget2, wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation method, IWDFIoTarget2 interface, FormatRequestForQueryInformation, IWDFIoTarget2::FormatRequestForQueryInformation
+ms.keywords: FormatRequestForQueryInformation method, IWDFIoTarget2 interface, IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation method, IWDFIoTarget2, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, FormatRequestForQueryInformation, umdf.iwdfiotarget2_formatrequestforqueryinformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, wdf.iwdfiotarget2_formatrequestforqueryinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTarget2.FormatRequestForQueryInformation
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -81,7 +81,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 
 ### -param InformationClass [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to obtain.
+A <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to obtain.
 
 
 ### -param pFile [in, optional]

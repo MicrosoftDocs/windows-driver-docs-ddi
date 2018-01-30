@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, DrvSplDeviceCaps, winddiui/DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml
+ms.keywords: print.drvspldevicecaps, DrvSplDeviceCaps function [Print Devices], DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DrvSplDeviceCaps
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 
@@ -109,16 +109,6 @@ TBD
 Caller-supplied pointer to a Unicode string that contains the printer name.
 
 
-#### - cchBuf
-
-Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
-
-
-#### - pDM [in, optional]
-
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
-
-
 #### - DeviceCap
 
 Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
@@ -161,6 +151,16 @@ If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of
 #### - pvOutput [out, optional]
 
 Caller-supplied pointer to a buffer that receives function-supplied information. The buffer's use depends on the value of  the <i>DeviceCap</i> parameter. The caller is responsible for allocating and freeing this buffer. 
+
+
+#### - cchBuf
+
+Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput</i> parameter.
+
+
+#### - pDM [in, optional]
+
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
 
 
 ## -returns

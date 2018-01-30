@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_READY_INFO
-title: _WWAN_READY_INFO
+title: "_WWAN_READY_INFO"
 author: windows-driver-content
 description: The WWAN_READY_INFO structure represents the ready-state of the MB device.
 old-location: netvista\wwan_ready_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db8730e-a1da-428b-9938-fd9f3f71283a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, PWWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_READY_INFO, wwan/WWAN_READY_INFO, *PWWAN_READY_INFO, WWAN_READY_INFO, netvista.wwan_ready_info, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_READY_INFO, WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, wwan/WWAN_READY_INFO, WWAN_READY_INFO, *PWWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_READY_INFO, netvista.wwan_ready_info, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_READY_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_READY_INFO, WWAN_READY_INFO
+req.typenames: WWAN_READY_INFO, *PWWAN_READY_INFO
 req.product: Windows 10 or later.
 ---
 

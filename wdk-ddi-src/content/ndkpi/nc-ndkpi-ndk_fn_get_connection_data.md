@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NdkGetConnectionData
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # NDK_FN_GET_CONNECTION_DATA callback
@@ -100,11 +100,6 @@ A pointer to private data that is returned.
 
 
 
-#### - pOutboundReadLimit [out, optional]
-
-The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
-
-
 #### - pNdkConnector [in]
 
 A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
@@ -113,6 +108,11 @@ A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.
 #### - pInboundReadLimit [out, optional]
 
 The maximum number of incoming in-progress read operations to allow on the QP is returned in this location.
+
+
+#### - pOutboundReadLimit [out, optional]
+
+The maximum number of outgoing in-progress read operations to allow on the QP is returned in this location.
 
 
 #### - pPrivateDataLength
@@ -190,9 +190,9 @@ If <i>*pPrivateDataLength</i> is greater than or equal to <i>RDS</i>, the provid
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b7456e5-a6fa-42bf-aace-21d555c3e821
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2createvertexshaderfunc, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERFUNC, *LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, _D3DHAL_DP2CREATEVERTEXSHADERFUNC, D3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dstrct_cb83183c-18cc-4e11-814f-2b50836cbe39.xml, LPD3DHAL_DP2CREATEVERTEXSHADERFUNC structure pointer [Display Devices], D3DHAL_DP2CREATEVERTEXSHADERFUNC structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADERFUNC
+ms.keywords: d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dstrct_cb83183c-18cc-4e11-814f-2b50836cbe39.xml, D3DHAL_DP2CREATEVERTEXSHADERFUNC structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, D3DHAL_DP2CREATEVERTEXSHADERFUNC, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERFUNC, *LPD3DHAL_DP2CREATEVERTEXSHADERFUNC, _D3DHAL_DP2CREATEVERTEXSHADERFUNC, display.d3dhal_dp2createvertexshaderfunc, LPD3DHAL_DP2CREATEVERTEXSHADERFUNC structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ The DirectX 9.0 runtime sets <b>dwHandle</b> to zero to indicate a fixed functio
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 D3DDP2OP_CREATEVERTEXSHADERFUNC
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshaderdecl.md">D3DHAL_DP2CREATEVERTEXSHADERDECL</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
 

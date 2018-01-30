@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._AUX_MODULE_EXTENDED_INFO
-title: _AUX_MODULE_EXTENDED_INFO
+title: "_AUX_MODULE_EXTENDED_INFO"
 author: windows-driver-content
 description: The AUX_MODULE_EXTENDED_INFO structure contains extended information about a loaded image module.
 old-location: kernel\aux_module_extended_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.aux_module_extended_info, *PAUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, _AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO
+ms.keywords: AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, AUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, kernel.aux_module_extended_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	aux_klib.h
-apiname: 
+apiname:
 -	AUX_MODULE_EXTENDED_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO
+req.typenames: AUX_MODULE_EXTENDED_INFO, *PAUX_MODULE_EXTENDED_INFO
 ---
 
 # _AUX_MODULE_EXTENDED_INFO structure

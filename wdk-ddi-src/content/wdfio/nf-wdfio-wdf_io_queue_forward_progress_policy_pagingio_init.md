@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e8839d4d-b7cb-4f18-b122-42c87e779d7f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, kmdf.wdf_io_queue_forward_progress_policy_pagingio_init, DFQueueObjectRef_57ac1d7b-3417-4757-bd62-21bc8b13c782.xml, wdf.wdf_io_queue_forward_progress_policy_pagingio_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function
+ms.keywords: wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, DFQueueObjectRef_57ac1d7b-3417-4757-bd62-21bc8b13c782.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function, kmdf.wdf_io_queue_forward_progress_policy_pagingio_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, wdf.wdf_io_queue_forward_progress_policy_pagingio_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfio.h
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT</b> function zeros the
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_examine_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</a>
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_default_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT</a>
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_examine_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
 
  
 

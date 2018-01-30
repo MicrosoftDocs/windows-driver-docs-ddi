@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], IddCxSwapChainReleaseAndAcquireBuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer, display.iddcxswapchainreleaseandacquirebuffer
+ms.keywords: iddcx/IddCxSwapChainReleaseAndAcquireBuffer, display.iddcxswapchainreleaseandacquirebuffer, IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

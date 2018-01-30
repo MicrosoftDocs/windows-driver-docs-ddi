@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAllocateContiguousMemory, VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices]
+ms.keywords: VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, video/VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], display.videoportallocatecontiguousmemory, VideoPortAllocateContiguousMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortAllocateContiguousMemory function

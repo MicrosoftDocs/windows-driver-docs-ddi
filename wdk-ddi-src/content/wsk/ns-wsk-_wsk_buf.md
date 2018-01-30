@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_BUF
-title: _WSK_BUF
+title: "_WSK_BUF"
 author: windows-driver-content
 description: The WSK_BUF structure defines a data buffer that is used for sending and receiving data over a socket.
 old-location: netvista\wsk_buf.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, *PWSK_BUF, WSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_buf, wsk/WSK_BUF, wsk/PWSK_BUF
+ms.keywords: wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, *PWSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], wsk/WSK_BUF, _WSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], PWSK_BUF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_BUF
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_BUF, WSK_BUF
+req.typenames: "*PWSK_BUF, WSK_BUF"
 req.product: Windows 10 or later.
 ---
 
@@ -118,19 +118,19 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
 <a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
 
 <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
  
 

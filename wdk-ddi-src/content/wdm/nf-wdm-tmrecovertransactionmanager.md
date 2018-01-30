@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67b18170-a17f-44fd-a5ab-12bccf2082fe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRecoverTransactionManager routine [Kernel-Mode Driver Architecture], wdm/TmRecoverTransactionManager, TmRecoverTransactionManager, ktm_ref_1917a36a-c7bd-4a00-b054-bb710b7c0e93.xml, kernel.tmrecovertransactionmanager
+ms.keywords: wdm/TmRecoverTransactionManager, TmRecoverTransactionManager, ktm_ref_1917a36a-c7bd-4a00-b054-bb710b7c0e93.xml, kernel.tmrecovertransactionmanager, TmRecoverTransactionManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmRecoverTransactionManager
 product: Windows
 targetos: Windows
@@ -144,9 +144,9 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
-
 <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
+
+<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
 
  
 

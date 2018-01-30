@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb69e052-1033-457d-bafb-bf4be4ea5966
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, OutputDisassemblyLines, IDebugControl3, dbgeng/IDebugControl3::OutputDisassemblyLines, debugger.outputdisassemblylines, dbgeng/IDebugControl::OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl3::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface, OutputDisassemblyLines method [Windows Debugging], dbgeng/IDebugControl2::OutputDisassemblyLines, IDebugControl2::OutputDisassemblyLines
+ms.keywords: IDebugControl3, IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl2::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, IDebugControl3::OutputDisassemblyLines, dbgeng/IDebugControl3::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, OutputDisassemblyLines, dbgeng/IDebugControl::OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, IDebugControl::OutputDisassemblyLines, dbgeng/IDebugControl2::OutputDisassemblyLines, debugger.outputdisassemblylines, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputDisassemblyLines
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputDisassemblyLines method
@@ -213,11 +213,11 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
-<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

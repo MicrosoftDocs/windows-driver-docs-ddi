@@ -40,7 +40,7 @@ apiname:
 -	pfnShaderCacheStoreValue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback

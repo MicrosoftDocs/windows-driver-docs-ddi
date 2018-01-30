@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntdddump.h
-apiname: 
+apiname:
 -	Dump_Unload
 product: Windows
 targetos: Windows
-req.typenames: *PVERIFY_INFORMATION, VERIFY_INFORMATION
+req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
 ---
 
 # DUMP_UNLOAD callback

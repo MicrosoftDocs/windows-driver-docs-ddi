@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 84d13b43-06c4-4454-9853-80b1fe65d29d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsendmsgoptions_2, rilapitypes/RIL_SENDOPT_PERSISTLINK, rilapitypes/RILSENDMSGOPTIONS, RIL_SENDOPT_PERSISTLINK, rilapitypes/RIL_SENDOPT_IMS, RIL_SENDOPT_IMS, RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, RILSENDMSGOPTIONS, rilapitypes/RILSENDMSGOPTIONS, netvista.rilsendmsgoptions_2, rilapitypes/RIL_SENDOPT_PERSISTLINK, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SENDOPT_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSENDMSGOPTIONS
 product: Windows
 targetos: Windows

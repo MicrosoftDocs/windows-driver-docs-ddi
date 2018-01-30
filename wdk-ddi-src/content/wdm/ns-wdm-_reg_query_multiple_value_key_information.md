@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
-title: _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
+title: "_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure describes the multiple value entries that are being retrieved for a key.
 old-location: kernel\reg_query_multiple_value_key_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 764045c0-9057-4abc-a1bd-8713797082c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, kernel.reg_query_multiple_value_key_information, _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
+ms.keywords: PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_query_multiple_value_key_information, kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
+req.typenames: "*PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -136,9 +136,9 @@ For more information about registry filtering operations, see <a href="https://m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-
 <a href="..\wdm\ns-wdm-_key_value_entry.md">KEY_VALUE_ENTRY</a>
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMUIPROCS
-title: _OEMUIPROCS
+title: "_OEMUIPROCS"
 author: windows-driver-content
 description: The OEMUIPROCS structure is obsolete.The OEMUIPROCS structure contains the address of the DrvGetDriverSetting and DrvUpdateUISetting functions that are exported by Microsoft printer drivers.
 old-location: print\oemuiprocs.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMUIPROCS structure [Print Devices], print.oemuiprocs, POEMUIPROCS, OEMUIPROCS, printoem/OEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], _OEMUIPROCS, *POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/POEMUIPROCS
+ms.keywords: POEMUIPROCS structure pointer [Print Devices], OEMUIPROCS structure [Print Devices], *POEMUIPROCS, print.oemuiprocs, OEMUIPROCS, printoem/OEMUIPROCS, _OEMUIPROCS, POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/POEMUIPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMUIPROCS
 product: Windows
 targetos: Windows

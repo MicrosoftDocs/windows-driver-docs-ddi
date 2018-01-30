@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces2::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, dbgeng/IDebugDataSpaces3::ReadIo, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, debugger.readio, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces4::ReadIo, IDebugDataSpaces3::ReadIo, IDebugDataSpaces interface [Windows Debugging], ReadIo method, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces interface, ReadIo, IDebugDataSpaces::ReadIo
+ms.keywords: ReadIo method [Windows Debugging], dbgeng/IDebugDataSpaces3::ReadIo, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces::ReadIo, IDebugDataSpaces2::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces2::ReadIo, ReadIo, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], ReadIo method, debugger.readio, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces4, IDebugDataSpaces4::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3::ReadIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadIo
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadIo method

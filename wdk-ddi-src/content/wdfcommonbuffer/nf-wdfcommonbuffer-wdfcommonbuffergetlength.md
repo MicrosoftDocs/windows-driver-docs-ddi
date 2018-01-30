@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ffb818d-7c58-4c84-997b-1703f480aaf0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcommonbuffergetlength, kmdf.wdfcommonbuffergetlength, WdfCommonBufferGetLength method, DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, wdfcommonbuffer/WdfCommonBufferGetLength, PFN_WDFCOMMONBUFFERGETLENGTH, WdfCommonBufferGetLength
+ms.keywords: PFN_WDFCOMMONBUFFERGETLENGTH, wdfcommonbuffer/WdfCommonBufferGetLength, wdf.wdfcommonbuffergetlength, kmdf.wdfcommonbuffergetlength, WdfCommonBufferGetLength, DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, WdfCommonBufferGetLength method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfCommonBufferGetLength
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
+req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
 req.product: Windows 10 or later.
 ---
 

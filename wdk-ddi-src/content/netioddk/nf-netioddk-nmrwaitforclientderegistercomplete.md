@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aed0a69e-868c-4c7d-b601-003ff357da38
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml, netvista.nmrwaitforclientderegistercomplete, NmrWaitForClientDeregisterComplete, netioddk/NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml, netioddk/NmrWaitForClientDeregisterComplete, netvista.nmrwaitforclientderegistercomplete, NmrWaitForClientDeregisterComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	netio.lib
 -	netio.dll
-apiname: 
+apiname:
 -	NmrWaitForClientDeregisterComplete
 product: Windows
 targetos: Windows

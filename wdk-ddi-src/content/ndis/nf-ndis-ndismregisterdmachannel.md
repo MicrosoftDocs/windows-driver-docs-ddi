@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], netvista.ndismregisterdmachannel, ndis/NdisMRegisterDmaChannel
+ms.keywords: ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel, dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMRegisterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterDmaChannel function
@@ -127,13 +127,26 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
 
 
 
-### -param MaximumLength [in]
+#### DemandMode
 
-The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
-     unlimited transfer capacity, set this parameter to -1.
+A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's demand
+       mode. Otherwise, it is <b>FALSE</b>.
 
 
-##### - DmaDescription.DmaWidth
+#### AutoInitialize
+
+A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
+       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
+
+
+#### DmaChannelSpecified
+
+A boolean value that is <b>TRUE</b> if 
+       <b>DmaChannel</b> is set to the bus-relative value of the system DMA controller channel used by the
+       NIC. Otherwise, it is <b>FALSE</b>.
+
+
+#### DmaWidth
 
 The transfer width for DMA operations, one of 
        <b>Width8Bits</b>, 
@@ -141,31 +154,7 @@ The transfer width for DMA operations, one of
        <b>Width32Bits</b>.
 
 
-##### - DmaDescription.DmaChannel
-
-The bus-relative number of the system DMA controller channel used by the NIC.
-
-
-##### - DmaDescription.DmaPort
-
-This member refers to the MCA bus, which is no longer supported. This member must be
-       zero.
-
-
-##### - DmaDescription.AutoInitialize
-
-A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
-       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
-
-
-##### - DmaDescription.DmaChannelSpecified
-
-A boolean value that is <b>TRUE</b> if 
-       <b>DmaChannel</b> is set to the bus-relative value of the system DMA controller channel used by the
-       NIC. Otherwise, it is <b>FALSE</b>.
-
-
-##### - DmaDescription.DmaSpeed
+#### DmaSpeed
 
 The DMA speed as one of 
        <b>Compatible</b>, 
@@ -174,10 +163,21 @@ The DMA speed as one of
        <b>TypeC</b>.
 
 
-##### - DmaDescription.DemandMode
+#### DmaPort
 
-A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's demand
-       mode. Otherwise, it is <b>FALSE</b>.
+This member refers to the MCA bus, which is no longer supported. This member must be
+       zero.
+
+
+#### DmaChannel
+
+The bus-relative number of the system DMA controller channel used by the NIC.
+
+
+### -param MaximumLength [in]
+
+The maximum number of bytes that the NIC can transfer in a single DMA operation. If the NIC has
+     unlimited transfer capacity, set this parameter to -1.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3f7b704f-be73-459a-bb5a-bbe649751900
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, IDebugBreakpoint2::GetCommand, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, debugger.getcommand, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, dbgeng/IDebugBreakpoint2::GetCommand, GetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetCommand, IDebugBreakpoint interface [Windows Debugging], GetCommand method, dbgeng/IDebugBreakpoint::GetCommand, GetCommand method [Windows Debugging], GetCommand
+ms.keywords: GetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, IDebugBreakpoint2, ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, IDebugBreakpoint interface [Windows Debugging], GetCommand method, dbgeng/IDebugBreakpoint::GetCommand, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, GetCommand method [Windows Debugging], debugger.getcommand, GetCommand, IDebugBreakpoint::GetCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetCommand
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetCommand method

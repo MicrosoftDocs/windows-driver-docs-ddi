@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, ATA_CHANNEL_STATE enumeration [Storage Devices], irb/ChannelStateUnKnown, irb/ChannelStateEnabled, storage.ata_channel_state, irb/ChannelStateDisabled, ChannelStateDisabled, ChannelStateUnKnown, ChannelStateEnabled, ATA_CHANNEL_STATE, irb/ATA_CHANNEL_STATE
+ms.keywords: ATA_CHANNEL_STATE enumeration [Storage Devices], irb/ChannelStateUnKnown, ATA_CHANNEL_STATE, storage.ata_channel_state, ChannelStateEnabled, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, irb/ChannelStateDisabled, irb/ATA_CHANNEL_STATE, ChannelStateUnKnown, ChannelStateDisabled, irb/ChannelStateEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	ATA_CHANNEL_STATE
 product: Windows
 targetos: Windows

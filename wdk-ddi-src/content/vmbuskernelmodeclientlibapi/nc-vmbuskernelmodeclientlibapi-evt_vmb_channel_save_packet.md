@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	PFN_VMB_CHANNEL_SAVE_PACKET
 product: Windows
 targetos: Windows

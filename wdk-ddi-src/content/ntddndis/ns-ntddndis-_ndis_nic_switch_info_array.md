@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_INFO_ARRAY
-title: _NDIS_NIC_SWITCH_INFO_ARRAY
+title: "_NDIS_NIC_SWITCH_INFO_ARRAY"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_INFO_ARRAY structure specifies an array. Each element in the array specifies the attributes of a network adapter switch that has been created on the network adapter.
 old-location: netvista\ndis_nic_switch_info_array.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bff2b133-bbef-4f2a-a7b1-34d7cf364205
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NIC_SWITCH_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY, _NDIS_NIC_SWITCH_INFO_ARRAY, netvista.ndis_nic_switch_info_array
+ms.keywords: NDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY, _NDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY, netvista.ndis_nic_switch_info_array, NDIS_NIC_SWITCH_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_INFO_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_INFO_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY
+req.typenames: NDIS_NIC_SWITCH_INFO_ARRAY, *PNDIS_NIC_SWITCH_INFO_ARRAY
 ---
 
 # _NDIS_NIC_SWITCH_INFO_ARRAY structure
@@ -79,6 +79,13 @@ NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. T
 
 
 
+#### NDIS_NIC_SWITCH_INFO_ARRAY_REVISION_1
+
+Original version for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_INFO_ARRAY_REVISION_1.
+
+
 ### -field FirstElementOffset
 
 A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structure.
@@ -94,13 +101,6 @@ A ULONG value that specifies the number of elements that follow the <b>NDIS_NIC_
 ### -field ElementSize
 
 A ULONG value that specifies the size, in bytes, of each element that follows the <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure.
-
-
-##### - Header.NDIS_NIC_SWITCH_INFO_ARRAY_REVISION_1
-
-Original version for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_INFO_ARRAY_REVISION_1.
 
 
 ## -remarks
@@ -125,19 +125,19 @@ function, NDIS passes a pointer to an <a href="..\ndis\ns-ndis-_ndis_filter_atta
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <b></b>
 

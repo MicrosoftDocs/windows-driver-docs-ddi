@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterExtensionRequest interface [Print Devices], Complete method, Complete method [Print Devices], IPrinterExtensionRequest interface, Complete method [Print Devices], printerextension/IPrinterExtensionRequest::Complete, IPrinterExtensionRequest::Complete, print.iprinterextensionrequest_complete, IPrinterExtensionRequest, Complete
+ms.keywords: IPrinterExtensionRequest, print.iprinterextensionrequest_complete, Complete method [Print Devices], Complete, IPrinterExtensionRequest::Complete, Complete method [Print Devices], IPrinterExtensionRequest interface, printerextension/IPrinterExtensionRequest::Complete, IPrinterExtensionRequest interface [Print Devices], Complete method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterExtensionRequest.Complete
 product: Windows
 targetos: Windows

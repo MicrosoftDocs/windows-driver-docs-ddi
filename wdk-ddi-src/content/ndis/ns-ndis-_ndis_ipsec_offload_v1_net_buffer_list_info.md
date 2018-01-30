@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
-title: _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+title: "_NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO"
 author: windows-driver-content
 description: The NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure specifies information that is used in offloading Internet protocol security (IPsec) tasks from the TCP/IP transport to a miniport driver.
 old-location: netvista\ndis_ipsec_offload_v1_net_buffer_list_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 990b3df6-5ef7-4201-a09d-d94822d0a8bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_SUCCESS, CRYPTO_INVALID_PACKET_SYNTAX, CRYPTO_INVALID_PROTOCOL, _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], CRYPTO_TUNNEL_AH_AUTH_FAILED, CRYPTO_GENERIC_ERROR, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_TRANSPORT_AH_AUTH_FAILED, CRYPTO_TUNNEL_ESP_AUTH_FAILED, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ms.keywords: PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, CRYPTO_TUNNEL_AH_AUTH_FAILED, CRYPTO_TRANSPORT_AH_AUTH_FAILED, CRYPTO_GENERIC_ERROR, CRYPTO_TUNNEL_ESP_AUTH_FAILED, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], CRYPTO_INVALID_PACKET_SYNTAX, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_INVALID_PROTOCOL, _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_SUCCESS, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+req.typenames: "*PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO"
 ---
 
 # _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure
@@ -297,15 +297,15 @@ To set and get the IPsec information, use the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

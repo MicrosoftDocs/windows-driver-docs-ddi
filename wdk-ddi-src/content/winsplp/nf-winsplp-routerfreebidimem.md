@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 946b1630-844a-43ac-8c26-fdfa2ee7866a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], winsplp/RouterFreeBidiMem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml, print.routerfreebidimem
+ms.keywords: RouterFreeBidiMem, winsplp/RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], print.routerfreebidimem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	RouterFreeBidiMem
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f10bb0f-2a9e-4310-946d-c1c9250391e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILEXECUTORCONFIG, rilapitypes/RILEXECUTORCONFIG, netvista.rilexecutorconfig_2, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], RILEXECUTORCONFIG
+ms.keywords: RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG, rilapitypes/RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEXECUTORCONFIG
 product: Windows
 targetos: Windows

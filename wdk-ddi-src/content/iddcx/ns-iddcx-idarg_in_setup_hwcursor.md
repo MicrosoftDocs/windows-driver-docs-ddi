@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e2c959c-0ebd-4464-ad47-96f432cb5c6b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_SETUP_HWCURSOR structure [Display Devices], IDARG_IN_SETUP_HWCURSOR, display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
+ms.keywords: IDARG_IN_SETUP_HWCURSOR structure [Display Devices], iddcx/IDARG_IN_SETUP_HWCURSOR, display.idarg_in_setup_hwcursor, IDARG_IN_SETUP_HWCURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

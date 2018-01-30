@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11aefa65-9f1c-4a6e-aac0-8727c6e00a02
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IFixedPage::DeleteResource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, DeleteResource, DeleteResource method [Print Devices], filterpipeline/IFixedPage::DeleteResource, IFixedPage interface [Print Devices], DeleteResource method, print.ifixedpage_deleteresource, IFixedPage, DeleteResource method [Print Devices], IFixedPage interface
+ms.keywords: IFixedPage::DeleteResource, DeleteResource method [Print Devices], IFixedPage interface, print.ifixedpage_deleteresource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, IFixedPage, DeleteResource method [Print Devices], filterpipeline/IFixedPage::DeleteResource, DeleteResource, IFixedPage interface [Print Devices], DeleteResource method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedPage.DeleteResource
 product: Windows
 targetos: Windows

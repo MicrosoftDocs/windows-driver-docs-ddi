@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_INFORMATION
-title: _CLS_INFORMATION
+title: "_CLS_INFORMATION"
 author: windows-driver-content
 description: The CLFS_INFORMATION structure holds metadata and state information for a Common Log File System (CLFS) stream and/or its underlying physical log.
 old-location: kernel\clfs_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPCLS_INFORMATION, wdm/CLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLS_INFORMATION structure [Kernel-Mode Driver Architecture], *PCLFS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/PCLFS_INFORMATION, PPCLS_INFORMATION, CLFS_INFORMATION, wdm/PPCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_information, wdm/CLFS_INFORMATION, PCLS_INFORMATION, wdm/PCLS_INFORMATION, PCLFS_INFORMATION, wdm/PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION, PPCLFS_INFORMATION, *PCLS_INFORMATION
+ms.keywords: wdm/PPCLFS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PCLS_INFORMATION, kernel.clfs_information, PCLS_INFORMATION, CLS_INFORMATION, PPCLS_INFORMATION, *PCLFS_INFORMATION, wdm/PCLS_INFORMATION, *PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, _CLS_INFORMATION, wdm/PPCLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, CLFS_INFORMATION, wdm/CLS_INFORMATION, PCLFS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	CLS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: CLS_INFORMATION, *PPCLS_INFORMATION, *PCLS_INFORMATION
+req.typenames: "*PPCLS_INFORMATION, CLS_INFORMATION, *PCLS_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

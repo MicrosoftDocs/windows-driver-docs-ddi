@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._PosDeviceType
-title: _PosDeviceType
+title: "_PosDeviceType"
 author: windows-driver-content
 description: This enumeration defines values used in the PosDeviceBasicsType structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader).
 old-location: pos\posdevicetype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1e0b4b66-f9aa-4315-a07d-b6fd47f10371
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosDeviceType_Max, PosDeviceType enumeration, PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_BarcodeScanner, PosDeviceType, pointofservicecommontypes/PosDeviceType_Unknown, _PosDeviceType, pointofservicecommontypes/PosDeviceType, PosDeviceType_Unknown, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, PosDeviceType_MagneticStripeReader, PosDeviceType_CashDrawer, PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_CashDrawer, pos.posdevicetype, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_Max
+ms.keywords: PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_BarcodeScanner, PosDeviceType_Max, pointofservicecommontypes/PosDeviceType_Unknown, pos.posdevicetype, PosDeviceType, _PosDeviceType, pointofservicecommontypes/PosDeviceType, PosDeviceType enumeration, PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_Max, PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_Printer, PosDeviceType_Unknown, PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_MagneticStripeReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicecommontypes.h
-apiname: 
+apiname:
 -	PosDeviceType
 product: Windows
 targetos: Windows

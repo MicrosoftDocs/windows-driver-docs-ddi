@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasDebugTrace, wiasDebugTrace function [Imaging Devices], image.wiasdebugtrace, wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml, wiamdef/wiasDebugTrace
+ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasDebugTrace
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

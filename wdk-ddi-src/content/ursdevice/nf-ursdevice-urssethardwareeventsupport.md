@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsSetHardwareEventSupport function [Buses], ursdevice/UrsSetHardwareEventSupport, buses.urssethardwareeventsupport, UrsSetHardwareEventSupport
+ms.keywords: ursdevice/UrsSetHardwareEventSupport, UrsSetHardwareEventSupport, buses.urssethardwareeventsupport, UrsSetHardwareEventSupport function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Urscxstub.lib
 -	Urscxstub.dll
-apiname: 
+apiname:
 -	UrsSetHardwareEventSupport
 product: Windows
 targetos: Windows

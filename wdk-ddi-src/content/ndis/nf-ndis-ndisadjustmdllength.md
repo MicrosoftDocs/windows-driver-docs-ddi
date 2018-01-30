@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d52d985c-3ebc-45a0-8073-ac26c77441c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisadjustmdllength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml
+ms.keywords: NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, netvista.ndisadjustmdllength, ndis/NdisAdjustMdlLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisAdjustMdlLength
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAdjustMdlLength macro
@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - Length [in]
-
-The number of bytes of data that the MDL describes.
-
-
 #### - Mdl [in]
 
 A pointer to a memory descriptor list (MDL).
+
+
+#### - Length [in]
+
+The number of bytes of data that the MDL describes.
 
 
 ## -remarks
@@ -126,9 +126,9 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
-
 <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
 
  
 

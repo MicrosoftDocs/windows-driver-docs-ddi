@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.product: Windows 10 or later.
 ---
 
 # PAGP_SET_RATE callback

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, print.ixpsdocumentconsumer_sendxpsdocument, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, SendXpsDocument method [Print Devices], SendXpsDocument, IXpsDocumentConsumer, IXpsDocumentConsumer::SendXpsDocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument
+ms.keywords: SendXpsDocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, print.ixpsdocumentconsumer_sendxpsdocument, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, IXpsDocumentConsumer::SendXpsDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.SendXpsDocument
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> met
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
-
 <a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a>
+
+<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
  
 

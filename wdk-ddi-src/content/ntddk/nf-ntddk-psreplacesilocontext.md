@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsReplaceSiloContext, kernel.psreplacesilocontext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], PsReplaceSiloContext
+ms.keywords: PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsReplaceSiloContext, PsReplaceSiloContext, kernel.psreplacesilocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsReplaceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsReplaceSiloContext function

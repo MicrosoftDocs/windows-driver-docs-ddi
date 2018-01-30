@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BCA741A8-2294-43C1-8B9C-3724274D637B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation
+ms.keywords: d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

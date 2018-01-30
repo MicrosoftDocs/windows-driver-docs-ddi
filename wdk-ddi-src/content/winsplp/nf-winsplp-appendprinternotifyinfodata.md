@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.appendprinternotifyinfodata, winsplp/AppendPrinterNotifyInfoData, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices]
+ms.keywords: print.appendprinternotifyinfodata, AppendPrinterNotifyInfoData function [Print Devices], spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	AppendPrinterNotifyInfoData
 product: Windows
 targetos: Windows
@@ -87,7 +87,7 @@ Caller-supplied flags. The following flag is defined.
 
 
 
-##### - fdwFlags.PRINTER_NOTIFY_INFO_DATA_COMPACT
+#### PRINTER_NOTIFY_INFO_DATA_COMPACT
 
 If set, the function examines the <b>Type</b>, <b>Field</b>, and <b>Id</b> members of the supplied PRINTER_NOTIFY_INFO_DATA structure. If they all match an existing element of the PRINTER_NOTIFY_INFO_DATA structure array, the existing element is overwritten with the supplied element. If a match is not found, the function adds the specified structure to the end of the array.
 
@@ -123,9 +123,9 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
-
 <a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 
  
 

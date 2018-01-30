@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= HIGH_LEVEL (See Remarks section)
-topictype: 
+req.irql: "<= HIGH_LEVEL (See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	WriteErrorRecord
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # PSHED_PI_WRITE_ERROR_RECORD callback
@@ -85,6 +85,11 @@ A bit-wise OR'ed combination of flags that affect the write operation. A possibl
 
 
 
+#### WHEA_WRITE_FLAG_DUMMY
+
+The write operation is a dummy write operation. No data is to be written to the system's persistent data storage.
+
+
 ### -param RecordLength [in]
 
 The size, in bytes, of the error record pointed to by the <i>ErrorRecord</i> parameter.
@@ -93,11 +98,6 @@ The size, in bytes, of the error record pointed to by the <i>ErrorRecord</i> par
 ### -param ErrorRecord [in]
 
 A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure that describes the error record that is being written to the system's persistent data storage.
-
-
-##### - Flags.WHEA_WRITE_FLAG_DUMMY
-
-The write operation is a dummy write operation. No data is to be written to the system's persistent data storage.
 
 
 ## -returns
@@ -148,15 +148,15 @@ The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at I
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
 <a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
 <a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
 
 <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
  
 

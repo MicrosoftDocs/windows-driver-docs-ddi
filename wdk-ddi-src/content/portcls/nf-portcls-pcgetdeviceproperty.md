@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcGetDeviceProperty, audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices]
+ms.keywords: PcGetDeviceProperty, audio.pcgetdeviceproperty, portcls/PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS PcGetDeviceProperty(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the device. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> system structure but is cast to type PVOID.
+Pointer to the device object for the device. This parameter points to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> system structure but is cast to type PVOID.
 
 
 ### -param DeviceProperty [in]
@@ -149,7 +149,7 @@ Set the <b>DeviceProperty</b> parameter to one of the following DEVICE_REGISTRY_
 
 <b>DevicePropertyUINumber</b>
 
-For a description of the preceding DeviceProperty<i>Xxx</i> values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549203">IoGetDeviceProperty</a>.
+For a description of the preceding DeviceProperty<i>Xxx</i> values, see <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>.
 
 Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the required <i>BufferLength</i>. In the first call, <i>BufferLength</i> can either be zero or a best-guess estimate of the required buffer size. If the return status is STATUS_BUFFER_TOO_SMALL, this means that the caller should allocate a buffer of the size that was output through <i>ResultLength</i> and call <b>PcGetDeviceProperty</b> again. 
 
@@ -157,9 +157,9 @@ Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the requ
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549203">IoGetDeviceProperty</a>
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

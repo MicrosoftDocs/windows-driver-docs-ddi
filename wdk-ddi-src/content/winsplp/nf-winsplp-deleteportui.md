@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/pfnDeletePortUI, DeletePortUI, pfnDeletePortUI, pfnDeletePortUI function [Print Devices], spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, print.deleteportui
+ms.keywords: pfnDeletePortUI, print.deleteportui, winsplp/pfnDeletePortUI, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, pfnDeletePortUI function [Print Devices], DeletePortUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	pfnDeletePortUI
 product: Windows
 targetos: Windows
@@ -138,13 +138,13 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
 
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
-<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istidevicecontrol_writetoerrorlog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog, stiusd/IStiDeviceControl::WriteToErrorLog, IStiDeviceControl::WriteToErrorLog, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, IStiDeviceControl, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, WriteToErrorLog method [Imaging Devices]
+ms.keywords: WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, WriteToErrorLog method [Imaging Devices], stiusd/IStiDeviceControl::WriteToErrorLog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, IStiDeviceControl, image.istidevicecontrol_writetoerrorlog, WriteToErrorLog, IStiDeviceControl::WriteToErrorLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiDeviceControl.WriteToErrorLog
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

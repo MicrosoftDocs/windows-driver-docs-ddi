@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwseteafile, ntifs/ZwSetEaFile, ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwSetEaFile routine [Kernel-Mode Driver Architecture], ntifs/ZwSetEaFile, ZwSetEaFile, kernel.zwseteafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwSetEaFile
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock, ks/KsCreateDefaultClock
+ms.keywords: ks/KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], stream.kscreatedefaultclock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, KsCreateDefaultClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCreateDefaultClock
 product: Windows
 targetos: Windows

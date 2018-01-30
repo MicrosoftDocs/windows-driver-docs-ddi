@@ -1,6 +1,6 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_ATTRIBUTES
-title: _POS_CX_EVENT_ATTRIBUTES
+title: "_POS_CX_EVENT_ATTRIBUTES"
 author: windows-driver-content
 description: The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in POS_CX_EVENT_DEST and POS_CX_EVENT_PRIORITY.
 old-location: pos\pos_cx_event_attributes.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 5B8B38B6-ACF3-44F9-BC83-71F0A2FC4DDD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/POS_CX_EVENT_ATTR_CONTROL, poscx/POS_CX_EVENT_ATTR_DATA, POS_CX_EVENT_ATTR_DATA, POS_CX_EVENT_ATTR_CONTROL, POS_CX_EVENT_ATTRIBUTES enumeration, POS_CX_EVENT_ATTR_BCAST_CONTROL, poscx/POS_CX_EVENT_ATTR_BCAST_CONTROL, poscx/POS_CX_EVENT_ATTRIBUTES, _POS_CX_EVENT_ATTRIBUTES, pos.pos_cx_event_attributes, POS_CX_EVENT_ATTRIBUTES
+ms.keywords: poscx/POS_CX_EVENT_ATTR_CONTROL, poscx/POS_CX_EVENT_ATTR_DATA, poscx/POS_CX_EVENT_ATTR_BCAST_CONTROL, _POS_CX_EVENT_ATTRIBUTES, POS_CX_EVENT_ATTRIBUTES enumeration, POS_CX_EVENT_ATTR_CONTROL, POS_CX_EVENT_ATTRIBUTES, poscx/POS_CX_EVENT_ATTRIBUTES, POS_CX_EVENT_ATTR_BCAST_CONTROL, pos.pos_cx_event_attributes, POS_CX_EVENT_ATTR_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	POS_CX_EVENT_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -93,9 +93,9 @@ Control level priority delivered in FIFO to ALL open handles on the driver.
 
 ## -see-also
 
-<a href="..\poscx\ne-poscx-_pos_cx_event_priority.md">POS_CX_EVENT_PRIORITY</a>
-
 <a href="..\poscx\ne-poscx-_pos_cx_event_dest.md">POS_CX_EVENT_DEST</a>
+
+<a href="..\poscx\ne-poscx-_pos_cx_event_priority.md">POS_CX_EVENT_PRIORITY</a>
 
  
 

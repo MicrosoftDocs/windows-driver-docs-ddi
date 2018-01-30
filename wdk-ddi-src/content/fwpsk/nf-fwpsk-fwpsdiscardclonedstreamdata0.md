@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsDiscardClonedStreamData0
 product: Windows
 targetos: Windows

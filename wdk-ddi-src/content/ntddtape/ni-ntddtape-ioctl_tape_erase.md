@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddtape.h
-apiname: 
+apiname:
 -	IOCTL_TAPE_ERASE
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
-
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
 
 <a href="..\ntddtape\ns-ntddtape-_tape_erase.md">TAPE_ERASE</a>
 

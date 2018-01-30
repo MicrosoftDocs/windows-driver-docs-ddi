@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cddaa92c-c43b-4875-a52e-a28ecc30962d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_GET_LOCAL_BD_ADDR, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], _BRB_GET_LOCAL_BD_ADDR, bltooth._brb_get_local_bd_addr, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml
+ms.keywords: bltooth._brb_get_local_bd_addr, bthddi/_BRB_GET_LOCAL_BD_ADDR, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], _BRB_GET_LOCAL_BD_ADDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,9 +94,9 @@ Only a single local radio is supported by the Bluetooth driver stack.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536611">BRB_HCI_GET_LOCAL_BD_ADDR</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536611">BRB_HCI_GET_LOCAL_BD_ADDR</a>
 
  
 

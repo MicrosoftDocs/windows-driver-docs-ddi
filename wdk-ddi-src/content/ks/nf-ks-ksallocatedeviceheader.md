@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
+ms.keywords: ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, KsAllocateDeviceHeader function [Streaming Media Devices], stream.ksallocatedeviceheader, KsAllocateDeviceHeader, ks/KsAllocateDeviceHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAllocateDeviceHeader
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 414950c6-b082-4ea9-bba4-f3d12b4d2a9e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTWDMGETIRP, wdf.wdfrequestwdmgetirp, WdfRequestWdmGetIrp method, DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml, kmdf.wdfrequestwdmgetirp, WdfRequestWdmGetIrp, wdfrequest/WdfRequestWdmGetIrp
+ms.keywords: wdf.wdfrequestwdmgetirp, wdfrequest/WdfRequestWdmGetIrp, WdfRequestWdmGetIrp, kmdf.wdfrequestwdmgetirp, WdfRequestWdmGetIrp method, PFN_WDFREQUESTWDMGETIRP, DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfRequestWdmGetIrp
 product: Windows
 targetos: Windows

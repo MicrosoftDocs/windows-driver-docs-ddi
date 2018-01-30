@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._PORT_CONFIGURATION_INFORMATION
-title: _PORT_CONFIGURATION_INFORMATION
+title: "_PORT_CONFIGURATION_INFORMATION"
 author: windows-driver-content
 description: PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA.
 old-location: storage\port_configuration_information__scsi_.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, _PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], srb/_PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices]
+ms.keywords: srb/_PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], *PPORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, srb/PPORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	srb.h
-apiname: 
+apiname:
 -	PORT_CONFIGURATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION
+req.typenames: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -405,21 +405,21 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
-
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
+<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
+
 <a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
  
 

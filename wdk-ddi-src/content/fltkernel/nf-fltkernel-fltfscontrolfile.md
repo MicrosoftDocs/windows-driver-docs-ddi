@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltfscontrolfile, fltkernel/FltFsControlFile, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml
+ms.keywords: ifsk.fltfscontrolfile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltFsControlFile
 product: Windows
 targetos: Windows
@@ -178,9 +178,9 @@ For more information about the system-defined FSCTL_<i>XXX</i> codes, see the Re
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
+
+<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
  
 

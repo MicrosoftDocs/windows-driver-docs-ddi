@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c8bfd13-31e0-461f-93d2-53ce15c53cdb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], ExRaiseDatatypeMisalignment, ntddk/ExRaiseDatatypeMisalignment, k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml, kernel.exraisedatatypemisalignment
+ms.keywords: kernel.exraisedatatypemisalignment, ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], ntddk/ExRaiseDatatypeMisalignment, ExRaiseDatatypeMisalignment, k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExRaiseDatatypeMisalignment
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # ExRaiseDatatypeMisalignment function
@@ -84,13 +84,13 @@ Because <b>ExRaiseDatatypeMisalignment</b> can only be used at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
 <a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
  
 

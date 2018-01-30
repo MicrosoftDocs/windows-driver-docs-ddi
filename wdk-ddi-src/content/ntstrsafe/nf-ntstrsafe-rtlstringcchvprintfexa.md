@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e28dd810-d86f-479f-b049-63a626ed432f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_FILL_BEHIND_NULL, kernel.rtlstringcchvprintfex, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, RtlStringCchVPrintfExA, STRSAFE_FILL_ON_FAILURE, ntstrsafe/RtlStringCchVPrintfExA, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, STRSAFE_IGNORE_NULLS, ntstrsafe/RtlStringCchVPrintfExW, RtlStringCchVPrintfEx, RtlStringCchVPrintfExW
+ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchvprintfex, ntstrsafe/RtlStringCchVPrintfExW, RtlStringCchVPrintfExA, STRSAFE_FILL_BEHIND_NULL, RtlStringCchVPrintfEx, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_ON_FAILURE, RtlStringCchVPrintfExW, ntstrsafe/RtlStringCchVPrintfExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchVPrintfExW
 -	RtlStringCchVPrintfExA
 -	RtlStringCchVPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchVPrintfExA function
@@ -299,9 +299,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
 
  
 

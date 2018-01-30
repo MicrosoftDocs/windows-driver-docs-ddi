@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::SetPowerPolicyOwnership, umdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, IWDFDeviceInitialize, SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, SetPowerPolicyOwnership method, wdf.iwdfdeviceinitialize_setpowerpolicyownership
+ms.keywords: UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership, SetPowerPolicyOwnership method, wdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, IWDFDeviceInitialize::SetPowerPolicyOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDeviceInitialize.SetPowerPolicyOwnership
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

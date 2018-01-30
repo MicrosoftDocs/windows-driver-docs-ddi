@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a2a092d-f9b5-42a2-9be4-bc934a9304fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], wdm/KeSetTimerEx, kernel.kesettimerex
+ms.keywords: kernel.kesettimerex, KeSetTimerEx, wdm/KeSetTimerEx, k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, KeSetTimerEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeSetTimerEx
 product: Windows
 targetos: Windows
@@ -139,19 +139,19 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
+<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
+
 <a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
  
 

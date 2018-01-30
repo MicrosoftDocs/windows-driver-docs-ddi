@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 872098c1-d684-4ce5-9f53-2fee8b50b626
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_4a4d8579-6641-4d2a-9599-9ac39c25fd91.xml, ObDereferenceObjectWithTag, wdm/ObDereferenceObjectWithTag, ObDereferenceObjectWithTag routine [Kernel-Mode Driver Architecture], kernel.obdereferenceobjectwithtag
+ms.keywords: ObDereferenceObjectWithTag, kernel.obdereferenceobjectwithtag, k107_4a4d8579-6641-4d2a-9599-9ac39c25fd91.xml, wdm/ObDereferenceObjectWithTag, ObDereferenceObjectWithTag routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObDereferenceObjectWithTag
 product: Windows
 targetos: Windows
@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - Tag [in]
-
-Specifies a four-byte, custom tag value. For more information, see the following Remarks section. 
-
-
 #### - Object [in]
 
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a> routine after it opens the object. 
+
+
+#### - Tag [in]
+
+Specifies a four-byte, custom tag value. For more information, see the following Remarks section. 
 
 
 ## -remarks
@@ -132,19 +132,19 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

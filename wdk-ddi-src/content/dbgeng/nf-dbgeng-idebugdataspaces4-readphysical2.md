@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ad376a6f-b8e3-40ba-9b00-df1410c1293c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical2, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces4, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2
+ms.keywords: debugger.readphysical2, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadPhysical2, ReadPhysical2, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, IDebugDataSpaces4::ReadPhysical2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces4.ReadPhysical2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadPhysical2 method
@@ -178,11 +178,11 @@ The flags DEBUG_PHYSICAL_CACHED, DEBUG_PHYSICAL_UNCACHED, and DEBUG_PHYSICAL_WRI
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561441">WritePhysical2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561441">WritePhysical2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
  
 

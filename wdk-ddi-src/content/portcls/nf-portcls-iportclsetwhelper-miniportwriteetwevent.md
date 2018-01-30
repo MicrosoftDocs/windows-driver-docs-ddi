@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7E0C1140-35AA-424F-8229-21B4F4E1EBDF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsEtwHelper::MiniportWriteEtwEvent, IPortClsEtwHelper, MiniportWriteEtwEvent method [Audio Devices], IPortClsEtwHelper interface, audio.iportclsetwhelper_miniportwriteetwevent, MiniportWriteEtwEvent method [Audio Devices], portcls/IPortClsEtwHelper::MiniportWriteEtwEvent, IPortClsEtwHelper interface [Audio Devices], MiniportWriteEtwEvent method, MiniportWriteEtwEvent
+ms.keywords: MiniportWriteEtwEvent method [Audio Devices], audio.iportclsetwhelper_miniportwriteetwevent, IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], IPortClsEtwHelper interface, IPortClsEtwHelper interface [Audio Devices], MiniportWriteEtwEvent method, IPortClsEtwHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

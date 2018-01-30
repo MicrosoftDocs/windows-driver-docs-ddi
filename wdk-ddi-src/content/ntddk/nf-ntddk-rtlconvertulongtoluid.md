@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3c1e2d5-8bb8-486c-a78a-3ddde6ab64bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlConvertUlongToLuid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], RtlConvertUlongToLuid, k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, kernel.rtlconvertulongtoluid
+ms.keywords: ntddk/RtlConvertUlongToLuid, k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], kernel.rtlconvertulongtoluid, RtlConvertUlongToLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	RtlConvertUlongToLuid
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlConvertUlongToLuid function
@@ -92,9 +92,9 @@ Specifies the unsigned long integer to convert.
 
 <a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
-<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
 
  
 

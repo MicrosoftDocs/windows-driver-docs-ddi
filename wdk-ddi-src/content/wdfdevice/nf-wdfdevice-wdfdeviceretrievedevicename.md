@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName, PFN_WDFDEVICERETRIEVEDEVICENAME, WdfDeviceRetrieveDeviceName method, WdfDeviceRetrieveDeviceName, wdf.wdfdeviceretrievedevicename, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml
+ms.keywords: wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, wdf.wdfdeviceretrievedevicename, WdfDeviceRetrieveDeviceName, PFN_WDFDEVICERETRIEVEDEVICENAME, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, kmdf.wdfdeviceretrievedevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceRetrieveDeviceName
 product: Windows
 targetos: Windows

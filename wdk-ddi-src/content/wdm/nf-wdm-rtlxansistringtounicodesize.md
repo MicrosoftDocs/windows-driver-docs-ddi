@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 232ac7b0-d949-4db6-a243-b4e5ca0f3cc0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlxAnsiStringToUnicodeSize, RtlxAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], kernel.rtlxansistringtounicodesize, wdm/RtlxAnsiStringToUnicodeSize, k109_9343d498-bc89-428c-8e68-53c205c58bae.xml
+ms.keywords: k109_9343d498-bc89-428c-8e68-53c205c58bae.xml, kernel.rtlxansistringtounicodesize, RtlxAnsiStringToUnicodeSize, wdm/RtlxAnsiStringToUnicodeSize, RtlxAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlxAnsiStringToUnicodeSize
 product: Windows
 targetos: Windows

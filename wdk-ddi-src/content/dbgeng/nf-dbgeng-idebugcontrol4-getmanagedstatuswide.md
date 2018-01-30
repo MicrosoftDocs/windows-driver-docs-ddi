@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5854BB6A-EB5F-493A-96E4-0DF298EC0332
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetManagedStatusWide, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, debugger.idebugcontrol4_getmanagedstatuswide, IDebugControl4::GetManagedStatusWide, GetManagedStatusWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method, GetManagedStatusWide method [Windows Debugging]
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, debugger.idebugcontrol4_getmanagedstatuswide, dbgeng/IDebugControl4::GetManagedStatusWide, GetManagedStatusWide, IDebugControl4::GetManagedStatusWide, GetManagedStatusWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetManagedStatusWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetManagedStatusWide method

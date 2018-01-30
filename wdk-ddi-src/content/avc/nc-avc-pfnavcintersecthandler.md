@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	PFNAVCINTERSECTHANDLER
 product: Windows
 targetos: Windows
@@ -108,11 +108,6 @@ An optional buffer to receive the data format resulting from a matching pair of 
 
 
 
-#### - ReportedDataSize [out]
-
-The actual size of the resulting data format. If <b>DataBufferSize</b> was zero, then this contains the required size of the buffer, but no format is returned.
-
-
 #### - CallerDataRange [in]
 
 The first of two data ranges being compared.
@@ -121,6 +116,11 @@ The first of two data ranges being compared.
 #### - DescriptorDataRange [in]
 
 The second of two data ranges being compared.
+
+
+#### - ReportedDataSize [out]
+
+The actual size of the resulting data format. If <b>DataBufferSize</b> was zero, then this contains the required size of the buffer, but no format is returned.
 
 
 ## -returns
@@ -202,13 +202,13 @@ The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
+<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
 
 <a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
 
  
 

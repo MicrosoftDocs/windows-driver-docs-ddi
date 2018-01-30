@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._FORMAT_PARAMETERS
-title: _FORMAT_PARAMETERS
+title: "_FORMAT_PARAMETERS"
 author: windows-driver-content
 description: The FORMAT_PARAMETERS structure is used in conjunction with the IOCTL_DISK_FORMAT_TRACKS request to format the specified set of contiguous tracks on the disk.
 old-location: storage\format_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], ntdddisk/PFORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], *PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, FORMAT_PARAMETERS, _FORMAT_PARAMETERS
+ms.keywords: ntdddisk/FORMAT_PARAMETERS, _FORMAT_PARAMETERS, *PFORMAT_PARAMETERS, FORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], PFORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], ntdddisk/PFORMAT_PARAMETERS, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, storage.format_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	FORMAT_PARAMETERS
 product: Windows
 targetos: Windows

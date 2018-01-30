@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolCmOpenAf
 product: Windows
 targetos: Windows
@@ -243,12 +243,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 <mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
    NdisCmOpenAddressFamilyComplete</b></mshelp:link>
 
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
 <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
    NdisCmRegisterAddressFamilyEx</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
  
 

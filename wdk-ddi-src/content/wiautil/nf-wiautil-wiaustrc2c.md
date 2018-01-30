@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7e8cd99a-d1b1-4261-9643-4a84bddfdc01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauStrC2C function [Imaging Devices], wiautil/wiauStrC2C, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C, image.wiaustrc2c
+ms.keywords: wiauStrC2C function [Imaging Devices], wiauStrC2C, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, image.wiaustrc2c, wiautil/wiauStrC2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauStrC2C
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
-
 <a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+
+<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
 <a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_GET_PLUG_STATE
-title: _CMP_GET_PLUG_STATE
+title: "_CMP_GET_PLUG_STATE"
 author: windows-driver-content
 description: This structure is used in getting the state of a plug.
 old-location: ieee\cmp_get_plug_state.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 76BC179A-7484-433C-8467-B13BA7008B90
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CMP_GET_PLUG_STATE structure [Buses], 61883/PCMP_GET_PLUG_STATE, IEEE.cmp_get_plug_state, _CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], PCMP_GET_PLUG_STATE
+ms.keywords: CMP_GET_PLUG_STATE structure [Buses], PCMP_GET_PLUG_STATE structure pointer [Buses], _CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE, IEEE.cmp_get_plug_state, 61883/PCMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_GET_PLUG_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE
+req.typenames: "*PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE"
 ---
 
 # _CMP_GET_PLUG_STATE structure

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbackswide_changedebuggeestate, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide
+ms.keywords: IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate, IDebugEventCallbacksWide, ChangeDebuggeeState method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ChangeDebuggeeState
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeDebuggeeState method

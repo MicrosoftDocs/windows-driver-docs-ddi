@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8b940eec-dac6-4a01-afc8-73115bf994c3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportflushregistry, VideoPortFlushRegistry function [Display Devices], video/VideoPortFlushRegistry, VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, VideoPortFlushRegistry
+ms.keywords: video/VideoPortFlushRegistry, VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, VideoPortFlushRegistry function [Display Devices], VideoPortFlushRegistry, display.videoportflushregistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortFlushRegistry function

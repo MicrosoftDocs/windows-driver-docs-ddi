@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4aba7417-8391-4ae7-a449-dbc307cab530
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_GLOBALDRIVERDATA structure [Display Devices], d3dstrct_95940eeb-e317-455f-bd8c-0e7d1937197e.xml, _D3DHAL_GLOBALDRIVERDATA, d3dhal/D3DHAL_GLOBALDRIVERDATA, LPD3DHAL_GLOBALDRIVERDATA, D3DHAL_GLOBALDRIVERDATA, *LPD3DHAL_GLOBALDRIVERDATA, d3dhal/LPD3DHAL_GLOBALDRIVERDATA, display.d3dhal_globaldriverdata, LPD3DHAL_GLOBALDRIVERDATA structure pointer [Display Devices]
+ms.keywords: d3dhal/D3DHAL_GLOBALDRIVERDATA, display.d3dhal_globaldriverdata, D3DHAL_GLOBALDRIVERDATA, LPD3DHAL_GLOBALDRIVERDATA structure pointer [Display Devices], d3dhal/LPD3DHAL_GLOBALDRIVERDATA, LPD3DHAL_GLOBALDRIVERDATA, D3DHAL_GLOBALDRIVERDATA structure [Display Devices], d3dstrct_95940eeb-e317-455f-bd8c-0e7d1937197e.xml, _D3DHAL_GLOBALDRIVERDATA, *LPD3DHAL_GLOBALDRIVERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,13 +111,13 @@ The driver is responsible for allocating space for and setting all members of th
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 004ecb65-a462-45e5-a647-9655727b202b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], display.video_share_memory_information, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, _VIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION
+ms.keywords: "*PVIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], _VIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,9 +141,9 @@ If <b>NULL</b>, the miniport driver determines the address of a frame buffer to 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
  
 

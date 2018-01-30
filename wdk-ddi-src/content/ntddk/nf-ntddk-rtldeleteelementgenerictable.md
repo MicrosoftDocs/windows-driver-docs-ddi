@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlDeleteElementGenericTable, ifsk.rtldeleteelementgenerictable, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml, ntddk/RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers]
+ms.keywords: RtlDeleteElementGenericTable, ifsk.rtldeleteelementgenerictable, ntddk/RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlDeleteElementGenericTable
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlDeleteElementGenericTable function

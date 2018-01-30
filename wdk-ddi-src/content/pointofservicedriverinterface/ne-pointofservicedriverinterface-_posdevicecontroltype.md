@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._PosDeviceControlType
-title: _PosDeviceControlType
+title: "_PosDeviceControlType"
 author: windows-driver-content
 description: This enumeration defines values for the IOCTLs of the scanner driver and magnetic stripe reader (MSR) driver.
 old-location: pos\posdevicecontroltype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9f5f3baa-49a0-4711-88c0-b9ff8d87ae1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/UpdateStatistics, pointofservicedriverinterface/Invalid, PosDeviceControlType enumeration, GetProperty, UpdateStatistics, ResetStatistics, pointofservicedriverinterface/MsrUpdateKey, pointofservicedriverinterface/ClaimDevice, pointofservicedriverinterface/GetDeviceBasics, pointofservicedriverinterface/RetainDevice, PosDeviceControlType, SetProperty, pointofservicedriverinterface/_MaxDeviceControlType, MsrRetrieveDeviceAuthentication, pointofservicedriverinterface/MsrDeAuthenticateDevice, pointofservicedriverinterface/RetrieveStatistics, MsrAuthenticateDevice, ReleaseDevice, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication, _PosDeviceControlType, _MaxDeviceControlType, CheckHealth, pointofservicedriverinterface/BarcodeScannerInjectEvent, pointofservicedriverinterface/ResetStatistics, pointofservicedriverinterface/ReleaseDevice, RetrieveStatistics, pointofservicedriverinterface/GetProperty, pointofservicedriverinterface/CheckHealth, Invalid, ClaimDevice, RetainDevice, pos.posdevicecontroltype, pointofservicedriverinterface/SetProperty, BarcodeScannerInjectEvent, pointofservicedriverinterface/PosDeviceControlType, pointofservicedriverinterface/MsrAuthenticateDevice, MsrUpdateKey, GetDeviceBasics, MsrDeAuthenticateDevice
+ms.keywords: Invalid, pointofservicedriverinterface/MsrAuthenticateDevice, pointofservicedriverinterface/UpdateStatistics, pointofservicedriverinterface/ResetStatistics, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication, pointofservicedriverinterface/SetProperty, MsrRetrieveDeviceAuthentication, MsrDeAuthenticateDevice, ReleaseDevice, RetainDevice, ResetStatistics, UpdateStatistics, pointofservicedriverinterface/GetProperty, pointofservicedriverinterface/RetainDevice, pointofservicedriverinterface/PosDeviceControlType, pointofservicedriverinterface/ReleaseDevice, pointofservicedriverinterface/MsrUpdateKey, pointofservicedriverinterface/CheckHealth, CheckHealth, GetProperty, BarcodeScannerInjectEvent, MsrAuthenticateDevice, pointofservicedriverinterface/MsrDeAuthenticateDevice, ClaimDevice, pointofservicedriverinterface/GetDeviceBasics, RetrieveStatistics, PosDeviceControlType, GetDeviceBasics, _PosDeviceControlType, SetProperty, _MaxDeviceControlType, PosDeviceControlType enumeration, pointofservicedriverinterface/Invalid, pointofservicedriverinterface/RetrieveStatistics, pointofservicedriverinterface/ClaimDevice, MsrUpdateKey, pointofservicedriverinterface/_MaxDeviceControlType, pointofservicedriverinterface/BarcodeScannerInjectEvent, pos.posdevicecontroltype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	PosDeviceControlType
 product: Windows
 targetos: Windows

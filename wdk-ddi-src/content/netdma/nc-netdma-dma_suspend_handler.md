@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderSuspendDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
 ---
 
 # DMA_SUSPEND_HANDLER callback
@@ -165,11 +165,11 @@ NetDMA calls
 
 ## -see-also
 
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
 <a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
  
 

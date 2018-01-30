@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFRegisterFilterDriver, netvista.ndisfregisterfilterdriver, NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml
+ms.keywords: filter_ndis_functions_ref_a772ecb2-0cba-439e-82f1-928c3b40f3fd.xml, netvista.ndisfregisterfilterdriver, ndis/NdisFRegisterFilterDriver, NdisFRegisterFilterDriver function [Network Drivers Starting with Windows Vista], NdisFRegisterFilterDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFRegisterFilterDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFRegisterFilterDriver function
@@ -248,19 +248,19 @@ Filter drivers call the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+
 <mshelp:link keywords="netvista.driverentry_of_ndis_filter_drivers" tabindex="0"><b>DriverEntry of NDIS Filter
    Drivers</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
 
 <mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
    NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
  
 

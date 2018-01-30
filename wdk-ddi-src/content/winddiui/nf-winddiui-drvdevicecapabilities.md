@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities, DrvDeviceCapabilities, print.drvdevicecapabilities, DrvDeviceCapabilities function [Print Devices]
+ms.keywords: DrvDeviceCapabilities, print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DrvDeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 
@@ -98,19 +98,9 @@ TBD
 
 
 
-#### - pDevMode [in]
-
-A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
-
-
 #### - pDeviceName [in]
 
 Caller-supplied pointer to a printer name string.
-
-
-#### - pvOutput [out]
-
-A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
 
 
 #### - iDevCap
@@ -572,6 +562,16 @@ The function's return value should be the <b>dmSpecVersion</b> member of the dri
 </td>
 </tr>
 </table> 
+
+
+#### - pvOutput [out]
+
+A caller-supplied pointer to a buffer to receive function-supplied information. The buffer's use is dependent on the value received for the <i>iDevCap</i> parameter.
+
+
+#### - pDevMode [in]
+
+A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
 
 
 ## -returns

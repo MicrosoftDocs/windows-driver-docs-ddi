@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead, ifsk.fsrtlfastchecklockforread, fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, FsRtlFastCheckLockForRead routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlFastCheckLockForRead, fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, FsRtlFastCheckLockForRead routine [Installable File System Drivers], ifsk.fsrtlfastchecklockforread, FsRtlFastCheckLockForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlFastCheckLockForRead
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ The <b>FsRtlFastCheckLockForRead</b> routine returns <b>TRUE</b> if the specifie
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
 
  
 

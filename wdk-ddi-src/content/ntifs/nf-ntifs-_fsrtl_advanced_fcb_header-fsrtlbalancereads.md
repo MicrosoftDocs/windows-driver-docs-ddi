@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlBalanceReads routine [Installable File System Drivers], FsRtlBalanceReads, ntifs/FsRtlBalanceReads, ifsk.fsrtlbalancereads, fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml
+ms.keywords: ntifs/FsRtlBalanceReads, fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, FsRtlBalanceReads routine [Installable File System Drivers], FsRtlBalanceReads, ifsk.fsrtlbalancereads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlBalanceReads
 product: Windows
 targetos: Windows

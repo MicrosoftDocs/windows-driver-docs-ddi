@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorClassExtension, ISensorClassExtension::PostEvent, PostEvent method [Sensor Devices], sensors.isensorclassextension_postevent, PostEvent
+ms.keywords: PostEvent, PostEvent method [Sensor Devices], ISensorClassExtension::PostEvent, ISensorClassExtension, sensors.isensorclassextension_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	PostEvent
 product: Windows
 targetos: Windows

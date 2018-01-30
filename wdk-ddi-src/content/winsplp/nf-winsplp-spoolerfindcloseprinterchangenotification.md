@@ -2,13 +2,13 @@
 UID: NF:winsplp.SpoolerFindClosePrinterChangeNotification
 title: SpoolerFindClosePrinterChangeNotification function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\spoolerfindcloseprinterchangenotification.htm
 old-project: print
 ms.assetid: 13C65DAB-04BA-4B19-B810-B484F7C1C4DA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SpoolerFindClosePrinterChangeNotification, winsplp/SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], print.spoolerfindcloseprinterchangenotification
+ms.keywords: SpoolerFindClosePrinterChangeNotification function [Print Devices], SpoolerFindClosePrinterChangeNotification, winsplp/SpoolerFindClosePrinterChangeNotification, print.spoolerfindcloseprinterchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	SpoolerFindClosePrinterChangeNotification
 product: Windows
 targetos: Windows

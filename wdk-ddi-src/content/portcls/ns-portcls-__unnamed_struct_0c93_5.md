@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PPCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PCEVENT_ITEM, PPCEVENT_ITEM, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, *PPCEVENT_ITEM, audio.pcevent_item, portcls/PCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices]
+ms.keywords: portcls/PPCEVENT_ITEM, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], *PPCEVENT_ITEM, portcls/PCEVENT_ITEM, PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], audio.pcevent_item, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,9 +152,9 @@ In WDM audio, the target for an event request is either a pin instance or a node
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
+
+<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
 
  
 

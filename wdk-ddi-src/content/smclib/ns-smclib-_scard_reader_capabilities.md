@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SCARD_READER_CAPABILITIES
-title: _SCARD_READER_CAPABILITIES
+title: "_SCARD_READER_CAPABILITIES"
 author: windows-driver-content
 description: The SCARD_READER_CAPABILITIES structure holds state information about the smart card reader.
 old-location: smartcrd\scard_reader_capabilities.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: f55b74d0-d545-419a-87fb-c320f789aaf4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/*PSCARD_READER_CAPABILITIES, _SCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, smartcrd.scard_reader_capabilities, smclib/SCARD_READER_CAPABILITIES
+ms.keywords: smartcrd.scard_reader_capabilities, _SCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, smclib/*PSCARD_READER_CAPABILITIES, smclib/SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Smclib.h
-apiname: 
+apiname:
 -	SCARD_READER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PSCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES
+req.typenames: SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 

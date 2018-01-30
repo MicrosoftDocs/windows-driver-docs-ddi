@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/ObQueryNameString, ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml, ifsk.obquerynamestring
+ms.keywords: ifsk.obquerynamestring, ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml, ntifs/ObQueryNameString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObQueryNameString
 product: Windows
 targetos: Windows

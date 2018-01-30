@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._GetPresharedKeyForId_IN
-title: _GetPresharedKeyForId_IN
+title: "_GetPresharedKeyForId_IN"
 author: windows-driver-content
 description: The GetPresharedKeyForId_IN structure holds the input data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b3d3c5d-c34c-4ed8-bf62-1d885442ee1e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], iscsiop/PGetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, _GetPresharedKeyForId_IN, iscsiop/GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml
+ms.keywords: GetPresharedKeyForId_IN structure [Storage Devices], structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml, iscsiop/GetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN, iscsiop/PGetPresharedKeyForId_IN, PGetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, _GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	GetPresharedKeyForId_IN
 product: Windows
 targetos: Windows
-req.typenames: *PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN
+req.typenames: "*PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN"
 ---
 
 # _GetPresharedKeyForId_IN structure
@@ -145,11 +145,11 @@ You must implement this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_out.md">GetPresharedKeyForId_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_out.md">GetPresharedKeyForId_OUT</a>
 
  
 

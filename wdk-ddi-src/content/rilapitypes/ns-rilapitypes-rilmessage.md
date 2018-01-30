@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 731ae115-2394-4651-9b79-6d640d07a328
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], RILMESSAGE, rilapitypes/RILMESSAGE, netvista.rilmessage_2
+ms.keywords: "*LPRILMESSAGE, netvista.rilmessage_2, RILMESSAGE, rilapitypes/RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMESSAGE
 product: Windows
 targetos: Windows
@@ -160,27 +160,7 @@ typedef struct _RILMESSAGE {
 
 
 
-#### - unMsgIS637InStatus
-
-
-
-#### - unMsgBcGeneral
-
-
-
-#### - RIL_MSGTYPE_OUT_SUBMIT
-
-
-
-#### - RIL_MSGTYPE_BC_GENERAL
-
-
-
-#### - RIL_MSGTYPE_IN_DELIVER
-
-
-
-#### - RIL_MSGTYPE_OUT_CDMASUBMIT
+#### - switch_is
 
 
 
@@ -192,11 +172,7 @@ typedef struct _RILMESSAGE {
 
 
 
-#### - switch_is
-
-
-
-#### - RIL_MSGTYPE_IN_IS637STATUS
+#### - RIL_MSGTYPE_IN_DELIVER
 
 
 
@@ -204,7 +180,7 @@ typedef struct _RILMESSAGE {
 
 
 
-#### - unMsgCDMAInDeliver
+#### - RIL_MSGTYPE_IN_STATUS
 
 
 
@@ -212,7 +188,27 @@ typedef struct _RILMESSAGE {
 
 
 
-#### - unMsgCDMAOutSubmit
+#### - RIL_MSGTYPE_OUT_SUBMIT
+
+
+
+#### - unMsgBcGeneral
+
+
+
+#### - RIL_MSGTYPE_BC_GENERAL
+
+
+
+#### - unMsgIS637InStatus
+
+
+
+#### - RIL_MSGTYPE_IN_IS637STATUS
+
+
+
+#### - unMsgCDMAInDeliver
 
 
 
@@ -220,6 +216,10 @@ typedef struct _RILMESSAGE {
 
 
 
-#### - RIL_MSGTYPE_IN_STATUS
+#### - unMsgCDMAOutSubmit
+
+
+
+#### - RIL_MSGTYPE_OUT_CDMASUBMIT
 
 

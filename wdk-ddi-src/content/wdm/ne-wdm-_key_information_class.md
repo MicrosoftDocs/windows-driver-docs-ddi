@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KEY_INFORMATION_CLASS
-title: _KEY_INFORMATION_CLASS
+title: "_KEY_INFORMATION_CLASS"
 author: windows-driver-content
 description: The KEY_INFORMATION_CLASS enumeration type represents the type of information to supply about a registry key.
 old-location: kernel\key_information_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, wdm/KeyFullInformation, KeyNodeInformation, wdm/KeyHandleTagsInformation, wdm/KEY_INFORMATION_CLASS, KeyCachedInformation, wdm/KeyFlagsInformation, KEY_INFORMATION_CLASS, KeyFlagsInformation, wdm/KeyVirtualizationInformation, KeyVirtualizationInformation, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], _KEY_INFORMATION_CLASS, wdm/KeyCachedInformation, wdm/KeyNodeInformation, KeyFullInformation, wdm/KeyNameInformation, kernel.key_information_class, MaxKeyInfoClass, wdm/KeyBasicInformation, KeyNameInformation, wdm/MaxKeyInfoClass, KeyHandleTagsInformation, KeyBasicInformation
+ms.keywords: wdm/KeyHandleTagsInformation, KeyBasicInformation, MaxKeyInfoClass, KEY_INFORMATION_CLASS, KeyNameInformation, KeyNodeInformation, wdm/KeyNodeInformation, KeyVirtualizationInformation, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyFlagsInformation, wdm/KeyFlagsInformation, wdm/KeyVirtualizationInformation, wdm/KeyCachedInformation, KeyHandleTagsInformation, _KEY_INFORMATION_CLASS, wdm/KEY_INFORMATION_CLASS, KeyCachedInformation, wdm/KeyBasicInformation, wdm/KeyFullInformation, kernel.key_information_class, KeyFullInformation, wdm/KeyNameInformation, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, wdm/MaxKeyInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	KEY_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -138,21 +138,21 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
 <a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
  
 

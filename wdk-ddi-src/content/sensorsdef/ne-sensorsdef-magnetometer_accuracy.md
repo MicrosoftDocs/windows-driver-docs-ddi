@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BC8D4FB1-69F4-4FAE-BA90-7CCB57D4A6C4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: MagnetometerAccuracy_Unreliable, sensorsdef/MagnetometerAccuracy_High, sensors.magnetometer_accuracy, MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unreliable, sensorsdef/MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Approximate, MagnetometerAccuracy_Unknown, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], sensorsdef/MagnetometerAccuracy_Approximate, MAGNETOMETER_ACCURACY, sensorsdef/MAGNETOMETER_ACCURACY
+ms.keywords: sensors.magnetometer_accuracy, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, MagnetometerAccuracy_Unknown, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], MAGNETOMETER_ACCURACY, MagnetometerAccuracy_Unreliable, sensorsdef/MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Approximate, MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unreliable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	MAGNETOMETER_ACCURACY
 product: Windows
 targetos: Windows

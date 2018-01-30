@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_GDDS_DATA
-title: _BDA_GDDS_DATA
+title: "_BDA_GDDS_DATA"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_gdds_data.htm
 old-project: stream
 ms.assetid: 2BBF14E3-8E1A-42AF-9C26-7F886FD2B945
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bda_gdds_data, *P_BDA_GDDS_DATA, BDA_GDDS_DATA structure [Streaming Media Devices], _BDA_GDDS_DATA, BDA_GDDS_DATA, bdatypes/BDA_GDDS_DATA, P_BDA_GDDS_DATA, bdatypes/P_BDA_GDDS_DATA, P_BDA_GDDS_DATA structure pointer [Streaming Media Devices]
+ms.keywords: "*P_BDA_GDDS_DATA, BDA_GDDS_DATA structure [Streaming Media Devices], P_BDA_GDDS_DATA, _BDA_GDDS_DATA, bdatypes/P_BDA_GDDS_DATA, P_BDA_GDDS_DATA structure pointer [Streaming Media Devices], BDA_GDDS_DATA, stream.bda_gdds_data, bdatypes/BDA_GDDS_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bdatypes.h
-apiname: 
+apiname:
 -	BDA_GDDS_DATA
 product: Windows
 targetos: Windows
-req.typenames: BDA_GDDS_DATA, *P_BDA_GDDS_DATA
+req.typenames: "*P_BDA_GDDS_DATA, BDA_GDDS_DATA"
 ---
 
 # _BDA_GDDS_DATA structure

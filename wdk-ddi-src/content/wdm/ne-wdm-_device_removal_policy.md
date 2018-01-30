@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_REMOVAL_POLICY
-title: _DEVICE_REMOVAL_POLICY
+title: "_DEVICE_REMOVAL_POLICY"
 author: windows-driver-content
 description: The DEVICE_REMOVAL_POLICY enumeration describes a device's removal policy.
 old-location: kernel\device_removal_policy.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 51d1f0f5-4ca1-4ea6-8561-117240551355
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectNoRemoval, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/RemovalPolicyExpectOrderlyRemoval, wdm/PDEVICE_REMOVAL_POLICY, _DEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY, RemovalPolicyExpectOrderlyRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], *PDEVICE_REMOVAL_POLICY, kernel.device_removal_policy, PDEVICE_REMOVAL_POLICY, RemovalPolicyExpectSurpriseRemoval, wdm/RemovalPolicyExpectSurpriseRemoval, RemovalPolicyExpectNoRemoval
+ms.keywords: RemovalPolicyExpectSurpriseRemoval, PDEVICE_REMOVAL_POLICY, RemovalPolicyExpectNoRemoval, *PDEVICE_REMOVAL_POLICY, kernel.device_removal_policy, wdm/RemovalPolicyExpectNoRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, RemovalPolicyExpectOrderlyRemoval, wdm/RemovalPolicyExpectSurpriseRemoval, DEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], wdm/RemovalPolicyExpectOrderlyRemoval, wdm/PDEVICE_REMOVAL_POLICY, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], _DEVICE_REMOVAL_POLICY, wdm/DEVICE_REMOVAL_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DEVICE_REMOVAL_POLICY
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY
+req.typenames: "*PDEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -94,11 +94,11 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
-
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
  
 

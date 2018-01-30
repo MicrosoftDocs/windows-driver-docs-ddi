@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0ac9c56d-f03d-4082-a7df-c21db12c0d74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/OEMCommandCallback, print.oemcommandcallback, OEMCommandCallback, OEMCommandCallback function [Print Devices], print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml
+ms.keywords: OEMCommandCallback function [Print Devices], printoem/OEMCommandCallback, OEMCommandCallback, print.oemcommandcallback, print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMCommandCallback
 product: Windows
 targetos: Windows

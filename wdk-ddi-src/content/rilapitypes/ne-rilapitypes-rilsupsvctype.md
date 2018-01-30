@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4aec39d6-3e12-4393-b477-24ea2036c227
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_CLIR, rilapitypes/RIL_SUPSVCTYPE_CNAP, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RILSUPSVCTYPE, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, rilapitypes/RIL_SUPSVCTYPE_COLP, rilapitypes/RILSUPSVCTYPE, RIL_SUPSVCTYPE_CLIP, netvista.rilsupsvctype_2, rilapitypes/RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, rilapitypes/RIL_SUPSVCTYPE_MAX, rilapitypes/RIL_SUPSVCTYPE_COLR
+ms.keywords: RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_MAX, rilapitypes/RIL_SUPSVCTYPE_CLIR, rilapitypes/RILSUPSVCTYPE, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_COLP, rilapitypes/RIL_SUPSVCTYPE_MAX, RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_COLR, rilapitypes/RIL_SUPSVCTYPE_COLP, netvista.rilsupsvctype_2, RIL_SUPSVCTYPE_CLIR, rilapitypes/RIL_SUPSVCTYPE_COLR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSUPSVCTYPE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavertoutputstream_getpacketcount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface, GetPacketCount method [Audio Devices], portcls/IMiniportWaveRTOutputStream::GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount, IMiniportWaveRTOutputStream interface [Audio Devices], GetPacketCount method, IMiniportWaveRTOutputStream
+ms.keywords: GetPacketCount method [Audio Devices], audio.iminiportwavertoutputstream_getpacketcount, IMiniportWaveRTOutputStream interface [Audio Devices], GetPacketCount method, IMiniportWaveRTOutputStream::GetPacketCount, IMiniportWaveRTOutputStream, GetPacketCount, portcls/IMiniportWaveRTOutputStream::GetPacketCount, GetPacketCount method [Audio Devices], IMiniportWaveRTOutputStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

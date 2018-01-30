@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, WdfUsbTargetDeviceCyclePortSynchronously method, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, kmdf.wdfusbtargetdevicecycleportsynchronously
+ms.keywords: WdfUsbTargetDeviceCyclePortSynchronously method, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, kmdf.wdfusbtargetdevicecycleportsynchronously, WdfUsbTargetDeviceCyclePortSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceCyclePortSynchronously
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

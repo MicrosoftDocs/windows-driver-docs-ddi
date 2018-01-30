@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18242351-3dec-40df-b112-2335253903d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete, ndis/NdisMCoOidRequestComplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml
+ms.keywords: NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoOidRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMCoOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCoOidRequestComplete function
@@ -100,15 +100,6 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS,
      <u>except</u> NDIS_STATUS_PENDING.
 
 
-#### - OidRequest [in]
-
-A pointer to a buffer that is formatted as an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The miniport
-     driver obtained this pointer as an input parameter to its 
-     <mshelp:link keywords="netvista.miniportcooidrequest" tabindex="0"><i>
-     MiniportCoOidRequest</i></mshelp:link> function.
-
-
 #### - NdisVcHandle [in]
 
 A handle that identifies the virtual connection (VC). The miniport driver obtained this handle as
@@ -118,6 +109,15 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
      service access point (SAP). The call manager created the VC to indicate an incoming-call notification.
      If the request is 
      <u>not</u> VC-specific, this parameter is <b>NULL</b>.
+
+
+#### - OidRequest [in]
+
+A pointer to a buffer that is formatted as an 
+     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The miniport
+     driver obtained this pointer as an input parameter to its 
+     <mshelp:link keywords="netvista.miniportcooidrequest" tabindex="0"><i>
+     MiniportCoOidRequest</i></mshelp:link> function.
 
 
 ## -returns
@@ -145,18 +145,18 @@ A call to
 
 ## -see-also
 
+<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
+   ProtocolCoOidRequestComplete</i></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
  
 

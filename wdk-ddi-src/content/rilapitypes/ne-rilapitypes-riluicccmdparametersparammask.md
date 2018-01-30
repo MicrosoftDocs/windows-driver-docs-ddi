@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56b6b8e6-529d-4480-bce8-ae94d09d1643
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_SCP_PARAM2, rilapitypes/RILUICCCMDPARAMETERSPARAMMASK, netvista.riluicccmdparametersparammask_2, rilapitypes/RIL_PARAM_SCP_PARAM1, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SCP_ALL, RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM3, rilapitypes/RIL_PARAM_SCP_PARAM3, RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM1, rilapitypes/RIL_PARAM_SCP_PARAM2
+ms.keywords: RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SCP_PARAM1, rilapitypes/RIL_PARAM_SCP_ALL, RILUICCCMDPARAMETERSPARAMMASK, netvista.riluicccmdparametersparammask_2, rilapitypes/RIL_PARAM_SCP_PARAM2, rilapitypes/RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM3, rilapitypes/RIL_PARAM_SCP_PARAM3, RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCCMDPARAMETERSPARAMMASK
 product: Windows
 targetos: Windows

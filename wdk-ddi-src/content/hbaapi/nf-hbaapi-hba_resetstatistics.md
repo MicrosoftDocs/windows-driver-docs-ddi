@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ResetStatistics routine [Storage Devices], hbaapi/HBA_ResetStatistics, storage.hba_resetstatistics, fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics
+ms.keywords: fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics routine [Storage Devices], storage.hba_resetstatistics, hbaapi/HBA_ResetStatistics, HBA_ResetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_ResetStatistics
 product: Windows
 targetos: Windows

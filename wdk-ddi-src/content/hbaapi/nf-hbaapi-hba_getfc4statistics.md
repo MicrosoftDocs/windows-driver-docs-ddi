@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, storage.hba_getfc4statistics, HBA_GetFC4Statistics routine [Storage Devices], hbaapi/HBA_GetFC4Statistics, HBA_GetFC4Statistics
+ms.keywords: HBA_GetFC4Statistics, hbaapi/HBA_GetFC4Statistics, storage.hba_getfc4statistics, fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, HBA_GetFC4Statistics routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetFC4Statistics
 product: Windows
 targetos: Windows
@@ -91,11 +91,6 @@ TBD
 
 
 
-#### - statistics [out]
-
-Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a> that contains statistics for the specified port and FC-4 protocol. 
-
-
 #### - handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
@@ -104,6 +99,11 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 #### - portWWN [in]
 
 Contains a 64-bit world-wide name (WWN) that uniquely identifies the local HBA port for which this routine retrieves traffic statistics for a specific FC-4 protocol. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
+
+
+#### - statistics [out]
+
+Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a> that contains statistics for the specified port and FC-4 protocol. 
 
 
 ## -returns
@@ -161,11 +161,11 @@ Statistics counters in <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll, fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], ifsk.fsrtlnotifycleanupall, fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNotifyCleanupAll
 product: Windows
 targetos: Windows
@@ -98,13 +98,13 @@ Because a notify list is typically associated with a volume, the <b>FsRtlNotifyC
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifycleanup~r2.md">FsRtlNotifyCleanup</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifycleanup~r2.md">FsRtlNotifyCleanup</a>
 
  
 

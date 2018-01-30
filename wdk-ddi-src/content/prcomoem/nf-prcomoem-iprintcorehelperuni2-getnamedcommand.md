@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, GetNamedCommand method [Print Devices], print.iprintcorehelperuni2_getnamedcommand, GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface
+ms.keywords: GetNamedCommand method [Print Devices], print.iprintcorehelperuni2_getnamedcommand, GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperUni2.GetNamedCommand
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

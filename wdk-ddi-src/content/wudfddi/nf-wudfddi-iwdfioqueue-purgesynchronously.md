@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue interface, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, umdf.iwdfioqueue_purgesynchronously, PurgeSynchronously, PurgeSynchronously method, wdf.iwdfioqueue_purgesynchronously, IWDFIoQueue::PurgeSynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, IWDFIoQueue, wudfddi/IWDFIoQueue::PurgeSynchronously
+ms.keywords: wdf.iwdfioqueue_purgesynchronously, wudfddi/IWDFIoQueue::PurgeSynchronously, PurgeSynchronously method, IWDFIoQueue interface, IWDFIoQueue, PurgeSynchronously, PurgeSynchronously method, IWDFIoQueue::PurgeSynchronously, umdf.iwdfioqueue_purgesynchronously, IWDFIoQueue interface, PurgeSynchronously method, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoQueue.PurgeSynchronously
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -87,11 +87,11 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
  
 

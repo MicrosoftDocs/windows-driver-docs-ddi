@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRemoteTarget::Close, IWDFRemoteTarget interface, Close method, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, wdf.iwdfremotetarget_close, Close method, umdf.iwdfremotetarget_close, Close, Close method, IWDFRemoteTarget interface, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::Close
+ms.keywords: IWDFRemoteTarget::Close, Close method, IWDFRemoteTarget interface, Close, wdf.iwdfremotetarget_close, Close method, IWDFRemoteTarget, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, IWDFRemoteTarget interface, Close method, wudfddi/IWDFRemoteTarget::Close, umdf.iwdfremotetarget_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.Close
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ For more information about the <b>Close</b> method, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
 
  
 

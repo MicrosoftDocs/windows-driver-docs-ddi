@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_SEND_OPTIONS
-title: _WDF_REQUEST_SEND_OPTIONS
+title: "_WDF_REQUEST_SEND_OPTIONS"
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS structure specifies options that are associated with sending an I/O request to an I/O target.
 old-location: wdf\wdf_request_send_options.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d561e0f-ca7e-44ed-9025-1a6513e4cd28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_SEND_OPTIONS, wdf.wdf_request_send_options, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, PWDF_REQUEST_SEND_OPTIONS, wdfrequest/WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, PWDF_REQUEST_SEND_OPTIONS structure pointer, WDF_REQUEST_SEND_OPTIONS structure
+ms.keywords: "*PWDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS structure pointer, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, WDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, PWDF_REQUEST_SEND_OPTIONS, _WDF_REQUEST_SEND_OPTIONS, wdf.wdf_request_send_options, kmdf.wdf_request_send_options, wdfrequest/WDF_REQUEST_SEND_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_SEND_OPTIONS
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -118,13 +118,13 @@ If the driver is sending the request synchronously, we recommend that the driver
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_set_timeout.md">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
  
 

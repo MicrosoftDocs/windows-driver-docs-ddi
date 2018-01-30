@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler, GetStatusDescription, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler::GetStatusDescription, GetStatusDescription method [Imaging Devices], image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml
+ms.keywords: IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, wia_lh/IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, GetStatusDescription, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler::GetStatusDescription, GetStatusDescription method [Imaging Devices], IWiaErrorHandler, image.iwiaerrorhandler_getstatusdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wia_lh.h
-apiname: 
+apiname:
 -	IWiaErrorHandler.GetStatusDescription
 product: Windows
 targetos: Windows

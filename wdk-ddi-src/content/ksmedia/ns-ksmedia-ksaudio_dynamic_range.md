@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4bf5c95f-dc08-4d1e-8e52-6d0de19df4c0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE, aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], audio.ksaudio_dynamic_range, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], *PKSAUDIO_DYNAMIC_RANGE, ksmedia/PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE
+ms.keywords: aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], *PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], PKSAUDIO_DYNAMIC_RANGE, audio.ksaudio_dynamic_range, ksmedia/PKSAUDIO_DYNAMIC_RANGE, ksmedia/KSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

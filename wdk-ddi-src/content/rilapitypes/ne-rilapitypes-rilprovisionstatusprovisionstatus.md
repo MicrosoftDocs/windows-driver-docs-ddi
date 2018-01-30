@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a0956046-766f-4cb0-9cf7-7cccdf929a2e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PROVISIONSTAT_NEEDED, rilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS, RIL_PROVISIONSTAT_BIP_STARTED, rilapitypes/RIL_PROVISIONSTAT_BIP_STARTED, RIL_PROVISIONSTAT_BIP_SUCCESS, RIL_PROVISIONSTAT_SUCCESS, rilapitypes/RIL_PROVISIONSTAT_MAX, rilapitypes/RIL_PROVISIONSTAT_FAILURE_RETRY, rilapitypes/RIL_PROVISIONSTAT_FAILURE_END, rilapitypes/RIL_PROVISIONSTAT_BIP_SUCCESS, rilapitypes/RIL_PROVISIONSTAT_NEEDED, RILPROVISIONSTATUSPROVISIONSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_PROVISIONSTAT_FAILURE_END, RIL_PROVISIONSTAT_FAILURE_RETRY, RIL_PROVISIONSTAT_MAX, rilapitypes/RIL_PROVISIONSTAT_SUCCESS, netvista.rilprovisionstatusprovisionstatus_2, RILPROVISIONSTATUSPROVISIONSTATUS
+ms.keywords: rilapitypes/RIL_PROVISIONSTAT_FAILURE_END, RIL_PROVISIONSTAT_BIP_SUCCESS, RILPROVISIONSTATUSPROVISIONSTATUS, RIL_PROVISIONSTAT_NEEDED, rilapitypes/RIL_PROVISIONSTAT_BIP_SUCCESS, rilapitypes/RIL_PROVISIONSTAT_NEEDED, RIL_PROVISIONSTAT_FAILURE_RETRY, rilapitypes/RIL_PROVISIONSTAT_FAILURE_RETRY, RIL_PROVISIONSTAT_FAILURE_END, rilapitypes/RIL_PROVISIONSTAT_MAX, rilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS, RIL_PROVISIONSTAT_MAX, rilapitypes/RIL_PROVISIONSTAT_SUCCESS, RILPROVISIONSTATUSPROVISIONSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_PROVISIONSTAT_BIP_STARTED, netvista.rilprovisionstatusprovisionstatus_2, RIL_PROVISIONSTAT_SUCCESS, rilapitypes/RIL_PROVISIONSTAT_BIP_STARTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPROVISIONSTATUSPROVISIONSTATUS
 product: Windows
 targetos: Windows

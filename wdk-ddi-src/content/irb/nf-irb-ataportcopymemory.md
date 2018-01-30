@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5e449f8-9ff9-4d3d-9a62-3e985b57bd50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortCopyMemory routine [Storage Devices], atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, storage.ataportcopymemory, irb/AtaPortCopyMemory, AtaPortCopyMemory
+ms.keywords: AtaPortCopyMemory, storage.ataportcopymemory, atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, AtaPortCopyMemory routine [Storage Devices], irb/AtaPortCopyMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortCopyMemory
 product: Windows
 targetos: Windows

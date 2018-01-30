@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1bd1ec2a-8b07-4843-84b6-6b651453328c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestMarkCancelable method, WdfRequestMarkCancelable, DFRequestObjectRef_29a4ad0c-ce28-4f4b-b015-90b067feaeec.xml, kmdf.wdfrequestmarkcancelable, PFN_WDFREQUESTMARKCANCELABLE, wdfrequest/WdfRequestMarkCancelable, wdf.wdfrequestmarkcancelable
+ms.keywords: WdfRequestMarkCancelable method, wdfrequest/WdfRequestMarkCancelable, DFRequestObjectRef_29a4ad0c-ce28-4f4b-b015-90b067feaeec.xml, PFN_WDFREQUESTMARKCANCELABLE, WdfRequestMarkCancelable, kmdf.wdfrequestmarkcancelable, wdf.wdfrequestmarkcancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestMarkCancelable
 product: Windows
 targetos: Windows
@@ -139,15 +139,15 @@ After the framework has dequeued the request from the second queue and delivered
 
 ## -see-also
 
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
 
  
 

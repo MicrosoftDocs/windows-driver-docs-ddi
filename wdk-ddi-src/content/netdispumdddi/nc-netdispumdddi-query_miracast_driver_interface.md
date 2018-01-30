@@ -40,7 +40,7 @@ apiname:
 -	QueryMiracastDriverInterface
 product: Windows
 targetos: Windows
-req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
+req.typenames: NDK_SRQ_DISPATCH
 ---
 
 # QUERY_MIRACAST_DRIVER_INTERFACE callback

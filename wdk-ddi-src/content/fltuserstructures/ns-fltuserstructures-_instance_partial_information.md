@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._INSTANCE_PARTIAL_INFORMATION
-title: _INSTANCE_PARTIAL_INFORMATION
+title: "_INSTANCE_PARTIAL_INFORMATION"
 author: windows-driver-content
 description: The INSTANCE_PARTIAL_INFORMATION structure contains partial information for a minifilter instance.
 old-location: ifsk\instance_partial_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cabcb39c-1f8d-41dc-a6ec-78f3fb3911cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.instance_partial_information, _INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION structure [Installable File System Drivers], fltuserstructures/INSTANCE_PARTIAL_INFORMATION, fltuserstructures/PINSTANCE_PARTIAL_INFORMATION, FltSystemStructures_10279757-e7e1-49a9-aa12-184a830e1db7.xml, PINSTANCE_PARTIAL_INFORMATION structure pointer [Installable File System Drivers], PINSTANCE_PARTIAL_INFORMATION
+ms.keywords: "_INSTANCE_PARTIAL_INFORMATION, ifsk.instance_partial_information, fltuserstructures/PINSTANCE_PARTIAL_INFORMATION, FltSystemStructures_10279757-e7e1-49a9-aa12-184a830e1db7.xml, fltuserstructures/INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION structure [Installable File System Drivers], PINSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltuserstructures.h
-apiname: 
+apiname:
 -	INSTANCE_PARTIAL_INFORMATION
 product: Windows
 targetos: Windows
@@ -105,27 +105,27 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541535">FilterVolumeInstanceFindClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
 
  
 

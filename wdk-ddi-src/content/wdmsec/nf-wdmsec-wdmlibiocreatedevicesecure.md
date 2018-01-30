@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.wdmlibiocreatedevicesecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], WdmlibIoCreateDeviceSecure, IoCreateDeviceSecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure
+ms.keywords: wdmsec/IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, kernel.wdmlibiocreatedevicesecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Wdmsec.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdmsec.lib
 -	Wdmsec.dll
-apiname: 
+apiname:
 -	WdmlibIoCreateDeviceSecure
 -	IoCreateDeviceSecure
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
 req.product: Windows 10 or later.
 ---
 
@@ -161,9 +161,9 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 <a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 

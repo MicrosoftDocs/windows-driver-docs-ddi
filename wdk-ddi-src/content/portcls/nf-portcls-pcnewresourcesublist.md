@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcNewResourceSublist, audio.pcnewresourcesublist, PcNewResourceSublist function [Audio Devices], PcNewResourceSublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml
+ms.keywords: PcNewResourceSublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, portcls/PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], audio.pcnewresourcesublist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param PoolType [in]
 
-Specifies the type of pool from which the object is to be allocated. This is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> enumeration value.
+Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value.
 
 
 ### -param ParentList [in]
@@ -117,11 +117,11 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

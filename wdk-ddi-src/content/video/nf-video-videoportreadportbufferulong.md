@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ecc09ca7-77fe-434f-9892-c2ae93d7d73c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml, VideoPortReadPortBufferUlong, display.videoportreadportbufferulong, VideoPortReadPortBufferUlong function [Display Devices], video/VideoPortReadPortBufferUlong
+ms.keywords: VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml, video/VideoPortReadPortBufferUlong, display.videoportreadportbufferulong, VideoPortReadPortBufferUlong, VideoPortReadPortBufferUlong function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadPortBufferUlong function

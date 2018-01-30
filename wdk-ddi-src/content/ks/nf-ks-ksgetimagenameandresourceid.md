@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid, KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices]
+ms.keywords: KsGetImageNameAndResourceId function [Streaming Media Devices], KsGetImageNameAndResourceId, stream.ksgetimagenameandresourceid, ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetImageNameAndResourceId
 product: Windows
 targetos: Windows

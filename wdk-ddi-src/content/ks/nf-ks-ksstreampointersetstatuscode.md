@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 88d554d9-55b7-42d4-b799-f8cb2029b1ae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamPointerSetStatusCode function [Streaming Media Devices], ks/KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode, avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, KsStreamPointerSetStatusCode
+ms.keywords: KsStreamPointerSetStatusCode function [Streaming Media Devices], ks/KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode, avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsStreamPointerSetStatusCode
 product: Windows
 targetos: Windows

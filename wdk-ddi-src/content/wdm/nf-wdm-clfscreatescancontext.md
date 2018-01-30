@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfscreatescancontext, ClfsCreateScanContext, wdm/ClfsCreateScanContext, Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext, ClfsCreateScanContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsCreateScanContext
 product: Windows
 targetos: Windows

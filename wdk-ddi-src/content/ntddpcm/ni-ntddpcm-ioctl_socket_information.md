@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	IOCTL_SOCKET_INFORMATION
 product: Windows
 targetos: Windows

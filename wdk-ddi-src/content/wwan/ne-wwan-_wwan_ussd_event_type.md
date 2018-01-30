@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_EVENT_TYPE
-title: _WWAN_USSD_EVENT_TYPE
+title: "_WWAN_USSD_EVENT_TYPE"
 author: windows-driver-content
 description: The WWAN_USSD_EVENT_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) events.
 old-location: netvista\wwan_ussd_event_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CEBC8A75-03E9-4E2A-9092-2FA3005371FE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanUssdEventActionRequired, _WWAN_USSD_EVENT_TYPE, netvista.wwan_ussd_event_type, *PWWAN_USSD_EVENT_TYPE, WwanUssdEventOtherLocalClient, WwanUssdEventTerminated, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOtherLocalClient, wwan/WwanUssdEventOperationNotSupported, WWAN_USSD_EVENT_TYPE, WwanUssdEventOperationNotSupported, WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventNetworkTimeOut, wwan/WWAN_USSD_EVENT_TYPE, WwanUssdEventActionRequired, WwanUssdEventNoActionRequired, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUssdEventTerminated
+ms.keywords: WWAN_USSD_EVENT_TYPE, *PWWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventNetworkTimeOut, wwan/WWAN_USSD_EVENT_TYPE, WwanUssdEventActionRequired, WwanUssdEventTerminated, WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventActionRequired, _WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOtherLocalClient, WwanUssdEventOperationNotSupported, netvista.wwan_ussd_event_type, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventOtherLocalClient, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventTerminated, WwanUssdEventNoActionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_USSD_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_USSD_EVENT_TYPE, *PWWAN_USSD_EVENT_TYPE
+req.typenames: "*PWWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE"
 req.product: Windows 10 or later.
 ---
 

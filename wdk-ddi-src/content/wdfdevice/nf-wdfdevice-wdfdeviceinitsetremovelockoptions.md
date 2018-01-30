@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0BCF4141-BE4E-42C0-8986-BE039B27F5D5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetremovelockoptions, kmdf.wdfdeviceinitsetremovelockoptions, PFN_WDFDEVICEINITSETREMOVELOCKOPTIONS, WdfDeviceInitSetRemoveLockOptions method, WdfDeviceInitSetRemoveLockOptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
+ms.keywords: wdfdevice/WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, PFN_WDFDEVICEINITSETREMOVELOCKOPTIONS, WdfDeviceInitSetRemoveLockOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetRemoveLockOptions
 product: Windows
 targetos: Windows

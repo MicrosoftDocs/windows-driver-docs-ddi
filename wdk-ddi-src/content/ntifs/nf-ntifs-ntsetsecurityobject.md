@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/ZwSetSecurityObject, ZwSetSecurityObject, k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, NtSetSecurityObject, kernel.zwsetsecurityobject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], ntifs/NtSetSecurityObject
+ms.keywords: kernel.zwsetsecurityobject, ZwSetSecurityObject, ntifs/ZwSetSecurityObject, ntifs/NtSetSecurityObject, NtSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwSetSecurityObject
 -	NtSetSecurityObject
 product: Windows
@@ -260,15 +260,15 @@ Callers of <b>ZwSetSecurityObject</b> must be running at IRQL = PASSIVE_LEVEL an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoDisconnectInterruptEx, wdm/WdmlibIoDisconnectInterruptEx, kernel.iodisconnectinterruptex, wdm/IoDisconnectInterruptEx, IoDisconnectInterruptEx, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoDisconnectInterruptEx, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoDisconnectInterruptEx, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, IoDisconnectInterruptEx, wdm/WdmlibIoDisconnectInterruptEx, kernel.iodisconnectinterruptex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib; Iointex.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoDisconnectInterruptEx
 -	WdmlibIoDisconnectInterruptEx
 product: Windows

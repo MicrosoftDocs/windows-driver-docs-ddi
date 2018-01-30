@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d671ea6e-19cb-4a90-b345-ea544c9561cd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdsByIndex, dbgeng/IDebugSystemObjects4::GetThreadIdsByIndex, IDebugSystemObjects_fa12ac17-9a66-45c0-9c91-11236a4a3eab.xml, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdsByIndex method, debugger.getthreadidsbyindex, dbgeng/IDebugSystemObjects::GetThreadIdsByIndex, IDebugSystemObjects4::GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetThreadIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects4, dbgeng/IDebugSystemObjects3::GetThreadIdsByIndex, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects2::GetThreadIdsByIndex, IDebugSystemObjects3::GetThreadIdsByIndex, IDebugSystemObjects::GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface
+ms.keywords: IDebugSystemObjects3::GetThreadIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdsByIndex method, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2::GetThreadIdsByIndex, debugger.getthreadidsbyindex, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetThreadIdsByIndex, GetThreadIdsByIndex, dbgeng/IDebugSystemObjects3::GetThreadIdsByIndex, dbgeng/IDebugSystemObjects2::GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging], GetThreadIdsByIndex method, IDebugSystemObjects::GetThreadIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdsByIndex method, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdsByIndex method [Windows Debugging], IDebugSystemObjects4::GetThreadIdsByIndex, IDebugSystemObjects_fa12ac17-9a66-45c0-9c91-11236a4a3eab.xml, dbgeng/IDebugSystemObjects::GetThreadIdsByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetThreadIdsByIndex
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetThreadIdsByIndex method

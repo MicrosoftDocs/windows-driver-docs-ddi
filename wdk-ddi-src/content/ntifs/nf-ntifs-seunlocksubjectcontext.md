@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b0dda8f-52de-462b-8dab-8aed86e5dc0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeUnlockSubjectContext, ifsk.seunlocksubjectcontext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml, ntifs/SeUnlockSubjectContext, SeUnlockSubjectContext routine [Installable File System Drivers]
+ms.keywords: SeUnlockSubjectContext routine [Installable File System Drivers], SeUnlockSubjectContext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml, ntifs/SeUnlockSubjectContext, ifsk.seunlocksubjectcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeUnlockSubjectContext
 product: Windows
 targetos: Windows
@@ -96,15 +96,15 @@ For more information about security and access control, see the documentation on
 
 <a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-
-<a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
-
 <a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
 
 <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+
+<a href="..\ntifs\nf-ntifs-selocksubjectcontext.md">SeLockSubjectContext</a>
+
+<a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
 
  
 

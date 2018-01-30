@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr, OEMOutputCharStr function [Print Devices], print.oemoutputcharstr, OEMOutputCharStr
+ms.keywords: printoem/OEMOutputCharStr, OEMOutputCharStr, print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, OEMOutputCharStr function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMOutputCharStr
 product: Windows
 targetos: Windows

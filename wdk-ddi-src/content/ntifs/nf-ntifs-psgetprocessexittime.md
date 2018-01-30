@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, ifsk.psgetprocessexittime, PsGetProcessExitTime routine [Installable File System Drivers], PsGetProcessExitTime, ntifs/PsGetProcessExitTime
+ms.keywords: psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, PsGetProcessExitTime routine [Installable File System Drivers], ntifs/PsGetProcessExitTime, PsGetProcessExitTime, ifsk.psgetprocessexittime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsGetProcessExitTime
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 <a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
 

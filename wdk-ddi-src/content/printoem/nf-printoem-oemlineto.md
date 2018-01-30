@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMLineTo function [Print Devices], print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, print.oemlineto, OEMLineTo, printoem/OEMLineTo
+ms.keywords: OEMLineTo function [Print Devices], print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, OEMLineTo, print.oemlineto, printoem/OEMLineTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMLineTo
 product: Windows
 targetos: Windows

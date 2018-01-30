@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
-title: _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+title: "_UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY"
 author: windows-driver-content
 description: Stores the isochronous transfer path delay values.
 old-location: buses\ucx_usbdevice_characteristic_path_delay.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 135D6C04-3520-46C2-BC64-DF0119578E6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, buses.ucx_usbdevice_characteristic_path_delay, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure [Buses], PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure pointer [Buses]
+ms.keywords: PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure [Buses], ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, buses.ucx_usbdevice_characteristic_path_delay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxusbdevice.h
-apiname: 
+apiname:
 -	UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 product: Windows
 targetos: Windows
-req.typenames: UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+req.typenames: "*PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_PRE_CREATE_HANDLE_INFORMATION
-title: _OB_PRE_CREATE_HANDLE_INFORMATION
+title: "_OB_PRE_CREATE_HANDLE_INFORMATION"
 author: windows-driver-content
 description: The OB_PRE_CREATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being opened.
 old-location: kernel\ob_pre_create_handle_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50fd7666-cdec-4bdb-b350-2c2222124020
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.ob_pre_create_handle_information, wdm/POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION, _OB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], OB_PRE_CREATE_HANDLE_INFORMATION
+ms.keywords: POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], OB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_CREATE_HANDLE_INFORMATION, kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, wdm/POB_PRE_CREATE_HANDLE_INFORMATION, _OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, kernel.ob_pre_create_handle_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	OB_PRE_CREATE_HANDLE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION
+req.typenames: "*POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -274,9 +274,9 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
  
 

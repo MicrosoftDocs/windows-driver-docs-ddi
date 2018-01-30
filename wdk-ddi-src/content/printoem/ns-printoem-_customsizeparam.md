@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._CUSTOMSIZEPARAM
-title: _CUSTOMSIZEPARAM
+title: "_CUSTOMSIZEPARAM"
 author: windows-driver-content
 description: The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
 old-location: print\customsizeparam.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM, _CUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], printoem/CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, print.customsizeparam, printoem/PCUSTOMSIZEPARAM, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, CUSTOMSIZEPARAM structure [Print Devices]
+ms.keywords: printoem/PCUSTOMSIZEPARAM, _CUSTOMSIZEPARAM, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, PCUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM, printoem/CUSTOMSIZEPARAM, print.customsizeparam, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], PCUSTOMSIZEPARAM structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	CUSTOMSIZEPARAM
 product: Windows
 targetos: Windows
-req.typenames: *PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM
+req.typenames: CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, buses.udecxusbdevicelinkpowerentrycomplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
+ms.keywords: udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete, buses.udecxusbdevicelinkpowerentrycomplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], UdecxUsbDeviceLinkPowerEntryComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUsbDeviceLinkPowerEntryComplete
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ After the client driver has performed the necessary steps for bringing the virtu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
 

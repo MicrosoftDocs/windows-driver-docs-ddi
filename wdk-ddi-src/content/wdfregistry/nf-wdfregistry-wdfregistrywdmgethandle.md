@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfregistrywdmgethandle, WdfRegistryWdmGetHandle method, wdfregistry/WdfRegistryWdmGetHandle, kmdf.wdfregistrywdmgethandle, WdfRegistryWdmGetHandle, DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml
+ms.keywords: WdfRegistryWdmGetHandle, DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle method, wdf.wdfregistrywdmgethandle, kmdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRegistryWdmGetHandle
 product: Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
+req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

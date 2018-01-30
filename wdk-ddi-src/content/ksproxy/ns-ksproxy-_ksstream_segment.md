@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy._KSSTREAM_SEGMENT
-title: _KSSTREAM_SEGMENT
+title: "_KSSTREAM_SEGMENT"
 author: windows-driver-content
 description: The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
 old-location: stream\ksstream_segment.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 433b1346-f0f1-46f7-a1d8-e6397b2f7f05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSSTREAM_SEGMENT, _KSSTREAM_SEGMENT, *PKSSTREAM_SEGMENT, stream.ksstream_segment, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, ksproxy/PKSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, KSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], KSSTREAM_SEGMENT structure [Streaming Media Devices]
+ms.keywords: ksproxy/PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], KSSTREAM_SEGMENT structure [Streaming Media Devices], *PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT, stream.ksstream_segment, PKSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, _KSSTREAM_SEGMENT, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	KSSTREAM_SEGMENT
 product: Windows
 targetos: Windows
-req.typenames: *PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT
+req.typenames: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT"
 ---
 
 # _KSSTREAM_SEGMENT structure
@@ -118,15 +118,15 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
-
 <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
  
 

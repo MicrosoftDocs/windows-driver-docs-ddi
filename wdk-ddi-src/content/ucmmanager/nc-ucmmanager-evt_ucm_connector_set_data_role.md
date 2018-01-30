@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ucmmanager.h
-apiname: 
+apiname:
 -	PFN_UCM_CONNECTOR_SET_DATA_ROLE
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 

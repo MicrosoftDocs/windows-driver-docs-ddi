@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8975871a-9977-4dcb-82d8-0c16c1861a42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallcustommediastate, RILCALLCUSTOMMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLCUSTOMMEDIASTATE, ntddrilapitypes/RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE
+ms.keywords: ntddrilapitypes/RILCALLCUSTOMMEDIASTATE, netvista.rilcallcustommediastate, *LPRILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLCUSTOMMEDIASTATE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6bb80c64-bb2e-4388-b1a8-479bdaa8b635
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetNumberEventFilters method, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl::GetNumberEventFilters, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl3::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetNumberEventFilters method [Windows Debugging], dbgeng/IDebugControl::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, debugger.getnumbereventfilters, IDebugControl2::GetNumberEventFilters
+ms.keywords: GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl3, IDebugControl2::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, GetNumberEventFilters, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetNumberEventFilters, dbgeng/IDebugControl::GetNumberEventFilters, debugger.getnumbereventfilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetNumberEventFilters
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetNumberEventFilters method

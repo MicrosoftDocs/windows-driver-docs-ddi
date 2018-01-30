@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_RESULT
-title: _NDK_RESULT
+title: "_NDK_RESULT"
 author: windows-driver-content
 description: The NDK_RESULT structure returns the results for an NDK request operation.
 old-location: netvista\ndk_result.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result, NDK_RESULT structure [Network Drivers Starting with Windows Vista], NDK_RESULT
+ms.keywords: netvista.ndk_result, _NDK_RESULT, ndkpi/NDK_RESULT, NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_RESULT
 product: Windows
 targetos: Windows
@@ -103,9 +103,9 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
 
  
 

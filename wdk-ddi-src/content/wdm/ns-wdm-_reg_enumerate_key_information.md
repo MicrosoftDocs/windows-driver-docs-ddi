@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_ENUMERATE_KEY_INFORMATION
-title: _REG_ENUMERATE_KEY_INFORMATION
+title: "_REG_ENUMERATE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_ENUMERATE_KEY_INFORMATION structure describes one subkey of a key whose subkeys are being enumerated.
 old-location: kernel\reg_enumerate_key_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdae9130-b33e-4714-9e8c-f4faf21ee8c8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_ENUMERATE_KEY_INFORMATION, kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml, PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_ENUMERATE_KEY_INFORMATION, wdm/REG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION, wdm/PREG_ENUMERATE_KEY_INFORMATION
+ms.keywords: REG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, wdm/PREG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION, *PREG_ENUMERATE_KEY_INFORMATION, wdm/REG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REG_ENUMERATE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION
+req.typenames: REG_ENUMERATE_KEY_INFORMATION, *PREG_ENUMERATE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -132,13 +132,13 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
-<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
  
 

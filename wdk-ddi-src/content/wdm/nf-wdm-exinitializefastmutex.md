@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: edd189f9-1089-470f-95a9-670bdba9c210
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInitializeFastMutex, k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, wdm/ExInitializeFastMutex, kernel.exinitializefastmutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], kernel.exinitializefastmutex, wdm/ExInitializeFastMutex, k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, ExInitializeFastMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInitializeFastMutex
 product: Windows
 targetos: Windows
@@ -99,15 +99,15 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
 
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545715">FAST_MUTEX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544340">ExAcquireFastMutexUnsafe</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
 
  
 

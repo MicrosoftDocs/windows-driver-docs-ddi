@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_DEVICE_STATE
-title: _WDF_POWER_DEVICE_STATE
+title: "_WDF_POWER_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_POWER_DEVICE_STATE enumeration identifies the device power states that a device might support.
 old-location: wdf\wdf_power_device_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPowerDeviceD1, wdfdevice/WdfPowerDevicePrepareForHibernation, wdf.wdf_power_device_state, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD1, WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceMaximum, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE enumeration pointer, PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceD3Final, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, wdfdevice/WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceD2, WdfPowerDeviceMaximum
+ms.keywords: WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceD0, wdf.wdf_power_device_state, WdfPowerDeviceD2, WdfPowerDeviceD0, WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD2, wdfdevice/PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3, kmdf.wdf_power_device_state, WdfPowerDeviceD3Final, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, wdfdevice/WdfPowerDeviceInvalid, PWDF_POWER_DEVICE_STATE enumeration pointer, WdfPowerDevicePrepareForHibernation, wdfdevice/WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDevicePrepareForHibernation, PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, wdfdevice/WdfPowerDeviceD3Final, WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
+req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 

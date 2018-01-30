@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ioattachdevicetodevicestacksafe, ntddk/IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml
+ms.keywords: IoAttachDeviceToDeviceStackSafe, ntddk/IoAttachDeviceToDeviceStackSafe, ifsk.ioattachdevicetodevicestacksafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoAttachDeviceToDeviceStackSafe
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoAttachDeviceToDeviceStackSafe function

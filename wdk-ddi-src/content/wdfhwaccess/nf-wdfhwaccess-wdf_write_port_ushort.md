@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 310C55F8-E62C-4ABE-997E-E551CA6C4BB2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT function, wdf.wdf_write_port_ushort, WDF_WRITE_PORT_USHORT
+ms.keywords: WDF_WRITE_PORT_USHORT, wdf.wdf_write_port_ushort, WDF_WRITE_PORT_USHORT function, wdfhwaccess/WDF_WRITE_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfhwaccess.h
-apiname: 
+apiname:
 -	WDF_WRITE_PORT_USHORT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

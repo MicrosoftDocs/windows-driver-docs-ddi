@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a8c7eb0d-792f-4a6c-af47-bb4558feb790
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemui_documentpropertysheets, IPrintOemUI::DocumentPropertySheets, DocumentPropertySheets method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DocumentPropertySheets, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, IPrintOemUI, DocumentPropertySheets method [Print Devices], DocumentPropertySheets
+ms.keywords: IPrintOemUI, print.iprintoemui_documentpropertysheets, DocumentPropertySheets method [Print Devices], print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml, prcomoem/IPrintOemUI::DocumentPropertySheets, DocumentPropertySheets method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, DocumentPropertySheets, IPrintOemUI::DocumentPropertySheets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.DocumentPropertySheets
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -117,11 +117,11 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
-
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
  
 

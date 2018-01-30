@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ab5f33b9-5261-4d30-bceb-8e91a24ae0a8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnmapLockedPages, k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], wdm/MmUnmapLockedPages, kernel.mmunmaplockedpages
+ms.keywords: MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, wdm/MmUnmapLockedPages, MmUnmapLockedPages, kernel.mmunmaplockedpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmUnmapLockedPages
 product: Windows
 targetos: Windows

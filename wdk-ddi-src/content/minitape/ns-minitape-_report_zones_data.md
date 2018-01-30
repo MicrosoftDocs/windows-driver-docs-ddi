@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._REPORT_ZONES_DATA
-title: _REPORT_ZONES_DATA
+title: "_REPORT_ZONES_DATA"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_data.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67785cb0-388c-4348-b32a-99bcd02b7c04
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, _REPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, storage.report_zones_data, scsi/REPORT_ZONES_DATA, REPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA structure [Storage Devices]
+ms.keywords: "_REPORT_ZONES_DATA, REPORT_ZONES_DATA, *PREPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], PREPORT_ZONES_DATA, REPORT_ZONES_DATA structure [Storage Devices], storage.report_zones_data, scsi/REPORT_ZONES_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	REPORT_ZONES_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PREPORT_ZONES_DATA, REPORT_ZONES_DATA
+req.typenames: REPORT_ZONES_DATA, *PREPORT_ZONES_DATA
 ---
 
 # _REPORT_ZONES_DATA structure

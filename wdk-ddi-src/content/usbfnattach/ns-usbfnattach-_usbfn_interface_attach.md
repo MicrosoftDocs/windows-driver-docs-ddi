@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnattach._USBFN_INTERFACE_ATTACH
-title: _USBFN_INTERFACE_ATTACH
+title: "_USBFN_INTERFACE_ATTACH"
 author: windows-driver-content
 description: Stores pointers to driver-implemented callback functions for handling attach and detach operations.
 old-location: buses\usbfn_interface_attach.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C7D7935C-0536-43E6-8924-1DC13B258007
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnattach/PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH, _USBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], USBFN_INTERFACE_ATTACH structure [Buses], USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach
+ms.keywords: PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], usbfnattach/PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], _USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnattach.h
-apiname: 
+apiname:
 -	USBFN_INTERFACE_ATTACH
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH
+req.typenames: USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
 req.product: Windows 10 or later.
 ---
 

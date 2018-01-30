@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03ec6323-a3f9-485d-80c8-92ac99d8e73a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetMdl function [Display Devices], video/VideoPortGetMdl, VideoPortGetMdl, VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, display.videoportgetmdl
+ms.keywords: VideoPortGetMdl function [Display Devices], VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, VideoPortGetMdl, video/VideoPortGetMdl, display.videoportgetmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortGetMdl function

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniIntersectHandlerEx
 product: Windows
 targetos: Windows
@@ -135,15 +135,15 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 <a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
  
 

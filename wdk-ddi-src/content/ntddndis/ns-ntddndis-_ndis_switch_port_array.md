@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_ARRAY
-title: _NDIS_SWITCH_PORT_ARRAY
+title: "_NDIS_SWITCH_PORT_ARRAY"
 author: windows-driver-content
 description: The NDIS_SWITCH_PORT_ARRAY structure specifies an array of port configuration parameters. Each element in the array specifies the parameters for a Hyper-V extensible switch port. Each element is formatted as an NDIS_SWITCH_PORT_PARAMETERS structure.
 old-location: netvista\ndis_switch_port_array.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f753694a-f31b-4bb5-8388-bc20d12cb423
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_switch_port_array, ntddndis/NDIS_SWITCH_PORT_ARRAY, PNDIS_SWITCH_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_ARRAY, _NDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY, ntddndis/PNDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_SWITCH_PORT_ARRAY, netvista.ndis_switch_port_array, NDIS_SWITCH_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_ARRAY, _NDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY, ntddndis/PNDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_PORT_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY
+req.typenames: NDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY
 ---
 
 # _NDIS_SWITCH_PORT_ARRAY structure
@@ -80,6 +80,13 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+#### NDIS_SWITCH_PORT_ARRAY_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_ARRAY_REVISION_1.
+
+
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
@@ -104,13 +111,6 @@ A ULONG value that specifies the number of <a href="..\ntddndis\ns-ntddndis-_ndi
 A ULONG value that specifies the size, in bytes, of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a> elements that follows the <b>NDIS_SWITCH_PORT_ARRAY</b> structure. 
 
 
-##### - Header.NDIS_SWITCH_PORT_ARRAY_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_ARRAY_REVISION_1.
-
-
 ## -remarks
 
 
@@ -122,13 +122,13 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <b></b>
 

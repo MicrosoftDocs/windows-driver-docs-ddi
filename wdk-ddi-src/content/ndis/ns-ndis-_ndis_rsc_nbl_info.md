@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RSC_NBL_INFO
-title: _NDIS_RSC_NBL_INFO
+title: "_NDIS_RSC_NBL_INFO"
 author: windows-driver-content
 description: The NDIS_RSC_NBL_INFO union specifies receive segment coalescing (RSC) counter information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_rsc_nbl_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba9c18ba-8940-4aef-9d58-3105ee1420ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], ndis/NDIS_RSC_NBL_INFO, PNDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO, PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], netvista.ndis_rsc_nbl_info, _NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO, ndis/PNDIS_RSC_NBL_INFO
+ms.keywords: ndis/NDIS_RSC_NBL_INFO, netvista.ndis_rsc_nbl_info, PNDIS_RSC_NBL_INFO, ndis/PNDIS_RSC_NBL_INFO, _NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], *PNDIS_RSC_NBL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_RSC_NBL_INFO
 product: Windows
 targetos: Windows
@@ -125,11 +125,11 @@ NDIS performs the <b>NET_BUFFER_LIST</b> and <a href="..\ndis\ns-ndis-_net_buffe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439944">NET_BUFFER_LIST_COALESCED_SEG_COUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439945">NET_BUFFER_LIST_DUP_ACK_COUNT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439945">NET_BUFFER_LIST_DUP_ACK_COUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439944">NET_BUFFER_LIST_COALESCED_SEG_COUNT</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

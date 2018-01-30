@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PROVISIONED_CONTEXT
-title: _NDIS_WWAN_SET_PROVISIONED_CONTEXT
+title: "_NDIS_WWAN_SET_PROVISIONED_CONTEXT"
 author: windows-driver-content
 description: The NDIS_WWAN_SET_PROVISIONED_CONTEXT structure represents the command to set the provisioned context state of the MB device.
 old-location: netvista\ndis_wwan_set_provisioned_context.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0f77100-ffd0-4fef-80b0-fc399ef96aee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SET_PROVISIONED_CONTEXT, PNDIS_WWAN_SET_PROVISIONED_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PROVISIONED_CONTEXT, netvista.ndis_wwan_set_provisioned_context, NDIS_WWAN_SET_PROVISIONED_CONTEXT structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT, WwanRef_0f679f5b-26a4-4069-b4d7-65835090f56f.xml, *PNDIS_WWAN_SET_PROVISIONED_CONTEXT, PNDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/PNDIS_WWAN_SET_PROVISIONED_CONTEXT
+ms.keywords: "*PNDIS_WWAN_SET_PROVISIONED_CONTEXT, PNDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/PNDIS_WWAN_SET_PROVISIONED_CONTEXT, ndiswwan/NDIS_WWAN_SET_PROVISIONED_CONTEXT, netvista.ndis_wwan_set_provisioned_context, WwanRef_0f679f5b-26a4-4069-b4d7-65835090f56f.xml, PNDIS_WWAN_SET_PROVISIONED_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PROVISIONED_CONTEXT structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PROVISIONED_CONTEXT, _NDIS_WWAN_SET_PROVISIONED_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_SET_PROVISIONED_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SET_PROVISIONED_CONTEXT, *PNDIS_WWAN_SET_PROVISIONED_CONTEXT
+req.typenames: "*PNDIS_WWAN_SET_PROVISIONED_CONTEXT, NDIS_WWAN_SET_PROVISIONED_CONTEXT"
 ---
 
 # _NDIS_WWAN_SET_PROVISIONED_CONTEXT structure
@@ -127,9 +127,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

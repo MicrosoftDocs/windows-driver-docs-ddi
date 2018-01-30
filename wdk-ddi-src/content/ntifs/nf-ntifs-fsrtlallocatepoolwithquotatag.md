@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlAllocatePoolWithQuotaTag
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ Callers of <b>FsRtlAllocatePoolWithQuotaTag</b> must be running at IRQL &lt;= DI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
 
  
 

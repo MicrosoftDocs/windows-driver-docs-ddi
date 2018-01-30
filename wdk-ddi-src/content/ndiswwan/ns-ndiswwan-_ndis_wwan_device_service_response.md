@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_RESPONSE
-title: _NDIS_WWAN_DEVICE_SERVICE_RESPONSE
+title: "_NDIS_WWAN_DEVICE_SERVICE_RESPONSE"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure represents device service data from the transaction completion of a device service command.
 old-location: netvista\ndis_wwan_device_service_response.htm
@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: 65999499-C14C-45CC-B7A5-021750B1A728
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
+req.typenames: "*PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE"
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c23fc5f4-2546-4330-bcdd-8fef59c8219a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], stream.ksevent_item_irp_storage, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml
+ms.keywords: stream.ksevent_item_irp_storage, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSEVENT_ITEM_IRP_STORAGE
 product: Windows
 targetos: Windows

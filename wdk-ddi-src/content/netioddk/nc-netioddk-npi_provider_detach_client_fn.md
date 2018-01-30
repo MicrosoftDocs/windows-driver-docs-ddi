@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netioddk.h
-apiname: 
+apiname:
 -	PNPI_PROVIDER_DETACH_CLIENT_FN
 product: Windows
 targetos: Windows
@@ -171,15 +171,15 @@ The NMR calls a provider module's
 
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
+<mshelp:link keywords="netvista.nmrproviderdetachclientcomplete" tabindex="0"><b>
+   NmrProviderDetachClientComplete</b></mshelp:link>
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
 <mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
    ProviderCleanupBindingContext</i></mshelp:link>
 
 <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
-
-<mshelp:link keywords="netvista.nmrproviderdetachclientcomplete" tabindex="0"><b>
-   NmrProviderDetachClientComplete</b></mshelp:link>
 
  
 

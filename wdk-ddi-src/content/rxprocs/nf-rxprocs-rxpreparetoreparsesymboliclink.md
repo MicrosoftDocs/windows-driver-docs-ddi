@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxpreparetoreparsesymboliclink, rxprocs/RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers]
+ms.keywords: rxprocs/RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, ifsk.rxpreparetoreparsesymboliclink, RxPrepareToReparseSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxprocs.h
-apiname: 
+apiname:
 -	RxPrepareToReparseSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 

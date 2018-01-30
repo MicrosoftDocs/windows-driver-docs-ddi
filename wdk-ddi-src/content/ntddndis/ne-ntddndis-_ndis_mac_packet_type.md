@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_MAC_PACKET_TYPE
-title: _NDIS_MAC_PACKET_TYPE
+title: "_NDIS_MAC_PACKET_TYPE"
 author: windows-driver-content
 description: The NDIS_MAC_PACKET_TYPE enumeration identifies the type of a destination address field in a media access control (MAC) header to be filtered.
 old-location: netvista\ndis_mac_packet_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfa8fa4-fab0-4f94-abc1-5c7900af208b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisMacPacketTypeUndefined, ntddndis/NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeMaximum, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_MAC_PACKET_TYPE, NdisMacPacketTypeUnicast, _NDIS_MAC_PACKET_TYPE, ntddndis/PNDIS_MAC_PACKET_TYPE, netvista.ndis_mac_packet_type, NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMulticast, *PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeUndefined, NDIS_MAC_PACKET_TYPE, NdisMacPacketTypeMulticast, NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeUnicast
+ms.keywords: ntddndis/NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeBroadcast, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeUndefined, NdisMacPacketTypeBroadcast, _NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeMulticast, NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeUndefined, PNDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeUnicast, NDIS_MAC_PACKET_TYPE, ntddndis/PNDIS_MAC_PACKET_TYPE, netvista.ndis_mac_packet_type, NdisMacPacketTypeMulticast, NdisMacPacketTypeUnicast, *PNDIS_MAC_PACKET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_MAC_PACKET_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE
+req.typenames: NDIS_MAC_PACKET_TYPE, *PNDIS_MAC_PACKET_TYPE
 ---
 
 # _NDIS_MAC_PACKET_TYPE enumeration

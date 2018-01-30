@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._AV_61883_REQUEST
-title: _AV_61883_REQUEST
+title: "_AV_61883_REQUEST"
 author: windows-driver-content
 description: The AV_61883_REQUEST structure is used to pass requests to the IEC-61883 protocol driver.
 old-location: ieee\av_61883_request.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 697fbf86-5c99-4e35-bcb4-a6f5272cc987
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PAV_61883_REQUEST, _AV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], IEEE.av_61883_request, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, 61883/AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], *PAV_61883_REQUEST, AV_61883_REQUEST, PAV_61883_REQUEST
+ms.keywords: PAV_61883_REQUEST, AV_61883_REQUEST, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, *PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], 61883/PAV_61883_REQUEST, 61883/AV_61883_REQUEST, IEEE.av_61883_request, _AV_61883_REQUEST, AV_61883_REQUEST structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	AV_61883_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PAV_61883_REQUEST, AV_61883_REQUEST
+req.typenames: AV_61883_REQUEST, *PAV_61883_REQUEST
 ---
 
 # _AV_61883_REQUEST structure

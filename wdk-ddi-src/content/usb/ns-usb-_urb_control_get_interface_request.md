@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_GET_INTERFACE_REQUEST
-title: _URB_CONTROL_GET_INTERFACE_REQUEST
+title: "_URB_CONTROL_GET_INTERFACE_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_GET_INTERFACE_REQUEST structure is used by USB client drivers to retrieve the current alternate interface setting for an interface in the current configuration.
 old-location: buses\_urb_control_get_interface_request.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 64f843ba-8462-48d4-ba3a-a028bb921880
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml, _URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], buses._urb_control_get_interface_request, usb/_URB_CONTROL_GET_INTERFACE_REQUEST
+ms.keywords: buses._urb_control_get_interface_request, _URB_CONTROL_GET_INTERFACE_REQUEST, usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml, usb/_URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_CONTROL_GET_INTERFACE_REQUEST
 product: Windows
 targetos: Windows
@@ -157,11 +157,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

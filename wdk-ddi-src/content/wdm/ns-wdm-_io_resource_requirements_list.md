@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_RESOURCE_REQUIREMENTS_LIST
-title: _IO_RESOURCE_REQUIREMENTS_LIST
+title: "_IO_RESOURCE_REQUIREMENTS_LIST"
 author: windows-driver-content
 description: The IO_RESOURCE_REQUIREMENTS_LIST structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_requirements_list.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e581fd34-4564-4882-b91d-94801e579bde
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_RESOURCE_REQUIREMENTS_LIST, wdm/IO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], *PIO_RESOURCE_REQUIREMENTS_LIST, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, wdm/PIO_RESOURCE_REQUIREMENTS_LIST, kernel.io_resource_requirements_list, IO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.io_resource_requirements_list, IO_RESOURCE_REQUIREMENTS_LIST, _IO_RESOURCE_REQUIREMENTS_LIST, wdm/PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST structure pointer [Kernel-Mode Driver Architecture], wdm/IO_RESOURCE_REQUIREMENTS_LIST, kstruct_b_3a1f163a-5841-4284-9ee7-c0999e1a9bbc.xml, IO_RESOURCE_REQUIREMENTS_LIST structure [Kernel-Mode Driver Architecture], *PIO_RESOURCE_REQUIREMENTS_LIST, PIO_RESOURCE_REQUIREMENTS_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_RESOURCE_REQUIREMENTS_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PIO_RESOURCE_REQUIREMENTS_LIST, IO_RESOURCE_REQUIREMENTS_LIST
+req.typenames: IO_RESOURCE_REQUIREMENTS_LIST, *PIO_RESOURCE_REQUIREMENTS_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -133,13 +133,13 @@ Each alternative list begins with an <b>IO_RESOURCE_LIST</b> structure, which se
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551715">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
 
  
 

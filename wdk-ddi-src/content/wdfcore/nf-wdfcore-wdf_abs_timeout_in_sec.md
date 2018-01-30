@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 492bdc23-7e55-4e6d-9d7c-189a94934049
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFTimerObjectRef_681839d3-3160-4f57-beeb-b5fe66dad3fe.xml, WDF_ABS_TIMEOUT_IN_SEC function, kmdf.wdf_abs_timeout_in_sec, WDF_ABS_TIMEOUT_IN_SEC, wdfcore/WDF_ABS_TIMEOUT_IN_SEC, wdf.wdf_abs_timeout_in_sec
+ms.keywords: DFTimerObjectRef_681839d3-3160-4f57-beeb-b5fe66dad3fe.xml, wdfcore/WDF_ABS_TIMEOUT_IN_SEC, WDF_ABS_TIMEOUT_IN_SEC function, wdf.wdf_abs_timeout_in_sec, kmdf.wdf_abs_timeout_in_sec, WDF_ABS_TIMEOUT_IN_SEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_ABS_TIMEOUT_IN_SEC
 product: Windows
 targetos: Windows

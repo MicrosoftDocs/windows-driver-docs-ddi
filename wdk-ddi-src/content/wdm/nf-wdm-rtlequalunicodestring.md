@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], wdm/RtlEqualUnicodeString, kernel.rtlequalunicodestring, k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml
+ms.keywords: wdm/RtlEqualUnicodeString, kernel.rtlequalunicodestring, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], RtlEqualUnicodeString, k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlEqualUnicodeString
 product: Windows
 targetos: Windows

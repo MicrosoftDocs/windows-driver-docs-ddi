@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksquerysoftwarebusinterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, swenum/KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], KsQuerySoftwareBusInterface
+ms.keywords: KsQuerySoftwareBusInterface, swenum/KsQuerySoftwareBusInterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, KsQuerySoftwareBusInterface function [Streaming Media Devices], stream.ksquerysoftwarebusinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	swenum.h
-apiname: 
+apiname:
 -	KsQuerySoftwareBusInterface
 product: Windows
 targetos: Windows
@@ -52,7 +52,7 @@ req.product: Windows 10 or later.
 
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. 
 
 
 ## -syntax

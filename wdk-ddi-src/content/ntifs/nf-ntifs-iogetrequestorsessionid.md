@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetRequestorSessionId routine [Installable File System Drivers], ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ifsk.iogetrequestorsessionid
+ms.keywords: ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ifsk.iogetrequestorsessionid, ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], IoGetRequestorSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetRequestorSessionId
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ A pointer to a caller-allocated variable that receives the session ID for the pr
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a>
-
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
+
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a>
 
  
 

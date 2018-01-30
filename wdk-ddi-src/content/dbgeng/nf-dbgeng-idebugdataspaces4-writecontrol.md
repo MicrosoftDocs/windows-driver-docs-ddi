@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b512c66-7cd8-4605-87d5-13b78d790c8c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteControl method [Windows Debugging], dbgeng/IDebugDataSpaces4::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::WriteControl, dbgeng/IDebugDataSpaces2::WriteControl, IDebugDataSpaces4, dbgeng/IDebugDataSpaces::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, IDebugDataSpaces2::WriteControl, IDebugDataSpaces::WriteControl, debugger.writecontrol, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, WriteControl, IDebugDataSpaces3::WriteControl, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, dbgeng/IDebugDataSpaces3::WriteControl
+ms.keywords: WriteControl, IDebugDataSpaces interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::WriteControl, dbgeng/IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, IDebugDataSpaces2::WriteControl, debugger.writecontrol, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces::WriteControl, IDebugDataSpaces3::WriteControl, IDebugDataSpaces4, WriteControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces2::WriteControl, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.WriteControl
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::WriteControl method

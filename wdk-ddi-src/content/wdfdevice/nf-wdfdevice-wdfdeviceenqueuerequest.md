@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, kmdf.wdfdeviceenqueuerequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest
+ms.keywords: wdfdevice/WdfDeviceEnqueueRequest, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, kmdf.wdfdeviceenqueuerequest, WdfDeviceEnqueueRequest method, wdf.wdfdeviceenqueuerequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (See remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (See remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceEnqueueRequest
 product: Windows
 targetos: Windows
@@ -166,9 +166,9 @@ For versions 1.0 and 1.5 of KMDF, <b>WdfDeviceEnqueueRequest</b> must be called 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
  
 

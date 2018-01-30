@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40971ff3-6fd3-480b-aba9-7f572d6e1ce2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, ks/KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], KsDeviceGetBusData, stream.ksdevicegetbusdata
+ms.keywords: avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, stream.ksdevicegetbusdata, ks/KsDeviceGetBusData, KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDeviceGetBusData
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:sddef._SDCMD_DESCRIPTOR
-title: _SDCMD_DESCRIPTOR
+title: "_SDCMD_DESCRIPTOR"
 author: windows-driver-content
 description: The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
 old-location: sd\sdcmd_descriptor.htm
@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, _SDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR, sddef/PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SD.sdcmd_descriptor, *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses]
+ms.keywords: SDCMD_DESCRIPTOR structure [Buses], SDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], *PSDCMD_DESCRIPTOR, sddef/PSDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/SDCMD_DESCRIPTOR, _SDCMD_DESCRIPTOR, SD.sdcmd_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	sddef.h
-apiname: 
+apiname:
 -	SDCMD_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -130,21 +130,21 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+<a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
 
  
 

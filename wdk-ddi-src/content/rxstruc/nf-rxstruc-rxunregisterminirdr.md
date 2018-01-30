@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 090e5fc5-a0cf-4df2-b9b9-abaf4833aef7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxunregisterminirdr, rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, rxstruc/RxUnregisterMinirdr, RxUnregisterMinirdr routine [Installable File System Drivers], RxUnregisterMinirdr
+ms.keywords: RxUnregisterMinirdr routine [Installable File System Drivers], rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, RxUnregisterMinirdr, rxstruc/RxUnregisterMinirdr, ifsk.rxunregisterminirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxstruc.h
-apiname: 
+apiname:
 -	RxUnregisterMinirdr
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -93,17 +93,17 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
-
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
  
 

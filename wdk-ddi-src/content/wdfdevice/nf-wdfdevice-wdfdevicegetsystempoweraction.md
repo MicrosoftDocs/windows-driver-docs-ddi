@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c4e44cd-94a3-4265-b195-7a5711d8035d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetSystemPowerAction, wdfdevice/WdfDeviceGetSystemPowerAction, WdfDeviceGetSystemPowerAction method, DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml, kmdf.wdfdevicegetsystempoweraction, PFN_WDFDEVICEGETSYSTEMPOWERACTION, wdf.wdfdevicegetsystempoweraction
+ms.keywords: DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml, PFN_WDFDEVICEGETSYSTEMPOWERACTION, kmdf.wdfdevicegetsystempoweraction, WdfDeviceGetSystemPowerAction, wdfdevice/WdfDeviceGetSystemPowerAction, WdfDeviceGetSystemPowerAction method, wdf.wdfdevicegetsystempoweraction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceGetSystemPowerAction
 product: Windows
 targetos: Windows

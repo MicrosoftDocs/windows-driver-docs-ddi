@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, stream.ksp_pin, KSP_PIN, ks/KSP_PIN, ks/PKSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, *PKSP_PIN
+ms.keywords: ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, stream.ksp_pin, KSP_PIN, ks/KSP_PIN, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN structure [Streaming Media Devices], PKSP_PIN structure pointer [Streaming Media Devices], ks/PKSP_PIN, PKSP_PIN, *PKSP_PIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSP_PIN
 product: Windows
 targetos: Windows
-req.typenames: *PKSP_PIN, KSP_PIN
+req.typenames: "*PKSP_PIN, KSP_PIN"
 ---
 
 # KSP_PIN structure

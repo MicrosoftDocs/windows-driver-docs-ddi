@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdvd.h
-apiname: 
+apiname:
 -	IOCTL_DVD_SEND_KEY
 product: Windows
 targetos: Windows

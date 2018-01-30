@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb7d97d2-8c02-44c8-8cf5-e9c3b3b718bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsFlushToLsn, kernel.clfsflushtolsn, wdm/ClfsFlushToLsn, Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, ClfsFlushToLsn routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsFlushToLsn routine [Kernel-Mode Driver Architecture], wdm/ClfsFlushToLsn, kernel.clfsflushtolsn, Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, ClfsFlushToLsn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsFlushToLsn
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c07d250-6287-4dd3-96f9-f301bad8b6f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtOpenFile, kernel.zwopenfile, wdm/ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], ZwOpenFile, NtOpenFile, k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml
+ms.keywords: wdm/NtOpenFile, kernel.zwopenfile, wdm/ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], ZwOpenFile, k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, NtOpenFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenFile
 -	NtOpenFile
 product: Windows
@@ -126,11 +126,11 @@ Callers of <b>ZwOpenFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 

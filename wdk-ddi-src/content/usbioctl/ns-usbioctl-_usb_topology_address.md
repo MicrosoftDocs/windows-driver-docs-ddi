@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TOPOLOGY_ADDRESS
-title: _USB_TOPOLOGY_ADDRESS
+title: "_USB_TOPOLOGY_ADDRESS"
 author: windows-driver-content
 description: The USB_TOPOLOGY_ADDRESS structure is used with the IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request to retrieve information about a USB device?s location in the USB device tree.
 old-location: buses\usb_topology_address.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5d8d6665-bfa1-4bc5-8168-7508624845e1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usb_topology_address, _USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], usbioctl/USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], usbioctl/PUSB_TOPOLOGY_ADDRESS
+ms.keywords: "_USB_TOPOLOGY_ADDRESS, usbioctl/USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS, usbioctl/PUSB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], buses.usb_topology_address, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_TOPOLOGY_ADDRESS
 product: Windows
 targetos: Windows

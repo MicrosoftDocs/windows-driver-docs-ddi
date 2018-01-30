@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ffbd2c6d-537a-44f7-a071-21c073d96264
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILGEOLOCATIONTYPEMASK, RIL_GEOLOCATION_ALL, rilapitypes/RIL_GEOLOCATION_ALL, rilapitypes/RIL_GEOLOCATION_LATLONG, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RILGEOLOCATIONTYPEMASK, RIL_GEOLOCATION_CIVIC, rilapitypes/RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, netvista.rilgeolocationtypemask_2
+ms.keywords: netvista.rilgeolocationtypemask_2, rilapitypes/RIL_GEOLOCATION_LATLONG, RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, RILGEOLOCATIONTYPEMASK, rilapitypes/RIL_GEOLOCATION_ALL, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, rilapitypes/RILGEOLOCATIONTYPEMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGEOLOCATIONTYPEMASK
 product: Windows
 targetos: Windows

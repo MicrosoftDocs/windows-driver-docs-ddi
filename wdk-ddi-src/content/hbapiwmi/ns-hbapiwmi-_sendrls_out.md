@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRLS_OUT
-title: _SendRLS_OUT
+title: "_SendRLS_OUT"
 author: windows-driver-content
 description: The SendRLS_OUT structure is used to report the output parameter data of the SendRLS WMI method to the WMI client.
 old-location: storage\sendrls_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6eccc5e8-7bf6-40bd-abb9-94b6fe4418a0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SendRLS_OUT, SendRLS_OUT, structs-Fibre_0d3c1fb1-9827-4962-8aec-97fa6bd84d76.xml, hbapiwmi/PSendRLS_OUT, PSendRLS_OUT, PSendRLS_OUT structure pointer [Storage Devices], hbapiwmi/SendRLS_OUT, storage.sendrls_out, *PSendRLS_OUT, SendRLS_OUT structure [Storage Devices]
+ms.keywords: "_SendRLS_OUT, SendRLS_OUT structure [Storage Devices], PSendRLS_OUT, *PSendRLS_OUT, hbapiwmi/SendRLS_OUT, PSendRLS_OUT structure pointer [Storage Devices], SendRLS_OUT, hbapiwmi/PSendRLS_OUT, structs-Fibre_0d3c1fb1-9827-4962-8aec-97fa6bd84d76.xml, storage.sendrls_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRLS_OUT
 product: Windows
 targetos: Windows
-req.typenames: SendRLS_OUT, *PSendRLS_OUT
+req.typenames: "*PSendRLS_OUT, SendRLS_OUT"
 ---
 
 # _SendRLS_OUT structure

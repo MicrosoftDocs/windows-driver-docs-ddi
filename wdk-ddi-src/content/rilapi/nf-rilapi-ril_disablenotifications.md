@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70635820-9912-4d27-87e2-e713ea33e819
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_DisableNotifications, rilapi/RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications
+ms.keywords: netvista.ril_disablenotifications, rilapi/RIL_DisableNotifications, RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_DisableNotifications
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

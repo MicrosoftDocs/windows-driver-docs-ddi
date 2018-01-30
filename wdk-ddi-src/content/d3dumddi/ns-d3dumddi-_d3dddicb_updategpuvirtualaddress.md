@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, _D3DDDICB_UPDATEGPUVIRTUALADDRESS
+ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], display.d3dddicb_updategpuvirtualaddress, _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

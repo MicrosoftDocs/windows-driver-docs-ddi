@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CmpMonitorRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
+req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
 ---
 
 # PCMP_MONITOR_ROUTINE callback

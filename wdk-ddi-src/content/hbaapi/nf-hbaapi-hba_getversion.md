@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 05fbdc9b-be15-4d1b-96d5-4ea48fb6c543
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetVersion, storage.hba_getversion, hbaapi/HBA_GetVersion, HBA_GetVersion routine [Storage Devices], fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml
+ms.keywords: hbaapi/HBA_GetVersion, fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml, HBA_GetVersion, HBA_GetVersion routine [Storage Devices], storage.hba_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetVersion
 product: Windows
 targetos: Windows

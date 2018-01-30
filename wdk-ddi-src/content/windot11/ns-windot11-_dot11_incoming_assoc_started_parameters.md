@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
-title: _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+title: "_DOT11_INCOMING_ASSOC_STARTED_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_started_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8bf8d69a-0c47-48c1-83f5-d436a3ab8323
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, netvista.dot11_incoming_assoc_started_parameters, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, Native_802.11_data_types_f09f57cb-9f15-444c-b09f-d97f016e86a2.xml, windot11/PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+ms.keywords: PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_incoming_assoc_started_parameters, _DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, Native_802.11_data_types_f09f57cb-9f15-444c-b09f-d97f016e86a2.xml, PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
+req.typenames: "*PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS, DOT11_INCOMING_ASSOC_STARTED_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 

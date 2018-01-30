@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebc5e74f-82ba-4c19-8dae-3ebe8c843fd2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetBusData function [Display Devices], display.videoportgetbusdata, VideoPortGetBusData, video/VideoPortGetBusData, VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml
+ms.keywords: VideoPortGetBusData function [Display Devices], VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml, display.videoportgetbusdata, VideoPortGetBusData, video/VideoPortGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortGetBusData function
@@ -96,11 +97,11 @@ If <b>Cmos</b> is specified, the buffer contains the contents of the CMOS (bus n
 
 </li>
 <li>
-If <b>EisaConfiguration</b> is specified, the buffer contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541941">CM_EISA_SLOT_INFORMATION</a> structure, followed by zero or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff541930">CM_EISA_FUNCTION_INFORMATION</a> structures for the specified slot.
+If <b>EisaConfiguration</b> is specified, the buffer contains the <a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a> structure, followed by zero or more <a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a> structures for the specified slot.
 
 </li>
 <li>
-If <b>PCIConfiguration</b> is specified, the buffer contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537455">PCI_COMMON_CONFIG</a> information for the specified slot.
+If <b>PCIConfiguration</b> is specified, the buffer contains the <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a> information for the specified slot.
 
 </li>
 </ul>
@@ -161,25 +162,25 @@ The driver should call <a href="..\video\nf-video-videoportgetaccessranges.md">V
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558790">PCI_SLOT_NUMBER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541941">CM_EISA_SLOT_INFORMATION</a>
-
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
 
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541930">CM_EISA_FUNCTION_INFORMATION</a>
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537455">PCI_COMMON_CONFIG</a>
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdfdriver.h
-apiname: 
+apiname:
 -	EvtDriverDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_DPC_CONFIG, WDF_DPC_CONFIG
+req.typenames: "*PWDF_DPC_CONFIG, WDF_DPC_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -146,11 +146,11 @@ If a filter driver's <i>EvtDriverDeviceAdd</i> callback function does not return
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
  
 

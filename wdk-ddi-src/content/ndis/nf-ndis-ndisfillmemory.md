@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d974c56-5925-4ad5-a3c0-0c17e8488431
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFillMemory, netvista.ndisfillmemory, NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml
+ms.keywords: netvista.ndisfillmemory, ndis/NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, NdisFillMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisFillMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFillMemory macro

@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._INTERRUPT_SYNCHRONIZATION_MODE
-title: _INTERRUPT_SYNCHRONIZATION_MODE
+title: "_INTERRUPT_SYNCHRONIZATION_MODE"
 author: windows-driver-content
 description: The INTERRUPT_SYNCHRONIZATION_MODE enumerator specifies the interrupt synchronization mode.
 old-location: storage\interrupt_synchronization_mode.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 964009ab-5f90-4f23-b22a-4c3e03d2449e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: InterruptSynchronizePerMessage, INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], InterruptSupportNone, storage.interrupt_synchronization_mode, storport/InterruptSynchronizePerMessage, INTERRUPT_SYNCHRONIZATION_MODE, structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml, storport/InterruptSynchronizeAll, storport/InterruptSupportNone, storport/INTERRUPT_SYNCHRONIZATION_MODE, _INTERRUPT_SYNCHRONIZATION_MODE, InterruptSynchronizeAll
+ms.keywords: INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], INTERRUPT_SYNCHRONIZATION_MODE, storage.interrupt_synchronization_mode, _INTERRUPT_SYNCHRONIZATION_MODE, InterruptSupportNone, InterruptSynchronizeAll, storport/InterruptSynchronizeAll, structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml, storport/InterruptSupportNone, InterruptSynchronizePerMessage, storport/INTERRUPT_SYNCHRONIZATION_MODE, storport/InterruptSynchronizePerMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	INTERRUPT_SYNCHRONIZATION_MODE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4b2e981d-1ad7-4f40-86d2-e6b210cec7d2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.sequerysessionidtoken, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml, ntifs/SeQuerySessionIdToken, SeQuerySessionIdToken, SeQuerySessionIdToken function [Installable File System Drivers]
+ms.keywords: ntifs/SeQuerySessionIdToken, SeQuerySessionIdToken, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml, ifsk.sequerysessionidtoken, SeQuerySessionIdToken function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SeQuerySessionIdToken
 product: Windows
 targetos: Windows

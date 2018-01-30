@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3eea8ee2-1ad5-4e00-b0c3-0710b58a2518
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TUNER_STANDARD_S structure [Streaming Media Devices], KSPROPERTY_TUNER_STANDARD_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_S, ksmedia/KSPROPERTY_TUNER_STANDARD_S, vidcapstruct_b7568a5f-0825-495b-97ff-c8cee17ab8d3.xml, *PKSPROPERTY_TUNER_STANDARD_S, PKSPROPERTY_TUNER_STANDARD_S, PKSPROPERTY_TUNER_STANDARD_S structure pointer [Streaming Media Devices], stream.ksproperty_tuner_standard_s
+ms.keywords: ksmedia/KSPROPERTY_TUNER_STANDARD_S, PKSPROPERTY_TUNER_STANDARD_S structure pointer [Streaming Media Devices], *PKSPROPERTY_TUNER_STANDARD_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_S, KSPROPERTY_TUNER_STANDARD_S, vidcapstruct_b7568a5f-0825-495b-97ff-c8cee17ab8d3.xml, stream.ksproperty_tuner_standard_s, KSPROPERTY_TUNER_STANDARD_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_TUNER_STANDARD_S
 product: Windows
 targetos: Windows
@@ -80,13 +80,13 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565907">KSPROPERTY_TUNER_STANDARD</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565907">KSPROPERTY_TUNER_STANDARD</a>
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdfdriver.h
-apiname: 
+apiname:
 -	EvtDriverUnload
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_DPC_CONFIG, WDF_DPC_CONFIG
+req.typenames: "*PWDF_DPC_CONFIG, WDF_DPC_CONFIG"
 req.product: Windows 10 or later.
 ---
 

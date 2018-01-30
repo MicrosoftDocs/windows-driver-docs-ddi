@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], stream.ksreferencesoftwarebusobject, ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, KsReferenceSoftwareBusObject
+ms.keywords: KsReferenceSoftwareBusObject, swenum/KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, KsReferenceSoftwareBusObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsReferenceSoftwareBusObject
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlShortToDWordPtr, RtlShortToDWordPtr, kernel.rtlshorttodwordptr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttodwordptr, ntintsafe/RtlShortToDWordPtr, RtlShortToDWordPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlShortToDWordPtr
 product: Windows
 targetos: Windows

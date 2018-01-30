@@ -29,17 +29,17 @@ req.type-library:
 req.lib: WUDFx02000.lib; WUDFx02000.dll
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	WUDFx02000.lib
 -	WUDFx02000.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestSetUserModeDriverInitiatedIo
 product: Windows
 targetos: Windows

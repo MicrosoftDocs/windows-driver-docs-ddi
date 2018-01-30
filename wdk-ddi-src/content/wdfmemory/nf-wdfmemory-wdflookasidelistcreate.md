@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate, wdf.wdflookasidelistcreate, WdfLookasideListCreate method, kmdf.wdflookasidelistcreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml
+ms.keywords: DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate, kmdf.wdflookasidelistcreate, WdfLookasideListCreate method, wdf.wdflookasidelistcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfLookasideListCreate
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRevertToUserAffinityThreadEx, k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], kernel.kereverttouseraffinitythreadex, wdm/KeRevertToUserAffinityThreadEx
+ms.keywords: kernel.kereverttouseraffinitythreadex, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], wdm/KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx, k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section).
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)."
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRevertToUserAffinityThreadEx
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and t
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
-
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
 
  
 

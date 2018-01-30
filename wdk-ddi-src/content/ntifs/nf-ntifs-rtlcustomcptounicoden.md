@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8f29aca1-9d38-4c28-976f-64549767b303
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlcustomcptounicoden, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml, ntifs/RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], RtlCustomCPToUnicodeN
+ms.keywords: RtlCustomCPToUnicodeN function [Installable File System Drivers], RtlCustomCPToUnicodeN, ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlCustomCPToUnicodeN
 product: Windows
 targetos: Windows

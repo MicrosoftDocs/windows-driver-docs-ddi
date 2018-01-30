@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._BDCB_STATUS_UPDATE_TYPE
-title: _BDCB_STATUS_UPDATE_TYPE
+title: "_BDCB_STATUS_UPDATE_TYPE"
 author: windows-driver-content
 description: The BDCB_STATUS_UPDATE_TYPE enumeration lists the types of boot-driver callback status updates.
 old-location: kernel\bdcb_status_update_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/BdCbStatusPrepareForUnload, kernel.bdcb_status_update_type, ntddk/BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForDependecyLoad, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDriverLoad, BdCbStatusPrepareForUnload, ntddk/BdCbStatusPrepareForDriverLoad, BDCB_STATUS_UPDATE_TYPE, _BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: "_BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDependecyLoad, ntddk/BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload, *PBDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForUnload"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	BDCB_STATUS_UPDATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE
+req.typenames: BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE
 ---
 
 # _BDCB_STATUS_UPDATE_TYPE enumeration

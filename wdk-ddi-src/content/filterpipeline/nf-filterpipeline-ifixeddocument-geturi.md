@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IFixedDocument, IFixedDocument::GetUri, GetUri method [Print Devices], filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, IFixedDocument interface [Print Devices], GetUri method, GetUri, filterpipeline/IFixedDocument::GetUri, GetUri method [Print Devices], IFixedDocument interface, print.ifixeddocument_geturi
+ms.keywords: filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, IFixedDocument interface [Print Devices], GetUri method, IFixedDocument::GetUri, GetUri, GetUri method [Print Devices], GetUri method [Print Devices], IFixedDocument interface, print.ifixeddocument_geturi, IFixedDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedDocument.GetUri
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_DSM_Path_V2
-title: _MPIO_DSM_Path_V2
+title: "_MPIO_DSM_Path_V2"
 author: windows-driver-content
 description: The MPIO_DSM_Path_V2 structure is used to represent the DSM's definition of a path. It is a superset of the previously existing MPIO_DSM_Path class.
 old-location: storage\mpio_dsm_path_v2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8ebbb4c0-c761-42a5-a41a-9d661a6126d9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MPIO_DSM_Path_V2 structure [Storage Devices], *PMPIO_DSM_Path_V2, structs-scsibus_e1d340a8-aa6a-4219-8bd4-c11fc3520f5d.xml, mpiodisk/MPIO_DSM_Path_V2, _MPIO_DSM_Path_V2, MPIO_DSM_Path_V2, PMPIO_DSM_Path_V2 structure pointer [Storage Devices], mpiodisk/PMPIO_DSM_Path_V2, PMPIO_DSM_Path_V2, storage.mpio_dsm_path_v2
+ms.keywords: mpiodisk/PMPIO_DSM_Path_V2, _MPIO_DSM_Path_V2, *PMPIO_DSM_Path_V2, mpiodisk/MPIO_DSM_Path_V2, PMPIO_DSM_Path_V2 structure pointer [Storage Devices], structs-scsibus_e1d340a8-aa6a-4219-8bd4-c11fc3520f5d.xml, PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2 structure [Storage Devices], storage.mpio_dsm_path_v2, MPIO_DSM_Path_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiodisk.h
-apiname: 
+apiname:
 -	MPIO_DSM_Path_V2
 product: Windows
 targetos: Windows
-req.typenames: *PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2
+req.typenames: "*PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2"
 ---
 
 # _MPIO_DSM_Path_V2 structure

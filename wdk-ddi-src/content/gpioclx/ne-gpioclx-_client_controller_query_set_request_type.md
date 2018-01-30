@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QueryBankInterruptBindingInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QuerySetRequestMaximumType, QueryBankPowerInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryControllerFunctionBankMappingInformation, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankPowerInformation, gpioclx/QueryBankInterruptBindingInformation, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, GPIO.client_controller_query_set_request_type, gpioclx/QuerySetRequestMaximumType
+ms.keywords: CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankPowerInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], gpioclx/QueryBankInterruptBindingInformation, QuerySetRequestMaximumType, QueryBankPowerInformation, QueryBankInterruptBindingInformation, GPIO.client_controller_query_set_request_type, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryControllerFunctionBankMappingInformation, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,9 +99,9 @@ The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
 

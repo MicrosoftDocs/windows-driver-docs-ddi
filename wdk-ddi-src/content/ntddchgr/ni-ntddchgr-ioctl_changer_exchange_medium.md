@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddchgr.h
-apiname: 
+apiname:
 -	IOCTL_CHANGER_EXCHANGE_MEDIUM
 product: Windows
 targetos: Windows

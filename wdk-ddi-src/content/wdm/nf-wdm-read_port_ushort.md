@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55f759dc-8fc7-4d47-9b3d-55d8902ed805
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.read_port_ushort, k103_b7b22427-572f-43d7-b6bd-dcf2dd7ac104.xml, wdm/READ_PORT_USHORT, READ_PORT_USHORT routine [Kernel-Mode Driver Architecture], READ_PORT_USHORT
+ms.keywords: READ_PORT_USHORT, wdm/READ_PORT_USHORT, READ_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_b7b22427-572f-43d7-b6bd-dcf2dd7ac104.xml, kernel.read_port_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+apiname:
 -	READ_PORT_USHORT
 product: Windows
 targetos: Windows

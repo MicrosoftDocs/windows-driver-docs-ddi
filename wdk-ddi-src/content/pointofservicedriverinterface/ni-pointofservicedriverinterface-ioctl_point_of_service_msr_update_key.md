@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
 product: Windows
 targetos: Windows

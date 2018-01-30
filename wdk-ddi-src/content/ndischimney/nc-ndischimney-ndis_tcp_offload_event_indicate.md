@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NdisTcpOffloadEventHandler
 product: Windows
 targetos: Windows
@@ -90,6 +90,29 @@ The event being indicated as one of the following <b>TCP_OFFLOAD_EVENT_TYPE</b> 
 
 
 
+#### TcpIndicateDisconnect
+
+Indicates that the remote host has initiated a graceful disconnect by sending a FIN segment on
+       the connection.
+
+
+#### TcpIndicateRetrieve
+
+Indicates that the offload target is requesting the host stack to terminate the offload of a TCP
+       connection.
+
+
+#### TcpIndicateAbort
+
+Indicates that the remote host has initiated an abortive disconnect by sending an acceptable RST
+       segment on the connection.
+
+
+#### TcpIndicateSendBacklogChange
+
+Indicates a change in the preferred send backlog size.
+
+
 ### -param EventSpecificInformation [in]
 
 Specifies additional information about the event being indicated as follows:
@@ -98,49 +121,26 @@ Specifies additional information about the event being indicated as follows:
 
 
 
-##### - EventType.TcpIndicateDisconnect
-
-Indicates that the remote host has initiated a graceful disconnect by sending a FIN segment on
-       the connection.
-
-
-##### - EventType.TcpIndicateSendBacklogChange
-
-Indicates a change in the preferred send backlog size.
-
-
-##### - EventType.TcpIndicateAbort
-
-Indicates that the remote host has initiated an abortive disconnect by sending an acceptable RST
-       segment on the connection.
-
-
-##### - EventSpecificInformation.TcpIndicateSendBacklogChange
-
-Specifies the optimum number of send data bytes that the host stack should have outstanding at
-       the offload target.
-
-
-##### - EventType.TcpIndicateRetrieve
-
-Indicates that the offload target is requesting the host stack to terminate the offload of a TCP
-       connection.
-
-
-##### - EventSpecificInformation.TcpIndicateAbort
+#### TcpIndicateDisconnect
 
 Not meaningful.
 
 
-##### - EventSpecificInformation.TcpIndicateDisconnect
-
-Not meaningful.
-
-
-##### - EventSpecificInformation.TcpIndicateRetrieve
+#### TcpIndicateRetrieve
 
 Indicates the reason for the upload request as a <b>TCP_UPLOAD_REASON</b> value. See the Remarks
        section for more information.
+
+
+#### TcpIndicateAbort
+
+Not meaningful.
+
+
+#### TcpIndicateSendBacklogChange
+
+Specifies the optimum number of send data bytes that the host stack should have outstanding at
+       the offload target.
 
 
 ## -returns
@@ -418,26 +418,26 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-   NdisTcpOffloadReceiveComplete</b></mshelp:link>
-
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
-
-<mshelp:link keywords="netvista.responding_to_the_reception_of_a_fin_or_rst_segment" tabindex="0">Responding to
-     the Reception of a FIN or RST Segment</mshelp:link>
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 <a href="https://msdn.microsoft.com/98b22b7f-8881-4029-9558-d5d94bb7878e">Indicating TCP Chimney-Specific Events</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
+
+<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
+   NdisTcpOffloadReceiveComplete</b></mshelp:link>
 
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 <mshelp:link keywords="netvista.ndistcpoffloaddisconnectcomplete" tabindex="0"><b>
    NdisTcpOffloadDisconnectComplete</b></mshelp:link>
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<mshelp:link keywords="netvista.responding_to_the_reception_of_a_fin_or_rst_segment" tabindex="0">Responding to
+     the Reception of a FIN or RST Segment</mshelp:link>
 
  
 

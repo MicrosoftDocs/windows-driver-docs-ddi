@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7368a2d6-fea3-411e-85d9-c09764bb3b8e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetStackOffset method [Windows Debugging], IDebugRegisters interface, GetStackOffset method [Windows Debugging], IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetStackOffset, IDebugRegisters::GetStackOffset, dbgeng/IDebugRegisters2::GetStackOffset, debugger.getstackoffset, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, IDebugRegisters2
+ms.keywords: IDebugRegisters::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, GetStackOffset method [Windows Debugging], GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters2::GetStackOffset, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, dbgeng/IDebugRegisters2::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, debugger.getstackoffset, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetStackOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetStackOffset method
@@ -110,11 +110,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
  
 

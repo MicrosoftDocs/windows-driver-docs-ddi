@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, *LPRILOSGEOLOCATIONINFO
+ms.keywords: RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, *LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, ntddrilapitypes/RILOSGEOLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILOSGEOLOCATIONINFO
 product: Windows
 targetos: Windows
-req.typenames: RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO
+req.typenames: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO"
 ---
 
 # RILOSGEOLOCATIONINFO structure

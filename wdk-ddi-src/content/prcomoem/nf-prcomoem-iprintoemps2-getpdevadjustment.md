@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetPDEVAdjustment method [Print Devices], IPrintOemPS2, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, print.iprintoemps2_getpdevadjustment, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method
+ms.keywords: IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, IPrintOemPS2, GetPDEVAdjustment, IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, GetPDEVAdjustment method [Print Devices], print.iprintoemps2_getpdevadjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPS2.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -151,11 +151,11 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 ## -see-also
 
+<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
 <a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
-
-<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
  
 

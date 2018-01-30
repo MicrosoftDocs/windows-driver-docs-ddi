@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_PERF_STATE
-title: _PO_FX_PERF_STATE
+title: "_PO_FX_PERF_STATE"
 author: windows-driver-content
 description: The PO_FX_PERF_STATE structure represents a performance state for a single component within a device.
 old-location: kernel\po_fx_perf_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06A41593-A052-43A7-B3A7-02185B557FA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PO_FX_PERF_STATE, *PPO_FX_PERF_STATE, PO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE, kernel.po_fx_perf_state, wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PO_FX_PERF_STATE, PPO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_PERF_STATE, *PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.po_fx_perf_state, PO_FX_PERF_STATE, _PO_FX_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PO_FX_PERF_STATE
 product: Windows
 targetos: Windows
@@ -88,13 +88,13 @@ The <b>States</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-
 <a href="..\wdm\ne-wdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a>
+
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
  
 

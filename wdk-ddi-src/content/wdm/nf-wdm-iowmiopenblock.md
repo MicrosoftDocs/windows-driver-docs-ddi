@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoWMIOpenBlock, k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoWMIOpenBlock, kernel.iowmiopenblock, k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], wdm/IoWMIOpenBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMIOpenBlock
 product: Windows
 targetos: Windows
@@ -84,29 +84,29 @@ The following is a description of each access right bit and the operations it al
 
 
 
-### -param DataBlockObject [out]
-
-Pointer to a memory location where the routine returns a pointer to the data block object.
-
-
-##### - DesiredAccess.WMIGUID_NOTIFICATION
-
-The data block object can be used to register event notification callbacks. This flag must be set to use <a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>, and can only be used for WMI event blocks. Callers that specify this flag must also specify the SYNCHRONIZE flag.
-
-
-##### - DesiredAccess.WMIGUID_EXECUTE
+#### WMIGUID_EXECUTE
 
 The data block object can be used to run WMI class methods. This flag must be set to use <a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a> on the data block object. 
 
 
-##### - DesiredAccess.WMIGUID_SET
+#### WMIGUID_NOTIFICATION
+
+The data block object can be used to register event notification callbacks. This flag must be set to use <a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>, and can only be used for WMI event blocks. Callers that specify this flag must also specify the SYNCHRONIZE flag.
+
+
+#### WMIGUID_QUERY
+
+The data block object can be used to query WMI class properties. This flag must be set to use any of the <b>IoWMIQuery<i>Xxx</i></b> routines on the data block object. 
+
+
+#### WMIGUID_SET
 
 The data block object can be used to set WMI class properties. This flag must be set to use any of the <b>IoWMISet<i>Xxx</i></b> routines on the data block object. 
 
 
-##### - DesiredAccess.WMIGUID_QUERY
+### -param DataBlockObject [out]
 
-The data block object can be used to query WMI class properties. This flag must be set to use any of the <b>IoWMIQuery<i>Xxx</i></b> routines on the data block object. 
+Pointer to a memory location where the routine returns a pointer to the data block object.
 
 
 #### - DataBlockGuid [in]
@@ -136,21 +136,21 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
 
 <a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
+<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
-
-<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
 
 <a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+
+<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
  
 

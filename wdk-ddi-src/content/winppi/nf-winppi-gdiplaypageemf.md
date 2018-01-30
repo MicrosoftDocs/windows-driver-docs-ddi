@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, winppi/GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], GdiPlayPageEMF, print.gdiplaypageemf
+ms.keywords: GdiPlayPageEMF function [Print Devices], winppi/GdiPlayPageEMF, print.gdiplaypageemf, gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, GdiPlayPageEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiPlayPageEMF
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_OFFLOAD_TOKEN
-title: _STORAGE_OFFLOAD_TOKEN
+title: "_STORAGE_OFFLOAD_TOKEN"
 author: windows-driver-content
 description: The STORAGE_OFFLOAD_TOKEN structure contains a token value that serves as a representation of a data set range within a file on a volume. This structure is used in performing offload reads and writes.
 old-location: storage\storage_offload_token.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C9A0E3A8-CAB6-420D-A0FC-C598CFC9CB12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], storage.storage_offload_token, ntddstor/PSTORAGE_OFFLOAD_TOKEN, Any other value, _STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, ntddstor/STORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], PSTORAGE_OFFLOAD_TOKEN
+ms.keywords: Any other value, *PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], _STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, storage.storage_offload_token, ntddstor/PSTORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], PSTORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN, ntddstor/STORAGE_OFFLOAD_TOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_OFFLOAD_TOKEN
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN
+req.typenames: STORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN
 ---
 
 # _STORAGE_OFFLOAD_TOKEN structure
@@ -141,7 +141,7 @@ The length of the token data in <b>Token</b>.
 The token value when the data it represents is considered as all zeros. This member is valid when <b>TokenType</b> is set to <b>STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA</b>.
 
 
-##### - StorageOffloadZeroDataToken.Reserved2
+#### Reserved2
 
 Reserved.
 

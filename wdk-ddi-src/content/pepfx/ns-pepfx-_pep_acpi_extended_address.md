@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_EXTENDED_ADDRESS
-title: _PEP_ACPI_EXTENDED_ADDRESS
+title: "_PEP_ACPI_EXTENDED_ADDRESS"
 author: windows-driver-content
 description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
 old-location: kernel\pep_acpi_extended_address.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 1 - Decode type, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS, 0 to 7 - Reserved, 6 to 7 - Reserved, 2 to 3 - Reserved, PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS, 2 - Minimum address fixed, pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 0 to 1 - Range, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], 3 to 4 - Memory attributes (MTP), 5 - Memory to IO translation, 3 - Max address fixed, 0 - Write status, 4 to 7 - Reserved, kernel.pep_acpi_extended_address, 4 - IO to memory translation, 0 - Consumer/Producer flag, 5 - Sparse translation, 1 to 2 - Memory attributes (MEM)
+ms.keywords: 1 to 2 - Memory attributes (MEM), PPEP_ACPI_EXTENDED_ADDRESS, 1 - Decode type, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 2 - Minimum address fixed, 3 to 4 - Memory attributes (MTP), *PPEP_ACPI_EXTENDED_ADDRESS, 4 to 7 - Reserved, 0 to 7 - Reserved, 6 to 7 - Reserved, 0 - Write status, 5 - Sparse translation, 0 to 1 - Range, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], PEP_ACPI_EXTENDED_ADDRESS, 3 - Max address fixed, 0 - Consumer/Producer flag, 4 - IO to memory translation, kernel.pep_acpi_extended_address, 5 - Memory to IO translation, 2 to 3 - Reserved, _PEP_ACPI_EXTENDED_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_EXTENDED_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS
+req.typenames: "*PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS"
 ---
 
 # _PEP_ACPI_EXTENDED_ADDRESS structure

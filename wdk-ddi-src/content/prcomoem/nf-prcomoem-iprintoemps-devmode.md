@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemps_devmode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml, prcomoem/IPrintOemPS::DevMode, IPrintOemPS::DevMode, DevMode method [Print Devices], IPrintOemPS interface, DevMode, IPrintOemPS, IPrintOemPS interface [Print Devices], DevMode method, DevMode method [Print Devices]
+ms.keywords: DevMode, IPrintOemPS::DevMode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml, DevMode method [Print Devices], IPrintOemPS interface, print.iprintoemps_devmode, DevMode method [Print Devices], prcomoem/IPrintOemPS::DevMode, IPrintOemPS, IPrintOemPS interface [Print Devices], DevMode method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPS.DevMode
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

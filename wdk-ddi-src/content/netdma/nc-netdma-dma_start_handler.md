@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderStartDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
 ---
 
 # DMA_START_HANDLER callback
@@ -200,13 +200,13 @@ NetDMA calls
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
 
  
 

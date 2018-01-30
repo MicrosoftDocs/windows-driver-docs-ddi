@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_PREPARE_DEVICE
-title: _PEP_ACPI_PREPARE_DEVICE
+title: "_PEP_ACPI_PREPARE_DEVICE"
 author: windows-driver-content
 description: The PEP_ACPI_PREPARE_DEVICE structure indicates whether a platform extension plug-in (PEP) is prepared to provide ACPI services for the specified device.
 old-location: kernel\pep_acpi_prepare_device.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F8D6680D-EFA7-4DED-B808-0E738A852641
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_prepare_device, PPEP_ACPI_PREPARE_DEVICE, pepfx/PEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], _PEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE, *PPEP_ACPI_PREPARE_DEVICE, PPEP_ACPI_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_PREPARE_DEVICE
+ms.keywords: pepfx/PPEP_ACPI_PREPARE_DEVICE, kernel.pep_acpi_prepare_device, PEP_ACPI_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_PREPARE_DEVICE, PPEP_ACPI_PREPARE_DEVICE, _PEP_ACPI_PREPARE_DEVICE, *PPEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE, PPEP_ACPI_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_PREPARE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_PREPARE_DEVICE, *PPEP_ACPI_PREPARE_DEVICE
+req.typenames: "*PPEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE"
 ---
 
 # _PEP_ACPI_PREPARE_DEVICE structure
@@ -99,9 +99,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186686">PEP_NOTIFY_ACPI_PREPARE_DEVICE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
  
 

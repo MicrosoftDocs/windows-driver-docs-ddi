@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a83c6eb9-a29a-4695-99d3-168dff68c4a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportWaveCyclic::NewStream, IMiniportWaveCyclic::NewStream, audio.iminiportwavecyclic_newstream, NewStream method [Audio Devices], audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, NewStream, IMiniportWaveCyclic, NewStream method [Audio Devices], IMiniportWaveCyclic interface, IMiniportWaveCyclic interface [Audio Devices], NewStream method
+ms.keywords: NewStream method [Audio Devices], IMiniportWaveCyclic interface, IMiniportWaveCyclic::NewStream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, NewStream method [Audio Devices], IMiniportWaveCyclic interface [Audio Devices], NewStream method, NewStream, audio.iminiportwavecyclic_newstream, IMiniportWaveCyclic, portcls/IMiniportWaveCyclic::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,7 +86,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> enumeration.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration.
 
 
 ### -param Pin [in]
@@ -101,7 +101,7 @@ Specifies whether to create a capture stream or a render stream. This parameter 
 
 ### -param DataFormat [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure indicating the format to use for this instance.
+Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure indicating the format to use for this instance.
 
 
 ### -param DmaChannel [out]
@@ -158,19 +158,19 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
-
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
  
 

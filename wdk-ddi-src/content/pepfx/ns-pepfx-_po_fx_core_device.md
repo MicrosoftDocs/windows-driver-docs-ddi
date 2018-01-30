@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PO_FX_CORE_DEVICE
-title: _PO_FX_CORE_DEVICE
+title: "_PO_FX_CORE_DEVICE"
 author: windows-driver-content
 description: The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
 old-location: kernel\po_fx_core_device.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46C16795-412B-48E7-A7E8-E474CEC51849
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPO_FX_CORE_DEVICE, pepfx/PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_CORE_DEVICE, _PO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE, kernel.po_fx_core_device, PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.po_fx_core_device, pepfx/PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture], _PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PO_FX_CORE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # _PO_FX_CORE_DEVICE structure
@@ -129,13 +129,13 @@ For more information about component transitions between the active condition an
 
 <a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
 

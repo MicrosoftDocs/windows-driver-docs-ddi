@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, umdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, wdf.iwdffilehandletargetfactory_createfilehandletarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget
+ms.keywords: IWDFFileHandleTargetFactory, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, umdf.iwdffilehandletargetfactory_createfilehandletarget, CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget method, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, wdf.iwdffilehandletargetfactory_createfilehandletarget, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFFileHandleTargetFactory.CreateFileHandleTarget
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -141,11 +141,11 @@ For more information about <b>CreateFileHandleTarget</b> and I/O targets, see <a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFileHandleTargetFactory</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
  
 

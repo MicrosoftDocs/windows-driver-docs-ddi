@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 10EB0C86-915F-4C24-ADBE-1D8E8DD8ECB6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UFX_ENDPOINT_CALLBACKS_INIT function [Buses], ufxclient/UFX_ENDPOINT_CALLBACKS_INIT, buses.ufx_endpoint_callbacks_init, UFX_ENDPOINT_CALLBACKS_INIT
+ms.keywords: UFX_ENDPOINT_CALLBACKS_INIT, ufxclient/UFX_ENDPOINT_CALLBACKS_INIT, UFX_ENDPOINT_CALLBACKS_INIT function [Buses], buses.ufx_endpoint_callbacks_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UFX_ENDPOINT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

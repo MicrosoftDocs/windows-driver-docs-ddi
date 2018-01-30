@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f7b9d558-7c95-40d5-9740-ae1b9f7595c1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_MWISUMMARY_ACCTADDR, RIL_PARAM_MWISUMMARY_TOTALNUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWISUMMARY_REFNUM, RILMSGMWISUMMARYLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MWISUMMARY_REFNUM, ntddrilapitypes/RIL_PARAM_MWISUMMARY_ACCTADDR, RIL_PARAM_MWISUMMARY_NUMSUMMARYITEMS, netvista.rilmsgmwisummarylistparammask, RIL_PARAM_MWISUMMARY_ALL, RILMSGMWISUMMARYLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWISUMMARY_TOTALNUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWISUMMARY_ALL, RIL_PARAM_MWISUMMARY_SUMMARYITEMS, ntddrilapitypes/RILMSGMWISUMMARYLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWISUMMARY_NUMSUMMARYITEMS, ntddrilapitypes/RIL_PARAM_MWISUMMARY_SUMMARYITEMS
+ms.keywords: ntddrilapitypes/RIL_PARAM_MWISUMMARY_REFNUM, RIL_PARAM_MWISUMMARY_NUMSUMMARYITEMS, RIL_PARAM_MWISUMMARY_SUMMARYITEMS, ntddrilapitypes/RIL_PARAM_MWISUMMARY_ALL, ntddrilapitypes/RIL_PARAM_MWISUMMARY_NUMSUMMARYITEMS, ntddrilapitypes/RILMSGMWISUMMARYLISTPARAMMASK, RIL_PARAM_MWISUMMARY_REFNUM, netvista.rilmsgmwisummarylistparammask, RIL_PARAM_MWISUMMARY_ALL, RILMSGMWISUMMARYLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWISUMMARY_ACCTADDR, RIL_PARAM_MWISUMMARY_ACCTADDR, ntddrilapitypes/RIL_PARAM_MWISUMMARY_SUMMARYITEMS, RILMSGMWISUMMARYLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_MWISUMMARY_TOTALNUMDETAILITEMS, RIL_PARAM_MWISUMMARY_TOTALNUMDETAILITEMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGMWISUMMARYLISTPARAMMASK
 product: Windows
 targetos: Windows

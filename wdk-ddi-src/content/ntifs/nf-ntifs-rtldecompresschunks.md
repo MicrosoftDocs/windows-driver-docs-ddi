@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1bc13892-a7fb-43f9-8e65-70c11baca9ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlDecompressChunks function [Installable File System Drivers], ntifs/RtlDecompressChunks, RtlDecompressChunks, ifsk.rtldecompresschunks, rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml
+ms.keywords: rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml, RtlDecompressChunks function [Installable File System Drivers], ifsk.rtldecompresschunks, ntifs/RtlDecompressChunks, RtlDecompressChunks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlDecompressChunks
 product: Windows
 targetos: Windows

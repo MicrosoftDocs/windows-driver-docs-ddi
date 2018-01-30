@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._ADDRESS_RANGE
-title: _ADDRESS_RANGE
+title: "_ADDRESS_RANGE"
 author: windows-driver-content
 description: The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
 old-location: ieee\address_range.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _ADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, IEEE.address_range, *PADDRESS_RANGE, PADDRESS_RANGE, 1394/PADDRESS_RANGE, ADDRESS_RANGE structure [Buses], PADDRESS_RANGE structure pointer [Buses], ADDRESS_RANGE, 1394/ADDRESS_RANGE
+ms.keywords: IEEE.address_range, 1394/ADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, 1394/PADDRESS_RANGE, ADDRESS_RANGE structure [Buses], PADDRESS_RANGE structure pointer [Buses], _ADDRESS_RANGE, PADDRESS_RANGE, *PADDRESS_RANGE, ADDRESS_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	ADDRESS_RANGE
 product: Windows
 targetos: Windows

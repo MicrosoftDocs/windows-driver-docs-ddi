@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportcreateevent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, VideoPortCreateEvent function [Display Devices], video/VideoPortCreateEvent, VideoPortCreateEvent
+ms.keywords: video/VideoPortCreateEvent, display.videoportcreateevent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, VideoPortCreateEvent function [Display Devices], VideoPortCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortCreateEvent function

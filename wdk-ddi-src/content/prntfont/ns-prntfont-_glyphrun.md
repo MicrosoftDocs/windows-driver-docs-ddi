@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._GLYPHRUN
-title: _GLYPHRUN
+title: "_GLYPHRUN"
 author: windows-driver-content
 description: The GLYPHRUN structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\glyphrun.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PGLYPHRUN, _GLYPHRUN, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, prntfont/GLYPHRUN, GLYPHRUN, prntfont/PGLYPHRUN, print.glyphrun, GLYPHRUN structure [Print Devices], PGLYPHRUN, PGLYPHRUN structure pointer [Print Devices]
+ms.keywords: GLYPHRUN, *PGLYPHRUN, prntfont/GLYPHRUN, PGLYPHRUN, GLYPHRUN structure [Print Devices], PGLYPHRUN structure pointer [Print Devices], prntfont/PGLYPHRUN, print.glyphrun, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, _GLYPHRUN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	GLYPHRUN
 product: Windows
 targetos: Windows
-req.typenames: *PGLYPHRUN, GLYPHRUN
+req.typenames: "*PGLYPHRUN, GLYPHRUN"
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,11 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570578">WCRUN</a>
-
 <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565625">FD_GLYPHSET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570578">WCRUN</a>
 
  
 

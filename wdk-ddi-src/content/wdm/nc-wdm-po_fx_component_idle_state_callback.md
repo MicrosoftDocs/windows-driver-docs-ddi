@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	ComponentIdleStateCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -114,15 +114,15 @@ PoFx never calls the <i>ComponentIdleStateCallback</i> routine to switch directl
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-pofxsetcomponentwake.md">PoFxSetComponentWake</a>
+
 <a href="..\wdm\nf-wdm-pofxcompleteidlestate.md">PoFxCompleteIdleState</a>
+
+<a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
 
 <a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-<a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
-
-<a href="..\wdm\nf-wdm-pofxsetcomponentwake.md">PoFxSetComponentWake</a>
 
  
 

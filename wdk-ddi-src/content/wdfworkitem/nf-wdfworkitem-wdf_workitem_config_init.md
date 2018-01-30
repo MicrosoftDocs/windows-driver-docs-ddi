@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d24d9aea-0cdd-4130-9904-4e50c825612e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WORKITEM_CONFIG_INIT function, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, wdf.wdf_workitem_config_init, kmdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT
+ms.keywords: kmdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, WDF_WORKITEM_CONFIG_INIT function, WDF_WORKITEM_CONFIG_INIT, wdf.wdf_workitem_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfworkitem.h
-apiname: 
+apiname:
 -	WDF_WORKITEM_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
+req.typenames: "*PWDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -99,11 +99,11 @@ The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtW
 
 ## -see-also
 
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
-
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
  
 

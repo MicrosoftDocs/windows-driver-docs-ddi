@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
-title: _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
+title: "_UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
 author: windows-driver-content
 description: Contains information about the capabilities of the port controller.
 old-location: buses\ucmtcpci_port_controller_capabilities.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 829bb05b-5e2d-4aba-ab34-127812235f46
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure [Buses], buses.ucmtcpci_port_controller_capabilities, *PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES
+ms.keywords: buses.ucmtcpci_port_controller_capabilities, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure [Buses], *PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure pointer [Buses], PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtcpciportcontroller.h
-apiname: 
+apiname:
 -	UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
+req.typenames: "*PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
 req.product: Windows 10 or later.
 ---
 
@@ -119,9 +119,9 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES {
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a>
-
 <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
+
+<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._ATA_PASS_THROUGH_DIRECT
-title: _ATA_PASS_THROUGH_DIRECT
+title: "_ATA_PASS_THROUGH_DIRECT"
 author: windows-driver-content
 description: The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_direct.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f7a424e-5d83-4ab0-b5a2-7e9093bbd34b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PATA_PASS_THROUGH_DIRECT, ntddscsi/ATA_PASS_THROUGH_DIRECT, ntddscsi/PATA_PASS_THROUGH_DIRECT, _ATA_PASS_THROUGH_DIRECT, structs-IDE_e59bb754-2ad4-49d0-b68c-8ef7b6273af5.xml, ATA_PASS_THROUGH_DIRECT, storage.ata_pass_through_direct, PATA_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ATA_PASS_THROUGH_DIRECT structure [Storage Devices], PATA_PASS_THROUGH_DIRECT
+ms.keywords: ATA_PASS_THROUGH_DIRECT, ntddscsi/ATA_PASS_THROUGH_DIRECT, structs-IDE_e59bb754-2ad4-49d0-b68c-8ef7b6273af5.xml, _ATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT structure [Storage Devices], PATA_PASS_THROUGH_DIRECT, PATA_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ntddscsi/PATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT, storage.ata_pass_through_direct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	ATA_PASS_THROUGH_DIRECT
 product: Windows
 targetos: Windows
-req.typenames: *PATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT
+req.typenames: "*PATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT"
 ---
 
 # _ATA_PASS_THROUGH_DIRECT structure
@@ -387,11 +387,11 @@ The ATA_PASS_THROUGH_DIRECT structure is used with <a href="..\ntddscsi\ni-ntdds
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
 
  
 

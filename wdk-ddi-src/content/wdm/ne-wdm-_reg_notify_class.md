@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._REG_NOTIFY_CLASS
-title: _REG_NOTIFY_CLASS
+title: "_REG_NOTIFY_CLASS"
 author: windows-driver-content
 description: The REG_NOTIFY_CLASS enumeration type specifies the type of registry operation that the configuration manager is passing to a RegistryCallback routine.
 old-location: kernel\reg_notify_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ec47d47-1de3-43af-9a71-7fa366ba2d1a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RegNtSetInformationKey, RegNtPreReplaceKey, wdm/RegNtPostDeleteKey, RegNtPostQueryKeySecurity, RegNtPostOpenKeyEx, RegNtPreQueryValueKey, RegNtPostEnumerateKey, wdm/RegNtPostKeyHandleClose, RegNtPreEnumerateKey, wdm/RegNtPreCreateKeyEx, wdm/RegNtPreOpenKey, wdm/RegNtPostRestoreKey, RegNtPreRestoreKey, wdm/RegNtPreSetInformationKey, RegNtPreQueryKeyName, RegNtPreKeyHandleClose, wdm/RegNtQueryValueKey, wdm/RegNtPreQueryKeySecurity, RegNtSetValueKey, wdm/RegNtPreEnumerateKey, RegNtPreQueryKey, RegNtDeleteKey, wdm/RegNtPreEnumerateValueKey, wdm/RegNtDeleteKey, RegNtPostQueryKeyName, wdm/RegNtPostCreateKeyEx, RegNtPostQueryKey, RegNtPostQueryMultipleValueKey, RegNtPostDeleteValueKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPreSaveKey, RegNtPreSetInformationKey, wdm/RegNtPreFlushKey, RegNtPostRenameKey, RegNtPostEnumerateValueKey, wdm/MaxRegNtNotifyClass, RegNtPostQueryValueKey, RegNtPostDeleteKey, RegNtPostSetValueKey, RegNtPostCreateKeyEx, RegNtPreOpenKeyEx, wdm/RegNtDeleteValueKey, RegNtPreCreateKey, wdm/RegNtPreOpenKeyEx, wdm/RegNtPreDeleteValueKey, wdm/RegNtSetInformationKey, RegNtQueryMultipleValueKey, wdm/RegNtPostQueryKeyName, wdm/RegNtPreSetKeySecurity, RegNtPostSaveKey, wdm/RegNtKeyHandleClose, RegNtPreRenameKey, wdm/RegNtPostDeleteValueKey, wdm/RegNtPostOpenKeyEx, wdm/RegNtPostRenameKey, RegNtPreSaveKey, RegNtPreDeleteValueKey, wdm/REG_NOTIFY_CLASS, RegNtPreQueryMultipleValueKey, RegNtPostLoadKey, RegNtPreSetKeySecurity, wdm/RegNtPostOpenKey, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], RegNtPreFlushKey, wdm/RegNtPreRestoreKey, RegNtCallbackObjectContextCleanup, wdm/RegNtPostLoadKey, wdm/RegNtRenameKey, wdm/RegNtPreReplaceKey, RegNtPostRestoreKey, wdm/RegNtPostSetValueKey, wdm/RegNtPreSetValueKey, wdm/RegNtPreQueryValueKey, wdm/RegNtPostEnumerateValueKey, wdm/RegNtPostEnumerateKey, RegNtQueryValueKey, wdm/RegNtPostSetInformationKey, RegNtPreCreateKeyEx, REG_NOTIFY_CLASS, RegNtPreQueryKeySecurity, wdm/RegNtPreCreateKey, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, RegNtPostOpenKey, wdm/RegNtPostCreateKey, wdm/RegNtPreRenameKey, wdm/RegNtPostQueryKeySecurity, wdm/RegNtPreQueryMultipleValueKey, wdm/RegNtQueryKey, wdm/RegNtPostUnLoadKey, wdm/RegNtPostSaveKey, RegNtPreEnumerateValueKey, MaxRegNtNotifyClass, wdm/RegNtPreUnLoadKey, RegNtQueryKey, RegNtPostKeyHandleClose, wdm/RegNtQueryMultipleValueKey, RegNtPostFlushKey, wdm/RegNtPostReplaceKey, RegNtPreSetValueKey, kernel.reg_notify_class, wdm/RegNtEnumerateKey, RegNtPostSetInformationKey, wdm/RegNtPostQueryMultipleValueKey, RegNtPreOpenKey, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtPostQueryKey, _REG_NOTIFY_CLASS, RegNtPreDeleteKey, RegNtPreUnLoadKey, RegNtKeyHandleClose, wdm/RegNtPreDeleteKey, RegNtPostSetKeySecurity, wdm/RegNtSetValueKey, wdm/RegNtPreQueryKeyName, wdm/RegNtPreLoadKey, wdm/RegNtEnumerateValueKey, wdm/RegNtPreQueryKey, RegNtPreLoadKey, RegNtEnumerateKey, RegNtDeleteValueKey, RegNtPostUnLoadKey, wdm/RegNtPostQueryValueKey, RegNtRenameKey, RegNtEnumerateValueKey, wdm/RegNtPreKeyHandleClose, RegNtPostReplaceKey, wdm/RegNtPostFlushKey, RegNtPostCreateKey
+ms.keywords: wdm/RegNtPostQueryKey, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/RegNtPostQueryKeySecurity, _REG_NOTIFY_CLASS, wdm/RegNtSetValueKey, wdm/RegNtPreOpenKey, wdm/RegNtPostDeleteValueKey, RegNtSetInformationKey, RegNtDeleteValueKey, wdm/RegNtPostEnumerateKey, RegNtPostDeleteKey, wdm/RegNtDeleteValueKey, RegNtPreQueryMultipleValueKey, wdm/RegNtPreLoadKey, wdm/RegNtPostUnLoadKey, RegNtDeleteKey, wdm/RegNtPostLoadKey, RegNtPostSetInformationKey, RegNtPreQueryKey, RegNtPreDeleteValueKey, wdm/RegNtPostQueryMultipleValueKey, wdm/RegNtPreSaveKey, RegNtPreDeleteKey, wdm/RegNtPostRenameKey, wdm/RegNtPostQueryKeyName, wdm/RegNtPreCreateKeyEx, RegNtPreReplaceKey, wdm/RegNtPostReplaceKey, wdm/REG_NOTIFY_CLASS, RegNtQueryMultipleValueKey, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, RegNtPreOpenKey, RegNtRenameKey, RegNtEnumerateValueKey, wdm/RegNtPreQueryMultipleValueKey, RegNtPostSetValueKey, RegNtPostQueryMultipleValueKey, RegNtPostCreateKeyEx, wdm/RegNtPostSetValueKey, wdm/RegNtPostCreateKeyEx, RegNtPreRestoreKey, RegNtPreEnumerateKey, wdm/RegNtPostOpenKey, wdm/RegNtPreQueryKeySecurity, wdm/RegNtPostFlushKey, wdm/RegNtPreEnumerateValueKey, wdm/RegNtSetInformationKey, wdm/RegNtQueryMultipleValueKey, RegNtPreSetValueKey, wdm/RegNtPreDeleteKey, RegNtPostReplaceKey, RegNtPreQueryValueKey, RegNtPreKeyHandleClose, RegNtPostKeyHandleClose, wdm/RegNtPreFlushKey, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtPreReplaceKey, wdm/RegNtPreSetKeySecurity, RegNtPreQueryKeyName, wdm/RegNtPreQueryValueKey, wdm/RegNtKeyHandleClose, wdm/RegNtRenameKey, wdm/RegNtQueryValueKey, RegNtPostDeleteValueKey, RegNtPreEnumerateValueKey, RegNtPostCreateKey, wdm/RegNtPostEnumerateValueKey, RegNtPostRestoreKey, RegNtPreSaveKey, wdm/RegNtPreSetValueKey, wdm/MaxRegNtNotifyClass, wdm/RegNtPreUnLoadKey, RegNtPreOpenKeyEx, RegNtPreUnLoadKey, RegNtPostEnumerateKey, RegNtPostSaveKey, wdm/RegNtPreOpenKeyEx, RegNtPostFlushKey, wdm/RegNtPreKeyHandleClose, wdm/RegNtPreQueryKey, wdm/RegNtPreQueryKeyName, RegNtPostLoadKey, RegNtEnumerateKey, wdm/RegNtDeleteKey, wdm/RegNtPostSetInformationKey, RegNtPreCreateKey, wdm/RegNtPreCreateKey, RegNtPostEnumerateValueKey, RegNtPostQueryKeyName, MaxRegNtNotifyClass, RegNtPreCreateKeyEx, wdm/RegNtPreDeleteValueKey, wdm/RegNtPreRenameKey, kernel.reg_notify_class, RegNtQueryValueKey, RegNtPreFlushKey, RegNtSetValueKey, wdm/RegNtEnumerateValueKey, RegNtCallbackObjectContextCleanup, RegNtPostQueryValueKey, RegNtPostQueryKeySecurity, wdm/RegNtPostDeleteKey, RegNtPostUnLoadKey, RegNtPostOpenKey, RegNtPreSetKeySecurity, RegNtKeyHandleClose, wdm/RegNtEnumerateKey, wdm/RegNtPostCreateKey, wdm/RegNtPostRestoreKey, REG_NOTIFY_CLASS, wdm/RegNtPreSetInformationKey, RegNtPostOpenKeyEx, wdm/RegNtPreRestoreKey, RegNtQueryKey, wdm/RegNtQueryKey, wdm/RegNtPostKeyHandleClose, wdm/RegNtPreEnumerateKey, RegNtPostRenameKey, wdm/RegNtPostSaveKey, RegNtPostQueryKey, RegNtPreQueryKeySecurity, RegNtPostSetKeySecurity, RegNtPreLoadKey, wdm/RegNtPostQueryValueKey, RegNtPreSetInformationKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPostOpenKeyEx, RegNtPreRenameKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REG_NOTIFY_CLASS
 product: Windows
 targetos: Windows

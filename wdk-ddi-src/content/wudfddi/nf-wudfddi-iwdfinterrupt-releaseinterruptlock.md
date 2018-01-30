@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: ReleaseInterruptLock method, ReleaseInterruptLock method, IWDFInterrupt interface, IWDFInterrupt, wudfddi/IWDFInterrupt::ReleaseInterruptLock, IWDFInterrupt::ReleaseInterruptLock, umdf.iwdfinterrupt_releaseinterruptlock, ReleaseInterruptLock, wdf.iwdfinterrupt_releaseinterruptlock, IWDFInterrupt interface, ReleaseInterruptLock method
+ms.keywords: IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock, IWDFInterrupt interface, ReleaseInterruptLock method, ReleaseInterruptLock method, wdf.iwdfinterrupt_releaseinterruptlock, ReleaseInterruptLock method, IWDFInterrupt interface, IWDFInterrupt, wudfddi/IWDFInterrupt::ReleaseInterruptLock, umdf.iwdfinterrupt_releaseinterruptlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFInterrupt.ReleaseInterruptLock
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddtape.h
-apiname: 
+apiname:
 -	IOCTL_TAPE_CREATE_PARTITION
 product: Windows
 targetos: Windows

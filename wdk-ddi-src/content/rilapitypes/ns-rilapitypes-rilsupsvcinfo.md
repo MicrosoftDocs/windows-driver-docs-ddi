@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3b86cf8-0e0c-4ed1-9d8c-6f2fef00b9cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], *LPRILSUPSVCINFO, netvista.rilsupsvcinfo_2, RILSUPSVCINFO, rilapitypes/RILSUPSVCINFO
+ms.keywords: rilapitypes/RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], RILSUPSVCINFO, netvista.rilsupsvcinfo_2, *LPRILSUPSVCINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSUPSVCINFO
 product: Windows
 targetos: Windows

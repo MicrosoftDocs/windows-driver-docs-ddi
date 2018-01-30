@@ -2,7 +2,7 @@
 UID: NC:ndis.PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE
 title: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE
 author: windows-driver-content
-description: The ProtocolCmNotifyCloseAfComplete function indicates that a client has completed the closing of an address family (AF) that a stand-alone call manager or miniport call manager (MCM) started by calling the NdisCmNotifyCloseAddressFamily or NdisMCmNotifyCloseAddressFamily function, respectively.Note  You must declare the function by using the PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE type. For more information, see the following Examples section. 
+description: The ProtocolCmNotifyCloseAfComplete function indicates that a client has completed the closing of an address family (AF) that a stand-alone call manager or miniport call manager (MCM) started by calling the NdisCmNotifyCloseAddressFamily or NdisMCmNotifyCloseAddressFamily function, respectively.Note  You must declare the function by using the PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocolcmnotifycloseafcomplete.htm
 old-project: netvista
 ms.assetid: c5bdedee-dacd-4f4d-a3d1-f1cb71a68001
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolCmNotifyCloseAfComplete
 product: Windows
 targetos: Windows
@@ -93,12 +93,12 @@ The clients final status for the AF close notification.
 
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_SUCCESS
 
 The client successfully closed its address family.
 
 
-##### - Status.NDIS_STATUS_XXX
+#### NDIS_STATUS_XXX
 
 The client failed the request for some driver-determined reason.
 
@@ -170,10 +170,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 <mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
    NdisMCmNotifyCloseAddressFamily</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
 <mshelp:link keywords="netvista.ndiscmnotifycloseaddressfamily" tabindex="0"><b>
    NdisCmNotifyCloseAddressFamily</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
  
 

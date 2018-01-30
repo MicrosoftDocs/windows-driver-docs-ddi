@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClMakeCallComplete
 product: Windows
 targetos: Windows
@@ -89,6 +89,28 @@ Specifies the final status of the client's original call to
 
 
 
+#### NDIS_STATUS_SUCCESS
+
+The client's attempt to set up a virtual connection succeded. Consequently, the client can
+       proceed to make transfers on the active VC using the 
+       <i>NdisVcHandle</i> returned by 
+       <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, which the client has
+       stored in its per-VC context area at 
+       <i>ProtocolVcContext</i> .
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS, the call manager, or an underlying driver could not allocate sufficient resources to set
+       up the connection.
+
+
+#### NDIS_STATUS_XXX
+
+The call manager or underlying miniport driver failed to establish an active connection and NDIS
+       propagated this driver-determined failure status to the client.
+
+
 ### -param ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
@@ -119,28 +141,6 @@ Pointer to a buffered CO_CALL_PARAMETERS structure. The client allocated this bu
      initialized this structure with client-determined data before passing this pointer to 
      <b>NdisClMakeCall</b>. While processing the client's request, the call manager can modify this data to
      reflect the results of its negotiation with the network or with a signaling peer.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The client's attempt to set up a virtual connection succeded. Consequently, the client can
-       proceed to make transfers on the active VC using the 
-       <i>NdisVcHandle</i> returned by 
-       <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, which the client has
-       stored in its per-VC context area at 
-       <i>ProtocolVcContext</i> .
-
-
-##### - Status.NDIS_STATUS_RESOURCES
-
-NDIS, the call manager, or an underlying driver could not allocate sufficient resources to set
-       up the connection.
-
-
-##### - Status.NDIS_STATUS_XXX
-
-The call manager or underlying miniport driver failed to establish an active connection and NDIS
-       propagated this driver-determined failure status to the client.
 
 
 ## -returns
@@ -254,30 +254,30 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 <a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">NdisMCmMakeCallComplete</a>
 
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
 <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
    NdisFreeToNPagedLookasideList</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
 <a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
  
 

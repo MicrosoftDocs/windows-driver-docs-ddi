@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamicro._RANGEVALUE
-title: _RANGEVALUE
+title: "_RANGEVALUE"
 author: windows-driver-content
 description: The RANGEVALUE structure is used by a microdriver to communicate to the WIA Flatbed driver the legal values for a microdriver function parameter.
 old-location: image\rangevalue.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/RANGEVALUE, image.rangevalue, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, _RANGEVALUE, RANGEVALUE structure [Imaging Devices], PRANGEVALUE, RANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], wiamicro/PRANGEVALUE, *PRANGEVALUE
+ms.keywords: MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, wiamicro/RANGEVALUE, RANGEVALUE structure [Imaging Devices], _RANGEVALUE, PRANGEVALUE, RANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], *PRANGEVALUE, wiamicro/PRANGEVALUE, image.rangevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamicro.h
-apiname: 
+apiname:
 -	RANGEVALUE
 product: Windows
 targetos: Windows
-req.typenames: *PRANGEVALUE, RANGEVALUE
+req.typenames: "*PRANGEVALUE, RANGEVALUE"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT, kmdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml
+ms.keywords: kmdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, wdf.wdf_usb_continuous_reader_config_init, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_CONTINUOUS_READER_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

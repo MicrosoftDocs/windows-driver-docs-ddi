@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, PoFxSetComponentLatency, kernel.pofxsetcomponentlatency
+ms.keywords: PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, kernel.pofxsetcomponentlatency, PoFxSetComponentLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxSetComponentLatency
 product: Windows
 targetos: Windows

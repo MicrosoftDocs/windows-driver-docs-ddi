@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_OPERATION_REGISTRATION
-title: _OB_OPERATION_REGISTRATION
+title: "_OB_OPERATION_REGISTRATION"
 author: windows-driver-content
 description: The OB_OPERATION_REGISTRATION structure specifies ObjectPreCallback and ObjectPostCallback callback routines and the types of operations that the routines are called for.
 old-location: kernel\ob_operation_registration.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, _OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION, PsProcessType, wdm/OB_OPERATION_REGISTRATION, PsThreadType, OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, POB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.ob_operation_registration, PsThreadType, _OB_OPERATION_REGISTRATION, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, POB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	OB_OPERATION_REGISTRATION
 -	PsProcessType
 -	PsThreadType
 product: Windows
 targetos: Windows
-req.typenames: OB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION
+req.typenames: "*POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION"
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,16 @@ Specify one or more of the following flags:
 
 
 
+#### OB_OPERATION_HANDLE_CREATE
+
+A new process, thread, or desktop handle was or will be opened.
+
+
+#### OB_OPERATION_HANDLE_DUPLICATE
+
+A process, thread, or desktop handle was or will be duplicated.
+
+
 ### -field PreOperation
 
 A pointer to an <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> routine. The system calls this routine before the requested operation occurs.
@@ -97,16 +107,6 @@ A pointer to an <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreC
 ### -field PostOperation
 
 A pointer to an <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a> routine. The system calls this routine after the requested operation occurs.
-
-
-##### - Operations.OB_OPERATION_HANDLE_CREATE
-
-A new process, thread, or desktop handle was or will be opened.
-
-
-##### - Operations.OB_OPERATION_HANDLE_DUPLICATE
-
-A process, thread, or desktop handle was or will be duplicated.
 
 
 ## -remarks
@@ -120,13 +120,13 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
-<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
 
  
 

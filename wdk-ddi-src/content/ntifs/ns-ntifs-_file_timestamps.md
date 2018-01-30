@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_TIMESTAMPS
-title: _FILE_TIMESTAMPS
+title: "_FILE_TIMESTAMPS"
 author: windows-driver-content
 description: The FILE_TIMESTAMPS structure specifies the last recorded instance of specific actions on a file.
 old-location: ifsk\file_timestamps.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_TIMESTAMPS, ntifs/File_TIMESTAMPS, ifsk.file_timestamps, ntifs/PFILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], FILE_TIMESTAMPS, PFILE_TIMESTAMPS, *PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers]
+ms.keywords: "_FILE_TIMESTAMPS, FILE_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], PFILE_TIMESTAMPS, *PFILE_TIMESTAMPS, ntifs/File_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], ifsk.file_timestamps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_TIMESTAMPS
 product: Windows
 targetos: Windows
-req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
+req.typenames: "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS"
 ---
 
 # _FILE_TIMESTAMPS structure

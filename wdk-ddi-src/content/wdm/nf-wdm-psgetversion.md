@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psgetversion, k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, PsGetVersion function [Kernel-Mode Driver Architecture], PsGetVersion, wdm/PsGetVersion
+ms.keywords: wdm/PsGetVersion, kernel.psgetversion, k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, PsGetVersion function [Kernel-Mode Driver Architecture], PsGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsGetVersion
 product: Windows
 targetos: Windows

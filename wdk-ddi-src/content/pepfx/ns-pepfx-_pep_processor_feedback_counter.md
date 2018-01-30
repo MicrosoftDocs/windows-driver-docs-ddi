@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_FEEDBACK_COUNTER
-title: _PEP_PROCESSOR_FEEDBACK_COUNTER
+title: "_PEP_PROCESSOR_FEEDBACK_COUNTER"
 author: windows-driver-content
 description: The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback counter to the operating system.
 old-location: kernel\pep_processor_feedback_counter.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, *PPEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_TYPE_RELATIVE, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER
+ms.keywords: pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, _PEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_FEEDBACK_TYPE_RELATIVE, *PPEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_FEEDBACK_COUNTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PROCESSOR_FEEDBACK_COUNTER
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_FEEDBACK_COUNTER, *PPEP_PROCESSOR_FEEDBACK_COUNTER
+req.typenames: "*PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER"
 ---
 
 # _PEP_PROCESSOR_FEEDBACK_COUNTER structure
@@ -180,9 +180,9 @@ This structure
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/478E1AB1-B888-4EC2-A9C3-A33475E499E3">PEP structures</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>
+
+<a href="https://msdn.microsoft.com/478E1AB1-B888-4EC2-A9C3-A33475E499E3">PEP structures</a>
 
  
 

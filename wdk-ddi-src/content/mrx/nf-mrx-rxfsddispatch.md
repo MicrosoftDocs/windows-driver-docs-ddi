@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers], ifsk.rxfsddispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml
+ms.keywords: rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, ifsk.rxfsddispatch, RxFsdDispatch routine [Installable File System Drivers], mrx/RxFsdDispatch, RxFsdDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mrx.h
-apiname: 
+apiname:
 -	RxFsdDispatch
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # RxFsdDispatch function

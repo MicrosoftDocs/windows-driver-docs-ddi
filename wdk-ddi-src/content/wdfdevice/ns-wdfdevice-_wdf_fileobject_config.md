@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_FILEOBJECT_CONFIG
-title: _WDF_FILEOBJECT_CONFIG
+title: "_WDF_FILEOBJECT_CONFIG"
 author: windows-driver-content
 description: The WDF_FILEOBJECT_CONFIG structure contains configuration information of a driver's framework file objects.
 old-location: wdf\wdf_fileobject_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_fileobject_config, WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, _WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG, wdfdevice/WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, wdfdevice/PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, PWDF_FILEOBJECT_CONFIG structure pointer
+ms.keywords: "*PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, wdfdevice/WDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdf.wdf_fileobject_config, wdfdevice/PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, PWDF_FILEOBJECT_CONFIG, _WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_FILEOBJECT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
+req.typenames: "*PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG"
 req.product: Windows 10 or later.
 ---
 

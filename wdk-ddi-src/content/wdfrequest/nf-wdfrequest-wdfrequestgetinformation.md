@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd5f29f7-e9c6-48c4-8704-5db37b8c6337
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestGetInformation, WdfRequestGetInformation, kmdf.wdfrequestgetinformation, wdf.wdfrequestgetinformation, WdfRequestGetInformation method, PFN_WDFREQUESTGETINFORMATION, DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml
+ms.keywords: DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml, wdf.wdfrequestgetinformation, WdfRequestGetInformation, kmdf.wdfrequestgetinformation, wdfrequest/WdfRequestGetInformation, WdfRequestGetInformation method, PFN_WDFREQUESTGETINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestGetInformation
 product: Windows
 targetos: Windows
@@ -102,9 +102,9 @@ For more information about <b>WdfRequestGetInformation</b>, see <a href="https:/
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
  
 

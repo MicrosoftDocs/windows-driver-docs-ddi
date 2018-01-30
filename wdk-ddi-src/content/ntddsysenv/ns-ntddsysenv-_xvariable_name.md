@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddsysenv._XVARIABLE_NAME
-title: _XVARIABLE_NAME
+title: "_XVARIABLE_NAME"
 author: windows-driver-content
 description: Stores the name of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES request.
 old-location: kernel\xvariable_name.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PXVARIABLE_NAME, *PSYSENV_VARIABLE_NAME, PXVARIABLE_NAME, ntddsysenv/PXVARIABLE_NAME, SYSENV_VARIABLE_NAME, XVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME, _XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], kernel.xvariable_name
+ms.keywords: PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], ntddsysenv/PXVARIABLE_NAME, PXVARIABLE_NAME, kernel.xvariable_name, _XVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME, *PXVARIABLE_NAME, XVARIABLE_NAME, SYSENV_VARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], *PSYSENV_VARIABLE_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddsysenv.h
-apiname: 
+apiname:
 -	XVARIABLE_NAME
 product: Windows
 targetos: Windows
-req.typenames: *PXVARIABLE_NAME, XVARIABLE_NAME
+req.typenames: XVARIABLE_NAME, *PXVARIABLE_NAME
 ---
 
 # _XVARIABLE_NAME structure

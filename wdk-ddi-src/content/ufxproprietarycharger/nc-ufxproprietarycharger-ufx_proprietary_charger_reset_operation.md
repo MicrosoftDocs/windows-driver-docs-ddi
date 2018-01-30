@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ufxproprietarycharger.h
-apiname: 
+apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 product: Windows
 targetos: Windows

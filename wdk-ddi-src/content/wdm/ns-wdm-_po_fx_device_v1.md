@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_DEVICE_V1
-title: _PO_FX_DEVICE_V1
+title: "_PO_FX_DEVICE_V1"
 author: windows-driver-content
 description: The PO_FX_DEVICE structure describes the power attributes of a device to the power management framework (PoFx).
 old-location: kernel\po_fx_device.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E2413C3A-79D3-47E3-A664-80869A721F37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_DEVICE, PPO_FX_DEVICE_V1, wdm/PPO_FX_DEVICE_V1, _PO_FX_DEVICE_V1, *PPO_FX_DEVICE_V1, *PPO_FX_DEVICE, wdm/PO_FX_DEVICE_V1, PO_FX_DEVICE, kernel.po_fx_device
+ms.keywords: "_PO_FX_DEVICE_V1, *PPO_FX_DEVICE_V1, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PPO_FX_DEVICE_V1, kernel.po_fx_device, PO_FX_DEVICE, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], wdm/PO_FX_DEVICE_V1, *PPO_FX_DEVICE, PO_FX_DEVICE_V1, wdm/PO_FX_DEVICE, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PO_FX_DEVICE_V1
 product: Windows
 targetos: Windows
@@ -150,23 +150,23 @@ A device driver is not required to implement all six callback routines. The driv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
-
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
 

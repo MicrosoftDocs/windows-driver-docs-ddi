@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81e5b26d-78b5-4ee7-a47c-fc92d01752d1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortBusy, storage.storportbusy, StorPortBusy, StorPortBusy routine [Storage Devices], storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml
+ms.keywords: StorPortBusy, storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml, storport/StorPortBusy, storage.storportbusy, StorPortBusy routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortBusy
 product: Windows
 targetos: Windows

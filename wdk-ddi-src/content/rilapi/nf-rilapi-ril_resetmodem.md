@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cb249d3-b39f-4b6b-8023-bb0c0ef8f9e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_ResetModem, netvista.ril_resetmodem, RIL_ResetModem method [Network Drivers Starting with Windows Vista], rilapi/RIL_ResetModem
+ms.keywords: RIL_ResetModem, netvista.ril_resetmodem, rilapi/RIL_ResetModem, RIL_ResetModem method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_ResetModem
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

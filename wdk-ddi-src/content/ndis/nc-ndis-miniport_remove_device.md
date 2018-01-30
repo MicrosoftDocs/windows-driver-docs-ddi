@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportRemoveDevice
 product: Windows
 targetos: Windows
@@ -145,12 +145,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
+<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
  
 

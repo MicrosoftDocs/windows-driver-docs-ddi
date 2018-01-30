@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 954a4811-4515-4ed4-a4f1-df598d08fc77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpDereferenceAndFinalizeNetFcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], ifsk.rxpdereferenceandfinalizenetfcb, fcb/RxpDereferenceAndFinalizeNetFcb
+ms.keywords: ifsk.rxpdereferenceandfinalizenetfcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], RxpDereferenceAndFinalizeNetFcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml, fcb/RxpDereferenceAndFinalizeNetFcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fcb.h
-apiname: 
+apiname:
 -	RxpDereferenceAndFinalizeNetFcb
 product: Windows
 targetos: Windows
@@ -115,9 +115,9 @@ On checked builds, <b>RxpDereferenceAndFinalizeNetFcb</b> causes the system to A
 
 <a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-
 <a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
  
 

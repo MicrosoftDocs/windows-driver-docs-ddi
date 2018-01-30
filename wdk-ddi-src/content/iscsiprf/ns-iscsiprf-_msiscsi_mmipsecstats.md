@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_MMIPSECStats
-title: _MSiSCSI_MMIPSECStats
+title: "_MSiSCSI_MMIPSECStats"
 author: windows-driver-content
 description: The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics.
 old-location: storage\msiscsi_mmipsecstats.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msiscsi_mmipsecstats, PMSiSCSI_MMIPSECStats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml, _MSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], *PMSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], iscsiprf/PMSiSCSI_MMIPSECStats
+ms.keywords: PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], *PMSiSCSI_MMIPSECStats, _MSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], iscsiprf/PMSiSCSI_MMIPSECStats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiprf.h
-apiname: 
+apiname:
 -	MSiSCSI_MMIPSECStats
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats
+req.typenames: "*PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats"
 ---
 
 # _MSiSCSI_MMIPSECStats structure

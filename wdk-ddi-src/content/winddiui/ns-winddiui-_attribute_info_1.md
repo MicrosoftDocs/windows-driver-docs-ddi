@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._ATTRIBUTE_INFO_1
-title: _ATTRIBUTE_INFO_1
+title: "_ATTRIBUTE_INFO_1"
 author: windows-driver-content
 description: The ATTRIBUTE_INFO_1 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_1.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7902877c-4991-48ae-9285-82949f898af2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1 structure [Print Devices], PATTRIBUTE_INFO_1, winddiui/ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1, print.attribute_info_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, _ATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], winddiui/PATTRIBUTE_INFO_1
+ms.keywords: "_ATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], ATTRIBUTE_INFO_1 structure [Print Devices], print.attribute_info_1, winddiui/ATTRIBUTE_INFO_1, winddiui/PATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, *PATTRIBUTE_INFO_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	ATTRIBUTE_INFO_1
 product: Windows
 targetos: Windows
-req.typenames: ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1
+req.typenames: "*PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1"
 req.product: Windows 10 or later.
 ---
 

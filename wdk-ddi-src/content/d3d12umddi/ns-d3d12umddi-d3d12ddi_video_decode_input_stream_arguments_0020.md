@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B956626C-B5D7-4217-A90A-EC7E436DF6C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], display.d3d12ddi_video_decode_input_stream_arguments
+ms.keywords: display.d3d12ddi_video_decode_input_stream_arguments, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,9 +103,9 @@ The count of frame arguments.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_compressed_bitstream_0020.md">D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM</a>
-
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_reference_frames_0020.md">D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES</a>
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_compressed_bitstream_0020.md">D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM</a>
 
  
 

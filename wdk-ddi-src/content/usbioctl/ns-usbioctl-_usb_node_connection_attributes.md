@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_ATTRIBUTES
-title: _USB_NODE_CONNECTION_ATTRIBUTES
+title: "_USB_NODE_CONNECTION_ATTRIBUTES"
 author: windows-driver-content
 description: The USB_NODE_CONNECTION_ATTRIBUTES structure is used with the IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES I/O control request to retrieve the attributes of a connection.
 old-location: buses\usb_node_connection_attributes.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 893dc1f2-785e-434e-88c7-9bbf2f1c4ad6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], buses.usb_node_connection_attributes, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES, _USB_NODE_CONNECTION_ATTRIBUTES, *PUSB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses]
+ms.keywords: usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES, *PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, USB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], _USB_NODE_CONNECTION_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_NODE_CONNECTION_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -95,9 +95,9 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_attributes.md">IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

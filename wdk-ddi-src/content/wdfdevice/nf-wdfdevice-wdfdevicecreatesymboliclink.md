@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c22035a2-8ceb-42e9-9d54-8997ce0dd8da
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, kmdf.wdfdevicecreatesymboliclink, WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, wdfdevice/WdfDeviceCreateSymbolicLink, wdf.wdfdevicecreatesymboliclink, PFN_WDFDEVICECREATESYMBOLICLINK
+ms.keywords: PFN_WDFDEVICECREATESYMBOLICLINK, DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink method, wdf.wdfdevicecreatesymboliclink, WdfDeviceCreateSymbolicLink, kmdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceCreateSymbolicLink
 product: Windows
 targetos: Windows

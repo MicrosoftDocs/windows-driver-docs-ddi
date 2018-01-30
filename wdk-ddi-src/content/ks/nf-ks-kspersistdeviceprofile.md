@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPersistDeviceProfile function [Streaming Media Devices], KsPersistDeviceProfile, ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
+ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsPersistDeviceProfile
 product: Windows
 targetos: Windows

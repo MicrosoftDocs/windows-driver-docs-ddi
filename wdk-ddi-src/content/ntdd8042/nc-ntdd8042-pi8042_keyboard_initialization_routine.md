@@ -40,7 +40,7 @@ apiname:
 -	KeyboardInitializationRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
 ---
 
 # PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback

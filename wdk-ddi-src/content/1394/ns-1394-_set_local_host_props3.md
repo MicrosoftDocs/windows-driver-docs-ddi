@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SET_LOCAL_HOST_PROPS3
-title: _SET_LOCAL_HOST_PROPS3
+title: "_SET_LOCAL_HOST_PROPS3"
 author: windows-driver-content
 description: SET_LOCAL_HOST_PROPS3 contains the data necessary for defining or identifying one or more unit directories in the Configuration ROM of a 1394 Host Controller.
 old-location: ieee\set_local_host_props3.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: f49a8b86-5611-4737-9b25-e7446e155bbc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses], SET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, PSET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3, 1394/PSET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, IEEE.set_local_host_props3
+ms.keywords: PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], IEEE.set_local_host_props3, 1394/PSET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, 1394/SET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses], *PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3, _SET_LOCAL_HOST_PROPS3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	SET_LOCAL_HOST_PROPS3
 product: Windows
 targetos: Windows
@@ -127,9 +127,9 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537204">IEEE1394_API_REQUEST</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537204">IEEE1394_API_REQUEST</a>
 
  
 

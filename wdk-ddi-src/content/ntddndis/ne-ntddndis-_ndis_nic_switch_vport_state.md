@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_NIC_SWITCH_VPORT_STATE
-title: _NDIS_NIC_SWITCH_VPORT_STATE
+title: "_NDIS_NIC_SWITCH_VPORT_STATE"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VPORT_STATE enumeration specifies the state of a single root I/O virtualization (SR-IOV) virtual port (VPort) on the NIC switch of a network adapter.
 old-location: netvista\ndis_nic_switch_vport_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25999016-95a8-4d78-a4a3-111fc4e910ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisNicSwitchVPortStateActivated, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisNicSwitchVPortStateUndefined, NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateDeactivated, ntddndis/NdisNicSwitchVPortStateMaximum, _NDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateActivated, ntddndis/NdisNicSwitchVPortStateUndefined, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateDeactivated, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateMaximum, PNDIS_NIC_SWITCH_VPORT_STATE, netvista.ndis_nic_switch_vport_state
+ms.keywords: PNDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateMaximum, ntddndis/NdisNicSwitchVPortStateUndefined, NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE, _NDIS_NIC_SWITCH_VPORT_STATE, *PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisNicSwitchVPortStateActivated, NdisNicSwitchVPortStateDeactivated, ntddndis/NdisNicSwitchVPortStateDeactivated, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisNicSwitchVPortStateActivated, netvista.ndis_nic_switch_vport_state, NdisNicSwitchVPortStateUndefined, ntddndis/NdisNicSwitchVPortStateMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_VPORT_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE
+req.typenames: "*PNDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE"
 ---
 
 # _NDIS_NIC_SWITCH_VPORT_STATE enumeration
@@ -99,11 +99,11 @@ The <b>VPortState</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_s
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
 
 <b></b>
 

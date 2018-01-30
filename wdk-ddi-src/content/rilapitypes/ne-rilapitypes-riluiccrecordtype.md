@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 962970e2-1861-4872-b0f3-db307f36d5d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCRECORDTYPE_LINEAR, netvista.riluiccrecordtype, RIL_UICCRECORDTYPE_UNKNOWN, RIL_UICCRECORDTYPE_LINEAR, rilapitypes/RILUICCRECORDTYPE, RIL_UICCRECORDTYPE_MASTER, rilapitypes/RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_BERTLV, rilapitypes/RIL_UICCRECORDTYPE_CYCLIC, RIL_UICCRECORDTYPE_TRANSPARENT, RILUICCRECORDTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCRECORDTYPE_TRANSPARENT, RILUICCRECORDTYPE, rilapitypes/RIL_UICCRECORDTYPE_UNKNOWN, RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_MASTER
+ms.keywords: netvista.riluiccrecordtype, RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_TRANSPARENT, rilapitypes/RIL_UICCRECORDTYPE_MASTER, rilapitypes/RIL_UICCRECORDTYPE_LINEAR, RIL_UICCRECORDTYPE_LINEAR, rilapitypes/RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_MASTER, RIL_UICCRECORDTYPE_UNKNOWN, RIL_UICCRECORDTYPE_TRANSPARENT, rilapitypes/RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_UNKNOWN, rilapitypes/RILUICCRECORDTYPE, RILUICCRECORDTYPE, RILUICCRECORDTYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCRECORDTYPE
 product: Windows
 targetos: Windows

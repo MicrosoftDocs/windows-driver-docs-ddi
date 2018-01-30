@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e309a741-1f61-4668-8176-baf0c8e26dff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINITSETFILEOBJECTCONFIG, wdfdevice/WdfDeviceInitSetFileObjectConfig, WdfDeviceInitSetFileObjectConfig method, wdf.wdfdeviceinitsetfileobjectconfig, DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml, WdfDeviceInitSetFileObjectConfig, kmdf.wdfdeviceinitsetfileobjectconfig
+ms.keywords: wdf.wdfdeviceinitsetfileobjectconfig, WdfDeviceInitSetFileObjectConfig method, WdfDeviceInitSetFileObjectConfig, DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml, wdfdevice/WdfDeviceInitSetFileObjectConfig, PFN_WDFDEVICEINITSETFILEOBJECTCONFIG, kmdf.wdfdeviceinitsetfileobjectconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetFileObjectConfig
 product: Windows
 targetos: Windows
@@ -113,9 +113,9 @@ For more information about framework file objects, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_fileobject_config_init.md">WDF_FILEOBJECT_CONFIG_INIT</a>
 

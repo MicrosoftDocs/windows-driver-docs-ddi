@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: upssvc/UPSTurnOff, UPSTurnOff function [Battery Devices], UPSTurnOff, battery.upsturnoff, UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml
+ms.keywords: UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff, UPSTurnOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
+req.product: Windows 10 or later.
 ---
 
 # UPSTurnOff function

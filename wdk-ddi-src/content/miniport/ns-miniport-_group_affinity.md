@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._GROUP_AFFINITY
-title: _GROUP_AFFINITY
+title: "_GROUP_AFFINITY"
 author: windows-driver-content
 description: The GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.
 old-location: kernel\group_affinity.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: miniport/GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], *PGROUP_AFFINITY, miniport/PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, kernel.group_affinity, _GROUP_AFFINITY, PGROUP_AFFINITY, GROUP_AFFINITY
+ms.keywords: miniport/GROUP_AFFINITY, kernel.group_affinity, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], GROUP_AFFINITY, miniport/PGROUP_AFFINITY, PGROUP_AFFINITY, *PGROUP_AFFINITY, _GROUP_AFFINITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	miniport.h
-apiname: 
+apiname:
 -	GROUP_AFFINITY
 product: Windows
 targetos: Windows
-req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
+req.typenames: "*PGROUP_AFFINITY, GROUP_AFFINITY"
 ---
 
 # _GROUP_AFFINITY structure

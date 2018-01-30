@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b47976ad-fdde-48cb-bb30-4eaf25489143
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, netvista.ndismcmdispatchcallconnected, NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmDispatchCallConnected
+ms.keywords: ndis/NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, netvista.ndismcmdispatchcallconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmDispatchCallConnected
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDispatchCallConnected macro

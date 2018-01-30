@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9fcc8cee-61a1-417c-9e69-5c658dab80b2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcnewservicegroup, PcNewServiceGroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup, PcNewServiceGroup function [Audio Devices]
+ms.keywords: PcNewServiceGroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, audio.pcnewservicegroup, PcNewServiceGroup function [Audio Devices], portcls/PcNewServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

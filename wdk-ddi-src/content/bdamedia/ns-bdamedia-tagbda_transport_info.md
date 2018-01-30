@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 995a1d2f-8e2b-426e-a08c-283124ce905e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, tagBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO structure [Streaming Media Devices], bdamedia/PBDA_TRANSPORT_INFO, stream.bda_transport_info, PBDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, bdamedia/BDA_TRANSPORT_INFO
+ms.keywords: BDA_TRANSPORT_INFO, stream.bda_transport_info, bdamedia/PBDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, BDA_TRANSPORT_INFO structure [Streaming Media Devices], bdamedia/BDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], tagBDA_TRANSPORT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdamedia.h
-apiname: 
+apiname:
 -	BDA_TRANSPORT_INFO
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
 <a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
  
 

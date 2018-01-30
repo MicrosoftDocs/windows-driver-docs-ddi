@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAddHardwareID, kmdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, wdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID method, PFN_WDFPDOINITADDHARDWAREID
+ms.keywords: wdfpdo/WdfPdoInitAddHardwareID, kmdf.wdfpdoinitaddhardwareid, PFN_WDFPDOINITADDHARDWAREID, wdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfPdoInitAddHardwareID
 product: Windows
 targetos: Windows

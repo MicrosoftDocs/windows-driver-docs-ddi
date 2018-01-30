@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, wdm/IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], IoCreateDevice, kernel.iocreatedevice
+ms.keywords: k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], wdm/IoCreateDevice, kernel.iocreatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoCreateDevice
 product: Windows
 targetos: Windows
@@ -138,15 +138,15 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>
+
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
 
 <a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md"> DEVICE_OBJECT</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
 
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 

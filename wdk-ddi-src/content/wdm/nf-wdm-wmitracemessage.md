@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], wdm/WmiTraceMessage, WmiTraceMessage
+ms.keywords: k902_114717ae-d439-4ddd-b939-913795610dee.xml, WmiTraceMessage routine [Kernel-Mode Driver Architecture], kernel.wmitracemessage, WmiTraceMessage, wdm/WmiTraceMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WmiTraceMessage
 product: Windows
 targetos: Windows
@@ -239,15 +239,15 @@ All message buffers allocated to software tracing session are full.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
-
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
-
 <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
  
 

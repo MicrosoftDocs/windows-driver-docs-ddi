@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bf21128-acf3-4d7d-83c5-a32ac54e78ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], kernel.mmlockpagabledatasection, k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, wdm/MmLockPagableDataSection
+ms.keywords: kernel.mmlockpagabledatasection, wdm/MmLockPagableDataSection, k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], MmLockPagableDataSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmLockPagableDataSection
 product: Windows
 targetos: Windows
@@ -113,15 +113,15 @@ For more information about paging data, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
 <a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
 <a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
 
 <a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
-
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
-
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
  
 

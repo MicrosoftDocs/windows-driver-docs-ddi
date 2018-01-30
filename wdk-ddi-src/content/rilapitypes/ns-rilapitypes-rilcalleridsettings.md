@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 129fcbf9-8162-494a-a571-5c604849d387
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLERIDSETTINGS, netvista.rilcalleridsettings_2, *LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLERIDSETTINGS
+ms.keywords: RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings_2, *LPRILCALLERIDSETTINGS, rilapitypes/RILCALLERIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLERIDSETTINGS
 product: Windows
 targetos: Windows

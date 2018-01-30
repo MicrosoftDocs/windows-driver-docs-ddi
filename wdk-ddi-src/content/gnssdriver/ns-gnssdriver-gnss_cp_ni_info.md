@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: FC05C59C-F8B5-4573-A1F0-722A25BDA151
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_cp_ni_info, GNSS_CP_NI_INFO structure [Sensor Devices], GNSS_CP_NI_INFO, PGNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO, gnssdriver/GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices]
+ms.keywords: gnssdriver/GNSS_CP_NI_INFO, GNSS_CP_NI_INFO structure [Sensor Devices], gnssdriver/PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices], PGNSS_CP_NI_INFO, sensors.gnss_cp_ni_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_CP_NI_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO
+req.typenames: "*PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO"
 ---
 
 # GNSS_CP_NI_INFO structure

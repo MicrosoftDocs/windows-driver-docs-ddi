@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportrequesttimer, StorPortRequestTimer routine [Storage Devices], StorPortRequestTimer, storport/StorPortRequestTimer
+ms.keywords: storage.storportrequesttimer, storport/StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortRequestTimer
 product: Windows
 targetos: Windows
@@ -185,13 +185,13 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
-
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
 <a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+
+<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
 
  
 

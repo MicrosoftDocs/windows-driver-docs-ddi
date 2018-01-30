@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88bd9cc7-6769-4fdf-b149-2193d765fc6c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceWdmGetPhysicalDevice, kmdf.wdfdevicewdmgetphysicaldevice, DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, wdf.wdfdevicewdmgetphysicaldevice, WdfDeviceWdmGetPhysicalDevice method, wdfdevice/WdfDeviceWdmGetPhysicalDevice, PFN_WDFDEVICEWDMGETPHYSICALDEVICE
+ms.keywords: wdfdevice/WdfDeviceWdmGetPhysicalDevice, wdf.wdfdevicewdmgetphysicaldevice, kmdf.wdfdevicewdmgetphysicaldevice, WdfDeviceWdmGetPhysicalDevice method, PFN_WDFDEVICEWDMGETPHYSICALDEVICE, DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceWdmGetPhysicalDevice
 product: Windows
 targetos: Windows

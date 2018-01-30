@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetDataBuffer, ndis/NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisgetdatabuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml
+ms.keywords: ndis/NdisGetDataBuffer, NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisgetdatabuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetDataBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetDataBuffer function

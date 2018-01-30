@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugbreakpoint3_getguid, GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, GetGuid, IDebugBreakpoint3::GetGuid, GetGuid method [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3
+ms.keywords: IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, GetGuid, debugger.idebugbreakpoint3_getguid, GetGuid method [Windows Debugging], IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3, GetGuid method [Windows Debugging], IDebugBreakpoint3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugBreakpoint3.GetGuid
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint3::GetGuid method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], UfxDeviceNotifyReset
+ms.keywords: UfxDeviceNotifyReset method [Buses], UfxDeviceNotifyReset, buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDeviceNotifyReset
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

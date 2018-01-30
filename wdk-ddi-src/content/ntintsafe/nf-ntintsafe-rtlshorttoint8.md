@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlShortToInt8 function [Kernel-Mode Driver Architecture], RtlShortToInt8, kernel.rtlshorttoint8, ntintsafe/RtlShortToInt8
+ms.keywords: RtlShortToInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortToInt8, RtlShortToInt8, kernel.rtlshorttoint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlShortToInt8
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismregisterminiportdriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterMiniportDriver, miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, NdisMRegisterMiniportDriver
+ms.keywords: NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], NdisMRegisterMiniportDriver, miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, netvista.ndismregisterminiportdriver, ndis/NdisMRegisterMiniportDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMRegisterMiniportDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterMiniportDriver function
@@ -238,19 +238,19 @@ If an error occurs in
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+<mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
+   NdisMDeregisterMiniportDriver</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_driver_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
-   NdisMDeregisterMiniportDriver</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
 
  
 

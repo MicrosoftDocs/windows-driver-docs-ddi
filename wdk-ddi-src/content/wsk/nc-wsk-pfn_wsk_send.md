@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskSend
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -97,15 +97,7 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
-### -param Irp [in, out]
-
-A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
-     asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
-
-
-##### - Flags.WSK_FLAG_NODELAY
+#### WSK_FLAG_NODELAY
 
 Directs the underlying transport to immediately send the data, and any previously queued data,
        to the remote application without delay.
@@ -113,6 +105,14 @@ Directs the underlying transport to immediately send the data, and any previousl
 
 This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
        by other transport protocols.
+
+
+### -param Irp [in, out]
+
+A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
+     asynchronously. For more information about using IRPs with WSK functions, see 
+     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
+     Kernel Functions</mshelp:link>.
 
 
 ## -returns
@@ -228,20 +228,20 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
 <mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
    WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
  
 

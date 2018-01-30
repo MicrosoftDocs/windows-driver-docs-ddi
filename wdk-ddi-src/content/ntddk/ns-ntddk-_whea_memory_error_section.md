@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_ERROR_SECTION
-title: _WHEA_MEMORY_ERROR_SECTION
+title: "_WHEA_MEMORY_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 old-location: whea\whea_memory_error_section.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, *PWHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR, PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, WHEA_MEMORY_ERROR_SECTION
+ms.keywords: "_WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, *PWHEA_MEMORY_ERROR_SECTION, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_MEMORY_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
+req.typenames: "*PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION"
 ---
 
 # _WHEA_MEMORY_ERROR_SECTION structure
@@ -194,69 +194,69 @@ The type of memory error that occurred. Possible values are:
 This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MIRRORBROKEN
-
-A broken memory mirror.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_NOERROR
-
-No error occurred.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_PARITYERROR
-
-A parity error.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
-
-A watchdog timeout.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_TARGETABORT
-
-A target abort.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_UNKNOWN
+#### WHEA_MEMERRTYPE_UNKNOWN
 
 An unknown error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_INVALIDADDRESS
+#### WHEA_MEMERRTYPE_NOERROR
 
-An invalid memory address.
-
-
-##### - ErrorType.WHEA_MEMERRTYPE_MEMORYSPARING
-
-A memory sparing error.
+No error occurred.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_SINGLEBITECC
+#### WHEA_MEMERRTYPE_SINGLEBITECC
 
 A single bit <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MULTIBITECC
+#### WHEA_MEMERRTYPE_MULTIBITECC
 
 A multibit ECC error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MASTERABORT
+#### WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
 
-A master abort.
+A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_MULTISYMCHIPKILL
+#### WHEA_MEMERRTYPE_MULTISYMCHIPKILL
 
 A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
 
 
-##### - ErrorType.WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
+#### WHEA_MEMERRTYPE_MASTERABORT
 
-A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
+A master abort.
+
+
+#### WHEA_MEMERRTYPE_TARGETABORT
+
+A target abort.
+
+
+#### WHEA_MEMERRTYPE_PARITYERROR
+
+A parity error.
+
+
+#### WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
+
+A watchdog timeout.
+
+
+#### WHEA_MEMERRTYPE_INVALIDADDRESS
+
+An invalid memory address.
+
+
+#### WHEA_MEMERRTYPE_MIRRORBROKEN
+
+A broken memory mirror.
+
+
+#### WHEA_MEMERRTYPE_MEMORYSPARING
+
+A memory sparing error.
 
 
 ## -remarks
@@ -268,11 +268,11 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 

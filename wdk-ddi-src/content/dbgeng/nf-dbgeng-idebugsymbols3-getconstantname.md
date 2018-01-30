@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetConstantName method [Windows Debugging], GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, debugger.getconstantname, IDebugSymbols3, GetConstantName, dbgeng/IDebugSymbols3::GetConstantName, dbgeng/IDebugSymbols2::GetConstantName, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, IDebugSymbols2::GetConstantName, IDebugSymbols3::GetConstantName
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols2::GetConstantName, debugger.getconstantname, IDebugSymbols3::GetConstantName, dbgeng/IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, dbgeng/IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, GetConstantName method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbols3.GetConstantName
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetConstantName method

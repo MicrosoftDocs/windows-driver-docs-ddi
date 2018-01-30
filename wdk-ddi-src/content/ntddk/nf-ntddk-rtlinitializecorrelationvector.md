@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlinitializecorrelationvector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], ntddk/RtlInitializeCorrelationVector, RtlInitializeCorrelationVector
+ms.keywords: kernel.rtlinitializecorrelationvector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], RtlInitializeCorrelationVector, ntddk/RtlInitializeCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlInitializeCorrelationVector
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInitializeCorrelationVector function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 333f54e8-738e-4d1f-8fd7-93f282d9b9d8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateKey, wdm/NtCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], ZwCreateKey, wdm/ZwCreateKey, k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, kernel.zwcreatekey
+ms.keywords: NtCreateKey, kernel.zwcreatekey, wdm/NtCreateKey, ZwCreateKey, k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, wdm/ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwCreateKey
 -	NtCreateKey
 product: Windows
@@ -337,29 +337,29 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-<a href="..\ntifs\nf-ntifs-zwnotifychangekey.md">ZwNotifyChangeKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+<a href="..\ntifs\nf-ntifs-zwnotifychangekey.md">ZwNotifyChangeKey</a>
 
  
 

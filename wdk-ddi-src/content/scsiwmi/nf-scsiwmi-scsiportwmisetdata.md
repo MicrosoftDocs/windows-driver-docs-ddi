@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiwmi/ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], storage.scsiportwmisetdata, ScsiPortWmiSetData, scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml
+ms.keywords: scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata, ScsiPortWmiSetData routine [Storage Devices], ScsiPortWmiSetData, scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Scsiwmi.h
-apiname: 
+apiname:
 -	ScsiPortWmiSetData
 product: Windows
 targetos: Windows

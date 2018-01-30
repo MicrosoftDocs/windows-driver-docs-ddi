@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_GET_QUOTA_INFORMATION
-title: _FILE_GET_QUOTA_INFORMATION
+title: "_FILE_GET_QUOTA_INFORMATION"
 author: windows-driver-content
 description: The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information.
 old-location: ifsk\file_get_quota_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PFILE_GET_QUOTA_INFORMATION, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, _FILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION
+ms.keywords: "_FILE_GET_QUOTA_INFORMATION, ntifs/FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ifsk.file_get_quota_information, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_GET_QUOTA_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION
+req.typenames: "*PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION"
 ---
 
 # _FILE_GET_QUOTA_INFORMATION structure
@@ -95,11 +95,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
 <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 

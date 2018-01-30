@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: acec8050-44bd-4082-9875-d504135e1b9f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsRegisterCountedWorker, KsRegisterCountedWorker, ksfunc_2d4b1740-9b91-420d-81be-a56034445893.xml, KsRegisterCountedWorker function [Streaming Media Devices], stream.ksregistercountedworker
+ms.keywords: KsRegisterCountedWorker function [Streaming Media Devices], ks/KsRegisterCountedWorker, KsRegisterCountedWorker, stream.ksregistercountedworker, ksfunc_2d4b1740-9b91-420d-81be-a56034445893.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsRegisterCountedWorker
 product: Windows
 targetos: Windows

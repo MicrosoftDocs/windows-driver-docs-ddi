@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDEREGISTERS
-title: _IDEREGISTERS
+title: "_IDEREGISTERS"
 author: windows-driver-content
 description: The IDEREGISTERS structure is used to report the contents of the IDE controller registers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ideregisters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IDEREGISTERS, irb/IDEREGISTERS, _IDEREGISTERS, IDEREGISTERS structure [Storage Devices], storage.ideregisters, PIDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], *PIDEREGISTERS
+ms.keywords: PIDEREGISTERS, IDEREGISTERS structure [Storage Devices], IDEREGISTERS, storage.ideregisters, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, *PIDEREGISTERS, irb/PIDEREGISTERS, irb/IDEREGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDEREGISTERS
 product: Windows
 targetos: Windows
-req.typenames: *PIDEREGISTERS, IDEREGISTERS
+req.typenames: "*PIDEREGISTERS, IDEREGISTERS"
 ---
 
 # _IDEREGISTERS structure

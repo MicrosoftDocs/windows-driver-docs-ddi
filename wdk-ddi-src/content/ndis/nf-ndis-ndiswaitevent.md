@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fefdb56f-6689-4a4f-a198-6108190624f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisWaitEvent, ndis/NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, NdisWaitEvent function [Network Drivers Starting with Windows Vista], netvista.ndiswaitevent
+ms.keywords: ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, ndis/NdisWaitEvent, NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], netvista.ndiswaitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisWaitEvent
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisWaitEvent function
@@ -113,20 +113,20 @@ A miniport driver typically calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
 <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
+   Drivers</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 

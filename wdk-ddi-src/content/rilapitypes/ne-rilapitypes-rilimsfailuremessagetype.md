@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a29cc8c-7e46-4b7f-a428-d2f174945654
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSFAILUREMESSAGETYPE, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, netvista.rilimsfailuremessagetype_2, RIL_IMSFAILUREMESSAGETYPE_MAX, rilapitypes/RILIMSFAILUREMESSAGETYPE, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_INCALL
+ms.keywords: RIL_IMSFAILUREMESSAGETYPE_INCALL, rilapitypes/RILIMSFAILUREMESSAGETYPE, netvista.rilimsfailuremessagetype_2, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RILIMSFAILUREMESSAGETYPE, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, rilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, RIL_IMSFAILUREMESSAGETYPE_MAX, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILIMSFAILUREMESSAGETYPE
 product: Windows
 targetos: Windows

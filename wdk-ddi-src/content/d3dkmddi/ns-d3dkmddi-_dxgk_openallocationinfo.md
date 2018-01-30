@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e23b7e4e-e670-4421-aa2f-4389a74a7d6d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_OPENALLOCATIONINFO, DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, display.dxgk_openallocationinfo, DXGK_OPENALLOCATIONINFO structure [Display Devices], _DXGK_OPENALLOCATIONINFO, d3dkmddi/DXGK_OPENALLOCATIONINFO
+ms.keywords: DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, _DXGK_OPENALLOCATIONINFO, display.dxgk_openallocationinfo, DXGK_OPENALLOCATIONINFO, DXGK_OPENALLOCATIONINFO structure [Display Devices], d3dkmddi/DXGK_OPENALLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,13 +92,13 @@ typedef struct _DXGK_OPENALLOCATIONINFO {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
  
 

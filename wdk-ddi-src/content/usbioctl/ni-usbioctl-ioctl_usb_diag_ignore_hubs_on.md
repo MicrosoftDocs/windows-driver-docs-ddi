@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	IOCTL_USB_DIAG_IGNORE_HUBS_ON
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67580632-ff9a-4d29-8e4e-c21f04aa4b47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemstartdoc, OEMStartDoc, printoem/OEMStartDoc, OEMStartDoc function [Print Devices], print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml
+ms.keywords: OEMStartDoc, print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml, OEMStartDoc function [Print Devices], print.oemstartdoc, printoem/OEMStartDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMStartDoc
 product: Windows
 targetos: Windows

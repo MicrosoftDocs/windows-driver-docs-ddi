@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62ef9d02-3a59-4d4e-a48f-21a8bb4f6e58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetFCPStatistics routine [Storage Devices], storage.hba_getfcpstatistics, hbaapi/HBA_GetFCPStatistics, fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, HBA_GetFCPStatistics
+ms.keywords: fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, HBA_GetFCPStatistics, HBA_GetFCPStatistics routine [Storage Devices], storage.hba_getfcpstatistics, hbaapi/HBA_GetFCPStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetFCPStatistics
 product: Windows
 targetos: Windows
@@ -85,9 +85,9 @@ TBD
 
 
 
-#### - statistics [out]
+#### - handle [in]
 
-Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a> that holds the traffic statistics that the FCP protocol has collected for the indicated logical unit. 
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 #### - lunit [in]
@@ -95,9 +95,9 @@ Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4sta
 Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that contains information used by the operating system to identify a SCSI logical unit. 
 
 
-#### - handle [in]
+#### - statistics [out]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a> that holds the traffic statistics that the FCP protocol has collected for the indicated logical unit. 
 
 
 ## -returns
@@ -168,11 +168,11 @@ Statistics counters in HBA_FC4Statistics are 64-bit signed integers that wrap to
 
 <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

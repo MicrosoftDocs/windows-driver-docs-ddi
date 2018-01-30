@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName method, wdf.iwdffile2_retrievecountedfilename, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName method, IWDFFile2 interface, IWDFFile2, RetrieveCountedFileName, IWDFFile2 interface, RetrieveCountedFileName method, wudfddi/IWDFFile2::RetrieveCountedFileName, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml
+ms.keywords: IWDFFile2::RetrieveCountedFileName, wdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName method, IWDFFile2 interface, RetrieveCountedFileName, umdf.iwdffile2_retrievecountedfilename, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, RetrieveCountedFileName method, IWDFFile2, wudfddi/IWDFFile2::RetrieveCountedFileName, IWDFFile2 interface, RetrieveCountedFileName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFFile2.RetrieveCountedFileName
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

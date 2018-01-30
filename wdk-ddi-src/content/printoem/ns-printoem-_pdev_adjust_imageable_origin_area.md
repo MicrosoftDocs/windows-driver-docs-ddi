@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
-title: _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
+title: "_PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA"
 author: windows-driver-content
 description: The PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure specifies the imageable origin area.
 old-location: print\pdev_adjust_imageable_origin_area.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7b66ed24-64c2-49bc-a417-05fe11178b9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure pointer [Print Devices], print.pdev_adjust_imageable_origin_area, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure [Print Devices], printoem/PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, printoem/PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, print_unidrv-pscript_rendering_64db57fb-903d-411f-8106-b4c9a4c2a04e.xml
+ms.keywords: print.pdev_adjust_imageable_origin_area, printoem/PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, print_unidrv-pscript_rendering_64db57fb-903d-411f-8106-b4c9a4c2a04e.xml, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, printoem/PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure pointer [Print Devices], PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
 product: Windows
 targetos: Windows
-req.typenames: PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
+req.typenames: "*PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA"
 req.product: Windows 10 or later.
 ---
 

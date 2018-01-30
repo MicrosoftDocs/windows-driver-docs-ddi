@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6B97865A-D589-4116-8492-109BEEE93ECA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExTryConvertSharedSpinLockExclusive, ExTryConvertSharedSpinLockExclusive routine [Kernel-Mode Driver Architecture], ExTryConvertSharedSpinLockExclusive, kernel.extryconvertsharedspinlockexclusive_
+ms.keywords: ExTryConvertSharedSpinLockExclusive, kernel.extryconvertsharedspinlockexclusive_, wdm/ExTryConvertSharedSpinLockExclusive, ExTryConvertSharedSpinLockExclusive routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	ExTryConvertSharedSpinLockExclusive
 product: Windows
 targetos: Windows
@@ -90,11 +90,11 @@ If the caller acquired the shared spin lock by calling the <a href="https://msdn
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exreleasespinlockexclusive.md">ExReleaseSpinLockExclusive</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451058">ExReleaseSpinLockExclusiveFromDpcLevel</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451053">ExAcquireSpinLockShared</a>
-
-<a href="..\wdm\nf-wdm-exreleasespinlockexclusive.md">ExReleaseSpinLockExclusive</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451055">ExAcquireSpinLockSharedAtDpcLevel</a>
 

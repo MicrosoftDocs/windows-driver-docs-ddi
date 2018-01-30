@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a73cd67e-839a-403c-9968-313417eac25a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetRFState, rilapi/RIL_GetRFState, netvista.ril_getrfstate, RIL_GetRFState method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetRFState method [Network Drivers Starting with Windows Vista], RIL_GetRFState, netvista.ril_getrfstate, rilapi/RIL_GetRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetRFState
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47b1a263-f630-4348-893c-388cac4e511d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRI_REGISTRATION_LIST structure [Storage Devices], PRI_REGISTRATION_LIST, storport/PRI_REGISTRATION_LIST, storage.pri_registration_list, *PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST structure pointer [Storage Devices], storport/PPRI_REGISTRATION_LIST, structs-general_ad5a83a3-3ac6-4579-be4f-c24181e9d59e.xml, PPRI_REGISTRATION_LIST
+ms.keywords: storport/PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST structure pointer [Storage Devices], PPRI_REGISTRATION_LIST, structs-general_ad5a83a3-3ac6-4579-be4f-c24181e9d59e.xml, PRI_REGISTRATION_LIST structure [Storage Devices], storport/PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST, storage.pri_registration_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	PRI_REGISTRATION_LIST
 product: Windows
 targetos: Windows
-req.typenames: PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
+req.typenames: "*PPRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST"
 req.product: Windows 10 or later.
 ---
 

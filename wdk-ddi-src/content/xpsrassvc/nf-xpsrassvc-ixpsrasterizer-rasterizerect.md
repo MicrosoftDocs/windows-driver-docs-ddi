@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, RasterizeRect, xpsrassvc/IXpsRasterizer::RasterizeRect, IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, print.ixpsrasterizer_rasterizerect, RasterizeRect method [Print Devices], IXpsRasterizer::RasterizeRect, RasterizeRect method [Print Devices], IXpsRasterizer interface
+ms.keywords: IXpsRasterizer interface [Print Devices], RasterizeRect method, xpsrassvc/IXpsRasterizer::RasterizeRect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, RasterizeRect, IXpsRasterizer::RasterizeRect, IXpsRasterizer, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	xpsrassvc.h
-apiname: 
+apiname:
 -	IXpsRasterizer.RasterizeRect
 product: Windows
 targetos: Windows
@@ -166,11 +166,11 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
-
-<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
 
  
 

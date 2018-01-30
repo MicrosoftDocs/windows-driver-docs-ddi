@@ -209,12 +209,12 @@ After a profile driver obtains an SDP record, it can use SDP functions to parse 
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
+   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
 
-<mshelp:link keywords="bltooth.ioctl_bth_sdp_service_attribute_search" tabindex="0"><b>
-   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</b></mshelp:link>
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
  
 

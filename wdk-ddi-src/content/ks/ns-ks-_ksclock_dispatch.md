@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSCLOCK_DISPATCH
-title: _KSCLOCK_DISPATCH
+title: "_KSCLOCK_DISPATCH"
 author: windows-driver-content
 description: The KSCLOCK_DISPATCH structure contains the callbacks required for a pin to implement a clock object.
 old-location: stream\ksclock_dispatch.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], ks/KSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], stream.ksclock_dispatch, *PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml
+ms.keywords: PKSCLOCK_DISPATCH, stream.ksclock_dispatch, _KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], KSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSCLOCK_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
+req.typenames: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH"
 ---
 
 # _KSCLOCK_DISPATCH structure
@@ -69,39 +69,6 @@ typedef struct _KSCLOCK_DISPATCH {
 
 
 
-
-
-#### - Resolution
-
-A pointer to a function to specify the resolution of the clock. This corresponds to the KS property <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>. This function should report the granularity in terms of 100-nanosecond units. For more information, see the KS documentation on KSPROPERTY_CLOCK_RESOLUTION. 
-
-The function should be prototyped as follows:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    void Resolution (IN PKSPIN Pin,
-        OUT PKSRESOLUTION Resolution);</pre>
-</td>
-</tr>
-</table></span></div>
-
-#### - CorrelatedTime
-
-A pointer to a function to retrieve the current clock time and a correlated system time as an atomic operation. The function should be prototyped as follows:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  LONGLONG CorrelatedTime (IN PKSPIN Pin,
-    OUT PLONGLONG SystemTime);</pre>
-</td>
-</tr>
-</table></span></div>The current clock time should be returned and the current system time should be placed in <b>SystemTime</b>.
 
 
 #### - SetTimer
@@ -142,19 +109,52 @@ The function should be prototyped as follows:
 </table></span></div>See the documentation for <b>KeCancelTimer</b> for details on the implementation of this function. Any client implementation must behave in a similar manner.
 
 
+#### - CorrelatedTime
+
+A pointer to a function to retrieve the current clock time and a correlated system time as an atomic operation. The function should be prototyped as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  LONGLONG CorrelatedTime (IN PKSPIN Pin,
+    OUT PLONGLONG SystemTime);</pre>
+</td>
+</tr>
+</table></span></div>The current clock time should be returned and the current system time should be placed in <b>SystemTime</b>.
+
+
+#### - Resolution
+
+A pointer to a function to specify the resolution of the clock. This corresponds to the KS property <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>. This function should report the granularity in terms of 100-nanosecond units. For more information, see the KS documentation on KSPROPERTY_CLOCK_RESOLUTION. 
+
+The function should be prototyped as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    void Resolution (IN PKSPIN Pin,
+        OUT PKSRESOLUTION Resolution);</pre>
+</td>
+</tr>
+</table></span></div>
+
 ## -see-also
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
  
 

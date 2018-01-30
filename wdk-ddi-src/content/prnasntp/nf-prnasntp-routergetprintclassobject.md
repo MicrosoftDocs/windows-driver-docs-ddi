@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prnasntp/RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, print.routergetprintclassobject, RouterGetPrintClassObject
+ms.keywords: RouterGetPrintClassObject function [Print Devices], prnasntp/RouterGetPrintClassObject, print.routergetprintclassobject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, RouterGetPrintClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	RouterGetPrintClassObject
 product: Windows
 targetos: Windows

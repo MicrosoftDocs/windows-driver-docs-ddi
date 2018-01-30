@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_IDLE_EXECUTE
-title: _PEP_PPM_IDLE_EXECUTE
+title: "_PEP_PPM_IDLE_EXECUTE"
 author: windows-driver-content
 description: The PEP_PPM_IDLE_EXECUTE structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88BE0C4E-0607-48D6-B0E1-7B35BFD70AD4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_IDLE_EXECUTE, kernel.pep_ppm_idle_execute, *PPEP_PPM_IDLE_EXECUTE, pepfx/PPEP_PPM_IDLE_EXECUTE, _PEP_PPM_IDLE_EXECUTE, pepfx/PEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE, kernel.pep_ppm_idle_execute, PEP_PPM_IDLE_EXECUTE, pepfx/PPEP_PPM_IDLE_EXECUTE, pepfx/PEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_IDLE_EXECUTE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE
+req.typenames: PEP_PPM_IDLE_EXECUTE, *PPEP_PPM_IDLE_EXECUTE
 ---
 
 # _PEP_PPM_IDLE_EXECUTE structure

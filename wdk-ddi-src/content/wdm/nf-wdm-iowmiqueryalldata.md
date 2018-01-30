@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0efae7b-5a53-4f8a-b2d7-c30eefad7c90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, wdm/IoWMIQueryAllData, IoWMIQueryAllData, kernel.iowmiqueryalldata, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.iowmiqueryalldata, IoWMIQueryAllData, wdm/IoWMIQueryAllData, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMIQueryAllData
 product: Windows
 targetos: Windows
@@ -142,11 +142,11 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
 
  
 

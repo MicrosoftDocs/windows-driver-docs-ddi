@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-title: _DEVICE_WRITE_AGGREGATION_DESCRIPTOR
+title: "_DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\device_write_aggregation_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7AACFA1A-4B56-4B51-91B6-5FA30918E516
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices], DEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], storage.device_write_aggregation_descriptor
+ms.keywords: ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, storage.device_write_aggregation_descriptor, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR
+req.typenames: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
 ---
 
 # _DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure

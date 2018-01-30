@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, StorPortPoFxPowerControl, storport/StorPortPoFxPowerControl
+ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storport/StorPortPoFxPowerControl, storage.storportpofxpowercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Storport.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	storport.lib
 -	storport.dll
-apiname: 
+apiname:
 -	StorPortPoFxPowerControl
 product: Windows
 targetos: Windows
@@ -202,9 +202,9 @@ Similarly, The PEP can send a power control request directly to the miniport. Th
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
-
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+<a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
 
  
 

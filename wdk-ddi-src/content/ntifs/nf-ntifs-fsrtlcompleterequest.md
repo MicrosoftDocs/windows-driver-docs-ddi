@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd53d3c5-3a31-4ea9-9f16-0d1b9397f63e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCompleteRequest function [Installable File System Drivers], fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, ifsk.fsrtlcompleterequest, FsRtlCompleteRequest, ntifs/FsRtlCompleteRequest
+ms.keywords: ifsk.fsrtlcompleterequest, FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers], ntifs/FsRtlCompleteRequest, fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: ntifs.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlCompleteRequest
 product: Windows
 targetos: Windows

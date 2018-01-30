@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObUnRegisterCallbacks, k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
+ms.keywords: kernel.obunregistercallbacks, k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, wdm/ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObUnRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObUnRegisterCallbacks
 product: Windows
 targetos: Windows

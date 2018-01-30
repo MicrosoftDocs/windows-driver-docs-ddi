@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_FEATURE_REQUEST
-title: _URB_CONTROL_FEATURE_REQUEST
+title: "_URB_CONTROL_FEATURE_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_FEATURE_REQUEST structure is used by USB client drivers to set or clear features on a device, interface, or endpoint.
 old-location: buses\_urb_control_feature_request.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b32c6a7e-84c2-412a-a13e-959aaddc81ac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, buses._urb_control_feature_request, _URB_CONTROL_FEATURE_REQUEST
+ms.keywords: usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, buses._urb_control_feature_request, _URB_CONTROL_FEATURE_REQUEST structure [Buses], usb/_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_CONTROL_FEATURE_REQUEST
 product: Windows
 targetos: Windows
@@ -171,11 +171,11 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

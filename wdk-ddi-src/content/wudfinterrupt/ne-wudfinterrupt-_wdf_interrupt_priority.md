@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfinterrupt._WDF_INTERRUPT_PRIORITY
-title: _WDF_INTERRUPT_PRIORITY
+title: "_WDF_INTERRUPT_PRIORITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts.
 old-location: wdf\wdf_interrupt_priority_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/PWDF_INTERRUPT_PRIORITY, wudfinterrupt/WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, wudfinterrupt/WdfIrqPriorityUndefined, wudfinterrupt/WdfIrqPriorityHigh, wudfinterrupt/WdfIrqPriorityLow, umdf.wdf_interrupt_priority, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, _WDF_INTERRUPT_PRIORITY, WdfIrqPriorityUndefined, WdfIrqPriorityLow, wudfinterrupt/WdfIrqPriorityNormal, wdf.wdf_interrupt_priority_umdf, WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY enumeration pointer
+ms.keywords: wudfinterrupt/WdfIrqPriorityNormal, WdfIrqPriorityHigh, wudfinterrupt/WdfIrqPriorityHigh, wdf.wdf_interrupt_priority_umdf, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, *PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, _WDF_INTERRUPT_PRIORITY, wudfinterrupt/WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, wudfinterrupt/WdfIrqPriorityLow, WdfIrqPriorityLow, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, umdf.wdf_interrupt_priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 

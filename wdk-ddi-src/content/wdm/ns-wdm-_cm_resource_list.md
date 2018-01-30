@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_RESOURCE_LIST
-title: _CM_RESOURCE_LIST
+title: "_CM_RESOURCE_LIST"
 author: windows-driver-content
 description: The CM_RESOURCE_LIST structure specifies all of the system hardware resources assigned to a device.
 old-location: kernel\cm_resource_list.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01f31255-a4f7-4a16-9238-a7391bb850d1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.cm_resource_list, _CM_RESOURCE_LIST, CM_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], wdm/CM_RESOURCE_LIST, *PCM_RESOURCE_LIST, PCM_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], PCM_RESOURCE_LIST, wdm/PCM_RESOURCE_LIST, CM_RESOURCE_LIST, kstruct_a_29dadb2f-b0d2-41a4-b17e-f69c12b6def6.xml
+ms.keywords: CM_RESOURCE_LIST, *PCM_RESOURCE_LIST, PCM_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], kstruct_a_29dadb2f-b0d2-41a4-b17e-f69c12b6def6.xml, PCM_RESOURCE_LIST, CM_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], wdm/CM_RESOURCE_LIST, kernel.cm_resource_list, wdm/PCM_RESOURCE_LIST, _CM_RESOURCE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	CM_RESOURCE_LIST
 product: Windows
 targetos: Windows
@@ -105,27 +105,27 @@ Driver code can use pointer arithmetic to step from one full resource descriptor
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
+
+<a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-
-<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
+<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
 
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
 
-<a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
-
-<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
 <a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
 
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
 
-<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
  
 

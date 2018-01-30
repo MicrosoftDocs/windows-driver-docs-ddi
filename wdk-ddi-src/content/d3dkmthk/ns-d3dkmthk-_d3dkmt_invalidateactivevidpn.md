@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn, OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices]
+ms.keywords: display.d3dkmt_invalidateactivevidpn, OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], D3DKMT_INVALIDATEACTIVEVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

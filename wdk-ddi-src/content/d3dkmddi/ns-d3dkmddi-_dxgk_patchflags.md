@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, display.dxgk_patchflags, DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS
+ms.keywords: DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, DXGK_PATCHFLAGS structure [Display Devices], d3dkmddi/DXGK_PATCHFLAGS, _DXGK_PATCHFLAGS, display.dxgk_patchflags, DXGK_PATCHFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,11 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
 

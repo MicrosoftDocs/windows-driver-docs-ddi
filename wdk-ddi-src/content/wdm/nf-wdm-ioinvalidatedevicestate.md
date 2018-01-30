@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca27e8d3-80ee-467c-9c88-19770cd86d94
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], IoInvalidateDeviceState, k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, wdm/IoInvalidateDeviceState, kernel.ioinvalidatedevicestate
+ms.keywords: k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], IoInvalidateDeviceState, wdm/IoInvalidateDeviceState, kernel.ioinvalidatedevicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoInvalidateDeviceState
 product: Windows
 targetos: Windows

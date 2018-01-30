@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_key_mapping_key_value, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ms.keywords: windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, netvista.dot11_cipher_key_mapping_key_value, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+req.typenames: "*PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE"
 req.product: Windows 10 or later.
 ---
 
@@ -225,20 +225,20 @@ If the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
 <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
 
 <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
 
 <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
-
-<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
  
 

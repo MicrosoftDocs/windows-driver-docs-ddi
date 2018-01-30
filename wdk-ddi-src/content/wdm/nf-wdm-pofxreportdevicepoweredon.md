@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3138F5D7-CF7E-47B4-817C-AFF00C310AD5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxreportdevicepoweredon, wdm/PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], PoFxReportDevicePoweredOn
+ms.keywords: kernel.pofxreportdevicepoweredon, PoFxReportDevicePoweredOn, wdm/PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxReportDevicePoweredOn
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ On entry to <b>PoFxReportDevicePoweredOn</b>, the device might be in an uninitia
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
  
 

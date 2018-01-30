@@ -40,7 +40,7 @@ apiname:
 -	IDebugAdvanced2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced2 interface
@@ -119,9 +119,9 @@ Performs a variety of different operations.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
  
 

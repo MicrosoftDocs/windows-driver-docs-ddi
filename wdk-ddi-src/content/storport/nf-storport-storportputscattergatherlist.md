@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportputscattergatherlist, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml, StorPortPutScatterGatherList routine [Storage Devices], StorPortPutScatterGatherList, storport/StorPortPutScatterGatherList
+ms.keywords: storage.storportputscattergatherlist, StorPortPutScatterGatherList routine [Storage Devices], StorPortPutScatterGatherList, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml, storport/StorPortPutScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortPutScatterGatherList
 product: Windows
 targetos: Windows

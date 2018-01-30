@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a202530-7146-472d-9560-580871cd56ec
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, IDebugSymbolGroup2, IDebugSymbolGroup::GetNumberSymbols, GetNumberSymbols, debugger.getnumbersymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, GetNumberSymbols method [Windows Debugging], dbgeng/IDebugSymbolGroup::GetNumberSymbols, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup2::GetNumberSymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: GetNumberSymbols, debugger.getnumbersymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, dbgeng/IDebugSymbolGroup::GetNumberSymbols, IDebugSymbolGroup::GetNumberSymbols, IDebugSymbolGroup2::GetNumberSymbols, IDebugSymbolGroup2, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.GetNumberSymbols
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::GetNumberSymbols method

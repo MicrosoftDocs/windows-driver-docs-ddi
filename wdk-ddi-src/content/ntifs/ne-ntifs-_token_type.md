@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._TOKEN_TYPE
-title: _TOKEN_TYPE
+title: "_TOKEN_TYPE"
 author: windows-driver-content
 description: The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token.
 old-location: ifsk\token_type.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2ad78d17-9baa-45cf-a620-01c2ccd14338
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TOKEN_TYPE enumeration [Installable File System Drivers], ntifs/TokenImpersonation, *PTOKEN_TYPE, ntifs/TOKEN_TYPE, TOKEN_TYPE, TokenPrimary, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], _TOKEN_TYPE, ntifs/PTOKEN_TYPE, TokenImpersonation, ntifs/TokenPrimary, ifsk.token_type, PTOKEN_TYPE, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml
+ms.keywords: TokenPrimary, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], TOKEN_TYPE, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml, TOKEN_TYPE enumeration [Installable File System Drivers], ifsk.token_type, TokenImpersonation, ntifs/PTOKEN_TYPE, ntifs/TokenPrimary, ntifs/TOKEN_TYPE, _TOKEN_TYPE, *PTOKEN_TYPE, ntifs/TokenImpersonation, PTOKEN_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	TOKEN_TYPE
 product: Windows
 targetos: Windows
@@ -82,13 +82,13 @@ Indicates an impersonation token.
 
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
  
 

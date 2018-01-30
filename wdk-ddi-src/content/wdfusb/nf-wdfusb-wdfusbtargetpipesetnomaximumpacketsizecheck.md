@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 552eaf46-1710-4df5-bdc3-0fa7ce3adf54
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, PFN_WDFUSBTARGETPIPESETNOMAXIMUMPACKETSIZECHECK, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method
+ms.keywords: WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, PFN_WDFUSBTARGETPIPESETNOMAXIMUMPACKETSIZECHECK, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

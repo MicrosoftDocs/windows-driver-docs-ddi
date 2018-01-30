@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._CREATE_DISK
-title: _CREATE_DISK
+title: "_CREATE_DISK"
 author: windows-driver-content
 description: The CREATE_DISK structure is used with the IOCTL_DISK_CREATE_DISK IOCTL to initialize a disk with an empty partition table. The partition table styles are master boot record (MBR) or GUID partition table (GPT).
 old-location: storage\create_disk.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CREATE_DISK, storage.create_disk, CREATE_DISK, CREATE_DISK structure [Storage Devices], ntdddisk/PCREATE_DISK, PCREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, *PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], ntdddisk/CREATE_DISK
+ms.keywords: "*PCREATE_DISK, storage.create_disk, PCREATE_DISK, ntdddisk/CREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], _CREATE_DISK, CREATE_DISK structure [Storage Devices], CREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, ntdddisk/PCREATE_DISK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	CREATE_DISK
 product: Windows
 targetos: Windows
-req.typenames: *PCREATE_DISK, CREATE_DISK
+req.typenames: "*PCREATE_DISK, CREATE_DISK"
 ---
 
 # _CREATE_DISK structure
@@ -105,11 +105,11 @@ Contains data used to initialize a GPT-style disk partition for the first time. 
 
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
 
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
  
 

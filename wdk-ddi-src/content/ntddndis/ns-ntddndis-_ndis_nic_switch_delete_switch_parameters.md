@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
-title: _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
+title: "_NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure specifies the information about the network adapter switch that will be deleted from the network adapter.
 old-location: netvista\ndis_nic_switch_delete_switch_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 859D6DA7-5945-44FA-8DDC-99EBD97883D2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, netvista.ndis_nic_switch_delete_switch_parameters
+ms.keywords: NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, netvista.ndis_nic_switch_delete_switch_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
+req.typenames: "*PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS"
 ---
 
 # _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure
@@ -78,6 +78,13 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+#### NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_PARAMETERS_REVISION_1.
+
+
 ### -field Flags
 
  A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
@@ -89,13 +96,6 @@ An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch ident
 
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, SR-IOV only supports the default network adapter switch on the network adapter. This member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
-
-##### - Header.NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_PARAMETERS_REVISION_1.
-
 
 ## -remarks
 

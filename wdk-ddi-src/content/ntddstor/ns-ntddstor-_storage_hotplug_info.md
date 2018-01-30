@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HOTPLUG_INFO
-title: _STORAGE_HOTPLUG_INFO
+title: "_STORAGE_HOTPLUG_INFO"
 author: windows-driver-content
 description: The STORAGE_HOTPLUG_INFO structure provides hotplug information for a device.
 old-location: storage\storage_hotplug_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dcfd5a42-cb76-4386-9f8f-98e0a217c49a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_HOTPLUG_INFO structure [Storage Devices], *PSTORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], ntddstor/STORAGE_HOTPLUG_INFO, _STORAGE_HOTPLUG_INFO, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml, storage.storage_hotplug_info, PSTORAGE_HOTPLUG_INFO
+ms.keywords: PSTORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure [Storage Devices], storage.storage_hotplug_info, ntddstor/STORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], *PSTORAGE_HOTPLUG_INFO, _STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_HOTPLUG_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO
+req.typenames: "*PSTORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO"
 ---
 
 # _STORAGE_HOTPLUG_INFO structure

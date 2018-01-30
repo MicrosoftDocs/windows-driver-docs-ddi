@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 52b1c590-a62b-4e27-a267-1862cb76e6d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient::StartServer, dbgeng/IDebugClient5::StartServer, IDebugClient2 interface [Windows Debugging], StartServer method, IDebugClient4::StartServer, StartServer, StartServer method [Windows Debugging], IDebugClient4 interface, StartServer method [Windows Debugging], IDebugClient5, debugger.startserver, IDebugClient interface [Windows Debugging], StartServer method, dbgeng/IDebugClient2::StartServer, StartServer method [Windows Debugging], IDebugClient5 interface, StartServer method [Windows Debugging], IDebugClient interface, StartServer method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient4::StartServer, IDebugClient_5ca142fb-bb02-4484-adf0-9337f53d0bdc.xml, IDebugClient4 interface [Windows Debugging], StartServer method, StartServer method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient3::StartServer, IDebugClient5::StartServer, IDebugClient3::StartServer, IDebugClient5 interface [Windows Debugging], StartServer method, IDebugClient3 interface [Windows Debugging], StartServer method, IDebugClient2::StartServer, dbgeng/IDebugClient::StartServer
+ms.keywords: IDebugClient4::StartServer, debugger.startserver, IDebugClient_5ca142fb-bb02-4484-adf0-9337f53d0bdc.xml, IDebugClient4 interface [Windows Debugging], StartServer method, StartServer method [Windows Debugging], IDebugClient5 interface, IDebugClient5::StartServer, IDebugClient interface [Windows Debugging], StartServer method, IDebugClient3::StartServer, dbgeng/IDebugClient3::StartServer, dbgeng/IDebugClient2::StartServer, dbgeng/IDebugClient5::StartServer, dbgeng/IDebugClient4::StartServer, StartServer method [Windows Debugging], IDebugClient interface, StartServer, IDebugClient3 interface [Windows Debugging], StartServer method, StartServer method [Windows Debugging], IDebugClient3 interface, StartServer method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], StartServer method, IDebugClient2::StartServer, IDebugClient5 interface [Windows Debugging], StartServer method, IDebugClient::StartServer, StartServer method [Windows Debugging], dbgeng/IDebugClient::StartServer, StartServer method [Windows Debugging], IDebugClient4 interface, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.StartServer
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::StartServer method
@@ -111,21 +111,21 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
 
  
 

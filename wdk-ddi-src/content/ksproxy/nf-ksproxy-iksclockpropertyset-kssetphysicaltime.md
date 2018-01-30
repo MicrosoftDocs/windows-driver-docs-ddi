@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2f8eb011-1fe1-40f6-b833-50d3e853bffd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetPhysicalTime, IKsClockPropertySet::KsSetPhysicalTime, KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, IKsClockPropertySet, KsSetPhysicalTime method [Streaming Media Devices], stream.iksclockpropertyset_kssetphysicaltime, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml
+ms.keywords: KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet, KsSetPhysicalTime, IKsClockPropertySet::KsSetPhysicalTime, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, stream.iksclockpropertyset_kssetphysicaltime, ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, KsSetPhysicalTime method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsSetPhysicalTime
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559742">IKsClockPropertySet::KsGetPhysicalTime</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1ad3b45-c89c-4990-a47b-20e47c05892a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPseudoValues method [Windows Debugging], IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, debugger.getpseudovalues, GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetPseudoValues, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, dbgeng/IDebugRegisters2::GetPseudoValues, GetPseudoValues, IDebugRegisters2
+ms.keywords: dbgeng/IDebugRegisters2::GetPseudoValues, debugger.getpseudovalues, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, GetPseudoValues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, IDebugRegisters2::GetPseudoValues, GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, GetPseudoValues method [Windows Debugging], IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetPseudoValues
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetPseudoValues method
@@ -169,9 +169,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
-
 <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 

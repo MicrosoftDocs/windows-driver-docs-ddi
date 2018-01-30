@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorClassExtension, sensors.isensorclassextension_processiocontrol, ISensorClassExtension::ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl
+ms.keywords: sensors.isensorclassextension_processiocontrol, ISensorClassExtension::ProcessIoControl, ProcessIoControl method [Sensor Devices], ISensorClassExtension, ProcessIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	ProcessIoControl
 product: Windows
 targetos: Windows

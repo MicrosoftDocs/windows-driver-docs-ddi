@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, IoCancelIrp, kernel.iocancelirp, wdm/IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoCancelIrp routine [Kernel-Mode Driver Architecture], k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, wdm/IoCancelIrp, kernel.iocancelirp, IoCancelIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoCancelIrp
 product: Windows
 targetos: Windows

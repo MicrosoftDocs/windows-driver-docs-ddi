@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_CHANGED_VALUE_INFO
-title: _WIAS_CHANGED_VALUE_INFO
+title: "_WIAS_CHANGED_VALUE_INFO"
 author: windows-driver-content
 description: The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous values of a property.
 old-location: image\wias_changed_value_info.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bfef9d54-fcd5-436b-b3ec-8cd3b8f38360
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], wiamindr_lh/WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml, WIAS_CHANGED_VALUE_INFO, _WIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info
+ms.keywords: wiamindr_lh/WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO, _WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml, image.wias_changed_value_info, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], *PWIAS_CHANGED_VALUE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	WIAS_CHANGED_VALUE_INFO
 product: Windows
 targetos: Windows
@@ -168,15 +168,15 @@ The <b>wiasGetChangedValue</b><i>Xxx</i> functions, use this structure to determ
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, IWDFUsbTargetPipe2, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, umdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, ConfigureContinuousReader method
+ms.keywords: ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, IWDFUsbTargetPipe2, umdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, ConfigureContinuousReader method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetPipe2.ConfigureContinuousReader
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -212,11 +212,11 @@ For more information about the <b>ConfigureContinuousReader</b> method and USB I
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 

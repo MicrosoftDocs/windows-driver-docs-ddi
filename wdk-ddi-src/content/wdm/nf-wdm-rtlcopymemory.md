@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCopyMemory, wdm/RtlCopyMemory, kernel.rtlcopymemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], RtlCopyBytes, k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml
+ms.keywords: RtlCopyBytes, wdm/RtlCopyMemory, RtlCopyMemory, k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-Rtlsupport-l1-1-0.dll
-apiname: 
+apiname:
 -	RtlCopyMemory
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltCancelFileOpen, FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], ifsk.fltcancelfileopen, FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml
+ms.keywords: FltCancelFileOpen, FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, ifsk.fltcancelfileopen, fltkernel/FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltCancelFileOpen
 product: Windows
 targetos: Windows
@@ -111,23 +111,23 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
-<a href="..\ntddk\nf-ntddk-iocancelfileopen.md">IoCancelFileOpen</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+<a href="..\ntddk\nf-ntddk-iocancelfileopen.md">IoCancelFileOpen</a>
 
  
 

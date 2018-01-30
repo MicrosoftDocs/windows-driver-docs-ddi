@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	IsWriteProtected
 product: Windows
 targetos: Windows

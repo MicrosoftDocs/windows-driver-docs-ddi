@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 08fbcc15-f40f-46de-b3ff-603bc1476d97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, display.d3dddicb_signalsynchronizationobject"
+ms.keywords: display.d3dddicb_signalsynchronizationobject, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

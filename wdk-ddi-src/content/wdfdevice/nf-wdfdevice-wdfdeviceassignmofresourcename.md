@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4ab0a7b-9c5a-4295-94fc-35310ca8e05b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceAssignMofResourceName, kmdf.wdfdeviceassignmofresourcename, wdf.wdfdeviceassignmofresourcename, WdfDeviceAssignMofResourceName, DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, PFN_WDFDEVICEASSIGNMOFRESOURCENAME, WdfDeviceAssignMofResourceName method
+ms.keywords: DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, kmdf.wdfdeviceassignmofresourcename, WdfDeviceAssignMofResourceName, wdf.wdfdeviceassignmofresourcename, WdfDeviceAssignMofResourceName method, PFN_WDFDEVICEASSIGNMOFRESOURCENAME, wdfdevice/WdfDeviceAssignMofResourceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceAssignMofResourceName
 product: Windows
 targetos: Windows

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	mrx.h
-apiname: 
+apiname:
 -	MRxComputeNewBufferingState
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # PMRX_COMPUTE_NEW_BUFFERING_STATE callback
@@ -122,9 +122,9 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
 
  
 

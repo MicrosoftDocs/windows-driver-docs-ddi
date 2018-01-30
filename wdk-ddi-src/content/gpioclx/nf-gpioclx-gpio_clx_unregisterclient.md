@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 2ECBF3D9-F613-4829-B2E0-FF5E21A596EC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO.gpio_clx_unregisterclient, GPIO_CLX_UnregisterClient, gpioclx/GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient method [Parallel Ports]
+ms.keywords: GPIO.gpio_clx_unregisterclient, GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient method [Parallel Ports], gpioclx/GPIO_CLX_UnregisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ The caller is not a registered client of GpioClx.
 
 A GPIO controller driver calls this method to cancel its registration. The driver registered in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a> method.
 
-Typically, the GPIO controller driver calls this method from its <a href="https://msdn.microsoft.com/2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0">EvtDriverUnload</a> event callback function, which runs shortly before the driver unloads.
+Typically, the GPIO controller driver calls this method from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a> event callback function, which runs shortly before the driver unloads.
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
-<a href="https://msdn.microsoft.com/2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0">EvtDriverUnload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
  
 

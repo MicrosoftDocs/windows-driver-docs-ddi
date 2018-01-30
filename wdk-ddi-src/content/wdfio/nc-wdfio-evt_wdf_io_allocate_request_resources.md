@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdfio.h
-apiname: 
+apiname:
 -	EvtIoAllocateRequestResources
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
+req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -112,9 +112,9 @@ This callback function can be called at IRQL &lt;= DISPATCH_LEVEL. If the IRQL i
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
 
  
 

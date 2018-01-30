@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice, wudfddi/IWDFDevice::CreateDeviceInterface, CreateDeviceInterface method, IWDFDevice interface, CreateDeviceInterface method, CreateDeviceInterface, wdf.iwdfdevice_createdeviceinterface, IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, CreateDeviceInterface method, IWDFDevice interface, umdf.iwdfdevice_createdeviceinterface
+ms.keywords: wudfddi/IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, CreateDeviceInterface method, wdf.iwdfdevice_createdeviceinterface, IWDFDevice, IWDFDevice::CreateDeviceInterface, umdf.iwdfdevice_createdeviceinterface, CreateDeviceInterface method, IWDFDevice interface, IWDFDevice interface, CreateDeviceInterface method, CreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.CreateDeviceInterface
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -101,9 +101,9 @@ For more information about device interfaces, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

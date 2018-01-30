@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79edb8b3-24a1-4dc0-b816-f78bbc888d3a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReleaseRemoveLockAndWait routine [Kernel-Mode Driver Architecture], k104_bcbaa84f-6216-4ea4-9527-fb7e62d323a3.xml, IoReleaseRemoveLockAndWait, kernel.ioreleaseremovelockandwait, wdm/IoReleaseRemoveLockAndWait
+ms.keywords: k104_bcbaa84f-6216-4ea4-9527-fb7e62d323a3.xml, IoReleaseRemoveLockAndWait, IoReleaseRemoveLockAndWait routine [Kernel-Mode Driver Architecture], wdm/IoReleaseRemoveLockAndWait, kernel.ioreleaseremovelockandwait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReleaseRemoveLockAndWait
 product: Windows
 targetos: Windows
@@ -104,19 +104,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>
+
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+
 <a href="..\wdm\nf-wdm-ioacquireremovelock.md">IoAcquireRemoveLock</a>
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>
+<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543341">DispatchPnp</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
 
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543341">DispatchPnp</a>
-
-<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
 
  
 

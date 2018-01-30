@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42167f2f-0bd5-452c-9b41-d18efac28a33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgetdriverversionparams, RILGETDRIVERVERSIONPARAMS, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETDRIVERVERSIONPARAMS
+ms.keywords: "*LPRILGETDRIVERVERSIONPARAMS, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, netvista.rilgetdriverversionparams, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILGETDRIVERVERSIONPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS
+req.typenames: "*LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS"
 ---
 
 # RILGETDRIVERVERSIONPARAMS structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_CHALLENGE_KEY
-title: _AACS_CHALLENGE_KEY
+title: "_AACS_CHALLENGE_KEY"
 author: windows-driver-content
 description: The AACS_CHALLENGE_KEY structure contains the challenge key that the device sends to the host.
 old-location: storage\aacs_challenge_key.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1eb7978-cbfc-4ffd-b345-a320e9152f03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAACS_CHALLENGE_KEY structure pointer [Storage Devices], *PAACS_CHALLENGE_KEY, ntddcdvd/AACS_CHALLENGE_KEY, _AACS_CHALLENGE_KEY, structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml, AACS_CHALLENGE_KEY structure [Storage Devices], ntddcdvd/PAACS_CHALLENGE_KEY, storage.aacs_challenge_key, PAACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY
+ms.keywords: ntddcdvd/AACS_CHALLENGE_KEY, *PAACS_CHALLENGE_KEY, PAACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY structure [Storage Devices], PAACS_CHALLENGE_KEY structure pointer [Storage Devices], structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml, ntddcdvd/PAACS_CHALLENGE_KEY, _AACS_CHALLENGE_KEY, storage.aacs_challenge_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	AACS_CHALLENGE_KEY
 product: Windows
 targetos: Windows
-req.typenames: AACS_CHALLENGE_KEY, *PAACS_CHALLENGE_KEY
+req.typenames: "*PAACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY"
 ---
 
 # _AACS_CHALLENGE_KEY structure

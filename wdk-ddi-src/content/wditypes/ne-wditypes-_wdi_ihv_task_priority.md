@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_IHV_TASK_PRIORITY
-title: _WDI_IHV_TASK_PRIORITY
+title: "_WDI_IHV_TASK_PRIORITY"
 author: windows-driver-content
 description: The WDI_IHV_TASK_PRIORITY enumeration defines IHV task priorities.
 old-location: netvista\wdi_ihv_task_priority.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 606CF45C-5398-4157-92A7-382B6162D806
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_ihv_task_priority, WDI_IHV_TASK_PRIORITY, WDI_IHV_TASK_PRIORITY enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY, _WDI_IHV_TASK_PRIORITY, WDI_IHV_TASK_PRIORITY_LOW, wditypes/WDI_IHV_TASK_PRIORITY_MEDIUM, wditypes/WDI_IHV_TASK_PRIORITY_LOW, netvista.wifi_ihv_task_priority, WDI_IHV_TASK_PRIORITY_MEDIUM, WDI_IHV_TASK_PRIORITY_HIGH
+ms.keywords: WDI_IHV_TASK_PRIORITY enumeration [Network Drivers Starting with Windows Vista], WDI_IHV_TASK_PRIORITY_MEDIUM, netvista.wdi_ihv_task_priority, WDI_IHV_TASK_PRIORITY, wditypes/WDI_IHV_TASK_PRIORITY_MEDIUM, WDI_IHV_TASK_PRIORITY_LOW, _WDI_IHV_TASK_PRIORITY, netvista.wifi_ihv_task_priority, wditypes/WDI_IHV_TASK_PRIORITY_LOW, WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_IHV_TASK_PRIORITY
 product: Windows
 targetos: Windows

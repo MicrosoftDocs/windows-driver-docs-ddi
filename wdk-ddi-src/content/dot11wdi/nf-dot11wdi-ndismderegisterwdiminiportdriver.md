@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6B2B0A88-9F63-4A68-894B-38424FBE161E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterwdiminiportdriver, NdisMDeregisterWdiMiniportDriver
+ms.keywords: NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver, dot11wdi/NdisMDeregisterWdiMiniportDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDeregisterWdiMiniportDriver
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartInput method [Windows Debugging], IDebugInputCallbacks interface, IDebugInputCallbacks, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput, ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, StartInput method [Windows Debugging], StartInput, IDebugInputCallbacks::StartInput, IDebugInputCallbacks interface [Windows Debugging], StartInput method
+ms.keywords: StartInput, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput, StartInput method [Windows Debugging], IDebugInputCallbacks interface, IDebugInputCallbacks interface [Windows Debugging], StartInput method, StartInput method [Windows Debugging], ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks, IDebugInputCallbacks::StartInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugInputCallbacks.StartInput
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugInputCallbacks::StartInput method

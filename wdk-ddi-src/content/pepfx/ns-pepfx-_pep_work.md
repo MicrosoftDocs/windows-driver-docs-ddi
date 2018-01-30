@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_WORK
-title: _PEP_WORK
+title: "_PEP_WORK"
 author: windows-driver-content
 description: The PEP_WORK structure indicates whether the PEP has a work request to submit to the Windows power management framework (PoFx).
 old-location: kernel\pep_work.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_WORK, *PPEP_WORK, PPEP_WORK, pepfx/PEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work
+ms.keywords: PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], PEP_WORK structure [Kernel-Mode Driver Architecture], pepfx/PEP_WORK, *PPEP_WORK, kernel.pep_work, PPEP_WORK, PEP_WORK, _PEP_WORK, pepfx/PPEP_WORK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_WORK
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK, PEP_WORK
+req.typenames: "*PPEP_WORK, PEP_WORK"
 ---
 
 # _PEP_WORK structure

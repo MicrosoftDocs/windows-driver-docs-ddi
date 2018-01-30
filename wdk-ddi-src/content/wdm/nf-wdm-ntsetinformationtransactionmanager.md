@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a1e2f40f-5aea-4c8b-8692-95721ad4bc9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, kernel.ntsetinformationtransactionmanager, NtSetInformationTransactionManager
+ms.keywords: wdm/NtSetInformationTransactionManager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	NtSetInformationTransactionManager
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020, D3D12DDI_VIDEO_PROCESS_PALETTE_0020, display.d3d12ddi_video_process_palette, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices]
+ms.keywords: D3D12DDI_VIDEO_PROCESS_PALETTE_0020, display.d3d12ddi_video_process_palette, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

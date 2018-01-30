@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfworkitem/WdfWorkItemEnqueue, WdfWorkItemEnqueue method, DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, wdf.wdfworkitemenqueue, kmdf.wdfworkitemenqueue, PFN_WDFWORKITEMENQUEUE, WdfWorkItemEnqueue
+ms.keywords: kmdf.wdfworkitemenqueue, PFN_WDFWORKITEMENQUEUE, WdfWorkItemEnqueue method, WdfWorkItemEnqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue, DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfWorkItemEnqueue
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
+req.typenames: "*PWDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -108,13 +108,13 @@ For more information about work items, see <a href="https://docs.microsoft.com/e
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
-<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
-
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
  
 

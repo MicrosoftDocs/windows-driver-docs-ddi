@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ifsk.secmakespn, ntifs/SecMakeSPN
+ms.keywords: ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ifsk.secmakespn, SecMakeSPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ksecdd.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ksecdd.lib
 -	Ksecdd.dll
-apiname: 
+apiname:
 -	SecMakeSPN
 product: Windows
 targetos: Windows
@@ -100,14 +100,9 @@ A pointer to a Unicode string for storing the security service provider name str
 A Boolean variable indicating if the memory for storing the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is true, memory for <i>Spn</i> will be allocated from paged pool.
 
 
-#### - Length [out]
+#### - InstanceName [in]
 
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
-
-
-#### - Referrer [in]
-
-A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
+A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
 
 
 #### - InstancePort [in]
@@ -115,9 +110,14 @@ A pointer to an optional Unicode string specifying the referrer name for connect
 An optional variable specifying the instance port for connecting with the security service provider. 
 
 
-#### - InstanceName [in]
+#### - Referrer [in]
 
-A pointer to an optional Unicode string specifying the instance name for connecting with the security service provider. 
+A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
+
+
+#### - Length [out]
+
+A pointer to an optional variable for storing the length of the security service provider name string created by this function.
 
 
 ## -returns

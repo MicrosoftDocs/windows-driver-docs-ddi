@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddser.h
-apiname: 
+apiname:
 -	IOCTL_SERENUM_GET_PORT_NAME
 product: Windows
 targetos: Windows
@@ -108,14 +108,14 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
-
-The output buffer is too small to hold the port name string.
-
-
 #### -STATUS_SUCCESS
 
 The request completed successfully.
+
+
+#### -STATUS_BUFFER_TOO_SMALL
+
+The output buffer is too small to hold the port name string.
 
 
 #### -STATUS_UNSUCCESSFUL

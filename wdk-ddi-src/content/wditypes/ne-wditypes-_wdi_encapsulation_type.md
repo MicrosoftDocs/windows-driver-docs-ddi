@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ENCAPSULATION_TYPE
-title: _WDI_ENCAPSULATION_TYPE
+title: "_WDI_ENCAPSULATION_TYPE"
 author: windows-driver-content
 description: The WDI_ENCAPSULATION_TYPE enumeration defines the Wi-Fi encapsulation types.
 old-location: netvista\wdi_encapsulation_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6EDCC69B-F156-416B-9824-5E26F9834D14
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_802_1H, netvista.wdi_encapsulation_type, WDI_ENCAPSULATION_RFC_1042, wditypes/WDI_ENCAPSULATION_RFC_1042, wditypes/WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], _WDI_ENCAPSULATION_TYPE, netvista.wifi_encapsulation_type, wditypes/WDI_ENCAPSULATION_802_1H
+ms.keywords: wditypes/WDI_ENCAPSULATION_802_1H, WDI_ENCAPSULATION_RFC_1042, netvista.wdi_encapsulation_type, wditypes/WDI_ENCAPSULATION_TYPE, wditypes/WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_802_1H, _WDI_ENCAPSULATION_TYPE, netvista.wifi_encapsulation_type, WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_ENCAPSULATION_TYPE
 product: Windows
 targetos: Windows

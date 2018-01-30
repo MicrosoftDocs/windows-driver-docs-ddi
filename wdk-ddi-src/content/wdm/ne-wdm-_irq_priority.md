@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IRQ_PRIORITY
-title: _IRQ_PRIORITY
+title: "_IRQ_PRIORITY"
 author: windows-driver-content
 description: The IRQ_PRIORITY enumeration type indicates the priority the system should give to servicing a device's interrupts.
 old-location: kernel\irq_priority.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, PIRQ_PRIORITY, IrqPriorityUndefined, wdm/IrqPriorityLow, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityLow, IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/IrqPriorityHigh, wdm/PIRQ_PRIORITY, kernel.irq_priority, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], IrqPriorityHigh, *PIRQ_PRIORITY, _IRQ_PRIORITY, wdm/IrqPriorityNormal, IRQ_PRIORITY, wdm/IRQ_PRIORITY
+ms.keywords: wdm/IrqPriorityLow, IrqPriorityNormal, kernel.irq_priority, wdm/PIRQ_PRIORITY, IrqPriorityLow, IrqPriorityHigh, PIRQ_PRIORITY, wdm/IRQ_PRIORITY, wdm/IrqPriorityUndefined, wdm/IrqPriorityNormal, *PIRQ_PRIORITY, IrqPriorityUndefined, _IRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IRQ_PRIORITY, wdm/IrqPriorityHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IRQ_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: *PIRQ_PRIORITY, IRQ_PRIORITY
+req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f0473975-7ab6-46ba-bdb7-eb227e6bc258
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml, RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, RtlSetGroupSecurityDescriptor, ntifs/RtlSetGroupSecurityDescriptor
+ms.keywords: RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ntifs/RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor, ifsk.rtlsetgroupsecuritydescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlSetGroupSecurityDescriptor
 product: Windows
 targetos: Windows
@@ -133,15 +133,15 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\nf-ntifs-rtlgetgroupsecuritydescriptor.md">RtlGetGroupSecurityDescriptor</a>
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556619">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="..\ntifs\nf-ntifs-rtlgetgroupsecuritydescriptor.md">RtlGetGroupSecurityDescriptor</a>
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
 
  
 

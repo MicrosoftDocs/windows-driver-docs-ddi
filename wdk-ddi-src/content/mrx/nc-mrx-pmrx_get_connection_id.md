@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	mrx.h
-apiname: 
+apiname:
 -	MRxGetConnectionId
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # PMRX_GET_CONNECTION_ID callback
@@ -116,9 +116,9 @@ If connection IDs are supported by the network mini-redirector, then the returne
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549856">MRxComputeNewBufferingState</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549856">MRxComputeNewBufferingState</a>
 
  
 

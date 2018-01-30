@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_CERTIFICATE
-title: _AACS_CERTIFICATE
+title: "_AACS_CERTIFICATE"
 author: windows-driver-content
 description: The AACS_CERTIFICATE structure contains a cryptographically random 160-bit value, followed by a 92-byte certificate.
 old-location: storage\aacs_certificate.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 591d8f63-ab3e-48b7-8fe4-98dcdf9464f1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAACS_CERTIFICATE, storage.aacs_certificate, AACS_CERTIFICATE, *PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], ntddcdvd/PAACS_CERTIFICATE, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, ntddcdvd/AACS_CERTIFICATE, _AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices]
+ms.keywords: structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, AACS_CERTIFICATE, *PAACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, _AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], storage.aacs_certificate, PAACS_CERTIFICATE structure pointer [Storage Devices], PAACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	AACS_CERTIFICATE
 product: Windows
 targetos: Windows
-req.typenames: *PAACS_CERTIFICATE, AACS_CERTIFICATE
+req.typenames: AACS_CERTIFICATE, *PAACS_CERTIFICATE
 ---
 
 # _AACS_CERTIFICATE structure

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5719dfa-e48a-4f81-8344-31b349fadb48
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerGetStatus function [Storage Devices], chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, ChangerGetStatus, storage.changergetstatus, mcd/ChangerGetStatus
+ms.keywords: ChangerGetStatus function [Storage Devices], ChangerGetStatus, mcd/ChangerGetStatus, storage.changergetstatus, chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerGetStatus
 product: Windows
 targetos: Windows

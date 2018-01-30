@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._EXTCHKBOX
-title: _EXTCHKBOX
+title: "_EXTCHKBOX"
 author: windows-driver-content
 description: The EXTCHKBOX structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended check box, which can be added to a property sheet page option.
 old-location: print\extchkbox.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/EXTCHKBOX, print.extchkbox, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], _EXTCHKBOX, EXTCHKBOX structure [Print Devices], *PEXTCHKBOX, compstui/PEXTCHKBOX, EXTCHKBOX
+ms.keywords: PEXTCHKBOX, EXTCHKBOX, _EXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, EXTCHKBOX structure [Print Devices], print.extchkbox, compstui/PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], *PEXTCHKBOX, compstui/EXTCHKBOX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	EXTCHKBOX
 product: Windows
 targetos: Windows
-req.typenames: EXTCHKBOX, *PEXTCHKBOX
+req.typenames: "*PEXTCHKBOX, EXTCHKBOX"
 ---
 
 # _EXTCHKBOX structure
@@ -98,6 +98,47 @@ Bit flags, which can be one of the following:
 
 
 
+#### ECBF_CHECKNAME_AT_FRONT
+
+If set, CPSUI displays strings in the order "pCheckedName pSeparator <i>SelectName</i>", where <i>SelectName</i> is the string associated with the option's selected value.
+
+If not set, CPSUI displays strings in the order "<i>SelectName</i> pSeparator pCheckedName".
+
+
+#### ECBF_CHECKNAME_ONLY_ENABLED
+
+If set, CPSUI displays the pCheckedName string only if the option is checked and enabled (that is, OPTIF_ECB_CHECKED is set and OPTIF_DISABLED is clear in the OPTITEM structure).
+
+If not set, CPSUI always displays the pCheckedName string if the option is checked (that is, OPTIF_ECB_CHECKED is set in the OPTITEM structure), even if the option is disabled.
+
+
+#### ECBF_ICONID_AS_HICON
+
+If set, the <b>IconID</b> member contains an icon handle.
+
+If not set, the <b>IconID</b> member contains an icon resource identifier.
+
+
+#### ECBF_OVERLAY_ECBICON_IF_CHECKED
+
+If set, and if the check box is checked (that is, OPTIF_ECB_CHECKED is set in the OPTITEM structure), CPSUI overlays the icon identified by the <b>IconID</b> member onto the icon associated with the option item.
+
+
+#### ECBF_OVERLAY_NO_ICON
+
+If set, CPSUI overlays its IDI_CPSUI_NO icon onto the icon identified by the <b>IconID</b> member.
+
+
+#### ECBF_OVERLAY_STOP_ICON
+
+If set, CPSUI overlays the IDI_CPSUI_STOP icon onto the icon identified by the <b>IconID</b> member.
+
+
+#### ECBF_OVERLAY_WARNING_ICON
+
+If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon identified by the <b>IconID</b> member.
+
+
 ### -field pTitle
 
 String identifier, representing the check box title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
@@ -136,47 +177,6 @@ Reserved, must be initialized to zero.
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
-
-
-##### - Flags.ECBF_OVERLAY_STOP_ICON
-
-If set, CPSUI overlays the IDI_CPSUI_STOP icon onto the icon identified by the <b>IconID</b> member.
-
-
-##### - Flags.ECBF_OVERLAY_ECBICON_IF_CHECKED
-
-If set, and if the check box is checked (that is, OPTIF_ECB_CHECKED is set in the OPTITEM structure), CPSUI overlays the icon identified by the <b>IconID</b> member onto the icon associated with the option item.
-
-
-##### - Flags.ECBF_CHECKNAME_ONLY_ENABLED
-
-If set, CPSUI displays the pCheckedName string only if the option is checked and enabled (that is, OPTIF_ECB_CHECKED is set and OPTIF_DISABLED is clear in the OPTITEM structure).
-
-If not set, CPSUI always displays the pCheckedName string if the option is checked (that is, OPTIF_ECB_CHECKED is set in the OPTITEM structure), even if the option is disabled.
-
-
-##### - Flags.ECBF_OVERLAY_NO_ICON
-
-If set, CPSUI overlays its IDI_CPSUI_NO icon onto the icon identified by the <b>IconID</b> member.
-
-
-##### - Flags.ECBF_ICONID_AS_HICON
-
-If set, the <b>IconID</b> member contains an icon handle.
-
-If not set, the <b>IconID</b> member contains an icon resource identifier.
-
-
-##### - Flags.ECBF_CHECKNAME_AT_FRONT
-
-If set, CPSUI displays strings in the order "pCheckedName pSeparator <i>SelectName</i>", where <i>SelectName</i> is the string associated with the option's selected value.
-
-If not set, CPSUI displays strings in the order "<i>SelectName</i> pSeparator pCheckedName".
-
-
-##### - Flags.ECBF_OVERLAY_WARNING_ICON
-
-If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon identified by the <b>IconID</b> member.
 
 
 ## -remarks

@@ -4,11 +4,11 @@ title: IKsControl::KsEvent method
 author: windows-driver-content
 description: The KsEvent method enables or disables an event, along with any other defined support operations available on an event set.
 old-location: stream\ikscontrol_ksevent.htm
-old-project: Benchmark
+old-project: stream
 ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.author: windowsdriverdev
-ms.date: 1/12/2018
-ms.keywords: IKsControl::KsEvent, stream.ikscontrol_ksevent, ksproxy/IKsControl::KsEvent, KsEvent method [Streaming Media Devices], ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, KsEvent, KsEvent method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsEvent method, IKsControl
+ms.date: 1/9/2018
+ms.keywords: KsEvent method [Streaming Media Devices], IKsControl interface, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, stream.ikscontrol_ksevent, IKsControl::KsEvent, IKsControl, ksproxy/IKsControl::KsEvent, KsEvent method [Streaming Media Devices], KsEvent, IKsControl interface [Streaming Media Devices], KsEvent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IKsControl.KsEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR"
+req.typenames: PIPE_STATE
 ---
 
 # IKsControl::KsEvent method
@@ -73,7 +73,7 @@ HRESULT KsEvent(
 
 ### -param Event [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
+Pointer to a <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
 
 
 ### -param EventLength [in]
@@ -83,7 +83,7 @@ Size, in bytes, of the buffer at <i>Event</i> when the event is enabled and zero
 
 ### -param EventData [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
+Pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
 
 
 ### -param DataLength [in]
@@ -106,23 +106,25 @@ Returns NOERROR if successful; otherwise, returns an error code. If the call suc
 ## -remarks
 
 
-To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure that was previously used to enable the event.
+To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that was previously used to enable the event.
 
-The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle in <b>EventHandle.Event</b>. You can wait for the handle to become available and get notifications when the minidriver calls <b>Ks</b><i>Xxx</i><b>GenerateEvents</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568266">StreamClassStreamNotification</a>.
+The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle in <b>EventHandle.Event</b>. You can wait for the handle to become available and get notifications when the minidriver calls <b>Ks</b><i>Xxx</i><b>GenerateEvents</b> or <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>.
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a>
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+ 
 
  
 
- 
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsEvent method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

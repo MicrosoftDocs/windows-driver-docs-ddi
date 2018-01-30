@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4c08a70e-5092-40fb-94fd-c3ef8a5537b5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], wdm/RtlUlongByteSwap, kernel.rtlulongbyteswap, k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml
+ms.keywords: k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], wdm/RtlUlongByteSwap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlUlongByteSwap
 product: Windows
 targetos: Windows

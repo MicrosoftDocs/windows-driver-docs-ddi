@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_ACCESS_ADMINISTRATOR, IBidiSpl::BindDevice method [Print Devices], _win32_IBidiSpl_BindDevice, IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, IBidiSpl::BindDevice method [Print Devices], IBidiSpl interface, IBidiSpl, print.ibidispl_ibidispl__binddevice, BIDI_ACCESS_USER, IBidiSpl::IBidiSpl::BindDevice, BindDevice, IBidiSpl interface [Print Devices], IBidiSpl::BindDevice method, bidispl/IBidiSpl::IBidiSpl::BindDevice
+ms.keywords: print.ibidispl_ibidispl__binddevice, bidispl/IBidiSpl::IBidiSpl::BindDevice, IBidiSpl, IBidiSpl interface [Print Devices], IBidiSpl::BindDevice method, BIDI_ACCESS_USER, BindDevice, BIDI_ACCESS_ADMINISTRATOR, _win32_IBidiSpl_BindDevice, IBidiSpl::BindDevice method [Print Devices], IBidiSpl interface, IBidiSpl::BindDevice method [Print Devices], IBidiSpl::IBidiSpl::BindDevice, IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
+apiname:
 -	IBidiSpl.IBidiSpl::BindDevice
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiSpl::BindDevice method
@@ -152,13 +152,13 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
-<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
+
+<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
  
 

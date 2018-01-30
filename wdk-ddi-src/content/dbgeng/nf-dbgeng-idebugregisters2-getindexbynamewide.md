@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2::GetIndexByNameWide, debugger.getindexbynamewide, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, GetIndexByNameWide method [Windows Debugging], GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2
+ms.keywords: IDebugRegisters2::GetIndexByNameWide, debugger.getindexbynamewide, dbgeng/IDebugRegisters2::GetIndexByNameWide, GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetIndexByNameWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetIndexByNameWide method

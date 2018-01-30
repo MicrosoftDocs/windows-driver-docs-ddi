@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxsensorinitialize, SensorsCxSensorInitialize, sensorscx/SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices]
+ms.keywords: sensorscx/SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], SensorsCxSensorInitialize, sensors.sensorscxsensorinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	SensorsCx.h
-apiname: 
+apiname:
 -	SensorsCxSensorInitialize
 product: Windows
 targetos: Windows

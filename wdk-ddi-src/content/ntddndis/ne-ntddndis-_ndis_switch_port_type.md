@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_TYPE
-title: _NDIS_SWITCH_PORT_TYPE
+title: "_NDIS_SWITCH_PORT_TYPE"
 author: windows-driver-content
 description: The NDIS_SWITCH_PORT_TYPE enumeration specifies the type of a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortTypeExternal, ntddndis/PNDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeGeneric, _NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeSynthetic, ntddndis/NdisSwitchPortTypeSynthetic, NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeExternal, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeEmulated, NdisSwitchPortTypeEmulated
+ms.keywords: ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeEmulated, PNDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeExternal, NdisSwitchPortTypeInternal, ntddndis/PNDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeSynthetic, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeExternal, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortTypeSynthetic, _NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeEmulated, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_PORT_TYPE
 product: Windows
 targetos: Windows

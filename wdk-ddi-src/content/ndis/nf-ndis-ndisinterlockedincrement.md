@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 246ded7a-4f75-469d-bdba-860ce3cd6b44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml, ndis/NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], NdisInterlockedIncrement, netvista.ndisinterlockedincrement
+ms.keywords: netvista.ndisinterlockedincrement, ndis/NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], NdisInterlockedIncrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisInterlockedIncrement
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInterlockedIncrement macro

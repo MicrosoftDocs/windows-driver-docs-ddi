@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueAssignForwardProgressPolicy method, PFN_WDFIOQUEUEASSIGNFORWARDPROGRESSPOLICY, WdfIoQueueAssignForwardProgressPolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy, wdf.wdfioqueueassignforwardprogresspolicy, kmdf.wdfioqueueassignforwardprogresspolicy, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml
+ms.keywords: PFN_WDFIOQUEUEASSIGNFORWARDPROGRESSPOLICY, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, kmdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, WdfIoQueueAssignForwardProgressPolicy, wdf.wdfioqueueassignforwardprogresspolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoQueueAssignForwardProgressPolicy
 product: Windows
 targetos: Windows
@@ -167,11 +167,11 @@ For more information about the <b>WdfIoQueueAssignForwardProgressPolicy</b> meth
 
 ## -see-also
 
+<a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a>
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
-
-<a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a>
 
  
 

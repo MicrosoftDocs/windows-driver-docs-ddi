@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5672C7E2-83AA-4BDC-BE60-E2BC54BD636F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsPinPipe::KsGetPipe, KsGetPipe, KsGetPipe method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe, KsGetPipe method [Streaming Media Devices], IKsPinPipe::KsGetPipe, IKsPinPipe interface [Streaming Media Devices], KsGetPipe method, stream.ikspinpipe_ksgetpipe
+ms.keywords: KsGetPipe method [Streaming Media Devices], IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipe, IKsPinPipe interface [Streaming Media Devices], KsGetPipe method, stream.ikspinpipe_ksgetpipe, IKsPinPipe, KsGetPipe, IKsPinPipe::KsGetPipe, KsGetPipe method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsGetPipe
 product: Windows
 targetos: Windows

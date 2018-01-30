@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 32893a68-68ac-4bac-ab0f-1d07a1e873f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeCancelConnectRequest, ifsk.rxcecancelconnectrequest, RxCeCancelConnectRequest, RxCeCancelConnectRequest routine [Installable File System Drivers], rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml
+ms.keywords: RxCeCancelConnectRequest routine [Installable File System Drivers], rxce/RxCeCancelConnectRequest, ifsk.rxcecancelconnectrequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml, RxCeCancelConnectRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeCancelConnectRequest
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 

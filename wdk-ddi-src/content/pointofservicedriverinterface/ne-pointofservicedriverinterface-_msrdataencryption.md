@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrDataEncryption
-title: _MsrDataEncryption
+title: "_MsrDataEncryption"
 author: windows-driver-content
 description: This enumeration defines the kind of encryption algorithm supported by the magnetic stripe reader (MSR).
 old-location: pos\msrdataencryption.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 3e587242-2d7e-4b1f-8fcd-e0acada91524
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, MsrDataEncryption enumeration, MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, _MsrDataEncryption, MsrDataEncryption_ExtendedBase, MsrDataEncryption_None, pos.msrdataencryption
+ms.keywords: "_MsrDataEncryption, MsrDataEncryption, MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, pos.msrdataencryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	MsrDataEncryption
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03ff46cb-dfc5-409a-b652-bef8f2b37b59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread, IDebugEventCallbacks::ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread method [Windows Debugging], ExitThread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ExitThread method
+ms.keywords: IDebugEventCallbacks, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread method [Windows Debugging], dbgeng/IDebugEventCallbacks::ExitThread, ExitThread, IDebugEventCallbacks interface [Windows Debugging], ExitThread method, debugger.idebugeventcallbacks_exitthread, IDebugEventCallbacks::ExitThread, ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.ExitThread
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::ExitThread method

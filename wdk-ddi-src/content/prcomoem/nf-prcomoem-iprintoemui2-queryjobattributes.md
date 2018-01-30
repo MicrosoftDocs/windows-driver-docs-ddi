@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cb510aa6-7156-4b02-bab1-6951becbc1a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI2::QueryJobAttributes, QueryJobAttributes, print.iprintoemui2_queryjobattributes, QueryJobAttributes method [Print Devices], IPrintOemUI2, prcomoem/IPrintOemUI2::QueryJobAttributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method
+ms.keywords: QueryJobAttributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, IPrintOemUI2, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, prcomoem/IPrintOemUI2::QueryJobAttributes, QueryJobAttributes method [Print Devices], IPrintOemUI2::QueryJobAttributes, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, print.iprintoemui2_queryjobattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI2.QueryJobAttributes
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -165,17 +165,17 @@ See <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttrib
 
 ## -see-also
 
+<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
 
  
 

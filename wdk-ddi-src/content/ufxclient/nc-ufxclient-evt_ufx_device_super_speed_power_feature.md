@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ufxclient.h
-apiname: 
+apiname:
 -	PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -86,13 +86,6 @@ typedef EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE PFN_UFX_DEVICE_SUPER_SPEED_POWE
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
 
 
-#### - Set [in]
-
-If TRUE, set the feature.
-
-If FALSE, clear the feature.
-
-
 #### - Feature [in]
 
 Feature selector for the power feature that is set or cleared, as defined in section 9.4 of the USB 3.0 Specification.  The feature selector can be one of these values: 
@@ -101,6 +94,13 @@ Feature selector for the power feature that is set or cleared, as defined in sec
 <li>U2_ENABLE
 </li>
 </ul>
+
+#### - Set [in]
+
+If TRUE, set the feature.
+
+If FALSE, clear the feature.
+
 
 ## -returns
 
@@ -122,9 +122,9 @@ The client driver indicates completion of this event by calling the <a href="..\
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
+
+<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
 
  
 

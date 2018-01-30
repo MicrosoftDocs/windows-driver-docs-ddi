@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetItemFlags, image.iwiadrvitem_getitemflags, IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], IWiaDrvItem interface [Imaging Devices], GetItemFlags method, GetItemFlags method [Imaging Devices], IWiaDrvItem interface, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, wiamindr_lh/IWiaDrvItem::GetItemFlags, IWiaDrvItem
+ms.keywords: GetItemFlags method [Imaging Devices], IWiaDrvItem interface [Imaging Devices], GetItemFlags method, image.iwiadrvitem_getitemflags, IWiaDrvItem::GetItemFlags, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], IWiaDrvItem interface, GetItemFlags, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.GetItemFlags
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 

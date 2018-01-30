@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4ED5D2DC-8D31-458A-80F2-F681DC375769
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceEntryBySourceEntry method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry, IDebugSymbols3::GetSourceEntryBySourceEntry, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryBySourceEntry method, GetSourceEntryBySourceEntry method [Windows Debugging], debugger.idebugsymbols3_getsourceentrybysourceentry
+ms.keywords: dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], debugger.idebugsymbols3_getsourceentrybysourceentry, IDebugSymbols3::GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSourceEntryBySourceEntry, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryBySourceEntry method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourceEntryBySourceEntry
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSourceEntryBySourceEntry method

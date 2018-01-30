@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3746D618-C92C-43AB-A45A-2188D572105D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetIoTypeEx, wdf.wdfdeviceinitassigniotype, wdfdevice/WdfDeviceInitSetIoTypeEx, PFN_WDFDEVICEINITSETIOTYPEEX, WdfDeviceInitSetIoTypeEx method, wdf.wdfdeviceinitsetiotypeex
+ms.keywords: WdfDeviceInitSetIoTypeEx method, wdfdevice/WdfDeviceInitSetIoTypeEx, PFN_WDFDEVICEINITSETIOTYPEEX, wdf.wdfdeviceinitassigniotype, wdf.wdfdeviceinitsetiotypeex, WdfDeviceInitSetIoTypeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetIoTypeEx
 product: Windows
 targetos: Windows
@@ -120,11 +120,11 @@ This method is the UMDF 2.0 equivalent of <a href="https://msdn.microsoft.com/7d
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestackiotype.md">WdfDeviceGetDeviceStackIoType</a>
+<a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_io_type_config_init.md">WDF_IO_TYPE_CONFIG_INIT</a>
 
-<a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestackiotype.md">WdfDeviceGetDeviceStackIoType</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
 

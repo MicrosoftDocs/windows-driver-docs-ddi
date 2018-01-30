@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 100fec4a-eebe-4a4d-b322-09afbe68ec5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.cccopywrite, ntifs/CcCopyWrite, ccref_97ca67a6-e212-42bb-8998-be458c792f7b.xml, CcCopyWrite, CcCopyWrite routine [Installable File System Drivers]
+ms.keywords: CcCopyWrite routine [Installable File System Drivers], ntifs/CcCopyWrite, ifsk.cccopywrite, CcCopyWrite, ccref_97ca67a6-e212-42bb-8998-be458c792f7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcCopyWrite
 product: Windows
 targetos: Windows

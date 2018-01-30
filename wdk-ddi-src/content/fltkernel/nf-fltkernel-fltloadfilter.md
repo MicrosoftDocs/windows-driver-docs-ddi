@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltloadfilter, fltkernel/FltLoadFilter, FltLoadFilter, FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter routine [Installable File System Drivers]
+ms.keywords: FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], ifsk.fltloadfilter, FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, fltkernel/FltLoadFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltLoadFilter
 product: Windows
 targetos: Windows

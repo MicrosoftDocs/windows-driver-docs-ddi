@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 796F849F-7281-4AE9-BE0D-350D24A39C61
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], VmbChannelPacketDeferToPassive, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive, netvista.vmbchannelpacketdefertopassive
+ms.keywords: netvista.vmbchannelpacketdefertopassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], VmbChannelPacketDeferToPassive, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelPacketDeferToPassive
 product: Windows
 targetos: Windows

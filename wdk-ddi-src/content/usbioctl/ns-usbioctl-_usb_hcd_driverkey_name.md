@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HCD_DRIVERKEY_NAME
-title: _USB_HCD_DRIVERKEY_NAME
+title: "_USB_HCD_DRIVERKEY_NAME"
 author: windows-driver-content
 description: The USB_HCD_DRIVERKEY_NAME structure is used with the IOCTL_GET_HCD_DRIVERKEY_NAME I/O control request to retrieve the driver key in the registry for the USB host controller driver.
 old-location: buses\usb_hcd_driverkey_name.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 01161a61-c52a-4a0e-b680-a8c3a224c2e5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/USB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name, USB_HCD_DRIVERKEY_NAME, _USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, usbioctl/PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses]
+ms.keywords: USB_HCD_DRIVERKEY_NAME structure [Buses], PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], *PUSB_HCD_DRIVERKEY_NAME, usbioctl/PUSB_HCD_DRIVERKEY_NAME, usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, USB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, _USB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_HCD_DRIVERKEY_NAME
 product: Windows
 targetos: Windows
-req.typenames: USB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME
+req.typenames: "*PUSB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME"
 req.product: Windows 10 or later.
 ---
 

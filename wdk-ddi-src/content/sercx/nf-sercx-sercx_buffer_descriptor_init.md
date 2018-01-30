@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_BUFFER_DESCRIPTOR_INIT, 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
+ms.keywords: SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init, 1/SERCX_BUFFER_DESCRIPTOR_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX_BUFFER_DESCRIPTOR_INIT
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 

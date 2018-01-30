@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_DEAUTHENTICATE_DEVICE
-title: _MSR_DEAUTHENTICATE_DEVICE
+title: "_MSR_DEAUTHENTICATE_DEVICE"
 author: windows-driver-content
 description: This structure provides the information necessary to deauthenticate the device.
 old-location: pos\msr_deauthenticate_device.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 7174a342-de02-4a3c-8bb9-9c86e7f4b5e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PMSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE structure pointer, MSR_DEAUTHENTICATE_DEVICE structure, pointofservicedriverinterface/PMSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE, _MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE, pos.msr_deauthenticate_device
+ms.keywords: MSR_DEAUTHENTICATE_DEVICE, _MSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE structure pointer, pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE structure, pos.msr_deauthenticate_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	MSR_DEAUTHENTICATE_DEVICE
 product: Windows
 targetos: Windows

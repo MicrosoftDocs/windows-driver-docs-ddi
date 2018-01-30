@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_TYPE
-title: _WHEA_ERROR_TYPE
+title: "_WHEA_ERROR_TYPE"
 author: windows-driver-content
 description: The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
 old-location: whea\whea_error_type.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WheaErrTypeGeneric, whea.whea_error_type, WheaErrTypeMemory, WheaErrTypePCIExpress, ntddk/WheaErrTypeNMI, WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXBus, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, PWHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypePCIExpress, WheaErrTypeProcessor, WheaErrTypePCIXDevice, _WHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], *PWHEA_ERROR_TYPE, WheaErrTypePCIXBus, WheaErrTypeGeneric, WheaErrTypeNMI, ntddk/WheaErrTypeMemory, ntddk/WheaErrTypeProcessor, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications]
+ms.keywords: PWHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, WheaErrTypeMemory, _WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIExpress, WheaErrTypePCIXBus, WheaErrTypeNMI, ntddk/WheaErrTypePCIXBus, ntddk/WheaErrTypeNMI, WheaErrTypeGeneric, WHEA_ERROR_TYPE, whea.whea_error_type, WheaErrTypeProcessor, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], WheaErrTypePCIXDevice, *PWHEA_ERROR_TYPE, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, ntddk/WheaErrTypeProcessor, ntddk/WheaErrTypeMemory, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrTypeGeneric, ntddk/WHEA_ERROR_TYPE, WheaErrTypePCIExpress, ntddk/PWHEA_ERROR_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_ERROR_TYPE, WHEA_ERROR_TYPE
+req.typenames: WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE
 ---
 
 # _WHEA_ERROR_TYPE enumeration

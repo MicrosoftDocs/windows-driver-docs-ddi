@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfinterrupt._WDF_INTERRUPT_INFO
-title: _WDF_INTERRUPT_INFO
+title: "_WDF_INTERRUPT_INFO"
 author: windows-driver-content
 description: The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource.
 old-location: wdf\wdf_interrupt_info_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, umdf.wdf_interrupt_info, _WDF_INTERRUPT_INFO, wudfinterrupt/PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf, PWDF_INTERRUPT_INFO structure pointer
+ms.keywords: WDF_INTERRUPT_INFO structure, wudfinterrupt/PWDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, PWDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf, wudfinterrupt/WDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_INFO
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
+req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -151,11 +151,11 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 ## -see-also
 
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
-
 <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+
+<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 

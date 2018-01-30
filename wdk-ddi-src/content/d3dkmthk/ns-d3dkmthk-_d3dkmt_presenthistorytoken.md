@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d3571412-d853-496b-a651-2c8860a28e9d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_PRESENTHISTORYTOKEN, OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, display.d3dkmt_presenthistorytoken, _D3DKMT_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN
+ms.keywords: display.d3dkmt_presenthistorytoken, _D3DKMT_PRESENTHISTORYTOKEN, D3DKMT_PRESENTHISTORYTOKEN, OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -182,6 +182,10 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytoken.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN</a>
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_present_model.md">D3DKMT_PRESENT_MODEL</a>
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_bltmodel_presenthistorytoken.md">D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_fence_presenthistorytoken.md">D3DKMT_FENCE_PRESENTHISTORYTOKEN</a>
@@ -189,10 +193,6 @@ Supported starting with Windows 8.1.
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_gdimodel_sysmem_presenthistorytoken.md">D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_gdimodel_presenthistorytoken.md">D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN</a>
-
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_present_model.md">D3DKMT_PRESENT_MODEL</a>
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytoken.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._HARDWARE_COUNTER
-title: _HARDWARE_COUNTER
+title: "_HARDWARE_COUNTER"
 author: windows-driver-content
 description: The HARDWARE_COUNTER structure contains information about a hardware counter.
 old-location: kernel\hardware_counter.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15eeeb07-b71f-4868-8854-6a5034d3f8c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.hardware_counter, _HARDWARE_COUNTER, PHARDWARE_COUNTER, HARDWARE_COUNTER, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, *PHARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], ntddk/HARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.hardware_counter, _HARDWARE_COUNTER, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER, PHARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], *PHARDWARE_COUNTER, HARDWARE_COUNTER, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	HARDWARE_COUNTER
 product: Windows
 targetos: Windows
-req.typenames: HARDWARE_COUNTER, *PHARDWARE_COUNTER
+req.typenames: "*PHARDWARE_COUNTER, HARDWARE_COUNTER"
 ---
 
 # _HARDWARE_COUNTER structure

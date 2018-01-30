@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetRingBufferUtilization, 1/SerCxGetRingBufferUtilization, serports.sercxgetringbufferutilization, SerCxGetRingBufferUtilization method [Serial Ports]
+ms.keywords: SerCxGetRingBufferUtilization method [Serial Ports], 1/SerCxGetRingBufferUtilization, serports.sercxgetringbufferutilization, SerCxGetRingBufferUtilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxGetRingBufferUtilization
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -105,9 +105,9 @@ SerCx evaluates the available space in the type-ahead ring buffer in the context
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
-
 <a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
 
  
 

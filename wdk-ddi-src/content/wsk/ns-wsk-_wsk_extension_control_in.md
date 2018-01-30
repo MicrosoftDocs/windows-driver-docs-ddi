@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_EXTENSION_CONTROL_IN
-title: _WSK_EXTENSION_CONTROL_IN
+title: "_WSK_EXTENSION_CONTROL_IN"
 author: windows-driver-content
 description: The WSK_EXTENSION_CONTROL_IN structure specifies a WSK application's implementation of an extension interface for a socket.
 old-location: netvista\wsk_extension_control_in.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d04f4c24-15a5-490a-aada-af1050f727d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], PWSK_EXTENSION_CONTROL_IN, wsk/PWSK_EXTENSION_CONTROL_IN, wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, wsk/WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, _WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in
+ms.keywords: wsk/WSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, wsk/PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], PWSK_EXTENSION_CONTROL_IN, wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, _WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_EXTENSION_CONTROL_IN
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN
+req.typenames: WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN
 req.product: Windows 10 or later.
 ---
 
@@ -107,11 +107,11 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
 
  
 

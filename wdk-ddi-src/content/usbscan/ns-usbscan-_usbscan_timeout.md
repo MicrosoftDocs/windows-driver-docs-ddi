@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_TIMEOUT
-title: _USBSCAN_TIMEOUT
+title: "_USBSCAN_TIMEOUT"
 author: windows-driver-content
 description: The USBSCAN_TIMEOUT structure stores time-out values for USB bulk IN and bulk OUT operations, and interrupts.
 old-location: image\usbscan_timeout.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: afa900fc-7297-425b-8308-18806d7d97d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT, image.usbscan_timeout, _USBSCAN_TIMEOUT, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml, USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], usbscan/PUSBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT
+ms.keywords: "*PUSBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT, usbscan/PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT, image.usbscan_timeout, USBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbscan.h
-apiname: 
+apiname:
 -	USBSCAN_TIMEOUT
 product: Windows
 targetos: Windows
-req.typenames: *PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT
+req.typenames: "*PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT"
 req.product: Windows 10 or later.
 ---
 

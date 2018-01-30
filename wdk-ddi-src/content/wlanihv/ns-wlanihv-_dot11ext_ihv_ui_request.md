@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11EXT_IHV_UI_REQUEST
-title: _DOT11EXT_IHV_UI_REQUEST
+title: "_DOT11EXT_IHV_UI_REQUEST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_ui_request.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, wlanihv/PDOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, _DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_UI_REQUEST, wlanihv/DOT11EXT_IHV_UI_REQUEST, netvista.dot11ext_ihv_ui_request, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_UI_REQUEST
+ms.keywords: "_DOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_ui_request, wlanihv/PDOT11EXT_IHV_UI_REQUEST, Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, *PDOT11EXT_IHV_UI_REQUEST, wlanihv/DOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	DOT11EXT_IHV_UI_REQUEST
 product: Windows
 targetos: Windows
@@ -133,12 +133,12 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
 
 <mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
    Dot11ExtIhvIsUIRequestPending</i></mshelp:link>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
 
  
 

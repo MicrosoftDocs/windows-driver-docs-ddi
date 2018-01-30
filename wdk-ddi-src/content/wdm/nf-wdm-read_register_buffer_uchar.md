@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4ce9f377-ca5e-4574-9d80-60b74ee0de85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, READ_REGISTER_BUFFER_UCHAR, kernel.read_register_buffer_uchar, wdm/READ_REGISTER_BUFFER_UCHAR
+ms.keywords: wdm/READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, kernel.read_register_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	READ_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows

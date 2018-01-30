@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolIndicateOffloadEvent
 product: Windows
 targetos: Windows
@@ -116,13 +116,13 @@ The event being indicated as one of the following INDICATE_OFFLOAD_EVENT values:
 
 
 
-##### - IndicationCode.NeighborReachabilityQuery
+#### NeighborReachabilityQuery
 
 Indicates that a neighbor cache entry (NCE) has become stale. For more information about NCEs,
        see RFC 2461.
 
 
-##### - IndicationCode.NeighborReachabilityInDoubt
+#### NeighborReachabilityInDoubt
 
 Reserved.
 
@@ -145,10 +145,10 @@ The implementation of this function for intermediate drivers is to be determined
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
-
 <mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
 <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>

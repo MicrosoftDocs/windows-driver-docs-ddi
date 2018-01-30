@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOREX
-title: _MONITOREX
+title: "_MONITOREX"
 author: windows-driver-content
 description: The MONITOREX structure is obsolete and supported for compatibility purposes only.
 old-location: print\monitorex.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MONITOREX, _MONITOREX, LPMONITOREX structure pointer [Print Devices], LPMONITOREX, MONITOREX structure [Print Devices], winsplp/MONITOREX, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, *LPMONITOREX, print.monitorex, winsplp/LPMONITOREX
+ms.keywords: MONITOREX, MONITOREX structure [Print Devices], spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, _MONITOREX, winsplp/MONITOREX, LPMONITOREX structure pointer [Print Devices], LPMONITOREX, *LPMONITOREX, print.monitorex, winsplp/LPMONITOREX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	MONITOREX
 product: Windows
 targetos: Windows

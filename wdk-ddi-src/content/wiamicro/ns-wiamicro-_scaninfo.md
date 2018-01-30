@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamicro._SCANINFO
-title: _SCANINFO
+title: "_SCANINFO"
 author: windows-driver-content
 description: The SCANINFO structure is used to store and communicate information about a scan acquisition.
 old-location: image\scaninfo.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.scaninfo, *PSCANINFO, SCANINFO structure [Imaging Devices], MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO structure pointer [Imaging Devices], PSCANINFO, _SCANINFO, wiamicro/PSCANINFO, SCANINFO, wiamicro/SCANINFO
+ms.keywords: MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, SCANINFO structure [Imaging Devices], *PSCANINFO, _SCANINFO, PSCANINFO structure pointer [Imaging Devices], wiamicro/PSCANINFO, SCANINFO, wiamicro/SCANINFO, PSCANINFO, image.scaninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamicro.h
-apiname: 
+apiname:
 -	SCANINFO
 product: Windows
 targetos: Windows

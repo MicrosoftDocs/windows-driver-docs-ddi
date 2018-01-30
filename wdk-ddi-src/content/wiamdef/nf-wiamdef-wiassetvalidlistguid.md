@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ab8276d4-4838-4bfc-8952-8712435eab41
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasSetValidListGuid function [Imaging Devices], wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, image.wiassetvalidlistguid, wiasSetValidListGuid, wiamdef/wiasSetValidListGuid
+ms.keywords: wiasSetValidListGuid function [Imaging Devices], wiamdef/wiasSetValidListGuid, image.wiassetvalidlistguid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasSetValidListGuid
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -98,14 +98,14 @@ TBD
 
 
 
-#### - pgValues [in]
-
-Pointer to the first element of an array of valid property values.
-
-
 #### - gNom
 
 Specifies the property's nominal value.
+
+
+#### - pgValues [in]
+
+Pointer to the first element of an array of valid property values.
 
 
 ## -returns
@@ -117,17 +117,17 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
+
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistfloat.md">wiasSetValidListFloat</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
 
  
 

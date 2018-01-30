@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	UNIFONTOBJ_GetInfo
 product: Windows
 targetos: Windows
@@ -94,24 +94,14 @@ BOOL APIENTRY UNIFONTOBJ_GetInfo(
 
 
 
-#### - dwDataSize
+#### - pUFObj
 
-Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
+Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
 
 
 #### - dwInfoID
 
 Specifies the type of structure pointed to by <i>pData</i>. Supplied by the caller. See the following table.
-
-
-#### - pcbNeeded
-
-Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
-
-
-#### - pUFObj
-
-Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
 
 
 #### - pData
@@ -197,6 +187,16 @@ UFO_GETINFO_STDVARIABLE
 </table> 
 
 For a summary of structure contents, see the following <b>Remarks</b> section.
+
+
+#### - dwDataSize
+
+Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied by the caller.
+
+
+#### - pcbNeeded
+
+Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
 
 
 ## -returns

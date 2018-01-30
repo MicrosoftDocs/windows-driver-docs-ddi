@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f63f6f55-ceec-4105-9002-f81874e0ac49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadRegisterUlong, VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, VideoPortReadRegisterUlong function [Display Devices], display.videoportreadregisterulong, video/VideoPortReadRegisterUlong
+ms.keywords: video/VideoPortReadRegisterUlong, VideoPortReadRegisterUlong, display.videoportreadregisterulong, VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, VideoPortReadRegisterUlong function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadRegisterUlong function

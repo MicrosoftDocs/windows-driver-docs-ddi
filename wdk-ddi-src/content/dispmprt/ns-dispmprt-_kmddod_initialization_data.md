@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], _KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, dispmprt/KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], display.kmddod_initialization_data, *PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA
+ms.keywords: display.kmddod_initialization_data, KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, dispmprt/KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

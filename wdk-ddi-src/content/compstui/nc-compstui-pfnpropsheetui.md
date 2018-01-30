@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	PFNPROPSHEETUI
 product: Windows
 targetos: Windows
-req.typenames: *PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFNPROPSHEETUI callback
@@ -88,7 +88,27 @@ CPSUI-supplied integer value that is dependent on the contents of the <b>Reason<
 
 
 
-##### - lParam.PROPSHEETUI_REASON_INIT
+#### PROPSHEETUI_REASON_BEFORE_INIT
+
+This value is new to Windows 8 and it is provided only to the original PFNPROPSHEETUI parameter passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546148">CommonPropertySheetUI</a>.
+
+
+#### PROPSHEETUI_REASON_DESTROY
+
+The <i>lParam</i> value is nonzero if the user has selected the property sheet's <b>OK</b> or <b>Cancel</b> button. Otherwise the value is zero.
+
+
+#### PROPSHEETUI_REASON_GET_ICON
+
+The <i>lParam</i> value is a pointer to a <a href="..\compstui\ns-compstui-_propsheetui_geticon_info.md">PROPSHEETUI_GETICON_INFO</a> structure.
+
+
+#### PROPSHEETUI_REASON_GET_INFO_HEADER
+
+The <i>lParam</i> value is a pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info_header.md">PROPSHEETUI_INFO_HEADER</a> structure.
+
+
+#### PROPSHEETUI_REASON_INIT
 
 If the callback function is specified by the <i>pfnPropSheetUI</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546148">CommonPropertySheetUI</a>, <i>lParam</i> is the <i>lParam</i> value passed to <b>CommonPropertySheetUI</b>.
 
@@ -99,29 +119,9 @@ CPSUI copies the <i>lParam</i> value into the <b>lParamInit</b> member of the fu
 The <i>lParam</i> value must not reside on the application's stack.
 
 
-##### - lParam.PROPSHEETUI_REASON_DESTROY
-
-The <i>lParam</i> value is nonzero if the user has selected the property sheet's <b>OK</b> or <b>Cancel</b> button. Otherwise the value is zero.
-
-
-##### - lParam.PROPSHEETUI_REASON_GET_ICON
-
-The <i>lParam</i> value is a pointer to a <a href="..\compstui\ns-compstui-_propsheetui_geticon_info.md">PROPSHEETUI_GETICON_INFO</a> structure.
-
-
-##### - lParam.PROPSHEETUI_REASON_SET_RESULT
+#### PROPSHEETUI_REASON_SET_RESULT
 
 The <i>lParam</i> value is a pointer to a <a href="..\compstui\ns-compstui-_setresult_info.md">SETRESULT_INFO</a> structure.
-
-
-##### - lParam.PROPSHEETUI_REASON_GET_INFO_HEADER
-
-The <i>lParam</i> value is a pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info_header.md">PROPSHEETUI_INFO_HEADER</a> structure.
-
-
-##### - lParam.PROPSHEETUI_REASON_BEFORE_INIT
-
-This value is new to Windows 8 and it is provided only to the original PFNPROPSHEETUI parameter passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546148">CommonPropertySheetUI</a>.
 
 
 ## -returns

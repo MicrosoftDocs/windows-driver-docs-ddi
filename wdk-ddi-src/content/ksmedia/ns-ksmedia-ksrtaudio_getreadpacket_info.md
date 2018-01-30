@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0157FA09-C227-4BB2-BB75-0AB5802BC150
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSRTAUDIO_GETREADPACKET_INFO, *PKSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, audio.ksrtaudio_getreadpacket_info, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices]
+ms.keywords: ksmedia/KSRTAUDIO_GETREADPACKET_INFO, audio.ksrtaudio_getreadpacket_info, *PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

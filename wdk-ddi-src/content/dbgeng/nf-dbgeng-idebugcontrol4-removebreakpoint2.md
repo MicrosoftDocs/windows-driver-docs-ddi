@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1c77758-0249-4ec6-9244-329c0b823e44
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.removebreakpoint2, dbgeng/IDebugControl4::RemoveBreakpoint2, IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface
+ms.keywords: IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, debugger.removebreakpoint2, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4, IDebugControl4::RemoveBreakpoint2, dbgeng/IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.RemoveBreakpoint2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::RemoveBreakpoint2 method

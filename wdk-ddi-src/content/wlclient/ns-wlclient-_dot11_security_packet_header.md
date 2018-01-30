@@ -1,6 +1,6 @@
 ---
 UID: NS:wlclient._DOT11_SECURITY_PACKET_HEADER
-title: _DOT11_SECURITY_PACKET_HEADER
+title: "_DOT11_SECURITY_PACKET_HEADER"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_security_packet_header.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a880137-58a6-4b89-8384-a92c37f289a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], PDOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER, wlclient/DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER, Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml
+ms.keywords: Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], netvista.dot11_security_packet_header, PDOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER, _DOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], DOT11_SECURITY_PACKET_HEADER, wlclient/DOT11_SECURITY_PACKET_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlclient.h
-apiname: 
+apiname:
 -	DOT11_SECURITY_PACKET_HEADER
 product: Windows
 targetos: Windows
-req.typenames: DOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER
+req.typenames: "*PDOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportStreamAudioEngineNode, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamPresentationPosition method [Audio Devices]
+ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreampresentationposition, GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,9 +83,9 @@ code.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
-
 <a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._ENUMERATE_BANDS_PARAMETERS
-title: _ENUMERATE_BANDS_PARAMETERS
+title: "_ENUMERATE_BANDS_PARAMETERS"
 author: windows-driver-content
 description: The ENUMERATE_BANDS_PARAMETERS structure is used to select which band information entries are selected for return from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\enumerate_bands_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A493EF45-AA62-43FE-8E19-613B66FA0D83
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ENUMBANDS_REPORT_CRYPTO_ALGO, *PENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, _ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices]
+ms.keywords: ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], *PENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], ENUMBANDS_REPORT_CRYPTO_ALGO, ENUMBANDS_ENUM_ALL_BANDS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters, _ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	ENUMERATE_BANDS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: ENUMERATE_BANDS_PARAMETERS, *PENUMERATE_BANDS_PARAMETERS
+req.typenames: "*PENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS"
 ---
 
 # _ENUMERATE_BANDS_PARAMETERS structure

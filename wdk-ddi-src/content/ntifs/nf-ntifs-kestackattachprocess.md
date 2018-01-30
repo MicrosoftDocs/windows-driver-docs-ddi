@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52ac1410-8f8f-405a-9c81-a534c3cfbf51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: keref_de4fc228-753f-4077-8372-e5330c96d317.xml, ntifs/KeStackAttachProcess, ifsk.kestackattachprocess, KeStackAttachProcess, KeStackAttachProcess routine [Installable File System Drivers]
+ms.keywords: keref_de4fc228-753f-4077-8372-e5330c96d317.xml, KeStackAttachProcess, KeStackAttachProcess routine [Installable File System Drivers], ifsk.kestackattachprocess, ntifs/KeStackAttachProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeStackAttachProcess
 product: Windows
 targetos: Windows
@@ -114,21 +114,21 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
 
 <a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
 
 <a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentthread.md">PsGetCurrentThread</a>
 
-<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
-
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
  
 

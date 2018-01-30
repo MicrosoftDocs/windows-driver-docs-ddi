@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._AUX_MODULE_BASIC_INFO
-title: _AUX_MODULE_BASIC_INFO
+title: "_AUX_MODULE_BASIC_INFO"
 author: windows-driver-content
 description: The AUX_MODULE_BASIC_INFO structure contains basic information about a loaded image module.
 old-location: kernel\aux_module_basic_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8cee85a3-b2e4-4378-a700-862d1b517f14
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.aux_module_basic_info, _AUX_MODULE_BASIC_INFO, AUX_MODULE_BASIC_INFO, aux_klib_7c33c85c-d2d1-49ea-98e2-d25299a281b9.xml, PAUX_MODULE_BASIC_INFO structure pointer [Kernel-Mode Driver Architecture], *PAUX_MODULE_BASIC_INFO, aux_klib/PAUX_MODULE_BASIC_INFO, AUX_MODULE_BASIC_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_BASIC_INFO, aux_klib/AUX_MODULE_BASIC_INFO
+ms.keywords: AUX_MODULE_BASIC_INFO, kernel.aux_module_basic_info, AUX_MODULE_BASIC_INFO structure [Kernel-Mode Driver Architecture], aux_klib_7c33c85c-d2d1-49ea-98e2-d25299a281b9.xml, _AUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO structure pointer [Kernel-Mode Driver Architecture], PAUX_MODULE_BASIC_INFO, aux_klib/PAUX_MODULE_BASIC_INFO, aux_klib/AUX_MODULE_BASIC_INFO, *PAUX_MODULE_BASIC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	aux_klib.h
-apiname: 
+apiname:
 -	AUX_MODULE_BASIC_INFO
 product: Windows
 targetos: Windows

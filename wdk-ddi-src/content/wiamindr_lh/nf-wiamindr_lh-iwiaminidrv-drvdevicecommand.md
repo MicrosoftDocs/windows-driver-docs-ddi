@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiaminidrv_drvdevicecommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand, drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv
+ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, drvDeviceCommand method [Imaging Devices], image.iwiaminidrv_drvdevicecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvDeviceCommand
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ HRESULT drvDeviceCommand(
 
 
 
-#### - plDevErrVal [out]
+#### - pWiasContext [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+Pointer to a WIA item context.
 
 
 #### - lFlags [in]
@@ -108,19 +108,19 @@ Points to a memory location that will receive a status code for this method. If 
 Is currently unused. 
 
 
-#### - ppWiaDrvItem [out, optional]
-
-Points to a memory location that can receive a pointer to an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>. See Remarks.
-
-
 #### - plCommand [in]
 
 Points to a WIA command GUID. 
 
 
-#### - pWiasContext [in]
+#### - ppWiaDrvItem [out, optional]
 
-Pointer to a WIA item context.
+Points to a memory location that can receive a pointer to an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>. See Remarks.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -149,11 +149,11 @@ The WIA service does not write any properties before calling this method. If the
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

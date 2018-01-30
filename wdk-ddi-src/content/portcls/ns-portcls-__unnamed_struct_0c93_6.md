@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9761a967-063d-4194-8b67-eec476d3372e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, portcls/PPCAUTOMATION_TABLE, audio.pcautomation_table, PPCAUTOMATION_TABLE structure pointer [Audio Devices], *PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, portcls/PCAUTOMATION_TABLE
+ms.keywords: PCAUTOMATION_TABLE structure [Audio Devices], portcls/PCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, PPCAUTOMATION_TABLE structure pointer [Audio Devices], audio.pcautomation_table, *PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -188,13 +188,13 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_9.md">PCFILTER_DESCRIPTOR</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_3.md">PCPROPERTY_ITEM</a>
 
 <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a>
 

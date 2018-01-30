@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: be353d10-1d8a-4fea-a415-e1729184e451
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoAdjustPagingPathCount, kernel.ioadjustpagingpathcount, k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], IoAdjustPagingPathCount
+ms.keywords: kernel.ioadjustpagingpathcount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], IoAdjustPagingPathCount, wdm/IoAdjustPagingPathCount, k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdm.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoAdjustPagingPathCount
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities, GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface, print.iprintschemacapabilities_getselectedoptioninprintticket, IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method
+ms.keywords: print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket
 product: Windows
 targetos: Windows

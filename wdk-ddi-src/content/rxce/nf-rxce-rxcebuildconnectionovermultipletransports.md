@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeBuildConnectionOverMultipleTransports, ifsk.rxcebuildconnectionovermultipletransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], RxCeBuildConnectionOverMultipleTransports
+ms.keywords: RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeBuildConnectionOverMultipleTransports
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -127,16 +127,6 @@ A pointer to a connection completion routine when this routine completed if STAT
 On input, this parameter contains a pointer to an uninitialized RXCE_CONNECTION_COMPLETION_CONTEXT structure. On output when this call is successful, the virtual circuit is associated with the connection and the virtual circuit and connection are properly initialized.
 
 
-##### - CreateOptions.RxCeSelectBestSuccessfulTransport
-
-Select the best successful transport that responds.
-
-
-##### - CreateOptions.RxCeSelectFirstSuccessfulTransport
-
-Select the first successful transport that responds.
-
-
 #### - CreateOptions [in]
 
 Create options that determine which transport will be selected for establishing a connection. These options can be one of the following enumerations for RXCE_CONNECTION_CREATE_OPTIONS:
@@ -144,7 +134,17 @@ Create options that determine which transport will be selected for establishing 
 
 
 
-##### - CreateOptions.RxCeSelectAllSuccessfulTransports
+#### RxCeSelectFirstSuccessfulTransport
+
+Select the first successful transport that responds.
+
+
+#### RxCeSelectBestSuccessfulTransport
+
+Select the best successful transport that responds.
+
+
+#### RxCeSelectAllSuccessfulTransports
 
 Select all of the successful transports that respond.
 
@@ -223,9 +223,9 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
-
 <a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
  
 

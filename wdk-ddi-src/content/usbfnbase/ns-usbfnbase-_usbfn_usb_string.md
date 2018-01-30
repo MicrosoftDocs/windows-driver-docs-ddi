@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_USB_STRING
-title: _USBFN_USB_STRING
+title: "_USBFN_USB_STRING"
 author: windows-driver-content
 description: Describes a USB string descriptor and the associated string index.
 old-location: buses\usbfn_usb_string.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBFN_USB_STRING, USBFN_USB_STRING, *PUSBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses]
+ms.keywords: USBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], _USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, *PUSBFN_USB_STRING, PUSBFN_USB_STRING, USBFN_USB_STRING structure [Buses], usbfnbase/PUSBFN_USB_STRING, buses.usbfn_usb_string
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_USB_STRING
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
+req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C34237E-D4AF-4F12-9FF2-9382BADCC9D3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], IoCheckLinkShareAccess, wdm/IoCheckLinkShareAccess, kernel.iochecklinkshareaccess
+ms.keywords: wdm/IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], IoCheckLinkShareAccess, kernel.iochecklinkshareaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	IoCheckLinkShareAccess
 product: Windows
 targetos: Windows
@@ -134,13 +134,13 @@ The <b>IoCheckLinkShareAccess</b> routine returns STATUS_SUCCESS if the requeste
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
-
 <a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
 
-<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
+
+<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
 
  
 

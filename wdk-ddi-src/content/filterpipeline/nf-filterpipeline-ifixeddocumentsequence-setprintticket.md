@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 636db99c-9195-4476-b1a6-a8067f27c6bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetPrintTicket, SetPrintTicket method [Print Devices], IFixedDocumentSequence interface [Print Devices], SetPrintTicket method, filterpipeline/IFixedDocumentSequence::SetPrintTicket, SetPrintTicket method [Print Devices], IFixedDocumentSequence interface, IFixedDocumentSequence::SetPrintTicket, IFixedDocumentSequence, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, print.ifixeddocumentsequence_setprintticket
+ms.keywords: print.ifixeddocumentsequence_setprintticket, SetPrintTicket method [Print Devices], IFixedDocumentSequence, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, IFixedDocumentSequence::SetPrintTicket, IFixedDocumentSequence interface [Print Devices], SetPrintTicket method, SetPrintTicket, SetPrintTicket method [Print Devices], IFixedDocumentSequence interface, filterpipeline/IFixedDocumentSequence::SetPrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedDocumentSequence.SetPrintTicket
 product: Windows
 targetos: Windows

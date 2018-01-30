@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2126d36c-42c1-4e29-bf82-9f5682482557
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDriverObjectRef_9cf5a70f-e2df-4302-9558-c8cd066cf8e4.xml, wdf.wdfwdmdrivergetwdfdriverhandle, WdfWdmDriverGetWdfDriverHandle method, WdfWdmDriverGetWdfDriverHandle, kmdf.wdfwdmdrivergetwdfdriverhandle, PFN_WDFWDMDRIVERGETWDFDRIVERHANDLE, wdfdriver/WdfWdmDriverGetWdfDriverHandle
+ms.keywords: WdfWdmDriverGetWdfDriverHandle method, wdfdriver/WdfWdmDriverGetWdfDriverHandle, wdf.wdfwdmdrivergetwdfdriverhandle, DFDriverObjectRef_9cf5a70f-e2df-4302-9558-c8cd066cf8e4.xml, kmdf.wdfwdmdrivergetwdfdriverhandle, WdfWdmDriverGetWdfDriverHandle, PFN_WDFWDMDRIVERGETWDFDRIVERHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfWdmDriverGetWdfDriverHandle
 product: Windows
 targetos: Windows

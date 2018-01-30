@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e154c9d5-a131-47db-b0fa-d51154637c56
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnEqual routine [Kernel-Mode Driver Architecture], ClfsLsnEqual, kernel.clfslsnequal, wdm/ClfsLsnEqual, Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml
+ms.keywords: wdm/ClfsLsnEqual, Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml, ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], kernel.clfslsnequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsLsnEqual
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
+
 <a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
 
 <a href="..\wdm\nf-wdm-clfslsngreater.md">ClfsLsnGreater</a>
-
-<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
 
  
 

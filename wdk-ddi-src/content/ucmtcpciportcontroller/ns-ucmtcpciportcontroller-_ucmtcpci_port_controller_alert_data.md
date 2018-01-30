@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
-title: _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
+title: "_UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
 author: windows-driver-content
 description: Contains information about hardware alerts received on the port controller object. This structure is used in the UcmTcpciPortControllerAlert call. Call UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT to initialize this structure.
 old-location: buses\ucmtcpci_port_controller_alert_data.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4b3c2fc8-d7c3-4223-a88e-5db9ad852618
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, *PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA
+ms.keywords: ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, *PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtcpciportcontroller.h
-apiname: 
+apiname:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_KEY_NAME
-title: _REG_QUERY_KEY_NAME
+title: "_REG_QUERY_KEY_NAME"
 author: windows-driver-content
 description: The REG_QUERY_KEY_NAME structure describes the full registry key name of an object being queried.
 old-location: kernel\reg_query_key_name.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 396DA33D-46E0-456C-9FCF-85A7D9915F48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PREG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], PREG_QUERY_KEY_NAME, *PREG_QUERY_KEY_NAME, _REG_QUERY_KEY_NAME, kernel.reg_query_key_name, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], wdm/REG_QUERY_KEY_NAME
+ms.keywords: REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], PREG_QUERY_KEY_NAME, wdm/REG_QUERY_KEY_NAME, *PREG_QUERY_KEY_NAME, kernel.reg_query_key_name, wdm/PREG_QUERY_KEY_NAME, _REG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	REG_QUERY_KEY_NAME
 product: Windows
 targetos: Windows

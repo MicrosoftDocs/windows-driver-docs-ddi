@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_INFO_OUTPUT
-title: _REFS_SMR_VOLUME_INFO_OUTPUT
+title: "_REFS_SMR_VOLUME_INFO_OUTPUT"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_INFO_OUTPUT structure describes a Shingled Magnetic Recording (SMR) volume's current state on space and garbage collection activities.
 old-location: ifsk\refs_smr_volume_info_output.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0DCBAF5F-AEBC-4C4B-9DBD-F7A6FD6C7712
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], *PREFS_SMR_VOLUME_INFO_OUTPUT, _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], REFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT
+ms.keywords: PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, _REFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT, *PREFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_INFO_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	REFS_SMR_VOLUME_INFO_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: REFS_SMR_VOLUME_INFO_OUTPUT, *PREFS_SMR_VOLUME_INFO_OUTPUT
+req.typenames: "*PREFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT"
 ---
 
 # _REFS_SMR_VOLUME_INFO_OUTPUT structure

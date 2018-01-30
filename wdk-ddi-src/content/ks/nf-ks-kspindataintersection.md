@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspindataintersection, ks/KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, KsPinDataIntersection function [Streaming Media Devices], KsPinDataIntersection
+ms.keywords: ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, KsPinDataIntersection function [Streaming Media Devices], KsPinDataIntersection, ks/KsPinDataIntersection, stream.kspindataintersection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinDataIntersection
 product: Windows
 targetos: Windows

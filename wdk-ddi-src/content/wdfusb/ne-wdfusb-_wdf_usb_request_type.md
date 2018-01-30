@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_REQUEST_TYPE
-title: _WDF_USB_REQUEST_TYPE
+title: "_WDF_USB_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_USB_REQUEST_TYPE enumeration identifies the types of USB requests that a framework-based driver can send to a USB I/O target.
 old-location: wdf\wdf_usb_request_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d10cefb-1039-4c48-b9f7-c4a530a6514b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_REQUEST_TYPE enumeration, wdfusb/WdfUsbRequestTypePipeUrb, PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypeDeviceUrb, wdfusb/WdfUsbRequestTypeInvalid, WdfUsbRequestTypeNoFormat, kmdf.wdf_usb_request_type, WdfUsbRequestTypePipeUrb, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypePipeWrite, WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypeDeviceString, wdfusb/WdfUsbRequestTypeNoFormat, wdf.wdf_usb_request_type, PWDF_USB_REQUEST_TYPE enumeration pointer, WdfUsbRequestTypeDeviceControlTransfer, WDF_USB_REQUEST_TYPE, _WDF_USB_REQUEST_TYPE, wdfusb/WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypePipeAbort, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, wdfusb/WdfUsbRequestTypePipeReset, WdfUsbRequestTypePipeReset, *PWDF_USB_REQUEST_TYPE, wdfusb/WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceString, wdfusb/PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceUrb, WdfUsbRequestTypeInvalid, WdfUsbRequestTypePipeWrite
+ms.keywords: wdfusb/WdfUsbRequestTypePipeAbort, wdfusb/PWDF_USB_REQUEST_TYPE, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, wdfusb/WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypePipeRead, kmdf.wdf_usb_request_type, wdfusb/WdfUsbRequestTypeDeviceString, _WDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeUrb, wdfusb/WdfUsbRequestTypePipeWrite, wdfusb/WdfUsbRequestTypeNoFormat, WdfUsbRequestTypeDeviceUrb, PWDF_USB_REQUEST_TYPE, wdf.wdf_usb_request_type, WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypeDeviceUrb, WdfUsbRequestTypePipeReset, PWDF_USB_REQUEST_TYPE enumeration pointer, WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeWrite, WdfUsbRequestTypeDeviceString, wdfusb/WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeRead, WDF_USB_REQUEST_TYPE enumeration, wdfusb/WdfUsbRequestTypePipeUrb, wdfusb/WdfUsbRequestTypePipeReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

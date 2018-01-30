@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], StorPortUpdateAdapterMaxIO
+ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortUpdateAdapterMaxIO
 product: Windows
 targetos: Windows

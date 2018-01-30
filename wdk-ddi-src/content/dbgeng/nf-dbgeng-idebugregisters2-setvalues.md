@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetValues method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::SetValues, SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], SetValues method, SetValues, IDebugRegisters2, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, debugger.setvalues, SetValues method [Windows Debugging], IDebugRegisters::SetValues, dbgeng/IDebugRegisters2::SetValues
+ms.keywords: dbgeng/IDebugRegisters::SetValues, SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters::SetValues, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues, IDebugRegisters2::SetValues, dbgeng/IDebugRegisters2::SetValues, SetValues method [Windows Debugging], IDebugRegisters2, IDebugRegisters interface [Windows Debugging], SetValues method, debugger.setvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.SetValues
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::SetValues method
@@ -156,13 +156,13 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
  
 

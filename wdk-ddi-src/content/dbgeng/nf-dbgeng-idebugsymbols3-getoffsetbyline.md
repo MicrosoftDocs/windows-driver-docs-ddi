@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 347e0d45-8be1-4e4e-8a6a-44d5c914bf0f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOffsetByLine method [Windows Debugging], dbgeng/IDebugSymbols2::GetOffsetByLine, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetOffsetByLine, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols3, dbgeng/IDebugSymbols3::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, debugger.getoffsetbyline, IDebugSymbols3::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols::GetOffsetByLine, GetOffsetByLine
+ms.keywords: dbgeng/IDebugSymbols::GetOffsetByLine, IDebugSymbols::GetOffsetByLine, IDebugSymbols2::GetOffsetByLine, debugger.getoffsetbyline, IDebugSymbols3::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetOffsetByLine, IDebugSymbols3, GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetOffsetByLine
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetOffsetByLine method
@@ -121,9 +121,9 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 

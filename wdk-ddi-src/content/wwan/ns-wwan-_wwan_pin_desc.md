@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_DESC
-title: _WWAN_PIN_DESC
+title: "_WWAN_PIN_DESC"
 author: windows-driver-content
 description: The WWAN_PIN_DESC structure represents the description or current status for a Personal Identification Number (PIN).
 old-location: netvista\wwan_pin_desc.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a88f56eb-b527-4c7c-8f59-650dd10c671e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_PIN_DESC, PWWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_PIN_DESC, WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, netvista.wwan_pin_desc, wwan/PWWAN_PIN_DESC, wwan/WWAN_PIN_DESC, _WWAN_PIN_DESC
+ms.keywords: WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_DESC, WWAN_PIN_DESC, wwan/PWWAN_PIN_DESC, _WWAN_PIN_DESC, *PWWAN_PIN_DESC, netvista.wwan_pin_desc, wwan/WWAN_PIN_DESC, WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PIN_DESC
 product: Windows
 targetos: Windows
-req.typenames: WWAN_PIN_DESC, *PWWAN_PIN_DESC
+req.typenames: "*PWWAN_PIN_DESC, WWAN_PIN_DESC"
 req.product: Windows 10 or later.
 ---
 
@@ -100,9 +100,9 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
-
 <a href="..\wwan\ne-wwan-_wwan_pin_mode.md">WWAN_PIN_MODE</a>
+
+<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
 
 <a href="..\wwan\ne-wwan-_wwan_pin_format.md">WWAN_PIN_FORMAT</a>
 

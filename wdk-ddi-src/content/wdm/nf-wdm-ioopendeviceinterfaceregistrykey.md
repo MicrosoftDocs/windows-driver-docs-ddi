@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d9ca4b9d-dacc-4164-9198-a71a771b145b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoOpenDeviceInterfaceRegistryKey, k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey, wdm/IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], kernel.ioopendeviceinterfaceregistrykey, wdm/IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey, k104_39651647-aa61-4670-b09d-7aaabaae4603.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoOpenDeviceInterfaceRegistryKey
 product: Windows
 targetos: Windows
@@ -144,15 +144,15 @@ Callers of <b>IoOpenDeviceInterfaceRegistryKey</b> must be running at IRQL = PAS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
 <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
+
+<a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	SetVpp
 product: Windows
 targetos: Windows
@@ -83,17 +83,17 @@ Specifies the voltage level to set on the Vpp pin. <i>VppLevel</i> must be one o
 
 
 
-##### - VppLevel.PCMCIA_VPP_0V
+#### PCMCIA_VPP_0V
 
 Specifies that the voltage on the Vpp pin be set to zero volts and that the Vpp pin be disabled.
 
 
-##### - VppLevel.PCMCIA_VPP_12V
+#### PCMCIA_VPP_12V
 
 Specifies that the voltage on the Vpp pin be set to twelve volts.
 
 
-##### - VppLevel.PCMCIA_VPP_IS_VCC
+#### PCMCIA_VPP_IS_VCC
 
 Specifies that the voltage on the Vpp pin be set to equal the voltage on the Vcc (primary card power) pin.
 
@@ -118,9 +118,9 @@ Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL. To maintain overal
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_VIDEO_GET_CHILD_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_GET_CHILD_STATE IOCTL

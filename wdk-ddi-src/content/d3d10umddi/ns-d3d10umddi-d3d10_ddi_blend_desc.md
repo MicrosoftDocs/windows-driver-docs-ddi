@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbb6e5ed-8d24-4b50-826b-f05f44de676a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, display.d3d10_ddi_blend_desc, D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC structure [Display Devices], d3d10umddi/D3D10_DDI_BLEND_DESC
+ms.keywords: D3D10_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, display.d3d10_ddi_blend_desc, d3d10umddi/D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

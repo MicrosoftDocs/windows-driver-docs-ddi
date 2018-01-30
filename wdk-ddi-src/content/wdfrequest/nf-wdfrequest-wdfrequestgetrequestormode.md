@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 63fc77c8-756c-4872-b608-539d8419154b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestgetrequestormode, WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, wdfrequest/WdfRequestGetRequestorMode, PFN_WDFREQUESTGETREQUESTORMODE, wdf.wdfrequestgetrequestormode
+ms.keywords: WdfRequestGetRequestorMode method, wdfrequest/WdfRequestGetRequestorMode, kmdf.wdfrequestgetrequestormode, PFN_WDFREQUESTGETREQUESTORMODE, wdf.wdfrequestgetrequestormode, DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, WdfRequestGetRequestorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestGetRequestorMode
 product: Windows
 targetos: Windows

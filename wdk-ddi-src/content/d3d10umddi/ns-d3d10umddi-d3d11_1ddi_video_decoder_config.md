@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], display.d3d11_1ddi_video_decoder_config, D3D11_1DDI_VIDEO_DECODER_CONFIG, ContentKeySize, pContentKey, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG
+ms.keywords: D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], ContentKeySize, pContentKey, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, display.d3d11_1ddi_video_decoder_config, D3D11_1DDI_VIDEO_DECODER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

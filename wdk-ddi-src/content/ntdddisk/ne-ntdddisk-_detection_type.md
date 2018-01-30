@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdddisk._DETECTION_TYPE
-title: _DETECTION_TYPE
+title: "_DETECTION_TYPE"
 author: windows-driver-content
 description: The DETECTION_TYPE enumeration type is used in conjunction with the IOCTL_DISK_GET_DRIVE_GEOMETRY_EX request and the DISK_GEOMETRY_EX structure to determine the type of formatting used by the BIOS to record the disk geometry.
 old-location: storage\detection_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3257a207-dd7e-4321-b037-95d62cea6f76
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DETECTION_TYPE, ntdddisk/DetectNone, storage.detection_type, ntdddisk/DetectExInt13, DetectInt13, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, DetectExInt13, ntdddisk/DETECTION_TYPE, DetectNone, _DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], ntdddisk/DetectInt13
+ms.keywords: DETECTION_TYPE enumeration [Storage Devices], ntdddisk/DetectInt13, storage.detection_type, DETECTION_TYPE, ntdddisk/DetectNone, DetectInt13, DetectExInt13, _DETECTION_TYPE, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, ntdddisk/DetectExInt13, ntdddisk/DETECTION_TYPE, DetectNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DETECTION_TYPE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterBufferUlong routine [Storage Devices], StorPortReadRegisterBufferUlong, storage.storportreadregisterbufferulong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, storport/StorPortReadRegisterBufferUlong
+ms.keywords: storage.storportreadregisterbufferulong, StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, storport/StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadRegisterBufferUlong
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferulong
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
-
 <a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+
+<a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
 
  
 

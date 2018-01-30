@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadUnicodeStringVirtualWide, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces4, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide method [Windows Debugging]
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtualWide method [Windows Debugging], debugger.readunicodestringvirtualwide, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces4.ReadUnicodeStringVirtualWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadUnicodeStringVirtualWide method
@@ -150,11 +150,11 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
 
  
 

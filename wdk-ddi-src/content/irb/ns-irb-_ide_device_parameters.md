@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_DEVICE_PARAMETERS
-title: _IDE_DEVICE_PARAMETERS
+title: "_IDE_DEVICE_PARAMETERS"
 author: windows-driver-content
 description: The IDE_DEVICE_PARAMETERS structure contains configuration information that the port driver provides to the miniport driver to configure a device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_device_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], irb/PIDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], irb/IDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, storage.ide_device_parameters, IDE_DEVICE_PARAMETERS, _IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS
+ms.keywords: irb/PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], storage.ide_device_parameters, *PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], irb/IDE_DEVICE_PARAMETERS, _IDE_DEVICE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDE_DEVICE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
+req.typenames: "*PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS"
 ---
 
 # _IDE_DEVICE_PARAMETERS structure
@@ -248,9 +248,9 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
-
 <a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
+
+<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
 

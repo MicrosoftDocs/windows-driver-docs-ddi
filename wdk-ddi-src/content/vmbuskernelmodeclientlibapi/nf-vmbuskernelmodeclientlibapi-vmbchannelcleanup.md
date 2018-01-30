@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E079527D-1687-4A12-B86E-96C89CE458CE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelCleanup, netvista.vmbchannelcleanup
+ms.keywords: VmbChannelCleanup, netvista.vmbchannelcleanup, vmbuskernelmodeclientlibapi/VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelCleanup
 product: Windows
 targetos: Windows

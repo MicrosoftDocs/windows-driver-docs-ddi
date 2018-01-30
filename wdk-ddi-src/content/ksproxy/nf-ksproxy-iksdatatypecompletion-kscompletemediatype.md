@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.iksdatatypecompletion_kscompletemediatype, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, KsCompleteMediaType
+ms.keywords: KsCompleteMediaType, IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, IKsDataTypeCompletion, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, stream.iksdatatypecompletion_kscompletemediatype, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsDataTypeCompletion.KsCompleteMediaType
 product: Windows
 targetos: Windows

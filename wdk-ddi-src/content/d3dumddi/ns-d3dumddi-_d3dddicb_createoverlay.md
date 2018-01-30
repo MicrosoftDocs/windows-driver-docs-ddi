@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52f95379-7bfd-4606-9199-ea253ccd6f35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, d3dumddi/D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices], _D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay, D3DDDICB_CREATEOVERLAY
+ms.keywords: D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices], display.d3dddicb_createoverlay, d3dumddi/D3DDDICB_CREATEOVERLAY, _D3DDDICB_CREATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ typedef struct _D3DDDICB_CREATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PROCESSOR_VENDOR
-title: _NDIS_PROCESSOR_VENDOR
+title: "_NDIS_PROCESSOR_VENDOR"
 author: windows-driver-content
 description: The NDIS_PROCESSOR_VENDOR enumeration identifies a processor vendor.
 old-location: netvista\ndis_processor_vendor.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2d1b967-32fb-437a-a0bd-e0028acee022
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisProcessorVendorAuthenticAMD, PNDIS_PROCESSOR_VENDOR, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, ntddndis/NdisProcessorVendorUnknown, ntddndis/NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], NdisProcessorVendorUnknown, ntddndis/NdisProcessorVendorGenuinIntel, ntddndis/PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorGenuinIntel, _NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, NdisProcessorVendorAuthenticAMD, netvista.ndis_processor_vendor, *PNDIS_PROCESSOR_VENDOR
+ms.keywords: ntddndis/NdisProcessorVendorAuthenticAMD, NdisProcessorVendorUnknown, ntddndis/NdisProcessorVendorUnknown, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_VENDOR, _NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR, netvista.ndis_processor_vendor, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, NdisProcessorVendorGenuinIntel, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorGenuinIntel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PROCESSOR_VENDOR
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR
+req.typenames: "*PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR"
 ---
 
 # _NDIS_PROCESSOR_VENDOR enumeration

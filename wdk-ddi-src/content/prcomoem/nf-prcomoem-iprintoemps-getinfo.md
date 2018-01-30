@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetInfo method [Print Devices], IPrintOemPS interface, GetInfo, print.iprintoemps_getinfo, IPrintOemPS interface [Print Devices], GetInfo method, IPrintOemPS::GetInfo, IPrintOemPS, GetInfo method [Print Devices], prcomoem/IPrintOemPS::GetInfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml
+ms.keywords: prcomoem/IPrintOemPS::GetInfo, IPrintOemPS::GetInfo, GetInfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, GetInfo method [Print Devices], IPrintOemPS interface, IPrintOemPS, print.iprintoemps_getinfo, GetInfo method [Print Devices], IPrintOemPS interface [Print Devices], GetInfo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPS.GetInfo
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,26 @@ Contains one of the following caller-supplied integer constants.
 
 
 
+#### OEMGI_GETPUBLISHERINFO
+
+The method must indicate whether the rendering plug-in will be using "publishing mode". The <i>pBuffer</i> parameter points to a <a href="..\printoem\ns-printoem-_publisherinfo.md">PUBLISHERINFO</a> structure, to be filled in by the method. For more information, see the following Remarks section.
+
+
+#### OEMGI_GETREQUESTEDHELPERINTERFACES
+
+The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553228">IPrintOemPS::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552906">IPrintCoreHelperPS Interface</a>.
+
+
+#### OEMGI_GETSIGNATURE
+
+The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures, as described in the description of the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
+
+
+#### OEMGI_GETVERSION
+
+The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
+
+
 ### -param pBuffer
 
 Caller-supplied pointer to memory allocated to receive the information specified by <i>dwMode</i>.
@@ -97,26 +117,6 @@ Caller-supplied size of the buffer pointed to by <i>pBuffer</i>.
 ### -param pcbNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pBuffer</i>.
-
-
-##### - dwMode.OEMGI_GETPUBLISHERINFO
-
-The method must indicate whether the rendering plug-in will be using "publishing mode". The <i>pBuffer</i> parameter points to a <a href="..\printoem\ns-printoem-_publisherinfo.md">PUBLISHERINFO</a> structure, to be filled in by the method. For more information, see the following Remarks section.
-
-
-##### - dwMode.OEMGI_GETSIGNATURE
-
-The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures, as described in the description of the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
-
-
-##### - dwMode.OEMGI_GETVERSION
-
-The method must return the user interface plug-in's version number as a DWORD. The version format is developer-defined.
-
-
-##### - dwMode.OEMGI_GETREQUESTEDHELPERINTERFACES
-
-The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553228">IPrintOemPS::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552906">IPrintCoreHelperPS Interface</a>.
 
 
 ## -returns
@@ -180,9 +180,9 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
 
  
 

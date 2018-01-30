@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendLIRR_OUT
-title: _SendLIRR_OUT
+title: "_SendLIRR_OUT"
 author: windows-driver-content
 description: The SendLIRR_OUT structure is used to report the output parameter data of the SendLIRR WMI method to the WMI client.
 old-location: storage\sendlirr_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendLIRR_OUT structure [Storage Devices], PSendLIRR_OUT structure pointer [Storage Devices], *PSendLIRR_OUT, _SendLIRR_OUT, hbapiwmi/SendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, PSendLIRR_OUT, storage.sendlirr_out, SendLIRR_OUT
+ms.keywords: "*PSendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, PSendLIRR_OUT structure pointer [Storage Devices], PSendLIRR_OUT, _SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, storage.sendlirr_out, SendLIRR_OUT, hbapiwmi/SendLIRR_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendLIRR_OUT
 product: Windows
 targetos: Windows

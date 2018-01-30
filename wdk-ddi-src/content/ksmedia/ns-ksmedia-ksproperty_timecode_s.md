@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45af16ee-7405-44a4-ad14-e2cf9d916164
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], PKSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S, vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml, stream.ksproperty_timecode_s, KSPROPERTY_TIMECODE_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TIMECODE_S, ksmedia/KSPROPERTY_TIMECODE_S
+ms.keywords: vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml, PKSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S, ksmedia/KSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S, ksmedia/PKSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], stream.ksproperty_timecode_s, KSPROPERTY_TIMECODE_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_TIMECODE_S
 product: Windows
 targetos: Windows

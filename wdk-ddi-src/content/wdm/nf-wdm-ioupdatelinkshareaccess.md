@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C92E53C8-3411-4E6E-B48E-B16F6B815488
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
+ms.keywords: wdm/IoUpdateLinkShareAccess, IoUpdateLinkShareAccess, kernel.ioupdatelinkshareaccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoUpdateLinkShareAccess
 product: Windows
 targetos: Windows
@@ -103,11 +103,11 @@ Before calling <b>IoUpdateLinkShareAccess</b>, the caller must successfully call
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
-
 <a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
 
 <a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
+
+<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
 
  
 

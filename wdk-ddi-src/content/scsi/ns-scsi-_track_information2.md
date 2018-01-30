@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._TRACK_INFORMATION2
-title: _TRACK_INFORMATION2
+title: "_TRACK_INFORMATION2"
 author: windows-driver-content
 description: The TRACK_INFORMATION2 structure is used to report track information.
 old-location: storage\track_information2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PTRACK_INFORMATION2 structure pointer [Storage Devices], storage.track_information2, *PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, TRACK_INFORMATION2 structure [Storage Devices], TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, _TRACK_INFORMATION2, PTRACK_INFORMATION2
+ms.keywords: scsi/TRACK_INFORMATION2, TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], _TRACK_INFORMATION2, storage.track_information2, PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], scsi/PTRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, *PTRACK_INFORMATION2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	TRACK_INFORMATION2
 product: Windows
 targetos: Windows
-req.typenames: *PTRACK_INFORMATION2, TRACK_INFORMATION2
+req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
 req.product: Windows 10 or later.
 ---
 

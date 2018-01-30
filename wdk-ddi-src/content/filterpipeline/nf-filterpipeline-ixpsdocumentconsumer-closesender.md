@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CloseSender method [Print Devices], CloseSender method [Print Devices], IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::CloseSender, IXpsDocumentConsumer interface [Print Devices], CloseSender method, print.ixpsdocumentconsumer_closesender, CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, IXpsDocumentConsumer::CloseSender, IXpsDocumentConsumer
+ms.keywords: filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender, CloseSender, filterpipeline/IXpsDocumentConsumer::CloseSender, CloseSender method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, CloseSender method [Print Devices], IXpsDocumentConsumer::CloseSender, IXpsDocumentConsumer interface [Print Devices], CloseSender method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.CloseSender
 product: Windows
 targetos: Windows

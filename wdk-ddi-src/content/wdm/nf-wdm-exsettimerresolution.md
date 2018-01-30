@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 968d57fa-7a8e-42cf-b73b-d669ecbbaf48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSetTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exsettimerresolution, wdm/ExSetTimerResolution, ExSetTimerResolution, k102_09179649-af93-434f-92e0-844a2bdf34dc.xml
+ms.keywords: kernel.exsettimerresolution, ExSetTimerResolution, wdm/ExSetTimerResolution, k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, ExSetTimerResolution routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExSetTimerResolution
 product: Windows
 targetos: Windows

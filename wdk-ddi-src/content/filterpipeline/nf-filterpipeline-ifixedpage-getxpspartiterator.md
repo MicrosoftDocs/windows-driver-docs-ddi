@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IFixedPage::GetXpsPartIterator, GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices], IFixedPage interface, IFixedPage, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator
+ms.keywords: print.ifixedpage_getxpspartiterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, GetXpsPartIterator method [Print Devices], IFixedPage, GetXpsPartIterator, IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator method [Print Devices], IFixedPage interface, IFixedPage::GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedPage.GetXpsPartIterator
 product: Windows
 targetos: Windows

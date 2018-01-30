@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetSiloContext, kernel.psgetsilocontext, ntddk/PsGetSiloContext, PsGetSiloContext routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsGetSiloContext, PsGetSiloContext, kernel.psgetsilocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsGetSiloContext
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetSiloContext function

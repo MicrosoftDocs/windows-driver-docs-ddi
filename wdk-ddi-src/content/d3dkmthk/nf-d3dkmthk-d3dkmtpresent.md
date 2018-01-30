@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTPresent, OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, display.d3dkmtpresent, D3DKMTPresent, D3DKMTPresent function [Display Devices]
+ms.keywords: D3DKMTPresent function [Display Devices], display.d3dkmtpresent, d3dkmthk/D3DKMTPresent, OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, D3DKMTPresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

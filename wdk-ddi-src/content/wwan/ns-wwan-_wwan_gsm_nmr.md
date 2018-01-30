@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GSM_NMR
-title: _WWAN_GSM_NMR
+title: "_WWAN_GSM_NMR"
 author: windows-driver-content
 description: The WWAN_GSM_NMR structure represents the network measurement report (NMR) of neighboring GSM cells.
 old-location: netvista\wwan_gsm_nmr.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ADEEB57F-79FF-4AA7-84AF-FED413E47057
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_GSM_NMR, netvista.wwan_gsm_nmr, PWWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], *PWWAN_GSM_NMR, _WWAN_GSM_NMR, wwan/WWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_GSM_NMR
+ms.keywords: wwan/PWWAN_GSM_NMR, _WWAN_GSM_NMR, *PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR, WWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_gsm_nmr, PWWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_GSM_NMR
 product: Windows
 targetos: Windows
-req.typenames: WWAN_GSM_NMR, *PWWAN_GSM_NMR
+req.typenames: "*PWWAN_GSM_NMR, WWAN_GSM_NMR"
 req.product: Windows 10 or later.
 ---
 
@@ -87,9 +87,9 @@ The array of NMR records, each specified as a <a href="..\wwan\ns-wwan-_wwan_gsm
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
-
 <a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
+
+<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 

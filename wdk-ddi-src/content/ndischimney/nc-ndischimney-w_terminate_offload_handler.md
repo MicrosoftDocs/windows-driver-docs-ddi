@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	MiniportTerminateOffload
 product: Windows
 targetos: Windows
@@ -140,15 +140,15 @@ All outstanding receive and disconnect calls have returned.
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.ndismterminateoffloadcomplete" tabindex="0"><b>
-   NdisMTerminateOffloadComplete</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+<mshelp:link keywords="netvista.ndismterminateoffloadcomplete" tabindex="0"><b>
+   NdisMTerminateOffloadComplete</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 

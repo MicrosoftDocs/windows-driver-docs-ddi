@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 64f46049-fbf0-4d9b-b5fe-9877a964755f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset
+ms.keywords: srb/ScsiPortSetBusDataByOffset, scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], storage.scsiportsetbusdatabyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortSetBusDataByOffset
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -132,17 +132,17 @@ Miniport drivers of HBAs on a PCI bus seldom call <b>ScsiPortSetBusDataByOffset<
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
-<a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
  
 

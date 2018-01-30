@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C549B9C7-221D-4DD8-9D8D-24BC729099C7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbconvertvmbushandletokernelhandle, vmbuskernelmodeclientlibapi/VmbConvertVmbusHandleToKernelHandle, VmbConvertVmbusHandleToKernelHandle function [Network Drivers Starting with Windows Vista], VmbConvertVmbusHandleToKernelHandle
+ms.keywords: netvista.vmbconvertvmbushandletokernelhandle, VmbConvertVmbusHandleToKernelHandle function [Network Drivers Starting with Windows Vista], VmbConvertVmbusHandleToKernelHandle, vmbuskernelmodeclientlibapi/VmbConvertVmbusHandleToKernelHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbConvertVmbusHandleToKernelHandle
 product: Windows
 targetos: Windows

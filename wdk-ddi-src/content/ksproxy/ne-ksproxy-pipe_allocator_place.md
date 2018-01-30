@@ -2,13 +2,13 @@
 UID: NE:ksproxy.PIPE_ALLOCATOR_PLACE
 title: PIPE_ALLOCATOR_PLACE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\pipe_allocator_place.htm
 old-project: stream
 ms.assetid: 86B1D8BB-7213-403C-8EAB-D681A5DBF49E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.pipe_allocator_place, ksproxy/Pipe_Allocator_None, ksproxy/PIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], ksproxy/Pipe_Allocator_MiddlePin, PIPE_ALLOCATOR_PLACE, *PPIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_FirstPin, Pipe_Allocator_None, Pipe_Allocator_MiddlePin, Pipe_Allocator_FirstPin, Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_LastPin
+ms.keywords: stream.pipe_allocator_place, *PPIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_FirstPin, Pipe_Allocator_LastPin, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_MiddlePin, Pipe_Allocator_None, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_MiddlePin, Pipe_Allocator_FirstPin, ksproxy/Pipe_Allocator_None
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksproxy.h
-apiname: 
+apiname:
 -	PIPE_ALLOCATOR_PLACE
 product: Windows
 targetos: Windows

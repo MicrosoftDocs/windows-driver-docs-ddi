@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7A5F39C8-DCA2-4684-801A-A334960AA523
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongPtrToLong function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongPtrToLong, kernel.rtlulongptrtolong, RtlULongPtrToLong
+ms.keywords: RtlULongPtrToLong, RtlULongPtrToLong function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongPtrToLong, kernel.rtlulongptrtolong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongPtrToLong
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSC_STATISTICS_INFO
-title: _NDIS_RSC_STATISTICS_INFO
+title: "_NDIS_RSC_STATISTICS_INFO"
 author: windows-driver-content
 description: The NDIS_RSC_STATISTICS_INFO structure contains statistics that a miniport driver supplies in response to a query of the OID_TCP_RSC_STATISTICS OID.
 old-location: netvista\ndis_rsc_statistics_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14911610-f2d6-4ad4-884f-3137eab143be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], NDIS_RSC_STATISTICS_INFO, ntddndis/NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, ntddndis/PNDIS_RSC_STATISTICS_INFO
+ms.keywords: NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RSC_STATISTICS_INFO
 product: Windows
 targetos: Windows
@@ -80,6 +80,13 @@ To specify the version of the <b>NDIS_RSC_STATISTICS_INFO</b> structure, the dri
 
 
 
+#### NDIS_RSC_STATISTICS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_RSC_STATISTICS_REVISION_1.
+
+
 ### -field CoalescedPkts
 
 The total  number of packets that were coalesced.
@@ -101,18 +108,11 @@ The total number of RSC abort events. That is, the number of exceptions other th
  
 
 
-##### - Header.NDIS_RSC_STATISTICS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_RSC_STATISTICS_REVISION_1.
-
-
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451929">OID_TCP_RSC_STATISTICS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

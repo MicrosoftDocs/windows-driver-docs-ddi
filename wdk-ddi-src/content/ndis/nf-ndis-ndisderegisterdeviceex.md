@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bca1ef90-b574-4ed5-a9ec-c553372490b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisDeregisterDeviceEx, netvista.ndisderegisterdeviceex, NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml
+ms.keywords: netvista.ndisderegisterdeviceex, ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterDeviceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisDeregisterDeviceEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisDeregisterDeviceEx function

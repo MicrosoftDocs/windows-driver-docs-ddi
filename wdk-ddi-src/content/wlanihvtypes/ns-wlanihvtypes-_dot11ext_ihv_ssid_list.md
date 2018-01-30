@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihvtypes._DOT11EXT_IHV_SSID_LIST
-title: _DOT11EXT_IHV_SSID_LIST
+title: "_DOT11EXT_IHV_SSID_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_ssid_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10ef8868-5a65-4ed9-9f1d-440cda30cba4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_IHV_SSID_LIST, Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, _DOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_ssid_list, *PDOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST
+ms.keywords: DOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST, Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, _DOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihvtypes.h
-apiname: 
+apiname:
 -	DOT11EXT_IHV_SSID_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST
+req.typenames: DOT11EXT_IHV_SSID_LIST, *PDOT11EXT_IHV_SSID_LIST
 req.product: Windows 10 or later.
 ---
 

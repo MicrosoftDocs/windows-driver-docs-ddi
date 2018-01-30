@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointGetStaticStreamsReferenced method [Buses], ucxendpoint/UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced, UcxEndpointGetStaticStreamsReferenced
+ms.keywords: ucxendpoint/UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced, UcxEndpointGetStaticStreamsReferenced method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxEndpointGetStaticStreamsReferenced
 product: Windows
 targetos: Windows

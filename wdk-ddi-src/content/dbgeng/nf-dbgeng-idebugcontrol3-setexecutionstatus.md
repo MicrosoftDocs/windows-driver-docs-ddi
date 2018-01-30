@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f3468fe5-31b4-4bf6-b0e3-ee27ecfd8e06
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetExecutionStatus method [Windows Debugging], IDebugControl interface, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, SetExecutionStatus method [Windows Debugging], dbgeng/IDebugControl::SetExecutionStatus, IDebugControl2::SetExecutionStatus, dbgeng/IDebugControl3::SetExecutionStatus, IDebugControl3, SetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], SetExecutionStatus method, dbgeng/IDebugControl2::SetExecutionStatus, IDebugControl::SetExecutionStatus, SetExecutionStatus method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetExecutionStatus, SetExecutionStatus, debugger.setexecutionstatus, IDebugControl interface [Windows Debugging], SetExecutionStatus method, IDebugControl3 interface [Windows Debugging], SetExecutionStatus method
+ms.keywords: SetExecutionStatus method [Windows Debugging], dbgeng/IDebugControl3::SetExecutionStatus, debugger.setexecutionstatus, IDebugControl::SetExecutionStatus, IDebugControl2 interface [Windows Debugging], SetExecutionStatus method, IDebugControl3 interface [Windows Debugging], SetExecutionStatus method, IDebugControl3, SetExecutionStatus method [Windows Debugging], IDebugControl2 interface, SetExecutionStatus, SetExecutionStatus method [Windows Debugging], IDebugControl interface, SetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetExecutionStatus, IDebugControl interface [Windows Debugging], SetExecutionStatus method, dbgeng/IDebugControl2::SetExecutionStatus, dbgeng/IDebugControl::SetExecutionStatus, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, IDebugControl2::SetExecutionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.SetExecutionStatus
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::SetExecutionStatus method
@@ -140,13 +140,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546675">GetExecutionStatus</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

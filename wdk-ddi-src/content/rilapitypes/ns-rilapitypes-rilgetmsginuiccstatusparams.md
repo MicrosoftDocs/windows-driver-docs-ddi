@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e51f87a-42ae-4ee7-ae34-b49b40109e8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS, netvista.rilgetmsginuiccstatusparams_2
+ms.keywords: netvista.rilgetmsginuiccstatusparams_2, RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETMSGINUICCSTATUSPARAMS, rilapitypes/RILGETMSGINUICCSTATUSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGETMSGINUICCSTATUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS
+req.typenames: "*LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS"
 req.product: Windows 10 or later.
 ---
 

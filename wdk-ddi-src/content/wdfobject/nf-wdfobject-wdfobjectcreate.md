@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd56c529-c7ad-4fc4-8fcc-950a1e8e21e5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFOBJECTCREATE, WdfObjectCreate method, wdf.wdfobjectcreate, WdfObjectCreate, wdfobject/WdfObjectCreate, kmdf.wdfobjectcreate, DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml
+ms.keywords: DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, wdf.wdfobjectcreate, WdfObjectCreate method, PFN_WDFOBJECTCREATE, WdfObjectCreate, kmdf.wdfobjectcreate, wdfobject/WdfObjectCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfObjectCreate
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ For more information about the <b>WdfObjectCreate</b> method, see <a href="https
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
  
 

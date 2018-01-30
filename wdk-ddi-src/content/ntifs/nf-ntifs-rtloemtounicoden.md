@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fe00b980-4bb5-4ad7-84c0-99d47d2f7c51
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtloemtounicoden, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, ntifs/RtlOemToUnicodeN, RtlOemToUnicodeN routine [Installable File System Drivers], RtlOemToUnicodeN
+ms.keywords: RtlOemToUnicodeN, RtlOemToUnicodeN routine [Installable File System Drivers], ifsk.rtloemtounicoden, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml, ntifs/RtlOemToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlOemToUnicodeN
 product: Windows
 targetos: Windows

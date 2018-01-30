@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniPinHandshake
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
  
 

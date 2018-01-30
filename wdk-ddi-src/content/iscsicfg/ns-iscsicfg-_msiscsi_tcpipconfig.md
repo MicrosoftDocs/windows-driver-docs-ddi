@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_TCPIPConfig
-title: _MSiSCSI_TCPIPConfig
+title: "_MSiSCSI_TCPIPConfig"
 author: windows-driver-content
 description: The MSiSCSI_TCPIPConfig structure reports TCP/IP configuration information about one of the adapter's ports.
 old-location: storage\msiscsi_tcpipconfig.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1f33d262-0488-46cb-a762-1f3e24cdd219
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml, *PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], storage.msiscsi_tcpipconfig, PMSiSCSI_TCPIPConfig
+ms.keywords: storage.msiscsi_tcpipconfig, MSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml, _MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], *PMSiSCSI_TCPIPConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsicfg.h
-apiname: 
+apiname:
 -	MSiSCSI_TCPIPConfig
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_TCPIPConfig, *PMSiSCSI_TCPIPConfig
+req.typenames: "*PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig"
 ---
 
 # _MSiSCSI_TCPIPConfig structure

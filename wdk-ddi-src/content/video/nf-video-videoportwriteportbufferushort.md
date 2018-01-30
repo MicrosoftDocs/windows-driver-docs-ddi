@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d9be3108-27fe-4899-bf23-0f51d9309888
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_cf88884e-2891-4e82-b7e0-afaa605a2d65.xml, VideoPortWritePortBufferUshort function [Display Devices], display.videoportwriteportbufferushort, video/VideoPortWritePortBufferUshort, VideoPortWritePortBufferUshort
+ms.keywords: video/VideoPortWritePortBufferUshort, VideoPortWritePortBufferUshort function [Display Devices], VideoPort_Functions_cf88884e-2891-4e82-b7e0-afaa605a2d65.xml, VideoPortWritePortBufferUshort, display.videoportwriteportbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortWritePortBufferUshort function

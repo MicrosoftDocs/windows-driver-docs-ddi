@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::GetIdentityWide, IDebugClient5, GetIdentityWide method [Windows Debugging], GetIdentityWide, IDebugClient5::GetIdentityWide, debugger.getidentitywide, IDebugClient5 interface [Windows Debugging], GetIdentityWide method, GetIdentityWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: GetIdentityWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetIdentityWide, GetIdentityWide, debugger.getidentitywide, GetIdentityWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetIdentityWide method, dbgeng/IDebugClient5::GetIdentityWide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.GetIdentityWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::GetIdentityWide method
@@ -130,9 +130,9 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553219">OutputIdentity</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553219">OutputIdentity</a>
 
  
 

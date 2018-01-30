@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_IPF_MCA_DESCRIPTOR
-title: _WHEA_IPF_MCA_DESCRIPTOR
+title: "_WHEA_IPF_MCA_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_IPF_MCA_DESCRIPTOR structure describes a machine check abort (MCA) error source for an Itanium processor.
 old-location: whea\whea_ipf_mca_descriptor.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2961a568-32e0-4c48-b5bc-5cfb0f78272d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml, ntddk/PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR, ntddk/WHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_ipf_mca_descriptor, _WHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR, *PWHEA_IPF_MCA_DESCRIPTOR
+ms.keywords: ntddk/PWHEA_IPF_MCA_DESCRIPTOR, *PWHEA_IPF_MCA_DESCRIPTOR, whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml, PWHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_ipf_mca_descriptor, _WHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/WHEA_IPF_MCA_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_IPF_MCA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR
+req.typenames: WHEA_IPF_MCA_DESCRIPTOR, *PWHEA_IPF_MCA_DESCRIPTOR
 ---
 
 # _WHEA_IPF_MCA_DESCRIPTOR structure

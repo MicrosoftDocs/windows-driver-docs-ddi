@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaCapabilities2, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface
+ms.keywords: printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, GetParameterDefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, GetParameterDefinition method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaCapabilities2.GetParameterDefinition
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
 
  
 

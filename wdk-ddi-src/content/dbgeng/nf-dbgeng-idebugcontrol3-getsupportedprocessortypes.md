@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b1a69c60-67e8-46b0-8f2e-7da2c4860ea6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSupportedProcessorTypes method [Windows Debugging], GetSupportedProcessorTypes, dbgeng/IDebugControl::GetSupportedProcessorTypes, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl interface, IDebugControl2::GetSupportedProcessorTypes, IDebugControl3, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl2 interface, IDebugControl::GetSupportedProcessorTypes, dbgeng/IDebugControl2::GetSupportedProcessorTypes, debugger.getsupportedprocessortypes, IDebugControl3::GetSupportedProcessorTypes, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl3 interface, IDebugControl_555eef6a-df68-4f94-9cfa-dc31aee27014.xml, IDebugControl2 interface [Windows Debugging], GetSupportedProcessorTypes method, IDebugControl3 interface [Windows Debugging], GetSupportedProcessorTypes method, dbgeng/IDebugControl3::GetSupportedProcessorTypes, IDebugControl interface [Windows Debugging], GetSupportedProcessorTypes method
+ms.keywords: IDebugControl2 interface [Windows Debugging], GetSupportedProcessorTypes method, IDebugControl2::GetSupportedProcessorTypes, IDebugControl3, GetSupportedProcessorTypes, debugger.getsupportedprocessortypes, IDebugControl3 interface [Windows Debugging], GetSupportedProcessorTypes method, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetSupportedProcessorTypes, IDebugControl interface [Windows Debugging], GetSupportedProcessorTypes method, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl3 interface, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl interface, IDebugControl_555eef6a-df68-4f94-9cfa-dc31aee27014.xml, IDebugControl::GetSupportedProcessorTypes, dbgeng/IDebugControl3::GetSupportedProcessorTypes, GetSupportedProcessorTypes method [Windows Debugging], dbgeng/IDebugControl2::GetSupportedProcessorTypes, dbgeng/IDebugControl::GetSupportedProcessorTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetSupportedProcessorTypes
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetSupportedProcessorTypes method
@@ -119,13 +119,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548169">GetProcessorTypeNames</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547966">GetNumberSupportedProcessorTypes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548169">GetProcessorTypeNames</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

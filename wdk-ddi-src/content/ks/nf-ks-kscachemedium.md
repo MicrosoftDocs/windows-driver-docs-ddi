@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0e9c146-5d73-49e8-92a8-c453f5bbbfe9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCacheMedium, KsCacheMedium, stream.kscachemedium, KsCacheMedium function [Streaming Media Devices], ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml
+ms.keywords: ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, KsCacheMedium function [Streaming Media Devices], ks/KsCacheMedium, stream.kscachemedium, KsCacheMedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCacheMedium
 product: Windows
 targetos: Windows

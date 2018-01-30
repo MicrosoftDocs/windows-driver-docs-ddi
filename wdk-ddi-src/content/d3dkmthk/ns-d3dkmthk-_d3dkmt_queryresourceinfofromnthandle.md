@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices]
+ms.keywords: d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UNIFM_HDR
-title: _UNIFM_HDR
+title: "_UNIFM_HDR"
 author: windows-driver-content
 description: The UNIFM_HDR structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\unifm_hdr.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PUNIFM_HDR, prntfont/UNIFM_HDR, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, PUNIFM_HDR, prntfont/PUNIFM_HDR, print.unifm_hdr
+ms.keywords: prntfont/PUNIFM_HDR, print.unifm_hdr, PUNIFM_HDR structure pointer [Print Devices], prntfont/UNIFM_HDR, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, UNIFM_HDR, *PUNIFM_HDR, UNIFM_HDR structure [Print Devices], PUNIFM_HDR, _UNIFM_HDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UNIFM_HDR
 product: Windows
 targetos: Windows
@@ -189,17 +189,17 @@ The character conversion codes predefined by the system, listed in Prntfont.h, a
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
-
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
-
 <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
 <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a>
 
-<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
-
 <a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
+
+<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
+
+<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
+
+<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
 
  
 

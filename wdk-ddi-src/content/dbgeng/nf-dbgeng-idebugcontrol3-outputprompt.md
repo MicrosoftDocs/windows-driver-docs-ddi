@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 463d6fbd-cbe4-4de1-a01a-52a5002f24b8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, OutputPrompt method [Windows Debugging], IDebugControl3::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, IDebugControl3, IDebugControl2 interface [Windows Debugging], OutputPrompt method, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt method [Windows Debugging], IDebugControl3 interface, IDebugControl::OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl interface, debugger.outputprompt, IDebugControl interface [Windows Debugging], OutputPrompt method, IDebugControl2::OutputPrompt
+ms.keywords: IDebugControl3, debugger.outputprompt, IDebugControl2::OutputPrompt, OutputPrompt method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], OutputPrompt method, OutputPrompt method [Windows Debugging], IDebugControl3 interface, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, IDebugControl interface [Windows Debugging], OutputPrompt method, IDebugControl3::OutputPrompt, dbgeng/IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging], OutputPrompt method, dbgeng/IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging], IDebugControl2 interface, OutputPrompt, dbgeng/IDebugControl::OutputPrompt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputPrompt
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputPrompt method
@@ -306,19 +306,19 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

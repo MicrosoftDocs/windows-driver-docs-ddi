@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/EXT_TYPED_DATA, *PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], debugger.ext_typed_data, PEXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, EXT_TYPED_DATA, _EXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging]
+ms.keywords: debugger.ext_typed_data, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, wdbgexts/PEXT_TYPED_DATA, *PEXT_TYPED_DATA, EXT_TYPED_DATA, wdbgexts/EXT_TYPED_DATA, _EXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
+req.product: Windows 10 or later.
 ---
 
 # _EXT_TYPED_DATA structure
@@ -248,13 +249,13 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 ## -see-also
 
-<a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>
-
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
 
  
 

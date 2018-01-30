@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c6c0da06-c304-4d2d-907c-ccbb141c385b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, IMiniportWaveRT, portcls/IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, IMiniportWaveRT::GetDeviceDescription, GetDeviceDescription method [Audio Devices], GetDeviceDescription
+ms.keywords: IMiniportWaveRT, IMiniportWaveRT::GetDeviceDescription, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, GetDeviceDescription method [Audio Devices], audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, GetDeviceDescription, GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <code>GetDeviceDescription</code> method returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> structure describing the device.
+The <code>GetDeviceDescription</code> method returns a pointer to a <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure describing the device.
 
 
 ## -syntax
@@ -88,11 +88,11 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+
+<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_VOICE_CLASS
-title: _WWAN_VOICE_CLASS
+title: "_WWAN_VOICE_CLASS"
 author: windows-driver-content
 description: The WWAN_VOICE_CLASS enumeration lists the different types of voice classes that are supported by the MB device.
 old-location: netvista\wwan_voice_class.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 288a7b44-b842-41f8-8ece-d14a709b0717
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanVoiceClassMax, WwanVoiceClassUnknown, WWAN_VOICE_CLASS, WwanVoiceClassSimultaneousVoiceData, _WWAN_VOICE_CLASS, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_VOICE_CLASS, wwan/PWWAN_VOICE_CLASS, wwan/WwanVoiceClassUnknown, WwanVoiceClassNoVoice, WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, netvista.wwan_voice_class, wwan/WwanVoiceClassSimultaneousVoiceData, PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_VOICE_CLASS, WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassNoVoice, wwan/WwanVoiceClassMax
+ms.keywords: wwan/WwanVoiceClassMax, WwanVoiceClassNoVoice, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_VOICE_CLASS, WwanVoiceClassSeparateVoiceData, WwanVoiceClassUnknown, wwan/WwanVoiceClassSeparateVoiceData, WwanVoiceClassMax, PWWAN_VOICE_CLASS, WWAN_VOICE_CLASS, wwan/WwanVoiceClassSimultaneousVoiceData, WwanVoiceClassSimultaneousVoiceData, wwan/WwanVoiceClassUnknown, WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, _WWAN_VOICE_CLASS, netvista.wwan_voice_class, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_VOICE_CLASS, *PWWAN_VOICE_CLASS, wwan/WwanVoiceClassNoVoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_VOICE_CLASS
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_VOICE_CLASS, WWAN_VOICE_CLASS
+req.typenames: "*PWWAN_VOICE_CLASS, WWAN_VOICE_CLASS"
 req.product: Windows 10 or later.
 ---
 

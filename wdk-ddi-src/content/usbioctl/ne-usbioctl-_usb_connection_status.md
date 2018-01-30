@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_CONNECTION_STATUS
-title: _USB_CONNECTION_STATUS
+title: "_USB_CONNECTION_STATUS"
 author: windows-driver-content
 description: The USB_CONNECTION_STATUS enumerator indicates the status of the connection to a device on a USB hub port.
 old-location: buses\usb_connection_status.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_CONNECTION_STATUS, DeviceConnected, usbioctl/DeviceReset, DeviceEnumerating, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, usbioctl/DeviceConnected, PUSB_CONNECTION_STATUS, DeviceInLegacyHub, usbioctl/DeviceNotEnoughPower, usbioctl/DeviceGeneralFailure, buses.usb_connection_status, DeviceCausedOvercurrent, DeviceNotEnoughBandwidth, NoDeviceConnected, usbioctl/DeviceFailedEnumeration, usbioctl/PUSB_CONNECTION_STATUS, _USB_CONNECTION_STATUS, DeviceFailedEnumeration, DeviceGeneralFailure, *PUSB_CONNECTION_STATUS, DeviceNotEnoughPower, DeviceHubNestedTooDeeply, DeviceReset, PUSB_CONNECTION_STATUS enumeration pointer [Buses], usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceInLegacyHub, usbioctl/USB_CONNECTION_STATUS, usbioctl/DeviceHubNestedTooDeeply, USB_CONNECTION_STATUS enumeration [Buses], usbioctl/DeviceNotEnoughBandwidth, usbioctl/NoDeviceConnected, usbioctl/DeviceEnumerating
+ms.keywords: usbioctl/DeviceFailedEnumeration, NoDeviceConnected, usbioctl/USB_CONNECTION_STATUS, usbioctl/DeviceInLegacyHub, PUSB_CONNECTION_STATUS, usbioctl/DeviceCausedOvercurrent, USB_CONNECTION_STATUS enumeration [Buses], usbioctl/NoDeviceConnected, DeviceNotEnoughPower, PUSB_CONNECTION_STATUS enumeration pointer [Buses], DeviceCausedOvercurrent, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/DeviceConnected, usbioctl/DeviceEnumerating, usbioctl/DeviceReset, usbioctl/DeviceGeneralFailure, DeviceReset, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, USB_CONNECTION_STATUS, DeviceNotEnoughBandwidth, DeviceInLegacyHub, DeviceHubNestedTooDeeply, *PUSB_CONNECTION_STATUS, usbioctl/DeviceNotEnoughBandwidth, usbioctl/DeviceHubNestedTooDeeply, DeviceConnected, DeviceGeneralFailure, buses.usb_connection_status, usbioctl/DeviceNotEnoughPower, DeviceEnumerating, _USB_CONNECTION_STATUS, DeviceFailedEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_CONNECTION_STATUS
 product: Windows
 targetos: Windows

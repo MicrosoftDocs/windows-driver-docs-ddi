@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 31229c78-0bea-44eb-9f1a-d1bce8a16a3e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WritePort, print.writeport, spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml, WritePort function [Print Devices], winsplp/WritePort
+ms.keywords: WritePort, WritePort function [Print Devices], spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml, winsplp/WritePort, print.writeport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	WritePort
 product: Windows
 targetos: Windows
@@ -126,13 +126,13 @@ It is acceptable for a language monitor to call a port monitor's <code>WritePort
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
 <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
 <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
 
  
 

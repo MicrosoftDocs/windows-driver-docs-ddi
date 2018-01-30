@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SOURCE_STATE
-title: _WHEA_ERROR_SOURCE_STATE
+title: "_WHEA_ERROR_SOURCE_STATE"
 author: windows-driver-content
 description: The WHEA_ERROR_SOURCE_STATE enumeration defines the different runtime states for an error source.
 old-location: whea\whea_error_source_state.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_ERROR_SOURCE_STATE, whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStarted, WheaErrSrcStateStarted, *PWHEA_ERROR_SOURCE_STATE, ntddk/WHEA_ERROR_SOURCE_STATE, _WHEA_ERROR_SOURCE_STATE, whea.whea_error_source_state, ntddk/WheaErrSrcStateStopped, WheaErrSrcStateStopped, PWHEA_ERROR_SOURCE_STATE
+ms.keywords: WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], whea.whea_error_source_state, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, WHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStarted, PWHEA_ERROR_SOURCE_STATE, ntddk/WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE, _WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStarted, ntddk/PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStopped, ntddk/WheaErrSrcStateStopped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_SOURCE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE
+req.typenames: "*PWHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE"
 ---
 
 # _WHEA_ERROR_SOURCE_STATE enumeration

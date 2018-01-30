@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_SEND_REQUEST
-title: _FCP_SEND_REQUEST
+title: "_FCP_SEND_REQUEST"
 author: windows-driver-content
 description: This structure is used for a send request.
 old-location: ieee\fcp_send_request.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82F36729-57E0-49AB-8C2D-BCBA6EED33EE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/FCP_SEND_REQUEST, PFCP_SEND_REQUEST, *PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], FCP_SEND_REQUEST structure [Buses], *PFCP_REQUEST, _FCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST, FCP_REQUEST, FCP_SEND_REQUEST, IEEE.fcp_send_request
+ms.keywords: FCP_REQUEST, *PFCP_SEND_REQUEST, 61883/FCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST, IEEE.fcp_send_request, PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], FCP_SEND_REQUEST structure [Buses], *PFCP_REQUEST, _FCP_SEND_REQUEST, FCP_SEND_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	FCP_SEND_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PFCP_REQUEST, *PFCP_SEND_REQUEST, FCP_REQUEST, FCP_SEND_REQUEST
+req.typenames: "*PFCP_REQUEST, FCP_REQUEST, *PFCP_SEND_REQUEST, FCP_SEND_REQUEST"
 ---
 
 # _FCP_SEND_REQUEST structure

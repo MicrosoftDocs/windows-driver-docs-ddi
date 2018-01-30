@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaCapabilities
+ms.keywords: printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], print.iprintschemacapabilities_getfeaturebykeyname, IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaCapabilities, IPrintSchemaCapabilities::GetFeatureByKeyName, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaCapabilities.GetFeatureByKeyName
 product: Windows
 targetos: Windows
@@ -172,11 +172,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 <a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
  
 

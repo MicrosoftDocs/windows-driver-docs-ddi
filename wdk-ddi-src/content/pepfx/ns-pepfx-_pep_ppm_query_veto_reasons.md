@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_VETO_REASONS
-title: _PEP_PPM_QUERY_VETO_REASONS
+title: "_PEP_PPM_QUERY_VETO_REASONS"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_VETO_REASONS structure specifies the total number of veto reasons that the PEP uses in calls to the ProcessorIdleVeto and PlatformIdleVeto routines.
 old-location: kernel\pep_ppm_query_veto_reasons.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59D0D139-00E4-4EEE-A326-0A2979B2085B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_PPM_QUERY_VETO_REASONS, *PPEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS, pepfx/PEP_PPM_QUERY_VETO_REASONS, kernel.pep_ppm_query_veto_reasons, pepfx/PPEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASONS structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_PPM_QUERY_VETO_REASONS structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_QUERY_VETO_REASONS, PPEP_PPM_QUERY_VETO_REASONS structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_VETO_REASONS, pepfx/PPEP_PPM_QUERY_VETO_REASONS, _PEP_PPM_QUERY_VETO_REASONS, kernel.pep_ppm_query_veto_reasons, PPEP_PPM_QUERY_VETO_REASONS, PEP_PPM_QUERY_VETO_REASONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_QUERY_VETO_REASONS
 product: Windows
 targetos: Windows

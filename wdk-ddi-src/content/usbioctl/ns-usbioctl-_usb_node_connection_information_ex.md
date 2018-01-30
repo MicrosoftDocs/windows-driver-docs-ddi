@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION_EX
-title: _USB_NODE_CONNECTION_INFORMATION_EX
+title: "_USB_NODE_CONNECTION_INFORMATION_EX"
 author: windows-driver-content
 description: The USB_NODE_CONNECTION_INFORMATION_EX structure is used in conjunction with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request to obtain information about the connection associated with the indicated USB port.
 old-location: buses\usb_node_connection_information_ex.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d824e279-50a9-46a1-a93a-9ae17928f146
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX, buses.usb_node_connection_information_ex, PUSB_NODE_CONNECTION_INFORMATION_EX, *PUSB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml
+ms.keywords: buses.usb_node_connection_information_ex, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], PUSB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml, *PUSB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX, _USB_NODE_CONNECTION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_NODE_CONNECTION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: USB_NODE_CONNECTION_INFORMATION_EX, *PUSB_NODE_CONNECTION_INFORMATION_EX
+req.typenames: "*PUSB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX"
 req.product: Windows 10 or later.
 ---
 
@@ -136,9 +136,9 @@ The <b>Speed</b> member of the <b>USB_NODE_CONNECTION_INFORMATION_EX</b> structu
 
 <a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

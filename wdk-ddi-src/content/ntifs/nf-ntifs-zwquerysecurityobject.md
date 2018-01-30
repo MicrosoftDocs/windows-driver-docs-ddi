@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, ntifs/NtQuerySecurityObject, ZwQuerySecurityObject, kernel.zwquerysecurityobject, ntifs/ZwQuerySecurityObject, NtQuerySecurityObject
+ms.keywords: ntifs/NtQuerySecurityObject, ZwQuerySecurityObject, ntifs/ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], NtQuerySecurityObject, k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwQuerySecurityObject
 -	NtQuerySecurityObject
 product: Windows
@@ -216,15 +216,15 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltquerysecurityobjec
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
 <a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
 
  
 

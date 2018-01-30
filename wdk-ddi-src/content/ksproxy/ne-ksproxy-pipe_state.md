@@ -2,13 +2,13 @@
 UID: NE:ksproxy.PIPE_STATE
 title: PIPE_STATE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\pipe_state.htm
 old-project: stream
 ms.assetid: A3053A39-5DB6-4DB8-89ED-63ABDB1CD16F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PIPE_STATE, PipeState_CompressionUnknown, ksproxy/PipeState_Finalized, ksproxy/PipeState_RangeFixed, PipeState_DontCare, stream.pipe_state, PipeState_RangeFixed, PIPE_STATE enumeration [Streaming Media Devices], PipeState_RangeNotFixed, ksproxy/PIPE_STATE, PipeState_Finalized, ksproxy/PipeState_DontCare, ksproxy/PipeState_RangeNotFixed, ksproxy/PipeState_CompressionUnknown
+ms.keywords: ksproxy/PipeState_CompressionUnknown, PIPE_STATE enumeration [Streaming Media Devices], PipeState_Finalized, ksproxy/PipeState_DontCare, PipeState_DontCare, ksproxy/PIPE_STATE, ksproxy/PipeState_RangeFixed, PipeState_CompressionUnknown, PIPE_STATE, PipeState_RangeNotFixed, ksproxy/PipeState_RangeNotFixed, stream.pipe_state, PipeState_RangeFixed, ksproxy/PipeState_Finalized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksproxy.h
-apiname: 
+apiname:
 -	PIPE_STATE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, Init method [Imaging Devices], CWiauFormatConverter interface, image.cwiauformatconverter_init, CWiauFormatConverter, CWiauFormatConverter::Init, Init method [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], Init method, wiautil/CWiauFormatConverter::Init, Init
+ms.keywords: Init method [Imaging Devices], CWiauFormatConverter interface, Init method [Imaging Devices], CWiauFormatConverter::Init, wiautil/CWiauFormatConverter::Init, CWiauFormatConverter, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, image.cwiauformatconverter_init, Init, CWiauFormatConverter interface [Imaging Devices], Init method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauFormatConverter.Init
 product: Windows
 targetos: Windows

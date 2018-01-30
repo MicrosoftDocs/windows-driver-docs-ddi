@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3865a206-840c-4acf-97be-86764cf522db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMDownloadFontHeader function [Print Devices], print_obsoletefunctions_733001dd-14a7-43a6-b386-5be4b514ae0b.xml, OEMDownloadFontHeader, print.oemdownloadfontheader, printoem/OEMDownloadFontHeader
+ms.keywords: OEMDownloadFontHeader function [Print Devices], printoem/OEMDownloadFontHeader, OEMDownloadFontHeader, print.oemdownloadfontheader, print_obsoletefunctions_733001dd-14a7-43a6-b386-5be4b514ae0b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMDownloadFontHeader
 product: Windows
 targetos: Windows

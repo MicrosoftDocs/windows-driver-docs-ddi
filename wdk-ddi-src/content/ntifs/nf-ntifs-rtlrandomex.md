@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlrandomex, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml, RtlRandomEx routine [Installable File System Drivers], RtlRandomEx, ntifs/RtlRandomEx
+ms.keywords: RtlRandomEx, ifsk.rtlrandomex, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml, RtlRandomEx routine [Installable File System Drivers], ntifs/RtlRandomEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlRandomEx
 product: Windows
 targetos: Windows

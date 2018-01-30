@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RequestShutdown method [Print Devices], filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown, IPrintPipelineManagerControl, RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, print.iprintpipelinemanagercontrol_requestshutdown, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method
+ms.keywords: RequestShutdown method [Print Devices], filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, RequestShutdown, IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_requestshutdown, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, IPrintPipelineManagerControl::RequestShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintPipelineManagerControl.RequestShutdown
 product: Windows
 targetos: Windows

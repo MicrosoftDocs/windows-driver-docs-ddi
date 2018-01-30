@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8bf1d76a-2e5b-4e9a-85fc-187fea72d38c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauGetValidFormats function [Imaging Devices], image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiautil/wiauGetValidFormats
+ms.keywords: wiauGetValidFormats function [Imaging Devices], wiauGetValidFormats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, image.wiaugetvalidformats, wiautil/wiauGetValidFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauGetValidFormats
 product: Windows
 targetos: Windows

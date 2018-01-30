@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, _D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations, D3DKMT_OFFERALLOCATIONS structure [Display Devices]
+ms.keywords: D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], display.d3dkmt_offerallocations, _D3DKMT_OFFERALLOCATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

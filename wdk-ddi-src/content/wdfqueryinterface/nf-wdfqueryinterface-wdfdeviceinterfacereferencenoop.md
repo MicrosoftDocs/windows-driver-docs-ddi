@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9bb18fd3-e803-4f51-822e-88c06d3385cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINTERFACEREFERENCENOOP, WdfDeviceInterfaceReferenceNoOp method, DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, WdfDeviceInterfaceReferenceNoOp, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp, kmdf.wdfdeviceinterfacereferencenoop, wdf.wdfdeviceinterfacereferencenoop
+ms.keywords: WdfDeviceInterfaceReferenceNoOp method, DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, PFN_WDFDEVICEINTERFACEREFERENCENOOP, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp, WdfDeviceInterfaceReferenceNoOp, wdf.wdfdeviceinterfacereferencenoop, kmdf.wdfdeviceinterfacereferencenoop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInterfaceReferenceNoOp
 product: Windows
 targetos: Windows
-req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
+req.typenames: "*PWDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 

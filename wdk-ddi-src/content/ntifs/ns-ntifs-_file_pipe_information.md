@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_INFORMATION
-title: _FILE_PIPE_INFORMATION
+title: "_FILE_PIPE_INFORMATION"
 author: windows-driver-content
 description: The FILE_PIPE_INFORMATION structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
 old-location: ifsk\file_pipe_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d38b9f36-27f1-47f1-a469-18ddb6f5b2c1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.file_pipe_information, FILE_PIPE_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_PIPE_INFORMATION, _FILE_PIPE_INFORMATION, ntifs/FILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION structure pointer [Installable File System Drivers], PFILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION
+ms.keywords: ntifs/FILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION structure pointer [Installable File System Drivers], FILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION, ntifs/PFILE_PIPE_INFORMATION, _FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION structure [Installable File System Drivers], ifsk.file_pipe_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_PIPE_INFORMATION
 product: Windows
 targetos: Windows

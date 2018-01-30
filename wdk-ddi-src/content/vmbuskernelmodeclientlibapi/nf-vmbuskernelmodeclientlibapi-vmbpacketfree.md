@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15688701-2385-4F17-A944-D398EEF3C277
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbpacketfree, VmbPacketFree, vmbuskernelmodeclientlibapi/VmbPacketFree, VmbPacketFree function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbPacketFree function [Network Drivers Starting with Windows Vista], VmbPacketFree, vmbuskernelmodeclientlibapi/VmbPacketFree, netvista.vmbpacketfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketFree
 product: Windows
 targetos: Windows

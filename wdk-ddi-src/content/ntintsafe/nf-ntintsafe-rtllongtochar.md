@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4D326534-2DEB-419B-9E14-D88543071ECC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongToChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToChar, RtlLongToChar, kernel.rtllongtochar
+ms.keywords: RtlLongToChar function [Kernel-Mode Driver Architecture], RtlLongToChar, kernel.rtllongtochar, ntintsafe/RtlLongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongToChar
 product: Windows
 targetos: Windows

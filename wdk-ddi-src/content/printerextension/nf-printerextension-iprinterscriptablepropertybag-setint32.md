@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 40A057F7-AC9B-4F16-8FE2-490CEECAB523
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterscriptablepropertybag_setint32, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetInt32 method, IPrinterScriptablePropertyBag::SetInt32, SetInt32 method [Print Devices], SetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::SetInt32, SetInt32
+ms.keywords: SetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::SetInt32, SetInt32 method [Print Devices], print.iprinterscriptablepropertybag_setint32, IPrinterScriptablePropertyBag interface [Print Devices], SetInt32 method, IPrinterScriptablePropertyBag::SetInt32, IPrinterScriptablePropertyBag, SetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptablePropertyBag.SetInt32
 product: Windows
 targetos: Windows

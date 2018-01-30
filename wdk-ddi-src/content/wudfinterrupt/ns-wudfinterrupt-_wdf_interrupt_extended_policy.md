@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfinterrupt._WDF_INTERRUPT_EXTENDED_POLICY
-title: _WDF_INTERRUPT_EXTENDED_POLICY
+title: "_WDF_INTERRUPT_EXTENDED_POLICY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CD11AD87-D3F1-41E5-AE86-DC289504EF6D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY, wdf.wdf_interrupt_extended_policy_umdf, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY structure, WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy
+ms.keywords: WDF_INTERRUPT_EXTENDED_POLICY structure, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, _WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy_umdf, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_EXTENDED_POLICY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY
+req.typenames: "*PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -105,9 +105,9 @@ To initialize a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extend
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a>
-
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+
+<a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a>
 
  
 

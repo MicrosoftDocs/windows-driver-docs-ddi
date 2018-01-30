@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterExtensionRequest::Cancel, printerextension/IPrinterExtensionRequest::Cancel, Cancel, print.iprinterextensionrequest_cancel, IPrinterExtensionRequest interface [Print Devices], Cancel method, Cancel method [Print Devices], IPrinterExtensionRequest interface, IPrinterExtensionRequest, Cancel method [Print Devices]
+ms.keywords: IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], Cancel method [Print Devices], IPrinterExtensionRequest interface, IPrinterExtensionRequest, Cancel, print.iprinterextensionrequest_cancel, printerextension/IPrinterExtensionRequest::Cancel, IPrinterExtensionRequest interface [Print Devices], Cancel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterExtensionRequest.Cancel
 product: Windows
 targetos: Windows

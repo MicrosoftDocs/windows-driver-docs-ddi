@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fd111e80-fc3e-4f21-97cb-1f75ae34d1e9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, stream.bdagetchangestate, BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdasup/BdaGetChangeState
+ms.keywords: stream.bdagetchangestate, BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdasup/BdaGetChangeState, bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaGetChangeState
 product: Windows
 targetos: Windows

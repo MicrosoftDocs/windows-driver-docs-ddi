@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate method, wdf.wdfmemorycreate, WdfMemoryCreate, wdfmemory/WdfMemoryCreate, kmdf.wdfmemorycreate
+ms.keywords: wdfmemory/WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, WdfMemoryCreate, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, wdf.wdfmemorycreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfMemoryCreate
 product: Windows
 targetos: Windows
@@ -176,19 +176,19 @@ If your driver specifies <b>PagedPool</b> for <i>PoolType</i>, the <b>WdfMemoryC
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
  
 

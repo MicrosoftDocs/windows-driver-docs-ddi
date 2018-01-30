@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ebfdae87-febc-4383-93f4-5d613df273a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml, stream.kscreatefilterfactory, KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], ks/KsCreateFilterFactory
+ms.keywords: stream.kscreatefilterfactory, KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], ks/KsCreateFilterFactory, avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCreateFilterFactory
 product: Windows
 targetos: Windows
@@ -207,9 +207,9 @@ This function should be used by minidrivers that either initialize themselves wi
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
-<a href="..\ks\nf-ks-ksdeletefilterfactory.md">KsDeleteFilterFactory</a>
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+<a href="..\ks\nf-ks-ksdeletefilterfactory.md">KsDeleteFilterFactory</a>
 
 <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
 

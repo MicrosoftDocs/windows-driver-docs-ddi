@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_STATUS
-title: _SERIAL_STATUS
+title: "_SERIAL_STATUS"
 author: windows-driver-content
 description: The SERIAL_STATUS structure contains status information about the serial port.
 old-location: serports\serial_status.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], ntddser/SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], ntddser/PSERIAL_STATUS, PSERIAL_STATUS, SERIAL_STATUS, _SERIAL_STATUS, serports.serial_status
+ms.keywords: "_SERIAL_STATUS, *PSERIAL_STATUS, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], serports.serial_status, SERIAL_STATUS structure [Serial Ports], ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, SERIAL_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	SERIAL_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PSERIAL_STATUS, SERIAL_STATUS
+req.typenames: SERIAL_STATUS, *PSERIAL_STATUS
 ---
 
 # _SERIAL_STATUS structure
@@ -171,9 +171,9 @@ This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_immediate_char.md">IOCTL_SERIAL_IMMEDIATE_CHAR</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_immediate_char.md">IOCTL_SERIAL_IMMEDIATE_CHAR</a>
 
  
 

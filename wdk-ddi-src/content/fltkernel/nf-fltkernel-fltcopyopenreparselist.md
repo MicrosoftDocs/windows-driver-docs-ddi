@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist, FltCopyOpenReparseList
+ms.keywords: ifsk.fltcopyopenreparselist, FltCopyOpenReparseList, FltAddOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _IRQL_requires_max_(APC_LEVEL)
-topictype: 
+req.irql: "_IRQL_requires_max_(APC_LEVEL)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltKernel.h
-apiname: 
+apiname:
 -	FltAddOpenReparseEntry
 product: Windows
 targetos: Windows

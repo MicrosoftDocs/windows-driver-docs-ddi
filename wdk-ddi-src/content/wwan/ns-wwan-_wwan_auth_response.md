@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_RESPONSE
-title: _WWAN_AUTH_RESPONSE
+title: "_WWAN_AUTH_RESPONSE"
 author: windows-driver-content
 description: The WWAN_AUTH_RESPONSE structure represents an authentication challenge response.
 old-location: netvista\wwan_auth_response.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CD0B90A1-032D-4F09-827F-E80607AE4EA7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_RESPONSE, netvista.wwan_auth_response, wwan/WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE, WWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_AUTH_RESPONSE, _WWAN_AUTH_RESPONSE
+ms.keywords: WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], WWAN_AUTH_RESPONSE, wwan/WWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE, wwan/PWWAN_AUTH_RESPONSE, netvista.wwan_auth_response
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_RESPONSE
 product: Windows
 targetos: Windows
@@ -107,13 +107,13 @@ The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
+<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
 
 <a href="..\wwan\ns-wwan-_wwan_auth_aka_response.md">WWAN_AUTH_AKA_RESPONSE</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
+<a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
 
 <a href="..\wwan\ns-wwan-_wwan_auth_sim_response.md">WWAN_AUTH_SIM_RESPONSE</a>
 

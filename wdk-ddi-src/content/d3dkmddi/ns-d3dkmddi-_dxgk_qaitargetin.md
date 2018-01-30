@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, DXGK_QUERYCOLORIMETRYOVERRIDESIN, display.dxgk_qaitargetin, DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], d3dkmddi/DXGK_QAITARGETIN
+ms.keywords: "_DXGK_QAITARGETIN, DXGK_QAITARGETIN, display.dxgk_qaitargetin, DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYINTEGRATEDDISPLAYIN, d3dkmddi/DXGK_QAITARGETIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

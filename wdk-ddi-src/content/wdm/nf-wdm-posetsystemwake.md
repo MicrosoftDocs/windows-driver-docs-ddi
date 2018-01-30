@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.posetsystemwake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, PoSetSystemWake, wdm/PoSetSystemWake
+ms.keywords: PoSetSystemWake, wdm/PoSetSystemWake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, kernel.posetsystemwake, PoSetSystemWake routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoSetSystemWake
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a834cc10-eb59-4560-add3-e93f8292324b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetGlobalAttribute method [Print Devices], IPrintCorePS2::GetGlobalAttribute, print.iprintcoreps2_getglobalattribute, GetGlobalAttribute method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_b9c86e58-8fbf-420a-81bc-a544d73b6aa7.xml, IPrintCorePS2, prcomoem/IPrintCorePS2::GetGlobalAttribute, IPrintCorePS2 interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute
+ms.keywords: GetGlobalAttribute method [Print Devices], print.iprintcoreps2_getglobalattribute, IPrintCorePS2::GetGlobalAttribute, prcomoem/IPrintCorePS2::GetGlobalAttribute, IPrintCorePS2 interface [Print Devices], GetGlobalAttribute method, print_unidrv-pscript_rendering_b9c86e58-8fbf-420a-81bc-a544d73b6aa7.xml, GetGlobalAttribute, IPrintCorePS2, GetGlobalAttribute method [Print Devices], IPrintCorePS2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCorePS2.GetGlobalAttribute
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -185,11 +185,11 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
 
  
 

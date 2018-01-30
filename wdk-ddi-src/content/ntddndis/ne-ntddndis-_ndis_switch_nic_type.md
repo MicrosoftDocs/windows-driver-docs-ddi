@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_NIC_TYPE
-title: _NDIS_SWITCH_NIC_TYPE
+title: "_NDIS_SWITCH_NIC_TYPE"
 author: windows-driver-content
 description: The NDIS_SWITCH_NIC_TYPE enumeration specifies the type of the virtual network adapter that is attached to a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_nic_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ff7a803-9de4-4b2f-ab5f-3eb5107d5b64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchNicTypeEmulated, PNDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeExternal, NDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeInternal, NdisSwitchNicTypeSynthetic, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeSynthetic, _NDIS_SWITCH_NIC_TYPE, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_type, ntddndis/PNDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, NdisSwitchNicTypeExternal, ntddndis/NdisSwitchNicTypeInternal
+ms.keywords: NdisSwitchNicTypeExternal, NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeInternal, ntddndis/NdisSwitchNicTypeExternal, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, NdisSwitchNicTypeInternal, _NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeSynthetic, NdisSwitchNicTypeSynthetic, ntddndis/NDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeEmulated, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_type, ntddndis/PNDIS_SWITCH_NIC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_NIC_TYPE
 product: Windows
 targetos: Windows

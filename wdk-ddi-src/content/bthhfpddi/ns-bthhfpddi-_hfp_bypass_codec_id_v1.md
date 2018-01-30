@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: FB618271-A1E9-4F47-97DC-F4ACAA01028C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: bthhfpddi/HFP_BYPASS_CODEC_ID_V1, bthhfpddi/PHFP_BYPASS_CODEC_ID_V1, PHFP_BYPASS_CODEC_ID_V1 structure pointer [Audio Devices], HFP_BYPASS_CODEC_ID_V1 structure [Audio Devices], PHFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_v1, HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+ms.keywords: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1 structure [Audio Devices], PHFP_BYPASS_CODEC_ID_V1 structure pointer [Audio Devices], bthhfpddi/HFP_BYPASS_CODEC_ID_V1, bthhfpddi/PHFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_V1, PHFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_v1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

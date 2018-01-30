@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml, ntifs/RtlValidSid, ifsk.rtlvalidsid
+ms.keywords: RtlValidSid routine [Installable File System Drivers], ntifs/RtlValidSid, RtlValidSid, ifsk.rtlvalidsid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlValidSid
 product: Windows
 targetos: Windows
@@ -91,17 +91,17 @@ For more information about security and access control, see the documentation on
 
 <a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
 <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
-
-<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 <a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
+<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
 
  
 

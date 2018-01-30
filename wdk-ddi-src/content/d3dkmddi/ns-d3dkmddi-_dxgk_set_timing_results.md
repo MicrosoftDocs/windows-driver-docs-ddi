@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EA5C845B-76FD-40AD-B4E8-78601CA847CE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS structure pointer [Display Devices], display.dxgk_set_timing_results, *PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS, d3dkmddi/PDXGK_SET_TIMING_RESULTS, d3dkmddi/DXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS structure [Display Devices]"
+ms.keywords: "_DXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS structure pointer [Display Devices], display.dxgk_set_timing_results, d3dkmddi/PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS structure [Display Devices], d3dkmddi/DXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

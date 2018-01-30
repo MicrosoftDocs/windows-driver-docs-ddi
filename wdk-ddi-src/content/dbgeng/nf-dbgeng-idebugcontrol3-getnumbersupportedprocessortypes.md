@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6057fd27-75be-403b-a939-7865de45e031
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::GetNumberSupportedProcessorTypes, dbgeng/IDebugControl3::GetNumberSupportedProcessorTypes, IDebugControl_5b3a8335-0e6f-4f83-9549-fa53ce9eb1d5.xml, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetNumberSupportedProcessorTypes method, IDebugControl3, IDebugControl::GetNumberSupportedProcessorTypes, IDebugControl2 interface [Windows Debugging], GetNumberSupportedProcessorTypes method, GetNumberSupportedProcessorTypes, debugger.getnumbersupportedprocessortypes, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl interface [Windows Debugging], GetNumberSupportedProcessorTypes method, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl interface, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberSupportedProcessorTypes, IDebugControl3::GetNumberSupportedProcessorTypes, dbgeng/IDebugControl::GetNumberSupportedProcessorTypes
+ms.keywords: dbgeng/IDebugControl2::GetNumberSupportedProcessorTypes, IDebugControl3::GetNumberSupportedProcessorTypes, IDebugControl interface [Windows Debugging], GetNumberSupportedProcessorTypes method, dbgeng/IDebugControl3::GetNumberSupportedProcessorTypes, IDebugControl3, IDebugControl::GetNumberSupportedProcessorTypes, IDebugControl2::GetNumberSupportedProcessorTypes, GetNumberSupportedProcessorTypes method [Windows Debugging], dbgeng/IDebugControl::GetNumberSupportedProcessorTypes, IDebugControl3 interface [Windows Debugging], GetNumberSupportedProcessorTypes method, debugger.getnumbersupportedprocessortypes, GetNumberSupportedProcessorTypes, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl interface, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl3 interface, GetNumberSupportedProcessorTypes method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNumberSupportedProcessorTypes method, IDebugControl_5b3a8335-0e6f-4f83-9549-fa53ce9eb1d5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetNumberSupportedProcessorTypes
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetNumberSupportedProcessorTypes method
@@ -107,11 +107,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 

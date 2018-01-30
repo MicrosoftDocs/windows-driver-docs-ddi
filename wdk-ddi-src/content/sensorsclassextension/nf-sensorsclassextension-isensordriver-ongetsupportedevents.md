@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: b323f803-56fb-44db-9b88-be25062c08ff
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], ISensorDriver, sensors.isensordriver_ongetsupportedevents, OnGetSupportedEvents
+ms.keywords: sensors.isensordriver_ongetsupportedevents, ISensorDriver::OnGetSupportedEvents, ISensorDriver, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	OnGetSupportedEvents
 product: Windows
 targetos: Windows

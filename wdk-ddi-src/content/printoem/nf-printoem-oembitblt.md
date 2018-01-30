@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt, OEMBitBlt
+ms.keywords: OEMBitBlt function [Print Devices], printoem/OEMBitBlt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, print.oembitblt, OEMBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMBitBlt
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mcd/ChangerPerformDiagnostics, ChangerPerformDiagnostics, chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, ChangerPerformDiagnostics function [Storage Devices], storage.changerperformdiagnostics
+ms.keywords: ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, storage.changerperformdiagnostics, mcd/ChangerPerformDiagnostics, ChangerPerformDiagnostics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerPerformDiagnostics
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RouterAllocPrinterNotifyInfo function [Print Devices], winsplp/RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo, print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml
+ms.keywords: RouterAllocPrinterNotifyInfo function [Print Devices], RouterAllocPrinterNotifyInfo, print.routerallocprinternotifyinfo, winsplp/RouterAllocPrinterNotifyInfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	RouterAllocPrinterNotifyInfo
 product: Windows
 targetos: Windows
@@ -99,9 +99,9 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 <a href="..\winsplp\nf-winsplp-routerfreeprinternotifyinfo.md">RouterFreePrinterNotifyInfo</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
-
 <a href="..\winsplp\nf-winsplp-appendprinternotifyinfodata.md">AppendPrinterNotifyInfoData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_RESET_COMPLETE_INFO
-title: _UCX_CONTROLLER_RESET_COMPLETE_INFO
+title: "_UCX_CONTROLLER_RESET_COMPLETE_INFO"
 author: windows-driver-content
 description: Contains information about the operation to reset the controller. This is used by the client driver in its EVT_UCX_CONTROLLER_RESET callback function.
 old-location: buses\_ucx_controller_reset_complete_info.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 72935645-0567-4FC9-962C-3E823C08D001
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses], _UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, *PUCX_CONTROLLER_RESET_COMPLETE_INFO, ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info
+ms.keywords: "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, _UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO, ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info, P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UCX_CONTROLLER_RESET_COMPLETE_INFO
 product: Windows
 targetos: Windows

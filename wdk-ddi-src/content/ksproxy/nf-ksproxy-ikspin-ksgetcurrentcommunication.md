@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fca9bf5-5430-4877-846e-e796e54991a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ikspin_ksgetcurrentcommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface, KsGetCurrentCommunication method [Streaming Media Devices], ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, IKsPin, KsGetCurrentCommunication, ksproxy/IKsPin::KsGetCurrentCommunication, IKsPin interface [Streaming Media Devices], KsGetCurrentCommunication method
+ms.keywords: KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface, IKsPin, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, KsGetCurrentCommunication, ksproxy/IKsPin::KsGetCurrentCommunication, stream.ikspin_ksgetcurrentcommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface [Streaming Media Devices], KsGetCurrentCommunication method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin.KsGetCurrentCommunication
 product: Windows
 targetos: Windows
@@ -158,11 +158,11 @@ The current communication direction, interface, and medium of a pin are a subset
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13375ae1-6908-44d8-b775-4375f4fdde4d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfControlFinishInitializing, wdfcontrol/WdfControlFinishInitializing, kmdf.wdfcontrolfinishinitializing, WdfControlFinishInitializing method, DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, wdf.wdfcontrolfinishinitializing, PFN_WDFCONTROLFINISHINITIALIZING
+ms.keywords: WdfControlFinishInitializing, wdf.wdfcontrolfinishinitializing, WdfControlFinishInitializing method, DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, kmdf.wdfcontrolfinishinitializing, PFN_WDFCONTROLFINISHINITIALIZING, wdfcontrol/WdfControlFinishInitializing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfControlFinishInitializing
 product: Windows
 targetos: Windows

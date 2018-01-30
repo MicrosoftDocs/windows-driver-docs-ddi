@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9a31719-2674-4d3f-8792-b099640faa07
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_SelectAlternateInterface function [Streaming Media Devices], usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, USBCAMD_SelectAlternateInterface, stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface
+ms.keywords: usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], usbcamdi/USBCAMD_SelectAlternateInterface, stream.usbcamd_selectalternateinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname: 
+apiname:
 -	USBCAMD_SelectAlternateInterface
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
 req.product: Windows 10 or later.
 ---
 

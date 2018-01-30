@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_RETRIEVE_FLAGS
-title: _WDF_PROPERTY_STORE_RETRIEVE_FLAGS
+title: "_WDF_PROPERTY_STORE_RETRIEVE_FLAGS"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration contains values that indicate whether UMDF should create a registry key if the key does not already exist.
 old-location: wdf\wdf_property_store_retrieve_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd64ef0d-b2e7-4f82-87a8-77fe98677fd9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreCreateVolatile, WdfPropertyStoreRetrieveFlagsMask, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, wdf.wdf_property_store_retrieve_flags, WdfPropertyStoreCreateIfMissing, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, WdfPropertyStoreCreateVolatile, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreNormal, wudfddi_types/WdfPropertyStoreCreateIfMissing, WdfPropertyStoreNormal
+ms.keywords: "_WDF_PROPERTY_STORE_RETRIEVE_FLAGS, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreCreateIfMissing, WdfPropertyStoreCreateVolatile, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreCreateVolatile, wudfddi_types/WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, umdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreNormal, WdfPropertyStoreNormal, WdfPropertyStoreRetrieveFlagsMask, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_PROPERTY_STORE_RETRIEVE_FLAGS
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ Reserved for system use.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlnumbergenerictableelementsavl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], RtlNumberGenericTableElementsAvl, ntddk/RtlNumberGenericTableElementsAvl
+ms.keywords: RtlNumberGenericTableElementsAvl, ntddk/RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "< DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlNumberGenericTableElementsAvl
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlNumberGenericTableElementsAvl function
@@ -96,9 +96,9 @@ Callers of <b>RtlNumberGenericTableElementsAvl</b> must be running at IRQL &lt; 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
 
  
 

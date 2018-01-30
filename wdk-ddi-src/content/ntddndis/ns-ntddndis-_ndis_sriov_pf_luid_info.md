@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_PF_LUID_INFO
-title: _NDIS_SRIOV_PF_LUID_INFO
+title: "_NDIS_SRIOV_PF_LUID_INFO"
 author: windows-driver-content
 description: The NDIS_SRIOV_PF_LUID_INFO structure specifies the locally unique identifier (LUID) associated with the network adapter's PCI Express (PCIe) Physical Function (PF).
 old-location: netvista\ndis_sriov_pf_luid_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03a83321-8396-4400-a15c-84a3b507702d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SRIOV_PF_LUID_INFO, netvista.ndis_sriov_pf_luid_info, NDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_PF_LUID_INFO, ntddndis/NDIS_SRIOV_PF_LUID_INFO
+ms.keywords: "_NDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO, ntddndis/NDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO, netvista.ndis_sriov_pf_luid_info, PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SRIOV_PF_LUID_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SRIOV_PF_LUID_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO
+req.typenames: NDIS_SRIOV_PF_LUID_INFO, *PNDIS_SRIOV_PF_LUID_INFO
 ---
 
 # _NDIS_SRIOV_PF_LUID_INFO structure
@@ -77,16 +77,16 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
-### -field Luid
-
-An <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> value that is associated with the PF network adapter. For more information, see the Remarks section.
-
-
-##### - Header.NDIS_SRIOV_PF_LUID_INFO_REVISION_1
+#### NDIS_SRIOV_PF_LUID_INFO_REVISION_1
 
 Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_PF_LUID_INFO_REVISION_1.
+
+
+### -field Luid
+
+An <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> value that is associated with the PF network adapter. For more information, see the Remarks section.
 
 
 ## -remarks
@@ -100,15 +100,15 @@ NDIS generates an LUID for the PF  before NDIS calls the <a href="..\ndis\nc-ndi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451864">OID_SRIOV_PF_LUID</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451864">OID_SRIOV_PF_LUID</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 <b></b>
 

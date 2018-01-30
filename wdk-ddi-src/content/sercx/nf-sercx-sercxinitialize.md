@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxInitialize, 1/SerCxInitialize, serports.sercxinitialize, SerCxInitialize method [Serial Ports]
+ms.keywords: 1/SerCxInitialize, serports.sercxinitialize, SerCxInitialize method [Serial Ports], SerCxInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxInitialize
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -131,9 +131,9 @@ This routine must be called before committing the device (returning from <a href
 
 <a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

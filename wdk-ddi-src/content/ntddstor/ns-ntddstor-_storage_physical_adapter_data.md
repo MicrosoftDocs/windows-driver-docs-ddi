@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_ADAPTER_DATA
-title: _STORAGE_PHYSICAL_ADAPTER_DATA
+title: "_STORAGE_PHYSICAL_ADAPTER_DATA"
 author: windows-driver-content
 description: Specifies the physical device data of a storage adapter.
 old-location: storage\storage_physical_adapter_data.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], *PSTORAGE_PHYSICAL_ADAPTER_DATA, _STORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data
+ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA, _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PHYSICAL_ADAPTER_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA
+req.typenames: STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
 # _STORAGE_PHYSICAL_ADAPTER_DATA structure
@@ -133,6 +133,21 @@ Indicates the specification of the storage adapter, of type <a href="..\ntddstor
 
 
 
+#### - Vendor[8]
+
+The vendor name of the storage adapter.
+
+
+#### - Model[40]
+
+The model name of the storage adapter.
+
+
+#### - FirmwareRevision[16]
+
+The revision number of the storage adapter.
+
+
 #### - PhysicalLocation[32]
 
 This member is reserved for future use.
@@ -143,27 +158,12 @@ This member is reserved for future use.
 Specifies if the storage adapter includes an expanded connector.
 
 
-#### - FirmwareRevision[16]
-
-The revision number of the storage adapter.
-
-
-#### - Vendor[8]
-
-The vendor name of the storage adapter.
-
-
-#### - Reserved1[3]
-
-Specifies if the storage adapter is reserved.
-
-
 #### - Reserved0[3]
 
 Specifies if the storage adapter is reserved.
 
 
-#### - Model[40]
+#### - Reserved1[3]
 
-The model name of the storage adapter.
+Specifies if the storage adapter is reserved.
 

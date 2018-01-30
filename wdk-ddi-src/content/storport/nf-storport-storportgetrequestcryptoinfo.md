@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B8D1E882-FBFA-4CB1-83D3-CB817F111F20
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storport/StorPortGetRequestCryptoInfo, storage.storportgetrequestcryptoinfo
+ms.keywords: StorPortGetRequestCryptoInfo, storport/StorPortGetRequestCryptoInfo, storage.storportgetrequestcryptoinfo, StorPortGetRequestCryptoInfo routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortGetRequestCryptoInfo
 product: Windows
 targetos: Windows

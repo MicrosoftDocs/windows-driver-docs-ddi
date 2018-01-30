@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba1f48ab-f301-4ae8-b56e-92eb6e3601f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UMTSMRL_RSCP, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RILUMTSMRLPARAMMASK, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, RILUMTSMRLPARAMMASK, netvista.rilumtsmrlparammask, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_UARFCN, RIL_PARAM_UMTSMRL_RSCP, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_ALL, rilapitypes/RIL_PARAM_UMTSMRL_LAC, RIL_PARAM_UMTSMRL_LAC
+ms.keywords: rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_LAC, RILUMTSMRLPARAMMASK, rilapitypes/RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RILUMTSMRLPARAMMASK, RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_UARFCN, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilumtsmrlparammask, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_CELLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUMTSMRLPARAMMASK
 product: Windows
 targetos: Windows

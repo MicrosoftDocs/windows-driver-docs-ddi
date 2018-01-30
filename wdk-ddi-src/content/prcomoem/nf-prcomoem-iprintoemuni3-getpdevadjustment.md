@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], print.iprintoemuni3_getpdevadjustment, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, prcomoem/IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, IPrintOemUni3, GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment
+ms.keywords: IPrintOemUni3, GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, GetPDEVAdjustment method [Print Devices], prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni3.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -151,17 +151,17 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
-
 <a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+
+<a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
+
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
 <a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
 
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
-
-<a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
 
  
 

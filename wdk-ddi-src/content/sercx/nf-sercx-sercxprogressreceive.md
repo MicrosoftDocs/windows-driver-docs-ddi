@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxProgressReceive method [Serial Ports], 1/SerCxProgressReceive, serports.sercxprogressreceive, SerCxProgressReceive
+ms.keywords: 1/SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], SerCxProgressReceive, serports.sercxprogressreceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxProgressReceive
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 

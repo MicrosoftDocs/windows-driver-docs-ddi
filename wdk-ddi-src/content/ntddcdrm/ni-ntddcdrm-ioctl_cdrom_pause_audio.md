@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	IOCTL_CDROM_PAUSE_AUDIO
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
 ---
 
 # IOCTL_CDROM_PAUSE_AUDIO IOCTL

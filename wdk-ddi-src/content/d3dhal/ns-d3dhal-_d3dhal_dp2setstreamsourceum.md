@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 42a8c14d-3b73-4d9a-a902-d4bf2b46ddf8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2SETSTREAMSOURCEUM, display.d3dhal_dp2setstreamsourceum, D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, _D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices], D3DHAL_DP2SETSTREAMSOURCEUM, *LPD3DHAL_DP2SETSTREAMSOURCEUM
+ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices], display.d3dhal_dp2setstreamsourceum, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, _D3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

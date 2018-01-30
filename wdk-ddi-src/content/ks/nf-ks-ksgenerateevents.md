@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3c96012f-8307-417c-be8f-bb466c576669
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgenerateevents, avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, KsGenerateEvents, KsGenerateEvents function [Streaming Media Devices], ks/KsGenerateEvents
+ms.keywords: KsGenerateEvents, stream.ksgenerateevents, KsGenerateEvents function [Streaming Media Devices], avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, ks/KsGenerateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGenerateEvents
 product: Windows
 targetos: Windows

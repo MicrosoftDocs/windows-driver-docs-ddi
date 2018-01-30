@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinsubmitframemdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, KsPinSubmitFrameMdl function [Streaming Media Devices], KsPinSubmitFrameMdl, ks/KsPinSubmitFrameMdl
+ms.keywords: KsPinSubmitFrameMdl function [Streaming Media Devices], KsPinSubmitFrameMdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, ks/KsPinSubmitFrameMdl, stream.kspinsubmitframemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinSubmitFrameMdl
 product: Windows
 targetos: Windows
@@ -107,9 +107,9 @@ The difference between this function and <a href="..\ks\nf-ks-kspinsubmitframe.m
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
-
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
  
 

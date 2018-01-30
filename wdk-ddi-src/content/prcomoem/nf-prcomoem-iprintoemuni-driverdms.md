@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DriverDMS method [Print Devices], IPrintOemUni, IPrintOemUni interface [Print Devices], DriverDMS method, DriverDMS, IPrintOemUni::DriverDMS, DriverDMS method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
+ms.keywords: print.iprintoemuni_driverdms, IPrintOemUni::DriverDMS, DriverDMS method [Print Devices], prcomoem/IPrintOemUni::DriverDMS, IPrintOemUni, DriverDMS method [Print Devices], IPrintOemUni interface, DriverDMS, IPrintOemUni interface [Print Devices], DriverDMS method, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.DriverDMS
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

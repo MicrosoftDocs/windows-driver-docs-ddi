@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_PERF_STATE
-title: _PEP_PROCESSOR_PERF_STATE
+title: "_PEP_PROCESSOR_PERF_STATE"
 author: windows-driver-content
 description: Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification. This structure describes the properties of a single performance state.  .
 old-location: kernel\pep_processor_perf_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46231ac0-2c34-4154-8b3e-f34c40cbff4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PROCESSOR_PERF_STATE, _PEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, *PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE
+ms.keywords: PEP_PROCESSOR_PERF_STATE, _PEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, pepfx/PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pepfx.h
-apiname: 
+apiname:
 -	PEP_PROCESSOR_PERF_STATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE
+req.typenames: "*PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE"
 ---
 
 # _PEP_PROCESSOR_PERF_STATE structure
@@ -86,9 +86,9 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-
 <a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
 
  
 

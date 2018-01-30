@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mountdev.h
-apiname: 
+apiname:
 -	IOCTL_MOUNTDEV_LINK_CREATED
 product: Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
+req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
 ---
 
 # IOCTL_MOUNTDEV_LINK_CREATED IOCTL

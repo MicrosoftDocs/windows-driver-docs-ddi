@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._CLOCK_RATE_CONVERSION
-title: _CLOCK_RATE_CONVERSION
+title: "_CLOCK_RATE_CONVERSION"
 author: windows-driver-content
 description: The CLOCK_RATE_CONVERSION structure holds a value that determines the duration of a bit of data and the corresponding maximum operating frequency that accompanies the indicated bit length.
 old-location: smartcrd\clock_rate_conversion.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: c3011034-c77c-4699-9c04-b1163faa79fc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CLOCK_RATE_CONVERSION, _CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION, smartcrd.clock_rate_conversion, PCLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION structure pointer [Smart Card Reader Devices], smclib/PCLOCK_RATE_CONVERSION, scstruct_260d5a02-28d8-4ef4-ac2a-e81d3ac2814a.xml, smclib/CLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION structure [Smart Card Reader Devices]
+ms.keywords: CLOCK_RATE_CONVERSION structure [Smart Card Reader Devices], smartcrd.clock_rate_conversion, CLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION, scstruct_260d5a02-28d8-4ef4-ac2a-e81d3ac2814a.xml, _CLOCK_RATE_CONVERSION, smclib/PCLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION, smclib/CLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION structure pointer [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	smclib.h
-apiname: 
+apiname:
 -	CLOCK_RATE_CONVERSION
 product: Windows
 targetos: Windows
-req.typenames: *PCLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION
+req.typenames: CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION
 req.product: Windows 10 or later.
 ---
 

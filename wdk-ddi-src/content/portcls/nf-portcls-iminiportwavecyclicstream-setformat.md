@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6881ea55-138a-408e-955e-c5c74f777ce8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices], SetFormat method, audmp-routines_d23a09d4-7110-425f-b10d-5f7f601179bb.xml, IMiniportWaveCyclicStream, SetFormat, audio.iminiportwavecyclicstream_setformat, IMiniportWaveCyclicStream::SetFormat, SetFormat method [Audio Devices], IMiniportWaveCyclicStream interface, SetFormat method [Audio Devices], portcls/IMiniportWaveCyclicStream::SetFormat
+ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], SetFormat method, SetFormat, audio.iminiportwavecyclicstream_setformat, IMiniportWaveCyclicStream::SetFormat, SetFormat method [Audio Devices], IMiniportWaveCyclicStream interface, audmp-routines_d23a09d4-7110-425f-b10d-5f7f601179bb.xml, portcls/IMiniportWaveCyclicStream::SetFormat, SetFormat method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ NTSTATUS SetFormat(
 
 ### -param DataFormat [in]
 
-Specifies the new format of the stream. This parameter is a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>.
+Specifies the new format of the stream. This parameter is a pointer to a structure of type <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>.
 
 
 ## -returns
@@ -90,9 +90,9 @@ For information about specifying wave stream formats, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
 
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 

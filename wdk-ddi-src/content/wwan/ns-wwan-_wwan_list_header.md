@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LIST_HEADER
-title: _WWAN_LIST_HEADER
+title: "_WWAN_LIST_HEADER"
 author: windows-driver-content
 description: The WWAN_LIST_HEADER structure represents the header of a list of MB objects, including the number of objects in the list that follow the header in memory.
 old-location: netvista\wwan_list_header.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ef5c94e9-641c-41ea-baf1-343b876c92a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_78070f1a-5913-41b6-9be2-0b26c19dd149.xml, _WWAN_LIST_HEADER, wwan/PWWAN_LIST_HEADER, PWWAN_LIST_HEADER structure pointer [Network Drivers Starting with Windows Vista], WWAN_LIST_HEADER, PWWAN_LIST_HEADER, WWAN_LIST_HEADER structure [Network Drivers Starting with Windows Vista], *PWWAN_LIST_HEADER, netvista.wwan_list_header, wwan/WWAN_LIST_HEADER
+ms.keywords: PWWAN_LIST_HEADER structure pointer [Network Drivers Starting with Windows Vista], PWWAN_LIST_HEADER, WwanRef_78070f1a-5913-41b6-9be2-0b26c19dd149.xml, wwan/WWAN_LIST_HEADER, WWAN_LIST_HEADER structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_LIST_HEADER, netvista.wwan_list_header, WWAN_LIST_HEADER, *PWWAN_LIST_HEADER, _WWAN_LIST_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_LIST_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_LIST_HEADER, WWAN_LIST_HEADER
+req.typenames: WWAN_LIST_HEADER, *PWWAN_LIST_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -93,19 +93,19 @@ You can assume that the list of elements is stored in memory immediately followi
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_wwan_provisioned_contexts" tabindex="0"><b>
-   NDIS_WWAN_PROVISIONED_CONTEXTS</b></mshelp:link>
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
-
-<a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_receive.md">NDIS_WWAN_SMS_RECEIVE</a>
 
+<a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+
 <mshelp:link keywords="netvista.ndis_wwan_set_preferred_providers" tabindex="0"><b>
    NDIS_WWAN_SET_PREFERRED_PROVIDERS</b></mshelp:link>
+
+<mshelp:link keywords="netvista.ndis_wwan_provisioned_contexts" tabindex="0"><b>
+   NDIS_WWAN_PROVISIONED_CONTEXTS</b></mshelp:link>
 
  
 

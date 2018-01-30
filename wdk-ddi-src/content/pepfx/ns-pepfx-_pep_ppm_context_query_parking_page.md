@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
-title: _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
+title: "_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
 author: windows-driver-content
 description: The PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure describes the parking page for a processor.
 old-location: kernel\pep_ppm_context_query_parking_page.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F714D6EE-90F9-4FC6-95EB-32225284DC1F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, pepfx/PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, kernel.pep_ppm_context_query_parking_page, *PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE
+ms.keywords: PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure [Kernel-Mode Driver Architecture], PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, pepfx/PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, pepfx/PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, kernel.pep_ppm_context_query_parking_page, *PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, _DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt, DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], dxva/DXVA_DeinterlaceBlt
+ms.keywords: "_DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], dxva/DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,9 +124,9 @@ When creating a single frame from one field in a sample, as defined in the <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0aa68d0c-8c2b-41fe-9e46-a41b157fbd98">DeinterlaceBlt</a>
-
 <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
+
+<a href="https://msdn.microsoft.com/0aa68d0c-8c2b-41fe-9e46-a41b157fbd98">DeinterlaceBlt</a>
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 

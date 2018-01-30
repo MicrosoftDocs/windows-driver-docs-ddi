@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 28f0e98f-1f7b-4dcf-8151-e13981634617
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, FsRtlSupportsPerFileContexts, ntifs/FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts function [Installable File System Drivers], ifsk.fsrtlsupportsperfilecontexts
+ms.keywords: ifsk.fsrtlsupportsperfilecontexts, ntifs/FsRtlSupportsPerFileContexts, fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	FsRtlSupportsPerFileContexts
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ None
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
  
 

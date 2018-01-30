@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SLIST_ENTRY
-title: _SLIST_ENTRY
+title: "_SLIST_ENTRY"
 author: windows-driver-content
 description: An SLIST_ENTRY structure describes an entry in a sequenced singly linked list.
 old-location: kernel\slist_entry.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 690bcd8a-3c4f-4254-99c7-4ad600b4ae4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SLIST_ENTRY, wdm/SLIST_ENTRY, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PSLIST_ENTRY, _SLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], PSLIST_ENTRY, kernel.slist_entry, *PSLIST_ENTRY
+ms.keywords: kernel.slist_entry, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], SLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], _SLIST_ENTRY, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, wdm/PSLIST_ENTRY, *PSLIST_ENTRY, wdm/SLIST_ENTRY, PSLIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	SLIST_ENTRY
 product: Windows
 targetos: Windows

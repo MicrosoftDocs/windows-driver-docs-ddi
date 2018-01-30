@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
-title: _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
+title: "_WDF_USB_INTERFACE_SELECT_SETTING_PARAMS"
 author: windows-driver-content
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure contains selection information for a USB interface.
 old-location: wdf\wdf_usb_interface_select_setting_params.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fad8a205-8427-48c5-b4b5-b125aa9fe85c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdf.wdf_usb_interface_select_setting_params, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, kmdf.wdf_usb_interface_select_setting_params, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer
+ms.keywords: PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, kmdf.wdf_usb_interface_select_setting_params, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdf.wdf_usb_interface_select_setting_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
 product: Windows
 targetos: Windows
@@ -153,13 +153,13 @@ To initialize a <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure, your d
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
-
-<a href="..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectsettingtype.md">WdfUsbTargetDeviceSelectSettingType</a>
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
+
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+<a href="..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectsettingtype.md">WdfUsbTargetDeviceSelectSettingType</a>
 
  
 

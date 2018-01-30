@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_SECURITY_INFO
-title: _BAND_SECURITY_INFO
+title: "_BAND_SECURITY_INFO"
 author: windows-driver-content
 description: The BAND_SECURITY_INFO structure specifies the security information for a band table entry query.
 old-location: storage\band_security_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 310F996F-F350-4F25-BC8A-386513908557
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorbandmgmt/PBAND_LOCATION_INFO, BAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], ehstorbandmgmt/BAND_SECURITY_INFO, BAND_SECURITY_INFO, storage.band_security_info, BAND_LOCATION_INFO structure [Storage Devices], _BAND_SECURITY_INFO, PBAND_LOCATION_INFO, *PBAND_SECURITY_INFO, BAND_SECURITY_INFO structure [Storage Devices]
+ms.keywords: BAND_SECURITY_INFO structure [Storage Devices], storage.band_security_info, BAND_SECURITY_INFO, BAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], BAND_LOCATION_INFO structure [Storage Devices], _BAND_SECURITY_INFO, PBAND_LOCATION_INFO, *PBAND_SECURITY_INFO, ehstorbandmgmt/BAND_SECURITY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	BAND_LOCATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PBAND_SECURITY_INFO, BAND_SECURITY_INFO
+req.typenames: "*PBAND_SECURITY_INFO, BAND_SECURITY_INFO"
 ---
 
 # _BAND_SECURITY_INFO structure

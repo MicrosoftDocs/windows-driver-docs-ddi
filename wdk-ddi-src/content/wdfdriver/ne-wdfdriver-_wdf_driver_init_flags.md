@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdriver._WDF_DRIVER_INIT_FLAGS
-title: _WDF_DRIVER_INIT_FLAGS
+title: "_WDF_DRIVER_INIT_FLAGS"
 author: windows-driver-content
 description: The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 old-location: wdf\wdf_driver_init_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverInitNoDispatchOverride, WdfVerifyOn, WdfVerifierOn, _WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, wdfdriver/WdfVerifierOn, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifyOn, WdfDriverInitNonPnpDriver, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WDF_DRIVER_INIT_FLAGS enumeration, wdfdriver/WDF_DRIVER_INIT_FLAGS, kmdf.wdf_driver_init_flags, wdfdriver/WdfDriverInitNonPnpDriver
+ms.keywords: wdfdriver/WDF_DRIVER_INIT_FLAGS, WdfDriverInitNonPnpDriver, wdfdriver/WdfDriverInitNonPnpDriver, WdfVerifyOn, WdfDriverInitNoDispatchOverride, _WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfVerifyOn, WDF_DRIVER_INIT_FLAGS enumeration, wdfdriver/WdfDriverInitNoDispatchOverride, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifierOn, WDF_DRIVER_INIT_FLAGS, kmdf.wdf_driver_init_flags, WdfVerifierOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdriver.h
-apiname: 
+apiname:
 -	WDF_DRIVER_INIT_FLAGS
 product: Windows
 targetos: Windows
@@ -107,9 +107,9 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 ## -see-also
 
-<a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
-
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+<a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 

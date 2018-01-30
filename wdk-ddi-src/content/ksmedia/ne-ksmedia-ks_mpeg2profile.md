@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1846e6b7-5b98-4850-86d6-ef6a29ce050b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_MPEG2Profile_Simple, KS_MPEG2Profile_SpatiallyScalable, KS_MPEG2Profile enumeration [Streaming Media Devices], KS_MPEG2Profile_High, KS_MPEG2Profile_Main, stream.ks_mpeg2profile, ksmedia/KS_MPEG2Profile, ksmedia/KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_High, KS_MPEG2Profile, KS_MPEG2Profile_Simple, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml, KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_SpatiallyScalable
+ms.keywords: KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml, KS_MPEG2Profile, ksmedia/KS_MPEG2Profile_Simple, stream.ks_mpeg2profile, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_High, ksmedia/KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile enumeration [Streaming Media Devices], KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_Main, KS_MPEG2Profile_Simple, KS_MPEG2Profile_High
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_MPEG2Profile
 product: Windows
 targetos: Windows

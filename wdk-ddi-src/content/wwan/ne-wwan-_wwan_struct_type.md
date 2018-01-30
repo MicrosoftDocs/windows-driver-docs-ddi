@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_STRUCT_TYPE
-title: _WWAN_STRUCT_TYPE
+title: "_WWAN_STRUCT_TYPE"
 author: windows-driver-content
 description: The WWAN_STRUCT_TYPE enumeration lists the different types of the list elements that follow the WWAN_LIST_HEADER object in memory.
 old-location: netvista\wwan_struct_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 43729964-9338-45ab-ad59-406176c1ae9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanStructMax, wwan/WwanStructContext, _WWAN_STRUCT_TYPE, WwanStructTN, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_struct_type, wwan/PWWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE, WwanStructSmsPdu, WwanStructProvider, WwanStructReserved2, wwan/WwanStructProvider2, WwanStructReserved3, wwan/WwanStructProvider, wwan/WwanStructDeviceCellularClass, wwan/WwanStructReserved2, WwanStructDeviceServiceGuid, PWWAN_STRUCT_TYPE, WwanStructReserved0, WwanStructDeviceServiceCommandId, WwanStructDeviceCellularClass, WwanStructReserved1, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanStructDeviceServiceCommandId, wwan/WwanStructSmsCdma, wwan/WwanStructDeviceServiceEntry, WwanStructProvider2, WwanStructMax, WwanStructDeviceServiceEntry, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructTN, wwan/WWAN_STRUCT_TYPE, WwanStructContext, wwan/WwanStructReserved3, wwan/WwanStructReserved1, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WwanStructSmsCdma, wwan/WwanStructSmsPdu, wwan/WwanStructReserved0, *PWWAN_STRUCT_TYPE
+ms.keywords: wwan/WwanStructDeviceServiceCommandId, WwanStructTN, wwan/WwanStructReserved2, WwanStructMax, WwanStructProvider, WwanStructReserved3, wwan/WwanStructSmsCdma, *PWWAN_STRUCT_TYPE, wwan/WwanStructProvider2, wwan/WwanStructSmsPdu, wwan/WwanStructTN, wwan/PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WwanStructDeviceServiceGuid, wwan/WwanStructContext, wwan/WwanStructMax, WwanStructDeviceCellularClass, WwanStructProvider2, WwanStructSmsCdma, WwanStructReserved1, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanStructDeviceServiceEntry, WwanStructReserved0, WwanStructContext, wwan/WwanStructDeviceCellularClass, wwan/WwanStructReserved0, netvista.wwan_struct_type, wwan/WwanStructProvider, _WWAN_STRUCT_TYPE, WwanStructReserved2, wwan/WwanStructDeviceServiceGuid, WWAN_STRUCT_TYPE, wwan/WwanStructReserved1, wwan/WwanStructReserved3, WwanStructSmsPdu, wwan/WwanStructDeviceServiceEntry, wwan/WWAN_STRUCT_TYPE, WwanStructDeviceServiceCommandId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_STRUCT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE
+req.typenames: WWAN_STRUCT_TYPE, *PWWAN_STRUCT_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -241,23 +241,23 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
-
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
-
-<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
+
+<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
 
  
 

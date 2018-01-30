@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9a6998d-f340-47ad-a9be-ff7ef76c627e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltDeviceIoControlFile, FltDeviceIoControlFile, FltDeviceIoControlFile function [Installable File System Drivers], FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, ifsk.fltdeviceiocontrolfile
+ms.keywords: FltDeviceIoControlFile function [Installable File System Drivers], FltDeviceIoControlFile, ifsk.fltdeviceiocontrolfile, FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, fltkernel/FltDeviceIoControlFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+apiname:
 -	FltDeviceIoControlFile
 product: Windows
 targetos: Windows

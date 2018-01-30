@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL (See Remarks section.)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	HwStorInitialize
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 
@@ -123,13 +123,13 @@ Set up and initialize all events and DPCs that are used by the miniport driver.
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
-
 <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
 
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+<a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
 
  
 

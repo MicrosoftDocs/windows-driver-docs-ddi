@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolTcpOffloadForwardComplete
 product: Windows
 targetos: Windows
@@ -133,16 +133,16 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
+<mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
+   NdisTcpOffloadForwardComplete</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-   NdisTcpOffloadForwardComplete</b></mshelp:link>
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
 
  
 

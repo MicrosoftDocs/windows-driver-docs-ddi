@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmFlushImageSection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, ntifs/MmFlushImageSection
+ms.keywords: MmFlushImageSection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmFlushImageSection
 product: Windows
 targetos: Windows

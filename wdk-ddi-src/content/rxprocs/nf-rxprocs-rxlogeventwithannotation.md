@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxLogEventWithAnnotation function [Installable File System Drivers], RxLogEventWithAnnotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml, ifsk.rxlogeventwithannotation
+ms.keywords: rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml, ifsk.rxlogeventwithannotation, rxprocs/RxLogEventWithAnnotation, RxLogEventWithAnnotation function [Installable File System Drivers], RxLogEventWithAnnotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxprocs.h
-apiname: 
+apiname:
 -	RxLogEventWithAnnotation
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -114,24 +114,24 @@ The count of the number of annotation strings to add to the I/O error log struct
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
 
 
-#### - RawDataLength [in]
-
-The length of the raw data buffer to be added to the I/O error log structure.
-
-
 #### - NtStatus [in]
 
 The value indicating the status code of a routine indicating a failure.
 
 
-#### - Annotations [in]
-
-A pointer to any annotation strings to add to the I/O error log structure.
-
-
 #### - RawDataBuffer [in]
 
 A pointer to a raw data buffer to be added to the I/O error log structure.
+
+
+#### - RawDataLength [in]
+
+The length of the raw data buffer to be added to the I/O error log structure.
+
+
+#### - Annotations [in]
+
+A pointer to any annotation strings to add to the I/O error log structure.
 
 
 ## -returns
@@ -154,11 +154,11 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-
 <a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
+
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
  
 

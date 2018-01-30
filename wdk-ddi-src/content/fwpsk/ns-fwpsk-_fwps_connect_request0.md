@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk._FWPS_CONNECT_REQUEST0
-title: _FWPS_CONNECT_REQUEST0
+title: "_FWPS_CONNECT_REQUEST0"
 author: windows-driver-content
 description: The FWPS_CONNECT_REQUEST0 structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_CONNECT_REDIRECT_V4 and FWPM_LAYER_ALE_AUTH_CONNECT_REDIRECT_V6 layers.
 old-location: netvista\fwps_connect_request0.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dee5586d-62fd-4e08-854c-c7d44be60a71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_CONNECT_REQUEST0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml, netvista.fwps_connect_request0, FWPS_CONNECT_REQUEST0, fwpsk/FWPS_CONNECT_REQUEST0
+ms.keywords: FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml, fwpsk/FWPS_CONNECT_REQUEST0, _FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_CONNECT_REQUEST0
 product: Windows
 targetos: Windows
@@ -188,23 +188,23 @@ Call
 
 ## -see-also
 
-<mshelp:link keywords="netvista.using_bind_or_connect_redirection" tabindex="0">Using Bind or Connect
-   Redirection</mshelp:link>
+<mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
+   FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
+
+<mshelp:link keywords="netvista.using_bind_or_connect_redirection" tabindex="0">Using Bind or Connect
+   Redirection</mshelp:link>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
-
-<mshelp:link keywords="netvista.fwpsacquirewritablelayerdatapointer0" tabindex="0"><b>
-   FwpsAcquireWritableLayerDataPointer0</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
  
 

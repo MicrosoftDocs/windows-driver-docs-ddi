@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PSCO_INDICATION_PARAMETERS, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, bltooth.sco_indication_parameters, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], SCO_INDICATION_PARAMETERS, bthddi/SCO_INDICATION_PARAMETERS, bthddi/PSCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS, _SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices]
+ms.keywords: bthddi/SCO_INDICATION_PARAMETERS, bthddi/PSCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS, _SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], bltooth.sco_indication_parameters, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, SCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,9 +159,9 @@ When the Bluetooth driver stack passes
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
 <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a>
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
  
 

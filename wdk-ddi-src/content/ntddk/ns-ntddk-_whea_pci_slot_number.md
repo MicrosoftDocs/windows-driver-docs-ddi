@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCI_SLOT_NUMBER
-title: _WHEA_PCI_SLOT_NUMBER
+title: "_WHEA_PCI_SLOT_NUMBER"
 author: windows-driver-content
 description: The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 old-location: whea\whea_pci_slot_number.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4e2938a2-6301-4d2a-a467-eca1f5bbb260
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_PCI_SLOT_NUMBER, whearef_6999e061-3501-48fe-bd6c-383493056665.xml, *PWHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER, _WHEA_PCI_SLOT_NUMBER, ntddk/WHEA_PCI_SLOT_NUMBER, whea.whea_pci_slot_number, WHEA_PCI_SLOT_NUMBER structure [WHEA Drivers and Applications], PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER structure pointer [WHEA Drivers and Applications]
+ms.keywords: WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER, _WHEA_PCI_SLOT_NUMBER, whea.whea_pci_slot_number, ntddk/WHEA_PCI_SLOT_NUMBER, ntddk/PWHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER structure [WHEA Drivers and Applications], whearef_6999e061-3501-48fe-bd6c-383493056665.xml, PWHEA_PCI_SLOT_NUMBER structure pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_PCI_SLOT_NUMBER
 product: Windows
 targetos: Windows
@@ -115,9 +115,9 @@ A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="..\ntddk\ns-nt
 
 <a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
 
  
 

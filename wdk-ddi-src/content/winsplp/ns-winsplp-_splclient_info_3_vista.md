@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_3_VISTA
-title: _SPLCLIENT_INFO_3_VISTA
+title: "_SPLCLIENT_INFO_3_VISTA"
 author: windows-driver-content
 description: Contains a super-set of the information in both a SPLCLIENT_INFO_1 and SPLCLIENT_INFO_2 structure. It also contains additional information needed by the provider.
 old-location: print\splclient_info_3_vista.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA structure [Print Devices], SPLCLIENT_INFO_3_VISTA, _SPLCLIENT_INFO_3_VISTA, *LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, winsplp/SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista
+ms.keywords: print.splclient_info_3_vista, SPLCLIENT_INFO_3_VISTA structure [Print Devices], *LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, _SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3, winsplp/SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	SPLCLIENT_INFO_3_VISTA
 product: Windows
 targetos: Windows

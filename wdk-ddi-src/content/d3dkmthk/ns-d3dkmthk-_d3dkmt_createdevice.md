@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_CREATEDEVICE, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml, D3DKMT_CREATEDEVICE structure [Display Devices], D3DKMT_CREATEDEVICE, _D3DKMT_CREATEDEVICE, display.d3dkmt_createdevice
+ms.keywords: D3DKMT_CREATEDEVICE, _D3DKMT_CREATEDEVICE, OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml, D3DKMT_CREATEDEVICE structure [Display Devices], display.d3dkmt_createdevice, d3dkmthk/D3DKMT_CREATEDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

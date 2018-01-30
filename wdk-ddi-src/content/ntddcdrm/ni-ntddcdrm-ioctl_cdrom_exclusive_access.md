@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	IOCTL_CDROM_EXCLUSIVE_ACCESS
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
 ---
 
 # IOCTL_CDROM_EXCLUSIVE_ACCESS IOCTL
@@ -137,53 +137,15 @@ If the request fails, the <b>Status</b> field might be set to one of the followi
 
 
 
-#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
+#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
 
-The device is already locked for exclusive access. 
+The input buffer was too small. 
 
 
 #### -STATUS_BUFFER_TOO_SMALL (Windows error code: ERROR_INSUFFICIENT_BUFFER)
 
 The output buffer was too small for a <b>ExclusiveAccessQueryState</b> request. 
 
-
-#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
-
-The input buffer was too small. 
-
-
-#### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
-
-The CD-ROM class driver returns this status code when one of the following two errors occurs:
-<ul>
-<li>
-The caller made the request at an IRQL level other than PASSIVE_LEVEL.  
-
-</li>
-<li>
-The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device that is not in exclusive mode. 
-
-</li>
-</ul>
-
-#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
-
-The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
-
-
-#### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
-
-The CD-ROM class driver returns this status code when one of the following two errors occurs:
-<ul>
-<li>
-The file object that is required to keep track of the request was not available. The CD-ROM class driver did not receive a request to create a file object from this caller.  
-
-</li>
-<li>
-The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device, even though the caller does not have exclusive access to the device. 
-
-</li>
-</ul>
 
 #### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
 
@@ -199,17 +161,55 @@ The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\n
 </li>
 </ul>
 
+#### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
+
+The CD-ROM class driver returns this status code when one of the following two errors occurs:
+<ul>
+<li>
+The caller made the request at an IRQL level other than PASSIVE_LEVEL.  
+
+</li>
+<li>
+The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device that is not in exclusive mode. 
+
+</li>
+</ul>
+
+#### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
+
+The CD-ROM class driver returns this status code when one of the following two errors occurs:
+<ul>
+<li>
+The file object that is required to keep track of the request was not available. The CD-ROM class driver did not receive a request to create a file object from this caller.  
+
+</li>
+<li>
+The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevice</b> to unlock a device, even though the caller does not have exclusive access to the device. 
+
+</li>
+</ul>
+
+#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
+
+The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
+
+
+#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
+
+The device is already locked for exclusive access. 
+
+
 ## -see-also
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
 
 <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
 
  
 

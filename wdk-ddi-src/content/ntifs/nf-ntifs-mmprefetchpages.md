@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmPrefetchPages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ifsk.mmprefetchpages, ntifs/MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers]
+ms.keywords: MmPrefetchPages routine [Installable File System Drivers], mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages, ifsk.mmprefetchpages, MmPrefetchPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmPrefetchPages
 product: Windows
 targetos: Windows

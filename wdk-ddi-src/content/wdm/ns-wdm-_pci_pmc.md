@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_PMC
-title: _PCI_PMC
+title: "_PCI_PMC"
 author: windows-driver-content
 description: The PCI_PMC structure is used to report the contents of the power management capabilities register.
 old-location: pci\pci_pmc.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _PCI_PMC, PPCI_PMC structure pointer [Buses], *PPCI_PMC, PCI_PMC, PCI_PMC structure [Buses], PCI.pci_pmc, wdm/PPCI_PMC, wdm/PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, PPCI_PMC
+ms.keywords: pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, PCI_PMC structure [Buses], wdm/PCI_PMC, PPCI_PMC, PCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, PCI.pci_pmc, wdm/PPCI_PMC, *PPCI_PMC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_PMC
 product: Windows
 targetos: Windows

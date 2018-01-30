@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.getsecurityuserinfo, IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ntifs/GetSecurityUserInfo, GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers]
+ms.keywords: ntifs/GetSecurityUserInfo, GetSecurityUserInfo, IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, GetSecurityUserInfo function [Installable File System Drivers], ifsk.getsecurityuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksecdd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ksecdd.lib
 -	ksecdd.dll
-apiname: 
+apiname:
 -	GetSecurityUserInfo
 product: Windows
 targetos: Windows
@@ -129,9 +129,9 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
+
+<a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
 
  
 

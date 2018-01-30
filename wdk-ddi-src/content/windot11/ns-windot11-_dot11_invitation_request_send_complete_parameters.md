@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
-title: _DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
+title: "_DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS"
 author: windows-driver-content
 description: The completion parameters for a sent inivitation request are specified in a DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE request to the miniport.
 old-location: netvista\dot11_invitation_request_send_complete_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9E2951DE-083E-43D2-A487-97D0ADD76BE2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_invitation_request_send_complete_parameters, windot11/PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
+ms.keywords: PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, netvista.dot11_invitation_request_send_complete_parameters, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, _DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
+req.typenames: "*PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 

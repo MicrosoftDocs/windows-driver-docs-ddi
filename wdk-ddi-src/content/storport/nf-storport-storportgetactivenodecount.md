@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, StorPortGetActiveNodeCount routine [Storage Devices], StorPortGetActiveNodeCount, storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount
+ms.keywords: storport/StorPortGetActiveNodeCount, StorPortGetActiveNodeCount, storage.storportgetactivenodecount, StorPortGetActiveNodeCount routine [Storage Devices], storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortGetActiveNodeCount
 product: Windows
 targetos: Windows

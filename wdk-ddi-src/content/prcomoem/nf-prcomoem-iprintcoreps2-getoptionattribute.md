@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b9ac4c2f-1eba-4425-a102-56fef6d0f5a7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetOptionAttribute method [Print Devices], IPrintCorePS2 interface, prcomoem/IPrintCorePS2::GetOptionAttribute, GetOptionAttribute, IPrintCorePS2 interface [Print Devices], GetOptionAttribute method, IPrintCorePS2::GetOptionAttribute, GetOptionAttribute method [Print Devices], IPrintCorePS2, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml, print.iprintcoreps2_getoptionattribute
+ms.keywords: print.iprintcoreps2_getoptionattribute, GetOptionAttribute method [Print Devices], GetOptionAttribute, IPrintCorePS2 interface [Print Devices], GetOptionAttribute method, IPrintCorePS2::GetOptionAttribute, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml, GetOptionAttribute method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2, prcomoem/IPrintCorePS2::GetOptionAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCorePS2.GetOptionAttribute
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -199,13 +199,13 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
-
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
  
 

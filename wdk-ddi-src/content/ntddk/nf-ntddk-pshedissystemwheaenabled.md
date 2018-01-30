@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d9935605-dc5f-4987-8a5b-b2c2b358dbbf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], whea.pshedissystemwheaenabled, ntddk/PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml
+ms.keywords: ntddk/PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], whea.pshedissystemwheaenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Pshed.dll
-apiname: 
+apiname:
 -	PshedIsSystemWheaEnabled
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PshedIsSystemWheaEnabled function

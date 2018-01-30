@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a71a8e9-323e-4f14-8c97-d6ce4e9bfe65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2 interface, debugger.getnumberpseudoregisters, IDebugRegisters2 interface [Windows Debugging], GetNumberPseudoRegisters method, IDebugRegisters2::GetNumberPseudoRegisters, dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, GetNumberPseudoRegisters, IDebugRegisters2
+ms.keywords: IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2::GetNumberPseudoRegisters, GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2 interface, debugger.getnumberpseudoregisters, dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetNumberPseudoRegisters method, GetNumberPseudoRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetNumberPseudoRegisters
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetNumberPseudoRegisters method

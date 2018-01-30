@@ -96,7 +96,7 @@ The address of an unsigned long integer to receive the length of the converted S
 Specifies a 4-byte 
      <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
+     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
 #### - Stream
@@ -133,7 +133,7 @@ The
 
 <b>SdpConvertTreeToStream</b> allocates the necessary memory to store the stream version of the SDP
     record. When the memory is no longer needed, the caller is responsible for freeing the memory using the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> driver support routine.
+    <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> driver support routine.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
@@ -142,11 +142,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
  
 

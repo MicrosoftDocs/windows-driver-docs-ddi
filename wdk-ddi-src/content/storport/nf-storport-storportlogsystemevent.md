@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 720245ff-8c97-4b8d-8406-f6b712fa74c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortLogSystemEvent routine [Storage Devices], storport/StorPortLogSystemEvent, storage.storportlogsystemevent, StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml
+ms.keywords: StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices], storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml, storport/StorPortLogSystemEvent, storage.storportlogsystemevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortLogSystemEvent
 product: Windows
 targetos: Windows

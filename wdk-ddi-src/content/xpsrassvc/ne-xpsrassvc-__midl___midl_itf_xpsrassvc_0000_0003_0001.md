@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsrassvc.__MIDL___MIDL_itf_xpsrassvc_0000_0003_0001
-title: __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001
+title: "__MIDL___MIDL_itf_xpsrassvc_0000_0003_0001"
 author: windows-driver-content
 description: XPSRAS_PIXEL_FORMAT allows a caller to select the pixel format used by the IWICBitmap interface that is returned by the IXpsRasterizer::RasterizeRect method. XPSRAS_PIXEL_FORMAT is provided with Windows 8 and later versions of Windows.
 old-location: print\xpsras_pixel_format.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54EA7ED6-BBE1-4110-8405-DEC0C5EA1C27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: XPSRAS_PIXEL_FORMAT enumeration [Print Devices], xpsrassvc/XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, XPSRAS_PIXEL_FORMAT, print.xpsras_pixel_format, xpsrassvc/XPSRAS_PIXEL_FORMAT, XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001
+ms.keywords: XPSRAS_PIXEL_FORMAT enumeration [Print Devices], xpsrassvc/XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, print.xpsras_pixel_format, XPSRAS_PIXEL_FORMAT, XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001, xpsrassvc/XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Xpsrassvc.h
-apiname: 
+apiname:
 -	XPSRAS_PIXEL_FORMAT
 product: Windows
 targetos: Windows

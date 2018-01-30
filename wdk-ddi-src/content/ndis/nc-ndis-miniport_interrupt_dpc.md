@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportInterruptDPC
 product: Windows
 targetos: Windows
@@ -224,32 +224,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
 
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+<mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
+   NDIS_RECEIVE_THROTTLE_PARAMETERS</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
+
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-<mshelp:link keywords="netvista.ndis_receive_throttle_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_THROTTLE_PARAMETERS</b></mshelp:link>
 
  
 

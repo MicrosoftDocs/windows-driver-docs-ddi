@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, storage.storportwriteportuchar, StorPortWritePortUchar routine [Storage Devices], StorPortWritePortUchar, storport/StorPortWritePortUchar
+ms.keywords: StorPortWritePortUchar routine [Storage Devices], StorPortWritePortUchar, storage.storportwriteportuchar, storport/StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortWritePortUchar
 product: Windows
 targetos: Windows
@@ -102,9 +102,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportuchar.md">Scsi
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>
-
 <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>
+
+<a href="..\srb\nf-srb-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>
 
  
 

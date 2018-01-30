@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_PARK_PREFERENCE
-title: _PEP_PROCESSOR_PARK_PREFERENCE
+title: "_PEP_PROCESSOR_PARK_PREFERENCE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_PARK_PREFERENCE structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption.
 old-location: kernel\pep_processor_park_preference.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AADA3F1E-DEE8-42E3-B0B8-9EA276F46F86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, _PEP_PROCESSOR_PARK_PREFERENCE, kernel.pep_processor_park_preference, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pep_processor_park_preference, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE, _PEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PROCESSOR_PARK_PREFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PROCESSOR_PARK_PREFERENCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE
+req.typenames: "*PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE"
 ---
 
 # _PEP_PROCESSOR_PARK_PREFERENCE structure
@@ -119,11 +119,11 @@ The following table lists the three values that are defined for the <b>PoPrefere
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_park_selection.md">PEP_PPM_PARK_SELECTION</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+<a href="..\pepfx\ns-pepfx-_pep_ppm_park_selection.md">PEP_PPM_PARK_SELECTION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartServerWide method [Windows Debugging], IDebugClient5::StartServerWide, debugger.startserverwide, IDebugClient5 interface [Windows Debugging], StartServerWide method, StartServerWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::StartServerWide, StartServerWide, IDebugClient5
+ms.keywords: StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5::StartServerWide, debugger.startserverwide, IDebugClient5 interface [Windows Debugging], StartServerWide method, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.StartServerWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::StartServerWide method

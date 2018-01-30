@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e3be12e4-84f3-4bd5-af9a-26ad89948e50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, FsRtlInitializeExtraCreateParameter, ntifs/FsRtlInitializeExtraCreateParameter, ifsk.fsrtlinitializeextracreateparameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlInitializeExtraCreateParameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], ifsk.fsrtlinitializeextracreateparameter, FsRtlInitializeExtraCreateParameter, fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlInitializeExtraCreateParameter
 product: Windows
 targetos: Windows

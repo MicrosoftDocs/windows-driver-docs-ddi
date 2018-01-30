@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6cba6db5-b91f-46f0-939e-b02693c81438
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_7188551f-9c46-472f-8976-67ee53b994c5.xml, SeRegisterLogonSessionTerminatedRoutine, ifsk.seregisterlogonsessionterminatedroutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ntifs/SeRegisterLogonSessionTerminatedRoutine
+ms.keywords: ntifs/SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], seref_7188551f-9c46-472f-8976-67ee53b994c5.xml, SeRegisterLogonSessionTerminatedRoutine, ifsk.seregisterlogonsessionterminatedroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeRegisterLogonSessionTerminatedRoutine
 product: Windows
 targetos: Windows

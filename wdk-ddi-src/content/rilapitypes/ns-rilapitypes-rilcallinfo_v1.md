@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f630afff-d3ca-4ada-aa8c-5062893f2de5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILCALLINFO_V1, RILCALLINFO_V1 structure [Network Drivers Starting with Windows Vista], RILCALLINFO_V1, netvista.rilcallinfo_v1_2, *LPRILCALLINFO_V1
+ms.keywords: rilapitypes/RILCALLINFO_V1, *LPRILCALLINFO_V1, netvista.rilcallinfo_v1_2, RILCALLINFO_V1 structure [Network Drivers Starting with Windows Vista], RILCALLINFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLINFO_V1
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLINFO_V1, RILCALLINFO_V1
+req.typenames: RILCALLINFO_V1, *LPRILCALLINFO_V1
 req.product: Windows 10 or later.
 ---
 

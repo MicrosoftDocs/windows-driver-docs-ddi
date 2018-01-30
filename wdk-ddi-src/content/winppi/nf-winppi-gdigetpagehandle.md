@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.gdigetpagehandle, winppi/GdiGetPageHandle, gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, GdiGetPageHandle function [Print Devices], GdiGetPageHandle
+ms.keywords: GdiGetPageHandle function [Print Devices], winppi/GdiGetPageHandle, GdiGetPageHandle, gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, print.gdigetpagehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiGetPageHandle
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

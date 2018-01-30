@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7c2ebe5d-ecb0-41d2-a1bb-7e131ea350a7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], *PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml, tagKS_FRAME_INFO, stream.ks_frame_info, PKS_FRAME_INFO, KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO
+ms.keywords: tagKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], *PKS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml, PKS_FRAME_INFO, stream.ks_frame_info, KS_FRAME_INFO, ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_FRAME_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_FRAME_INFO, KS_FRAME_INFO
+req.typenames: "*PKS_FRAME_INFO, KS_FRAME_INFO"
 ---
 
 # tagKS_FRAME_INFO structure

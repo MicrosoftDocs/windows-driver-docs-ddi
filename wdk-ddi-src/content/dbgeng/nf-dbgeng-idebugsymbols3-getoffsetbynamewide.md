@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 576193fc-756f-40fb-abdd-65c088687cb5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide, IDebugSymbols3, GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByNameWide, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, GetOffsetByNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetOffsetByNameWide
+ms.keywords: GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, IDebugSymbols3, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide, IDebugSymbols3::GetOffsetByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetOffsetByNameWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetOffsetByNameWide method

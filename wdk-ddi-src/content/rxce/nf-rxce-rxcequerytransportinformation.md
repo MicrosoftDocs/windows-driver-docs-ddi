@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, ifsk.rxcequerytransportinformation, RxCeQueryTransportInformation function [Installable File System Drivers], RxCeQueryTransportInformation
+ms.keywords: ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeQueryTransportInformation
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -126,9 +126,9 @@ QualityOfService
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
-
 <a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
+
+<a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
 
  
 

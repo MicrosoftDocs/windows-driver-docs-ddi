@@ -40,7 +40,7 @@ apiname:
 -	ClassServiceCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS"
+req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ---
 
 # PSERVICE_CALLBACK_ROUTINE callback
@@ -171,11 +171,11 @@ VOID MouseClassServiceCallback(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
-
 <a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices], icm/WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile
+ms.keywords: colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, print.wcsgetdefaultcolorprofile, icm/WcsGetDefaultColorProfile, WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	WcsGetDefaultColorProfile
 product: Windows
 targetos: Windows

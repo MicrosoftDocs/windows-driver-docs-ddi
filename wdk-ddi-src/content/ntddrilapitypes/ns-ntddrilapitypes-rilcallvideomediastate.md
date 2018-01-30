@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLVIDEOMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE
+req.typenames: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE"
 ---
 
 # RILCALLVIDEOMEDIASTATE structure

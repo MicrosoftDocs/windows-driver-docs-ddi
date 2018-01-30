@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 183940c9-f8d9-411f-a593-e283f72e05f8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetNodeAffinity, storage.storportgetnodeaffinity, storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml, StorPortGetNodeAffinity routine [Storage Devices], StorPortGetNodeAffinity
+ms.keywords: storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml, storport/StorPortGetNodeAffinity, StorPortGetNodeAffinity routine [Storage Devices], storage.storportgetnodeaffinity, StorPortGetNodeAffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortGetNodeAffinity
 product: Windows
 targetos: Windows

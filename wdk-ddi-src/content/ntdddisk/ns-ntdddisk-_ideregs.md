@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._IDEREGS
-title: _IDEREGS
+title: "_IDEREGS"
 author: windows-driver-content
 description: The IDEREGS structure is used to report the contents of the IDE controller registers.
 old-location: storage\ideregs.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *LPIDEREGS, ntdddisk/IDEREGS, *PIDEREGS, storage.ideregs, ntdddisk/LPIDEREGS, PIDEREGS structure pointer [Storage Devices], LPIDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, _IDEREGS, ntdddisk/PIDEREGS, IDEREGS structure [Storage Devices], IDEREGS, PIDEREGS, LPIDEREGS structure pointer [Storage Devices]
+ms.keywords: "_IDEREGS, PIDEREGS, *LPIDEREGS, ntdddisk/LPIDEREGS, *PIDEREGS, ntdddisk/PIDEREGS, storage.ideregs, LPIDEREGS structure pointer [Storage Devices], IDEREGS, LPIDEREGS, IDEREGS structure [Storage Devices], structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, PIDEREGS structure pointer [Storage Devices], ntdddisk/IDEREGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	IDEREGS
 product: Windows
 targetos: Windows
-req.typenames: IDEREGS, *LPIDEREGS, *PIDEREGS
+req.typenames: "*LPIDEREGS, *PIDEREGS, IDEREGS"
 ---
 
 # _IDEREGS structure

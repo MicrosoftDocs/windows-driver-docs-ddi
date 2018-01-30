@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PCO_VALUE
-title: _WWAN_PCO_VALUE
+title: "_WWAN_PCO_VALUE"
 author: windows-driver-content
 description: The WWAN_PCO_VALUE structure represents the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 old-location: netvista\wwan_pco_value.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45A499CE-2C9A-4070-BEF8-880E7673FA8E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_PCO_VALUE, *PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE, netvista.wwan_pco_value, _WWAN_PCO_VALUE, WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_PCO_VALUE
+ms.keywords: wwan/PWWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PCO_VALUE, *PWWAN_PCO_VALUE, WWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, netvista.wwan_pco_value, PWWAN_PCO_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PCO_VALUE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_PCO_VALUE, *PWWAN_PCO_VALUE
+req.typenames: "*PWWAN_PCO_VALUE, WWAN_PCO_VALUE"
 req.product: Windows 10 or later.
 ---
 
@@ -104,9 +104,9 @@ The following figure shows  	a full PCO structure as defined in the 3G TS24.008 
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
 
 <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>
 

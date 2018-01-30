@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml
+ms.keywords: RtlFillMemoryUlonglong routine [Installable File System Drivers], ntifs/RtlFillMemoryUlonglong, ifsk.rtlfillmemoryulonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, RtlFillMemoryUlonglong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlFillMemoryUlonglong
 product: Windows
 targetos: Windows

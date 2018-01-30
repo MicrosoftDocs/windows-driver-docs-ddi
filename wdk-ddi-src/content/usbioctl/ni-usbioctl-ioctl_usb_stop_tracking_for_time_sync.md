@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
 product: Windows
 targetos: Windows

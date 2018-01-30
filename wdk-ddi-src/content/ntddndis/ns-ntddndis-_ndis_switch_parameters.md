@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PARAMETERS
-title: _NDIS_SWITCH_PARAMETERS
+title: "_NDIS_SWITCH_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_SWITCH_PARAMETERS structure contains the configuration data for a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 766e042a-3f21-4f57-a780-83f92bef0a6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_switch_parameters, PNDIS_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PARAMETERS, ntddndis/NDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PARAMETERS, ntddndis/PNDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS
+ms.keywords: PNDIS_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS, PNDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS, netvista.ndis_switch_parameters, ntddndis/NDIS_SWITCH_PARAMETERS, ntddndis/PNDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_PARAMETERS
 product: Windows
 targetos: Windows
@@ -81,6 +81,13 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+#### NDIS_SWITCH_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PARAMETERS_REVISION_1.
+
+
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
@@ -108,13 +115,6 @@ A UINT32 value that specifies the number of ports configured on the extensible s
 ### -field IsActive
 
 A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
-
-
-##### - Header.NDIS_SWITCH_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PARAMETERS_REVISION_1.
 
 
 ## -remarks
@@ -151,25 +151,25 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_policy_event_callback0.md">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_policy_event_callback0.md">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
 
+<a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
+
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
 
-<a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <b></b>
 

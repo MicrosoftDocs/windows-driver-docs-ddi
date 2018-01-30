@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26a6e9e7-f1bb-4174-a640-f665cecfd191
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled, IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveCanceled method, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
+ms.keywords: IRemoteTargetCallbackRemoval, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveCanceled method, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,11 @@ For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callbac
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
-
 <a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
 
  
 

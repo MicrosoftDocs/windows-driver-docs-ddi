@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION_WRITE
-title: _WWAN_DEVICE_SERVICE_SESSION_WRITE
+title: "_WWAN_DEVICE_SERVICE_SESSION_WRITE"
 author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents data associated with a device service session write request.
 old-location: netvista\wwan_device_service_session_write.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8134E635-5FC3-4990-A7CC-E43ECEB1FBB6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE, netvista.wwan_device_service_session_write, WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE
+ms.keywords: WWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE, _WWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_session_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_DEVICE_SERVICE_SESSION_WRITE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE
+req.typenames: WWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE
 req.product: Windows 10 or later.
 ---
 

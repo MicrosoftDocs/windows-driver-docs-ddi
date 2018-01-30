@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66322f97-e249-4337-b228-826ab4728220
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UMTSKIND_HSPAPLUS, RIL_UMTSKIND_HSDPA, RIL_UMTSKIND_HSUPA, rilapitypes/RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_HSPAPLUS, RILUMTSKIND, rilapitypes/RILUMTSKIND, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UMTSKIND_HSDPA, rilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, RIL_UMTSKIND_MAX, rilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, rilapitypes/RIL_UMTSKIND_MAX, RIL_UMTSKIND_HSPAPLUS_64QAM, RIL_UMTSKIND_DC_HSPAPLUS, netvista.rilumtskind_2
+ms.keywords: rilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, RIL_UMTSKIND_HSDPA, netvista.rilumtskind_2, rilapitypes/RILUMTSKIND, RIL_UMTSKIND_HSPAPLUS, RILUMTSKIND, RIL_UMTSKIND_DC_HSPAPLUS, RIL_UMTSKIND_MAX, RIL_UMTSKIND_HSUPA, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UMTSKIND_MAX, rilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, rilapitypes/RIL_UMTSKIND_HSDPA, RIL_UMTSKIND_HSPAPLUS_64QAM, rilapitypes/RIL_UMTSKIND_HSPAPLUS, rilapitypes/RIL_UMTSKIND_HSUPA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUMTSKIND
 product: Windows
 targetos: Windows

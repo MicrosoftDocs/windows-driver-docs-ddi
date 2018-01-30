@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ace8405b-74a7-4797-8d3d-3caf673dace2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml, wdm/ExInterlockedAddLargeInteger, ExInterlockedAddLargeInteger, kernel.exinterlockedaddlargeinteger
+ms.keywords: ExInterlockedAddLargeInteger, k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml, ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedAddLargeInteger, kernel.exinterlockedaddlargeinteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInterlockedAddLargeInteger
 product: Windows
 targetos: Windows
@@ -109,11 +109,11 @@ Callers of <b>ExInterlockedAddLargeInteger</b> run at any IRQL. The storage for 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 

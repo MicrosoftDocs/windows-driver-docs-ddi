@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b43acd5-9204-41ff-8c63-76769bfa5469
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchPrintfEx, STRSAFE_FILL_BEHIND_NULL, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, RtlStringCchPrintfExA, STRSAFE_FILL_ON_FAILURE, ntstrsafe/RtlStringCchPrintfExW, STRSAFE_IGNORE_NULLS, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, RtlStringCchPrintfExW, ntstrsafe/RtlStringCchPrintfExA, kernel.rtlstringcchprintfex
+ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], RtlStringCchPrintfEx, ntstrsafe/RtlStringCchPrintfExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCchPrintfExA, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, STRSAFE_FILL_ON_FAILURE, kernel.rtlstringcchprintfex, ntstrsafe/RtlStringCchPrintfExA, RtlStringCchPrintfExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchPrintfExW
 -	RtlStringCchPrintfExA
 -	RtlStringCchPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchPrintfExA function

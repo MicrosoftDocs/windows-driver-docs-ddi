@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4531bf2f-ef3b-4d4f-b922-3a01a9468ac9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], ConnectSession method, IDebugClient5::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient interface, ConnectSession, IDebugClient3 interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient4 interface, IDebugClient5, IDebugClient2::ConnectSession, IDebugClient::ConnectSession, IDebugClient4::ConnectSession, IDebugClient2 interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient5 interface, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, IDebugClient interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient::ConnectSession, dbgeng/IDebugClient2::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient3::ConnectSession, dbgeng/IDebugClient5::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient3::ConnectSession, debugger.connectsession, IDebugClient4 interface [Windows Debugging], ConnectSession method
+ms.keywords: IDebugClient4 interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient5 interface, IDebugClient interface [Windows Debugging], ConnectSession method, ConnectSession method [Windows Debugging], IDebugClient interface, IDebugClient4::ConnectSession, IDebugClient3 interface [Windows Debugging], ConnectSession method, IDebugClient::ConnectSession, dbgeng/IDebugClient::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], ConnectSession method, dbgeng/IDebugClient5::ConnectSession, IDebugClient5 interface [Windows Debugging], ConnectSession method, dbgeng/IDebugClient4::ConnectSession, ConnectSession method [Windows Debugging], IDebugClient2 interface, ConnectSession method [Windows Debugging], debugger.connectsession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, IDebugClient5::ConnectSession, dbgeng/IDebugClient3::ConnectSession, IDebugClient5, dbgeng/IDebugClient2::ConnectSession, IDebugClient3::ConnectSession, IDebugClient2::ConnectSession, ConnectSession, ConnectSession method [Windows Debugging], IDebugClient4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.ConnectSession
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::ConnectSession method
@@ -145,21 +145,21 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
 
  
 

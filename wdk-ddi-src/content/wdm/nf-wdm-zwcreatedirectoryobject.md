@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45e4a08d-9615-410a-8f78-a8157802813f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwcreatedirectoryobject, k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, ZwCreateDirectoryObject, NtCreateDirectoryObject, wdm/ZwCreateDirectoryObject, wdm/NtCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], wdm/NtCreateDirectoryObject, ZwCreateDirectoryObject, k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, NtCreateDirectoryObject, wdm/ZwCreateDirectoryObject, kernel.zwcreatedirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwCreateDirectoryObject
 -	NtCreateDirectoryObject
 product: Windows
@@ -165,11 +165,11 @@ Note that the system does <u>not</u> use object directory objects to represent f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 

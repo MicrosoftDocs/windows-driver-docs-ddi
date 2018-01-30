@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType, IDebugBreakpoint interface [Windows Debugging], GetType method, dbgeng/IDebugBreakpoint::GetType, GetType method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetType method, IDebugBreakpoint2, debugger.gettype, IDebugBreakpoint::GetType, IDebugBreakpoint2::GetType, GetType method [Windows Debugging], IDebugBreakpoint interface, GetType method [Windows Debugging], dbgeng/IDebugBreakpoint2::GetType
+ms.keywords: IDebugBreakpoint2, GetType method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetType, debugger.gettype, dbgeng/IDebugBreakpoint::GetType, IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint2::GetType, ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType, GetType method [Windows Debugging], GetType method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], GetType method, IDebugBreakpoint2 interface [Windows Debugging], GetType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetType
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetType method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 399ca0d6-6355-40f8-ac2c-c69d7ae699e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddIrpToCancelableQueue, ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue, KsAddIrpToCancelableQueue function [Streaming Media Devices]
+ms.keywords: ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue, KsAddIrpToCancelableQueue, KsAddIrpToCancelableQueue function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAddIrpToCancelableQueue
 product: Windows
 targetos: Windows

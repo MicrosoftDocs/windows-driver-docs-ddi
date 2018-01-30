@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxroothub._CONTROLLER_TYPE
-title: _CONTROLLER_TYPE
+title: "_CONTROLLER_TYPE"
 author: windows-driver-content
 description: This enumeration specifies if the USB host controller is an eXtensible Host Controller Interface (xHCI) controller.
 old-location: buses\_controller_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._controller_type, ucxroothub/ControllerTypeXhci, ucxroothub/_CONTROLLER_TYPE, CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses], _CONTROLLER_TYPE, ucxroothub/ControllerTypeSoftXhci, ControllerTypeSoftXhci, ControllerTypeXhci
+ms.keywords: CONTROLLER_TYPE, ucxroothub/_CONTROLLER_TYPE, ucxroothub/ControllerTypeXhci, _CONTROLLER_TYPE, ControllerTypeSoftXhci, _CONTROLLER_TYPE enumeration [Buses], buses._controller_type, ControllerTypeXhci, ucxroothub/ControllerTypeSoftXhci
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	CONTROLLER_TYPE
 product: Windows
 targetos: Windows

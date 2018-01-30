@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 39a0b4d3-691f-45ca-a616-f3e123026776
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_34f06977-f176-4590-9d5a-adffebbdd9b9.xml, IoSetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], kernel.iosetnextirpstacklocation, wdm/IoSetNextIrpStackLocation, IoSetNextIrpStackLocation
+ms.keywords: k104_34f06977-f176-4590-9d5a-adffebbdd9b9.xml, IoSetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], IoSetNextIrpStackLocation, wdm/IoSetNextIrpStackLocation, kernel.iosetnextirpstacklocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoSetNextIrpStackLocation
 product: Windows
 targetos: Windows
@@ -103,11 +103,11 @@ A driver cannot call <b>IoSetNextIrpStackLocation</b> with any IRP it allocates 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
 <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 <a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
@@ -115,7 +115,7 @@ A driver cannot call <b>IoSetNextIrpStackLocation</b> with any IRP it allocates 
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
  
 

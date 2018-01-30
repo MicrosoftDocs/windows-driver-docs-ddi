@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UpdateExternalFonts method [Print Devices], print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, prcomoem/IPrintOemUI::UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, IPrintOemUI, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], IPrintOemUI interface
+ms.keywords: print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, IPrintOemUI, UpdateExternalFonts method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.UpdateExternalFonts
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

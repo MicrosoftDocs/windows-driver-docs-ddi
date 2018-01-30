@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], windot11/DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, netvista.dot11_key_algo_bip, *PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_KEY_ALGO_BIP, netvista.dot11_key_algo_bip, PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_KEY_ALGO_BIP
 product: Windows
 targetos: Windows
-req.typenames: DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP
+req.typenames: "*PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP"
 req.product: Windows 10 or later.
 ---
 

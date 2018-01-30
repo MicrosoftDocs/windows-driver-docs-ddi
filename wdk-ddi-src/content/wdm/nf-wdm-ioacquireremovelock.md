@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioacquireremovelock, k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], IoAcquireRemoveLock, wdm/IoAcquireRemoveLock
+ms.keywords: k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, wdm/IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], IoAcquireRemoveLock, kernel.ioacquireremovelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoAcquireRemoveLock
 product: Windows
 targetos: Windows

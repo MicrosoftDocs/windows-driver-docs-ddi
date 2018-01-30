@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ada5d1c-9c46-4f7b-99e5-72aa8f6fee9f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSDATARANGE_MUSIC, aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, KSDATARANGE_MUSIC structure [Audio Devices], PKSDATARANGE_MUSIC structure pointer [Audio Devices], audio.ksdatarange_music, *PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC, ksmedia/PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC
+ms.keywords: KSDATARANGE_MUSIC, PKSDATARANGE_MUSIC structure pointer [Audio Devices], PKSDATARANGE_MUSIC, ksmedia/KSDATARANGE_MUSIC, aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, *PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC structure [Audio Devices], audio.ksdatarange_music, ksmedia/PKSDATARANGE_MUSIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -73,7 +73,7 @@ typedef struct {
 
 ### -field DataRange
 
-Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the DirectMusic data. This member is an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure.
+Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the DirectMusic data. This member is an initialized <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure.
 
 
 ### -field Technology
@@ -144,7 +144,7 @@ For information about data ranges and intersection handling, see <a href="https:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
  
 

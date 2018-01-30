@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DebugCommandException, DebugCommandException function [Windows Debugging], debugger.debugcommandexception, DebugCommandException
+ms.keywords: debugger.debugcommandexception, DebugCommandException function [Windows Debugging], DebugCommandException, dbgeng/DebugCommandException
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DebugCommandException
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # DebugCommandException function

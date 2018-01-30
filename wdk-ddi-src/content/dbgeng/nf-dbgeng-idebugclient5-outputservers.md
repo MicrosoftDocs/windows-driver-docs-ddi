@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cb08e0d9-8c4b-4b7f-be3d-4e7c87d7f3d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient::OutputServers, OutputServers method [Windows Debugging], IDebugClient5 interface, IDebugClient5::OutputServers, dbgeng/IDebugClient5::OutputServers, OutputServers method [Windows Debugging], IDebugClient4 interface, IDebugClient5, dbgeng/IDebugClient4::OutputServers, OutputServers method [Windows Debugging], IDebugClient2 interface, OutputServers method [Windows Debugging], IDebugClient3 interface, OutputServers, dbgeng/IDebugClient2::OutputServers, IDebugClient3 interface [Windows Debugging], OutputServers method, dbgeng/IDebugClient3::OutputServers, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, debugger.outputservers, IDebugClient4::OutputServers, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient::OutputServers, IDebugClient interface [Windows Debugging], OutputServers method, IDebugClient3::OutputServers, OutputServers method [Windows Debugging], IDebugClient2::OutputServers, IDebugClient2 interface [Windows Debugging], OutputServers method, IDebugClient4 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient interface
+ms.keywords: dbgeng/IDebugClient2::OutputServers, OutputServers method [Windows Debugging], IDebugClient5 interface, IDebugClient::OutputServers, IDebugClient3 interface [Windows Debugging], OutputServers method, debugger.outputservers, dbgeng/IDebugClient3::OutputServers, dbgeng/IDebugClient5::OutputServers, OutputServers method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient4::OutputServers, IDebugClient interface [Windows Debugging], OutputServers method, dbgeng/IDebugClient::OutputServers, IDebugClient3::OutputServers, dbgeng/IDebugClient4::OutputServers, IDebugClient5::OutputServers, IDebugClient4 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient4 interface, OutputServers method [Windows Debugging], IDebugClient interface, IDebugClient5, OutputServers, OutputServers method [Windows Debugging], IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, IDebugClient2::OutputServers, OutputServers method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], OutputServers method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.OutputServers
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::OutputServers method
@@ -156,23 +156,23 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
  
 

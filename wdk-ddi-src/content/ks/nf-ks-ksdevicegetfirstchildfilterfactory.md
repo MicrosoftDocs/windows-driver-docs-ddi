@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], ks/KsDeviceGetFirstChildFilterFactory, avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, stream.ksdevicegetfirstchildfilterfactory
+ms.keywords: KsDeviceGetFirstChildFilterFactory, avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], stream.ksdevicegetfirstchildfilterfactory, ks/KsDeviceGetFirstChildFilterFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsDeviceGetFirstChildFilterFactory
 product: Windows
 targetos: Windows
@@ -90,13 +90,13 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
 
 <a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
  
 

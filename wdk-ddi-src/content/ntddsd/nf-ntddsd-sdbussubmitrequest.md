@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 8f794681-afa9-474b-a3b9-bc7c21c7c423
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SD.sdbussubmitrequest, ntddsd/SdBusSubmitRequest, SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml, SdBusSubmitRequest function [Buses]
+ms.keywords: ntddsd/SdBusSubmitRequest, SdBusSubmitRequest function [Buses], SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml, SD.sdbussubmitrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <DISPATCH_LEVEL
-topictype: 
+req.irql: "<DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddsd.h
-apiname: 
+apiname:
 -	SdBusSubmitRequest
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
-<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
 
  
 

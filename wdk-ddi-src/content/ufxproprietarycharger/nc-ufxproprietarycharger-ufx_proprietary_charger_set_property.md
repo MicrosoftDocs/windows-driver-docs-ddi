@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ufxproprietarycharger.h
-apiname: 
+apiname:
 -	PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, FsRtlIsFatDbcsLegal, ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers]
+ms.keywords: ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlIsFatDbcsLegal
 product: Windows
 targetos: Windows

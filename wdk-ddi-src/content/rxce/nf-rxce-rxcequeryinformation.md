@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, RxCeQueryInformation, ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers]
+ms.keywords: ifsk.rxcequeryinformation, RxCeQueryInformation function [Installable File System Drivers], RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, rxce/RxCeQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeQueryInformation
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,26 @@ The desired information class for this query type. The value specified for <i>In
 
 
 
+#### RxCeTransportProviderInformation
+
+Query the transport for provider information. An RXCE_TRANSPORT_PROVIDER_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_TRANSPORT_PROVIDER_INFO is a typedef for TDI_PROVIDER_INFO.
+
+
+#### RxCeConnectionInformation
+
+Query For information about the connection. An RXCE_CONNECTION_INFORMATION structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFORMATION is a typedef for TDI_CONNECTION_INFORMATION.
+
+
+#### RxCeConnectionEndpointInformation
+
+Query the transport For information about the connection endpoint. An RXCE_CONNECTION_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFO is a typedef for TDI_CONNECTION_INFO.
+
+
+#### RxCeRemoteAddressInformation
+
+Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success. 
+
+
 ### -param pInformation [out]
 
 The caller-supplied buffer for returning information. 
@@ -91,26 +111,6 @@ The caller-supplied buffer for returning information.
 ### -param Length [in]
 
 The length of  the buffer. 
-
-
-##### - InformationClass.RxCeConnectionInformation
-
-Query For information about the connection. An RXCE_CONNECTION_INFORMATION structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFORMATION is a typedef for TDI_CONNECTION_INFORMATION.
-
-
-##### - InformationClass.RxCeRemoteAddressInformation
-
-Query the transport For information about the remote address. A  TDI_ADDRESS_INFO structure is copied to the <i>pInformation</i> buffer on success. 
-
-
-##### - InformationClass.RxCeConnectionEndpointInformation
-
-Query the transport For information about the connection endpoint. An RXCE_CONNECTION_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_CONNECTION_INFO is a typedef for TDI_CONNECTION_INFO.
-
-
-##### - InformationClass.RxCeTransportProviderInformation
-
-Query the transport for provider information. An RXCE_TRANSPORT_PROVIDER_INFO structure is copied to the <i>pInformation</i> buffer on success. Note that RXCE_TRANSPORT_PROVIDER_INFO is a typedef for TDI_PROVIDER_INFO.
 
 
 ## -returns

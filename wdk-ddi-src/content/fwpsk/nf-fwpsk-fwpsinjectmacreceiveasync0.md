@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsinjectmacreceiveasync0, fwpsk/FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], FwpsInjectMacSendAsync0, FwpsInjectMacReceiveAsync0
+ms.keywords: fwpsk/FwpsInjectMacSendAsync0, FwpsInjectMacReceiveAsync0, FwpsInjectMacSendAsync0, netvista.fwpsinjectmacreceiveasync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsInjectMacSendAsync0
 product: Windows
 targetos: Windows
@@ -231,22 +231,22 @@ Injected frames could get classified again if the packets match the same filter 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
      FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
+     FwpsAllocateCloneNetBufferList0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <mshelp:link keywords="netvista.fwpsinjectionhandlecreate0" tabindex="0"><b>
        FwpsInjectionHandleCreate0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
-     FwpsAllocateCloneNetBufferList0</b></mshelp:link>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
  
 

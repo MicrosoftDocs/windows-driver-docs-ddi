@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	HwStorUnitControl
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 
@@ -812,19 +812,19 @@ For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the
 </table></span></div>
 
 
-##### - Parameters.Address
-
-The address of the unit the control operation is specified for.
-
-
-##### - Parameters.Version
+#### Version
 
 The version of the parent structure.
 
 
-##### - Parameters.Size
+#### Size
 
 The size, in bytes, of the parent structure.
+
+
+#### Address
+
+The address of the unit the control operation is specified for.
 
 
 ## -returns

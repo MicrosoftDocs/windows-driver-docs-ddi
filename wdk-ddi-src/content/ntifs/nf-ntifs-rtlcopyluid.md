@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ebda25f4-77d6-4178-9ff8-b1f0e95df9f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml, RtlCopyLuid routine [Installable File System Drivers], ifsk.rtlcopyluid, RtlCopyLuid, ntifs/RtlCopyLuid
+ms.keywords: rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml, ntifs/RtlCopyLuid, RtlCopyLuid routine [Installable File System Drivers], ifsk.rtlcopyluid, RtlCopyLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlCopyLuid
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 

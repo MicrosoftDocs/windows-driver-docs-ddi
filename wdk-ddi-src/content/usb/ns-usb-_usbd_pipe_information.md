@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_PIPE_INFORMATION
-title: _USBD_PIPE_INFORMATION
+title: "_USBD_PIPE_INFORMATION"
 author: windows-driver-content
 description: The USBD_PIPE_INFORMATION structure is used by USB client drivers to hold information about a pipe from a specific interface.
 old-location: buses\usbd_pipe_information.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], usb/USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION
+ms.keywords: PUSBD_PIPE_INFORMATION structure pointer [Buses], usb/PUSBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, *PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], buses.usbd_pipe_information, usb/USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, _USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	USBD_PIPE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION
+req.typenames: "*PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

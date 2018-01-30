@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3d3481e-a0db-492d-8fc3-6bdcfa26f4c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILUICCRESPONSE, rilapitypes/RILUICCRESPONSE, netvista.riluiccresponse_2, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILUICCRESPONSE, *LPRILUICCRESPONSE, netvista.riluiccresponse_2, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCRESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCRESPONSE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCRESPONSE, RILUICCRESPONSE
+req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
 req.product: Windows 10 or later.
 ---
 

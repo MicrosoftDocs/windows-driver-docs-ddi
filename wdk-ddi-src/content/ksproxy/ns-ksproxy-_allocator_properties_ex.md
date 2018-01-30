@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy._ALLOCATOR_PROPERTIES_EX
-title: _ALLOCATOR_PROPERTIES_EX
+title: "_ALLOCATOR_PROPERTIES_EX"
 author: windows-driver-content
 description: The ALLOCATOR_PROPERTIES_EX structure is for proxy use and not recommended for application use. ALLOCATOR_PROPERTIES_EX contains information that describes properties of an allocator.
 old-location: stream\allocator_properties_ex.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6edb8af4-a5c9-430f-800a-8a6f47a9cce4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PALLOCATOR_PROPERTIES_EX, ksproxy/PALLOCATOR_PROPERTIES_EX, ksproxy_6d16a85e-e11b-46e1-a9ab-b8f099e32d57.xml, _ALLOCATOR_PROPERTIES_EX, stream.allocator_properties_ex, ksproxy/ALLOCATOR_PROPERTIES_EX, *PALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX structure [Streaming Media Devices], PALLOCATOR_PROPERTIES_EX structure pointer [Streaming Media Devices], ALLOCATOR_PROPERTIES_EX
+ms.keywords: "_ALLOCATOR_PROPERTIES_EX, stream.allocator_properties_ex, *PALLOCATOR_PROPERTIES_EX, PALLOCATOR_PROPERTIES_EX, PALLOCATOR_PROPERTIES_EX structure pointer [Streaming Media Devices], ksproxy/ALLOCATOR_PROPERTIES_EX, ksproxy_6d16a85e-e11b-46e1-a9ab-b8f099e32d57.xml, ksproxy/PALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX structure [Streaming Media Devices], ALLOCATOR_PROPERTIES_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	ALLOCATOR_PROPERTIES_EX
 product: Windows
 targetos: Windows

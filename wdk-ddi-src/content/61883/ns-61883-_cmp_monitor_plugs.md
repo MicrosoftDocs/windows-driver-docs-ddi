@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_MONITOR_PLUGS
-title: _CMP_MONITOR_PLUGS
+title: "_CMP_MONITOR_PLUGS"
 author: windows-driver-content
 description: This structure is used to monitor plug access. The request allows a driver to monitor all access to local oPCR and iPCR plugs.
 old-location: ieee\cmp_monitor_plugs.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D281BCBB-CDC6-442C-9A47-DF07D1BE1B28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS, IEEE.cmp_monitor_plugs, PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, 61883/PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], _CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses]
+ms.keywords: PCMP_MONITOR_PLUGS structure pointer [Buses], 61883/CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS, _CMP_MONITOR_PLUGS, IEEE.cmp_monitor_plugs, 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_MONITOR_PLUGS
 product: Windows
 targetos: Windows
-req.typenames: *PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS
+req.typenames: "*PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS"
 ---
 
 # _CMP_MONITOR_PLUGS structure
@@ -94,14 +94,14 @@ This function uses the following prototype:
 </table></span></div>
 
 
+#### MonitorInfo
+
+On input, a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
+
+
 ### -field Context
 
 On input, a pointer to a caller-defined context for the function at <b>pfnNotify</b>.
-
-
-##### - pfnNotify.MonitorInfo
-
-On input, a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 
 
 ## -remarks

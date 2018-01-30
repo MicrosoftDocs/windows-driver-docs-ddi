@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmaenabler/WdfDmaEnablerGetFragmentLength, kmdf.wdfdmaenablergetfragmentlength, WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength method, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, wdf.wdfdmaenablergetfragmentlength, PFN_WDFDMAENABLERGETFRAGMENTLENGTH
+ms.keywords: wdf.wdfdmaenablergetfragmentlength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, PFN_WDFDMAENABLERGETFRAGMENTLENGTH, WdfDmaEnablerGetFragmentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaEnablerGetFragmentLength
 product: Windows
 targetos: Windows
@@ -116,11 +116,11 @@ Note that if your driver's device supports duplex operation, <b>WdfDmaEnablerGet
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
 
  
 

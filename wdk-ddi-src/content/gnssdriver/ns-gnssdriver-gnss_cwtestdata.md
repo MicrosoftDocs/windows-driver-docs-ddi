@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_CWTESTDATA structure [Sensor Devices], sensors.gnss_cwtestdata, PGNSS_CWTESTDATA, *PGNSS_CWTESTDATA, gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, GNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices]
+ms.keywords: sensors.gnss_cwtestdata, gnssdriver/PGNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA structure pointer [Sensor Devices], *PGNSS_CWTESTDATA, gnssdriver/GNSS_CWTESTDATA, PGNSS_CWTESTDATA, GNSS_CWTESTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_CWTESTDATA
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_CWTESTDATA, GNSS_CWTESTDATA
+req.typenames: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA"
 ---
 
 # GNSS_CWTESTDATA structure

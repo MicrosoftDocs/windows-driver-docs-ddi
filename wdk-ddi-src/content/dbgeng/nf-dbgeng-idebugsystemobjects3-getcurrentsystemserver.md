@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7956E4F6-7FB5-4349-81D2-4953108557D2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], debugger.idebugsystemobjects3_getcurrentsystemserver, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServer method, IDebugSystemObjects3::GetCurrentSystemServer, GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], IDebugSystemObjects3 interface
+ms.keywords: GetCurrentSystemServer method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetCurrentSystemServer, GetCurrentSystemServer, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServer method, GetCurrentSystemServer method [Windows Debugging], debugger.idebugsystemobjects3_getcurrentsystemserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSystemObjects3.GetCurrentSystemServer
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::GetCurrentSystemServer method
@@ -98,9 +98,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
  
 

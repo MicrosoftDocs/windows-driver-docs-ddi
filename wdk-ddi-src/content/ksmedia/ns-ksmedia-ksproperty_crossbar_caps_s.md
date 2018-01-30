@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65c0b401-e437-485a-99bc-75ce5296ef34
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CROSSBAR_CAPS_S, stream.ksproperty_crossbar_caps_s, *PKSPROPERTY_CROSSBAR_CAPS_S, ksmedia/PKSPROPERTY_CROSSBAR_CAPS_S, PKSPROPERTY_CROSSBAR_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CROSSBAR_CAPS_S, PKSPROPERTY_CROSSBAR_CAPS_S, vidcapstruct_db0a7a6a-8f6f-45d8-9d05-c520c8396858.xml, KSPROPERTY_CROSSBAR_CAPS_S structure [Streaming Media Devices]
+ms.keywords: KSPROPERTY_CROSSBAR_CAPS_S, PKSPROPERTY_CROSSBAR_CAPS_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_CROSSBAR_CAPS_S, *PKSPROPERTY_CROSSBAR_CAPS_S, stream.ksproperty_crossbar_caps_s, KSPROPERTY_CROSSBAR_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_CROSSBAR_CAPS_S, ksmedia/KSPROPERTY_CROSSBAR_CAPS_S, vidcapstruct_db0a7a6a-8f6f-45d8-9d05-c520c8396858.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CROSSBAR_CAPS_S
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ Indicates the number of audio and video output pins on the crossbar.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565118">KSPROPERTY_CROSSBAR_CAPS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
 
  
 

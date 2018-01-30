@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], wdbgexts/ReadPtr, debugger.readptr, WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml
+ms.keywords: debugger.readptr, ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, wdbgexts/ReadPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # ReadPtr function

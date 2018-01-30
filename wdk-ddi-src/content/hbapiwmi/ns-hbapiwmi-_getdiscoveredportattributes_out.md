@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetDiscoveredPortAttributes_OUT
-title: _GetDiscoveredPortAttributes_OUT
+title: "_GetDiscoveredPortAttributes_OUT"
 author: windows-driver-content
 description: The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the GetDiscoveredPortAttributes WMI method to the WMI client.
 old-location: storage\getdiscoveredportattributes_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, _GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], storage.getdiscoveredportattributes_out, PGetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT
+ms.keywords: "*PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, GetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, hbapiwmi/GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], _GetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], hbapiwmi/PGetDiscoveredPortAttributes_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetDiscoveredPortAttributes_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT
+req.typenames: GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT
 ---
 
 # _GetDiscoveredPortAttributes_OUT structure

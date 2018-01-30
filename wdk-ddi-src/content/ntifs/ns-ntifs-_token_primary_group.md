@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_PRIMARY_GROUP
-title: _TOKEN_PRIMARY_GROUP
+title: "_TOKEN_PRIMARY_GROUP"
 author: windows-driver-content
 description: TOKEN_PRIMARY_GROUP specifies a group security identifier (SID) for an access token.
 old-location: ifsk\token_primary_group.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c9a7f63-7fe8-48a9-b4d0-10586e6b86bc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PTOKEN_PRIMARY_GROUP, securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml, TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], ntifs/TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, _TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers], ifsk.token_primary_group
+ms.keywords: ifsk.token_primary_group, ntifs/PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Installable File System Drivers], securitystructures_8d3bc1f9-abc5-4ac3-8351-cf2c56db6a20.xml, ntifs/TOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Installable File System Drivers], *PTOKEN_PRIMARY_GROUP, _TOKEN_PRIMARY_GROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	TOKEN_PRIMARY_GROUP
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP
+req.typenames: "*PTOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP"
 ---
 
 # _TOKEN_PRIMARY_GROUP structure
@@ -78,11 +78,11 @@ Pointer to a SID structure representing a group that will become the primary gro
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
  
 

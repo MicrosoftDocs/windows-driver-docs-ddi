@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList, storage.storportinterlockedpushentryslist, StorPortInterlockedPushEntrySList routine [Storage Devices]
+ms.keywords: storport/StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortInterlockedPushEntrySList
 product: Windows
 targetos: Windows
@@ -146,11 +146,11 @@ When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+
 <a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
 
 <a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
-
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
 <a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 

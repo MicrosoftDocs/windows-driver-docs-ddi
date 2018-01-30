@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmOpenAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmOpenAddressFamilyComplete macro
@@ -89,17 +89,17 @@ TBD
 
 
 
-#### - NdisAfHandle [in]
-
-Specifies the NDIS-supplied handle that was input to the MCM driver's 
-     <i>ProtocolCmOpenAf</i> function, which returned NDIS_STATUS_PENDING.
-
-
 #### - Status [in]
 
 Specifies the final status of the client's request to open the AF, either NDIS_STATUS_SUCCESS or
      any caller-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
+
+
+#### - NdisAfHandle [in]
+
+Specifies the NDIS-supplied handle that was input to the MCM driver's 
+     <i>ProtocolCmOpenAf</i> function, which returned NDIS_STATUS_PENDING.
 
 
 #### - CallMgrAfContext [in]
@@ -149,17 +149,17 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
 
 <mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
    NdisCmOpenAddressFamilyComplete</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4a0d0b10-9773-40d7-962c-cf2acffcee47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_946bea8c-eb6d-4614-9dc0-004ee2501457.xml, ScsiPortGetPhysicalAddress routine [Storage Devices], storage.scsiportgetphysicaladdress, srb/ScsiPortGetPhysicalAddress, ScsiPortGetPhysicalAddress
+ms.keywords: scsiprt_946bea8c-eb6d-4614-9dc0-004ee2501457.xml, srb/ScsiPortGetPhysicalAddress, ScsiPortGetPhysicalAddress routine [Storage Devices], storage.scsiportgetphysicaladdress, ScsiPortGetPhysicalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortGetPhysicalAddress
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -127,15 +127,15 @@ Due to constraints on some buses, such as ISA, the address returned by this rout
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 <a href="..\srb\nf-srb-scsiportgetvirtualaddress.md">ScsiPortGetVirtualAddress</a>
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
  
 

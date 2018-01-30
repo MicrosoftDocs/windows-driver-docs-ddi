@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddmmc._FEATURE_NUMBER
-title: _FEATURE_NUMBER
+title: "_FEATURE_NUMBER"
 author: windows-driver-content
 description: The FEATURE_NUMBER enumeration provides a list of the features that are defined by the SCSI Multimedia - 4 (MMC-4) specification.
 old-location: storage\feature_number.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f139da57-1527-476d-8e9f-0b96876adecf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FeatureDvdCSS, ntddmmc/PFEATURE_NUMBER, FeatureProfileList, FeatureDDCDRWWrite, FeatureEnhancedDefectReporting, FeatureTSR, ntddmmc/FeatureWriteProtect, FeatureCdrwCAVWrite, FeatureRigidRestrictedOverwrite, ntddmmc/FeatureCDRWMediaWriteSupport, ntddmmc/FeatureSectorErasable, ntddmmc/FeatureMrw, ntddmmc/FeatureLogicalUnitSerialNumber, PFEATURE_NUMBER enumeration pointer [Storage Devices], FeatureDvdPlusRDualLayer, ntddmmc/FeatureDvdPlusRWDualLayer, FeatureMediaSerialNumber, ntddmmc/FeatureDvdPlusR, FeatureRandomWritable, FeatureTimeout, ntddmmc/FeatureDiscControlBlocks, ntddmmc/FeatureCdrwCAVWrite, ntddmmc/FeatureCdRead, FeatureCdTrackAtOnce, FeatureCDAudioAnalogPlay, ntddmmc/FeatureMicrocodeUpgrade, ntddmmc/FeatureBDRPseudoOverwrite, ntddmmc/FeatureWriteOnce, ntddmmc/FeatureMultiRead, ntddmmc/FeatureIncrementalStreamingWritable, FeatureCdMastering, ntddmmc/FeatureDvdRecordableWrite, FEATURE_NUMBER, ntddmmc/FeatureHDDVDRead, ntddmmc/FeatureRandomWritable, ntddmmc/FeatureDvdPlusRW, structs-CD-ROM_6d75ed9b-8d13-4715-ae9a-51bc2a6025f0.xml, ntddmmc/FeatureMorphing, ntddmmc/FeatureFormattable, ntddmmc/FeatureRandomReadable, FeatureSectorErasable, FeatureLogicalUnitSerialNumber, FeatureCdRead, ntddmmc/FeatureCdTrackAtOnce, FeatureBDRead, ntddmmc/FeatureCdMastering, ntddmmc/FeatureLayerJumpRecording, ntddmmc/FeatureSMART, ntddmmc/FeatureAACS, FeatureRestrictedOverwrite, ntddmmc/FeatureBDRead, storage.feature_number, FeatureIncrementalStreamingWritable, ntddmmc/FeatureMediaSerialNumber, ntddmmc/FeatureRealTimeStreaming, ntddmmc/FeatureDDCDRWrite, ntddmmc/FeatureEmbeddedChanger, FeatureDefectManagement, FeaturePowerManagement, ntddmmc/FeatureBDWrite, FeatureRandomReadable, FeatureRealTimeStreaming, ntddmmc/FeatureCore, FeatureMrw, FeatureDvdCPRM, *PFEATURE_NUMBER, ntddmmc/FEATURE_NUMBER, ntddmmc/FeatureProfileList, FeatureWriteProtect, FeatureMultiRead, ntddmmc/FeatureVCPS, ntddmmc/FeatureTSR, ntddmmc/FeatureDvdCSS, FeatureDiscControlBlocks, ntddmmc/FeaturePowerManagement, FeatureVCPS, FeatureHDDVDRead, FeatureCore, PFEATURE_NUMBER, ntddmmc/FeatureDvdPlusRDualLayer, FEATURE_NUMBER enumeration [Storage Devices], FeatureRemovableMedium, FeatureSMART, FeatureEmbeddedChanger, ntddmmc/FeatureDDCDRead, FeatureHybridDisc, ntddmmc/FeatureHDDVDWrite, FeatureFirmwareDate, FeatureDvdRecordableWrite, FeatureHDDVDWrite, ntddmmc/FeatureRestrictedOverwrite, FeatureMorphing, ntddmmc/FeatureDefectManagement, ntddmmc/FeatureDvdCPRM, FeatureDvdPlusRWDualLayer, ntddmmc/FeatureDvdRead, FeatureFormattable, FeatureDvdPlusRW, ntddmmc/FeatureDDCDRWWrite, FeatureBDWrite, ntddmmc/FeatureRemovableMedium, ntddmmc/FeatureEnhancedDefectReporting, ntddmmc/FeatureHybridDisc, FeatureCDRWMediaWriteSupport, ntddmmc/FeatureCDAudioAnalogPlay, FeatureDvdPlusR, _FEATURE_NUMBER, FeatureDvdRead, FeatureBDRPseudoOverwrite, ntddmmc/FeatureFirmwareDate, ntddmmc/FeatureRigidRestrictedOverwrite, FeatureAACS, FeatureLayerJumpRecording, FeatureWriteOnce, FeatureMicrocodeUpgrade, FeatureDDCDRead, ntddmmc/FeatureTimeout, FeatureDDCDRWrite
+ms.keywords: ntddmmc/FeaturePowerManagement, ntddmmc/FeatureAACS, ntddmmc/FeatureMicrocodeUpgrade, FeatureRemovableMedium, ntddmmc/FeatureHDDVDRead, storage.feature_number, *PFEATURE_NUMBER, FeatureFormattable, ntddmmc/FeatureFirmwareDate, FeatureSectorErasable, ntddmmc/FeatureWriteProtect, ntddmmc/FeatureBDRPseudoOverwrite, ntddmmc/FeatureCdrwCAVWrite, FeatureVCPS, ntddmmc/FeatureRandomWritable, ntddmmc/FeatureDvdPlusR, ntddmmc/FeatureCdTrackAtOnce, ntddmmc/FeatureDvdPlusRW, FeatureCdRead, ntddmmc/FeatureRandomReadable, ntddmmc/FeatureDvdRead, FeatureAACS, structs-CD-ROM_6d75ed9b-8d13-4715-ae9a-51bc2a6025f0.xml, FeatureLayerJumpRecording, ntddmmc/FeatureCore, FeatureLogicalUnitSerialNumber, ntddmmc/FeatureSectorErasable, ntddmmc/FeatureIncrementalStreamingWritable, ntddmmc/FeatureMrw, ntddmmc/FeatureCdMastering, FeatureDvdRecordableWrite, FEATURE_NUMBER, FeatureTSR, ntddmmc/FeatureSMART, FeatureCDAudioAnalogPlay, FeatureBDWrite, FeatureIncrementalStreamingWritable, FeatureEnhancedDefectReporting, FeatureRealTimeStreaming, ntddmmc/FeatureBDRead, ntddmmc/FeatureDDCDRWWrite, ntddmmc/FeatureEmbeddedChanger, FeatureDvdPlusRWDualLayer, FeatureHybridDisc, FeatureBDRPseudoOverwrite, FeatureEmbeddedChanger, ntddmmc/FeatureMultiRead, FeatureMorphing, ntddmmc/FeatureFormattable, ntddmmc/FeatureWriteOnce, ntddmmc/FeatureCdRead, FeatureDiscControlBlocks, FeatureRestrictedOverwrite, FeaturePowerManagement, ntddmmc/FeatureRemovableMedium, ntddmmc/FeatureDvdPlusRWDualLayer, FeatureRigidRestrictedOverwrite, FeatureDDCDRWrite, FeatureHDDVDWrite, _FEATURE_NUMBER, FeatureDefectManagement, ntddmmc/FeatureVCPS, ntddmmc/FeatureDvdCSS, FeatureSMART, ntddmmc/FeatureLogicalUnitSerialNumber, ntddmmc/FeatureTSR, FeatureRandomReadable, ntddmmc/FeatureCDAudioAnalogPlay, FeatureDvdPlusR, FeatureDDCDRWWrite, ntddmmc/FeatureDvdRecordableWrite, FeatureCdMastering, ntddmmc/FeatureRealTimeStreaming, FeatureFirmwareDate, ntddmmc/FeatureDDCDRead, FeatureMultiRead, FeatureProfileList, FeatureWriteProtect, ntddmmc/FeatureDefectManagement, ntddmmc/FeatureRestrictedOverwrite, FeatureMicrocodeUpgrade, ntddmmc/FeatureHDDVDWrite, FeatureMediaSerialNumber, FeatureBDRead, ntddmmc/FeatureDvdCPRM, PFEATURE_NUMBER enumeration pointer [Storage Devices], FeatureRandomWritable, ntddmmc/PFEATURE_NUMBER, FeatureCdrwCAVWrite, ntddmmc/FeatureDvdPlusRDualLayer, ntddmmc/FeatureDiscControlBlocks, FeatureHDDVDRead, ntddmmc/FeatureEnhancedDefectReporting, ntddmmc/FeatureBDWrite, ntddmmc/FeatureDDCDRWrite, ntddmmc/FeatureMediaSerialNumber, FeatureCDRWMediaWriteSupport, ntddmmc/FeatureHybridDisc, FeatureDvdCSS, ntddmmc/FeatureTimeout, FeatureCore, ntddmmc/FEATURE_NUMBER, PFEATURE_NUMBER, ntddmmc/FeatureCDRWMediaWriteSupport, FeatureDDCDRead, FeatureDvdCPRM, FeatureWriteOnce, FeatureDvdPlusRW, FeatureCdTrackAtOnce, FeatureDvdPlusRDualLayer, FEATURE_NUMBER enumeration [Storage Devices], FeatureTimeout, ntddmmc/FeatureRigidRestrictedOverwrite, ntddmmc/FeatureProfileList, FeatureMrw, ntddmmc/FeatureLayerJumpRecording, ntddmmc/FeatureMorphing, FeatureDvdRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_NUMBER, *PFEATURE_NUMBER
+req.typenames: "*PFEATURE_NUMBER, FEATURE_NUMBER"
 ---
 
 # _FEATURE_NUMBER enumeration

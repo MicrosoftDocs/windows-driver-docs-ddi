@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], rxprocs/FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory, ifsk.fsrtlnotifyfullchangedirectory, fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml
+ms.keywords: FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], rxprocs/FsRtlNotifyFullChangeDirectory, ifsk.fsrtlnotifyfullchangedirectory, FsRtlNotifyFullChangeDirectory, fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNotifyFullChangeDirectory
 product: Windows
 targetos: Windows

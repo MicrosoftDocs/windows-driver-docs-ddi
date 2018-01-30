@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eeea39eb-898a-47fe-befe-39c95dd1fc90
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_RPI_ID, netvista.rilremotepartyinfovalueparam_2, rilapitypes/RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOPARAM, RIL_PARAM_RPI_NUM_PRES_IND, rilapitypes/RIL_PARAM_RPI_ADDRESS, rilapitypes/RIL_PARAM_RPI_SUBADDRESS, RIL_PARAM_RPI_ALL, rilapitypes/RIL_PARAM_RPI_DESCRIPTION, RIL_PARAM_RPI_SUBADDRESS, rilapitypes/RIL_PARAM_RPI_ID, rilapitypes/RIL_PARAM_RPI_NAME_PRES_IND, rilapitypes/RIL_PARAM_RPI_ALL, RIL_PARAM_RPI_NAME_PRES_IND, RIL_PARAM_RPI_DESCRIPTION, RIL_PARAM_RPI_ADDRESS, rilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_PARAM_RPI_DESCRIPTION, RIL_PARAM_RPI_ALL, rilapitypes/RIL_PARAM_RPI_DESCRIPTION, rilapitypes/RILREMOTEPARTYINFOVALUEPARAM, rilapitypes/RIL_PARAM_RPI_ALL, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista], RILREMOTEPARTYINFOVALUEPARAM, rilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, rilapitypes/RIL_PARAM_RPI_ID, rilapitypes/RIL_PARAM_RPI_SUBADDRESS, RIL_PARAM_RPI_NAME_PRES_IND, netvista.rilremotepartyinfovalueparam_2, rilapitypes/RIL_PARAM_RPI_ADDRESS, RILREMOTEPARTYINFOPARAM, RIL_PARAM_RPI_NUM_PRES_IND, RIL_PARAM_RPI_ID, RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_SUBADDRESS, rilapitypes/RIL_PARAM_RPI_NAME_PRES_IND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILREMOTEPARTYINFOVALUEPARAM
 product: Windows
 targetos: Windows

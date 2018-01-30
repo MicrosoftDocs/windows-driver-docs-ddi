@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DIAGNOSTIC_LEVEL
-title: _STORAGE_DIAGNOSTIC_LEVEL
+title: "_STORAGE_DIAGNOSTIC_LEVEL"
 author: windows-driver-content
 description: The STORAGE_DIAGNOSTIC_LEVEL enumeration specifies the target type of a storage diagnostic.
 old-location: storage\storage_diagnostic_level.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_diagnostic_level, ntddstor/StorageDiagnosticLevelDefault, PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], ntddstor/StorageDiagnosticLevelMax, StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL
+ms.keywords: StorageDiagnosticLevelMax, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], *PSTORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, storage.storage_diagnostic_level, ntddstor/StorageDiagnosticLevelMax, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, StorageDiagnosticLevelDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_DIAGNOSTIC_LEVEL
 product: Windows
 targetos: Windows

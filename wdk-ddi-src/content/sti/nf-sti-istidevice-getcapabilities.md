@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4c5d8834-a78d-443e-bfec-1d9fcddb9331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice interface [Imaging Devices], GetCapabilities method, GetCapabilities method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetCapabilities, IStiDevice, GetCapabilities method [Imaging Devices], stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, GetCapabilities, IStiDevice::GetCapabilities, image.istidevice_getcapabilities
+ms.keywords: IStiDevice::GetCapabilities, GetCapabilities, IStiDevice, image.istidevice_getcapabilities, stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, sti/IStiDevice::GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], GetCapabilities method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.GetCapabilities
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], wdm/ExInitializeDeleteTimerParameters, kernel.exinitializedeletetimerparameters
+ms.keywords: ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], ExInitializeDeleteTimerParameters, wdm/ExInitializeDeleteTimerParameters, kernel.exinitializedeletetimerparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	ExInitializeDeleteTimerParameters
 product: Windows
 targetos: Windows

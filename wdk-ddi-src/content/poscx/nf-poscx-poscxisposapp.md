@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxIsPosApp, poscx/PosCxIsPosApp, pos.poscxisposapp, PosCxIsPosApp function
+ms.keywords: poscx/PosCxIsPosApp, PosCxIsPosApp, pos.poscxisposapp, PosCxIsPosApp function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxIsPosApp
 product: Windows
 targetos: Windows

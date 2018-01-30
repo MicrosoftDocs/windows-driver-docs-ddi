@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	UcxController.h
-apiname: 
+apiname:
 -	*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 product: Windows
 targetos: Windows

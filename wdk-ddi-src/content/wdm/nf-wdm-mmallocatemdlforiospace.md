@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, MmAllocateMdlForIoSpace
+ms.keywords: MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, MmAllocateMdlForIoSpace, wdm/MmAllocateMdlForIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmAllocateMdlForIoSpace
 product: Windows
 targetos: Windows
@@ -147,13 +147,13 @@ In some processor architectures, such as the x86, devices can be either memory-m
 
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 <a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
 
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
  
 

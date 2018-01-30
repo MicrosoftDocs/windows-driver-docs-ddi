@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._SOC_SUBSYSTEM_TYPE
-title: _SOC_SUBSYSTEM_TYPE
+title: "_SOC_SUBSYSTEM_TYPE"
 author: windows-driver-content
 description: The SOC_SYBSYSTEM_TYPE enumeration defines different types of System on a Chip (SoC) subsystems.
 old-location: whea\soc_sybsystem_type.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 179D61E3-C2EE-4821-93F8-DB763892DD3D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SOC_SUBSYSTEM_TYPE, whea.soc_sybsystem_type, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, *PSOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYS_SENSORS, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYS_VENDOR_DEFINED, _SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_WIRELSS_CONNECTIVITY, ntddk/SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYSTEM_TYPE
+ms.keywords: SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], ntddk/SOC_SUBSYS_VENDOR_DEFINED, ntddk/SOC_SUBSYS_SENSORS, SOC_SUBSYS_WIRELSS_CONNECTIVITY, SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYSTEM_TYPE, _SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE, SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_VENDOR_DEFINED, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, SOC_SUBSYSTEM_WIRELESS_MODEM, *PSOC_SUBSYSTEM_TYPE, whea.soc_sybsystem_type, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYS_AUDIO_DSP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	SOC_SUBSYSTEM_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE
+req.typenames: "*PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE"
 ---
 
 # _SOC_SUBSYSTEM_TYPE enumeration

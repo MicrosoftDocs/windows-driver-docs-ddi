@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
-title: _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
+title: "_NDIS_RECEIVE_FILTER_FIELD_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure specifies the filter test criterion for a field in a network packet header.
 old-location: netvista\ndis_receive_filter_field_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3d387fe9-a7cc-4034-b31e-ba1359db2ae1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, ntddndis/NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_1, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_2, ntddndis/PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, *PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, virtual_machine_queue_ref_deaf4f73-294d-4e7b-8c94-65d05b461cfe.xml, NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_field_parameters, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
+ms.keywords: NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_1, ntddndis/PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS_REVISION_2, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_deaf4f73-294d-4e7b-8c94-65d05b461cfe.xml, PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, netvista.ndis_receive_filter_field_parameters, _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_FIELD_MAC_HEADER_VLAN_UNTAGGED_OR_ZERO, *PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, ntddndis/NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_FILTER_FIELD_PARAMETERS, *PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS
+req.typenames: "*PNDIS_RECEIVE_FILTER_FIELD_PARAMETERS, NDIS_RECEIVE_FILTER_FIELD_PARAMETERS"
 ---
 
 # _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure
@@ -400,28 +400,28 @@ If a VLAN tag is present in the received packet, the network adapter must remove
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_udp_header_field.md">NDIS_UDP_HEADER_FIELD</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_frame_header.md">NDIS_FRAME_HEADER</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_receive_filter_test.md">NDIS_RECEIVE_FILTER_TEST</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_arp_header_field.md">NDIS_ARP_HEADER_FIELD</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_ipv6_header_field.md">NDIS_IPV6_HEADER_FIELD</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_udp_header_field.md">NDIS_UDP_HEADER_FIELD</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_mac_packet_type.md">NDIS_MAC_PACKET_TYPE</a>
 
 <mshelp:link keywords="netvista.ndis_receive_filter_parameters" tabindex="0"><b>
    NDIS_RECEIVE_FILTER_PARAMETERS</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_filter_test.md">NDIS_RECEIVE_FILTER_TEST</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_mac_header_field.md">NDIS_MAC_HEADER_FIELD</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_ipv4_header_field.md">NDIS_IPV4_HEADER_FIELD</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_frame_header.md">NDIS_FRAME_HEADER</a>
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_ipv6_header_field.md">NDIS_IPV6_HEADER_FIELD</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

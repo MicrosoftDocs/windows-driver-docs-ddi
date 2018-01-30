@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_BOOL, BIDI_FLOAT, IBidiRequest::IBidiRequest::GetOutputData, bidispl/IBidiRequest::IBidiRequest::GetOutputData, IBidiRequest::GetOutputData method [Print Devices], IBidiRequest interface, BIDI_ENUM, BIDI_BLOB, _win32_IBidiRequest_GetOutputData, IBidiRequest, GetOutputData, IBidiRequest::GetOutputData, IBidiRequest interface [Print Devices], IBidiRequest::GetOutputData method, BIDI_STRING, BIDI_TEXT, BIDI_INT, BIDI_NULL, gdi.ibidirequest_ibidirequest__getoutputdata, IBidiRequest::GetOutputData method [Print Devices], print.ibidirequest_ibidirequest__getoutputdata
+ms.keywords: BIDI_FLOAT, _win32_IBidiRequest_GetOutputData, BIDI_NULL, BIDI_BLOB, print.ibidirequest_ibidirequest__getoutputdata, BIDI_BOOL, IBidiRequest::IBidiRequest::GetOutputData, BIDI_ENUM, IBidiRequest interface [Print Devices], IBidiRequest::GetOutputData method, IBidiRequest, IBidiRequest::GetOutputData, IBidiRequest::GetOutputData method [Print Devices], IBidiRequest interface, BIDI_STRING, gdi.ibidirequest_ibidirequest__getoutputdata, GetOutputData, BIDI_TEXT, IBidiRequest::GetOutputData method [Print Devices], BIDI_INT, bidispl/IBidiRequest::IBidiRequest::GetOutputData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
+apiname:
 -	IBidiRequest.IBidiRequest::GetOutputData
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiRequest::GetOutputData method
@@ -250,13 +250,13 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dd144974">IBidiRequest::GetEnumCount</a>
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b042702a-46ff-4ec9-8a92-af8516802e64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml, wiauGetResourceString function [Imaging Devices], wiautil/wiauGetResourceString, wiauGetResourceString, image.wiaugetresourcestring
+ms.keywords: wiautil/wiauGetResourceString, wiauGetResourceString, wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml, image.wiaugetresourcestring, wiauGetResourceString function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauGetResourceString
 product: Windows
 targetos: Windows

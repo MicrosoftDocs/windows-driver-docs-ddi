@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bb8ed1d-fc6c-4475-9770-603be930be7a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReadPortBufferUchar, irb/AtaPortReadPortBufferUchar, storage.ataportreadportbufferuchar, AtaPortReadPortBufferUchar routine [Storage Devices], atartns_1c072aa8-585a-4f8c-be16-be8c1dbc6258.xml
+ms.keywords: AtaPortReadPortBufferUchar, AtaPortReadPortBufferUchar routine [Storage Devices], irb/AtaPortReadPortBufferUchar, atartns_1c072aa8-585a-4f8c-be16-be8c1dbc6258.xml, storage.ataportreadportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortReadPortBufferUchar
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
 <a href="..\irb\nf-irb-ataportreadportbufferulong.md">AtaPortReadPortBufferUlong</a>
 
 <a href="..\irb\nf-irb-ataportreadportbufferushort.md">AtaPortReadPortBufferUshort</a>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
  
 

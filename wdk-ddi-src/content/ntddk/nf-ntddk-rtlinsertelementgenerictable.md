@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2554a212-edc0-4641-98bb-2db36ff0266f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlinsertelementgenerictable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml, RtlInsertElementGenericTable routine [Installable File System Drivers], ntddk/RtlInsertElementGenericTable, RtlInsertElementGenericTable
+ms.keywords: ntddk/RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml, RtlInsertElementGenericTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "< DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlInsertElementGenericTable
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInsertElementGenericTable function
@@ -131,9 +131,9 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
  
 

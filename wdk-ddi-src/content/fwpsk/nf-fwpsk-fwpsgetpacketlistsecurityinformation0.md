@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsGetPacketListSecurityInformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, netvista.fwpsgetpacketlistsecurityinformation0, FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], netvista.fwpsgetpacketlistsecurityinformation0, FwpsGetPacketListSecurityInformation0, fwpsk/FwpsGetPacketListSecurityInformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsGetPacketListSecurityInformation0
 product: Windows
 targetos: Windows
@@ -88,43 +88,43 @@ A UINT32 value that contains a bitwise OR of a combination of the following flag
 
 
 
-### -param packetInformation [in, out]
-
-A pointer to an 
-     <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
-     list.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND
 
 Retrieve information for an inbound packet list.
 
 
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_IPSEC
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND
+
+Retrieve information for an outbound packet list.
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_IPSEC
 
 Retrieve the IPsec information associated with the packet list. This flag must be used in
        combination with either the FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND flag or the
        FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND flag.
 
 
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_FWP
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_FWP
 
 Retrieve the Windows Filtering Platform information associated with the packet list.
 
 
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_INBOUND
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_INBOUND
 
 Retrieve all information associated with an inbound packet list.
 
 
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND
-
-Retrieve information for an outbound packet list.
-
-
-##### - queryFlags.FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_OUTBOUND
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_OUTBOUND
 
 Retrieve all information associated with an outbound packet list.
+
+
+### -param packetInformation [in, out]
+
+A pointer to an 
+     <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
+     list.
 
 
 ## -returns
@@ -176,9 +176,9 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 

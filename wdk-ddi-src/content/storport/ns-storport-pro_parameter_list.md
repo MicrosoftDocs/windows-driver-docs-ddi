@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96c128e1-c38a-412f-adeb-cde820e1af4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST
+ms.keywords: storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, PRO_PARAMETER_LIST structure [Storage Devices], storport/PRO_PARAMETER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	PRO_PARAMETER_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST
+req.typenames: "*PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlsetthreadplaceholdercompatibilitymode, ntifs/RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode
+ms.keywords: RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ntifs/RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode, ifsk.rtlsetthreadplaceholdercompatibilitymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	RtlSetThreadPlaceholderCompatibilityMode
 product: Windows
 targetos: Windows

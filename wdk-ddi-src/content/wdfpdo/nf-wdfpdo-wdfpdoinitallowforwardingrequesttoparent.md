@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc8e4484-4059-4274-bb61-5d3b2f965b19
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAllowForwardingRequestToParent method, wdf.wdfpdoinitallowforwardingrequesttoparent, WdfPdoInitAllowForwardingRequestToParent, kmdf.wdfpdoinitallowforwardingrequesttoparent, PFN_WDFPDOINITALLOWFORWARDINGREQUESTTOPARENT, DFDeviceObjectFdoPdoRef_1c47c0f6-2474-419b-8a6e-1105351ab1d7.xml, wdfpdo/WdfPdoInitAllowForwardingRequestToParent
+ms.keywords: DFDeviceObjectFdoPdoRef_1c47c0f6-2474-419b-8a6e-1105351ab1d7.xml, kmdf.wdfpdoinitallowforwardingrequesttoparent, PFN_WDFPDOINITALLOWFORWARDINGREQUESTTOPARENT, wdfpdo/WdfPdoInitAllowForwardingRequestToParent, WdfPdoInitAllowForwardingRequestToParent method, WdfPdoInitAllowForwardingRequestToParent, wdf.wdfpdoinitallowforwardingrequesttoparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfPdoInitAllowForwardingRequestToParent
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_EVENT
-title: _USBFN_EVENT
+title: "_USBFN_EVENT"
 author: windows-driver-content
 description: Defines notifications sent to class drivers.
 old-location: buses\usbfn_event.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_EVENT, UsbfnEventPortType, usbfnbase/UsbfnEventAttach, UsbfnEventSetInterface, *PUSBFN_EVENT, usbfnbase/UsbfnEventConfigured, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventSuspend, UsbfnEventReset, usbfnbase/UsbfnEventMaximum, UsbfnEventMaximum, usbfnbase/UsbfnEventDetach, UsbfnEventSetupPacket, USBFN_EVENT enumeration [Buses], usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventUnConfigured, UsbfnEventUnConfigured, UsbfnEventBusTearDown, UsbfnEventResume, usbfnbase/UsbfnEventResume, UsbfnEventDetach, usbfnbase/UsbfnEventReset, buses.usbfn_event, USBFN_EVENT, usbfnbase/UsbfnEventPortType, UsbfnEventAttach, UsbfnEventConfigured, UsbfnEventSuspend, usbfnbase/USBFN_EVENT, UsbfnEventMinimum, usbfnbase/UsbfnEventSetInterface, usbfnbase/UsbfnEventMinimum
+ms.keywords: UsbfnEventAttach, usbfnbase/UsbfnEventSetupPacket, *PUSBFN_EVENT, UsbfnEventSetInterface, USBFN_EVENT, _USBFN_EVENT, usbfnbase/UsbfnEventConfigured, UsbfnEventBusTearDown, usbfnbase/UsbfnEventDetach, UsbfnEventResume, usbfnbase/UsbfnEventSetInterface, UsbfnEventSetupPacket, UsbfnEventReset, UsbfnEventMinimum, UsbfnEventSuspend, usbfnbase/UsbfnEventAttach, UsbfnEventConfigured, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventReset, UsbfnEventDetach, usbfnbase/UsbfnEventMinimum, UsbfnEventPortType, USBFN_EVENT enumeration [Buses], usbfnbase/UsbfnEventPortType, UsbfnEventUnConfigured, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventMaximum, UsbfnEventMaximum, usbfnbase/USBFN_EVENT, buses.usbfn_event, usbfnbase/UsbfnEventResume, usbfnbase/UsbfnEventUnConfigured
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_EVENT
 product: Windows
 targetos: Windows
-req.typenames: USBFN_EVENT, *PUSBFN_EVENT
+req.typenames: "*PUSBFN_EVENT, USBFN_EVENT"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ehstorioctl._PDO_TYPE
-title: _PDO_TYPE
+title: "_PDO_TYPE"
 author: windows-driver-content
 description: This enumeration describes the types of Physical Device Objects (PDOs).
 old-location: storage\pdo_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9695d55c-a214-4bba-aba9-38dfa7f54ec9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.pdo_type, _PDO_TYPE, PDO_TYPE, ehstorioctl/PDO_TYPE_THIS, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml, ehstorioctl/PDO_TYPE_DISK, PDO_TYPE enumeration [Storage Devices], PDO_TYPE_CONTROL, PDO_TYPE_SILO, PDO_TYPE_DISK, ehstorioctl/PDO_TYPE_SILO, ehstorioctl/PDO_TYPE_CONTROL, PDO_TYPE_THIS, PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE
+ms.keywords: ehstorioctl/PDO_TYPE_UNDEFINED, PDO_TYPE_CONTROL, storage.pdo_type, PDO_TYPE, ehstorioctl/PDO_TYPE, _PDO_TYPE, PDO_TYPE_THIS, ehstorioctl/PDO_TYPE_THIS, ehstorioctl/PDO_TYPE_CONTROL, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml, PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE_DISK, PDO_TYPE_SILO, ehstorioctl/PDO_TYPE_SILO, PDO_TYPE enumeration [Storage Devices], PDO_TYPE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	PDO_TYPE
 product: Windows
 targetos: Windows

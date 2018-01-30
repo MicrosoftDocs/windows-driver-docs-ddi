@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, IWDFDevice, IWDFDevice::PostEvent, wdf.iwdfdevice_postevent, PostEvent method, IWDFDevice interface, wudfddi/IWDFDevice::PostEvent, PostEvent method, PostEvent, IWDFDevice interface, PostEvent method
+ms.keywords: wudfddi/IWDFDevice::PostEvent, wdf.iwdfdevice_postevent, PostEvent, IWDFDevice interface, PostEvent method, PostEvent method, IWDFDevice, PostEvent method, IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, IWDFDevice::PostEvent, umdf.iwdfdevice_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.PostEvent
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -170,9 +170,9 @@ For information about creating device events, see <a href="https://docs.microsof
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

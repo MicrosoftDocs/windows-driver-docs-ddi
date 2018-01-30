@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceopendevicemapkey, WdfDeviceOpenDevicemapKey method, WdfDeviceOpenDevicemapKey, wdfdevice/WdfDeviceOpenDevicemapKey
+ms.keywords: wdfdevice/WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey, wdf.wdfdeviceopendevicemapkey, WdfDeviceOpenDevicemapKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceOpenDevicemapKey
 product: Windows
 targetos: Windows
@@ -185,9 +185,9 @@ For more information about the registry, hardware and software keys, and registr
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
 
  
 

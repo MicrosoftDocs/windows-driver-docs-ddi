@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.impersonateprinterclient, ImpersonatePrinterClient function [Print Devices], spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, ImpersonatePrinterClient, winsplp/ImpersonatePrinterClient
+ms.keywords: ImpersonatePrinterClient function [Print Devices], ImpersonatePrinterClient, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, print.impersonateprinterclient, winsplp/ImpersonatePrinterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	ImpersonatePrinterClient
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9819567c-1c79-440c-9bac-f81f23df29ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml, wdm/KeRemoveByKeyDeviceQueue, KeRemoveByKeyDeviceQueue, kernel.keremovebykeydevicequeue, KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeRemoveByKeyDeviceQueue, kernel.keremovebykeydevicequeue, wdm/KeRemoveByKeyDeviceQueue, KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRemoveByKeyDeviceQueue
 product: Windows
 targetos: Windows
@@ -97,15 +97,15 @@ It is an error to call <b>KeRemoveByKeyDeviceQueue</b> when the device queue obj
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
-
 <a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
 
  
 

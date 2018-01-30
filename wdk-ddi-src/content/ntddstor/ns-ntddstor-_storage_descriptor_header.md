@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DESCRIPTOR_HEADER
-title: _STORAGE_DESCRIPTOR_HEADER
+title: "_STORAGE_DESCRIPTOR_HEADER"
 author: windows-driver-content
 description: The STORAGE_DESCRIPTOR_HEADER structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_descriptor_header.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], ntddstor/PSTORAGE_DESCRIPTOR_HEADER, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml
+ms.keywords: STORAGE_DESCRIPTOR_HEADER, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml, ntddstor/STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], ntddstor/PSTORAGE_DESCRIPTOR_HEADER, _STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], PSTORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_DESCRIPTOR_HEADER
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ The IOCTL_STORAGE_QUERY_PROPERTY request reports one of three types of propertie
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
  
 

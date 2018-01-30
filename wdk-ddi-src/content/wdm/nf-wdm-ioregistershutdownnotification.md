@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fd9a612b-b0a7-4bef-9fab-8212a3b594b6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, wdm/IoRegisterShutdownNotification, kernel.ioregistershutdownnotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], IoRegisterShutdownNotification
+ms.keywords: wdm/IoRegisterShutdownNotification, kernel.ioregistershutdownnotification, k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoRegisterShutdownNotification
 product: Windows
 targetos: Windows

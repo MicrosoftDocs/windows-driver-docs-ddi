@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.excreatecallback, ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], wdm/ExCreateCallback, k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml
+ms.keywords: kernel.excreatecallback, wdm/ExCreateCallback, ExCreateCallback, k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, ExCreateCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExCreateCallback
 product: Windows
 targetos: Windows
@@ -141,13 +141,13 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
 <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
 <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

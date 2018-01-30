@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E8E05F9B-2F83-4537-979E-024E8412D733
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlIntToShort, RtlIntToShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoshort, RtlIntToShort
+ms.keywords: ntintsafe/RtlIntToShort, kernel.rtlinttoshort, RtlIntToShort, RtlIntToShort function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlIntToShort
 product: Windows
 targetos: Windows

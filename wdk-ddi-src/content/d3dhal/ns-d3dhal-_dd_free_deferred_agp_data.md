@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38830856-1f66-44d6-9501-9454a31571b7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DD_FREE_DEFERRED_AGP_DATA, d3dstrct_06ad77f0-33c0-4297-a713-d23f0684dbee.xml, d3dhal/DD_FREE_DEFERRED_AGP_DATA, display.dd_free_deferred_agp_data, DD_FREE_DEFERRED_AGP_DATA, DD_FREE_DEFERRED_AGP_DATA structure [Display Devices]"
+ms.keywords: DD_FREE_DEFERRED_AGP_DATA, d3dhal/DD_FREE_DEFERRED_AGP_DATA, d3dstrct_06ad77f0-33c0-4297-a713-d23f0684dbee.xml, _DD_FREE_DEFERRED_AGP_DATA, DD_FREE_DEFERRED_AGP_DATA structure [Display Devices], display.dd_free_deferred_agp_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,9 +93,9 @@ The driver receives a <b>GetDriverInfo2</b> call with D3DGDI2_TYPE_FREE_DEFERRED
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 64343a8a-9629-469e-95a3-b9c140cdd324
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsValidateConnectRequest function [Streaming Media Devices], KsValidateConnectRequest, ks/KsValidateConnectRequest, stream.ksvalidateconnectrequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml
+ms.keywords: KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, stream.ksvalidateconnectrequest, ks/KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsValidateConnectRequest
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfusb._WDF_USB_REQUEST_TYPE
-title: _WDF_USB_REQUEST_TYPE
+title: "_WDF_USB_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_USB_REQUEST_TYPE enumeration contains values that identify a type of USB request object.
 old-location: wdf\wdf_usb_request_type_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_REQUEST_TYPE enumeration, PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeNoFormat, wudfusb/PWDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeInvalid, wdf.wdf_usb_request_type_umdf, wudfusb/WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeRead, wudfusb/WdfUsbRequestTypePipeWrite, PWDF_USB_REQUEST_TYPE enumeration pointer, WdfUsbRequestTypeDeviceControlTransfer, umdf.wdf_usb_request_type, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, WDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypePipeRead, _WDF_USB_REQUEST_TYPE, wudfusb/WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, WdfUsbRequestTypeInvalid, WdfUsbRequestTypePipeWrite
+ms.keywords: wdf.wdf_usb_request_type_umdf, wudfusb/WdfUsbRequestTypeInvalid, wudfusb/PWDF_USB_REQUEST_TYPE, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wudfusb/WdfUsbRequestTypePipeRead, umdf.wdf_usb_request_type, wudfusb/WDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypeNoFormat, _WDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WdfUsbRequestTypeInvalid, WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeWrite, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeRead, WDF_USB_REQUEST_TYPE enumeration, wudfusb/WdfUsbRequestTypePipeWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfusb.h
-apiname: 
+apiname:
 -	WDF_USB_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

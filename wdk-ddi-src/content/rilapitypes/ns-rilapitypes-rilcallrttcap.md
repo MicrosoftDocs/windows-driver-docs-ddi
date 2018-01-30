@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1652bc1-e15d-4018-8f4c-2514958ffd27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], RILCALLRTTCAP, *LPRILCALLRTTCAP, rilapitypes/RILCALLRTTCAP, netvista.rilcallrttcap_2
+ms.keywords: netvista.rilcallrttcap_2, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], *LPRILCALLRTTCAP, RILCALLRTTCAP, rilapitypes/RILCALLRTTCAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLRTTCAP
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLRTTCAP, RILCALLRTTCAP
+req.typenames: "*LPRILCALLRTTCAP, RILCALLRTTCAP"
 req.product: Windows 10 or later.
 ---
 

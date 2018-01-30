@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AB5939B9-01DD-4F51-BAEB-6C5EC909FAE1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], wdm/ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx, kernel.exacquirerundownprotectionex
+ms.keywords: ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], ExAcquireRundownProtectionEx, wdm/ExAcquireRundownProtectionEx, kernel.exacquirerundownprotectionex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExAcquireRundownProtectionEx
 product: Windows
 targetos: Windows
@@ -101,11 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+<a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
 
 <a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
 
-<a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
 <a href="..\wdm\nf-wdm-exreleaserundownprotectionex.md">ExReleaseRundownProtectionEx</a>
 

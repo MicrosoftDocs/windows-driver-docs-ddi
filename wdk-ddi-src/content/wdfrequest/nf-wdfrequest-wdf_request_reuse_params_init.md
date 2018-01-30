@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_REUSE_PARAMS_INIT
 product: Windows
 targetos: Windows

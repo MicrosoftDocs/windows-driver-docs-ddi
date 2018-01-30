@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9c047a7c-cdfc-47e1-beae-f8f326c187ee
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSOBJECT_CREATE_ITEM, ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml, KSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], *PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], PKSOBJECT_CREATE_ITEM, ks/KSOBJECT_CREATE_ITEM, stream.ksobject_create_item
+ms.keywords: "*PKSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM, ks/PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], ks/KSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM, stream.ksobject_create_item, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSOBJECT_CREATE_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM
+req.typenames: KSOBJECT_CREATE_ITEM, *PKSOBJECT_CREATE_ITEM
 ---
 
 # KSOBJECT_CREATE_ITEM structure
@@ -143,11 +143,11 @@ The minidriver might retrieve this pointer when creating a new object to examine
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+<a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
 
 <a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
 
-<a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
  
 

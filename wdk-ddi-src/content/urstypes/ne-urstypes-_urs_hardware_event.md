@@ -1,6 +1,6 @@
 ---
 UID: NE:urstypes._URS_HARDWARE_EVENT
-title: _URS_HARDWARE_EVENT
+title: "_URS_HARDWARE_EVENT"
 author: windows-driver-content
 description: Defines values for the hardware events that a client driver for a USB dual-role controller can report.
 old-location: buses\urs_hardware_event.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 985A7725-1EE1-4419-B8BE-FEE2306E93A7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsHardwareEventDetach, UrsHardwareEventNone, urstypes/UrsHardwareEventIdGround, UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp, _URS_HARDWARE_EVENT, urstypes/UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventNone, URS_HARDWARE_EVENT enumeration [Buses], urstypes/URS_HARDWARE_EVENT, UrsHardwareEventPortTypeUfp, UrsHardwareEventIdGround, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], UrsHardwareEventIdFloat, urstypes/UrsHardwareEventDetach, *PURS_HARDWARE_EVENT, buses.urs_hardware_event
+ms.keywords: UrsHardwareEventDetach, UrsHardwareEventIdFloat, urstypes/UrsHardwareEventNone, UrsHardwareEventPortTypeUfp, urstypes/UrsHardwareEventPortTypeUfp, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, _URS_HARDWARE_EVENT, buses.urs_hardware_event, urstypes/UrsHardwareEventIdGround, UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventDetach, UrsHardwareEventNone, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], *PURS_HARDWARE_EVENT, urstypes/UrsHardwareEventPortTypeDfp, URS_HARDWARE_EVENT, UrsHardwareEventIdGround, urstypes/URS_HARDWARE_EVENT, URS_HARDWARE_EVENT enumeration [Buses], urstypes/UrsHardwareEventIdFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Urstypes.h
-apiname: 
+apiname:
 -	URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4C002B40-AD27-4FE2-B07F-5E9715E6CF1F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/PowerCodecUnspecified, PowerCodecMaximum, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], PowerCodecD0, PowerCodecD2, PHDAUDIO_CODEC_POWER_STATE, _HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, *PHDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PowerCodecD3Cold, hdaudio/PowerCodecD3, audio.hdaudio_codec_power_state, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecMaximum, PowerCodecD3, hdaudio/PowerCodecD3Cold, hdaudio/PowerCodecD0, PowerCodecD1, HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], hdaudio/PowerCodecD1, PowerCodecUnspecified
+ms.keywords: PowerCodecD0, PowerCodecD3Cold, *PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, hdaudio/HDAUDIO_CODEC_POWER_STATE, PowerCodecMaximum, hdaudio/PowerCodecD0, _HDAUDIO_CODEC_POWER_STATE, PowerCodecUnspecified, PowerCodecD1, hdaudio/PowerCodecD3Cold, hdaudio/PowerCodecD3, HDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], hdaudio/PowerCodecD1, PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecMaximum, hdaudio/PowerCodecUnspecified, audio.hdaudio_codec_power_state, PowerCodecD2, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], PowerCodecD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -50,7 +50,7 @@ req.typenames: HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE
 
 
 The <b>HDAUDIO_CODEC_POWER_STATE</b> enumeration defines constants that specify the different power states that HD Audio codecs can support.  All states
-are from <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
+are from <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
 
 
 
@@ -113,6 +113,6 @@ Power state Maximum
 ## -remarks
 
 
-For more information about power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>.
+For more information about power states, see <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>.
 
 

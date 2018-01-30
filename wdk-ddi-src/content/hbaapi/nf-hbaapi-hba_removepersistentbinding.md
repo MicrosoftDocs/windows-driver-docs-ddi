@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2dbdd95-ddf9-4e95-acd5-853c29cebf02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemovePersistentBinding routine [Storage Devices], hbaapi/HBA_RemovePersistentBinding, fibreHBA_rtns_d8ccc5eb-b268-4809-88e5-3cee263f6b35.xml, storage.hba_removepersistentbinding, HBA_RemovePersistentBinding
+ms.keywords: HBA_RemovePersistentBinding routine [Storage Devices], HBA_RemovePersistentBinding, hbaapi/HBA_RemovePersistentBinding, storage.hba_removepersistentbinding, fibreHBA_rtns_d8ccc5eb-b268-4809-88e5-3cee263f6b35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_RemovePersistentBinding
 product: Windows
 targetos: Windows
@@ -150,9 +150,9 @@ The removal of persistent bindings does not change target mappings until the ope
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

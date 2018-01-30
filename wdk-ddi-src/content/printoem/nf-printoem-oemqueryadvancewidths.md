@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths, print.oemqueryadvancewidths, OEMQueryAdvanceWidths function [Print Devices], OEMQueryAdvanceWidths
+ms.keywords: print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, print.oemqueryadvancewidths, OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices], printoem/OEMQueryAdvanceWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMQueryAdvanceWidths
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5CCFA490-090E-4F24-A5E4-4BECA63EBA53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_PROPERTY_LIST_INIT function [Sensor Devices], sensors.sensor_property_list_init, sensorsdef/SENSOR_PROPERTY_LIST_INIT, SENSOR_PROPERTY_LIST_INIT
+ms.keywords: sensors.sensor_property_list_init, SENSOR_PROPERTY_LIST_INIT function [Sensor Devices], SENSOR_PROPERTY_LIST_INIT, sensorsdef/SENSOR_PROPERTY_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	SENSOR_PROPERTY_LIST_INIT
 product: Windows
 targetos: Windows

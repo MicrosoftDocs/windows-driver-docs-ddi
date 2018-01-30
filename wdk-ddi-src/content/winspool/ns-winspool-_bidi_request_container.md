@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_REQUEST_CONTAINER
-title: _BIDI_REQUEST_CONTAINER
+title: "_BIDI_REQUEST_CONTAINER"
 author: windows-driver-content
 description: The BIDI_REQUEST_CONTAINER structure is a container for a list of bidi requests.
 old-location: print\bidi_request_container.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9892cf0e-23ee-496f-9078-4a2a1fdb19d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_REQUEST_CONTAINER structure [Print Devices], PBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, winspool/LPBIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], winspool/BIDI_REQUEST_CONTAINER, spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], _BIDI_REQUEST_CONTAINER, winspool/PBIDI_REQUEST_CONTAINER, print.bidi_request_container
+ms.keywords: "_BIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER, print.bidi_request_container, winspool/PBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER, winspool/LPBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], BIDI_REQUEST_CONTAINER structure [Print Devices], BIDI_REQUEST_CONTAINER, spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, winspool/BIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], *PBIDI_REQUEST_CONTAINER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BIDI_REQUEST_CONTAINER
 product: Windows
 targetos: Windows
-req.typenames: BIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER
+req.typenames: "*PBIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER"
 req.product: Windows 10 or later.
 ---
 

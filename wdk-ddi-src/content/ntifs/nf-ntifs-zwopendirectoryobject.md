@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, ntifs/NtCreateDirectoryObject, NtCreateDirectoryObject, kernel.zwopendirectoryobject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], ntifs/ZwOpenDirectoryObject, ZwOpenDirectoryObject
+ms.keywords: ntifs/NtCreateDirectoryObject, NtCreateDirectoryObject, k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, ntifs/ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], ZwOpenDirectoryObject, kernel.zwopendirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenDirectoryObject
 -	NtCreateDirectoryObject
 product: Windows
@@ -240,17 +240,17 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

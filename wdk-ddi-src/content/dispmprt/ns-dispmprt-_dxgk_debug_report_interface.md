@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb1bd1dd-feab-4aa4-8b4f-932f0d5ec4ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, DXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], dispmprt/PDXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, dispmprt/DXGK_DEBUG_REPORT_INTERFACE
+ms.keywords: DXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, *PDXGK_DEBUG_REPORT_INTERFACE, dispmprt/PDXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], dispmprt/DXGK_DEBUG_REPORT_INTERFACE, _DXGK_DEBUG_REPORT_INTERFACE, DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

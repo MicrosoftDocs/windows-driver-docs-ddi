@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._GET_UNIT_IDS
-title: _GET_UNIT_IDS
+title: "_GET_UNIT_IDS"
 author: windows-driver-content
 description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve device identifiers.
 old-location: ieee\get_unit_ids.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8ffa85ee-cad6-476e-91ab-1897a6b43ca1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GET_UNIT_IDS structure [Buses], PGET_UNIT_IDS, 61883/PGET_UNIT_IDS, _GET_UNIT_IDS, IEEE.get_unit_ids, PGET_UNIT_IDS structure pointer [Buses], 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, *PGET_UNIT_IDS, GET_UNIT_IDS, 61883/GET_UNIT_IDS
+ms.keywords: "_GET_UNIT_IDS, IEEE.get_unit_ids, PGET_UNIT_IDS structure pointer [Buses], GET_UNIT_IDS, PGET_UNIT_IDS, GET_UNIT_IDS structure [Buses], 61883/GET_UNIT_IDS, *PGET_UNIT_IDS, 61883/PGET_UNIT_IDS, 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	GET_UNIT_IDS
 product: Windows
 targetos: Windows
-req.typenames: GET_UNIT_IDS, *PGET_UNIT_IDS
+req.typenames: "*PGET_UNIT_IDS, GET_UNIT_IDS"
 ---
 
 # _GET_UNIT_IDS structure

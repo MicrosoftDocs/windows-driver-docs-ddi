@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SOURCE_TYPE
-title: _WHEA_ERROR_SOURCE_TYPE
+title: "_WHEA_ERROR_SOURCE_TYPE"
 author: windows-driver-content
 description: The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
 old-location: whea\whea_error_source_type.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WheaErrSrcTypeCPE, ntddk/WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeINIT, WheaErrSrcTypeIPFMCA, WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeSCIGeneric, PWHEA_ERROR_SOURCE_TYPE, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeIPFCPE, _WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypePCIe, WheaErrSrcTypeNMI, WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeMCE, *PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeNMI, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeMCE, WheaErrSrcTypeCPE, WheaErrSrcTypeCMC, WHEA_ERROR_SOURCE_TYPE, whea.whea_error_source_type, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeBOOT
+ms.keywords: WheaErrSrcTypeIPFMCA, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeSCIGeneric, *PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeGeneric, _WHEA_ERROR_SOURCE_TYPE, ntddk/PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeCMC, WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypeGeneric, ntddk/WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeMCE, WheaErrSrcTypeINIT, ntddk/WheaErrSrcTypeNMI, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeMCE, WheaErrSrcTypeIPFCMC, WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeMax, whea.whea_error_source_type, ntddk/WheaErrSrcTypeBOOT, PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeIPFMCA, WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeCPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_SOURCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
+req.typenames: "*PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE"
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration

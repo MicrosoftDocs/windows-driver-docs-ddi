@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReadCapacity_OUT
-title: _ScsiReadCapacity_OUT
+title: "_ScsiReadCapacity_OUT"
 author: windows-driver-content
 description: The ScsiReadCapacity_OUT structure is used to report the output data of the ScsiReadCapacity WMI method to the WMI client.
 old-location: storage\scsireadcapacity_out2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PScsiReadCapacity_OUT structure pointer [Storage Devices], *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, storage.scsireadcapacity_out2, hbapiwmi/ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, PScsiReadCapacity_OUT, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, hbapiwmi/PScsiReadCapacity_OUT
+ms.keywords: ScsiReadCapacity_OUT structure [Storage Devices], PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, hbapiwmi/ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], storage.scsireadcapacity_out2, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, ScsiReadCapacity_OUT, hbapiwmi/PScsiReadCapacity_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hbapiwmi.h
-apiname: 
+apiname:
 -	ScsiReadCapacity_OUT
 product: Windows
 targetos: Windows
-req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
+req.typenames: "*PScsiReadCapacity_OUT, ScsiReadCapacity_OUT"
 ---
 
 # _ScsiReadCapacity_OUT structure

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	HwStorStateChange
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 
@@ -143,9 +143,9 @@ HW_STATE_CHANGE (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
-
 <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+<a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
 
  
 

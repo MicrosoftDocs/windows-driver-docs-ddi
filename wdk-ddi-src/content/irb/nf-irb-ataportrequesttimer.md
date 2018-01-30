@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, irb/AtaPortRequestTimer, AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], storage.ataportrequesttimer
+ms.keywords: atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, storage.ataportrequesttimer, irb/AtaPortRequestTimer, AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaPortRequestTimer
 product: Windows
 targetos: Windows

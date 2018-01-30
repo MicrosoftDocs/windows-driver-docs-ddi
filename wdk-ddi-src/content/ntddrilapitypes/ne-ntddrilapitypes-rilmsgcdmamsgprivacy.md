@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 491b985f-c228-4f4b-88c1-fd678266dd9d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgcdmamsgprivacy, RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_MAX, ntddrilapitypes/RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_SECRET, RIL_MSGPRIVACYCLASS_MAX, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGPRIVACYCLASS_SECRET, RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_RESTRICTED, ntddrilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED
+ms.keywords: RIL_MSGPRIVACYCLASS_MAX, RIL_MSGPRIVACYCLASS_RESTRICTED, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_SECRET, ntddrilapitypes/RIL_MSGPRIVACYCLASS_MAX, ntddrilapitypes/RIL_MSGPRIVACYCLASS_SECRET, RILMSGCDMAMSGPRIVACY, RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, netvista.rilmsgcdmamsgprivacy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAMSGPRIVACY
 product: Windows
 targetos: Windows

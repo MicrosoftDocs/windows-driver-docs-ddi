@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c111eb7e-7c42-4848-89d3-177f240fff7f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::AddDumpInformationFile, IDebugClient4::AddDumpInformationFile, IDebugClient5 interface [Windows Debugging], AddDumpInformationFile method, debugger.adddumpinformationfile, IDebugClient5, IDebugClient2 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient4 interface [Windows Debugging], AddDumpInformationFile method, dbgeng/IDebugClient2::AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], IDebugClient3 interface, IDebugClient3::AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient4::AddDumpInformationFile, IDebugClient2::AddDumpInformationFile, AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient2 interface, AddDumpInformationFile method [Windows Debugging], dbgeng/IDebugClient3::AddDumpInformationFile, IDebugClient3 interface [Windows Debugging], AddDumpInformationFile method
+ms.keywords: IDebugClient5 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient4::AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], AddDumpInformationFile method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient3 interface, IDebugClient5::AddDumpInformationFile, debugger.adddumpinformationfile, IDebugClient2 interface [Windows Debugging], AddDumpInformationFile method, AddDumpInformationFile method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], AddDumpInformationFile method, dbgeng/IDebugClient4::AddDumpInformationFile, AddDumpInformationFile, dbgeng/IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient2::AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient3::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient3::AddDumpInformationFile, IDebugClient2::AddDumpInformationFile, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugClient5.AddDumpInformationFile
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::AddDumpInformationFile method
@@ -116,23 +116,23 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

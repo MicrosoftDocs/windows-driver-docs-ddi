@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f88694a0-aa76-434a-b436-3c0b6903cad6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUlong64 method, EngExtCpp_Ref_8310177e-7943-4f2c-92bd-b69848c9e9f0.xml, GetUlong64 method [Windows Debugging], ExtRemoteData::GetUlong64, GetUlong64, debugger.extremotedata_getulong64, GetUlong64 method [Windows Debugging], ExtRemoteData class
+ms.keywords: ExtRemoteData, GetUlong64, ExtRemoteData::GetUlong64, EngExtCpp_Ref_8310177e-7943-4f2c-92bd-b69848c9e9f0.xml, GetUlong64 method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_getulong64, GetUlong64 method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetUlong64 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetUlong64
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetUlong64 method
@@ -82,11 +82,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544033">ExtRemoteData::GetLong64</a>
 

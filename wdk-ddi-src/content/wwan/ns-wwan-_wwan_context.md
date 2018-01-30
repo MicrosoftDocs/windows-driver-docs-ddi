@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CONTEXT
-title: _WWAN_CONTEXT
+title: "_WWAN_CONTEXT"
 author: windows-driver-content
 description: The WWAN_CONTEXT structure represents a provisioned context that is supported by the MB device.
 old-location: netvista\wwan_context.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81687237-7b24-439f-b706-e0bf95b4de68
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PWWAN_CONTEXT, netvista.wwan_context, WWAN_CONTEXT structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT, PWWAN_CONTEXT, _WWAN_CONTEXT, wwan/WWAN_CONTEXT, WwanRef_6700da85-2a7a-4712-86e8-fb40e11e42a1.xml, wwan/PWWAN_CONTEXT, PWWAN_CONTEXT structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_CONTEXT, WWAN_CONTEXT structure [Network Drivers Starting with Windows Vista], *PWWAN_CONTEXT, WWAN_CONTEXT, WwanRef_6700da85-2a7a-4712-86e8-fb40e11e42a1.xml, netvista.wwan_context, _WWAN_CONTEXT, PWWAN_CONTEXT, wwan/WWAN_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CONTEXT
 product: Windows
 targetos: Windows
@@ -129,14 +129,14 @@ Authentication type to use for the PDP activation.
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
+
+<a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
+
 <a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
 
 <mshelp:link keywords="netvista.ndis_wwan_set_provisioned_context" tabindex="0"><b>
    NDIS_WWAN_SET_PROVISIONED_CONTEXT</b></mshelp:link>
-
-<a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
-
-<a href="..\wwan\ne-wwan-_wwan_context_type.md">WWAN_CONTEXT_TYPE</a>
 
  
 

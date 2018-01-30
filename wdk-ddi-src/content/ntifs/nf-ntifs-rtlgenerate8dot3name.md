@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml, RtlGenerate8dot3Name, ntifs/RtlGenerate8dot3Name
+ms.keywords: rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml, ntifs/RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, RtlGenerate8dot3Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlGenerate8dot3Name
 product: Windows
 targetos: Windows
@@ -132,11 +132,11 @@ Square brackets
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
 
 <a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

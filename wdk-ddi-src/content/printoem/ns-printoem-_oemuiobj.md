@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMUIOBJ
-title: _OEMUIOBJ
+title: "_OEMUIOBJ"
 author: windows-driver-content
 description: The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
 old-location: print\oemuiobj.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba9252ec-3aef-4e8c-a335-bde33686beae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMUIOBJ structure [Print Devices], OEMUIOBJ, _OEMUIOBJ, printoem/OEMUIOBJ, print.oemuiobj, printoem/POEMUIOBJ, POEMUIOBJ, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, *POEMUIOBJ, POEMUIOBJ structure pointer [Print Devices]
+ms.keywords: POEMUIOBJ, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, OEMUIOBJ, OEMUIOBJ structure [Print Devices], POEMUIOBJ structure pointer [Print Devices], print.oemuiobj, printoem/POEMUIOBJ, printoem/OEMUIOBJ, *POEMUIOBJ, _OEMUIOBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMUIOBJ
 product: Windows
 targetos: Windows
-req.typenames: *POEMUIOBJ, OEMUIOBJ
+req.typenames: "*POEMUIOBJ, OEMUIOBJ"
 req.product: Windows 10 or later.
 ---
 

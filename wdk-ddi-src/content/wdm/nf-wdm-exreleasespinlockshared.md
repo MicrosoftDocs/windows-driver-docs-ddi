@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D79FD160-1A03-43F0-B9AB-D74C6176565A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exreleasespinlockshared_, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], wdm/ExReleaseSpinLockShared, ExReleaseSpinLockShared
+ms.keywords: kernel.exreleasespinlockshared_, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], ExReleaseSpinLockShared, wdm/ExReleaseSpinLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks.)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	ExReleaseSpinLockShared
 product: Windows
 targetos: Windows

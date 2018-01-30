@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSPROPERTY_SPHLI
-title: _KSPROPERTY_SPHLI
+title: "_KSPROPERTY_SPHLI"
 author: windows-driver-content
 description: The KSPROPERTY_SPHLI structure is used to describe a rectangle of subpicture or screen whose color or contrast is to be changed.
 old-location: stream\ksproperty_sphli.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, KSPROPERTY_SPHLI structure [Streaming Media Devices], stream.ksproperty_sphli, *PKSPROPERTY_SPHLI, _KSPROPERTY_SPHLI
+ms.keywords: ksmedia/KSPROPERTY_SPHLI, stream.ksproperty_sphli, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, _KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], *PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_SPHLI
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI
+req.typenames: "*PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI"
 ---
 
 # _KSPROPERTY_SPHLI structure

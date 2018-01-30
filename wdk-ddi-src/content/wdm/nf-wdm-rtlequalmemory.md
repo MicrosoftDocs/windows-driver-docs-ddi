@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43695fa9-32e1-4bd5-b146-88d6d03fe9fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlEqualMemory, RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], kernel.rtlequalmemory, k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml
+ms.keywords: wdm/RtlEqualMemory, kernel.rtlequalmemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], RtlEqualMemory, k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdm.h
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	RtlEqualMemory
 product: Windows
 targetos: Windows
@@ -85,14 +85,14 @@ TBD
 Specifies the number of bytes to be compared. 
 
 
-#### - Source2 [in]
-
-Pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points. 
-
-
 #### - Source1 [in]
 
 Pointer to a caller-allocated block of memory to compare. 
+
+
+#### - Source2 [in]
+
+Pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points. 
 
 
 ## -remarks

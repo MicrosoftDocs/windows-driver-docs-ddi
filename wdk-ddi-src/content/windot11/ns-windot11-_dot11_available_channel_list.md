@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_AVAILABLE_CHANNEL_LIST
-title: _DOT11_AVAILABLE_CHANNEL_LIST
+title: "_DOT11_AVAILABLE_CHANNEL_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_available_channel_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11fee366-5853-4702-8179-d5b764174dce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_AVAILABLE_CHANNEL_LIST, windot11/DOT11_AVAILABLE_CHANNEL_LIST, *PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, _DOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list, DOT11_AVAILABLE_CHANNEL_LIST
+ms.keywords: "*PDOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list, Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_AVAILABLE_CHANNEL_LIST, _DOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST, windot11/PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_AVAILABLE_CHANNEL_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_AVAILABLE_CHANNEL_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST
+req.typenames: "*PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,22 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_AVAILABLE_CHANNEL_LIST_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_AVAILABLE_CHANNEL_LIST).
+
+
 ### -field uNumOfEntries
 
 The number of entries in the 
@@ -109,22 +125,6 @@ An array that specifies the list of available operating frequency channels of th
      configurations</mshelp:link> that the NIC can operate with.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_AVAILABLE_CHANNEL_LIST_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(DOT11_AVAILABLE_CHANNEL_LIST).
-
-
 ## -remarks
 
 
@@ -136,10 +136,10 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <mshelp:link keywords="netvista.oid_dot11_available_channel_list" tabindex="0">
    OID_DOT11_AVAILABLE_CHANNEL_LIST</mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

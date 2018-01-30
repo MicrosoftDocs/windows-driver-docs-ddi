@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f9f699-0ca1-4b22-b66f-04fcf53935c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], kernel.psterminatesystemthread, PsTerminateSystemThread, k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml
+ms.keywords: wdm/PsTerminateSystemThread, PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], kernel.psterminatesystemthread, k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsTerminateSystemThread
 product: Windows
 targetos: Windows

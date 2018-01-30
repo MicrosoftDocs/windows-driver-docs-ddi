@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ntifs/CcDeferWrite, CcDeferWrite, ifsk.ccdeferwrite, CcDeferWrite routine [Installable File System Drivers]
+ms.keywords: ifsk.ccdeferwrite, ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, CcDeferWrite, CcDeferWrite routine [Installable File System Drivers], ntifs/CcDeferWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcDeferWrite
 product: Windows
 targetos: Windows

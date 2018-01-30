@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], AddBreakpoint2 method, AddBreakpoint2 method [Windows Debugging], IDebugControl4 interface, AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], IDebugControl4, debugger.addbreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2
+ms.keywords: debugger.addbreakpoint2, AddBreakpoint2, IDebugControl4 interface [Windows Debugging], AddBreakpoint2 method, AddBreakpoint2 method [Windows Debugging], IDebugControl4, AddBreakpoint2 method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::AddBreakpoint2, IDebugControl4::AddBreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.AddBreakpoint2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::AddBreakpoint2 method
@@ -159,15 +159,15 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
 
  
 

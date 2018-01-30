@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_ASSOCIATION_STATE
-title: _DOT11_ASSOCIATION_STATE
+title: "_DOT11_ASSOCIATION_STATE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_association_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 90d2457f-4246-464b-8de6-f8fda056eb7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/dot11_assoc_state_unauth_unassoc, windot11/dot11_assoc_state_auth_assoc, PDOT11_ASSOCIATION_STATE, windot11/dot11_assoc_state_auth_unassoc, dot11_assoc_state_auth_assoc, DOT11_ASSOCIATION_STATE, windot11/PDOT11_ASSOCIATION_STATE, windot11/dot11_assoc_state_zero, PDOT11_ASSOCIATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], *PDOT11_ASSOCIATION_STATE, _DOT11_ASSOCIATION_STATE, dot11_assoc_state_auth_unassoc, DOT11_ASSOCIATION_STATE enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_association_state, dot11_assoc_state_zero, windot11/DOT11_ASSOCIATION_STATE, Native_802.11_data_types_6ec71b29-ea13-4ff5-af6c-b8f088c2671c.xml, dot11_assoc_state_unauth_unassoc
+ms.keywords: PDOT11_ASSOCIATION_STATE, _DOT11_ASSOCIATION_STATE, dot11_assoc_state_unauth_unassoc, dot11_assoc_state_auth_unassoc, DOT11_ASSOCIATION_STATE enumeration [Network Drivers Starting with Windows Vista], windot11/PDOT11_ASSOCIATION_STATE, windot11/dot11_assoc_state_auth_unassoc, windot11/dot11_assoc_state_unauth_unassoc, dot11_assoc_state_zero, windot11/DOT11_ASSOCIATION_STATE, dot11_assoc_state_auth_assoc, Native_802.11_data_types_6ec71b29-ea13-4ff5-af6c-b8f088c2671c.xml, netvista.dot11_association_state, *PDOT11_ASSOCIATION_STATE, PDOT11_ASSOCIATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_ASSOCIATION_STATE, windot11/dot11_assoc_state_zero, windot11/dot11_assoc_state_auth_assoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_ASSOCIATION_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_ASSOCIATION_STATE, DOT11_ASSOCIATION_STATE
+req.typenames: "*PDOT11_ASSOCIATION_STATE, DOT11_ASSOCIATION_STATE"
 req.product: Windows 10 or later.
 ---
 

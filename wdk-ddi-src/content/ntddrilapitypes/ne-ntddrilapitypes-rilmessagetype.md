@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02960e7c-f1b2-4c28-9f9b-f180df3d9563
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmessagetype, ntddrilapitypes/RIL_MSGTYPE_IN_STATUS, ntddrilapitypes/RIL_MSGTYPE_BC_GENERAL, RIL_MSGTYPE_OUT_SUBMIT, RIL_MSGTYPE_OUT_CDMASUBMIT, RIL_MSGTYPE_BC_GENERAL, ntddrilapitypes/RIL_MSGTYPE_IN_IS637STATUS, RIL_MSGTYPE_IN_IS637STATUS, ntddrilapitypes/RIL_MSGTYPE_OUT_SUBMIT, ntddrilapitypes/RIL_MSGTYPE_IN_CDMADELIVER, RILMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGTYPE_OUT_CDMASUBMIT, RILMESSAGETYPE, RIL_MSGTYPE_IN_CDMADELIVER, RIL_MSGTYPE_IN_STATUS, ntddrilapitypes/RILMESSAGETYPE
+ms.keywords: ntddrilapitypes/RIL_MSGTYPE_OUT_SUBMIT, RILMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGTYPE_IN_IS637STATUS, ntddrilapitypes/RIL_MSGTYPE_BC_GENERAL, ntddrilapitypes/RILMESSAGETYPE, RIL_MSGTYPE_OUT_SUBMIT, RIL_MSGTYPE_IN_CDMADELIVER, RIL_MSGTYPE_BC_GENERAL, ntddrilapitypes/RIL_MSGTYPE_IN_CDMADELIVER, netvista.rilmessagetype, RIL_MSGTYPE_IN_STATUS, RILMESSAGETYPE, RIL_MSGTYPE_OUT_CDMASUBMIT, RIL_MSGTYPE_IN_IS637STATUS, ntddrilapitypes/RIL_MSGTYPE_OUT_CDMASUBMIT, ntddrilapitypes/RIL_MSGTYPE_IN_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMESSAGETYPE
 product: Windows
 targetos: Windows

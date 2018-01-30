@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 607c00a2-6f7e-4a68-87da-f54b8dd73b88
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILPSMEDIAPREFERENCE, rilapitypes/RIL_PSMPREF_WIFIPREFERRED, RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_CELLONLY, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, rilapitypes/RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_WIFIPREFERRED, RIL_PSMPREF_WIFIONLY, rilapitypes/RIL_PSMPREF_WIFIONLY, netvista.rilpsmediapreference_2, RILPSMEDIAPREFERENCE, rilapitypes/RIL_PSMPREF_CELLONLY
+ms.keywords: rilapitypes/RIL_PSMPREF_CELLONLY, rilapitypes/RIL_PSMPREF_WIFIPREFERRED, rilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_WIFIONLY, RIL_PSMPREF_CELLONLY, rilapitypes/RIL_PSMPREF_CELLPREFERRED, RILPSMEDIAPREFERENCE, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], RIL_PSMPREF_NUMBER_OF_VALUES, netvista.rilpsmediapreference_2, RIL_PSMPREF_CELLPREFERRED, rilapitypes/RILPSMEDIAPREFERENCE, rilapitypes/RIL_PSMPREF_WIFIONLY, RIL_PSMPREF_WIFIPREFERRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPSMEDIAPREFERENCE
 product: Windows
 targetos: Windows

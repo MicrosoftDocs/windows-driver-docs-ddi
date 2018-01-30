@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_TYPE
-title: _WWAN_CONTEXT_TYPE
+title: "_WWAN_CONTEXT_TYPE"
 author: windows-driver-content
 description: The WWAN_CONTEXT_TYPE enumeration lists the different types of connection contexts that are supported by the MB device.
 old-location: netvista\wwan_context_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanContextTypeMax, WwanContextTypeNone, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanContextTypeNone, WwanContextTypeVideoShare, wwan/WwanContextTypeVoice, wwan/WwanContextTypePurchase, wwan/WWAN_CONTEXT_TYPE, WwanContextTypeVoice, WWAN_CONTEXT_TYPE, *PWWAN_CONTEXT_TYPE, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, WwanContextTypeCustom, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanContextTypeCustom, wwan/WwanContextTypeInternet, WwanContextTypePurchase, wwan/PWWAN_CONTEXT_TYPE, WwanContextTypeVpn, wwan/WwanContextTypeVideoShare, netvista.wwan_context_type, _WWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE, WwanContextTypeInternet, WwanContextTypeMax, wwan/WwanContextTypeVpn
+ms.keywords: wwan/WwanContextTypeMax, WwanContextTypeVideoShare, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeInternet, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanContextTypeNone, *PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE, wwan/WwanContextTypeVpn, WwanContextTypeCustom, wwan/WwanContextTypePurchase, _WWAN_CONTEXT_TYPE, WwanContextTypeVoice, netvista.wwan_context_type, WWAN_CONTEXT_TYPE, wwan/WwanContextTypeVoice, wwan/WWAN_CONTEXT_TYPE, WwanContextTypeInternet, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanContextTypeCustom, wwan/PWWAN_CONTEXT_TYPE, WwanContextTypeNone, WwanContextTypePurchase, WwanContextTypeVpn, WwanContextTypeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CONTEXT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE
+req.typenames: "*PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxcontroller._UCX_CONTROLLER_STATE
-title: _UCX_CONTROLLER_STATE
+title: "_UCX_CONTROLLER_STATE"
 author: windows-driver-content
 description: This enumeration provides values to specify the UCX controller state after a reset.
 old-location: buses\ucx_controller_state.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 717BE2D2-2CF3-4A8C-B7DC-41E45C56B02B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucx_controller_state, ucxcontroller/UCX_CONTROLLER_STATE, _UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStatePreserved, UCX_CONTROLLER_STATE enumeration [Buses], ucxcontroller/UcxControllerStateLost, UcxControllerStateLost, UcxControllerStatePreserved
+ms.keywords: ucxcontroller/UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE enumeration [Buses], UcxControllerStateLost, UcxControllerStatePreserved, ucxcontroller/UcxControllerStatePreserved, buses.ucx_controller_state, UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, _UCX_CONTROLLER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UCX_CONTROLLER_STATE
 product: Windows
 targetos: Windows

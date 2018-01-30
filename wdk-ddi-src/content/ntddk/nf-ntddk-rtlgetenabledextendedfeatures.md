@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c23d3bfd-a83c-4480-b5a1-b057201ea279
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlGetEnabledExtendedFeatures, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_GSSE, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, XSTATE_MASK_LEGACY_FLOATING_POINT, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], kernel.rtlgetenabledextendedfeatures, wdm/RtlGetEnabledExtendedFeatures
+ms.keywords: kernel.rtlgetenabledextendedfeatures, XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY_FLOATING_POINT, wdm/RtlGetEnabledExtendedFeatures, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,22 +29,22 @@ req.type-library:
 req.lib: Ntdll.lib (user mode); NtosKrnl.lib (kernel mode); OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-XState-l1-1-0.dll
 -	API-MS-Win-Core-XState-l1-1-1.dll
 -	API-MS-Win-Core-XState-L1-1-2.dll
-apiname: 
+apiname:
 -	RtlGetEnabledExtendedFeatures
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlGetEnabledExtendedFeatures function

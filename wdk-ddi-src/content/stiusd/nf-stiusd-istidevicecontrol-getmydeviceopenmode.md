@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 814e739f-6147-4287-876e-db6fc41c5aa1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl::GetMyDeviceOpenMode, stiusd/IStiDeviceControl::GetMyDeviceOpenMode, GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_getmydeviceopenmode, GetMyDeviceOpenMode, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, IStiDeviceControl
+ms.keywords: IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode, stiusd/IStiDeviceControl::GetMyDeviceOpenMode, GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiDeviceControl.GetMyDeviceOpenMode
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

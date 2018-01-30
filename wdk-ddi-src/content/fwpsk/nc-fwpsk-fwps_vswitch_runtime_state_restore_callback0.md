@@ -2,7 +2,7 @@
 UID: NC:fwpsk.FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0
 title: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0
 author: windows-driver-content
-description: The filter engine calls the vSwitchRuntimeStateRestoreNotifyFn (FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0) callout function to notify a callout driver about virtual switch run-time state restore events.Note  FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 is a specific version of FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. 
+description: The filter engine calls the vSwitchRuntimeStateRestoreNotifyFn (FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0) callout function to notify a callout driver about virtual switch run-time state restore events.Note  FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 is a specific version of FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_runtime_state_restore_callback0.htm
 old-project: netvista
 ms.assetid: E684429C-1BDC-4821-89DF-08FF20D25315
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	vSwitchRuntimeStateRestoreNotifyFn
 product: Windows
 targetos: Windows
@@ -115,11 +115,6 @@ A pointer to a context provided by the callout driver. The driver passed this po
  function. This parameter is optional and can be NULL.
 
 
-#### - runtimeState
-
-The location of the run-time state output result buffer.
-
-
 #### - completionContext [in]
 
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
@@ -132,6 +127,11 @@ A pointer to a completion context provided by the callout driver. This parameter
 A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
 
 <div class="alert"><b>Note</b>  The information in the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a> structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the <b>NumSwitchPorts</b> and <b>IsActive</b> members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.</div><div> </div>
+
+#### - runtimeState
+
+The location of the run-time state output result buffer.
+
 
 ## -returns
 
@@ -201,21 +201,21 @@ A callout can return STATUS_PENDING from <i>vSwitchRuntimeStateRestoreNotifyFn</
 
 ## -see-also
 
-<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598267">OID_SWITCH_NIC_RESTORE</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
+<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598267">OID_SWITCH_NIC_RESTORE</a>
 
  
 

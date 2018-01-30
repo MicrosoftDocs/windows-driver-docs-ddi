@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDriver::CreatePreallocatedWdfMemory, umdf.iwdfdriver_createpreallocatedwdfmemory, IWDFDriver, IWDFDriver::CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, IWDFDriver interface, CreatePreallocatedWdfMemory method, wdf.iwdfdriver_createpreallocatedwdfmemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, IWDFDriver interface, CreatePreallocatedWdfMemory method
+ms.keywords: UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, IWDFDriver::CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory, wdf.iwdfdriver_createpreallocatedwdfmemory, umdf.iwdfdriver_createpreallocatedwdfmemory, CreatePreallocatedWdfMemory, IWDFDriver interface, CreatePreallocatedWdfMemory method, IWDFDriver, CreatePreallocatedWdfMemory method, IWDFDriver interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDriver.CreatePreallocatedWdfMemory
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -123,17 +123,17 @@ When the framework memory object that <b>CreatePreallocatedWdfMemory</b> created
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560162">IWDFMemory::SetBuffer</a>
 
 <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
  
 

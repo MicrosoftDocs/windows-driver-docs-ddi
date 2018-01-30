@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5E639331-5929-4575-855F-CAFB4E77B66D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, sensors.sensor_property_list_calculate_max_count
+ms.keywords: sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, sensors.sensor_property_list_calculate_max_count, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 product: Windows
 targetos: Windows

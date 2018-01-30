@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 50860DA0-D42C-4ACB-A574-C0DEA85713BD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensor_collection_list_init, SENSOR_COLLECTION_LIST_INIT, sensorsdef/SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices]
+ms.keywords: SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], SENSOR_COLLECTION_LIST_INIT, sensorsdef/SENSOR_COLLECTION_LIST_INIT, sensors.sensor_collection_list_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	SENSOR_COLLECTION_LIST_INIT
 product: Windows
 targetos: Windows

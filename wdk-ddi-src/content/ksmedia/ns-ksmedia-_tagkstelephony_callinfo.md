@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], KSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
+ms.keywords: audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], KSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], ksmedia/PKSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

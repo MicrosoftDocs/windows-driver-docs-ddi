@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 07167C7E-E8EB-41E3-B2E3-7B9E9CCC5465
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUShortAdd, kernel.rtlushortadd, RtlUShortAdd function [Kernel-Mode Driver Architecture], RtlUShortAdd
+ms.keywords: ntintsafe/RtlUShortAdd, RtlUShortAdd, kernel.rtlushortadd, RtlUShortAdd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlUShortAdd
 product: Windows
 targetos: Windows

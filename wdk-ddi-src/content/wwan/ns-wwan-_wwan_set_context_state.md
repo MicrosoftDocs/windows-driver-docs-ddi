@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT_STATE
-title: _WWAN_SET_CONTEXT_STATE
+title: "_WWAN_SET_CONTEXT_STATE"
 author: windows-driver-content
 description: The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_set_context_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1ed31af-97a7-472e-b834-577470950335
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_set_context_state, PWWAN_SET_CONTEXT_STATE, WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, WWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE, _WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SET_CONTEXT_STATE
+ms.keywords: WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, WWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PWWAN_SET_CONTEXT_STATE, wwan/PWWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, _WWAN_SET_CONTEXT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SET_CONTEXT_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE
+req.typenames: "*PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -255,11 +255,11 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 <a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
 
-<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_context_state.md">NDIS_WWAN_SET_CONTEXT_STATE</a>
 
 <a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
+
+<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
 
  
 

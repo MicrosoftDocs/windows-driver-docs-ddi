@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1f8f13e0-b0d3-4c94-bd1f-0e42bb75142d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, ChangerInitializeElementStatus function [Storage Devices], mcd/ChangerInitializeElementStatus, ChangerInitializeElementStatus, storage.changerinitializeelementstatus
+ms.keywords: storage.changerinitializeelementstatus, chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, mcd/ChangerInitializeElementStatus, ChangerInitializeElementStatus function [Storage Devices], ChangerInitializeElementStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerInitializeElementStatus
 product: Windows
 targetos: Windows
@@ -113,9 +113,9 @@ For a SCSI changer, <b>ChangerInitializeElementStatus</b> builds an SRB with a C
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_initialize_element_status.md">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 

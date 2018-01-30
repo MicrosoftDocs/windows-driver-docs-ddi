@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, GetResolution, GetResolution method [Streaming Media Devices], stream.iksreferenceclock_getresolution, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, GetResolution method [Streaming Media Devices], IKsReferenceClock interface
+ms.keywords: stream.iksreferenceclock_getresolution, GetResolution method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock, IKsReferenceClock::GetResolution, GetResolution, ks/IKsReferenceClock::GetResolution, GetResolution method [Streaming Media Devices], avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, IKsReferenceClock interface [Streaming Media Devices], GetResolution method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsReferenceClock.GetResolution
 product: Windows
 targetos: Windows

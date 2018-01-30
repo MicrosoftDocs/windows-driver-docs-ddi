@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1aeb4642-d718-4e39-a6c7-dc33146c9687
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILUICCSERVICESERVICE, RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccserviceservice, RIL_UICCOPERATION_SERVICE_MAX, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX, RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_ACL
+ms.keywords: RIL_UICCOPERATION_SERVICE_BDN, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice, RIL_UICCOPERATION_SERVICE_ACL, RILUICCSERVICESERVICE, ntddrilapitypes/RILUICCSERVICESERVICE, RIL_UICCOPERATION_SERVICE_MAX, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILUICCSERVICESERVICE
 product: Windows
 targetos: Windows

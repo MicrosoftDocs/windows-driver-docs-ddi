@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SCAN_REQUEST_V2
-title: _DOT11_SCAN_REQUEST_V2
+title: "_DOT11_SCAN_REQUEST_V2"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_scan_request_v2.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], *PDOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, windot11/PDOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PDOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, _DOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, netvista.dot11_scan_request_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_SCAN_REQUEST_V2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2
+req.typenames: "*PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2"
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,25 @@ If the
      Station (ExtSTA) mode. The 
      <b>dot11_scan_type_forced</b> bit must be set through a bitwise OR with a DOT11_SCAN_TYPE
      value.</div><div> </div>
+
+#### dot11_scan_type_active
+
+The station transmits an 802.11 Probe Request frame on each channel that it scans. It dwells on
+       the channel long enough to receive 802.11 Probe Response frames for its Probe Request. The station
+       also receives 802.11 Beacon frames sent on the channel.
+
+
+#### dot11_scan_type_passive
+
+The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
+       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
+
+
+#### dot11_scan_type_auto
+
+The station can perform active or passive scans, or it can use a combination of both scan
+       types.
+
 
 ### -field bRestrictedScan
 
@@ -263,25 +282,6 @@ The length, in bytes, of the list of IEs.
 The buffer containing optional data as specified through other members of this structure.
 
 
-##### - dot11ScanType.dot11_scan_type_auto
-
-The station can perform active or passive scans, or it can use a combination of both scan
-       types.
-
-
-##### - dot11ScanType.dot11_scan_type_active
-
-The station transmits an 802.11 Probe Request frame on each channel that it scans. It dwells on
-       the channel long enough to receive 802.11 Probe Response frames for its Probe Request. The station
-       also receives 802.11 Beacon frames sent on the channel.
-
-
-##### - dot11ScanType.dot11_scan_type_passive
-
-The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
-       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
-
-
 ## -remarks
 
 
@@ -302,9 +302,9 @@ For more information about the ExtSTA operation mode, see
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+<a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a>
 
  
 

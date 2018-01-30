@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtQueryVirtualStationProperties
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -95,19 +95,19 @@ A handle used by the operating system to reference the primary physical wireless
 This parameter is reserved for use by the operating system and should be <b>NULL</b>.
 
 
-#### - pgPrimary [out]
-
-A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
-     station. This parameter is valid only if 
-     <i>pbIsVirtualStation</i> points to a value that is <b>TRUE</b>.
-
-
 #### - pbIsVirtualStation [out]
 
 A pointer to a Boolean value that indicates whether the primary physical WLAN adapter pointed to
      by the 
      <i>hDot11SvcHandle</i> parameter is a virtual station adapter or not. If the value is <b>TRUE</b>, the queried
      adapter is a virtual station, otherwise it is not a virtual station.
+
+
+#### - pgPrimary [out]
+
+A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
+     station. This parameter is valid only if 
+     <i>pbIsVirtualStation</i> points to a value that is <b>TRUE</b>.
 
 
 ## -returns

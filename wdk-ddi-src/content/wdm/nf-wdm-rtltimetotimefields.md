@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 128fe592-8dc1-46cf-8aa6-0f3de0896cc5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], RtlTimeToTimeFields, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields
+ms.keywords: RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], wdm/RtlTimeToTimeFields, k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, RtlTimeToTimeFields, kernel.rtltimetotimefields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlTimeToTimeFields
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
-
 <a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 <a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 

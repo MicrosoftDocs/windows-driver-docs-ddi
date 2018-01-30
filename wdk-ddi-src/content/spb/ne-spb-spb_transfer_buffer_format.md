@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatList, SPB.spb_transfer_buffer_format, SpbTransferBufferFormatMdl, *PSPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatMax, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatSimple, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatInvalid, SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatMdl
+ms.keywords: SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimple, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatSimpleNonPaged, *PSPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimpleNonPaged, SPB.spb_transfer_buffer_format, SpbTransferBufferFormatMdl, SPB_TRANSFER_BUFFER_FORMAT, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatMax, SpbTransferBufferFormatMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spb.h
-apiname: 
+apiname:
 -	SPB_TRANSFER_BUFFER_FORMAT
 product: Windows
 targetos: Windows

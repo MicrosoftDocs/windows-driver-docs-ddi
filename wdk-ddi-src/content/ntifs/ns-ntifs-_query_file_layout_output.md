@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._QUERY_FILE_LAYOUT_OUTPUT
-title: _QUERY_FILE_LAYOUT_OUTPUT
+title: "_QUERY_FILE_LAYOUT_OUTPUT"
 author: windows-driver-content
 description: The QUERY_FILE_LAYOUT_OUTPUT structure serves as a header for the file layout entries that are returned from a FSCTL_QUERY_FILE_LAYOUT request.
 old-location: ifsk\query_file_layout_output.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: QUERY_FILE_LAYOUT_SINGLE_INSTANCED, PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], ntifs/PQUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output
+ms.keywords: "_QUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], *PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_SINGLE_INSTANCED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	QUERY_FILE_LAYOUT_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: *PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT
+req.typenames: "*PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT"
 ---
 
 # _QUERY_FILE_LAYOUT_OUTPUT structure
@@ -143,9 +143,9 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a>
-
 <a href="..\ntifs\ns-ntifs-_query_file_layout_input.md">QUERY_FILE_LAYOUT_INPUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a>
 
  
 

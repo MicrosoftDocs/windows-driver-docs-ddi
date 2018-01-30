@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, stream.kspproperty_allocator_mdlcaching, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices]
+ms.keywords: stream.kspproperty_allocator_mdlcaching, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPPROPERTY_ALLOCATOR_MDLCACHING
 product: Windows
 targetos: Windows

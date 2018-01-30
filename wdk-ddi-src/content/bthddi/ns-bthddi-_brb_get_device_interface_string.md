@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 340e4b9a-9959-4eda-b26b-674f7fca7156
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_get_device_interface_string, bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml, bthddi/_BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices]
+ms.keywords: bltooth._brb_get_device_interface_string, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices], bthddi/_BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING, bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,7 +100,7 @@ To get the device interface string for the current device object, profile driver
     BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link> request.
 
 The Bluetooth driver stack performs an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> call on
+    <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> call on
     each device object it creates. The BRB returns the device interface string returned by that call. This
     can be useful for registering for events.
 
@@ -112,12 +112,12 @@ If the buffer pointed to by the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
-
 <mshelp:link keywords="bltooth.brb_get_device_interface_string" tabindex="0"><b>
    BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
  
 

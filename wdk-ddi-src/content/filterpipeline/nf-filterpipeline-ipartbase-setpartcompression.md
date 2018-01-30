@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline/IPartBase::SetPartCompression, print.ipartbase_setpartcompression, SetPartCompression method [Print Devices], IPartBase interface, IPartBase::SetPartCompression, SetPartCompression method [Print Devices], IPartBase, IPartBase interface [Print Devices], SetPartCompression method, SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml
+ms.keywords: print.ipartbase_setpartcompression, SetPartCompression method [Print Devices], IPartBase interface, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, SetPartCompression, IPartBase::SetPartCompression, IPartBase, SetPartCompression method [Print Devices], filterpipeline/IPartBase::SetPartCompression, IPartBase interface [Print Devices], SetPartCompression method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartBase.SetPartCompression
 product: Windows
 targetos: Windows

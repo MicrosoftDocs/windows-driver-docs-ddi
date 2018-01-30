@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_OPC_INFO_TYPE
-title: _CDROM_OPC_INFO_TYPE
+title: "_CDROM_OPC_INFO_TYPE"
 author: windows-driver-content
 description: The CDROM_OPC_INFO_TYPE enumeration is a member of the CDROM_SIMPLE_OPC_INFO structure. It defines the Optimum Power Calibration (OPC) request that is used as input to the IOCTL_CDROM_SEND_OPC_INFORMATION I/O control request.
 old-location: storage\cdrom_opc_info_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], SimpleOpcInfo, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], storage.cdrom_opc_info_type, *PCDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE, _CDROM_OPC_INFO_TYPE
+ms.keywords: ntddcdrm/CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, *PCDROM_OPC_INFO_TYPE, SimpleOpcInfo, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], storage.cdrom_opc_info_type, _CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_OPC_INFO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE
+req.typenames: "*PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE"
 ---
 
 # _CDROM_OPC_INFO_TYPE enumeration
@@ -74,9 +74,9 @@ Specifies the wrapper for the SEND OPC INFORMATION command from the Multimedia C
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
 
  
 

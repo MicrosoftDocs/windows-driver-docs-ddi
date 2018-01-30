@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbfnattach.h
-apiname: 
+apiname:
 -	PFN_USBFN_SET_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY
+req.typenames: "*PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY"
 req.product: Windows 10 or later.
 ---
 

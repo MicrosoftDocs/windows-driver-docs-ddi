@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D4drvif.h
-apiname: 
+apiname:
 -	IOCTL_DOT4_LAST
 product: Windows
 targetos: Windows

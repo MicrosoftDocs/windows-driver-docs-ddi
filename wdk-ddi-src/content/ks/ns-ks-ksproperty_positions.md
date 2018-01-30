@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks/PKSPROPERTY_POSITIONS, stream.ksproperty_positions, PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, *PKSPROPERTY_POSITIONS, ks/KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS
+ms.keywords: stream.ksproperty_positions, ks/PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, ks/KSPROPERTY_POSITIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_POSITIONS
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS
+req.typenames: "*PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS"
 ---
 
 # KSPROPERTY_POSITIONS structure

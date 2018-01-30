@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ccbe98ca-7da9-4159-ac1a-c25ec6745ff4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, ndis/NdisMAllocateSharedMemoryAsyncEx, netvista.ndismallocatesharedmemoryasyncex, NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, netvista.ndismallocatesharedmemoryasyncex, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista], NdisMAllocateSharedMemoryAsyncEx, ndis/NdisMAllocateSharedMemoryAsyncEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMAllocateSharedMemoryAsyncEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMAllocateSharedMemoryAsyncEx function
@@ -177,21 +177,21 @@ Any miniport driver that calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
+   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+
 <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
    NdisMRegisterScatterGatherDma</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
  
 

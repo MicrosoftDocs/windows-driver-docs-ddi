@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetCHAPSharedSecret_OUT
-title: _SetCHAPSharedSecret_OUT
+title: "_SetCHAPSharedSecret_OUT"
 author: windows-driver-content
 description: The SetCHAPSharedSecret_OUT structure holds the output data for the SetCHAPSharedSecret method.
 old-location: storage\setchapsharedsecret_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a169a5b2-5303-41fc-80d2-69b44fd45c47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, iscsiop/PSetCHAPSharedSecret_OUT, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, _SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], *PSetCHAPSharedSecret_OUT, iscsiop/SetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices]
+ms.keywords: "*PSetCHAPSharedSecret_OUT, iscsiop/SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], _SetCHAPSharedSecret_OUT, iscsiop/PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, storage.setchapsharedsecret_out, PSetCHAPSharedSecret_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetCHAPSharedSecret_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT
+req.typenames: "*PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT"
 ---
 
 # _SetCHAPSharedSecret_OUT structure
@@ -81,11 +81,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
 
 <a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
  
 

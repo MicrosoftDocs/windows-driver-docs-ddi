@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlvalidrelativesecuritydescriptor, RtlValidRelativeSecurityDescriptor, wdm/RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml
+ms.keywords: RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], kernel.rtlvalidrelativesecuritydescriptor, k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, wdm/RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlValidRelativeSecurityDescriptor
 product: Windows
 targetos: Windows

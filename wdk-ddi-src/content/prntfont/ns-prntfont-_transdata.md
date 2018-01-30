@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._TRANSDATA
-title: _TRANSDATA
+title: "_TRANSDATA"
 author: windows-driver-content
 description: The TRANSDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\transdata.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 75ddf007-0113-4967-a8d4-02fcc3cc2857
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, print.transdata, PTRANSDATA, _TRANSDATA, *PTRANSDATA, prntfont/PTRANSDATA, TRANSDATA, PTRANSDATA structure pointer [Print Devices], TRANSDATA structure [Print Devices], prntfont/TRANSDATA
+ms.keywords: PTRANSDATA structure pointer [Print Devices], PTRANSDATA, prntfont/TRANSDATA, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, TRANSDATA, TRANSDATA structure [Print Devices], *PTRANSDATA, prntfont/PTRANSDATA, print.transdata, _TRANSDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	TRANSDATA
 product: Windows
 targetos: Windows
-req.typenames: *PTRANSDATA, TRANSDATA
+req.typenames: TRANSDATA, *PTRANSDATA
 req.product: Windows 10 or later.
 ---
 
@@ -238,11 +238,11 @@ A .gtt file's TRANSDATA structure array, which contains glyph mapping informatio
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
-
 <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
 
 <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
+
+<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
  
 

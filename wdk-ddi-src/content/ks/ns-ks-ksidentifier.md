@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSPIN_MEDIUM, KSEVENT, KSDEGRADE, *PKSMETHOD, *PKSEVENT, *PKSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], *PKSDEGRADE, *PKSPIN_INTERFACE, KSMETHOD, stream.ksidentifier, KSIDENTIFIER, *PKSPROPERTY, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSPIN_INTERFACE, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks/KSIDENTIFIER, KSPROPERTY, KSPIN_MEDIUM, PKSIDENTIFIER, ks/PKSIDENTIFIER
+ms.keywords: PKSIDENTIFIER structure pointer [Streaming Media Devices], *PKSPIN_MEDIUM, KSIDENTIFIER structure [Streaming Media Devices], KSEVENT, ks/PKSIDENTIFIER, KSMETHOD, *PKSPROPERTY, KSIDENTIFIER, KSPIN_MEDIUM, *PKSMETHOD, *PKSIDENTIFIER, *PKSDEGRADE, stream.ksidentifier, *PKSEVENT, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, PKSIDENTIFIER, *PKSPIN_INTERFACE, KSPIN_INTERFACE, KSDEGRADE, ks/KSIDENTIFIER, KSPROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSIDENTIFIER
 product: Windows
 targetos: Windows
@@ -127,9 +127,9 @@ The use of an ID within the set allows one to perform a single large compare for
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 

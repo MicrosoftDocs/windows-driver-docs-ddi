@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], MemoryUsage method, MemoryUsage, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices], IPrintOemUni interface
+ms.keywords: print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, IPrintOemUni::MemoryUsage, IPrintOemUni, prcomoem/IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], IPrintOemUni interface, MemoryUsage method [Print Devices], print.iprintoemuni_memoryusage, IPrintOemUni interface [Print Devices], MemoryUsage method, MemoryUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.MemoryUsage
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -160,11 +160,11 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
 <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxproprietarycharger._UFX_PROPRIETARY_CHARGER
-title: _UFX_PROPRIETARY_CHARGER
+title: "_UFX_PROPRIETARY_CHARGER"
 author: windows-driver-content
 description: Describes the proprietary charger's device power requirements.
 old-location: buses\ufx_proprietary_charger.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FAAEDAFE-69A8-4092-8301-DB159FD3583D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], buses.ufx_proprietary_charger, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], UFX_PROPRIETARY_CHARGER, _UFX_PROPRIETARY_CHARGER
+ms.keywords: UFX_PROPRIETARY_CHARGER structure [Buses], PUFX_PROPRIETARY_CHARGER structure pointer [Buses], ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER, _UFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxproprietarycharger.h
-apiname: 
+apiname:
 -	UFX_PROPRIETARY_CHARGER
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER
+req.typenames: UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, ScsiPortReadRegisterUlong routine [Storage Devices], ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong, srb/ScsiPortReadRegisterUlong
+ms.keywords: ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong, srb/ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortReadRegisterUlong
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

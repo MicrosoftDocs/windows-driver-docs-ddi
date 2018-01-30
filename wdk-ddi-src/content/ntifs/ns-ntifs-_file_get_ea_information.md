@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_GET_EA_INFORMATION
-title: _FILE_GET_EA_INFORMATION
+title: "_FILE_GET_EA_INFORMATION"
 author: windows-driver-content
 description: The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information.
 old-location: ifsk\file_get_ea_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2abaf505-b890-43b6-a277-d930417bdcb8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], FILE_GET_EA_INFORMATION, ntifs/PFILE_GET_EA_INFORMATION, ifsk.file_get_ea_information, PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers], ntifs/FILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION, _FILE_GET_EA_INFORMATION
+ms.keywords: ntifs/PFILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], ifsk.file_get_ea_information, ntifs/FILE_GET_EA_INFORMATION, _FILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_GET_EA_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION
+req.typenames: "*PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION"
 ---
 
 # _FILE_GET_EA_INFORMATION structure
@@ -95,11 +95,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, PsQueryTotalCycleTimeProcess, wdm/PsQueryTotalCycleTimeProcess
+ms.keywords: wdm/PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	PsQueryTotalCycleTimeProcess
 product: Windows
 targetos: Windows

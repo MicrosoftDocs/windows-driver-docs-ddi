@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, RetrieveNextRequestByFileObject method, IWDFIoQueue
+ms.keywords: umdf.iwdfioqueue_retrievenextrequestbyfileobject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, IWDFIoQueue, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, wdf.iwdfioqueue_retrievenextrequestbyfileobject, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoQueue.RetrieveNextRequestByFileObject
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -156,15 +156,15 @@ If multiple I/O requests whose file objects match the file object that the <i>pF
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
  
 

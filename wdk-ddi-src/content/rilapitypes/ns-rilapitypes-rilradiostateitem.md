@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cfc3e62-3398-435a-b603-fb7638ed8ce9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilradiostateitem_2, rilapitypes/RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILRADIOSTATEITEM, rilapitypes/RILRADIOSTATEITEM, netvista.rilradiostateitem_2, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], *LPRILRADIOSTATEITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILRADIOSTATEITEM
 product: Windows
 targetos: Windows
-req.typenames: RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
+req.typenames: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM"
 req.product: Windows 10 or later.
 ---
 
@@ -152,35 +152,7 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
-#### - byteArray
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
-
-
-
-#### - uintArray
-
-
-
-#### - case
-
-
-
-#### - uintVal
-
-
-
 #### - switch_is
-
-
-
-#### - intArray
 
 
 
@@ -188,11 +160,15 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
+#### - case
+
+
+
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
 
 
 
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
+#### - uintVal
 
 
 
@@ -200,10 +176,34 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
+#### - wszVal
+
+
+
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
 
 
 
-#### - wszVal
+#### - intArray
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
+
+
+
+#### - uintArray
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
+
+
+
+#### - byteArray
+
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
 
 

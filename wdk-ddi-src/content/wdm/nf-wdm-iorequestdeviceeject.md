@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRequestDeviceEject, kernel.iorequestdeviceeject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, wdm/IoRequestDeviceEject
+ms.keywords: kernel.iorequestdeviceeject, IoRequestDeviceEject, k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, wdm/IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoRequestDeviceEject
 product: Windows
 targetos: Windows
@@ -141,13 +141,13 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550853">IRP_MN_EJECT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550853">IRP_MN_EJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
 
  
 

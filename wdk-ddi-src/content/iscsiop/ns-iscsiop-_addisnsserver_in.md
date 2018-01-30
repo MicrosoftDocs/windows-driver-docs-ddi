@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddiSNSServer_IN
-title: _AddiSNSServer_IN
+title: "_AddiSNSServer_IN"
 author: windows-driver-content
 description: The AddiSNSServer_IN structure holds the input data for the user-mode AddISNSServer method, which is used to add a new iSNS server entry to the list of iSNS server names that the initiator maintains.
 old-location: storage\addisnsserver_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, AddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], *PAddiSNSServer_IN, _AddiSNSServer_IN, storage.addisnsserver_in, iscsiop/PAddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], PAddiSNSServer_IN, iscsiop/AddiSNSServer_IN
+ms.keywords: AddiSNSServer_IN, storage.addisnsserver_in, iscsiop/PAddiSNSServer_IN, _AddiSNSServer_IN, PAddiSNSServer_IN, iscsiop/AddiSNSServer_IN, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, *PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], AddiSNSServer_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	AddiSNSServer_IN
 product: Windows
 targetos: Windows
-req.typenames: AddiSNSServer_IN, *PAddiSNSServer_IN
+req.typenames: "*PAddiSNSServer_IN, AddiSNSServer_IN"
 ---
 
 # _AddiSNSServer_IN structure
@@ -81,9 +81,9 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
 <a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
  
 

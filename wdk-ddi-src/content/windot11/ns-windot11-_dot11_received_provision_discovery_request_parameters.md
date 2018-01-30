@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
-title: _DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
+title: "_DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS"
 author: windows-driver-content
 description: The parameters for a provision discovery request are specified in a DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST indication.
 old-location: netvista\dot11_received_provision_discovery_request_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1F6D8F31-D813-4CC3-BBA1-167560436AD6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, _DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_received_provision_discovery_request_parameters, PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
+ms.keywords: PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_received_provision_discovery_request_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
+req.typenames: DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -129,9 +129,9 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
 
  
 

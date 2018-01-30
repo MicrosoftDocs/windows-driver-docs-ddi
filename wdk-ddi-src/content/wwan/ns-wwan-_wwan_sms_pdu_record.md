@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_PDU_RECORD
-title: _WWAN_SMS_PDU_RECORD
+title: "_WWAN_SMS_PDU_RECORD"
 author: windows-driver-content
 description: The WWAN_SMS_PDU_RECORD structure represents a PDU-style SMS message record.
 old-location: netvista\wwan_sms_pdu_record.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 20200222-8539-497e-891e-2d29c3207c56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, wwan/PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], _WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD, netvista.wwan_sms_pdu_record
+ms.keywords: wwan/PWWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD, _WWAN_SMS_PDU_RECORD, WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_sms_pdu_record
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_PDU_RECORD
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD
+req.typenames: "*PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD"
 req.product: Windows 10 or later.
 ---
 

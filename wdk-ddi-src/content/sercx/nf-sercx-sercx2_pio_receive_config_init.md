@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 08FBBC1D-EB2A-4178-9245-C3FF60424F95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2_pio_receive_config_init, 2/SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_PIO_RECEIVE_CONFIG_INIT
+ms.keywords: SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_PIO_RECEIVE_CONFIG_INIT, serports.sercx2_pio_receive_config_init, 2/SERCX2_PIO_RECEIVE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX2_PIO_RECEIVE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 

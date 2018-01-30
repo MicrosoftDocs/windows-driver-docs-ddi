@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 09885782-2293-49a3-af48-6450dbc6a24e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetRootItem function [Imaging Devices], wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiamdef/wiasGetRootItem, image.wiasgetrootitem, wiasGetRootItem
+ms.keywords: image.wiasgetrootitem, wiasGetRootItem function [Imaging Devices], wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiamdef/wiasGetRootItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasGetRootItem
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

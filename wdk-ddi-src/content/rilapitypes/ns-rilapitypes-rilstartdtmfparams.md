@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 51f6ea96-412a-429f-993b-de31f77f4d30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, netvista.rilstartdtmfparams_2, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams_2, *LPRILSTARTDTMFPARAMS, rilapitypes/RILSTARTDTMFPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSTARTDTMFPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS
+req.typenames: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS"
 req.product: Windows 10 or later.
 ---
 

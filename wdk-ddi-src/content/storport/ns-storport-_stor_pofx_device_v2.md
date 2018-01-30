@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_DEVICE_V2
-title: _STOR_POFX_DEVICE_V2
+title: "_STOR_POFX_DEVICE_V2"
 author: windows-driver-content
 description: The STOR_POFX_DEVICE_V2 structure describes the power attributes of a storage device to the power management framework (PoFx).
 old-location: storage\stor_pofx_device_v2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1AD3B5E6-CF90-49D2-8FF7-FE309E4331CE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2, _STOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, storport/STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2 structure [Storage Devices], storport/PSTOR_POFX_DEVICE_V2
+ms.keywords: PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], PSTOR_POFX_DEVICE_V2, storport/PSTOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, storport/STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_V2 structure [Storage Devices], _STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_D3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_POFX_DEVICE_V2
 product: Windows
 targetos: Windows
-req.typenames: STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2
+req.typenames: "*PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2"
 req.product: Windows 10 or later.
 ---
 
@@ -187,15 +187,15 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
 
  
 

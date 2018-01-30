@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f1a6e3f-3bbc-4cc5-8efe-e3cf6ac3adf5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml, ntddk/IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices], storage.iosetpartitioninformation, IoSetPartitionInformation
+ms.keywords: ntddk/IoSetPartitionInformation, storage.iosetpartitioninformation, rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml, IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetPartitionInformation
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetPartitionInformation function
@@ -116,11 +116,11 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
 
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
  
 

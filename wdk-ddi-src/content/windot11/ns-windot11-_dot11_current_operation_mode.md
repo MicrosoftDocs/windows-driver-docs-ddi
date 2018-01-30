@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_CURRENT_OPERATION_MODE
-title: _DOT11_CURRENT_OPERATION_MODE
+title: "_DOT11_CURRENT_OPERATION_MODE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_current_operation_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 085ee8f4-7e96-416a-a59f-f35c8ad0dbf4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CURRENT_OPERATION_MODE, netvista.dot11_current_operation_mode, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CURRENT_OPERATION_MODE, Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, PDOT11_CURRENT_OPERATION_MODE, windot11/DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE
+ms.keywords: netvista.dot11_current_operation_mode, windot11/PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE, _DOT11_CURRENT_OPERATION_MODE, Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, PDOT11_CURRENT_OPERATION_MODE, windot11/DOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_CURRENT_OPERATION_MODE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE
+req.typenames: "*PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE"
 req.product: Windows 10 or later.
 ---
 
@@ -87,27 +87,7 @@ For more information about operation modes, see
       Modes</mshelp:link>.
 
 
-##### - uCurrentOpMode.DOT11_OPERATION_MODE_WFD_DEVICE
-
-Specifies that the miniport driver supports the Wi-Fi Direct Device operation mode. This mode is available starting in Windows 8.
-
-
-##### - uCurrentOpMode.DOT11_OPERATION_MODE_WFD_CLIENT
-
-Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode. This mode is available starting in Windows 8.
-
-
-##### - uCurrentOpMode.DOT11_OPERATION_MODE_NETWORK_MONITOR
-
-Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
-
-
-##### - uCurrentOpMode.DOT11_OPERATION_MODE_WFD_GROUP_OWNER
-
-Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operation mode.This mode is available starting in Windows 8.
-
-
-##### - uCurrentOpMode.DOT11_OPERATION_MODE_EXTENSIBLE_AP
+#### DOT11_OPERATION_MODE_EXTENSIBLE_AP
 
 Specifies that the miniport driver supports the Extensible Access Point (ExtAP) operation
          mode.
@@ -115,10 +95,30 @@ Specifies that the miniport driver supports the Extensible Access Point (ExtAP) 
 This value is available starting with Windows 7.
 
 
-##### - uCurrentOpMode.DOT11_OPERATION_MODE_EXTENSIBLE_STATION
+#### DOT11_OPERATION_MODE_EXTENSIBLE_STATION
 
 Specifies that the miniport driver supports the Extensible Station (ExtSTA) operation
         mode.
+
+
+#### DOT11_OPERATION_MODE_NETWORK_MONITOR
+
+Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
+
+
+#### DOT11_OPERATION_MODE_WFD_DEVICE
+
+Specifies that the miniport driver supports the Wi-Fi Direct Device operation mode. This mode is available starting in Windows 8.
+
+
+#### DOT11_OPERATION_MODE_WFD_GROUP_OWNER
+
+Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operation mode.This mode is available starting in Windows 8.
+
+
+#### DOT11_OPERATION_MODE_WFD_CLIENT
+
+Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode. This mode is available starting in Windows 8.
 
 
 ## -remarks

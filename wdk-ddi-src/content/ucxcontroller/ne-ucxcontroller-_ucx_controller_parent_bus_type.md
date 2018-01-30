@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxcontroller._UCX_CONTROLLER_PARENT_BUS_TYPE
-title: _UCX_CONTROLLER_PARENT_BUS_TYPE
+title: "_UCX_CONTROLLER_PARENT_BUS_TYPE"
 author: windows-driver-content
 description: The UCX_CONTROLLER_PARENT_BUS_TYPE enumeration defines the parent bus type.
 old-location: buses\ucx_controller_parent_bus_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FD78074D-E128-4085-A178-0133C9256E42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxcontroller/UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypeCustom, _UCX_CONTROLLER_PARENT_BUS_TYPE, UcxControllerParentBusTypeCustom, buses.ucx_controller_parent_bus_type, UcxControllerParentBusTypePci, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], ucxcontroller/UcxControllerParentBusTypePci, UcxControllerParentBusTypeAcpi, UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE
+ms.keywords: "_UCX_CONTROLLER_PARENT_BUS_TYPE, buses.ucx_controller_parent_bus_type, ucxcontroller/UcxControllerParentBusTypeAcpi, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], ucxcontroller/UcxControllerParentBusTypePci, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE, UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypeCustom, UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypePci"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UCX_CONTROLLER_PARENT_BUS_TYPE
 product: Windows
 targetos: Windows

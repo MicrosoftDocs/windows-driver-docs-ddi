@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75cf8262-8cb4-428e-b18e-b80121c6390e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, wdm/IoReleaseRemoveLock, IoReleaseRemoveLock, kernel.ioreleaseremovelock
+ms.keywords: k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, wdm/IoReleaseRemoveLock, IoReleaseRemoveLock, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReleaseRemoveLock
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
-
 <a href="..\wdm\nf-wdm-ioacquireremovelock.md">IoAcquireRemoveLock</a>
+
+<a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
 
 <a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
 

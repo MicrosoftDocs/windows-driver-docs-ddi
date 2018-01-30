@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetPipe, stream.ikspinpipe_kssetpipe, IKsPinPipe::KsSetPipe, KsSetPipe method [Streaming Media Devices], IKsPinPipe, ksproxy/IKsPinPipe::KsSetPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method, KsSetPipe method [Streaming Media Devices], IKsPinPipe interface
+ms.keywords: KsSetPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method, IKsPinPipe, KsSetPipe method [Streaming Media Devices], IKsPinPipe interface, KsSetPipe method [Streaming Media Devices], ksproxy/IKsPinPipe::KsSetPipe, IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsSetPipe
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSALLOCATOR_FLAG_DEVICE_SPECIFIC, ks/PKS_FRAMING_ITEM, KS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, stream.ks_framing_item, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, ks/KS_FRAMING_ITEM, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, *PKS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY
+ms.keywords: ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, KSALLOCATOR_FLAG_CAN_ALLOCATE, KS_FRAMING_ITEM, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, stream.ks_framing_item, ks/PKS_FRAMING_ITEM, PKS_FRAMING_ITEM, *PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, ks/KS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KS_FRAMING_ITEM structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KS_FRAMING_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKS_FRAMING_ITEM, KS_FRAMING_ITEM
+req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
 ---
 
 # KS_FRAMING_ITEM structure
@@ -233,6 +233,26 @@ Not used.
 Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure, with the addition of the following flags that add support for pipes.
 
 
+#### )
+
+
+
+#### )
+
+
+
+#### )
+
+
+
+#### )
+
+
+
+#### )
+
+
+
 ### -field Frames
 
 Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
@@ -253,26 +273,6 @@ A structure of type <a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</
 A structure of type <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
 
 
-###### - Flags.KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY (Indicates that the Requirements flags are preferences only and the connection point is able to allocate frames that do not meet those preferred specifications.)
-
-
-
-###### - Flags.KSALLOCATOR_FLAG_DEVICE_SPECIFIC (Indicates that the physical memory type is device-specific.)
-
-
-
-###### - Flags.KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO (Indicates that the frame ratio defined in the KS_COMPRESSION structure must be maintained.)
-
-
-
-####### - Flags.KSALLOCATOR_FLAG_CAN_ALLOCATE (Indicates that the filter is capable of allocating device-specific memory. See additional information below.)
-
-
-
-###### - Flags.KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT (Indicates that the filter supports partial fill of frames.)
-
-
-
 ## -remarks
 
 
@@ -284,15 +284,15 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
-<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
+<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
+
+<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
 <a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
 
-<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
+<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi_types._WDFMEMORY_OFFSET
-title: _WDFMEMORY_OFFSET
+title: "_WDFMEMORY_OFFSET"
 author: windows-driver-content
 description: The WDFMEMORY_OFFSET structure describes the location and size of information that is accessed within a memory block.
 old-location: wdf\wdfmemory_offset_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 960710f7-15b1-4815-a33a-0e903d0a4193
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, wudfddi_types/WDFMEMORY_OFFSET, wdf.wdfmemory_offset_umdf, *PWDFMEMORY_OFFSET, umdf.wdfmemory_offset, wudfddi_types/PWDFMEMORY_OFFSET, _WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer
+ms.keywords: wudfddi_types/WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET, umdf.wdfmemory_offset, wudfddi_types/PWDFMEMORY_OFFSET, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, WDFMEMORY_OFFSET structure, wdf.wdfmemory_offset_umdf, PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET, _WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDFMEMORY_OFFSET
 product: Windows
 targetos: Windows
-req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
+req.typenames: "*PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET"
 req.product: Windows 10 or later.
 ---
 

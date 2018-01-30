@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddiarg_openadapter, D3D12DDIARG_OPENADAPTER, d3d12umddi/D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER, display.d3d12ddiarg_openadapter, D3D12DDIARG_OPENADAPTER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

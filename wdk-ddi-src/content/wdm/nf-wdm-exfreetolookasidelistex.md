@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 37057400-7f4d-4274-b1ef-f03771cae34f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exfreetolookasidelistex, k102_2d275628-4a0f-4da8-a512-60a0998d8c5b.xml, ExFreeToLookasideListEx routine [Kernel-Mode Driver Architecture], wdm/ExFreeToLookasideListEx, ExFreeToLookasideListEx
+ms.keywords: ExFreeToLookasideListEx routine [Kernel-Mode Driver Architecture], ExFreeToLookasideListEx, k102_2d275628-4a0f-4da8-a512-60a0998d8c5b.xml, kernel.exfreetolookasidelistex, wdm/ExFreeToLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExFreeToLookasideListEx
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
-<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
  
 

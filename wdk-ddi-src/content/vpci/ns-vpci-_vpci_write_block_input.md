@@ -1,6 +1,6 @@
 ---
 UID: NS:vpci._VPCI_WRITE_BLOCK_INPUT
-title: _VPCI_WRITE_BLOCK_INPUT
+title: "_VPCI_WRITE_BLOCK_INPUT"
 author: windows-driver-content
 description: The VPCI_WRITE_BLOCK_INPUT structure is used in an IOCTL_VPCI_WRITE_BLOCK IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_write_block_input.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.vpci_write_block_input, *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT, _VPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, vpci/PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture]
+ms.keywords: PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], vpci/PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, vpci/VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT, _VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Vpci.h
-apiname: 
+apiname:
 -	VPCI_WRITE_BLOCK_INPUT
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT
+req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 

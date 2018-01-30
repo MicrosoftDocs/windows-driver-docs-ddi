@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46e29607-ee09-4db4-a501-68a3bc678e16
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoVerifyVolume, IoVerifyVolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, ifsk.ioverifyvolume, IoVerifyVolume routine [Installable File System Drivers]
+ms.keywords: ntifs/IoVerifyVolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, IoVerifyVolume routine [Installable File System Drivers], IoVerifyVolume, ifsk.ioverifyvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoVerifyVolume
 product: Windows
 targetos: Windows

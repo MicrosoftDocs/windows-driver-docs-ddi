@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e54864de-9558-44b1-9c5a-0f2ecc6516b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.nmrclientdetachprovidercomplete, NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml, netioddk/NmrClientDetachProviderComplete
+ms.keywords: NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml, netvista.nmrclientdetachprovidercomplete, netioddk/NmrClientDetachProviderComplete, NmrClientDetachProviderComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	netio.lib
 -	netio.dll
-apiname: 
+apiname:
 -	NmrClientDetachProviderComplete
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08951cde-d9d2-4de6-bb63-7c3e7cf1f92f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCHILDLISTBEGINSCAN, WdfChildListBeginScan method, wdf.wdfchildlistbeginscan, DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, wdfchildlist/WdfChildListBeginScan, WdfChildListBeginScan, kmdf.wdfchildlistbeginscan
+ms.keywords: DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan method, wdf.wdfchildlistbeginscan, PFN_WDFCHILDLISTBEGINSCAN, wdfchildlist/WdfChildListBeginScan, WdfChildListBeginScan, kmdf.wdfchildlistbeginscan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfChildListBeginScan
 product: Windows
 targetos: Windows
@@ -101,13 +101,13 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistupdateallchilddescriptionsaspresent.md">WdfChildListUpdateAllChildDescriptionsAsPresent</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
 
  
 

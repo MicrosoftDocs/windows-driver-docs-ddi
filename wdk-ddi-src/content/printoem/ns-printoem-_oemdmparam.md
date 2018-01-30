@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMDMPARAM
-title: _OEMDMPARAM
+title: "_OEMDMPARAM"
 author: windows-driver-content
 description: The OEMDMPARAM structure is used as an input parameter to the IPrintOemUI::DevMode, IPrintOemUni::DevMode, and IPrintOemPS::DevMode methods.
 old-location: print\oemdmparam.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *POEMDMPARAM, _OEMDMPARAM, OEMDMPARAM structure [Print Devices], print.oemdmparam, OEMDMPARAM, printoem/POEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, printoem/OEMDMPARAM, POEMDMPARAM
+ms.keywords: printoem/POEMDMPARAM, OEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], POEMDMPARAM, printoem/OEMDMPARAM, *POEMDMPARAM, _OEMDMPARAM, print.oemdmparam, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, OEMDMPARAM structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMDMPARAM
 product: Windows
 targetos: Windows
-req.typenames: *POEMDMPARAM, OEMDMPARAM
+req.typenames: OEMDMPARAM, *POEMDMPARAM
 req.product: Windows 10 or later.
 ---
 
@@ -86,6 +86,16 @@ Contains the size of the OEMDMPARAM structure. Supplied by the Unidrv or Pscript
 
 
 
+#### For IPrintOemUI::DevMode:
+
+Not used.
+
+
+#### For IPrintOemUni::DevMode and IPrintOemPS::DevMode:
+
+Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+
+
 ### -field hPrinter
 
 Handle to the printer device. Supplied by the Unidrv or Pscript5 driver.
@@ -121,16 +131,6 @@ Pointer to memory allocated to receive modified private DEVMODEW contents. Suppl
 On input, contains the caller-supplied size of memory space pointed to by <b>pOEMDMOut</b>. (Not valid if the <b>DevMode</b> method's <i>dwMode</i> value is OEMDM_SIZE.)
 
 On output, contains the method-supplied size of the current version of the private DEVMODEW section. (Only used if the <b>DevMode</b> method's <i>dwMode</i> value is OEMDM_SIZE.)
-
-
-##### - pdriverobj.For IPrintOemUni::DevMode and IPrintOemPS::DevMode:
-
-Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
-
-
-##### - pdriverobj.For IPrintOemUI::DevMode:
-
-Not used.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INTERFACE_USBDI_V2
-title: _USB_BUS_INTERFACE_USBDI_V2
+title: "_USB_BUS_INTERFACE_USBDI_V2"
 author: windows-driver-content
 description: The USB_BUS_INTERFACE_USBDI_V2 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v2.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c7d9f8b1-a18f-4644-aaee-c019692e62a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], usbbusif/USB_BUS_INTERFACE_USBDI_V2
+ms.keywords: USB_BUS_INTERFACE_USBDI_V2, _USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2, usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], PUSB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, usbbusif/USB_BUS_INTERFACE_USBDI_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	USB_BUS_INTERFACE_USBDI_V2
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2
+req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2"
 req.product: Windows 10 or later.
 ---
 

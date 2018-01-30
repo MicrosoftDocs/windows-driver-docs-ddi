@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.poregisterdeviceforidledetection, wdm/PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, PoRegisterDeviceForIdleDetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoRegisterDeviceForIdleDetection
 product: Windows
 targetos: Windows

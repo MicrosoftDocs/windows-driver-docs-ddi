@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRequestorSessionId routine [Installable File System Drivers], FltGetRequestorSessionId, fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
+ms.keywords: ifsk.fltgetrequestorsessionid, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId, FltGetRequestorSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetRequestorSessionId
 product: Windows
 targetos: Windows

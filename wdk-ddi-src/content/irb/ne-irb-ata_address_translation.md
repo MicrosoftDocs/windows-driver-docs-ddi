@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], irb/ATA_ADDRESS_TRANSLATION, irb/UnknownMode, irb/LbaMode, irb/ChsMode, UnknownMode, LbaMode, ATA_ADDRESS_TRANSLATION, irb/Lba48BitMode, storage.ata_address_translation, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml, Lba48BitMode, ChsMode
+ms.keywords: storage.ata_address_translation, irb/Lba48BitMode, ATA_ADDRESS_TRANSLATION, ChsMode, Lba48BitMode, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml, UnknownMode, irb/UnknownMode, irb/ChsMode, LbaMode, irb/LbaMode, irb/ATA_ADDRESS_TRANSLATION, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	ATA_ADDRESS_TRANSLATION
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSDATARANGE, KSDATARANGE, *PKSDATARANGE, ks/KSDATARANGE, ks/KSDATAFORMAT, KSDATAFORMAT, ks/PKSDATAFORMAT, ks/PKSDATARANGE, PKSDATAFORMAT structure pointer [Streaming Media Devices], KSDATARANGE structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, PKSDATAFORMAT, *PKSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], PKSDATARANGE structure pointer [Streaming Media Devices], stream.ksdataformat
+ms.keywords: PKSDATAFORMAT, ks/KSDATAFORMAT, PKSDATARANGE, *PKSDATARANGE, *PKSDATAFORMAT, stream.ksdataformat, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, ks/PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], KSDATARANGE structure [Streaming Media Devices], ks/PKSDATARANGE, ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], KSDATAFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSDATAFORMAT
 product: Windows
 targetos: Windows
-req.typenames: *PKSDATARANGE, KSDATAFORMAT, KSDATARANGE, *PKSDATAFORMAT
+req.typenames: "*PKSDATARANGE, KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE"
 ---
 
 # KSDATAFORMAT structure
@@ -113,19 +113,19 @@ The following specifiers (defined in <i>ks.h</i>) are of general use:
 
 
 
-##### - Specifier.KSDATAFORMAT_SPECIFIER_FILEHANDLE
+#### KSDATAFORMAT_SPECIFIER_NONE
 
-Indicates that a file handle immediately follows KSDATAFORMAT in memory.  
+Stands for no specifier. Used for formats that do not support specifiers.
 
 
-##### - Specifier.KSDATAFORMAT_SPECIFIER_FILENAME
+#### KSDATAFORMAT_SPECIFIER_FILENAME
 
 Indicates that a null-terminated Unicode string immediately follows the KSDATAFORMAT structure in memory.  
 
 
-##### - Specifier.KSDATAFORMAT_SPECIFIER_NONE
+#### KSDATAFORMAT_SPECIFIER_FILEHANDLE
 
-Stands for no specifier. Used for formats that do not support specifiers.
+Indicates that a file handle immediately follows KSDATAFORMAT in memory.  
 
 
 ## -remarks

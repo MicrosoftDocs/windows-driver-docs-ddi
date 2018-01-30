@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 517CF135-A5D7-4C99-8592-59934E24DEE3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, SetBytes, IPrinterScriptablePropertyBag::SetBytes, printerextension/IPrinterScriptablePropertyBag::SetBytes, IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_setbytes, SetBytes method [Print Devices]
+ms.keywords: SetBytes, IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, printerextension/IPrinterScriptablePropertyBag::SetBytes, print.iprinterscriptablepropertybag_setbytes, IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag, SetBytes method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptablePropertyBag.SetBytes
 product: Windows
 targetos: Windows

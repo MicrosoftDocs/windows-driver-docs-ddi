@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NET_BUFFER_LIST_FILTERING_INFO
-title: _NDIS_NET_BUFFER_LIST_FILTERING_INFO
+title: "_NDIS_NET_BUFFER_LIST_FILTERING_INFO"
 author: windows-driver-content
 description: The NDIS_NET_BUFFER_LIST_FILTERING_INFO structure defines filtering information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_net_buffer_list_filtering_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 992a4c77-e22f-4123-81e8-86c8030accfa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, netvista.ndis_net_buffer_list_filtering_info, PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO
+ms.keywords: PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, _NDIS_NET_BUFFER_LIST_FILTERING_INFO, netvista.ndis_net_buffer_list_filtering_info, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_NET_BUFFER_LIST_FILTERING_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTERING_INFO
+req.typenames: "*PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO"
 ---
 
 # _NDIS_NET_BUFFER_LIST_FILTERING_INFO structure
@@ -143,15 +143,15 @@ To access the identifier values directly, use the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<mshelp:link keywords="netvista.net_buffer_list_receive_filter_id" tabindex="0"><b>
+   NET_BUFFER_LIST_RECEIVE_FILTER_ID</b></mshelp:link>
 
 <mshelp:link keywords="netvista.net_buffer_list_receive_queue_id" tabindex="0"><b>
    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</b></mshelp:link>
 
-<mshelp:link keywords="netvista.net_buffer_list_receive_filter_id" tabindex="0"><b>
-   NET_BUFFER_LIST_RECEIVE_FILTER_ID</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>
 

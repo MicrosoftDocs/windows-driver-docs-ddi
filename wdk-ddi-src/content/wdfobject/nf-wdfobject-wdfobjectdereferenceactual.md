@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ff96ea2b-a1f9-417c-98e6-fbf9cc9f6827
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, wdfobject/WdfObjectDereferenceActual, WdfObjectDereferenceActual method, kmdf.wdfobjectdereferenceactual, WdfObjectDereferenceActual, wdf.wdfobjectdereferenceactual
+ms.keywords: wdfobject/WdfObjectDereferenceActual, WdfObjectDereferenceActual, wdf.wdfobjectdereferenceactual, kmdf.wdfobjectdereferenceactual, DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, WdfObjectDereferenceActual method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfObjectDereferenceActual
 product: Windows
 targetos: Windows

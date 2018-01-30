@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_STATUS_BLOCK
-title: _IO_STATUS_BLOCK
+title: "_IO_STATUS_BLOCK"
 author: windows-driver-content
 description: A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling IoCompleteRequest for the IRP.
 old-location: kernel\io_status_block.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], PIO_STATUS_BLOCK, _IO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/IO_STATUS_BLOCK, IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK, *PIO_STATUS_BLOCK, kernel.io_status_block
+ms.keywords: wdm/PIO_STATUS_BLOCK, kernel.io_status_block, IO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], *PIO_STATUS_BLOCK, wdm/IO_STATUS_BLOCK, PIO_STATUS_BLOCK, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_STATUS_BLOCK
 product: Windows
 targetos: Windows
@@ -119,11 +119,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
  
 

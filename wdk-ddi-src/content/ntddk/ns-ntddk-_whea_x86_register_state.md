@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_X86_REGISTER_STATE
-title: _WHEA_X86_REGISTER_STATE
+title: "_WHEA_X86_REGISTER_STATE"
 author: windows-driver-content
 description: The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
 old-location: whea\whea_x86_register_state.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 64079b03-9771-4940-a19e-a29389cbf2fe
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_X86_REGISTER_STATE, ntddk/WHEA_X86_REGISTER_STATE, _WHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], ntddk/PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml, whea.whea_x86_register_state, *PWHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE
+ms.keywords: ntddk/WHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE, _WHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], whea.whea_x86_register_state, WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml, ntddk/PWHEA_X86_REGISTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_X86_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE
+req.typenames: "*PWHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE"
 ---
 
 # _WHEA_X86_REGISTER_STATE structure

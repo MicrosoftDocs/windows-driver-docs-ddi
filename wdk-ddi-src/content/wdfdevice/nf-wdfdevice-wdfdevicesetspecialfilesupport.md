@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7648c486-181a-45c8-9c4b-e3158428046a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceSetSpecialFileSupport method, kmdf.wdfdevicesetspecialfilesupport, wdf.wdfdevicesetspecialfilesupport, PFN_WDFDEVICESETSPECIALFILESUPPORT, WdfDeviceSetSpecialFileSupport, DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, wdfdevice/WdfDeviceSetSpecialFileSupport
+ms.keywords: wdfdevice/WdfDeviceSetSpecialFileSupport, wdf.wdfdevicesetspecialfilesupport, WdfDeviceSetSpecialFileSupport, DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, kmdf.wdfdevicesetspecialfilesupport, PFN_WDFDEVICESETSPECIALFILESUPPORT, WdfDeviceSetSpecialFileSupport method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceSetSpecialFileSupport
 product: Windows
 targetos: Windows
@@ -110,9 +110,9 @@ For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">WDF_SPECIAL_FILE_TYPE</a>
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
  
 

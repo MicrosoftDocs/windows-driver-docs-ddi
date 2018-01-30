@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f51ab865-8862-4ed2-830e-ecbef4c9c74e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2, RIL_CAPS_CALLSUPPORT_CD, RIL_CAPS_CALLSUPPORT_CUG, RIL_CAPS_CALLSUPPORT_MSP, RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, RIL_CAPS_CALLSUPPORT_FM, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RILCALLSUPPORTCAPS, rilapitypes/RILCALLSUPPORTCAPS, RIL_CAPS_CALLSUPPORT_CNAP, rilapitypes/RIL_CAPS_CALLSUPPORT_ALL, rilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, rilapitypes/RIL_CAPS_CALLSUPPORT_CUG, rilapitypes/RIL_CAPS_CALLSUPPORT_FM, netvista.rilcallsupportcaps_2, rilapitypes/RIL_CAPS_CALLSUPPORT_CD, RIL_CAPS_CALLSUPPORT_EMLPP, rilapitypes/RIL_CAPS_CALLSUPPORT_MSP, rilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, rilapitypes/RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_ALL
+ms.keywords: rilapitypes/RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_CD, rilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, rilapitypes/RIL_CAPS_CALLSUPPORT_CD, rilapitypes/RILCALLSUPPORTCAPS, RIL_CAPS_CALLSUPPORT_EMLPP, rilapitypes/RIL_CAPS_CALLSUPPORT_MSP, rilapitypes/RIL_CAPS_CALLSUPPORT_CUG, RILCALLSUPPORTCAPS, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_CALLSUPPORT_CUG, netvista.rilcallsupportcaps_2, RIL_CAPS_CALLSUPPORT_FM, rilapitypes/RIL_CAPS_CALLSUPPORT_FM, rilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, rilapitypes/RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, rilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2, RIL_CAPS_CALLSUPPORT_CNAP, RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_MSP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLSUPPORTCAPS
 product: Windows
 targetos: Windows

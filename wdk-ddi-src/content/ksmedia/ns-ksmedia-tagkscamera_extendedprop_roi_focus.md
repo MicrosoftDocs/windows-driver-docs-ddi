@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 448A62D1-34D6-46EC-ADA4-9C9F832E2BDD
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_ROI_FOCUS, PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_FOCUS, *PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, KSCAMERA_EXTENDEDPROP_ROI_FOCUS structure [Streaming Media Devices], stream.kscamera_extendedprop_roi_focus, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, PKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure pointer [Streaming Media Devices]
+ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS, stream.kscamera_extendedprop_roi_focus, PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_FOCUS, *PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, PKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROI_FOCUS structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROI_FOCUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_EXTENDEDPROP_ROI_FOCUS
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, KSCAMERA_EXTENDEDPROP_ROI_FOCUS
+req.typenames: KSCAMERA_EXTENDEDPROP_ROI_FOCUS, *PKSCAMERA_EXTENDEDPROP_ROI_FOCUS
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure

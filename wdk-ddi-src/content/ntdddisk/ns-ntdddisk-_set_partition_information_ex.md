@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._SET_PARTITION_INFORMATION_EX
-title: _SET_PARTITION_INFORMATION_EX
+title: "_SET_PARTITION_INFORMATION_EX"
 author: windows-driver-content
 description: SET_PARTITION_INFORMATION_EX is used with the IOCTL IOCTL_DISK_SET_PARTITION_INFO_EX to set information for a specific partition.
 old-location: storage\set_partition_information_ex.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a30c10d4-5e85-4a59-b262-054a6fdc2fb8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, ntdddisk/SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX structure [Storage Devices], *PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml, _SET_PARTITION_INFORMATION_EX
+ms.keywords: structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml, SET_PARTITION_INFORMATION_EX structure [Storage Devices], ntdddisk/SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], ntdddisk/PSET_PARTITION_INFORMATION_EX, _SET_PARTITION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	SET_PARTITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: *PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX
+req.typenames: "*PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX"
 ---
 
 # _SET_PARTITION_INFORMATION_EX structure
@@ -110,9 +110,9 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION_MBR</a>
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION_MBR</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">SET_PARTITION_INFORMATION_GPT</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_STATUS
-title: _WWAN_SMS_STATUS
+title: "_WWAN_SMS_STATUS"
 author: windows-driver-content
 description: The WWAN_SMS_STATUS structure represents the status of the SMS message store.
 old-location: netvista\wwan_sms_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7ebe58d-8e87-437f-b556-408610fa654e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_STATUS, WWAN_SMS_STATUS, *PWWAN_SMS_STATUS, _WWAN_SMS_STATUS, PWWAN_SMS_STATUS, netvista.wwan_sms_status, WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml
+ms.keywords: WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, WWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SMS_STATUS, netvista.wwan_sms_status, wwan/PWWAN_SMS_STATUS, PWWAN_SMS_STATUS, *PWWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SMS_STATUS, WWAN_SMS_STATUS
+req.typenames: WWAN_SMS_STATUS, *PWWAN_SMS_STATUS
 req.product: Windows 10 or later.
 ---
 

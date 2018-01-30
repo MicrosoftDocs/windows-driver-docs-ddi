@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtypes._UCM_PD_REQUEST_DATA_OBJECT
-title: _UCM_PD_REQUEST_DATA_OBJECT
+title: "_UCM_PD_REQUEST_DATA_OBJECT"
 author: windows-driver-content
 description: Describes a Request Data Object (RDO). For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_request_data_object.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_pd_request_data_object, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT, _UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses]
+ms.keywords: ucmtypes/UCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], PUCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, *PUCM_PD_REQUEST_DATA_OBJECT, _UCM_PD_REQUEST_DATA_OBJECT, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], UCM_PD_REQUEST_DATA_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtypes.h
-apiname: 
+apiname:
 -	UCM_PD_REQUEST_DATA_OBJECT
 product: Windows
 targetos: Windows

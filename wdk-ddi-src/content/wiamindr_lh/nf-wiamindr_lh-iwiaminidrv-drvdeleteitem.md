@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, IWiaMiniDrv::drvDeleteItem, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, wiamindr_lh/IWiaMiniDrv::drvDeleteItem, drvDeleteItem, image.iwiaminidrv_drvdeleteitem, IWiaMiniDrv
+ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, wiamindr_lh/IWiaMiniDrv::drvDeleteItem, IWiaMiniDrv, IWiaMiniDrv::drvDeleteItem, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, drvDeleteItem, drvDeleteItem method [Imaging Devices], image.iwiaminidrv_drvdeleteitem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvDeleteItem
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -86,9 +86,9 @@ HRESULT drvDeleteItem(
 
 
 
-#### - plDevErrVal [out]
+#### - pWiasContext [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+Pointer to a WIA item context.
 
 
 #### - lFlags [in]
@@ -96,9 +96,9 @@ Points to a memory location that will receive a status code for this method. If 
 Is currently unused. 
 
 
-#### - pWiasContext [in]
+#### - plDevErrVal [out]
 
-Pointer to a WIA item context.
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -133,9 +133,9 @@ The item's access rights allow deletion.
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

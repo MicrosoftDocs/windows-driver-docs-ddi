@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
-title: _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
+title: "_CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR"
 author: windows-driver-content
 description: The CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure gives the host an approximation of logical unit performance.
 old-location: storage\cdrom_nominal_performance_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F931CE79-7070-43B9-BFED-9F3D5B18623E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, storage.cdrom_nominal_performance_descriptor, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure [Storage Devices], CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
+ms.keywords: CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure [Storage Devices], ntddcdrm/CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, storage.cdrom_nominal_performance_descriptor, PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
+req.typenames: "*PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR"
 ---
 
 # _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure

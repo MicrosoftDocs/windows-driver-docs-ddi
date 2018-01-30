@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_ACPI_RESOURCE_TYPE
-title: _PEP_ACPI_RESOURCE_TYPE
+title: "_PEP_ACPI_RESOURCE_TYPE"
 author: windows-driver-content
 description: The PEP_ACPI_RESOURCE_TYPE enumeration is used to identify the type of ACPI resource that is contained in the PEP_ACPI_RESOURCE union.
 old-location: kernel\pep_acpi_resource_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_resource_type, pepfx/PepAcpiExtendedMemory, _PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiIoPort, PepAcpiIoPort, PepAcpiGpioIo, PepAcpiExtendedIo, PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbI2c, pepfx/PepAcpiInterrupt, pepfx/PepAcpiSpbSpi, PepAcpiGpioInt, PepAcpiExtendedMemory, pepfx/PepAcpiGpioInt, PepAcpiMemory, pepfx/PepAcpiMemory, pepfx/PepAcpiSpbI2c, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiExtendedIo, PepAcpiInterrupt, PepAcpiSpbUart, pepfx/PepAcpiSpbUart, pepfx/PepAcpiGpioIo, pepfx/PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbSpi
+ms.keywords: pepfx/PepAcpiIoPort, pepfx/PepAcpiSpbUart, PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbSpi, pepfx/PepAcpiExtendedIo, PepAcpiGpioIo, pepfx/PepAcpiInterrupt, pepfx/PepAcpiMemory, pepfx/PepAcpiSpbSpi, PepAcpiMemory, PepAcpiSpbUart, pepfx/PepAcpiSpbI2c, PepAcpiIoPort, _PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiGpioIo, PepAcpiSpbI2c, pepfx/PepAcpiGpioInt, PepAcpiGpioInt, PepAcpiExtendedMemory, PepAcpiExtendedIo, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiExtendedMemory, PepAcpiInterrupt, kernel.pep_acpi_resource_type, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_RESOURCE_TYPE
 product: Windows
 targetos: Windows

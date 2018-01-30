@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplaySizeInPixelsType
-title: _LineDisplaySizeInPixelsType
+title: "_LineDisplaySizeInPixelsType"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysizeinpixelstype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType structure, pointofservicecommontypes/PLineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, _LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, pos.linedisplaysizeinpixelstype, PLineDisplaySizeInPixelsType
+ms.keywords: pos.linedisplaysizeinpixelstype, LineDisplaySizeInPixelsType structure, PLineDisplaySizeInPixelsType structure pointer, PLineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, pointofservicecommontypes/PLineDisplaySizeInPixelsType, _LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicecommontypes.h
-apiname: 
+apiname:
 -	LineDisplaySizeInPixelsType
 product: Windows
 targetos: Windows

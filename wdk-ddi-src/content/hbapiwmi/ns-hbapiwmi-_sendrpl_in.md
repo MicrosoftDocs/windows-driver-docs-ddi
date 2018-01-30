@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRPL_IN
-title: _SendRPL_IN
+title: "_SendRPL_IN"
 author: windows-driver-content
 description: The SendRPL_IN structure is used to deliver input parameter data to the SendRPL WMI method.
 old-location: storage\sendrpl_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c084258-2bd6-47a8-a060-d4ba2734ebed
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendRPL_IN, PSendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], _SendRPL_IN, *PSendRPL_IN, hbapiwmi/PSendRPL_IN, structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml, hbapiwmi/SendRPL_IN, storage.sendrpl_in, SendRPL_IN structure [Storage Devices]
+ms.keywords: structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml, SendRPL_IN, storage.sendrpl_in, *PSendRPL_IN, hbapiwmi/SendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], PSendRPL_IN, hbapiwmi/PSendRPL_IN, SendRPL_IN structure [Storage Devices], _SendRPL_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRPL_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSendRPL_IN, SendRPL_IN
+req.typenames: SendRPL_IN, *PSendRPL_IN
 ---
 
 # _SendRPL_IN structure

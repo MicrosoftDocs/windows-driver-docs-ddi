@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobDataRendered structure pointer [Print Devices], *PBranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, print.branchofficejobdatarendered, BranchOfficeJobDataRendered structure [Print Devices], PBranchOfficeJobDataRendered, winsplp/BranchOfficeJobDataRendered
+ms.keywords: PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], BranchOfficeJobDataRendered structure [Print Devices], *PBranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered, print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	BranchOfficeJobDataRendered
 product: Windows
 targetos: Windows
-req.typenames: *PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered
+req.typenames: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered"
 req.product: Windows 10 or later.
 ---
 

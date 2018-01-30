@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_POWER_CAPABILITIES
-title: _WDF_DEVICE_POWER_CAPABILITIES
+title: "_WDF_DEVICE_POWER_CAPABILITIES"
 author: windows-driver-content
 description: The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's power capabilities.
 old-location: wdf\wdf_device_power_capabilities.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 56bb271f-d69c-4523-87cb-4922b405f808
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, kmdf.wdf_device_power_capabilities, WDF_DEVICE_POWER_CAPABILITIES structure, *PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES, _WDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES, wdf.wdf_device_power_capabilities, WDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES structure pointer
+ms.keywords: DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, wdf.wdf_device_power_capabilities, WDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES structure, kmdf.wdf_device_power_capabilities, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES, _WDF_DEVICE_POWER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_POWER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES
+req.typenames: "*PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES"
 req.product: Windows 10 or later.
 ---
 

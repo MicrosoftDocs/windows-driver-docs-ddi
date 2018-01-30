@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e7fc9290-8f24-4b9f-822a-0bdce50dafb9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwDeleteValueKey, NtDeleteValueKey, k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, kernel.zwdeletevaluekey, wdm/NtDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], wdm/ZwDeleteValueKey
+ms.keywords: k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, NtDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], wdm/ZwDeleteValueKey, wdm/NtDeleteValueKey, ZwDeleteValueKey, kernel.zwdeletevaluekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwDeleteValueKey
 -	NtDeleteValueKey
 product: Windows
@@ -151,19 +151,19 @@ Device drivers should not attempt to call <b>ZwDeleteValueKey</b> directly to de
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
-
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 <a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
  
 

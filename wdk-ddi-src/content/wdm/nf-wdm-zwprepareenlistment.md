@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1597f27d-8d1e-445e-bc68-b7c151fd19d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPrepareEnlistment, kernel.zwprepareenlistment, ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, NtPrepareEnlistment, ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], wdm/NtPrepareEnlistment, wdm/ZwPrepareEnlistment
+ms.keywords: ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwprepareenlistment, wdm/NtPrepareEnlistment, NtPrepareEnlistment, ZwPrepareEnlistment, ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, wdm/ZwPrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwPrepareEnlistment
 -	NtPrepareEnlistment
 product: Windows
@@ -180,13 +180,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmprepareenlistment.md">TmPrepareEnlistment</a>
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-tmprepareenlistment.md">TmPrepareEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
  
 

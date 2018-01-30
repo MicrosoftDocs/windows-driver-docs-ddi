@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetThumbnailContent, IPartThumbnail, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail::SetThumbnailContent, print.ipartthumbnail_setthumbnailcontent, SetThumbnailContent method [Print Devices], filterpipeline/IPartThumbnail::SetThumbnailContent, SetThumbnailContent method [Print Devices], IPartThumbnail interface
+ms.keywords: filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent, IPartThumbnail::SetThumbnailContent, filterpipeline/IPartThumbnail::SetThumbnailContent, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail, SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices], IPartThumbnail interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartThumbnail.SetThumbnailContent
 product: Windows
 targetos: Windows

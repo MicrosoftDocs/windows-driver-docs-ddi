@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml, IPrintOemDriverUni::DrvGetGPDData, IPrintOemDriverUni, prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata
+ms.keywords: IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, print.iprintoemdriveruni_drvgetgpddata, DrvGetGPDData method [Print Devices], print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvGetGPDData
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

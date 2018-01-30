@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 955859d2-7c4f-454c-8621-84bacf0b9770
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestrequeue, DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue, PFN_WDFREQUESTREQUEUE, WdfRequestRequeue method, kmdf.wdfrequestrequeue, wdfrequest/WdfRequestRequeue
+ms.keywords: WdfRequestRequeue, wdfrequest/WdfRequestRequeue, DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, kmdf.wdfrequestrequeue, PFN_WDFREQUESTREQUEUE, WdfRequestRequeue method, wdf.wdfrequestrequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestRequeue
 product: Windows
 targetos: Windows

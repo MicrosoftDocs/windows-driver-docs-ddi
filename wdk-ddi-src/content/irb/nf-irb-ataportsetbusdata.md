@@ -2,13 +2,13 @@
 UID: NF:irb.AtaPortSetBusData
 title: AtaPortSetBusData function
 author: windows-driver-content
-description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportsetbusdata.htm
 old-project: storage
 ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, AtaPortSetBusData, storage.ataportsetbusdata, AtaPortSetBusData routine [Storage Devices], irb/AtaPortSetBusData
+ms.keywords: AtaPortSetBusData, irb/AtaPortSetBusData, AtaPortSetBusData routine [Storage Devices], atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, storage.ataportsetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Pciidex.lib
 -	Pciidex.dll
-apiname: 
+apiname:
 -	AtaPortSetBusData
 product: Windows
 targetos: Windows

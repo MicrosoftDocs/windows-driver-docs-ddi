@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, *PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION structure [Display Devices], _VP_DEVICE_DESCRIPTION, video/PVP_DEVICE_DESCRIPTION, display.vp_device_description
+ms.keywords: display.vp_device_description, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, _VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], PVP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION, video/PVP_DEVICE_DESCRIPTION, Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, video/VP_DEVICE_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION
+req.product: Windows 10 or later.
 ---
 
 # _VP_DEVICE_DESCRIPTION structure

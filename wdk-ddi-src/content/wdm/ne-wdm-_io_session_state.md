@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_SESSION_STATE
-title: _IO_SESSION_STATE
+title: "_IO_SESSION_STATE"
 author: windows-driver-content
 description: The IO_SESSION_STATE enumeration contains constants that indicate the current state of a user session.
 old-location: kernel\io_session_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSessionStateDisconnectedLoggedOn, IoSessionStateTerminated, wdm/IO_SESSION_STATE, IoSessionStateLoggedOff, IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateLoggedOff, IoSessionStateLoggedOn, IoSessionStateMax, wdm/IoSessionStateDisconnected, IoSessionStateConnected, IoSessionStateInitialized, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateLoggedOn, PIO_SESSION_STATE, IoSessionStateCreated, wdm/IoSessionStateConnected, *PIO_SESSION_STATE, wdm/IoSessionStateCreated, _IO_SESSION_STATE, kernel.io_session_state, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, wdm/PIO_SESSION_STATE, wdm/IoSessionStateTerminated, IoSessionStateDisconnected, wdm/IoSessionStateMax, IO_SESSION_STATE, wdm/IoSessionStateInitialized
+ms.keywords: wdm/IoSessionStateConnected, wdm/IoSessionStateLoggedOn, IoSessionStateDisconnectedLoggedOn, *PIO_SESSION_STATE, kernel.io_session_state, IoSessionStateMax, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateInitialized, _IO_SESSION_STATE, wdm/IoSessionStateMax, IoSessionStateCreated, wdm/IoSessionStateDisconnectedLoggedOn, IO_SESSION_STATE, wdm/IoSessionStateTerminated, PIO_SESSION_STATE, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, IoSessionStateDisconnected, wdm/IoSessionStateLoggedOff, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateDisconnected, IoSessionStateLoggedOn, wdm/IoSessionStateInitialized, wdm/PIO_SESSION_STATE, wdm/IO_SESSION_STATE, IoSessionStateConnected, wdm/IoSessionStateCreated, IoSessionStateTerminated, IoSessionStateLoggedOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: IO_SESSION_STATE, *PIO_SESSION_STATE
+req.typenames: "*PIO_SESSION_STATE, IO_SESSION_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -147,11 +147,11 @@ The event that causes the transition (a table entry in a white box)
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
+
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
-
-<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c9fa1506-ffef-44a8-9b25-9033280e0c33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2 interface [Print Devices], DrvUpgradeRegistrySetting method, print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml, IPrintCoreUI2::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2, print.iprintcoreui2_drvupgraderegistrysetting, DrvUpgradeRegistrySetting method [Print Devices]
+ms.keywords: IPrintCoreUI2, print.iprintcoreui2_drvupgraderegistrysetting, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface, DrvUpgradeRegistrySetting, IPrintCoreUI2::DrvUpgradeRegistrySetting, IPrintCoreUI2 interface [Print Devices], DrvUpgradeRegistrySetting method, print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml, DrvUpgradeRegistrySetting method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.DrvUpgradeRegistrySetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

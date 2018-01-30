@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, ImageProcessing, print.iprintoemuni_imageprocessing, ImageProcessing method [Print Devices], prcomoem/IPrintOemUni::ImageProcessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, IPrintOemUni::ImageProcessing, ImageProcessing method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], ImageProcessing method
+ms.keywords: ImageProcessing method [Print Devices], IPrintOemUni interface, ImageProcessing method [Print Devices], prcomoem/IPrintOemUni::ImageProcessing, IPrintOemUni interface [Print Devices], ImageProcessing method, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, print.iprintoemuni_imageprocessing, IPrintOemUni::ImageProcessing, IPrintOemUni, ImageProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.ImageProcessing
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

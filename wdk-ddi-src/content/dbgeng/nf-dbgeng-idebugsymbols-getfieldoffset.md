@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3e5e782b-1a72-446d-9d15-c0f513f3440c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols, GetFieldOffset function [Windows Debugging], GetFieldOffset, wdbgexts/GetFieldOffset, WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, debugger.getfieldoffset, IDebugSymbols::GetFieldOffset
+ms.keywords: wdbgexts/GetFieldOffset, IDebugSymbols::GetFieldOffset, GetFieldOffset, debugger.getfieldoffset, WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, IDebugSymbols, GetFieldOffset function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	GetFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::GetFieldOffset method

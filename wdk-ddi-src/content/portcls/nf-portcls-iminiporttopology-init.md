@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c8c53792-8c1a-466a-9f0f-8c12f9e7b50e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Init method [Audio Devices], Init, IMiniportTopology::Init, portcls/IMiniportTopology::Init, audio.iminiporttopology_init, IMiniportTopology interface [Audio Devices], Init method, IMiniportTopology, audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml, Init method [Audio Devices], IMiniportTopology interface
+ms.keywords: audio.iminiporttopology_init, portcls/IMiniportTopology::Init, audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml, IMiniportTopology::Init, Init method [Audio Devices], IMiniportTopology interface, IMiniportTopology interface [Audio Devices], Init method, IMiniportTopology, Init method [Audio Devices], Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,13 +102,13 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
 <a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
  
 

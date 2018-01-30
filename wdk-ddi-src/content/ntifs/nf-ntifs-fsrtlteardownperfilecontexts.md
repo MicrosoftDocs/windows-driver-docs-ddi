@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts, ifsk.fsrtlteardownperfilecontexts, ntifs/FsRtlTeardownPerFileContexts
+ms.keywords: ntifs/FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], ifsk.fsrtlteardownperfilecontexts, fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlTeardownPerFileContexts
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerFileContexts</b> r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+
+<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
 
 <a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
 

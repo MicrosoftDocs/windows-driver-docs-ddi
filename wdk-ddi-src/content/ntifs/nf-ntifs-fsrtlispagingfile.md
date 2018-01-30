@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 85363a0b-0e62-499e-bcdb-4b86c4a0c3a0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlispagingfile, fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, FsRtlIsPagingFile routine [Installable File System Drivers], ntifs/FsRtlIsPagingFile, FsRtlIsPagingFile
+ms.keywords: fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, FsRtlIsPagingFile, ifsk.fsrtlispagingfile, FsRtlIsPagingFile routine [Installable File System Drivers], ntifs/FsRtlIsPagingFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlIsPagingFile
 product: Windows
 targetos: Windows

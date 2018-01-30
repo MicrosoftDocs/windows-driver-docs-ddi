@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision, DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices]"
+ms.keywords: "_DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], display.dxgkarg_historybufferprecision"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

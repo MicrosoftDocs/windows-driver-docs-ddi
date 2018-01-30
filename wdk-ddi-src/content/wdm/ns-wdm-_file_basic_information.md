@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_BASIC_INFORMATION
-title: _FILE_BASIC_INFORMATION
+title: "_FILE_BASIC_INFORMATION"
 author: windows-driver-content
 description: The FILE_BASIC_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_basic_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f79a3cf-9bc7-4135-a90e-d9dce86cf5f6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.file_basic_information, wdm/FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_BASIC_INFORMATION, *PFILE_BASIC_INFORMATION, _FILE_BASIC_INFORMATION
+ms.keywords: PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION, kernel.file_basic_information, PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_BASIC_INFORMATION, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, *PFILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	FILE_BASIC_INFORMATION
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddser.h
-apiname: 
+apiname:
 -	IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
 product: Windows
 targetos: Windows

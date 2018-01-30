@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetCHAPSharedSecret_IN
-title: _SetCHAPSharedSecret_IN
+title: "_SetCHAPSharedSecret_IN"
 author: windows-driver-content
 description: The SetCHAPSharedSecret_IN structure holds the input data for the SetCHAPSharedSecret method.
 old-location: storage\setchapsharedsecret_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], *PSetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, PSetCHAPSharedSecret_IN, _SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], storage.setchapsharedsecret_in, iscsiop/PSetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN
+ms.keywords: SetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, iscsiop/SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], PSetCHAPSharedSecret_IN structure pointer [Storage Devices], _SetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetCHAPSharedSecret_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN
+req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 ---
 
 # _SetCHAPSharedSecret_IN structure

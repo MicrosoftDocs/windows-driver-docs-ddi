@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Read method [Print Devices], IPrinterScriptableSequentialStream interface, IPrinterScriptableSequentialStream, Read method [Print Devices], Read, printerextension/IPrinterScriptableSequentialStream::Read, print.iprinterscriptablesequentialstream_read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, IPrinterScriptableSequentialStream::Read
+ms.keywords: IPrinterScriptableSequentialStream::Read, print.iprinterscriptablesequentialstream_read, Read method [Print Devices], IPrinterScriptableSequentialStream interface, IPrinterScriptableSequentialStream interface [Print Devices], Read method, printerextension/IPrinterScriptableSequentialStream::Read, IPrinterScriptableSequentialStream, Read method [Print Devices], Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptableSequentialStream.Read
 product: Windows
 targetos: Windows

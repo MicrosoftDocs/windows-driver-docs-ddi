@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4178d9ad-5dd1-40c2-ba23-7625d424cd6d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtReadOnlyEnlistment, ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], NtReadOnlyEnlistment, ZwReadOnlyEnlistment, kernel.zwreadonlyenlistment, wdm/ZwReadOnlyEnlistment, ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml
+ms.keywords: ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], wdm/NtReadOnlyEnlistment, NtReadOnlyEnlistment, ZwReadOnlyEnlistment, wdm/ZwReadOnlyEnlistment, ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml, kernel.zwreadonlyenlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwReadOnlyEnlistment
 -	NtReadOnlyEnlistment
 product: Windows
@@ -154,11 +154,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
  
 

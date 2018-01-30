@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendSMPPassThru_OUT
-title: _SM_SendSMPPassThru_OUT
+title: "_SM_SendSMPPassThru_OUT"
 author: windows-driver-content
 description: The SM_SendSMPPassThru_OUT structure is used to receive output parameters from the SM_SendSMPPassThru method.
 old-location: storage\sm_sendsmppassthru_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb173171-3990-405e-b740-8c1a0c915165
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], storage.sm_sendsmppassthru_out, SM_SendSMPPassThru_OUT structure [Storage Devices], structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml, _SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, hbapiwmi/SM_SendSMPPassThru_OUT, hbapiwmi/PSM_SendSMPPassThru_OUT
+ms.keywords: "*PSM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], hbapiwmi/PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml, SM_SendSMPPassThru_OUT, hbapiwmi/SM_SendSMPPassThru_OUT, _SM_SendSMPPassThru_OUT, storage.sm_sendsmppassthru_out, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_SendSMPPassThru_OUT
 product: Windows
 targetos: Windows

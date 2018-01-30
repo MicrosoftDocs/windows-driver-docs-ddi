@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_ZONE_CONDITION
-title: _STORAGE_ZONE_CONDITION
+title: "_STORAGE_ZONE_CONDITION"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zone_condition.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57FF3890-6B37-45EB-BB02-22B2ADDFAA90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ZoneConditionReadOnly, _STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionImplicitlyOpened, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/PSTORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened, STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionOffline, PSTORAGE_ZONE_CONDITION, ntddstor/STORAGE_ZONE_CONDITION, ZoneConditionOffline, ntddstor/ZoneConditionConventional, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/ZoneConditionReadOnly, ntddstor/ZoneConditionFull, ZoneConditionFull, ZoneConditionConventional, storage.storage_zone_condition, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionClosed, ZoneConditionEmpty, ZoneConditionClosed, ZoneConditionImplicitlyOpened
+ms.keywords: ntddstor/ZoneConditionClosed, STORAGE_ZONE_CONDITION, ZoneConditionConventional, ZoneConditionReadOnly, ntddstor/ZoneConditionOffline, ZoneConditionOffline, storage.storage_zone_condition, ntddstor/ZoneConditionImplicitlyOpened, *PSTORAGE_ZONE_CONDITION, _STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ZoneConditionClosed, PSTORAGE_ZONE_CONDITION, ZoneConditionImplicitlyOpened, ZoneConditionFull, ntddstor/ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionConventional, ZoneConditionEmpty, ntddstor/ZoneConditionEmpty, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_ZONE_CONDITION
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ---
 
 # _STORAGE_ZONE_CONDITION enumeration

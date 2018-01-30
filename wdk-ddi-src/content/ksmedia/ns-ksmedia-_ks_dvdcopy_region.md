@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_REGION
-title: _KS_DVDCOPY_REGION
+title: "_KS_DVDCOPY_REGION"
 author: windows-driver-content
 description: The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
 old-location: stream\ks_dvdcopy_region.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KS_DVDCOPY_REGION, KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, stream.ks_dvdcopy_region, ksmedia/KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], PKS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices]
+ms.keywords: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION, _KS_DVDCOPY_REGION, stream.ks_dvdcopy_region, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], PKS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, ksmedia/PKS_DVDCOPY_REGION, ksmedia/KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_REGION
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION
+req.typenames: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION"
 ---
 
 # _KS_DVDCOPY_REGION structure

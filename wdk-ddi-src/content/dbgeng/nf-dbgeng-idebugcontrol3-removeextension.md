@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: RemoveExtension method [Windows Debugging], IDebugControl3 interface, RemoveExtension, IDebugControl3 interface [Windows Debugging], RemoveExtension method, IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension method [Windows Debugging], IDebugControl3, dbgeng/IDebugControl::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl3::RemoveExtension, IDebugControl interface [Windows Debugging], RemoveExtension method, RemoveExtension method [Windows Debugging], IDebugControl interface, RemoveExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl2::RemoveExtension, dbgeng/IDebugControl2::RemoveExtension, debugger.removeextension
+ms.keywords: IDebugControl3, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, IDebugControl2::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::RemoveExtension, IDebugControl::RemoveExtension, debugger.removeextension, dbgeng/IDebugControl::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl2 interface, RemoveExtension method [Windows Debugging], IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl3 interface [Windows Debugging], RemoveExtension method, IDebugControl3::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, RemoveExtension, IDebugControl interface [Windows Debugging], RemoveExtension method, RemoveExtension method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.RemoveExtension
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::RemoveExtension method
@@ -108,11 +108,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 

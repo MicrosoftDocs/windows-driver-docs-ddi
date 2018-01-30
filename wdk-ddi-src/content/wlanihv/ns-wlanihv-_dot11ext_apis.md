@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11EXT_APIS
-title: _DOT11EXT_APIS
+title: "_DOT11EXT_APIS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_apis.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d533acbb-eb3b-4c49-a057-9a99faaacfc1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_APIS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_27860ed6-1413-4bc6-9cd0-fb4391dff322.xml, wlanihv/DOT11EXT_APIS, DOT11EXT_APIS, wlanihv/PDOT11EXT_APIS, DOT11EXT_APIS structure [Network Drivers Starting with Windows Vista], _DOT11EXT_APIS, netvista.dot11ext_apis, *PDOT11EXT_APIS, PDOT11EXT_APIS
+ms.keywords: wlanihv/PDOT11EXT_APIS, Native_802.11_data_types_27860ed6-1413-4bc6-9cd0-fb4391dff322.xml, PDOT11EXT_APIS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_APIS, DOT11EXT_APIS structure [Network Drivers Starting with Windows Vista], PDOT11EXT_APIS, *PDOT11EXT_APIS, DOT11EXT_APIS, wlanihv/DOT11EXT_APIS, netvista.dot11ext_apis
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	DOT11EXT_APIS
 product: Windows
 targetos: Windows
-req.typenames: DOT11EXT_APIS, *PDOT11EXT_APIS
+req.typenames: "*PDOT11EXT_APIS, DOT11EXT_APIS"
 req.product: Windows 10 or later.
 ---
 
@@ -91,62 +91,6 @@ typedef struct _DOT11EXT_APIS {
 
 
 
-#### - Dot11ExtSetMulticastCipherAlgorithm
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetmulticastcipheralgorithm" tabindex="0"><b>
-     Dot11ExtSetMulticastCipherAlgorithm</b></mshelp:link> function.
-
-
-#### - Dot11ExtNicSpecificExtension
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extnicspecificextension" tabindex="0"><b>
-     Dot11ExtNicSpecificExtension</b></mshelp:link> function.
-
-
-#### - Dot11ExtSetDefaultKey
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetdefaultkey" tabindex="0"><b>
-     Dot11ExtSetDefaultKey</b></mshelp:link> function.
-
-
-#### - Dot11ExtSetDefaultKeyId
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetdefaultkeyid" tabindex="0"><b>
-     Dot11ExtSetDefaultKeyId</b></mshelp:link> function.
-
-
-#### - Dot11ExtProcessOneXPacket
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extprocessonexpacket" tabindex="0"><b>
-     Dot11ExtProcessOneXPacket</b></mshelp:link> function.
-
-
-#### - Dot11ExtSetExcludeUnencrypted
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetexcludeunencrypted" tabindex="0"><b>
-     Dot11ExtSetExcludeUnencrypted</b></mshelp:link> function.
-
-
-#### - Dot11ExtSendNotification
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsendnotification" tabindex="0"><b>
-     Dot11ExtSendNotification</b></mshelp:link> function.
-
-
-#### - Dot11ExtSetEtherTypeHandling
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetethertypehandling" tabindex="0"><b>
-     Dot11ExtSetEtherTypeHandling</b></mshelp:link> function.
-
-
 #### - Dot11ExtAllocateBuffer
 
 A pointer to the 
@@ -154,37 +98,10 @@ A pointer to the
      Dot11ExtAllocateBuffer</b></mshelp:link> function.
 
 
-#### - Dot11ExtSetUnicastCipherAlgorithm
+#### - Dot11ExtFreeBuffer
 
 A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetunicastcipheralgorithm" tabindex="0"><b>
-     Dot11ExtSetUnicastCipherAlgorithm</b></mshelp:link> function.
-
-
-#### - Dot11ExtSetKeyMappingKey
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsetkeymappingkey" tabindex="0"><b>
-     Dot11ExtSetKeyMappingKey</b></mshelp:link> function.
-
-
-#### - Dot11ExtStopOneX
-
-A pointer to the 
-     <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a> function.
-
-
-#### - Dot11ExtSendPacket
-
-A pointer to the 
-     <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a> function.
-
-
-#### - Dot11ExtSendUIRequest
-
-A pointer to the 
-     <mshelp:link keywords="netvista.dot11extsenduirequest" tabindex="0"><b>
-     Dot11ExtSendUIRequest</b></mshelp:link> function.
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a> function.
 
 
 #### - Dot11ExtSetProfileCustomUserData
@@ -194,11 +111,32 @@ A pointer to the
      Dot11ExtSetProfileCustomUserData</b></mshelp:link> function.
 
 
+#### - Dot11ExtGetProfileCustomUserData
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extgetprofilecustomuserdata" tabindex="0"><b>
+     Dot11ExtGetProfileCustomUserData</b></mshelp:link> function.
+
+
 #### - Dot11ExtSetCurrentProfile
 
 A pointer to the 
      <mshelp:link keywords="netvista.dot11extsetcurrentprofile" tabindex="0"><b>
      Dot11ExtSetCurrentProfile</b></mshelp:link> function.
+
+
+#### - Dot11ExtSendUIRequest
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extsenduirequest" tabindex="0"><b>
+     Dot11ExtSendUIRequest</b></mshelp:link> function.
+
+
+#### - Dot11ExtPreAssociateCompletion
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
+     Dot11ExtPreAssociateCompletion</b></mshelp:link> function.
 
 
 #### - Dot11ExtPostAssociateCompletion
@@ -208,16 +146,24 @@ A pointer to the
      Dot11ExtPostAssociateCompletion</b></mshelp:link> function.
 
 
-#### - Dot11ExtStartOneX
+#### - Dot11ExtSendNotification
 
 A pointer to the 
-     <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function.
+     <mshelp:link keywords="netvista.dot11extsendnotification" tabindex="0"><b>
+     Dot11ExtSendNotification</b></mshelp:link> function.
 
 
-#### - Dot11ExtFreeBuffer
+#### - Dot11ExtSendPacket
 
 A pointer to the 
-     <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a> function.
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a> function.
+
+
+#### - Dot11ExtSetEtherTypeHandling
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extsetethertypehandling" tabindex="0"><b>
+     Dot11ExtSetEtherTypeHandling</b></mshelp:link> function.
 
 
 #### - Dot11ExtSetAuthAlgorithm
@@ -227,18 +173,72 @@ A pointer to the
      Dot11ExtSetAuthAlgorithm</b></mshelp:link> function.
 
 
-#### - Dot11ExtGetProfileCustomUserData
+#### - Dot11ExtSetUnicastCipherAlgorithm
 
 A pointer to the 
-     <mshelp:link keywords="netvista.dot11extgetprofilecustomuserdata" tabindex="0"><b>
-     Dot11ExtGetProfileCustomUserData</b></mshelp:link> function.
+     <mshelp:link keywords="netvista.dot11extsetunicastcipheralgorithm" tabindex="0"><b>
+     Dot11ExtSetUnicastCipherAlgorithm</b></mshelp:link> function.
 
 
-#### - Dot11ExtPreAssociateCompletion
+#### - Dot11ExtSetMulticastCipherAlgorithm
 
 A pointer to the 
-     <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-     Dot11ExtPreAssociateCompletion</b></mshelp:link> function.
+     <mshelp:link keywords="netvista.dot11extsetmulticastcipheralgorithm" tabindex="0"><b>
+     Dot11ExtSetMulticastCipherAlgorithm</b></mshelp:link> function.
+
+
+#### - Dot11ExtSetDefaultKey
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extsetdefaultkey" tabindex="0"><b>
+     Dot11ExtSetDefaultKey</b></mshelp:link> function.
+
+
+#### - Dot11ExtSetKeyMappingKey
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extsetkeymappingkey" tabindex="0"><b>
+     Dot11ExtSetKeyMappingKey</b></mshelp:link> function.
+
+
+#### - Dot11ExtSetDefaultKeyId
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extsetdefaultkeyid" tabindex="0"><b>
+     Dot11ExtSetDefaultKeyId</b></mshelp:link> function.
+
+
+#### - Dot11ExtNicSpecificExtension
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extnicspecificextension" tabindex="0"><b>
+     Dot11ExtNicSpecificExtension</b></mshelp:link> function.
+
+
+#### - Dot11ExtSetExcludeUnencrypted
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extsetexcludeunencrypted" tabindex="0"><b>
+     Dot11ExtSetExcludeUnencrypted</b></mshelp:link> function.
+
+
+#### - Dot11ExtStartOneX
+
+A pointer to the 
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function.
+
+
+#### - Dot11ExtStopOneX
+
+A pointer to the 
+     <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a> function.
+
+
+#### - Dot11ExtProcessOneXPacket
+
+A pointer to the 
+     <mshelp:link keywords="netvista.dot11extprocessonexpacket" tabindex="0"><b>
+     Dot11ExtProcessOneXPacket</b></mshelp:link> function.
 
 
 ## -remarks
@@ -256,63 +256,63 @@ All of the function pointers are required and will not be set to <b>NULL</b>.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
-   Dot11ExtPreAssociateCompletion</b></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">Dot11ExtSetKeyMappingKey</a>
 
-<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
-   Functions</mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">Dot11ExtGetUserData</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_auth_algorithm.md">Dot11ExtSetAuthAlgorithm</a>
-
-<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
-   Extensibility Functions</mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
 <mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
    Dot11ExtPostAssociateCompletion</b></mshelp:link>
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">Dot11ExtSendNotification</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key_id.md">Dot11ExtSetDefaultKeyId</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">Dot11ExtGetUserData</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+<mshelp:link keywords="netvista.dot11extsetexcludeunencrypted" tabindex="0"><b>
+   Dot11ExtSetExcludeUnencrypted</b></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_auth_algorithm.md">Dot11ExtSetAuthAlgorithm</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+
+<mshelp:link keywords="netvista.dot11extsetmulticastcipheralgorithm" tabindex="0"><b>
+   Dot11ExtSetMulticastCipherAlgorithm</b></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+<mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
+   Dot11ExtPreAssociateCompletion</b></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_nic_specific_extension.md">Dot11ExtNicSpecificExtension</a>
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
+
+<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
+   Extensibility Functions</mshelp:link>
+
+<mshelp:link keywords="netvista.dot11extsetunicastcipheralgorithm" tabindex="0"><b>
+   Dot11ExtSetUnicastCipherAlgorithm</b></mshelp:link>
 
 <mshelp:link keywords="netvista.dot11extsetprofilecustomuserdata" tabindex="0"><b>
    Dot11ExtSetProfileCustomUserData</b></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">Dot11ExtSetKeyMappingKey</a>
-
-<mshelp:link keywords="netvista.dot11extsetunicastcipheralgorithm" tabindex="0"><b>
-   Dot11ExtSetUnicastCipherAlgorithm</b></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">Dot11ExtSendNotification</a>
-
-<mshelp:link keywords="netvista.dot11extsetexcludeunencrypted" tabindex="0"><b>
-   Dot11ExtSetExcludeUnencrypted</b></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key_id.md">Dot11ExtSetDefaultKeyId</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_nic_specific_extension.md">Dot11ExtNicSpecificExtension</a>
-
-<mshelp:link keywords="netvista.dot11extsetmulticastcipheralgorithm" tabindex="0"><b>
-   Dot11ExtSetMulticastCipherAlgorithm</b></mshelp:link>
+<mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
+   Functions</mshelp:link>
 
  
 

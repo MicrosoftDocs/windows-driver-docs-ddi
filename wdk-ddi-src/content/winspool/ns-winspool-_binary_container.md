@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BINARY_CONTAINER
-title: _BINARY_CONTAINER
+title: "_BINARY_CONTAINER"
 author: windows-driver-content
 description: The BINARY_CONTAINER structure is a container for binary data.
 old-location: print\binary_container.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PBINARY_CONTAINER structure pointer [Print Devices], print.binary_container, BINARY_CONTAINER structure [Print Devices], *PBINARY_CONTAINER, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, _BINARY_CONTAINER, winspool/BINARY_CONTAINER, PBINARY_CONTAINER, winspool/PBINARY_CONTAINER, BINARY_CONTAINER
+ms.keywords: PBINARY_CONTAINER structure pointer [Print Devices], winspool/BINARY_CONTAINER, _BINARY_CONTAINER, winspool/PBINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], PBINARY_CONTAINER, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, *PBINARY_CONTAINER, BINARY_CONTAINER, print.binary_container
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BINARY_CONTAINER
 product: Windows
 targetos: Windows
-req.typenames: *PBINARY_CONTAINER, BINARY_CONTAINER
+req.typenames: BINARY_CONTAINER, *PBINARY_CONTAINER
 req.product: Windows 10 or later.
 ---
 

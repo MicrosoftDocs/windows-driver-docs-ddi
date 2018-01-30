@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2326130f-7e5f-492f-88a9-9eadeccc4827
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, IDebugSymbols3, GetSymbolPathWide, IDebugSymbols3::GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], debugger.getsymbolpathwide
+ms.keywords: GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolPathWide, debugger.getsymbolpathwide, dbgeng/IDebugSymbols3::GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolPathWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSymbolPathWide method
@@ -128,9 +128,9 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

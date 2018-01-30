@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice3:: MapIoSpace, IWDFDevice3::MapIoSpace, IWDFDevice3, umdf.iwdfdevice3_mapiospace, IWDFDevice3:: MapIoSpace, wdf.iwdfdevice3_mapiospace, MapIoSpace, MapIoSpace method, IWDFDevice3 interface, MapIoSpace method, MapIoSpace method, IWDFDevice3 interface
+ms.keywords: IWDFDevice3, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, MapIoSpace method, IWDFDevice3 interface, IWDFDevice3 interface, MapIoSpace method, MapIoSpace, MapIoSpace method, IWDFDevice3::MapIoSpace, wudfddi/IWDFDevice3::\_MapIoSpace, IWDFDevice3::\_MapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice3.MapIoSpace
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAppendUnicodeStringToString, k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, wdm/RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], kernel.rtlappendunicodestringtostring
+ms.keywords: k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, wdm/RtlAppendUnicodeStringToString, kernel.rtlappendunicodestringtostring, RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlAppendUnicodeStringToString
 product: Windows
 targetos: Windows

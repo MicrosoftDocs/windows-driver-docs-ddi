@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.isensordriver_ongetdatafields, ISensorDriver::OnGetDataFields, OnGetDataFields, ISensorDriver, OnGetDataFields method [Sensor Devices]
+ms.keywords: sensors.isensordriver_ongetdatafields, OnGetDataFields method [Sensor Devices], ISensorDriver, ISensorDriver::OnGetDataFields, OnGetDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	OnGetDataFields
 product: Windows
 targetos: Windows

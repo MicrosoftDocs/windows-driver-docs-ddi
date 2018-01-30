@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3f79cda-349a-4a42-a2a9-d9be3a695c1c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, TmEnableCallbacks, kernel.tmenablecallbacks
+ms.keywords: kernel.tmenablecallbacks, TmEnableCallbacks, wdm/TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmEnableCallbacks
 product: Windows
 targetos: Windows
@@ -128,7 +128,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
 <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
 
@@ -136,7 +136,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
  
 

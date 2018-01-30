@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 535D7611-8C86-44CF-964C-731882A3AF69
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], PsGetCurrentSilo, kernel.psgetcurrentsilo
+ms.keywords: PsGetCurrentSilo, kernel.psgetcurrentsilo, ntddk/PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
-topictype: 
+req.irql: "_IRQL_requires_max_(DISPATCH_LEVEL)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsGetCurrentSilo
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetCurrentSilo function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff2ebd1c-d0ac-47a7-90d4-0b49259784c1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiGetInstanceName, scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
+ms.keywords: ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename, scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiwmi/ScsiPortWmiGetInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsiwmi.h
-apiname: 
+apiname:
 -	ScsiPortWmiGetInstanceName
 product: Windows
 targetos: Windows

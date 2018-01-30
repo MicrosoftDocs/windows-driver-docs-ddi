@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ECP_OPEN_PARAMETERS
-title: _ECP_OPEN_PARAMETERS
+title: "_ECP_OPEN_PARAMETERS"
 author: windows-driver-content
 description: The ECP_OPEN_PARAMETERS structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file.
 old-location: ifsk\ecp_open_parameters.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], *PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS, _ECP_OPEN_PARAMETERS
+ms.keywords: ifsk.ecp_open_parameters, ntifs/PECP_OPEN_PARAMETERS, _ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS, ntifs/ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	ECP_OPEN_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS
+req.typenames: "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS"
 ---
 
 # _ECP_OPEN_PARAMETERS structure

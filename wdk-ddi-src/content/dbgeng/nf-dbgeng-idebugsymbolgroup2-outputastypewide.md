@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2::OutputAsTypeWide, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, debugger.outputastypewide, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsTypeWide method [Windows Debugging], dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2, OutputAsTypeWide, debugger.outputastypewide, IDebugSymbolGroup2::OutputAsTypeWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbolGroup2.OutputAsTypeWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::OutputAsTypeWide method
@@ -116,11 +116,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

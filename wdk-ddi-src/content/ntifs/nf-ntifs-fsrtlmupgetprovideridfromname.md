@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a572398c-1755-4fc6-844b-85059d4d02cb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], FsRtlMupGetProviderIdFromName, ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName, fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml
+ms.keywords: FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName, fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlMupGetProviderIdFromName
 product: Windows
 targetos: Windows

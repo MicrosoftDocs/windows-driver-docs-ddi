@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b5e671dc-0583-4e5f-b537-3257b3f25479
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_registerforadapterevents, hbaapi/HBA_RegisterForAdapterEvents, HBA_RegisterForAdapterEvents routine [Storage Devices], fibreHBA_rtns_8ab64c5b-ffac-4e2a-90db-5f3cbc640f14.xml, HBA_RegisterForAdapterEvents
+ms.keywords: HBA_RegisterForAdapterEvents routine [Storage Devices], HBA_RegisterForAdapterEvents, hbaapi/HBA_RegisterForAdapterEvents, storage.hba_registerforadapterevents, fibreHBA_rtns_8ab64c5b-ffac-4e2a-90db-5f3cbc640f14.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_RegisterForAdapterEvents
 product: Windows
 targetos: Windows
@@ -152,13 +152,13 @@ If the configuration of the HBA referenced by <i>handle </i>is changed, the call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
 
  
 

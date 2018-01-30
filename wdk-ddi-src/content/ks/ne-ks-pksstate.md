@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.PKSSTATE
-title: *PKSSTATE
+title: "*PKSSTATE"
 author: windows-driver-content
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6f5a3c65-9d6c-4d5f-af99-71aba16eb254
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSSTATE_PAUSE, KSSTATE, ks/KSSTATE_ACQUIRE, KSSTATE_STOP, KSSTATE enumeration [Streaming Media Devices], KSSTATE_RUN, ks/KSSTATE_STOP, *PKSSTATE, ks/KSSTATE, PKSSTATE, ks/KSSTATE_RUN, stream.ksstate, KSSTATE_ACQUIRE, PKSSTATE enumeration pointer [Streaming Media Devices], KSSTATE_PAUSE, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, ks/PKSSTATE
+ms.keywords: KSSTATE_STOP, ks/KSSTATE_STOP, ks/KSSTATE_PAUSE, PKSSTATE, ks/KSSTATE, KSSTATE_PAUSE, ks/KSSTATE_RUN, ks/PKSSTATE, ks-struct_a5862576-6737-471e-8e31-1bc98fb4b4f9.xml, PKSSTATE enumeration pointer [Streaming Media Devices], *PKSSTATE, KSSTATE_RUN, KSSTATE, KSSTATE_ACQUIRE, stream.ksstate, ks/KSSTATE_ACQUIRE, KSSTATE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSSTATE
 product: Windows
 targetos: Windows
-req.typenames: *PKSSTATE, KSSTATE
+req.typenames: "*PKSSTATE, KSSTATE"
 ---
 
 # *PKSSTATE enumeration

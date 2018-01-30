@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfwmi._WDF_WMI_PROVIDER_CONFIG
-title: _WDF_WMI_PROVIDER_CONFIG
+title: "_WDF_WMI_PROVIDER_CONFIG"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_CONFIG structure contains configuration information for a driver's WMI data block.
 old-location: wdf\wdf_wmi_provider_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b8e4e8-f144-4469-bedf-18f40be7e649
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_wmi_provider_config, _WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG structure, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG structure pointer, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml, wdf.wdf_wmi_provider_config, wdfwmi/WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
+ms.keywords: WDF_WMI_PROVIDER_CONFIG structure, wdfwmi/WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG, _WDF_WMI_PROVIDER_CONFIG, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml, kmdf.wdf_wmi_provider_config, *PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG structure pointer, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG, wdf.wdf_wmi_provider_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfwmi.h
-apiname: 
+apiname:
 -	WDF_WMI_PROVIDER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
+req.typenames: "*PWDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -110,13 +110,13 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
-
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_flags.md">WDF_WMI_PROVIDER_FLAGS</a>
 

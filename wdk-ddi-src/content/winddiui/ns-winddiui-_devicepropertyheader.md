@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DEVICEPROPERTYHEADER
-title: _DEVICEPROPERTYHEADER
+title: "_DEVICEPROPERTYHEADER"
 author: windows-driver-content
 description: The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDevicePropertySheets function.
 old-location: print\devicepropertyheader.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winddiui/DEVICEPROPERTYHEADER, _DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], PDEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER, print.devicepropertyheader, PDEVICEPROPERTYHEADER structure pointer [Print Devices], winddiui/PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER, print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml
+ms.keywords: DEVICEPROPERTYHEADER, _DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, print.devicepropertyheader, *PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], winddiui/PDEVICEPROPERTYHEADER, winddiui/DEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DEVICEPROPERTYHEADER
 product: Windows
 targetos: Windows
-req.typenames: DEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER
+req.typenames: "*PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER"
 req.product: Windows 10 or later.
 ---
 

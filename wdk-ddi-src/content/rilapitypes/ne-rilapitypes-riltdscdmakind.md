@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff6c4459-dd3e-43f6-aa41-a2e82221394e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_TDSCDMAKIND_HSUPA, RILTDSCDMAKIND enumeration [Network Drivers Starting with Windows Vista], RIL_TDSCDMAKIND_DC_HSPAPLUS, rilapitypes/RILTDSCDMAKIND, rilapitypes/RIL_TDSCDMAKIND_DC_HSPAPLUS, RIL_TDSCDMAKIND_MAX, rilapitypes/RIL_TDSCDMAKIND_MAX, RIL_TDSCDMAKIND_HSPAPLUS, netvista.riltdscdmakind_2, rilapitypes/RIL_TDSCDMAKIND_HSDPA, rilapitypes/RIL_TDSCDMAKIND_HSPAPLUS, rilapitypes/RIL_TDSCDMAKIND_HSUPA, RILTDSCDMAKIND, RIL_TDSCDMAKIND_HSDPA
+ms.keywords: rilapitypes/RIL_TDSCDMAKIND_MAX, RIL_TDSCDMAKIND_HSUPA, RIL_TDSCDMAKIND_MAX, RILTDSCDMAKIND, rilapitypes/RILTDSCDMAKIND, RIL_TDSCDMAKIND_HSPAPLUS, RILTDSCDMAKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_TDSCDMAKIND_HSUPA, rilapitypes/RIL_TDSCDMAKIND_HSPAPLUS, rilapitypes/RIL_TDSCDMAKIND_DC_HSPAPLUS, RIL_TDSCDMAKIND_HSDPA, rilapitypes/RIL_TDSCDMAKIND_HSDPA, RIL_TDSCDMAKIND_DC_HSPAPLUS, netvista.riltdscdmakind_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILTDSCDMAKIND
 product: Windows
 targetos: Windows

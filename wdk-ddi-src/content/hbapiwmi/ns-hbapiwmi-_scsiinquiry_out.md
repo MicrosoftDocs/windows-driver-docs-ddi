@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiInquiry_OUT
-title: _ScsiInquiry_OUT
+title: "_ScsiInquiry_OUT"
 author: windows-driver-content
 description: The ScsiInquiry_OUT structure is used to report the output data of the ScsiInquiry WMI method to the WMI client.
 old-location: storage\scsiinquiry_out2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea1d6f35-1dc5-4c65-9158-7f85464c5cd7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/ScsiInquiry_OUT, hbapiwmi/PScsiInquiry_OUT, PScsiInquiry_OUT, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml, *PScsiInquiry_OUT, storage.scsiinquiry_out2, ScsiInquiry_OUT structure [Storage Devices], ScsiInquiry_OUT, _ScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices]
+ms.keywords: storage.scsiinquiry_out2, ScsiInquiry_OUT, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml, hbapiwmi/ScsiInquiry_OUT, _ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], *PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], PScsiInquiry_OUT, hbapiwmi/PScsiInquiry_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hbapiwmi.h
-apiname: 
+apiname:
 -	ScsiInquiry_OUT
 product: Windows
 targetos: Windows
-req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
+req.typenames: "*PScsiInquiry_OUT, ScsiInquiry_OUT"
 ---
 
 # _ScsiInquiry_OUT structure
@@ -111,9 +111,9 @@ The WMI tool suite generates a declaration of the ScsiInquiry_OUT structure in <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

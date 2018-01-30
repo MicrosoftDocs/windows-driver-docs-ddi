@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ab63fe-0c59-480c-a333-a9b14d83ad68
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols3, IDebugSymbols3::GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], debugger.getsourceentriesbyline, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method, GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml
+ms.keywords: IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLine method, IDebugSymbols3, GetSourceEntriesByLine, debugger.getsourceentriesbyline, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourceEntriesByLine
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSourceEntriesByLine method

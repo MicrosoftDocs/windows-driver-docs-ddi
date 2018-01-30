@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.pshedfreememory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, PshedFreeMemory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
+ms.keywords: whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml, whea.pshedfreememory, PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: Pshed.lib
 req.dll: Pshed.dll
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Pshed.dll
-apiname: 
+apiname:
 -	PshedFreeMemory
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PshedFreeMemory function

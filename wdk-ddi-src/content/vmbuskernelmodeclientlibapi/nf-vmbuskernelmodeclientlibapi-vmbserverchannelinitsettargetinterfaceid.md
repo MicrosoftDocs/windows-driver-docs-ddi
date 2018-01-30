@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09123845-F734-48B6-A593-0368CD195379
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, VmbServerChannelInitSetTargetInterfaceId
+ms.keywords: VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbServerChannelInitSetTargetInterfaceId
 product: Windows
 targetos: Windows

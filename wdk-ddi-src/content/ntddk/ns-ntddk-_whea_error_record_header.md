@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER
-title: _WHEA_ERROR_RECORD_HEADER
+title: "_WHEA_ERROR_RECORD_HEADER"
 author: windows-driver-content
 description: The WHEA_ERROR_RECORD_HEADER structure describes general information about a hardware error condition.
 old-location: whea\whea_error_record_header.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], *PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, whea.whea_error_record_header, WHEA_ERROR_RECORD_HEADER
+ms.keywords: whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whea.whea_error_record_header, *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_RECORD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
+req.typenames: "*PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER"
 ---
 
 # _WHEA_ERROR_RECORD_HEADER structure
@@ -146,6 +146,41 @@ A GUID that identifies the notification mechanism by which an error condition is
 For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
 
 
+#### CMC_NOTIFY_TYPE_GUID
+
+Corrected Machine Check (CMC)
+
+
+#### CPE_NOTIFY_TYPE_GUID
+
+Corrected Platform Error (CPE)
+
+
+#### MCE_NOTIFY_TYPE_GUID
+
+Machine Check Exception (MCE)
+
+
+#### PCIe_NOTIFY_TYPE_GUID
+
+PCI Express (PCIe) Error
+
+
+#### INIT_NOTIFY_TYPE_GUID
+
+INIT Error Record (INIT)
+
+
+#### NMI_NOTIFY_TYPE_GUID
+
+Nonmaskable Interrupt (NMI)
+
+
+#### BOOT_NOTIFY_TYPE_GUID
+
+Boot Error Record (BOOT)
+
+
 ### -field RecordId
 
 The identifier of the error record. This identifier is unique only on the system that created the error record.
@@ -174,6 +209,31 @@ A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The W
 </table></span></div>
 
 
+#### Recovered
+
+A single bit that indicates that the operating system recovered from the error condition.
+
+
+#### PreviousError
+
+A single bit that indicates that the error condition occurred in a previous session of the operating system.
+
+
+#### Simulated
+
+A single bit that indicates that the error condition was simulated.
+
+
+#### Reserved
+
+Reserved for system use.
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
+
+
 ### -field PersistenceInfo
 
 A <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a> union that is used by the error record persistence interface.
@@ -182,66 +242,6 @@ A <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a
 ### -field Reserved
 
 Reserved for system use.
-
-
-##### - NotifyType.PCIe_NOTIFY_TYPE_GUID
-
-PCI Express (PCIe) Error
-
-
-##### - NotifyType.CPE_NOTIFY_TYPE_GUID
-
-Corrected Platform Error (CPE)
-
-
-##### - NotifyType.BOOT_NOTIFY_TYPE_GUID
-
-Boot Error Record (BOOT)
-
-
-##### - Flags.Reserved
-
-Reserved for system use.
-
-
-##### - Flags.AsULONG
-
-A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
-
-
-##### - Flags.Recovered
-
-A single bit that indicates that the operating system recovered from the error condition.
-
-
-##### - NotifyType.NMI_NOTIFY_TYPE_GUID
-
-Nonmaskable Interrupt (NMI)
-
-
-##### - NotifyType.MCE_NOTIFY_TYPE_GUID
-
-Machine Check Exception (MCE)
-
-
-##### - Flags.PreviousError
-
-A single bit that indicates that the error condition occurred in a previous session of the operating system.
-
-
-##### - NotifyType.INIT_NOTIFY_TYPE_GUID
-
-INIT Error Record (INIT)
-
-
-##### - Flags.Simulated
-
-A single bit that indicates that the error condition was simulated.
-
-
-##### - NotifyType.CMC_NOTIFY_TYPE_GUID
-
-Corrected Machine Check (CMC)
 
 
 ## -remarks
@@ -255,8 +255,6 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
@@ -264,6 +262,8 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 <a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
  
 

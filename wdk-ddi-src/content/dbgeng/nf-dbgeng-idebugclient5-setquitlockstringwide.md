@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B9A2C636-BF18-4D1B-A013-8CAE65FCC56F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, SetQuitLockStringWide method [Windows Debugging], debugger.idebugclient5_setquitlockstringwide, dbgeng/IDebugClient5::SetQuitLockStringWide, IDebugClient5, SetQuitLockStringWide, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method
+ms.keywords: dbgeng/IDebugClient5::SetQuitLockStringWide, IDebugClient5::SetQuitLockStringWide, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide, SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, SetQuitLockStringWide method [Windows Debugging], IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.SetQuitLockStringWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::SetQuitLockStringWide method

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_GC_PARAMETERS
-title: _REFS_SMR_VOLUME_GC_PARAMETERS
+title: "_REFS_SMR_VOLUME_GC_PARAMETERS"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_PARAMETERS structure.
 old-location: ifsk\refs_smr_volume_gc_parameters.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78C8FFFE-8A80-4C92-B822-5C6675E2BC18
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], _REFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], ifsk.refs_smr_volume_gc_parameters
+ms.keywords: REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], ifsk.refs_smr_volume_gc_parameters, PREFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS, _REFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_PARAMETERS, ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	REFS_SMR_VOLUME_GC_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS
+req.typenames: "*PREFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS"
 ---
 
 # _REFS_SMR_VOLUME_GC_PARAMETERS structure

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_association_completion_parameters, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
+ms.keywords: netvista.dot11_association_completion_parameters, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_ASSOCIATION_COMPLETION_PARAMETERS
 product: Windows
 targetos: Windows
@@ -112,6 +112,22 @@ The miniport driver must set the members of
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_ASSOCIATION_COMPLETION_PARAMETERS_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       <code>sizeof(DOT11_ASSOCIATION_COMPLETION_PARAMETERS)</code>.
 
 
 ### -field MacAddr
@@ -434,6 +450,16 @@ A flag that specifies the quality of service (QoS) protocol that is currently ac
 
 
 
+#### DOT11_QOS_PROTOCOL_FLAG_WMM
+
+The NIC is using the 802.11 WMM QoS protocol.
+
+
+#### DOT11_QOS_PROTOCOL_FLAG_11E
+
+The NIC is using the 802.11e QoS protocol.
+
+
 ### -field DSInfo
 
 A DOT11_DS_INFO value that specifies whether the 802.11 station is connected to the same DS from
@@ -450,6 +476,22 @@ The
      <b>DOT11_DS_UNKNOWN</b> if the 
      <b>dot11DesiredBSSType</b> MIB object is set to 
      <b>dot11_BSS_type_independent</b>.</div><div> </div>
+
+#### DOT11_DS_CHANGED
+
+The 802.11 station has connected to a new DS after the association operation.
+
+
+#### DOT11_DS_UNCHANGED
+
+The 802.11 station is connected to the same DS from the association operation.
+
+
+#### DOT11_DS_UNKNOWN
+
+The miniport driver cannot determine whether the DS has changed after the association
+       operation.
+
 
 ### -field uEncapTableOffset
 
@@ -482,48 +524,6 @@ The multicast cipher algorithm the NIC chooses (negotiates) for the association 
 When a (re)association fails with 802.11 reason code 30 ("Association request rejected temporarily, try again later.") this member indicates the value of the association comeback time requested by the access point (AP). The 802.11 disassociation reason code is present in the lowest 16 bits of <b>uStatus</b> when responding to an association request.
 
 Windows' auto-connection service will add the AP to a blocked list and not attempt to reconnect for at least the indicated comeback time. The NIC will behave like a regular failed authentication until the next connection sequence is begun. After the indicated timeout(comeback) elapses and the connection process is stopped Windows may either find a better alternate connection or comeback to this connection. This value set in this member should use the time units defined in the 802.11 specification. For example, TU.
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_ASSOCIATION_COMPLETION_PARAMETERS_REVISION_1.
-
-
-##### - ucActiveQoSProtocol.DOT11_QOS_PROTOCOL_FLAG_11E
-
-The NIC is using the 802.11e QoS protocol.
-
-
-##### - ucActiveQoSProtocol.DOT11_QOS_PROTOCOL_FLAG_WMM
-
-The NIC is using the 802.11 WMM QoS protocol.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - DSInfo.DOT11_DS_UNKNOWN
-
-The miniport driver cannot determine whether the DS has changed after the association
-       operation.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <code>sizeof(DOT11_ASSOCIATION_COMPLETION_PARAMETERS)</code>.
-
-
-##### - DSInfo.DOT11_DS_UNCHANGED
-
-The 802.11 station is connected to the same DS from the association operation.
-
-
-##### - DSInfo.DOT11_DS_CHANGED
-
-The 802.11 station has connected to a new DS after the association operation.
 
 
 ## -remarks
@@ -564,24 +564,24 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
-
-<mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
-   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</mshelp:link>
-
-<a href="..\windot11\ns-windot11-dot11_encap_entry.md">DOT11_ENCAP_ENTRY</a>
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
 
+<a href="..\windot11\ns-windot11-dot11_encap_entry.md">DOT11_ENCAP_ENTRY</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+
 OID_DOT11_DESIRED_BSS_TYPE
 
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+<mshelp:link keywords="netvista.ndis_status_dot11_association_completion" tabindex="0">
+   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

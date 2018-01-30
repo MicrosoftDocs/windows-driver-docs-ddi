@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2e0d5214-d2ec-4cb4-8437-a9f5605ea85a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_RPI_ID, ntddrilapitypes/RIL_PARAM_RPI_NAME_PRES_IND, RILREMOTEPARTYINFOPARAM, RIL_PARAM_RPI_NUM_PRES_IND, ntddrilapitypes/RIL_PARAM_RPI_ALL, RIL_PARAM_RPI_SUBADDRESS, ntddrilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, ntddrilapitypes/RIL_PARAM_RPI_ID, ntddrilapitypes/RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_NAME_PRES_IND, netvista.rilremotepartyinfovalueparam, ntddrilapitypes/RIL_PARAM_RPI_SUBADDRESS, RIL_PARAM_RPI_DESCRIPTION, ntddrilapitypes/RIL_PARAM_RPI_DESCRIPTION, ntddrilapitypes/RILREMOTEPARTYINFOVALUEPARAM, RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_ALL, RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RIL_PARAM_RPI_SUBADDRESS, RIL_PARAM_RPI_DESCRIPTION, ntddrilapitypes/RIL_PARAM_RPI_NUM_PRES_IND, RIL_PARAM_RPI_ALL, ntddrilapitypes/RIL_PARAM_RPI_ALL, ntddrilapitypes/RIL_PARAM_RPI_DESCRIPTION, RILREMOTEPARTYINFOVALUEPARAM enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOVALUEPARAM, ntddrilapitypes/RIL_PARAM_RPI_ADDRESS, netvista.rilremotepartyinfovalueparam, RIL_PARAM_RPI_NAME_PRES_IND, ntddrilapitypes/RIL_PARAM_RPI_NAME_PRES_IND, ntddrilapitypes/RIL_PARAM_RPI_ID, RIL_PARAM_RPI_NUM_PRES_IND, RIL_PARAM_RPI_ID, RIL_PARAM_RPI_ADDRESS, RIL_PARAM_RPI_SUBADDRESS, RILREMOTEPARTYINFOPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILREMOTEPARTYINFOVALUEPARAM
 product: Windows
 targetos: Windows

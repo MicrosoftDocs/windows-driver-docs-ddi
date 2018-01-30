@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_BIDIRECTIONAL
-title: _SRBEX_DATA_BIDIRECTIONAL
+title: "_SRBEX_DATA_BIDIRECTIONAL"
 author: windows-driver-content
 description: The SRBEX_DATA_BIDIRECTIONAL structure contains the extended SRB data for bi-directional transfer commands.
 old-location: storage\srbex_data_bidirectional.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSRBEX_DATA_BIDIRECTIONAL, storport/PSRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, _SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices]
+ms.keywords: PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], storport/SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, storport/PSRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], _SRBEX_DATA_BIDIRECTIONAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	SRBEX_DATA_BIDIRECTIONAL
 product: Windows
 targetos: Windows
-req.typenames: *PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL
+req.typenames: "*PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL"
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,7 @@ A pointer to the buffer that contains the data sent from the device.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

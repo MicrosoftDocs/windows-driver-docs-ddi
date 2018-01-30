@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9a3380d0-2d90-49ec-b97d-be55eb6eaaa5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMSendPage function [Print Devices], print_unidrv-pscript_rendering_6a896dea-57aa-4fa0-810f-dadb79b13079.xml, printoem/OEMSendPage, print.oemsendpage, OEMSendPage
+ms.keywords: print_unidrv-pscript_rendering_6a896dea-57aa-4fa0-810f-dadb79b13079.xml, print.oemsendpage, printoem/OEMSendPage, OEMSendPage function [Print Devices], OEMSendPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMSendPage
 product: Windows
 targetos: Windows

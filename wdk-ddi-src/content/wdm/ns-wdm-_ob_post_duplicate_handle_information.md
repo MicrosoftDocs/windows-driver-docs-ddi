@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_DUPLICATE_HANDLE_INFORMATION
-title: _OB_POST_DUPLICATE_HANDLE_INFORMATION
+title: "_OB_POST_DUPLICATE_HANDLE_INFORMATION"
 author: windows-driver-content
 description: The OB_POST_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPostCallback routine about a thread or process handle that has been duplicated.
 old-location: kernel\ob_post_duplicate_handle_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 780ace20-bb88-47fe-b504-dd6a5e903840
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: OB_POST_DUPLICATE_HANDLE_INFORMATION, _OB_POST_DUPLICATE_HANDLE_INFORMATION, wdm/OB_POST_DUPLICATE_HANDLE_INFORMATION, wdm/POB_POST_DUPLICATE_HANDLE_INFORMATION, POB_POST_DUPLICATE_HANDLE_INFORMATION, *POB_POST_DUPLICATE_HANDLE_INFORMATION, kernel.ob_post_duplicate_handle_information, kstruct_c_7b277d55-5e47-4b6d-a77b-9f10decc3dbd.xml, OB_POST_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/POB_POST_DUPLICATE_HANDLE_INFORMATION, _OB_POST_DUPLICATE_HANDLE_INFORMATION, POB_POST_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], POB_POST_DUPLICATE_HANDLE_INFORMATION, kernel.ob_post_duplicate_handle_information, *POB_POST_DUPLICATE_HANDLE_INFORMATION, OB_POST_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], OB_POST_DUPLICATE_HANDLE_INFORMATION, wdm/OB_POST_DUPLICATE_HANDLE_INFORMATION, kstruct_c_7b277d55-5e47-4b6d-a77b-9f10decc3dbd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	OB_POST_DUPLICATE_HANDLE_INFORMATION
 product: Windows
 targetos: Windows

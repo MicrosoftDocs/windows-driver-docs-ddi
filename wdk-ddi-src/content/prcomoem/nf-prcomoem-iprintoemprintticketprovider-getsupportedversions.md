@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, IPrintOemPrintTicketProvider, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, GetSupportedVersions method [Print Devices], GetSupportedVersions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method
+ms.keywords: GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, GetSupportedVersions method [Print Devices], prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_getsupportedversions, GetSupportedVersions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.GetSupportedVersions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

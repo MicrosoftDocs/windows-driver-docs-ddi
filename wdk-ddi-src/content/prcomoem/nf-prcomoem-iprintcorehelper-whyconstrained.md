@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: de3fdbd4-9647-4369-9c23-4779aa768b1b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WhyConstrained method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper, WhyConstrained method [Print Devices], print.iprintcorehelper_whyconstrained, IPrintCoreHelper::WhyConstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml, WhyConstrained, prcomoem/IPrintCoreHelper::WhyConstrained, IPrintCoreHelper interface [Print Devices], WhyConstrained method
+ms.keywords: WhyConstrained method [Print Devices], IPrintCoreHelper interface, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml, print.iprintcorehelper_whyconstrained, IPrintCoreHelper, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreHelper::WhyConstrained, prcomoem/IPrintCoreHelper::WhyConstrained, IPrintCoreHelper interface [Print Devices], WhyConstrained method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelper.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

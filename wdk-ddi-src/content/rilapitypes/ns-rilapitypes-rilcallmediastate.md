@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILCALLMEDIASTATE, netvista.rilcallmediastate_2, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIASTATE
+ms.keywords: RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], RILCALLMEDIASTATE, netvista.rilcallmediastate_2, *LPRILCALLMEDIASTATE, rilapitypes/RILCALLMEDIASTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLMEDIASTATE, RILCALLMEDIASTATE
+req.typenames: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE
 req.product: Windows 10 or later.
 ---
 
@@ -121,15 +121,11 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-#### - dwCustomStateSpecific
+#### - switch_is
 
 
 
-#### - RIL_CALLMEDIATYPE_VIDEO
-
-
-
-#### - RIL_CALLMEDIATYPE_UNKNOWN
+#### - stAudioState
 
 
 
@@ -141,7 +137,19 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-#### - switch_is
+#### - stVideoState
+
+
+
+#### - RIL_CALLMEDIATYPE_VIDEO
+
+
+
+#### - dwCustomStateSpecific
+
+
+
+#### - RIL_CALLMEDIATYPE_CUSTOM
 
 
 
@@ -149,14 +157,6 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-#### - stVideoState
-
-
-
-#### - stAudioState
-
-
-
-#### - RIL_CALLMEDIATYPE_CUSTOM
+#### - RIL_CALLMEDIATYPE_UNKNOWN
 
 

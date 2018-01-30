@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskReceiveEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -312,26 +312,26 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
  
 

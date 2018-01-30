@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b6fd9c92-ac36-46ac-b996-d76afaf6b906
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_SYNTHDOWNLOAD, audio.synthdownload, *PSYNTHDOWNLOAD, SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, dmusprop/PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], PSYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD"
+ms.keywords: audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], SYNTHDOWNLOAD structure [Audio Devices], *PSYNTHDOWNLOAD, _SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, SYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD, PSYNTHDOWNLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

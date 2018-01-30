@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 41fc4479-98e4-4632-89a1-1638eff02279
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFIOTargetRef_fdd5195f-e259-4c89-b55e-e6ad06492a4d.xml, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE, kmdf.wdf_io_target_open_params_init_existing_device, wdf.wdf_io_target_open_params_init_existing_device, WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE, WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function
+ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE, DFIOTargetRef_fdd5195f-e259-4c89-b55e-e6ad06492a4d.xml, wdf.wdf_io_target_open_params_init_existing_device, WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE, kmdf.wdf_io_target_open_params_init_existing_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfiotarget.h
-apiname: 
+apiname:
 -	WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,11 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_create_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 

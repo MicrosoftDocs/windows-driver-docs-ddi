@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8be10470-3761-4120-8987-00d6fcc9a989
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilimsfailure, ntddrilapitypes/RILIMSFAILURE, RILIMSFAILURE, *LPRILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILIMSFAILURE, netvista.rilimsfailure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILIMSFAILURE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILIMSFAILURE, RILIMSFAILURE
+req.typenames: "*LPRILIMSFAILURE, RILIMSFAILURE"
 ---
 
 # RILIMSFAILURE structure

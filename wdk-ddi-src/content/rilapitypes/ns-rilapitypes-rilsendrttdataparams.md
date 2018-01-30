@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9fc4662f-e827-473a-8e18-f60afb62cd5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsendrttdataparams_2, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], RILSENDRTTDATAPARAMS, rilapitypes/RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
+ms.keywords: RILSENDRTTDATAPARAMS, rilapitypes/RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSENDRTTDATAPARAMS, netvista.rilsendrttdataparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSENDRTTDATAPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
+req.typenames: "*LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS"
 req.product: Windows 10 or later.
 ---
 

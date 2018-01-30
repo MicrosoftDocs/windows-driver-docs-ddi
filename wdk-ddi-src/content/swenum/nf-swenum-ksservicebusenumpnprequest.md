@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksservicebusenumpnprequest, KsServiceBusEnumPnpRequest, swenum/KsServiceBusEnumPnpRequest, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, KsServiceBusEnumPnpRequest function [Streaming Media Devices]
+ms.keywords: swenum/KsServiceBusEnumPnpRequest, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, stream.ksservicebusenumpnprequest, KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsServiceBusEnumPnpRequest
 product: Windows
 targetos: Windows
@@ -193,11 +193,11 @@ IRP_MN_QUERY_CAPABILITIES
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
+<a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
 
 <a href="..\swenum\nf-swenum-ksisbusenumchilddevice.md">KsIsBusEnumChildDevice</a>
 
-<a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
+<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 01132969-b459-4110-a067-fda6c7ee5510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], KSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, ksmedia/KSPROPERTY_EXTXPORT_S, vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], *PKSPROPERTY_EXTXPORT_S, ksmedia/PKSPROPERTY_EXTXPORT_S
+ms.keywords: ksmedia/PKSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], stream.ksproperty_extxport_s, *PKSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml, KSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S, ksmedia/KSPROPERTY_EXTXPORT_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_EXTXPORT_S
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S
+req.typenames: "*PKSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S"
 ---
 
 # KSPROPERTY_EXTXPORT_S structure
@@ -178,13 +178,13 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extxport_node_s.md">KSPROPERTY_EXTXPORT_NODE_S</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_extxport_node_s.md">KSPROPERTY_EXTXPORT_NODE_S</a>
+
+<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
 
  
 

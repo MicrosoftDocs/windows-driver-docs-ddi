@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxcontroller/UcxIoDeviceControl, buses._ucxiodevicecontrol, UcxIoDeviceControl, UcxIoDeviceControl method [Buses]
+ms.keywords: buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl, UcxIoDeviceControl method [Buses], UcxIoDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UcxIoDeviceControl
 product: Windows
 targetos: Windows

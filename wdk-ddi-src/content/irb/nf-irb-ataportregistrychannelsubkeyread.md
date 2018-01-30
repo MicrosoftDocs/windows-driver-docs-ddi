@@ -2,13 +2,13 @@
 UID: NF:irb.AtaPortRegistryChannelSubkeyRead
 title: AtaPortRegistryChannelSubkeyRead function
 author: windows-driver-content
-description: The AtaPortRegistryChannelSubKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel. Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The AtaPortRegistryChannelSubKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel. Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrychannelsubkeyread.htm
 old-project: storage
 ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, storage.ataportregistrychannelsubkeyread, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead
+ms.keywords: AtaPortRegistryChannelSubkeyRead routine [Storage Devices], AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, storage.ataportregistrychannelsubkeyread, irb/AtaPortRegistryChannelSubkeyRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaPortRegistryChannelSubkeyRead
 product: Windows
 targetos: Windows
@@ -164,11 +164,11 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 <a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, display.dxva_procampcontrolcaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], *LPDXVA_ProcAmpControlCaps, _DXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], dxva/LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps
+ms.keywords: LPDXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, _DXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], dxva/LPDXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -210,9 +210,9 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
-
 <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
+
+<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
 
  
 

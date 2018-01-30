@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdmsec/RtlInitUnicodeString, kernel.wdmlibrtlinitunicodestringex, WdmlibRtlInitUnicodeStringEx, wdmsec/WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], RtlInitUnicodeString
+ms.keywords: WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], wdmsec/RtlInitUnicodeString, RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, kernel.wdmlibrtlinitunicodestringex, wdmsec/WdmlibRtlInitUnicodeStringEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WdmlibRtlInitUnicodeStringEx
 -	RtlInitUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
 req.product: Windows 10 or later.
 ---
 
@@ -92,11 +92,11 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
 
  
 

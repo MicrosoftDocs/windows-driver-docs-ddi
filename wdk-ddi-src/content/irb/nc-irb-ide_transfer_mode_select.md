@@ -2,7 +2,7 @@
 UID: NC:irb.IDE_TRANSFER_MODE_SELECT
 title: IDE_TRANSFER_MODE_SELECT
 author: windows-driver-content
-description: The AtaControllerTransferModeSelect miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The AtaControllerTransferModeSelect miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\atacontrollertransfermodeselect.htm
 old-project: storage
 ms.assetid: 3ee46b54-791f-4eac-84d7-5a0093b6984a
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaControllerTransferModeSelect
 product: Windows
 targetos: Windows

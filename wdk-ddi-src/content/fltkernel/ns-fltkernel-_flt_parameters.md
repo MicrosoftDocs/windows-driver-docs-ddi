@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_PARAMETERS
-title: _FLT_PARAMETERS
+title: "_FLT_PARAMETERS"
 author: windows-driver-content
 description: The FLT_PARAMETERS union defines the request-type-specific parameters associated with an I/O operation.
 old-location: ifsk\flt_parameters.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 62aa20b7-ce5c-4d42-bce2-1d76a98887ed
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.flt_parameters, fltkernel/PFLT_PARAMETERS, fltkernel/FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], *PFLT_PARAMETERS, PFLT_PARAMETERS, FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, _FLT_PARAMETERS
+ms.keywords: PFLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, _FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FLT_PARAMETERS, ifsk.flt_parameters, fltkernel/FLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, *PFLT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltkernel.h
-apiname: 
+apiname:
 -	FLT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PFLT_PARAMETERS, FLT_PARAMETERS
+req.typenames: FLT_PARAMETERS, *PFLT_PARAMETERS
 ---
 
 # _FLT_PARAMETERS structure
@@ -199,9 +199,9 @@ The following I/O operations do not have parameters:
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 

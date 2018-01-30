@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, IPrintOemDriverUni::DrvGetDriverSetting, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvgetdriversetting, print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml
+ms.keywords: DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUni, DrvGetDriverSetting method [Print Devices], print.iprintoemdriveruni_drvgetdriversetting, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, DrvGetDriverSetting, IPrintOemDriverUni::DrvGetDriverSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

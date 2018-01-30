@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskReceiveFromEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,26 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
+#### MSG_BCAST
+
+The datagrams were received as a link-layer broadcast or with a destination transport address
+       that is a broadcast address.
+
+
+#### MSG_MCAST
+
+The datagrams were received with a destination transport address that is a multicast
+       address.
+
+
+#### WSK_FLAG_AT_DISPATCH_LEVEL
+
+The WSK subsystem called the 
+       <i>WskReceiveFromEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set,
+       the WSK subsystem might have called the 
+       <i>WskReceiveFromEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
+
+
 ### -param DataIndication [in, optional]
 
 A pointer to a linked list of 
@@ -99,26 +119,6 @@ A pointer to a linked list of
      the WSK application must call the 
      <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
      socket as soon as possible.
-
-
-##### - Flags.WSK_FLAG_AT_DISPATCH_LEVEL
-
-The WSK subsystem called the 
-       <i>WskReceiveFromEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set,
-       the WSK subsystem might have called the 
-       <i>WskReceiveFromEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
-
-
-##### - Flags.MSG_MCAST
-
-The datagrams were received with a destination transport address that is a multicast
-       address.
-
-
-##### - Flags.MSG_BCAST
-
-The datagrams were received as a link-layer broadcast or with a destination transport address
-       that is a broadcast address.
 
 
 ## -returns
@@ -253,19 +253,19 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
 
 <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
 
  
 

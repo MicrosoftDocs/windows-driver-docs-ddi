@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_LOW_POWER_EPOCH
-title: _PEP_LOW_POWER_EPOCH
+title: "_PEP_LOW_POWER_EPOCH"
 author: windows-driver-content
 description: The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated).
 old-location: kernel\pep_low_power_epoch.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_LOW_POWER_EPOCH, pepfx/PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], *PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch
+ms.keywords: "*PPEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, pepfx/PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, _PEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], PEP_LOW_POWER_EPOCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_LOW_POWER_EPOCH
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH
+req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
 ---
 
 # _PEP_LOW_POWER_EPOCH structure

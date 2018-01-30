@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_SEEK_AUDIO_MSF
-title: _CDROM_SEEK_AUDIO_MSF
+title: "_CDROM_SEEK_AUDIO_MSF"
 author: windows-driver-content
 description: The CDROM_SEEK_AUDIO_MSF structure contains the minute, second, and frame that the device must seek to upon receipt of a device control IRP with a control code of IOCTL_CDROM_SEEK_AUDIO_MSF.
 old-location: storage\cdrom_seek_audio_msf.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8fd4e642-5ed4-409e-bcc2-94d309a1e04c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PCDROM_SEEK_AUDIO_MSF, _CDROM_SEEK_AUDIO_MSF, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF structure [Storage Devices], storage.cdrom_seek_audio_msf, CDROM_SEEK_AUDIO_MSF, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml, PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices]
+ms.keywords: PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices], PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF structure [Storage Devices], _CDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, *PCDROM_SEEK_AUDIO_MSF, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, storage.cdrom_seek_audio_msf, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml, CDROM_SEEK_AUDIO_MSF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_SEEK_AUDIO_MSF
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF
+req.typenames: CDROM_SEEK_AUDIO_MSF, *PCDROM_SEEK_AUDIO_MSF
 ---
 
 # _CDROM_SEEK_AUDIO_MSF structure

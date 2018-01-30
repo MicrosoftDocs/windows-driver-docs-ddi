@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pfnAddPortUI function [Print Devices], spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, print.addportui, pfnAddPortUI, winsplp/pfnAddPortUI, AddPortUI
+ms.keywords: winsplp/pfnAddPortUI, AddPortUI, pfnAddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, print.addportui, pfnAddPortUI function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	pfnAddPortUI
 product: Windows
 targetos: Windows
@@ -168,15 +168,15 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
 <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
-
-<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
  
 

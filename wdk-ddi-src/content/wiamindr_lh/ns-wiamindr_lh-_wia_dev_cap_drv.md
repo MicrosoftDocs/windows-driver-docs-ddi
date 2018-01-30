@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIA_DEV_CAP_DRV
-title: _WIA_DEV_CAP_DRV
+title: "_WIA_DEV_CAP_DRV"
 author: windows-driver-content
 description: The WIA_DEV_CAP_DRV structure is used to enumerate device capabilities. A device capability is defined by an event or command that the device supports.
 old-location: image\wia_dev_cap_drv.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4024d455-2393-481f-8cb5-b33346ca85c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], *PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV, wiamindr_lh/PWIA_DEV_CAP_DRV, wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml, image.wia_dev_cap_drv, PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], _WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV
+ms.keywords: image.wia_dev_cap_drv, wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml, wiamindr_lh/WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], wiamindr_lh/PWIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV, _WIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	WIA_DEV_CAP_DRV
 product: Windows
 targetos: Windows

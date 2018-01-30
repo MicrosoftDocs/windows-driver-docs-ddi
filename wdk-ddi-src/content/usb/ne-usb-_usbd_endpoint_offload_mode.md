@@ -1,6 +1,6 @@
 ---
 UID: NE:usb._USBD_ENDPOINT_OFFLOAD_MODE
-title: _USBD_ENDPOINT_OFFLOAD_MODE
+title: "_USBD_ENDPOINT_OFFLOAD_MODE"
 author: windows-driver-content
 description: Defines values for endpoint offloading options in the USB device or host controller.
 old-location: buses\usbd_endpoint_offload_mode.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, UsbdEndpointOffloadModeNotSupported, usb/USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], buses.usbd_endpoint_offload_mode, UsbdEndpointOffloadSoftwareAssisted, UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadHardwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadSoftwareAssisted, usb/UsbdEndpointOffloadModeNotSupported
+ms.keywords: usb/UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], _USBD_ENDPOINT_OFFLOAD_MODE, UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadSoftwareAssisted, USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usb.h
-apiname: 
+apiname:
 -	USBD_ENDPOINT_OFFLOAD_MODE
 product: Windows
 targetos: Windows

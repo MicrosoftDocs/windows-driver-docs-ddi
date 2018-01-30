@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactionwdmgettransfercontext, PFN_WDFDMATRANSACTIONWDMGETTRANSFERCONTEXT, WdfDmaTransactionWdmGetTransferContext method, wdf.wdfdmatransactionwdmgettransfercontext, WdfDmaTransactionWdmGetTransferContext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
+ms.keywords: wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext, kmdf.wdfdmatransactionwdmgettransfercontext, WdfDmaTransactionWdmGetTransferContext method, PFN_WDFDMATRANSACTIONWDMGETTRANSFERCONTEXT, WdfDmaTransactionWdmGetTransferContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaTransactionWdmGetTransferContext
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

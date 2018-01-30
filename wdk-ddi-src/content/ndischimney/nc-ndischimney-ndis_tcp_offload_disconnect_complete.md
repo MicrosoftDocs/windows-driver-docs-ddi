@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NdisTcpOffloadDisconnectComplete
 product: Windows
 targetos: Windows
@@ -179,21 +179,21 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
    NdisAdvanceNetBufferDataStart</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
+   MiniportTcpOffloadDisconnect</i></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-   MiniportTcpOffloadDisconnect</i></mshelp:link>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
  
 

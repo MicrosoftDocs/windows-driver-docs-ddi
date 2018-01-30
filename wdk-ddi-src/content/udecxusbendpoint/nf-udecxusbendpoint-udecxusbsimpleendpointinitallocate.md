@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1BF79756-F55D-4F13-A03C-35F7880C5B21
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecxusbsimpleendpointinitallocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], UdecxUsbSimpleEndpointInitAllocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
+ms.keywords: buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUsbSimpleEndpointInitAllocate
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA
+req.typenames: "*PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 req.product: Windows 10 or later.
 ---
 
@@ -93,11 +93,11 @@ The only valid time to create simple endpoints is after creating a the UDE devic
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
  
 

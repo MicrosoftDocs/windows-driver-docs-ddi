@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db657820-75b7-49fe-904d-05f8bc45b8c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterFactoryGetSymbolicLink, avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml, stream.ksfilterfactorygetsymboliclink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], KsFilterFactoryGetSymbolicLink
+ms.keywords: KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink, ks/KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFilterFactoryGetSymbolicLink
 product: Windows
 targetos: Windows

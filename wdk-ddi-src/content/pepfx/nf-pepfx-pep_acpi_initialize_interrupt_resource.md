@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A89AB86B-4DC9-43ED-9EE6-1D4B693DAB91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_interrupt_resource
+ms.keywords: pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, kernel.pep_acpi_initialize_interrupt_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function

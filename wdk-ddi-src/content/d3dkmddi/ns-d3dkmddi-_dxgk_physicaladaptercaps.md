@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Flags.VPRPagingContextRequired, Flags.GpuMmuSupported, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, _DXGK_PHYSICALADAPTERCAPS, Flags.MovePagingSupported, Flags.IoMmuSupported, DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], display.dxgk_physicaladaptercaps
+ms.keywords: Flags.MovePagingSupported, _DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps, Flags.IoMmuSupported, DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.VPRPagingContextRequired, Flags.GpuMmuSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

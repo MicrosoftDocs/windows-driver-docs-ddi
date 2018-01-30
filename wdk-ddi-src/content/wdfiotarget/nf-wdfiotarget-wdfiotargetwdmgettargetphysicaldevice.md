@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetPhysicalDevice method, kmdf.wdfiotargetwdmgettargetphysicaldevice, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE, wdf.wdfiotargetwdmgettargetphysicaldevice, WdfIoTargetWdmGetTargetPhysicalDevice, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice
+ms.keywords: WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, wdf.wdfiotargetwdmgettargetphysicaldevice, kmdf.wdfiotargetwdmgettargetphysicaldevice, PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoTargetWdmGetTargetPhysicalDevice
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -102,9 +102,9 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
  
 

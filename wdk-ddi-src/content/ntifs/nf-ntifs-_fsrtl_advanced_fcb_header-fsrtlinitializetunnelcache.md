@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c499c11f-1de5-4c7f-aa26-62d2221c35bd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlinitializetunnelcache, FsRtlInitializeTunnelCache routine [Installable File System Drivers], fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml, FsRtlInitializeTunnelCache, ntifs/FsRtlInitializeTunnelCache
+ms.keywords: ntifs/FsRtlInitializeTunnelCache, FsRtlInitializeTunnelCache, ifsk.fsrtlinitializetunnelcache, FsRtlInitializeTunnelCache routine [Installable File System Drivers], fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlInitializeTunnelCache
 product: Windows
 targetos: Windows

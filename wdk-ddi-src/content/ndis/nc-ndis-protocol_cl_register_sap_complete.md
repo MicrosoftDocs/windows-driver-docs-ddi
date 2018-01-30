@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClRegisterSapComplete
 product: Windows
 targetos: Windows
@@ -88,6 +88,36 @@ Specifies the final status of the client's call to
 
 
 
+#### NDIS_STATUS_SUCCESS
+
+The SAP has been registered both with NDIS and the call manager, which will subsequently call 
+       <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
+       NdisCmDispatchIncomingCall</b></mshelp:link> whenever it receives an incoming call offer directed to the given
+       SAP, thereby causing NDIS to call the client's 
+       <mshelp:link keywords="netvista.protocolclincomingcall" tabindex="0"><i>
+       ProtocolClIncomingCall</i></mshelp:link> function.
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS or the call manager could not allocate and/or initialize necessary resources to register
+       and maintain the SAP.
+
+
+#### NDIS_STATUS_INVALID_DATA
+
+The client supplied an invalid specification at 
+       <i>Sap</i> to NDIS, which it forwarded to the call manager's 
+       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
+       for validation.
+
+
+#### NDIS_STATUS_XXX
+
+The call manager encountered an error in attempting to register the given SAP and NDIS
+       propagated this CM-determined failure status to the client.
+
+
 ### -param ProtocolSapContext [in]
 
 Specifies the handle to the client's per-SAP context area, which the client originally supplied to
@@ -113,36 +143,6 @@ If
      preferably in its 
      <i>ProtocolSapContext</i> area, for an eventual call to 
      <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>.
-
-
-##### - Status.NDIS_STATUS_INVALID_DATA
-
-The client supplied an invalid specification at 
-       <i>Sap</i> to NDIS, which it forwarded to the call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
-       for validation.
-
-
-##### - Status.NDIS_STATUS_RESOURCES
-
-NDIS or the call manager could not allocate and/or initialize necessary resources to register
-       and maintain the SAP.
-
-
-##### - Status.NDIS_STATUS_XXX
-
-The call manager encountered an error in attempting to register the given SAP and NDIS
-       propagated this CM-determined failure status to the client.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The SAP has been registered both with NDIS and the call manager, which will subsequently call 
-       <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
-       NdisCmDispatchIncomingCall</b></mshelp:link> whenever it receives an incoming call offer directed to the given
-       SAP, thereby causing NDIS to call the client's 
-       <mshelp:link keywords="netvista.protocolclincomingcall" tabindex="0"><i>
-       ProtocolClIncomingCall</i></mshelp:link> function.
 
 
 ## -returns
@@ -232,28 +232,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
 <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
    NdisFreeToNPagedLookasideList</b></mshelp:link>
 
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
  
 

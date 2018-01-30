@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90e6c1aa-30d5-40e7-bc35-92b0359485e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByName method, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, GetSymbolEntriesByName, IDebugSymbols3::GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolentriesbyname
+ms.keywords: debugger.getsymbolentriesbyname, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByName method, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolEntriesByName
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSymbolEntriesByName method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ae042c5-9c2a-4de4-817c-c9b97f979684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects::GetProcessIdsByIndex, GetProcessIdsByIndex, IDebugSystemObjects interface [Windows Debugging], GetProcessIdsByIndex method, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, debugger.getprocessidsbyindex, IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdsByIndex method, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects4, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex
+ms.keywords: GetProcessIdsByIndex, IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects2::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, debugger.getprocessidsbyindex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetProcessIdsByIndex
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetProcessIdsByIndex method

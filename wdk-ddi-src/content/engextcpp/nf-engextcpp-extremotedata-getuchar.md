@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c4b7f40-210a-44fa-b7d4-150355d6b75b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, GetUchar method [Windows Debugging], ExtRemoteData class, ExtRemoteData, GetUchar, GetUchar method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetUchar method, debugger.extremotedata_getuchar, ExtRemoteData::GetUchar
+ms.keywords: debugger.extremotedata_getuchar, GetUchar, GetUchar method [Windows Debugging], ExtRemoteData::GetUchar, ExtRemoteData, EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, GetUchar method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetUchar method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetUchar
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetUchar method

@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClCloseCallComplete
 product: Windows
 targetos: Windows
@@ -87,6 +87,20 @@ Specifies the final status of the client's request to close this call, which can
 
 
 
+#### NDIS_STATUS_SUCCESS
+
+The call manager has successfully closed the call that existed on the given VC and deactivated
+       the VC.
+
+
+#### NDIS_STATUS_XXX
+
+The call manager failed the request to close the call for some CM-determined reason, and NDIS
+       propagated the status returned by its 
+       <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a> function to
+       the client.
+
+
 ### -param ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area This is the handle that the client
@@ -100,20 +114,6 @@ Specifies the handle to the client's per-VC context area This is the handle that
 
 Specifies the handle to the client's per-party context area for the last remaining party on the
      client-created VC representing a multipoint connection. Otherwise, this parameter is <b>NULL</b>.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The call manager has successfully closed the call that existed on the given VC and deactivated
-       the VC.
-
-
-##### - Status.NDIS_STATUS_XXX
-
-The call manager failed the request to close the call for some CM-determined reason, and NDIS
-       propagated the status returned by its 
-       <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a> function to
-       the client.
 
 
 ## -returns
@@ -189,21 +189,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
 <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
+<a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-<a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
 
  
 

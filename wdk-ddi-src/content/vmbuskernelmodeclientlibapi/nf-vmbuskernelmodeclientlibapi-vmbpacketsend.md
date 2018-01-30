@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBB981CB-0107-497A-B6E6-9271E22A8D5F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, vmbuskernelmodeclientlibapi/VmbPacketSend, VmbPacketSend function [Network Drivers Starting with Windows Vista], VmbPacketSend, netvista.vmbpacketsend
+ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSend function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketSend, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VmbPacketSend, netvista.vmbpacketsend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketSend
 product: Windows
 targetos: Windows
@@ -153,9 +153,9 @@ For information on other ways to send packets, see the <a href="..\vmbuskernelmo
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md">VmbPacketSendWithExternalMdl</a>
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsendsynchronousrequest.md">VmbChannelSendSynchronousRequest</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsendsynchronousrequest.md">VmbChannelSendSynchronousRequest</a>
 
  
 

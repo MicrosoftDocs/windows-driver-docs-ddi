@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e994c778-4a1b-4c7d-a9fb-4481d9edda0d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PWHEA_XPF_PROCESSOR_ERROR, PWHEA_XPF_PROCESSOR_ERROR_SECTION, WHEA_XPF_PROCESSOR_ERROR, ntddk/WHEA_XPF_PROCESSOR_ERROR_SECTION, PWHEA_XPF_PROCESSOR_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_XPF_PROCESSOR_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/PWHEA_XPF_PROCESSOR_ERROR_SECTION, whearef_e3338334-dc16-4242-9c30-0daaab2df957.xml, whea.whea_xpf_processor_error_section, WHEA_XPF_PROCESSOR_ERROR_SECTION
+ms.keywords: ntddk/PWHEA_XPF_PROCESSOR_ERROR_SECTION, whearef_e3338334-dc16-4242-9c30-0daaab2df957.xml, WHEA_XPF_PROCESSOR_ERROR, ntddk/WHEA_XPF_PROCESSOR_ERROR_SECTION, whea.whea_xpf_processor_error_section, PWHEA_XPF_PROCESSOR_ERROR_SECTION, *PWHEA_XPF_PROCESSOR_ERROR, WHEA_XPF_PROCESSOR_ERROR_SECTION structure [WHEA Drivers and Applications], PWHEA_XPF_PROCESSOR_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_XPF_PROCESSOR_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_XPF_PROCESSOR_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: WHEA_XPF_PROCESSOR_ERROR, *PWHEA_XPF_PROCESSOR_ERROR
+req.typenames: "*PWHEA_XPF_PROCESSOR_ERROR, WHEA_XPF_PROCESSOR_ERROR"
 ---
 
 # WHEA_XPF_PROCESSOR_ERROR_SECTION structure
@@ -71,16 +71,16 @@ typedef struct _WHEA_XPF_PROCESSOR_ERROR_SECTION {
 
 
 
+#### - ValidBits
+
+A <a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section_validbits.md">WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data and the number of structures that are contained in the <b>VariableInfo</b> member.
+
+
 #### - LocalAPICId
 
 The value programmed into the local APIC ID register.
 
 This member contains valid data only if the <b>ValidBits.LocalAPICId</b> bit is set.
-
-
-#### - ValidBits
-
-A <a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section_validbits.md">WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data and the number of structures that are contained in the <b>VariableInfo</b> member.
 
 
 #### - CpuId
@@ -106,13 +106,13 @@ The following diagram shows how the data structures that contain the processor e
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 <a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section_validbits.md">WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
  
 

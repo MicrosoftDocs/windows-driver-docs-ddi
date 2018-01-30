@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f595816-29b5-4efc-a00c-77597dd9fa48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_openresourcefromnthandle, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE, _D3DKMT_OPENRESOURCEFROMNTHANDLE
+ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE, _D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], display.d3dkmt_openresourcefromnthandle, d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,11 +164,11 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
 
  
 

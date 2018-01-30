@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice::CreateSymbolicLink, IWDFDevice, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, CreateSymbolicLink, umdf.iwdfdevice_createsymboliclink, CreateSymbolicLink method, IWDFDevice::CreateSymbolicLink, CreateSymbolicLink method, IWDFDevice interface, IWDFDevice interface, CreateSymbolicLink method, wdf.iwdfdevice_createsymboliclink
+ms.keywords: wudfddi/IWDFDevice::CreateSymbolicLink, CreateSymbolicLink, umdf.iwdfdevice_createsymboliclink, IWDFDevice interface, CreateSymbolicLink method, wdf.iwdfdevice_createsymboliclink, IWDFDevice, CreateSymbolicLink method, IWDFDevice interface, CreateSymbolicLink method, IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.CreateSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

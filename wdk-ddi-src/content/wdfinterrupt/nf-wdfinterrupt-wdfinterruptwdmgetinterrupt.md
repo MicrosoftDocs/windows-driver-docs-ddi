@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b301e9f6-264d-43d9-a344-b34dcd659d04
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptWdmGetInterrupt method, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, wdf.wdfinterruptwdmgetinterrupt, wdfinterrupt/WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt, kmdf.wdfinterruptwdmgetinterrupt
+ms.keywords: wdfinterrupt/WdfInterruptWdmGetInterrupt, wdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt, kmdf.wdfinterruptwdmgetinterrupt, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, WdfInterruptWdmGetInterrupt method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DIRQL
-topictype: 
+req.irql: "<= DIRQL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfInterruptWdmGetInterrupt
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 

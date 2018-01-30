@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportcheckfordeviceexistence, VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, VideoPortCheckForDeviceExistence, video/VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices]
+ms.keywords: VideoPortCheckForDeviceExistence function [Display Devices], video/VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence, VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortCheckForDeviceExistence function

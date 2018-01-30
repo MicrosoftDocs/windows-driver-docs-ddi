@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_QUEUE_STATE
-title: _WDF_IO_QUEUE_STATE
+title: "_WDF_IO_QUEUE_STATE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_STATE enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 old-location: wdf\wdf_io_queue_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, WdfIoQueueAcceptRequests, wdfio/WdfIoQueueNoRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueAcceptRequests, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WdfIoQueueDispatchRequests
+ms.keywords: wdfio/WdfIoQueueDispatchRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, _WDF_IO_QUEUE_STATE, WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueDriverNoRequests, WdfIoQueuePnpHeld, WdfIoQueueDispatchRequests, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueuePnpHeld, WdfIoQueueAcceptRequests, wdfio/WDF_IO_QUEUE_STATE, WdfIoQueueNoRequests, wdfio/WdfIoQueueAcceptRequests, kmdf.wdf_io_queue_state, wdf.wdf_io_queue_state, WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueNoRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfio.h
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_STATE
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:reshub._PNP_SERIAL_BUS_DESCRIPTOR
-title: _PNP_SERIAL_BUS_DESCRIPTOR
+title: "_PNP_SERIAL_BUS_DESCRIPTOR"
 author: windows-driver-content
 description: The PNP_SERIAL_BUS_DESCRIPTOR structure describes the physical connection of a target device to a serial bus (I2C, SPI, or UART).
 old-location: spb\pnp_serial_bus_descriptor.htm
@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7516B493-F86E-44C5-ABCD-450B6F66AA15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: reshub/PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], SPB.pnp_serial_bus_descriptor, *PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR, _PNP_SERIAL_BUS_DESCRIPTOR, reshub/PNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses]
+ms.keywords: "*PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], reshub/PNP_SERIAL_BUS_DESCRIPTOR, reshub/PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], _PNP_SERIAL_BUS_DESCRIPTOR, SPB.pnp_serial_bus_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Reshub.h
-apiname: 
+apiname:
 -	PNP_SERIAL_BUS_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR
+req.typenames: PNP_SERIAL_BUS_DESCRIPTOR, *PPNP_SERIAL_BUS_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo, PsGetJobServerSilo
+ms.keywords: PsGetJobServerSilo, ntddk/PsGetJobServerSilo, kernel.psgetjobserversilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsGetJobServerSilo
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetJobServerSilo function

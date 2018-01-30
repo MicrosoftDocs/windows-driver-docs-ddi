@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdvd.h
-apiname: 
+apiname:
 -	IOCTL_AACS_GENERATE_BINDING_NONCE
 product: Windows
 targetos: Windows

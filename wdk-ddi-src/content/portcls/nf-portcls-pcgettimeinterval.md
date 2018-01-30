@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, portcls/PcGetTimeInterval, PcGetTimeInterval
+ms.keywords: audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, PcGetTimeInterval, portcls/PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,7 @@ Specifies the time from which to measure the interval. Typically, this function 
 ## -remarks
 
 
-The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a> function.
+The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a> function.
 
 The following macros from portcls.h are useful for converting seconds, milliseconds, and microseconds to 100-millisecond units:
 
@@ -118,7 +118,7 @@ This function can be used for timing purposes by first saving the current time,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
  
 

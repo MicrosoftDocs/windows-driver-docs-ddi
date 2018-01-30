@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18ae8ec2-a9e9-40e2-8b11-93fd163a801d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS, D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, D3DDDICB_RENDERFLAGS structure [Display Devices], display.d3dddicb_renderflags"
+ms.keywords: "_D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices], D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, display.d3dddicb_renderflags, D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

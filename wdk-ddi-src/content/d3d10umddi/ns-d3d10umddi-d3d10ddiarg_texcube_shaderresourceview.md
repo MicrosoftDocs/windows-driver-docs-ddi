@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef45c368-37b9-4208-81d3-1ecab81268b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], display.d3d10ddiarg_texcube_shaderresourceview, d3d10umddi/D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_69378946-808a-4eb0-bca1-25bd4780405d.xml
+ms.keywords: D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, d3d10umddi/D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_69378946-808a-4eb0-bca1-25bd4780405d.xml, display.d3d10ddiarg_texcube_shaderresourceview, D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,11 @@ If the <b>MipLevels</b> member is set to -1, the MIP-maps in the texture start f
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
 
  
 

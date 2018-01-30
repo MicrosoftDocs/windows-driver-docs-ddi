@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e0e6313-1dfa-4b68-8f58-bfa79f3124d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_unlock, D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, d3dumddi/D3DDDICB_UNLOCK, D3DDDICB_UNLOCK, _D3DDDICB_UNLOCK
+ms.keywords: d3dumddi/D3DDDICB_UNLOCK, _D3DDDICB_UNLOCK, D3DDDICB_UNLOCK structure [Display Devices], display.d3dddicb_unlock, D3DDDICB_UNLOCK, D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

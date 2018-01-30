@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._INTERFACE
-title: _INTERFACE
+title: "_INTERFACE"
 author: windows-driver-content
 description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d853643d-d3e8-40cc-a8a8-848f36f3bdae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], PINTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], wdm/INTERFACE, _INTERFACE, wdm/PINTERFACE, kernel.interface, *PINTERFACE, INTERFACE
+ms.keywords: PINTERFACE structure pointer [Kernel-Mode Driver Architecture], wdm/INTERFACE, _INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], *PINTERFACE, kernel.interface, PINTERFACE, wdm/PINTERFACE, INTERFACE, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PINTERFACE, INTERFACE
+req.typenames: "*PINTERFACE, INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -112,9 +112,9 @@ Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTER
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
  
 

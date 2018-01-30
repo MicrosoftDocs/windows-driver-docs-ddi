@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_ADDRESS
-title: _STOR_ADDRESS
+title: "_STOR_ADDRESS"
 author: windows-driver-content
 description: A general structure for holding a storage device address.
 old-location: storage\stor_address.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_address, STOR_ADDRESS, storport/PSTOR_ADDRESS, *PSTOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], PSTOR_ADDRESS structure pointer [Storage Devices], PSTOR_ADDRESS, STOR_ADDRESS_TYPE_UNKNOWN, STOR_ADDRESS_TYPE_BTL8, storport/STOR_ADDRESS, _STOR_ADDRESS
+ms.keywords: STOR_ADDRESS, storage.stor_address, STOR_ADDRESS structure [Storage Devices], PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], *PSTOR_ADDRESS, storport/STOR_ADDRESS, STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, storport/PSTOR_ADDRESS, _STOR_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *PSTOR_ADDRESS, STOR_ADDRESS
+req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
 req.product: Windows 10 or later.
 ---
 

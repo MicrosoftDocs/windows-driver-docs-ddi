@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_CREATEOVERLAY, *INOUT_PDXGKARG_CREATEOVERLAY, DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, DXGKARG_CREATEOVERLAY structure [Display Devices], d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay, _DXGKARG_CREATEOVERLAY
+ms.keywords: display.dxgkarg_createoverlay, d3dkmddi/DXGKARG_CREATEOVERLAY, _DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, *INOUT_PDXGKARG_CREATEOVERLAY, DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, DXGKARG_CREATEOVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

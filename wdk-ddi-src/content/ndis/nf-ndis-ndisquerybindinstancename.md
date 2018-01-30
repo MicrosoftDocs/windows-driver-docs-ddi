@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbba8be8-aa7e-455f-a591-e9d915f137f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, ndis/NdisQueryBindInstanceName, protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml
+ms.keywords: NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml, netvista.ndisquerybindinstancename, NdisQueryBindInstanceName, ndis/NdisQueryBindInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisQueryBindInstanceName
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisQueryBindInstanceName function
@@ -124,11 +124,11 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

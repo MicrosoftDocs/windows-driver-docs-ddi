@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_RESOURCE_LIST
-title: _IO_RESOURCE_LIST
+title: "_IO_RESOURCE_LIST"
 author: windows-driver-content
 description: The IO_RESOURCE_LIST structure describes a range of raw hardware resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_list.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8c29339-274e-410a-893d-328703d902c3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml, kernel.io_resource_list, wdm/PIO_RESOURCE_LIST, wdm/IO_RESOURCE_LIST, PIO_RESOURCE_LIST, PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], *PIO_RESOURCE_LIST, IO_RESOURCE_LIST, IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], _IO_RESOURCE_LIST
+ms.keywords: wdm/IO_RESOURCE_LIST, PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_LIST, *PIO_RESOURCE_LIST, IO_RESOURCE_LIST, kernel.io_resource_list, wdm/PIO_RESOURCE_LIST, IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml, PIO_RESOURCE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_RESOURCE_LIST
 product: Windows
 targetos: Windows
-req.typenames: IO_RESOURCE_LIST, *PIO_RESOURCE_LIST
+req.typenames: "*PIO_RESOURCE_LIST, IO_RESOURCE_LIST"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi_types._WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-title: _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+title: "_WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 author: windows-driver-content
 description: The WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure contains driver-supplied information that the framework uses when a device is idle and the system is in the system working state (S0).
 old-location: wdf\wudf_device_power_policy_idle_settings.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E6EF8852-E39C-491B-9430-0308CA6276C0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, umdf.wudf_device_power_policy_idle_settings, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdf.wudf_device_power_policy_idle_settings, _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdf.wudf_device_power_policy_idle_settings, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, umdf.wudf_device_power_policy_idle_settings, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfddi_types.h
-apiname: 
+apiname:
 -	WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 product: Windows
 targetos: Windows
@@ -206,9 +206,9 @@ To initialize its <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
-
 <a href="..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>
+
+<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
  
 

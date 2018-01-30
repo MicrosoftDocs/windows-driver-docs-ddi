@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMSendFontCmd function [Print Devices], print.oemsendfontcmd, OEMSendFontCmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd
+ms.keywords: OEMSendFontCmd, printoem/OEMSendFontCmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, print.oemsendfontcmd, OEMSendFontCmd function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMSendFontCmd
 product: Windows
 targetos: Windows

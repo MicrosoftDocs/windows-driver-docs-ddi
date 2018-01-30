@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dfeaca74-d34d-4128-bd76-3a1bf1b3f5d6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, stream.ksallocateextradata, KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml
+ms.keywords: KsAllocateExtraData, ks/KsAllocateExtraData, stream.ksallocateextradata, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, KsAllocateExtraData function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAllocateExtraData
 product: Windows
 targetos: Windows

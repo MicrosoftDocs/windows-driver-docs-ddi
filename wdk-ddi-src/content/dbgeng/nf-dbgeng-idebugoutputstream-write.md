@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Write method [Windows Debugging], IDebugOutputStream interface, IDebugOutputStream interface [Windows Debugging], Write method, dbgeng/IDebugOutputStream::Write, IDebugOutputStream::Write, IDebugOutputStream, Write method [Windows Debugging], Write, debugger.idebugoutputstream_write
+ms.keywords: Write method [Windows Debugging], IDebugOutputStream interface, debugger.idebugoutputstream_write, dbgeng/IDebugOutputStream::Write, IDebugOutputStream::Write, Write, IDebugOutputStream interface [Windows Debugging], Write method, Write method [Windows Debugging], IDebugOutputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugOutputStream.Write
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugOutputStream::Write method

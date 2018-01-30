@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f8c040aa-bfa0-4b74-ad0a-8796f1cfc4b8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_702c7f79-a50f-4115-ba93-82388ccbf063.xml, wdf.wdf_device_state_init, wdfdevice/WDF_DEVICE_STATE_INIT, WDF_DEVICE_STATE_INIT, kmdf.wdf_device_state_init, WDF_DEVICE_STATE_INIT function
+ms.keywords: wdfdevice/WDF_DEVICE_STATE_INIT, WDF_DEVICE_STATE_INIT function, DFDeviceObjectGeneralRef_702c7f79-a50f-4115-ba93-82388ccbf063.xml, WDF_DEVICE_STATE_INIT, kmdf.wdf_device_state_init, wdf.wdf_device_state_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_STATE_INIT
 product: Windows
 targetos: Windows

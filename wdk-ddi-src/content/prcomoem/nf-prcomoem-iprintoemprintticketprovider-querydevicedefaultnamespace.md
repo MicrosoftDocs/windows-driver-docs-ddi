@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1af15e59-8796-48e2-ab18-a450db3086d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemprintticketprovider_querydevicedefaultnamespace, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, QueryDeviceDefaultNamespace method [Print Devices]
+ms.keywords: print.iprintoemprintticketprovider_querydevicedefaultnamespace, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

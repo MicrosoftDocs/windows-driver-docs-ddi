@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._NOTIFICATION_INFO_W2K
-title: _NOTIFICATION_INFO_W2K
+title: "_NOTIFICATION_INFO_W2K"
 author: windows-driver-content
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, NOTIFICATION_INFO_W2K, PNOTIFICATION_INFO structure pointer [Buses], 1394/PNOTIFICATION_INFO, _NOTIFICATION_INFO_W2K, NOTIFICATION_INFO structure [Buses], PNOTIFICATION_INFO, *PNOTIFICATION_INFO, NOTIFICATION_INFO, IEEE.notification_info, *PNOTIFICATION_INFO_W2K, 1394/NOTIFICATION_INFO
+ms.keywords: "_NOTIFICATION_INFO_W2K, 1394/NOTIFICATION_INFO, IEEE.notification_info, PNOTIFICATION_INFO structure pointer [Buses], NOTIFICATION_INFO, NOTIFICATION_INFO_W2K, PNOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, *PNOTIFICATION_INFO_W2K, NOTIFICATION_INFO structure [Buses], *PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	NOTIFICATION_INFO
 product: Windows
 targetos: Windows

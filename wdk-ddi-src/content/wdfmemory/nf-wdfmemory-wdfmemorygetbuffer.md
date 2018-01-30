@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer, WdfMemoryGetBuffer, PFN_WDFMEMORYGETBUFFER, wdf.wdfmemorygetbuffer, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml
+ms.keywords: kmdf.wdfmemorygetbuffer, PFN_WDFMEMORYGETBUFFER, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, wdf.wdfmemorygetbuffer, WdfMemoryGetBuffer method, wdfmemory/WdfMemoryGetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfMemoryGetBuffer
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 ## -see-also
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 <a href="..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md">WdfObjectContextGetObject</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
  
 

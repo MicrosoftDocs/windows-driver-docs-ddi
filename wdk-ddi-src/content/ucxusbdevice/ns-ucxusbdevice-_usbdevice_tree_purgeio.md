@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_TREE_PURGEIO
-title: _USBDEVICE_TREE_PURGEIO
+title: "_USBDEVICE_TREE_PURGEIO"
 author: windows-driver-content
 description: This structure provides the handle for the Universal Serial Bus (USB) device tree to purge I/O for.
 old-location: buses\_usbdevice_tree_purgeio.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47C442F5-7D16-4E73-8D05-82D63D5265C1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], _USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, *PUSBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses]
+ms.keywords: USBDEVICE_TREE_PURGEIO, *PUSBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], USBDEVICE_TREE_PURGEIO structure [Buses], buses._usbdevice_tree_purgeio, ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, _USBDEVICE_TREE_PURGEIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	USBDEVICE_TREE_PURGEIO
 product: Windows
 targetos: Windows
-req.typenames: USBDEVICE_TREE_PURGEIO, *PUSBDEVICE_TREE_PURGEIO
+req.typenames: "*PUSBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO"
 req.product: Windows 10 or later.
 ---
 

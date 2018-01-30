@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_SEND_OPTIONS_FLAGS
-title: _WDF_REQUEST_SEND_OPTIONS_FLAGS
+title: "_WDF_REQUEST_SEND_OPTIONS_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that a driver can specify when it calls IWDFIoRequest::Send.
 old-location: wdf\wdf_request_send_options_flags__umdf_.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 02678466-aa8d-436d-8be3-b8a57218a106
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wudfddi_types/WDF_REQUEST_SEND_OPTION_TIMEOUT, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, _WDF_REQUEST_SEND_OPTIONS_FLAGS, wudfddi_types/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wudfddi_types/WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTION_TIMEOUT, wudfddi_types/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, umdfstructs_a99bff2d-2fa0-4267-b3be-aa9fd01a0778.xml, wdf.wdf_request_send_options_flags__umdf_, wudfddi_types/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, umdf.wdf_request_send_options_flags__umdf_
+ms.keywords: wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, wudfddi_types/WDF_REQUEST_SEND_OPTIONS_FLAGS, wudfddi_types/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, wudfddi_types/WDF_REQUEST_SEND_OPTION_TIMEOUT, wdf.wdf_request_send_options_flags__umdf_, wudfddi_types/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, umdf.wdf_request_send_options_flags__umdf_, _WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, umdfstructs_a99bff2d-2fa0-4267-b3be-aa9fd01a0778.xml, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTION_TIMEOUT, wudfddi_types/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_REQUEST_SEND_OPTIONS_FLAGS
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IDebugSymbols3::IsManagedModule, IDebugSymbols3, IsManagedModule method [Windows Debugging], IsManagedModule, dbgeng/IDebugSymbols3::IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, debugger.idebugsymbols3_ismanagedmodule
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, IsManagedModule, IsManagedModule method [Windows Debugging], debugger.idebugsymbols3_ismanagedmodule, dbgeng/IDebugSymbols3::IsManagedModule, IDebugSymbols3, IDebugSymbols3::IsManagedModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.IsManagedModule
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::IsManagedModule method

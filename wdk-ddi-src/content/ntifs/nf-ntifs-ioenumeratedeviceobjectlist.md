@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ifsk.ioenumeratedeviceobjectlist
+ms.keywords: ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, IoEnumerateDeviceObjectList, ntifs/IoEnumerateDeviceObjectList, ifsk.ioenumeratedeviceobjectlist, IoEnumerateDeviceObjectList routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoEnumerateDeviceObjectList
 product: Windows
 targetos: Windows
@@ -148,15 +148,15 @@ In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObject
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
 <a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
-
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
 
 <a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
  
 

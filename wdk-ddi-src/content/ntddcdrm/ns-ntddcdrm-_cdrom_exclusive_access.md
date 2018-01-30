@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_ACCESS
-title: _CDROM_EXCLUSIVE_ACCESS
+title: "_CDROM_EXCLUSIVE_ACCESS"
 author: windows-driver-content
 description: The CDROM_EXCLUSIVE_ACCESS structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 old-location: storage\cdrom_exclusive_access.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PCDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], storage.cdrom_exclusive_access, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
+ms.keywords: "*PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, storage.cdrom_exclusive_access, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], ntddcdrm/CDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_EXCLUSIVE_ACCESS
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS
+req.typenames: "*PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS"
 ---
 
 # _CDROM_EXCLUSIVE_ACCESS structure

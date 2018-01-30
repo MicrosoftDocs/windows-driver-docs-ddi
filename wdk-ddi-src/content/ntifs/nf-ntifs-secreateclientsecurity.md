@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml, SeCreateClientSecurity routine [Installable File System Drivers], SeCreateClientSecurity, ntifs/SeCreateClientSecurity, ifsk.secreateclientsecurity
+ms.keywords: ifsk.secreateclientsecurity, SeCreateClientSecurity, ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml, SeCreateClientSecurity routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeCreateClientSecurity
 product: Windows
 targetos: Windows

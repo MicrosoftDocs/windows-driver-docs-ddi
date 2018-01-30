@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClDeregisterSapComplete
 product: Windows
 targetos: Windows
@@ -88,14 +88,15 @@ Specifies the final status of the client's request to deregister its SAP, which 
 
 
 
-### -param ProtocolSapContext [in]
+#### NDIS_STATUS_SUCCESS
 
-Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
-     <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
-     release its context area or prepare this context area for reuse.
+The SAP was closed. The 
+       <i>NdisSapHandle</i> that represented the client's previously registered SAP, which the client stored
+       in its 
+       <i>ProtocolSapContext</i> area, is now invalid.
 
 
-##### - Status.NDIS_STATUS_FAILURE
+#### NDIS_STATUS_FAILURE
 
 NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
        <i>NdisSapHandle</i> was already released when the client's call to 
@@ -103,7 +104,7 @@ NDIS had marked the state of the AF as "closing," so the associated SAP represen
        NdisClDeregisterSap</b></mshelp:link> occurred.
 
 
-##### - Status.NDIS_STATUS_XXX
+#### NDIS_STATUS_XXX
 
 The call manager failed the request to close the SAP for some CM-determined reason, and NDIS
        propagated the status returned by its 
@@ -111,12 +112,11 @@ The call manager failed the request to close the SAP for some CM-determined reas
        ProtocolCmDeregisterSap</i></mshelp:link> function to the client.
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+### -param ProtocolSapContext [in]
 
-The SAP was closed. The 
-       <i>NdisSapHandle</i> that represented the client's previously registered SAP, which the client stored
-       in its 
-       <i>ProtocolSapContext</i> area, is now invalid.
+Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
+     <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
+     release its context area or prepare this context area for reuse.
 
 
 ## -returns
@@ -177,20 +177,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
 <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 <mshelp:link keywords="netvista.ndisfreetonpagedlookasidelist" tabindex="0"><b>
    NdisFreeToNPagedLookasideList</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

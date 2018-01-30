@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8329d26-fb6f-46f1-aacd-ba78ee4ea5d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetCommonBuffer, VideoPortGetCommonBuffer function [Display Devices], video/VideoPortGetCommonBuffer, VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer
+ms.keywords: VideoPortGetCommonBuffer, VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer, VideoPortGetCommonBuffer function [Display Devices], video/VideoPortGetCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortGetCommonBuffer function

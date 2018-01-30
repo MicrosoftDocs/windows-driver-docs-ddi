@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PIN_EX
-title: _NDIS_WWAN_SET_PIN_EX
+title: "_NDIS_WWAN_SET_PIN_EX"
 author: windows-driver-content
 description: The NDIS_WWAN_SET_PIN_EX structure represents what PIN action to take on the MB device.
 old-location: netvista\ndis_wwan_set_pin_ex.htm
@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: F08180ED-DC5A-4DA0-A42A-48511BC63DF8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_PIN_EX, _NDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex, NDIS_WWAN_SET_PIN_EX
+ms.keywords: ndiswwan/PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_SET_PIN_EX
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX
+req.typenames: "*PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX"
 ---
 
 # _NDIS_WWAN_SET_PIN_EX structure

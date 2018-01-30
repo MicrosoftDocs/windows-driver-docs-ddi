@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9224991-DB36-4250-861A-6C21E29F91EF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxcompleteidlestate, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], wdm/PoFxCompleteIdleState, PoFxCompleteIdleState
+ms.keywords: PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState, PoFxCompleteIdleState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxCompleteIdleState
 product: Windows
 targetos: Windows

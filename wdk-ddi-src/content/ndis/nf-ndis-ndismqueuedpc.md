@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 203be18a-b3c5-420b-bcd1-1134beb1c8bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, netvista.ndismqueuedpc, NdisMQueueDpc
+ms.keywords: NdisMQueueDpc, netvista.ndismqueuedpc, ndis/NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMQueueDpc
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMQueueDpc function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 66e794e6-ded0-41b1-b52b-d886bb58a4ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml, IPrintCoreHelperPS, print.iprintcorehelperps_getoptionattribute, GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::GetOptionAttribute, IPrintCoreHelperPS interface [Print Devices], GetOptionAttribute method, IPrintCoreHelperPS::GetOptionAttribute
+ms.keywords: prcomoem/IPrintCoreHelperPS::GetOptionAttribute, IPrintCoreHelperPS, GetOptionAttribute method [Print Devices], print.iprintcorehelperps_getoptionattribute, GetOptionAttribute, GetOptionAttribute method [Print Devices], IPrintCoreHelperPS interface, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml, IPrintCoreHelperPS::GetOptionAttribute, IPrintCoreHelperPS interface [Print Devices], GetOptionAttribute method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperPS.GetOptionAttribute
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -178,9 +178,9 @@ For more information about <b>IPrintCoreHelperPS::GetOptionAttribute</b>, see <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2541943-7e0c-45ca-bdfe-2d48581f62a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IXpsDocumentConsumer, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, SendFixedDocumentSequence, IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, print.ixpsdocumentconsumer_sendfixeddocumentsequence, IXpsDocumentConsumer::SendFixedDocumentSequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml
+ms.keywords: filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, print.ixpsdocumentconsumer_sendfixeddocumentsequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml, IXpsDocumentConsumer, IXpsDocumentConsumer::SendFixedDocumentSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.SendFixedDocumentSequence
 product: Windows
 targetos: Windows

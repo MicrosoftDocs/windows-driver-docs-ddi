@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bbd37342-f0d0-43e0-bc27-1b47c426da6e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, OEMPrinterEvent, OEMPrinterEvent function [Print Devices], printoem/OEMPrinterEvent, print.oemprinterevent
+ms.keywords: print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, OEMPrinterEvent, OEMPrinterEvent function [Print Devices], print.oemprinterevent, printoem/OEMPrinterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMPrinterEvent
 product: Windows
 targetos: Windows

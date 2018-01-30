@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4679415f-63d2-48b5-a6d4-edc54e8b3b0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml, ntifs/SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], ifsk.sequeryauthenticationidtoken
+ms.keywords: SeQueryAuthenticationIdToken, ifsk.sequeryauthenticationidtoken, ntifs/SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeQueryAuthenticationIdToken
 product: Windows
 targetos: Windows
@@ -110,19 +110,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
 <a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
 
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
 
  
 

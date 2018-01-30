@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INTERFACE_USBDI_V1
-title: _USB_BUS_INTERFACE_USBDI_V1
+title: "_USB_BUS_INTERFACE_USBDI_V1"
 author: windows-driver-content
 description: The USB_BUS_INTERFACE_USBDI_V1 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v1.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9c90c182-86ac-43e5-9e77-0ea2da76e6b9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], buses.usb_bus_interface_usbdi_v1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml, *PUSB_BUS_INTERFACE_USBDI_V1, _USB_BUS_INTERFACE_USBDI_V1, usbbusif/USB_BUS_INTERFACE_USBDI_V1, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses]
+ms.keywords: "_USB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1, usbbusif/USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, buses.usb_bus_interface_usbdi_v1, *PUSB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	USB_BUS_INTERFACE_USBDI_V1
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1
+req.typenames: USB_BUS_INTERFACE_USBDI_V1, *PUSB_BUS_INTERFACE_USBDI_V1
 req.product: Windows 10 or later.
 ---
 

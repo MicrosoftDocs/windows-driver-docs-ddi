@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B72EDABF-B5A5-4887-A8D6-77F4047CEDA8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_port_uchar, wdf.read_port_uchar, READ_PORT_UCHAR function, READ_PORT_UCHAR, wudfddi_hwaccess/READ_PORT_UCHAR
+ms.keywords: wdf.read_port_uchar, wudfddi_hwaccess/READ_PORT_UCHAR, READ_PORT_UCHAR, READ_PORT_UCHAR function, umdf.read_port_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_hwaccess.h
-apiname: 
+apiname:
 -	READ_PORT_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

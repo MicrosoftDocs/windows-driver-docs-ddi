@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfresource/WdfIoResourceListInsertDescriptor, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, wdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor, kmdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor method, PFN_WDFIORESOURCELISTINSERTDESCRIPTOR
+ms.keywords: kmdf.wdfioresourcelistinsertdescriptor, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, WdfIoResourceListInsertDescriptor, wdf.wdfioresourcelistinsertdescriptor, wdfresource/WdfIoResourceListInsertDescriptor, PFN_WDFIORESOURCELISTINSERTDESCRIPTOR, WdfIoResourceListInsertDescriptor method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceListInsertDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -164,9 +164,9 @@ For more information about resource requirements lists and logical configuration
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistappenddescriptor.md">WdfIoResourceListAppendDescriptor</a>
-
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistappenddescriptor.md">WdfIoResourceListAppendDescriptor</a>
 
  
 

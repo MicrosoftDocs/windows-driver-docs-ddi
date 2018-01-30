@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddsysenv._XVARIABLE_NAME_AND_VALUE
-title: _XVARIABLE_NAME_AND_VALUE
+title: "_XVARIABLE_NAME_AND_VALUE"
 author: windows-driver-content
 description: Stores the name and value of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES and IOCTL_SYSENV_SET_VARIABLE requests.
 old-location: kernel\xvariable_name_and_value.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46E892A7-2813-4C50-BE91-B5267696E2A5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], *PXVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], *PSYSENV_VARIABLE_AND_VALUE, ntddsysenv/XVARIABLE_NAME_AND_VALUE, _XVARIABLE_NAME_AND_VALUE, SYSENV_VARIABLE_AND_VALUE, ntddsysenv/PXVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE, kernel.xvariable_name_and_value
+ms.keywords: "*PSYSENV_VARIABLE_AND_VALUE, PXVARIABLE_NAME_AND_VALUE, ntddsysenv/XVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE, SYSENV_VARIABLE_AND_VALUE, ntddsysenv/PXVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], _XVARIABLE_NAME_AND_VALUE, kernel.xvariable_name_and_value, XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], *PXVARIABLE_NAME_AND_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddsysenv.h
-apiname: 
+apiname:
 -	XVARIABLE_NAME_AND_VALUE
 product: Windows
 targetos: Windows
-req.typenames: *PXVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE
+req.typenames: XVARIABLE_NAME_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE
 ---
 
 # _XVARIABLE_NAME_AND_VALUE structure
@@ -105,9 +105,9 @@ Name of the system environment variable.
 
 ## -see-also
 
-<a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a>
-
 <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_set_variable.md">IOCTL_SYSENV_SET_VARIABLE</a>
+
+<a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a>
 
  
 

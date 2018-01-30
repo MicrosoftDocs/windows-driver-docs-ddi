@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, SetSourcePathWide, SetSourcePathWide method [Windows Debugging], debugger.setsourcepathwide, SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::SetSourcePathWide, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, dbgeng/IDebugSymbols3::SetSourcePathWide
+ms.keywords: SetSourcePathWide, debugger.setsourcepathwide, SetSourcePathWide method [Windows Debugging], IDebugSymbols3, dbgeng/IDebugSymbols3::SetSourcePathWide, IDebugSymbols3::SetSourcePathWide, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.SetSourcePathWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::SetSourcePathWide method

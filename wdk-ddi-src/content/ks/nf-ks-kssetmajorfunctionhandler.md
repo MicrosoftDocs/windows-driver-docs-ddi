@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, KsSetMajorFunctionHandler function [Streaming Media Devices], stream.kssetmajorfunctionhandler, KsSetMajorFunctionHandler, ks/KsSetMajorFunctionHandler
+ms.keywords: KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, ks/KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], stream.kssetmajorfunctionhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsSetMajorFunctionHandler
 product: Windows
 targetos: Windows

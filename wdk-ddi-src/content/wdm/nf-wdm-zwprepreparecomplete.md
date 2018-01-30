@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1af8dc98-9fee-4029-970f-462fdf80fdc9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtPrePrepareComplete, ZwPrePrepareComplete, wdm/ZwPrePrepareComplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml, wdm/NtPrePrepareComplete, kernel.zwprepreparecomplete
+ms.keywords: wdm/NtPrePrepareComplete, ZwPrePrepareComplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], wdm/ZwPrePrepareComplete, kernel.zwprepreparecomplete, NtPrePrepareComplete, ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwPrePrepareComplete
 -	NtPrePrepareComplete
 product: Windows
@@ -154,15 +154,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 <a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
 
 <a href="..\wdm\nf-wdm-tmprepreparecomplete.md">TmPrePrepareComplete</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
  
 

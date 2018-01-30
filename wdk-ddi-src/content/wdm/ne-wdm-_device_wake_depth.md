@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_WAKE_DEPTH
-title: _DEVICE_WAKE_DEPTH
+title: "_DEVICE_WAKE_DEPTH"
 author: windows-driver-content
 description: The DEVICE_WAKE_DEPTH enumeration specifies the deepest device power state from which a device can trigger a wake signal.
 old-location: kernel\device_wake_depth.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C8829785-1EB7-4F29-9279-F2FC2A3C0ABD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], wdm/DeviceWakeDepthD3hot, DeviceWakeDepthD0, DeviceWakeDepthD2, DeviceWakeDepthD3cold, DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD0, DeviceWakeDepthD1, wdm/DeviceWakeDepthD2, DeviceWakeDepthD3hot, wdm/DeviceWakeDepthMaximum, wdm/DeviceWakeDepthNotWakeable, *PDEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD3cold, _DEVICE_WAKE_DEPTH, DeviceWakeDepthNotWakeable, DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD1, wdm/DEVICE_WAKE_DEPTH, kernel.device_wake_depth
+ms.keywords: DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD2, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], *PDEVICE_WAKE_DEPTH, wdm/DEVICE_WAKE_DEPTH, DeviceWakeDepthD3cold, wdm/DeviceWakeDepthMaximum, DEVICE_WAKE_DEPTH, kernel.device_wake_depth, wdm/DeviceWakeDepthD1, DeviceWakeDepthD0, wdm/DeviceWakeDepthD3hot, _DEVICE_WAKE_DEPTH, DeviceWakeDepthD1, DeviceWakeDepthD2, wdm/DeviceWakeDepthD0, DeviceWakeDepthD3hot, wdm/DeviceWakeDepthNotWakeable, DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthD3cold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DEVICE_WAKE_DEPTH
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH
+req.typenames: "*PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH"
 req.product: Windows 10 or later.
 ---
 

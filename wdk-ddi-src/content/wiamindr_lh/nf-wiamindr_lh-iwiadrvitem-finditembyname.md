@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 59a77753-1f34-4224-af11-c6bbfa847619
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FindItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::FindItemByName, IWiaDrvItem interface [Imaging Devices], FindItemByName method, image.iwiadrvitem_finditembyname, FindItemByName method [Imaging Devices], DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, wiamindr_lh/IWiaDrvItem::FindItemByName, IWiaDrvItem, FindItemByName
+ms.keywords: image.iwiadrvitem_finditembyname, IWiaDrvItem interface [Imaging Devices], FindItemByName method, FindItemByName method [Imaging Devices], IWiaDrvItem interface, FindItemByName, DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, wiamindr_lh/IWiaDrvItem::FindItemByName, IWiaDrvItem, FindItemByName method [Imaging Devices], IWiaDrvItem::FindItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.FindItemByName
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -86,11 +86,6 @@ HRESULT FindItemByName(
 
 
 
-#### - ppItem [out, optional]
-
-Points to a memory location that will receive the address of the found <b>IWiaDrvItem</b> item. 
-
-
 #### - lFlags [in]
 
 Reserved. Set to zero. 
@@ -99,6 +94,11 @@ Reserved. Set to zero.
 #### - bstrFullItemName [in]
 
 Specifies the full name of the item to find.
+
+
+#### - ppItem [out, optional]
+
+Points to a memory location that will receive the address of the found <b>IWiaDrvItem</b> item. 
 
 
 ## -returns
@@ -121,9 +121,9 @@ This method starts the search for the specified item at the root item in the dri
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543867">IWiaDrvItem::FindChildItemByName</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
  
 

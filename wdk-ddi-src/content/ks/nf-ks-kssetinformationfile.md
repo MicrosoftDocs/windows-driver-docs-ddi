@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetInformationFile function [Streaming Media Devices], ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, KsSetInformationFile, ks/KsSetInformationFile, stream.kssetinformationfile
+ms.keywords: stream.kssetinformationfile, ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, KsSetInformationFile function [Streaming Media Devices], KsSetInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsSetInformationFile
 product: Windows
 targetos: Windows

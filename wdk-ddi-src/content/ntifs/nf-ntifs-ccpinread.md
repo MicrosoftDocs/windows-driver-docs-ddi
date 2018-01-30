@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread, CcPinRead routine [Installable File System Drivers], ntifs/CcPinRead, CcPinRead
+ms.keywords: CcPinRead, CcPinRead routine [Installable File System Drivers], ntifs/CcPinRead, ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcPinRead
 product: Windows
 targetos: Windows
@@ -178,17 +178,17 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
  
 

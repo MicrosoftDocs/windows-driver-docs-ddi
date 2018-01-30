@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NdisTcpOffloadReceiveHandler
 product: Windows
 targetos: Windows
@@ -115,18 +115,18 @@ The offload target must supply the following status value:
 
 
 
-### -param BytesConsumed [out]
-
-A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
-     client application.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_SUCCESS
 
 This indicates that the host stack can retain ownership of the NET_BUFFER_LIST structures and
        associated structures until it returns these structures to the 
        <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
        MiniportTcpOffloadReceiveReturn</i></mshelp:link> function of the offload target.
+
+
+### -param BytesConsumed [out]
+
+A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
+     client application.
 
 
 ## -returns
@@ -289,20 +289,20 @@ In the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
    MiniportTcpOffloadReceiveReturn</i></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
  
 

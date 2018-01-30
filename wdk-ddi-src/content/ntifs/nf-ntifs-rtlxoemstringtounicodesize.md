@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 933c46fe-f760-4782-8ab4-7d1d0431df9f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml, ifsk.rtlxoemstringtounicodesize, RtlxOemStringToUnicodeSize function [Installable File System Drivers], ntifs/RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize
+ms.keywords: RtlxOemStringToUnicodeSize function [Installable File System Drivers], ntifs/RtlxOemStringToUnicodeSize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml, RtlxOemStringToUnicodeSize, ifsk.rtlxoemstringtounicodesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlxOemStringToUnicodeSize
 product: Windows
 targetos: Windows

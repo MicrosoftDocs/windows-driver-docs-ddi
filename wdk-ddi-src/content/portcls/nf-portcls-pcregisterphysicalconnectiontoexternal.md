@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ffacfd4e-9ceb-477a-8b2f-17d7c590fd81
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, portcls/PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices], PcRegisterPhysicalConnectionToExternal, audio.pcregisterphysicalconnectiontoexternal
+ms.keywords: portcls/PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices], audio.pcregisterphysicalconnectiontoexternal, audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, PcRegisterPhysicalConnectionToExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,7 +74,7 @@ NTSTATUS PcRegisterPhysicalConnectionToExternal(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the device. This is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the device object for the device. This is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
 ### -param FromUnknown [in]
@@ -121,17 +121,17 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537029">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal</a>
-
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nf-portcls-pcregisterphysicalconnectionfromexternal.md">PcRegisterPhysicalConnectionFromExternal</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537029">IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
+
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
  
 

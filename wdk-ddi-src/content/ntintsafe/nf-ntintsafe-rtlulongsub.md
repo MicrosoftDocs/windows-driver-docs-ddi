@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54776F17-C7EE-46DB-BA3F-2F545240FC61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongSub, RtlULongSub function [Kernel-Mode Driver Architecture], kernel.rtlulongsub, ntintsafe/RtlULongSub
+ms.keywords: RtlULongSub, ntintsafe/RtlULongSub, RtlULongSub function [Kernel-Mode Driver Architecture], kernel.rtlulongsub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongSub
 product: Windows
 targetos: Windows

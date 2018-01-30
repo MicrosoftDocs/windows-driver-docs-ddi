@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_TDI_MAP_INFO
-title: _WSK_TDI_MAP_INFO
+title: "_WSK_TDI_MAP_INFO"
 author: windows-driver-content
 description: The WSK_TDI_MAP_INFO structure specifies a list that contains mappings of a combination of an address family, a socket type, and a protocol to the device name of a TDI transport.
 old-location: netvista\wsk_tdi_map_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0b4fab4-1a3c-4075-8881-f2aa38fba15e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml, wsk/WSK_TDI_MAP_INFO, wsk/PWSK_TDI_MAP_INFO, _WSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], netvista.wsk_tdi_map_info, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], WSK_TDI_MAP_INFO
+ms.keywords: "*PWSK_TDI_MAP_INFO, _WSK_TDI_MAP_INFO, netvista.wsk_tdi_map_info, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml, WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], wsk/WSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO, wsk/PWSK_TDI_MAP_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_TDI_MAP_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO
+req.typenames: WSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO
 req.product: Windows 10 or later.
 ---
 

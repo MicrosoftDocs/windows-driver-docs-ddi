@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL, ks/KSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], stream.ksproperty_serial, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, KSPROPERTY_SERIAL structure [Streaming Media Devices], KSPROPERTY_SERIAL
+ms.keywords: ks/KSPROPERTY_SERIAL, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, KSPROPERTY_SERIAL, PKSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], KSPROPERTY_SERIAL structure [Streaming Media Devices], stream.ksproperty_serial, *PKSPROPERTY_SERIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_SERIAL
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL
+req.typenames: "*PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL"
 ---
 
 # KSPROPERTY_SERIAL structure

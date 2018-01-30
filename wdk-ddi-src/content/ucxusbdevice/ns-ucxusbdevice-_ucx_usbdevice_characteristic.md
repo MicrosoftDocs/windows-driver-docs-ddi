@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC
-title: _UCX_USBDEVICE_CHARACTERISTIC
+title: "_UCX_USBDEVICE_CHARACTERISTIC"
 author: windows-driver-content
 description: Stores the characteristics of an device.
 old-location: buses\ucx_usbdevice_characteristic.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 31BF5607-51EA-4FBF-A754-872FBD45915D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], PUCX_USBDEVICE_CHARACTERISTIC
+ms.keywords: ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], _UCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxusbdevice.h
-apiname: 
+apiname:
 -	UCX_USBDEVICE_CHARACTERISTIC
 product: Windows
 targetos: Windows
-req.typenames: *PUCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC
+req.typenames: UCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC
 req.product: Windows 10 or later.
 ---
 

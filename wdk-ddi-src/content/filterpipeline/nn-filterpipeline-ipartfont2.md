@@ -2,7 +2,7 @@
 UID: NN:filterpipeline.IPartFont2
 title: IPartFont2
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\ipartfont2.htm
 old-project: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IPartFont2
 -	IPartFont2.GetFontRestriction
 product: Windows

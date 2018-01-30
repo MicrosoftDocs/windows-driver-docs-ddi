@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: bcfc2b11-d89c-40f8-95ce-07a599e2a2bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, usbdlib/USBD_GetInterfaceLength, buses.usbd_getinterfacelength, USBD_GetInterfaceLength routine [Buses], USBD_GetInterfaceLength
+ms.keywords: usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, USBD_GetInterfaceLength routine [Buses], USBD_GetInterfaceLength, buses.usbd_getinterfacelength, usbdlib/USBD_GetInterfaceLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbd.lib
 -	Usbd.dll
-apiname: 
+apiname:
 -	USBD_GetInterfaceLength
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

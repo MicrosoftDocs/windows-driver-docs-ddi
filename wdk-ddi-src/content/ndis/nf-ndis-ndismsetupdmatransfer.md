@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], ndis/NdisMSetupDmaTransfer, NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml
+ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], ndis/NdisMSetupDmaTransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, netvista.ndismsetupdmatransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMSetupDmaTransfer
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMSetupDmaTransfer macro
@@ -105,27 +105,6 @@ TBD
 
 
 
-#### - Length [in]
-
-The number of bytes of data to be transferred. The range specified by 
-     <i>Offset</i> and 
-     <i>Length</i> must be a proper subrange of that specified at 
-     <i>Buffer</i> .
-
-
-#### - MiniportDmaHandle [in]
-
-The DMA handle returned by the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
-     during initialization.
-
-
-#### - WriteToDevice [in]
-
-A boolean value that is <b>TRUE</b> for an outbound transfer from the system through the NIC. Otherwise,
-     it is <b>FALSE</b>.
-
-
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the request,
@@ -135,11 +114,25 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
-#### - Offset [in]
+#### NDIS_STATUS_SUCCESS
 
-The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
-     transfer should begin at the initial byte of the range specified at 
-     <i>Buffer</i> .
+The DMA controller has been set up to transfer the specified data, which has been flushed to or
+       from the device to maintain data integrity.
+
+
+#### NDIS_STATUS_RESOURCES
+
+An attempt to set up the DMA controller for the transfer has failed, either because the channel
+       designated by 
+       <i>MiniportDmaHandle</i> is currently in use transferring data or because the given 
+       <i>Length</i> is invalid.
+
+
+#### - MiniportDmaHandle [in]
+
+The DMA handle returned by the 
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
+     during initialization.
 
 
 #### - Buffer [in]
@@ -148,18 +141,25 @@ A pointer to the buffer descriptor mapping the range of host memory from which o
      data will be transferred.
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+#### - Offset [in]
 
-The DMA controller has been set up to transfer the specified data, which has been flushed to or
-       from the device to maintain data integrity.
+The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
+     transfer should begin at the initial byte of the range specified at 
+     <i>Buffer</i> .
 
 
-##### - Status.NDIS_STATUS_RESOURCES
+#### - Length [in]
 
-An attempt to set up the DMA controller for the transfer has failed, either because the channel
-       designated by 
-       <i>MiniportDmaHandle</i> is currently in use transferring data or because the given 
-       <i>Length</i> is invalid.
+The number of bytes of data to be transferred. The range specified by 
+     <i>Offset</i> and 
+     <i>Length</i> must be a proper subrange of that specified at 
+     <i>Buffer</i> .
+
+
+#### - WriteToDevice [in]
+
+A boolean value that is <b>TRUE</b> for an outbound transfer from the system through the NIC. Otherwise,
+     it is <b>FALSE</b>.
 
 
 ## -remarks
@@ -204,9 +204,9 @@ When the transfer is complete, the miniport driver must call the
 
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
-<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+
+<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
 
  
 

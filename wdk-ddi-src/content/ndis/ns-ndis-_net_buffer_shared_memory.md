@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_SHARED_MEMORY
-title: _NET_BUFFER_SHARED_MEMORY
+title: "_NET_BUFFER_SHARED_MEMORY"
 author: windows-driver-content
 description: The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a NET_BUFFER structure.
 old-location: netvista\net_buffer_shared_memory.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 492bb1cd-fc3e-4e85-9074-32ebbf1fb837
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_SHARED_MEMORY, netvista.net_buffer_shared_memory, ndis/NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, ndis/PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY, _NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_SHARED_MEMORY, netvista.net_buffer_shared_memory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NET_BUFFER_SHARED_MEMORY
 product: Windows
 targetos: Windows
@@ -123,18 +123,18 @@ Use the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
+
+<mshelp:link keywords="netvista.net_buffer_shared_mem_next_segment" tabindex="0"><b>
+   NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
-
-<mshelp:link keywords="netvista.net_buffer_shared_mem_next_segment" tabindex="0"><b>
-   NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
 
  
 

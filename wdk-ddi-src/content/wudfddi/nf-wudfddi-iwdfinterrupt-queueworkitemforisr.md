@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt, umdf.iwdfinterrupt_queueworkitemforisr, IWDFInterrupt::QueueWorkItemForIsr, IWDFInterrupt interface, QueueWorkItemForIsr method, wudfddi/IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr, wdf.iwdfinterrupt_queueworkitemforisr, QueueWorkItemForIsr method, IWDFInterrupt interface
+ms.keywords: wudfddi/IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, IWDFInterrupt interface, IWDFInterrupt interface, QueueWorkItemForIsr method, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr, wdf.iwdfinterrupt_queueworkitemforisr, umdf.iwdfinterrupt_queueworkitemforisr, IWDFInterrupt, QueueWorkItemForIsr method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFInterrupt.QueueWorkItemForIsr
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -89,9 +89,9 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
-
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
  
 

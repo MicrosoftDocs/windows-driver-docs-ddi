@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_PROFILE
-title: _WDF_DMA_PROFILE
+title: "_WDF_DMA_PROFILE"
 author: windows-driver-content
 description: The WDF_DMA_PROFILE enumeration identifies the types of bus-master or system-mode DMA operations that devices can support.
 old-location: wdf\wdf_dma_profile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a2672bca-5c2e-423d-9ba0-fad610170e88
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DMA_PROFILE enumeration, kmdf.wdf_dma_profile, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileInvalid, wdfdmaenabler/WDF_DMA_PROFILE, WdfDmaProfileSystem, wdf.wdf_dma_profile, WdfDmaProfileScatterGatherDuplex, WDF_DMA_PROFILE, WdfDmaProfileSystemDuplex, wdfdmaenabler/WdfDmaProfileScatterGather, WdfDmaProfileScatterGather64Duplex, WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfilePacket, _WDF_DMA_PROFILE, WdfDmaProfilePacket64, WdfDmaProfileScatterGather, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileSystemDuplex, wdfdmaenabler/WdfDmaProfileSystem, WdfDmaProfilePacket
+ms.keywords: WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfilePacket64, WdfDmaProfilePacket, WDF_DMA_PROFILE enumeration, WdfDmaProfileScatterGather, wdfdmaenabler/WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfileSystemDuplex, WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, WdfDmaProfileSystem, WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileScatterGather64, wdfdmaenabler/WDF_DMA_PROFILE, _WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfilePacket, WdfDmaProfileScatterGather64Duplex, WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileScatterGather, kmdf.wdf_dma_profile, wdf.wdf_dma_profile, WdfDmaProfileScatterGather64, WdfDmaProfileSystemDuplex, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdmaenabler.h
-apiname: 
+apiname:
 -	WDF_DMA_PROFILE
 product: Windows
 targetos: Windows

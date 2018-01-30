@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtcpciportcontroller.h
-apiname: 
+apiname:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 product: Windows
 targetos: Windows

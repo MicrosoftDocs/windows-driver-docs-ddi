@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_TYPE
-title: _WDF_REQUEST_TYPE
+title: "_WDF_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_REQUEST_TYPE enumeration type identifies types of requests that a framework request object might contain.
 old-location: wdf\wdf_request_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91c036a0-7fce-4c7d-a217-eb1c487a15d0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestTypeCreate, wdfrequest/WdfRequestTypeUsb, WdfRequestTypeOther, wdfrequest/WdfRequestTypeCreate, WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryInformation, wdfrequest/WdfRequestTypeSetEA, WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeDeviceControlInternal, WdfRequestTypeUsb, wdfrequest/WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeWrite, WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeLockControl, WdfRequestTypeWrite, wdfrequest/WdfRequestTypeFlushBuffers, WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeNoFormat, WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypePower, WDF_REQUEST_TYPE, WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeCreateMailSlot, WdfRequestTypeSystemControl, _WDF_REQUEST_TYPE, WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypePnp, WdfRequestTypeCleanup, kmdf.wdf_request_type, WdfRequestTypeDeviceControlInternal, WdfRequestTypeClose, WdfRequestTypeSetSecurity, WdfRequestTypeQueryInformation, WdfRequestTypeFileSystemControl, WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeDeviceControl, WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeFileSystemControl, DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, wdfrequest/WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeRead, WdfRequestTypeCreateMailSlot, WdfRequestTypePnp, wdfrequest/WdfRequestTypeSetInformation, wdf.wdf_request_type, wdfrequest/WdfRequestTypeClose, wdfrequest/WdfRequestTypeDirectoryControl, WdfRequestTypeMax, wdfrequest/WDF_REQUEST_TYPE, WdfRequestTypeRead, WdfRequestTypeQueryEA, wdfrequest/WdfRequestTypeSetVolumeInformation, WDF_REQUEST_TYPE enumeration, wdfrequest/WdfRequestTypeShutdown, wdfrequest/WdfRequestTypeMax, WdfRequestTypeCreateNamedPipe, wdfrequest/WdfRequestTypeOther, WdfRequestTypePower, WdfRequestTypeLockControl, WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeQueryQuota, WdfRequestTypeNoFormat, WdfRequestTypeFlushBuffers, WdfRequestTypeSetEA
+ms.keywords: "_WDF_REQUEST_TYPE, WdfRequestTypeCleanup, WdfRequestTypeCreateMailSlot, WdfRequestTypeQueryInformation, WdfRequestTypeQueryVolumeInformation, wdfrequest/WdfRequestTypeDeviceControlInternal, wdfrequest/WdfRequestTypeShutdown, WdfRequestTypeCreateNamedPipe, WdfRequestTypeFileSystemControl, WdfRequestTypeUsb, WdfRequestTypeSystemControl, wdfrequest/WdfRequestTypeClose, WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeQueryInformation, WdfRequestTypeRead, wdfrequest/WdfRequestTypePower, wdfrequest/WdfRequestTypeNoFormat, DFRequestObjectRef_43f31fe0-45c1-45d2-adcc-d0d931327eeb.xml, WdfRequestTypeQueryEA, WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeFlushBuffers, WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeFileSystemControl, WdfRequestTypeSetSecurity, wdfrequest/WdfRequestTypePnp, wdfrequest/WdfRequestTypeRead, WdfRequestTypePower, wdfrequest/WdfRequestTypeQueryQuota, wdfrequest/WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeSetInformation, wdfrequest/WdfRequestTypeDirectoryControl, wdfrequest/WdfRequestTypeSetVolumeInformation, wdfrequest/WdfRequestTypeQueryEA, WdfRequestTypeOther, wdf.wdf_request_type, WdfRequestTypeSetVolumeInformation, WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypeLockControl, WDF_REQUEST_TYPE enumeration, WdfRequestTypeSetInformation, WdfRequestTypeFlushBuffers, WdfRequestTypeCreate, WDF_REQUEST_TYPE, wdfrequest/WdfRequestTypeQuerySecurity, wdfrequest/WdfRequestTypeSetSecurity, WdfRequestTypeWrite, wdfrequest/WdfRequestTypeSetEA, WdfRequestTypeClose, WdfRequestTypeDeviceControlInternal, wdfrequest/WdfRequestTypeCreateMailSlot, wdfrequest/WdfRequestTypeCreate, WdfRequestTypeMax, wdfrequest/WdfRequestTypeMax, WdfRequestTypeLockControl, wdfrequest/WdfRequestTypeCreateNamedPipe, WdfRequestTypeShutdown, WdfRequestTypeSetEA, wdfrequest/WdfRequestTypeUsb, wdfrequest/WdfRequestTypeDeviceControl, wdfrequest/WdfRequestTypeDeviceChange, WdfRequestTypeSetQuota, wdfrequest/WdfRequestTypeSystemControl, WdfRequestTypeDeviceChange, wdfrequest/WdfRequestTypeQueryVolumeInformation, wdfrequest/WDF_REQUEST_TYPE, WdfRequestTypeNoFormat, kmdf.wdf_request_type, WdfRequestTypePnp, wdfrequest/WdfRequestTypeOther, wdfrequest/WdfRequestTypeCleanup, wdfrequest/WdfRequestTypeWrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_TYPE
 product: Windows
 targetos: Windows
@@ -274,13 +274,13 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
-
 <a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a>
 
  
 

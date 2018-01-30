@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6e195025-4e70-44fa-a12d-0a98417381a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdffdoinitsetfilter, wdf.wdffdoinitsetfilter, PFN_WDFFDOINITSETFILTER, wdffdo/WdfFdoInitSetFilter, WdfFdoInitSetFilter method, WdfFdoInitSetFilter, DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml
+ms.keywords: WdfFdoInitSetFilter, WdfFdoInitSetFilter method, wdf.wdffdoinitsetfilter, kmdf.wdffdoinitsetfilter, PFN_WDFFDOINITSETFILTER, DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, wdffdo/WdfFdoInitSetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfFdoInitSetFilter
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 

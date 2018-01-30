@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_DEVICE_IO_TYPE
-title: _WDF_DEVICE_IO_TYPE
+title: "_WDF_DEVICE_IO_TYPE"
 author: windows-driver-content
 description: The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers.
 old-location: wdf\wdf_device_io_type__umdf_.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WDF_DEVICE_IO_TYPE, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, WdfDeviceIoMaximum, wudfddi_types/PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, _WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoUndefined, WdfDeviceIoNeither, WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WdfDeviceIoNeither, umdf.wdf_device_io_type__umdf_, PWDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoMaximum, wdf.wdf_device_io_type__umdf_, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoDirect, WdfDeviceIoDirect, WdfDeviceIoBufferedOrDirect, WdfDeviceIoUndefined
+ms.keywords: wudfddi_types/WdfDeviceIoUndefined, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WdfDeviceIoBufferedOrDirect, WdfDeviceIoUndefined, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, wudfddi_types/WdfDeviceIoBuffered, WdfDeviceIoBuffered, WDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE, wdf.wdf_device_io_type__umdf_, WdfDeviceIoMaximum, wudfddi_types/WdfDeviceIoMaximum, umdf.wdf_device_io_type__umdf_, wudfddi_types/WdfDeviceIoDirect, WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/PWDF_DEVICE_IO_TYPE, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoNeither, _WDF_DEVICE_IO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_DEVICE_IO_TYPE
 product: Windows
 targetos: Windows

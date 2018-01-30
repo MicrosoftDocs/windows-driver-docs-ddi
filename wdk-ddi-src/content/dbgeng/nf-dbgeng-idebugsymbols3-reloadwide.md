@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], ReloadWide method, debugger.reloadwide, ReloadWide method [Windows Debugging], IDebugSymbols3, ReloadWide, ReloadWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide, IDebugSymbols3::ReloadWide
+ms.keywords: ReloadWide method [Windows Debugging], ReloadWide, IDebugSymbols3::ReloadWide, debugger.reloadwide, dbgeng/IDebugSymbols3::ReloadWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReloadWide method, ReloadWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.ReloadWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::ReloadWide method

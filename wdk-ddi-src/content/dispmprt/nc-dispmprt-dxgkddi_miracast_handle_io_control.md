@@ -148,7 +148,7 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the e
 
 The operating system guarantees that a call to <i>DxgkDdiMiracastIoControl</i> occurs in the same process space as the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> request is called in. 
 
-Even though the operating system merely copies the values of the input and output buffer sizes from the respective parameters of <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>, the display miniport driver is responsible for checking buffer sizes before using the buffers. Also, the driver should perform probing operations within a try/except calling block, using <a href="https://msdn.microsoft.com/library/windows/hardware/ff559876">ProbeForRead</a> and/or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559879">ProbeForWrite</a> functions, to verify any user-mode memory that input buffers point to.
+Even though the operating system merely copies the values of the input and output buffer sizes from the respective parameters of <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>, the display miniport driver is responsible for checking buffer sizes before using the buffers. Also, the driver should perform probing operations within a try/except calling block, using <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a> and/or <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a> functions, to verify any user-mode memory that input buffers point to.
 
 This I/O control operation is processed synchronously with a call to the user-mode <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a> function.
 <h3><a id="Synchronization"></a><a id="synchronization"></a><a id="SYNCHRONIZATION"></a>Synchronization</h3>The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>, <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a>, and <i>DxgkDdiMiracastIoControl</i> functions as a <i>Miracast</i> class. 
@@ -163,15 +163,15 @@ The threading and synchronization level for this function is set by how the user
 
 ## -see-also
 
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+
+<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
+
+<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559876">ProbeForRead</a>
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559879">ProbeForWrite</a>
 
  
 

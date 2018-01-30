@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._IP_OFFLOAD_STATS
-title: _IP_OFFLOAD_STATS
+title: "_IP_OFFLOAD_STATS"
 author: windows-driver-content
 description: The IP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a query of OID_IP4_OFFLOAD_STATS or OID_IP6_OFFLOAD_STATS.
 old-location: netvista\ip_offload_stats.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f40c5734-2546-40c3-a6fb-58f728c3cc5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PIP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS, PIP_OFFLOAD_STATS, IP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], _IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], netvista.ip_offload_stats, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml
+ms.keywords: netvista.ip_offload_stats, ndischimney/PIP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml, PIP_OFFLOAD_STATS, _IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], IP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	IP_OFFLOAD_STATS
 product: Windows
 targetos: Windows
-req.typenames: *PIP_OFFLOAD_STATS, IP_OFFLOAD_STATS
+req.typenames: IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
 ---
 
 # _IP_OFFLOAD_STATS structure
@@ -210,12 +210,12 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
 
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
 
  
 

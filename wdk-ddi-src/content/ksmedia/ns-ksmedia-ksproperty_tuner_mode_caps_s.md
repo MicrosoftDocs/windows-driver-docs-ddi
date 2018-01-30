@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e2376cde-7e13-475d-a118-0cf48ba8a742
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_tuner_mode_caps_s, ksmedia/PKSPROPERTY_TUNER_MODE_CAPS_S, ksmedia/KSPROPERTY_TUNER_MODE_CAPS_S, PKSPROPERTY_TUNER_MODE_CAPS_S, KSPROPERTY_TUNER_MODE_CAPS_S structure [Streaming Media Devices], KSPROPERTY_TUNER_MODE_CAPS_S, vidcapstruct_d80882b8-2962-48c3-b2e9-393deec31ccc.xml, *PKSPROPERTY_TUNER_MODE_CAPS_S, PKSPROPERTY_TUNER_MODE_CAPS_S structure pointer [Streaming Media Devices]
+ms.keywords: ksmedia/KSPROPERTY_TUNER_MODE_CAPS_S, KSPROPERTY_TUNER_MODE_CAPS_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_MODE_CAPS_S, PKSPROPERTY_TUNER_MODE_CAPS_S, *PKSPROPERTY_TUNER_MODE_CAPS_S, stream.ksproperty_tuner_mode_caps_s, PKSPROPERTY_TUNER_MODE_CAPS_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_MODE_CAPS_S, vidcapstruct_d80882b8-2962-48c3-b2e9-393deec31ccc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_TUNER_MODE_CAPS_S
 product: Windows
 targetos: Windows
@@ -185,6 +185,8 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
@@ -192,8 +194,6 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 <a href="..\ksmedia\ne-ksmedia-ks_tuner_strategy.md">KS_TUNER_STRATEGY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565865">KSPROPERTY_TUNER_MODE_CAPS</a>
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
  
 

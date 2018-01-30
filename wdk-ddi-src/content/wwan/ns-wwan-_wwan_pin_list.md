@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_LIST
-title: _WWAN_PIN_LIST
+title: "_WWAN_PIN_LIST"
 author: windows-driver-content
 description: The WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\wwan_pin_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddea69c-db40-4fae-9ca9-5eadc9b40b0c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_PIN_LIST, *PWWAN_PIN_LIST, netvista.wwan_pin_list, WWAN_PIN_LIST, WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PIN_LIST, PWWAN_PIN_LIST
+ms.keywords: wwan/WWAN_PIN_LIST, WWAN_PIN_LIST, wwan/PWWAN_PIN_LIST, PWWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PIN_LIST, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, netvista.wwan_pin_list, *PWWAN_PIN_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PIN_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PIN_LIST, WWAN_PIN_LIST
+req.typenames: WWAN_PIN_LIST, *PWWAN_PIN_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -144,9 +144,9 @@ Description for custom PIN. This is a custom vendor-defined PIN type. It is not 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_list.md">NDIS_WWAN_PIN_LIST</a>
+
+<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
 
  
 

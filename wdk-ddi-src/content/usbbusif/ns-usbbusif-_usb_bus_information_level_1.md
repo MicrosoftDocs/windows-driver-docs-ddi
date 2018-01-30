@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INFORMATION_LEVEL_1
-title: _USB_BUS_INFORMATION_LEVEL_1
+title: "_USB_BUS_INFORMATION_LEVEL_1"
 author: windows-driver-content
 description: The USB_BUS_INFORMATION_LEVEL_1 structure is used in conjunction with the QueryBusInformation interface routine to report information about the bus.
 old-location: buses\usb_bus_information_level_1.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 518cd3bb-86a8-4960-b140-fabb78fa3519
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml, usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], buses.usb_bus_information_level_1, _USB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1 structure [Buses], *PUSB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1
+ms.keywords: PUSB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], _USB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1 structure [Buses], buses.usb_bus_information_level_1, usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, *PUSB_BUS_INFORMATION_LEVEL_1, usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	USB_BUS_INFORMATION_LEVEL_1
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INFORMATION_LEVEL_1, *PUSB_BUS_INFORMATION_LEVEL_1
+req.typenames: "*PUSB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1"
 req.product: Windows 10 or later.
 ---
 

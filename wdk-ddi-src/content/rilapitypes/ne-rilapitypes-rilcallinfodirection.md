@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55db88f4-14a5-4d37-b4e8-be88369f33b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RILCALLINFODIRECTION, rilapitypes/RIL_CALLDIR_MAX, RIL_CALLDIR_OUTGOING, RIL_CALLDIR_MAX, rilapitypes/RIL_CALLDIR_OUTGOING, rilapitypes/RILCALLINFODIRECTION, netvista.rilcallinfodirection_2
+ms.keywords: RIL_CALLDIR_OUTGOING, RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLINFODIRECTION, netvista.rilcallinfodirection_2, rilapitypes/RIL_CALLDIR_OUTGOING, rilapitypes/RIL_CALLDIR_MAX, RILCALLINFODIRECTION, RIL_CALLDIR_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLINFODIRECTION
 product: Windows
 targetos: Windows

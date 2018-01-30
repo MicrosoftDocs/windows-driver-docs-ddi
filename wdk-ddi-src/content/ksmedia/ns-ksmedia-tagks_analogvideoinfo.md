@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a3562a08-c567-4bb5-9de2-aaa561687b88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml, tagKS_AnalogVideoInfo, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], ksmedia/PKS_ANALOGVIDEOINFO, *PKS_ANALOGVIDEOINFO, ksmedia/KS_ANALOGVIDEOINFO, stream.ks_analogvideoinfo
+ms.keywords: stream.ks_analogvideoinfo, PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO, ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], *PKS_ANALOGVIDEOINFO, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml, tagKS_AnalogVideoInfo, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_ANALOGVIDEOINFO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO
+req.typenames: KS_ANALOGVIDEOINFO, *PKS_ANALOGVIDEOINFO
 ---
 
 # tagKS_AnalogVideoInfo structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_PRE_OPERATION_INFORMATION
-title: _OB_PRE_OPERATION_INFORMATION
+title: "_OB_PRE_OPERATION_INFORMATION"
 author: windows-driver-content
 description: The OB_PRE_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPreCallback routine.
 old-location: kernel\ob_pre_operation_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fe0f1aa-cf9f-4b45-8c34-a6d810fd461a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/POB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/OB_PRE_OPERATION_INFORMATION, kernel.ob_pre_operation_information, OB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml
+ms.keywords: POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *POB_PRE_OPERATION_INFORMATION, kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, wdm/POB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION, kernel.ob_pre_operation_information, OB_PRE_OPERATION_INFORMATION, wdm/OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	OB_PRE_OPERATION_INFORMATION
 product: Windows
 targetos: Windows
@@ -101,6 +101,16 @@ The type of handle operation. This member might be one of the following values:
 
 
 
+#### OB_OPERATION_HANDLE_CREATE
+
+A new handle to a process or thread will be opened. Use <b>Parameters-&gt;CreateHandleInformation</b> for create-specific information.
+
+
+#### OB_OPERATION_HANDLE_DUPLICATE
+
+A process or thread handle will be duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
+
+
 ### -field Object
 
 A pointer to the process or thread object that is the target of the handle operation.
@@ -121,23 +131,13 @@ A pointer to driver-specific context information for the operation. By default, 
 A pointer to an <a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid.
 
 
-##### - Operation.OB_OPERATION_HANDLE_DUPLICATE
-
-A process or thread handle will be duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
-
-
-##### - Operation.OB_OPERATION_HANDLE_CREATE
-
-A new handle to a process or thread will be opened. Use <b>Parameters-&gt;CreateHandleInformation</b> for create-specific information.
-
-
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
 
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
-<a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
  
 

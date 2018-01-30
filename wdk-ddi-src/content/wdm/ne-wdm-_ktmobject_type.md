@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KTMOBJECT_TYPE
-title: _KTMOBJECT_TYPE
+title: "_KTMOBJECT_TYPE"
 author: windows-driver-content
 description: The KTMOBJECT_TYPE enumeration identifies the types of objects that KTM supports.
 old-location: kernel\ktmobject_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TYPE, wdm/KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_INVALID, KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_ENLISTMENT, _KTMOBJECT_TYPE, wdm/KTMOBJECT_INVALID, *PKTMOBJECT_TYPE, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, PKTMOBJECT_TYPE, kernel.ktmobject_type, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_ENLISTMENT, wdm/PKTMOBJECT_TYPE
+ms.keywords: wdm/PKTMOBJECT_TYPE, KTMOBJECT_RESOURCE_MANAGER, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, kernel.ktmobject_type, *PKTMOBJECT_TYPE, wdm/KTMOBJECT_ENLISTMENT, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_INVALID, KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_RESOURCE_MANAGER, _KTMOBJECT_TYPE, wdm/KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_ENLISTMENT, KTMOBJECT_INVALID, KTMOBJECT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KTMOBJECT_TYPE
 product: Windows
 targetos: Windows

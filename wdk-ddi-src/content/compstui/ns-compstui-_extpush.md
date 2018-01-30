@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._EXTPUSH
-title: _EXTPUSH
+title: "_EXTPUSH"
 author: windows-driver-content
 description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 old-location: print\extpush.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PEXTPUSH, _EXTPUSH, EXTPUSH structure [Print Devices], compstui/PEXTPUSH, EXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, PEXTPUSH structure pointer [Print Devices], PEXTPUSH, print.extpush, compstui/EXTPUSH
+ms.keywords: EXTPUSH structure [Print Devices], _EXTPUSH, compstui/EXTPUSH, PEXTPUSH, *PEXTPUSH, EXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush, compstui/PEXTPUSH, PEXTPUSH structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	EXTPUSH
 product: Windows
 targetos: Windows
-req.typenames: EXTPUSH, *PEXTPUSH
+req.typenames: "*PEXTPUSH, EXTPUSH"
 ---
 
 # _EXTPUSH structure
@@ -130,6 +130,52 @@ Bit flags, which can be one of the following:
 
 
 
+#### EPF_ICONID_AS_HICON
+
+If set, the <b>IconID</b> member contains an icon handle.
+
+If not set, the <b>IconID</b> member contains an icon resource identifier.
+
+
+#### EPF_INCLUDE_SETUP_TITLE
+
+If set, CPSUI appends "Setup" to the string pointed to by <b>pTitle</b>.
+
+
+#### EPF_NO_DOT_DOT_DOT
+
+If set, CPSUI does not append "..." to the string pointed to by <b>pTitle</b>.
+
+
+#### EPF_OVERLAY_NO_ICON
+
+If set, CPSUI overlays its IDI_CPSUI_NO icon onto the icon identified by the <b>IconID</b> member.
+
+
+#### EPF_OVERLAY_STOP_ICON
+
+If set, CPSUI overlays the IDI_CPSUI_STOP icon onto the icon identified by the <b>IconID</b> member.
+
+
+#### EPF_OVERLAY_WARNING_ICON
+
+If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon identified by the <b>IconID</b> member.
+
+
+#### EPF_PUSH_TYPE_DLGPROC
+
+If set, the <b>DlgProc</b> and <b>DlgTemplateID/hDlgTemplate</b> members are valid.
+
+If not set, the <b>pfnCallBack</b> member is valid.
+
+
+#### EPF_USE_HDLGTEMPLATE
+
+If set, <b>hDlgTemplate</b> contains a template handle.
+
+If not set, <b>DlgTemplateID</b> contains a template resource identifier.
+
+
 ### -field pTitle
 
 String identifier, representing the push button title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
@@ -155,30 +201,11 @@ An icon handle. If a handle is specified, EPF_ICONID_AS_HICON must be set in the
 Reserved, must be initialized to zero.
 
 
-#### - hDlgTemplate
+#### - DlgProc
 
-Handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
+DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the following Remarks section.
 
-Used only if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
-
-
-##### - Flags.EPF_NO_DOT_DOT_DOT
-
-If set, CPSUI does not append "..." to the string pointed to by <b>pTitle</b>.
-
-
-##### - Flags.EPF_USE_HDLGTEMPLATE
-
-If set, <b>hDlgTemplate</b> contains a template handle.
-
-If not set, <b>DlgTemplateID</b> contains a template resource identifier.
-
-
-##### - Flags.EPF_ICONID_AS_HICON
-
-If set, the <b>IconID</b> member contains an icon handle.
-
-If not set, the <b>IconID</b> member contains an icon resource identifier.
+If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
 
 
 #### - pfnCallBack
@@ -188,45 +215,18 @@ Pointer to a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK<
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
 
 
-##### - Flags.EPF_OVERLAY_STOP_ICON
-
-If set, CPSUI overlays the IDI_CPSUI_STOP icon onto the icon identified by the <b>IconID</b> member.
-
-
-#### - DlgProc
-
-DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the following Remarks section.
-
-If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
-
-
-##### - Flags.EPF_INCLUDE_SETUP_TITLE
-
-If set, CPSUI appends "Setup" to the string pointed to by <b>pTitle</b>.
-
-
-##### - Flags.EPF_PUSH_TYPE_DLGPROC
-
-If set, the <b>DlgProc</b> and <b>DlgTemplateID/hDlgTemplate</b> members are valid.
-
-If not set, the <b>pfnCallBack</b> member is valid.
-
-
-##### - Flags.EPF_OVERLAY_WARNING_ICON
-
-If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon identified by the <b>IconID</b> member.
-
-
-##### - Flags.EPF_OVERLAY_NO_ICON
-
-If set, CPSUI overlays its IDI_CPSUI_NO icon onto the icon identified by the <b>IconID</b> member.
-
-
 #### - DlgTemplateID
 
 DIALOG resource identifier, describing a dialog box template.
 
 Not used if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
+
+
+#### - hDlgTemplate
+
+Handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
+
+Used only if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 
 ## -remarks

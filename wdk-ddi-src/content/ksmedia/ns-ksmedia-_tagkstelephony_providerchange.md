@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 07928837-321C-4501-BDFF-4611BF6912F6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE, ksmedia/KSTELEPHONY_PROVIDERCHANGE, _tagKSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], audio.kstelephony_providerchange
+ms.keywords: audio.kstelephony_providerchange, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], ksmedia/KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

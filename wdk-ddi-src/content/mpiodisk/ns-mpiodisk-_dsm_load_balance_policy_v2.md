@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DSM_Load_Balance_Policy_V2
-title: _DSM_Load_Balance_Policy_V2
+title: "_DSM_Load_Balance_Policy_V2"
 author: windows-driver-content
 description: The DSM_Load_Balance_Policy_V2 structure is used to represent a load balance policy that is applied to a LUN.
 old-location: storage\dsm_load_balance_policy_v2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1522320-110c-46dc-be50-df7c05d61351
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dsm_load_balance_policy_v2, mpiodisk/PDSM_Load_Balance_Policy_V2, PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2, structs-scsibus_f53c7618-49ab-452b-97e7-402d9392a419.xml, PDSM_Load_Balance_Policy_V2 structure pointer [Storage Devices], *PDSM_Load_Balance_Policy_V2, mpiodisk/DSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2 structure [Storage Devices], _DSM_Load_Balance_Policy_V2
+ms.keywords: DSM_Load_Balance_Policy_V2 structure [Storage Devices], PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2, mpiodisk/PDSM_Load_Balance_Policy_V2, storage.dsm_load_balance_policy_v2, mpiodisk/DSM_Load_Balance_Policy_V2, structs-scsibus_f53c7618-49ab-452b-97e7-402d9392a419.xml, _DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2, PDSM_Load_Balance_Policy_V2 structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiodisk.h
-apiname: 
+apiname:
 -	DSM_Load_Balance_Policy_V2
 product: Windows
 targetos: Windows

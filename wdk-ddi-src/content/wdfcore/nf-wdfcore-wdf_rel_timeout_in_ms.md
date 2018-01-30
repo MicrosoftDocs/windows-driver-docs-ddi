@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f68b9575-04e4-4046-aec4-b664d8a643d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcore/WDF_REL_TIMEOUT_IN_MS, wdf.wdf_rel_timeout_in_ms, WDF_REL_TIMEOUT_IN_MS, kmdf.wdf_rel_timeout_in_ms, WDF_REL_TIMEOUT_IN_MS function, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml
+ms.keywords: WDF_REL_TIMEOUT_IN_MS, kmdf.wdf_rel_timeout_in_ms, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS function, wdfcore/WDF_REL_TIMEOUT_IN_MS, wdf.wdf_rel_timeout_in_ms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_REL_TIMEOUT_IN_MS
 product: Windows
 targetos: Windows

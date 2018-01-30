@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenResourceFromNtHandle function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmtopenresourcefromnthandle, D3DKMTOpenResourceFromNtHandle, d3dkmthk/D3DKMTOpenResourceFromNtHandle
+ms.keywords: PFND3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmtopenresourcefromnthandle, D3DKMTOpenResourceFromNtHandle, d3dkmthk/D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresourcefromnthandle.md">D3DKMT_OPENRESOURCEFROMNTHANDLE</a>
-
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 70c2942d-1225-4a50-b734-27995b4481d1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfreeobjectcreateitemsbycontext, ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml, KsFreeObjectCreateItemsByContext, KsFreeObjectCreateItemsByContext function [Streaming Media Devices], ks/KsFreeObjectCreateItemsByContext
+ms.keywords: ks/KsFreeObjectCreateItemsByContext, stream.ksfreeobjectcreateitemsbycontext, KsFreeObjectCreateItemsByContext, ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml, KsFreeObjectCreateItemsByContext function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFreeObjectCreateItemsByContext
 product: Windows
 targetos: Windows

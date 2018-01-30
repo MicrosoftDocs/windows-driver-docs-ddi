@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptableStream interface [Print Devices], Commit method, printerextension/IPrinterScriptableStream::Commit, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, Commit method [Print Devices], IPrinterScriptableStream interface, Commit method [Print Devices], Commit, IPrinterScriptableStream
+ms.keywords: print.iprinterscriptablestream__commit, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Commit method, Commit method [Print Devices], IPrinterScriptableStream interface, Commit, IPrinterScriptableStream::Commit, printerextension/IPrinterScriptableStream::Commit, Commit method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptableStream.Commit
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnDeviceAdd method, IDriverEntry interface, IDriverEntry, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, wdf.idriverentry_ondeviceadd, OnDeviceAdd method, umdf.idriverentry_ondeviceadd, IDriverEntry interface, OnDeviceAdd method, OnDeviceAdd, IDriverEntry::OnDeviceAdd, wudfddi/IDriverEntry::OnDeviceAdd
+ms.keywords: IDriverEntry, umdf.idriverentry_ondeviceadd, OnDeviceAdd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, IDriverEntry interface, OnDeviceAdd method, OnDeviceAdd method, IDriverEntry interface, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd, IDriverEntry::OnDeviceAdd, OnDeviceAdd method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IDriverEntry.OnDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -103,17 +103,17 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae478779-8ec1-4a50-a37c-3017aca2c912
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetPrint method [Windows Debugging], ExtRemoteTyped, debugger.extremotetyped_setprint, ExtRemoteTyped interface [Windows Debugging], SetPrint method, SetPrint, SetPrint method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped::SetPrint
+ms.keywords: ExtRemoteTyped::SetPrint, SetPrint, ExtRemoteTyped interface [Windows Debugging], SetPrint method, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, SetPrint method [Windows Debugging], ExtRemoteTyped interface, SetPrint method [Windows Debugging], debugger.extremotetyped_setprint, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.SetPrint
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::SetPrint method
@@ -93,15 +93,15 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
-
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
+
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
 
  
 

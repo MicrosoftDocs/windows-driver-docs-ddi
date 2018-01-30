@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FS_ATTRIBUTE_INFORMATION
-title: _FILE_FS_ATTRIBUTE_INFORMATION
+title: "_FILE_FS_ATTRIBUTE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_ATTRIBUTE_INFORMATION structure is used to query attribute information for a file system.
 old-location: ifsk\file_fs_attribute_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], FILE_FS_ATTRIBUTE_INFORMATION, _FILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, *PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, ifsk.file_fs_attribute_information
+ms.keywords: "*PFILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, _FILE_FS_ATTRIBUTE_INFORMATION, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_FS_ATTRIBUTE_INFORMATION, ifsk.file_fs_attribute_information, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_FS_ATTRIBUTE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION
+req.typenames: "*PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION"
 ---
 
 # _FILE_FS_ATTRIBUTE_INFORMATION structure
@@ -281,13 +281,13 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
  
 

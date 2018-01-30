@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IXpsRasterizationFactory2::CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, print.ixpsrasterizationfactory2_createrasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, CreateRasterizer, IXpsRasterizationFactory2
+ms.keywords: CreateRasterizer method [Print Devices], IXpsRasterizationFactory2, CreateRasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	xpsrassvc.h
-apiname: 
+apiname:
 -	IXpsRasterizationFactory2.CreateRasterizer
 product: Windows
 targetos: Windows
@@ -163,14 +163,14 @@ XPSRAS_BACKGROUND_COLOR_OPAQUE
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
 
 
-#### - dpiY [in]
-
-Dots per inch which is applied to y dimension of the rasterized output bitmap.
-
-
 #### - dpiX [in]
 
 Dots per inch which is applied to x dimension of the rasterized output bitmap. The DPI value is the resolution of the device that is to print or display the XPS fixed page.
+
+
+#### - dpiY [in]
+
+Dots per inch which is applied to y dimension of the rasterized output bitmap.
 
 
 #### - **ppIXpsRasterizer [out, optional]

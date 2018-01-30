@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_REQUEST_TYPE
-title: _NDIS_REQUEST_TYPE
+title: "_NDIS_REQUEST_TYPE"
 author: windows-driver-content
 description: The NDIS_REQUEST_TYPE enumeration identifies the request type in an OID request.
 old-location: netvista\ndis_request_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4352eab-8bbd-429e-93ad-190372d29f2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisRequestMethod, ntddndis/NdisRequestTransferData, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_REQUEST_TYPE, NdisRequestTransferData, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestGeneric4, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisRequestOpen, ntddndis/NdisRequestQueryInformation, NdisRequestGeneric3, _NDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric3, NdisRequestGeneric4, NdisRequestGeneric1, netvista.ndis_request_type, NdisRequestClose, PNDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric1, ntddndis/NdisRequestGeneric2, ntddndis/NdisRequestOpen, NdisRequestSend, ntddndis/NdisRequestSend, NdisRequestMethod, *PNDIS_REQUEST_TYPE, ntddndis/NdisRequestSetInformation, NdisRequestQueryInformation, ntddndis/NdisRequestReset, NdisRequestQueryStatistics, ntddndis/PNDIS_REQUEST_TYPE, NdisRequestReset, NdisRequestSetInformation, ntddndis/NDIS_REQUEST_TYPE, ntddndis/NdisRequestClose, ntddndis/NdisRequestQueryStatistics, NdisRequestGeneric2
+ms.keywords: ntddndis/PNDIS_REQUEST_TYPE, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestGeneric2, NdisRequestGeneric1, ntddndis/NdisRequestMethod, NdisRequestReset, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisRequestClose, NdisRequestSetInformation, NdisRequestSend, _NDIS_REQUEST_TYPE, NdisRequestGeneric2, *PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, NdisRequestTransferData, NdisRequestMethod, PNDIS_REQUEST_TYPE, ntddndis/NdisRequestTransferData, NdisRequestQueryInformation, NdisRequestQueryStatistics, ntddndis/NdisRequestGeneric1, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisRequestClose, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestGeneric3, ntddndis/NdisRequestSend, ntddndis/NdisRequestSetInformation, netvista.ndis_request_type, ntddndis/NDIS_REQUEST_TYPE, NdisRequestOpen, NdisRequestGeneric3, ntddndis/NdisRequestOpen, NdisRequestGeneric4, ntddndis/NdisRequestReset, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestQueryStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_REQUEST_TYPE
 product: Windows
 targetos: Windows
@@ -162,9 +162,9 @@ The NDIS_REQUEST_TYPE enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 515eed09-d386-4908-9d76-4e64930af5ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetOption method [Print Devices], IPrintCoreHelper interface, print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml, IPrintCoreHelper, IPrintCoreHelper::GetOption, GetOption, GetOption method [Print Devices], print.iprintcorehelper_getoption, IPrintCoreHelper interface [Print Devices], GetOption method, prcomoem/IPrintCoreHelper::GetOption
+ms.keywords: print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml, GetOption method [Print Devices], IPrintCoreHelper interface, print.iprintcorehelper_getoption, prcomoem/IPrintCoreHelper::GetOption, IPrintCoreHelper, GetOption, IPrintCoreHelper interface [Print Devices], GetOption method, GetOption method [Print Devices], IPrintCoreHelper::GetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelper.GetOption
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -172,9 +172,9 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
 
  
 

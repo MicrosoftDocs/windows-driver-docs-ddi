@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtpolldisplaychildren, D3DKMTPollDisplayChildren, OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, d3dkmthk/D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices]
+ms.keywords: D3DKMTPollDisplayChildren, d3dkmthk/D3DKMTPollDisplayChildren, OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, D3DKMTPollDisplayChildren function [Display Devices], display.d3dkmtpolldisplaychildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

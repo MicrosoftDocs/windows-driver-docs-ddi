@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19927cd1-8afa-4006-a882-d5222c690724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_INFOCLASS_DATA, RIL_INFOCLASS_ALL, rilapitypes/RIL_INFOCLASS_PADACCESS, RILINFOCLASS, RIL_INFOCLASS_DATACIRCUITASYNC, rilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_VOICE, rilapitypes/RIL_INFOCLASS_FAX, rilapitypes/RILINFOCLASS, rilapitypes/RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_FAX, rilapitypes/RIL_INFOCLASS_VOICE, rilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_PADACCESS, rilapitypes/RIL_INFOCLASS_DATA, rilapitypes/RIL_INFOCLASS_ALL, RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_SMS, netvista.rilinfoclass_2
+ms.keywords: RIL_INFOCLASS_ALL, RIL_INFOCLASS_DATA, rilapitypes/RIL_INFOCLASS_PACKETACCESS, rilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_PADACCESS, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_FAX, RIL_INFOCLASS_DATACIRCUITSYNC, netvista.rilinfoclass_2, RILINFOCLASS, RIL_INFOCLASS_FAX, rilapitypes/RIL_INFOCLASS_VOICE, rilapitypes/RIL_INFOCLASS_PADACCESS, rilapitypes/RIL_INFOCLASS_DATA, rilapitypes/RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_VOICE, rilapitypes/RILINFOCLASS, RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_PACKETACCESS, rilapitypes/RIL_INFOCLASS_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILINFOCLASS
 product: Windows
 targetos: Windows

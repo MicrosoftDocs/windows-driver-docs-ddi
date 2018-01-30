@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCchCopyExW, STRSAFE_NO_TRUNCATION, RtlStringCchCopyExA, STRSAFE_NULL_ON_FAILURE, RtlStringCchCopyEx, STRSAFE_FILL_ON_FAILURE, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml, STRSAFE_IGNORE_NULLS, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA
+ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, RtlStringCchCopyExW, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], RtlStringCchCopyEx, ntstrsafe/RtlStringCchCopyExA, kernel.rtlstringcchcopyex, STRSAFE_FILL_ON_FAILURE, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchCopyExW
 -	RtlStringCchCopyExA
 -	RtlStringCchCopyExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCopyExW function

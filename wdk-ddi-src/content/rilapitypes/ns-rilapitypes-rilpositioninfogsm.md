@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86b0510b-54ed-463e-b5d4-a34b0a98c00e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILPOSITIONINFOGSM, netvista.rilpositioninfogsm, rilapitypes/RILPOSITIONINFOGSM, RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILPOSITIONINFOGSM, rilapitypes/RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfogsm, RILPOSITIONINFOGSM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFOGSM
 product: Windows
 targetos: Windows

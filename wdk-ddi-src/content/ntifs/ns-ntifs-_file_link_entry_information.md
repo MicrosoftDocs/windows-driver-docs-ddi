@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LINK_ENTRY_INFORMATION
-title: _FILE_LINK_ENTRY_INFORMATION
+title: "_FILE_LINK_ENTRY_INFORMATION"
 author: windows-driver-content
 description: The FILE_LINK_ENTRY_INFORMATION structure describes a single NTFS hard link to an existing file.
 old-location: ifsk\file_link_entry_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b42edb45-3f4f-4f65-aede-8f51149dda78
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], *PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, ifsk.file_link_entry_information, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], PFILE_LINK_ENTRY_INFORMATION, _FILE_LINK_ENTRY_INFORMATION, ntifs/PFILE_LINK_ENTRY_INFORMATION
+ms.keywords: "*PFILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION, ntifs/FILE_LINK_ENTRY_INFORMATION, ntifs/PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], ifsk.file_link_entry_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_LINK_ENTRY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION
+req.typenames: "*PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION"
 ---
 
 # _FILE_LINK_ENTRY_INFORMATION structure

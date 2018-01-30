@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FCFCBF4C-CBAA-4284-A6F4-67630608CF19
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeTokenSetNoChildProcessRestricted, ntifs/SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted
+ms.keywords: SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted, ntifs/SeTokenSetNoChildProcessRestricted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeTokenSetNoChildProcessRestricted
 product: Windows
 targetos: Windows

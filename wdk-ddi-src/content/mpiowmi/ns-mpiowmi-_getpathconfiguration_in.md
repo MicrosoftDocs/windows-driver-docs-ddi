@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._GetPathConfiguration_IN
-title: _GetPathConfiguration_IN
+title: "_GetPathConfiguration_IN"
 author: windows-driver-content
 description: The GetPathConfiguration_IN structure is used to retrieve the per path device information.
 old-location: storage\getpathconfiguration_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 38396f75-6bcf-493e-9aab-661db59637ae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetPathConfiguration_IN, *PGetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, _GetPathConfiguration_IN, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml, PGetPathConfiguration_IN structure pointer [Storage Devices], GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], mpiowmi/GetPathConfiguration_IN, storage.getpathconfiguration_in
+ms.keywords: PGetPathConfiguration_IN, mpiowmi/GetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices], *PGetPathConfiguration_IN, GetPathConfiguration_IN, _GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], storage.getpathconfiguration_in, mpiowmi/PGetPathConfiguration_IN, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiowmi.h
-apiname: 
+apiname:
 -	GetPathConfiguration_IN
 product: Windows
 targetos: Windows
-req.typenames: *PGetPathConfiguration_IN, GetPathConfiguration_IN
+req.typenames: GetPathConfiguration_IN, *PGetPathConfiguration_IN
 ---
 
 # _GetPathConfiguration_IN structure

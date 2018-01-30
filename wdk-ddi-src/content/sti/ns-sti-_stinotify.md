@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STINOTIFY
-title: _STINOTIFY
+title: "_STINOTIFY"
 author: windows-driver-content
 description: The STINOTIFY structure is used as a parameter to the IStillImage::LaunchApplicationForDevice, IStiDevice::GetLastNotificationData, and IStiUSD::GetNotificationData methods.
 old-location: image\stinotify.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7dc42f9a-2e55-4ae5-a951-7d1d3b14564b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml, LPSTINOTIFY structure pointer [Imaging Devices], image.stinotify, sti/LPSTINOTIFY, STINOTIFY, LPSTINOTIFY, sti/STINOTIFY, _STINOTIFY, *LPSTINOTIFY, STINOTIFY structure [Imaging Devices]
+ms.keywords: sti/LPSTINOTIFY, *LPSTINOTIFY, stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml, _STINOTIFY, STINOTIFY, LPSTINOTIFY, STINOTIFY structure [Imaging Devices], LPSTINOTIFY structure pointer [Imaging Devices], sti/STINOTIFY, image.stinotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	STINOTIFY
 product: Windows
 targetos: Windows
-req.typenames: STINOTIFY, *LPSTINOTIFY
+req.typenames: "*LPSTINOTIFY, STINOTIFY"
 req.product: Windows 10 or later.
 ---
 

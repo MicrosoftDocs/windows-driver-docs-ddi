@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PIN_LIST
-title: _NDIS_WWAN_PIN_LIST
+title: "_NDIS_WWAN_PIN_LIST"
 author: windows-driver-content
 description: The NDIS_WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\ndis_wwan_pin_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1d3c1084-8f51-4c8a-813e-6700d60c3dab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_pin_list, PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, ndiswwan/PNDIS_WWAN_PIN_LIST, _NDIS_WWAN_PIN_LIST, ndiswwan/NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_LIST
+ms.keywords: WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_pin_list, ndiswwan/NDIS_WWAN_PIN_LIST, _NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_PIN_LIST
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST
+req.typenames: "*PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST"
 ---
 
 # _NDIS_WWAN_PIN_LIST structure

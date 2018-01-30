@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_FS_SECTOR_SIZE_INFORMATION
-title: _FILE_FS_SECTOR_SIZE_INFORMATION
+title: "_FILE_FS_SECTOR_SIZE_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_SECTOR_SIZE_INFORMATION structure is used to query physical and logical sector size information for a file system volume.
 old-location: ifsk\file_fs_sector_size_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], *PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_ALIGNED_DEVICE, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, _FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_NO_SEEK_PENALTY
+ms.keywords: FILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_fs_sector_size_information, PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], *PFILE_FS_SECTOR_SIZE_INFORMATION, _FILE_FS_SECTOR_SIZE_INFORMATION, SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_NO_SEEK_PENALTY, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	FILE_FS_SECTOR_SIZE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION
+req.typenames: FILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATION
 ---
 
 # _FILE_FS_SECTOR_SIZE_INFORMATION structure
@@ -183,17 +183,17 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
-
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+
+<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
  
 

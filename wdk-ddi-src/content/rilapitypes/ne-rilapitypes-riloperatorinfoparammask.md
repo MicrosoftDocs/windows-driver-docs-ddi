@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1366f37b-4785-4e36-9fc8-bfaef6f9e227
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riloperatorinfoparammask_2, RIL_PARAM_OI_STATUS, RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, rilapitypes/RIL_PARAM_OI_NAMES, rilapitypes/RIL_PARAM_OI_ALL, RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_OI_STATUS, rilapitypes/RILOPERATORINFOPARAMMASK
+ms.keywords: netvista.riloperatorinfoparammask_2, RIL_PARAM_OI_NAMES, rilapitypes/RIL_PARAM_OI_ALL, RIL_PARAM_OI_ALL, RIL_PARAM_OI_STATUS, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILOPERATORINFOPARAMMASK, rilapitypes/RIL_PARAM_OI_NAMES, rilapitypes/RILOPERATORINFOPARAMMASK, rilapitypes/RIL_PARAM_OI_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILOPERATORINFOPARAMMASK
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b56f71c3-3c24-4f6b-ba50-203e17374c81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilexecutorrfstate, *LPRILEXECUTORRFSTATE, RILEXECUTORRFSTATE, ntddrilapitypes/RILEXECUTORRFSTATE, RILEXECUTORRFSTATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RILEXECUTORRFSTATE, netvista.rilexecutorrfstate, *LPRILEXECUTORRFSTATE, RILEXECUTORRFSTATE, RILEXECUTORRFSTATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILEXECUTORRFSTATE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 622e09eb-37ae-403e-9d18-acf2e7761b43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_io_queue_ready, WDF_IO_QUEUE_READY function, WDF_IO_QUEUE_READY, wdfio/WDF_IO_QUEUE_READY, kmdf.wdf_io_queue_ready, DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml
+ms.keywords: wdf.wdf_io_queue_ready, WDF_IO_QUEUE_READY, WDF_IO_QUEUE_READY function, DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml, wdfio/WDF_IO_QUEUE_READY, kmdf.wdf_io_queue_ready
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_READY
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wu
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
 

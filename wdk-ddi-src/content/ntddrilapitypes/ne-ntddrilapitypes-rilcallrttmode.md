@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4e796d6-2eff-43f6-8afd-b74e3136deb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], RILCALLRTTMODE, RIL_RTTMODE_FULL, ntddrilapitypes/RIL_RTTMODE_MAX, RIL_RTTMODE_MAX, netvista.rilcallrttmode, ntddrilapitypes/RILCALLRTTMODE, ntddrilapitypes/RIL_RTTMODE_FULL
+ms.keywords: ntddrilapitypes/RIL_RTTMODE_MAX, RIL_RTTMODE_FULL, netvista.rilcallrttmode, ntddrilapitypes/RIL_RTTMODE_FULL, RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], RILCALLRTTMODE, RIL_RTTMODE_MAX, ntddrilapitypes/RILCALLRTTMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLRTTMODE
 product: Windows
 targetos: Windows

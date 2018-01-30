@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 421e6b72-a771-4b18-9776-0b5e8e7a1e29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0030, display.d3d12ddi-device-funcs-core-0030, D3D12DDI_DEVICE_FUNCS_CORE_0030 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_CORE_0030
+ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0030, D3D12DDI_DEVICE_FUNCS_CORE_0030 structure [Display Devices], display.d3d12ddi-device-funcs-core-0030, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

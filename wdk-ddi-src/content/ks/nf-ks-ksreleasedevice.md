@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 47692ac1-969a-4f6f-a2e1-008b82ac1429
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsReleaseDevice, avfunc_47876dbc-0dea-459f-96f7-81790d245745.xml, KsReleaseDevice, stream.ksreleasedevice, KsReleaseDevice function [Streaming Media Devices]
+ms.keywords: KsReleaseDevice, avfunc_47876dbc-0dea-459f-96f7-81790d245745.xml, KsReleaseDevice function [Streaming Media Devices], ks/KsReleaseDevice, stream.ksreleasedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsReleaseDevice
 product: Windows
 targetos: Windows

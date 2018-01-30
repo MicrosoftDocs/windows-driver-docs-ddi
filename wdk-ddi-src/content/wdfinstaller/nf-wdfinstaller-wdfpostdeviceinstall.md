@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, wdf.wdfpostdeviceinstall, WdfPostDeviceInstall function, wdfinstaller/WdfPostDeviceInstall, kmdf.wdfpostdeviceinstall, WdfPostDeviceInstall, PFN_WDFPOSTDEVICEINSTALL
+ms.keywords: wdf.wdfpostdeviceinstall, WdfPostDeviceInstall, DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, kmdf.wdfpostdeviceinstall, wdfinstaller/WdfPostDeviceInstall, PFN_WDFPOSTDEVICEINSTALL, WdfPostDeviceInstall function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	N/A
 -	N/A.dll
-apiname: 
+apiname:
 -	WdfPostDeviceInstall
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

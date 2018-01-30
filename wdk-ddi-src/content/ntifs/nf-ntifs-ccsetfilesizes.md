@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ntifs/CcSetFileSizes, ifsk.ccsetfilesizes, CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers]
+ms.keywords: ifsk.ccsetfilesizes, CcSetFileSizes, ntifs/CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcSetFileSizes
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 457d0bee-4746-424d-bd22-4e968048bdb9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallmediaaudioflags, RIL_CALLMEDIAAUDIOFLAG_ALL, RILCALLMEDIAAUDIOFLAGS, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, RILCALLMEDIAAUDIOFLAGS, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallmediaaudioflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIAAUDIOFLAGS
 product: Windows
 targetos: Windows

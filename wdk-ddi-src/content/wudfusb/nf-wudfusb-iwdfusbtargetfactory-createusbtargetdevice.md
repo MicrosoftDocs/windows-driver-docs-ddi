@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, umdf.iwdfusbtargetfactory_createusbtargetdevice, CreateUsbTargetDevice method, IWDFUsbTargetFactory, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, IWDFUsbTargetFactory::CreateUsbTargetDevice, CreateUsbTargetDevice
+ms.keywords: IWDFUsbTargetFactory, wdf.iwdfusbtargetfactory_createusbtargetdevice, IWDFUsbTargetFactory interface, CreateUsbTargetDevice method, umdf.iwdfusbtargetfactory_createusbtargetdevice, IWDFUsbTargetFactory::CreateUsbTargetDevice, CreateUsbTargetDevice method, CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, CreateUsbTargetDevice method, IWDFUsbTargetFactory interface, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetFactory.CreateUsbTargetDevice
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -135,15 +135,15 @@ If the file object that is associated with the created I/O target object is requ
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetfactory.md">IWDFUsbTargetFactory</a>
 
  
 

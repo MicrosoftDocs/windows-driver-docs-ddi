@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 55555e58-eaba-4c39-a771-9924da3fcfc4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: upssvc/UPSStop, UPSStop, UPS_fns_60f920b5-6225-4569-a60a-dfb1c6b2538c.xml, battery.upsstop, UPSStop function [Battery Devices]
+ms.keywords: upssvc/UPSStop, UPSStop, UPSStop function [Battery Devices], battery.upsstop, UPS_fns_60f920b5-6225-4569-a60a-dfb1c6b2538c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
+req.product: Windows 10 or later.
 ---
 
 # UPSStop function

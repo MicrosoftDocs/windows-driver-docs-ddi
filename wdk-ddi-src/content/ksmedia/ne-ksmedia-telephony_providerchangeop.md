@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A229E8D5-2776-453B-B0F9-BC48E9D29A2F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: TELEPHONY_PROVIDERCHANGEOP, ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], ksmedia/TELEPHONY_PROVIDERCHANGEOP_END, audio.telephony_providerchangeop, TELEPHONY_PROVIDERCHANGEOP_CANCEL, ksmedia/TELEPHONY_PROVIDERCHANGEOP, ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_END
+ms.keywords: TELEPHONY_PROVIDERCHANGEOP, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_CANCEL, ksmedia/TELEPHONY_PROVIDERCHANGEOP_END, audio.telephony_providerchangeop, ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP_END, ksmedia/TELEPHONY_PROVIDERCHANGEOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -86,9 +86,9 @@ Specifies that single-radio voice call continuity (SRVCC) is being canceled, and
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-telephony_callstate.md">TELEPHONY_CALLSTATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt169876">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
+
+<a href="..\ksmedia\ne-ksmedia-telephony_callstate.md">TELEPHONY_CALLSTATE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], ifsk.fsrtlaretherecurrentfilelocks, fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, FsRtlAreThereCurrentFileLocks
+ms.keywords: fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], ntifs/FsRtlAreThereCurrentFileLocks, ifsk.fsrtlaretherecurrentfilelocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlAreThereCurrentFileLocks
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ File systems and filter drivers often call <b>FsRtlAreThereCurrentFileLocks</b> 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
  
 

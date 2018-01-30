@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMergeAutomationTables, ks/KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], stream.ksmergeautomationtables, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml
+ms.keywords: stream.ksmergeautomationtables, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], ks/KsMergeAutomationTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsMergeAutomationTables
 product: Windows
 targetos: Windows
@@ -115,11 +115,11 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
 
  
 

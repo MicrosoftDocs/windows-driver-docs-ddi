@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0be95cee-c648-4905-9f4a-ea4e5fc794ed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_6bb11ae2-ceb1-4640-b59c-47b42496b819.xml, KeDeregisterBugCheckCallback, kernel.kederegisterbugcheckcallback, KeDeregisterBugCheckCallback routine [Kernel-Mode Driver Architecture], wdm/KeDeregisterBugCheckCallback
+ms.keywords: wdm/KeDeregisterBugCheckCallback, KeDeregisterBugCheckCallback, KeDeregisterBugCheckCallback routine [Kernel-Mode Driver Architecture], k105_6bb11ae2-ceb1-4640-b59c-47b42496b819.xml, kernel.kederegisterbugcheckcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeDeregisterBugCheckCallback
 product: Windows
 targetos: Windows

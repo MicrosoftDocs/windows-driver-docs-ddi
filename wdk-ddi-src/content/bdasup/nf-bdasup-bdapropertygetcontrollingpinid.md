@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3d4d4124-9c52-42f5-bc31-b924d9c15c36
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bdapropertygetcontrollingpinid, bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, BdaPropertyGetControllingPinId function [Streaming Media Devices], BdaPropertyGetControllingPinId, bdasup/BdaPropertyGetControllingPinId
+ms.keywords: stream.bdapropertygetcontrollingpinid, BdaPropertyGetControllingPinId, bdasup/BdaPropertyGetControllingPinId, bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, BdaPropertyGetControllingPinId function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaPropertyGetControllingPinId
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 ## -see-also
 
+<a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564303">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
-
-<a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/ZwLockFile, k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, NtLockFile, ntifs/NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntifs/NtLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, ntifs/ZwLockFile, NtLockFile, kernel.zwlockfile, ZwLockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwLockFile
 -	NtLockFile
 product: Windows
@@ -172,9 +172,9 @@ Callers of <b>ZwLockFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwunlockfile.md">ZwUnlockFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\ntifs\nf-ntifs-zwunlockfile.md">ZwUnlockFile</a>
 
  
 

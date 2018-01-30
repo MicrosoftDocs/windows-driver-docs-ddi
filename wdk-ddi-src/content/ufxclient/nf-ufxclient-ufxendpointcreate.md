@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxEndpointCreate method [Buses], ufxclient/UfxEndpointCreate, buses.ufxendpointcreate, UfxEndpointCreate
+ms.keywords: UfxEndpointCreate, UfxEndpointCreate method [Buses], buses.ufxendpointcreate, ufxclient/UfxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxEndpointCreate
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

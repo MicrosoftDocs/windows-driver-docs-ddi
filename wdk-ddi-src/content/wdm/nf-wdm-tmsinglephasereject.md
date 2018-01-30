@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8fc92d51-40be-439b-abee-54ad19a86a89
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmSinglePhaseReject, kernel.tmsinglephasereject, wdm/TmSinglePhaseReject, ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture]
+ms.keywords: TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, TmSinglePhaseReject, wdm/TmSinglePhaseReject, kernel.tmsinglephasereject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmSinglePhaseReject
 product: Windows
 targetos: Windows
@@ -118,17 +118,17 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-zwsinglephasereject.md">ZwSinglePhaseReject</a>
-
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwsinglephasereject.md">ZwSinglePhaseReject</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
  
 

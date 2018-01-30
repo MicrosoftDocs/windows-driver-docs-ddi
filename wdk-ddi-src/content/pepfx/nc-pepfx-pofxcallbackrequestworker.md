@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	RequestWorker
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
+req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
 ---
 
 # POFXCALLBACKREQUESTWORKER callback

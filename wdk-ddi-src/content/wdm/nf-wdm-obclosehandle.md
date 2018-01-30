@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	ObCloseHandle
 product: Windows
 targetos: Windows
@@ -161,9 +161,9 @@ NTSTATUS
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
  
 

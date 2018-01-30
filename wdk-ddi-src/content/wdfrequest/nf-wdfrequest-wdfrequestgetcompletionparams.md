@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 167bb0f3-a484-443b-8bc4-bb2bbcecc19a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams, WdfRequestGetCompletionParams, DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, WdfRequestGetCompletionParams method, PFN_WDFREQUESTGETCOMPLETIONPARAMS, kmdf.wdfrequestgetcompletionparams
+ms.keywords: DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, kmdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams, PFN_WDFREQUESTGETCOMPLETIONPARAMS, WdfRequestGetCompletionParams method, wdf.wdfrequestgetcompletionparams, WdfRequestGetCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestGetCompletionParams
 product: Windows
 targetos: Windows
@@ -114,11 +114,11 @@ For more information about <b>WdfRequestGetCompletionParams</b>, see <a href="ht
 
 ## -see-also
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
  
 

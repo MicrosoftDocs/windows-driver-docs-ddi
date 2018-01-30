@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 47726715-306c-4167-8080-65085d1e7f8f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO, rilapitypes/RILCARDAPPADDEDPARAMMASK, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, RIL_PARAM_CARDAPPADDED_ALL, netvista.rilcardappaddedparammask_2, rilapitypes/RIL_PARAM_CARDAPPADDED_ALL, RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RILCARDAPPADDEDPARAMMASK, rilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCARDAPPADDEDPARAMMASK, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask_2, rilapitypes/RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCARDAPPADDEDPARAMMASK
 product: Windows
 targetos: Windows

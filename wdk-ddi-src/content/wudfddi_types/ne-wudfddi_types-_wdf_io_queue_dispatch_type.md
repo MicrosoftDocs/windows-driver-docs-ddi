@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_QUEUE_DISPATCH_TYPE
-title: _WDF_IO_QUEUE_DISPATCH_TYPE
+title: "_WDF_IO_QUEUE_DISPATCH_TYPE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration contains values that identify how a driver must receive requests from an I/O queue.
 old-location: wdf\wdf_io_queue_dispatch_type_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40f4cd91-ba84-426c-b248-6027d1e8d1a4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfIoQueueDispatchParallel, wudfddi_types/WdfIoQueueDispatchMaximum, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, wudfddi_types/WdfIoQueueDispatchSequential, umdf.wdf_io_queue_dispatch_type, _WDF_IO_QUEUE_DISPATCH_TYPE, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WdfIoQueueDispatchManual, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchParallel, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, WdfIoQueueDispatchManual, WdfIoQueueDispatchSequential, WdfIoQueueDispatchMaximum
+ms.keywords: WdfIoQueueDispatchManual, WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchSequential, wudfddi_types/WdfIoQueueDispatchParallel, WdfIoQueueDispatchParallel, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, _WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchSequential, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WdfIoQueueDispatchManual, WdfIoQueueDispatchMaximum, wudfddi_types/WdfIoQueueDispatchMaximum, umdf.wdf_io_queue_dispatch_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_DISPATCH_TYPE
 product: Windows
 targetos: Windows

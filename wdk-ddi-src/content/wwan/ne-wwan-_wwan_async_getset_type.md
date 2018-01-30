@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ASYNC_GETSET_TYPE
-title: _WWAN_ASYNC_GETSET_TYPE
+title: "_WWAN_ASYNC_GETSET_TYPE"
 author: windows-driver-content
 description: The WWAN_ASYNC_GETSET_TYPE enumeration lists the different asynchronous OID get/set requests.
 old-location: netvista\wwan_async_getset_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2FECDA17-7B38-4636-AFAF-D923AECFAF68
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanAsyncGetDeviceServices, wwan/WwanAsyncSmsDelete, WWAN_ASYNC_GETSET_TYPE_MAX, WwanAsyncGetDeviceServices, netvista.wwan_async_getset_type, WwanAsyncGetDeviceCaps, wwan/WwanAsyncGetSmsConfiguration, WwanAsyncSetDeviceServiceCommand, WwanAsyncGetVisibleProviders, wwan/WwanAsyncGetPacketService, *PWWAN_ASYNC_GETSET_TYPE, WwanAsyncGetConnect, WwanAsyncSetProvisionedContext, WwanAsyncGetPreferredProviders, WwanAsyncSetSignalState, wwan/WwanAsyncSetPinEx, wwan/WwanAsyncGetConnect, WwanAsyncSmsSend, WwanAsyncGetReadyInfo, WwanAsyncUssdRequest, wwan/WwanAsyncGetHomeProvider, WwanAsyncGetProvisionedContexts, wwan/WwanAsyncSetPin, _WWAN_ASYNC_GETSET_TYPE, wwan/WwanAsyncSmsSend, wwan/WwanAsyncGetProvisionedContexts, wwan/WwanAsyncSetProfileIndex, WwanAsyncSetPacketService, WWAN_ASYNC_GETSET_TYPE, wwan/WwanAsyncGetPinList, WwanAsyncSetConnect, WwanAsyncSmsRead, WwanAsyncSetProfileIndex, WwanAsyncSetRegisterState, wwan/WwanAsyncSetPacketService, wwan/WwanAsyncGetRegisterState, WwanAsyncSubscribeDeviceServiceEvents, wwan/WwanAsyncSetSmsConfiguration, WwanAsyncAuthChallenge, wwan/WwanAsyncGetDeviceServiceCommand get request., WwanAsyncGetPacketService, WwanAsyncSetPin, WwanAsyncGetSmsConfiguration, wwan/WwanAsyncSetRadioState, wwan/WwanAsyncSetConnect, WWAN_ASYNC_GETSET_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanAsyncGetRadioState, WwanAsyncGetHomeProvider, wwan/WwanAsyncUssdRequest, wwan/WwanAsyncGetPinEx get request., WwanAsyncSetPreferredProviders, wwan/WwanAsyncGetRadioState, WwanAsyncSmsStatus, wwan/WwanAsyncSetRegisterState, wwan/WwanAsyncSubscribeDeviceServiceEvents, WwanAsyncSmsDelete, wwan/WwanAsyncSetSignalState, wwan/WwanAsyncSetHomeProvider, wwan/WwanAsyncSetVendorSpecific, wwan/WwanAsyncSetProvisionedContext, WwanAsyncGetRegisterState, wwan/WwanAsyncGetDeviceCaps, wwan/WwanAsyncSetServiceActivation, WwanAsyncGetSignalState, WwanAsyncGetPin, WwanAsyncGetPinList, WwanAsyncGetDeviceServiceCommand get request., wwan/WwanAsyncGetPreferredProviders, wwan/WWAN_ASYNC_GETSET_TYPE_MAX, WwanAsyncSetPinEx, WwanAsyncGetPinEx get request., WwanAsyncSetVendorSpecific, wwan/WwanAsyncSmsStatus, wwan/WwanAsyncSetPreferredProviders, WwanAsyncSetRadioState, WwanAsyncSetHomeProvider, wwan/WwanAsyncAuthChallenge, wwan/WwanAsyncSetDeviceServiceCommand, wwan/WwanAsyncSmsRead, wwan/WwanAsyncGetReadyInfo, wwan/WwanAsyncGetSignalState, wwan/WwanAsyncGetVisibleProviders, WwanAsyncSetSmsConfiguration, WwanAsyncSetServiceActivation, wwan/WwanAsyncGetPin, wwan/WWAN_ASYNC_GETSET_TYPE
+ms.keywords: wwan/WwanAsyncSetPreferredProviders, WwanAsyncSetHomeProvider, WwanAsyncGetDeviceServices, wwan/WwanAsyncSetHomeProvider, WwanAsyncGetSignalState, WwanAsyncSetPacketService, WwanAsyncSetProfileIndex, WwanAsyncUssdRequest, WwanAsyncSetSignalState, wwan/WwanAsyncSetProvisionedContext, WwanAsyncSmsRead, WwanAsyncGetReadyInfo, wwan/WwanAsyncGetPinList, WwanAsyncSubscribeDeviceServiceEvents, wwan/WwanAsyncSetPacketService, WwanAsyncSmsSend, wwan/WwanAsyncSetPinEx, WwanAsyncGetPinList, WwanAsyncGetPreferredProviders, WWAN_ASYNC_GETSET_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanAsyncGetReadyInfo, wwan/WwanAsyncGetProvisionedContexts, WwanAsyncGetDeviceCaps, wwan/WwanAsyncGetPinEx get request., WwanAsyncSetRegisterState, wwan/WwanAsyncGetPreferredProviders, wwan/WwanAsyncGetConnect, WwanAsyncSetVendorSpecific, wwan/WwanAsyncSetRegisterState, wwan/WwanAsyncSetSignalState, wwan/WwanAsyncSetServiceActivation, wwan/WwanAsyncGetVisibleProviders, _WWAN_ASYNC_GETSET_TYPE, WwanAsyncGetVisibleProviders, WWAN_ASYNC_GETSET_TYPE, wwan/WwanAsyncGetSignalState, WwanAsyncSetPin, WwanAsyncGetDeviceServiceCommand get request., wwan/WwanAsyncGetRadioState, WwanAsyncSetProvisionedContext, WwanAsyncSetRadioState, wwan/WwanAsyncGetRegisterState, wwan/WwanAsyncSetProfileIndex, wwan/WwanAsyncUssdRequest, WwanAsyncSetPreferredProviders, wwan/WwanAsyncGetDeviceCaps, WwanAsyncGetConnect, WwanAsyncGetRegisterState, wwan/WwanAsyncSetConnect, WwanAsyncSmsStatus, wwan/WwanAsyncSetDeviceServiceCommand, WwanAsyncSetDeviceServiceCommand, netvista.wwan_async_getset_type, wwan/WwanAsyncSmsSend, wwan/WwanAsyncGetDeviceServiceCommand get request., wwan/WwanAsyncGetPacketService, wwan/WwanAsyncSetPin, wwan/WwanAsyncSetVendorSpecific, WwanAsyncGetPin, WwanAsyncAuthChallenge, *PWWAN_ASYNC_GETSET_TYPE, wwan/WwanAsyncSetRadioState, wwan/WwanAsyncGetDeviceServices, wwan/WwanAsyncSmsStatus, WwanAsyncGetProvisionedContexts, wwan/WWAN_ASYNC_GETSET_TYPE_MAX, wwan/WwanAsyncSmsRead, wwan/WwanAsyncAuthChallenge, WwanAsyncGetSmsConfiguration, wwan/WwanAsyncGetPin, WwanAsyncGetPacketService, wwan/WwanAsyncSmsDelete, WwanAsyncSetPinEx, wwan/WwanAsyncSetSmsConfiguration, WwanAsyncSmsDelete, WwanAsyncGetHomeProvider, WwanAsyncSetConnect, wwan/WwanAsyncGetHomeProvider, wwan/WWAN_ASYNC_GETSET_TYPE, WwanAsyncGetPinEx get request., WwanAsyncGetRadioState, WwanAsyncSetServiceActivation, WwanAsyncSetSmsConfiguration, wwan/WwanAsyncSubscribeDeviceServiceEvents, wwan/WwanAsyncGetSmsConfiguration, WWAN_ASYNC_GETSET_TYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_ASYNC_GETSET_TYPE
 product: Windows
 targetos: Windows

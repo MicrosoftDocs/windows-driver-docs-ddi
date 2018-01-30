@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin
 -	IKsPin.KsReceiveAllocator
 -	IKsPin.KsRenegotiateAllocator

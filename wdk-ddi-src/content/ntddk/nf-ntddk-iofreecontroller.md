@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a9b0ca27-dc46-4f9b-a3f9-51bbd759afc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iofreecontroller, IoFreeController, k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, IoFreeController routine [Kernel-Mode Driver Architecture], ntddk/IoFreeController
+ms.keywords: IoFreeController, k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, IoFreeController routine [Kernel-Mode Driver Architecture], kernel.iofreecontroller, ntddk/IoFreeController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoFreeController
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoFreeController function

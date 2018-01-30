@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap, ntifs/CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ifsk.ccinitializecachemap
+ms.keywords: ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap routine [Installable File System Drivers], CcInitializeCacheMap, ntifs/CcInitializeCacheMap, ifsk.ccinitializecachemap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcInitializeCacheMap
 product: Windows
 targetos: Windows

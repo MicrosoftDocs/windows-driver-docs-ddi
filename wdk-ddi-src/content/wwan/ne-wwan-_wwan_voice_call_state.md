@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_VOICE_CALL_STATE
-title: _WWAN_VOICE_CALL_STATE
+title: "_WWAN_VOICE_CALL_STATE"
 author: windows-driver-content
 description: The WWAN_VOICE_CALL_STATE enumeration lists the different voice call states that are supported by the MB device.
 old-location: netvista\wwan_voice_call_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50b85fc0-b84a-4c1d-9d7b-4b91150f8e76
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanVoiceCallStateHangUp, WwanVoiceCallStateInProgress, _WWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, netvista.wwan_voice_call_state, wwan/WwanVoiceCallStateInProgress, wwan/PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanVoiceCallStateHangUp, WwanVoiceCallStateNone, PWWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE, wwan/WWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateNone, WwanVoiceCallStateMaximum, wwan/WwanVoiceCallStateMaximum, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, wwan/PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateInProgress, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, wwan/WwanVoiceCallStateNone, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanVoiceCallStateMaximum, wwan/WWAN_VOICE_CALL_STATE, WwanVoiceCallStateHangUp, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateHangUp, WwanVoiceCallStateNone, WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_VOICE_CALL_STATE
 product: Windows
 targetos: Windows

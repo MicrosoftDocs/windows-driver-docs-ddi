@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3f95caad-92e5-4d0f-bd9e-8873b05f2aaa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestretrieveoutputwdmmdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL, wdf.wdfrequestretrieveoutputwdmmdl, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl method, wdfrequest/WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl
+ms.keywords: wdf.wdfrequestretrieveoutputwdmmdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL, kmdf.wdfrequestretrieveoutputwdmmdl, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, wdfrequest/WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfRequestRetrieveOutputWdmMdl
 product: Windows
 targetos: Windows

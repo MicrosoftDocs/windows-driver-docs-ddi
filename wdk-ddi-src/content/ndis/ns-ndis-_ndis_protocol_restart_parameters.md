@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_RESTART_PARAMETERS
-title: _NDIS_PROTOCOL_RESTART_PARAMETERS
+title: "_NDIS_PROTOCOL_RESTART_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_PROTOCOL_RESTART_PARAMETERS structure defines restart parameters for a protocol driver when NDIS calls the ProtocolNetPnPEvent function to indicate a NetEventRestart event.
 old-location: netvista\ndis_protocol_restart_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 722287da-e0ee-41d5-b85a-0ec55eac41b9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: protocol_structures_ref_1a426da7-b2f9-49b0-9069-24ceddcd8ad1.xml, ndis/NDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_RESTART_PARAMETERS, netvista.ndis_protocol_restart_parameters, PNDIS_PROTOCOL_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_RESTART_PARAMETERS, ndis/PNDIS_PROTOCOL_RESTART_PARAMETERS, _NDIS_PROTOCOL_RESTART_PARAMETERS
+ms.keywords: netvista.ndis_protocol_restart_parameters, _NDIS_PROTOCOL_RESTART_PARAMETERS, ndis/PNDIS_PROTOCOL_RESTART_PARAMETERS, ndis/NDIS_PROTOCOL_RESTART_PARAMETERS, *PNDIS_PROTOCOL_RESTART_PARAMETERS, protocol_structures_ref_1a426da7-b2f9-49b0-9069-24ceddcd8ad1.xml, NDIS_PROTOCOL_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_RESTART_PARAMETERS, PNDIS_PROTOCOL_RESTART_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_PROTOCOL_RESTART_PARAMETERS
 product: Windows
 targetos: Windows
@@ -154,11 +154,11 @@ Each name that is specified in the buffer in the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
 <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
  
 

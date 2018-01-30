@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e5c87c1c-8195-4476-84bc-5f18ad83d149
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_breakpoint_parameters, DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml, _DEBUG_BREAKPOINT_PARAMETERS, *PDEBUG_BREAKPOINT_PARAMETERS
+ms.keywords: DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml, debugger.debug_breakpoint_parameters, _DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], *PDEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

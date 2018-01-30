@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E536B66D-EAF2-4377-8452-7D37A277E7C8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSetPointer, VmbChannelSetPointer, netvista.vmbchannelsetpointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelSetPointer, vmbuskernelmodeclientlibapi/VmbChannelSetPointer, netvista.vmbchannelsetpointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelSetPointer
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_DS_INFO
-title: _WDI_DS_INFO
+title: "_WDI_DS_INFO"
 author: windows-driver-content
 description: The WDI_DS_INFO enumeration defines values that specify whether the port is connected to the same DS that it was previously associated to.
 old-location: netvista\wdi_ds_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4375FF5C-8772-43AB-844B-4AD5E044AF55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_DS_INFO enumeration [Device and Driver Installation], WDI_DS_CHANGED, wditypes/WDI_DS_UNCHANGED, netvista.wifi_ds_info, wditypes/WDI_DS_INFO, WDI_DS_INFO, wditypes/WDI_DS_CHANGED, wditypes/WDI_DS_UNKNOWN, _WDI_DS_INFO, WDI_DS_UNCHANGED, netvista.wdi_ds_info, WDI_DS_UNKNOWN
+ms.keywords: WDI_DS_INFO, WDI_DS_UNCHANGED, netvista.wdi_ds_info, wditypes/WDI_DS_CHANGED, wditypes/WDI_DS_UNKNOWN, wditypes/WDI_DS_UNCHANGED, WDI_DS_CHANGED, _WDI_DS_INFO, WDI_DS_INFO enumeration [Device and Driver Installation], netvista.wifi_ds_info, WDI_DS_UNKNOWN, wditypes/WDI_DS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_DS_INFO
 product: Windows
 targetos: Windows

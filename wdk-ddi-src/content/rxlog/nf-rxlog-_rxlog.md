@@ -1,14 +1,14 @@
 ---
 UID: NF:rxlog._RxLog
-title: _RxLog function
+title: "_RxLog function"
 author: windows-driver-content
-description: _RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled.
+description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
 old-location: ifsk\_rxlog.htm
 old-project: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml, ifsk._rxlog, _RxLog function [Installable File System Drivers], _RxLog, rxlog/_RxLog
+ms.keywords: rxlog/_RxLog, _RxLog, ifsk._rxlog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml, _RxLog function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxlog.h
-apiname: 
+apiname:
 -	_RxLog
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -118,11 +118,11 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
-
 <a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
 
  
 

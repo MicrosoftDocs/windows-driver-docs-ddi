@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DownloadFontHeader method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::DownloadFontHeader, IPrintOemUni interface [Print Devices], DownloadFontHeader method, print.iprintoemuni_downloadfontheader, IPrintOemUni, IPrintOemUni::DownloadFontHeader, DownloadFontHeader method [Print Devices], DownloadFontHeader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
+ms.keywords: print.iprintoemuni_downloadfontheader, DownloadFontHeader method [Print Devices], prcomoem/IPrintOemUni::DownloadFontHeader, IPrintOemUni::DownloadFontHeader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml, IPrintOemUni interface [Print Devices], DownloadFontHeader method, DownloadFontHeader method [Print Devices], IPrintOemUni interface, IPrintOemUni, DownloadFontHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.DownloadFontHeader
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

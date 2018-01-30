@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87289ea8-f727-428d-93a1-2d3b0ab44e8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, VideoPortAllocateBuffer function [Display Devices], display.videoportallocatebuffer, VideoPortAllocateBuffer, video/VideoPortAllocateBuffer
+ms.keywords: VideoPortAllocateBuffer function [Display Devices], video/VideoPortAllocateBuffer, VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, display.videoportallocatebuffer, VideoPortAllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortAllocateBuffer function

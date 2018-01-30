@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksaudiomodule_property, PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, _KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], ksmedia/KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices]
+ms.keywords: audio.ksaudiomodule_property, PKSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], _KSAUDIOMODULE_PROPERTY, ksmedia/KSAUDIOMODULE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

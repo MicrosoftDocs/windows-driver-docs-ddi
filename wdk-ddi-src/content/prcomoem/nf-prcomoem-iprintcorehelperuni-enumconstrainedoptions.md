@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 362d858a-5087-4cd2-8778-e6564297bc8f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelperUni interface [Print Devices], EnumConstrainedOptions method, print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml, EnumConstrainedOptions, IPrintCoreHelperUni, prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::EnumConstrainedOptions, print.iprintcorehelperuni_enumconstrainedoptions, EnumConstrainedOptions method [Print Devices]
+ms.keywords: print.iprintcorehelperuni_enumconstrainedoptions, IPrintCoreHelperUni interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions method [Print Devices], prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, IPrintCoreHelperUni, IPrintCoreHelperUni::EnumConstrainedOptions, EnumConstrainedOptions, print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml, EnumConstrainedOptions method [Print Devices], IPrintCoreHelperUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperUni.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

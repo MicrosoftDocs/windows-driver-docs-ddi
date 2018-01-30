@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring, ndis/NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], NdisEqualUnicodeString
+ms.keywords: netvista.ndisequalunicodestring, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, ndis/NdisEqualUnicodeString, NdisEqualUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisEqualUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisEqualUnicodeString macro
@@ -88,6 +88,11 @@ TBD
 
 
 
+#### - String1 [in]
+
+A pointer to an NDIS_STRING type that describes the first Unicode string.
+
+
 #### - String2 [in]
 
 A pointer to an NDIS_STRING type that describes the second Unicode string.
@@ -97,11 +102,6 @@ A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 A Boolean value that is <b>TRUE</b>, if case should be ignored when doing the comparison. Otherwise, it
      is <b>FALSE</b>.
-
-
-#### - String1 [in]
-
-A pointer to an NDIS_STRING type that describes the first Unicode string.
 
 
 ## -remarks

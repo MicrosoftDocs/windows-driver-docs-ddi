@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetDeviceBase function [Display Devices], display.videoportgetdevicebase, VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, VideoPortGetDeviceBase, video/VideoPortGetDeviceBase
+ms.keywords: VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, video/VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], display.videoportgetdevicebase, VideoPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortGetDeviceBase function
@@ -172,7 +173,7 @@ The driver must not access addresses that are outside the range delimited by <i>
 </li>
 </ul><b>VideoPortGetDeviceBase</b> and <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a> can both be called by the video miniport driver to map video memory into a virtual address space. If you call both of these functions to map the same physical addresses, or if you call one of the functions more than once to map the same physical addresses, you might have more than one virtual-address range that maps to the same physical-address range. In that case, you must set the VIDEO_MEMORY_SPACE_P6CACHE flag of the <i>InIoSpace</i> parameter to the same value in all of those calls.
 
-Every universal memory architecture (UMA) display device uses a frame buffer that is located in main memory rather than on a PCI bus. In this case, do not call <b>VideoPortMapMemory</b> to map the frame buffer. To map a UMA frame buffer into system space, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554618">MmMapIoSpace</a>.
+Every universal memory architecture (UMA) display device uses a frame buffer that is located in main memory rather than on a PCI bus. In this case, do not call <b>VideoPortMapMemory</b> to map the frame buffer. To map a UMA frame buffer into system space, call <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>.
 
 If a miniport driver does not support an adapter that it has mapped a logical range for, it must perform two steps before it returns control to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function: call <a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a> to unmap the previously mapped range from system space, and call <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a> or <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a> to release its claims on the range in the registry. 
 
@@ -180,29 +181,29 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+<a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
 
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
 
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
-<a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
  
 

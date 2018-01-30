@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_PVLAN_MODE
-title: _NDIS_SWITCH_PORT_PVLAN_MODE
+title: "_NDIS_SWITCH_PORT_PVLAN_MODE"
 author: windows-driver-content
 description: The NDIS_SWITCH_PORT_PVLAN_MODE enumeration specifies the operation mode of a private virtual local area network (PVLAN) policy property. This property is specified for a port on the Hyper-V extensible switch.
 old-location: netvista\ndis_switch_port_pvlan_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8B07B225-D612-47D2-B93C-7F9E3A23ACE1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisSwitchPortPvlanModeIsolated, ntddndis/NdisSwitchPortPvlanModePromiscuous, NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PVLAN_MODE, _NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeUndefined, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModePromiscuous, *PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeUndefined, netvista.ndis_switch_port_pvlan_mode, NdisSwitchPortPvlanModeIsolated, NdisSwitchPortPvlanModeCommunity, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeCommunity
+ms.keywords: NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPvlanModePromiscuous, ntddndis/NdisSwitchPortPvlanModeUndefined, netvista.ndis_switch_port_pvlan_mode, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModeIsolated, NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeIsolated, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PVLAN_MODE, _NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeCommunity, *PNDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_PORT_PVLAN_MODE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_PORT_PVLAN_MODE, *PNDIS_SWITCH_PORT_PVLAN_MODE
+req.typenames: "*PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE"
 ---
 
 # _NDIS_SWITCH_PORT_PVLAN_MODE enumeration
@@ -108,9 +108,9 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 <b></b>
 

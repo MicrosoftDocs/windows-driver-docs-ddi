@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F40C5DBB-8E52-471E-B010-A5EDFACDF773
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrMult, RtlIntPtrMult, kernel.rtlintptrmult
+ms.keywords: ntintsafe/RtlIntPtrMult, kernel.rtlintptrmult, RtlIntPtrMult, RtlIntPtrMult function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlIntPtrMult
 product: Windows
 targetos: Windows

@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisResetEvent
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisResetEvent function
@@ -100,11 +100,11 @@ When an event is set to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
 <a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
  
 

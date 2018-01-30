@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netioddk.h
-apiname: 
+apiname:
 -	PNPI_PROVIDER_ATTACH_CLIENT_FN
 product: Windows
 targetos: Windows
@@ -126,14 +126,14 @@ A pointer to the client module's context for the binding between the client modu
 
 
 
-#### - ProviderDispatch [out]
+#### - ClientDispatch [in]
 
-A pointer to a variable into which the provider module will store a pointer to a constant
-     structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
-     module. The provider module must make sure that this structure remains valid and resident in memory as
-     long as the client module is attached to the provider module. The contents of the structure are 
-     NPI-specific.
+A pointer to a constant structure that contains the dispatch table of 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
+     client module. The contents of the structure are 
+     NPI-specific. If the 
+     NPI does not define a client
+     dispatch table structure, then this pointer is <b>NULL</b>.
 
 
 #### - ProviderBindingContext [out]
@@ -148,14 +148,14 @@ A pointer to a variable into which the provider module will store a pointer to i
      and resident in memory as long as the client module is attached to the provider module.
 
 
-#### - ClientDispatch [in]
+#### - ProviderDispatch [out]
 
-A pointer to a constant structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
-     client module. The contents of the structure are 
-     NPI-specific. If the 
-     NPI does not define a client
-     dispatch table structure, then this pointer is <b>NULL</b>.
+A pointer to a variable into which the provider module will store a pointer to a constant
+     structure that contains the dispatch table of 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
+     module. The provider module must make sure that this structure remains valid and resident in memory as
+     long as the client module is attached to the provider module. The contents of the structure are 
+     NPI-specific.
 
 
 ## -returns
@@ -257,21 +257,21 @@ The NMR calls a provider module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
 
-<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
-   ProviderCleanupBindingContext</i></mshelp:link>
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
 <mshelp:link keywords="netvista.nmrproviderdetachclientcomplete" tabindex="0"><b>
    NmrProviderDetachClientComplete</b></mshelp:link>
 
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
+<mshelp:link keywords="netvista.providercleanupbindingcontext" tabindex="0"><i>
+   ProviderCleanupBindingContext</i></mshelp:link>
 
  
 

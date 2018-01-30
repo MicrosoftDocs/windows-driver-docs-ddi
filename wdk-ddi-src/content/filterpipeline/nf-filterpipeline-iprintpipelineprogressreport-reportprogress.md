@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 989e8888-3494-4355-a41f-2ed774a060d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintPipelineProgressReport interface [Print Devices], ReportProgress method, ReportProgress, ReportProgress method [Print Devices], IPrintPipelineProgressReport interface, print.iprintpipelineprogressreport_reportprogress, ReportProgress method [Print Devices], IPrintPipelineProgressReport::ReportProgress, filterpipeline/IPrintPipelineProgressReport::ReportProgress, IPrintPipelineProgressReport, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml
+ms.keywords: filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, filterpipeline/IPrintPipelineProgressReport::ReportProgress, IPrintPipelineProgressReport interface [Print Devices], ReportProgress method, IPrintPipelineProgressReport::ReportProgress, print.iprintpipelineprogressreport_reportprogress, IPrintPipelineProgressReport, ReportProgress method [Print Devices], ReportProgress method [Print Devices], IPrintPipelineProgressReport interface, ReportProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintPipelineProgressReport.ReportProgress
 product: Windows
 targetos: Windows

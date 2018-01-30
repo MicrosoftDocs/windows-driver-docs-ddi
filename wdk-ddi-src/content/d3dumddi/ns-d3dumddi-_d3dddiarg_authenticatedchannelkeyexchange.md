@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 99a86339-62ce-48fd-a1f4-5c3061e624b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, UMDisplayDriver_param_Structs_2b02df7d-1bae-446f-b52a-0a9353114504.xml, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, display.d3dddiarg_authenticatedchannelkeyexchange, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure [Display Devices]
+ms.keywords: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_2b02df7d-1bae-446f-b52a-0a9353114504.xml, display.d3dddiarg_authenticatedchannelkeyexchange, d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange.md">AuthenticatedChannelKeyExchange</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange.md">AuthenticatedChannelKeyExchange</a>
 
  
 

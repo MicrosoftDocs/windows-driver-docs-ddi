@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbPrintfW, RtlStringCbPrintfA, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, RtlStringCbPrintf, ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
+ms.keywords: RtlStringCbPrintfW, ntstrsafe/RtlStringCbPrintfW, kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfA, RtlStringCbPrintf, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCbPrintfW
 -	RtlStringCbPrintfA
 -	RtlStringCbPrintfW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbPrintfW function

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnioctl._USBFN_POWER_FILTER_STATE
-title: _USBFN_POWER_FILTER_STATE
+title: "_USBFN_POWER_FILTER_STATE"
 author: windows-driver-content
 description: Reserved. Do not use.
 old-location: buses\usbfn_power_filter_state.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses]
+ms.keywords: PUSBFN_POWER_FILTER_STATE structure pointer [Buses], USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE, _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, usbfnioctl/USBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnioctl.h
-apiname: 
+apiname:
 -	USBFN_POWER_FILTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE
+req.typenames: USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -89,9 +89,9 @@ Describes the USB device states for the device/controller.  These states corresp
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
-
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
+
+<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
 
  
 

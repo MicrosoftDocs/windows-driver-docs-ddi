@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeToNPagedLookasideList, ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFreeToNPagedLookasideList, netvista.ndisfreetonpagedlookasidelist, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, ndis/NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisFreeToNPagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeToNPagedLookasideList macro
@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - Entry [in]
-
-A pointer to the entry to be freed.
-
-
 #### - Lookaside [in]
 
 A pointer to the head of the lookaside list to which the entry will be returned.
+
+
+#### - Entry [in]
+
+A pointer to the entry to be freed.
 
 
 ## -remarks
@@ -107,14 +107,14 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
-   NdisDeleteNPagedLookasideList</b></mshelp:link>
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
    NdisInitializeNPagedLookasideList</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+<mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
+   NdisDeleteNPagedLookasideList</b></mshelp:link>
 
  
 

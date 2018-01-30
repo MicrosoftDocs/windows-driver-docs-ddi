@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4f7aff9b-32cf-42a0-ba3b-ddc87ecdb8c3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, IPrintOemDriverUni, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, DrvWriteAbortBuf, print.iprintoemdriveruni_drvwriteabortbuf
+ms.keywords: DrvWriteAbortBuf method [Print Devices], prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, print.iprintoemdriveruni_drvwriteabortbuf, IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvWriteAbortBuf
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

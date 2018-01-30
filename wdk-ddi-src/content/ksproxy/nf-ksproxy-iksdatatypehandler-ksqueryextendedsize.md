@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, KsQueryExtendedSize, stream.iksdatatypehandler_ksqueryextendedsize, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface
+ms.keywords: KsQueryExtendedSize method [Streaming Media Devices], KsQueryExtendedSize, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler::KsQueryExtendedSize, stream.iksdatatypehandler_ksqueryextendedsize, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsDataTypeHandler.KsQueryExtendedSize
 product: Windows
 targetos: Windows

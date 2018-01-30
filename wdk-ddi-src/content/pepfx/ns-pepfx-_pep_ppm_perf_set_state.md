@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PERF_SET_STATE
-title: _PEP_PPM_PERF_SET_STATE
+title: "_PEP_PPM_PERF_SET_STATE"
 author: windows-driver-content
 description: Used in the PEP_NOTIFY_PPM_PERF_SET notification at runtime to set the current operating performance of the processor.  .
 old-location: kernel\pep_ppm_perf_set_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0d822370-f08b-404d-ad0f-60ea091661d9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_perf_set_state, PPEP_PPM_PERF_SET_STATE, _PEP_PPM_PERF_SET_STATE, pepfx/PEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], PEP_PPM_PERF_SET_STATE
+ms.keywords: PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_SET_STATE, pepfx/PEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE, _PEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_perf_set_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_PERF_SET_STATE
 product: Windows
 targetos: Windows

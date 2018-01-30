@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateShaderResourceViewSize_d3d10_1_
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback

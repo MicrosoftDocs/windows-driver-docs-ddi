@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Write, IPrinterScriptableSequentialStream, Write method [Print Devices], print.iprinterscriptablesequentialstream_write, IPrinterScriptableSequentialStream interface [Print Devices], Write method, printerextension/IPrinterScriptableSequentialStream::Write, Write method [Print Devices], IPrinterScriptableSequentialStream interface, IPrinterScriptableSequentialStream::Write
+ms.keywords: print.iprinterscriptablesequentialstream_write, Write method [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices], Write method, Write, IPrinterScriptableSequentialStream, printerextension/IPrinterScriptableSequentialStream::Write, IPrinterScriptableSequentialStream::Write, Write method [Print Devices], IPrinterScriptableSequentialStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptableSequentialStream.Write
 product: Windows
 targetos: Windows

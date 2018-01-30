@@ -2,13 +2,13 @@
 UID: NE:ks.KSPROPERTY_STREAMALLOCATOR
 title: KSPROPERTY_STREAMALLOCATOR
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksproperty_streamallocator.htm
 old-project: stream
 ms.assetid: 4731864F-01B3-42CB-A1D4-C82FDD1DCBBE
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR_STATUS, KSPROPERTY_STREAMALLOCATOR enumeration [Streaming Media Devices], stream.ksproperty_streamallocator, ks/KSPROPERTY_STREAMALLOCATOR_STATUS, KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, ks/KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE
+ms.keywords: ks/KSPROPERTY_STREAMALLOCATOR, stream.ksproperty_streamallocator, KSPROPERTY_STREAMALLOCATOR_STATUS, ks/KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, ks/KSPROPERTY_STREAMALLOCATOR_STATUS, KSPROPERTY_STREAMALLOCATOR enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_STREAMALLOCATOR
 product: Windows
 targetos: Windows

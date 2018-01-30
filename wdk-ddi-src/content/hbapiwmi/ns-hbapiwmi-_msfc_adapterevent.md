@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_AdapterEvent
-title: _MSFC_AdapterEvent
+title: "_MSFC_AdapterEvent"
 author: windows-driver-content
 description: The MSFC_AdapterEvent structure is used by HBA miniport drivers that support the T11 committee's Fibre Channel HBA API specification to report adapter events to WMI clients that have registered to be notified of these events.
 old-location: storage\msfc_adapterevent.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], hbapiwmi/MSFC_AdapterEvent, *PMSFC_AdapterEvent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml, hbapiwmi/PMSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], storage.msfc_adapterevent, PMSFC_AdapterEvent, _MSFC_AdapterEvent
+ms.keywords: hbapiwmi/MSFC_AdapterEvent, *PMSFC_AdapterEvent, PMSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], storage.msfc_adapterevent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml, _MSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], hbapiwmi/PMSFC_AdapterEvent, MSFC_AdapterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_AdapterEvent
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ For more information about event types and worldwide names, see the T11 committe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>
+
+<a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
 
  
 

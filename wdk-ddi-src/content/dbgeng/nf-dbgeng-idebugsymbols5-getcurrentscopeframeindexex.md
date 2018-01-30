@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D8198BB-583F-4828-8131-61EB17621F32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols5_getcurrentscopeframeindexex, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], GetCurrentScopeFrameIndexEx method, GetCurrentScopeFrameIndexEx, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx, IDebugSymbols5::GetCurrentScopeFrameIndexEx, IDebugSymbols5
+ms.keywords: IDebugSymbols5::GetCurrentScopeFrameIndexEx, IDebugSymbols5, GetCurrentScopeFrameIndexEx, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], GetCurrentScopeFrameIndexEx method, debugger.idebugsymbols5_getcurrentscopeframeindexex, GetCurrentScopeFrameIndexEx method [Windows Debugging], IDebugSymbols5 interface, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols5.GetCurrentScopeFrameIndexEx
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols5::GetCurrentScopeFrameIndexEx method

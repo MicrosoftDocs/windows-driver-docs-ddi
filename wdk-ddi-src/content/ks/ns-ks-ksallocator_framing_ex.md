@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 39101009-ba03-472b-8664-d00c7a5cd335
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSALLOCATOR_FRAMING_EX, PKSALLOCATOR_FRAMING_EX structure pointer [Streaming Media Devices], ks/KSALLOCATOR_FRAMING_EX, KSALLOCATOR_FRAMING_EX, stream.ksallocator_framing_ex, *PKSALLOCATOR_FRAMING_EX, PKSALLOCATOR_FRAMING_EX, ks-struct_d2aa8aab-1778-4383-b524-d52e4dd6c4c2.xml, KSALLOCATOR_FRAMING_EX structure [Streaming Media Devices]
+ms.keywords: KSALLOCATOR_FRAMING_EX, stream.ksallocator_framing_ex, PKSALLOCATOR_FRAMING_EX, ks/PKSALLOCATOR_FRAMING_EX, PKSALLOCATOR_FRAMING_EX structure pointer [Streaming Media Devices], ks-struct_d2aa8aab-1778-4383-b524-d52e4dd6c4c2.xml, KSALLOCATOR_FRAMING_EX structure [Streaming Media Devices], *PKSALLOCATOR_FRAMING_EX, ks/KSALLOCATOR_FRAMING_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSALLOCATOR_FRAMING_EX
 product: Windows
 targetos: Windows
-req.typenames: KSALLOCATOR_FRAMING_EX, *PKSALLOCATOR_FRAMING_EX
+req.typenames: "*PKSALLOCATOR_FRAMING_EX, KSALLOCATOR_FRAMING_EX"
 ---
 
 # KSALLOCATOR_FRAMING_EX structure
@@ -115,13 +115,13 @@ A minidriver can also use DECLARE_SIMPLE_FRAMING_EX to declare an extended frami
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
-<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
+<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
 
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
+
+<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
 
 <a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
 

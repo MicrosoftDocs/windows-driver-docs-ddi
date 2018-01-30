@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ffa50af-24e6-4dab-81cc-6ac26356e9c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_ed0e1a06-e5e2-4328-aeeb-d56a78d6a757.xml, wdm/ZwOpenTransaction, wdm/NtOpenTransaction, kernel.zwopentransaction, ZwOpenTransaction routine [Kernel-Mode Driver Architecture], ZwOpenTransaction, NtOpenTransaction
+ms.keywords: kernel.zwopentransaction, NtOpenTransaction, wdm/ZwOpenTransaction, wdm/NtOpenTransaction, ZwOpenTransaction, ZwOpenTransaction routine [Kernel-Mode Driver Architecture], ktm_ref_ed0e1a06-e5e2-4328-aeeb-d56a78d6a757.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenTransaction
 -	NtOpenTransaction
 product: Windows
@@ -183,19 +183,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 

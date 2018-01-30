@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iogettransactionparameterblock, IoGetTransactionParameterBlock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, IoGetTransactionParameterBlock routine [Installable File System Drivers], ntddk/IoGetTransactionParameterBlock
+ms.keywords: ifsk.iogettransactionparameterblock, IoGetTransactionParameterBlock, ntddk/IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetTransactionParameterBlock
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetTransactionParameterBlock function

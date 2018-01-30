@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B65A2268-6959-4630-97DA-C0CFD37D9174
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_config_descriptor, ufs/UFS_CONFIG_DESCRIPTOR, ufs/PUFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR
+ms.keywords: UFS_CONFIG_DESCRIPTOR structure [Storage Devices], ufs/PUFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_config_descriptor, PUFS_CONFIG_DESCRIPTOR, ufs/UFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ufs.h
-apiname: 
+apiname:
 -	UFS_CONFIG_DESCRIPTOR
 product: Windows
 targetos: Windows

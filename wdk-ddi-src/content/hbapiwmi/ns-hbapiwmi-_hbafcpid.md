@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPID
-title: _HBAFCPID
+title: "_HBAFCPID"
 author: windows-driver-content
 description: The HBAFCPID structure contains information that uniquely identifies a logical unit on a fibre channel network.
 old-location: storage\hbafcpid.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hbafcpid, PHBAFCPID, hbapiwmi/PHBAFCPID, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, _HBAFCPID, HBAFCPID, hbapiwmi/HBAFCPID, *PHBAFCPID, PHBAFCPID structure pointer [Storage Devices], HBAFCPID structure [Storage Devices]
+ms.keywords: hbapiwmi/PHBAFCPID, hbapiwmi/HBAFCPID, PHBAFCPID, HBAFCPID, PHBAFCPID structure pointer [Storage Devices], structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, _HBAFCPID, storage.hbafcpid, *PHBAFCPID, HBAFCPID structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	HBAFCPID
 product: Windows
 targetos: Windows
-req.typenames: *PHBAFCPID, HBAFCPID
+req.typenames: HBAFCPID, *PHBAFCPID
 ---
 
 # _HBAFCPID structure
@@ -101,9 +101,9 @@ For more information about the fibre channel protocol (FCP), see the T11 committ
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtIhvInitAdapter
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -129,16 +129,16 @@ For more information about WLAN adapter initialization, see
 
 ## -see-also
 
-<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
-   Extensibility Functions</mshelp:link>
-
-<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
-
 <mshelp:link keywords="netvista.dot11extpreassociatecompletion" tabindex="0"><b>
    Dot11ExtPreAssociateCompletion</b></mshelp:link>
 
 <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+
+<mshelp:link keywords="netvista.native_802_11_ihv_extensibility_functions" tabindex="0">Native 802.11 IHV
+   Extensibility Functions</mshelp:link>
+
+<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
 
  
 

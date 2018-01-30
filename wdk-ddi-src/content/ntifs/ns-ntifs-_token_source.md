@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_SOURCE
-title: _TOKEN_SOURCE
+title: "_TOKEN_SOURCE"
 author: windows-driver-content
 description: TOKEN_SOURCE identifies the source of an access token.
 old-location: ifsk\token_source.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0820f6f2-bec2-4d38-9a95-cfff6151ef02
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PTOKEN_SOURCE, ntifs/TOKEN_SOURCE, _TOKEN_SOURCE, ifsk.token_source, TOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml, PTOKEN_SOURCE, ntifs/PTOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers]
+ms.keywords: PTOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml, TOKEN_SOURCE, _TOKEN_SOURCE, *PTOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], ntifs/PTOKEN_SOURCE, ifsk.token_source, ntifs/TOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	TOKEN_SOURCE
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_SOURCE, *PTOKEN_SOURCE
+req.typenames: "*PTOKEN_SOURCE, TOKEN_SOURCE"
 ---
 
 # _TOKEN_SOURCE structure
@@ -80,15 +80,15 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete, UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses]
+ms.keywords: ucxendpoint/UcxEndpointPurgeComplete, buses._ucxendpointpurgecomplete, UcxEndpointPurgeComplete method [Buses], UcxEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxEndpointPurgeComplete
 product: Windows
 targetos: Windows

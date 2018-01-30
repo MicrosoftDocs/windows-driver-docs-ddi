@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_lock2flags, D3DDDICB_LOCK2FLAGS, d3dukmdt/D3DDDICB_LOCK2FLAGS, _D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices]
+ms.keywords: D3DDDICB_LOCK2FLAGS structure [Display Devices], d3dukmdt/D3DDDICB_LOCK2FLAGS, _D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags, D3DDDICB_LOCK2FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b97e93c-a375-4df7-9d2d-86f1ad72b62d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemoveCallback routine [Storage Devices], storage.hba_removecallback, fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, hbaapi/HBA_RemoveCallback, HBA_RemoveCallback
+ms.keywords: HBA_RemoveCallback routine [Storage Devices], HBA_RemoveCallback, hbaapi/HBA_RemoveCallback, fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, storage.hba_removecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_RemoveCallback
 product: Windows
 targetos: Windows
@@ -109,9 +109,9 @@ Returned if an unspecified error occurred that prevented the de-registration of 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

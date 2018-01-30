@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_SIM_RESPONSE
-title: _WWAN_AUTH_SIM_RESPONSE
+title: "_WWAN_AUTH_SIM_RESPONSE"
 author: windows-driver-content
 description: The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authentication challenge.
 old-location: netvista\wwan_auth_sim_response.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C259CA95-D119-47EB-A32D-9C9E284B6CD4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE, wwan/PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], netvista.wwan_auth_sim_response, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_RESPONSE
+ms.keywords: WWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_SIM_RESPONSE, _WWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response, wwan/PWWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_SIM_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE
+req.typenames: WWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE
 req.product: Windows 10 or later.
 ---
 
@@ -109,9 +109,9 @@ typedef struct _WWAN_AUTH_SIM_RESPONSE {
 The number of responses.
 
 
-#### - Kc2[WWAN_AUTH_KC_LEN]
+#### - Sres1[WWAN_AUTH_SRES_LEN]
 
-Encryption key 2 of 64 bit. This member represents a multi-byte value in little-endian format.
+Response 1 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
 #### - Kc1[WWAN_AUTH_KC_LEN]
@@ -119,14 +119,14 @@ Encryption key 2 of 64 bit. This member represents a multi-byte value in little-
 Encryption key 1 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Kc3[WWAN_AUTH_KC_LEN]
-
-Encryption key 3 of 64 bit. This member represents a multi-byte value in little-endian format.
-
-
 #### - Sres2[WWAN_AUTH_SRES_LEN]
 
 Response 2 of 32 bit. This member represents a multi-byte value in little-endian format.
+
+
+#### - Kc2[WWAN_AUTH_KC_LEN]
+
+Encryption key 2 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
 #### - Sres3[WWAN_AUTH_SRES_LEN]
@@ -134,9 +134,9 @@ Response 2 of 32 bit. This member represents a multi-byte value in little-endian
 Response 3 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres1[WWAN_AUTH_SRES_LEN]
+#### - Kc3[WWAN_AUTH_KC_LEN]
 
-Response 1 of 32 bit. This member represents a multi-byte value in little-endian format.
+Encryption key 3 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
 ## -remarks

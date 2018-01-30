@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, wdm/KeSetImportanceDpc, KeSetImportanceDpc, kernel.kesetimportancedpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.kesetimportancedpc, KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], wdm/KeSetImportanceDpc, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeSetImportanceDpc
 product: Windows
 targetos: Windows
@@ -81,24 +81,44 @@ Specifies one of the following system-defined values to determine the behavior o
 
 
 
-##### - Importance.HighImportance
-
-Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
-
-
-##### - Importance.LowImportance
+#### LowImportance
 
 Place the DPC at the end of the DPC queue, and do not begin processing of the queue. 
 
 
-##### - Importance.MediumHighImportance
+#### MediumImportance
+
+Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
+
+
+#### MediumHighImportance
 
 Place the DPC at the end of the DPC queue, and begin processing the queue immediately. MediumHighImportance is available only on Windows Vista and later versions of Windows.
 
 
-##### - Importance.MediumImportance
+#### HighImportance
+
+Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
+
+
+#### LowImportance
+
+Place the DPC at the end of the DPC queue, and do not begin processing of the queue. 
+
+
+#### MediumImportance
 
 Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
+
+
+#### MediumHighImportance
+
+Place the DPC at the end of the DPC queue, and begin processing the queue immediately. MediumHighImportance is available only on Windows Vista and later versions of Windows.
+
+
+#### HighImportance
+
+Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
 
 
 ## -returns
@@ -121,7 +141,7 @@ The location of the DPC within the DPC queue. Typically, the <b>KeInsertQueueDpc
 When the system begins processing the DPC queue. Typically, <b>KeInsertQueueDpc</b> and <b>IoRequestDpc</b> immediately begin processing the DPC queue for the current processor. Drivers can specify different values for <i>Importance</i> to change this behavior.
 
 </li>
-</ul>By default, DPCs are assigned to the DPC queue for the current processor, so specifying <b>MediumImportance</b> or <b>MediumHighImportance</b> for <i>Importance</i> has the same effect. However, drivers can use <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> to change the processor that the DPC will be assigned to.
+</ul>By default, DPCs are assigned to the DPC queue for the current processor, so specifying <b>MediumImportance</b> or <b>MediumHighImportance</b> for <i>Importance</i> has the same effect. However, drivers can use <a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> to change the processor that the DPC will be assigned to.
 
 For Windows Vista and later versions of the Windows operating system, you can use <b>KeSetImportanceDpc</b> for threaded DPCs. If the caller sets <i>Importance</i> to <b>HighImportance</b>, the DPC is placed at the beginning of the queue; otherwise, it is placed at the end. The routine does not affect when the threaded DPC queue is processed. Threaded DPCs are always processed by a dedicated thread at IRQL = PASSIVE_LEVEL. For more information about threaded DPCs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564621">Threaded DPCs</a>.
 
@@ -133,15 +153,15 @@ For more information about how the system processes the DPC queue, see <a href="
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+
+<a href="..\ntddk\nf-ntddk-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
  
 

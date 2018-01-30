@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni interface [Print Devices], TextOutAsBitmap method, IPrintOemUni, TextOutAsBitmap method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::TextOutAsBitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml, TextOutAsBitmap method [Print Devices], print.iprintoemuni_textoutasbitmap, TextOutAsBitmap, IPrintOemUni::TextOutAsBitmap
+ms.keywords: print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml, TextOutAsBitmap method [Print Devices], IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, prcomoem/IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], TextOutAsBitmap method, TextOutAsBitmap, IPrintOemUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.TextOutAsBitmap
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -184,9 +184,9 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553132">IPrintOemDriverUni::DrvUniTextOut</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553132">IPrintOemDriverUni::DrvUniTextOut</a>
 
  
 

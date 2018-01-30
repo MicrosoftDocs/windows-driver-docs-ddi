@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
+title: "_PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) device capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_device_capabilities_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 895b49e5-181b-4312-ab1c-7f67c102b32f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI.pci_express_device_capabilities_register, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml
+ms.keywords: ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI.pci_express_device_capabilities_register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
@@ -150,16 +150,41 @@ typedef union _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure.
 
 
-##### - MaxPayloadSizeSupported.MaxPayload2048Bytes
+#### - MaxPayloadSizeSupported
+
+The maximum payload size that is supported by the device. Possible values are:
+
+
+
+
+#### MaxPayload128Bytes
+
+128 byte maximum payload size
+
+
+#### MaxPayload256Bytes
+
+256 byte maximum payload size
+
+
+#### MaxPayload512Bytes
+
+512 byte maximum payload size
+
+
+#### MaxPayload1024Bytes
+
+1024 byte maximum payload size
+
+
+#### MaxPayload2048Bytes
 
 2048 byte maximum payload size
 
 
-#### - L0sAcceptableLatency
+#### MaxPayload4096Bytes
 
-The maximum acceptable total latency that the device can withstand due to a transition from the L0s state to the L0 state. Possible values are:
-
-
+4096 byte maximum payload size
 
 
 #### - PhantomFunctionsSupported
@@ -169,74 +194,24 @@ A value that indicates the support of unused function numbers (phantom functions
 
 
 
-##### - L1AcceptableLatency.L1_16us_32us
+#### 0
 
-32 microseconds
-
-
-##### - MaxPayloadSizeSupported.MaxPayload256Bytes
-
-256 byte maximum payload size
+No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
 
 
-##### - L0sAcceptableLatency.L0s_Above4us
+#### 1
 
-No limit
-
-
-##### - CapturedSlotPowerLimitScale.2
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
+The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
 
 
-##### - L1AcceptableLatency.L1_Below1us
+#### 2
 
-1 microsecond
-
-
-##### - MaxPayloadSizeSupported.MaxPayload4096Bytes
-
-4096 byte maximum payload size
+The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
 
 
-##### - L1AcceptableLatency.L1_8us_16us
+#### 3
 
-16 microseconds
-
-
-#### - Rsvd1
-
-Reserved.
-
-
-##### - L1AcceptableLatency.L1_1us_2us
-
-2 microseconds
-
-
-##### - CapturedSlotPowerLimitScale.3
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
-
-
-##### - L0sAcceptableLatency.L0s_512ns_1us
-
-1 microsecond
-
-
-##### - MaxPayloadSizeSupported.MaxPayload1024Bytes
-
-1024 byte maximum payload size
-
-
-#### - CapturedSlotPowerLimit
-
-The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>CapturedSlotPowerLimitScale</b> member to compute the power in watts.
-
-
-##### - L0sAcceptableLatency.L0s_2us_4us
-
-4 microseconds
+All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
 #### - ExtendedTagSupported
@@ -244,19 +219,51 @@ The maximum amount of power that can be supplied by the slot. This value is used
 A single bit that specifies the maximum supported size of the Tag field in a PCIe transaction descriptor when the device is a requester. If this bit is clear, a 5-bit Tag field is supported. If this bit is set, an 8-bit Tag field is supported.
 
 
-##### - MaxPayloadSizeSupported.MaxPayload512Bytes
+#### - L0sAcceptableLatency
 
-512 byte maximum payload size
-
-
-##### - PhantomFunctionsSupported.2
-
-The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+The maximum acceptable total latency that the device can withstand due to a transition from the L0s state to the L0 state. Possible values are:
 
 
-##### - PhantomFunctionsSupported.0
 
-No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
+
+#### L0s_Below64ns
+
+64 nanoseconds
+
+
+#### L0s_64ns_128ns
+
+128 nanoseconds
+
+
+#### L0s_128ns_256ns
+
+256 nanoseconds
+
+
+#### L0s_256ns_512ns
+
+512 nanoseconds
+
+
+#### L0s_512ns_1us
+
+1 microsecond
+
+
+#### L0s_1us_2us
+
+2 microseconds
+
+
+#### L0s_2us_4us
+
+4 microseconds
+
+
+#### L0s_Above4us
+
+No limit
 
 
 #### - L1AcceptableLatency
@@ -266,36 +273,64 @@ The maximum acceptable total latency that the device can withstand due to a tran
 
 
 
-#### - Rsvd2
+#### L1_Below1us
 
-Reserved.
-
-
-##### - L1AcceptableLatency.L1_Above64us
-
-No limit
+1 microsecond
 
 
-##### - L0sAcceptableLatency.L0s_1us_2us
+#### L1_1us_2us
 
 2 microseconds
 
 
-##### - L1AcceptableLatency.L1_2us_4us
+#### L1_2us_4us
 
 4 microseconds
 
 
-#### - MaxPayloadSizeSupported
+#### L1_4us_8us
 
-The maximum payload size that is supported by the device. Possible values are:
-
-
+8 microseconds
 
 
-##### - L0sAcceptableLatency.L0s_256ns_512ns
+#### L1_8us_16us
 
-512 nanoseconds
+16 microseconds
+
+
+#### L1_16us_32us
+
+32 microseconds
+
+
+#### L1_32us_64us
+
+64 microseconds
+
+
+#### L1_Above64us
+
+No limit
+
+
+#### - Undefined
+
+Reserved.
+
+
+#### - RoleBasedErrorReporting
+
+A single bit that indicates that the device implements role-based error reporting.
+
+
+#### - Rsvd1
+
+Reserved.
+
+
+#### - CapturedSlotPowerLimit
+
+The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>CapturedSlotPowerLimitScale</b> member to compute the power in watts.
 
 
 #### - CapturedSlotPowerLimitScale
@@ -305,64 +340,29 @@ The scale used for the value contained in the <b>CapturedSlotPowerLimit</b> memb
 
 
 
-##### - L0sAcceptableLatency.L0s_Below64ns
-
-64 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_128ns_256ns
-
-256 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_64ns_128ns
-
-128 nanoseconds
-
-
-##### - L1AcceptableLatency.L1_4us_8us
-
-8 microseconds
-
-
-##### - PhantomFunctionsSupported.1
-
-The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
-
-
-##### - CapturedSlotPowerLimitScale.0
+#### 0
 
 Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
 
 
-##### - MaxPayloadSizeSupported.MaxPayload128Bytes
-
-128 byte maximum payload size
-
-
-#### - Undefined
-
-Reserved.
-
-
-##### - CapturedSlotPowerLimitScale.1
+#### 1
 
 Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
 
 
-##### - L1AcceptableLatency.L1_32us_64us
+#### 2
 
-64 microseconds
-
-
-##### - PhantomFunctionsSupported.3
-
-All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
 
 
-#### - RoleBasedErrorReporting
+#### 3
 
-A single bit that indicates that the device implements role-based error reporting.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
+
+
+#### - Rsvd2
+
+Reserved.
 
 
 ## -remarks

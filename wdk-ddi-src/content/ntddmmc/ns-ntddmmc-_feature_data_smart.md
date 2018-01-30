@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_SMART
-title: _FEATURE_DATA_SMART
+title: "_FEATURE_DATA_SMART"
 author: windows-driver-content
 description: The FEATURE_DATA_SMART structure holds data for the S.M.A.R.T. feature.
 old-location: storage\feature_data_smart.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cf6578d1-e455-4bbe-a89f-bc0292e24a4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/FEATURE_DATA_SMART, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, FEATURE_DATA_SMART structure [Storage Devices], PFEATURE_DATA_SMART, _FEATURE_DATA_SMART, FEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], storage.feature_data_smart, *PFEATURE_DATA_SMART, ntddmmc/PFEATURE_DATA_SMART
+ms.keywords: "_FEATURE_DATA_SMART, PFEATURE_DATA_SMART, ntddmmc/FEATURE_DATA_SMART, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, ntddmmc/PFEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], *PFEATURE_DATA_SMART, FEATURE_DATA_SMART, storage.feature_data_smart, PFEATURE_DATA_SMART structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_SMART
 product: Windows
 targetos: Windows

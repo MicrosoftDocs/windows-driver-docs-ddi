@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_CONTINUOUS_READER_CONFIG
-title: _WDF_USB_CONTINUOUS_READER_CONFIG
+title: "_WDF_USB_CONTINUOUS_READER_CONFIG"
 author: windows-driver-content
 description: The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information that the framework uses to configure a continuous reader for a USB pipe.
 old-location: wdf\wdf_usb_continuous_reader_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b98d5f1-6052-4c52-b3d4-031c8a0db51c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, _WDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, wdf.wdf_usb_continuous_reader_config, PWDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, WDF_USB_CONTINUOUS_READER_CONFIG
+ms.keywords: wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG, wdf.wdf_usb_continuous_reader_config, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, WDF_USB_CONTINUOUS_READER_CONFIG structure, *PWDF_USB_CONTINUOUS_READER_CONFIG, _WDF_USB_CONTINUOUS_READER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_CONTINUOUS_READER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_CONTINUOUS_READER_CONFIG, *PWDF_USB_CONTINUOUS_READER_CONFIG
+req.typenames: "*PWDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -154,15 +154,15 @@ First, test your device with the default value (0) for <b>NumPendingReads</b>. Y
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md">WDF_USB_CONTINUOUS_READER_CONFIG_INIT</a>
-
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
+
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md">WDF_USB_CONTINUOUS_READER_CONFIG_INIT</a>
 
  
 

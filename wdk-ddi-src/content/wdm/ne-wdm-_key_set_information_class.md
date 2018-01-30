@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KEY_SET_INFORMATION_CLASS
-title: _KEY_SET_INFORMATION_CLASS
+title: "_KEY_SET_INFORMATION_CLASS"
 author: windows-driver-content
 description: The KEY_SET_INFORMATION_CLASS enumeration type represents the type of information to set for a registry key.
 old-location: kernel\key_set_information_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyWow64FlagsInformation, KeyControlFlagsInformation, wdm/MaxKeySetInfoClass, MaxKeySetInfoClass, KeyWriteTimeInformation, KeySetVirtualizationInformation, wdm/KeyControlFlagsInformation, wdm/KEY_SET_INFORMATION_CLASS, wdm/KeySetVirtualizationInformation, KeySetHandleTagsInformation, KeyWow64FlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, _KEY_SET_INFORMATION_CLASS, wdm/KeySetDebugInformation, kernel.key_set_information_class, KEY_SET_INFORMATION_CLASS, KeySetDebugInformation, wdm/KeyWriteTimeInformation, wdm/KeySetHandleTagsInformation
+ms.keywords: wdm/KeySetHandleTagsInformation, kernel.key_set_information_class, wdm/KeyControlFlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KeyWriteTimeInformation, _KEY_SET_INFORMATION_CLASS, KeyWow64FlagsInformation, KeySetDebugInformation, KeySetHandleTagsInformation, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeySetVirtualizationInformation, KEY_SET_INFORMATION_CLASS, wdm/KeySetDebugInformation, wdm/KeySetVirtualizationInformation, wdm/KeyWow64FlagsInformation, wdm/MaxKeySetInfoClass, MaxKeySetInfoClass, KeyWriteTimeInformation, wdm/KEY_SET_INFORMATION_CLASS, KeyControlFlagsInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KEY_SET_INFORMATION_CLASS
 product: Windows
 targetos: Windows

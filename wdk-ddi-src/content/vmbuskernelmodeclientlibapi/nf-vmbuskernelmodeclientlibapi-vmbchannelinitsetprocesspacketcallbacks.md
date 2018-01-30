@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 437DC9C5-CE73-45E8-AC4A-CFF9249809AD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks, netvista.vmbchannelinitsetprocesspacketcallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista], VmbChannelInitSetProcessPacketCallbacks
+ms.keywords: netvista.vmbchannelinitsetprocesspacketcallbacks, vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelInitSetProcessPacketCallbacks
 product: Windows
 targetos: Windows

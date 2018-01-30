@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], 1/SerCxGetConnectionParameters, serports.sercxgetconnectionparameters
+ms.keywords: SerCxGetConnectionParameters, 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxGetConnectionParameters
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6bff18d1-77bf-49c0-af9c-aa1abbfbfa53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksds3d_listener_all, KSDS3D_LISTENER_ALL structure [Audio Devices], ksmedia/KSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], ksmedia/PKSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, *PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL
+ms.keywords: KSDS3D_LISTENER_ALL structure [Audio Devices], audio.ksds3d_listener_all, PKSDS3D_LISTENER_ALL, ksmedia/PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, *PKSDS3D_LISTENER_ALL, ksmedia/KSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

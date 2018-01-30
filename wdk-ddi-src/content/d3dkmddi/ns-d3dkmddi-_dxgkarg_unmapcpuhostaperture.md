@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture, DXGKARG_UNMAPCPUHOSTAPERTURE"
+ms.keywords: d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, _DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], display.dxgkarg_unmapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

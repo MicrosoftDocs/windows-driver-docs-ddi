@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfcompaniontarget._WDF_TASK_SEND_OPTIONS
-title: _WDF_TASK_SEND_OPTIONS
+title: "_WDF_TASK_SEND_OPTIONS"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_send_options.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb2fd11c-c6a5-4499-a340-f96ffcfbbe0f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, WDF_TASK_SEND_OPTIONS, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, wdf.wdf_task_send_options, PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
+ms.keywords: wdfcompaniontarget/WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, wdf.wdf_task_send_options, PWDF_TASK_SEND_OPTIONS, _WDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, *PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcompaniontarget.h
-apiname: 
+apiname:
 -	WDF_TASK_SEND_OPTIONS
 product: Windows
 targetos: Windows

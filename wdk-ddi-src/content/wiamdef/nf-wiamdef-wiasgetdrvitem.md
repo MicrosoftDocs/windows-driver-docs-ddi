@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c09924ef-cd2c-419c-81d5-bbd40b886767
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem function [Imaging Devices], wiamdef/wiasGetDrvItem, wiasGetDrvItem, image.wiasgetdrvitem
+ms.keywords: wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, image.wiasgetdrvitem, wiasGetDrvItem function [Imaging Devices], wiamdef/wiasGetDrvItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasGetDrvItem
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

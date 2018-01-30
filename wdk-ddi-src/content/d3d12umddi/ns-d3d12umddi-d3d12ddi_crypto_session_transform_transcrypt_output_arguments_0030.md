@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1edd7c9-3247-4d87-886d-cfd993483f73
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-crypto-session-transform-transcrypt-output-arguments-0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030 structure [Display Devices]
+ms.keywords: display.d3d12ddi-crypto-session-transform-transcrypt-output-arguments-0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030 structure [Display Devices], D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

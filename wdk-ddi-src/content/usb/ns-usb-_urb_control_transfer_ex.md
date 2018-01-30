@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_TRANSFER_EX
-title: _URB_CONTROL_TRANSFER_EX
+title: "_URB_CONTROL_TRANSFER_EX"
 author: windows-driver-content
 description: The _URB_CONTROL_TRANSFER_EX structure is used by USB client drivers to transfer data to or from a control pipe, with a timeout that limits the acceptable transfer time.
 old-location: buses\_urb_control_transfer_ex.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: b77febb8-6428-4633-85a0-2f8c0409194d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._urb_control_transfer_ex, _URB_CONTROL_TRANSFER_EX, USBD_DEFAULT_PIPE_TRANSFER, usb/_URB_CONTROL_TRANSFER_EX, _URB_CONTROL_TRANSFER_EX structure [Buses], USBD_TRANSFER_DIRECTION_OUT, USBD_SHORT_TRANSFER_OK, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml, USBD_TRANSFER_DIRECTION_IN
+ms.keywords: USBD_TRANSFER_DIRECTION_IN, usb/_URB_CONTROL_TRANSFER_EX, USBD_DEFAULT_PIPE_TRANSFER, USBD_TRANSFER_DIRECTION_OUT, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml, buses._urb_control_transfer_ex, _URB_CONTROL_TRANSFER_EX, _URB_CONTROL_TRANSFER_EX structure [Buses], USBD_SHORT_TRANSFER_OK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_CONTROL_TRANSFER_EX
 product: Windows
 targetos: Windows
@@ -210,13 +210,13 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-<a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

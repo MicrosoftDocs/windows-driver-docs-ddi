@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4dc38fcd-4b87-4c34-8ae2-685bf47e3fde
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtDeviceIoControlFile, k111_03e754fc-b6b5-4266-9be1-452d5ba5331c.xml, ZwDeviceIoControlFile routine [Kernel-Mode Driver Architecture], ZwDeviceIoControlFile, NtDeviceIoControlFile, ntifs/ZwDeviceIoControlFile, kernel.zwdeviceiocontrolfile
+ms.keywords: k111_03e754fc-b6b5-4266-9be1-452d5ba5331c.xml, ntifs/ZwDeviceIoControlFile, kernel.zwdeviceiocontrolfile, ZwDeviceIoControlFile routine [Kernel-Mode Driver Architecture], ZwDeviceIoControlFile, NtDeviceIoControlFile, ntifs/NtDeviceIoControlFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwDeviceIoControlFile
 -	NtDeviceIoControlFile
 product: Windows
@@ -154,7 +154,7 @@ Callers of <b>ZwDeviceIoControlFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
@@ -162,17 +162,17 @@ Callers of <b>ZwDeviceIoControlFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 <a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565406">Using I/O Control Codes</a>
 
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
 
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565406">Using I/O Control Codes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

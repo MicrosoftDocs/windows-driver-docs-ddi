@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrAdd, kernel.rtllongptradd, ntintsafe/RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlLongPtrAdd, RtlLongPtrAdd, kernel.rtllongptradd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongPtrAdd
 product: Windows
 targetos: Windows
@@ -90,14 +90,14 @@ TBD
 The first value in the equation.
 
 
-#### - pu8Result [out]
-
-A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
-
 #### - u8Addend [in]
 
 The value to add to <i>u8Augend</i>.
+
+
+#### - pu8Result [out]
+
+A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 ## -remarks

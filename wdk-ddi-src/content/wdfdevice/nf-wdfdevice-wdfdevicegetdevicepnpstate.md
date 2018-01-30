@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 25936ed9-d213-458f-bbc8-90eedea9ba02
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicegetdevicepnpstate, WdfDeviceGetDevicePnpState, kmdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState, PFN_WDFDEVICEGETDEVICEPNPSTATE, WdfDeviceGetDevicePnpState method, DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml
+ms.keywords: WdfDeviceGetDevicePnpState method, wdf.wdfdevicegetdevicepnpstate, WdfDeviceGetDevicePnpState, DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, PFN_WDFDEVICEGETDEVICEPNPSTATE, wdfdevice/WdfDeviceGetDevicePnpState, kmdf.wdfdevicegetdevicepnpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceGetDevicePnpState
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ Most drivers do not need to be aware of the state of the framework's Plug and Pl
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md">WdfDeviceGetDevicePowerState</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md">WdfDeviceGetDevicePowerState</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9588ef16-baf7-4e2b-a624-864ae218c385
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], stream.kspingetconnectedpindeviceobject, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, KsPinGetConnectedPinDeviceObject, ks/KsPinGetConnectedPinDeviceObject
+ms.keywords: stream.kspingetconnectedpindeviceobject, ks/KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], KsPinGetConnectedPinDeviceObject, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinGetConnectedPinDeviceObject
 product: Windows
 targetos: Windows

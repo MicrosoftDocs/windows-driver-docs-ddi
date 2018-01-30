@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e8024b4-69db-4f10-b33f-a6b817aa0aa9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_coppstatushdcpkeydata, dxvaref_6aca4a16-16df-46ab-be65-b6033258f781.xml, DXVA_COPPStatusHDCPKeyData, dxva/DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [Display Devices], _DXVA_COPPStatusHDCPKeyData
+ms.keywords: dxva/DXVA_COPPStatusHDCPKeyData, _DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [Display Devices], dxvaref_6aca4a16-16df-46ab-be65-b6033258f781.xml, display.dxva_coppstatushdcpkeydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,11 +122,11 @@ Applications initiate a query for HDCP key data to determine if the receiver or 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 

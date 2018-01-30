@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_TYPE_MIC
-title: _WDI_TYPE_MIC
+title: "_WDI_TYPE_MIC"
 author: windows-driver-content
 description: The WDI_TYPE_MIC structure defines the MIC (802.11r).
 old-location: netvista\wdi_type_mic.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A21EEC35-98F2-4B68-A851-1C45D7F55194
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_type_mic, _WDI_TYPE_MIC, WDI_TYPE_MIC, *PWDI_TYPE_MIC, WDI_TYPE_MIC structure [Network Drivers Starting with Windows Vista], PWDI_TYPE_MIC structure pointer [Network Drivers Starting with Windows Vista], wditypes/WDI_TYPE_MIC, PWDI_TYPE_MIC, wditypes/PWDI_TYPE_MIC
+ms.keywords: wditypes/WDI_TYPE_MIC, *PWDI_TYPE_MIC, wditypes/PWDI_TYPE_MIC, PWDI_TYPE_MIC structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_MIC structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_MIC, netvista.wdi_type_mic, WDI_TYPE_MIC, PWDI_TYPE_MIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_TYPE_MIC
 product: Windows
 targetos: Windows
-req.typenames: *PWDI_TYPE_MIC, WDI_TYPE_MIC
+req.typenames: "*PWDI_TYPE_MIC, WDI_TYPE_MIC"
 req.product: Windows 10 or later.
 ---
 

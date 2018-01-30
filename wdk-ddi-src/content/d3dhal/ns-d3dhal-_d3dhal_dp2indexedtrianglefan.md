@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cdc3dd16-6bf2-495c-8df1-aa9c670d1e7a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2indexedtrianglefan, LPD3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN structure [Display Devices], D3DHAL_DP2INDEXEDTRIANGLEFAN, _D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLEFAN, LPD3DHAL_DP2INDEXEDTRIANGLEFAN structure pointer [Display Devices], d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN, *LPD3DHAL_DP2INDEXEDTRIANGLEFAN, d3dstrct_72b499fd-e571-4dbb-a9b8-c2debf754b41.xml
+ms.keywords: LPD3DHAL_DP2INDEXEDTRIANGLEFAN structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLEFAN, _D3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLEFAN, d3dstrct_72b499fd-e571-4dbb-a9b8-c2debf754b41.xml, d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN, *LPD3DHAL_DP2INDEXEDTRIANGLEFAN, display.d3dhal_dp2indexedtrianglefan, D3DHAL_DP2INDEXEDTRIANGLEFAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,15 +90,15 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 D3DDP2OP_INDEXEDTRIANGLEFAN
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

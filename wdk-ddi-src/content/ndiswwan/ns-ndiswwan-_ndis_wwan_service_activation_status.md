@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SERVICE_ACTIVATION_STATUS
-title: _NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+title: "_NDIS_WWAN_SERVICE_ACTIVATION_STATUS"
 author: windows-driver-content
 description: The NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the MB device.
 old-location: netvista\ndis_wwan_service_activation_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 669ef35f-0e59-4ec3-b6cc-5cb2156b51a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml
+ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_SERVICE_ACTIVATION_STATUS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
+req.typenames: "*PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS"
 ---
 
 # _NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure
@@ -244,10 +244,10 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <mshelp:link keywords="netvista.wwan_service_activation_status" tabindex="0"><b>
    WWAN_SERVICE_ACTIVATION_STATUS</b></mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

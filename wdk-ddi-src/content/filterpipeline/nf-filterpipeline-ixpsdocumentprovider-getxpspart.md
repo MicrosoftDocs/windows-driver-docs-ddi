@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, filterpipeline/IXpsDocumentProvider::GetXpsPart, GetXpsPart method [Print Devices], IXpsDocumentProvider interface, IXpsDocumentProvider, GetXpsPart method [Print Devices], print.ixpsdocumentprovider_getxpspart, IXpsDocumentProvider::GetXpsPart, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, GetXpsPart
+ms.keywords: IXpsDocumentProvider, IXpsDocumentProvider::GetXpsPart, print.ixpsdocumentprovider_getxpspart, GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, filterpipeline/IXpsDocumentProvider::GetXpsPart, GetXpsPart method [Print Devices], IXpsDocumentProvider interface, GetXpsPart method [Print Devices], IXpsDocumentProvider interface [Print Devices], GetXpsPart method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentProvider.GetXpsPart
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_SESSION_STATE
-title: _WWAN_USSD_SESSION_STATE
+title: "_WWAN_USSD_SESSION_STATE"
 author: windows-driver-content
 description: The WWAN_USSD_SESSION_STATE enumeration lists the different types of USSD session states.
 old-location: netvista\wwan_ussd_session_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanUssdSessionStateExisting, _WWAN_USSD_SESSION_STATE, WwanUssdSessionStateExisting, netvista.wwan_ussd_session_state, *PWWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateNew, WWAN_USSD_SESSION_STATE, wwan/WWAN_USSD_SESSION_STATE, WwanUssdSessionStateNew, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: "_WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_USSD_SESSION_STATE, WwanUssdSessionStateNew, netvista.wwan_ussd_session_state, wwan/WwanUssdSessionStateExisting, WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateNew, WwanUssdSessionStateExisting"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_USSD_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE
+req.typenames: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE"
 req.product: Windows 10 or later.
 ---
 

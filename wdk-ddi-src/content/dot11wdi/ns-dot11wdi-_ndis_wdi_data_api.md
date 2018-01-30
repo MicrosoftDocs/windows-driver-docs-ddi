@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._NDIS_WDI_DATA_API
-title: _NDIS_WDI_DATA_API
+title: "_NDIS_WDI_DATA_API"
 author: windows-driver-content
 description: The NDIS_WDI_DATA_API structure specifies the entry points for WDI data indications.
 old-location: netvista\ndis_wdi_data_api.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8C26D62E-711A-4CE7-BD2B-D78B794C67FB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/PNDIS_WDI_DATA_API, NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API, PNDIS_WDI_DATA_API, PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], _NDIS_WDI_DATA_API, netvista.ndis_wdi_data_api
+ms.keywords: PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], NDIS_WDI_DATA_API, netvista.ndis_wdi_data_api, PNDIS_WDI_DATA_API, _NDIS_WDI_DATA_API, dot11wdi/PNDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	NDIS_WDI_DATA_API
 product: Windows
 targetos: Windows
@@ -97,6 +97,12 @@ To indicate the version of the NDIS_WDI_DATA_API structure, set the
      <b>Revision</b> member to the following value:
 
 
+
+
+#### NDIS_OBJECT_TYPE_WDI_DATA_API_REVISION_1
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_WDI_DATA_API_REVISION_1.
 
 
 ### -field TxDequeueIndication
@@ -183,10 +189,4 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_free_wdi_frame_
 
  
 
-
-
-##### - Header.NDIS_OBJECT_TYPE_WDI_DATA_API_REVISION_1
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_WDI_DATA_API_REVISION_1.
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3188E2EE-E011-476D-9DDC-1DF61ECF9413
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, buses.udecx_usb_device_plug_in_options_init, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
+ms.keywords: buses.udecx_usb_device_plug_in_options_init, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 product: Windows
 targetos: Windows

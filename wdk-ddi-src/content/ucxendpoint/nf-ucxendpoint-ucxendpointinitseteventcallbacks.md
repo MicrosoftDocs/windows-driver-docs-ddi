@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4F5FB073-0803-4112-964E-431930D14A88
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxendpointinitseteventcallbacks, UcxEndpointInitSetEventCallbacks, UcxEndpointInitSetEventCallbacks method [Buses]
+ms.keywords: UcxEndpointInitSetEventCallbacks, buses._ucxendpointinitseteventcallbacks, UcxEndpointInitSetEventCallbacks method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxEndpointInitSetEventCallbacks
 product: Windows
 targetos: Windows
@@ -95,9 +95,9 @@ The client driver calls this method to set function pointers to its event callba
 
 ## -see-also
 
-<a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_event_callbacks.md">UCX_ENDPOINT_EVENT_CALLBACKS</a>
-
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+
+<a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_event_callbacks.md">UCX_ENDPOINT_EVENT_CALLBACKS</a>
 
  
 

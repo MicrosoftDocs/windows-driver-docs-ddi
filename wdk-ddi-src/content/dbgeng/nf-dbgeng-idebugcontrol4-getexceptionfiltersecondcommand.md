@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 17a61847-78b7-45b8-b02b-3ba4cdba6bff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4, GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommand, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, debugger.getexceptionfiltersecondcommandwide
+ms.keywords: GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, IDebugControl4::GetExceptionFilterSecondCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetExceptionFilterSecondCommandWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetExceptionFilterSecondCommand method
@@ -125,9 +125,9 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
-
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 

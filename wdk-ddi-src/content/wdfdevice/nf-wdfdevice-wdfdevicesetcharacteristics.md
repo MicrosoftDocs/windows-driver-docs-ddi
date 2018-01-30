@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07b5d7ed-fc4c-45e5-8748-2630c91d912a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceSetCharacteristics, DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, kmdf.wdfdevicesetcharacteristics, WdfDeviceSetCharacteristics method, PFN_WDFDEVICESETCHARACTERISTICS, WdfDeviceSetCharacteristics, wdf.wdfdevicesetcharacteristics
+ms.keywords: PFN_WDFDEVICESETCHARACTERISTICS, wdfdevice/WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics method, wdf.wdfdevicesetcharacteristics, DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, kmdf.wdfdevicesetcharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceSetCharacteristics
 product: Windows
 targetos: Windows

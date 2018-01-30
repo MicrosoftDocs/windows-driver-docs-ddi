@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucx_endpoint_event_callbacks_init, UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT
+ms.keywords: ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT, buses._ucx_endpoint_event_callbacks_init, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UCX_ENDPOINT_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows

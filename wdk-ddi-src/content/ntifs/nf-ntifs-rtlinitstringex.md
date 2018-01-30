@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtl_init_string_ex, RtlInitString routine [Kernel-Mode Driver Architecture], RtlInitString, RtlInitStringEx, wdm/RtlInitString
+ms.keywords: RtlInitStringEx, RtlInitString, kernel.rtl_init_string_ex, wdm/RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlInitString
 product: Windows
 targetos: Windows

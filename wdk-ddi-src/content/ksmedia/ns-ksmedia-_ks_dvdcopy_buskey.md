@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_BUSKEY
-title: _KS_DVDCOPY_BUSKEY
+title: "_KS_DVDCOPY_BUSKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_BUSKEY structure is used to describe the bus key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_buskey.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bae613e1-c450-4bc0-9370-a7eb8438ae23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DVDCOPY_BUSKEY, stream.ks_dvdcopy_buskey, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], *PKS_DVDCOPY_BUSKEY, dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, _KS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_BUSKEY
+ms.keywords: "*PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], stream.ks_dvdcopy_buskey, dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, ksmedia/PKS_DVDCOPY_BUSKEY, ksmedia/KS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices], _KS_DVDCOPY_BUSKEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_BUSKEY
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY
+req.typenames: KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY
 ---
 
 # _KS_DVDCOPY_BUSKEY structure

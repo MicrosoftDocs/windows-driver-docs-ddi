@@ -1,6 +1,6 @@
 ---
 UID: NE:urstypes._URS_HOST_INTERFACE_TYPE
-title: _URS_HOST_INTERFACE_TYPE
+title: "_URS_HOST_INTERFACE_TYPE"
 author: windows-driver-content
 description: Defines values for the various types of USB host controllers.
 old-location: buses\urs_host_interface_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E019CCED-3511-4B7B-B6C9-09FF31B0547A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: URS_HOST_INTERFACE_TYPE, urstypes/URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeEhci, _URS_HOST_INTERFACE_TYPE, buses.urs_host_interface_type, urstypes/UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci, UrsHostInterfaceTypeXhci, urstypes/UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE enumeration [Buses]
+ms.keywords: urstypes/UrsHostInterfaceTypeXhci, UrsHostInterfaceTypeEhci, URS_HOST_INTERFACE_TYPE, urstypes/URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeXhci, URS_HOST_INTERFACE_TYPE enumeration [Buses], _URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeOther, UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeEhci, buses.urs_host_interface_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	urstypes.h
-apiname: 
+apiname:
 -	URS_HOST_INTERFACE_TYPE
 product: Windows
 targetos: Windows

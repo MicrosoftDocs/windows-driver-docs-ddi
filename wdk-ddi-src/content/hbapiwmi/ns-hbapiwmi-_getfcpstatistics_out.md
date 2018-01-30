@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFCPStatistics_OUT
-title: _GetFCPStatistics_OUT
+title: "_GetFCPStatistics_OUT"
 author: windows-driver-content
 description: The GetFCPStatistics_OUT structure is used by the miniport driver to report the output parameters of the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 150773a3-a3a9-41a7-9985-4387bba5a766
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/GetFCPStatistics_OUT, GetFCPStatistics_OUT structure [Storage Devices], PGetFCPStatistics_OUT structure pointer [Storage Devices], storage.getfcpstatistics_out, structs-Fibre_cb7a0157-9213-4c4f-adbe-5855d8cca225.xml, PGetFCPStatistics_OUT, hbapiwmi/PGetFCPStatistics_OUT, _GetFCPStatistics_OUT, *PGetFCPStatistics_OUT, GetFCPStatistics_OUT
+ms.keywords: "_GetFCPStatistics_OUT, structs-Fibre_cb7a0157-9213-4c4f-adbe-5855d8cca225.xml, *PGetFCPStatistics_OUT, GetFCPStatistics_OUT structure [Storage Devices], PGetFCPStatistics_OUT structure pointer [Storage Devices], hbapiwmi/PGetFCPStatistics_OUT, hbapiwmi/GetFCPStatistics_OUT, GetFCPStatistics_OUT, PGetFCPStatistics_OUT, storage.getfcpstatistics_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetFCPStatistics_OUT
 product: Windows
 targetos: Windows

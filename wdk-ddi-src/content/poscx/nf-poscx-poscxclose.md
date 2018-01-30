@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxClose function, poscx/PosCxClose, pos.poscxclose, PosCxClose
+ms.keywords: PosCxClose, pos.poscxclose, poscx/PosCxClose, PosCxClose function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxClose
 product: Windows
 targetos: Windows

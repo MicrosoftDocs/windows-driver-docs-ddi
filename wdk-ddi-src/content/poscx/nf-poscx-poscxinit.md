@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 23FEA770-12E1-44EC-901D-5C660F5F054A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxinit, PosCxInit, PosCxInit function, poscx/PosCxInit
+ms.keywords: poscx/PosCxInit, PosCxInit, PosCxInit function, pos.poscxinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxInit
 product: Windows
 targetos: Windows

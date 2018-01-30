@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PM_PROTOCOL_OFFLOAD_TYPE
-title: _NDIS_PM_PROTOCOL_OFFLOAD_TYPE
+title: "_NDIS_PM_PROTOCOL_OFFLOAD_TYPE"
 author: windows-driver-content
 description: The NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration identifies the type of a protocol offload for NDIS network adapter power management.
 old-location: netvista\ndis_pm_protocol_offload_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab9f98d3-1792-43be-b838-f9dd3953889c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisPMProtocolOffload80211RSNRekey, netvista.ndis_pm_protocol_offload_type, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, ntddndis/NdisPMProtocolOffloadIdMaximum, NdisPMProtocolOffloadIdIPv6NS, ntddndis/NdisPMProtocolOffloadIdIPv6NS, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdUnspecified, NdisPMProtocolOffloadIdMaximum, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdIPv4ARP, *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, ntddndis/NdisPMProtocolOffload80211RSNRekey, NdisPMProtocolOffloadIdUnspecified
+ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NdisPMProtocolOffloadIdMaximum, ntddndis/NdisPMProtocolOffload80211RSNRekey, NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisPMProtocolOffloadIdUnspecified, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE, miniport_power_management_ref_5fcdc741-9efa-48ff-8b03-017859bf80c0.xml, ntddndis/NdisPMProtocolOffloadIdUnspecified, ntddndis/NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffload80211RSNRekey, PNDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMProtocolOffloadIdIPv6NS, _NDIS_PM_PROTOCOL_OFFLOAD_TYPE, NdisPMProtocolOffloadIdIPv6NS, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD_TYPE, netvista.ndis_pm_protocol_offload_type, NdisPMProtocolOffloadIdIPv4ARP, NdisPMProtocolOffloadIdMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PM_PROTOCOL_OFFLOAD_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PM_PROTOCOL_OFFLOAD_TYPE, *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE
+req.typenames: "*PNDIS_PM_PROTOCOL_OFFLOAD_TYPE, NDIS_PM_PROTOCOL_OFFLOAD_TYPE"
 ---
 
 # _NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration

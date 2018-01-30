@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb9ec3d9-89cd-4c56-8020-f8f97c2ce69b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlUnicodeToOemN, RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, ifsk.rtlunicodetooemn
+ms.keywords: rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, RtlUnicodeToOemN routine [Installable File System Drivers], ntifs/RtlUnicodeToOemN, RtlUnicodeToOemN, ifsk.rtlunicodetooemn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlUnicodeToOemN
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+
 <a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
 
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_MI_PARENT_INFORMATION
-title: _USB_MI_PARENT_INFORMATION
+title: "_USB_MI_PARENT_INFORMATION"
 author: windows-driver-content
 description: The USB_MI_PARENT_INFORMATION structure contains information about a composite device.
 old-location: buses\usb_mi_parent_information.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9697f739-0eef-4b58-a9f3-8613f71c18be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION structure [Buses], usbstrct_710c4241-48d7-4fe7-bd1b-268c7c0f2b41.xml, PUSB_MI_PARENT_INFORMATION, _USB_MI_PARENT_INFORMATION, buses.usb_mi_parent_information, *PUSB_MI_PARENT_INFORMATION, usbioctl/USB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION structure pointer [Buses], usbioctl/PUSB_MI_PARENT_INFORMATION
+ms.keywords: USB_MI_PARENT_INFORMATION structure [Buses], usbstrct_710c4241-48d7-4fe7-bd1b-268c7c0f2b41.xml, *PUSB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION, buses.usb_mi_parent_information, PUSB_MI_PARENT_INFORMATION structure pointer [Buses], usbioctl/PUSB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION, _USB_MI_PARENT_INFORMATION, usbioctl/USB_MI_PARENT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_MI_PARENT_INFORMATION
 product: Windows
 targetos: Windows

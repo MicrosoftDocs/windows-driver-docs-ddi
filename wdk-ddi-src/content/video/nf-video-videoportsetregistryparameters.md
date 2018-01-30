@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetRegistryParameters, display.videoportsetregistryparameters, VideoPortSetRegistryParameters function [Display Devices], video/VideoPortSetRegistryParameters, VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml
+ms.keywords: VideoPortSetRegistryParameters function [Display Devices], display.videoportsetregistryparameters, VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, VideoPortSetRegistryParameters, video/VideoPortSetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortSetRegistryParameters function
@@ -116,11 +117,11 @@ In a checked build of any version of the operating system, a value name that beg
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
-
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 <a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
 

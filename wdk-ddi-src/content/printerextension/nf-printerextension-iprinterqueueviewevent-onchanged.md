@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterQueueViewEvent::OnChanged, OnChanged, IPrinterQueueViewEvent::OnChanged, IPrinterQueueViewEvent, OnChanged method [Print Devices], OnChanged method [Print Devices], IPrinterQueueViewEvent interface, print.iprinterqueueviewevent_onchanged, IPrinterQueueViewEvent interface [Print Devices], OnChanged method
+ms.keywords: print.iprinterqueueviewevent_onchanged, IPrinterQueueViewEvent, printerextension/IPrinterQueueViewEvent::OnChanged, OnChanged method [Print Devices], IPrinterQueueViewEvent interface, OnChanged method [Print Devices], OnChanged, IPrinterQueueViewEvent::OnChanged, IPrinterQueueViewEvent interface [Print Devices], OnChanged method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterQueueViewEvent.OnChanged
 product: Windows
 targetos: Windows
@@ -107,13 +107,13 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
-
-<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
-
 <a href="..\printerextension\nn-printerextension-iprinterqueueviewevent.md">IPrinterQueueViewEvent</a>
 
 <a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
+
+<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
+
+<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST_ENTRY
-title: _OPEN_REPARSE_LIST_ENTRY
+title: "_OPEN_REPARSE_LIST_ENTRY"
 author: windows-driver-content
 description: This structure supports callers opening specific reparse points without inhibiting reparse behavior for all classes of reparse points.
 old-location: ifsk\open_reparse_list_entry_.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A6D28F60-FA38-45EA-9E3C-D2E6F899333E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], ntifs/OPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY, ntifs/POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, *POPEN_REPARSE_LIST_ENTRY, ifsk.open_reparse_list_entry_, OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_VERSION_EX, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, _OPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers], OPEN_REPARSE_POINT_TAG_ENCOUNTERED
+ms.keywords: ntifs/OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_TAG_ENCOUNTERED, OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], ntifs/POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_POINT_VERSION_EX, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, _OPEN_REPARSE_LIST_ENTRY, ifsk.open_reparse_list_entry_, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers], POPEN_REPARSE_LIST_ENTRY, *POPEN_REPARSE_LIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	OPEN_REPARSE_LIST_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: OPEN_REPARSE_LIST_ENTRY, *POPEN_REPARSE_LIST_ENTRY
+req.typenames: "*POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY"
 ---
 
 # _OPEN_REPARSE_LIST_ENTRY structure

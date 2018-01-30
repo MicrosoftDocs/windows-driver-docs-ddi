@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, *LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], display.dxva_tcoefsingle, LPDXVA_TCoefSingle, _DXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, dxva/DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices]
+ms.keywords: LPDXVA_TCoefSingle structure pointer [Display Devices], *LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, DXVA_TCoefSingle, display.dxva_tcoefsingle, _DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], dxva/DXVA_TCoefSingle, LPDXVA_TCoefSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,9 +113,9 @@ The DXVA_TCoefSingle structure is used whenever the <i>HostResidDiff</i> flag (b
 
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
  
 

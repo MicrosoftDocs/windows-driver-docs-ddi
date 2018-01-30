@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FS_CONTROL_INFORMATION
-title: _FILE_FS_CONTROL_INFORMATION
+title: "_FILE_FS_CONTROL_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_CONTROL_INFORMATION structure is used to query or set control information for the files in a directory.
 old-location: ifsk\file_fs_control_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], PFILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_fs_control_information, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, ntifs/PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION, _FILE_FS_CONTROL_INFORMATION
+ms.keywords: FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_FS_CONTROL_INFORMATION, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, FILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION, _FILE_FS_CONTROL_INFORMATION, ifsk.file_fs_control_information, ntifs/FILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_FS_CONTROL_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION
+req.typenames: "*PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION"
 ---
 
 # _FILE_FS_CONTROL_INFORMATION structure
@@ -271,17 +271,17 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
 <a href="..\ntifs\nf-ntifs-zwsetvolumeinformationfile.md">ZwSetVolumeInformationFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
  
 

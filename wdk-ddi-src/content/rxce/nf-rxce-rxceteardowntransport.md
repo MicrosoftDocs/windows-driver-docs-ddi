@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 61376532-c78f-4a22-b8b7-ee55ddcb4b57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxceteardowntransport, rxce/RxCeTearDownTransport, rxref_12c54611-8bbf-46bf-9ee9-35072b9322c1.xml, RxCeTearDownTransport function [Installable File System Drivers], RxCeTearDownTransport
+ms.keywords: RxCeTearDownTransport function [Installable File System Drivers], rxce/RxCeTearDownTransport, rxref_12c54611-8bbf-46bf-9ee9-35072b9322c1.xml, ifsk.rxceteardowntransport, RxCeTearDownTransport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeTearDownTransport
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 

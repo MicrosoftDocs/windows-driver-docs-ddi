@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveInputBuffer, PFN_WDFREQUESTRETRIEVEINPUTBUFFER, wdfrequest/WdfRequestRetrieveInputBuffer, DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer method, wdf.wdfrequestretrieveinputbuffer, kmdf.wdfrequestretrieveinputbuffer
+ms.keywords: wdf.wdfrequestretrieveinputbuffer, DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer, kmdf.wdfrequestretrieveinputbuffer, PFN_WDFREQUESTRETRIEVEINPUTBUFFER, WdfRequestRetrieveInputBuffer method, wdfrequest/WdfRequestRetrieveInputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestRetrieveInputBuffer
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._tagAvcCommandType
-title: _tagAvcCommandType
+title: "_tagAvcCommandType"
 author: windows-driver-content
 description: The AvcCommandType enumeration type is used to indicate the type of command issued by a subunit driver to its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_GET_REQUEST function codes.
 old-location: stream\avccommandtype.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18bf43bd-3499-4494-839b-9bc07de83644
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/AVC_CTYPE_CONTROL, AVC_CTYPE_SPEC_INQ, avc/AVC_CTYPE_STATUS, _tagAvcCommandType, AvcCommandType, AVC_CTYPE_GEN_INQ, avc/AvcCommandType, avc/AVC_CTYPE_SPEC_INQ, AVC_CTYPE_CONTROL, avc/AVC_CTYPE_NOTIFY, avc/AVC_CTYPE_GEN_INQ, AVC_CTYPE_NOTIFY, AVC_CTYPE_STATUS, avcref_08c9f0bb-efe0-412d-9a49-ba497bcc6e25.xml, AvcCommandType enumeration [Streaming Media Devices], stream.avccommandtype
+ms.keywords: avcref_08c9f0bb-efe0-412d-9a49-ba497bcc6e25.xml, AVC_CTYPE_SPEC_INQ, avc/AVC_CTYPE_CONTROL, avc/AVC_CTYPE_SPEC_INQ, AVC_CTYPE_GEN_INQ, avc/AVC_CTYPE_STATUS, stream.avccommandtype, AvcCommandType enumeration [Streaming Media Devices], avc/AvcCommandType, AVC_CTYPE_CONTROL, _tagAvcCommandType, AVC_CTYPE_NOTIFY, AvcCommandType, avc/AVC_CTYPE_NOTIFY, AVC_CTYPE_STATUS, avc/AVC_CTYPE_GEN_INQ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	AvcCommandType
 product: Windows
 targetos: Windows
@@ -100,9 +100,9 @@ Specifies a general inquiry command type. This permits a controller to query a t
 
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
 
  
 

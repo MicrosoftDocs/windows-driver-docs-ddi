@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5D1B228D-81D9-47FE-8CF2-41AAD9148667
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicewdmforwardirptoioqueue, WdfDeviceWdmDispatchIrpToIoQueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, kmdf.wdfdevicewdmdispatchirptoioqueue, wdf.wdfdevicewdmdispatchirptoioqueue
+ms.keywords: wdf.wdfdevicewdmdispatchirptoioqueue, WdfDeviceWdmDispatchIrpToIoQueue method, WdfDeviceWdmDispatchIrpToIoQueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue, kmdf.wdfdevicewdmdispatchirptoioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceWdmDispatchIrpToIoQueue
 product: Windows
 targetos: Windows
@@ -120,9 +120,9 @@ If the driver calls <b>WdfDeviceWdmDispatchIrpToIoQueue</b> from within a <a hre
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
 
  
 

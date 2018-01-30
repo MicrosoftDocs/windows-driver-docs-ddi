@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psreferencesilocontext, ntddk/PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], PsReferenceSiloContext
+ms.keywords: kernel.psreferencesilocontext, ntddk/PsReferenceSiloContext, PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
-topictype: 
+req.irql: "_IRQL_requires_max_(DISPATCH_LEVEL)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsReferenceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsReferenceSiloContext function

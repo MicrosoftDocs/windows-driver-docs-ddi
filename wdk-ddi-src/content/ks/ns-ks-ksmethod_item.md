@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 79119458-a6a7-433e-9306-d7a56ca056c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSMETHOD_ITEM, ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, PKSMETHOD_ITEM, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], stream.ksmethod_item, ks/KSMETHOD_ITEM, ks/PKSMETHOD_ITEM, KSMETHOD_ITEM, KSMETHOD_ITEM structure [Streaming Media Devices]
+ms.keywords: "*PKSMETHOD_ITEM, PKSMETHOD_ITEM, KSMETHOD_ITEM, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], stream.ksmethod_item, KSMETHOD_ITEM structure [Streaming Media Devices], ks/KSMETHOD_ITEM, ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, ks/PKSMETHOD_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSMETHOD_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKSMETHOD_ITEM, KSMETHOD_ITEM
+req.typenames: "*PKSMETHOD_ITEM, KSMETHOD_ITEM"
 ---
 
 # KSMETHOD_ITEM structure
@@ -175,11 +175,11 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a>
+<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
 
  
 

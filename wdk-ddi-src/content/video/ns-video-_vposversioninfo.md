@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6335df5-81d9-4a00-8e97-0ebebb987d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVPOSVERSIONINFO structure pointer [Display Devices], display.vposversioninfo, Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, PVPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], *PVPOSVERSIONINFO, video/VPOSVERSIONINFO, _VPOSVERSIONINFO, video/PVPOSVERSIONINFO, VPOSVERSIONINFO
+ms.keywords: "*PVPOSVERSIONINFO, video/VPOSVERSIONINFO, video/PVPOSVERSIONINFO, display.vposversioninfo, PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], VPOSVERSIONINFO structure [Display Devices], VPOSVERSIONINFO, _VPOSVERSIONINFO, Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PVPOSVERSIONINFO, VPOSVERSIONINFO"
+req.product: Windows 10 or later.
 ---
 
 # _VPOSVERSIONINFO structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_WRITE_TIME_INFORMATION
-title: _KEY_WRITE_TIME_INFORMATION
+title: "_KEY_WRITE_TIME_INFORMATION"
 author: windows-driver-content
 description: The KEY_WRITE_TIME_INFORMATION structure is used by the system to set the last write time for a registry key.
 old-location: kernel\key_write_time_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44f68a5a-c7ad-4555-b6b2-6461ac17960a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKEY_WRITE_TIME_INFORMATION, PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PKEY_WRITE_TIME_INFORMATION, wdm/KEY_WRITE_TIME_INFORMATION, kernel.key_write_time_information, _KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_WRITE_TIME_INFORMATION, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, KEY_WRITE_TIME_INFORMATION
+ms.keywords: wdm/PKEY_WRITE_TIME_INFORMATION, _KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PKEY_WRITE_TIME_INFORMATION, wdm/KEY_WRITE_TIME_INFORMATION, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, kernel.key_write_time_information, *PKEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	KEY_WRITE_TIME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: KEY_WRITE_TIME_INFORMATION, *PKEY_WRITE_TIME_INFORMATION
+req.typenames: "*PKEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

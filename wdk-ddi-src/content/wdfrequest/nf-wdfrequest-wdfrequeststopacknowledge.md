@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestStopAcknowledge, DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, kmdf.wdfrequeststopacknowledge, WdfRequestStopAcknowledge method, wdf.wdfrequeststopacknowledge, WdfRequestStopAcknowledge, PFN_WDFREQUESTSTOPACKNOWLEDGE
+ms.keywords: PFN_WDFREQUESTSTOPACKNOWLEDGE, WdfRequestStopAcknowledge method, WdfRequestStopAcknowledge, wdfrequest/WdfRequestStopAcknowledge, wdf.wdfrequeststopacknowledge, DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, kmdf.wdfrequeststopacknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestStopAcknowledge
 product: Windows
 targetos: Windows
@@ -138,11 +138,11 @@ For more information about the <b>WdfRequestStopAcknowledge</b> method, see <a h
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
 
  
 

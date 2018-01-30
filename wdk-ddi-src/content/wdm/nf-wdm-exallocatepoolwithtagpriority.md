@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 33087a37-e6fc-4b21-aa9e-e4617eeccd29
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], ExAllocatePoolWithTagPriority, kernel.exallocatepoolwithtagpriority, k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, wdm/ExAllocatePoolWithTagPriority
+ms.keywords: ExAllocatePoolWithTagPriority, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExAllocatePoolWithTagPriority
 product: Windows
 targetos: Windows
@@ -154,11 +154,11 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
  
 

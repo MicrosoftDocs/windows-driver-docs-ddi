@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81052e73-4dce-48df-8541-5da54e2156d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, ndischimney/NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate
+ms.keywords: tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], ndischimney/NdisMOffloadEventIndicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NdisMOffloadEventIndicate
 product: Windows
 targetos: Windows
@@ -145,13 +145,13 @@ The event being indicated is specified as one of the following INDICATE_OFFLOAD_
 
 
 
-##### - IndicationCode.NeighborReachabilityQuery
+#### NeighborReachabilityQuery
 
 Indicates that a neighbor cache entry (NCE) has become stale. For more information about NCEs,
        see RFC 2461.
 
 
-##### - IndicationCode.NeighborReachabilityInDoubt
+#### NeighborReachabilityInDoubt
 
 Reserved.
 
@@ -176,21 +176,21 @@ The host stack uses the
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 <mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
 
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._IPSEC_OFFLOAD_V2_OPERATION
-title: _IPSEC_OFFLOAD_V2_OPERATION
+title: "_IPSEC_OFFLOAD_V2_OPERATION"
 author: windows-driver-content
 description: The IPSEC_OFFLOAD_V2_OPERATION enumeration specifies the IPsec operation for which a security association (SA) is used.
 old-location: netvista\ipsec_offload_v2_operation.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb26c8af-1564-4cf8-ab40-b50b4811466d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPsecOffloadV2Esp, _IPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, *PIPSEC_OFFLOAD_V2_OPERATION, ndis/PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], ndis/IPSEC_OFFLOAD_V2_OPERATION, netvista.ipsec_offload_v2_operation, IPsecOffloadV2Ah, IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Ah, ndis/IPsecOffloadV2Esp, IPsecOffloadV2Max, ndis/IPsecOffloadV2Max
+ms.keywords: ndis/IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Max, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, ndis/PIPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Ah, IPsecOffloadV2Esp, netvista.ipsec_offload_v2_operation, ndis/IPsecOffloadV2Esp, ndis/IPsecOffloadV2Ah, IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_OPERATION, *PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Max
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	IPSEC_OFFLOAD_V2_OPERATION
 product: Windows
 targetos: Windows

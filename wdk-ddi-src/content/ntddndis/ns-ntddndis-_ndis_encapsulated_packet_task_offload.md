@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
-title: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
+title: "_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD"
 author: windows-driver-content
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure contains the offload support state for Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload (NVGRE-TO).
 old-location: netvista\ndis_encapsulated_packet_task_offload.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EA13DADC-ED00-435D-BEA7-B6E52A86031A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_encapsulated_packet_task_offload, ntddndis/NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
+ms.keywords: netvista.ndis_encapsulated_packet_task_offload, _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
+req.typenames: "*PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD"
 ---
 
 # _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure

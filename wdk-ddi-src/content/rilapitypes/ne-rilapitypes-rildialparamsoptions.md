@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2635f91-005f-45e7-9d6c-92caca7f4452
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, rilapitypes/RIL_DIALOPT_RTTFULL, RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, rilapitypes/RIL_DIALOPT_ALL, rilapitypes/RILDIALPARAMSOPTIONS, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_DIALOPT_PRESENTID, RIL_DIALOPT_RTTFULL, RIL_DIALOPT_RESTRICTID, RILDIALPARAMSOPTIONS, RIL_DIALOPT_PRESENTID, rilapitypes/RIL_DIALOPT_RESTRICTID, RIL_DIALOPT_ALL, netvista.rildialparamsoptions_2
+ms.keywords: rilapitypes/RIL_DIALOPT_RTTFULL, RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, rilapitypes/RIL_DIALOPT_PRESENTID, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_DIALOPT_ALL, rilapitypes/RILDIALPARAMSOPTIONS, RIL_DIALOPT_ALL, RIL_DIALOPT_RESTRICTID, netvista.rildialparamsoptions_2, RILDIALPARAMSOPTIONS, RIL_DIALOPT_RTTFULL, RIL_DIALOPT_PRESENTID, rilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, rilapitypes/RIL_DIALOPT_RESTRICTID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILDIALPARAMSOPTIONS
 product: Windows
 targetos: Windows

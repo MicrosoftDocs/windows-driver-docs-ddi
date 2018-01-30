@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e5b6c24a-a3a5-4736-b9ee-ebb992070a83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], display.d3dddiarg_checkmultiplaneoverlaysupport, d3dumddi/D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
+ms.keywords: "_D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.d3dddiarg_checkmultiplaneoverlaysupport, D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,9 +93,9 @@ typedef struct _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780232">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a>
+
+<a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
 
  
 

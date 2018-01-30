@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d91d48a8-492d-4f23-9c7a-10920c9e4845
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid_2, rilapitypes/RILUICCPRLID
+ms.keywords: rilapitypes/RILUICCPRLID, RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCPRLID
 product: Windows
 targetos: Windows

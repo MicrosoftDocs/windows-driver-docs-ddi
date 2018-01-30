@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5532799d-5c3b-41ba-ab62-dca9c9d9eb56
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, GetTypeSize, wdbgexts/GetTypeSize, debugger.gettypesize, GetTypeSize function [Windows Debugging]
+ms.keywords: debugger.gettypesize, GetTypeSize function [Windows Debugging], GetTypeSize, WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, wdbgexts/GetTypeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # GetTypeSize function

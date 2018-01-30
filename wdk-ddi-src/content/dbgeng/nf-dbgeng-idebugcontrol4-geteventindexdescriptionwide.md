@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, IDebugControl4, GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], dbgeng/IDebugControl4::GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], debugger.geteventindexdescriptionwide, IDebugControl4, GetEventIndexDescriptionWide, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, IDebugControl4::GetEventIndexDescriptionWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetEventIndexDescriptionWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetEventIndexDescriptionWide method

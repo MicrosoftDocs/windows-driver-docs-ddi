@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5dbd1f3-4475-41d2-879a-34618b28b485
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dddicb_waitforsynchronizationobject2
+ms.keywords: d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dddicb_waitforsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

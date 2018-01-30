@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_INFORMATION
-title: _USB_HUB_INFORMATION
+title: "_USB_HUB_INFORMATION"
 author: windows-driver-content
 description: The USB_HUB_INFORMATION structure contains information about a hub.
 old-location: buses\usb_hub_information.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f65789b6-b2d1-4e5d-92b3-10730e76661a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/PUSB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, usbioctl/USB_HUB_INFORMATION, USB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses], _USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], buses.usb_hub_information, PUSB_HUB_INFORMATION
+ms.keywords: USB_HUB_INFORMATION, buses.usb_hub_information, USB_HUB_INFORMATION structure [Buses], usbioctl/USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, _USB_HUB_INFORMATION, PUSB_HUB_INFORMATION, usbioctl/PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], *PUSB_HUB_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_HUB_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION
+req.typenames: "*PUSB_HUB_INFORMATION, USB_HUB_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

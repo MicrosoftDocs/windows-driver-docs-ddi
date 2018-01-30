@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c575bd3f-6790-4815-b7c7-8ee16a9cac17
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer, ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], wdm/ObReferenceObjectByPointer
+ms.keywords: kernel.obreferenceobjectbypointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, wdm/ObReferenceObjectByPointer, ObReferenceObjectByPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObReferenceObjectByPointer
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ Calling this routine prevents the object from being deleted, possibly by another
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 

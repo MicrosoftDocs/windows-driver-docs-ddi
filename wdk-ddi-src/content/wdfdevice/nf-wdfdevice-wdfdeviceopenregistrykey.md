@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ccae1e9-23d4-44cd-ae5a-985490db1d86
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceOpenRegistryKey, wdfdevice/WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, wdf.wdfdeviceopenregistrykey, DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, kmdf.wdfdeviceopenregistrykey
+ms.keywords: WdfDeviceOpenRegistryKey, DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, kmdf.wdfdeviceopenregistrykey, wdfdevice/WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, wdf.wdfdeviceopenregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceOpenRegistryKey
 product: Windows
 targetos: Windows

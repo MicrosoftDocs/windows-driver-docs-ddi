@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_STATE
-title: _WDF_DEVICE_STATE
+title: "_WDF_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_DEVICE_STATE structure specifies a device's Plug and Play state.
 old-location: wdf\wdf_device_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d0a2303-df2b-45fe-9c88-df4bb19a2a9f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, wdf.wdf_device_state, kmdf.wdf_device_state, *PWDF_DEVICE_STATE, WDF_DEVICE_STATE structure, wdfdevice/WDF_DEVICE_STATE, WDF_DEVICE_STATE, _WDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, wdfdevice/PWDF_DEVICE_STATE
+ms.keywords: "_WDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, *PWDF_DEVICE_STATE, wdf.wdf_device_state, WDF_DEVICE_STATE structure, kmdf.wdf_device_state, wdfdevice/WDF_DEVICE_STATE, WDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, wdfdevice/PWDF_DEVICE_STATE, PWDF_DEVICE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_STATE, *PWDF_DEVICE_STATE
+req.typenames: "*PWDF_DEVICE_STATE, WDF_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 

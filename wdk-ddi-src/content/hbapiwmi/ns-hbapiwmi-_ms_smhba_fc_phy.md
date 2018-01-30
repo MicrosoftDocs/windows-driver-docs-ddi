@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_FC_PHY
-title: _MS_SMHBA_FC_PHY
+title: "_MS_SMHBA_FC_PHY"
 author: windows-driver-content
 description: The MS_SMHBA_FC_PHY structure is used to report the physical attributes of a fibre channel port.
 old-location: storage\ms_smhba_fc_phy.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7fb199b6-dcdb-41fc-b1c4-4eef2177018e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MS_SMHBA_FC_PHY, hbapiwmi/PMS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY structure pointer [Storage Devices], *PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml, PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY structure [Storage Devices], hbapiwmi/MS_SMHBA_FC_PHY, storage.ms_smhba_fc_phy
+ms.keywords: "_MS_SMHBA_FC_PHY, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml, *PMS_SMHBA_FC_PHY, storage.ms_smhba_fc_phy, MS_SMHBA_FC_PHY structure [Storage Devices], hbapiwmi/PMS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY structure pointer [Storage Devices], PMS_SMHBA_FC_PHY, hbapiwmi/MS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MS_SMHBA_FC_PHY
 product: Windows
 targetos: Windows
-req.typenames: MS_SMHBA_FC_PHY, *PMS_SMHBA_FC_PHY
+req.typenames: "*PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY"
 ---
 
 # _MS_SMHBA_FC_PHY structure

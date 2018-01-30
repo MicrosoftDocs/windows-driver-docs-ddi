@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LEVEL_TRIM_RANGE
-title: _FILE_LEVEL_TRIM_RANGE
+title: "_FILE_LEVEL_TRIM_RANGE"
 author: windows-driver-content
 description: Contains the offset and length of a trim range for a file.
 old-location: ifsk\file_level_trim_range.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: C74E90C5-9876-4CD1-B9A7-1B32A6AAB474
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_LEVEL_TRIM_RANGE structure pointer [Installable File System Drivers], FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE, _FILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_range, ntifs/PFILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE, ntifs/FILE_LEVEL_TRIM_RANGE
+ms.keywords: PFILE_LEVEL_TRIM_RANGE structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_range, ntifs/PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE, ntifs/FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_LEVEL_TRIM_RANGE
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE
+req.typenames: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE"
 ---
 
 # _FILE_LEVEL_TRIM_RANGE structure

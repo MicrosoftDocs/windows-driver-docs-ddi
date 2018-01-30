@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ad096bb-0012-40fc-a038-2f25d6a59b43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDimmed, display.dxgk_backlight_optimization_level, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationEDR, d3dkmdt/DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
+ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationDesktop, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDimmed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiotargetstatemanagement_remove, Remove method, IWDFIoTargetStateManagement interface, Remove, wudfddi/IWDFIoTargetStateManagement::Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Remove method, IWDFIoTargetStateManagement::Remove, umdf.iwdfiotargetstatemanagement_remove, Remove method
+ms.keywords: IWDFIoTargetStateManagement, umdf.iwdfiotargetstatemanagement_remove, Remove method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_remove, IWDFIoTargetStateManagement interface, Remove method, Remove method, IWDFIoTargetStateManagement::Remove, wudfddi/IWDFIoTargetStateManagement::Remove, Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTargetStateManagement.Remove
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c206d8e7-1a90-4866-868b-20275a52e2dd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, HasField, HasField method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, HasField method [Windows Debugging], ExtRemoteTyped::HasField, debugger.extremotetyped_hasfield, ExtRemoteTyped interface [Windows Debugging], HasField method
+ms.keywords: HasField method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], HasField method, ExtRemoteTyped::HasField, EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, debugger.extremotetyped_hasfield, HasField method [Windows Debugging], ExtRemoteTyped interface, HasField, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.HasField
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::HasField method

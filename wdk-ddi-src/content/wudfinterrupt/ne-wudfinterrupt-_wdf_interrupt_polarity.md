@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfinterrupt._WDF_INTERRUPT_POLARITY
-title: _WDF_INTERRUPT_POLARITY
+title: "_WDF_INTERRUPT_POLARITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity.
 old-location: wdf\wdf_interrupt_polarity_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 30E61DCE-D88C-47B5-B5CD-3C43C6157FBA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_interrupt_polarity, wdf.wdf_interrupt_polarity_umdf, wudfinterrupt/PWDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptPolarityUnknown, wudfinterrupt/WDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, *PWDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, PWDF_INTERRUPT_POLARITY enumeration pointer, PWDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveHigh, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptActiveLow, _WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveLow
+ms.keywords: wudfinterrupt/WdfInterruptPolarityUnknown, PWDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, _WDF_INTERRUPT_POLARITY, wudfinterrupt/PWDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, wdf.wdf_interrupt_polarity_umdf, WDF_INTERRUPT_POLARITY enumeration, wudfinterrupt/WdfInterruptActiveHigh, wudfinterrupt/WDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, wudfinterrupt/WdfInterruptActiveLow, WdfInterruptActiveLow, umdf.wdf_interrupt_polarity, PWDF_INTERRUPT_POLARITY enumeration pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_POLARITY
 product: Windows
 targetos: Windows

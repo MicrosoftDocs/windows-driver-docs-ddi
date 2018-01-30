@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStringType
-title: _PosStringType
+title: "_PosStringType"
 author: windows-driver-content
 description: This structure represents a Point of Service (POS) unicode string with a length of DataLengthInBytes.
 old-location: pos\posstringtype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posstringtype, pointofservicedriverinterface/PosStringType, _PosStringType, PosStringType structure, PosStringType
+ms.keywords: PosStringType, pointofservicedriverinterface/PosStringType, _PosStringType, pos.posstringtype, PosStringType structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosStringType
 product: Windows
 targetos: Windows

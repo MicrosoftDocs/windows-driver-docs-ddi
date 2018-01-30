@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 522C2745-A758-4C58-9891-BD2A70DBE498
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_port_ushort, wdf.read_port_ushort, wudfddi_hwaccess/READ_PORT_USHORT, READ_PORT_USHORT function, READ_PORT_USHORT
+ms.keywords: READ_PORT_USHORT, umdf.read_port_ushort, READ_PORT_USHORT function, wudfddi_hwaccess/READ_PORT_USHORT, wdf.read_port_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_hwaccess.h
-apiname: 
+apiname:
 -	READ_PORT_USHORT
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

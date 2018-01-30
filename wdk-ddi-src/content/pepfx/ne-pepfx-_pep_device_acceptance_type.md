@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_DEVICE_ACCEPTANCE_TYPE
-title: _PEP_DEVICE_ACCEPTANCE_TYPE
+title: "_PEP_DEVICE_ACCEPTANCE_TYPE"
 author: windows-driver-content
 description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72D0BEC2-F5D5-4045-AD63-F263993817B0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceNotAccepted, PepDeviceAcceptedReserved, *PPEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAcceptedReserved, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], _PEP_DEVICE_ACCEPTANCE_TYPE, kernel.pep_device_acceptance_type, PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedMax, pepfx/PepDeviceAccepted, PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAccepted, PepDeviceNotAccepted
+ms.keywords: "*PPEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceNotAccepted, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepDeviceAcceptedReserved, PepDeviceAcceptedMax, kernel.pep_device_acceptance_type, pepfx/PepDeviceAccepted, PepDeviceNotAccepted, PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAccepted, pepfx/PepDeviceAcceptedMax, _PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAcceptedReserved"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_DEVICE_ACCEPTANCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE
+req.typenames: "*PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE"
 ---
 
 # _PEP_DEVICE_ACCEPTANCE_TYPE enumeration

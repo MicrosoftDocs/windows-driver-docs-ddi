@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._BUS_RESET_DATA
-title: _BUS_RESET_DATA
+title: "_BUS_RESET_DATA"
 author: windows-driver-content
 description: The BUS_RESET_DATA structure specifies the context for the extended bus reset notification routine.
 old-location: ieee\bus_reset_data.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BUS_RESET_DATA structure [Buses], PBUS_RESET_DATA structure pointer [Buses], PBUS_RESET_DATA, *PBUS_RESET_DATA, 1394/PBUS_RESET_DATA, _BUS_RESET_DATA, 1394/BUS_RESET_DATA, BUS_RESET_DATA, IEEE.bus_reset_data
+ms.keywords: 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], *PBUS_RESET_DATA, PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, _BUS_RESET_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	BUS_RESET_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PBUS_RESET_DATA, BUS_RESET_DATA
+req.typenames: "*PBUS_RESET_DATA, BUS_RESET_DATA"
 ---
 
 # _BUS_RESET_DATA structure

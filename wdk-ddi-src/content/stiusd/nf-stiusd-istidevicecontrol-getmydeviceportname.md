@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f400ab05-aea9-4154-a725-5b23a6dc06b6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetMyDevicePortName method [Imaging Devices], stiusd/IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, IStiDeviceControl, IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface
+ms.keywords: GetMyDevicePortName method [Imaging Devices], stiusd/IStiDeviceControl::GetMyDevicePortName, IStiDeviceControl, GetMyDevicePortName, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiDeviceControl.GetMyDevicePortName
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

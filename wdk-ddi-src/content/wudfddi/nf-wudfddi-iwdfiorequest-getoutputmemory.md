@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetOutputMemory method, GetOutputMemory method, IWDFIoRequest interface, IWDFIoRequest, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, IWDFIoRequest interface, GetOutputMemory method, GetOutputMemory, wudfddi/IWDFIoRequest::GetOutputMemory, IWDFIoRequest::GetOutputMemory, wdf.iwdfiorequest_getoutputmemory, umdf.iwdfiorequest_getoutputmemory
+ms.keywords: GetOutputMemory method, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest::GetOutputMemory, umdf.iwdfiorequest_getoutputmemory, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest, GetOutputMemory, wudfddi/IWDFIoRequest::GetOutputMemory, wdf.iwdfiorequest_getoutputmemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.GetOutputMemory
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -103,9 +103,9 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
  
 

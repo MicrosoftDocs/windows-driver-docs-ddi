@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.ibidirequest_ibidirequest__getenumcount, IBidiRequest, bidispl/IBidiRequest::IBidiRequest::GetEnumCount, IBidiRequest::IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest interface, _win32_IBidiRequest_GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest::GetEnumCount, IBidiRequest interface [Print Devices], IBidiRequest::GetEnumCount method, GetEnumCount
+ms.keywords: GetEnumCount, IBidiRequest::GetEnumCount, IBidiRequest interface [Print Devices], IBidiRequest::GetEnumCount method, print.ibidirequest_ibidirequest__getenumcount, _win32_IBidiRequest_GetEnumCount, IBidiRequest, gdi.ibidirequest_ibidirequest__getenumcount, IBidiRequest::IBidiRequest::GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], bidispl/IBidiRequest::IBidiRequest::GetEnumCount, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
+apiname:
 -	IBidiRequest.IBidiRequest::GetEnumCount
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiRequest::GetEnumCount method
@@ -138,13 +138,13 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dd144975">IBidiRequest::GetOutputData</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144975">IBidiRequest::GetOutputData</a>
 
  
 

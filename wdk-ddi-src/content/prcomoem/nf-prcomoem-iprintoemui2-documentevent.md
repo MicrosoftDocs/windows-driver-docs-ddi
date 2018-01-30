@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c98d1510-7db8-4fd6-a95f-1906f553d1c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DocumentEvent, IPrintOemUI2::DocumentEvent, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml, DocumentEvent method [Print Devices], IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices], DocumentEvent method, IPrintOemUI2, DocumentEvent method [Print Devices], prcomoem/IPrintOemUI2::DocumentEvent, print.iprintoemui2_documentevent
+ms.keywords: print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml, DocumentEvent method [Print Devices], IPrintOemUI2 interface, DocumentEvent, IPrintOemUI2::DocumentEvent, IPrintOemUI2, print.iprintoemui2_documentevent, prcomoem/IPrintOemUI2::DocumentEvent, DocumentEvent method [Print Devices], IPrintOemUI2 interface [Print Devices], DocumentEvent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI2.DocumentEvent
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -417,6 +417,21 @@ Not used.
 
 
 
+#### If iEsc is DOCUMENTEVENT_ESCAPE:
+
+Function-supplied value that is used as the <i>cbOutput</i> parameter for <b>ExtEscape</b>.
+
+
+#### If iEsc is DOCUMENTEVENT_QUERYFILTER:
+
+Caller-supplied size, in bytes, of the buffer pointer to by <i>pvOut</i>.
+
+
+#### For all other iEsc values:
+
+Not used.
+
+
 ### -param pvOut
 
 Function-supplied pointer to an output buffer, the use of which is dependent on the value supplied for <i>iEsc</i>, as follows. <b>CreateDC</b>, <b>ExtEscape</b>, and <b>ResetDC</b> are described in the Windows SDK documentation.
@@ -519,21 +534,6 @@ The driver does not support the escape code identified by <i>iEsc</i>.
 </table> 
 
 
-##### - cbOut.If iEsc is DOCUMENTEVENT_QUERYFILTER:
-
-Caller-supplied size, in bytes, of the buffer pointer to by <i>pvOut</i>.
-
-
-##### - cbOut.If iEsc is DOCUMENTEVENT_ESCAPE:
-
-Function-supplied value that is used as the <i>cbOutput</i> parameter for <b>ExtEscape</b>.
-
-
-##### - cbOut.For all other iEsc values:
-
-Not used.
-
-
 ## -returns
 
 
@@ -586,13 +586,13 @@ For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
-
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
 <a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
 
 <a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
+
+<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
+
+<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
  
 

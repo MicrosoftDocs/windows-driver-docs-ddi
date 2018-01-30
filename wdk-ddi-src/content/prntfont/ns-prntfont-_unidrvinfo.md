@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UNIDRVINFO
-title: _UNIDRVINFO
+title: "_UNIDRVINFO"
 author: windows-driver-content
 description: The UNIDRVINFO structure is used to specify printer-specific information within Unidrv font metrics files (.ufm files).
 old-location: print\unidrvinfo.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prntfont/PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], print.unidrvinfo, prntfont/UNIDRVINFO, *PUNIDRVINFO, UNIDRVINFO, _UNIDRVINFO, PUNIDRVINFO, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, UNIDRVINFO structure [Print Devices]
+ms.keywords: prntfont/UNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, PUNIDRVINFO, prntfont/PUNIDRVINFO, print.unidrvinfo, UNIDRVINFO structure [Print Devices], *PUNIDRVINFO, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, _UNIDRVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UNIDRVINFO
 product: Windows
 targetos: Windows

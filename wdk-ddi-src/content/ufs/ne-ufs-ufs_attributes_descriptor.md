@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_bConfigDescrLock, UFS_bRefClkFreq, ufs/UFS_bOutOfOrderDataEn, UFS_bDeviceFFUStatus, ufs/UFS_dSecondsPassed, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bBootLunEn, UFS_bOutOfOrderDataEn, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_wContextConf, UFS_dPSADataSize, ufs/UFS_dPSADataSize, UFS_Obsolete, ufs/UFS_Obsolete, UFS_bMaxDataInSize, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxNumOfRTT, ufs/UFS_Reserved01, ufs/UFS_bBackgroundOpStatus, UFS_dSecondsPassed, ufs/UFS_Reserved02, ufs/UFS_bMaxDataOutSize, UFS_bBackgroundOpStatus, ufs/UFS_Reserved03, UFS_bActiveICCLevel, ufs/UFS_bPSAState, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxDataInSize, storage.ufs_attributes_descriptor, UFS_bMaxNumOfRTT, ufs/UFS_wExceptionEventStatus, UFS_Reserved03, UFS_bBootLunEn, ufs/UFS_bActiveICCLevel, UFS_wExceptionEventStatus, UFS_wExceptionEventControl, UFS_bPSAState, ufs/UFS_wExceptionEventControl, UFS_Reserved02, ufs/UFS_bConfigDescrLock, ufs/UFS_wContextConf, UFS_dDynCapNeeded, ufs/UFS_bCurrentPowerMode, UFS_bCurrentPowerMode, UFS_bPurgeStatus, ufs/UFS_bPurgeStatus, ufs/UFS_bRefClkFreq, ufs/UFS_dDynCapNeeded, UFS_bMaxDataOutSize, UFS_Reserved01
+ms.keywords: ufs/UFS_bOutOfOrderDataEn, UFS_bRefClkFreq, UFS_Obsolete, UFS_dPSADataSize, UFS_bBootLunEn, UFS_bMaxDataOutSize, UFS_bMaxNumOfRTT, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bPSAState, ufs/UFS_Reserved01, UFS_bCurrentPowerMode, ufs/UFS_Reserved02, ufs/UFS_Reserved03, ufs/UFS_bPurgeStatus, UFS_bDeviceFFUStatus, ufs/UFS_wExceptionEventControl, UFS_dDynCapNeeded, ufs/UFS_bBootLunEn, UFS_wContextConf, ufs/UFS_bRefClkFreq, UFS_bBackgroundOpStatus, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxNumOfRTT, UFS_Reserved03, UFS_Reserved02, ufs/UFS_dPSADataSize, ufs/UFS_bBackgroundOpStatus, UFS_wExceptionEventStatus, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bActiveICCLevel, UFS_bActiveICCLevel, UFS_bPurgeStatus, UFS_bMaxDataInSize, UFS_bPSAState, UFS_bConfigDescrLock, ufs/UFS_bCurrentPowerMode, ufs/UFS_dSecondsPassed, UFS_dSecondsPassed, ufs/UFS_Obsolete, UFS_bOutOfOrderDataEn, ufs/UFS_wExceptionEventStatus, ufs/UFS_bMaxDataOutSize, ufs/UFS_dDynCapNeeded, ufs/UFS_bMaxDataInSize, UFS_wExceptionEventControl, ufs/UFS_bConfigDescrLock, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], storage.ufs_attributes_descriptor, ufs/UFS_wContextConf, UFS_Reserved01
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ufs.h
-apiname: 
+apiname:
 -	UFS_ATTRIBUTES_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -409,25 +409,25 @@ microcode activation event occurs.
 
 ## -see-also
 
+<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
 <a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
-
 <a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
 
  
 

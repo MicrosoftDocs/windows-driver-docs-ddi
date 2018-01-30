@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks::CreateThread, CreateThread, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, CreateThread method [Windows Debugging], ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, debugger.idebugeventcallbacks_createthread, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks, CreateThread method [Windows Debugging], IDebugEventCallbacks interface
+ms.keywords: debugger.idebugeventcallbacks_createthread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks::CreateThread, CreateThread method [Windows Debugging], IDebugEventCallbacks interface, CreateThread, CreateThread method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.CreateThread
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::CreateThread method

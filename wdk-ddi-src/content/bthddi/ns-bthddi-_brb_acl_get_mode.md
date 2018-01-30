@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2fe473c8-dcf9-4457-b1b1-c55b3eaa68e6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_acl_get_mode, _BRB_ACL_GET_MODE, _BRB_ACL_GET_MODE structure [Bluetooth Devices], bthddi/_BRB_ACL_GET_MODE, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml
+ms.keywords: "_BRB_ACL_GET_MODE, bthddi/_BRB_ACL_GET_MODE, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml, _BRB_ACL_GET_MODE structure [Bluetooth Devices], bltooth._brb_acl_get_mode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

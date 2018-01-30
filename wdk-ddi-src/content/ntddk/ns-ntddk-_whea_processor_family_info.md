@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_FAMILY_INFO
-title: _WHEA_PROCESSOR_FAMILY_INFO
+title: "_WHEA_PROCESSOR_FAMILY_INFO"
 author: windows-driver-content
 description: The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information for an x86 or x64 processor.
 old-location: whea\whea_processor_family_info.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], ntddk/PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications]
+ms.keywords: PWHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], *PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], _WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_PROCESSOR_FAMILY_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO
+req.typenames: "*PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO"
 ---
 
 # _WHEA_PROCESSOR_FAMILY_INFO structure
@@ -133,16 +133,6 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - Reserved2
-
-Reserved for system use.
-
-
 #### - Stepping
 
 The stepping of the processor.
@@ -153,14 +143,24 @@ The stepping of the processor.
 The processor model identifier.
 
 
+#### - Family
+
+The processor family identifier.
+
+
 #### - ProcessorType
 
 The processor type identifier.
 
 
-#### - Family
+#### - Reserved1
 
-The processor family identifier.
+Reserved for system use.
+
+
+#### - ExtendedModel
+
+The extended processor model identifier.
 
 
 #### - ExtendedFamily
@@ -168,7 +168,7 @@ The processor family identifier.
 The extended processor family identifier.
 
 
-#### - Reserved1
+#### - Reserved2
 
 Reserved for system use.
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CIPHER_KEY_TYPE
-title: _WDI_CIPHER_KEY_TYPE
+title: "_WDI_CIPHER_KEY_TYPE"
 author: windows-driver-content
 description: The WDI_CIPHER_KEY_TYPE enumeration defines the cipher key types.
 old-location: netvista\wdi_cipher_key_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09874F77-5A9C-4C98-996F-29BB90CAE4B6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE, netvista.wifi_cipher_key_type, netvista.wdi_cipher_key_type, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], WDI_CIPHER_KEY_TYPE, _WDI_CIPHER_KEY_TYPE
+ms.keywords: netvista.wifi_cipher_key_type, WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], WDI_CIPHER_KEY_TYPE_IGTK, _WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, netvista.wdi_cipher_key_type, wditypes/WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, wditypes/WDI_CIPHER_KEY_TYPE_IGTK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_CIPHER_KEY_TYPE
 product: Windows
 targetos: Windows

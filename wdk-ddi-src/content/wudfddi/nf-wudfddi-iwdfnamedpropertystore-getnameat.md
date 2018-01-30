@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfnamedpropertystore_getnameat, wudfddi/IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, GetNameAt method, IWDFNamedPropertyStore, GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, GetNameAt method, IWDFNamedPropertyStore interface, wdf.iwdfnamedpropertystore_getnameat
+ms.keywords: GetNameAt method, GetNameAt method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, IWDFNamedPropertyStore::GetNameAt, wudfddi/IWDFNamedPropertyStore::GetNameAt, wdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore interface, GetNameAt method, GetNameAt, umdf.iwdfnamedpropertystore_getnameat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFNamedPropertyStore.GetNameAt
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

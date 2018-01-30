@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2318d02-f52e-4b5b-86da-04df7b31b7d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml, display.dxva_mbctrl_i_hostresiddiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], DXVA_MBctrl_I_HostResidDiff_1, *LPDXVA_MBctrl_I_HostResidDiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, _DXVA_MBctrl_I_HostResidDiff_1
+ms.keywords: "_DXVA_MBctrl_I_HostResidDiff_1, *LPDXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], dxva/DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, display.dxva_mbctrl_i_hostresiddiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -261,9 +261,9 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
-
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
  
 

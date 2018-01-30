@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6f0a8c1f-e3cb-4bcb-a9ec-4d4b7555a314
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALLMEDIAVIDEOFLAG_ALL, netvista.rilcallmediavideoflagparammask_2, RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIAVIDEOFLAGPARAMMASK, RIL_CALLMEDIAVIDEOFLAG_PAUSE, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_ALL, RILCALLMEDIAVIDEOFLAGPARAMMASK, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_PAUSE, RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN
+ms.keywords: RILCALLMEDIAVIDEOFLAGPARAMMASK, rilapitypes/RILCALLMEDIAVIDEOFLAGPARAMMASK, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_PAUSE, RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, RIL_CALLMEDIAVIDEOFLAG_ALL, netvista.rilcallmediavideoflagparammask_2, RIL_CALLMEDIAVIDEOFLAG_PAUSE, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE, RILCALLMEDIAVIDEOFLAGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN, rilapitypes/RIL_CALLMEDIAVIDEOFLAG_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIAVIDEOFLAGPARAMMASK
 product: Windows
 targetos: Windows

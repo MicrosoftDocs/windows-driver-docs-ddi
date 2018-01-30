@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestGetController, spbcx/SpbRequestGetController, SPB.spbrequestgetcontroller, SpbRequestGetController method [Buses]
+ms.keywords: SpbRequestGetController method [Buses], spbcx/SpbRequestGetController, SPB.spbrequestgetcontroller, SpbRequestGetController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Spbcxstubs.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname: 
+apiname:
 -	SpbRequestGetController
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 

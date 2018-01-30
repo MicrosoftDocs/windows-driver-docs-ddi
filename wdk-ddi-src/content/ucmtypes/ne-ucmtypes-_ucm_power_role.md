@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_POWER_ROLE
-title: _UCM_POWER_ROLE
+title: "_UCM_POWER_ROLE"
 author: windows-driver-content
 description: Defines power roles of USB Type-C connected devices.
 old-location: buses\ucm_power_role.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmPowerRoleSink, buses.ucm_power_role, _UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSource, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSource, UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSink
+ms.keywords: UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource, ucmtypes/UcmPowerRoleSink, UCM_POWER_ROLE enumeration [Buses], _UCM_POWER_ROLE, ucmtypes/UCM_POWER_ROLE, UCM_POWER_ROLE, UcmPowerRoleSource, UcmPowerRoleInvalid, buses.ucm_power_role, ucmtypes/UcmPowerRoleInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_POWER_ROLE
 product: Windows
 targetos: Windows
@@ -87,11 +87,11 @@ Indicates the power role is set to source power.
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
-
 <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
 
  
 

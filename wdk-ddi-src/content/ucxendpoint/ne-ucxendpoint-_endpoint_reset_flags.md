@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxendpoint._ENDPOINT_RESET_FLAGS
-title: _ENDPOINT_RESET_FLAGS
+title: "_ENDPOINT_RESET_FLAGS"
 author: windows-driver-content
 description: Defines parameters for a request to reset an endpoint.
 old-location: buses\endpoint_reset_flags.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3775836D-DC1E-47B4-8186-2AC329825FCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ENDPOINT_RESET_FLAGS, ucxendpoint/ENDPOINT_RESET_FLAGS, _ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState, ENDPOINT_RESET_FLAGS enumeration [Buses], buses.endpoint_reset_flags, FlagEndpointResetPreserveTransferState
+ms.keywords: buses.endpoint_reset_flags, ENDPOINT_RESET_FLAGS enumeration [Buses], ENDPOINT_RESET_FLAGS, ucxendpoint/ENDPOINT_RESET_FLAGS, _ENDPOINT_RESET_FLAGS, FlagEndpointResetPreserveTransferState, ucxendpoint/FlagEndpointResetPreserveTransferState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	ENDPOINT_RESET_FLAGS
 product: Windows
 targetos: Windows

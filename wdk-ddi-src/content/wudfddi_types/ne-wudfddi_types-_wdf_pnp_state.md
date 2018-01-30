@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PNP_STATE
-title: _WDF_PNP_STATE
+title: "_WDF_PNP_STATE"
 author: windows-driver-content
 description: The WDF_PNP_STATE enumeration contains values that identify the status of Plug and Play (PnP) for a device.
 old-location: wdf\wdf_pnp_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f17a6d52-5f68-470c-9f45-6a175e0fbf01
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPnpStateInvalid, WdfPnpStateDisabled, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, _WDF_PNP_STATE, WdfPnpStateFailed, wdf.wdf_pnp_state, WdfPnpStateDontDisplayInUI, WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateNotDisableable, umdf.wdf_pnp_state, wudfddi_types/WdfPnpStateRemoved, WdfPnpStateMaximum, wudfddi_types/WdfPnpStateMaximum, WDF_PNP_STATE, wudfddi_types/WdfPnpStateInvalid, WdfPnpStateNotDisableable, WdfPnpStateRemoved, WDF_PNP_STATE enumeration, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateResourcesChanged, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateFailed
+ms.keywords: WdfPnpStateMaximum, WdfPnpStateResourcesChanged, WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateNotDisableable, WdfPnpStateDisabled, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, WdfPnpStateRemoved, _WDF_PNP_STATE, wdf.wdf_pnp_state, wudfddi_types/WdfPnpStateInvalid, wudfddi_types/WdfPnpStateDisabled, WDF_PNP_STATE enumeration, WdfPnpStateFailed, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateDontDisplayInUI, WdfPnpStateNotDisableable, umdf.wdf_pnp_state, wudfddi_types/WdfPnpStateMaximum, wudfddi_types/WdfPnpStateRemoved, WDF_PNP_STATE, wudfddi_types/WDF_PNP_STATE, WdfPnpStateInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_PNP_STATE
 product: Windows
 targetos: Windows
@@ -126,9 +126,9 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_STATE</b> to the <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
 
  
 

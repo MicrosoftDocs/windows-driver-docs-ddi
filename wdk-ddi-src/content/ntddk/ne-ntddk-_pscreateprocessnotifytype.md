@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._PSCREATEPROCESSNOTIFYTYPE
-title: _PSCREATEPROCESSNOTIFYTYPE
+title: "_PSCREATEPROCESSNOTIFYTYPE"
 author: windows-driver-content
 description: Indicates the type of process notification. This enumeration is used in PsSetCreateProcessNotifyRoutineEx2 to register callback notifications.
 old-location: kernel\pscreateprocessnotifytype.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems, kernel.pscreateprocessnotifytype, _PSCREATEPROCESSNOTIFYTYPE, ntddk/PSCREATEPROCESSNOTIFYTYPE, PsCreateProcessNotifySubsystems, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pscreateprocessnotifytype, ntddk/PsCreateProcessNotifySubsystems, PsCreateProcessNotifySubsystems, ntddk/PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], _PSCREATEPROCESSNOTIFYTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	PSCREATEPROCESSNOTIFYTYPE
 product: Windows
 targetos: Windows

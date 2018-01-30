@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: xpsrassvc/IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory::CreateRasterizer, IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, CreateRasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, IXpsRasterizationFactory, CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface
+ms.keywords: CreateRasterizer method [Print Devices], CreateRasterizer, IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory, IXpsRasterizationFactory::CreateRasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, print.ixpsrasterizationfactory_createrasterizer, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	xpsrassvc.h
-apiname: 
+apiname:
 -	IXpsRasterizationFactory.CreateRasterizer
 product: Windows
 targetos: Windows

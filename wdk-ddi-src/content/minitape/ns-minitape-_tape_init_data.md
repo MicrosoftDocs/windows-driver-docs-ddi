@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_INIT_DATA
-title: _TAPE_INIT_DATA
+title: "_TAPE_INIT_DATA"
 author: windows-driver-content
 description: TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use TAPE_INIT_DATA_EX instead.
 old-location: storage\tape_init_data.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11f5201b-ddd3-43ad-9746-a1a9885c99b1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TAPE_INIT_DATA, minitape/TAPE_INIT_DATA, *PTAPE_INIT_DATA, structs-tape_53b2f7ff-8718-4ac7-9a02-9c2f066b6884.xml, storage.tape_init_data, TAPE_INIT_DATA structure [Storage Devices], _TAPE_INIT_DATA
+ms.keywords: "_TAPE_INIT_DATA, structs-tape_53b2f7ff-8718-4ac7-9a02-9c2f066b6884.xml, storage.tape_init_data, minitape/TAPE_INIT_DATA, TAPE_INIT_DATA structure [Storage Devices], TAPE_INIT_DATA, *PTAPE_INIT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Minitape.h
-apiname: 
+apiname:
 -	TAPE_INIT_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_INIT_DATA, TAPE_INIT_DATA
+req.typenames: "*PTAPE_INIT_DATA, TAPE_INIT_DATA"
 ---
 
 # _TAPE_INIT_DATA structure

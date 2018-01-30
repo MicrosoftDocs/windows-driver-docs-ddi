@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SCSI_POWER_REQUEST_BLOCK
-title: _SCSI_POWER_REQUEST_BLOCK
+title: "_SCSI_POWER_REQUEST_BLOCK"
 author: windows-driver-content
 description: The SCSI_POWER_REQUEST_BLOCK structure is a special version of a SCSI_REQUEST_BLOCK that is used for power management requests.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsi_power_request_block.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], _SCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, *PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK
+ms.keywords: structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], storport/PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], storport/SCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, PSCSI_POWER_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	SCSI_POWER_REQUEST_BLOCK
 product: Windows
 targetos: Windows
@@ -224,9 +224,9 @@ The miniport can access the adapter's hardware resources.
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
  
 

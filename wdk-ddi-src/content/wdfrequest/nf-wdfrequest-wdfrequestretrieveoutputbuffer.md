@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveOutputBuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
+ms.keywords: PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER, WdfRequestRetrieveOutputBuffer method, wdfrequest/WdfRequestRetrieveOutputBuffer, wdf.wdfrequestretrieveoutputbuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, kmdf.wdfrequestretrieveoutputbuffer, WdfRequestRetrieveOutputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestRetrieveOutputBuffer
 product: Windows
 targetos: Windows
@@ -190,9 +190,9 @@ For more information about <b>WdfRequestRetrieveOutputBuffer</b>, see <a href="h
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">WdfRequestRetrieveInputBuffer</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
  
 

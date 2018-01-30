@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f17f6935-02ad-44f4-a82a-0d51802fde6f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasSetPropChanged, wiasFncs_8ad54c6e-3a20-4099-a139-1a05f6ee1e5e.xml, wiasSetPropChanged function [Imaging Devices], wiamdef/wiasSetPropChanged, image.wiassetpropchanged
+ms.keywords: wiamdef/wiasSetPropChanged, wiasSetPropChanged, image.wiassetpropchanged, wiasFncs_8ad54c6e-3a20-4099-a139-1a05f6ee1e5e.xml, wiasSetPropChanged function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasSetPropChanged
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -101,9 +101,9 @@ The <b>pChanged</b> member of the <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_pr
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 357605a1-5c57-44ed-97b3-f466f9a7182c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], NdisAllocateCloneNetBufferList, netvista.ndisallocateclonenetbufferlist, ndis/NdisAllocateCloneNetBufferList, ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml
+ms.keywords: ndis/NdisAllocateCloneNetBufferList, netvista.ndisallocateclonenetbufferlist, NdisAllocateCloneNetBufferList, NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAllocateCloneNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateCloneNetBufferList function
@@ -102,12 +102,12 @@ NDIS flags that can be combined with an OR operation. The following flags are de
 
 
 
-##### - AllocateCloneFlags.NDIS_CLONE_FLAGS_RESERVED
+#### NDIS_CLONE_FLAGS_RESERVED
 
 Reserved for NDIS.
 
 
-##### - AllocateCloneFlags.NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS
+#### NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS
 
 If this flag is set, NDIS does not allocate new MDLs for the cloned <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>. Instead,
        the cloned <b>NET_BUFFER_LIST</b> uses the same MDL chain as the original <b>NET_BUFFER_LIST</b>. If
@@ -157,18 +157,18 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreeclonenetbufferlist.md">NdisFreeCloneNetBufferList</a>
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
+   NdisAllocateNetBufferListPool</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisfreeclonenetbufferlist.md">NdisFreeCloneNetBufferList</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

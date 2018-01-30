@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, CcZeroData, ntifs/CcZeroData
+ms.keywords: ifsk.cczerodata, CcZeroData routine [Installable File System Drivers], CcZeroData, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ntifs/CcZeroData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcZeroData
 product: Windows
 targetos: Windows
@@ -127,9 +127,9 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 

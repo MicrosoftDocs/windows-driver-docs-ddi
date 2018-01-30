@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler::KsCompleteIoOperation, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, stream.iksdatatypehandler_kscompleteiooperation, IKsDataTypeHandler
+ms.keywords: ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, stream.iksdatatypehandler_kscompleteiooperation, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsDataTypeHandler.KsCompleteIoOperation
 product: Windows
 targetos: Windows

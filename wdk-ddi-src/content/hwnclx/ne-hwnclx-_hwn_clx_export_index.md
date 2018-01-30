@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HwNExportLastExportIndex, RegisterClientIndex, HWN_CLX_EXPORT_INDEX enumeration, gpiobtn._hwn_clx_export_index, HWN_CLX_EXPORT_INDEX, hwnclx/AddDevicePostDeviceCreateIndex, AddDevicePostDeviceCreateIndex, hwnclx/HwNExportLastExportIndex, _HWN_CLX_EXPORT_INDEX, hwnclx/RegisterClientIndex, hwnclx/AddDevicePreDeviceCreateIndex, *PHWN_CLX_EXPORT_INDEX, UnregisterClientIndex, hwnclx/UnregisterClientIndex, AddDevicePreDeviceCreateIndex, hwnclx/HWN_CLX_EXPORT_INDEX
+ms.keywords: HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX enumeration, *PHWN_CLX_EXPORT_INDEX, gpiobtn._hwn_clx_export_index, AddDevicePostDeviceCreateIndex, AddDevicePreDeviceCreateIndex, hwnclx/RegisterClientIndex, HWN_CLX_EXPORT_INDEX, hwnclx/HwNExportLastExportIndex, hwnclx/AddDevicePostDeviceCreateIndex, _HWN_CLX_EXPORT_INDEX, UnregisterClientIndex, hwnclx/UnregisterClientIndex, hwnclx/AddDevicePreDeviceCreateIndex, RegisterClientIndex, hwnclx/HWN_CLX_EXPORT_INDEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,9 +104,9 @@ Position of the last hardware notification in the export table.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
-
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
 
  
 

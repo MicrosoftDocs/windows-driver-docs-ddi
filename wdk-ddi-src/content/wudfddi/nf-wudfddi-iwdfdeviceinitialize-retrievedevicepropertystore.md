@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, IWDFDeviceInitialize, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, wdf.iwdfdeviceinitialize_retrievedevicepropertystore
+ms.keywords: IWDFDeviceInitialize::RetrieveDevicePropertyStore, IWDFDeviceInitialize, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, RetrieveDevicePropertyStore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore, umdf.iwdfdeviceinitialize_retrievedevicepropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDeviceInitialize.RetrieveDevicePropertyStore
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -116,9 +116,9 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
  
 

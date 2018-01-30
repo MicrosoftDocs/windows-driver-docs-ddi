@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f74ea9da-71ba-466a-b102-78d999d38096
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DESTROYDEVICE, D3DKMT_DESTROYDEVICE, d3dkmthk/D3DKMT_DESTROYDEVICE, OpenGL_Structs_dc051065-8102-453f-81cd-aa39ee592926.xml, D3DKMT_DESTROYDEVICE structure [Display Devices], display.d3dkmt_destroydevice"
+ms.keywords: D3DKMT_DESTROYDEVICE structure [Display Devices], D3DKMT_DESTROYDEVICE, d3dkmthk/D3DKMT_DESTROYDEVICE, OpenGL_Structs_dc051065-8102-453f-81cd-aa39ee592926.xml, _D3DKMT_DESTROYDEVICE, display.d3dkmt_destroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,9 +74,9 @@ typedef struct _D3DKMT_DESTROYDEVICE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroydevice.md">D3DKMTDestroyDevice</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
 
  
 

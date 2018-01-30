@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b6955a5-ca03-418d-9eba-fdbe48599922
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadControlSpace function [Windows Debugging], ReadControlSpace, WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, debugger.readcontrolspace, wdbgexts/ReadControlSpace
+ms.keywords: ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, wdbgexts/ReadControlSpace, ReadControlSpace, debugger.readcontrolspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # ReadControlSpace function

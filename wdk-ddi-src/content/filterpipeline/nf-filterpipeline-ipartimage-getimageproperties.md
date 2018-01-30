@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPartImage interface [Print Devices], GetImageProperties method, GetImageProperties method [Print Devices], IPartImage interface, print.ipartimage_getimageproperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, IPartImage::GetImageProperties, GetImageProperties method [Print Devices], filterpipeline/IPartImage::GetImageProperties, IPartImage, GetImageProperties
+ms.keywords: filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, IPartImage, GetImageProperties, IPartImage::GetImageProperties, print.ipartimage_getimageproperties, GetImageProperties method [Print Devices], IPartImage interface [Print Devices], GetImageProperties method, GetImageProperties method [Print Devices], IPartImage interface, filterpipeline/IPartImage::GetImageProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartImage.GetImageProperties
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState method, IWDFDevice interface, IWDFDevice, umdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice interface, AssignDeviceInterfaceState method, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, AssignDeviceInterfaceState, wudfddi/IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState method
+ms.keywords: UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, IWDFDevice::AssignDeviceInterfaceState, IWDFDevice, AssignDeviceInterfaceState, wdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice interface, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method, IWDFDevice interface, wudfddi/IWDFDevice::AssignDeviceInterfaceState, umdf.iwdfdevice_assigndeviceinterfacestate, AssignDeviceInterfaceState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.AssignDeviceInterfaceState
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

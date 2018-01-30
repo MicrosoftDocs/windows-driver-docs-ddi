@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6631aa7-e3ba-4768-a55a-6a66d1ee84c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGroupActiveProcessorCount function [Network Drivers Starting with Windows Vista], netvista.ndisgroupactiveprocessorcount, ndis/NdisGroupActiveProcessorCount, NdisGroupActiveProcessorCount, ndis_processor_group_ref_43adb4cc-e1a6-4a67-ada7-47b38078e357.xml
+ms.keywords: ndis/NdisGroupActiveProcessorCount, NdisGroupActiveProcessorCount, netvista.ndisgroupactiveprocessorcount, NdisGroupActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_43adb4cc-e1a6-4a67-ada7-47b38078e357.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGroupActiveProcessorCount
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGroupActiveProcessorCount function

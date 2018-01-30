@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cff4bd05-b70d-4c07-a6c0-7ee4287aeab0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsDereferencePrimaryToken routine [Installable File System Drivers], psref_d3e4caeb-19a5-49d5-909a-5cb78a54f2e5.xml, ifsk.psdereferenceprimarytoken, PsDereferencePrimaryToken, ntifs/PsDereferencePrimaryToken
+ms.keywords: ntifs/PsDereferencePrimaryToken, PsDereferencePrimaryToken, psref_d3e4caeb-19a5-49d5-909a-5cb78a54f2e5.xml, ifsk.psdereferenceprimarytoken, PsDereferencePrimaryToken routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsDereferencePrimaryToken
 product: Windows
 targetos: Windows

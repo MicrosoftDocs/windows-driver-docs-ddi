@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d11eb8f7-b670-45f3-8f90-6ea4db19bb20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, ntddrilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_ALL, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMOA_CHANGE, netvista.rilcallmediaofferanswerparammask, ntddrilapitypes/RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_OLD_STATE, ntddrilapitypes/RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_OLD_STATE
+ms.keywords: netvista.rilcallmediaofferanswerparammask, ntddrilapitypes/RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_OLD_STATE, RIL_PARAM_CMOA_CHANGE, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_NEW_STATE, RILCALLMEDIAOFFERANSWERPARAMMASK, ntddrilapitypes/RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_OLD_STATE, ntddrilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, RIL_PARAM_CMOA_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIAOFFERANSWERPARAMMASK
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlclient._DOT11_ADAPTER
-title: _DOT11_ADAPTER
+title: "_DOT11_ADAPTER"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_adapter.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _DOT11_ADAPTER, netvista.dot11_adapter, PDOT11_ADAPTER, wlclient/PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, wlclient/DOT11_ADAPTER, *PDOT11_ADAPTER
+ms.keywords: Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, DOT11_ADAPTER, _DOT11_ADAPTER, wlclient/DOT11_ADAPTER, PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_adapter, wlclient/PDOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], *PDOT11_ADAPTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlclient.h
-apiname: 
+apiname:
 -	DOT11_ADAPTER
 product: Windows
 targetos: Windows
-req.typenames: DOT11_ADAPTER, *PDOT11_ADAPTER
+req.typenames: "*PDOT11_ADAPTER, DOT11_ADAPTER"
 req.product: Windows 10 or later.
 ---
 
@@ -110,12 +110,12 @@ The operating system calls the
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 <mshelp:link keywords="netvista.native_802_11_ihv_handler_functions" tabindex="0">Native 802.11 IHV Handler
    Functions</mshelp:link>
 
 <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
  
 

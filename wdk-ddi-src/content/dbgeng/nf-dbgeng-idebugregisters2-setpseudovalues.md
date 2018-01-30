@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, dbgeng/IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, IDebugRegisters2
+ms.keywords: debugger.setpseudovalues, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, IDebugRegisters2::SetPseudoValues, SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues method [Windows Debugging], IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.SetPseudoValues
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::SetPseudoValues method

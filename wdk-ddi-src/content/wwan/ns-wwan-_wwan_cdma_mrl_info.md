@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CDMA_MRL_INFO
-title: _WWAN_CDMA_MRL_INFO
+title: "_WWAN_CDMA_MRL_INFO"
 author: windows-driver-content
 description: The WWAN_CDMA_MRL_INFO structure represents information about a CDMA serving cell or neighboring cell.
 old-location: netvista\wwan_cdma_mrl_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D8633E80-C7A3-4050-8E8E-8AE459F905D5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, wwan/PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO, _WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_CDMA_MRL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CDMA_MRL_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO
+req.typenames: WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO
 req.product: Windows 10 or later.
 ---
 

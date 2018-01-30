@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_PD_CONN_STATE
-title: _UCM_PD_CONN_STATE
+title: "_UCM_PD_CONN_STATE"
 author: windows-driver-content
 description: Defines power delivery (PD) negotiation states of a Type-C port.
 old-location: buses\ucm_pd_conn_state.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmPdConnStateNegotiationFailed, UCM_PD_CONN_STATE, UcmPdConnStateNotSupported, ucmtypes/UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNotSupported, UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateInvalid, UCM_PD_CONN_STATE enumeration [Buses], buses.ucm_pd_conn_state, UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateNegotiationFailed
+ms.keywords: UcmPdConnStateNotSupported, ucmtypes/UcmPdConnStateNotSupported, _UCM_PD_CONN_STATE, buses.ucm_pd_conn_state, ucmtypes/UCM_PD_CONN_STATE, UCM_PD_CONN_STATE enumeration [Buses], UcmPdConnStateInvalid, UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateInvalid, UCM_PD_CONN_STATE, UcmPdConnStateNegotiationSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_PD_CONN_STATE
 product: Windows
 targetos: Windows

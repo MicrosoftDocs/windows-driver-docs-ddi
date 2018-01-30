@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90F4CE6D-F51A-4B18-B328-63AF4D71A690
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], KeConvertAuxiliaryCounterToPerformanceCounter, kernel.keconvertauxiliarycountertoperformancecounter
+ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], wdm/KeConvertAuxiliaryCounterToPerformanceCounter, kernel.keconvertauxiliarycountertoperformancecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hal.dll
-apiname: 
+apiname:
 -	KeConvertAuxiliaryCounterToPerformanceCounter
 product: Windows
 targetos: Windows

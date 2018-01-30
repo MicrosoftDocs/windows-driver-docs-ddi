@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPBindingEntry2
-title: _HBAFCPBindingEntry2
+title: "_HBAFCPBindingEntry2"
 author: windows-driver-content
 description: The HBAFCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hbafcpbindingentry2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBAFCPBindingEntry2, storage.hbafcpbindingentry2, hbapiwmi/PHBAFCPBindingEntry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, PHBAFCPBindingEntry2 structure pointer [Storage Devices], *PHBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], hbapiwmi/HBAFCPBindingEntry2, HBAFCPBindingEntry2, _HBAFCPBindingEntry2
+ms.keywords: storage.hbafcpbindingentry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, HBAFCPBindingEntry2, *PHBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], _HBAFCPBindingEntry2, PHBAFCPBindingEntry2, hbapiwmi/PHBAFCPBindingEntry2, PHBAFCPBindingEntry2 structure pointer [Storage Devices], hbapiwmi/HBAFCPBindingEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hbapiwmi.h
-apiname: 
+apiname:
 -	HBAFCPBindingEntry2
 product: Windows
 targetos: Windows
@@ -166,9 +166,9 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556036">HBAFCPBindingEntry2 WMI Class</a>
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556036">HBAFCPBindingEntry2 WMI Class</a>
 
  
 

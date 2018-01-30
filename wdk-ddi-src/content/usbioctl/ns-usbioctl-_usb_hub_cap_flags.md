@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_CAP_FLAGS
-title: _USB_HUB_CAP_FLAGS
+title: "_USB_HUB_CAP_FLAGS"
 author: windows-driver-content
 description: The USB_HUB_CAP_FLAGS structure is used to report the capabilities of a hub.
 old-location: buses\usb_hub_cap_flags.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4f3f01f2-d5ef-4b41-8733-ac44952dc9a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], _USB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml, *PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], buses.usb_hub_cap_flags, PUSB_HUB_CAP_FLAGS, usbioctl/PUSB_HUB_CAP_FLAGS
+ms.keywords: USB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], *PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml, USB_HUB_CAP_FLAGS union [Buses], PUSB_HUB_CAP_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_HUB_CAP_FLAGS
 product: Windows
 targetos: Windows

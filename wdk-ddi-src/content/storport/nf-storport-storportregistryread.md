@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
+ms.keywords: storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml, StorPortRegistryRead routine [Storage Devices], StorPortRegistryRead, storage.storportregistryread, storport/StorPortRegistryRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortRegistryRead
 product: Windows
 targetos: Windows
@@ -270,9 +270,9 @@ The buffer used in this routine is allocated by calling <a href="..\storport\nf-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
-
 <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
+
+<a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
 
  
 

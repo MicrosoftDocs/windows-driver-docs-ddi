@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_LinkEvent
-title: _MSFC_LinkEvent
+title: "_MSFC_LinkEvent"
 author: windows-driver-content
 description: A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
 old-location: storage\msfc_linkevent.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 35fb3397-2e45-4d32-8cb1-1050199b2209
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PMSFC_LinkEvent, PMSFC_LinkEvent, storage.msfc_linkevent, hbapiwmi/MSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml, _MSFC_LinkEvent, PMSFC_LinkEvent structure pointer [Storage Devices], MSFC_LinkEvent, MSFC_LinkEvent structure [Storage Devices]
+ms.keywords: PMSFC_LinkEvent structure pointer [Storage Devices], structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml, PMSFC_LinkEvent, hbapiwmi/MSFC_LinkEvent, MSFC_LinkEvent, storage.msfc_linkevent, *PMSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, MSFC_LinkEvent structure [Storage Devices], _MSFC_LinkEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_LinkEvent
 product: Windows
 targetos: Windows
-req.typenames: *PMSFC_LinkEvent, MSFC_LinkEvent
+req.typenames: "*PMSFC_LinkEvent, MSFC_LinkEvent"
 ---
 
 # _MSFC_LinkEvent structure

@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_ENDPOINT_TYPE
-title: _UDECX_ENDPOINT_TYPE
+title: "_UDECX_ENDPOINT_TYPE"
 author: windows-driver-content
 description: Defines values for endpoint types supported by a virtual USB device.
 old-location: buses\udecx_endpoint_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PUDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, UDECX_ENDPOINT_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointTypeInvalid, buses.udecx_endpoint_type, udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeDynamic, _UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, UdecxEndpointTypeSimple, udecxusbdevice/UDECX_ENDPOINT_TYPE, UdecxEndpointTypeInvalid
+ms.keywords: UDECX_ENDPOINT_TYPE enumeration [Buses], *PUDECX_ENDPOINT_TYPE, _UDECX_ENDPOINT_TYPE, UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeDynamic, buses.udecx_endpoint_type, UdecxEndpointTypeSimple, udecxusbdevice/UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UdecxUsbDevice.h
-apiname: 
+apiname:
 -	UDECX_ENDPOINT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE
+req.typenames: "*PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE"
 req.product: Windows 10 or later.
 ---
 

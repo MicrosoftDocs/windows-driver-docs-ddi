@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, IPortClsStreamResourceManager2::AddStreamResource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2, IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, AddStreamResource2 method [Audio Devices]
+ms.keywords: AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, IPortClsStreamResourceManager2, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, portcls/IPortClsStreamResourceManager2::AddStreamResource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,7 +74,7 @@ NTSTATUS  AddStreamResource2(
 
 ### -param PhysicalDeviceObject [in]
 
-Pointer to the device object. The device object is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the device object. The device object is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
 ### -param ResourceSet [in]
@@ -110,13 +110,13 @@ Additional standard status codes may be returned.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
-
 <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
+
+<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 <a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
 
-<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
 
  
 

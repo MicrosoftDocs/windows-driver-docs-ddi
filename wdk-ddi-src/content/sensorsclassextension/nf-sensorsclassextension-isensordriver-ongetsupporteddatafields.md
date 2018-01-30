@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OnGetSupportedDataFields method [Sensor Devices], ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, ISensorDriver, sensors.isensordriver_ongetsupporteddatafields
+ms.keywords: OnGetSupportedDataFields method [Sensor Devices], sensors.isensordriver_ongetsupporteddatafields, OnGetSupportedDataFields, ISensorDriver, ISensorDriver::OnGetSupportedDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	OnGetSupportedDataFields
 product: Windows
 targetos: Windows

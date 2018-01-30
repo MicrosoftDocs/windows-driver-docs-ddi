@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUEGETSTATE, kmdf.wdfioqueuegetstate, WdfIoQueueGetState method, WdfIoQueueGetState, wdf.wdfioqueuegetstate, DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, wdfio/WdfIoQueueGetState
+ms.keywords: WdfIoQueueGetState method, DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, kmdf.wdfioqueuegetstate, PFN_WDFIOQUEUEGETSTATE, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState, WdfIoQueueGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueGetState
 product: Windows
 targetos: Windows

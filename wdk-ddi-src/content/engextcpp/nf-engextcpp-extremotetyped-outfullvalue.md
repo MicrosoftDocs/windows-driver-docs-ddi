@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8f5b3e8b-1b01-4a14-b472-cb5de82e869a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutFullValue, ExtRemoteTyped, ExtRemoteTyped::OutFullValue, ExtRemoteTyped interface [Windows Debugging], OutFullValue method, EngExtCpp_Ref_30c4c99e-e68e-4f44-b72c-fa67cdcac0fd.xml, OutFullValue method [Windows Debugging], ExtRemoteTyped interface, OutFullValue method [Windows Debugging], debugger.extremotetyped_outfullvalue
+ms.keywords: debugger.extremotetyped_outfullvalue, ExtRemoteTyped::OutFullValue, ExtRemoteTyped interface [Windows Debugging], OutFullValue method, EngExtCpp_Ref_30c4c99e-e68e-4f44-b72c-fa67cdcac0fd.xml, OutFullValue method [Windows Debugging], ExtRemoteTyped interface, OutFullValue method [Windows Debugging], OutFullValue, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.OutFullValue
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::OutFullValue method

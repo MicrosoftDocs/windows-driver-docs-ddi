@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpxcv._CONFIG_INFO_DATA_1
-title: _CONFIG_INFO_DATA_1
+title: "_CONFIG_INFO_DATA_1"
 author: windows-driver-content
 description: The XcvData function uses a CONFIG_INFO_DATA_1 structure when it obtains configuration data for a particular port.
 old-location: print\config_info_data_1.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: abf484e4-6a11-4727-b195-5eaf6683113e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CONFIG_INFO_DATA_1 structure [Print Devices], tcpxcv/PCONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, print.config_info_data_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], *PCONFIG_INFO_DATA_1, _CONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, tcpxcv/CONFIG_INFO_DATA_1
+ms.keywords: PCONFIG_INFO_DATA_1 structure pointer [Print Devices], CONFIG_INFO_DATA_1 structure [Print Devices], tcpxcv/PCONFIG_INFO_DATA_1, _CONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, tcpxcv/CONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1, print.config_info_data_1, PCONFIG_INFO_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	tcpxcv.h
-apiname: 
+apiname:
 -	CONFIG_INFO_DATA_1
 product: Windows
 targetos: Windows
-req.typenames: *PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1
+req.typenames: "*PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1"
 req.product: Windows 10 or later.
 ---
 

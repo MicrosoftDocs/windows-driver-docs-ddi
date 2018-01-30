@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], stream.ks_videodecoder_flags, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT
+ms.keywords: KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, stream.ks_videodecoder_flags, ksmedia/KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_VIDEODECODER_FLAGS
 product: Windows
 targetos: Windows

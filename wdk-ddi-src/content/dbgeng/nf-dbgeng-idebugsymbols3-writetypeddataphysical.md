@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f29249f-bb62-45d1-aa0e-108db1d7f906
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, debugger.writetypeddataphysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols3::WriteTypedDataPhysical, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols3, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], WriteTypedDataPhysical method, WriteTypedDataPhysical, IDebugSymbols2::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataPhysical method
+ms.keywords: debugger.writetypeddataphysical, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataPhysical method, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, WriteTypedDataPhysical, IDebugSymbols2::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols3::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface [Windows Debugging], WriteTypedDataPhysical method, dbgeng/IDebugSymbols3::WriteTypedDataPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.WriteTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::WriteTypedDataPhysical method

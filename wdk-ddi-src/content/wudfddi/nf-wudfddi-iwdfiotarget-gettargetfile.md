@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d38ede60-9bcf-4c90-8c41-8f1edf1a1d23
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget interface, GetTargetFile method, GetTargetFile method, GetTargetFile method, IWDFIoTarget interface, wdf.iwdfiotarget_gettargetfile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, IWDFIoTarget, GetTargetFile, IWDFIoTarget::GetTargetFile, wudfddi/IWDFIoTarget::GetTargetFile
+ms.keywords: wdf.iwdfiotarget_gettargetfile, GetTargetFile, umdf.iwdfiotarget_gettargetfile, GetTargetFile method, IWDFIoTarget interface, IWDFIoTarget::GetTargetFile, GetTargetFile method, IWDFIoTarget, wudfddi/IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, IWDFIoTarget interface, GetTargetFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTarget.GetTargetFile
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -103,9 +103,9 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
  
 

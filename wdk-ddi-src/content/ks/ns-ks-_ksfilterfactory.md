@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSFILTERFACTORY
-title: _KSFILTERFACTORY
+title: "_KSFILTERFACTORY"
 author: windows-driver-content
 description: The KSFILTERFACTORY structure represents a filter factory.
 old-location: stream\ksfilterfactory.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c40e25f8-e6e5-43bc-895d-a6b247d07470
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSFILTERFACTORY structure [Streaming Media Devices], _KSFILTERFACTORY, ks/PKSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, PKSFILTERFACTORY, stream.ksfilterfactory, ks/KSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices], *PKSFILTERFACTORY, KSFILTERFACTORY
+ms.keywords: ks/KSFILTERFACTORY, stream.ksfilterfactory, _KSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, ks/PKSFILTERFACTORY, KSFILTERFACTORY, PKSFILTERFACTORY, KSFILTERFACTORY structure [Streaming Media Devices], *PKSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSFILTERFACTORY
 product: Windows
 targetos: Windows
@@ -70,9 +70,9 @@ typedef struct _KSFILTERFACTORY {
 
 
 
-#### - Context
+#### - FilterDescriptor
 
-A pointer to a memory address that the client may use to associate context information with the filter factory. AVStream does not use this member in any way. Note that any dynamic memory associated with the filter factory should be placed in the object bag with <b>KsAddItemToObjectBag</b>. <b>Context</b> is initialized to the value of the <b>Context</b> member of the parent <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> at the time the factory is created. See <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e-a453-d375e2d7ccf5">AVStream Object Hierarchy</a>.
+A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes the characteristics of filters created by this factory.
 
 
 #### - Bag
@@ -80,9 +80,9 @@ A pointer to a memory address that the client may use to associate context infor
 This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated with this filter factory. Object bags are structures used to associate dynamic memory with a specific AVStream object. Anything in the filter factory object bag is automatically cleaned up when the filter factory is deleted. See the conceptual section on <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> for more information.
 
 
-#### - FilterDescriptor
+#### - Context
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes the characteristics of filters created by this factory.
+A pointer to a memory address that the client may use to associate context information with the filter factory. AVStream does not use this member in any way. Note that any dynamic memory associated with the filter factory should be placed in the object bag with <b>KsAddItemToObjectBag</b>. <b>Context</b> is initialized to the value of the <b>Context</b> member of the parent <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> at the time the factory is created. See <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e-a453-d375e2d7ccf5">AVStream Object Hierarchy</a>.
 
 
 ## -remarks
@@ -102,11 +102,11 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
+
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
  
 

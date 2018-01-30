@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_RESPONSE_CONTAINER
-title: _BIDI_RESPONSE_CONTAINER
+title: "_BIDI_RESPONSE_CONTAINER"
 author: windows-driver-content
 description: The BIDI_RESPONSE_CONTAINER structure is a container for a list of bidi responses.
 old-location: print\bidi_response_container.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 26924dd2-ac67-408c-87e0-5cfb3281fe75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_RESPONSE_CONTAINER structure [Print Devices], BIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], PBIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, _BIDI_RESPONSE_CONTAINER, winspool/BIDI_RESPONSE_CONTAINER, print.bidi_response_container, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], winspool/PBIDI_RESPONSE_CONTAINER
+ms.keywords: PBIDI_RESPONSE_CONTAINER, winspool/PBIDI_RESPONSE_CONTAINER, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, print.bidi_response_container, LPBIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], *PBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER structure [Print Devices], *LPBIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], _BIDI_RESPONSE_CONTAINER, winspool/BIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BIDI_RESPONSE_CONTAINER
 product: Windows
 targetos: Windows
-req.typenames: *PBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER
+req.typenames: BIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER
 req.product: Windows 10 or later.
 ---
 
@@ -102,11 +102,11 @@ The spooler's <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md
 
 ## -see-also
 
+<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+
 <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
 
 <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
-
-<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
 
  
 

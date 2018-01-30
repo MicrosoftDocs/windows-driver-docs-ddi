@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_PD_CONFIG
-title: _UCM_CONNECTOR_PD_CONFIG
+title: "_UCM_CONNECTOR_PD_CONFIG"
 author: windows-driver-content
 description: Describes the Power Delivery 2.0 capabilities of the connector.
 old-location: buses\ucm_connector_pd_config.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9DE2AF2D-D6B5-4FC4-8871-246F3661980F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUCM_CONNECTOR_PD_CONFIG, ucmmanager/PUCM_CONNECTOR_PD_CONFIG, _UCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], *PUCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, UCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses]
+ms.keywords: buses.ucm_connector_pd_config, PUCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], UCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], ucmmanager/PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, _UCM_CONNECTOR_PD_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmmanager.h
-apiname: 
+apiname:
 -	UCM_CONNECTOR_PD_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG
+req.typenames: "*PUCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG"
 req.product: Windows 10 or later.
 ---
 

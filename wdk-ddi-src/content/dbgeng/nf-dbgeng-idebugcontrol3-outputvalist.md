@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl3, OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, debugger.outputvalist, IDebugControl interface [Windows Debugging], OutputVaList method, OutputVaList method [Windows Debugging], IDebugControl2 interface, OutputVaList method [Windows Debugging], dbgeng/IDebugControl::OutputVaList, dbgeng/IDebugControl3::OutputVaList, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, dbgeng/IDebugControl2::OutputVaList
+ms.keywords: IDebugControl3, IDebugControl::OutputVaList, dbgeng/IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, debugger.outputvalist, OutputVaList method [Windows Debugging], OutputVaList, IDebugControl2::OutputVaList, IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], OutputVaList method, dbgeng/IDebugControl::OutputVaList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputVaList
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputVaList method
@@ -291,13 +291,13 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 

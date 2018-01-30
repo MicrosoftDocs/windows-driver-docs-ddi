@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortSetBusData, VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, VideoPortSetBusData function [Display Devices], display.videoportsetbusdata, VideoPortSetBusData
+ms.keywords: display.videoportsetbusdata, VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, video/VideoPortSetBusData, VideoPortSetBusData, VideoPortSetBusData function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortSetBusData function
@@ -93,7 +94,7 @@ For a <i>BusDataType</i> value of <b>Cmos</b>, specifies the location of the dev
 
 Pointer to a caller-supplied storage area with configuration information specific to <i>BusDataType</i>.
 
-When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537455">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
+When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
 
 
 ### -param Offset
@@ -126,17 +127,17 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558790">PCI_SLOT_NUMBER</a>
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 <a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537455">PCI_COMMON_CONFIG</a>
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
  
 

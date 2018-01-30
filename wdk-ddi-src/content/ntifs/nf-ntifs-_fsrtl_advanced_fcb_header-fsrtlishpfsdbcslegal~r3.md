@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], ntifs/FsRtlIsHpfsDbcsLegal, ifsk.fsrtlishpfsdbcslegal, fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml
+ms.keywords: ntifs/FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal, ifsk.fsrtlishpfsdbcslegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlIsHpfsDbcsLegal
 product: Windows
 targetos: Windows

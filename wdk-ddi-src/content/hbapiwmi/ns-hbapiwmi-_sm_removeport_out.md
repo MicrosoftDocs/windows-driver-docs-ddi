@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemovePort_OUT
-title: _SM_RemovePort_OUT
+title: "_SM_RemovePort_OUT"
 author: windows-driver-content
 description: The SM_RemovePort_OUT structure is used to receive output parameters from the SM_RemovePort WMI method.
 old-location: storage\sm_removeport_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7ca1bd9f-8fd4-4d9d-8571-4d6e4b721f3b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_removeport_out, SM_RemovePort_OUT, hbapiwmi/PSM_RemovePort_OUT, hbapiwmi/SM_RemovePort_OUT, PSM_RemovePort_OUT, *PSM_RemovePort_OUT, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml, SM_RemovePort_OUT structure [Storage Devices], _SM_RemovePort_OUT, PSM_RemovePort_OUT structure pointer [Storage Devices]
+ms.keywords: SM_RemovePort_OUT, PSM_RemovePort_OUT, SM_RemovePort_OUT structure [Storage Devices], hbapiwmi/PSM_RemovePort_OUT, PSM_RemovePort_OUT structure pointer [Storage Devices], storage.sm_removeport_out, _SM_RemovePort_OUT, hbapiwmi/SM_RemovePort_OUT, *PSM_RemovePort_OUT, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_RemovePort_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_RemovePort_OUT, *PSM_RemovePort_OUT
+req.typenames: "*PSM_RemovePort_OUT, SM_RemovePort_OUT"
 ---
 
 # _SM_RemovePort_OUT structure

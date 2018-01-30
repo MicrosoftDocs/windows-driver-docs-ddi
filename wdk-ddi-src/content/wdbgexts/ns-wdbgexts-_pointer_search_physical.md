@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fdb8376b-fbda-4bee-895e-a306fd0f632a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/POINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], _POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, wdbgexts/PPOINTER_SEARCH_PHYSICAL, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, POINTER_SEARCH_PHYSICAL, *PPOINTER_SEARCH_PHYSICAL
+ms.keywords: wdbgexts/PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL, wdbgexts/POINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], *PPOINTER_SEARCH_PHYSICAL, _POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL"
+req.product: Windows 10 or later.
 ---
 
 # _POINTER_SEARCH_PHYSICAL structure

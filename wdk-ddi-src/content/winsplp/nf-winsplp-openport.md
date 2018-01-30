@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort function [Print Devices], OpenPort, print.openport, pfnOpenPort, winsplp/pfnOpenPort
+ms.keywords: pfnOpenPort, pfnOpenPort function [Print Devices], print.openport, OpenPort, spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, winsplp/pfnOpenPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	pfnOpenPort
 product: Windows
 targetos: Windows
@@ -111,23 +111,23 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 ## -see-also
 
+<a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
+
+<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
+
+<a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
 
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
-<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
-
-<a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
-
-<a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
 
  
 

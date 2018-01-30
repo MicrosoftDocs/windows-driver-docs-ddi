@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84155e3f-8090-4b0d-a101-25ecd126bc37
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxpUnregisterMinirdr function [Installable File System Drivers], RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml, mrx/RxpUnregisterMinirdr, ifsk.rxpunregisterminirdr
+ms.keywords: RxpUnregisterMinirdr function [Installable File System Drivers], mrx/RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml, ifsk.rxpunregisterminirdr, RxpUnregisterMinirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mrx.h
-apiname: 
+apiname:
 -	RxpUnregisterMinirdr
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # RxpUnregisterMinirdr function
@@ -94,15 +94,15 @@ Note that the inline routine, <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr
 
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
-
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
  
 

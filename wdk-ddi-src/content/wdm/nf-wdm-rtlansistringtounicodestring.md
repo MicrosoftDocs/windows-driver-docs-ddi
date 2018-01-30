@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 926d8919-42de-4e24-a223-ffbf412edf6d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAnsiStringToUnicodeString, wdm/RtlAnsiStringToUnicodeString, kernel.rtlansistringtounicodestring, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml
+ms.keywords: RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, RtlAnsiStringToUnicodeString, wdm/RtlAnsiStringToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlAnsiStringToUnicodeString
 product: Windows
 targetos: Windows
@@ -156,17 +156,17 @@ The second byte of a two-byte character code is a value that is valid only as th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 <a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
 
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>
-
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
-title: _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
+title: "_IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a Get1394AddressFromDeviceObject request.
 old-location: ieee\irb_req_get_1394_address_from_device_object.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 457E3A4E-6845-473C-AACD-7CC00080C34B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure [Buses], 1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IEEE.irb_req_get_1394_address_from_device_object
+ms.keywords: 1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IEEE.irb_req_get_1394_address_from_device_object, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
 product: Windows
 targetos: Windows

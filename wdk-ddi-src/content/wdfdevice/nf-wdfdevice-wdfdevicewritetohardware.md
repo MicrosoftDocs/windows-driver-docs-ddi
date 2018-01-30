@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicewritetohardware, WdfDeviceWriteToHardware method, PFN_WDFDEVICEWRITETOHARDWARE, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware, WdfDeviceWriteToHardware
+ms.keywords: wdfhwaccess/WdfDeviceWriteToHardware, wdf.wdfdevicewritetohardware, wdfdevice/WdfDeviceWriteToHardware, PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceWriteToHardware
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4, IDebugDataSpaces4::GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], debugger.getvalidregionvirtual, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method
+ms.keywords: IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, GetValidRegionVirtual, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, debugger.getvalidregionvirtual, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces4.GetValidRegionVirtual
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::GetValidRegionVirtual method

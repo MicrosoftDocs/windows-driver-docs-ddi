@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_SERVICE_SESSION_STATE
-title: _WWAN_DEVICE_SERVICE_SESSION_STATE
+title: "_WWAN_DEVICE_SERVICE_SESSION_STATE"
 author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_SESSION_STATE enumeration specifies the state of device service session. It can be used in a set operation to set the state of a session or can be used in an indication to report the state of a session.
 old-location: netvista\wwan_device_service_session_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E2527150-2F62-4729-BC6A-FE6027BCCA35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionOpen, WWAN_DEVICE_SERVICE_SESSION_STATE, netvista.wwan_device_service_session_state, wwan/WwanDeviceServiceSessionClosed, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, WwanDeviceServiceSessionOpen, WwanDeviceServiceSessionClosed
+ms.keywords: wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionOpen, WwanDeviceServiceSessionOpen, netvista.wwan_device_service_session_state, _WWAN_DEVICE_SERVICE_SESSION_STATE, WwanDeviceServiceSessionClosed, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_DEVICE_SERVICE_SESSION_STATE
 product: Windows
 targetos: Windows

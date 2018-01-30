@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PS_CREATE_NOTIFY_INFO
-title: _PS_CREATE_NOTIFY_INFO
+title: "_PS_CREATE_NOTIFY_INFO"
 author: windows-driver-content
 description: The PS_CREATE_NOTIFY_INFO structure provides information about a newly created process.
 old-location: kernel\ps_create_notify_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 66fade6b-b1c1-477c-bd44-2809d02271f2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, _PS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], *PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO
+ms.keywords: "*PPS_CREATE_NOTIFY_INFO, _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, ntddk/PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], ntddk/PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	PS_CREATE_NOTIFY_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PPS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO
+req.typenames: "*PPS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO"
 ---
 
 # _PS_CREATE_NOTIFY_INFO structure
@@ -152,11 +152,11 @@ The NTSTATUS value to return for the process-creation operation. Drivers can cha
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
 
  
 

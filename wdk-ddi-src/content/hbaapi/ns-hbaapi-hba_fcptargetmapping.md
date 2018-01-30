@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 666f4aea-2fcb-46cf-8d25-d1322c0517c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FCPTargetMapping, PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING, *PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING structure [Storage Devices], HBA_FCPTargetMapping structure [Storage Devices], PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml, hbaapi/PHBA_FCPTARGETMAPPING, hbaapi/HBA_FCPTargetMapping, storage.hba_fcptargetmapping
+ms.keywords: hbaapi/HBA_FCPTargetMapping, structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml, HBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], PHBA_FCPTARGETMAPPING, HBA_FCPTargetMapping structure [Storage Devices], storage.hba_fcptargetmapping, HBA_FCPTargetMapping, *PHBA_FCPTARGETMAPPING, hbaapi/PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_FCPTARGETMAPPING
 product: Windows
 targetos: Windows
-req.typenames: *PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING
+req.typenames: "*PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING"
 ---
 
 # HBA_FCPTargetMapping structure

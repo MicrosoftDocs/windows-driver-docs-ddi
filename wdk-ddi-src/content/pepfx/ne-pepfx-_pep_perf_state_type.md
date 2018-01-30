@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_PERF_STATE_TYPE
-title: _PEP_PERF_STATE_TYPE
+title: "_PEP_PERF_STATE_TYPE"
 author: windows-driver-content
 description: The PEP_PERF_STATE_TYPE enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 old-location: kernel\pep_perf_state_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PepPerfStateTypeMax, *PPEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeRange, PepPerfStateTypeRange, PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeMax, pepfx/PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, kernel.pep_perf_state_type
+ms.keywords: PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PEP_PERF_STATE_TYPE, PepPerfStateTypeMax, pepfx/PepPerfStateTypeRange, pepfx/PepPerfStateTypeMax, PepPerfStateTypeRange, _PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, PepPerfStateTypeDiscrete, pepfx/PepPerfStateTypeDiscrete, *PPEP_PERF_STATE_TYPE, kernel.pep_perf_state_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PERF_STATE_TYPE
 product: Windows
 targetos: Windows

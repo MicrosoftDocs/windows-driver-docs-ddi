@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a63079ab-45ec-44b2-8769-f5b30f378972
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_wmi_provider_config_init, kmdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT, DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, WDF_WMI_PROVIDER_CONFIG_INIT function
+ms.keywords: DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT, wdf.wdf_wmi_provider_config_init, WDF_WMI_PROVIDER_CONFIG_INIT function, WDF_WMI_PROVIDER_CONFIG_INIT, kmdf.wdf_wmi_provider_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfwmi.h
-apiname: 
+apiname:
 -	WDF_WMI_PROVIDER_CONFIG_INIT
 product: Windows
 targetos: Windows

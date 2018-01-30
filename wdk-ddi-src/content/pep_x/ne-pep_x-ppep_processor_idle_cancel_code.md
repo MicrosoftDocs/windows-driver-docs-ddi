@@ -1,6 +1,6 @@
 ---
 UID: NE:pep_x.PPEP_PROCESSOR_IDLE_CANCEL_CODE
-title: *PPEP_PROCESSOR_IDLE_CANCEL_CODE
+title: "*PPEP_PROCESSOR_IDLE_CANCEL_CODE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration values indicate reasons why a processor cannot enter an idle state that was previously selected by the platform extension plug-in (PEP).
 old-location: kernel\pep_processor_idle_cancel_code.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6112360C-B74F-4A77-8DE5-3EF1AAF49533
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PepIdleCancelMax, PepIdleCancelWorkPending, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], kernel.pep_processor_idle_cancel_code, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelNoCState, PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelWorkPending, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, PepIdleCancelDependencyCheckFailed, PepIdleCancelNoCState, PepIdleCancelMax
+ms.keywords: PepIdleCancelNoCState, PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelWorkPending, pep_x/PepIdleCancelNoCState, *PPEP_PROCESSOR_IDLE_CANCEL_CODE, kernel.pep_processor_idle_cancel_code, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelMax, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelDependencyCheckFailed, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, PepIdleCancelMax, PepIdleCancelWorkPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pep_x.h
-apiname: 
+apiname:
 -	PEP_PROCESSOR_IDLE_CANCEL_CODE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE
+req.typenames: PEP_PROCESSOR_IDLE_CANCEL_CODE, *PPEP_PROCESSOR_IDLE_CANCEL_CODE
 ---
 
 # *PPEP_PROCESSOR_IDLE_CANCEL_CODE enumeration

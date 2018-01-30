@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6898ca45-e4a2-41ad-a47e-6dfbcc60b00a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReadPortUchar, StorPortReadPortUchar routine [Storage Devices], StorPortReadPortUchar, storage.storportreadportuchar, storprt_de88c383-95ac-4f3e-b02d-aec76132e4c3.xml
+ms.keywords: storport/StorPortReadPortUchar, storprt_de88c383-95ac-4f3e-b02d-aec76132e4c3.xml, storage.storportreadportuchar, StorPortReadPortUchar routine [Storage Devices], StorPortReadPortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadPortUchar
 product: Windows
 targetos: Windows

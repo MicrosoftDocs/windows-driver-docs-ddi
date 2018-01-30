@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUEGETDEVICE, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, WdfIoQueueGetDevice, kmdf.wdfioqueuegetdevice, wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice, WdfIoQueueGetDevice method
+ms.keywords: wdf.wdfioqueuegetdevice, PFN_WDFIOQUEUEGETDEVICE, WdfIoQueueGetDevice, kmdf.wdfioqueuegetdevice, WdfIoQueueGetDevice method, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, wdfio/WdfIoQueueGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueGetDevice
 product: Windows
 targetos: Windows

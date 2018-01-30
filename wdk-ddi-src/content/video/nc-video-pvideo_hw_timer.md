@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.product: Windows 10 or later.
 ---
 
 # PVIDEO_HW_TIMER callback
@@ -99,9 +100,9 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
-
 <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
+
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
 
  
 

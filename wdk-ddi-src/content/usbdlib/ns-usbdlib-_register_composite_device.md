@@ -1,6 +1,6 @@
 ---
 UID: NS:usbdlib._REGISTER_COMPOSITE_DEVICE
-title: _REGISTER_COMPOSITE_DEVICE
+title: "_REGISTER_COMPOSITE_DEVICE"
 author: windows-driver-content
 description: The REGISTER_COMPOSITE_DEVICE structure is used with the IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE I/O control request to register a parent driver of a Universal Serial Bus (USB) multi-function device (composite driver) with the USB driver stack.
 old-location: buses\register_composite_driver.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BBE92635-5230-454E-A6CA-80198B5B2C57
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REGISTER_COMPOSITE_DEVICE structure [Buses], *PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, REGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], PREGISTER_COMPOSITE_DEVICE, _REGISTER_COMPOSITE_DEVICE, usbdlib/PREGISTER_COMPOSITE_DEVICE
+ms.keywords: usbdlib/PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, REGISTER_COMPOSITE_DEVICE structure [Buses], usbdlib/REGISTER_COMPOSITE_DEVICE, _REGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], *PREGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbdlib.h
-apiname: 
+apiname:
 -	REGISTER_COMPOSITE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE
+req.typenames: "*PREGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE"
 req.product: Windows 10 or later.
 ---
 
@@ -103,13 +103,13 @@ The number of functions supported by the composite device. The <b>FunctionCount<
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
-
 <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
 
-<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
+<a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
+<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, NdisIMCancelInitializeDeviceInstance, ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance
+ms.keywords: netvista.ndisimcancelinitializedeviceinstance, ndis/NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance, intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIMCancelInitializeDeviceInstance
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIMCancelInitializeDeviceInstance function
@@ -120,12 +120,12 @@ An intermediate driver calls the
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
    NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_ATIP_DATA_BLOCK
-title: _CDROM_TOC_ATIP_DATA_BLOCK
+title: "_CDROM_TOC_ATIP_DATA_BLOCK"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in a header structure of type CDROM_TOC_ATIP_DATA followed by a series of ATIP data block descriptors defined by CDROM_TOC_ATIP_DATA_BLOCK.
 old-location: storage\cdrom_toc_atip_data_block.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b98d0ba9-9c32-44ed-b6c3-db6de26a1663
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCDROM_TOC_ATIP_DATA_BLOCK, _CDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK, PCDROM_TOC_ATIP_DATA_BLOCK structure pointer [Storage Devices], CDROM_TOC_ATIP_DATA_BLOCK structure [Storage Devices], structs-CD-ROM_8c2f3446-c864-450a-a873-9e1d29b1e052.xml, ntddcdrm/PCDROM_TOC_ATIP_DATA_BLOCK, storage.cdrom_toc_atip_data_block, ntddcdrm/CDROM_TOC_ATIP_DATA_BLOCK, *PCDROM_TOC_ATIP_DATA_BLOCK
+ms.keywords: storage.cdrom_toc_atip_data_block, PCDROM_TOC_ATIP_DATA_BLOCK structure pointer [Storage Devices], structs-CD-ROM_8c2f3446-c864-450a-a873-9e1d29b1e052.xml, *PCDROM_TOC_ATIP_DATA_BLOCK, ntddcdrm/CDROM_TOC_ATIP_DATA_BLOCK, ntddcdrm/PCDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK, _CDROM_TOC_ATIP_DATA_BLOCK, PCDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_TOC_ATIP_DATA_BLOCK
 product: Windows
 targetos: Windows
@@ -214,9 +214,9 @@ Reserved.
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data.md">CDROM_TOC_ATIP_DATA</a>
 
  
 

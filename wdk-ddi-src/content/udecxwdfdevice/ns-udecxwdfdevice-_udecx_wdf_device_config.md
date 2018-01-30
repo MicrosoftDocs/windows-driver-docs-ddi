@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxwdfdevice._UDECX_WDF_DEVICE_CONFIG
-title: _UDECX_WDF_DEVICE_CONFIG
+title: "_UDECX_WDF_DEVICE_CONFIG"
 author: windows-driver-content
 description: Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling UDECX_WDF_DEVICE_CONFIG_INIT.
 old-location: buses\udecx_wdf_device_config.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 54853C39-FA6C-4F9B-A202-F116C43D3A4E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], *PUDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, _UDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses]
+ms.keywords: "_UDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], UDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	udecxwdfdevice.h
-apiname: 
+apiname:
 -	UDECX_WDF_DEVICE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG
+req.typenames: UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG
 req.product: Windows 10 or later.
 ---
 

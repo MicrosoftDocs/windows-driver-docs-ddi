@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73835623-fa35-46f0-90a2-62d6d596dc64
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetpipegetiotarget, wdfusb/WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method, wdf.wdfusbtargetpipegetiotarget, PFN_WDFUSBTARGETPIPEGETIOTARGET, DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml
+ms.keywords: WdfUsbTargetPipeGetIoTarget, wdf.wdfusbtargetpipegetiotarget, PFN_WDFUSBTARGETPIPEGETIOTARGET, kmdf.wdfusbtargetpipegetiotarget, DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, wdfusb/WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetPipeGetIoTarget
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ For more information about the <b>WdfUsbTargetPipeGetIoTarget</b> method and USB
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
  
 

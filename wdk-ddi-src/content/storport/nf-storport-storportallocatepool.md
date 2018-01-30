@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e6823b9c-9717-49ab-8e67-c1d522774826
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAllocatePool routine [Storage Devices], storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml, storport/StorPortAllocatePool, storage.storportallocatepool, StorPortAllocatePool
+ms.keywords: StorPortAllocatePool, storage.storportallocatepool, storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml, StorPortAllocatePool routine [Storage Devices], storport/StorPortAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortAllocatePool
 product: Windows
 targetos: Windows

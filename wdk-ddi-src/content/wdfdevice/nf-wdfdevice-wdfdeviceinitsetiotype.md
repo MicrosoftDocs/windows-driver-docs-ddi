@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fcad4b8e-4273-43ff-8077-a96d1bd4640a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINITSETIOTYPE, wdf.wdfdeviceinitsetiotype, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, wdfdevice/WdfDeviceInitSetIoType, kmdf.wdfdeviceinitsetiotype, WdfDeviceInitSetIoType method, WdfDeviceInitSetIoType
+ms.keywords: wdfdevice/WdfDeviceInitSetIoType, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, PFN_WDFDEVICEINITSETIOTYPE, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype, WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetIoType
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ For more information about buffer-access methods, see <a href="https://docs.micr
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
 <a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
  
 

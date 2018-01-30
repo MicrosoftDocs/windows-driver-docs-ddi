@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTarget
-title: _ISCSI_DiscoveredTarget
+title: "_ISCSI_DiscoveredTarget"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTarget structure contains information that is related to a discovered target device.
 old-location: storage\iscsi_discoveredtarget.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b4a7375-1ee2-4829-92bb-01ed610236de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsifnd/ISCSI_DiscoveredTarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml, *PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], _ISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, ISCSI_DiscoveredTarget structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget
+ms.keywords: iscsifnd/PISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, iscsifnd/ISCSI_DiscoveredTarget, *PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml, _ISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsifnd.h
-apiname: 
+apiname:
 -	ISCSI_DiscoveredTarget
 product: Windows
 targetos: Windows
@@ -101,9 +101,9 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
-
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a>
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
 
  
 

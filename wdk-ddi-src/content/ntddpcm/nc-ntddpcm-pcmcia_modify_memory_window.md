@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	ModifyMemoryWindow
 product: Windows
 targetos: Windows
@@ -116,14 +116,14 @@ Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> mus
 If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 
+#### PCMCIA_MEMORY_8BIT_ACCESS
+
+
+
 ### -param IsAttributeMemory
 
 
 
-
-
-
-##### - BusWidth.PCMCIA_MEMORY_8BIT_ACCESS
 
 
 

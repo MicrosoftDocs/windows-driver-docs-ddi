@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocatePool, k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, ExAllocatePool routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePool, kernel.exallocatepool
+ms.keywords: k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, ExAllocatePool, kernel.exallocatepool, ExAllocatePool routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExAllocatePool
 product: Windows
 targetos: Windows
@@ -108,11 +108,11 @@ Callers of <b>ExAllocatePool</b> must be executing at IRQL &lt;= DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 95b2f2ff-b98f-4210-9a4f-898573679aa7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC, ksmedia/KSDSOUND_BUFFERDESC, aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], *PKSDSOUND_BUFFERDESC, audio.ksdsound_bufferdesc, ksmedia/PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC
+ms.keywords: KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC, *PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], ksmedia/KSDSOUND_BUFFERDESC, audio.ksdsound_bufferdesc, ksmedia/PKSDSOUND_BUFFERDESC, aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -149,21 +149,21 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 ## -see-also
 
+<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537190">KSNODETYPE_SRC</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
-
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
-
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
  
 

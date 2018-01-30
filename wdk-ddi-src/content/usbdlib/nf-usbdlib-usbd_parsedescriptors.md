@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
+ms.keywords: USBD_ParseDescriptors, usbdlib/USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml, buses.usbd_parsedescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Usbd.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbd.lib
 -	Usbd.dll
-apiname: 
+apiname:
 -	USBD_ParseDescriptors
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -95,19 +95,19 @@ Specifies the descriptor type code as assigned by USB. The following values are 
 
 
 
-##### - DescriptorType.USB_STRING_DESCRIPTOR_TYPE
+#### USB_STRING_DESCRIPTOR_TYPE
 
 Specifies that the descriptor being searched for is a string descriptor.
 
 
-##### - DescriptorType.USB_ENDPOINT_DESCRIPTOR_TYPE
-
-Specifies that the descriptor being searched for is an endpoint descriptor.
-
-
-##### - DescriptorType.USB_INTERFACE_DESCRIPTOR_TYPE
+#### USB_INTERFACE_DESCRIPTOR_TYPE
 
 Specifies that the descriptor being searched for is an interface descriptor.
+
+
+#### USB_ENDPOINT_DESCRIPTOR_TYPE
+
+Specifies that the descriptor being searched for is an endpoint descriptor.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: C0DA1B09-230E-4DE6-98CD-F80243D63B95
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: "_GIC_ITS, *PGIC_ITS, acpitabl/GIC_ITS, acpi.gic_its, GIC_ITS, GIC_ITS structure [ACPI Devices]"
+ms.keywords: "_GIC_ITS, GIC_ITS structure [ACPI Devices], acpitabl/GIC_ITS, *PGIC_ITS, acpi.gic_its, GIC_ITS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

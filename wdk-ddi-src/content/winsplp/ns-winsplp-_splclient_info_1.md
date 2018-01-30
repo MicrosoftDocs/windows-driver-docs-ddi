@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_1
-title: _SPLCLIENT_INFO_1
+title: "_SPLCLIENT_INFO_1"
 author: windows-driver-content
 description: The SPLCLIENT_INFO_1 structure is used as input to the GenerateCopyFilePaths function that is exported by Point and Print DLLs.
 old-location: print\splclient_info_1.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a9659f77-e84b-471a-a778-a4628d89ce19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/LPSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, print.splclient_info_1, SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], PSPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], PSPLCLIENT_INFO_1 structure pointer [Print Devices], winsplp/SPLCLIENT_INFO_1, poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, LPSPLCLIENT_INFO_1
+ms.keywords: PSPLCLIENT_INFO_1 structure pointer [Print Devices], poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, winsplp/SPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], LPSPLCLIENT_INFO_1, _SPLCLIENT_INFO_1, SPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1, winsplp/LPSPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], print.splclient_info_1, winsplp/PSPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	SPLCLIENT_INFO_1
 product: Windows
 targetos: Windows
-req.typenames: *LPSPLCLIENT_INFO_1, SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1
+req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
 req.product: Windows 10 or later.
 ---
 

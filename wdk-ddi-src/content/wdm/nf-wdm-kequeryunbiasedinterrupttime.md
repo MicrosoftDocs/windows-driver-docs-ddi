@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2a041946-0335-466e-b2f9-b486031e777a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, kernel.kequeryunbiasedinterrupttime, KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture], wdm/KeQueryUnbiasedInterruptTime
+ms.keywords: k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, wdm/KeQueryUnbiasedInterruptTime, kernel.kequeryunbiasedinterrupttime, KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQueryUnbiasedInterruptTime
 product: Windows
 targetos: Windows
@@ -84,21 +84,21 @@ This routine returns the system interrupt time, which is the amount of time sinc
 
 Unlike the <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a> routine, <b>KeQueryUnbiasedInterruptTime</b> returns a count value that is not affected by operations that set or reset the system time. In addition, the system time that is reported by <b>KeQuerySystemTime</b> is typically updated approximately every ten milliseconds. In contrast, the count that is returned by <b>KeQueryUnbiasedInterruptTime</b> is updated at least once per system clock tick.
 
-In Windows 2000 and later versions of the Windows operating system, the <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> routine provides the finest grained running count that is available from the operating system.
+In Windows 2000 and later versions of the Windows operating system, the <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> routine provides the finest grained running count that is available from the operating system.
 
 
 
 ## -see-also
+
+<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 <a href="..\wdm\nf-wdm-kequeryinterrupttimeprecise.md">KeQueryInterruptTimePrecise</a>
 
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
 
 <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
-
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
  
 

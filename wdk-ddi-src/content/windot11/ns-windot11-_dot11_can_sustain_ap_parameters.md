@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_CAN_SUSTAIN_AP_PARAMETERS
-title: _DOT11_CAN_SUSTAIN_AP_PARAMETERS
+title: "_DOT11_CAN_SUSTAIN_AP_PARAMETERS"
 author: windows-driver-content
 description: The DOT11_CAN_SUSTAIN_AP_PARAMETERS structure specifies the reason why the NIC can sustain an access point (AP).
 old-location: netvista\dot11_can_sustain_ap_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_can_sustain_ap_parameters, _DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_CAN_SUSTAIN_AP_PARAMETERS
+ms.keywords: windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_CAN_SUSTAIN_AP_PARAMETERS
 product: Windows
 targetos: Windows
@@ -86,6 +86,22 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_CAN_SUSTAIN_AP_PARAMETERS_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
+
+
 ### -field ulReason
 
 A ULONG value that specifies the reason why the NIC can sustain the AP. An IHV can supply the
@@ -99,28 +115,12 @@ If the value of
      DOT11_STOP_AP_REASON_IHV_END, inclusive, the operating system takes no action.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_CAN_SUSTAIN_AP_PARAMETERS_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
-
-
-##### - ulReason.DOT11_CAN_SUSTAIN_AP_REASON_IHV_END
+#### DOT11_CAN_SUSTAIN_AP_REASON_IHV_END
 
 The end value of possible IHV-specified reasons.
 
 
-##### - ulReason.DOT11_CAN_SUSTAIN_AP_REASON_IHV_START
+#### DOT11_CAN_SUSTAIN_AP_REASON_IHV_START
 
 The start value of possible IHV-specified reasons.
 

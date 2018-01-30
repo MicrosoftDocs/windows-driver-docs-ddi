@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OnClientConnect method [Sensor Devices], OnClientConnect, ISensorDriver::OnClientConnect, sensors.isensordriver_onclientconnect, ISensorDriver
+ms.keywords: ISensorDriver, sensors.isensordriver_onclientconnect, OnClientConnect method [Sensor Devices], OnClientConnect, ISensorDriver::OnClientConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	OnClientConnect
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._ATTRIBUTE_INFO_4
-title: _ATTRIBUTE_INFO_4
+title: "_ATTRIBUTE_INFO_4"
 author: windows-driver-content
 description: The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function.
 old-location: print\attribute_info_4.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09071fff-834b-452b-ae1e-b75c9f191b15
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], winddiui/ATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4, print.attribute_info_4, winddiui/PATTRIBUTE_INFO_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], PATTRIBUTE_INFO_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, ATTRIBUTE_INFO_4
+ms.keywords: PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], winddiui/PATTRIBUTE_INFO_4, print.attribute_info_4, _ATTRIBUTE_INFO_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, winddiui/ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], *PATTRIBUTE_INFO_4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	ATTRIBUTE_INFO_4
 product: Windows
 targetos: Windows
-req.typenames: ATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4
+req.typenames: "*PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4"
 req.product: Windows 10 or later.
 ---
 
@@ -371,15 +371,15 @@ This structure is available in Windows Vista.
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 <a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: c7bbba08-e9d0-4f78-93d8-e451e4dc2573
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HwNProcessAddDevicePreDeviceCreate function, hwnclx/HwNProcessAddDevicePreDeviceCreate, HwNProcessAddDevicePreDeviceCreate, gpiobtn.hwnprocessadddevicepredevicecreate
+ms.keywords: HwNProcessAddDevicePreDeviceCreate, gpiobtn.hwnprocessadddevicepredevicecreate, hwnclx/HwNProcessAddDevicePreDeviceCreate, HwNProcessAddDevicePreDeviceCreate function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -50,7 +50,7 @@ req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
 ## -description
 
 
-Supplies the device prepare/release and entry/exit callbacks to the Windows Driver Foundation (WDF) for transitioning the device into different states. This function should be called by the client driver when the WDF invokes the driver’s <a href="https://msdn.microsoft.com/library/windows/hardware/ff541693">EVT_WDF_DRIVER_DEVICE_ADD</a> routine, but before creating the device object.
+Supplies the device prepare/release and entry/exit callbacks to the Windows Driver Foundation (WDF) for transitioning the device into different states. This function should be called by the client driver when the WDF invokes the driver’s <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a> routine, but before creating the device object.
 
 
 ## -syntax
@@ -82,7 +82,7 @@ A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/w
 
 ### -param FdoAttributes [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that describes the attributes of the client driver’s device object when it’s created. 
+Pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes the attributes of the client driver’s device object when it’s created. 
 
 
 ## -returns
@@ -94,9 +94,9 @@ Returns STATUS_SUCCESS if function succeeds. Returns STATUS_INVALID_PARAMETER if
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
-
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
 
  
 

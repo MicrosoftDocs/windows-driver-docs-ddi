@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_CONFIGURATION
-title: _WWAN_SMS_CONFIGURATION
+title: "_WWAN_SMS_CONFIGURATION"
 author: windows-driver-content
 description: The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 old-location: netvista\wwan_sms_configuration.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85075b9d-72a7-4f3e-8a25-888689f9d5e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WWAN_SMS_CONFIGURATION, _WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION, WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, netvista.wwan_sms_configuration, wwan/WWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION, wwan/PWWAN_SMS_CONFIGURATION
+ms.keywords: WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, _WWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_configuration, *PWWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION, wwan/PWWAN_SMS_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION
+req.typenames: WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION
 req.product: Windows 10 or later.
 ---
 

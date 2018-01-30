@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSMAPPING
-title: _KSMAPPING
+title: "_KSMAPPING"
 author: windows-driver-content
 description: The KSMAPPING structure is used to describe a single contiguous chunk of physical memory for use in scatter/gather DMA operations.
 old-location: stream\ksmapping.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9a5149dc-5506-4100-80fc-7cd17585d2af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksmapping, ks/PKSMAPPING, KSMAPPING, *PKSMAPPING, PKSMAPPING, _KSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, PKSMAPPING structure pointer [Streaming Media Devices], KSMAPPING structure [Streaming Media Devices], ks/KSMAPPING
+ms.keywords: ks/PKSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, ks/KSMAPPING, PKSMAPPING structure pointer [Streaming Media Devices], *PKSMAPPING, PKSMAPPING, KSMAPPING structure [Streaming Media Devices], _KSMAPPING, KSMAPPING, stream.ksmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSMAPPING
 product: Windows
 targetos: Windows
@@ -70,11 +70,6 @@ typedef struct _KSMAPPING {
 
 
 
-#### - Alignment
-
-This member specifies the memory alignment in bytes for this buffer.
-
-
 #### - PhysicalAddress
 
 This member contains the physical address of this piece of the data frame.
@@ -83,6 +78,11 @@ This member contains the physical address of this piece of the data frame.
 #### - ByteCount
 
 This member contains the number of bytes of contiguous physical memory in this individual mapping.
+
+
+#### - Alignment
+
+This member specifies the memory alignment in bytes for this buffer.
 
 
 ## -remarks

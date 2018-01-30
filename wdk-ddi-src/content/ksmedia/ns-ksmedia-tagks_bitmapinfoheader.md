@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, ksmedia/PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, KS_BITMAPINFOHEADER structure [Streaming Media Devices], stream.ks_bitmapinfoheader, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], *PKS_BITMAPINFOHEADER
+ms.keywords: KS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, ksmedia/PKS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, ksmedia/KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_BITMAPINFOHEADER
 product: Windows
 targetos: Windows

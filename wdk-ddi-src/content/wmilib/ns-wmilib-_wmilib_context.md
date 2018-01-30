@@ -1,6 +1,6 @@
 ---
 UID: NS:wmilib._WMILIB_CONTEXT
-title: _WMILIB_CONTEXT
+title: "_WMILIB_CONTEXT"
 author: windows-driver-content
 description: The WMILIB_CONTEXT structure provides registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines.
 old-location: kernel\wmilib_context.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PWMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], wmilib/WMILIB_CONTEXT, WMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kernel.wmilib_context, _WMILIB_CONTEXT, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, PWMILIB_CONTEXT
+ms.keywords: kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/WMILIB_CONTEXT, kernel.wmilib_context, *PWMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PWMILIB_CONTEXT, WMILIB_CONTEXT, _WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wmilib.h
-apiname: 
+apiname:
 -	WMILIB_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *PWMILIB_CONTEXT, WMILIB_CONTEXT
+req.typenames: "*PWMILIB_CONTEXT, WMILIB_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -128,21 +128,21 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
-
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
-
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
+<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
+
 <a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
-<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
+<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
 
  
 

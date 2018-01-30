@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winddiui/DrvPrinterEvent, print.drvprinterevent, DrvPrinterEvent function [Print Devices], print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, DrvPrinterEvent
+ms.keywords: DrvPrinterEvent, winddiui/DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DrvPrinterEvent
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

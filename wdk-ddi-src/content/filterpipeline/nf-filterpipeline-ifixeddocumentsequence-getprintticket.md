@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: dba0ac90-a895-4daf-ba7c-b7a8a32fed19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices], IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices], GetPrintTicket method, IFixedDocumentSequence, print.ifixeddocumentsequence_getprintticket, IFixedDocumentSequence::GetPrintTicket, filterpipeline_f94c6c29-91ba-4820-ad22-12cc9604993c.xml, filterpipeline/IFixedDocumentSequence::GetPrintTicket
+ms.keywords: print.ifixeddocumentsequence_getprintticket, filterpipeline_f94c6c29-91ba-4820-ad22-12cc9604993c.xml, filterpipeline/IFixedDocumentSequence::GetPrintTicket, GetPrintTicket method [Print Devices], IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], GetPrintTicket method, GetPrintTicket method [Print Devices], IFixedDocumentSequence interface, IFixedDocumentSequence::GetPrintTicket, GetPrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedDocumentSequence.GetPrintTicket
 product: Windows
 targetos: Windows

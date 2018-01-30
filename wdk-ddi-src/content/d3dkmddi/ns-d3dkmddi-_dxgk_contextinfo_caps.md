@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AC65F790-981F-4B50-BB9E-84F79D8F6C4F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_contextinfo_caps, _DXGK_CONTEXTINFO_CAPS, d3dkmddi/DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS structure [Display Devices], DXGK_CONTEXTINFO_CAPS
+ms.keywords: DXGK_CONTEXTINFO_CAPS structure [Display Devices], DXGK_CONTEXTINFO_CAPS, display.dxgk_contextinfo_caps, d3dkmddi/DXGK_CONTEXTINFO_CAPS, _DXGK_CONTEXTINFO_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

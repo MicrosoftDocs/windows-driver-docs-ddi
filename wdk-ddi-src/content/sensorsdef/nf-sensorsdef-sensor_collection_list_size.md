@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 98191F02-E047-41BC-922F-867DED522E59
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], SENSOR_COLLECTION_LIST_SIZE, sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE
+ms.keywords: SENSOR_COLLECTION_LIST_SIZE, SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	SENSOR_COLLECTION_LIST_SIZE
 product: Windows
 targetos: Windows

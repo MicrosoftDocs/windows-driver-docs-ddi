@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c4165eab-c62e-436d-b4d4-a1f72ee9c1bd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsFltMgrVolumeDeviceObject, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], ifsk.fltisfltmgrvolumedeviceobject, fltkernel/FltIsFltMgrVolumeDeviceObject, FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml
+ms.keywords: FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, FltIsFltMgrVolumeDeviceObject, fltkernel/FltIsFltMgrVolumeDeviceObject, ifsk.fltisfltmgrvolumedeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltIsFltMgrVolumeDeviceObject
 product: Windows
 targetos: Windows

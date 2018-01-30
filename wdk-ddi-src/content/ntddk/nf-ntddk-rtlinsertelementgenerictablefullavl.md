@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c7d346ab-6990-4636-bafd-2e448a937f3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInsertElementGenericTableFullAvl, ntddk/RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictablefullavl, rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
+ms.keywords: ntddk/RtlInsertElementGenericTableFullAvl, ifsk.rtlinsertelementgenerictablefullavl, RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "< DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlInsertElementGenericTableFullAvl
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInsertElementGenericTableFullAvl function
@@ -99,29 +99,29 @@ The search result of a previous call to <a href="..\ntddk\nf-ntddk-rtllookupelem
 
 
 
-### -param SearchResult [in]
-
-A pointer to a table entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine matches an entry, <i>NodeOrParent</i> points to the matched entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine fails to find a match, <i>NodeOrParent</i> points to the entry that would be the parent of the entry that <b>RtlInsertElementGenericTableFullAvl</b> routine was searching for.
-
-
-##### - NodeOrParent.TableFoundNode
-
-The <b>RtlInsertElementGenericTableFullAvl</b> routine found a table entry whose key matches the data in <i>Buffer</i>. <i>NodeOrParent</i> contains a pointer to the matched entry.
-
-
-##### - NodeOrParent.TableEmptyTree
+#### TableEmptyTree
 
 The tree was empty. The contents of <i>NodeOrParent</i> has <i>not</i> been altered.
 
 
-##### - NodeOrParent.TableInsertAsLeft
+#### TableFoundNode
+
+The <b>RtlInsertElementGenericTableFullAvl</b> routine found a table entry whose key matches the data in <i>Buffer</i>. <i>NodeOrParent</i> contains a pointer to the matched entry.
+
+
+#### TableInsertAsLeft
 
 The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the left child of the entry that <i>NodeOrParent</i> points to.
 
 
-##### - NodeOrParent.TableInsertAsRight
+#### TableInsertAsRight
 
 The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the right child of the entry that <i>NodeOrParent</i> points to.
+
+
+### -param SearchResult [in]
+
+A pointer to a table entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine matches an entry, <i>NodeOrParent</i> points to the matched entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine fails to find a match, <i>NodeOrParent</i> points to the entry that would be the parent of the entry that <b>RtlInsertElementGenericTableFullAvl</b> routine was searching for.
 
 
 ## -returns
@@ -167,9 +167,9 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
  
 

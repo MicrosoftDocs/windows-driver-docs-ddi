@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c9b2eecf-fa9d-442e-9875-d068add25289
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::OutputPromptWide, debugger.outputpromptwide, OutputPromptWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], OutputPromptWide method, IDebugControl4, IDebugControl4::OutputPromptWide, OutputPromptWide, OutputPromptWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: IDebugControl4::OutputPromptWide, IDebugControl4 interface [Windows Debugging], OutputPromptWide method, OutputPromptWide method [Windows Debugging], debugger.outputpromptwide, IDebugControl4, OutputPromptWide, OutputPromptWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::OutputPromptWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.OutputPromptWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::OutputPromptWide method
@@ -304,15 +304,15 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
 
  
 

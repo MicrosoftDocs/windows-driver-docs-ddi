@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertpermanentsilocontext, PsInsertPermanentSiloContext
+ms.keywords: ntddk/PsInsertPermanentSiloContext, kernel.psinsertpermanentsilocontext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], PsInsertPermanentSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsInsertPermanentSiloContext
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsInsertPermanentSiloContext function

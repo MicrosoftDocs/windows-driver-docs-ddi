@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, ConvertToBmp method [Imaging Devices], ConvertToBmp, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, CWiauFormatConverter, wiautil/CWiauFormatConverter::ConvertToBmp, CWiauFormatConverter::ConvertToBmp, CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method
+ms.keywords: CWiauFormatConverter::ConvertToBmp, ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, image.cwiauformatconverter_converttobmp, CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, CWiauFormatConverter, ConvertToBmp method [Imaging Devices], wiautil/CWiauFormatConverter::ConvertToBmp, ConvertToBmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauFormatConverter.ConvertToBmp
 product: Windows
 targetos: Windows
@@ -126,11 +126,11 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 ## -see-also
 
+<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
+
 <a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
 <a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
-
-<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540379">CWiauFormatConverter::IsFormatSupported</a>
 

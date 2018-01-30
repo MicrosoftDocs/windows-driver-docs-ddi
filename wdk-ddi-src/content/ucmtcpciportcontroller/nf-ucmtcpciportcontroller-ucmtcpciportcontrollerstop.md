@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTcpciPortControllerStop, ucmtcpciportcontroller/UcmTcpciPortControllerStop, buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop method [Buses]
+ms.keywords: buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop method [Buses], UcmTcpciPortControllerStop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ucmtcpcicxstub.lib
 -	ucmtcpcicxstub.dll
-apiname: 
+apiname:
 -	UcmTcpciPortControllerStop
 product: Windows
 targetos: Windows

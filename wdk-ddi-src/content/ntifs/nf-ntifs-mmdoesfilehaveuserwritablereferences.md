@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences, ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers]
+ms.keywords: mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ifsk.mmdoesfilehaveuserwritablereferences, ntifs/MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], MmDoesFileHaveUserWritableReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmDoesFileHaveUserWritableReferences
 product: Windows
 targetos: Windows

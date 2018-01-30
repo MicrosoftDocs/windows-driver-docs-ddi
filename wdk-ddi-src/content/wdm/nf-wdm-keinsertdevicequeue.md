@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0e634e0-f0b4-49a7-9df5-7af0842154f4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeInsertDeviceQueue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml, kernel.keinsertdevicequeue, KeInsertDeviceQueue
+ms.keywords: KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], KeInsertDeviceQueue, wdm/KeInsertDeviceQueue, kernel.keinsertdevicequeue, k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeInsertDeviceQueue
 product: Windows
 targetos: Windows
@@ -99,13 +99,13 @@ This routine is for code that queues an I/O request to a device driver.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+
 <a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
-
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
  
 

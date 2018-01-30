@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IInterruptSync::GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, GetKInterrupt method [Audio Devices], IInterruptSync interface, GetKInterrupt method [Audio Devices], portcls/IInterruptSync::GetKInterrupt, GetKInterrupt, audio.iinterruptsync_getkinterrupt, IInterruptSync, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml
+ms.keywords: GetKInterrupt method [Audio Devices], IInterruptSync::GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, audio.iinterruptsync_getkinterrupt, IInterruptSync, portcls/IInterruptSync::GetKInterrupt, GetKInterrupt method [Audio Devices], IInterruptSync interface, GetKInterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,7 +84,7 @@ PKINTERRUPT GetKInterrupt(
 
 The PKINTERRUPT pointer is one of the two parameters that are passed to every interrupt service routine (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>). Every <b>IInterruptSync</b> object has an associated PKINTERRUPT pointer. It points to the associated kernel interrupt object, which is opaque.
 
-A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain this pointer so that it can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a> directly.
+A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain this pointer so that it can call <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a> directly.
 
 
 
@@ -92,7 +92,7 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 

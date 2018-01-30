@@ -40,7 +40,7 @@ apiname:
 -	pfnCreateShaderCacheSession
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback

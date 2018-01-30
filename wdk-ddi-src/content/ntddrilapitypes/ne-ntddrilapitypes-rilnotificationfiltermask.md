@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dc72657-00ae-4fde-b9a7-a63616d934c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_NFS_ALL, ntddrilapitypes/RILNOTIFICATIONFILTERMASK, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_NFS_SIGNALQUALITY, RIL_NFS_LOCATIONUPDATE, RIL_NFS_SIGNALQUALITY, netvista.rilnotificationfiltermask, ntddrilapitypes/RIL_NFS_ALL, RILNOTIFICATIONFILTERMASK, RIL_NFS_REGSTATUS_RATKIND, ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND
+ms.keywords: ntddrilapitypes/RIL_NFS_SIGNALQUALITY, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, ntddrilapitypes/RIL_NFS_ALL, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, netvista.rilnotificationfiltermask, RIL_NFS_SIGNALQUALITY, RIL_NFS_ALL, RILNOTIFICATIONFILTERMASK, ntddrilapitypes/RILNOTIFICATIONFILTERMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILNOTIFICATIONFILTERMASK
 product: Windows
 targetos: Windows

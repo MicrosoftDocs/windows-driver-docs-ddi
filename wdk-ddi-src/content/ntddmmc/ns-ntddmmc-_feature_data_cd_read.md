@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CD_READ
-title: _FEATURE_DATA_CD_READ
+title: "_FEATURE_DATA_CD_READ"
 author: windows-driver-content
 description: The FEATURE_DATA_CD_READ structure contains information about the CD Read feature.
 old-location: storage\feature_data_cd_read.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55d63dcc-7728-4982-ad1c-e1ca40cc941e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_CD_READ structure pointer [Storage Devices], *PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ, ntddmmc/FEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ structure [Storage Devices], storage.feature_data_cd_read, structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml, _FEATURE_DATA_CD_READ, ntddmmc/PFEATURE_DATA_CD_READ
+ms.keywords: ntddmmc/FEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ structure pointer [Storage Devices], structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml, storage.feature_data_cd_read, PFEATURE_DATA_CD_READ, _FEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ structure [Storage Devices], ntddmmc/PFEATURE_DATA_CD_READ, *PFEATURE_DATA_CD_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_CD_READ
 product: Windows
 targetos: Windows
-req.typenames: *PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ
+req.typenames: "*PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ"
 ---
 
 # _FEATURE_DATA_CD_READ structure

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4d20bd03-9fde-4fcf-a90b-5933221cda93
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveCyclic, NewSlaveDmaChannel, portcls/IPortWaveCyclic::NewSlaveDmaChannel, audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, IPortWaveCyclic::NewSlaveDmaChannel, NewSlaveDmaChannel method [Audio Devices], IPortWaveCyclic interface, audio.iportwavecyclic_newslavedmachannel, IPortWaveCyclic interface [Audio Devices], NewSlaveDmaChannel method, NewSlaveDmaChannel method [Audio Devices]
+ms.keywords: NewSlaveDmaChannel, IPortWaveCyclic::NewSlaveDmaChannel, audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, portcls/IPortWaveCyclic::NewSlaveDmaChannel, IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], NewSlaveDmaChannel method, NewSlaveDmaChannel method [Audio Devices], IPortWaveCyclic interface, NewSlaveDmaChannel method [Audio Devices], audio.iportwavecyclic_newslavedmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -118,7 +118,7 @@ The DMA speed can be specified as one of the following DMA_SPEED enumeration val
 ## -remarks
 
 
-Parameters <i>MaximumLength</i>, <i>DemandMode</i>, and <i>DmaSpeed</i> are similar in meaning to the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> structure with the same names.
+Parameters <i>MaximumLength</i>, <i>DemandMode</i>, and <i>DmaSpeed</i> are similar in meaning to the members of the <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure with the same names.
 
 A WaveCyclic device that lacks DMA-hardware capabilities is referred to as a <i>subordinate device</i>. In contrast, a <i>master device</i> has built-in bus-mastering DMA hardware. A subordinate device has to rely on the system DMA controller to perform any data transfers that it requires. The <code>NewSlaveDmaChannel</code> method creates a DMA-channel object for a subordinate device. To create a DMA-channel object for a master device, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536900">IPortWaveCyclic::NewMasterDmaChannel</a> method instead. The sb16 sample audio driver in the Microsoft Windows Driver Kit (WDK) is an example of a WaveCyclic miniport driver for a subordinate device. For more information about master and subordinate devices, see <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> and <a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>.
 
@@ -128,17 +128,17 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
-
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
-<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
-
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
 
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536900">IPortWaveCyclic::NewMasterDmaChannel</a>
+
+<a href="..\portcls\nn-portcls-idmachannelslave.md">IDmaChannelSlave</a>
 
  
 

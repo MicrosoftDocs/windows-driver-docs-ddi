@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SPEED_MAP
-title: _SPEED_MAP
+title: "_SPEED_MAP"
 author: windows-driver-content
 description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SPEED_MAP, *PSPEED_MAP, SPEED_MAP structure [Buses], IEEE.speed_map, PSPEED_MAP structure pointer [Buses], PSPEED_MAP, 1394/SPEED_MAP, 1394/PSPEED_MAP, SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml
+ms.keywords: "*PSPEED_MAP, PSPEED_MAP, SPEED_MAP, 1394/SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, 1394/PSPEED_MAP, _SPEED_MAP, PSPEED_MAP structure pointer [Buses], IEEE.speed_map, SPEED_MAP structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	SPEED_MAP
 product: Windows
 targetos: Windows
-req.typenames: SPEED_MAP, *PSPEED_MAP
+req.typenames: "*PSPEED_MAP, SPEED_MAP"
 ---
 
 # _SPEED_MAP structure

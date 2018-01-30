@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_ENDORSER_VALUE
-title: _WIAS_ENDORSER_VALUE
+title: "_WIAS_ENDORSER_VALUE"
 author: windows-driver-content
 description: The WIAS_ENDORSER_VALUE structure stores token/value pairs for endorser strings.
 old-location: image\wias_endorser_value.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 54395899-c35d-4251-9e9d-ec2128b28c67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml, wiamindr_lh/WIAS_ENDORSER_VALUE, _WIAS_ENDORSER_VALUE, wiamindr_lh/PWIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], image.wias_endorser_value, *PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices], WIAS_ENDORSER_VALUE
+ms.keywords: "_WIAS_ENDORSER_VALUE, wiamindr_lh/PWIAS_ENDORSER_VALUE, wiamindr_lh/WIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], image.wias_endorser_value, WIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	WIAS_ENDORSER_VALUE
 product: Windows
 targetos: Windows
-req.typenames: WIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE
+req.typenames: "*PWIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE"
 req.product: Windows 10 or later.
 ---
 

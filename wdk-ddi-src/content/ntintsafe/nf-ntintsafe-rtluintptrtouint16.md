@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 405FB676-64FD-43DE-BCD9-233C8B43D851
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrtouint16, RtlUIntPtrToUInt16 function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToUInt16, RtlUIntPtrToUInt16
+ms.keywords: RtlUIntPtrToUInt16, ntintsafe/RtlUIntPtrToUInt16, RtlUIntPtrToUInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlUIntPtrToUInt16
 product: Windows
 targetos: Windows

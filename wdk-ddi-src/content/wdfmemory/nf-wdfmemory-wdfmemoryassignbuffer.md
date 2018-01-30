@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f57fe6ac-87ad-4db8-a715-816885b87d68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/WdfMemoryAssignBuffer, WdfMemoryAssignBuffer, kmdf.wdfmemoryassignbuffer, DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, wdf.wdfmemoryassignbuffer, PFN_WDFMEMORYASSIGNBUFFER, WdfMemoryAssignBuffer method
+ms.keywords: WdfMemoryAssignBuffer method, WdfMemoryAssignBuffer, wdf.wdfmemoryassignbuffer, DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, kmdf.wdfmemoryassignbuffer, PFN_WDFMEMORYASSIGNBUFFER, wdfmemory/WdfMemoryAssignBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfMemoryAssignBuffer
 product: Windows
 targetos: Windows
@@ -133,9 +133,9 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
  
 

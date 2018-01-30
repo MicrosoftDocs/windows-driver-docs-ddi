@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportallocatepool, VideoPortAllocatePool, VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, VideoPortAllocatePool function [Display Devices], video/VideoPortAllocatePool
+ms.keywords: VideoPortAllocatePool function [Display Devices], VideoPortAllocatePool, video/VideoPortAllocatePool, VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortAllocatePool function

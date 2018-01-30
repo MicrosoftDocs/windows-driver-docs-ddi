@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectDelete method, PFN_WDFOBJECTDELETE, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete, WdfObjectDelete, kmdf.wdfobjectdelete
+ms.keywords: wdfobject/WdfObjectDelete, kmdf.wdfobjectdelete, WdfObjectDelete, wdf.wdfobjectdelete, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, PFN_WDFOBJECTDELETE, WdfObjectDelete method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfObjectDelete
 product: Windows
 targetos: Windows

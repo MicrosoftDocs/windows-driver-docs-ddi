@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3e089bf-6037-4d85-92ce-db9c865bdc02
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCbdqInitialize function [Installable File System Drivers], FltCbdqInitialize, fltkernel/FltCbdqInitialize, FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, ifsk.fltcbdqinitialize
+ms.keywords: FltCbdqInitialize function [Installable File System Drivers], FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize, FltCbdqInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltkernel.h
-apiname: 
+apiname:
 -	FltCbdqInitialize
 product: Windows
 targetos: Windows
@@ -104,6 +104,21 @@ Pointer to a caller-supplied insert callback routine. The Filter Manager calls t
 </table></span></div>
 
 
+#### Cbdq
+
+Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
+
+#### Cbd
+
+Pointer to the callback data structure to be inserted into the queue. 
+
+
+#### InsertContext
+
+Context information pointer that was passed as the <i>InsertContext</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>. 
+
+
 ### -param CbdqRemoveIo [in]
 
 Pointer to a caller-supplied remove callback routine. The Filter Manager calls this routine to remove the specified callback data structure from the queue. This routine is declared as follows: 
@@ -121,6 +136,16 @@ Pointer to a caller-supplied remove callback routine. The Filter Manager calls t
 </td>
 </tr>
 </table></span></div>
+
+
+#### Cbdq
+
+Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
+
+#### Cbd
+
+Pointer to the callback data structure to be removed from the queue. 
 
 
 ### -param CbdqPeekNextIo [in]
@@ -143,6 +168,21 @@ Pointer to a caller-supplied peek callback routine. The Filter Manager calls thi
 </table></span></div>
 
 
+#### Cbdq
+
+Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
+
+#### Cbd
+
+Pointer to the callback data structure marking the position in the queue to begin searching for a match to <i>PeekContext</i>. If <i>Cbd</i> is <b>NULL</b>, the search begins at the head of the queue. 
+
+
+#### PeekContext
+
+Context information pointer that was passed as the <i>PeekContext</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>. 
+
+
 ### -param CbdqAcquire [in]
 
 Pointer to a caller-supplied acquire queue lock callback routine. The Filter Manager calls this routine to acquire the lock on the queue before attempting to insert or remove an item from the queue. This routine is declared as follows: 
@@ -160,6 +200,16 @@ Pointer to a caller-supplied acquire queue lock callback routine. The Filter Man
 </td>
 </tr>
 </table></span></div>
+
+
+#### Cbdq
+
+Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
+
+#### Irql
+
+Pointer to a system-supplied variable that receives the current IRQL. The same variable is passed to the corresponding <i>CbdqRelease</i> routine. 
 
 
 ### -param CbdqRelease [in]
@@ -181,6 +231,16 @@ Pointer to a caller-supplied release queue lock callback routine. The Filter Man
 </table></span></div>
 
 
+#### Cbdq
+
+Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
+
+#### Irql
+
+The same system-supplied variable that received the current IRQL as the <i>Irql</i> parameter to the corresponding <i>CbdqAcquire</i> routine. 
+
+
 ### -param CbdqCompleteCanceledIo [in]
 
 Pointer to a caller-supplied cancel routine. The Filter Manager calls this routine to signal to the minifilter driver to complete a canceled I/O operation. This routine is declared as follows: 
@@ -200,72 +260,12 @@ Pointer to a caller-supplied cancel routine. The Filter Manager calls this routi
 </table></span></div>
 
 
-##### - CbdqAcquire.Cbdq
+#### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
 
 
-##### - CbdqAcquire.Irql
-
-Pointer to a system-supplied variable that receives the current IRQL. The same variable is passed to the corresponding <i>CbdqRelease</i> routine. 
-
-
-##### - CbdqRemoveIo.Cbdq
-
-Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
-
-
-##### - CbdqCompleteCanceledIo.Cbdq
-
-Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
-
-
-##### - CbdqInsertIo.InsertContext
-
-Context information pointer that was passed as the <i>InsertContext</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>. 
-
-
-##### - CbdqRemoveIo.Cbd
-
-Pointer to the callback data structure to be removed from the queue. 
-
-
-##### - CbdqInsertIo.Cbd
-
-Pointer to the callback data structure to be inserted into the queue. 
-
-
-##### - CbdqRelease.Irql
-
-The same system-supplied variable that received the current IRQL as the <i>Irql</i> parameter to the corresponding <i>CbdqAcquire</i> routine. 
-
-
-##### - CbdqInsertIo.Cbdq
-
-Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
-
-
-##### - CbdqPeekNextIo.Cbdq
-
-Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
-
-
-##### - CbdqRelease.Cbdq
-
-Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
-
-
-##### - CbdqPeekNextIo.Cbd
-
-Pointer to the callback data structure marking the position in the queue to begin searching for a match to <i>PeekContext</i>. If <i>Cbd</i> is <b>NULL</b>, the search begins at the head of the queue. 
-
-
-##### - CbdqPeekNextIo.PeekContext
-
-Context information pointer that was passed as the <i>PeekContext</i> parameter to <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>. 
-
-
-##### - CbdqCompleteCanceledIo.Cbd
+#### Cbd
 
 Pointer to the callback data structure for the canceled I/O operation. 
 
@@ -366,27 +366,27 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemoveLink_OUT
-title: _RemoveLink_OUT
+title: "_RemoveLink_OUT"
 author: windows-driver-content
 description: The RemoveLink_OUT structure is used by an HBA miniport driver to report the output parameter data of the RemoveLink WMI method to the WMI client.
 old-location: storage\removelink_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 724e3143-4994-4785-9bbf-afb928e8b166
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml, hbapiwmi/RemoveLink_OUT, PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], *PRemoveLink_OUT, storage.removelink_out, RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT
+ms.keywords: PRemoveLink_OUT structure pointer [Storage Devices], RemoveLink_OUT, *PRemoveLink_OUT, storage.removelink_out, PRemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml, hbapiwmi/RemoveLink_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	RemoveLink_OUT
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4e0d035b-5528-4e69-bd6c-9311bf0af4cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], RILSETGEOLOCATIONDATAPARAMS, netvista.rilsetgeolocationdataparams_2, rilapitypes/RILSETGEOLOCATIONDATAPARAMS
+ms.keywords: RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSETGEOLOCATIONDATAPARAMS, netvista.rilsetgeolocationdataparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSETGEOLOCATIONDATAPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS
+req.typenames: RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BBC8975A-E5B1-4137-83D8-891075A8F4D0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, buses.ucm_pd_power_data_object_init_variable_non_battery, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_variable_non_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 product: Windows
 targetos: Windows

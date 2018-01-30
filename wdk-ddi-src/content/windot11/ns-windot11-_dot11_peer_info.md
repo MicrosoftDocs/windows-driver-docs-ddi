@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_PEER_INFO
-title: _DOT11_PEER_INFO
+title: "_DOT11_PEER_INFO"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_peer_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1d5bbd9-45e3-4802-ab9b-77ff6bdcd6ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PEER_INFO, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], netvista.dot11_peer_info, _DOT11_PEER_INFO, windot11/DOT11_PEER_INFO, DOT11_PEER_INFO, Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, windot11/PDOT11_PEER_INFO, *PDOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_peer_info, windot11/DOT11_PEER_INFO, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_PEER_INFO, _DOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PEER_INFO, PDOT11_PEER_INFO, Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, DOT11_PEER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PEER_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_PEER_INFO, DOT11_PEER_INFO
+req.typenames: DOT11_PEER_INFO, *PDOT11_PEER_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -217,9 +217,9 @@ This member has a value of zero if the peer is not associated.
 
 <a href="..\windot11\ns-windot11-_dot11_peer_info_list.md">DOT11_PEER_INFO_LIST</a>
 
-<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
-
 <a href="..\windot11\ns-windot11-_dot11_peer_statistics.md">DOT11_PEER_STATISTICS</a>
+
+<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
 
 <a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
 

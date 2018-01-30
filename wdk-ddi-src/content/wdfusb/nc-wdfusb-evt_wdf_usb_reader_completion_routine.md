@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	WdfUsb.h
-apiname: 
+apiname:
 -	EvtUsbTargetPipeReadComplete
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_TRI_STATE, WDF_TRI_STATE
+req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -142,11 +142,11 @@ For more information about the <i>EvtUsbTargetPipeReadComplete</i> callback func
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
-
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
 
  
 

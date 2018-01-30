@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 412a77c8-eb10-43c5-bc45-2c61858463a7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging], HasNode method, debugger.extremotelist_hasnode, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList::HasNode, HasNode, HasNode method [Windows Debugging], ExtRemoteList class, HasNode method [Windows Debugging]
+ms.keywords: ExtRemoteList::HasNode, HasNode method [Windows Debugging], HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList class [Windows Debugging], HasNode method, debugger.extremotelist_hasnode, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList, HasNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.HasNode
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::HasNode method
@@ -84,9 +84,9 @@ If this method returns <code>true</code>, <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544129">ExtRemoteList::GetNodeOffset</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
 
  
 

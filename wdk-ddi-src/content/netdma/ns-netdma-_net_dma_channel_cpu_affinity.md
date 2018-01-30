@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_CHANNEL_CPU_AFFINITY
-title: _NET_DMA_CHANNEL_CPU_AFFINITY
+title: "_NET_DMA_CHANNEL_CPU_AFFINITY"
 author: windows-driver-content
 description: The NET_DMA_CHANNEL_CPU_AFFINITY structure specifies the CPU affinity of a DMA channel.
 old-location: netvista\net_dma_channel_cpu_affinity.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 660fb475-fa0a-4e04-9a91-e60422ff9292
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, netvista.net_dma_channel_cpu_affinity, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], *PNET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY, _NET_DMA_CHANNEL_CPU_AFFINITY
+ms.keywords: NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, PNET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NET_DMA_CHANNEL_CPU_AFFINITY
 product: Windows
 targetos: Windows
-req.typenames: *PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY
+req.typenames: "*PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY"
 ---
 
 # _NET_DMA_CHANNEL_CPU_AFFINITY structure
@@ -102,13 +102,13 @@ The NetDMA interface calls
 
 ## -see-also
 
+<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
+   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+
 <mshelp:link keywords="netvista.providersetdmachannelcpuaffinity" tabindex="0"><b>
    ProviderSetDmaChannelCpuAffinity</b></mshelp:link>
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
  
 

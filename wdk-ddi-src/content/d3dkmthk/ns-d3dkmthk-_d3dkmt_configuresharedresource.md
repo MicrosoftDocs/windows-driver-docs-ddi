@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource, _D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml
+ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE, OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, display.d3dkmt_configuresharedresource, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

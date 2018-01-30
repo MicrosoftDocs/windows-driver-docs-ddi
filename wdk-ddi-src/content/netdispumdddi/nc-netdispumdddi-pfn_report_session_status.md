@@ -40,7 +40,7 @@ apiname:
 -	ReportSessionStatus
 product: Windows
 targetos: Windows
-req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
+req.typenames: NDK_SRQ_DISPATCH
 ---
 
 # PFN_REPORT_SESSION_STATUS callback
@@ -105,9 +105,9 @@ If the Miracast user-mode driver reports an error in the <i>MiracastStatus</i> p
 
 ## -see-also
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>
-
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
+<a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>
 
  
 

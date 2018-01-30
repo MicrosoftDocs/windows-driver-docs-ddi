@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_RENDER, display.dxgkarg_render, *INOUT_PDXGKARG_RENDER, DXGKARG_RENDER structure [Display Devices], d3dkmddi/DXGKARG_RENDER, DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml"
+ms.keywords: display.dxgkarg_render, DXGKARG_RENDER, *INOUT_PDXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, DXGKARG_RENDER structure [Display Devices], _DXGKARG_RENDER, d3dkmddi/DXGKARG_RENDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -166,15 +166,15 @@ typedef struct _DXGKARG_RENDER {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb36bc6f-ea9d-4433-a004-3d7db64fcb06
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCchCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatstringn, RtlUnicodeStringCchCatStringN, safestrings_7873a766-38f3-4e51-bde0-81fbf1f2dda6.xml, ntstrsafe/RtlUnicodeStringCchCatStringN
+ms.keywords: ntstrsafe/RtlUnicodeStringCchCatStringN, RtlUnicodeStringCchCatStringN, safestrings_7873a766-38f3-4e51-bde0-81fbf1f2dda6.xml, kernel.rtlunicodestringcchcatstringn, RtlUnicodeStringCchCatStringN function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringCchCatStringN
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCchCatStringN function

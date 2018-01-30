@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f14aa2bc-1eeb-4c17-836a-52046ba388f1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILRANGE, netvista.rilrange_2, RILRANGE structure [Network Drivers Starting with Windows Vista], RILRANGE, *LPRILRANGE
+ms.keywords: RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], *LPRILRANGE, netvista.rilrange_2, rilapitypes/RILRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILRANGE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRANGE, RILRANGE
+req.typenames: "*LPRILRANGE, RILRANGE"
 req.product: Windows 10 or later.
 ---
 

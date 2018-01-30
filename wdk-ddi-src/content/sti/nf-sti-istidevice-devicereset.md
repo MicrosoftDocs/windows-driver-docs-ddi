@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::DeviceReset, DeviceReset method [Imaging Devices], stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, IStiDevice, DeviceReset method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], DeviceReset method, image.istidevice_devicereset, DeviceReset, sti/IStiDevice::DeviceReset
+ms.keywords: IStiDevice::DeviceReset, DeviceReset method [Imaging Devices], stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, IStiDevice interface [Imaging Devices], DeviceReset method, sti/IStiDevice::DeviceReset, DeviceReset method [Imaging Devices], IStiDevice interface, DeviceReset, image.istidevice_devicereset, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Sti.h
-apiname: 
+apiname:
 -	IStiDevice.DeviceReset
 product: Windows
 targetos: Windows

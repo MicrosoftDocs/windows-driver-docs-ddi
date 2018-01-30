@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_POWER_MODE
-title: _DOT11_POWER_MODE
+title: "_DOT11_POWER_MODE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_power_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f18f937-e749-414d-aa21-96c6ab02982b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_power_mode_unknown, DOT11_POWER_MODE, windot11/dot11_power_mode_active, PDOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], *PDOT11_POWER_MODE, netvista.dot11_power_mode, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, windot11/dot11_power_mode_unknown, _DOT11_POWER_MODE, dot11_power_mode_active, dot11_power_mode_powersave, windot11/PDOT11_POWER_MODE, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_POWER_MODE, windot11/dot11_power_mode_powersave
+ms.keywords: windot11/DOT11_POWER_MODE, windot11/dot11_power_mode_powersave, netvista.dot11_power_mode, *PDOT11_POWER_MODE, PDOT11_POWER_MODE, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_power_mode_active, DOT11_POWER_MODE, _DOT11_POWER_MODE, dot11_power_mode_unknown, dot11_power_mode_active, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], dot11_power_mode_powersave, windot11/dot11_power_mode_unknown, windot11/PDOT11_POWER_MODE, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_POWER_MODE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 146f0e43-a9de-4d4d-8b8f-219c22cfa871
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml, RtlStringCbCopyUnicodeStringEx, ntstrsafe/RtlStringCbCopyUnicodeStringEx, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestringex
+ms.keywords: ntstrsafe/RtlStringCbCopyUnicodeStringEx, kernel.rtlstringcbcopyunicodestringex, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], RtlStringCbCopyUnicodeStringEx, safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCbCopyUnicodeStringEx
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbCopyUnicodeStringEx function
@@ -105,27 +105,27 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
 
 
 
-##### - dwFlags.STRSAFE_FILL_BEHIND_NULL
+#### STRSAFE_FILL_BEHIND_NULL
 
 If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the terminating null character. 
 
 
-##### - dwFlags.STRSAFE_IGNORE_NULLS
+#### STRSAFE_IGNORE_NULLS
 
 If this flag is set, either the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlStringCbCopyUnicodeStringEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings. 
 
 
-##### - dwFlags.STRSAFE_NULL_ON_FAILURE
-
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents. 
-
-
-##### - dwFlags.STRSAFE_FILL_ON_FAILURE
+#### STRSAFE_FILL_ON_FAILURE
 
 If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer, and the buffer is null-terminated. This operation overwrites any preexisting buffer contents. 
 
 
-##### - dwFlags.STRSAFE_NO_TRUNCATION
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents. 
+
+
+#### STRSAFE_NO_TRUNCATION
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
 

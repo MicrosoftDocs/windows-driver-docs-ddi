@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 47F535C0-57C7-407B-B47B-188EB6434F2E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterPropertyBag interface [Print Devices], GetWriteStream method, IPrinterPropertyBag::GetWriteStream, GetWriteStream, printerextension/IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag
+ms.keywords: printerextension/IPrinterPropertyBag::GetWriteStream, GetWriteStream method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag, GetWriteStream method [Print Devices], IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, GetWriteStream, IPrinterPropertyBag interface [Print Devices], GetWriteStream method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterPropertyBag.GetWriteStream
 product: Windows
 targetos: Windows

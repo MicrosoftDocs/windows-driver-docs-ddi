@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsclassextension/Unknown, sensorsclassextension/Approximate, Approximate, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], sensorsclassextension/Unreliable, High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/High, sensors.magnetometeraccuracy, Unknown, Unreliable
+ms.keywords: sensors.magnetometeraccuracy, sensorsclassextension/Unknown, Unreliable, Unknown, sensorsclassextension/Approximate, MagnetometerAccuracy enumeration [Sensor Devices], sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unreliable, Approximate, High, sensorsclassextension/High, MagnetometerAccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	SensorsClassExtension.h
-apiname: 
+apiname:
 -	MagnetometerAccuracy
 product: Windows
 targetos: Windows
@@ -88,14 +88,14 @@ typedef enum _MagnetometerAccuracy {
 
 
 
-#### - High
-
-          The actual and reported values are accurate. No additional calibration is needed.
-
-
 #### - Unknown
 
 The accuracy is currently not available, typically because the driver can't report it.
+
+
+#### - Unreliable
+
+The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
 
 
 #### - Approximate
@@ -103,9 +103,9 @@ The accuracy is currently not available, typically because the driver can't repo
           The actual and reported values differ but may be accurate enough for some applications. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration.
 
 
-#### - Unreliable
+#### - High
 
-The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
+          The actual and reported values are accurate. No additional calibration is needed.
 
 
 ## -remarks

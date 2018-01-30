@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a0749324-8b4e-4b82-8c51-b1b8883d521e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetIoTarget method, kmdf.wdfdevicegetiotarget, wdf.wdfdevicegetiotarget, WdfDeviceGetIoTarget, wdfdevice/WdfDeviceGetIoTarget, DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, PFN_WDFDEVICEGETIOTARGET
+ms.keywords: wdf.wdfdevicegetiotarget, DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, wdfdevice/WdfDeviceGetIoTarget, PFN_WDFDEVICEGETIOTARGET, kmdf.wdfdevicegetiotarget, WdfDeviceGetIoTarget method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceGetIoTarget
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMAENABLERGETMAXIMUMLENGTH, wdfdmaenabler/WdfDmaEnablerGetMaximumLength, WdfDmaEnablerGetMaximumLength, WdfDmaEnablerGetMaximumLength method, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, wdf.wdfdmaenablergetmaximumlength, kmdf.wdfdmaenablergetmaximumlength
+ms.keywords: PFN_WDFDMAENABLERGETMAXIMUMLENGTH, WdfDmaEnablerGetMaximumLength method, WdfDmaEnablerGetMaximumLength, kmdf.wdfdmaenablergetmaximumlength, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaEnablerGetMaximumLength
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetfragmentlength.md">WdfDmaEnablerGetFragmentLength</a>
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetfragmentlength.md">WdfDmaEnablerGetFragmentLength</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, IWiaMiniDrv::drvGetDeviceErrorStr, drvGetDeviceErrorStr, image.iwiaminidrv_drvgetdeviceerrorstr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv
+ms.keywords: drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, IWiaMiniDrv, drvGetDeviceErrorStr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, image.iwiaminidrv_drvgetdeviceerrorstr, IWiaMiniDrv::drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvGetDeviceErrorStr
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -102,14 +102,14 @@ Is currently unused.
 Specifies the device error value to be mapped to a string. A value of zero indicates that no error occurred.
 
 
-#### - plDevErr [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
 #### - ppszDevErrStr [out, optional]
 
 Points to a memory location that will receive the address of a string describing the error. 
+
+
+#### - plDevErr [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

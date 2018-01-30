@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiauDbgSetFlags function [Imaging Devices], wiautil/wiauDbgSetFlags
+ms.keywords: wiautil/wiauDbgSetFlags, wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], image.wiaudbgsetflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauDbgSetFlags
 product: Windows
 targetos: Windows

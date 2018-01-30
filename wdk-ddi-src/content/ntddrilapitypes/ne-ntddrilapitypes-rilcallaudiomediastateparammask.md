@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad016fd6-1fbf-4600-809b-b0a9b368a87b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_QUALITY, RIL_PARAM_CALLAUDIO_FLAGS, RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_ALL, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, netvista.rilcallaudiomediastateparammask, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_ALL, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_QUALITY, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, RIL_PARAM_CALLAUDIO_FLAGS, netvista.rilcallaudiomediastateparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLAUDIOMEDIASTATEPARAMMASK
 product: Windows
 targetos: Windows

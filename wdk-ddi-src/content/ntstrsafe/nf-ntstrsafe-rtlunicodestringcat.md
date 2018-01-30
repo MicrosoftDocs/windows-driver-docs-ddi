@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15b9ff74-5ca7-4459-af02-b6dc7cd201bf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCat, ntstrsafe/RtlUnicodeStringCat, kernel.rtlunicodestringcat, RtlUnicodeStringCat function [Kernel-Mode Driver Architecture], safestrings_5d3ef5c7-f2cd-4de8-a043-5474c803183c.xml
+ms.keywords: safestrings_5d3ef5c7-f2cd-4de8-a043-5474c803183c.xml, ntstrsafe/RtlUnicodeStringCat, kernel.rtlunicodestringcat, RtlUnicodeStringCat, RtlUnicodeStringCat function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringCat
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCat function
@@ -148,9 +148,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcatex.md">RtlUnicodeStringCatEx</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcatex.md">RtlUnicodeStringCatEx</a>
 
  
 

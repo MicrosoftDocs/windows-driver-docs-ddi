@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ntifs/FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx, ifsk.fsrtlpreparemdlwriteex
+ms.keywords: ntifs/FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, FsRtlPrepareMdlWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlPrepareMdlWriteEx
 product: Windows
 targetos: Windows
@@ -141,11 +141,11 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
 <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
 
 <a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
  
 

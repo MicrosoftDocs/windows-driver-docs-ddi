@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4A22CC69-F529-4D0B-BF00-877468E29429
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_MONITORLINKINFO, DXGK_MONITORLINKINFO, display.dxgk_monitorlinkinfo, d3dkmddi/DXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO, DXGK_MONITORLINKINFO structure [Display Devices], d3dkmddi/PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO structure pointer [Display Devices]"
+ms.keywords: DXGK_MONITORLINKINFO structure [Display Devices], _DXGK_MONITORLINKINFO, d3dkmddi/DXGK_MONITORLINKINFO, display.dxgk_monitorlinkinfo, d3dkmddi/PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO structure pointer [Display Devices], DXGK_MONITORLINKINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

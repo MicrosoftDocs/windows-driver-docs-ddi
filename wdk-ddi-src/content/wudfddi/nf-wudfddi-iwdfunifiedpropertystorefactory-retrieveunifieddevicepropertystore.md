@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A54E56A6-9A6C-435D-83FD-84BB0E072C74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method
+ms.keywords: wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

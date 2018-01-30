@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_POWER_STATE
-title: _DEVICE_POWER_STATE
+title: "_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The DEVICE_POWER_STATE enumeration type indicates a device power state.
 old-location: kernel\device_power_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerDeviceD0, PDEVICE_POWER_STATE, wdm/PDEVICE_POWER_STATE, PowerDeviceD3, PowerDeviceMaximum, PowerDeviceD2, wdm/PowerDeviceD3, wdm/PowerDeviceD2, PowerDeviceD1, wdm/DEVICE_POWER_STATE, DEVICE_POWER_STATE, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, PowerDeviceD0, _DEVICE_POWER_STATE, wdm/PowerDeviceD1, wdm/PowerDeviceUnspecified, wdm/PowerDeviceMaximum, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], kernel.device_power_state, PowerDeviceUnspecified, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PDEVICE_POWER_STATE
+ms.keywords: wdm/PDEVICE_POWER_STATE, DEVICE_POWER_STATE, _DEVICE_POWER_STATE, PowerDeviceD3, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, PowerDeviceD0, wdm/PowerDeviceD3, wdm/PowerDeviceD0, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PowerDeviceD2, PowerDeviceD1, wdm/DEVICE_POWER_STATE, PowerDeviceD2, wdm/PowerDeviceUnspecified, PowerDeviceMaximum, wdm/PowerDeviceD1, kernel.device_power_state, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PowerDeviceUnspecified, wdm/PowerDeviceMaximum, PDEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows

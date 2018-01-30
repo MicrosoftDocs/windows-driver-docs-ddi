@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._OEMFONTINSTPARAM
-title: _OEMFONTINSTPARAM
+title: "_OEMFONTINSTPARAM"
 author: windows-driver-content
 description: The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::FontInstallerDlgProc method.
 old-location: print\oemfontinstparam.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMFONTINSTPARAM structure [Print Devices], *POEMFONTINSTPARAM, prntfont/OEMFONTINSTPARAM, OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, POEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml
+ms.keywords: prntfont/OEMFONTINSTPARAM, *POEMFONTINSTPARAM, POEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM, _OEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, POEMFONTINSTPARAM structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	OEMFONTINSTPARAM
 product: Windows
 targetos: Windows
-req.typenames: *POEMFONTINSTPARAM, OEMFONTINSTPARAM
+req.typenames: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM"
 req.product: Windows 10 or later.
 ---
 

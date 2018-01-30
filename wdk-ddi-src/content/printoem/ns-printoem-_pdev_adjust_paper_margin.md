@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_PAPER_MARGIN
-title: _PDEV_ADJUST_PAPER_MARGIN
+title: "_PDEV_ADJUST_PAPER_MARGIN"
 author: windows-driver-content
 description: The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
 old-location: print\pdev_adjust_paper_margin.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f44a0a42-1fa1-4dd2-bd9f-74b0d0ed823e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDEV_ADJUST_PAPER_MARGIN structure [Print Devices], PDEV_ADJUST_PAPER_MARGIN, printoem/PDEV_ADJUST_PAPER_MARGIN, print_unidrv-pscript_rendering_09d49312-b306-40c0-ad25-bc3669e8eedd.xml, print.pdev_adjust_paper_margin, _PDEV_ADJUST_PAPER_MARGIN
+ms.keywords: PDEV_ADJUST_PAPER_MARGIN structure [Print Devices], _PDEV_ADJUST_PAPER_MARGIN, print_unidrv-pscript_rendering_09d49312-b306-40c0-ad25-bc3669e8eedd.xml, PDEV_ADJUST_PAPER_MARGIN, printoem/PDEV_ADJUST_PAPER_MARGIN, print.pdev_adjust_paper_margin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	PDEV_ADJUST_PAPER_MARGIN
 product: Windows
 targetos: Windows
@@ -84,9 +84,9 @@ The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
  
 

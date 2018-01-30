@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 547af6b1-63cf-4e61-a357-1a7fdc33e43c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, OEMNextBand, print.oemnextband, printoem/OEMNextBand, OEMNextBand function [Print Devices]
+ms.keywords: printoem/OEMNextBand, print.oemnextband, print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, OEMNextBand function [Print Devices], OEMNextBand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMNextBand
 product: Windows
 targetos: Windows

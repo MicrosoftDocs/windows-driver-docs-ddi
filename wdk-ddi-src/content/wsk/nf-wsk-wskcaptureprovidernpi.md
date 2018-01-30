@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], WskCaptureProviderNPI
+ms.keywords: WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	WskCaptureProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -96,21 +96,21 @@ For more information about how this parameter is used, see
      Kernel Application</mshelp:link>.
 
 
+#### WSK_NO_WAIT
+
+Return from this function immediately if the provider NPI is not available.
+
+
+#### WSK_INFINITE_WAIT
+
+Wait until the provider NPI is available from the WSK subsystem.
+
+
 ### -param WskProviderNpi [out]
 
 A pointer to the NPI returned by the WSK provider. This 
      <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a> structure contains a
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.
-
-
-##### - WaitTimeout.WSK_INFINITE_WAIT
-
-Wait until the provider NPI is available from the WSK subsystem.
-
-
-##### - WaitTimeout.WSK_NO_WAIT
-
-Return from this function immediately if the provider NPI is not available.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 552b607e-65c7-4595-9adb-b9c2f4301afd
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidsdi/HidD_GetHidGuid, HidD_GetHidGuid, hid.hidd_gethidguid, HidD_GetHidGuid routine [Human Input Devices], hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml
+ms.keywords: hid.hidd_gethidguid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices], hidsdi/HidD_GetHidGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549186">IoGetDeviceInterfaces</a>
+<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
  
 

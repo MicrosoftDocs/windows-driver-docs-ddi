@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e97fb29-64a7-4fb5-b07e-a9810499cf1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap, _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
+ms.keywords: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap, _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

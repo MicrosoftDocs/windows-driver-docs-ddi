@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory::CopyFromMemory, wudfddi/IWDFMemory::CopyFromMemory, CopyFromMemory method, IWDFMemory interface, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, IWDFMemory, CopyFromMemory, IWDFMemory interface, CopyFromMemory method, CopyFromMemory method, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory
+ms.keywords: wudfddi/IWDFMemory::CopyFromMemory, IWDFMemory, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, CopyFromMemory method, wdf.iwdfmemory_copyfrommemory, umdf.iwdfmemory_copyfrommemory, CopyFromMemory, IWDFMemory interface, CopyFromMemory method, CopyFromMemory method, IWDFMemory interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFMemory.CopyFromMemory
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_FEATURE_STATUS_TYPE
-title: _NDIS_SWITCH_FEATURE_STATUS_TYPE
+title: "_NDIS_SWITCH_FEATURE_STATUS_TYPE"
 author: windows-driver-content
 description: The NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration specifies the type of status information for a custom policy property, or feature, of a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_feature_status_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3255313-1d49-4286-a48a-6a1729ccf7fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeMaximum, ntddndis/NdisSwitchFeatureStatusTypeMaximum, NdisSwitchFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE, netvista.ndis_switch_feature_status_type, _NDIS_SWITCH_FEATURE_STATUS_TYPE, NdisSwitchFeatureStatusTypeCustom, NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE, PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeCustom, ntddndis/NdisSwitchFeatureStatusTypeUndefined
+ms.keywords: ntddndis/NdisSwitchFeatureStatusTypeMaximum, *PNDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchFeatureStatusTypeCustom, PNDIS_SWITCH_FEATURE_STATUS_TYPE, _NDIS_SWITCH_FEATURE_STATUS_TYPE, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE, netvista.ndis_switch_feature_status_type, NdisSwitchFeatureStatusTypeUndefined, ntddndis/NdisSwitchFeatureStatusTypeUndefined, NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchFeatureStatusTypeCustom, NdisSwitchFeatureStatusTypeMaximum, PNDIS_SWITCH_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_FEATURE_STATUS_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_FEATURE_STATUS_TYPE
+req.typenames: "*PNDIS_SWITCH_FEATURE_STATUS_TYPE, NDIS_SWITCH_FEATURE_STATUS_TYPE"
 ---
 
 # _NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration

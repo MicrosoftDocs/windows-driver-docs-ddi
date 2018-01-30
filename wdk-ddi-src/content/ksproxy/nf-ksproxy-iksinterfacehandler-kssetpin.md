@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 71e4be0a-a5a6-469a-948b-bc5277bc8cbe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsInterfaceHandler::KsSetPin, KsSetPin method [Streaming Media Devices], KsSetPin method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler, KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, stream.iksinterfacehandler_kssetpin, ksproxy/IKsInterfaceHandler::KsSetPin, IKsInterfaceHandler interface [Streaming Media Devices], KsSetPin method
+ms.keywords: ksproxy/IKsInterfaceHandler::KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, KsSetPin method [Streaming Media Devices], KsSetPin, IKsInterfaceHandler interface [Streaming Media Devices], KsSetPin method, IKsInterfaceHandler, stream.iksinterfacehandler_kssetpin, KsSetPin method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler::KsSetPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsInterfaceHandler.KsSetPin
 product: Windows
 targetos: Windows

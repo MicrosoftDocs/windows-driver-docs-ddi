@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_ENDPOINTS_CONFIGURE_TYPE
-title: _UDECX_ENDPOINTS_CONFIGURE_TYPE
+title: "_UDECX_ENDPOINTS_CONFIGURE_TYPE"
 author: windows-driver-content
 description: Defines values for endpoint configuration options.
 old-location: buses\udecx_endpoints_configure_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F13C7D8D-C134-432A-904B-7435894B07E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxEndpointsConfigureTypeEndpointsReleasedOnly, UdecxEndpointsConfigureTypeInterfaceSettingChange, buses.udecx_endpoints_configure_type, UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceInitialize, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, PUDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceConfigurationChange, _UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses]
+ms.keywords: udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeInterfaceSettingChange, PUDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, _UDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeDeviceConfigurationChange, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, *PUDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceInitialize, UDECX_ENDPOINTS_CONFIGURE_TYPE, buses.udecx_endpoints_configure_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	udecxusbdevice.h
-apiname: 
+apiname:
 -	UDECX_ENDPOINTS_CONFIGURE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE
+req.typenames: "*PUDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE"
 req.product: Windows 10 or later.
 ---
 

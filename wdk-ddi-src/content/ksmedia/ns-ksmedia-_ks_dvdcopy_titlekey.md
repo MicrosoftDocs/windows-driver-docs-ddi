@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_TITLEKEY
-title: _KS_DVDCOPY_TITLEKEY
+title: "_KS_DVDCOPY_TITLEKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_titlekey.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_dvdcopy_titlekey, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, _KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, *PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY
+ms.keywords: PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, PKS_DVDCOPY_TITLEKEY, ksmedia/KS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_TITLEKEY
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY
+req.typenames: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY"
 ---
 
 # _KS_DVDCOPY_TITLEKEY structure

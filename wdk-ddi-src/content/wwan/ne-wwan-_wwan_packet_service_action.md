@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PACKET_SERVICE_ACTION
-title: _WWAN_PACKET_SERVICE_ACTION
+title: "_WWAN_PACKET_SERVICE_ACTION"
 author: windows-driver-content
 description: The WWAN_PACKET_SERVICE_ACTION enumeration lists different packet service actions.
 old-location: netvista\wwan_packet_service_action.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 976e0d67-a03c-4545-b165-4b48062c03b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_PACKET_SERVICE_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPacketServiceActionAttach, _WWAN_PACKET_SERVICE_ACTION, WWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION, WwanPacketServiceActionAttach, wwan/WwanPacketServiceActionDetach, *PWWAN_PACKET_SERVICE_ACTION, WwanPacketServiceActionDetach, WWAN_PACKET_SERVICE_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanRef_6ab5ff1d-9b6c-4018-8d3b-7753ebca12e4.xml, wwan/PWWAN_PACKET_SERVICE_ACTION, wwan/WWAN_PACKET_SERVICE_ACTION, netvista.wwan_packet_service_action
+ms.keywords: wwan/WwanPacketServiceActionAttach, _WWAN_PACKET_SERVICE_ACTION, WwanPacketServiceActionAttach, PWWAN_PACKET_SERVICE_ACTION, WwanRef_6ab5ff1d-9b6c-4018-8d3b-7753ebca12e4.xml, *PWWAN_PACKET_SERVICE_ACTION, wwan/WWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_packet_service_action, wwan/PWWAN_PACKET_SERVICE_ACTION, wwan/WwanPacketServiceActionDetach, WwanPacketServiceActionDetach, WWAN_PACKET_SERVICE_ACTION, WWAN_PACKET_SERVICE_ACTION enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PACKET_SERVICE_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PACKET_SERVICE_ACTION, WWAN_PACKET_SERVICE_ACTION
+req.typenames: WWAN_PACKET_SERVICE_ACTION, *PWWAN_PACKET_SERVICE_ACTION
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E52B252F-0530-4543-A44C-95D4198504CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_datarange_h264_video, ksmedia/KS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO, tagKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO, ksmedia/PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], *PKS_DATARANGE_H264_VIDEO
+ms.keywords: ksmedia/PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], tagKS_DATARANGE_H264_VIDEO, stream.ks_datarange_h264_video, PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], ksmedia/KS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KS_DATARANGE_H264_VIDEO
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PORT_PROPERTIES
-title: _USB_PORT_PROPERTIES
+title: "_USB_PORT_PROPERTIES"
 author: windows-driver-content
 description: The USB_PORT_PROPERTIES union is used to report the capabilities of a Universal Serial Bus (USB) port.The port capabilities are retrieved in the USB_PORT_CONNECTOR_PROPERTIES structure by the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request.
 old-location: buses\usb_port_properties.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], usbioctl/USB_PORT_PROPERTIES, USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses]
+ms.keywords: PUSB_PORT_PROPERTIES union pointer [Buses], *PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], PUSB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES, buses.usb_port_properties, USB_PORT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_PORT_PROPERTIES
 product: Windows
 targetos: Windows
@@ -107,9 +107,9 @@ A bitmask that indicates the properties and capabilities of the port.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
-
 <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
  
 

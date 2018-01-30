@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInterlockedPushEntryList, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, ExInterlockedPushEntryList, kernel.exinterlockedpushentrylist, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exinterlockedpushentrylist, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], ExInterlockedPushEntryList, wdm/ExInterlockedPushEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInterlockedPushEntryList
 product: Windows
 targetos: Windows
@@ -105,17 +105,17 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
 
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
-<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
  
 

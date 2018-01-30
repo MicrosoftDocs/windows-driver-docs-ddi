@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a385a7a-e4c9-41ff-aaf2-7a4607fa2b2b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoAcquireVpbSpinLock, ntifs/IoAcquireVpbSpinLock, ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, IoAcquireVpbSpinLock routine [Installable File System Drivers], ifsk.ioacquirevpbspinlock
+ms.keywords: ifsk.ioacquirevpbspinlock, ntifs/IoAcquireVpbSpinLock, ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, IoAcquireVpbSpinLock, IoAcquireVpbSpinLock routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoAcquireVpbSpinLock
 product: Windows
 targetos: Windows

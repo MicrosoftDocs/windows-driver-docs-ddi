@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a9308d66-c8b0-4e0e-8203-e2b3f91b7e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgInit function [Imaging Devices], wiautil/wiauDbgInit, image.wiaudbginit, wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiauDbgInit
+ms.keywords: wiauDbgInit, wiautil/wiauDbgInit, wiauDbgInit function [Imaging Devices], image.wiaudbginit, wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauDbgInit
 product: Windows
 targetos: Windows

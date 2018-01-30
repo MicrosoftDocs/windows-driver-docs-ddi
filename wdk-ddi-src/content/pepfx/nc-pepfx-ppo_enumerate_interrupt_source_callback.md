@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	EnumerateInterruptSource
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
+req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
 ---
 
 # PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback
@@ -101,9 +101,9 @@ An <i>EnumerateInterruptSource</i> callback routine is called at the same IRQL a
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
-
 <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
 
  
 

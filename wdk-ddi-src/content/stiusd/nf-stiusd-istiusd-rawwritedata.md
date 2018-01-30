@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 82700669-b98f-486c-a7a6-cd7138300f11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD::RawWriteData, image.istiusd_rawwritedata, RawWriteData, stiusd/IStiUSD::RawWriteData, RawWriteData method [Imaging Devices], stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteData method
+ms.keywords: image.istiusd_rawwritedata, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteData method, RawWriteData, RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD::RawWriteData, stiusd/IStiUSD::RawWriteData, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, RawWriteData method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.RawWriteData
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

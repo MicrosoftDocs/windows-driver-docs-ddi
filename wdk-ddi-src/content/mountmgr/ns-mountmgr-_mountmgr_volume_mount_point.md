@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_VOLUME_MOUNT_POINT
-title: _MOUNTMGR_VOLUME_MOUNT_POINT
+title: "_MOUNTMGR_VOLUME_MOUNT_POINT"
 author: windows-driver-content
 description: The MOUNTMGR_VOLUME_MOUNT_POINT structure is used in conjunction with the IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED request to inform the mount manager that a volume mount point has been created.
 old-location: storage\mountmgr_volume_mount_point.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2a267992-b4d3-49e1-bb80-3849220f0d1f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml, _MOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], *PMOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT
+ms.keywords: MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], *PMOUNTMGR_VOLUME_MOUNT_POINT, _MOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, PMOUNTMGR_VOLUME_MOUNT_POINT, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mountmgr.h
-apiname: 
+apiname:
 -	MOUNTMGR_VOLUME_MOUNT_POINT
 product: Windows
 targetos: Windows
-req.typenames: MOUNTMGR_VOLUME_MOUNT_POINT, *PMOUNTMGR_VOLUME_MOUNT_POINT
+req.typenames: "*PMOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT"
 ---
 
 # _MOUNTMGR_VOLUME_MOUNT_POINT structure

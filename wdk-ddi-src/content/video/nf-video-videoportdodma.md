@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, display.videoportdodma, VideoPortDoDma, video/VideoPortDoDma
+ms.keywords: VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, video/VideoPortDoDma, VideoPortDoDma, display.videoportdodma, VideoPortDoDma function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortDoDma function

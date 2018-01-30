@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._NDIS_MSIX_TABLE_CONFIG
-title: _NDIS_MSIX_TABLE_CONFIG
+title: "_NDIS_MSIX_TABLE_CONFIG"
 author: windows-driver-content
 description: The NDIS_MSIX_TABLE_OPERATION enumeration identifies the type of MSI-X configuration operation.
 old-location: netvista\ndis_msix_table_operation.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d1a4bb6-5db8-48b0-9be3-7468360951a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigMax, NdisMSIXTableConfigUnmaskTableEntry, _NDIS_MSIX_TABLE_CONFIG, PNDIS_MSIX_TABLE_OPERATION, netvista.ndis_msix_table_operation, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigSetTableEntry, *PNDIS_MSIX_TABLE_OPERATION, ndis/NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, NdisMSIXTableConfigSetTableEntry, ndis/NdisMSIXTableConfigMax, NDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigMaskTableEntry, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMSIXTableConfigMaskTableEntry, ndis/NdisMSIXTableConfigSetTableEntry, NdisMSIXTableConfigMax, _NDIS_MSIX_TABLE_CONFIG, NdisMSIXTableConfigSetTableEntry, ndis/NdisMSIXTableConfigUnmaskTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, PNDIS_MSIX_TABLE_OPERATION, netvista.ndis_msix_table_operation, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, ndis/NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMaskTableEntry, *PNDIS_MSIX_TABLE_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_MSIX_TABLE_OPERATION
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_ENDPOINTS_CONFIGURE_PARAMS
-title: _UDECX_ENDPOINTS_CONFIGURE_PARAMS
+title: "_UDECX_ENDPOINTS_CONFIGURE_PARAMS"
 author: windows-driver-content
 description: Contains the configuration options specified by USB device emulation class extension (UdeCx) to the client driver when the class extension invokes EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE.
 old-location: buses\udecx_endpoints_configure_params.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C31AE3A8-CD3C-4270-BA5C-A61C0F386701
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_ENDPOINTS_CONFIGURE_PARAMS structure [Buses], PUDECX_ENDPOINTS_CONFIGURE_PARAMS, *PUDECX_ENDPOINTS_CONFIGURE_PARAMS, _UDECX_ENDPOINTS_CONFIGURE_PARAMS, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS structure pointer [Buses], udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_PARAMS, buses.udecx_endpoints_configure_params
+ms.keywords: udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_PARAMS, *PUDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS structure pointer [Buses], udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_PARAMS, buses.udecx_endpoints_configure_params, UDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS structure [Buses], _UDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UdecxUsbDevice.h
-apiname: 
+apiname:
 -	UDECX_ENDPOINTS_CONFIGURE_PARAMS
 product: Windows
 targetos: Windows

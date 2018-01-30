@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 310cd96f-ad99-4fdb-b49c-e4fee749ff78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, rilapitypes/RIL_PARAM_GERFS_ALL, RILEXECUTORRFSTATEPARAMMASK, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask_2, rilapitypes/RIL_PARAM_GERFS_STATE
+ms.keywords: RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask_2, rilapitypes/RIL_PARAM_GERFS_STATE, RILEXECUTORRFSTATEPARAMMASK, rilapitypes/RIL_PARAM_GERFS_ALL, rilapitypes/RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEXECUTORRFSTATEPARAMMASK
 product: Windows
 targetos: Windows

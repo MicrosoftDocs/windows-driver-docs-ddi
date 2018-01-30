@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LTRACE macro [Imaging Devices], wiamdef/WIAS_LTRACE, WIAS_LTRACE, IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, image.wias_ltrace
+ms.keywords: WIAS_LTRACE macro [Imaging Devices], IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, image.wias_ltrace, wiamdef/WIAS_LTRACE, WIAS_LTRACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_LTRACE
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -93,6 +93,16 @@ TBD
 TBD
 
 
+
+
+#### - pIWiaLog
+
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+
+
+#### - ResourceID
+
+Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
 #### - DetailLevel
@@ -161,16 +171,6 @@ User-defined log levels.
 Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
-#### - ResourceID
-
-Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-
-#### - pIWiaLog
-
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
-
-
 ## -remarks
 
 
@@ -191,13 +191,13 @@ The following is an example of how the macro can be used:
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
-
-<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
-
 <a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
+
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
 
  
 

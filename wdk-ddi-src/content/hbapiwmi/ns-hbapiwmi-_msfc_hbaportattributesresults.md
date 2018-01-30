@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_HBAPortAttributesResults
-title: _MSFC_HBAPortAttributesResults
+title: "_MSFC_HBAPortAttributesResults"
 author: windows-driver-content
 description: The structure is used by the GetDiscoveredPortAttributes WMI method to report the attributes for a specified remote fibre channel port.
 old-location: storage\msfc_hbaportattributesresults.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, hbapiwmi/MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, _MSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults
+ms.keywords: PMSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], MSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, *PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], _MSFC_HBAPortAttributesResults, storage.msfc_hbaportattributesresults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_HBAPortAttributesResults
 product: Windows
 targetos: Windows
-req.typenames: MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults
+req.typenames: "*PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults"
 ---
 
 # _MSFC_HBAPortAttributesResults structure

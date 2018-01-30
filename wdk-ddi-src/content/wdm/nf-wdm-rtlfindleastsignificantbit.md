@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb260c9b-dece-49ef-9701-d5198b8a08fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindLeastSignificantBit, kernel.rtlfindleastsignificantbit, wdm/RtlFindLeastSignificantBit, RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml
+ms.keywords: k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml, RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], kernel.rtlfindleastsignificantbit, RtlFindLeastSignificantBit, wdm/RtlFindLeastSignificantBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlFindLeastSignificantBit
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aac658d9-b90a-4724-9dc4-af3a561f64bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], VIDEO_MODE_INFORMATION, Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, PVIDEO_MODE_INFORMATION, display.video_mode_information, ntddvdeo/VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION structure [Display Devices], ntddvdeo/PVIDEO_MODE_INFORMATION"
+ms.keywords: VIDEO_MODE_INFORMATION structure [Display Devices], *PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], ntddvdeo/PVIDEO_MODE_INFORMATION, ntddvdeo/VIDEO_MODE_INFORMATION, Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, _VIDEO_MODE_INFORMATION, display.video_mode_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -378,11 +378,11 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxDispatchToWorkerThread routine [Installable File System Drivers], RxDispatchToWorkerThread, rxworkq/RxDispatchToWorkerThread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, ifsk.rxdispatchtoworkerthread
+ms.keywords: RxDispatchToWorkerThread routine [Installable File System Drivers], rxworkq/RxDispatchToWorkerThread, RxDispatchToWorkerThread, ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxworkq.h
-apiname: 
+apiname:
 -	RxDispatchToWorkerThread
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,21 @@ The type of the work queue representing the priority of the task. The <i>WorkQue
 
 
 
+#### CriticalWorkQueue
+
+Insert the WORK_QUEUE_ITEM into the queue from which a system thread with a real-time priority attribute will process the work item.
+
+
+#### DelayedWorkQueue
+
+Insert the WORK_QUEUE_ITEM into the queue from which a system thread with a variable priority attribute will process the work item.
+
+
+#### HyperCriticalWorkQueue
+
+Insert the WORK_QUEUE_ITEM into the queue from which a system thread will process the work item so that the routine to be invoked is not blocked.
+
+
 ### -param Routine [in]
 
 A pointer to the routine to be invoked.
@@ -91,21 +106,6 @@ A pointer to the routine to be invoked.
 ### -param pContext [in]
 
 A pointer to a context parameter associated with the work item to complete that is passed to the driver.
-
-
-##### - WorkQueueType.DelayedWorkQueue
-
-Insert the WORK_QUEUE_ITEM into the queue from which a system thread with a variable priority attribute will process the work item.
-
-
-##### - WorkQueueType.HyperCriticalWorkQueue
-
-Insert the WORK_QUEUE_ITEM into the queue from which a system thread will process the work item so that the routine to be invoked is not blocked.
-
-
-##### - WorkQueueType.CriticalWorkQueue
-
-Insert the WORK_QUEUE_ITEM into the queue from which a system thread with a real-time priority attribute will process the work item.
 
 
 ## -returns

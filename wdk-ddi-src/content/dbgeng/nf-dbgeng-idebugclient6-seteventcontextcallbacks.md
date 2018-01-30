@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, SetEventContextCallbacks method [Windows Debugging], dbgeng/IDebugClient6::SetEventContextCallbacks, IDebugClient6, SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks, IDebugClient6::SetEventContextCallbacks
+ms.keywords: debugger.idebugclient6_seteventcontextcallbacks, IDebugClient6, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, SetEventContextCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient6.SetEventContextCallbacks
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient6::SetEventContextCallbacks method
@@ -84,9 +84,9 @@ This event interface replaces the use of <a href="https://msdn.microsoft.com/c74
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient6.md">IDebugClient6</a>
-
 <a href="https://msdn.microsoft.com/c741777b-dfaf-42b0-9dd7-6678281b6359">IDebugClient::SetEventCallbacks</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient6.md">IDebugClient6</a>
 
  
 

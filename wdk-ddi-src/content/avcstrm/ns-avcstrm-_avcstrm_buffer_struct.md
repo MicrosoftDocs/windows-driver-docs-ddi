@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_BUFFER_STRUCT
-title: _AVCSTRM_BUFFER_STRUCT
+title: "_AVCSTRM_BUFFER_STRUCT"
 author: windows-driver-content
 description: The AVCSTRM_BUFFER_STRUCT structure describes a buffer to be submitted to avcstrm.sys for read or write operations.
 old-location: stream\avcstrm_buffer_struct.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed9a5391-135d-4ac2-8b72-6a92d3ff9998
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, avcstrm/AVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], AVCSTRM_BUFFER_STRUCT, avcstrm/PAVCSTRM_BUFFER_STRUCT, *PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct
+ms.keywords: AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], avcstrm/PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT, _AVCSTRM_BUFFER_STRUCT, avcstrm/AVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], PAVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, *PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	AVCSTRM_BUFFER_STRUCT
 product: Windows
 targetos: Windows
-req.typenames: *PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT
+req.typenames: "*PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT"
 ---
 
 # _AVCSTRM_BUFFER_STRUCT structure

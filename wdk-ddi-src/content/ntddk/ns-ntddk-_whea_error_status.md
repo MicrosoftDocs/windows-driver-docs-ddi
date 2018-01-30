@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_STATUS
-title: _WHEA_ERROR_STATUS
+title: "_WHEA_ERROR_STATUS"
 author: windows-driver-content
 description: The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
 old-location: whea\whea_error_status.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 5b11112b-e900-4894-a9ce-6895a4fa1956
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_ERROR_STATUS, ntddk/PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], whea.whea_error_status, _WHEA_ERROR_STATUS, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], *PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS
+ms.keywords: PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, *PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], whea.whea_error_status, ntddk/PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], _WHEA_ERROR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS
+req.typenames: "*PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS"
 ---
 
 # _WHEA_ERROR_STATUS structure
@@ -139,44 +139,9 @@ typedef union _WHEA_ERROR_STATUS {
 A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
 
 
-##### - ErrorType.ERRTYP_POISONED
+#### - Reserved1
 
-A read operation was issued to data that has been corrupted.
-
-
-##### - ErrorType.ERRTYP_MEM
-
-A memory error.
-
-
-#### - Address
-
-A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
-
-
-##### - ErrorType.ERRTYP_TIMEOUT
-
-A bus timeout error.
-
-
-#### - Overflow
-
-A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
-
-
-##### - ErrorType.ERRTYP_PATHERROR
-
-A bus path error.
-
-
-##### - ErrorType.ERRTYP_SELFTEST
-
-The component failed self test.
-
-
-##### - ErrorType.ERRTYP_FUNCTION
-
-An error in one or more functional units.
+Reserved for system use.
 
 
 #### - ErrorType
@@ -186,74 +151,99 @@ The type of hardware error that occurred. Possible values are:
 
 
 
-##### - ErrorType.ERRTYP_UNIMPL
+#### ERRTYP_INTERNAL
 
-An access to a memory address that is not mapped to any component.
-
-
-##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
-
-A loss of lockstep.
+An error internal to the component.
 
 
-##### - ErrorType.ERRTYP_FLOW
+#### ERRTYP_BUS
 
-An overflow or underflow of a queue that is internal to the component.
-
-
-##### - ErrorType.ERRTYP_IMPROPER
-
-An improper access error.
+A bus error.
 
 
-#### - Data
+#### ERRTYP_MEM
 
-A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
-
-
-#### - Reserved2
-
-Reserved for system use.
+A memory error.
 
 
-#### - FirstError
+#### ERRTYP_TLB
 
-A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
+A translation lookaside buffer error.
 
 
-##### - ErrorType.ERRTYP_CACHE
+#### ERRTYP_CACHE
 
 A cache error.
 
 
-##### - ErrorType.ERRTYP_MAP
+#### ERRTYP_FUNCTION
+
+An error in one or more functional units.
+
+
+#### ERRTYP_SELFTEST
+
+The component failed self test.
+
+
+#### ERRTYP_FLOW
+
+An overflow or underflow of a queue that is internal to the component.
+
+
+#### ERRTYP_MAP
 
 The virtual address was not found on IO-TLB or IO-PDIR.
 
 
-#### - Reserved1
+#### ERRTYP_IMPROPER
 
-Reserved for system use.
-
-
-#### - Responder
-
-A single bit that indicates that the error was detected by the responder of the transaction.
+An improper access error.
 
 
-##### - ErrorType.ERRTYP_PROTOCOL
+#### ERRTYP_UNIMPL
 
-A bus protocol error.
+An access to a memory address that is not mapped to any component.
 
 
-##### - ErrorType.ERRTYP_RESPONSE
+#### ERRTYP_LOSSOFLOCKSTEP
+
+A loss of lockstep.
+
+
+#### ERRTYP_RESPONSE
 
 A response was received that was not associated with a request.
 
 
-#### - Requester
+#### ERRTYP_PARITY
 
-A single bit that indicates that the error was detected by the requester of the transaction.
+A bus parity error.
+
+
+#### ERRTYP_PROTOCOL
+
+A bus protocol error.
+
+
+#### ERRTYP_PATHERROR
+
+A bus path error.
+
+
+#### ERRTYP_TIMEOUT
+
+A bus timeout error.
+
+
+#### ERRTYP_POISONED
+
+A read operation was issued to data that has been corrupted.
+
+
+#### - Address
+
+A single bit that indicates if the error was detected on the address signals or during the address portion of the transaction.
 
 
 #### - Control
@@ -261,24 +251,34 @@ A single bit that indicates that the error was detected by the requester of the 
 A single bit that indicates if the error was detected on the control signals or during the control portion of the transaction.
 
 
-##### - ErrorType.ERRTYP_BUS
+#### - Data
 
-A bus error.
-
-
-##### - ErrorType.ERRTYP_PARITY
-
-A bus parity error.
+A single bit that indicates if the error was detected on the data signals or during the data portion of the transaction.
 
 
-##### - ErrorType.ERRTYP_TLB
+#### - Responder
 
-A translation lookaside buffer error.
+A single bit that indicates that the error was detected by the responder of the transaction.
 
 
-##### - ErrorType.ERRTYP_INTERNAL
+#### - Requester
 
-An error internal to the component.
+A single bit that indicates that the error was detected by the requester of the transaction.
+
+
+#### - FirstError
+
+A single bit that indicates that the error is the first error to occur if multiple errors are logged for a section type. Setting of this bit is optional.
+
+
+#### - Overflow
+
+A single bit that indicates that additional errors occurred but were not logged due to an overflow of the logging resources.
+
+
+#### - Reserved2
+
+Reserved for system use.
 
 
 ## -remarks
@@ -292,9 +292,9 @@ A WHEA_ERROR_STATUS union is contained within the <a href="..\ntddk\ns-ntddk-_wh
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
 

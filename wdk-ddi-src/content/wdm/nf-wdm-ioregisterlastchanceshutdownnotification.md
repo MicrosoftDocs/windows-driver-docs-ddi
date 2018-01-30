@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9ee590ce-e822-4c15-bb01-6f726268f163
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoRegisterLastChanceShutdownNotification, k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], IoRegisterLastChanceShutdownNotification, kernel.ioregisterlastchanceshutdownnotification
+ms.keywords: wdm/IoRegisterLastChanceShutdownNotification, k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, IoRegisterLastChanceShutdownNotification, kernel.ioregisterlastchanceshutdownnotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoRegisterLastChanceShutdownNotification
 product: Windows
 targetos: Windows
@@ -113,9 +113,9 @@ The registered <i>DispatchShutdown</i> routine is called before the power manage
 
 <a href="..\wdm\nf-wdm-iounregistershutdownnotification.md">IoUnregisterShutdownNotification</a>
 
-<a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
+
+<a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
 
  
 

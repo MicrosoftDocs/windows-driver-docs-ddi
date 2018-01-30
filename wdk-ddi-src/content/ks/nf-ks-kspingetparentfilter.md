@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: adbd1e83-37f0-4e0c-92e3-92c6c79eb24f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetparentfilter, ks/KsPinGetParentFilter, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices]
+ms.keywords: ks/KsPinGetParentFilter, KsPinGetParentFilter, avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, KsPinGetParentFilter function [Streaming Media Devices], stream.kspingetparentfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinGetParentFilter
 product: Windows
 targetos: Windows

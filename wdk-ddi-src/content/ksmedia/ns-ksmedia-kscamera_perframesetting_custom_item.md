@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7BB23F25-6E39-40B3-A158-5EE69370B1FD
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure [Streaming Media Devices], *PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, ksmedia/KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, ksmedia/PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure pointer [Streaming Media Devices], stream.kscamera_perframesetting_custom_item, KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+ms.keywords: ksmedia/KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure [Streaming Media Devices], *PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, ksmedia/PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM structure pointer [Streaming Media Devices], KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, stream.kscamera_perframesetting_custom_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 product: Windows
 targetos: Windows

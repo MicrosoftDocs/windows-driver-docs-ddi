@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_TABLE
-title: _BAND_TABLE
+title: "_BAND_TABLE"
 author: windows-driver-content
 description: The BAND_TABLE structure contains the table of bands returned from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\band_table.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, ehstorbandmgmt/BAND_TABLE, *PBAND_TABLE, BAND_TABLE, storage.band_table, ehstorbandmgmt/PBAND_TABLE
+ms.keywords: storage.band_table, PBAND_TABLE structure pointer [Storage Devices], *PBAND_TABLE, ehstorbandmgmt/PBAND_TABLE, BAND_TABLE, ehstorbandmgmt/BAND_TABLE, PBAND_TABLE, BAND_TABLE structure [Storage Devices], _BAND_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	BAND_TABLE
 product: Windows
 targetos: Windows
-req.typenames: *PBAND_TABLE, BAND_TABLE
+req.typenames: BAND_TABLE, *PBAND_TABLE
 ---
 
 # _BAND_TABLE structure

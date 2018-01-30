@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	SetOptions
 product: Windows
 targetos: Windows
@@ -286,22 +286,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
 <mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
    NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
  
 

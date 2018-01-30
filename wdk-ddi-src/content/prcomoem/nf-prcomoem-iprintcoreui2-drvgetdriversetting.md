@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 501ff6f1-c5f1-4ad7-be96-a95ba3e34622
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvGetDriverSetting method [Print Devices], print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, IPrintCoreUI2::DrvGetDriverSetting, DrvGetDriverSetting, IPrintCoreUI2, print.iprintcoreui2_drvgetdriversetting
+ms.keywords: IPrintCoreUI2, IPrintCoreUI2::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_drvgetdriversetting, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -158,11 +158,11 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwCreateSection, NtCreateSection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, ZwCreateSection routine [Kernel-Mode Driver Architecture], kernel.zwcreatesection, ZwCreateSection, wdm/NtCreateSection
+ms.keywords: wdm/NtCreateSection, NtCreateSection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, ZwCreateSection, kernel.zwcreatesection, ZwCreateSection routine [Kernel-Mode Driver Architecture], wdm/ZwCreateSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwCreateSection
 -	NtCreateSection
 product: Windows
@@ -258,19 +258,19 @@ For more information about setting up mapped sections and views of memory, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
 
 <a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
 
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
 
  
 

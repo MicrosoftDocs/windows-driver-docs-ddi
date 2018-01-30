@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 595d5a90-6ec8-4841-a38b-c0cbf26ed082
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY structure [Windows Debugging], _DEBUG_SYMBOL_SOURCE_ENTRY, Structures_9f8ab4b6-98b2-4a10-a450-bb73e655dd32.xml, debugger.debug_symbol_source_entry, *PDEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/DEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY structure pointer [Windows Debugging], PDEBUG_SYMBOL_SOURCE_ENTRY
+ms.keywords: dbgeng/DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY structure [Windows Debugging], debugger.debug_symbol_source_entry, PDEBUG_SYMBOL_SOURCE_ENTRY structure pointer [Windows Debugging], Structures_9f8ab4b6-98b2-4a10-a450-bb73e655dd32.xml, _DEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/PDEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

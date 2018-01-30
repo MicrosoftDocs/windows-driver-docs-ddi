@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73a1afa6-e156-4733-b204-a9cae4e18563
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_ESCAPE structure [Display Devices], _DXGKARG_ESCAPE, display.dxgkarg_escape, DXGKARG_ESCAPE, DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, d3dkmddi/DXGKARG_ESCAPE
+ms.keywords: DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, _DXGKARG_ESCAPE, DXGKARG_ESCAPE structure [Display Devices], DXGKARG_ESCAPE, display.dxgkarg_escape, d3dkmddi/DXGKARG_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,13 +98,13 @@ typedef struct _DXGKARG_ESCAPE {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
 
  
 

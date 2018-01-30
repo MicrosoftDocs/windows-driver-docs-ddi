@@ -40,7 +40,7 @@ apiname:
 -	BthAllocateBrb
 product: Windows
 targetos: Windows
-req.typenames: "*PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY"
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # PFNBTH_ALLOCATE_BRB callback
@@ -84,7 +84,7 @@ Specifies a value from the
 Specifies a 4-byte 
      pool tag that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
+     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
 ## -returns
@@ -112,7 +112,7 @@ Profile drivers obtain a pointer to the
 
 pool tag
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
  
 

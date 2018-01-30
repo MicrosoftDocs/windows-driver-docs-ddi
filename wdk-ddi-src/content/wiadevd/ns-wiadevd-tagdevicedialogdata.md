@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/LPDEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, PDEVICEDIALOGDATA structure pointer [Imaging Devices], *PDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, PDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices]
+ms.keywords: "*PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/DEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], DEVICEDIALOGDATA structure [Imaging Devices], *LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], wiadevd/LPDEVICEDIALOGDATA, DEVICEDIALOGDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiadevd.h
-apiname: 
+apiname:
 -	DEVICEDIALOGDATA
 product: Windows
 targetos: Windows
-req.typenames: *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA
+req.typenames: "*PDEVICEDIALOGDATA, DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._LoginToTarget_IN
-title: _LoginToTarget_IN
+title: "_LoginToTarget_IN"
 author: windows-driver-content
 description: The LoginToTarget_IN structure holds the input data for the LoginToTarget method, which is used to login to a target.
 old-location: storage\logintotarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PLoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], PLoginToTarget_IN, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml, LoginToTarget_IN structure [Storage Devices], iscsiop/PLoginToTarget_IN, _LoginToTarget_IN, LoginToTarget_IN, iscsiop/LoginToTarget_IN, storage.logintotarget_in
+ms.keywords: iscsiop/PLoginToTarget_IN, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], *PLoginToTarget_IN, _LoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], iscsiop/LoginToTarget_IN, storage.logintotarget_in, PLoginToTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	LoginToTarget_IN
 product: Windows
 targetos: Windows
@@ -165,23 +165,23 @@ You must implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
 <a href="..\iscsiop\ns-iscsiop-_logintotarget_out.md">LoginToTarget_OUT</a>
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
 
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
 <a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
 
 <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DEVQUERYPRINT_INFO
-title: _DEVQUERYPRINT_INFO
+title: "_DEVQUERYPRINT_INFO"
 author: windows-driver-content
 description: The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's DevQueryPrintEx function.
 old-location: print\devqueryprint_info.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, DEVQUERYPRINT_INFO structure [Print Devices], PDEVQUERYPRINT_INFO, _DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, winddiui/DEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices]
+ms.keywords: DEVQUERYPRINT_INFO structure [Print Devices], winddiui/DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, DEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], _DEVQUERYPRINT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DEVQUERYPRINT_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO
+req.typenames: "*PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO"
 req.product: Windows 10 or later.
 ---
 

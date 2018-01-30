@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlSubAuthoritySid, rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid, RtlSubAuthoritySid routine [Installable File System Drivers], ifsk.rtlsubauthoritysid
+ms.keywords: RtlSubAuthoritySid routine [Installable File System Drivers], rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid, ifsk.rtlsubauthoritysid, ntifs/RtlSubAuthoritySid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlSubAuthoritySid
 product: Windows
 targetos: Windows
@@ -101,9 +101,9 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
 <a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

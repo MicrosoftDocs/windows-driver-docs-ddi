@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PUBLISHERINFO
-title: _PUBLISHERINFO
+title: "_PUBLISHERINFO"
 author: windows-driver-content
 description: The PUBLISHERINFO structure is used as an input parameter to the IPrintOemPS::GetInfo method.
 old-location: print\publisherinfo.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6749b2e8-a9db-48a3-96e1-8592bcfa580d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PPUBLISHERINFO structure pointer [Print Devices], PPUBLISHERINFO, PUBLISHERINFO structure [Print Devices], PUBLISHERINFO, *PPUBLISHERINFO, printoem/PUBLISHERINFO, printoem/PPUBLISHERINFO, _PUBLISHERINFO, print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, print.publisherinfo
+ms.keywords: PPUBLISHERINFO, printoem/PUBLISHERINFO, print.publisherinfo, *PPUBLISHERINFO, printoem/PPUBLISHERINFO, PUBLISHERINFO, PPUBLISHERINFO structure pointer [Print Devices], print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, _PUBLISHERINFO, PUBLISHERINFO structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	PUBLISHERINFO
 product: Windows
 targetos: Windows
-req.typenames: *PPUBLISHERINFO, PUBLISHERINFO
+req.typenames: PUBLISHERINFO, *PPUBLISHERINFO
 req.product: Windows 10 or later.
 ---
 

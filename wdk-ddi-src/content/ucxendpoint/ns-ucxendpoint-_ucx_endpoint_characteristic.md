@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC
-title: _UCX_ENDPOINT_CHARACTERISTIC
+title: "_UCX_ENDPOINT_CHARACTERISTIC"
 author: windows-driver-content
 description: Stores the characteristics of an endpoint.
 old-location: buses\ucx_endpoint_characteristic.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, _UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], UCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses]
+ms.keywords: "_UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxendpoint.h
-apiname: 
+apiname:
 -	UCX_ENDPOINT_CHARACTERISTIC
 product: Windows
 targetos: Windows
-req.typenames: UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC
+req.typenames: "*PUCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC"
 req.product: Windows 10 or later.
 ---
 
@@ -89,9 +89,9 @@ A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_type.md">U
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
-
 <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
+
+<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
 
  
 

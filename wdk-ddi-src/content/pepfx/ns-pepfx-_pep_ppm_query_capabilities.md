@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_CAPABILITIES
-title: _PEP_PPM_QUERY_CAPABILITIES
+title: "_PEP_PPM_QUERY_CAPABILITIES"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 old-location: kernel\pep_ppm_query_capabilities.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, *PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES
+ms.keywords: kernel.pep_ppm_query_capabilities, *PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, pepfx/PEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_QUERY_CAPABILITIES
 product: Windows
 targetos: Windows

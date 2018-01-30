@@ -1,14 +1,14 @@
 ---
 UID: NE:winsplp._NOTIFICATION_CALLBACK_COMMANDS
-title: _NOTIFICATION_CALLBACK_COMMANDS
+title: "_NOTIFICATION_CALLBACK_COMMANDS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\notification_callback_commands.htm
 old-project: print
 ms.assetid: D93D09AE-B0B8-4682-BBBA-1EEC952A733D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, _NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_NOTIFY, print.notification_callback_commands, NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, NOTIFICATION_CALLBACK_COMMANDS enumeration [Print Devices], winsplp/NOTIFICATION_COMMAND_CONTEXT_RELEASE, winsplp/NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_COMMAND_NOTIFY, NOTIFICATION_COMMAND_CONTEXT_RELEASE
+ms.keywords: print.notification_callback_commands, NOTIFICATION_COMMAND_CONTEXT_RELEASE, winsplp/NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_NOTIFY, NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, NOTIFICATION_COMMAND_NOTIFY, _NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_CONTEXT_RELEASE, NOTIFICATION_CALLBACK_COMMANDS enumeration [Print Devices], winsplp/NOTIFICATION_COMMAND_CONTEXT_ACQUIRE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	NOTIFICATION_CALLBACK_COMMANDS
 product: Windows
 targetos: Windows

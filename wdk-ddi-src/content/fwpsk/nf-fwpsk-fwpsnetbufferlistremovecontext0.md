@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], netvista.fwpsnetbufferlistremovecontext0, fwpsk/FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0, wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml
+ms.keywords: FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml, fwpsk/FwpsNetBufferListRemoveContext0, netvista.fwpsnetbufferlistremovecontext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsNetBufferListRemoveContext0
 product: Windows
 targetos: Windows
@@ -149,15 +149,15 @@ Usually a callout driver will not need to use this function, because the tagged 
 <mshelp:link keywords="netvista.fwpsnetbufferlistretrievecontext0" tabindex="0"><b>
    FwpsNetBufferListRetrieveContext0</b></mshelp:link>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
-
 <mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
    FwpsNetBufferListGetTagForContext0</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <mshelp:link keywords="netvista.fwpsnetbufferlistassociatecontext0" tabindex="0"><b>
    FwpsNetBufferListAssociateContext0</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
 
  
 

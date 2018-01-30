@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2::GetInstructionOffset2, GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, debugger.getinstructionoffset2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, GetInstructionOffset2 method [Windows Debugging], dbgeng/IDebugRegisters2::GetInstructionOffset2, IDebugRegisters2, GetInstructionOffset2
+ms.keywords: GetInstructionOffset2 method [Windows Debugging], debugger.getinstructionoffset2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, IDebugRegisters2::GetInstructionOffset2, GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2, GetInstructionOffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetInstructionOffset2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetInstructionOffset2 method

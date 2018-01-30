@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnD0Exit, IPnpCallback interface, OnD0Exit method, OnD0Exit method, IPnpCallback::OnD0Exit, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, wdf.ipnpcallback_ond0exit, OnD0Exit method, IPnpCallback interface, umdf.ipnpcallback_ond0exit, IPnpCallback, wudfddi/IPnpCallback::OnD0Exit
+ms.keywords: IPnpCallback interface, OnD0Exit method, IPnpCallback::OnD0Exit, OnD0Exit method, IPnpCallback interface, OnD0Exit, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, IPnpCallback, OnD0Exit method, wudfddi/IPnpCallback::OnD0Exit, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IPnpCallback.OnD0Exit
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -98,13 +98,13 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallb
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

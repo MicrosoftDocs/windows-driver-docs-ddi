@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcollectiongetitem, DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, wdfcollection/WdfCollectionGetItem, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, PFN_WDFCOLLECTIONGETITEM
+ms.keywords: WdfCollectionGetItem, DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, PFN_WDFCOLLECTIONGETITEM, WdfCollectionGetItem method, wdf.wdfcollectiongetitem, kmdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfCollectionGetItem
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
+req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -104,9 +104,9 @@ For more information about object collections, see <a href="https://docs.microso
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
 
  
 

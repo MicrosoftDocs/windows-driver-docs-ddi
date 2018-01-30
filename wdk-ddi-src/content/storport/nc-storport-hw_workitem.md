@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	HwStorWorkItem
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 
@@ -123,11 +123,11 @@ HW_WORKITEM (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
  
 

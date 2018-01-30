@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_LISTEN
-title: _CIP_LISTEN
+title: "_CIP_LISTEN"
 author: windows-driver-content
 description: This structure is used for a listen request. The request begins isochronous reception on the specified connection.
 old-location: ieee\cip_listen.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cip_listen, *PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], CIP_LISTEN, PCIP_LISTEN, CIP_LISTEN structure [Buses], 61883/CIP_LISTEN, _CIP_LISTEN, 61883/PCIP_LISTEN
+ms.keywords: 61883/CIP_LISTEN, _CIP_LISTEN, PCIP_LISTEN structure pointer [Buses], PCIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, IEEE.cip_listen, *PCIP_LISTEN, CIP_LISTEN structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CIP_LISTEN
 product: Windows
 targetos: Windows

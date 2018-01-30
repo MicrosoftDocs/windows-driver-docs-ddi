@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ca10f0d5-62d6-451a-96e5-38aca18cf5b0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RouterAllocBidiResponseContainer, winsplp/RouterAllocBidiResponseContainer, print.routerallocbidiresponsecontainer, RouterAllocBidiResponseContainer function [Print Devices], spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml
+ms.keywords: RouterAllocBidiResponseContainer, spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml, winsplp/RouterAllocBidiResponseContainer, print.routerallocbidiresponsecontainer, RouterAllocBidiResponseContainer function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	RouterAllocBidiResponseContainer
 product: Windows
 targetos: Windows
@@ -95,13 +95,13 @@ When the memory allocated by this function is no longer needed, use <a href="..\
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
+<a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
 
 <a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
 
-<a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
+<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
 
  
 

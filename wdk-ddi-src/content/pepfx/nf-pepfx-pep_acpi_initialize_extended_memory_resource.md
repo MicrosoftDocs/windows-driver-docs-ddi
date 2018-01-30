@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F566E078-9446-49E1-9325-AF65F3ABB6B9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, kernel.pep_acpi_initialize_extended_memory_resource, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, kernel.pep_acpi_initialize_extended_memory_resource, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function

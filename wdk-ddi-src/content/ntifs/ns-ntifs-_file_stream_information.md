@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STREAM_INFORMATION
-title: _FILE_STREAM_INFORMATION
+title: "_FILE_STREAM_INFORMATION"
 author: windows-driver-content
 description: The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file.
 old-location: ifsk\file_stream_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 03472920-cb22-42e1-b0e5-488c0319fc03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.file_stream_information, ntifs/FILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], *PFILE_STREAM_INFORMATION, _FILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ntifs/PFILE_STREAM_INFORMATION
+ms.keywords: "_FILE_STREAM_INFORMATION, *PFILE_STREAM_INFORMATION, fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], FILE_STREAM_INFORMATION, ifsk.file_stream_information, PFILE_STREAM_INFORMATION, ntifs/PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], ntifs/FILE_STREAM_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_STREAM_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_STREAM_INFORMATION, *PFILE_STREAM_INFORMATION
+req.typenames: "*PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION"
 ---
 
 # _FILE_STREAM_INFORMATION structure
@@ -139,19 +139,19 @@ By sending an IRP_MJ_QUERY_VOLUME_INFORMATION request to the file system and spe
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
  
 

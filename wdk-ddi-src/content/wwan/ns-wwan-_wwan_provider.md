@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PROVIDER
-title: _WWAN_PROVIDER
+title: "_WWAN_PROVIDER"
 author: windows-driver-content
 description: The WWAN_PROVIDER structure represents details about a network provider.
 old-location: netvista\wwan_provider.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PROVIDER, _WWAN_PROVIDER, wwan/PWWAN_PROVIDER, *PWWAN_PROVIDER, netvista.wwan_provider, WWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], netvista.wwan_provider, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_PROVIDER, PWWAN_PROVIDER, WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, _WWAN_PROVIDER, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PROVIDER
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PROVIDER, WWAN_PROVIDER
+req.typenames: WWAN_PROVIDER, *PWWAN_PROVIDER
 req.product: Windows 10 or later.
 ---
 
@@ -246,13 +246,13 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_COLLECTDBGINFO structure [Display Devices], VIDEO_ENGINE_TIMEOUT_DETECTED, DXGKARG_COLLECTDBGINFO, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, _DXGKARG_COLLECTDBGINFO, display.dxgkarg_collectdbginfo, VIDEO_TDR_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO
+ms.keywords: DXGKARG_COLLECTDBGINFO, VIDEO_TDR_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO, display.dxgkarg_collectdbginfo, _DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO structure [Display Devices], DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, VIDEO_ENGINE_TIMEOUT_DETECTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], kernel.rtlisntddiversionavailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, RtlIsNtDdiVersionAvailable, wdm/RtlIsNtDdiVersionAvailable
+ms.keywords: RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, RtlIsNtDdiVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Rtlver.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Rtlver.lib
 -	Rtlver.dll
-apiname: 
+apiname:
 -	RtlIsNtDdiVersionAvailable
 product: Windows
 targetos: Windows

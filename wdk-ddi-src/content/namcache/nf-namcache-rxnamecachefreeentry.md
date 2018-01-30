@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c1adef80-b8f2-49bb-9254-b89c8d1af220
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxNameCacheFreeEntry, ifsk.rxnamecachefreeentry, rxref_ca0b7c99-59df-4a51-b28b-4c369b451741.xml, namcache/RxNameCacheFreeEntry, RxNameCacheFreeEntry function [Installable File System Drivers]
+ms.keywords: RxNameCacheFreeEntry function [Installable File System Drivers], ifsk.rxnamecachefreeentry, RxNameCacheFreeEntry, namcache/RxNameCacheFreeEntry, rxref_ca0b7c99-59df-4a51-b28b-4c369b451741.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	namcache.h
-apiname: 
+apiname:
 -	RxNameCacheFreeEntry
 product: Windows
 targetos: Windows
@@ -96,19 +96,19 @@ The <b>RxNameCacheFreeEntry</b> routine frees memory allocated for the name buff
 
 ## -see-also
 
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+
+<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+
 <a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
 
 <a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
 
-<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
-
 <a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
 
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
-
-<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
-
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
 <a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
 

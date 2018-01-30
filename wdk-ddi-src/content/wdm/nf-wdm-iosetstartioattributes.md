@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSetStartIoAttributes, IoSetStartIoAttributes, k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], IoSetStartIoAttributes, wdm/IoSetStartIoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetStartIoAttributes
 product: Windows
 targetos: Windows
@@ -77,7 +77,7 @@ Pointer to the device object for the driver's device.
 
 ### -param DeferredStartIo [in]
 
-If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine while the driver is already inside the routine. In particular, if the <i>StartIo</i> routine calls <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>, the <i>StartIo</i> routine will not be called again until the current invocation completes. The default is <b>FALSE</b>.
+If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine while the driver is already inside the routine. In particular, if the <i>StartIo</i> routine calls <a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a>, the <i>StartIo</i> routine will not be called again until the current invocation completes. The default is <b>FALSE</b>.
 
 
 ### -param NonCancelable [in]
@@ -94,9 +94,9 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
+
+<a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a>
 
  
 

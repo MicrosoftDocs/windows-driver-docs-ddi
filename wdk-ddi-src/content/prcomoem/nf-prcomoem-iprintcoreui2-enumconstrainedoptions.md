@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2::EnumConstrainedOptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml, EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices]
+ms.keywords: EnumConstrainedOptions method [Print Devices], print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, IPrintCoreUI2, print.iprintcoreui2_enumconstrainedoptions, EnumConstrainedOptions, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::EnumConstrainedOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -190,13 +190,13 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553087">IPrintCoreUI2::WhyConstrained</a>
 
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
  
 

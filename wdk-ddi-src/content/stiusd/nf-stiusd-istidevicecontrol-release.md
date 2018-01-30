@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istidevicecontrol_release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, IStiDeviceControl interface [Imaging Devices], Release method, Release, stiusd/IStiDeviceControl::Release, Release method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl, IStiDeviceControl::Release, Release method [Imaging Devices]
+ms.keywords: image.istidevicecontrol_release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, Release method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], Release method, IStiDeviceControl::Release, Release, IStiDeviceControl, Release method [Imaging Devices], stiusd/IStiDeviceControl::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Stiusd.h
-apiname: 
+apiname:
 -	IStiDeviceControl.Release
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

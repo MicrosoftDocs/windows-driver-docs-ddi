@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a7a17f6a-438d-42e9-8463-dcda80e11af8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlUninitializeMcb, ntifs/FsRtlUninitializeMcb, FsRtlUninitializeMcb function [Installable File System Drivers], fsrtlref_e445c399-76e6-4bfd-9260-1fcbe0d33b50.xml, ifsk.fsrtluninitializemcb
+ms.keywords: ntifs/FsRtlUninitializeMcb, FsRtlUninitializeMcb, fsrtlref_e445c399-76e6-4bfd-9260-1fcbe0d33b50.xml, ifsk.fsrtluninitializemcb, FsRtlUninitializeMcb function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlUninitializeMcb
 product: Windows
 targetos: Windows

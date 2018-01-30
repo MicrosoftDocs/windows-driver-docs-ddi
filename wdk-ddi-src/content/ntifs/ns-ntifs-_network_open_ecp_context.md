@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_OPEN_ECP_CONTEXT
-title: _NETWORK_OPEN_ECP_CONTEXT
+title: "_NETWORK_OPEN_ECP_CONTEXT"
 author: windows-driver-content
 description: The NETWORK_OPEN_ECP_CONTEXT structure is used to interpret network ECP contexts on files.
 old-location: ifsk\network_open_ecp_context.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.network_open_ecp_context, *PNETWORK_OPEN_ECP_CONTEXT, _NETWORK_OPEN_ECP_CONTEXT, ntifs/NETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ntifs/PNETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT
+ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT, ntifs/NETWORK_OPEN_ECP_CONTEXT, ntifs/PNETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ifsk.network_open_ecp_context, PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, _NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	NETWORK_OPEN_ECP_CONTEXT
 product: Windows
 targetos: Windows
@@ -135,50 +135,31 @@ The size, in bytes, of this structure.
 Reserved. Must be set to zero. 
 
 
-##### - ( unnamed struct ).out
-
-A structure in the DUMMYSTRUCTNAME structure that contains information that a file provides after it is opened.
-
-
-
-
-###### - ( unnamed struct ).out.Location
-
-A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
-
-
-###### - ( unnamed struct ).in.Location
-
-A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
-
-
-###### - ( unnamed struct ).out.Integrity
-
-This member is currently not implemented and should be ignored. 
-
-A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
-
-
-###### - ( unnamed struct ).in.Integrity
-
-This member is currently not implemented and should be ignored. 
-
-A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
-
-
 #### - ( unnamed struct )
 
 A structure that contains restrictions for opening the file and to apply to the file after it is opened. 
 
 
-##### - ( unnamed struct ).in
+#### in
 
 A structure in the DUMMYSTRUCTNAME structure that contains restrictions for opening a file.
 
 
 
 
-###### - ( unnamed struct ).in.Flags
+#### Location
+
+A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
+
+
+#### Integrity
+
+This member is currently not implemented and should be ignored. 
+
+A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
+
+
+#### Flags
 
 Supported starting with Windows 7.
 
@@ -243,7 +224,26 @@ This flag forces the redirector to use synchronous I/O even though the handle wa
 </table> 
 
 
-###### - ( unnamed struct ).out.Flags
+#### out
+
+A structure in the DUMMYSTRUCTNAME structure that contains information that a file provides after it is opened.
+
+
+
+
+#### Location
+
+A <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>-typed value that specifies the location restriction to attach to the file. 
+
+
+#### Integrity
+
+This member is currently not implemented and should be ignored. 
+
+A <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>-typed value that specifies the integrity restriction to attach to the file. 
+
+
+#### Flags
 
 Supported starting with Windows 7.
 
@@ -309,9 +309,9 @@ Drivers that run on Windows 7 and later versions of Windows and that must interp
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>
-
 <a href="..\ntifs\ns-ntifs-_network_open_ecp_context_v0.md">NETWORK_OPEN_ECP_CONTEXT_V0</a>
+
+<a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>
 
 <a href="..\ntifs\ne-ntifs-network_open_location_qualifier.md">NETWORK_OPEN_LOCATION_QUALIFIER</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._T0_DATA
-title: _T0_DATA
+title: "_T0_DATA"
 author: windows-driver-content
 description: The T0_DATA structure is used by the smart card driver library to process T0 I/O.
 old-location: smartcrd\t0_data.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/T0_DATA, smartcrd.t0_data, PT0_DATA, T0_DATA, T0_DATA structure [Smart Card Reader Devices], PT0_DATA structure pointer [Smart Card Reader Devices], *PT0_DATA, smclib/PT0_DATA, _T0_DATA
+ms.keywords: T0_DATA structure [Smart Card Reader Devices], T0_DATA, _T0_DATA, smclib/PT0_DATA, smclib/T0_DATA, PT0_DATA structure pointer [Smart Card Reader Devices], smartcrd.t0_data, PT0_DATA, *PT0_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Smclib.h
-apiname: 
+apiname:
 -	T0_DATA
 product: Windows
 targetos: Windows
-req.typenames: T0_DATA, *PT0_DATA
+req.typenames: "*PT0_DATA, T0_DATA"
 req.product: Windows 10 or later.
 ---
 

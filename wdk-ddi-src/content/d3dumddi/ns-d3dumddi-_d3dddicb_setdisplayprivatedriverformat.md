@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b10b020d-f18c-403d-b1ee-79552d18ad4e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dddicb_setdisplayprivatedriverformat, D3D_param_Structs_e953e85b-93cb-46c0-bab8-6d414568b153.xml, _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
+ms.keywords: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3D_param_Structs_e953e85b-93cb-46c0-bab8-6d414568b153.xml, _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dddicb_setdisplayprivatedriverformat, d3dumddi/D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

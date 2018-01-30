@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 83503353-e4f7-47ba-9a0c-71264798e983
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSEVENTDATA, *PKSEVENTDATA, stream.kseventdata, KSEVENTDATA structure [Streaming Media Devices], KSEVENTDATA, ks/PKSEVENTDATA, ks/KSEVENTDATA, ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, PKSEVENTDATA structure pointer [Streaming Media Devices]
+ms.keywords: stream.kseventdata, KSEVENTDATA, PKSEVENTDATA, ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, ks/KSEVENTDATA, PKSEVENTDATA structure pointer [Streaming Media Devices], ks/PKSEVENTDATA, KSEVENTDATA structure [Streaming Media Devices], *PKSEVENTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSEVENTDATA
 product: Windows
 targetos: Windows
-req.typenames: *PKSEVENTDATA, KSEVENTDATA
+req.typenames: "*PKSEVENTDATA, KSEVENTDATA"
 ---
 
 # KSEVENTDATA structure
@@ -319,17 +319,17 @@ For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
-
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
 
-<a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
 <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+
+<a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>
 
  
 

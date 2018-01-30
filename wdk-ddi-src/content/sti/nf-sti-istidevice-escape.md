@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, image.istidevice_escape, Escape method [Imaging Devices], IStiDevice interface [Imaging Devices], Escape method, IStiDevice, sti/IStiDevice::Escape, IStiDevice::Escape, Escape method [Imaging Devices], IStiDevice interface
+ms.keywords: sti/IStiDevice::Escape, IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, Escape, IStiDevice, image.istidevice_escape, Escape method [Imaging Devices], Escape method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], Escape method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.Escape
 product: Windows
 targetos: Windows

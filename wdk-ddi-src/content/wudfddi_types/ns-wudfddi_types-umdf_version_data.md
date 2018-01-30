@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b83a786d-0b17-4129-bdd4-86942ad9d3ec
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/UMDF_VERSION_DATA, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, wdf.umdf_version_data, PUMDF_VERSION_DATA structure pointer, wudfddi_types/PUMDF_VERSION_DATA, UMDF_VERSION_DATA, PUMDF_VERSION_DATA, umdf.umdf_version_data, *PUMDF_VERSION_DATA, UMDF_VERSION_DATA structure
+ms.keywords: PUMDF_VERSION_DATA structure pointer, umdf.umdf_version_data, *PUMDF_VERSION_DATA, PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA, wdf.umdf_version_data, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, UMDF_VERSION_DATA, UMDF_VERSION_DATA structure, wudfddi_types/PUMDF_VERSION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	UMDF_VERSION_DATA
 product: Windows
 targetos: Windows

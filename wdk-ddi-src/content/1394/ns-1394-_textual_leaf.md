@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._TEXTUAL_LEAF
-title: _TEXTUAL_LEAF
+title: "_TEXTUAL_LEAF"
 author: windows-driver-content
 description: The TEXTUAL_LEAF structure describes the device description that can be stored in the Configuration ROM of devices that satisfy the PC 98 or PC 99 specifications.
 old-location: ieee\textual_leaf.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, IEEE.textual_leaf, PTEXTUAL_LEAF, TEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, _TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], PTEXTUAL_LEAF structure pointer [Buses], *PTEXTUAL_LEAF
+ms.keywords: 1394/PTEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, PTEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], IEEE.textual_leaf, *PTEXTUAL_LEAF, _TEXTUAL_LEAF, 1394/TEXTUAL_LEAF, TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	TEXTUAL_LEAF
 product: Windows
 targetos: Windows
-req.typenames: *PTEXTUAL_LEAF, TEXTUAL_LEAF
+req.typenames: "*PTEXTUAL_LEAF, TEXTUAL_LEAF"
 ---
 
 # _TEXTUAL_LEAF structure

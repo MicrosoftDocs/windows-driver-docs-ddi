@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	IOCTL_USB_GET_ROOT_HUB_NAME
 product: Windows
 targetos: Windows

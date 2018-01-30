@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
-title: _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
+title: "_STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
 author: windows-driver-content
 description: Describes the physical topology of storage in a system.
 old-location: storage\storage_physical_topology_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FD5714DF-9D34-4396-86BC-40054C199A0E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Storage Devices], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, storage.storage_physical_topology_descriptor, *PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Storage Devices], ntddstor/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
+ms.keywords: ntddstor/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, storage.storage_physical_topology_descriptor, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Storage Devices], PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Storage Devices], *PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 product: Windows
 targetos: Windows

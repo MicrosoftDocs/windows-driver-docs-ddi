@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ed085787-6731-42b5-9e19-adedbad11a9c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNormalizeNtstatus, ntifs/FsRtlNormalizeNtstatus, ifsk.fsrtlnormalizentstatus, FsRtlNormalizeNtstatus routine [Installable File System Drivers], fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml
+ms.keywords: fsrtlref_f31a9a77-7deb-4919-bfae-874958b15c7f.xml, FsRtlNormalizeNtstatus routine [Installable File System Drivers], ntifs/FsRtlNormalizeNtstatus, FsRtlNormalizeNtstatus, ifsk.fsrtlnormalizentstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNormalizeNtstatus
 product: Windows
 targetos: Windows

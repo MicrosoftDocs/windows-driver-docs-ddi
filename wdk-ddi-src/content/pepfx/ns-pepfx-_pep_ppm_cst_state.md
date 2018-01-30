@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_CST_STATE
-title: _PEP_PPM_CST_STATE
+title: "_PEP_PPM_CST_STATE"
 author: windows-driver-content
 description: The PEP_PPM_CST_STATE structure specifies the properties of a C state (ACPI processor power state).
 old-location: kernel\pep_ppm_cst_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AF001441-4031-4E29-B459-1597BFCAEF4C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, pepfx/PPEP_PPM_CST_STATE, _PEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_CST_STATE
+ms.keywords: "*PPEP_PPM_CST_STATE, pepfx/PEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PPEP_PPM_CST_STATE, _PEP_PPM_CST_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_CST_STATE
 product: Windows
 targetos: Windows
@@ -185,9 +185,9 @@ The values in the <b>PEP_PPM_CST_STATE</b> structure are obtained from the param
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e291139-d7d3-4927-ad01-b09bddb0b945
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/CmUnRegisterCallback, kernel.cmunregistercallback, CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml
+ms.keywords: kernel.cmunregistercallback, wdm/CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], CmUnRegisterCallback, ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CmUnRegisterCallback
 product: Windows
 targetos: Windows
@@ -90,11 +90,11 @@ A driver that calls <b>CmRegisterCallback</b> or <b>CmRegisterCallbackEx</b> sho
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
 
  
 

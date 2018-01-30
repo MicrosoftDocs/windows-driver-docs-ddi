@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortStartDma function
@@ -172,11 +173,11 @@ Calls the video miniport driver's <a href="..\video\nc-video-pexecute_dma.md">Hw
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
+
 <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
 
 <a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 
 <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 

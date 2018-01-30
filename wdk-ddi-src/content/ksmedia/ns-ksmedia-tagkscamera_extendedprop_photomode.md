@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96F920FC-43CE-4ACC-B880-9AD03B5D6009
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], stream.kscamera_extendedprop_photomode, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE
+ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_EXTENDEDPROP_PHOTOMODE
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE
+req.typenames: KSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_PHOTOMODE structure

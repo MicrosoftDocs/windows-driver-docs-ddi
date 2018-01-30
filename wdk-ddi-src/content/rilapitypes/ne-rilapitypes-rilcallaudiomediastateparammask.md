@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc13d98b-0516-49bf-b92c-5ed6b1c6b5b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CALLAUDIO_QUALITY, RIL_PARAM_CALLAUDIO_FLAGS, RILCALLAUDIOMEDIASTATEPARAMMASK, rilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, RIL_PARAM_CALLAUDIO_ALL, rilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, rilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, netvista.rilcallaudiomediastateparammask_2, rilapitypes/RIL_PARAM_CALLAUDIO_ALL, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, rilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, rilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_QUALITY, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallaudiomediastateparammask_2, RILCALLAUDIOMEDIASTATEPARAMMASK, RIL_PARAM_CALLAUDIO_FLAGS, rilapitypes/RIL_PARAM_CALLAUDIO_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLAUDIOMEDIASTATEPARAMMASK
 product: Windows
 targetos: Windows

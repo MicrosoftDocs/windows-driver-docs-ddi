@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26917b2b-abbf-4d1b-b086-104390998a35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.hasunnamedarg, HasUnnamedArg method [Windows Debugging], HasUnnamedArg, ExtExtension, EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, ExtExtension::HasUnnamedArg, HasUnnamedArg method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], HasUnnamedArg method
+ms.keywords: EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, ExtExtension::HasUnnamedArg, HasUnnamedArg method [Windows Debugging], HasUnnamedArg method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], HasUnnamedArg method, debugger.hasunnamedarg, ExtExtension, HasUnnamedArg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.HasUnnamedArg
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtExtension::HasUnnamedArg method
@@ -90,9 +90,9 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
 <a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin, ks/KsPinGetNextSiblingPin, avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, KsPinGetNextSiblingPin function [Streaming Media Devices]
+ms.keywords: stream.kspingetnextsiblingpin, KsPinGetNextSiblingPin function [Streaming Media Devices], avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, ks/KsPinGetNextSiblingPin, KsPinGetNextSiblingPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinGetNextSiblingPin
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
+ms.keywords: buses.udecxusbdeviceinitsetstatechangecallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUsbDeviceInitSetStateChangeCallbacks
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 

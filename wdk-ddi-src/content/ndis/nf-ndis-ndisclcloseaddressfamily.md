@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae6b9133-bb98-4858-bef5-1cbe0ae0dd4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndisclcloseaddressfamily, condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, NdisClCloseAddressFamily, ndis/NdisClCloseAddressFamily
+ms.keywords: condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndisclcloseaddressfamily, NdisClCloseAddressFamily, ndis/NdisClCloseAddressFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisClCloseAddressFamily
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClCloseAddressFamily function
@@ -164,19 +164,19 @@ Before a call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
  
 

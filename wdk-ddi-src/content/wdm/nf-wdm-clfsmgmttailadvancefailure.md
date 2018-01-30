@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21a2f593-716a-434a-922c-23544ddb0122
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsmgmttailadvancefailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtTailAdvanceFailure, Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, ClfsMgmtTailAdvanceFailure
+ms.keywords: ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, wdm/ClfsMgmtTailAdvanceFailure, kernel.clfsmgmttailadvancefailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsMgmtTailAdvanceFailure
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VF_PARAMETERS
-title: _NDIS_NIC_SWITCH_VF_PARAMETERS
+title: "_NDIS_NIC_SWITCH_VF_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VF_PARAMETERS specifies the resource parameters of a PCI Express (PCIe) Virtual Function (VF) on a network adapter.
 old-location: netvista\ndis_nic_switch_vf_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e75bb9a-e266-4321-8862-4bdfab300421
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VF_PARAMETERS, _NDIS_NIC_SWITCH_VF_PARAMETERS
+ms.keywords: NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_vf_parameters, ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, *PNDIS_NIC_SWITCH_VF_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, _NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_VF_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_NIC_SWITCH_VF_PARAMETERS, *PNDIS_NIC_SWITCH_VF_PARAMETERS
+req.typenames: "*PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS"
 ---
 
 # _NDIS_NIC_SWITCH_VF_PARAMETERS structure
@@ -84,6 +84,13 @@ The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structu
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
 
+
+
+#### NDIS_NIC_SWITCH_VF_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_PARAMETERS_REVISION_1.
 
 
 ### -field Flags
@@ -148,13 +155,6 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 ### -field RequestorId
 
 An NDIS_VF_RID that specifies the PCI Express (PCIe) Requestor ID (RID) of the VF.
-
-
-##### - Header.NDIS_NIC_SWITCH_VF_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_PARAMETERS_REVISION_1.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d29fb09-0ddc-4b61-8f85-c0e69d891bc5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeResetSynchronously, DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, WdfUsbTargetPipeResetSynchronously, kmdf.wdfusbtargetpiperesetsynchronously, PFN_WDFUSBTARGETPIPERESETSYNCHRONOUSLY, wdf.wdfusbtargetpiperesetsynchronously, WdfUsbTargetPipeResetSynchronously method
+ms.keywords: WdfUsbTargetPipeResetSynchronously method, wdfusb/WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously, kmdf.wdfusbtargetpiperesetsynchronously, PFN_WDFUSBTARGETPIPERESETSYNCHRONOUSLY, DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, wdf.wdfusbtargetpiperesetsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetPipeResetSynchronously
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -212,13 +212,13 @@ For more information about the <b>WdfUsbTargetPipeResetSynchronously</b> method 
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeabortsynchronously.md">WdfUsbTargetPipeAbortSynchronously</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
  
 

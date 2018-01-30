@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 5, 3, 0, 1, 7, 2, kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 6, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 4, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
+ms.keywords: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 7, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 3, 6, 5, kernel.pep_acpi_initialize_spb_uart_resource, 0, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 1, 4, 2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function

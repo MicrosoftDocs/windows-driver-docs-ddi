@@ -2,13 +2,13 @@
 UID: NF:prcomoem.IPrintOemEngine.DisablePDEV
 title: IPrintOemEngine::DisablePDEV method
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\iprintoemengine_disablepdev.htm
 old-project: print
 ms.assetid: F550A8B8-0C96-46E8-8E2A-32679E1D1E01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemEngine::DisablePDEV, DisablePDEV, IPrintOemEngine interface [Print Devices], DisablePDEV method, prcomoem/IPrintOemEngine::DisablePDEV, print.iprintoemengine_disablepdev, DisablePDEV method [Print Devices], IPrintOemEngine interface, IPrintOemEngine, DisablePDEV method [Print Devices]
+ms.keywords: DisablePDEV method [Print Devices], IPrintOemEngine interface, IPrintOemEngine interface [Print Devices], DisablePDEV method, DisablePDEV, IPrintOemEngine::DisablePDEV, prcomoem/IPrintOemEngine::DisablePDEV, print.iprintoemengine_disablepdev, IPrintOemEngine, DisablePDEV method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemEngine.DisablePDEV
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.wnode_single_item, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], wmistr/PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], *PWNODE_SINGLE_ITEM, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, PWNODE_SINGLE_ITEM, tagWNODE_SINGLE_ITEM
+ms.keywords: wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], PWNODE_SINGLE_ITEM, *PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, wmistr/WNODE_SINGLE_ITEM, tagWNODE_SINGLE_ITEM, kernel.wnode_single_item, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wmistr.h
-apiname: 
+apiname:
 -	WNODE_SINGLE_ITEM
 product: Windows
 targetos: Windows

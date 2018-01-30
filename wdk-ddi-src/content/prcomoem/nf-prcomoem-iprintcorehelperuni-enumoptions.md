@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: EnumOptions method [Print Devices], prcomoem/IPrintCoreHelperUni::EnumOptions, EnumOptions method [Print Devices], IPrintCoreHelperUni interface, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml, IPrintCoreHelperUni interface [Print Devices], EnumOptions method, print.iprintcorehelperuni_enumoptions, EnumOptions, IPrintCoreHelperUni, IPrintCoreHelperUni::EnumOptions
+ms.keywords: EnumOptions, IPrintCoreHelperUni::EnumOptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml, IPrintCoreHelperUni, prcomoem/IPrintCoreHelperUni::EnumOptions, IPrintCoreHelperUni interface [Print Devices], EnumOptions method, print.iprintcorehelperuni_enumoptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelperUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperUni.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

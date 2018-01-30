@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fdfcb8bc-bc42-4c34-ae19-b40401bea41e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerSetMaximumScatterGatherElements, WdfDmaEnablerSetMaximumScatterGatherElements method, DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements, PFN_WDFDMAENABLERSETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablersetmaximumscattergatherelements, wdf.wdfdmaenablersetmaximumscattergatherelements
+ms.keywords: wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements, wdf.wdfdmaenablersetmaximumscattergatherelements, PFN_WDFDMAENABLERSETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablersetmaximumscattergatherelements, WdfDmaEnablerSetMaximumScatterGatherElements method, DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, WdfDmaEnablerSetMaximumScatterGatherElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaEnablerSetMaximumScatterGatherElements
 product: Windows
 targetos: Windows
@@ -106,9 +106,9 @@ For more information about this method, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumscattergatherelements.md">WdfDmaEnablerGetMaximumScatterGatherElements</a>
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumscattergatherelements.md">WdfDmaEnablerGetMaximumScatterGatherElements</a>
 
  
 

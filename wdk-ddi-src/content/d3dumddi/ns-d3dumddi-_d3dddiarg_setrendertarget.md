@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88b0de48-1b85-4733-809c-6d8da657e920
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_SETRENDERTARGET, d3dumddi/D3DDDIARG_SETRENDERTARGET, D3DDDIARG_SETRENDERTARGET structure [Display Devices], D3DDDIARG_SETRENDERTARGET, display.d3dddiarg_setrendertarget, UMDisplayDriver_param_Structs_42cfb4bf-f5af-4008-9c6d-062e910b3238.xml"
+ms.keywords: D3DDDIARG_SETRENDERTARGET structure [Display Devices], D3DDDIARG_SETRENDERTARGET, d3dumddi/D3DDDIARG_SETRENDERTARGET, _D3DDDIARG_SETRENDERTARGET, display.d3dddiarg_setrendertarget, UMDisplayDriver_param_Structs_42cfb4bf-f5af-4008-9c6d-062e910b3238.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

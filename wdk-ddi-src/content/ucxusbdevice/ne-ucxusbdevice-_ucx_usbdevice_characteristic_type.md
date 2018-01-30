@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC_TYPE
-title: _UCX_USBDEVICE_CHARACTERISTIC_TYPE
+title: "_UCX_USBDEVICE_CHARACTERISTIC_TYPE"
 author: windows-driver-content
 description: Defines values that indicates the type of device characteristic.
 old-location: buses\ucx_usbdevice_characteristic_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE, buses.ucx_usbdevice_characteristic_type, UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration [Buses], ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_TYPE, PUCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration pointer [Buses], ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE, _UCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY
+ms.keywords: PUCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE, buses.ucx_usbdevice_characteristic_type, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration pointer [Buses], _UCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration [Buses], ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	UCX_USBDEVICE_CHARACTERISTIC_TYPE
 product: Windows
 targetos: Windows
@@ -75,9 +75,9 @@ The type of characteristic of the device.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_characteristic.md">UCX_USBDEVICE_CHARACTERISTIC</a>
+
+<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
 
  
 

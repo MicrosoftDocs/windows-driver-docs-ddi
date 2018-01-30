@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_TLB_CHECK
-title: _WHEA_XPF_TLB_CHECK
+title: "_WHEA_XPF_TLB_CHECK"
 author: windows-driver-content
 description: The WHEA_XPF_TLB_CHECK union describes translation lookaside buffer (TLB) error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_tlb_check.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 3943c854-3bb9-4fc9-9af9-735c3f4ee94e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PWHEA_XPF_TLB_CHECK, _WHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK, WHEA_XPF_TLB_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK union pointer [WHEA Drivers and Applications], whearef_20ed4273-105d-467b-a71f-46e50078543e.xml, WHEA_XPF_TLB_CHECK, whea.whea_xpf_tlb_check, ntddk/WHEA_XPF_TLB_CHECK
+ms.keywords: WHEA_XPF_TLB_CHECK union [WHEA Drivers and Applications], PWHEA_XPF_TLB_CHECK union pointer [WHEA Drivers and Applications], ntddk/WHEA_XPF_TLB_CHECK, whearef_20ed4273-105d-467b-a71f-46e50078543e.xml, _WHEA_XPF_TLB_CHECK, whea.whea_xpf_tlb_check, WHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK, ntddk/PWHEA_XPF_TLB_CHECK, *PWHEA_XPF_TLB_CHECK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_XPF_TLB_CHECK
 product: Windows
 targetos: Windows
@@ -192,18 +192,44 @@ A ULONGLONG representation of the contents of the WHEA_XPF_TLB_CHECK union.
 A single bit that indicates that the <b>TransactionType</b> member contains valid data.
 
 
-#### - Operation
+#### - OperationValid
 
-The type of translation lookaside buffer (TLB) access operation that caused the error. Possible values are:
-
-
-
-This member contains valid data only if the <b>OperationValid</b> bit is set.
+A single bit that indicates that the <b>Operation</b> member contains valid data.
 
 
-##### - Operation.XPF_TLB_CHECK_OPERATION_PREFETCH
+#### - LevelValid
 
-An instruction prefetch operation.
+A single bit that indicates that the <b>Level</b> member contains valid data.
+
+
+#### - ProcessorContextCorruptValid
+
+A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+
+
+#### - UncorrectedValid
+
+A single bit that indicates that the <b>Uncorrected</b> member contains valid data.
+
+
+#### - PreciseIPValid
+
+A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+
+
+#### - RestartableIPValid
+
+A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+
+
+#### - OverflowValid
+
+A single bit that indicates that the <b>Overflow</b> member contains valid data.
+
+
+#### - ReservedValid
+
+Reserved for system use.
 
 
 #### - TransactionType
@@ -215,38 +241,63 @@ The type of transaction that was in progress when the error occurred. Possible v
 This member contains valid data only if the <b>TransactionTypeValid</b> bit is set.
 
 
-#### - Overflow
+#### XPF_TLB_CHECK_TRANSACTIONTYPE_INSTRUCTION
 
-A single bit that indicates that an error overflow occurred.
-
-This member contains valid data only if the <b>OverflowValid</b> bit is set.
+A processor instruction transaction.
 
 
-##### - Operation.XPF_TLB_CHECK_OPERATION_INSTRUCTIONFETCH
+#### XPF_TLB_CHECK_TRANSACTIONTYPE_DATAACCESS
+
+A data access transaction.
+
+
+#### XPF_TLB_CHECK_TRANSACTIONTYPE_GENERIC
+
+A generic transaction.
+
+
+#### - Operation
+
+The type of translation lookaside buffer (TLB) access operation that caused the error. Possible values are:
+
+
+
+This member contains valid data only if the <b>OperationValid</b> bit is set.
+
+
+#### XPF_TLB_CHECK_OPERATION_GENERIC
+
+The type of operation cannot be determined.
+
+
+#### XPF_TLB_CHECK_OPERATION_GENREAD
+
+A generic read operation.
+
+
+#### XPF_TLB_CHECK_OPERATION_GENWRITE
+
+A generic write operation.
+
+
+#### XPF_TLB_CHECK_OPERATION_DATAREAD
+
+A data read operation.
+
+
+#### XPF_TLB_CHECK_OPERATION_DATAWRITE
+
+A data write operation.
+
+
+#### XPF_TLB_CHECK_OPERATION_INSTRUCTIONFETCH
 
 An instruction fetch operation.
 
 
-#### - UncorrectedValid
+#### XPF_TLB_CHECK_OPERATION_PREFETCH
 
-A single bit that indicates that the <b>Uncorrected</b> member contains valid data.
-
-
-#### - LevelValid
-
-A single bit that indicates that the <b>Level</b> member contains valid data.
-
-
-#### - ProcessorContextCorrupt
-
-A single bit that indicates that the processor context might have been corrupted.
-
-This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
-
-
-##### - Operation.XPF_TLB_CHECK_OPERATION_DATAREAD
-
-A data read operation.
+An instruction prefetch operation.
 
 
 #### - Level
@@ -256,14 +307,11 @@ The level of the TLB where the error occurred.
 This member contains valid data only if the <b>LevelValid</b> bit is set.
 
 
-#### - RestartableIPValid
+#### - ProcessorContextCorrupt
 
-A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+A single bit that indicates that the processor context might have been corrupted.
 
-
-#### - OperationValid
-
-A single bit that indicates that the <b>Operation</b> member contains valid data.
+This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
 
 
 #### - Uncorrected
@@ -273,9 +321,11 @@ A single bit that indicates that the error has not been corrected.
 This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
 
 
-#### - ProcessorContextCorruptValid
+#### - PreciseIP
 
-A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_TLB_CHECK union is directly associated with the error.
+
+This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
 
 
 #### - RestartableIP
@@ -285,66 +335,16 @@ A single bit that indicates that program execution can be restarted reliably at 
 This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
 
 
-##### - Operation.XPF_TLB_CHECK_OPERATION_DATAWRITE
+#### - Overflow
 
-A data write operation.
+A single bit that indicates that an error overflow occurred.
 
-
-#### - PreciseIPValid
-
-A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
-
-
-##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_INSTRUCTION
-
-A processor instruction transaction.
-
-
-##### - Operation.XPF_TLB_CHECK_OPERATION_GENERIC
-
-The type of operation cannot be determined.
+This member contains valid data only if the <b>OverflowValid</b> bit is set.
 
 
 #### - Reserved
 
 Reserved for system use.
-
-
-##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_DATAACCESS
-
-A data access transaction.
-
-
-##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_GENERIC
-
-A generic transaction.
-
-
-#### - ReservedValid
-
-Reserved for system use.
-
-
-#### - PreciseIP
-
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_TLB_CHECK union is directly associated with the error.
-
-This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
-
-
-##### - Operation.XPF_TLB_CHECK_OPERATION_GENREAD
-
-A generic read operation.
-
-
-#### - OverflowValid
-
-A single bit that indicates that the <b>Overflow</b> member contains valid data.
-
-
-##### - Operation.XPF_TLB_CHECK_OPERATION_GENWRITE
-
-A generic write operation.
 
 
 ## -remarks

@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.product: Windows 10 or later.
 ---
 
 # PVIDEO_HW_START_IO callback
@@ -121,11 +122,11 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
 <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
-
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 6B890F85-0E77-41D2-B3B9-004F1882B6B5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], gnssdriver/PGNSS_NMEA_DATA, GNSS_NMEA_DATA, sensors.gnss_nmea_data, *PGNSS_NMEA_DATA, gnssdriver/GNSS_NMEA_DATA, PGNSS_NMEA_DATA structure pointer [Sensor Devices]
+ms.keywords: "*PGNSS_NMEA_DATA, PGNSS_NMEA_DATA, gnssdriver/PGNSS_NMEA_DATA, sensors.gnss_nmea_data, PGNSS_NMEA_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], GNSS_NMEA_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_NMEA_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_NMEA_DATA, GNSS_NMEA_DATA
+req.typenames: GNSS_NMEA_DATA, *PGNSS_NMEA_DATA
 ---
 
 # GNSS_NMEA_DATA structure

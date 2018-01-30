@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_MINIPORT_DESCRIPTOR
-title: _STORAGE_MINIPORT_DESCRIPTOR
+title: "_STORAGE_MINIPORT_DESCRIPTOR"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_miniport_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30497CA8-70B6-48F9-B5D5-45E606A3226E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], ntddstor/STORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor, _STORAGE_MINIPORT_DESCRIPTOR
+ms.keywords: ntddstor/STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], _STORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], *PSTORAGE_MINIPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_MINIPORT_DESCRIPTOR
 product: Windows
 targetos: Windows

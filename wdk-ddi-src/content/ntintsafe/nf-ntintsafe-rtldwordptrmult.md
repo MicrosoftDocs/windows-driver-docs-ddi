@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlDWordPtrMult function [Kernel-Mode Driver Architecture], RtlDWordPtrMult, kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
+ms.keywords: RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, RtlDWordPtrMult, ntintsafe/RtlDWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlDWordPtrMult
 product: Windows
 targetos: Windows

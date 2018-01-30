@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, IKsInterfaceHandler::KsProcessMediaSamples, IKsInterfaceHandler, stream.iksinterfacehandler_ksprocessmediasamples, KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method
+ms.keywords: ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples, IKsInterfaceHandler::KsProcessMediaSamples, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method, KsProcessMediaSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsInterfaceHandler.KsProcessMediaSamples
 product: Windows
 targetos: Windows
@@ -144,9 +144,9 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
+
+<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
  
 

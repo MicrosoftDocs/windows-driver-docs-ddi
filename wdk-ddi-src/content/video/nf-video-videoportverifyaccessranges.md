@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 067ecebb-e63c-4161-9e8f-3746ecad3259
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortVerifyAccessRanges, display.videoportverifyaccessranges, VideoPortVerifyAccessRanges, VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, VideoPortVerifyAccessRanges function [Display Devices]
+ms.keywords: VideoPortVerifyAccessRanges, display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges, VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, VideoPortVerifyAccessRanges function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortVerifyAccessRanges function
@@ -158,21 +159,21 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
-
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66365126-d7c3-4886-b14f-a94dc12c1626
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_multiplane_overlay_caps, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_CAPS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS
+ms.keywords: display.d3dddi_multiplane_overlay_caps, D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

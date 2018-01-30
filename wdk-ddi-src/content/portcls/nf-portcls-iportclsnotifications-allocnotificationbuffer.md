@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsNotifications::AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, AllocNotificationBuffer method [Audio Devices], audio.iportclsnotifications_allocnotification, AllocNotificationBuffer, IPortClsNotifications, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, portcls/IPortClsNotifications::AllocNotificationBuffer
+ms.keywords: portcls/IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, IPortClsNotifications, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, AllocNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

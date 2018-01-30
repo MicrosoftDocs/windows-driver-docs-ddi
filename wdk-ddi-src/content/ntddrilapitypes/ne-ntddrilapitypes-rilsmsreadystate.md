@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f37b1e31-d0fa-4b0a-bab6-131b3bf1bdcd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSMSREADYSTATE, ntddrilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, netvista.rilsmsreadystate, RILSMSREADYSTATE, RIL_SMSREADY_SERVICEREADY_3GPP2, ntddrilapitypes/RIL_SMSREADY_UICCREADY, ntddrilapitypes/RIL_SMSREADYSTATE_ALL
+ms.keywords: RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADY_UICCREADY, ntddrilapitypes/RILSMSREADYSTATE, netvista.rilsmsreadystate, ntddrilapitypes/RIL_SMSREADYSTATE_ALL, ntddrilapitypes/RIL_SMSREADY_UICCREADY, RIL_SMSREADY_SERVICEREADY_3GPP2, ntddrilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, RILSMSREADYSTATE, RIL_SMSREADYSTATE_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSMSREADYSTATE
 product: Windows
 targetos: Windows

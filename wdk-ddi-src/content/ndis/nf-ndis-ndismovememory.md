@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1be08720-be44-4e1b-b0ec-b4eb0a2718a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMoveMemory macro [Network Drivers Starting with Windows Vista], NdisMoveMemory, ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
+ms.keywords: NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMoveMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMoveMemory macro
@@ -118,10 +118,10 @@ Callers of
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
 <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
    NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
  
 

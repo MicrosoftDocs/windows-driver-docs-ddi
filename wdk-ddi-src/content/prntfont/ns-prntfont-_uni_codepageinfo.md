@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UNI_CODEPAGEINFO
-title: _UNI_CODEPAGEINFO
+title: "_UNI_CODEPAGEINFO"
 author: windows-driver-content
 description: The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\uni_codepageinfo.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _UNI_CODEPAGEINFO, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, *PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], print.uni_codepageinfo, UNI_CODEPAGEINFO, prntfont/PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices]
+ms.keywords: prntfont/UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, PUNI_CODEPAGEINFO structure pointer [Print Devices], *PUNI_CODEPAGEINFO, prntfont/PUNI_CODEPAGEINFO, _UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], UNI_CODEPAGEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UNI_CODEPAGEINFO
 product: Windows
 targetos: Windows
-req.typenames: UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO
+req.typenames: "*PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO"
 req.product: Windows 10 or later.
 ---
 

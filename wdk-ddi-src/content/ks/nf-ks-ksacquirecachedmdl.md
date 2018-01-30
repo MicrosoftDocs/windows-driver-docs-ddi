@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: C6C693CC-D9C0-4EE8-9F8C-07D8665C673D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAcquireCachedMdl function [Streaming Media Devices], GUID, stream.ksacquirecachedmdl, PVOID, ks/KsAcquireCachedMdl, KsAcquireCachedMdl
+ms.keywords: stream.ksacquirecachedmdl, PVOID, GUID, KsAcquireCachedMdl, ks/KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsAcquireCachedMdl
 product: Windows
 targetos: Windows
@@ -104,6 +104,18 @@ VOID
 </tr>
 </table></span></div>
 
+#### GUID
+
+GUID passed in the <b>KsAcquireCachedMdl</b> function by the Avstream miniport driver.
+
+
+#### PVOID
+
+Cancel context supplied by the Avstream miniport driver in the <b>KsAcquireCachedMdl</b> function call.
+
+Release context. This is the output of the <b>KsAcquireCachedMdl</b> function.
+
+
 ### -param CancelContext
 
 The context passed to the Avstream driver in the cancel routine. This context is used by the Avstream driver to get into the driver context.
@@ -120,21 +132,9 @@ Return value: The context to be stored by Avstream driver. This context should b
 
 
 
-##### - CancelRoutine.GUID
-
-GUID passed in the <b>KsAcquireCachedMdl</b> function by the Avstream miniport driver.
-
-
 #### - *MdlAddr
 
 Return value: The resultant MDL if KS finds the MDL stored for the sample buffer.
-
-
-##### - CancelRoutine.PVOID
-
-Cancel context supplied by the Avstream miniport driver in the <b>KsAcquireCachedMdl</b> function call.
-
-Release context. This is the output of the <b>KsAcquireCachedMdl</b> function.
 
 
 ## -returns

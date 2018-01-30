@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1eeee706-b7f4-4b4d-93c8-969eac7c56d9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcpin_descriptor, *PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, PCPIN_DESCRIPTOR structure [Audio Devices], PPCPIN_DESCRIPTOR, portcls/PPCPIN_DESCRIPTOR, portcls/PCPIN_DESCRIPTOR
+ms.keywords: audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, portcls/PPCPIN_DESCRIPTOR, portcls/PCPIN_DESCRIPTOR, audio.pcpin_descriptor, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], PCPIN_DESCRIPTOR structure [Audio Devices], PCPIN_DESCRIPTOR, *PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,7 +119,7 @@ Pointer to the automation table. This member is a pointer to a structure of type
 
 #### - KsPinDescriptor
 
-Describes the pin factory. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>. A pin factory can have zero interfaces and zero mediums. The list of interfaces is ignored in all cases. The standard-medium list will default to a list containing only device I/O (KSMEDIUM_STANDARD_DEVIO).
+Describes the pin factory. This member is a structure of type <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>. A pin factory can have zero interfaces and zero mediums. The list of interfaces is ignored in all cases. The standard-medium list will default to a list containing only device I/O (KSMEDIUM_STANDARD_DEVIO).
 
 
 ## -remarks
@@ -169,15 +169,15 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565200">KSPROPERTY_PIN_GLOBALCINSTANCES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536834">IPinCount::PinCount</a>
+
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: icm/WcsEnumColorProfilesSize, colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Print Devices], print.wcsenumcolorprofilessize
+ms.keywords: icm/WcsEnumColorProfilesSize, WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize, colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, WcsEnumColorProfilesSize function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	WcsEnumColorProfilesSize
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsenumcolorprofiles.md">WcsEnumColorProfiles</a>
-
 <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
+
+<a href="..\icm\nf-icm-wcsenumcolorprofiles.md">WcsEnumColorProfiles</a>
 
  
 

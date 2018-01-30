@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, kmdf.wdf_child_list_config_init, wdf.wdf_child_list_config_init, WDF_CHILD_LIST_CONFIG_INIT, DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml
+ms.keywords: wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT, wdf.wdf_child_list_config_init, kmdf.wdf_child_list_config_init, WDF_CHILD_LIST_CONFIG_INIT, DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, WDF_CHILD_LIST_CONFIG_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfchildlist.h
-apiname: 
+apiname:
 -	WDF_CHILD_LIST_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -105,9 +105,9 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
-
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 074159BD-EF74-45F9-B7A5-47F9E01E32C6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulongptrtouchar, RtlULongPtrToUChar, ntintsafe/RtlULongPtrToUChar, RtlULongPtrToUChar function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlULongPtrToUChar, RtlULongPtrToUChar, RtlULongPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongPtrToUChar
 product: Windows
 targetos: Windows

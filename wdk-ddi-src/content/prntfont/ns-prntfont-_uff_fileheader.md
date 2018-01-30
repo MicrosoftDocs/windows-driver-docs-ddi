@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UFF_FILEHEADER
-title: _UFF_FILEHEADER
+title: "_UFF_FILEHEADER"
 author: windows-driver-content
 description: The UFF_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).
 old-location: print\uff_fileheader.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PUFF_FILEHEADER structure pointer [Print Devices], print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, _UFF_FILEHEADER, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER, print.uff_fileheader, UFF_FILEHEADER, *PUFF_FILEHEADER, PUFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices]
+ms.keywords: PUFF_FILEHEADER structure pointer [Print Devices], prntfont/UFF_FILEHEADER, prntfont/PUFF_FILEHEADER, UFF_FILEHEADER, *PUFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], PUFF_FILEHEADER, _UFF_FILEHEADER, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, print.uff_fileheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UFF_FILEHEADER
 product: Windows
 targetos: Windows

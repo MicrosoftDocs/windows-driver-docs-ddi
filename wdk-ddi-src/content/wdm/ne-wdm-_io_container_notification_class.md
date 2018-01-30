@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_CONTAINER_NOTIFICATION_CLASS
-title: _IO_CONTAINER_NOTIFICATION_CLASS
+title: "_IO_CONTAINER_NOTIFICATION_CLASS"
 author: windows-driver-content
 description: The IO_CONTAINER_NOTIFICATION_CLASS enumeration contains constants that indicate the classes of events for which a kernel-mode driver can register to receive notifications.
 old-location: kernel\io_container_notification_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_CONTAINER_NOTIFICATION_CLASS, wdm/IO_CONTAINER_NOTIFICATION_CLASS, IoSessionStateNotification, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/IoMaxContainerNotificationClass, wdm/IoSessionStateNotification, kernel.io_container_notification_class, _IO_CONTAINER_NOTIFICATION_CLASS, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, IoMaxContainerNotificationClass
+ms.keywords: IoMaxContainerNotificationClass, wdm/IO_CONTAINER_NOTIFICATION_CLASS, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IoMaxContainerNotificationClass, IO_CONTAINER_NOTIFICATION_CLASS, IoSessionStateNotification, kernel.io_container_notification_class, wdm/IoSessionStateNotification, _IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_CONTAINER_NOTIFICATION_CLASS
 product: Windows
 targetos: Windows

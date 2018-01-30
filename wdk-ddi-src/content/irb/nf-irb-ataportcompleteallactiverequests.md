@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, storage.ataportcompleteallactiverequests
+ms.keywords: storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], AtaPortCompleteAllActiveRequests, atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortCompleteAllActiveRequests
 product: Windows
 targetos: Windows

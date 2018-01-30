@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D530355F-5824-4F7C-84C4-57D3D03A7116
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/UFS_fPermanentWPEn, ufs/UFS_Reserved5, UFS_Reserved5, UFS_fDeviceLifeSpanModeEn, ufs/UFS_fPowerOnWPEn, UFS_Reserved1, UFS_fPurgeEnable, UFS_fBusyRTC, ufs/UFS_Reserved3, UFS_fPhyResourceRemoval, storage.ufs_flags_descriptor, UFS_fPermanentlyDisableFwUpdate, UFS_fPermanentWPEn, ufs/UFS_fBackgroundOpsEn, UFS_fBackgroundOpsEn, ufs/UFS_fPurgeEnable, ufs/UFS_fBusyRTC, UFS_fPowerOnWPEn, ufs/UFS_Reserved2, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], ufs/UFS_fPhyResourceRemoval, ufs/UFS_Reserved1, UFS_Reserved3, ufs/UFS_fPermanentlyDisableFwUpdate, ufs/UFS_fDeviceInit, UFS_fDeviceInit, UFS_FLAGS_DESCRIPTOR, ufs/UFS_Reserved4, ufs/UFS_FLAGS_DESCRIPTOR, UFS_Reserved2, ufs/UFS_fDeviceLifeSpanModeEn, UFS_Reserved4
+ms.keywords: UFS_Reserved2, UFS_Reserved1, UFS_fPurgeEnable, UFS_fBackgroundOpsEn, ufs/UFS_fDeviceInit, ufs/UFS_Reserved4, UFS_FLAGS_DESCRIPTOR, ufs/UFS_Reserved2, UFS_fPhyResourceRemoval, ufs/UFS_fPhyResourceRemoval, ufs/UFS_fPowerOnWPEn, ufs/UFS_fPurgeEnable, UFS_fBusyRTC, ufs/UFS_Reserved3, UFS_Reserved3, UFS_Reserved4, ufs/UFS_fDeviceLifeSpanModeEn, storage.ufs_flags_descriptor, UFS_fPowerOnWPEn, UFS_fPermanentWPEn, ufs/UFS_Reserved1, ufs/UFS_FLAGS_DESCRIPTOR, UFS_fDeviceInit, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], ufs/UFS_Reserved5, ufs/UFS_fBusyRTC, ufs/UFS_fBackgroundOpsEn, UFS_fDeviceLifeSpanModeEn, UFS_Reserved5, UFS_fPermanentlyDisableFwUpdate, ufs/UFS_fPermanentWPEn, ufs/UFS_fPermanentlyDisableFwUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ufs.h
-apiname: 
+apiname:
 -	UFS_FLAGS_DESCRIPTOR
 product: Windows
 targetos: Windows

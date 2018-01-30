@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bfeafa09-49b7-45b3-84d8-afad5f43b78e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Copy method [Windows Debugging], ExtRemoteTyped class, Copy method [Windows Debugging], ExtBuffer, Copy, ExtRemoteTyped class [Windows Debugging], Copy method, ExtBuffer::Copy, debugger.extremotetyped_copy_debug_typed_data
+ms.keywords: ExtBuffer, ExtRemoteTyped class [Windows Debugging], Copy method, debugger.extremotetyped_copy_debug_typed_data, Copy, Copy method [Windows Debugging], ExtBuffer::Copy, Copy method [Windows Debugging], ExtRemoteTyped class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.Copy
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtBuffer::Copy method

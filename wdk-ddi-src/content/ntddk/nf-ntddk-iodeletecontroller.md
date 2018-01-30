@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeleteController, ntddk/IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], kernel.iodeletecontroller, k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml
+ms.keywords: kernel.iodeletecontroller, k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], ntddk/IoDeleteController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoDeleteController
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoDeleteController function

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.vhfstart, VhfStart method [Human Input Devices], VhfStart, vhf/VhfStart
+ms.keywords: hid.vhfstart, VhfStart, vhf/VhfStart, VhfStart method [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,8 @@ apiname:
 -	VhfStart
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
+req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
+req.product: Windows 10 or later.
 ---
 
 # VhfStart function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 540a4e5c-8d7b-4ba8-a9a6-6e13d9b85f23
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoGetAttachedDeviceReference, k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], IoGetAttachedDeviceReference
+ms.keywords: IoGetAttachedDeviceReference, wdm/IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], kernel.iogetattacheddevicereference, k104_f7fa8878-306a-4de2-b418-8102754306f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetAttachedDeviceReference
 product: Windows
 targetos: Windows

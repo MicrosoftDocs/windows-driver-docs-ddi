@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3BE85B65-DAE0-41E7-AB24-B5E8E7073E1A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_getfailuretype, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::GetFailureType, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureType method, GetFailureType, GetFailureType method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureType method [Windows Debugging], IDebugFailureAnalysis2::GetFailureType
+ms.keywords: IDebugFailureAnalysis2::GetFailureType, extsfns/IDebugFailureAnalysis2::GetFailureType, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureType method, GetFailureType method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_getfailuretype, GetFailureType, GetFailureType method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

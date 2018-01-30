@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba7eb60-0d19-4bfd-b484-2e615d3e9237
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, fwpsk/FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_INCOMING_METADATA_VALUES0_, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, netvista.fwps_incoming_metadata_values0, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_INCOMING_METADATA_VALUES0, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE
+ms.keywords: wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, fwpsk/FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_INCOMING_METADATA_VALUES0_, FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_incoming_metadata_values0, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_INCOMING_METADATA_VALUES0
 product: Windows
 targetos: Windows
@@ -625,20 +625,20 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+<mshelp:link keywords="netvista.fwps_inbound_fragment_metadata0" tabindex="0"><b>
+   FWPS_INBOUND_FRAGMENT_METADATA0</b></mshelp:link>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
 
+<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
 
-<mshelp:link keywords="netvista.fwps_inbound_fragment_metadata0" tabindex="0"><b>
-   FWPS_INBOUND_FRAGMENT_METADATA0</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
 

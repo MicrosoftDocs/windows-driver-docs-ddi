@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceclearremovalrelationsdevices, WdfDeviceClearRemovalRelationsDevices method, wdfdevice/WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices, DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, kmdf.wdfdeviceclearremovalrelationsdevices, PFN_WDFDEVICECLEARREMOVALRELATIONSDEVICES
+ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, WdfDeviceClearRemovalRelationsDevices method, wdfdevice/WdfDeviceClearRemovalRelationsDevices, PFN_WDFDEVICECLEARREMOVALRELATIONSDEVICES, WdfDeviceClearRemovalRelationsDevices, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceClearRemovalRelationsDevices
 product: Windows
 targetos: Windows

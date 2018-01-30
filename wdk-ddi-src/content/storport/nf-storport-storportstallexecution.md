@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d635d93b-3e69-4ce5-9dc0-60186417d009
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, storport/StorPortStallExecution, StorPortStallExecution routine [Storage Devices], storage.storportstallexecution, StorPortStallExecution
+ms.keywords: storage.storportstallexecution, StorPortStallExecution, storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, StorPortStallExecution routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortStallExecution
 product: Windows
 targetos: Windows

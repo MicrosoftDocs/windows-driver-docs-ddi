@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EFA83238-77DF-474D-8F8F-2400C9B23A00
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsDeviceInitInitialize method [Buses], ursdevice/UrsDeviceInitInitialize, UrsDeviceInitInitialize, buses.ursdeviceinitinitialize
+ms.keywords: UrsDeviceInitInitialize, buses.ursdeviceinitinitialize, ursdevice/UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Urscxstub.lib
 -	Urscxstub.dll
-apiname: 
+apiname:
 -	UrsDeviceInitInitialize
 product: Windows
 targetos: Windows

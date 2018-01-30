@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, Set method [Streaming Media Devices], IKsPropertySet, IKsPropertySet::Set, Set method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_set, ksproxy/IKsPropertySet::Set, IKsPropertySet interface [Streaming Media Devices], Set method, Set
+ms.keywords: ksproxy/IKsPropertySet::Set, IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, IKsPropertySet, Set method [Streaming Media Devices], stream.ikspropertyset_set, IKsPropertySet interface [Streaming Media Devices], Set method, Set method [Streaming Media Devices], IKsPropertySet interface, Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dsound.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPropertySet.Set
 product: Windows
 targetos: Windows
@@ -103,6 +103,21 @@ HRESULT Set(
 
 
 
+#### - PropSet [in]
+
+GUID that identifies the property set.
+
+
+#### - Id [in]
+
+Identifier of the property within the property set. 
+
+
+#### - InstanceData [in]
+
+Pointer to instance data for the property. 
+
+
 #### - InstanceLength [in]
 
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
@@ -116,21 +131,6 @@ Pointer to a buffer that contains the value of the property to set.
 #### - DataLength [in]
 
 Size, in bytes, of the buffer at <i>PropertyData</i>. 
-
-
-#### - InstanceData [in]
-
-Pointer to instance data for the property. 
-
-
-#### - PropSet [in]
-
-GUID that identifies the property set.
-
-
-#### - Id [in]
-
-Identifier of the property within the property set. 
 
 
 ## -returns

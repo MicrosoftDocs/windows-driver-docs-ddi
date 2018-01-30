@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b57661c3-a18f-45ed-b7fc-f6471753566e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacksWide interface, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, Output, dbgeng/IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide, IDebugOutputCallbacksWide::Output, debugger.idebugoutputcallbackswide_output
+ms.keywords: Output method [Windows Debugging], IDebugOutputCallbacksWide interface, dbgeng/IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide, Output, debugger.idebugoutputcallbackswide_output, IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, Output method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugOutputCallbacksWide.Output
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugOutputCallbacksWide::Output method

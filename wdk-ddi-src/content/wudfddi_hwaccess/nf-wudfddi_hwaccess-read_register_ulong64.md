@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D8AB8735-8909-463E-B10E-1FE5FD557FBB
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_ULONG64, umdf.read_register_ulong64, READ_REGISTER_ULONG64 function, wdf.read_register_ulong64, wudfddi_hwaccess/READ_REGISTER_ULONG64
+ms.keywords: READ_REGISTER_ULONG64 function, umdf.read_register_ulong64, READ_REGISTER_ULONG64, wudfddi_hwaccess/READ_REGISTER_ULONG64, wdf.read_register_ulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_hwaccess.h
-apiname: 
+apiname:
 -	READ_REGISTER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

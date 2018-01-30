@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 65C3DF3D-812D-44ED-B471-2D29ADBC2BBA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_REQUEST_PARAMETERS_INIT function [Buses], spbcx/SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT, SPB.spb_request_parameters_init
+ms.keywords: SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT function [Buses], SPB_REQUEST_PARAMETERS_INIT, spbcx/SPB_REQUEST_PARAMETERS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spbcx.h
-apiname: 
+apiname:
 -	SPB_REQUEST_PARAMETERS_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 

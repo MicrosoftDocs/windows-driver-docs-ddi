@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, IPortClsPower::SetIdlePowerManagement, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, SetIdlePowerManagement method [Audio Devices], portcls/IPortClsPower::SetIdlePowerManagement, IPortClsPower
+ms.keywords: SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, audio.iportclspower_setidlepowermanagement, SetIdlePowerManagement method [Audio Devices], audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, IPortClsPower::SetIdlePowerManagement, portcls/IPortClsPower::SetIdlePowerManagement, IPortClsPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,7 @@ NTSTATUS SetIdlePowerManagement(
 
 #### - DeviceObject [in]
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 #### - bEnabled [in]
@@ -105,11 +105,11 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
 
  
 

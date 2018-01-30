@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_FORMAT
-title: _WWAN_SMS_FORMAT
+title: "_WWAN_SMS_FORMAT"
 author: windows-driver-content
 description: The WWAN_SMS_FORMAT enumeration lists different Short Message Service (SMS) formats.
 old-location: netvista\wwan_sms_format.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fb583ded-8292-4486-8e85-3d3039611d14
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, PWWAN_SMS_FORMAT, _WWAN_SMS_FORMAT, WwanSmsFormatCdma, wwan/WWAN_SMS_FORMAT, wwan/WwanSmsFormatPdu, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatCdma, wwan/PWWAN_SMS_FORMAT, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatReserved2, netvista.wwan_sms_format, WwanSmsFormatReserved1, WwanSmsFormatPdu, WwanSmsFormatReserved2, wwan/WwanSmsFormatMax, WWAN_SMS_FORMAT, WwanSmsFormatMax, wwan/WwanSmsFormatReserved1, wwan/WwanSmsFormatReserved0, *PWWAN_SMS_FORMAT, WwanSmsFormatReserved0
+ms.keywords: PWWAN_SMS_FORMAT, WwanSmsFormatCdma, _WWAN_SMS_FORMAT, netvista.wwan_sms_format, wwan/WwanSmsFormatReserved0, WwanSmsFormatReserved0, WwanSmsFormatMax, wwan/WwanSmsFormatMax, WwanSmsFormatPdu, wwan/PWWAN_SMS_FORMAT, WwanSmsFormatReserved1, wwan/WwanSmsFormatCdma, WWAN_SMS_FORMAT, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_FORMAT, wwan/WwanSmsFormatReserved2, WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, WwanSmsFormatReserved2, *PWWAN_SMS_FORMAT, wwan/WwanSmsFormatReserved1, wwan/WwanSmsFormatPdu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_FORMAT
 product: Windows
 targetos: Windows
@@ -121,17 +121,17 @@ CDMA-based devices support only
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
-
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
 
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
 <a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
+<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
 
  
 

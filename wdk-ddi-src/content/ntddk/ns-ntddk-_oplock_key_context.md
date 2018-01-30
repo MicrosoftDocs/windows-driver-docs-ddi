@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._OPLOCK_KEY_CONTEXT
-title: _OPLOCK_KEY_CONTEXT
+title: "_OPLOCK_KEY_CONTEXT"
 author: windows-driver-content
 description: The OPLOCK_KEY_CONTEXT structure is returned from IoGetOplockKeyContextEx. This structure contains oplock keys for a specific file object.
 old-location: ifsk\oplock_key_context.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_FLAG_PARENT_KEY, _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, ntddk/OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN8, ifsk.oplock_key_context, POPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
+ms.keywords: OPLOCK_KEY_FLAG_TARGET_KEY, ifsk.oplock_key_context, OPLOCK_KEY_CONTEXT, _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_VERSION_WIN8, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_VERSION_WIN7, POPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	OPLOCK_KEY_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT
+req.typenames: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT"
 ---
 
 # _OPLOCK_KEY_CONTEXT structure
@@ -157,11 +157,11 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
-
 <a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
  
 

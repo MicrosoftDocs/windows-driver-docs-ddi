@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ace9e23a-d7ea-480a-8001-f25310adee22
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsets method, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols3, IDebugSymbols2::GetSourceFileLineOffsets, debugger.getsourcefilelineoffsets, GetSourceFileLineOffsets, dbgeng/IDebugSymbols3::GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols::GetSourceFileLineOffsets, IDebugSymbols_18a64f21-a082-4953-8d69-2b3f7d805c60.xml, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetSourceFileLineOffsets, IDebugSymbols3::GetSourceFileLineOffsets, dbgeng/IDebugSymbols::GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols interface [Windows Debugging], GetSourceFileLineOffsets method, dbgeng/IDebugSymbols::GetSourceFileLineOffsets, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsets method, dbgeng/IDebugSymbols2::GetSourceFileLineOffsets, dbgeng/IDebugSymbols3::GetSourceFileLineOffsets, IDebugSymbols::GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_18a64f21-a082-4953-8d69-2b3f7d805c60.xml, IDebugSymbols3::GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols3 interface, debugger.getsourcefilelineoffsets, IDebugSymbols2::GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, GetSourceFileLineOffsets method [Windows Debugging], GetSourceFileLineOffsets, IDebugSymbols2 interface [Windows Debugging], GetSourceFileLineOffsets method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSourceFileLineOffsets
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSourceFileLineOffsets method
@@ -136,15 +136,15 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
  
 

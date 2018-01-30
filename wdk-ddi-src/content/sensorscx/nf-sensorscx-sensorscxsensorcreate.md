@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, SensorsCxSensorCreate, sensorscx/SensorsCxSensorCreate
+ms.keywords: sensorscx/SensorsCxSensorCreate, sensors.sensorscxsensorcreate, SensorsCxSensorCreate function [Sensor Devices], SensorsCxSensorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	SensorsCx.h
-apiname: 
+apiname:
 -	SensorsCxSensorCreate
 product: Windows
 targetos: Windows
@@ -121,9 +121,9 @@ The sensors class extension writes a set of properties for each sensor when Sens
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
 
  
 

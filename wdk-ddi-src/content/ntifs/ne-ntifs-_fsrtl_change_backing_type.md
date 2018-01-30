@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._FSRTL_CHANGE_BACKING_TYPE
-title: _FSRTL_CHANGE_BACKING_TYPE
+title: "_FSRTL_CHANGE_BACKING_TYPE"
 author: windows-driver-content
 description: The FSRTL_CHANGE_BACKING_TYPE enumeration specifies the type of cache or control area that a file object designates.
 old-location: ifsk\fsrtl_change_backing_type.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 952812f4-5d29-4d1d-ab81-dd3a76a5f04c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], ChangeImageControlArea, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, ChangeSharedCacheMap, PFSRTL_CHANGE_BACKING_TYPE, ntifs/FSRTL_CHANGE_BACKING_TYPE, ChangeDataControlArea, *PFSRTL_CHANGE_BACKING_TYPE, ntifs/PFSRTL_CHANGE_BACKING_TYPE, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], ntifs/ChangeImageControlArea, FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeDataControlArea, _FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeSharedCacheMap, ifsk.fsrtl_change_backing_type
+ms.keywords: FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, ntifs/ChangeDataControlArea, ChangeDataControlArea, FSRTL_CHANGE_BACKING_TYPE, ChangeImageControlArea, PFSRTL_CHANGE_BACKING_TYPE, ntifs/FSRTL_CHANGE_BACKING_TYPE, ifsk.fsrtl_change_backing_type, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], ntifs/ChangeSharedCacheMap, ChangeSharedCacheMap, _FSRTL_CHANGE_BACKING_TYPE, ntifs/PFSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeImageControlArea, *PFSRTL_CHANGE_BACKING_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FSRTL_CHANGE_BACKING_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PFSRTL_CHANGE_BACKING_TYPE, FSRTL_CHANGE_BACKING_TYPE
+req.typenames: FSRTL_CHANGE_BACKING_TYPE, *PFSRTL_CHANGE_BACKING_TYPE
 ---
 
 # _FSRTL_CHANGE_BACKING_TYPE enumeration

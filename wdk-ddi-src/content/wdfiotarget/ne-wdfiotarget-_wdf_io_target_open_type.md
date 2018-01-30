@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_OPEN_TYPE
-title: _WDF_IO_TARGET_OPEN_TYPE
+title: "_WDF_IO_TARGET_OPEN_TYPE"
 author: windows-driver-content
 description: The WDF_IO_TARGET_OPEN_TYPE enumeration specifies how a driver identifies a remote I/O target when the driver calls WdfIoTargetOpen.
 old-location: wdf\wdf_io_target_open_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, _WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenUseExistingDevice, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenByName, WdfIoTargetOpenLocalTargetByFile, kmdf.wdf_io_target_open_type, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenByName, WdfIoTargetOpenUndefined, wdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenUseExistingDevice
+ms.keywords: wdfiotarget/WdfIoTargetOpenReopen, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, _WDF_IO_TARGET_OPEN_TYPE, wdf.wdf_io_target_open_type, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenUseExistingDevice, wdfiotarget/WdfIoTargetOpenByName, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, WdfIoTargetOpenByName, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenUseExistingDevice, WDF_IO_TARGET_OPEN_TYPE, kmdf.wdf_io_target_open_type, WdfIoTargetOpenLocalTargetByFile, WdfIoTargetOpenUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfiotarget.h
-apiname: 
+apiname:
 -	WDF_IO_TARGET_OPEN_TYPE
 product: Windows
 targetos: Windows
@@ -125,11 +125,11 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 

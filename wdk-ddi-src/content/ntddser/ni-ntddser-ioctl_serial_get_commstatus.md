@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	IOCTL_SERIAL_GET_COMMSTATUS
 product: Windows
 targetos: Windows

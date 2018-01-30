@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fc24e764-d584-4927-942f-3b8b4b83af79
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltstartfiltering, FltStartFiltering function [Installable File System Drivers], FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, FltStartFiltering, fltkernel/FltStartFiltering
+ms.keywords: FltStartFiltering, fltkernel/FltStartFiltering, FltStartFiltering function [Installable File System Drivers], FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, ifsk.fltstartfiltering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltStartFiltering
 product: Windows
 targetos: Windows

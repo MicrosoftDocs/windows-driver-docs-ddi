@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 799273eb-0ff6-4815-ac32-8fbb01f457e2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Disconnect method [Audio Devices], portcls/IInterruptSync::Disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, audio.iinterruptsync_disconnect, IInterruptSync interface [Audio Devices], Disconnect method, Disconnect method [Audio Devices], IInterruptSync interface, IInterruptSync, Disconnect, IInterruptSync::Disconnect
+ms.keywords: audio.iinterruptsync_disconnect, Disconnect method [Audio Devices], IInterruptSync interface, IInterruptSync, IInterruptSync::Disconnect, Disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, Disconnect method [Audio Devices], portcls/IInterruptSync::Disconnect, IInterruptSync interface [Audio Devices], Disconnect method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,7 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549089">IoDisconnectInterrupt</a>
+<a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
 
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 

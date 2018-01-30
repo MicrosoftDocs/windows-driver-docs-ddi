@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 507d41ae-31b9-4807-99af-9ec48eb2b5aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet::KsGetResolution, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method, ksproxy/IKsClockPropertySet::KsGetResolution, IKsClockPropertySet, KsGetResolution method [Streaming Media Devices], ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, stream.iksclockpropertyset_ksgetresolution, KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, KsGetResolution
+ms.keywords: IKsClockPropertySet, KsGetResolution method [Streaming Media Devices], stream.iksclockpropertyset_ksgetresolution, IKsClockPropertySet::KsGetResolution, KsGetResolution, ksproxy/IKsClockPropertySet::KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsGetResolution
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+
+<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
 
  
 

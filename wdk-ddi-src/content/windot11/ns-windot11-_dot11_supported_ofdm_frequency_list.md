@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
-title: _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+title: "_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_ofdm_frequency_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0c967358-821b-4f78-acbc-dacee24dcd57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+ms.keywords: PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 product: Windows
 targetos: Windows
-req.typenames: DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+req.typenames: "*PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -102,11 +102,11 @@ A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11_supported_ofdm_frequency" tabindex="0"><b>
-   DOT11_SUPPORTED_OFDM_FREQUENCY</b></mshelp:link>
-
 <mshelp:link keywords="netvista.oid_dot11_supported_ofdm_frequency_list" tabindex="0">
    OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</mshelp:link>
+
+<mshelp:link keywords="netvista.dot11_supported_ofdm_frequency" tabindex="0"><b>
+   DOT11_SUPPORTED_OFDM_FREQUENCY</b></mshelp:link>
 
  
 

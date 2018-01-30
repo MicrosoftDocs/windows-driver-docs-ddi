@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_CAPABILITIES
-title: _PMI_CAPABILITIES
+title: "_PMI_CAPABILITIES"
 author: windows-driver-content
 description: The PMI_CAPABILITIES structure contains information about the power metering and budgeting capabilities of a power meter.
 old-location: powermeter\pmi_capabilities.htm
@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPMI_CAPABILITIES, *PPMI_CAPABILITIES, _PMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], powermeter.pmi_capabilities, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], pmi/PPMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, pmi/PMI_CAPABILITIES, PMI_CAPABILITIES
+ms.keywords: powermeter.pmi_capabilities, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], pmi/PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PPMI_CAPABILITIES, _PMI_CAPABILITIES, PMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, *PPMI_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: PMI_CAPABILITIES, *PPMI_CAPABILITIES
+req.typenames: "*PPMI_CAPABILITIES, PMI_CAPABILITIES"
 ---
 
 # _PMI_CAPABILITIES structure

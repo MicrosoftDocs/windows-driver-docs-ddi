@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b66ba25-7723-4805-aa7c-7091a18d749b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty, DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, wdf.wdfiotargetallocandquerytargetproperty, PFN_WDFIOTARGETALLOCANDQUERYTARGETPROPERTY, WdfIoTargetAllocAndQueryTargetProperty method, WdfIoTargetAllocAndQueryTargetProperty, kmdf.wdfiotargetallocandquerytargetproperty
+ms.keywords: DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, PFN_WDFIOTARGETALLOCANDQUERYTARGETPROPERTY, WdfIoTargetAllocAndQueryTargetProperty, wdf.wdfiotargetallocandquerytargetproperty, kmdf.wdfiotargetallocandquerytargetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoTargetAllocAndQueryTargetProperty
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -156,19 +156,19 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md">WdfIoTargetQueryTargetProperty</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
 
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetquerytargetproperty.md">WdfIoTargetQueryTargetProperty</a>
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
  
 

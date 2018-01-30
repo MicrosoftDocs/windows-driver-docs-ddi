@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: eeade123-fb83-478f-99e3-e79bbbb1919b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorClassExtension, CleanupFile method [Sensor Devices], CleanupFile, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile
+ms.keywords: CleanupFile method [Sensor Devices], sensors.isensorclassextension_cleanupfile, ISensorClassExtension::CleanupFile, ISensorClassExtension, CleanupFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	CleanupFile
 product: Windows
 targetos: Windows

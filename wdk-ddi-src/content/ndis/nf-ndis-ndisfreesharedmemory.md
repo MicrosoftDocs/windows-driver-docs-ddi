@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d0a1790-cec0-4c28-85dd-5f4d7d518d63
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreesharedmemory, NdisFreeSharedMemory, ndis/NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml
+ms.keywords: ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, ndis/NdisFreeSharedMemory, netvista.ndisfreesharedmemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], NdisFreeSharedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeSharedMemory function

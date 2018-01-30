@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c77ad1a-218d-4857-a07c-f5d542d070d7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, dbgeng/IDebugSymbols3::GetSymbolTypeId, GetSymbolTypeId, IDebugSymbols3, dbgeng/IDebugSymbols::GetSymbolTypeId, dbgeng/IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymboltypeid, GetSymbolTypeId method [Windows Debugging]
+ms.keywords: IDebugSymbols2::GetSymbolTypeId, dbgeng/IDebugSymbols2::GetSymbolTypeId, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, dbgeng/IDebugSymbols::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, GetSymbolTypeId method [Windows Debugging], GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::GetSymbolTypeId, GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols3, debugger.getsymboltypeid, IDebugSymbols::GetSymbolTypeId, IDebugSymbols3::GetSymbolTypeId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolTypeId
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSymbolTypeId method
@@ -123,13 +123,13 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
  
 

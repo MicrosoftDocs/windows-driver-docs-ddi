@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc4f751f-d92a-47e6-8cbe-0a587292b160
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvFreeDrvItemContext, image.iwiaminidrv_drvfreedrvitemcontext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext, drvFreeDrvItemContext, IWiaMiniDrv interface [Imaging Devices], drvFreeDrvItemContext method, IWiaMiniDrv, drvFreeDrvItemContext method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvFreeDrvItemContext method, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, IWiaMiniDrv, drvFreeDrvItemContext method [Imaging Devices], image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext, drvFreeDrvItemContext method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvFreeDrvItemContext, drvFreeDrvItemContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvFreeDrvItemContext
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -86,9 +86,9 @@ HRESULT drvFreeDrvItemContext(
 
 
 
-#### - plDevErrVal [out]
+#### - lFlags [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+Is currently unused.
 
 
 #### - pSpecContext [in]
@@ -96,9 +96,9 @@ Points to a memory location that will receive a status code for this method. If 
 Points to a device-specific context. 
 
 
-#### - lFlags [in]
+#### - plDevErrVal [out]
 
-Is currently unused.
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -121,11 +121,11 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

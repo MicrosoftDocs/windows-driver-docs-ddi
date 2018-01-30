@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 551193d0-596c-40bf-9a31-f8b6eb330e25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGACKSTATUS, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGACKSTATUS_ERROR, RIL_MSGACKSTATUS_ERROR, RIL_MSGACKSTATUS_MAX, ntddrilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, RILMSGACKSTATUS, ntddrilapitypes/RIL_MSGACKSTATUS_MAX, RIL_MSGACKSTATUS_FAIL_MEM_FULL, netvista.rilmsgackstatus
+ms.keywords: ntddrilapitypes/RIL_MSGACKSTATUS_MAX, ntddrilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, RIL_MSGACKSTATUS_FAIL_MEM_FULL, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGACKSTATUS_ERROR, ntddrilapitypes/RILMSGACKSTATUS, RIL_MSGACKSTATUS_MAX, RILMSGACKSTATUS, RIL_MSGACKSTATUS_ERROR, netvista.rilmsgackstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGACKSTATUS
 product: Windows
 targetos: Windows

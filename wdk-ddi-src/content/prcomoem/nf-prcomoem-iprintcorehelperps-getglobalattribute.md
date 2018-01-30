@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelperPS, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, GetGlobalAttribute method [Print Devices], print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, print.iprintcorehelperps_getglobalattribute, IPrintCoreHelperPS::GetGlobalAttribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute
+ms.keywords: GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, print.iprintcorehelperps_getglobalattribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, GetGlobalAttribute, IPrintCoreHelperPS::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperPS.GetGlobalAttribute
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

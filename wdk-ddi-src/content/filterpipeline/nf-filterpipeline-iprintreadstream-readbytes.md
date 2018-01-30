@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ReadBytes method [Print Devices], IPrintReadStream interface, IPrintReadStream interface [Print Devices], ReadBytes method, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, ReadBytes method [Print Devices], print.iprintreadstream_readbytes, IPrintReadStream, IPrintReadStream::ReadBytes, ReadBytes, filterpipeline/IPrintReadStream::ReadBytes
+ms.keywords: IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, IPrintReadStream, IPrintReadStream interface [Print Devices], ReadBytes method, ReadBytes method [Print Devices], print.iprintreadstream_readbytes, ReadBytes, filterpipeline/IPrintReadStream::ReadBytes, ReadBytes method [Print Devices], IPrintReadStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintReadStream.ReadBytes
 product: Windows
 targetos: Windows

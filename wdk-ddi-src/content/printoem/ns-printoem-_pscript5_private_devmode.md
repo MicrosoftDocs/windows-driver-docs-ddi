@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PSCRIPT5_PRIVATE_DEVMODE
-title: _PSCRIPT5_PRIVATE_DEVMODE
+title: "_PSCRIPT5_PRIVATE_DEVMODE"
 author: windows-driver-content
 description: The PSCRIPT5_PRIVATE_DEVMODE structure enables Pscript5 plug-ins to determine the size of the private portion of Pscript5's DEVMODEW structure.
 old-location: print\pscript5_private_devmode.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], PPSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, printoem/PPSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices]
+ms.keywords: "_PSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE, printoem/PPSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], print.pscript5_private_devmode, PSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	PSCRIPT5_PRIVATE_DEVMODE
 product: Windows
 targetos: Windows

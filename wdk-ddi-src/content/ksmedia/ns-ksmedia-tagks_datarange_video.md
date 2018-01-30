@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 682fe2b7-3166-4691-8959-ec7f34c414f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml, KS_DATARANGE_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], tagKS_DATARANGE_VIDEO, stream.ks_datarange_video, *PKS_DATARANGE_VIDEO, ksmedia/KS_DATARANGE_VIDEO
+ms.keywords: stream.ks_datarange_video, tagKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO, ksmedia/KS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO structure [Streaming Media Devices], vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DATARANGE_VIDEO
 product: Windows
 targetos: Windows
@@ -129,9 +129,9 @@ When a particular format is selected by a user-mode client, the members (and the
 
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
  
 

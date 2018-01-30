@@ -1,6 +1,6 @@
 ---
 UID: NS:spbcx._SPB_CONNECTION_PARAMETERS
-title: _SPB_CONNECTION_PARAMETERS
+title: "_SPB_CONNECTION_PARAMETERS"
 author: windows-driver-content
 description: The SPB_CONNECTION_PARAMETERS structure contains the connection parameters for a target device on a simple peripheral bus.
 old-location: spb\spb_connection_parameters.htm
@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 4707b797-6759-426d-89eb-01215af6ce19
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spb_connection_parameters, PSPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses], _SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS, spbcx/PSPB_CONNECTION_PARAMETERS, spbcx/SPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS structure pointer [Buses], SPB_CONNECTION_PARAMETERS
+ms.keywords: "_SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS structure pointer [Buses], spbcx/SPB_CONNECTION_PARAMETERS, spbcx/PSPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses], SPB.spb_connection_parameters, PSPB_CONNECTION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spbcx.h
-apiname: 
+apiname:
 -	SPB_CONNECTION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS
+req.typenames: "*PSPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -105,15 +105,15 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
 
 <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
 
  
 

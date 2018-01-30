@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 13F8A151-F28A-4A0F-B143-F3DB2197A36B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrintJob::RequestCancel, print.iprintjob_requestcancel, RequestCancel, IPrintJob interface [Print Devices], RequestCancel method, RequestCancel method [Print Devices], IPrintJob interface, RequestCancel method [Print Devices], IPrintJob::RequestCancel, IPrintJob
+ms.keywords: RequestCancel, IPrintJob, IPrintJob interface [Print Devices], RequestCancel method, IPrintJob::RequestCancel, RequestCancel method [Print Devices], RequestCancel method [Print Devices], IPrintJob interface, printerextension/IPrintJob::RequestCancel, print.iprintjob_requestcancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintJob.RequestCancel
 product: Windows
 targetos: Windows

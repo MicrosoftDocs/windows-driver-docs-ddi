@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlAllocateHeap routine [Installable File System Drivers], rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml, ntifs/RtlAllocateHeap, ifsk.rtlallocateheap, RtlAllocateHeap
+ms.keywords: RtlAllocateHeap routine [Installable File System Drivers], RtlAllocateHeap, ifsk.rtlallocateheap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml, ntifs/RtlAllocateHeap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	ntdll.dll
-apiname: 
+apiname:
 -	RtlAllocateHeap
 product: Windows
 targetos: Windows

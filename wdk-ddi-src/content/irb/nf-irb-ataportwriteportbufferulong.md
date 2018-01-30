@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0ee4ef0a-1b6e-4e94-8a3d-ed5215dc5f31
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortBufferUlong, irb/AtaPortWritePortBufferUlong, atartns_877f49af-a38e-4468-896a-0e79a4e9effa.xml, storage.ataportwriteportbufferulong, AtaPortWritePortBufferUlong routine [Storage Devices]
+ms.keywords: AtaPortWritePortBufferUlong routine [Storage Devices], irb/AtaPortWritePortBufferUlong, storage.ataportwriteportbufferulong, atartns_877f49af-a38e-4468-896a-0e79a4e9effa.xml, AtaPortWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortWritePortBufferUlong
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+<a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
 
 <a href="..\irb\nf-irb-ataportwriteportbufferuchar.md">AtaPortWritePortBufferUchar</a>
 
-<a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
  
 

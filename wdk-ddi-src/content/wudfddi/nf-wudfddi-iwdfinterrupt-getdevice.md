@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71C4E02F-B58A-46BA-A6A7-133D6CAF2A85
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt interface, GetDevice method, IWDFInterrupt, IWDFInterrupt::GetDevice, GetDevice method, umdf.iwdfinterrupt_getdevice, GetDevice method, IWDFInterrupt interface, GetDevice, wdf.iwdfinterrupt_getdevice, wudfddi/IWDFInterrupt::GetDevice
+ms.keywords: wdf.iwdfinterrupt_getdevice, umdf.iwdfinterrupt_getdevice, GetDevice method, wudfddi/IWDFInterrupt::GetDevice, IWDFInterrupt::GetDevice, GetDevice method, IWDFInterrupt interface, IWDFInterrupt, IWDFInterrupt interface, GetDevice method, GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFInterrupt.GetDevice
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

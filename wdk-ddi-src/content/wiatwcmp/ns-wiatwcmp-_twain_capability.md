@@ -1,6 +1,6 @@
 ---
 UID: NS:wiatwcmp._TWAIN_CAPABILITY
-title: _TWAIN_CAPABILITY
+title: "_TWAIN_CAPABILITY"
 author: windows-driver-content
 description: The TWAIN_CAPABILITY structure holds information used when a TWAIN-compatible application communicates with a WIA driver.
 old-location: image\twain_capability.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 79a2155d-eb06-4095-9fe6-b95d93e46211
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PTWAIN_CAPABILITY, TWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], PTWAIN_CAPABILITY, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, image.twain_capability, _TWAIN_CAPABILITY, wiatwcmp/TWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], wiatwcmp/PTWAIN_CAPABILITY
+ms.keywords: image.twain_capability, wiatwcmp/TWAIN_CAPABILITY, TWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, _TWAIN_CAPABILITY, PTWAIN_CAPABILITY, *PTWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], wiatwcmp/PTWAIN_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiatwcmp.h
-apiname: 
+apiname:
 -	TWAIN_CAPABILITY
 product: Windows
 targetos: Windows

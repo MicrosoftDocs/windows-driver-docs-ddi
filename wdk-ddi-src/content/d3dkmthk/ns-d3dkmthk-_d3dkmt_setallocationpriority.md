@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_setallocationpriority, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], _D3DKMT_SETALLOCATIONPRIORITY
+ms.keywords: D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], _D3DKMT_SETALLOCATIONPRIORITY, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, display.d3dkmt_setallocationpriority, OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni::DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable, DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method
+ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvgetstandardvariable, prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, IPrintOemDriverUni::DrvGetStandardVariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvGetStandardVariable
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

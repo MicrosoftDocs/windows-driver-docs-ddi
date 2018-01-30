@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b5de8e7-be8e-481e-8dce-9bc4b5071128
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGPP2CAUSE, rilapitypes/RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], *LPRILGPP2CAUSE, netvista.rilgpp2cause_2
+ms.keywords: RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGPP2CAUSE, netvista.rilgpp2cause_2, RILGPP2CAUSE, *LPRILGPP2CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGPP2CAUSE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGPP2CAUSE, RILGPP2CAUSE
+req.typenames: "*LPRILGPP2CAUSE, RILGPP2CAUSE"
 req.product: Windows 10 or later.
 ---
 

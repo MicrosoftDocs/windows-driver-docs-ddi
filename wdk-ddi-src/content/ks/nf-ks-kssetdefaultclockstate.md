@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5893f4ff-0eb5-4cdc-8f58-f7654c1ce9fc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetDefaultClockState function [Streaming Media Devices], ksfunc_a57f26f0-cd4a-4d80-a090-788aef1ccf4b.xml, ks/KsSetDefaultClockState, stream.kssetdefaultclockstate, KsSetDefaultClockState
+ms.keywords: KsSetDefaultClockState function [Streaming Media Devices], ks/KsSetDefaultClockState, stream.kssetdefaultclockstate, ksfunc_a57f26f0-cd4a-4d80-a090-788aef1ccf4b.xml, KsSetDefaultClockState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsSetDefaultClockState
 product: Windows
 targetos: Windows

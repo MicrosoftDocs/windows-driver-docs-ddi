@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
-title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure describes the counter resources available on the platform.
 old-location: kernel\physical_counter_resource_descriptor.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9b4c35a1-04b9-4d4d-9a57-2f5711ec7418
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kernel.physical_counter_resource_descriptor, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml
+ms.keywords: PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml, kernel.physical_counter_resource_descriptor, ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 ---
 
 # _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure
@@ -144,9 +144,9 @@ To specify a set of counter resources, a kernel-mode client can provide an array
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a>
-
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
+
+<a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a>
 
  
 

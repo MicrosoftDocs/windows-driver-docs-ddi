@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
-title: _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+title: "_UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS"
 author: windows-driver-content
 description: Initializes a UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure with pointers to callback functions that are implemented by a UDE client for a virtual USB device.
 old-location: buses\udecx_usb_device_state_change_callbacks.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9847A6E1-9551-4F0A-8B50-BB191B0181EF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure pointer [Buses], PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, buses.udecx_usb_device_state_change_callbacks, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure [Buses]
+ms.keywords: "_UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure pointer [Buses], *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, buses.udecx_usb_device_state_change_callbacks, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UdecxUsbDevice.h
-apiname: 
+apiname:
 -	UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+req.typenames: "*PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 

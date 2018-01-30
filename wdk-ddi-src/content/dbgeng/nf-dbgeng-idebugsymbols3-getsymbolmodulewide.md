@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c1284da-b086-46f3-aeea-0afe6a2f1031
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetSymbolModuleWide, debugger.getsymbolmodulewide, GetSymbolModuleWide, IDebugSymbols3, GetSymbolModuleWide method [Windows Debugging], GetSymbolModuleWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolModuleWide method, IDebugSymbols3::GetSymbolModuleWide
+ms.keywords: dbgeng/IDebugSymbols3::GetSymbolModuleWide, GetSymbolModuleWide, GetSymbolModuleWide method [Windows Debugging], debugger.getsymbolmodulewide, IDebugSymbols3::GetSymbolModuleWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolModuleWide method, GetSymbolModuleWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolModuleWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSymbolModuleWide method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 980bcf7b-8e4a-4516-ab71-af60a1d8e99c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], GetTextMacro method, IDebugControl interface [Windows Debugging], GetTextMacro method, IDebugControl3 interface [Windows Debugging], GetTextMacro method, IDebugControl3, dbgeng/IDebugControl2::GetTextMacro, GetTextMacro method [Windows Debugging], GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetTextMacro, IDebugControl2::GetTextMacro, debugger.gettextmacro, GetTextMacro method [Windows Debugging], IDebugControl interface, IDebugControl::GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl3 interface, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml
+ms.keywords: IDebugControl3, IDebugControl2 interface [Windows Debugging], GetTextMacro method, GetTextMacro, IDebugControl3 interface [Windows Debugging], GetTextMacro method, dbgeng/IDebugControl2::GetTextMacro, IDebugControl interface [Windows Debugging], GetTextMacro method, dbgeng/IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl2 interface, debugger.gettextmacro, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, GetTextMacro method [Windows Debugging], IDebugControl3 interface, GetTextMacro method [Windows Debugging], IDebugControl2::GetTextMacro, IDebugControl3::GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl interface, IDebugControl::GetTextMacro
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetTextMacro
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetTextMacro method
@@ -127,19 +127,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_TEMP_TYPE
-title: _DOT11_TEMP_TYPE
+title: "_DOT11_TEMP_TYPE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_temp_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73275e2e-b738-4adc-b89e-2cd152de6c75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_temp_type_unknown, *PDOT11_TEMP_TYPE, _DOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_TEMP_TYPE, windot11/dot11_temp_type_unknown, windot11/dot11_temp_type_2, netvista.dot11_temp_type, Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_temp_type_2, windot11/DOT11_TEMP_TYPE, dot11_temp_type_1, PDOT11_TEMP_TYPE
+ms.keywords: windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, netvista.dot11_temp_type, dot11_temp_type_unknown, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PDOT11_TEMP_TYPE, dot11_temp_type_1, dot11_temp_type_2, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_TEMP_TYPE, windot11/dot11_temp_type_2, PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE, _DOT11_TEMP_TYPE, windot11/dot11_temp_type_unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_TEMP_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE
+req.typenames: "*PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE"
 req.product: Windows 10 or later.
 ---
 

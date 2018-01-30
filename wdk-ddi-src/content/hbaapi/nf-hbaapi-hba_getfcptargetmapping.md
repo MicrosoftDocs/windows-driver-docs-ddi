@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d1064f97-e640-49b6-be8c-19662e5de9bb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_getfcptargetmapping, fibreHBA_rtns_352928a8-39d5-4989-8156-0b1025b59350.xml, HBA_GetFcpTargetMapping routine [Storage Devices], HBA_GetFcpTargetMapping, hbaapi/HBA_GetFcpTargetMapping
+ms.keywords: fibreHBA_rtns_352928a8-39d5-4989-8156-0b1025b59350.xml, hbaapi/HBA_GetFcpTargetMapping, HBA_GetFcpTargetMapping routine [Storage Devices], HBA_GetFcpTargetMapping, storage.hba_getfcptargetmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetFcpTargetMapping
 product: Windows
 targetos: Windows
@@ -131,11 +131,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the ta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping.md">HBA_FCPTargetMapping</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

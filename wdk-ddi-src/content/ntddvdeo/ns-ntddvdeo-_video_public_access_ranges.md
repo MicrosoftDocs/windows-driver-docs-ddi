@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78912da9-ab02-459c-97b0-477949d4a71d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], _VIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES, *PVIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges
+ms.keywords: Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], PVIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES, _VIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], *PVIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

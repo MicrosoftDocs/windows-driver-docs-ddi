@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._CONTROLLER_OBJECT
-title: _CONTROLLER_OBJECT
+title: "_CONTROLLER_OBJECT"
 author: windows-driver-content
 description: A controller object represents a hardware adapter or controller with homogenous devices that are the actual targets for I/O requests.
 old-location: kernel\controller_object.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5530901-e48c-4f4e-86a8-00d5ed01f933
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT, PCONTROLLER_OBJECT, ntddk/CONTROLLER_OBJECT, kernel.controller_object, *PCONTROLLER_OBJECT, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], CONTROLLER_OBJECT, kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml
+ms.keywords: kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml, CONTROLLER_OBJECT, kernel.controller_object, *PCONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT, ntddk/CONTROLLER_OBJECT, _CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	CONTROLLER_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: *PCONTROLLER_OBJECT, CONTROLLER_OBJECT
+req.typenames: "*PCONTROLLER_OBJECT, CONTROLLER_OBJECT"
 ---
 
 # _CONTROLLER_OBJECT structure

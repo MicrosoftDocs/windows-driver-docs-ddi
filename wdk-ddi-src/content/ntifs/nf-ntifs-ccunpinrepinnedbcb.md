@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 96a35574-87dc-4a2f-aaef-616096839f3f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, CcUnpinRepinnedBcb, ntifs/CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb, CcUnpinRepinnedBcb routine [Installable File System Drivers]
+ms.keywords: CcUnpinRepinnedBcb routine [Installable File System Drivers], ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, ntifs/CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb, CcUnpinRepinnedBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcUnpinRepinnedBcb
 product: Windows
 targetos: Windows

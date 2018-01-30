@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method, GetCommandWide method [Windows Debugging], GetCommandWide, IDebugBreakpoint2::GetCommandWide, GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, debugger.getcommandwide, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method, GetCommandWide, IDebugBreakpoint2::GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugBreakpoint2.GetCommandWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetCommandWide method

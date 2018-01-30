@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceInitFree, buses.udecxusbdeviceinitfree, UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses]
+ms.keywords: udecxusbdevice/UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree, buses.udecxusbdeviceinitfree, UdecxUsbDeviceInitFree function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUsbDeviceInitFree
 product: Windows
 targetos: Windows
@@ -83,9 +83,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
  
 

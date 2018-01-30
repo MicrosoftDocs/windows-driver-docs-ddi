@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PROVIDER_EXTERNAL_INFO_V1
-title: _FILE_PROVIDER_EXTERNAL_INFO_V1
+title: "_FILE_PROVIDER_EXTERNAL_INFO_V1"
 author: windows-driver-content
 description: The FILE_PROVIDER_EXTERNAL_INFO_V1 structure defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: ifsk\file_provider_external_info_v1.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 842D7F4A-3352-469A-B7C1-E075432107CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO, PFILE_PROVIDER_EXTERNAL_INFO_V1, _FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1
+ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, _FILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_PROVIDER_EXTERNAL_INFO_V1
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1
+req.typenames: "*PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1"
 ---
 
 # _FILE_PROVIDER_EXTERNAL_INFO_V1 structure

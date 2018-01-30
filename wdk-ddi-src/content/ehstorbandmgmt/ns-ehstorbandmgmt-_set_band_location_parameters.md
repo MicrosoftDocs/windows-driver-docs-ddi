@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._SET_BAND_LOCATION_PARAMETERS
-title: _SET_BAND_LOCATION_PARAMETERS
+title: "_SET_BAND_LOCATION_PARAMETERS"
 author: windows-driver-content
 description: The SET_BAND_LOCATION_PARAMETERS structure specifies the parameters to set location properties for a band on a storage device for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION request.
 old-location: storage\set_band_location_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS, _SET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters, *PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], SET_BAND_LOCATION_PARAMETERS structure [Storage Devices]
+ms.keywords: SET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], _SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], *PSET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	SET_BAND_LOCATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS
+req.typenames: SET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS
 ---
 
 # _SET_BAND_LOCATION_PARAMETERS structure
@@ -107,19 +107,19 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authoriza
 To specify a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-### -field BandLocationInfoOffset
-
-The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a> structure. The offset is from the beginning of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>.
-
-
-##### - AuthKeyOffset.KeySize
+#### KeySize
 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-##### - AuthKeyOffset.Key
+#### Key
 
 A variable-length byte array that contains the key data.
+
+
+### -field BandLocationInfoOffset
+
+The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a> structure. The offset is from the beginning of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>.
 
 
 ## -remarks
@@ -133,9 +133,9 @@ If <b>BandID</b> and <b>BandStart </b> are both set to –1,  then the <a href="
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 

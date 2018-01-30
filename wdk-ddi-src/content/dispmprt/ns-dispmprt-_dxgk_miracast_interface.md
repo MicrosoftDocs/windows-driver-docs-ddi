@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39DCDA28-D32F-4755-91FB-0D42822D7B54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], DXGK_MIRACAST_DISPLAY_INTERFACE, *PDXGK_MIRACAST_DISPLAY_INTERFACE, _DXGK_MIRACAST_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], display.dxgk_miracast_display_interface, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE
+ms.keywords: "_DXGK_MIRACAST_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE, *PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], PDXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], display.dxgk_miracast_display_interface, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,15 +135,15 @@ For more info on how to use the Miracast interface, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_query_caps.md">DxgkDdiMiracastQueryCaps</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_destroy_context.md">DxgkDdiMiracastDestroyContext</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
  
 

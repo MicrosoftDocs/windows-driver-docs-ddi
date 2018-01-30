@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9c7f3e24-1d7c-450e-bbef-df0479911bc6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtCommitEnlistment, ZwCommitEnlistment routine [Kernel-Mode Driver Architecture], wdm/ZwCommitEnlistment, NtCommitEnlistment, ktm_ref_b99f9962-ce40-4324-9482-b8202d96425d.xml, ZwCommitEnlistment, kernel.zwcommitenlistment
+ms.keywords: ZwCommitEnlistment, wdm/ZwCommitEnlistment, NtCommitEnlistment, ktm_ref_b99f9962-ce40-4324-9482-b8202d96425d.xml, wdm/NtCommitEnlistment, ZwCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwcommitenlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwCommitEnlistment
 -	NtCommitEnlistment
 product: Windows
@@ -200,13 +200,13 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcommitenlistment.md">TmCommitEnlistment</a>
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-tmcommitenlistment.md">TmCommitEnlistment</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
  
 

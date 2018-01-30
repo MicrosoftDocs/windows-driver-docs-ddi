@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9c9aaece-5c16-40c4-a039-5e32541500f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails, RILERRORDETAILS, *LPRILERRORDETAILS
+ms.keywords: RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILERRORDETAILS, netvista.rilerrordetails, RILERRORDETAILS, *LPRILERRORDETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILERRORDETAILS
 product: Windows
 targetos: Windows

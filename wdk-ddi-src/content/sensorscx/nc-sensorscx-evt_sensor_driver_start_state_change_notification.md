@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	sensorscx.h
-apiname: 
+apiname:
 -	EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 product: Windows
 targetos: Windows

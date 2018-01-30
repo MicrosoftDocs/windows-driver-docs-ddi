@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcrequestnewpowerstate, PcRequestNewPowerState function [Audio Devices], PcRequestNewPowerState, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState
+ms.keywords: audio.pcrequestnewpowerstate, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], PcRequestNewPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS PcRequestNewPowerState(
 
 ### -param pDeviceObject [in]
 
-Pointer to the adapter's <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the adapter's <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
 ### -param RequestedNewState [in]
@@ -147,7 +147,7 @@ For more information, see <a href="https://msdn.microsoft.com/3d3d63af-5790-4760
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

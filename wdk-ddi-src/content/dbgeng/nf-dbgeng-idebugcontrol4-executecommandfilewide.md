@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteCommandFileWide method [Windows Debugging], dbgeng/IDebugControl4::ExecuteCommandFileWide, ExecuteCommandFileWide, debugger.executecommandfilewide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4::ExecuteCommandFileWide
+ms.keywords: IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, IDebugControl4, ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ExecuteCommandFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.ExecuteCommandFileWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::ExecuteCommandFileWide method

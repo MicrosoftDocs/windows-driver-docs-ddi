@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f6a55181-7e1a-4af0-ac45-1991c42cdc87
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetStdBool method [Windows Debugging], GetStdBool method [Windows Debugging], ExtRemoteData class, ExtRemoteData, ExtRemoteData::GetStdBool, EngExtCpp_Ref_65fe8202-99dc-45b3-9b38-5fca10341b1b.xml, GetStdBool, ExtRemoteData class [Windows Debugging], GetStdBool method, debugger.extremotedata_getstdbool
+ms.keywords: debugger.extremotedata_getstdbool, ExtRemoteData::GetStdBool, ExtRemoteData, GetStdBool method [Windows Debugging], ExtRemoteData class, EngExtCpp_Ref_65fe8202-99dc-45b3-9b38-5fca10341b1b.xml, GetStdBool method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetStdBool method, GetStdBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetStdBool
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetStdBool method

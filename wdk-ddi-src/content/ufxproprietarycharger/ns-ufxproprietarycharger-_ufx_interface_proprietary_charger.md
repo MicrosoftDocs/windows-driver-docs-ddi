@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxproprietarycharger._UFX_INTERFACE_PROPRIETARY_CHARGER
-title: _UFX_INTERFACE_PROPRIETARY_CHARGER
+title: "_UFX_INTERFACE_PROPRIETARY_CHARGER"
 author: windows-driver-content
 description: Stores pointers to driver-implemented callback functions for handling proprietary charger operations.
 old-location: buses\ufx_interface_proprietary_charger.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3E75EA87-FBF8-4FFB-9CD7-F8E1D5353D68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UFX_INTERFACE_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_INTERFACE_PROPRIETARY_CHARGER, PUFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER structure [Buses], _UFX_INTERFACE_PROPRIETARY_CHARGER, *PUFX_INTERFACE_PROPRIETARY_CHARGER, buses.ufx_interface_proprietary_charger, PUFX_INTERFACE_PROPRIETARY_CHARGER structure pointer [Buses], ufxproprietarycharger/PUFX_INTERFACE_PROPRIETARY_CHARGER
+ms.keywords: buses.ufx_interface_proprietary_charger, PUFX_INTERFACE_PROPRIETARY_CHARGER structure pointer [Buses], _UFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER structure [Buses], ufxproprietarycharger/PUFX_INTERFACE_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_INTERFACE_PROPRIETARY_CHARGER, *PUFX_INTERFACE_PROPRIETARY_CHARGER, PUFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxproprietarycharger.h
-apiname: 
+apiname:
 -	UFX_INTERFACE_PROPRIETARY_CHARGER
 product: Windows
 targetos: Windows
-req.typenames: UFX_INTERFACE_PROPRIETARY_CHARGER, *PUFX_INTERFACE_PROPRIETARY_CHARGER
+req.typenames: "*PUFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER"
 req.product: Windows 10 or later.
 ---
 

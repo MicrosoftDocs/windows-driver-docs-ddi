@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DEVICE_FORM_FACTOR
-title: _STORAGE_DEVICE_FORM_FACTOR
+title: "_STORAGE_DEVICE_FORM_FACTOR"
 author: windows-driver-content
 description: Indicates the form factor of a storage device.
 old-location: storage\storage_device_form_factor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE59767B-2504-4E5F-A442-60EEBEE70B59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FormFactor1_8Less, FormFactorM_2, ntddstor/FormFactorUnknown, ntddstor/FormFactorM_2, PSTORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactormSata, ntddstor/FormFactor3_5, _STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactormSata, ntddstor/FormFactor1_8Less, FormFactorMemoryCard, ntddstor/FormFactorPCIeBoard, FormFactorUnknown, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, FormFactor3_5, ntddstor/FormFactor1_8, ntddstor/FormFactorEmbedded, FormFactorDimm, ntddstor/FormFactorDimm, STORAGE_DEVICE_FORM_FACTOR, FormFactorPCIeBoard, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], ntddstor/STORAGE_DEVICE_FORM_FACTOR, FormFactorEmbedded, ntddstor/FormFactorMemoryCard, FormFactor2_5, ntddstor/FormFactor2_5, storage.storage_device_form_factor, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices]
+ms.keywords: PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], FormFactorUnknown, FormFactor1_8, ntddstor/FormFactormSata, FormFactorMemoryCard, FormFactorEmbedded, ntddstor/FormFactor2_5, ntddstor/FormFactorUnknown, ntddstor/FormFactorEmbedded, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], FormFactor2_5, ntddstor/FormFactorPCIeBoard, FormFactorM_2, PSTORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorM_2, FormFactor1_8Less, FormFactormSata, ntddstor/FormFactor1_8, FormFactorPCIeBoard, _STORAGE_DEVICE_FORM_FACTOR, FormFactor3_5, ntddstor/FormFactor1_8Less, ntddstor/FormFactor3_5, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor, ntddstor/FormFactorDimm, ntddstor/STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorMemoryCard, *PSTORAGE_DEVICE_FORM_FACTOR, FormFactorDimm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_DEVICE_FORM_FACTOR
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR
+req.typenames: "*PSTORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR"
 ---
 
 # _STORAGE_DEVICE_FORM_FACTOR enumeration

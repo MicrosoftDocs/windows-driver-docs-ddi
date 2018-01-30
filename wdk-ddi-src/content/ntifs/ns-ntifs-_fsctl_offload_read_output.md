@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_OUTPUT
-title: _FSCTL_OFFLOAD_READ_OUTPUT
+title: "_FSCTL_OFFLOAD_READ_OUTPUT"
 author: windows-driver-content
 description: The FSCTL_OFFLOAD_READ_OUTPUT structure contains the output for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_output.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 418E66FA-BECD-4F9F-B28C-962995C637B9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsctl_offload_read_output, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], *PFSCTL_OFFLOAD_READ_OUTPUT, _FSCTL_OFFLOAD_READ_OUTPUT, ntifs/FSCTL_OFFLOAD_READ_OUTPUT
+ms.keywords: ntifs/FSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT, _FSCTL_OFFLOAD_READ_OUTPUT, *PFSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, ifsk.fsctl_offload_read_output, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], FSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FSCTL_OFFLOAD_READ_OUTPUT
 product: Windows
 targetos: Windows
@@ -144,9 +144,9 @@ The  copy provider retains the data read for the duration in the <b>TokenTimeToL
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
-
 <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_BootInformation
-title: _MSiSCSI_BootInformation
+title: "_MSiSCSI_BootInformation"
 author: windows-driver-content
 description: The MSiSCSI_BootInformation structure is used with the MSiSCSI_BootInformation WMI Class to expose information about the node that contains the target boot device.
 old-location: storage\msiscsi_bootinformation.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 971bbd30-5bde-4cf6-9b94-7c21c29590d5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_BootInformation, MSiSCSI_BootInformation, structs-iSCSI_a33678de-f559-4c7a-8007-55ab0381b613.xml, iscsiop/PMSiSCSI_BootInformation, _MSiSCSI_BootInformation, *PMSiSCSI_BootInformation, MSiSCSI_BootInformation structure [Storage Devices], iscsiop/MSiSCSI_BootInformation, storage.msiscsi_bootinformation, PMSiSCSI_BootInformation structure pointer [Storage Devices]
+ms.keywords: iscsiop/PMSiSCSI_BootInformation, storage.msiscsi_bootinformation, structs-iSCSI_a33678de-f559-4c7a-8007-55ab0381b613.xml, iscsiop/MSiSCSI_BootInformation, _MSiSCSI_BootInformation, MSiSCSI_BootInformation, PMSiSCSI_BootInformation structure pointer [Storage Devices], MSiSCSI_BootInformation structure [Storage Devices], PMSiSCSI_BootInformation, *PMSiSCSI_BootInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	MSiSCSI_BootInformation
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_BootInformation, MSiSCSI_BootInformation
+req.typenames: MSiSCSI_BootInformation, *PMSiSCSI_BootInformation
 ---
 
 # _MSiSCSI_BootInformation structure

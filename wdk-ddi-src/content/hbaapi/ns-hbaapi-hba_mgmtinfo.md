@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], HBA_MgmtInfo, HBA_MGMTINFO structure [Storage Devices], *PHBA_MGMTINFO, hbaapi/PHBA_MGMTINFO, HBA_MGMTINFO, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, hbaapi/HBA_MgmtInfo, storage.hba_mgmtinfo
+ms.keywords: HBA_MGMTINFO, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, hbaapi/PHBA_MGMTINFO, HBA_MgmtInfo, storage.hba_mgmtinfo, PHBA_MGMTINFO, HBA_MgmtInfo structure [Storage Devices], *PHBA_MGMTINFO, HBA_MGMTINFO structure [Storage Devices], hbaapi/HBA_MgmtInfo, PHBA_MGMTINFO structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_MGMTINFO
 product: Windows
 targetos: Windows
-req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
+req.typenames: "*PHBA_MGMTINFO, HBA_MGMTINFO"
 ---
 
 # HBA_MgmtInfo structure

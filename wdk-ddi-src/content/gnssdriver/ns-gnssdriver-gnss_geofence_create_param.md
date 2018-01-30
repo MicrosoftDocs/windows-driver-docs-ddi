@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: CA517EF6-41EE-4DB0-B628-35902BA34FFB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM, sensors.gnss_geofence_create_param, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], GNSS_GEOFENCE_CREATE_PARAM
+ms.keywords: sensors.gnss_geofence_create_param, *PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM, gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], GNSS_GEOFENCE_CREATE_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_GEOFENCE_CREATE_PARAM
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM
+req.typenames: "*PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM"
 ---
 
 # GNSS_GEOFENCE_CREATE_PARAM structure

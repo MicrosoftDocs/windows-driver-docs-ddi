@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, SetImagePathWide method [Windows Debugging], dbgeng/IDebugSymbols3::SetImagePathWide, SetImagePathWide, debugger.setimagepathwide, SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::SetImagePathWide, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, debugger.setimagepathwide, IDebugSymbols3::SetImagePathWide, IDebugSymbols3, dbgeng/IDebugSymbols3::SetImagePathWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.SetImagePathWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::SetImagePathWide method

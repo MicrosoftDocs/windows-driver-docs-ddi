@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_POSITION_INFORMATION
-title: _FILE_POSITION_INFORMATION
+title: "_FILE_POSITION_INFORMATION"
 author: windows-driver-content
 description: The FILE_POSITION_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_position_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PFILE_POSITION_INFORMATION, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_POSITION_INFORMATION, kernel.file_position_information, FILE_POSITION_INFORMATION, wdm/FILE_POSITION_INFORMATION
+ms.keywords: wdm/PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_position_information, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, _FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	FILE_POSITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION
+req.typenames: "*PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

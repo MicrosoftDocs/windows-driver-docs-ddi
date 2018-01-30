@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e56d444-4248-4f00-b712-cbb3a4869302
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceGetFileObject, wdf.wdfdevicegetfileobject, kmdf.wdfdevicegetfileobject, WdfDeviceGetFileObject method, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, PFN_WDFDEVICEGETFILEOBJECT, WdfDeviceGetFileObject
+ms.keywords: PFN_WDFDEVICEGETFILEOBJECT, WdfDeviceGetFileObject method, wdf.wdfdevicegetfileobject, WdfDeviceGetFileObject, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, kmdf.wdfdevicegetfileobject, wdfdevice/WdfDeviceGetFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceGetFileObject
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:sercx._SERCX_STATUS
-title: _SERCX_STATUS
+title: "_SERCX_STATUS"
 author: windows-driver-content
 description: The SERCX_STATUS enumeration indicates the status of a serial receive or transmit operation.
 old-location: serports\sercx_status.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxStatusTimeout, serports.sercx_status, *PSERCX_STATUS, SerCxStatusTimeout, SerCxStatusCancelled, 1/SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], 1/SerCxStatusSuccess, SERCX_STATUS, SerCxStatusSuccess, 1/SerCxStatusCancelled, _SERCX_STATUS
+ms.keywords: SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], 1/SerCxStatusSuccess, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, *PSERCX_STATUS, SerCxStatusCancelled, 1/SERCX_STATUS, 1/SerCxStatusTimeout, 1/SerCxStatusCancelled, serports.sercx_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX_STATUS
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,9 @@ The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 

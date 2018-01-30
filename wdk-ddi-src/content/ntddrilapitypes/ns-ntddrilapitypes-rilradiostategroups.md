@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 901fe9e5-4b3c-4f31-9bf0-a4a5bd66bd19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRADIOSTATEGROUPS, netvista.rilradiostategroups, RILRADIOSTATEGROUPS
+ms.keywords: ntddrilapitypes/RILRADIOSTATEGROUPS, *LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRADIOSTATEGROUPS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS
+req.typenames: RILRADIOSTATEGROUPS, *LPRILRADIOSTATEGROUPS
 ---
 
 # RILRADIOSTATEGROUPS structure

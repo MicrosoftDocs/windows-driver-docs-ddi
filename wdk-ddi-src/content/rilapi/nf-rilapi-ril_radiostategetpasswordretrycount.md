@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 59394a14-e3f0-450a-a96c-df0f6ee51768
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_RadioStateGetPasswordRetryCount, RIL_RadioStateGetPasswordRetryCount method [Network Drivers Starting with Windows Vista], RIL_RadioStateGetPasswordRetryCount, netvista.ril_radiostategetpasswordretrycount
+ms.keywords: netvista.ril_radiostategetpasswordretrycount, RIL_RadioStateGetPasswordRetryCount, rilapi/RIL_RadioStateGetPasswordRetryCount, RIL_RadioStateGetPasswordRetryCount method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_RadioStateGetPasswordRetryCount
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ac87e6e-bc24-45fe-b0c5-d253dd03da16
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags, DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, _D3DKM_TRANSPARENTBLTFLAGS
+ms.keywords: D3DKM_TRANSPARENTBLTFLAGS, d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, display.d3dkm_transparentbltflags, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], _D3DKM_TRANSPARENTBLTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2B5492CD-B24D-44B5-BDAE-0B43A1AF1FCA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory, MmCopyMemory
+ms.keywords: MmCopyMemory, ntddk/MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	MmCopyMemory
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # MmCopyMemory function

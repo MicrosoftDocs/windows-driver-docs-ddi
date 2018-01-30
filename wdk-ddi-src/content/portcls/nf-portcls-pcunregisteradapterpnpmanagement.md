@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51BBE9F6-7661-45A1-8416-9AAA307FCA10
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement function [Audio Devices], audio.pcunregisteradapterpnpmanagement
+ms.keywords: audio.pcunregisteradapterpnpmanagement, PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement function [Audio Devices], portcls/PcUnregisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ PORTCLASSAPI NTSTATUS NTAPI PcUnregisterAdapterPnpManagement(
 
 ### -param DeviceObject [in]
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
@@ -96,9 +96,9 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">PcRegisterAdapterPnpManagement</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">PcRegisterAdapterPnpManagement</a>
 
  
 

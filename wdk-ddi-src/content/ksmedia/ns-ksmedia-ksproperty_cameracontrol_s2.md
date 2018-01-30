@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b0ea25c0-5b10-403f-8c61-7840fe062596
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml, ksmedia/KSPROPERTY_CAMERACONTROL_S2, stream.ksproperty_cameracontrol_s2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2
+ms.keywords: KSPROPERTY_CAMERACONTROL_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_S2, ksmedia/KSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml, stream.ksproperty_cameracontrol_s2, *PKSPROPERTY_CAMERACONTROL_S2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CAMERACONTROL_S2
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2
+req.typenames: "*PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2"
 ---
 
 # KSPROPERTY_CAMERACONTROL_S2 structure

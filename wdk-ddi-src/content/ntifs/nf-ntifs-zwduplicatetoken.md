@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, ZwDuplicateToken function [Kernel-Mode Driver Architecture], NtDuplicateToken, ZwDuplicateToken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken, kernel.zwduplicatetoken
+ms.keywords: ntifs/NtDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, ntifs/ZwDuplicateToken, ZwDuplicateToken, NtDuplicateToken, kernel.zwduplicatetoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwDuplicateToken
 -	NtDuplicateToken
 product: Windows
@@ -480,9 +480,9 @@ When you have finished using the new token, call the <a href="..\wdm\nf-wdm-zwcl
 
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 

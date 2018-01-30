@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DevQueryPrintEx function [Print Devices], winddiui/DevQueryPrintEx, DevQueryPrintEx, print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml
+ms.keywords: DevQueryPrintEx function [Print Devices], winddiui/DevQueryPrintEx, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, print.devqueryprintex, DevQueryPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WinSpool.drv
-apiname: 
+apiname:
 -	DevQueryPrintEx
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
-title: _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+title: "_NDIS_PROTOCOL_DRIVER_CHARACTERISTICS"
 author: windows-driver-content
 description: To specify its driver characteristics, a protocol driver initializes an NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure and passes it to NDIS.
 old-location: netvista\ndis_protocol_driver_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db64c160-9db6-4b23-af14-e64acdb9ef57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, netvista.ndis_protocol_driver_characteristics, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, protocol_structures_ref_57fab3c7-f838-4a3f-a818-04d26e38cdc0.xml, ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+ms.keywords: "*PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, netvista.ndis_protocol_driver_characteristics, protocol_structures_ref_57fab3c7-f838-4a3f-a818-04d26e38cdc0.xml, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+req.typenames: "*PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS"
 ---
 
 # _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure
@@ -101,6 +101,25 @@ To indicate the version of the <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> struc
      <b>Revision</b> member to one of the following values:
 
 
+
+
+#### NDIS_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_2
+
+Added the 
+        <b>DirectOidRequestCompleteHandler</b> member for NDIS 6.1.
+
+Set the 
+        <b>Size</b> member to
+        NDIS_SIZEOF_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_2.
+
+
+#### NDIS_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_1
+
+Original version for NDIS 6.0.
+
+Set the 
+        <b>Size</b> member to
+        NDIS_SIZEOF_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_1.
 
 
 ### -field MajorNdisVersion
@@ -324,25 +343,6 @@ The entry point of the caller's
       <b>NULL</b> if the protocol driver does not support the direct OID request interface.
 
 
-##### - Header.NDIS_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_1
-
-Original version for NDIS 6.0.
-
-Set the 
-        <b>Size</b> member to
-        NDIS_SIZEOF_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_1.
-
-
-##### - Header.NDIS_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_2
-
-Added the 
-        <b>DirectOidRequestCompleteHandler</b> member for NDIS 6.1.
-
-Set the 
-        <b>Size</b> member to
-        NDIS_SIZEOF_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_2.
-
-
 ## -remarks
 
 
@@ -358,36 +358,36 @@ A protocol driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
+   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
+   ProtocolSendNetBufferListsComplete</i></mshelp:link>
+
+<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
+   ProtocolDirectOidRequestComplete</i></mshelp:link>
 
 <mshelp:link keywords="netvista.protocolcloseadaptercompleteex" tabindex="0"><i>
    ProtocolCloseAdapterCompleteEx</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_uninstall.md">ProtocolUninstall</a>
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-<mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
-   ProtocolReceiveNetBufferLists</i></mshelp:link>
-
-<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
-   ProtocolSendNetBufferListsComplete</i></mshelp:link>
-
 <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
-<mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
-   ProtocolDirectOidRequestComplete</i></mshelp:link>
-
-<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+<mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
+   ProtocolReceiveNetBufferLists</i></mshelp:link>
 
  
 

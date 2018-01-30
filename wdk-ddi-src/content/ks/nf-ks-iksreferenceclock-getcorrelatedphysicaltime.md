@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b80f6e20-410d-4984-8535-782a84c6af7e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedPhysicalTime method, IKsReferenceClock::GetCorrelatedPhysicalTime, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock, stream.iksreferenceclock_getcorrelatedphysicaltime, GetCorrelatedPhysicalTime, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml
+ms.keywords: avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedPhysicalTime method, IKsReferenceClock::GetCorrelatedPhysicalTime, IKsReferenceClock, GetCorrelatedPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, GetCorrelatedPhysicalTime method [Streaming Media Devices], ks/IKsReferenceClock::GetCorrelatedPhysicalTime, GetCorrelatedPhysicalTime, stream.iksreferenceclock_getcorrelatedphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsReferenceClock.GetCorrelatedPhysicalTime
 product: Windows
 targetos: Windows

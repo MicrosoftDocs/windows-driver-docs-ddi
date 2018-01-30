@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b1ff981-7f87-4a47-81a3-3e323459c333
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedAnd function [Kernel-Mode Driver Architecture], kernel.interlockedand, wdm/InterlockedAnd, InterlockedAnd, k102_839df216-b391-436b-9e33-d60dfbb5dbe9.xml
+ms.keywords: wdm/InterlockedAnd, k102_839df216-b391-436b-9e33-d60dfbb5dbe9.xml, InterlockedAnd, kernel.interlockedand, InterlockedAnd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	InterlockedAnd
 product: Windows
 targetos: Windows
@@ -97,9 +97,9 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedxor.md">InterlockedXor</a>
-
 <a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
+
+<a href="..\wdm\nf-wdm-interlockedxor.md">InterlockedXor</a>
 
  
 

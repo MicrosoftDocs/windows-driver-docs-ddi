@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._ENDPOINT_RESET
-title: _ENDPOINT_RESET
+title: "_ENDPOINT_RESET"
 author: windows-driver-content
 description: Describes information required to reset an endpoint. This structure is passed by UCX in the EVT_UCX_ENDPOINT_RESET callback function.
 old-location: buses\_endpoint_reset.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 99F65058-8718-4D2A-9C7F-D442BA8DA527
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxendpoint/P_ENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], *PENDPOINT_RESET, P_ENDPOINT_RESET, ucxendpoint/_ENDPOINT_RESET, _ENDPOINT_RESET, ENDPOINT_RESET structure [Buses], buses._endpoint_reset, ENDPOINT_RESET
+ms.keywords: ucxendpoint/_ENDPOINT_RESET, ucxendpoint/P_ENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], buses._endpoint_reset, ENDPOINT_RESET structure [Buses], *PENDPOINT_RESET, ENDPOINT_RESET, _ENDPOINT_RESET, P_ENDPOINT_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	ENDPOINT_RESET
 product: Windows
 targetos: Windows
-req.typenames: ENDPOINT_RESET, *PENDPOINT_RESET
+req.typenames: "*PENDPOINT_RESET, ENDPOINT_RESET"
 req.product: Windows 10 or later.
 ---
 

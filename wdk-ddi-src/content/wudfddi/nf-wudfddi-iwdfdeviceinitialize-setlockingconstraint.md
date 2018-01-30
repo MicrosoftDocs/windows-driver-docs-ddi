@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetLockingConstraint method, SetLockingConstraint method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_setlockingconstraint, IWDFDeviceInitialize, SetLockingConstraint, IWDFDeviceInitialize interface, SetLockingConstraint method, wdf.iwdfdeviceinitialize_setlockingconstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, IWDFDeviceInitialize::SetLockingConstraint
+ms.keywords: SetLockingConstraint, wdf.iwdfdeviceinitialize_setlockingconstraint, IWDFDeviceInitialize, SetLockingConstraint method, IWDFDeviceInitialize interface, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint method, IWDFDeviceInitialize::SetLockingConstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, umdf.iwdfdeviceinitialize_setlockingconstraint, IWDFDeviceInitialize interface, SetLockingConstraint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDeviceInitialize.SetLockingConstraint
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

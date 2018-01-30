@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 082a63d5-5ba5-4cd3-aea3-0184317e1e96
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, KsCancelIo function [Streaming Media Devices], KsCancelIo, ks/KsCancelIo, stream.kscancelio
+ms.keywords: KsCancelIo function [Streaming Media Devices], ks/KsCancelIo, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, stream.kscancelio, KsCancelIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCancelIo
 product: Windows
 targetos: Windows

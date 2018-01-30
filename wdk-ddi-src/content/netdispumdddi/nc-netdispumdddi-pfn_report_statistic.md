@@ -40,7 +40,7 @@ apiname:
 -	ReportStatistic
 product: Windows
 targetos: Windows
-req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
+req.typenames: NDK_SRQ_DISPATCH
 ---
 
 # PFN_REPORT_STATISTIC callback

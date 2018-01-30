@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetState method, IWDFRemoteTarget interface, GetState method, IWDFRemoteTarget::GetState, wudfddi/IWDFRemoteTarget::GetState, IWDFRemoteTarget, umdf.iwdfremotetarget_getstate, wdf.iwdfremotetarget_getstate, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, GetState, IWDFRemoteTarget interface, GetState method
+ms.keywords: wdf.iwdfremotetarget_getstate, IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, umdf.iwdfremotetarget_getstate, GetState method, GetState, wudfddi/IWDFRemoteTarget::GetState, IWDFRemoteTarget, GetState method, IWDFRemoteTarget interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.GetState
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

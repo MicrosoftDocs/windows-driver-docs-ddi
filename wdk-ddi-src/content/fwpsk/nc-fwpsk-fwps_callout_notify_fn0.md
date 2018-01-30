@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Fwpsk.h
-apiname: 
+apiname:
 -	notifyFn0
 product: Windows
 targetos: Windows
@@ -83,6 +83,23 @@ A value that indicates the type of notification that the filter engine is sendin
 
 
 
+#### FWPS_CALLOUT_NOTIFY_ADD_FILTER
+
+A filter is being added to the filter engine that specifies the callout for the filter's
+       action.
+
+
+#### FWPS_CALLOUT_NOTIFY_DELETE_FILTER
+
+A filter is being deleted from the filter engine that specifies the callout for the filter's
+       action.
+
+
+#### FWPS_CALLOUT_NOTIFY_TYPE_MAX
+
+A maximum value for testing purposes.
+
+
 ### -param *filterKey
 
 
@@ -99,23 +116,6 @@ A value that indicates the type of notification that the filter engine is sendin
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be <b>NULL</b> if the 
      <i>notifyType</i> parameter is set to FWPS_CALLOUT_NOTIFY_DELETE_FILTER. For more information, see Remarks.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_TYPE_MAX
-
-A maximum value for testing purposes.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_DELETE_FILTER
-
-A filter is being deleted from the filter engine that specifies the callout for the filter's
-       action.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_ADD_FILTER
-
-A filter is being added to the filter engine that specifies the callout for the filter's
-       action.
 
 
 #### - filter [in]
@@ -219,19 +219,19 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
 
  
 

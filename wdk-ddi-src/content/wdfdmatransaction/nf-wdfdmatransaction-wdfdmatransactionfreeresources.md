@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionFreeResources, kmdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources method, wdfdmatransaction/WdfDmaTransactionFreeResources, PFN_WDFDMATRANSACTIONFREERESOURCES, wdf.wdfdmatransactionfreeresources
+ms.keywords: wdfdmatransaction/WdfDmaTransactionFreeResources, kmdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources, WdfDmaTransactionFreeResources method, wdf.wdfdmatransactionfreeresources, PFN_WDFDMATRANSACTIONFREERESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaTransactionFreeResources
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

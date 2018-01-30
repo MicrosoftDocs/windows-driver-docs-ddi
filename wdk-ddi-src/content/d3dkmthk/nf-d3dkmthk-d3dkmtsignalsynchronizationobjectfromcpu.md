@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu, D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices]
+ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu, d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

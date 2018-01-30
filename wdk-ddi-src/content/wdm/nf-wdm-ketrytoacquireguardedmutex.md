@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5fa704ec-5068-42e9-8d52-2f775fd0e5c9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeTryToAcquireGuardedMutex routine [Kernel-Mode Driver Architecture], k105_4761d5a7-fc37-45de-a35e-7da9a99258b6.xml, kernel.ketrytoacquireguardedmutex, KeTryToAcquireGuardedMutex, wdm/KeTryToAcquireGuardedMutex
+ms.keywords: wdm/KeTryToAcquireGuardedMutex, kernel.ketrytoacquireguardedmutex, KeTryToAcquireGuardedMutex, k105_4761d5a7-fc37-45de-a35e-7da9a99258b6.xml, KeTryToAcquireGuardedMutex routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeTryToAcquireGuardedMutex
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 999ee9cc-13c7-4e6b-a294-7e7d28272384
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], kernel.ioremoveshareaccess, k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, wdm/IoRemoveShareAccess, IoRemoveShareAccess
+ms.keywords: k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, wdm/IoRemoveShareAccess, IoRemoveShareAccess, kernel.ioremoveshareaccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoRemoveShareAccess
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ Callers of <b>IoRemoveShareAccess</b> must be running at IRQL = PASSIVE_LEVEL an
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
 
  
 

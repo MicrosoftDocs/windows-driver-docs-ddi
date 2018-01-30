@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMdlWriteComplete, ifsk.ccmdlwritecomplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, CcMdlWriteComplete routine [Installable File System Drivers], ntifs/CcMdlWriteComplete
+ms.keywords: CcMdlWriteComplete, ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, CcMdlWriteComplete routine [Installable File System Drivers], ifsk.ccmdlwritecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcMdlWriteComplete
 product: Windows
 targetos: Windows

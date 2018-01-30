@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_CONTAINER_INFORMATION_CLASS
-title: _IO_CONTAINER_INFORMATION_CLASS
+title: "_IO_CONTAINER_INFORMATION_CLASS"
 author: windows-driver-content
 description: The IO_CONTAINER_INFORMATION_CLASS enumeration contains constants that indicate the classes of system information that a kernel-mode driver can request.
 old-location: kernel\io_container_information_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 359ed0d2-91b1-46d1-a358-babe7cb993fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IO_CONTAINER_INFORMATION_CLASS, wdm/IoSessionStateInformation, IoSessionStateInformation, wdm/IoMaxContainerInformationClass, IoMaxContainerInformationClass, _IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, kernel.io_container_information_class, IO_CONTAINER_INFORMATION_CLASS
+ms.keywords: IoMaxContainerInformationClass, kernel.io_container_information_class, IO_CONTAINER_INFORMATION_CLASS, sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, IoSessionStateInformation, _IO_CONTAINER_INFORMATION_CLASS, wdm/IoSessionStateInformation, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/IO_CONTAINER_INFORMATION_CLASS, wdm/IoMaxContainerInformationClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_CONTAINER_INFORMATION_CLASS
 product: Windows
 targetos: Windows

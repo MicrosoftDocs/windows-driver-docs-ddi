@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d11c3414-86c8-4b68-829e-4523519c5299
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal
+ms.keywords: k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlPrefetchMemoryNonTemporal
 product: Windows
 targetos: Windows

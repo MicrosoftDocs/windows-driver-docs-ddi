@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT
-title: _WWAN_SET_CONTEXT
+title: "_WWAN_SET_CONTEXT"
 author: windows-driver-content
 description: The WWAN_SET_CONTEXT structure represents a provisioned context with a network provider identification that is supported by the MB device.
 old-location: netvista\wwan_set_context.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00772a37-ef1b-446b-b7bd-1a6aa27d1dad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PWWAN_SET_CONTEXT, WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, _WWAN_SET_CONTEXT, netvista.wwan_set_context, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], wwan/WWAN_SET_CONTEXT
+ms.keywords: PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SET_CONTEXT, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, wwan/PWWAN_SET_CONTEXT, netvista.wwan_set_context, *PWWAN_SET_CONTEXT, wwan/WWAN_SET_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SET_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SET_CONTEXT, WWAN_SET_CONTEXT
+req.typenames: WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT
 req.product: Windows 10 or later.
 ---
 

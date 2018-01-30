@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_ENABLE
-title: _USBDEVICE_ENABLE
+title: "_USBDEVICE_ENABLE"
 author: windows-driver-content
 description: Contains parameters for a request to enable the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_ENABLE callback function.
 old-location: buses\_usbdevice_enable.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._usbdevice_enable, ucxusbdevice/_USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], USBDEVICE_ENABLE, _USBDEVICE_ENABLE, P_USBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], *PUSBDEVICE_ENABLE
+ms.keywords: buses._usbdevice_enable, USBDEVICE_ENABLE structure [Buses], P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, _USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	USBDEVICE_ENABLE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBDEVICE_ENABLE, USBDEVICE_ENABLE
+req.typenames: "*PUSBDEVICE_ENABLE, USBDEVICE_ENABLE"
 req.product: Windows 10 or later.
 ---
 

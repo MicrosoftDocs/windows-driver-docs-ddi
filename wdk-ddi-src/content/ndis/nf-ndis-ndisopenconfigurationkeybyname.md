@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ce7f40f-28f1-4303-9f7a-24ff1213bab1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, NdisOpenConfigurationKeyByName, netvista.ndisopenconfigurationkeybyname
+ms.keywords: NdisOpenConfigurationKeyByName, netvista.ndisopenconfigurationkeybyname, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisOpenConfigurationKeyByName
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisOpenConfigurationKeyByName function
@@ -82,6 +82,17 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+#### NDIS_STATUS_SUCCESS
+
+NDIS has initialized accessed to the subkey specified by 
+       <i>SubKeyName</i> .
+
+
+#### NDIS_STATUS_FAILURE
+
+The key could not be opened.
+
+
 ### -param ConfigurationHandle [in]
 
 The handle to a registry key for which a subkey should be opened. Typically, 
@@ -103,17 +114,6 @@ A pointer to an NDIS_STRING type containing a caller-supplied, counted string in
 
 A pointer to a caller-supplied variable in which this function returns a handle to the opened
      subkey if this call is successful.
-
-
-##### - Status.NDIS_STATUS_FAILURE
-
-The key could not be opened.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-NDIS has initialized accessed to the subkey specified by 
-       <i>SubKeyName</i> .
 
 
 ## -returns
@@ -154,24 +154,24 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
-   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
+   NdisOpenConfigurationKeyByIndex</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
  
 

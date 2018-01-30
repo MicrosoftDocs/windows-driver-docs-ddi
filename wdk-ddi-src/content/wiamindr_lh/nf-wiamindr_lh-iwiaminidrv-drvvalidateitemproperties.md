@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 12052128-9ea7-41cd-bb75-be7175e26c12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvValidateItemProperties, IWiaMiniDrv::drvValidateItemProperties, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvValidateItemProperties method [Imaging Devices], image.iwiaminidrv_drvvalidateitemproperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
+ms.keywords: drvValidateItemProperties method [Imaging Devices], image.iwiaminidrv_drvvalidateitemproperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvValidateItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvValidateItemProperties
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -98,19 +98,9 @@ HRESULT drvValidateItemProperties(
 
 
 
-#### - plDevErrVal [out]
+#### - pWiasContext [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
-#### - pPropSpec [in]
-
-Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
-
-
-#### - nPropSpec [in]
-
-Indicates the number of items n the <i>pPropSpec</i> array.
+Pointer to a WIA item context.
 
 
 #### - lFlags [in]
@@ -118,9 +108,19 @@ Indicates the number of items n the <i>pPropSpec</i> array.
 Is reserved. Set to zero. 
 
 
-#### - pWiasContext [in]
+#### - nPropSpec [in]
 
-Pointer to a WIA item context.
+Indicates the number of items n the <i>pPropSpec</i> array.
+
+
+#### - pPropSpec [in]
+
+Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -134,13 +134,13 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasgetitemtype.md">wiasGetItemType</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

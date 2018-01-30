@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey
+ms.keywords: ntifs/FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], ifsk.fsrtlfastunlockallbykey, FsRtlFastUnlockAllByKey, fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlFastUnlockAllByKey
 product: Windows
 targetos: Windows
@@ -112,9 +112,9 @@ After releasing the byte-range locks, <b>FsRtlFastUnlockAllByKey</b> completes a
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
  
 

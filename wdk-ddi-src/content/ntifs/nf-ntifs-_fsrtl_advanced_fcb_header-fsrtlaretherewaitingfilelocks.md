@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ntifs/FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks, ifsk.fsrtlaretherewaitingfilelocks
+ms.keywords: FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlAreThereWaitingFileLocks
 product: Windows
 targetos: Windows

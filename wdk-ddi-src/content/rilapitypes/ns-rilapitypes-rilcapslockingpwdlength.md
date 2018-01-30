@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ab6ea03-cfe6-4679-91ff-e52aae7a5200
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcapslockingpwdlength_2, RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCAPSLOCKINGPWDLENGTH
+ms.keywords: netvista.rilcapslockingpwdlength_2, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH, rilapitypes/RILCAPSLOCKINGPWDLENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCAPSLOCKINGPWDLENGTH
 product: Windows
 targetos: Windows

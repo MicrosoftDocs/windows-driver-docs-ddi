@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1b8554f-8d6b-4c2e-b6b8-fcbfc97f5dd9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_57b46d39-5b2c-4d58-9daa-e1460168fe55.xml, _D3DKMT_DESTROYOVERLAY, d3dkmthk/D3DKMT_DESTROYOVERLAY, display.d3dkmt_destroyoverlay, D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY structure [Display Devices]
+ms.keywords: "_D3DKMT_DESTROYOVERLAY, display.d3dkmt_destroyoverlay, d3dkmthk/D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY structure [Display Devices], OpenGL_Structs_57b46d39-5b2c-4d58-9daa-e1460168fe55.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

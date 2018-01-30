@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlIsEcpFromUserMode, ifsk.fsrtlisecpfromusermode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], FsRtlIsEcpFromUserMode, fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml
+ms.keywords: ifsk.fsrtlisecpfromusermode, ntifs/FsRtlIsEcpFromUserMode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, FsRtlIsEcpFromUserMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlIsEcpFromUserMode
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, IDebugSymbols4, OutputSymbolByInlineContext method [Windows Debugging], OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4::OutputSymbolByInlineContext
+ms.keywords: debugger.idebugsymbols4_outputsymbolbyinlinecontext, OutputSymbolByInlineContext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4::OutputSymbolByInlineContext, IDebugSymbols4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols4.OutputSymbolByInlineContext
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols4::OutputSymbolByInlineContext method

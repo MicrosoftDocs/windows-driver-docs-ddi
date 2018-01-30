@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9cf4286b-1ff7-4113-a2dc-d8813c633dd6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortFlushDma routine [Storage Devices], storage.scsiportflushdma, ScsiPortFlushDma, scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma
+ms.keywords: scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, storage.scsiportflushdma, srb/ScsiPortFlushDma, ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortFlushDma
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

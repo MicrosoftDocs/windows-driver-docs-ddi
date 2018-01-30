@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a343e55-9150-4411-bf37-f410b94ca0aa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALL_MAX, ntddrilapitypes/RILCALLINFOMULTIPARTY, ntddrilapitypes/RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY, netvista.rilcallinfomultiparty, ntddrilapitypes/RIL_CALL_MAX, RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilcallinfomultiparty, RILCALLINFOMULTIPARTY, RIL_CALL_MAX, ntddrilapitypes/RIL_CALL_MAX, ntddrilapitypes/RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLINFOMULTIPARTY, RIL_CALL_MULTIPARTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLINFOMULTIPARTY
 product: Windows
 targetos: Windows

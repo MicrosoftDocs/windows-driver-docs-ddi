@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 545a5014-aa07-49ee-92b7-2ae95f4ce785
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount, netvista.ndisgroupmaxprocessorcount, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml
+ms.keywords: ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisGroupMaxProcessorCount, netvista.ndisgroupmaxprocessorcount, NdisGroupMaxProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGroupMaxProcessorCount
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGroupMaxProcessorCount function
@@ -104,10 +104,10 @@ An NDIS driver might call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
 <mshelp:link keywords="netvista.ndisgroupactiveprocessorcount" tabindex="0"><b>
    NdisGroupActiveProcessorCount</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
  
 

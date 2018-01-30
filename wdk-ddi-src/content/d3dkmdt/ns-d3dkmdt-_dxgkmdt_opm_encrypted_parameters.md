@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43aa91cb-584e-47b7-a6d4-2e95adf24a28
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure [Display Devices], display.dxgkmdt_opm_encrypted_parameters, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DmStructs_760ebc6b-c03b-468d-b4b0-29faabd65cd1.xml, _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/DXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS structure pointer [Display Devices]"
+ms.keywords: "*PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS structure pointer [Display Devices], d3dkmdt/DXGKMDT_OPM_ENCRYPTED_PARAMETERS, display.dxgkmdt_opm_encrypted_parameters, d3dkmdt/PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure [Display Devices], DmStructs_760ebc6b-c03b-468d-b4b0-29faabd65cd1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

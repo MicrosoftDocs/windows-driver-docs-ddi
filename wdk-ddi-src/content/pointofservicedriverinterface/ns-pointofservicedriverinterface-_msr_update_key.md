@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_UPDATE_KEY
-title: _MSR_UPDATE_KEY
+title: "_MSR_UPDATE_KEY"
 author: windows-driver-content
 description: This structure contains the information necessary to set a new encryption key.
 old-location: pos\msr_update_key.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.msr_update_key, pointofservicedriverinterface/MSR_UPDATE_KEY, *PMSR_UPDATE_KEY, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, pointofservicedriverinterface/PMSR_UPDATE_KEY, MSR_UPDATE_KEY structure, _MSR_UPDATE_KEY, MSR_UPDATE_KEY
+ms.keywords: pointofservicedriverinterface/PMSR_UPDATE_KEY, _MSR_UPDATE_KEY, pos.msr_update_key, *PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, PMSR_UPDATE_KEY, MSR_UPDATE_KEY structure, pointofservicedriverinterface/MSR_UPDATE_KEY, MSR_UPDATE_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	MSR_UPDATE_KEY
 product: Windows
 targetos: Windows
-req.typenames: *PMSR_UPDATE_KEY, MSR_UPDATE_KEY
+req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
 ---
 
 # _MSR_UPDATE_KEY structure

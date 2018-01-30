@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a0bfc9bf-777e-4da4-9414-856ec650375d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_SURFACE, _DXVAHDDDI_SURFACE, d3dumddi/DXVAHDDDI_SURFACE, display.dxvahdddi_surface, DXVAHDDDI_SURFACE structure [Display Devices], DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml
+ms.keywords: "_DXVAHDDDI_SURFACE, DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml, DXVAHDDDI_SURFACE structure [Display Devices], DXVAHDDDI_SURFACE, d3dumddi/DXVAHDDDI_SURFACE, display.dxvahdddi_surface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,11 @@ DXVAHDDDI_SURFACE structures are used to describe surfaces in members of the <a 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
 
  
 

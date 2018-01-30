@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 51c521fc-e89c-49c9-8110-de31af3bed83
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters2::GetNumberRegisters, debugger.getnumberregisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, GetNumberRegisters, GetNumberRegisters method [Windows Debugging], dbgeng/IDebugRegisters::GetNumberRegisters, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters::GetNumberRegisters, IDebugRegisters2
+ms.keywords: IDebugRegisters::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetNumberRegisters method, GetNumberRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, GetNumberRegisters, dbgeng/IDebugRegisters2::GetNumberRegisters, IDebugRegisters interface [Windows Debugging], GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, debugger.getnumberregisters, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetNumberRegisters
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetNumberRegisters method

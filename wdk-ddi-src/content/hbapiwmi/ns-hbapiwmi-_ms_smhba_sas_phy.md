@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_SAS_PHY
-title: _MS_SMHBA_SAS_PHY
+title: "_MS_SMHBA_SAS_PHY"
 author: windows-driver-content
 description: The MS_SMHBA_SAS_PHY structure is used to report the SAS physical port information.
 old-location: storage\ms_smhba_sas_phy.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9bbf2f63-4479-47ee-a014-78b13deccb4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/MS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, MS_SMHBA_SAS_PHY structure [Storage Devices], PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml, _MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY
+ms.keywords: PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, *PMS_SMHBA_SAS_PHY, structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml, PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], MS_SMHBA_SAS_PHY structure [Storage Devices], hbapiwmi/MS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, _MS_SMHBA_SAS_PHY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MS_SMHBA_SAS_PHY
 product: Windows
 targetos: Windows
-req.typenames: *PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY
+req.typenames: MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY
 ---
 
 # _MS_SMHBA_SAS_PHY structure

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, bthddi/_BRB_SCO_OPEN_CHANNEL, bltooth._brb_sco_open_channel"
+ms.keywords: bthddi/_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, bltooth._brb_sco_open_channel, _BRB_SCO_OPEN_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -346,8 +346,8 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> for which to
+     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
+     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 
@@ -442,19 +442,19 @@ The profile driver specifies whether the connection should be accepted by storin
 
 ## -see-also
 
-<a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
-
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
+<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
 
  
 

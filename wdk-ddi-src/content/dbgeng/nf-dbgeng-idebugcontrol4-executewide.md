@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::ExecuteWide, IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4, IDebugControl4::ExecuteWide, ExecuteWide, ExecuteWide method [Windows Debugging], debugger.executewide, ExecuteWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface, debugger.executewide, IDebugControl4, ExecuteWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.ExecuteWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::ExecuteWide method

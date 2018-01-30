@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfRegisterProvider, netvista.ndisifregisterprovider, ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisifregisterprovider, ndis/NdisIfRegisterProvider, NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIfRegisterProvider
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfRegisterProvider function
@@ -198,14 +198,14 @@ A component that is no longer an interface provider can call the
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
 <mshelp:link keywords="netvista.ndis_if_provider_characteristics" tabindex="0"><b>
    NDIS_IF_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
 <a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
-
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
  
 

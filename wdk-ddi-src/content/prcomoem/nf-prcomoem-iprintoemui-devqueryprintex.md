@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1bc9be3-53ec-4506-a409-94a65d7136e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemui_devqueryprintex, DevQueryPrintEx method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DevQueryPrintEx, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, IPrintOemUI::DevQueryPrintEx, DevQueryPrintEx, IPrintOemUI interface [Print Devices], DevQueryPrintEx method, IPrintOemUI, DevQueryPrintEx method [Print Devices]
+ms.keywords: IPrintOemUI::DevQueryPrintEx, IPrintOemUI, DevQueryPrintEx method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DevQueryPrintEx, DevQueryPrintEx method [Print Devices], IPrintOemUI interface [Print Devices], DevQueryPrintEx method, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, DevQueryPrintEx, print.iprintoemui_devqueryprintex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.DevQueryPrintEx
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

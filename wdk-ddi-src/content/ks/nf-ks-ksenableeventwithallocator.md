@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec017e5c-1c26-426d-935f-7a554d3db915
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsEnableEventWithAllocator, KsEnableEventWithAllocator, ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, KsEnableEventWithAllocator function [Streaming Media Devices], stream.ksenableeventwithallocator
+ms.keywords: KsEnableEventWithAllocator, KsEnableEventWithAllocator function [Streaming Media Devices], ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, ks/KsEnableEventWithAllocator, stream.ksenableeventwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsEnableEventWithAllocator
 product: Windows
 targetos: Windows

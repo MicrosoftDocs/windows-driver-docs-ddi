@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice_getpnpstate, IWDFDevice, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, GetPnpState method, GetPnpState method, IWDFDevice interface, wudfddi/IWDFDevice::GetPnpState, wdf.iwdfdevice_getpnpstate, GetPnpState, IWDFDevice interface, GetPnpState method, IWDFDevice::GetPnpState
+ms.keywords: GetPnpState method, IWDFDevice interface, GetPnpState method, umdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState, IWDFDevice, GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, GetPnpState method, IWDFDevice interface, wdf.iwdfdevice_getpnpstate, IWDFDevice::GetPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.GetPnpState
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -123,9 +123,9 @@ The PnP property is turned on.
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 

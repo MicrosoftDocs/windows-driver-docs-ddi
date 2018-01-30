@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exreleasespinlockexclusive_, ExReleaseSpinLockExclusive, wdm/ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ExReleaseSpinLockExclusive, kernel.exreleasespinlockexclusive_, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], ExReleaseSpinLockExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks.)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	ExReleaseSpinLockExclusive
 product: Windows
 targetos: Windows

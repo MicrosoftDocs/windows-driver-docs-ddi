@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2fe73705-4b44-4c75-8677-3325b6be9250
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetFilterFromInstance, ifsk.fltgetfilterfrominstance, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, fltkernel/FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers]
+ms.keywords: ifsk.fltgetfilterfrominstance, fltkernel/FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], FltGetFilterFromInstance, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetFilterFromInstance
 product: Windows
 targetos: Windows
@@ -117,13 +117,13 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
  
 

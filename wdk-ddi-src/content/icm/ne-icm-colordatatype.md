@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PCOLORDATATYPE, COLOR_WORD, COLOR_FLOAT, COLOR_BYTE, COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, COLOR_FLOAT16, icm/COLORDATATYPE, icm/COLOR_WORD, icm/COLOR_BYTE, COLORDATATYPE, icm/COLOR_FLOAT, COLOR_S2DOT13FIXED, print.colordatatype, icm/COLOR_S2DOT13FIXED, icm/COLOR_10b_R10G10B10A2, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, COLOR_10b_R10G10B10A2_XR, COLORDATATYPE enumeration [Print Devices], icm/COLOR_FLOAT16
+ms.keywords: print.colordatatype, icm/COLOR_10b_R10G10B10A2_XR, icm/COLOR_BYTE, icm/COLOR_S2DOT13FIXED, icm/COLOR_FLOAT, COLOR_WORD, COLOR_FLOAT, icm/COLOR_WORD, COLOR_10b_R10G10B10A2_XR, COLOR_10b_R10G10B10A2, COLOR_FLOAT16, COLORDATATYPE enumeration [Print Devices], COLOR_BYTE, COLORDATATYPE, icm/COLOR_FLOAT16, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, icm/COLOR_10b_R10G10B10A2, COLOR_S2DOT13FIXED, icm/COLORDATATYPE, *PCOLORDATATYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	icm.h
-apiname: 
+apiname:
 -	COLORDATATYPE
 product: Windows
 targetos: Windows

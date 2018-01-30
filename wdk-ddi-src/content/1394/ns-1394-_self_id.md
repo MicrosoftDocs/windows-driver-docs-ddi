@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SELF_ID
-title: _SELF_ID
+title: "_SELF_ID"
 author: windows-driver-content
 description: The SELF_ID structure contains a raw packet zero self-ID packet. See the IEEE 1394 Trade Association specification website for details.
 old-location: ieee\self_id.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PSELF_ID, PSELF_ID, 1394/PSELF_ID, _SELF_ID, SELF_ID structure [Buses], 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID structure pointer [Buses], SELF_ID, 1394/SELF_ID, IEEE.self_id
+ms.keywords: PSELF_ID structure pointer [Buses], _SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, 1394/SELF_ID, SELF_ID, SELF_ID structure [Buses], *PSELF_ID, PSELF_ID, 1394/PSELF_ID, IEEE.self_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	SELF_ID
 product: Windows
 targetos: Windows

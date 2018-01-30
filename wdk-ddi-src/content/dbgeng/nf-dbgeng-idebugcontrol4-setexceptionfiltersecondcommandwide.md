@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cbc0e98b-eac7-441d-b2b5-512725403210
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4::SetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::SetExceptionFilterSecondCommandWide, IDebugControl4 interface [Windows Debugging], SetExceptionFilterSecondCommandWide method, SetExceptionFilterSecondCommandWide, IDebugControl4, debugger.setexceptionfiltersecondcommandwide, SetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: SetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4::SetExceptionFilterSecondCommandWide, IDebugControl4 interface [Windows Debugging], SetExceptionFilterSecondCommandWide method, dbgeng/IDebugControl4::SetExceptionFilterSecondCommandWide, SetExceptionFilterSecondCommandWide, IDebugControl4, SetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, debugger.setexceptionfiltersecondcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.SetExceptionFilterSecondCommandWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::SetExceptionFilterSecondCommandWide method

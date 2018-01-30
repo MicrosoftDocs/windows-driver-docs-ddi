@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_METHOD
-title: _REFS_SMR_VOLUME_GC_METHOD
+title: "_REFS_SMR_VOLUME_GC_METHOD"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_METHOD enum specifies the garbage collection method or strategy for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_method.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SmrGcMethodCompaction, REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodRotation, _REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], PREFS_SMR_VOLUME_GC_METHOD, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation, SmrGcMethodCompression, ifsk.refs_smr_volume_gc_method, ntifs/REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD
+ms.keywords: SmrGcMethodRotation, SmrGcMethodCompaction, ntifs/SmrGcMethodRotation, ifsk.refs_smr_volume_gc_method, ntifs/SmrGcMethodCompaction, *PREFS_SMR_VOLUME_GC_METHOD, SmrGcMethodCompression, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompression, PREFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD, _REFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	REFS_SMR_VOLUME_GC_METHOD
 product: Windows
 targetos: Windows
-req.typenames: *PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD
+req.typenames: REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD
 ---
 
 # _REFS_SMR_VOLUME_GC_METHOD enumeration

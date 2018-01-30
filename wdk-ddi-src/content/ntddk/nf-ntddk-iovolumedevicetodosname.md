@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860d0ad-f971-4ba7-93fb-20fe8831fc90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, ntddk/IoVolumeDeviceToDosName, kernel.iovolumedevicetodosname, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], IoVolumeDeviceToDosName
+ms.keywords: kernel.iovolumedevicetodosname, IoVolumeDeviceToDosName, k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], ntddk/IoVolumeDeviceToDosName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoVolumeDeviceToDosName
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoVolumeDeviceToDosName function
@@ -116,7 +116,7 @@ The routine failed to allocate resources required for this operation.
 ## -remarks
 
 
-<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine to free the buffer.
+<b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine to free the buffer.
 
 Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled before calling this routine. The <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a> routine can be used to verify that APCs are not disabled.
 
@@ -126,9 +126,9 @@ Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwenumeratetransactionobject, ZwEnumerateTransactionObject, NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], wdm/ZwEnumerateTransactionObject, wdm/NtEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml
+ms.keywords: wdm/ZwEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], NtEnumerateTransactionObject, ZwEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, wdm/NtEnumerateTransactionObject, kernel.zwenumeratetransactionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwEnumerateTransactionObject
 -	NtEnumerateTransactionObject
 product: Windows
@@ -261,9 +261,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
 
 <a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
 

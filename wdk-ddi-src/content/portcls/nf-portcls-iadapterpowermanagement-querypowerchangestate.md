@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement::QueryPowerChangeState, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, portcls/IAdapterPowerManagement::QueryPowerChangeState, audio.iadapterpowermanagement_querypowerchangestate, IAdapterPowerManagement
+ms.keywords: audio.iadapterpowermanagement_querypowerchangestate, IAdapterPowerManagement, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, portcls/IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement::QueryPowerChangeState, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,11 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
 
  
 

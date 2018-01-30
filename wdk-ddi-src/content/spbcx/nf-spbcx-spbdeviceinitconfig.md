@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7B62C0B0-F90A-41B1-B903-5C9F905F4A08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spbcx/SpbDeviceInitConfig, SpbDeviceInitConfig, SPB.spbdeviceinitconfig, SpbDeviceInitConfig method [Buses]
+ms.keywords: SpbDeviceInitConfig, SpbDeviceInitConfig method [Buses], SPB.spbdeviceinitconfig, spbcx/SpbDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname: 
+apiname:
 -	SpbDeviceInitConfig
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -107,13 +107,13 @@ This method associates the configuration information for SpbCx with the <a href=
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
  
 

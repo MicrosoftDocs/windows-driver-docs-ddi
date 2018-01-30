@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 228b95b0-1087-422f-a995-809743c6103e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_GetButtonCaps, hid.hidp_getbuttoncaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices]
+ms.keywords: HidP_GetButtonCaps routine [Human Input Devices], HidP_GetButtonCaps, hid.hidp_getbuttoncaps, hidpi/HidP_GetButtonCaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

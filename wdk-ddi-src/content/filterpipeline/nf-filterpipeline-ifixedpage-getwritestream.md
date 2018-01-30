@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, filterpipeline/IFixedPage::GetWriteStream, GetWriteStream, print.ifixedpage_getwritestream, IFixedPage::GetWriteStream, IFixedPage, GetWriteStream method [Print Devices], IFixedPage interface, GetWriteStream method [Print Devices], IFixedPage interface [Print Devices], GetWriteStream method
+ms.keywords: IFixedPage, GetWriteStream method [Print Devices], filterpipeline/IFixedPage::GetWriteStream, IFixedPage interface [Print Devices], GetWriteStream method, GetWriteStream method [Print Devices], IFixedPage interface, IFixedPage::GetWriteStream, print.ifixedpage_getwritestream, GetWriteStream, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedPage.GetWriteStream
 product: Windows
 targetos: Windows

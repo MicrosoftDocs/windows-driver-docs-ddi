@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.product: Windows 10 or later.
 ---
 
 # PAGP_COMMIT_VIRTUAL callback
@@ -129,11 +130,11 @@ When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual a
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
+<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
 <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
 
  
 

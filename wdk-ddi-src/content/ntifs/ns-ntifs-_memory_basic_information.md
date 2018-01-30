@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._MEMORY_BASIC_INFORMATION
-title: _MEMORY_BASIC_INFORMATION
+title: "_MEMORY_BASIC_INFORMATION"
 author: windows-driver-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MEM_COMMIT, PAGE_GUARD, MEM_MAPPED, MEM_IMAGE, PMEMORY_BASIC_INFORMATION, PAGE_READWRITE, kernel.memory_basic_information, PAGE_READONLY, MEM_RESERVE, PAGE_NOCACHE, ntifs/MEMORY_BASIC_INFORMATION, _MEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntifs/PMEMORY_BASIC_INFORMATION, PAGE_EXECUTE, MEM_FREE, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PAGE_WRITECOMBINE, PAGE_NOACCESS, MEM_PRIVATE, *PMEMORY_BASIC_INFORMATION
+ms.keywords: MEM_FREE, *PMEMORY_BASIC_INFORMATION, MEM_PRIVATE, MEM_COMMIT, kernel.memory_basic_information, MEM_RESERVE, PAGE_NOACCESS, PAGE_WRITECOMBINE, PAGE_EXECUTE, ntifs/MEMORY_BASIC_INFORMATION, _MEMORY_BASIC_INFORMATION, PAGE_GUARD, PMEMORY_BASIC_INFORMATION, PAGE_READWRITE, MEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PAGE_READONLY, MEM_MAPPED, ntifs/PMEMORY_BASIC_INFORMATION, PAGE_NOCACHE, MEM_IMAGE, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	MEMORY_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION
+req.typenames: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION"
 ---
 
 # _MEMORY_BASIC_INFORMATION structure

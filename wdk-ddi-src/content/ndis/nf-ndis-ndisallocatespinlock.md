@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e6199eab-a1e8-428f-8a3c-4828d3899cec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatespinlock, NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, ndis/NdisAllocateSpinLock
+ms.keywords: ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSpinLock, NdisAllocateSpinLock, netvista.ndisallocatespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAllocateSpinLock
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateSpinLock function
@@ -182,40 +182,40 @@ Callers of
 
 ## -see-also
 
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
-
-<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
-
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 <mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
    NdisInterlockedInsertTailList</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
+   NdisInterlockedInsertHeadList</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisinterlockedremoveheadlist" tabindex="0"><b>
    NdisInterlockedRemoveHeadList</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
-   NdisInterlockedInsertHeadList</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+
+<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
+
+<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
+   Drivers</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
+   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 

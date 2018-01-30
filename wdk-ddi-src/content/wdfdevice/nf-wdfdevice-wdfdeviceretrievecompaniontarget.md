@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceretrievecompaniontarget, WdfDeviceRetrieveCompanionTarget method, WdfDeviceRetrieveCompanionTarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
+ms.keywords: wdfdevice/WdfDeviceRetrieveCompanionTarget, wdf.wdfdeviceretrievecompaniontarget, WdfDeviceRetrieveCompanionTarget method, WdfDeviceRetrieveCompanionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WdfDeviceRetrieveCompanionTarget
 product: Windows
 targetos: Windows

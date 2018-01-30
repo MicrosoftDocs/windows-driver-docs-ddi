@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedinserttaillist, wdm/ExInterlockedInsertTailList, ExInterlockedInsertTailList
+ms.keywords: wdm/ExInterlockedInsertTailList, k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, ExInterlockedInsertTailList, kernel.exinterlockedinserttaillist, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInterlockedInsertTailList
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ The <b>ExInterlockedInsertTailList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 <a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 

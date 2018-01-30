@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9F01D093-226E-4CB4-8085-812115EBA671
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, SensorsCxSensorDataReady
+ms.keywords: sensorscx/SensorsCxSensorDataReady, SensorsCxSensorDataReady, sensors.sensorscxsensordataready, SensorsCxSensorDataReady function [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	SensorsCx.h
-apiname: 
+apiname:
 -	SensorsCxSensorDataReady
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_REGISTRATION
-title: _WSK_REGISTRATION
+title: "_WSK_REGISTRATION"
 author: windows-driver-content
 description: The WSK_REGISTRATION structure is used by the WSK subsystem to register or unregister a WSK application as a WSK client.
 old-location: netvista\wsk_registration.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 770c53bb-5e11-4bd4-a175-6ea6ae0bb782
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PWSK_REGISTRATION, _WSK_REGISTRATION, PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista], PWSK_REGISTRATION, WSK_REGISTRATION, netvista.wsk_registration, wsk/WSK_REGISTRATION, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], wsk/PWSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml
+ms.keywords: "_WSK_REGISTRATION, wsk/WSK_REGISTRATION, wsk/PWSK_REGISTRATION, *PWSK_REGISTRATION, WSK_REGISTRATION, PWSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml, netvista.wsk_registration, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: WSK_REGISTRATION, *PWSK_REGISTRATION
+req.typenames: "*PWSK_REGISTRATION, WSK_REGISTRATION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PRIVACY_EXEMPTION, netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_privacy_exemption, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], *PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PRIVACY_EXEMPTION
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION
+req.typenames: DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,19 @@ The type of exemption for the specified EtherType. The following exemption types
 
 
 
+#### DOT11_EXEMPT_ALWAYS
+
+The 802.11 station must discard the received packet if the Protected Frame subfield of the Frame
+       Control field in the 802.11 MAC header is set to one.
+
+
+#### DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
+
+The 802.11 station must discard the received packet if a key-mapping key for the source MAC
+       address is available and the Protected Frame subfield of the Frame Control field in the 802.11 MAC
+       header is set to zero.
+
+
 ### -field usExemptionPacketType
 
 The type of packet that the exemption for the specified EtherType applies to. The following packet
@@ -93,32 +106,19 @@ The type of packet that the exemption for the specified EtherType applies to. Th
 
 
 
-##### - usExemptionPacketType.DOT11_EXEMPT_BOTH
-
-Exempt all packet types.
-
-
-##### - usExemptionPacketType.DOT11_EXEMPT_UNICAST
+#### DOT11_EXEMPT_UNICAST
 
 Exempt only unicast packets.
 
 
-##### - usExemptionPacketType.DOT11_EXEMPT_MULTICAST
+#### DOT11_EXEMPT_MULTICAST
 
 Exempt only multicast or broadcast packets.
 
 
-##### - usExemptionActionType.DOT11_EXEMPT_ALWAYS
+#### DOT11_EXEMPT_BOTH
 
-The 802.11 station must discard the received packet if the Protected Frame subfield of the Frame
-       Control field in the 802.11 MAC header is set to one.
-
-
-##### - usExemptionActionType.DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
-
-The 802.11 station must discard the received packet if a key-mapping key for the source MAC
-       address is available and the Protected Frame subfield of the Frame Control field in the 802.11 MAC
-       header is set to zero.
+Exempt all packet types.
 
 
 ## -remarks

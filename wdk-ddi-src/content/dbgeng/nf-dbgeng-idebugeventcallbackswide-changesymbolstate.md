@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide
+ms.keywords: ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_changesymbolstate, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ChangeSymbolState
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeSymbolState method

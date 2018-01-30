@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 24c22102-f91d-4ea1-81fb-98052b8d0153
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveRTStream::GetPhysicalPageAddress, GetPhysicalPageAddress, GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream interface, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, IPortWaveRTStream, audio.iportwavertstream_getphysicalpageaddress, IPortWaveRTStream interface [Audio Devices], GetPhysicalPageAddress method, GetPhysicalPageAddress method [Audio Devices], portcls/IPortWaveRTStream::GetPhysicalPageAddress
+ms.keywords: IPortWaveRTStream interface [Audio Devices], GetPhysicalPageAddress method, audio.iportwavertstream_getphysicalpageaddress, GetPhysicalPageAddress method [Audio Devices], portcls/IPortWaveRTStream::GetPhysicalPageAddress, GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream interface, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, IPortWaveRTStream, GetPhysicalPageAddress, IPortWaveRTStream::GetPhysicalPageAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <code>GetPhysicalPageAddress</code> method returns the physical address for a page within a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
+The <code>GetPhysicalPageAddress</code> method returns the physical address for a page within a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
 
 
 ## -syntax
@@ -96,11 +96,11 @@ The miniport typically calls this for each page in the MDL in order to program t
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+<a href="https://msdn.microsoft.com/8126af29-a7ee-4ab7-8902-45b4baf33b9e">IPortWaveRTStream::GetPhysicalPagesCount </a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
-<a href="https://msdn.microsoft.com/8126af29-a7ee-4ab7-8902-45b4baf33b9e">IPortWaveRTStream::GetPhysicalPagesCount </a>
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
 

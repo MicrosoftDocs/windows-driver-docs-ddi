@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7288a7e5-8e64-4ac3-9779-edc27a3888bb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfObjectContextGetObject, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, kmdf.wdfobjectcontextgetobject, wdf.wdfobjectcontextgetobject, PFN_WDFOBJECTCONTEXTGETOBJECT, WdfObjectContextGetObject, WdfObjectContextGetObject method
+ms.keywords: WdfObjectContextGetObject, WdfObjectContextGetObject method, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, kmdf.wdfobjectcontextgetobject, PFN_WDFOBJECTCONTEXTGETOBJECT, wdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfObjectContextGetObject
 product: Windows
 targetos: Windows

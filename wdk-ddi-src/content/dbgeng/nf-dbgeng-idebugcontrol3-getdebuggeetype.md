@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, IDebugControl3, GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging], IDebugControl interface, debugger.getdebuggeetype, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetDebuggeeType, GetDebuggeeType, IDebugControl3::GetDebuggeeType, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl2::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl interface [Windows Debugging], GetDebuggeeType method
+ms.keywords: IDebugControl interface [Windows Debugging], GetDebuggeeType method, GetDebuggeeType method [Windows Debugging], dbgeng/IDebugControl3::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3, dbgeng/IDebugControl::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetDebuggeeType, debugger.getdebuggeetype, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetDebuggeeType, GetDebuggeeType, IDebugControl2::GetDebuggeeType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetDebuggeeType
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetDebuggeeType method

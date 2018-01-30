@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95e1778a-4f65-40ee-8ad2-f797ce9e95b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_MONITOR_MODE structure [Display Devices], IDDCX_MONITOR_MODE, display.iddcx_monitor_mode, iddcx/IDDCX_MONITOR_MODE
+ms.keywords: IDDCX_MONITOR_MODE, iddcx/IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

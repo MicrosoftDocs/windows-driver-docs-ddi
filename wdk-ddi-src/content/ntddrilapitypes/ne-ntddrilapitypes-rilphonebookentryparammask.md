@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6c3f8053-1cb7-44e8-be17-47678b224fa9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_PBE_EMAILOFFSET, RIL_PARAM_PBE_EMAILSIZE, ntddrilapitypes/RIL_PARAM_PBE_ALL, RIL_PARAM_PBE_ADDRESS, ntddrilapitypes/RIL_PARAM_PBE_SECONDNAME, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMSIZE, RIL_PARAM_PBE_SECONDNAME, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RIL_PARAM_PBE_ALL, ntddrilapitypes/RIL_PARAM_PBE_ADDRESS, RIL_PARAM_PBE_GROUPID, RIL_PARAM_PBE_ADDITIONALNUMOFFSET, ntddrilapitypes/RIL_PARAM_PBE_EMAILSIZE, RIL_PARAM_PBE_EMAILOFFSET, RIL_PARAM_PBE_TEXT, ntddrilapitypes/RIL_PARAM_PBE_TEXT, RIL_PARAM_PBE_GROUPIDCOUNT, RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RIL_PARAM_PBE_EMAILCOUNT, ntddrilapitypes/RIL_PARAM_PBE_GROUPID, ntddrilapitypes/RILPHONEBOOKENTRYPARAMMASK, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMOFFSET, ntddrilapitypes/RIL_PARAM_PBE_GROUPIDCOUNT, ntddrilapitypes/RIL_PARAM_PBE_EMAILCOUNT, netvista.rilphonebookentryparammask, RILPHONEBOOKENTRYPARAMMASK, RIL_PARAM_PBE_ADDITIONALNUMSIZE, RILPHONEBOOKENTRYPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMSIZE, ntddrilapitypes/RIL_PARAM_PBE_TEXT, ntddrilapitypes/RIL_PARAM_PBE_EMAILOFFSET, ntddrilapitypes/RIL_PARAM_PBE_SECONDNAME, RIL_PARAM_PBE_ALL, ntddrilapitypes/RIL_PARAM_PBE_GROUPIDCOUNT, RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RIL_PARAM_PBE_SECONDNAME, RIL_PARAM_PBE_ADDRESS, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMOFFSET, RIL_PARAM_PBE_EMAILCOUNT, RIL_PARAM_PBE_ADDITIONALNUMOFFSET, ntddrilapitypes/RIL_PARAM_PBE_GROUPID, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RILPHONEBOOKENTRYPARAMMASK, RILPHONEBOOKENTRYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_PBE_EMAILCOUNT, ntddrilapitypes/RIL_PARAM_PBE_ADDRESS, RIL_PARAM_PBE_EMAILSIZE, netvista.rilphonebookentryparammask, ntddrilapitypes/RILPHONEBOOKENTRYPARAMMASK, RIL_PARAM_PBE_GROUPID, RIL_PARAM_PBE_TEXT, ntddrilapitypes/RIL_PARAM_PBE_EMAILSIZE, RIL_PARAM_PBE_EMAILOFFSET, ntddrilapitypes/RIL_PARAM_PBE_ALL, RIL_PARAM_PBE_ADDITIONALNUMSIZE, RIL_PARAM_PBE_GROUPIDCOUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILPHONEBOOKENTRYPARAMMASK
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 75CBDD4F-618F-4618-9D53-4A8DF40992B0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode::GetBufferSizeRange, GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface, GetBufferSizeRange method [Audio Devices], portcls/IMiniportAudioEngineNode::GetBufferSizeRange, IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, audio.iminiportaudioenginenode_getbuffersizerange, IMiniportAudioEngineNode
+ms.keywords: audio.iminiportaudioenginenode_getbuffersizerange, IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, IMiniportAudioEngineNode, GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], portcls/IMiniportAudioEngineNode::GetBufferSizeRange, IMiniportAudioEngineNode::GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

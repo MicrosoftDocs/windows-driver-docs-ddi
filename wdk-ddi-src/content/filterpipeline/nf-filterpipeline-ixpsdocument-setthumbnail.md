@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 47211c8f-e112-47fd-bd9e-57ff7ec586a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IXpsDocument, SetThumbnail, SetThumbnail method [Print Devices], IXpsDocument interface, IXpsDocument interface [Print Devices], SetThumbnail method, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, filterpipeline/IXpsDocument::SetThumbnail, SetThumbnail method [Print Devices], print.ixpsdocument_setthumbnail, IXpsDocument::SetThumbnail
+ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], SetThumbnail method, SetThumbnail method [Print Devices], IXpsDocument interface, SetThumbnail method [Print Devices], filterpipeline/IXpsDocument::SetThumbnail, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, print.ixpsdocument_setthumbnail, IXpsDocument::SetThumbnail, SetThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocument.SetThumbnail
 product: Windows
 targetos: Windows

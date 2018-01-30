@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_IP_ADDRESS_STATE
-title: _NDIS_WWAN_IP_ADDRESS_STATE
+title: "_NDIS_WWAN_IP_ADDRESS_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_IP_ADDRESS_STATE structure represents the IP address of a PDP context.
 old-location: netvista\ndis_wwan_ip_address_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 114EDC8D-2FD2-4602-827E-9737638E49AC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_IP_ADDRESS_STATE, _NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_ip_address_state, *PNDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE
+ms.keywords: netvista.ndis_wwan_ip_address_state, NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_IP_ADDRESS_STATE, _NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_IP_ADDRESS_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE
+req.typenames: "*PNDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE"
 ---
 
 # _NDIS_WWAN_IP_ADDRESS_STATE structure

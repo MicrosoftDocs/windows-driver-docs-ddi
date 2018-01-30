@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_GET_CURRENT_FRAME_NUMBER
-title: _URB_GET_CURRENT_FRAME_NUMBER
+title: "_URB_GET_CURRENT_FRAME_NUMBER"
 author: windows-driver-content
 description: The _URB_GET_CURRENT_FRAME_NUMBER structure is used by USB client drivers to retrieve the current frame number.
 old-location: buses\_urb_get_current_frame_number.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4c6e5064-83b4-4d3c-ab08-041070128f3c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER, buses._urb_get_current_frame_number, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses], usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml
+ms.keywords: buses._urb_get_current_frame_number, _URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml, usb/_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_GET_CURRENT_FRAME_NUMBER
 product: Windows
 targetos: Windows
@@ -86,11 +86,11 @@ Contains the current 32-bit frame number, on the USB bus, on return from the hos
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

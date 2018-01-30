@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314eb897-a441-41c7-8b74-a853de70e066
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getpebaddress, wdbgexts/GetPebAddress, WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, GetPebAddress function [Windows Debugging], GetPebAddress
+ms.keywords: WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, GetPebAddress, wdbgexts/GetPebAddress, GetPebAddress function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # GetPebAddress function

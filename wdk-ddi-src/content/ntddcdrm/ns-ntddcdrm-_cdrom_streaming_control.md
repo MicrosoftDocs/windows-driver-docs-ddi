@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_STREAMING_CONTROL
-title: _CDROM_STREAMING_CONTROL
+title: "_CDROM_STREAMING_CONTROL"
 author: windows-driver-content
 description: The CDROM_STREAMING_CONTROL structure is used as an input parameter to the IOCTL_CDROM_ENABLE_STREAMING IOCTL.
 old-location: storage\cdrom_streaming_control.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71D4008C-1F04-408B-93DF-DDE6FD352701
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_STREAMING_CONTROL, storage.cdrom_streaming_control, CDROM_STREAMING_CONTROL structure [Storage Devices], *PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, _CDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], ntddcdrm/PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL
+ms.keywords: PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], ntddcdrm/CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL structure [Storage Devices], _CDROM_STREAMING_CONTROL, *PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, storage.cdrom_streaming_control, ntddcdrm/PCDROM_STREAMING_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_STREAMING_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL
+req.typenames: "*PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL"
 ---
 
 # _CDROM_STREAMING_CONTROL structure
@@ -74,9 +74,9 @@ The <a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMI
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_enable_streaming.md">IOCTL_CDROM_ENABLE_STREAMING</a>
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
 
  
 

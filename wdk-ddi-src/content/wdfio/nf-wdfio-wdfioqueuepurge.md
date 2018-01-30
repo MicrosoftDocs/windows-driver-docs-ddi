@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd6e9583-774f-4ca2-9c23-4d32b233daff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueuePurge method, kmdf.wdfioqueuepurge, PFN_WDFIOQUEUEPURGE, WdfIoQueuePurge, wdfio/WdfIoQueuePurge, wdf.wdfioqueuepurge, DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml
+ms.keywords: PFN_WDFIOQUEUEPURGE, wdfio/WdfIoQueuePurge, kmdf.wdfioqueuepurge, wdf.wdfioqueuepurge, WdfIoQueuePurge, WdfIoQueuePurge method, DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueuePurge
 product: Windows
 targetos: Windows

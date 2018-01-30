@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._EXTTEXTMETRIC
-title: _EXTTEXTMETRIC
+title: "_EXTTEXTMETRIC"
 author: windows-driver-content
 description: The EXTTEXTMETRIC structure is used to specify font-specific information within Unidrv font metrics files (.ufm files).
 old-location: print\exttextmetric.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, PEXTTEXTMETRIC structure pointer [Print Devices], *PEXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC, prntfont/EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, EXTTEXTMETRIC, print.exttextmetric, _EXTTEXTMETRIC
+ms.keywords: EXTTEXTMETRIC, *PEXTTEXTMETRIC, _EXTTEXTMETRIC, prntfont/EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC structure pointer [Print Devices], PEXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, print.exttextmetric
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	EXTTEXTMETRIC
 product: Windows
 targetos: Windows
-req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
+req.typenames: "*PEXTTEXTMETRIC, EXTTEXTMETRIC"
 req.product: Windows 10 or later.
 ---
 

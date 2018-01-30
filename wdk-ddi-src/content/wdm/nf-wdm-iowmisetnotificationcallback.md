@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c1bd12e0-0862-4e51-a9e8-71eb7b2549fd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iowmisetnotificationcallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], wdm/IoWMISetNotificationCallback, IoWMISetNotificationCallback, k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml
+ms.keywords: k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, kernel.iowmisetnotificationcallback, IoWMISetNotificationCallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], wdm/IoWMISetNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMISetNotificationCallback
 product: Windows
 targetos: Windows
@@ -104,9 +104,9 @@ This routine returns STATUS_SUCCESS on success, and the appropriate NTSTATUS err
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestForwardToIoQueue method, WdfRequestForwardToIoQueue, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue, PFN_WDFREQUESTFORWARDTOIOQUEUE, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, kmdf.wdfrequestforwardtoioqueue
+ms.keywords: wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue, WdfRequestForwardToIoQueue, kmdf.wdfrequestforwardtoioqueue, WdfRequestForwardToIoQueue method, PFN_WDFREQUESTFORWARDTOIOQUEUE, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestForwardToIoQueue
 product: Windows
 targetos: Windows
@@ -181,13 +181,13 @@ If the source queue's <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
 
  
 

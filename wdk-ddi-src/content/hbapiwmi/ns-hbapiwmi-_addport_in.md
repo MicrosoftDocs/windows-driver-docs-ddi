@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddPort_IN
-title: _AddPort_IN
+title: "_AddPort_IN"
 author: windows-driver-content
 description: The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the AddPort WMI method to the HBA miniport driver.
 old-location: storage\addport_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9cdc0fc-e292-4142-a070-50a25a2a5673
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PAddPort_IN, *PAddPort_IN, PAddPort_IN, AddPort_IN, PAddPort_IN structure pointer [Storage Devices], _AddPort_IN, AddPort_IN structure [Storage Devices], structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml, storage.addport_in, hbapiwmi/AddPort_IN
+ms.keywords: PAddPort_IN structure pointer [Storage Devices], PAddPort_IN, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml, *PAddPort_IN, hbapiwmi/AddPort_IN, AddPort_IN, _AddPort_IN, storage.addport_in, AddPort_IN structure [Storage Devices], hbapiwmi/PAddPort_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	AddPort_IN
 product: Windows
 targetos: Windows
-req.typenames: AddPort_IN, *PAddPort_IN
+req.typenames: "*PAddPort_IN, AddPort_IN"
 ---
 
 # _AddPort_IN structure

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4A87D9E2-F1FC-4CA8-834C-E545D8F0277B
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VHF_CONFIG_INIT, vhf/VHF_CONFIG_INIT, hid.vhf_config_init, VHF_CONFIG_INIT function [Human Input Devices]
+ms.keywords: VHF_CONFIG_INIT function [Human Input Devices], vhf/VHF_CONFIG_INIT, VHF_CONFIG_INIT, hid.vhf_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,8 @@ apiname:
 -	VHF_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
+req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
+req.product: Windows 10 or later.
 ---
 
 # VHF_CONFIG_INIT function
@@ -78,7 +79,7 @@ A pointer to the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure
 
 ### -param DeviceObject [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546942">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> call. 
+A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. 
 
 
 ### -param ReportDescriptorLength [in]

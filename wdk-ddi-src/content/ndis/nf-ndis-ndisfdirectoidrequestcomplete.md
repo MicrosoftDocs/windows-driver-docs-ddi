@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6b4d4f4-63d5-496c-9082-f2e8d1a174ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml, netvista.ndisfdirectoidrequestcomplete, NdisFDirectOidRequestComplete, ndis/NdisFDirectOidRequestComplete
+ms.keywords: ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml, NdisFDirectOidRequestComplete, NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFDirectOidRequestComplete, netvista.ndisfdirectoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFDirectOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFDirectOidRequestComplete function
@@ -122,17 +122,17 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-   FilterDirectOidRequestComplete</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <mshelp:link keywords="netvista.protocoldirectoidrequestcomplete" tabindex="0"><i>
    ProtocolDirectOidRequestComplete</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
+   FilterDirectOidRequestComplete</i></mshelp:link>
 
  
 

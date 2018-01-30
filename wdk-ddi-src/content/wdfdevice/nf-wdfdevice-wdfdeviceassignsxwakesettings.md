@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af25d03f-32c5-4e2c-930f-1b905edc566b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceassignsxwakesettings, WdfDeviceAssignSxWakeSettings method, wdfdevice/WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings, PFN_WDFDEVICEASSIGNSXWAKESETTINGS, kmdf.wdfdeviceassignsxwakesettings, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml
+ms.keywords: wdf.wdfdeviceassignsxwakesettings, kmdf.wdfdeviceassignsxwakesettings, PFN_WDFDEVICEASSIGNSXWAKESETTINGS, wdfdevice/WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceAssignSxWakeSettings
 product: Windows
 targetos: Windows

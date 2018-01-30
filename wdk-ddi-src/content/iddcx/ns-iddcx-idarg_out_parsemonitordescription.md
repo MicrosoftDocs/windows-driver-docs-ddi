@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 30f4c178-5ef8-4650-b396-1e4bc9cc9125
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices], IDARG_OUT_PARSEMONITORDESCRIPTION, display.idarg_out_parsemonitordescription
+ms.keywords: iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION, display.idarg_out_parsemonitordescription, IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

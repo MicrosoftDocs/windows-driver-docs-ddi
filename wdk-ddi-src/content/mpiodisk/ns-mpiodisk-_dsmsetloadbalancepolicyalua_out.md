@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicyALUA_OUT
-title: _DsmSetLoadBalancePolicyALUA_OUT
+title: "_DsmSetLoadBalancePolicyALUA_OUT"
 author: windows-driver-content
 description: The DsmSetLoadBalancePolicyALUA_OUT structure reports the output of the DsmSetLoadBalancePolicyALUA method.
 old-location: storage\dsmsetloadbalancepolicyalua_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 00c5f766-299e-4c07-a3e0-61077518a37a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DsmSetLoadBalancePolicyALUA_OUT, PDsmSetLoadBalancePolicyALUA_OUT structure pointer [Storage Devices], mpiodisk/DsmSetLoadBalancePolicyALUA_OUT, storage.dsmsetloadbalancepolicyalua_out, DsmSetLoadBalancePolicyALUA_OUT structure [Storage Devices], structs-scsibus_59bfe47a-52c1-4a7c-95c4-784f0e8ae92e.xml, PDsmSetLoadBalancePolicyALUA_OUT, DsmSetLoadBalancePolicyALUA_OUT, *PDsmSetLoadBalancePolicyALUA_OUT, mpiodisk/PDsmSetLoadBalancePolicyALUA_OUT
+ms.keywords: "_DsmSetLoadBalancePolicyALUA_OUT, mpiodisk/DsmSetLoadBalancePolicyALUA_OUT, storage.dsmsetloadbalancepolicyalua_out, DsmSetLoadBalancePolicyALUA_OUT structure [Storage Devices], mpiodisk/PDsmSetLoadBalancePolicyALUA_OUT, PDsmSetLoadBalancePolicyALUA_OUT, DsmSetLoadBalancePolicyALUA_OUT, PDsmSetLoadBalancePolicyALUA_OUT structure pointer [Storage Devices], *PDsmSetLoadBalancePolicyALUA_OUT, structs-scsibus_59bfe47a-52c1-4a7c-95c4-784f0e8ae92e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiodisk.h
-apiname: 
+apiname:
 -	DsmSetLoadBalancePolicyALUA_OUT
 product: Windows
 targetos: Windows

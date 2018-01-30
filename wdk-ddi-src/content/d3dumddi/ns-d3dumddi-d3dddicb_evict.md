@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65743D54-3954-4C31-B3CB-032DE391A456
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_EVICT, display.d3dddicb_evict, d3dumddi/D3DDDICB_EVICT, D3DDDICB_EVICT structure [Display Devices]
+ms.keywords: D3DDDICB_EVICT structure [Display Devices], D3DDDICB_EVICT, display.d3dddicb_evict, d3dumddi/D3DDDICB_EVICT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

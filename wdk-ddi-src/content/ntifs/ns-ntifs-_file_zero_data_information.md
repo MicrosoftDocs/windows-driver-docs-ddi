@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ZERO_DATA_INFORMATION
-title: _FILE_ZERO_DATA_INFORMATION
+title: "_FILE_ZERO_DATA_INFORMATION"
 author: windows-driver-content
 description: Contains a range of a file to set to zeros.
 old-location: ifsk\file_zero_data_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 64F1A14F-2152-4095-A594-B2AE3B87C638
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.file_zero_data_information, ntifs/PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION structure [Installable File System Drivers], _FILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION, ntifs/FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION structure pointer [Installable File System Drivers], FILE_ZERO_DATA_INFORMATION
+ms.keywords: "*PFILE_ZERO_DATA_INFORMATION, ifsk.file_zero_data_information, ntifs/FILE_ZERO_DATA_INFORMATION, _FILE_ZERO_DATA_INFORMATION, ntifs/PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION structure [Installable File System Drivers], PFILE_ZERO_DATA_INFORMATION structure pointer [Installable File System Drivers], FILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_ZERO_DATA_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION
+req.typenames: FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION
 ---
 
 # _FILE_ZERO_DATA_INFORMATION structure
@@ -81,9 +81,9 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
 <a href="..\ntifs\ns-ntifs-_file_zero_data_information_ex.md">FILE_ZERO_DATA_INFORMATION_EX</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
 

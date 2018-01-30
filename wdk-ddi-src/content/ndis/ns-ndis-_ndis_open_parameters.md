@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OPEN_PARAMETERS
-title: _NDIS_OPEN_PARAMETERS
+title: "_NDIS_OPEN_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_OPEN_PARAMETERS structure defines the open parameters when a protocol driver calls the NdisOpenAdapterEx function.
 old-location: netvista\ndis_open_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters
+ms.keywords: NDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, ndis/NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_OPEN_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS
+req.typenames: NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS
 ---
 
 # _NDIS_OPEN_PARAMETERS structure
@@ -156,9 +156,9 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

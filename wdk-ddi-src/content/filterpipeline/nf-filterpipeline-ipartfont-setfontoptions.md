@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 28c708b7-82bb-4246-bde8-88d471c8120c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPartFont, print.ipartfont_setfontoptions, SetFontOptions method [Print Devices], IPartFont interface, SetFontOptions method [Print Devices], IPartFont interface [Print Devices], SetFontOptions method, IPartFont::SetFontOptions, SetFontOptions, filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, filterpipeline/IPartFont::SetFontOptions
+ms.keywords: IPartFont interface [Print Devices], SetFontOptions method, SetFontOptions, filterpipeline/IPartFont::SetFontOptions, SetFontOptions method [Print Devices], IPartFont interface, SetFontOptions method [Print Devices], filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, print.ipartfont_setfontoptions, IPartFont, IPartFont::SetFontOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartFont.SetFontOptions
 product: Windows
 targetos: Windows

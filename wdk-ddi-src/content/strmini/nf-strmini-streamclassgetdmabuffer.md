@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1b778d94-55e6-4a5f-aa77-739bcf9a8041
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassGetDmaBuffer routine [Streaming Media Devices], strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, strmini/StreamClassGetDmaBuffer, stream.streamclassgetdmabuffer, StreamClassGetDmaBuffer
+ms.keywords: strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, stream.streamclassgetdmabuffer, strmini/StreamClassGetDmaBuffer, StreamClassGetDmaBuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassGetDmaBuffer
 product: Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
+req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
 req.product: Windows 10 or later.
 ---
 

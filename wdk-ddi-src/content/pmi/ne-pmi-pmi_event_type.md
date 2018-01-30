@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: powermeter.pmi_event_type, PmiBudgetEvent, pmi/PmiBudgetEvent, pmi/PmiAveragingIntervalChangedEvent, pmi/PmiEventMax, pmi/PMI_EVENT_TYPE, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PmiCapabilitiesChangedEvent, pmi/PmiThresholdEvent, pmi/PmiConfigurationChangedEvent, PMI_EVENT_TYPE, PmiThresholdEvent, PmiAveragingIntervalChangedEvent, PmiConfigurationChangedEvent, PmiEventMax, PmiCapabilitiesChangedEvent
+ms.keywords: PmiConfigurationChangedEvent, powermeter.pmi_event_type, PmiThresholdEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiThresholdEvent, PmiEventMax, pmi/PmiEventMax, pmi/PmiConfigurationChangedEvent, PmiAveragingIntervalChangedEvent, pmi/PMI_EVENT_TYPE, PmiCapabilitiesChangedEvent, pmi/PmiBudgetEvent, PmiBudgetEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PmiAveragingIntervalChangedEvent, PMI_EVENT_TYPE, pmi/PmiCapabilitiesChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_EVENT_TYPE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16ac6fea-9eea-4062-8ab9-fd14d80118a6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdftimer/WdfTimerGetParentObject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, wdf.wdftimergetparentobject, kmdf.wdftimergetparentobject, WdfTimerGetParentObject method, PFN_WDFTIMERGETPARENTOBJECT, WdfTimerGetParentObject
+ms.keywords: wdftimer/WdfTimerGetParentObject, PFN_WDFTIMERGETPARENTOBJECT, WdfTimerGetParentObject method, wdf.wdftimergetparentobject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, kmdf.wdftimergetparentobject, WdfTimerGetParentObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfTimerGetParentObject
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8f4cf93f-eba7-4d6f-8b07-7c095e13f95e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSupportsStreamHandleContexts, ifsk.fltsupportsstreamhandlecontexts, fltkernel/FltSupportsStreamHandleContexts, FltSupportsStreamHandleContexts function [Installable File System Drivers], FltApiRef_p_to_z_07134b31-8768-43bc-904e-9abd945a166b.xml
+ms.keywords: FltApiRef_p_to_z_07134b31-8768-43bc-904e-9abd945a166b.xml, FltSupportsStreamHandleContexts, fltkernel/FltSupportsStreamHandleContexts, ifsk.fltsupportsstreamhandlecontexts, FltSupportsStreamHandleContexts function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltSupportsStreamHandleContexts
 product: Windows
 targetos: Windows
@@ -98,19 +98,19 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsupportsstreamcontexts.md">FltSupportsStreamContexts</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsupportsstreamcontexts.md">FltSupportsStreamContexts</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
 
  
 

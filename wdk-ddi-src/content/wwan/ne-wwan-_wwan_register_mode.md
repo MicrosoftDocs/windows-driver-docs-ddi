@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_MODE
-title: _WWAN_REGISTER_MODE
+title: "_WWAN_REGISTER_MODE"
 author: windows-driver-content
 description: The WWAN_REGISTER_MODE enumeration lists the different network selection modes which defines the way the device should select a network while registering.
 old-location: netvista\wwan_register_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608d041c-1034-49cf-b8da-cb3f7769ac55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PWWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_register_mode, WwanRegisterModeAutomatic, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, wwan/WwanRegisterModeMax, WwanRegisterModeManual, _WWAN_REGISTER_MODE, WwanRegisterModeUnknown, wwan/WwanRegisterModeAutomatic, WwanRegisterModeMax, PWWAN_REGISTER_MODE, WWAN_REGISTER_MODE, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_REGISTER_MODE, wwan/PWWAN_REGISTER_MODE, wwan/WwanRegisterModeManual, wwan/WwanRegisterModeUnknown
+ms.keywords: WwanRegisterModeManual, wwan/PWWAN_REGISTER_MODE, wwan/WwanRegisterModeMax, netvista.wwan_register_mode, wwan/WwanRegisterModeAutomatic, PWWAN_REGISTER_MODE, wwan/WwanRegisterModeManual, wwan/WwanRegisterModeUnknown, WWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, wwan/WWAN_REGISTER_MODE, WwanRegisterModeMax, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_REGISTER_MODE, *PWWAN_REGISTER_MODE, WwanRegisterModeAutomatic, WwanRegisterModeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_REGISTER_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_REGISTER_MODE, WWAN_REGISTER_MODE
+req.typenames: WWAN_REGISTER_MODE, *PWWAN_REGISTER_MODE
 req.product: Windows 10 or later.
 ---
 

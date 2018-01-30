@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxsstreams._STREAM_INFO
-title: _STREAM_INFO
+title: "_STREAM_INFO"
 author: windows-driver-content
 description: This structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\_stream_info.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._stream_info, *PSTREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO
+ms.keywords: ucxsstreams/_STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, buses._stream_info, P_STREAM_INFO, *PSTREAM_INFO, STREAM_INFO, P_STREAM_INFO structure pointer [Buses], ucxsstreams/P_STREAM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxsstreams.h
-apiname: 
+apiname:
 -	STREAM_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSTREAM_INFO, STREAM_INFO
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_CAPABILITIES_EX
-title: _USB_HUB_CAPABILITIES_EX
+title: "_USB_HUB_CAPABILITIES_EX"
 author: windows-driver-content
 description: The USB_HUB_CAPABILITIES_EX structure is used with the IOCTL_USB_GET_HUB_CAPABILITIES I/O control request to retrieve the capabilities of a particular USB hub.
 old-location: buses\usb_hub_capabilities_ex.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: deb8d710-6137-4f69-8fde-00d46cdb6f4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usb_hub_capabilities_ex, usbstrct_42446556-393a-4d58-934e-f63d62fa3c07.xml, PUSB_HUB_CAPABILITIES_EX structure pointer [Buses], *PUSB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX, usbioctl/USB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX structure [Buses], _USB_HUB_CAPABILITIES_EX, usbioctl/PUSB_HUB_CAPABILITIES_EX
+ms.keywords: usbstrct_42446556-393a-4d58-934e-f63d62fa3c07.xml, *PUSB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX, usbioctl/PUSB_HUB_CAPABILITIES_EX, _USB_HUB_CAPABILITIES_EX, usbioctl/USB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX structure pointer [Buses], buses.usb_hub_capabilities_ex, USB_HUB_CAPABILITIES_EX structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_HUB_CAPABILITIES_EX
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX
+req.typenames: USB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX
 req.product: Windows 10 or later.
 ---
 
@@ -75,11 +75,11 @@ A <a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a> 
 
 ## -see-also
 
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities.md">IOCTL_USB_GET_HUB_CAPABILITIES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
 
  
 

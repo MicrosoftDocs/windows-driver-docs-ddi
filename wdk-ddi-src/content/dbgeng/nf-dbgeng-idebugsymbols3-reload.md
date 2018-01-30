@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Reload method [Windows Debugging], IDebugSymbols3 interface, Reload, IDebugSymbols3 interface [Windows Debugging], Reload method, dbgeng/IDebugSymbols2::Reload, IDebugSymbols3, dbgeng/IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols2::Reload, dbgeng/IDebugSymbols3::Reload, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols interface, Reload method [Windows Debugging], IDebugSymbols2 interface, debugger.reload, IDebugSymbols3::Reload, IDebugSymbols interface [Windows Debugging], Reload method, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml
+ms.keywords: dbgeng/IDebugSymbols2::Reload, debugger.reload, IDebugSymbols3 interface [Windows Debugging], Reload method, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, IDebugSymbols2::Reload, IDebugSymbols3::Reload, Reload method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols interface, Reload method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols3, Reload method [Windows Debugging], dbgeng/IDebugSymbols3::Reload, IDebugSymbols::Reload, IDebugSymbols interface [Windows Debugging], Reload method, Reload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.Reload
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::Reload method

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_OBJECTID_INFORMATION
-title: _FILE_OBJECTID_INFORMATION
+title: "_FILE_OBJECTID_INFORMATION"
 author: windows-driver-content
 description: The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume.
 old-location: ifsk\file_objectid_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], *PFILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, _FILE_OBJECTID_INFORMATION, ifsk.file_objectid_information, ntifs/FILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION
+ms.keywords: "*PFILE_OBJECTID_INFORMATION, _FILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION, ntifs/FILE_OBJECTID_INFORMATION, ifsk.file_objectid_information, ntifs/PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_OBJECTID_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
+req.typenames: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION"
 ---
 
 # _FILE_OBJECTID_INFORMATION structure
@@ -116,24 +116,24 @@ The 8-byte file reference number for the file. NTFS generates this number and as
 The 16-byte file object ID for the file. NTFS generates this number and assigns it to the file at the request of a driver or application. File object IDs are guaranteed to be unique only within the volume where the file resides. 
 
 
-##### - ( unnamed struct ).BirthVolumeId
+#### - ( unnamed struct )
+
+ 
+
+
+#### BirthVolumeId
 
 The object identifier of the volume on which the file resided when the object identifier was created, or zero if the volume had no object identifier at that time. After copy operations, move operations, or other file operations, this may not be the same as the object identifier of the volume on which the object currently resides. 
 
 
-##### - ( unnamed struct ).DomainId
-
-Reserved; must be zero. 
-
-
-##### - ( unnamed struct ).BirthObjectId
+#### BirthObjectId
 
 The object identifier of the file at the time it was created. After copy operations, move operations, or other file operations, this may not be the same as the current value of the <b>ObjectId</b> member. 
 
 
-#### - ( unnamed struct )
+#### DomainId
 
- 
+Reserved; must be zero. 
 
 
 #### - ExtendedInfo
@@ -166,9 +166,9 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 

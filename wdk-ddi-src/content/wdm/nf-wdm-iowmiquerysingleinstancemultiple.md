@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c0e011b5-804c-4f0d-a125-a083a0f83d50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoWMIQuerySingleInstanceMultiple, k104_bd0dace0-1c4b-4e21-9e2c-7c3060878881.xml, IoWMIQuerySingleInstanceMultiple, IoWMIQuerySingleInstanceMultiple routine [Kernel-Mode Driver Architecture], kernel.iowmiquerysingleinstancemultiple
+ms.keywords: k104_bd0dace0-1c4b-4e21-9e2c-7c3060878881.xml, kernel.iowmiquerysingleinstancemultiple, IoWMIQuerySingleInstanceMultiple, wdm/IoWMIQuerySingleInstanceMultiple, IoWMIQuerySingleInstanceMultiple routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMIQuerySingleInstanceMultiple
 product: Windows
 targetos: Windows

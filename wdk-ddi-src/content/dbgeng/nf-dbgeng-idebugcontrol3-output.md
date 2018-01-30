@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c748325-3718-4fcc-98a3-3318d361ba6e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::Output, IDebugControl3::Output, Output method [Windows Debugging], IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, IDebugControl3, dbgeng/IDebugControl::Output, dbgeng/IDebugControl3::Output, Output, IDebugControl2 interface [Windows Debugging], Output method, IDebugControl2::Output, Output method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], Output method, IDebugControl3 interface [Windows Debugging], Output method, Output method [Windows Debugging], IDebugControl interface, IDebugControl::Output, Output method [Windows Debugging], IDebugControl3 interface, debugger.output
+ms.keywords: IDebugControl3, dbgeng/IDebugControl3::Output, Output, IDebugControl2::Output, IDebugControl2 interface [Windows Debugging], Output method, IDebugControl3::Output, Output method [Windows Debugging], IDebugControl3 interface, IDebugControl::Output, debugger.output, IDebugControl interface [Windows Debugging], Output method, Output method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::Output, IDebugControl3 interface [Windows Debugging], Output method, IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, Output method [Windows Debugging], dbgeng/IDebugControl2::Output, Output method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.Output
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::Output method
@@ -297,19 +297,19 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

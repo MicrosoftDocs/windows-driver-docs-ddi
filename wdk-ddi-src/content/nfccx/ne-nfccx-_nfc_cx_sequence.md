@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_SEQUENCE
-title: _NFC_CX_SEQUENCE
+title: "_NFC_CX_SEQUENCE"
 author: windows-driver-content
 description: The NFC_CX_SEQUENCE enumeration specifies sequences.
 old-location: nfpdrivers\nfc_cx_sequence.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/SequencePreNfceeDisc, SequenceMaximum, SequencePreShutdown, SequenceRecoveryComplete, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceInitComplete, PNFC_CX_SEQUENCE, SequencePreInit, nfccx/SequenceRecoveryComplete, nfccx/SequenceNfceeDiscComplete, SequencePreRecovery, SequenceInitComplete, SequenceNfceeDiscComplete, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], nfccx/SequencePreRecovery, SequencePreRfDiscStop, _NFC_CX_SEQUENCE, nfccx/SequencePreInit, SequenceShutdownComplete, nfccx/SequencePreRfDiscStart, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceMaximum, nfccx/SequenceShutdownComplete, SequencePreRfDiscStart, NFC_CX_SEQUENCE, SequenceRfDiscStopComplete, nfccx/SequenceRfDiscStopComplete, *PNFC_CX_SEQUENCE, SequencePreNfceeDisc, SequenceRfDiscStartComplete, nfccx/NFC_CX_SEQUENCE, nfpdrivers.nfc_cx_sequence
+ms.keywords: SequenceNfceeDiscComplete, nfccx/SequenceRfDiscStartComplete, nfpdrivers.nfc_cx_sequence, nfccx/SequenceMaximum, nfccx/SequenceShutdownComplete, SequenceMaximum, _NFC_CX_SEQUENCE, nfccx/SequencePreRecovery, PNFC_CX_SEQUENCE, SequencePreRfDiscStop, SequencePreShutdown, SequenceRecoveryComplete, nfccx/SequencePreRfDiscStop, nfccx/SequencePreInit, nfccx/SequenceRfDiscStopComplete, nfccx/SequencePreNfceeDisc, nfccx/SequencePreRfDiscStart, *PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE, SequencePreNfceeDisc, SequencePreRecovery, SequenceShutdownComplete, nfccx/NFC_CX_SEQUENCE, SequenceRfDiscStartComplete, nfccx/SequenceNfceeDiscComplete, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], SequencePreInit, nfccx/SequenceInitComplete, nfccx/SequencePreShutdown, nfccx/SequenceRecoveryComplete, SequenceInitComplete, SequencePreRfDiscStart, SequenceRfDiscStopComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfccx.h
-apiname: 
+apiname:
 -	NFC_CX_SEQUENCE
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE
+req.typenames: NFC_CX_SEQUENCE, *PNFC_CX_SEQUENCE
 ---
 
 # _NFC_CX_SEQUENCE enumeration
@@ -145,9 +145,9 @@ This sequence is invoked by the CX after the completion of the recovery sequence
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

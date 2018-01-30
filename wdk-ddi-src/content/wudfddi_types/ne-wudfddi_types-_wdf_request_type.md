@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_TYPE
-title: _WDF_REQUEST_TYPE
+title: "_WDF_REQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_REQUEST_TYPE enumeration identifies the types of I/O requests that a UMDF request object can represent.
 old-location: wdf\wdf_request_type__umdf_.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRead, wudfddi_types/WdfRequestRead, WdfRequestCreate, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestTypeNoFormat, umdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestUsb, WdfRequestClose, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestCleanup, WdfRequestCleanup, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, wudfddi_types/WdfRequestCreate, WdfRequestQueryInformation, WdfRequestFlushBuffers, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestMaximum, WdfRequestSetInformation, wudfddi_types/WdfRequestFlushBuffers, WdfRequestOther, wudfddi_types/WdfRequestOther, WDF_REQUEST_TYPE, WdfRequestUndefined, WdfRequestWrite, _WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE, WdfRequestUsb, wudfddi_types/WdfRequestDeviceIoControl, wdf.wdf_request_type__umdf_, WDF_REQUEST_TYPE enumeration, WdfRequestMaximum, wudfddi_types/WdfRequestClose, WdfRequestInternalIoctl, WdfRequestTypeNoFormat, wudfddi_types/WdfRequestWrite
+ms.keywords: "_WDF_REQUEST_TYPE, WdfRequestFlushBuffers, WdfRequestWrite, WdfRequestInternalIoctl, wudfddi_types/WdfRequestOther, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestQueryInformation, WdfRequestDeviceIoControl, wdf.wdf_request_type__umdf_, WdfRequestCreate, WdfRequestCleanup, *PWDF_REQUEST_TYPE, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestMaximum, WdfRequestSetInformation, wudfddi_types/WdfRequestClose, WdfRequestQueryInformation, umdf.wdf_request_type__umdf_, WdfRequestOther, wudfddi_types/WdfRequestUsb, wudfddi_types/WDF_REQUEST_TYPE, WdfRequestMaximum, wudfddi_types/WdfRequestRead, WDF_REQUEST_TYPE enumeration, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestFlushBuffers, WDF_REQUEST_TYPE, WdfRequestUsb, wudfddi_types/WdfRequestDeviceIoControl, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestWrite, WdfRequestUndefined, WdfRequestClose, WdfRequestRead, WdfRequestTypeNoFormat, wudfddi_types/WdfRequestTypeNoFormat, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE
+req.typenames: "*PWDF_REQUEST_TYPE, WDF_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -175,15 +175,15 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
 
  
 

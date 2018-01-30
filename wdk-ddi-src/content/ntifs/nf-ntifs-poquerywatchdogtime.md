@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoQueryWatchdogTime, wdm/PoQueryWatchdogTime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, kernel.poquerywatchdogtime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, wdm/PoQueryWatchdogTime, PoQueryWatchdogTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoQueryWatchdogTime
 product: Windows
 targetos: Windows

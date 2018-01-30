@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3487addb-e196-4295-95fc-0590802e766a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, debugger.getbreakpointbyindex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method, IDebugControl4::GetBreakpointByIndex2, dbgeng/IDebugControl4::GetBreakpointByIndex2
+ms.keywords: GetBreakpointByIndex2, IDebugControl4::GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, debugger.getbreakpointbyindex2, dbgeng/IDebugControl4::GetBreakpointByIndex2, IDebugControl4, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetBreakpointByIndex2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetBreakpointByIndex2 method

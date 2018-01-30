@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_FC_Port
-title: _MS_SMHBA_FC_Port
+title: "_MS_SMHBA_FC_Port"
 author: windows-driver-content
 description: The MS_SMHBA_FC_Port structure is used to report the FC port information.
 old-location: storage\ms_smhba_fc_port.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5d0d58c-f2dd-4c8a-9b15-967d0be89788
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMS_SMHBA_FC_Port, structs-Fibre_74bec0b8-c7eb-4866-8fef-ab9a7c3d5950.xml, storage.ms_smhba_fc_port, hbapiwmi/MS_SMHBA_FC_Port, PMS_SMHBA_FC_Port structure pointer [Storage Devices], hbapiwmi/PMS_SMHBA_FC_Port, MS_SMHBA_FC_Port, *PMS_SMHBA_FC_Port, MS_SMHBA_FC_Port structure [Storage Devices], _MS_SMHBA_FC_Port
+ms.keywords: MS_SMHBA_FC_Port, _MS_SMHBA_FC_Port, MS_SMHBA_FC_Port structure [Storage Devices], hbapiwmi/MS_SMHBA_FC_Port, PMS_SMHBA_FC_Port structure pointer [Storage Devices], PMS_SMHBA_FC_Port, structs-Fibre_74bec0b8-c7eb-4866-8fef-ab9a7c3d5950.xml, storage.ms_smhba_fc_port, hbapiwmi/PMS_SMHBA_FC_Port, *PMS_SMHBA_FC_Port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MS_SMHBA_FC_Port
 product: Windows
 targetos: Windows
-req.typenames: *PMS_SMHBA_FC_Port, MS_SMHBA_FC_Port
+req.typenames: "*PMS_SMHBA_FC_Port, MS_SMHBA_FC_Port"
 ---
 
 # _MS_SMHBA_FC_Port structure

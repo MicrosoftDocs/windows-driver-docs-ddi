@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
-title: _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
+title: "_WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PCIXDEVICE_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_pcixdevice_error_section_validbits.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 705cfd2c-b4c0-4a59-a494-f57007e13385
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_VALIDBITS, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, whea.whea_pcixdevice_error_section_validbits, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR_VALIDBITS, whearef_aa4d8f33-e22c-46df-8bb7-408cf04db2d1.xml, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
+ms.keywords: "*PWHEA_PCIXDEVICE_ERROR_VALIDBITS, whearef_aa4d8f33-e22c-46df-8bb7-408cf04db2d1.xml, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, whea.whea_pcixdevice_error_section_validbits, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_VALIDBITS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
 product: Windows
 targetos: Windows
-req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
+req.typenames: "*PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS"
 ---
 
 # _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS structure
@@ -115,19 +115,14 @@ typedef union _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS {
 A ULONGLONG representation of the contents of the WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union.
 
 
+#### - ErrorStatus
+
+A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
 #### - IdInfo
 
 A single bit that indicates that the <b>IdInfo</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
-
-
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - RegisterDataPairs
-
-A single bit that indicates that the <b>RegisterDataPairs</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
 #### - MemoryNumber
@@ -140,9 +135,14 @@ A single bit that indicates that the <b>MemoryNumber</b> member of the WHEA_PCIX
 A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - ErrorStatus
+#### - RegisterDataPairs
 
-A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>RegisterDataPairs</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

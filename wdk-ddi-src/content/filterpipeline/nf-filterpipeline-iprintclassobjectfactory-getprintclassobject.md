@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetPrintClassObject, IPrintClassObjectFactory, GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, print.iprintclassobjectfactory_getprintclassobject, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, IPrintClassObjectFactory::GetPrintClassObject, GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method
+ms.keywords: GetPrintClassObject method [Print Devices], filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method, print.iprintclassobjectfactory_getprintclassobject, GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, GetPrintClassObject, IPrintClassObjectFactory, IPrintClassObjectFactory::GetPrintClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintClassObjectFactory.GetPrintClassObject
 product: Windows
 targetos: Windows

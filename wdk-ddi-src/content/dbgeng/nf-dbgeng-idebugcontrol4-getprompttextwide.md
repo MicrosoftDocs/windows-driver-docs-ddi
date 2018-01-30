@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetPromptTextWide, GetPromptTextWide method [Windows Debugging], GetPromptTextWide, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, dbgeng/IDebugControl4::GetPromptTextWide, IDebugControl4, debugger.getprompttextwide
+ms.keywords: GetPromptTextWide, GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, debugger.getprompttextwide, GetPromptTextWide method [Windows Debugging], IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetPromptTextWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetPromptTextWide method

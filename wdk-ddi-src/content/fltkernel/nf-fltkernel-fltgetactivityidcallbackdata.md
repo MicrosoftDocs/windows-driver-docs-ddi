@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata, fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers]
+ms.keywords: ifsk.fltgetactivityidcallbackdata, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetActivityIdCallbackData
 product: Windows
 targetos: Windows

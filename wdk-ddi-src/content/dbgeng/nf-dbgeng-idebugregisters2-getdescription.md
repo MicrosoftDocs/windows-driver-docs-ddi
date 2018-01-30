@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 895d18e7-673e-41bb-a3be-eb5b4a778880
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters::GetDescription, GetDescription, GetDescription method [Windows Debugging], IDebugRegisters interface, IDebugRegisters interface [Windows Debugging], GetDescription method, GetDescription method [Windows Debugging], IDebugRegisters2 interface, debugger.getdescription, GetDescription method [Windows Debugging], dbgeng/IDebugRegisters2::GetDescription, IDebugRegisters2 interface [Windows Debugging], GetDescription method, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, IDebugRegisters2, IDebugRegisters2::GetDescription
+ms.keywords: IDebugRegisters::GetDescription, GetDescription method [Windows Debugging], dbgeng/IDebugRegisters::GetDescription, dbgeng/IDebugRegisters2::GetDescription, IDebugRegisters2::GetDescription, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, IDebugRegisters2 interface [Windows Debugging], GetDescription method, GetDescription method [Windows Debugging], IDebugRegisters2 interface, GetDescription, debugger.getdescription, GetDescription method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetDescription
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetDescription method

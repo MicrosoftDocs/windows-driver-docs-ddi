@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_ISOLATION_MODE
-title: _NDIS_ISOLATION_MODE
+title: "_NDIS_ISOLATION_MODE"
 author: windows-driver-content
 description: The NDIS_ISOLATION_MODE enumeration defines the network isolation modes that can be specified for a VM network adapter.
 old-location: netvista\ndis_isolation_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisIsolationModeVlan, *PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, _NDIS_ISOLATION_MODE, NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_MODE, netvista.ndis_isolation_mode, NdisIsolationModeNone, NdisIsolationModeVlan, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeExternalVirtualSubnet
+ms.keywords: ntddndis/NdisIsolationModeVlan, NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNone, *PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE, NdisIsolationModeVlan, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, NdisIsolationModeNone, NdisIsolationModeNativeVirtualSubnet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_ISOLATION_MODE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE
+req.typenames: "*PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE"
 ---
 
 # _NDIS_ISOLATION_MODE enumeration
@@ -99,9 +99,9 @@ Virtual local area network (VLAN)-based isolation.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
 
  
 

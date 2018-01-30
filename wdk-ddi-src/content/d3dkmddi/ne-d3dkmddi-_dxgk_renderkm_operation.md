@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_RENDERKM_OPERATION, DXGK_GDIOP_ESCAPE, DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_ALPHABLEND, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, DXGK_GDIOP_BITBLT, DXGK_GDIOP_ALPHABLEND, _DXGK_RENDERKM_OPERATION, DXGK_GDIOP_TRANSPARENTBLT, d3dkmddi/DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_GDIOP_STRETCHBLT, d3dkmddi/DXGK_GDIOP_ESCAPE, DXGK_GDIOP_STRETCHBLT, display.dxgk_renderkm_operation, DXGK_RENDERKM_OPERATION, DXGK_RENDERKM_OPERATION enumeration [Display Devices], d3dkmddi/DXGK_GDIOP_COLORFILL
+ms.keywords: DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_RENDERKM_OPERATION, DXGK_GDIOP_COLORFILL, display.dxgk_renderkm_operation, d3dkmddi/DXGK_GDIOP_STRETCHBLT, DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_GDIOP_ESCAPE, DXGK_RENDERKM_OPERATION enumeration [Display Devices], _DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_COLORFILL, DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, d3dkmddi/DXGK_GDIOP_BITBLT, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,9 +110,9 @@ Indicates a ClearType blend.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
 
  
 

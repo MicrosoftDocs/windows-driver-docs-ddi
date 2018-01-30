@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c4f452e-df7b-401b-a62e-20e0b2164172
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringValidate, RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidate, safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml
+ms.keywords: safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml, ntstrsafe/RtlUnicodeStringValidate, kernel.rtlunicodestringvalidate, RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringValidate
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringValidate function
@@ -128,9 +128,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvalidateex.md">RtlUnicodeStringValidateEx</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvalidateex.md">RtlUnicodeStringValidateEx</a>
 
  
 

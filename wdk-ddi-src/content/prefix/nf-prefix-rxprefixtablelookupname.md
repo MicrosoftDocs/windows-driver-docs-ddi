@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 20d61d23-4151-4a23-8963-6e38a08f391e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxprefixtablelookupname, prefix/RxPrefixTableLookupName, RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
+ms.keywords: RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, RxPrefixTableLookupName, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml, prefix/RxPrefixTableLookupName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prefix.h
-apiname: 
+apiname:
 -	RxPrefixTableLookupName
 product: Windows
 targetos: Windows
-req.typenames: *PSHIMOPTS, SHIMOPTS
+req.typenames: "*PSHIMOPTS, SHIMOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -129,9 +129,9 @@ On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if
 
 ## -see-also
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
-
 <a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
+
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
 
 <a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
 

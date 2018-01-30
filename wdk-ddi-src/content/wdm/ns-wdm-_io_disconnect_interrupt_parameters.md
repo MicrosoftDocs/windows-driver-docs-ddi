@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_DISCONNECT_INTERRUPT_PARAMETERS
-title: _IO_DISCONNECT_INTERRUPT_PARAMETERS
+title: "_IO_DISCONNECT_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The IO_DISCONNECT_INTERRUPT_PARAMETERS structure describes the parameters when unregistering an interrupt-handling routine with IoDisconnectInterruptEx.
 old-location: kernel\io_disconnect_interrupt_parameters.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], *PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, _IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], *PIO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, PIO_DISCONNECT_INTERRUPT_PARAMETERS, _IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], kernel.io_disconnect_interrupt_parameters, IO_DISCONNECT_INTERRUPT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_DISCONNECT_INTERRUPT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
+req.typenames: "*PIO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -176,9 +176,9 @@ CONNECT_FULLY_SPECIFIED
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
-
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
  
 

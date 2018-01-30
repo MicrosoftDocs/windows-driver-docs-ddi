@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._SUBSYSTEM_INFORMATION_TYPE
-title: _SUBSYSTEM_INFORMATION_TYPE
+title: "_SUBSYSTEM_INFORMATION_TYPE"
 author: windows-driver-content
 description: Indicates the type of subsystem for a process or thread. This enumeration is used in NtQueryInformationProcess and NtQueryInformationThread calls.
 old-location: kernel\subsystem_information_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SubsystemInformationTypeWin32, ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWin32, MaxSubsystemInformationType, kernel.subsystem_information_type, SubsystemInformationTypeWSL, SUBSYSTEM_INFORMATION_TYPE, _SUBSYSTEM_INFORMATION_TYPE, ntddk/MaxSubsystemInformationType, *PSUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWSL, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/SubsystemInformationTypeWSL, SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32, SubsystemInformationTypeWin32, SUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, ntddk/MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/SUBSYSTEM_INFORMATION_TYPE, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, *PSUBSYSTEM_INFORMATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	SUBSYSTEM_INFORMATION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PSUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE
+req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ---
 
 # _SUBSYSTEM_INFORMATION_TYPE enumeration

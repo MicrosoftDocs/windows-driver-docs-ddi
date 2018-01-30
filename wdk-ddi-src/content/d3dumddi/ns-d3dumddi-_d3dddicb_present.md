@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 086d95a3-1b3a-4e09-9a39-e1972e0e306c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_PRESENT, d3dumddi/D3DDDICB_PRESENT, D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], display.d3dddicb_present"
+ms.keywords: D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, _D3DDDICB_PRESENT, D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], display.d3dddicb_present, d3dumddi/D3DDDICB_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

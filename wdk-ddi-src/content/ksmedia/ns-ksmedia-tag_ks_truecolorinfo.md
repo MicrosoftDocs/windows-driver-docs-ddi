@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_TRUECOLORINFO, KS_TRUECOLORINFO, tag_KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], PKS_TRUECOLORINFO, *PKS_TRUECOLORINFO, stream.ks_truecolorinfo, ksmedia/PKS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices]
+ms.keywords: KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], *PKS_TRUECOLORINFO, tag_KS_TRUECOLORINFO, PKS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO, stream.ks_truecolorinfo, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, ksmedia/KS_TRUECOLORINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_TRUECOLORINFO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_TRUECOLORINFO, KS_TRUECOLORINFO
+req.typenames: KS_TRUECOLORINFO, *PKS_TRUECOLORINFO
 ---
 
 # tag_KS_TRUECOLORINFO structure

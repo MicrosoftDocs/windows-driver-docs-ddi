@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_CREATEALLOCATIONFLAGS, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags"
+ms.keywords: "_DXGK_CREATEALLOCATIONFLAGS, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], display.dxgk_createallocationflags, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

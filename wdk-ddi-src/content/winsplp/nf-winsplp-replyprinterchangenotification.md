@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.replyprinterchangenotification, ReplyPrinterChangeNotification function [Print Devices], winsplp/ReplyPrinterChangeNotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, ReplyPrinterChangeNotification
+ms.keywords: winsplp/ReplyPrinterChangeNotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, ReplyPrinterChangeNotification, print.replyprinterchangenotification, ReplyPrinterChangeNotification function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	ReplyPrinterChangeNotification
 product: Windows
 targetos: Windows
@@ -91,14 +91,14 @@ Optional. If not <b>NULL</b>, it receives spooler-supplied PRINTER_NOTIFY_INFO-p
 Optional. Caller-supplieid address of a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation). Can be <b>NULL</b> if no new notification information is being added.
 
 
-#### - fdwFlags
-
-One or more caller-supplied PRINTER_CHANGE_-prefixed flags, listed in the Microsoft Windows SDK documentation's description of <b>FindNextPrinterChangeNotification</b>.
-
-
 #### - hNotify [in]
 
 Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a> function.
+
+
+#### - fdwFlags
+
+One or more caller-supplied PRINTER_CHANGE_-prefixed flags, listed in the Microsoft Windows SDK documentation's description of <b>FindNextPrinterChangeNotification</b>.
 
 
 ## -returns

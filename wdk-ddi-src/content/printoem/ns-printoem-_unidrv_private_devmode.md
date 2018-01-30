@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._UNIDRV_PRIVATE_DEVMODE
-title: _UNIDRV_PRIVATE_DEVMODE
+title: "_UNIDRV_PRIVATE_DEVMODE"
 author: windows-driver-content
 description: The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
 old-location: print\unidrv_private_devmode.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UNIDRV_PRIVATE_DEVMODE, printoem/PUNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, printoem/UNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], *PUNIDRV_PRIVATE_DEVMODE, _UNIDRV_PRIVATE_DEVMODE
+ms.keywords: UNIDRV_PRIVATE_DEVMODE, _UNIDRV_PRIVATE_DEVMODE, printoem/PUNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, PUNIDRV_PRIVATE_DEVMODE, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, printoem/UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], *PUNIDRV_PRIVATE_DEVMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	UNIDRV_PRIVATE_DEVMODE
 product: Windows
 targetos: Windows

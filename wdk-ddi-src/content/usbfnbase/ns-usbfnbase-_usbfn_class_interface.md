@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INTERFACE
-title: _USBFN_CLASS_INTERFACE
+title: "_USBFN_CLASS_INTERFACE"
 author: windows-driver-content
 description: Describes an interface and its endpoints.
 old-location: buses\usbfn_class_interface.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D7173157-D532-4E71-A4E5-55A3B9626DB8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE, usbfnbase/PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], USBFN_CLASS_INTERFACE structure [Buses], usbfnbase/USBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE, buses.usbfn_class_interface
+ms.keywords: buses.usbfn_class_interface, _USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE structure [Buses], PUSBFN_CLASS_INTERFACE structure pointer [Buses], PUSBFN_CLASS_INTERFACE, usbfnbase/USBFN_CLASS_INTERFACE, usbfnbase/PUSBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_CLASS_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE
+req.typenames: "*PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE"
 req.product: Windows 10 or later.
 ---
 

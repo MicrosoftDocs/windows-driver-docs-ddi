@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C67EA467-D344-44D0-93E8-29D29A3A586B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt interface, OnD0ExitPreInterruptsDisabled method, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, wdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, OnD0ExitPreInterruptsDisabled
+ms.keywords: OnD0ExitPreInterruptsDisabled method, umdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, IPnpCallbackHardwareInterrupt, wudfddi/IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, wdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, OnD0ExitPreInterruptsDisabled, IPnpCallbackHardwareInterrupt interface, OnD0ExitPreInterruptsDisabled method, OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

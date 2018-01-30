@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d55c1e0-0458-414c-afd6-2fa2576ffa4a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestIsFrom32BitProcess, DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, PFN_WDFREQUESTISFROM32BITPROCESS, wdf.wdfrequestisfrom32bitprocess, WdfRequestIsFrom32BitProcess, kmdf.wdfrequestisfrom32bitprocess, WdfRequestIsFrom32BitProcess method
+ms.keywords: DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, kmdf.wdfrequestisfrom32bitprocess, WdfRequestIsFrom32BitProcess method, wdf.wdfrequestisfrom32bitprocess, PFN_WDFREQUESTISFROM32BITPROCESS, wdfrequest/WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestIsFrom32BitProcess
 product: Windows
 targetos: Windows

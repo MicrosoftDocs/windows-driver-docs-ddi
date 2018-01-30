@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_SET_MEDIA_PARAMETERS
-title: _TAPE_SET_MEDIA_PARAMETERS
+title: "_TAPE_SET_MEDIA_PARAMETERS"
 author: windows-driver-content
 description: The TAPE_SET_MEDIA_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_SET_MEDIA_PARAMS request to reset the block size of the media in a tape drive.
 old-location: storage\tape_set_media_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f038eb24-71d2-414c-ad7c-06cb1fa24070
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], ntddtape/PTAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS, ntddtape/TAPE_SET_MEDIA_PARAMETERS, _TAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS, storage.tape_set_media_parameters
+ms.keywords: ntddtape/PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, *PTAPE_SET_MEDIA_PARAMETERS, _TAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, storage.tape_set_media_parameters, ntddtape/TAPE_SET_MEDIA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddtape.h
-apiname: 
+apiname:
 -	TAPE_SET_MEDIA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS
+req.typenames: "*PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS"
 ---
 
 # _TAPE_SET_MEDIA_PARAMETERS structure

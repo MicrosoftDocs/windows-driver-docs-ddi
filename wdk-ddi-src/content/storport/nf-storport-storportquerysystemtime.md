@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml, storport/StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime
+ms.keywords: storage.storportquerysystemtime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml, StorPortQuerySystemTime routine [Storage Devices], StorPortQuerySystemTime, storport/StorPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortQuerySystemTime
 product: Windows
 targetos: Windows

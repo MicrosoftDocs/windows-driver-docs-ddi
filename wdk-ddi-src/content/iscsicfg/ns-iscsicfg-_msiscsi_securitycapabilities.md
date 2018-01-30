@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_SecurityCapabilities
-title: _MSiSCSI_SecurityCapabilities
+title: "_MSiSCSI_SecurityCapabilities"
 author: windows-driver-content
 description: The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator.
 old-location: storage\msiscsi_securitycapabilities.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], iscsicfg/PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
+ms.keywords: PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], *PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, _MSiSCSI_SecurityCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsicfg.h
-apiname: 
+apiname:
 -	MSiSCSI_SecurityCapabilities
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
+req.typenames: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities"
 ---
 
 # _MSiSCSI_SecurityCapabilities structure
@@ -109,9 +109,9 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
-
 <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
 
  
 

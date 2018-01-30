@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 76040e0d-a43c-4e3d-aaaa-b84fc2613603
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsValidOemCharacter, ifsk.rtlisvalidoemcharacter, RtlIsValidOemCharacter routine [Installable File System Drivers], rtlref_ebbaa5fc-63da-4eef-b8ac-be10a6e062a0.xml, ntifs/RtlIsValidOemCharacter
+ms.keywords: RtlIsValidOemCharacter, ifsk.rtlisvalidoemcharacter, ntifs/RtlIsValidOemCharacter, RtlIsValidOemCharacter routine [Installable File System Drivers], rtlref_ebbaa5fc-63da-4eef-b8ac-be10a6e062a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlIsValidOemCharacter
 product: Windows
 targetos: Windows

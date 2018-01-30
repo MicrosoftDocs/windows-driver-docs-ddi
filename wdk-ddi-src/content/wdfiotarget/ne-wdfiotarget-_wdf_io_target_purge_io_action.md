@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_PURGE_IO_ACTION
-title: _WDF_IO_TARGET_PURGE_IO_ACTION
+title: "_WDF_IO_TARGET_PURGE_IO_ACTION"
 author: windows-driver-content
 description: The WDF_IO_TARGET_PURGE_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetPurge to purge an I/O target.
 old-location: wdf\wdf_io_target_purge_io_action.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, _WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action, kmdf.wdf_io_target_purge_io_action, wdfiotarget/WdfIoTargetPurgeIoUndefined, WdfIoTargetPurgeIoUndefined
+ms.keywords: wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, kmdf.wdf_io_target_purge_io_action, WDF_IO_TARGET_PURGE_IO_ACTION, WdfIoTargetPurgeIoUndefined, wdfiotarget/WdfIoTargetPurgeIo, wdf.wdf_io_target_purge_io_action, _WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIoUndefined, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIoAndWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfiotarget.h
-apiname: 
+apiname:
 -	WDF_IO_TARGET_PURGE_IO_ACTION
 product: Windows
 targetos: Windows

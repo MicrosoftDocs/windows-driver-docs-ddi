@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B262D38-8BD6-43B5-96AB-6D311B8EBA88
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], storage.block_device_range_descriptor, PBLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR
+ms.keywords: "*PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], storage.block_device_range_descriptor, PBLOCK_DEVICE_RANGE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	BLOCK_DEVICE_RANGE_DESCRIPTOR
 product: Windows
 targetos: Windows

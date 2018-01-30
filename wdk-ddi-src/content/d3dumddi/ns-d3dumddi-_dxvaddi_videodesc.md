@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19121888-ad5c-4596-a7ec-a95fbffda685
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_videodesc, _DXVADDI_VIDEODESC, d3dumddi/DXVADDI_VIDEODESC, DXVADDI_VIDEODESC, DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml, DXVADDI_VIDEODESC structure [Display Devices]
+ms.keywords: DXVADDI_VIDEODESC, _DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc, DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,11 @@ typedef struct _DXVADDI_VIDEODESC {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_frequency.md">DXVADDI_FREQUENCY</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11_EAP_RESULT
-title: _DOT11_EAP_RESULT
+title: "_DOT11_EAP_RESULT"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_eap_result.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 90898f5c-ffc1-4e6c-a8f8-ba839f449082
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _DOT11_EAP_RESULT, DOT11_EAP_RESULT structure [Network Drivers Starting with Windows Vista], *PDOT11_EAP_RESULT, wlanihv/PDOT11_EAP_RESULT, DOT11_EAP_RESULT, netvista.dot11_eap_result, PDOT11_EAP_RESULT, wlanihv/DOT11_EAP_RESULT, PDOT11_EAP_RESULT structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_85e62087-2509-442a-b513-ae48577e0b77.xml
+ms.keywords: "_DOT11_EAP_RESULT, DOT11_EAP_RESULT structure [Network Drivers Starting with Windows Vista], PDOT11_EAP_RESULT structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_85e62087-2509-442a-b513-ae48577e0b77.xml, wlanihv/DOT11_EAP_RESULT, *PDOT11_EAP_RESULT, netvista.dot11_eap_result, PDOT11_EAP_RESULT, DOT11_EAP_RESULT, wlanihv/PDOT11_EAP_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	DOT11_EAP_RESULT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_EAP_RESULT, DOT11_EAP_RESULT
+req.typenames: DOT11_EAP_RESULT, *PDOT11_EAP_RESULT
 req.product: Windows 10 or later.
 ---
 

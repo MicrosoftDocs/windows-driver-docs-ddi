@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NFS_OPEN_ECP_CONTEXT
-title: _NFS_OPEN_ECP_CONTEXT
+title: "_NFS_OPEN_ECP_CONTEXT"
 author: windows-driver-content
 description: The NFS_OPEN_ECP_CONTEXT structure is used by the Network File System (NFS) server to open files in response to client requests.
 old-location: ifsk\nfs_open_ecp_context.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3600dca-d246-41b5-99b4-4054e677b03b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PPNFS_OPEN_ECP_CONTEXT, ntifs/PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ntifs/PPNFS_OPEN_ECP_CONTEXT, ntifs/NFS_OPEN_ECP_CONTEXT, _NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, NFS_OPEN_ECP_CONTEXT, ifsk.nfs_open_ecp_context, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT
+ms.keywords: NFS_OPEN_ECP_CONTEXT, ntifs/NFS_OPEN_ECP_CONTEXT, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT, ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, ntifs/PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], *PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ntifs/PPNFS_OPEN_ECP_CONTEXT, _NFS_OPEN_ECP_CONTEXT, ifsk.nfs_open_ecp_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	NFS_OPEN_ECP_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: PPNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT
+req.typenames: NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT
 ---
 
 # _NFS_OPEN_ECP_CONTEXT structure

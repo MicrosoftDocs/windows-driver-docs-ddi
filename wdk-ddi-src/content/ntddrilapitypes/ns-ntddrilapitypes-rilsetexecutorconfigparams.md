@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: de392c8c-3153-48e8-85ad-dc1a5ed2812c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS, netvista.rilsetexecutorconfigparams, *LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETEXECUTORCONFIGPARAMS, ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS, netvista.rilsetexecutorconfigparams, RILSETEXECUTORCONFIGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSETEXECUTORCONFIGPARAMS
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgateaddoninputtoor, avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, KsGateAddOnInputToOr function [Streaming Media Devices], KsGateAddOnInputToOr, ks/KsGateAddOnInputToOr
+ms.keywords: stream.ksgateaddoninputtoor, ks/KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices], avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, KsGateAddOnInputToOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateAddOnInputToOr
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputon.m
 
 <a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
 <a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
  
 

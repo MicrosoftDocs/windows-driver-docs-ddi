@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5250b7d-a996-4591-b289-cfb1af00e7da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwFlushKey routine [Kernel-Mode Driver Architecture], k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/ZwFlushKey, wdm/NtFlushKey, NtFlushKey, ZwFlushKey
+ms.keywords: k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/NtFlushKey, NtFlushKey, ZwFlushKey, wdm/ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwFlushKey
 -	NtFlushKey
 product: Windows
@@ -92,13 +92,13 @@ You can flush changes made by <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
  
 

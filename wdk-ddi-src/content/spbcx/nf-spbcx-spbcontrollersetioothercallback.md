@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback
+ms.keywords: spbcx/SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname: 
+apiname:
 -	SpbControllerSetIoOtherCallback
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 

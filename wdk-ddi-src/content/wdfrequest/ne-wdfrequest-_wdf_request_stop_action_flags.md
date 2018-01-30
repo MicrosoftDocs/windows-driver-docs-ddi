@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_STOP_ACTION_FLAGS
-title: _WDF_REQUEST_STOP_ACTION_FLAGS
+title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration type defines flags that the framework passes to a driver's EvtIoStop callback function.
 old-location: wdf\wdf_request_stop_action_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 01f95aee-60aa-4d6f-88a9-c0fa6ea6a09a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopActionSuspend, kmdf.wdf_request_stop_action_flags, wdfrequest/WdfRequestStopRequestCancelable, wdfrequest/WdfRequestStopActionPurge, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WdfRequestStopActionInvalid, DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionPurge, _WDF_REQUEST_STOP_ACTION_FLAGS, wdf.wdf_request_stop_action_flags, wdfrequest/WdfRequestStopActionSuspend, WdfRequestStopActionInvalid, WdfRequestStopRequestCancelable
+ms.keywords: WdfRequestStopActionPurge, wdfrequest/WdfRequestStopActionInvalid, _WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionSuspend, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wdfrequest/WdfRequestStopActionPurge, wdfrequest/WdfRequestStopRequestCancelable, DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, wdfrequest/WdfRequestStopActionSuspend, WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionInvalid, wdf.wdf_request_stop_action_flags, kmdf.wdf_request_stop_action_flags, WdfRequestStopRequestCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_STOP_ACTION_FLAGS
 product: Windows
 targetos: Windows

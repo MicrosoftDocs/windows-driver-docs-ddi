@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceInitSetEventCallbacks, buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses]
+ms.keywords: UcxUsbDeviceInitSetEventCallbacks method [Buses], buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	UcxUsbDeviceInitSetEventCallbacks
 product: Windows
 targetos: Windows

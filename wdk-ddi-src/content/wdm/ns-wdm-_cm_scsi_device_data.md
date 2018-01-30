@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_SCSI_DEVICE_DATA
-title: _CM_SCSI_DEVICE_DATA
+title: "_CM_SCSI_DEVICE_DATA"
 author: windows-driver-content
 description: The CM_SCSI_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a SCSI HBA if the system can collect this information during the boot process.
 old-location: kernel\cm_scsi_device_data.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5cb213c9-24c8-456a-a868-87f1577a8d44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CM_SCSI_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SCSI_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], PCM_SCSI_DEVICE_DATA, kstruct_a_af6c0c9a-2191-45f9-ba0f-20c54a202e0a.xml, kernel.cm_scsi_device_data, CM_SCSI_DEVICE_DATA, _CM_SCSI_DEVICE_DATA, wdm/CM_SCSI_DEVICE_DATA, *PCM_SCSI_DEVICE_DATA, wdm/PCM_SCSI_DEVICE_DATA
+ms.keywords: PCM_SCSI_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/CM_SCSI_DEVICE_DATA, kstruct_a_af6c0c9a-2191-45f9-ba0f-20c54a202e0a.xml, _CM_SCSI_DEVICE_DATA, wdm/PCM_SCSI_DEVICE_DATA, *PCM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA structure [Kernel-Mode Driver Architecture], CM_SCSI_DEVICE_DATA, PCM_SCSI_DEVICE_DATA, kernel.cm_scsi_device_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	CM_SCSI_DEVICE_DATA
 product: Windows
 targetos: Windows
@@ -87,11 +87,11 @@ The SCSI bus identifier used by the ARC firmware.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

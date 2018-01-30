@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.messagebox_params, MESSAGEBOX_PARAMS structure [Print Devices], winsplp/PMESSAGEBOX_PARAMS, *PMESSAGEBOX_PARAMS, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, MESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS structure pointer [Print Devices], winsplp/MESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS
+ms.keywords: PMESSAGEBOX_PARAMS structure pointer [Print Devices], winsplp/MESSAGEBOX_PARAMS, print.messagebox_params, winsplp/PMESSAGEBOX_PARAMS, *PMESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], PMESSAGEBOX_PARAMS, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, MESSAGEBOX_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	MESSAGEBOX_PARAMS
 product: Windows
 targetos: Windows

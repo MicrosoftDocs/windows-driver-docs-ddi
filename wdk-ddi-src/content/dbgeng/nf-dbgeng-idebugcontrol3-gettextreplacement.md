@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d5531ac-afa1-4928-8ea6-8be4663cf06a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetTextReplacement, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, IDebugControl3, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, GetTextReplacement, debugger.gettextreplacement, GetTextReplacement method [Windows Debugging], IDebugControl2::GetTextReplacement
+ms.keywords: GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement, GetTextReplacement method [Windows Debugging], IDebugControl3::GetTextReplacement, GetTextReplacement, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, dbgeng/IDebugControl2::GetTextReplacement, IDebugControl2::GetTextReplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugControl3.GetTextReplacement
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetTextReplacement method
@@ -150,19 +150,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

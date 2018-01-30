@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
-title: _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
+title: "_DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS"
 author: windows-driver-content
 description: The parameters for a received invitation response are specified in a DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_RECEIVED_INVITATION_REQUEST indication.
 old-location: netvista\dot11_received_invitation_request_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B0937809-1C8D-45E0-AA33-5997563E894C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, netvista.dot11_received_invitation_request_parameters, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
+ms.keywords: "*PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, windot11/DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_received_invitation_request_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS
 product: Windows
 targetos: Windows

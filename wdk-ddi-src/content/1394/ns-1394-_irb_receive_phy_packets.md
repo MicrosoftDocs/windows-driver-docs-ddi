@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_RECEIVE_PHY_PACKETS
-title: _IRB_RECEIVE_PHY_PACKETS
+title: "_IRB_RECEIVE_PHY_PACKETS"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a ReceivePhyPackets request.
 old-location: ieee\irb_req_receive_phy_packets.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE160EB4-EDBD-4783-A02D-F82D2842ADD0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, _IRB_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], IEEE.irb_req_receive_phy_packets
+ms.keywords: "_IRB_RECEIVE_PHY_PACKETS, 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], IRB_REQ_RECEIVE_PHY_PACKETS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_RECEIVE_PHY_PACKETS
 product: Windows
 targetos: Windows

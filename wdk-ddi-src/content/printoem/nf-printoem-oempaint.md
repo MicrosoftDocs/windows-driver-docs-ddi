@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMPaint function [Print Devices], print.oempaint, printoem/OEMPaint, OEMPaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml
+ms.keywords: print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint, OEMPaint, OEMPaint function [Print Devices], print.oempaint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMPaint
 product: Windows
 targetos: Windows

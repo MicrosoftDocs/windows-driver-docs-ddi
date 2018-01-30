@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxregistercrashdumpdevice, PoFxRegisterCrashdumpDevice, wdm/PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PoFxRegisterCrashdumpDevice, kernel.pofxregistercrashdumpdevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], PoFxRegisterCrashdumpDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	PoFxRegisterCrashdumpDevice
 product: Windows
 targetos: Windows

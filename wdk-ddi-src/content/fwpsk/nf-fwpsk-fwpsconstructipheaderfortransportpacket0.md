@@ -2,13 +2,13 @@
 UID: NF:fwpsk.FwpsConstructIpHeaderForTransportPacket0
 title: FwpsConstructIpHeaderForTransportPacket0 function
 author: windows-driver-content
-description: The FwpsConstructIpHeaderForTransportPacket0 function is called by a callout to construct a new IP header or to rebuild a preexisting IP packet header for only one net buffer.Note  FwpsConstructIpHeaderForTransportPacket0 is a specific version of FwpsConstructIpHeaderForTransportPacket. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. 
+description: The FwpsConstructIpHeaderForTransportPacket0 function is called by a callout to construct a new IP header or to rebuild a preexisting IP packet header for only one net buffer.Note  FwpsConstructIpHeaderForTransportPacket0 is a specific version of FwpsConstructIpHeaderForTransportPacket. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsconstructipheaderfortransportpacket0.htm
 old-project: netvista
 ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsConstructIpHeaderForTransportPacket0, fwpsk/FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
+ms.keywords: fwpsk/FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], FwpsConstructIpHeaderForTransportPacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml, netvista.fwpsconstructipheaderfortransportpacket0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsConstructIpHeaderForTransportPacket0
 product: Windows
 targetos: Windows
@@ -103,6 +103,16 @@ One of the following address families:
      
 
 
+
+
+#### AF_INET
+
+The IPv4 address family.
+
+
+#### AF_INET6
+
+The IPv6 address family.
 
 
 ### -param sourceAddress [in]
@@ -190,16 +200,6 @@ The index of the subinterface on which the original packet data was received. A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for this
      parameter if the packet is to be injected into the same subinterface where the original packet was
      indicated. This parameter is optional and can be zero.
-
-
-##### - addressFamily.AF_INET6
-
-The IPv6 address family.
-
-
-##### - addressFamily.AF_INET
-
-The IPv4 address family.
 
 
 #### - headerIncludeHeaderSize [in]
@@ -331,21 +331,21 @@ Call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 <mshelp:link keywords="netvista.fwpsinjecttransportreceiveasync0" tabindex="0"><b>
    FwpsInjectTransportReceiveAsync0</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
 <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
    FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
  
 

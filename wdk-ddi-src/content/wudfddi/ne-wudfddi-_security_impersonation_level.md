@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi._SECURITY_IMPERSONATION_LEVEL
-title: _SECURITY_IMPERSONATION_LEVEL
+title: "_SECURITY_IMPERSONATION_LEVEL"
 author: windows-driver-content
 description: The SECURITY_IMPERSONATION_LEVEL enumeration contains values that identify security impersonation levels.
 old-location: wdf\security_impersonation_level.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.security_impersonation_level, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, SecurityDelegation, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityImpersonation, SECURITY_IMPERSONATION_LEVEL, SecurityAnonymous, SecurityIdentification, wudfddi/SecurityIdentification, wudfddi/SecurityAnonymous, _SECURITY_IMPERSONATION_LEVEL, wdf.security_impersonation_level, wudfddi/SecurityDelegation, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityImpersonation
+ms.keywords: SecurityIdentification, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityDelegation, wudfddi/SecurityIdentification, wudfddi/SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, _SECURITY_IMPERSONATION_LEVEL, SecurityImpersonation, umdf.security_impersonation_level, SecurityAnonymous, wdf.security_impersonation_level, wudfddi/SecurityDelegation, wudfddi/SecurityImpersonation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	SECURITY_IMPERSONATION_LEVEL
 product: Windows
 targetos: Windows

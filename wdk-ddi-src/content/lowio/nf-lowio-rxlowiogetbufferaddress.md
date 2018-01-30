@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxlowiogetbufferaddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml, RxLowIoGetBufferAddress function [Installable File System Drivers], RxLowIoGetBufferAddress, lowio/RxLowIoGetBufferAddress
+ms.keywords: RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml, RxLowIoGetBufferAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	lowio.h
-apiname: 
+apiname:
 -	RxLowIoGetBufferAddress
 product: Windows
 targetos: Windows
@@ -92,9 +92,9 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
-
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
 

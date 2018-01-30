@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._SETRESULT_INFO
-title: _SETRESULT_INFO
+title: "_SETRESULT_INFO"
 author: windows-driver-content
 description: The SETRESULT_INFO structure is used as an input parameter to an application's PFNPROPSHEETUI-typed callback function.
 old-location: print\setresult_info.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PSETRESULT_INFO, PSETRESULT_INFO, compstui/PSETRESULT_INFO, SETRESULT_INFO structure [Print Devices], _SETRESULT_INFO, compstui/SETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, SETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], print.setresult_info
+ms.keywords: compstui/PSETRESULT_INFO, print.setresult_info, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, _SETRESULT_INFO, *PSETRESULT_INFO, compstui/SETRESULT_INFO, PSETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], SETRESULT_INFO, SETRESULT_INFO structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	SETRESULT_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # _SETRESULT_INFO structure

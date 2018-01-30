@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnPrepareHardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface, OnPrepareHardware method, OnPrepareHardware method, IPnpCallbackHardware2::OnPrepareHardware, wdf.ipnpcallbackhardware2_onpreparehardware, umdf.ipnpcallbackhardware2_onpreparehardware, IPnpCallbackHardware2
+ms.keywords: umdf.ipnpcallbackhardware2_onpreparehardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware2 interface, OnPrepareHardware method, wdf.ipnpcallbackhardware2_onpreparehardware, OnPrepareHardware, IPnpCallbackHardware2, OnPrepareHardware method, IPnpCallbackHardware2 interface, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IPnpCallbackHardware2.OnPrepareHardware
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

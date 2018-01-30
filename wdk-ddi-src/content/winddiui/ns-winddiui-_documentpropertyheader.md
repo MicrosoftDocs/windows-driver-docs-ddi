@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCUMENTPROPERTYHEADER
-title: _DOCUMENTPROPERTYHEADER
+title: "_DOCUMENTPROPERTYHEADER"
 author: windows-driver-content
 description: The DOCUMENTPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDocumentPropertySheets function.
 old-location: print\documentpropertyheader.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5aaf1f90-fb75-4e5a-9316-9212a21b8fed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.documentpropertyheader, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, PDOCUMENTPROPERTYHEADER, _DOCUMENTPROPERTYHEADER, winddiui/DOCUMENTPROPERTYHEADER, winddiui/PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], *PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices]
+ms.keywords: print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, PDOCUMENTPROPERTYHEADER, print.documentpropertyheader, DOCUMENTPROPERTYHEADER, winddiui/DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER, _DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], winddiui/PDOCUMENTPROPERTYHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DOCUMENTPROPERTYHEADER
 product: Windows
 targetos: Windows
-req.typenames: *PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER
+req.typenames: "*PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -236,11 +236,11 @@ The input value in the <b>cbOut</b> member is not necessarily equal to the size 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
 <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
  
 

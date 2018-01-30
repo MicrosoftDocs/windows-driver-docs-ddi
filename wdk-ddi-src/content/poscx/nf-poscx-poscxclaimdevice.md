@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxClaimDevice, pos.poscxclaimdevice, poscx/PosCxClaimDevice, PosCxClaimDevice function
+ms.keywords: poscx/PosCxClaimDevice, pos.poscxclaimdevice, PosCxClaimDevice function, PosCxClaimDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxClaimDevice
 product: Windows
 targetos: Windows

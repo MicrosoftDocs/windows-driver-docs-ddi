@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58962146-a16d-4827-9cef-73b3a438be35
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, KeAreApcsDisabled, kernel.keareapcsdisabled, KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], wdm/KeAreApcsDisabled
+ms.keywords: KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, KeAreApcsDisabled, kernel.keareapcsdisabled, wdm/KeAreApcsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeAreApcsDisabled
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeAreApcsDisabled function
@@ -82,9 +82,9 @@ A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to det
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+<a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
 

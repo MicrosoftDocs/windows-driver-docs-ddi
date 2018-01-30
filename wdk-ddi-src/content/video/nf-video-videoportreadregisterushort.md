@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fdf5d153-74ca-437e-82ab-b85c89dc9fd1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortReadRegisterUshort, VideoPortReadRegisterUshort, display.videoportreadregisterushort, VideoPort_Functions_c6ee8be3-3b15-4f22-8008-63d132ec7379.xml, VideoPortReadRegisterUshort function [Display Devices]
+ms.keywords: VideoPortReadRegisterUshort, VideoPort_Functions_c6ee8be3-3b15-4f22-8008-63d132ec7379.xml, video/VideoPortReadRegisterUshort, display.videoportreadregisterushort, VideoPortReadRegisterUshort function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadRegisterUshort function

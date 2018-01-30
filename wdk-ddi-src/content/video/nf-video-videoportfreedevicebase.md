@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b165237-f6fb-449c-878d-0ee09076d203
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_cdbada9a-c5be-48e3-90e7-9414a055350c.xml, VideoPortFreeDeviceBase, VideoPortFreeDeviceBase function [Display Devices], display.videoportfreedevicebase, video/VideoPortFreeDeviceBase
+ms.keywords: video/VideoPortFreeDeviceBase, display.videoportfreedevicebase, VideoPortFreeDeviceBase function [Display Devices], VideoPort_Functions_cdbada9a-c5be-48e3-90e7-9414a055350c.xml, VideoPortFreeDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortFreeDeviceBase function
@@ -105,13 +106,13 @@ Call <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyA
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

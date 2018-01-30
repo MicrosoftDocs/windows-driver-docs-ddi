@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbCopyNExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCopyNExA, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyNEx, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml, RtlStringCbCopyNExA, RtlStringCbCopyNExW, kernel.rtlstringcbcopynex
+ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCopyNExW, ntstrsafe/RtlStringCbCopyNExA, RtlStringCbCopyNExA, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNExW, STRSAFE_FILL_ON_FAILURE, kernel.rtlstringcbcopynex, STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyNEx, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCbCopyNExW
 -	RtlStringCbCopyNExA
 -	RtlStringCbCopyNExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbCopyNExA function

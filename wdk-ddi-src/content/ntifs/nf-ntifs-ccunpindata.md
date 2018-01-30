@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a06bbe25-9841-4aeb-9d51-257dd1472027
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccunpindata, ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, CcUnpinData, ntifs/CcUnpinData, CcUnpinData routine [Installable File System Drivers]
+ms.keywords: ifsk.ccunpindata, ntifs/CcUnpinData, CcUnpinData, CcUnpinData routine [Installable File System Drivers], ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcUnpinData
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
+
 <a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>
 
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-<a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
 
  
 

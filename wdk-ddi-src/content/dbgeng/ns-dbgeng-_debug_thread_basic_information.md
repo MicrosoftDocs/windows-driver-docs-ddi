@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e964ed63-6c00-4308-955c-f8a99490a248
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_thread_basic_information, _DEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging], dbgeng/DEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], dbgeng/PDEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION, Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, DEBUG_THREAD_BASIC_INFORMATION, *PDEBUG_THREAD_BASIC_INFORMATION
+ms.keywords: debugger.debug_thread_basic_information, DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging], DEBUG_THREAD_BASIC_INFORMATION, dbgeng/DEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], *PDEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION, _DEBUG_THREAD_BASIC_INFORMATION, Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, dbgeng/PDEBUG_THREAD_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

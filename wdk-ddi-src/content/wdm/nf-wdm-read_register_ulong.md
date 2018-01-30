@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a462734c-cac6-4de0-95c1-810766ef1644
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, wdm/READ_REGISTER_ULONG, READ_REGISTER_ULONG, kernel.read_register_ulong, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.read_register_ulong, READ_REGISTER_ULONG, k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, wdm/READ_REGISTER_ULONG, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	READ_REGISTER_ULONG
 product: Windows
 targetos: Windows

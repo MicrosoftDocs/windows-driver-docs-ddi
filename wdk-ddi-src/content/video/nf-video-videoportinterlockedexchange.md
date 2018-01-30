@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a01f1552-7bc5-4ae7-a195-c4cfc3553595
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortInterlockedExchange, VideoPortInterlockedExchange function [Display Devices], VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, display.videoportinterlockedexchange, video/VideoPortInterlockedExchange
+ms.keywords: VideoPortInterlockedExchange function [Display Devices], VideoPortInterlockedExchange, video/VideoPortInterlockedExchange, VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, display.videoportinterlockedexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortInterlockedExchange function
@@ -98,9 +99,9 @@ When the buffer is not being read from or written to, the lock variable should h
 
 <a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
 
-<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
-
 <a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
+
+<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
 
  
 

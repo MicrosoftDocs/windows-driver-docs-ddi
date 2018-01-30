@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_AKAP_CHALLENGE
-title: _WWAN_AUTH_AKAP_CHALLENGE
+title: "_WWAN_AUTH_AKAP_CHALLENGE"
 author: windows-driver-content
 description: The WWAN_AUTH_AKAP_CHALLENGE structure represents an authentication challenge using the AKA' method.
 old-location: netvista\wwan_auth_akap_challenge.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0C1862D6-1252-4CF7-926A-C4647D545255
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE, netvista.wwan_auth_akap_challenge, WWAN_AUTH_AKAP_CHALLENGE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_AKAP_CHALLENGE
+ms.keywords: PWWAN_AUTH_AKAP_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_AKAP_CHALLENGE, wwan/PWWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE, netvista.wwan_auth_akap_challenge, WWAN_AUTH_AKAP_CHALLENGE structure [Network Drivers Starting with Windows Vista], PWWAN_AUTH_AKAP_CHALLENGE, _WWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_AKAP_CHALLENGE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE
+req.typenames: "*PWWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE"
 req.product: Windows 10 or later.
 ---
 

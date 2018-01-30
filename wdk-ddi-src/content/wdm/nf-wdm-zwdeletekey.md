@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, NtDeleteKey, ZwDeleteKey, wdm/ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], kernel.zwdeletekey, wdm/NtDeleteKey
+ms.keywords: kernel.zwdeletekey, ZwDeleteKey, k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, NtDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], wdm/NtDeleteKey, wdm/ZwDeleteKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwDeleteKey
 -	NtDeleteKey
 product: Windows
@@ -95,11 +95,11 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
  
 

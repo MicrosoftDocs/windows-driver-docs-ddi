@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_SS_CHARACTERISTICS
-title: _NDIS_MINIPORT_SS_CHARACTERISTICS
+title: "_NDIS_MINIPORT_SS_CHARACTERISTICS"
 author: windows-driver-content
 description: The NDIS_MINIPORT_SS_CHARACTERISTICS structure specifies the pointers to a miniport driver's NDIS selective suspend handler functions. These functions are called by NDIS to issue idle notifications to the driver during a selective suspend operation.
 old-location: netvista\ndis_miniport_ss_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 325E5717-6B84-45AE-85D4-BA1839DB76A2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics, *PNDIS_MINIPORT_SS_CHARACTERISTICS
+ms.keywords: ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, _NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics, PNDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_MINIPORT_SS_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_MINIPORT_SS_CHARACTERISTICS, *PNDIS_MINIPORT_SS_CHARACTERISTICS
+req.typenames: "*PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS"
 ---
 
 # _NDIS_MINIPORT_SS_CHARACTERISTICS structure
@@ -82,6 +82,13 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+#### NDIS_MINIPORT_SS_CHARACTERISTICS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_SS_CHARACTERISTICS_REVISION_1.
+
+
 ### -field Flags
 
  A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
@@ -95,13 +102,6 @@ A pointer to the miniport driver's <a href="..\ndis\nc-ndis-miniport_idle_notifi
 ### -field CancelIdleNotificationHandler
 
 A pointer to the miniport driver's <a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a> function.
-
-
-##### - Header.NDIS_MINIPORT_SS_CHARACTERISTICS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_SS_CHARACTERISTICS_REVISION_1.
 
 
 ## -remarks
@@ -125,9 +125,9 @@ The miniport driver  then calls <a href="..\ndis\nf-ndis-ndissetoptionalhandlers
 
 <a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
 <a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 

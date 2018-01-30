@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaFeature, print.iprintschemafeature_getoption, IPrintSchemaFeature::GetOption, IPrintSchemaFeature interface [Print Devices], GetOption method, GetOption method [Print Devices], IPrintSchemaFeature interface, GetOption, GetOption method [Print Devices], printerextension/IPrintSchemaFeature::GetOption
+ms.keywords: IPrintSchemaFeature, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption, IPrintSchemaFeature interface [Print Devices], GetOption method, GetOption, IPrintSchemaFeature::GetOption, GetOption method [Print Devices], IPrintSchemaFeature interface, GetOption method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaFeature.GetOption
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
  
 

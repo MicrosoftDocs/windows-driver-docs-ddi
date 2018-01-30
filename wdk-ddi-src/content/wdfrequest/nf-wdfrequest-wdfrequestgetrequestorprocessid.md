@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetrequestorprocessid, WdfRequestGetRequestorProcessId method, wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId
+ms.keywords: wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid, WdfRequestGetRequestorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfRequestGetRequestorProcessId
 product: Windows
 targetos: Windows

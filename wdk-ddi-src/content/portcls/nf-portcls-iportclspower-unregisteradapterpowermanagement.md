@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4c8734b1-d7f5-476b-a85f-1d3f4df888b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iportclspower_unregisteradapterpowermanagement, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, portcls/IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method, IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower
+ms.keywords: UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, portcls/IPortClsPower::UnregisterAdapterPowerManagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower, UnregisterAdapterPowerManagement, audio.iportclspower_unregisteradapterpowermanagement, IPortClsPower::UnregisterAdapterPowerManagement, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,7 @@ NTSTATUS UnregisterAdapterPowerManagement(
 
 #### - DeviceObject [in]
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
@@ -96,9 +96,9 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

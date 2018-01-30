@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_CONTROLLER_INTERFACE
-title: _IDE_CONTROLLER_INTERFACE
+title: "_IDE_CONTROLLER_INTERFACE"
 author: windows-driver-content
 description: The IDE_CONTROLLER_INTERFACE structure is used to pass controller configuration information between the port driver and the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_controller_interface.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cb18f7d9-f9e8-436d-8d61-3641730bd8a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], irb/PIDE_CONTROLLER_INTERFACE, irb/IDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices], _IDE_CONTROLLER_INTERFACE, structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml, PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE, storage.ide_controller_interface, *PIDE_CONTROLLER_INTERFACE
+ms.keywords: structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml, irb/PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices], irb/IDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], _IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE, storage.ide_controller_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDE_CONTROLLER_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE
+req.typenames: IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE
 ---
 
 # _IDE_CONTROLLER_INTERFACE structure

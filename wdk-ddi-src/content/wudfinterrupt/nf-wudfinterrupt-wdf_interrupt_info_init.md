@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFFE19FB-289C-4002-AB07-AE342D855B20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_interrupt_info_init, WDF_INTERRUPT_INFO_INIT, wudfinterrupt/WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function, wdf.wdf_interrupt_info_init_umdf
+ms.keywords: wdf.wdf_interrupt_info_init_umdf, wudfinterrupt/WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function, WDF_INTERRUPT_INFO_INIT, umdf.wdf_interrupt_info_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_INFO_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUI interface [Print Devices], UpgradePrinter method, UpgradePrinter method [Print Devices], IPrintOemUI interface, UpgradePrinter, UpgradePrinter method [Print Devices], IPrintOemUI, IPrintOemUI::UpgradePrinter, print.iprintoemui_upgradeprinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml, prcomoem/IPrintOemUI::UpgradePrinter
+ms.keywords: UpgradePrinter method [Print Devices], IPrintOemUI interface, UpgradePrinter method [Print Devices], IPrintOemUI, IPrintOemUI::UpgradePrinter, prcomoem/IPrintOemUI::UpgradePrinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml, print.iprintoemui_upgradeprinter, UpgradePrinter, IPrintOemUI interface [Print Devices], UpgradePrinter method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.UpgradePrinter
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 08140a38-19dd-4fce-8659-ab5eb3257f2f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::OutputPromptVaList, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl interface, IDebugControl3::OutputPromptVaList, IDebugControl3, dbgeng/IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, dbgeng/IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, IDebugControl interface [Windows Debugging], OutputPromptVaList method, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, debugger.outputpromptvalist, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface [Windows Debugging], OutputPromptVaList method, IDebugControl::OutputPromptVaList
+ms.keywords: IDebugControl3, dbgeng/IDebugControl::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl3::OutputPromptVaList, IDebugControl3 interface [Windows Debugging], OutputPromptVaList method, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList method [Windows Debugging], IDebugControl interface, OutputPromptVaList method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::OutputPromptVaList, OutputPromptVaList method [Windows Debugging], debugger.outputpromptvalist, dbgeng/IDebugControl3::OutputPromptVaList, IDebugControl interface [Windows Debugging], OutputPromptVaList method, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl2::OutputPromptVaList, IDebugControl2 interface [Windows Debugging], OutputPromptVaList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputPromptVaList
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::OutputPromptVaList method
@@ -299,17 +299,17 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

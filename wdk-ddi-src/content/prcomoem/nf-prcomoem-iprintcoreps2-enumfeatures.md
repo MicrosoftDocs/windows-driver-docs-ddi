@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCorePS2 interface [Print Devices], EnumFeatures method, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2::EnumFeatures, IPrintCorePS2, prcomoem/IPrintCorePS2::EnumFeatures
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, IPrintCorePS2 interface [Print Devices], EnumFeatures method, print.iprintcoreps2_enumfeatures, IPrintCorePS2, EnumFeatures method [Print Devices], IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCorePS2.EnumFeatures
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -173,9 +173,9 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
  
 

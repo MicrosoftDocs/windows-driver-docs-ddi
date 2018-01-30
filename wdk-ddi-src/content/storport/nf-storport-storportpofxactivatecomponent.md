@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxActivateComponent, storage.storportpofxactivatecomponent, StorPortPoFxActivateComponent, StorPortPoFxActivateComponent routine [Storage Devices]
+ms.keywords: StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent, StorPortPoFxActivateComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: IRQL <= DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	storport.lib
 -	storport.dll
-apiname: 
+apiname:
 -	StorPortPoFxActivateComponent
 product: Windows
 targetos: Windows
@@ -197,11 +197,11 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-
 <a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._INTERFACE_TYPE
-title: _INTERFACE_TYPE
+title: "_INTERFACE_TYPE"
 author: windows-driver-content
 description: The INTERFACE_TYPE enumeration indicates the bus type.
 old-location: kernel\interface_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/Vmcs, *PINTERFACE_TYPE, wdm/MPIBus, MaximumInterfaceType, wdm/MPSABus, wdm/PCIBus, PINTERFACE_TYPE, Isa, wdm/Internal, MicroChannel, wdm/Eisa, PCMCIABus, wdm/MaximumInterfaceType, wdm/Isa, wdm/InterfaceTypeUndefined, CBus, InternalPowerBus, ACPIBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], PCIBus, wdm/InternalPowerBus, MPIBus, kernel.interface_type, _INTERFACE_TYPE, MPSABus, Vmcs, wdm/ProcessorInternal, PNPBus, wdm/NuBus, Internal, TurboChannel, PNPISABus, Eisa, wdm/PNPBus, wdm/PCMCIABus, wdm/PINTERFACE_TYPE, wdm/TurboChannel, ProcessorInternal, wdm/PNPISABus, InterfaceTypeUndefined, wdm/MicroChannel, wdm/INTERFACE_TYPE, VMEBus, wdm/ACPIBus, wdm/VMEBus, wdm/CBus, INTERFACE_TYPE, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, NuBus
+ms.keywords: Vmcs, wdm/Internal, NuBus, wdm/PNPISABus, Isa, MicroChannel, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], Internal, wdm/Isa, wdm/InternalPowerBus, PNPBus, wdm/MPIBus, wdm/VMEBus, *PINTERFACE_TYPE, PCIBus, PINTERFACE_TYPE, wdm/PCIBus, wdm/PNPBus, PCMCIABus, wdm/ACPIBus, INTERFACE_TYPE, wdm/ProcessorInternal, MPIBus, wdm/TurboChannel, wdm/INTERFACE_TYPE, TurboChannel, wdm/Eisa, Eisa, wdm/NuBus, wdm/Vmcs, MaximumInterfaceType, wdm/MicroChannel, _INTERFACE_TYPE, wdm/MaximumInterfaceType, wdm/InterfaceTypeUndefined, wdm/CBus, wdm/PCMCIABus, wdm/MPSABus, VMEBus, ACPIBus, CBus, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, PNPISABus, ProcessorInternal, MPSABus, InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PINTERFACE_TYPE, kernel.interface_type, InterfaceTypeUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	INTERFACE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PINTERFACE_TYPE, INTERFACE_TYPE
+req.typenames: "*PINTERFACE_TYPE, INTERFACE_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -189,17 +189,17 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
-
 <a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
  
 

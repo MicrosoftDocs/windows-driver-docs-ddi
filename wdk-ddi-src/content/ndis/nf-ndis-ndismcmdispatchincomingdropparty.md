@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml
+ms.keywords: NdisMCmDispatchIncomingDropParty, ndis/NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], netvista.ndismcmdispatchincomingdropparty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmDispatchIncomingDropParty
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDispatchIncomingDropParty macro
@@ -93,6 +93,12 @@ TBD
 
 
 
+#### - DropStatus [in]
+
+Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
+     simply requested that its connection be closed.
+
+
 #### - NdisPartyHandle [in]
 
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
@@ -101,23 +107,17 @@ Specifies the handle that identifies the party to be dropped from the multipoint
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
 
 
-#### - DropStatus [in]
+#### - Buffer [in, optional]
 
-Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
-     simply requested that its connection be closed.
+Pointer to a caller-allocated resident buffer containing additional protocol-specific data
+     received from the remote party, if any. Depending on the underlying medium, this pointer can be
+     <b>NULL</b>.
 
 
 #### - Size [in]
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific data
-     received from the remote party, if any. Depending on the underlying medium, this pointer can be
-     <b>NULL</b>.
 
 
 ## -remarks
@@ -155,17 +155,17 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
 <mshelp:link keywords="netvista.ndiscmdispatchincomingdropparty" tabindex="0"><b>
    NdisCmDispatchIncomingDropParty</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
-   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+<mshelp:link keywords="netvista.ndismcmdispatchincomingclosecall" tabindex="0"><b>
+   NdisMCmDispatchIncomingCloseCall</b></mshelp:link>
 
  
 

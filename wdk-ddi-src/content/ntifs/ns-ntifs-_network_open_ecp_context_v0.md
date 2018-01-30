@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_OPEN_ECP_CONTEXT_V0
-title: _NETWORK_OPEN_ECP_CONTEXT_V0
+title: "_NETWORK_OPEN_ECP_CONTEXT_V0"
 author: windows-driver-content
 description: The NETWORK_OPEN_ECP_CONTEXT_V0 structure is used to interpret network ECP contexts on files.
 old-location: ifsk\network_open_ecp_context_v0.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 447d623a-88cb-4d3d-8b05-4f5624c707ad
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PNETWORK_OPEN_ECP_CONTEXT_V0, NETWORK_OPEN_ECP_CONTEXT_V0 structure [Installable File System Drivers], NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0 structure pointer [Installable File System Drivers], PNETWORK_OPEN_ECP_CONTEXT_V0, ECP_Structures_8bd64f25-774a-4f87-a903-07ce0a3c0989.xml, ifsk.network_open_ecp_context_v0, _NETWORK_OPEN_ECP_CONTEXT_V0, ntifs/PNETWORK_OPEN_ECP_CONTEXT_V0, ntifs/NETWORK_OPEN_ECP_CONTEXT_V0
+ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT_V0, ifsk.network_open_ecp_context_v0, ECP_Structures_8bd64f25-774a-4f87-a903-07ce0a3c0989.xml, NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0 structure pointer [Installable File System Drivers], ntifs/PNETWORK_OPEN_ECP_CONTEXT_V0, NETWORK_OPEN_ECP_CONTEXT_V0 structure [Installable File System Drivers], _NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0, ntifs/NETWORK_OPEN_ECP_CONTEXT_V0"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	NETWORK_OPEN_ECP_CONTEXT_V0
 product: Windows
 targetos: Windows
-req.typenames: NETWORK_OPEN_ECP_CONTEXT_V0, *PNETWORK_OPEN_ECP_CONTEXT_V0
+req.typenames: "*PNETWORK_OPEN_ECP_CONTEXT_V0, NETWORK_OPEN_ECP_CONTEXT_V0"
 ---
 
 # _NETWORK_OPEN_ECP_CONTEXT_V0 structure

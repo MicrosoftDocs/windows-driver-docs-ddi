@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c428e30d-ce86-4ca0-bc65-45d84a7c910e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, netvista.ndismderegisterminiportdriver, ndis/NdisMDeregisterMiniportDriver
+ms.keywords: NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, netvista.ndismderegisterminiportdriver, ndis/NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDeregisterMiniportDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMDeregisterMiniportDriver function
@@ -101,9 +101,9 @@ If an error occurs in the miniport driver's
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 

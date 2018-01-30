@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini._STREAM_PRIORITY
-title: _STREAM_PRIORITY
+title: "_STREAM_PRIORITY"
 author: windows-driver-content
 description: TD.
 old-location: stream\stream_priority.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LowToHigh, *PSTREAM_PRIORITY, Low, PSTREAM_PRIORITY, strmini/Low, strmini/LowToHigh, STREAM_PRIORITY, stream.stream_priority, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], strmini/PSTREAM_PRIORITY, strmini/STREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], Dispatch, High, _STREAM_PRIORITY, strmini/High, strmini/Dispatch
+ms.keywords: High, strmini/PSTREAM_PRIORITY, LowToHigh, STREAM_PRIORITY, Low, strmini/LowToHigh, strmini/Low, Dispatch, strmini/STREAM_PRIORITY, stream.stream_priority, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], strmini/High, _STREAM_PRIORITY, PSTREAM_PRIORITY, *PSTREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], strmini/Dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Strmini.h
-apiname: 
+apiname:
 -	STREAM_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
+req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
 req.product: Windows 10 or later.
 ---
 

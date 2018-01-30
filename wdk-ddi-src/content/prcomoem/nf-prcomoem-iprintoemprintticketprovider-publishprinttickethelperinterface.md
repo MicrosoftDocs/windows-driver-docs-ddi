@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemprintticketprovider_publishprinttickethelperinterface, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, IPrintOemPrintTicketProvider, PublishPrintTicketHelperInterface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface
+ms.keywords: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, PublishPrintTicketHelperInterface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, print.iprintoemprintticketprovider_publishprinttickethelperinterface, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

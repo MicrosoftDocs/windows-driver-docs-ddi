@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5958dd7-b287-4f0d-8677-75d850885262
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], kernel.mmfreecontiguousmemoryspecifycache, wdm/MmFreeContiguousMemorySpecifyCache, MmFreeContiguousMemorySpecifyCache
+ms.keywords: k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], wdm/MmFreeContiguousMemorySpecifyCache, kernel.mmfreecontiguousmemoryspecifycache, MmFreeContiguousMemorySpecifyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmFreeContiguousMemorySpecifyCache
 product: Windows
 targetos: Windows
@@ -103,9 +103,9 @@ The <b>MmFreeContiguousMemorySpecifyCache</b> routine frees a block of physicall
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
-
 <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycachenode.md">MmAllocateContiguousMemorySpecifyCacheNode</a>
 
  
 

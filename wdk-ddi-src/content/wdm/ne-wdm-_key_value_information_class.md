@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KEY_VALUE_INFORMATION_CLASS
-title: _KEY_VALUE_INFORMATION_CLASS
+title: "_KEY_VALUE_INFORMATION_CLASS"
 author: windows-driver-content
 description: The KEY_VALUE_INFORMATION_CLASS enumeration type specifies the type of information to supply about the value of a registry key.
 old-location: kernel\key_value_information_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 99a34b06-3352-47a6-95bc-051a5dfdd82e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeyValuePartialInformationAlign64, _KEY_VALUE_INFORMATION_CLASS, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueFullInformation, kernel.key_value_information_class, KeyValuePartialInformationAlign64, KeyValueFullInformation, KeyValueBasicInformation, wdm/KeyValuePartialInformation, KeyValuePartialInformation, wdm/KeyValueFullInformationAlign64, KEY_VALUE_INFORMATION_CLASS, wdm/MaxKeyValueInfoClass, MaxKeyValueInfoClass, KeyValueFullInformationAlign64, wdm/KeyValueBasicInformation
+ms.keywords: KeyValueBasicInformation, wdm/KeyValueBasicInformation, MaxKeyValueInfoClass, wdm/KeyValueFullInformation, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyValueFullInformation, KeyValuePartialInformationAlign64, kernel.key_value_information_class, KeyValuePartialInformation, wdm/KeyValuePartialInformationAlign64, _KEY_VALUE_INFORMATION_CLASS, wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueFullInformationAlign64, KEY_VALUE_INFORMATION_CLASS, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, KeyValueFullInformationAlign64, wdm/MaxKeyValueInfoClass, wdm/KeyValuePartialInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KEY_VALUE_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -118,13 +118,13 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
-
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
  
 

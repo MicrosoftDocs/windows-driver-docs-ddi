@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D020B8AA-7353-47E1-A111-82BFE6F5F03D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice3_assigns0idlesettingsex, IWDFDevice3, IWDFDevice3::AssignS0IdleSettingsEx, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx, wdf.iwdfdevice3_assigns0idlesettingsex, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx method
+ms.keywords: wdf.iwdfdevice3_assigns0idlesettingsex, AssignS0IdleSettingsEx method, IWDFDevice3, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx, IWDFDevice3::AssignS0IdleSettingsEx, IWDFDevice3 interface, AssignS0IdleSettingsEx method, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, umdf.iwdfdevice3_assigns0idlesettingsex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice3.AssignS0IdleSettingsEx
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

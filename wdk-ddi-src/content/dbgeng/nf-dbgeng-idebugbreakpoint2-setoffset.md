@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOffset method [Windows Debugging], dbgeng/IDebugBreakpoint::SetOffset, IDebugBreakpoint2, SetOffset method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::SetOffset, IDebugBreakpoint interface [Windows Debugging], SetOffset method, SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, debugger.setoffset, IDebugBreakpoint2::SetOffset, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint::SetOffset
+ms.keywords: ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint2, SetOffset method [Windows Debugging], IDebugBreakpoint2::SetOffset, SetOffset, IDebugBreakpoint interface [Windows Debugging], SetOffset method, dbgeng/IDebugBreakpoint2::SetOffset, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, SetOffset method [Windows Debugging], IDebugBreakpoint interface, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::SetOffset, IDebugBreakpoint::SetOffset, debugger.setoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.SetOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::SetOffset method

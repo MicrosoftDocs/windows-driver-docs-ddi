@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CPST_PERCEPTUAL, CPST_RELATIVE_COLORIMETRIC, print.colorprofilesubtype, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_NONE, CPST_SATURATION, icm/COLORPROFILESUBTYPE, icm/CPST_RGB_WORKING_SPACE, icm/CPST_PERCEPTUAL, icm/CPST_RELATIVE_COLORIMETRIC, COLORPROFILESUBTYPE, icm/CPST_SATURATION, CPST_ABSOLUTE_COLORIMETRIC, COLORPROFILESUBTYPE enumeration [Print Devices], CPST_NONE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, icm/CPST_ABSOLUTE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, *PCOLORPROFILESUBTYPE, CPST_CUSTOM_WORKING_SPACE
+ms.keywords: CPST_NONE, CPST_PERCEPTUAL, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_NONE, CPST_ABSOLUTE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, icm/CPST_ABSOLUTE_COLORIMETRIC, COLORPROFILESUBTYPE, icm/CPST_SATURATION, print.colorprofilesubtype, CPST_SATURATION, icm/CPST_PERCEPTUAL, CPST_CUSTOM_WORKING_SPACE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, COLORPROFILESUBTYPE enumeration [Print Devices], icm/COLORPROFILESUBTYPE, CPST_RELATIVE_COLORIMETRIC, *PCOLORPROFILESUBTYPE, icm/CPST_RGB_WORKING_SPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	icm.h
-apiname: 
+apiname:
 -	COLORPROFILESUBTYPE
 product: Windows
 targetos: Windows

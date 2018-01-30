@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f87c74c3-fcb1-4358-ade6-6c0afc0020e2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddk/IoReadPartitionTable, storage.ioreadpartitiontable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, IoReadPartitionTable routine [Storage Devices], IoReadPartitionTable
+ms.keywords: IoReadPartitionTable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, ntddk/IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], storage.ioreadpartitiontable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReadPartitionTable
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoReadPartitionTable function
@@ -122,11 +122,11 @@ Read each partition table and, for each valid and recognized partition found, fi
 
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb66a17e-2e85-453c-8b39-091f0dc8c29b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetCurrentProcessorNumberEx, kernel.kegetcurrentprocessornumberex, wdm/KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], k105_3eea6705-7267-452a-88c2-1597c6f19828.xml
+ms.keywords: wdm/KeGetCurrentProcessorNumberEx, k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], KeGetCurrentProcessorNumberEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeGetCurrentProcessorNumberEx
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ A related routine, <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">Ke
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
-
 <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
 
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
  
 

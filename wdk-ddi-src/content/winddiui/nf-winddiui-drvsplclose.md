@@ -2,13 +2,13 @@
 UID: NF:winddiui.DrvSplClose
 title: DrvSplClose function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\drvsplclose.htm
 old-project: print
 ms.assetid: bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, DrvSplClose, winddiui/DrvSplClose, DrvSplClose function [Print Devices]
+ms.keywords: DrvSplClose function [Print Devices], print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, winddiui/DrvSplClose, DrvSplClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DrvSplClose
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

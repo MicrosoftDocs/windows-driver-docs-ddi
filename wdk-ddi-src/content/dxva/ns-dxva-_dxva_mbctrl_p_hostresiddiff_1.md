@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: be67b423-32a1-4f30-9f2c-fa6347cc960f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_mbctrl_p_hostresiddiff_1, _DXVA_MBctrl_P_HostResidDiff_1, dxva/DXVA_MBctrl_P_HostResidDiff_1, *LPDXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml
+ms.keywords: DXVA_MBctrl_P_HostResidDiff_1, dxva/DXVA_MBctrl_P_HostResidDiff_1, display.dxva_mbctrl_p_hostresiddiff_1, *LPDXVA_MBctrl_P_HostResidDiff_1, _DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -275,13 +275,13 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
-
 <a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
  
 

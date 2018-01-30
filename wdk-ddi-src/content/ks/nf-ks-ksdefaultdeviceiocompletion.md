@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDefaultDeviceIoCompletion, stream.ksdefaultdeviceiocompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, KsDefaultDeviceIoCompletion function [Streaming Media Devices], KsDefaultDeviceIoCompletion
+ms.keywords: stream.ksdefaultdeviceiocompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, ks/KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDefaultDeviceIoCompletion
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db58103d-8862-4be1-bca2-9d59d392591c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassQueryMasterClockSync routine [Streaming Media Devices], stream.streamclassquerymasterclocksync, StreamClassQueryMasterClockSync, strmini/StreamClassQueryMasterClockSync, strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml
+ms.keywords: stream.streamclassquerymasterclocksync, StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, strmini/StreamClassQueryMasterClockSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassQueryMasterClockSync
 product: Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
+req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
 req.product: Windows 10 or later.
 ---
 
@@ -100,13 +100,13 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
 
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
+
+<a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
 
  
 

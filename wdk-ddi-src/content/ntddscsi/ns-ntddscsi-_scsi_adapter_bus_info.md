@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_ADAPTER_BUS_INFO
-title: _SCSI_ADAPTER_BUS_INFO
+title: "_SCSI_ADAPTER_BUS_INFO"
 author: windows-driver-content
 description: The SCSI_ADAPTER_BUS_INFO structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_adapter_bus_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSCSI_ADAPTER_BUS_INFO, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml, PSCSI_ADAPTER_BUS_INFO, _SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], ntddscsi/SCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], storage.scsi_adapter_bus_info, ntddscsi/PSCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO
+ms.keywords: "*PSCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, ntddscsi/PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], PSCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], _SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	SCSI_ADAPTER_BUS_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO
+req.typenames: "*PSCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO"
 ---
 
 # _SCSI_ADAPTER_BUS_INFO structure
@@ -135,11 +135,11 @@ PrintInquiryData(PCHAR  DataBuffer)
 
 ## -see-also
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
 
  
 

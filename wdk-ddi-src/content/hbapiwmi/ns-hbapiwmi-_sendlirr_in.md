@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendLIRR_IN
-title: _SendLIRR_IN
+title: "_SendLIRR_IN"
 author: windows-driver-content
 description: The SendLIRR_IN structure is used to deliver parameter data to the SendLIRR WMI method.
 old-location: storage\sendlirr_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSendLIRR_IN, hbapiwmi/SendLIRR_IN, SendLIRR_IN structure [Storage Devices], PSendLIRR_IN, SendLIRR_IN, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, storage.sendlirr_in, *PSendLIRR_IN, _SendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices]
+ms.keywords: SendLIRR_IN structure [Storage Devices], hbapiwmi/PSendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], storage.sendlirr_in, PSendLIRR_IN, _SendLIRR_IN, *PSendLIRR_IN, SendLIRR_IN, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, hbapiwmi/SendLIRR_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendLIRR_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSendLIRR_IN, SendLIRR_IN
+req.typenames: "*PSendLIRR_IN, SendLIRR_IN"
 ---
 
 # _SendLIRR_IN structure

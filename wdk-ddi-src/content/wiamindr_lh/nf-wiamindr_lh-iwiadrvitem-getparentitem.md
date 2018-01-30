@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiadrvitem_getparentitem, GetParentItem method [Imaging Devices], IWiaDrvItem interface, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, IWiaDrvItem interface [Imaging Devices], GetParentItem method, GetParentItem, wiamindr_lh/IWiaDrvItem::GetParentItem, GetParentItem method [Imaging Devices], IWiaDrvItem::GetParentItem, IWiaDrvItem
+ms.keywords: IWiaDrvItem interface [Imaging Devices], GetParentItem method, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, image.iwiadrvitem_getparentitem, GetParentItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetParentItem, IWiaDrvItem, GetParentItem, wiamindr_lh/IWiaDrvItem::GetParentItem, GetParentItem method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.GetParentItem
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -95,11 +95,11 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
 
  
 

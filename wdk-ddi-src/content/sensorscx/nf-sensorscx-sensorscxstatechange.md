@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E6897994-51C7-4278-9CCE-9B7E9DD408D7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxstatechange, SensorsCxStateChange function [Sensor Devices], SensorsCxStateChange, sensorscx/SensorsCxStateChange
+ms.keywords: SensorsCxStateChange, sensors.sensorscxstatechange, SensorsCxStateChange function [Sensor Devices], sensorscx/SensorsCxStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	SensorsCx.h
-apiname: 
+apiname:
 -	SensorsCxStateChange
 product: Windows
 targetos: Windows

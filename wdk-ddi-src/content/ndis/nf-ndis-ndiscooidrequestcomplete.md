@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba4a22a1-ad48-43f1-96f5-dee5d76e49cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml, NdisCoOidRequestComplete, netvista.ndiscooidrequestcomplete, ndis/NdisCoOidRequestComplete
+ms.keywords: netvista.ndiscooidrequestcomplete, condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml, NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCoOidRequestComplete, NdisCoOidRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCoOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCoOidRequestComplete function
@@ -155,22 +155,22 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+
+<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
+   ProtocolCoOidRequestComplete</i></mshelp:link>
+
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
-
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
 
  
 

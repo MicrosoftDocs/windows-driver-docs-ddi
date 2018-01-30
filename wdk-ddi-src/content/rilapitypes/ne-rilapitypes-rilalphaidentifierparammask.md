@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 20ac3122-dece-48de-b29a-9d4f7e22c7e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_AI_REASON, rilapitypes/RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, netvista.rilalphaidentifierparammask_2, RIL_PARAM_AI_REASON, rilapitypes/RIL_PARAM_AI_ALL
+ms.keywords: rilapitypes/RILALPHAIDENTIFIERPARAMMASK, RIL_PARAM_AI_REASON, rilapitypes/RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask_2, RIL_PARAM_AI_ALL, RILALPHAIDENTIFIERPARAMMASK, rilapitypes/RIL_PARAM_AI_ALL, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILALPHAIDENTIFIERPARAMMASK
 product: Windows
 targetos: Windows

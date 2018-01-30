@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 207b776a-8f51-4385-a171-a9d0e84e70b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, KsQueryDevicePnpObject function [Streaming Media Devices], stream.ksquerydevicepnpobject, ks/KsQueryDevicePnpObject, KsQueryDevicePnpObject
+ms.keywords: KsQueryDevicePnpObject function [Streaming Media Devices], ks/KsQueryDevicePnpObject, stream.ksquerydevicepnpobject, KsQueryDevicePnpObject, ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsQueryDevicePnpObject
 product: Windows
 targetos: Windows

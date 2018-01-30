@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0137a872-63e9-4630-86fa-accfaa9b6d6b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, IDebugBreakpoint2, GetFlags, GetFlags method [Windows Debugging], dbgeng/IDebugBreakpoint2::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint interface, debugger.getflags, IDebugBreakpoint2 interface [Windows Debugging], GetFlags method, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, dbgeng/IDebugBreakpoint::GetFlags, IDebugBreakpoint::GetFlags
+ms.keywords: GetFlags, IDebugBreakpoint2 interface [Windows Debugging], GetFlags method, IDebugBreakpoint2, GetFlags method [Windows Debugging], dbgeng/IDebugBreakpoint::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetFlags, IDebugBreakpoint2::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetFlags method, debugger.getflags, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetFlags
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetFlags method

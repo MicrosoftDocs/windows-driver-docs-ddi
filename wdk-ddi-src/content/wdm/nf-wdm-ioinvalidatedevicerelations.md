@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], kernel.ioinvalidatedevicerelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, wdm/IoInvalidateDeviceRelations, IoInvalidateDeviceRelations
+ms.keywords: IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], wdm/IoInvalidateDeviceRelations, IoInvalidateDeviceRelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoInvalidateDeviceRelations
 product: Windows
 targetos: Windows

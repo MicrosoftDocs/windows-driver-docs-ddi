@@ -40,7 +40,7 @@ apiname:
 -	AcpiOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # ACPI_OP_REGION_HANDLER callback

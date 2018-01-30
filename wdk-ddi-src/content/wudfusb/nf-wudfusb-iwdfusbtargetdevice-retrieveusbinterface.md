@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUsbInterface, umdf.iwdfusbtargetdevice_retrieveusbinterface, RetrieveUsbInterface method, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, IWDFUsbTargetDevice, IWDFUsbTargetDevice::RetrieveUsbInterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, RetrieveUsbInterface method, IWDFUsbTargetDevice interface
+ms.keywords: RetrieveUsbInterface method, IWDFUsbTargetDevice::RetrieveUsbInterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrieveusbinterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, RetrieveUsbInterface, IWDFUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.RetrieveUsbInterface
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

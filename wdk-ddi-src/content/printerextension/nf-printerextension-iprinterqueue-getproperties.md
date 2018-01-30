@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterQueue::GetProperties, IPrinterQueue, GetProperties, printerextension/IPrinterQueue::GetProperties, print.iprinterqueue_getproperties, GetProperties method [Print Devices], IPrinterQueue interface [Print Devices], GetProperties method, GetProperties method [Print Devices], IPrinterQueue interface
+ms.keywords: GetProperties method [Print Devices], print.iprinterqueue_getproperties, IPrinterQueue::GetProperties, printerextension/IPrinterQueue::GetProperties, IPrinterQueue, GetProperties method [Print Devices], IPrinterQueue interface, GetProperties, IPrinterQueue interface [Print Devices], GetProperties method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterQueue.GetProperties
 product: Windows
 targetos: Windows

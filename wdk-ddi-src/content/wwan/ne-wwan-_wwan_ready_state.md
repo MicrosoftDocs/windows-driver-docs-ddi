@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_READY_STATE
-title: _WWAN_READY_STATE
+title: "_WWAN_READY_STATE"
 author: windows-driver-content
 description: The WWAN_READY_STATE enumeration lists the different device ready-states that are supported by the MB device.
 old-location: netvista\wwan_ready_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ready_state, wwan/WwanReadyStateDeviceLocked, wwan/PWWAN_READY_STATE, _WWAN_READY_STATE, WwanReadyStateSimNotInserted, wwan/WwanReadyStateBadSim, WwanReadyStateFailure, *PWWAN_READY_STATE, wwan/WwanReadyStateInitialized, WwanReadyStateBadSim, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateNotActivated, WwanReadyStateNotActivated, WwanReadyStateDeviceLocked, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateSimNotInserted, WwanReadyStateInitialized, WwanReadyStateOff, PWWAN_READY_STATE, wwan/WWAN_READY_STATE, WWAN_READY_STATE, wwan/WwanReadyStateOff, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateFailure
+ms.keywords: PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanReadyStateInitialized, *PWWAN_READY_STATE, wwan/PWWAN_READY_STATE, wwan/WwanReadyStateBadSim, wwan/WwanReadyStateFailure, WwanReadyStateFailure, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateNotActivated, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateInitialized, WwanReadyStateDeviceLocked, WwanReadyStateSimNotInserted, wwan/WWAN_READY_STATE, WWAN_READY_STATE, wwan/WwanReadyStateDeviceLocked, wwan/WwanReadyStateSimNotInserted, wwan/WwanReadyStateOff, WwanReadyStateOff, _WWAN_READY_STATE, PWWAN_READY_STATE, WwanReadyStateBadSim, WwanReadyStateNotActivated, netvista.wwan_ready_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_READY_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_READY_STATE, WWAN_READY_STATE
+req.typenames: "*PWWAN_READY_STATE, WWAN_READY_STATE"
 req.product: Windows 10 or later.
 ---
 

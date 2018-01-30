@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee340d85-5a66-4773-b325-831257e9bfd8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeRaiseIrql, KeRaiseIrql, kernel.keraiseirql, k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, KeRaiseIrql routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, wdm/KeRaiseIrql, KeRaiseIrql, kernel.keraiseirql, KeRaiseIrql routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+apiname:
 -	KeRaiseIrql
 product: Windows
 targetos: Windows
@@ -82,14 +82,14 @@ TBD
 
 
 
-#### - OldIrql [out]
-
-Pointer to the storage for the original (unraised) IRQL value to be used in a subsequent call to <a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>.
-
-
 #### - NewIrql [in]
 
 Specifies the new IRQL to which the hardware priority is to be raised.
+
+
+#### - OldIrql [out]
+
+Pointer to the storage for the original (unraised) IRQL value to be used in a subsequent call to <a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>.
 
 
 ## -remarks
@@ -105,9 +105,9 @@ A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>Cu
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
-
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+
+<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
 
  
 

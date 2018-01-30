@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockIsSharedRequest, FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest, FltOplockIsSharedRequest routine [Installable File System Drivers]
+ms.keywords: FltOplockIsSharedRequest routine [Installable File System Drivers], ifsk.fltoplockissharedrequest, FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, fltkernel/FltOplockIsSharedRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltOplockIsSharedRequest
 product: Windows
 targetos: Windows

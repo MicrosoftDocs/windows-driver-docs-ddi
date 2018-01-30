@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_PortEvent
-title: _MSFC_PortEvent
+title: "_MSFC_PortEvent"
 author: windows-driver-content
 description: A WMI provider uses the MSFC_PortEvent structure to report port events for the indicated adapter.
 old-location: storage\msfc_portevent.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, PMSFC_PortEvent, MSFC_PortEvent, storage.msfc_portevent, hbapiwmi/PMSFC_PortEvent, hbapiwmi/MSFC_PortEvent, *PMSFC_PortEvent, _MSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], MSFC_PortEvent structure [Storage Devices]
+ms.keywords: PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], storage.msfc_portevent, MSFC_PortEvent, _MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, MSFC_PortEvent structure [Storage Devices], *PMSFC_PortEvent, hbapiwmi/MSFC_PortEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_PortEvent
 product: Windows
 targetos: Windows
-req.typenames: *PMSFC_PortEvent, MSFC_PortEvent
+req.typenames: MSFC_PortEvent, *PMSFC_PortEvent
 ---
 
 # _MSFC_PortEvent structure

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWaitLockAcquire, WdfWaitLockAcquire method, DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, wdfsync/WdfWaitLockAcquire, wdf.wdfwaitlockacquire, kmdf.wdfwaitlockacquire
+ms.keywords: wdf.wdfwaitlockacquire, WdfWaitLockAcquire method, WdfWaitLockAcquire, DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, wdfsync/WdfWaitLockAcquire, kmdf.wdfwaitlockacquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfWaitLockAcquire
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -156,7 +156,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfWaitLockAcquire</b> method does not return until it acquires the wait lock or until the time-out period expires. 
 
-<b>WdfWaitLockAcquire</b> calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
+<b>WdfWaitLockAcquire</b> calls <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
 
 If the <i>Timeout</i> pointer is <b>NULL</b>, or if the time-out value is not zero, <b>WdfWaitLockAcquire</b> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -168,11 +168,11 @@ For more information about wait locks, see <a href="https://docs.microsoft.com/e
 
 ## -see-also
 
-<a href="..\wdfsync\nf-wdfsync-wdfwaitlockcreate.md">WdfWaitLockCreate</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+<a href="..\wdfsync\nf-wdfsync-wdfwaitlockcreate.md">WdfWaitLockCreate</a>
 
  
 

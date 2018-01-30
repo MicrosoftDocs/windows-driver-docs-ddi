@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, D3DKMTCreateOverlay, display.d3dkmtcreateoverlay, d3dkmthk/D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices]
+ms.keywords: D3DKMTCreateOverlay function [Display Devices], display.d3dkmtcreateoverlay, OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, D3DKMTCreateOverlay, d3dkmthk/D3DKMTCreateOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

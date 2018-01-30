@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae711ec5-841d-49cc-a701-1fb6ecaa9a66
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices], LPDXVA_BlendCombination structure pointer [Display Devices], DXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml, *LPDXVA_BlendCombination, dxva/LPDXVA_BlendCombination, dxva/DXVA_BlendCombination, LPDXVA_BlendCombination, display.dxva_blendcombination"
+ms.keywords: LPDXVA_BlendCombination, dxva/LPDXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml, display.dxva_blendcombination, DXVA_BlendCombination structure [Display Devices], dxva/DXVA_BlendCombination, LPDXVA_BlendCombination structure pointer [Display Devices], _DXVA_BlendCombination, DXVA_BlendCombination, *LPDXVA_BlendCombination
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -293,15 +293,15 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
+<a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
 
 <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550469">DD_BEGINMOCOMPFRAMEDATA</a>
 
-<a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
 
  
 

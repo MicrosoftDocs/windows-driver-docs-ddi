@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MODEM_CONFIG_INFO
-title: _NDIS_WWAN_MODEM_CONFIG_INFO
+title: "_NDIS_WWAN_MODEM_CONFIG_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_MODEM_CONFIG_INFO structure represents the modem's configuration information.
 old-location: netvista\ndis_wwan_modem_config_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 07C2BAED-157A-459C-B558-115C0091ECE5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_MODEM_CONFIG_INFO, *PNDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_MODEM_CONFIG_INFO, _NDIS_WWAN_MODEM_CONFIG_INFO, PNDIS_WWAN_MODEM_CONFIG_INFO, netvista.ndis_wwan_modem_config_info, ndiswwan/PNDIS_WWAN_MODEM_CONFIG_INFO, PNDIS_WWAN_MODEM_CONFIG_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO, ndiswwan/PNDIS_WWAN_MODEM_CONFIG_INFO, ndiswwan/NDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MODEM_CONFIG_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MODEM_CONFIG_INFO, PNDIS_WWAN_MODEM_CONFIG_INFO, netvista.ndis_wwan_modem_config_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_MODEM_CONFIG_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO
+req.typenames: "*PNDIS_WWAN_MODEM_CONFIG_INFO, NDIS_WWAN_MODEM_CONFIG_INFO"
 ---
 
 # _NDIS_WWAN_MODEM_CONFIG_INFO structure
@@ -190,13 +190,13 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONF
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/527B970C-09FC-4E49-A309-44D5C6A39778">OID_WWAN_MODEM_CONFIG_INFO</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
 
+<a href="https://msdn.microsoft.com/527B970C-09FC-4E49-A309-44D5C6A39778">OID_WWAN_MODEM_CONFIG_INFO</a>
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-modem-config-info">NDIS_STATUS_WWAN_MODEM_CONFIG_INFO</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

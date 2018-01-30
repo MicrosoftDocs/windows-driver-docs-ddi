@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0bc5fa4-d08d-484c-b6e0-35c7f1d144c3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RILMSGCDMAMSGENCODING, netvista.rilmsgcdmamsgencoding, ntddrilapitypes/RIL_MSGCODING_OCTET, RIL_MSGCODING_7BITASCII, RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RIL_MSGCODING_UNICODE, RIL_MSGCODING_8BITGSM, RILMSGCDMAMSGENCODING, ntddrilapitypes/RIL_MSGCODING_7BITASCII, ntddrilapitypes/RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_JIS, RIL_MSGCODING_KOREAN, RIL_MSGCODING_LATIN, RIL_MSGCODING_IA5, RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_MAX, RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_IA5, RIL_MSGCODING_7BITGSM, ntddrilapitypes/RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_LATIN, RIL_MSGCODING_UNICODE, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGCODING_7BITGSM, RIL_MSGCODING_JIS
+ms.keywords: RIL_MSGCODING_7BITGSM, netvista.rilmsgcdmamsgencoding, RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_UNICODE, RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_7BITGSM, ntddrilapitypes/RILMSGCDMAMSGENCODING, RIL_MSGCODING_OCTET, RIL_MSGCODING_7BITASCII, RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_OCTET, RIL_MSGCODING_JIS, RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RIL_MSGCODING_IA5, RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_7BITASCII, RIL_MSGCODING_LATIN_HEBREW, RILMSGCDMAMSGENCODING, RIL_MSGCODING_UNICODE, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAMSGENCODING
 product: Windows
 targetos: Windows

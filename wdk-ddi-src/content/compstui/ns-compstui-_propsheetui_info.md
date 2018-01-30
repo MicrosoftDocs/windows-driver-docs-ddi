@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._PROPSHEETUI_INFO
-title: _PROPSHEETUI_INFO
+title: "_PROPSHEETUI_INFO"
 author: windows-driver-content
 description: The PROPSHEETUI_INFO structure is used as an input parameter to PFNPROPSHEETUI-typed functions.
 old-location: print\propsheetui_info.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.propsheetui_info, PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PROPSHEETUI_INFO structure [Print Devices], *PPROPSHEETUI_INFO, PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], _PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO
+ms.keywords: compstui/PROPSHEETUI_INFO, print.propsheetui_info, PROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], PPROPSHEETUI_INFO, _PROPSHEETUI_INFO, *PPROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PROPSHEETUI_INFO structure [Print Devices], compstui/PPROPSHEETUI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	PROPSHEETUI_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PPROPSHEETUI_INFO, PROPSHEETUI_INFO
+req.typenames: "*PPROPSHEETUI_INFO, PROPSHEETUI_INFO"
 ---
 
 # _PROPSHEETUI_INFO structure

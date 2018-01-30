@@ -2,13 +2,13 @@
 UID: NF:prcomoem.IPrintOemEngine.EnablePDEV
 title: IPrintOemEngine::EnablePDEV method
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\iprintoemengine_enablepdev.htm
 old-project: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemengine_enablepdev, IPrintOemEngine, EnablePDEV method [Print Devices], IPrintOemEngine interface, EnablePDEV, IPrintOemEngine::EnablePDEV, EnablePDEV method [Print Devices], prcomoem/IPrintOemEngine::EnablePDEV, IPrintOemEngine interface [Print Devices], EnablePDEV method
+ms.keywords: EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, IPrintOemEngine interface [Print Devices], EnablePDEV method, print.iprintoemengine_enablepdev, IPrintOemEngine::EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices], IPrintOemEngine interface, IPrintOemEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemEngine.EnablePDEV
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

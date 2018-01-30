@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a678516a-159f-42bc-b135-489677452472
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT, WDF_COMMON_BUFFER_CONFIG_INIT, wdf.wdf_common_buffer_config_init, kmdf.wdf_common_buffer_config_init, WDF_COMMON_BUFFER_CONFIG_INIT function, DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml
+ms.keywords: WDF_COMMON_BUFFER_CONFIG_INIT function, wdf.wdf_common_buffer_config_init, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT, kmdf.wdf_common_buffer_config_init, WDF_COMMON_BUFFER_CONFIG_INIT, DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcommonbuffer.h
-apiname: 
+apiname:
 -	WDF_COMMON_BUFFER_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
+req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_MODE
-title: _WWAN_MODEM_CONFIG_MODE
+title: "_WWAN_MODEM_CONFIG_MODE"
 author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_MODE enumeration lists modem configuration modes.
 old-location: netvista\wwan_modem_config_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1AA3EDCC-EB6E-4118-8081-CA1914140683
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanModemConfigModeModemCentric, *PWWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeModemCentric, wwan/PWWAN_MODEM_CONFIG_MODE, wwan/WWAN_MODEM_CONFIG_MODE, WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeHostCentric, WwanModemConfigModeMax, PWWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeMax, netvista.wwan_modem_config_mode, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeUnknown, WwanModemConfigModeUnknown, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_modem_config_mode, wwan/WwanModemConfigModeModemCentric, wwan/PWWAN_MODEM_CONFIG_MODE, _WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeMax, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE, WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeHostCentric, PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeModemCentric, *PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeUnknown, WwanModemConfigModeMax, wwan/WwanModemConfigModeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_MODEM_CONFIG_MODE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE
+req.typenames: "*PWWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE"
 req.product: Windows 10 or later.
 ---
 

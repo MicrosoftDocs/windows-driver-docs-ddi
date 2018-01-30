@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ListType, ListType, debugger.listtype, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml
+ms.keywords: WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, ListType, wdbgexts/ListType, debugger.listtype, ListType function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # ListType function

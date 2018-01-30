@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputServersWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], OutputServersWide method, OutputServersWide method [Windows Debugging], IDebugClient5 interface, OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, IDebugClient5, IDebugClient5::OutputServersWide, debugger.outputserverswide
+ms.keywords: IDebugClient5 interface [Windows Debugging], OutputServersWide method, OutputServersWide, OutputServersWide method [Windows Debugging], dbgeng/IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], IDebugClient5 interface, debugger.outputserverswide, IDebugClient5::OutputServersWide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.OutputServersWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::OutputServersWide method
@@ -145,15 +145,15 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
  
 

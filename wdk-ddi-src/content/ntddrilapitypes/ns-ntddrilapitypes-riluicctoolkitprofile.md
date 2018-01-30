@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff1f5839-78be-48ab-9c26-f8fee6788d51
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluicctoolkitprofile, ntddrilapitypes/RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], *LPRILUICCTOOLKITPROFILE
+ms.keywords: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, netvista.riluicctoolkitprofile"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILUICCTOOLKITPROFILE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE
+req.typenames: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE"
 ---
 
 # RILUICCTOOLKITPROFILE structure

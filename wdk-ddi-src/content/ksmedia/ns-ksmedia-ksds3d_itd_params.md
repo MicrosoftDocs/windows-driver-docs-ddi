@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2c8701d5-c762-4d2c-abd7-8da90292f3c0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDS3D_ITD_PARAMS structure [Audio Devices], KSDS3D_ITD_PARAMS, audio.ksds3d_itd_params, ksmedia/PKSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS, aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml, *PKSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], ksmedia/KSDS3D_ITD_PARAMS
+ms.keywords: aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml, ksmedia/KSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS, ksmedia/PKSDS3D_ITD_PARAMS, audio.ksds3d_itd_params, *PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS structure [Audio Devices], PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], PKSDS3D_ITD_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -124,9 +124,9 @@ When a KSPROPERTY_ITD3D_PARAMS set-property request changes either <b>TotalDryAt
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksds3d_itd_params_msg.md">KSDS3D_ITD_PARAMS_MSG</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksds3d_itd_params_msg.md">KSDS3D_ITD_PARAMS_MSG</a>
 
  
 

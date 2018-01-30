@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 490ef6ed-c5df-450f-acd1-36091ac8999e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], RILLINECONTROLINFO, *LPRILLINECONTROLINFO, netvista.rillinecontrolinfo_2, rilapitypes/RILLINECONTROLINFO
+ms.keywords: rilapitypes/RILLINECONTROLINFO, netvista.rillinecontrolinfo_2, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], *LPRILLINECONTROLINFO, RILLINECONTROLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILLINECONTROLINFO
 product: Windows
 targetos: Windows

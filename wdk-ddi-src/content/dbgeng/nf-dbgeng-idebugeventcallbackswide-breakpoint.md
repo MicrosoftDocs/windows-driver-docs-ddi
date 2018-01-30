@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ee9b9b6c-c76e-4979-9f23-c411fe1b002a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, Breakpoint, debugger.idebugeventcallbackswide_breakpoint, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, Breakpoint method [Windows Debugging], IDebugEventCallbacksWide, IDebugEventCallbacksWide::Breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint
+ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacksWide::Breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, Breakpoint, debugger.idebugeventcallbackswide_breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint, IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.Breakpoint
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::Breakpoint method

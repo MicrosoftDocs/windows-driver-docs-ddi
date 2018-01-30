@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, SetAccessSubType, wiautil/CWiauPropertyList::SetAccessSubType, CWiauPropertyList, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_setaccesssubtype, SetAccessSubType method [Imaging Devices], CWiauPropertyList::SetAccessSubType
+ms.keywords: wiautil/CWiauPropertyList::SetAccessSubType, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, SetAccessSubType, CWiauPropertyList::SetAccessSubType, image.cwiaupropertylist_setaccesssubtype, CWiauPropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.SetAccessSubType
 product: Windows
 targetos: Windows

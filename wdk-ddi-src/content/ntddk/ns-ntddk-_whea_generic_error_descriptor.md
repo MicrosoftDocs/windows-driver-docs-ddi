@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DESCRIPTOR
-title: _WHEA_GENERIC_ERROR_DESCRIPTOR
+title: "_WHEA_GENERIC_ERROR_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_GENERIC_ERROR_DESCRIPTOR structure describes a generic error source.
 old-location: whea\whea_generic_error_descriptor.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: a3ab6522-8706-4166-974f-1744b352f3c2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_generic_error_descriptor, PWHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR, whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml, *PWHEA_GENERIC_ERROR_DESCRIPTOR, _WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications]
+ms.keywords: PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whea.whea_generic_error_descriptor, PWHEA_GENERIC_ERROR_DESCRIPTOR, _WHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml, WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_GENERIC_ERROR_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR
+req.typenames: "*PWHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR"
 ---
 
 # _WHEA_GENERIC_ERROR_DESCRIPTOR structure
@@ -109,6 +109,51 @@ The address space of the address that is specified in the <b>ErrStatusAddress</b
 
 
 
+#### 0x00
+
+System memory space
+
+
+#### 0x01
+
+System I/O space
+
+
+#### 0x02
+
+PCI configuration space
+
+
+#### 0x03
+
+Embedded controller address space
+
+
+#### 0x04
+
+System management bus (SMBus) address space
+
+
+#### 0x05 - 0x7E
+
+Reserved
+
+
+#### 0x7F
+
+Functional fixed hardware address space
+
+
+#### 0x80 - 0xBF
+
+Reserved
+
+
+#### 0xC0 - 0xFF
+
+OEM defined address space
+
+
 ### -field ErrStatusAddressBitWidth
 
 The size, in bits, of the register at the address that is specified in the <b>ErrStatusAddress</b> member.
@@ -126,6 +171,31 @@ The access size for reading the register at the address that is specified in the
 
 
 
+#### 0
+
+Undefined
+
+
+#### 1
+
+Byte access
+
+
+#### 2
+
+Word access
+
+
+#### 3
+
+Double word access
+
+
+#### 4
+
+Quad word access
+
+
 ### -field ErrStatusAddress
 
 The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
@@ -134,76 +204,6 @@ The 64-bit address of a register that contains the physical address of a block o
 ### -field Notify
 
 A <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
-
-
-##### - ErrStatusAddressSpaceID.0x7F
-
-Functional fixed hardware address space
-
-
-##### - ErrStatusAddressSpaceID.0x01
-
-System I/O space
-
-
-##### - ErrStatusAddressAccessSize.3
-
-Double word access
-
-
-##### - ErrStatusAddressAccessSize.2
-
-Word access
-
-
-##### - ErrStatusAddressSpaceID.0x05 - 0x7E
-
-Reserved
-
-
-##### - ErrStatusAddressSpaceID.0x02
-
-PCI configuration space
-
-
-##### - ErrStatusAddressSpaceID.0xC0 - 0xFF
-
-OEM defined address space
-
-
-##### - ErrStatusAddressAccessSize.1
-
-Byte access
-
-
-##### - ErrStatusAddressSpaceID.0x80 - 0xBF
-
-Reserved
-
-
-##### - ErrStatusAddressSpaceID.0x03
-
-Embedded controller address space
-
-
-##### - ErrStatusAddressSpaceID.0x00
-
-System memory space
-
-
-##### - ErrStatusAddressAccessSize.0
-
-Undefined
-
-
-##### - ErrStatusAddressSpaceID.0x04
-
-System management bus (SMBus) address space
-
-
-##### - ErrStatusAddressAccessSize.4
-
-Quad word access
 
 
 ## -remarks
@@ -215,11 +215,11 @@ A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="..\nt
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
+
 <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
  
 

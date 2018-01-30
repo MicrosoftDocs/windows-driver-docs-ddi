@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksmethodhandlerwithallocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, KsMethodHandlerWithAllocator, ks/KsMethodHandlerWithAllocator
+ms.keywords: KsMethodHandlerWithAllocator function [Streaming Media Devices], KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, ks/KsMethodHandlerWithAllocator, stream.ksmethodhandlerwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsMethodHandlerWithAllocator
 product: Windows
 targetos: Windows

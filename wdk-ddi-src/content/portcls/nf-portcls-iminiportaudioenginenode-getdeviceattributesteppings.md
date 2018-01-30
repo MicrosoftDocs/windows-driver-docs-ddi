@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode::GetDeviceAttributeSteppings, GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method
+ms.keywords: GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], audio.iminiportaudioenginenode_getdeviceattributesteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,9 +101,9 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
-
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
 
 <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
 

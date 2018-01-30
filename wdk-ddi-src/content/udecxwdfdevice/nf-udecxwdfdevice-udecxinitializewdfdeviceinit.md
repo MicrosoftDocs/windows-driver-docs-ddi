@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6FF62F6B-D83D-45DB-BE83-7A6D61A6AC92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxwdfdevice/UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit, buses.udecxinitializewdfdeviceinit, UdecxInitializeWdfDeviceInit function [Buses]
+ms.keywords: UdecxInitializeWdfDeviceInit function [Buses], UdecxInitializeWdfDeviceInit, udecxwdfdevice/UdecxInitializeWdfDeviceInit, buses.udecxinitializewdfdeviceinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxInitializeWdfDeviceInit
 product: Windows
 targetos: Windows
-req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
+req.typenames: "*PUDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,13 +96,13 @@ The client driver for the emulated host controller device calls this method in i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
  
 

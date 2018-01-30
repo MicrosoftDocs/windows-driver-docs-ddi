@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b45b79bd-90d6-4bc5-b56a-99d2b71e216a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030, display.d3d12ddi-command-list-funcs-video-process-0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030 structure [Display Devices]
+ms.keywords: display.d3d12ddi-command-list-funcs-video-process-0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030, d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

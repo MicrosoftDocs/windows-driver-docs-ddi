@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterPropertyBag::GetString, GetString method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::GetString, GetString, print.iprinterpropertybag_getstring, GetString method [Print Devices], IPrinterPropertyBag interface [Print Devices], GetString method, IPrinterPropertyBag
+ms.keywords: printerextension/IPrinterPropertyBag::GetString, IPrinterPropertyBag::GetString, IPrinterPropertyBag, GetString, print.iprinterpropertybag_getstring, GetString method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices], GetString method, GetString method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterPropertyBag.GetString
 product: Windows
 targetos: Windows

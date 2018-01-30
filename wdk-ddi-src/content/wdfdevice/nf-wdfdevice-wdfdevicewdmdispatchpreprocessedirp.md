@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83b18680-0b58-4278-87ff-757eb6e76178
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicewdmdispatchpreprocessedirp, WdfDeviceWdmDispatchPreprocessedIrp method, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp, PFN_WDFDEVICEWDMDISPATCHPREPROCESSEDIRP, DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, wdf.wdfdevicewdmdispatchpreprocessedirp
+ms.keywords: wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp method, PFN_WDFDEVICEWDMDISPATCHPREPROCESSEDIRP, DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceWdmDispatchPreprocessedIrp
 product: Windows
 targetos: Windows

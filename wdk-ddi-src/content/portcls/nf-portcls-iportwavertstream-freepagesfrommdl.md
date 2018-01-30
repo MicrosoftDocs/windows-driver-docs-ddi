@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8839c0ab-08c5-4cc7-a526-aa1ebe2fde15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveRTStream interface [Audio Devices], FreePagesFromMdl method, portcls/IPortWaveRTStream::FreePagesFromMdl, audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, IPortWaveRTStream, audio.iportwavertstream_freepagesfrommdl, FreePagesFromMdl method [Audio Devices], FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], IPortWaveRTStream interface, IPortWaveRTStream::FreePagesFromMdl
+ms.keywords: IPortWaveRTStream::FreePagesFromMdl, IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], FreePagesFromMdl method, FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], portcls/IPortWaveRTStream::FreePagesFromMdl, audio.iportwavertstream_freepagesfrommdl, audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, FreePagesFromMdl method [Audio Devices], IPortWaveRTStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
+The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
 
 
 ## -syntax
@@ -92,9 +92,9 @@ The miniport driver must call this method to free an MDL that was previously all
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
-<a href="https://msdn.microsoft.com/976f7e83-9b2a-4e1b-ab76-76d8e9711bff">IPortWaveRTStream::AllocateContiguousPagesForMdl </a>
-
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+
+<a href="https://msdn.microsoft.com/976f7e83-9b2a-4e1b-ab76-76d8e9711bff">IPortWaveRTStream::AllocateContiguousPagesForMdl </a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ufxbase._USBFN_ACTION
-title: _USBFN_ACTION
+title: "_USBFN_ACTION"
 author: windows-driver-content
 description: Defines special actions UFX should take when the client driver calls the UfxDevicePortDetectCompleteEx function.
 old-location: buses\usbfn_action.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9E9AB3E0-EBDC-4EC3-BFBF-C78EE56BD699
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, USBFN_ACTION enumeration [Buses], ufxbase/UsbfnActionNone, *PUSBFN_ACTION, UsbfnActionNone, buses.usbfn_action, UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, USBFN_ACTION, _USBFN_ACTION, ufxbase/USBFN_ACTION
+ms.keywords: buses.usbfn_action, UsbfnActionNone, USBFN_ACTION, UsbfnActionDetectProprietaryCharger, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionDetectProprietaryCharger, *PUSBFN_ACTION, USBFN_ACTION enumeration [Buses], ufxbase/UsbfnActionNone, UsbfnActionNoCad, _USBFN_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxbase.h
-apiname: 
+apiname:
 -	USBFN_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_ACTION, USBFN_ACTION
+req.typenames: "*PUSBFN_ACTION, USBFN_ACTION"
 req.product: Windows 10 or later.
 ---
 

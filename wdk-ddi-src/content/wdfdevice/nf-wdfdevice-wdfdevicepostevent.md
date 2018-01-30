@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdfdevice/WdfDevicePostEvent, wdf.wdfdevicepostevent, PFN_WDFDEVICEPOSTEVENT
+ms.keywords: WdfDevicePostEvent function, PFN_WDFDEVICEPOSTEVENT, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent, WdfDevicePostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfDevicePostEvent
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f6e08e3-50cf-4d2e-aac8-185a5c0b38ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_key_algo_tkip_mic, windot11/DOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC, Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml, PDOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC, windot11/PDOT11_KEY_ALGO_TKIP_MIC, windot11/DOT11_KEY_ALGO_TKIP_MIC, netvista.dot11_key_algo_tkip_mic, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista], DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_TKIP_MIC, Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_KEY_ALGO_TKIP_MIC
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC
+req.typenames: DOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC
 req.product: Windows 10 or later.
 ---
 
@@ -125,13 +125,13 @@ Initialize the TSC counter used for the send path to any value.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
 <mshelp:link keywords="netvista.dot11_cipher_default_key_value" tabindex="0"><b>
    DOT11_CIPHER_DEFAULT_KEY_VALUE</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/4f0c45f0-3125-4b19-82c1-3681b2e31c96">TKIP</a>
+
+<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
 
  
 

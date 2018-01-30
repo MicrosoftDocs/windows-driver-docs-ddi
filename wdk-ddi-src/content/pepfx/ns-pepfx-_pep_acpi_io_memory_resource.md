@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_IO_MEMORY_RESOURCE
-title: _PEP_ACPI_IO_MEMORY_RESOURCE
+title: "_PEP_ACPI_IO_MEMORY_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_IO_MEMORY_RESOURCE structure describes an ACPI IO port descriptor resource.
 old-location: kernel\pep_acpi_io_memory_resource.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7438C120-9CFB-4D5D-9323-8A5D84D02449
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_IO_MEMORY_RESOURCE, PPEP_ACPI_IO_MEMORY_RESOURCE structure pointer [Kernel-Mode Driver Architecture], *PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_IO_MEMORY_RESOURCE, pepfx/PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE, kernel.pep_acpi_io_memory_resource, _PEP_ACPI_IO_MEMORY_RESOURCE
+ms.keywords: pepfx/PEP_ACPI_IO_MEMORY_RESOURCE, PPEP_ACPI_IO_MEMORY_RESOURCE, PPEP_ACPI_IO_MEMORY_RESOURCE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_io_memory_resource, *PPEP_ACPI_IO_MEMORY_RESOURCE, _PEP_ACPI_IO_MEMORY_RESOURCE, pepfx/PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_IO_MEMORY_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_IO_MEMORY_RESOURCE, *PPEP_ACPI_IO_MEMORY_RESOURCE
+req.typenames: "*PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE"
 ---
 
 # _PEP_ACPI_IO_MEMORY_RESOURCE structure

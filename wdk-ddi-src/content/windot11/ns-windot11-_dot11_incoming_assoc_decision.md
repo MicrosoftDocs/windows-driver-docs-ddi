@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_DECISION
-title: _DOT11_INCOMING_ASSOC_DECISION
+title: "_DOT11_INCOMING_ASSOC_DECISION"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_decision.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Revision, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, _DOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION, windot11/PDOT11_INCOMING_ASSOC_DECISION, windot11/DOT11_INCOMING_ASSOC_DECISION, Size, Type, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml
+ms.keywords: windot11/PDOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], netvista.dot11_incoming_assoc_decision, PDOT11_INCOMING_ASSOC_DECISION, Revision, _DOT11_INCOMING_ASSOC_DECISION, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], Type, Size, windot11/DOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_INCOMING_ASSOC_DECISION
 product: Windows
 targetos: Windows
@@ -170,10 +170,10 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <mshelp:link keywords="netvista.oid_dot11_incoming_association_decision" tabindex="0">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</mshelp:link>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: drmk/IDrmAudioStream::SetContentId, IDrmAudioStream interface [Audio Devices], SetContentId method, IDrmAudioStream::SetContentId, SetContentId, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, SetContentId method [Audio Devices], IDrmAudioStream, SetContentId method [Audio Devices], IDrmAudioStream interface
+ms.keywords: IDrmAudioStream, IDrmAudioStream::SetContentId, SetContentId method [Audio Devices], IDrmAudioStream interface, SetContentId method [Audio Devices], audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, audio.idrmaudiostream_setcontentid, IDrmAudioStream interface [Audio Devices], SetContentId method, SetContentId, drmk/IDrmAudioStream::SetContentId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDrmAudioStream.SetContentId
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
 ---
 
 # IDrmAudioStream::SetContentId method
@@ -100,19 +100,19 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-
-<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
 
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+
+<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
  
 

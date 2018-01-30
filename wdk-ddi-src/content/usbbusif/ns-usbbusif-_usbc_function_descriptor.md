@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USBC_FUNCTION_DESCRIPTOR
-title: _USBC_FUNCTION_DESCRIPTOR
+title: "_USBC_FUNCTION_DESCRIPTOR"
 author: windows-driver-content
 description: The USBC_FUNCTION_DESCRIPTOR structure describes a USB function and its associated interface collection.
 old-location: buses\usbc_function_descriptor.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 43ac738b-7837-4183-ad06-5c35a2af38ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBC_FUNCTION_DESCRIPTOR structure [Buses], usbbusif/USBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml, _USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR
+ms.keywords: buses.usbc_function_descriptor, PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses], *PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml, _USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], usbbusif/PUSBC_FUNCTION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	USBC_FUNCTION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR
+req.typenames: USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -124,9 +124,9 @@ For information on how to use user-defined callback routines to provide a custom
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

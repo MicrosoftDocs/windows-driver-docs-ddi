@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LINKS_INFORMATION
-title: _FILE_LINKS_INFORMATION
+title: "_FILE_LINKS_INFORMATION"
 author: windows-driver-content
 description: The FILE_LINKS_INFORMATION structure is used to query NTFS hard links to an existing file.
 old-location: ifsk\file_links_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: adf1d2f3-4395-43d9-8157-e9f246e2bba8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION structure [Installable File System Drivers], PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_links_information, FILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION, _FILE_LINKS_INFORMATION, ntifs/PFILE_LINKS_INFORMATION, *PFILE_LINKS_INFORMATION
+ms.keywords: ntifs/PFILE_LINKS_INFORMATION, *PFILE_LINKS_INFORMATION, ntifs/FILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_links_information, PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION structure [Installable File System Drivers], _FILE_LINKS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_LINKS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION
+req.typenames: FILE_LINKS_INFORMATION, *PFILE_LINKS_INFORMATION
 ---
 
 # _FILE_LINKS_INFORMATION structure

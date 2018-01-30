@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_REQUEST_DATA
-title: _BIDI_REQUEST_DATA
+title: "_BIDI_REQUEST_DATA"
 author: windows-driver-content
 description: The BIDI_REQUEST_DATA structure holds a single bidi request.
 old-location: print\bidi_request_data.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ef5a89e3-f072-48a7-b2d9-d68e0e27ba9e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winspool/LPBIDI_REQUEST_DATA, _BIDI_REQUEST_DATA, BIDI_REQUEST_DATA structure [Print Devices], LPBIDI_REQUEST_DATA, winspool/PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA, PBIDI_REQUEST_DATA, spoolfnc_ab7c70f5-9161-4245-8f25-350f68144f82.xml, *PBIDI_REQUEST_DATA, BIDI_REQUEST_DATA, LPBIDI_REQUEST_DATA structure pointer [Print Devices], PBIDI_REQUEST_DATA structure pointer [Print Devices], print.bidi_request_data, winspool/BIDI_REQUEST_DATA
+ms.keywords: winspool/PBIDI_REQUEST_DATA, _BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA, PBIDI_REQUEST_DATA, winspool/BIDI_REQUEST_DATA, BIDI_REQUEST_DATA, winspool/LPBIDI_REQUEST_DATA, LPBIDI_REQUEST_DATA, print.bidi_request_data, PBIDI_REQUEST_DATA structure pointer [Print Devices], spoolfnc_ab7c70f5-9161-4245-8f25-350f68144f82.xml, BIDI_REQUEST_DATA structure [Print Devices], LPBIDI_REQUEST_DATA structure pointer [Print Devices], *LPBIDI_REQUEST_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BIDI_REQUEST_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA, BIDI_REQUEST_DATA
+req.typenames: "*LPBIDI_REQUEST_DATA, BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -87,9 +87,9 @@ Specifies a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> struct
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
-
 <a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
+
+<a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
 
  
 

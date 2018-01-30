@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d2140270-558d-4cd9-b497-f61be40c7a87
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], IDebugControl3, IDebugControl_ebe245a7-c76c-4b31-aa58-ccad250ed92a.xml, IDebugControl interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl2::GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetSpecificFilterParameters method, GetSpecificFilterParameters, debugger.getspecificfilterparameters, IDebugControl::GetSpecificFilterParameters, dbgeng/IDebugControl2::GetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging], GetSpecificFilterParameters method, GetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl3::GetSpecificFilterParameters, dbgeng/IDebugControl::GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface
+ms.keywords: dbgeng/IDebugControl2::GetSpecificFilterParameters, IDebugControl3, IDebugControl interface [Windows Debugging], GetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging], GetSpecificFilterParameters method, dbgeng/IDebugControl3::GetSpecificFilterParameters, IDebugControl3::GetSpecificFilterParameters, debugger.getspecificfilterparameters, IDebugControl2::GetSpecificFilterParameters, IDebugControl_ebe245a7-c76c-4b31-aa58-ccad250ed92a.xml, IDebugControl::GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetSpecificFilterParameters method, dbgeng/IDebugControl::GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, GetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetSpecificFilterParameters
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetSpecificFilterParameters method
@@ -119,15 +119,15 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 

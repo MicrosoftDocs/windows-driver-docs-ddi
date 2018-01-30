@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 985f811e-cf4f-4dbe-8ede-497ba4eceffd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExSetResourceOwnerPointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], kernel.exsetresourceownerpointer, ExSetResourceOwnerPointer, k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml
+ms.keywords: kernel.exsetresourceownerpointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], wdm/ExSetResourceOwnerPointer, k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, ExSetResourceOwnerPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExSetResourceOwnerPointer
 product: Windows
 targetos: Windows

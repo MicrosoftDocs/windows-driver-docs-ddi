@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_UNLOAD_KEY_INFORMATION
-title: _REG_UNLOAD_KEY_INFORMATION
+title: "_REG_UNLOAD_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_UNLOAD_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry hive is unloaded.
 old-location: kernel\reg_unload_key_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 171d712d-89e0-44f4-aa52-b9048c20abf2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, *PREG_UNLOAD_KEY_INFORMATION, wdm/REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _REG_UNLOAD_KEY_INFORMATION
+ms.keywords: wdm/PREG_UNLOAD_KEY_INFORMATION, kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, wdm/REG_UNLOAD_KEY_INFORMATION, _REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REG_UNLOAD_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION
+req.typenames: "*PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

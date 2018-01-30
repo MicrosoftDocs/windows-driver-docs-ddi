@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, HBA_SendRNID, storage.hba_sendrnid, hbaapi/HBA_SendRNID, HBA_SendRNID routine [Storage Devices]
+ms.keywords: fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, hbaapi/HBA_SendRNID, HBA_SendRNID routine [Storage Devices], HBA_SendRNID, storage.hba_sendrnid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendRNID
 product: Windows
 targetos: Windows
@@ -124,9 +124,9 @@ The <b>HBA_SendRNID</b> library routine serves a purpose very similar to the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
 
  
 

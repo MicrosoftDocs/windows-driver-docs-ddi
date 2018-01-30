@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ee73c5d2-9c4d-4d6f-b792-7966964fedf7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PHDAUDIO_CODEC_TRANSFER structure pointer [Audio Devices], hdaudio/HDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER, PHDAUDIO_CODEC_TRANSFER, _HDAUDIO_CODEC_TRANSFER, hdaudio/PHDAUDIO_CODEC_TRANSFER, audio.hdaudio_codec_transfer, *PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER structure [Audio Devices], aud-prop2_7bb7a1d5-ed28-48d4-8ca4-ff2f85002d7c.xml
+ms.keywords: PHDAUDIO_CODEC_TRANSFER, audio.hdaudio_codec_transfer, PHDAUDIO_CODEC_TRANSFER structure pointer [Audio Devices], hdaudio/PHDAUDIO_CODEC_TRANSFER, hdaudio/HDAUDIO_CODEC_TRANSFER, aud-prop2_7bb7a1d5-ed28-48d4-8ca4-ff2f85002d7c.xml, HDAUDIO_CODEC_TRANSFER structure [Audio Devices], _HDAUDIO_CODEC_TRANSFER, *PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,9 +98,9 @@ Upon return, the <b>Input</b> member contains the response to the codec command.
 
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_command.md">HDAUDIO_CODEC_COMMAND</a>
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
 
  
 

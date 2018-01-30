@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMCUIPCALLBACK
 product: Windows
 targetos: Windows
@@ -80,14 +80,14 @@ LONG APIENTRY OEMCUIPCALLBACK(
 
 
 
-#### - pOEMCUIPParam
-
-Pointer to an <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a> structure.
-
-
 #### - pCPSUICBParam
 
 Pointer to a <a href="..\compstui\ns-compstui-_cpsuicbparam.md">CPSUICBPARAM</a> structure.
+
+
+#### - pOEMCUIPParam
+
+Pointer to an <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a> structure.
 
 
 ## -returns

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_COMMPROP
-title: _SERIAL_COMMPROP
+title: "_SERIAL_COMMPROP"
 author: windows-driver-content
 description: The SERIAL_COMMPROP structure specifies the properties of a serial port.
 old-location: serports\serial_commprop.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.serial_commprop, ntddser/SERIAL_COMMPROP, PSERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, *PSERIAL_COMMPROP, _SERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports]
+ms.keywords: SERIAL_COMMPROP, _SERIAL_COMMPROP, serports.serial_commprop, ntddser/PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], PSERIAL_COMMPROP, *PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	SERIAL_COMMPROP
 product: Windows
 targetos: Windows
-req.typenames: *PSERIAL_COMMPROP, SERIAL_COMMPROP
+req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 ---
 
 # _SERIAL_COMMPROP structure

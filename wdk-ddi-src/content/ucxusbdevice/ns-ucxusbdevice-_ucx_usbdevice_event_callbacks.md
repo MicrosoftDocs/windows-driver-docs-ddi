@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_EVENT_CALLBACKS
-title: _UCX_USBDEVICE_EVENT_CALLBACKS
+title: "_UCX_USBDEVICE_EVENT_CALLBACKS"
 author: windows-driver-content
 description: This structure provides a list of UCX USB device event callback functions.
 old-location: buses\_ucx_usbdevice_event_callbacks.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7A320D48-E71C-40FE-A2EF-201CFCE55145
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS structure [Buses], buses._ucx_usbdevice_event_callbacks, UCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS structure pointer [Buses], *PUCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/P_UCX_USBDEVICE_EVENT_CALLBACKS, _UCX_USBDEVICE_EVENT_CALLBACKS
+ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS structure [Buses], _UCX_USBDEVICE_EVENT_CALLBACKS, *PUCX_USBDEVICE_EVENT_CALLBACKS, buses._ucx_usbdevice_event_callbacks, UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS structure pointer [Buses], ucxusbdevice/P_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/_UCX_USBDEVICE_EVENT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	UCX_USBDEVICE_EVENT_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: *PUCX_USBDEVICE_EVENT_CALLBACKS, UCX_USBDEVICE_EVENT_CALLBACKS
+req.typenames: "*PUCX_USBDEVICE_EVENT_CALLBACKS, UCX_USBDEVICE_EVENT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -147,9 +147,9 @@ A pointer to an <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_c
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
-
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks.md">UcxUsbDeviceInitSetEventCallbacks</a>
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
 
  
 

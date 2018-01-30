@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_CSS
-title: _FEATURE_DATA_DVD_CSS
+title: "_FEATURE_DATA_DVD_CSS"
 author: windows-driver-content
 description: The FEATURE_DATA_DVD_CSS structure holds information about the DVD Content Scrambling System (CSS) feature.
 old-location: storage\feature_data_dvd_css.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8266f17d-65d6-49a0-a8ea-fee71dff4db0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_DVD_CSS, FEATURE_DATA_DVD_CSS structure [Storage Devices], FEATURE_DATA_DVD_CSS, storage.feature_data_dvd_css, structs-CD-ROM_1508ce84-fa86-423e-a6c1-4059bf0cb54c.xml, *PFEATURE_DATA_DVD_CSS, ntddmmc/FEATURE_DATA_DVD_CSS, PFEATURE_DATA_DVD_CSS, ntddmmc/PFEATURE_DATA_DVD_CSS, PFEATURE_DATA_DVD_CSS structure pointer [Storage Devices]
+ms.keywords: PFEATURE_DATA_DVD_CSS structure pointer [Storage Devices], FEATURE_DATA_DVD_CSS, ntddmmc/FEATURE_DATA_DVD_CSS, ntddmmc/PFEATURE_DATA_DVD_CSS, FEATURE_DATA_DVD_CSS structure [Storage Devices], PFEATURE_DATA_DVD_CSS, structs-CD-ROM_1508ce84-fa86-423e-a6c1-4059bf0cb54c.xml, storage.feature_data_dvd_css, _FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_DVD_CSS
 product: Windows
 targetos: Windows

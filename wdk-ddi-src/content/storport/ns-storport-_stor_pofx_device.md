@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_DEVICE
-title: _STOR_POFX_DEVICE
+title: "_STOR_POFX_DEVICE"
 author: windows-driver-content
 description: The STOR_POFX_DEVICE structure describes the power attributes of a storage device to the power management framework (PoFx).
 old-location: storage\stor_pofx_device.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_pofx_device, STOR_POFX_DEVICE_FLAG_NO_D3, _STOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE structure [Storage Devices], *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE, storport/STOR_POFX_DEVICE, PSTOR_POFX_DEVICE, storport/PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3
+ms.keywords: storport/PSTOR_POFX_DEVICE, storport/STOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], *PSTOR_POFX_DEVICE, storage.stor_pofx_device, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, _STOR_POFX_DEVICE, STOR_POFX_DEVICE, PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_POFX_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE
+req.typenames: "*PSTOR_POFX_DEVICE, STOR_POFX_DEVICE"
 req.product: Windows 10 or later.
 ---
 
@@ -177,9 +177,9 @@ The component for the storage device identified by its <b>Components</b> array i
 
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
 
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
-
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
+<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
  
 

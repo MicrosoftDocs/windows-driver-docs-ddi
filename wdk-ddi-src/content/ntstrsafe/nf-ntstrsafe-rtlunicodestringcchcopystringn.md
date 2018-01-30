@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28ff3697-e2b3-4818-99d3-0b1f7a098282
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_d48eb8f3-535f-4829-aed4-6bde1b4733e3.xml, kernel.rtlunicodestringcchcopystringn, RtlUnicodeStringCchCopyStringN function [Kernel-Mode Driver Architecture], RtlUnicodeStringCchCopyStringN, ntstrsafe/RtlUnicodeStringCchCopyStringN
+ms.keywords: RtlUnicodeStringCchCopyStringN, safestrings_d48eb8f3-535f-4829-aed4-6bde1b4733e3.xml, kernel.rtlunicodestringcchcopystringn, RtlUnicodeStringCchCopyStringN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCchCopyStringN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringCchCopyStringN
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCchCopyStringN function
@@ -157,9 +157,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
 
  
 

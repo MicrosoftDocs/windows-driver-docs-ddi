@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsReportHardwareEvent function [Buses], UrsReportHardwareEvent, ursdevice/UrsReportHardwareEvent, buses.ursreporthardwareevent
+ms.keywords: ursdevice/UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], UrsReportHardwareEvent, buses.ursreporthardwareevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: HIGH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Urscxstub.lib
 -	Urscxstub.dll
-apiname: 
+apiname:
 -	UrsReportHardwareEvent
 product: Windows
 targetos: Windows

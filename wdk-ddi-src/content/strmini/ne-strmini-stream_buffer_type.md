@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7C9E1D94-BF59-4302-BEE8-24546C8AE7E6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SRBDataBuffer, strmini/DmaBuffer, DmaBuffer, PerRequestExtension, STREAM_BUFFER_TYPE, strmini/SRBDataBuffer, strmini/PerRequestExtension, strmini/STREAM_BUFFER_TYPE, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], stream.stream_buffer_type
+ms.keywords: PerRequestExtension, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], strmini/PerRequestExtension, STREAM_BUFFER_TYPE, DmaBuffer, strmini/SRBDataBuffer, strmini/DmaBuffer, strmini/STREAM_BUFFER_TYPE, stream.stream_buffer_type, SRBDataBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Strmini.h
-apiname: 
+apiname:
 -	STREAM_BUFFER_TYPE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE
+ms.keywords: ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], stream.kscamera_extendedprop_roitype, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, KSCAMERA_EXTENDEDPROP_ROITYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_EXTENDEDPROP_ROITYPE
 product: Windows
 targetos: Windows

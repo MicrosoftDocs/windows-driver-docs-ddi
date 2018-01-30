@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 970c725b-4ea0-42b7-a373-83cb463cd80d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Write method [Windows Debugging], ExtRemoteData class, ExtRemoteData, EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData class [Windows Debugging], Write method, Write method [Windows Debugging], debugger.extremotedata_write, ExtRemoteData::Write, Write
+ms.keywords: Write method [Windows Debugging], ExtRemoteData class, ExtRemoteData, EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData::Write, Write, debugger.extremotedata_write, Write method [Windows Debugging], ExtRemoteData class [Windows Debugging], Write method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.Write
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::Write method

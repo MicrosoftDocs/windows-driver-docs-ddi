@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EC26EDCA-1C9E-4D06-A970-71FB96FEB0DF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses], buses.udecx_wdf_device_config_init
+ms.keywords: udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT, buses.udecx_wdf_device_config_init, UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UDECX_WDF_DEVICE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
+req.typenames: "*PUDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION"
 req.product: Windows 10 or later.
 ---
 

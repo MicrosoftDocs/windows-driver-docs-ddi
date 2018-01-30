@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, KeCancelTimer routine [Kernel-Mode Driver Architecture], KeCancelTimer, kernel.kecanceltimer, wdm/KeCancelTimer
+ms.keywords: wdm/KeCancelTimer, k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, KeCancelTimer, kernel.kecanceltimer, KeCancelTimer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeCancelTimer
 product: Windows
 targetos: Windows
@@ -100,11 +100,11 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-
 <a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
  
 

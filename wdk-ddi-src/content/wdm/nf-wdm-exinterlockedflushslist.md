@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedFlushSList, kernel.exinterlockedflushslist
+ms.keywords: kernel.exinterlockedflushslist, k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, wdm/ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], ExInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInterlockedFlushSList
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_DEVICE_STATE
-title: _WDF_POWER_DEVICE_STATE
+title: "_WDF_POWER_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_POWER_DEVICE_STATE enumeration contains values that identify the power state that a device might support.
 old-location: wdf\wdf_power_device_state_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfPowerDeviceD2, WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceD0, WdfPowerDeviceInvalid, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, *PWDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, wudfddi_types/WDF_POWER_DEVICE_STATE, umdf.wdf_power_device_state, WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD1, wdf.wdf_power_device_state_umdf, WdfPowerDeviceMaximum
+ms.keywords: umdf.wdf_power_device_state, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, WdfPowerDeviceD2, wudfddi_types/WdfPowerDeviceD3, WdfPowerDeviceD0, wdf.wdf_power_device_state_umdf, WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceD2, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, WdfPowerDeviceD3, WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDeviceD1, WdfPowerDeviceD1, wudfddi_types/WDF_POWER_DEVICE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
+req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 

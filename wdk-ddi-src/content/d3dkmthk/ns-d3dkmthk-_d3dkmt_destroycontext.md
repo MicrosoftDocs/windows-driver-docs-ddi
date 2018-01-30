@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 116c0fa7-ac3c-4a56-804c-637514a19c73
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT, _D3DKMT_DESTROYCONTEXT, OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, D3DKMT_DESTROYCONTEXT structure [Display Devices], display.d3dkmt_destroycontext
+ms.keywords: D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext, OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,9 +74,9 @@ typedef struct _D3DKMT_DESTROYCONTEXT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroycontext.md">D3DKMTDestroyContext</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
 
  
 

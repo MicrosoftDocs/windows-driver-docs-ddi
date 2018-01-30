@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b3a20db-aa03-4017-a10a-ae84a6ed31c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], display.d3d11_1ddiarg_createauthenticatedchannel, d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+ms.keywords: d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3d11_1ddiarg_createauthenticatedchannel, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

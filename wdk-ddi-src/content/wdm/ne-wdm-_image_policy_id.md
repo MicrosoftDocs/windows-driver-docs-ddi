@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IMAGE_POLICY_ID
-title: _IMAGE_POLICY_ID
+title: "_IMAGE_POLICY_ID"
 author: windows-driver-content
 description: This enumeration is not supported.
 old-location: kernel\_image_policy_id.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e2984ef0-6648-41d3-89da-4f57cce66cfb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ImagePolicyIdParentSd, wdm/ImagePolicyIdEtw, wdm/ImagePolicyIdDeviceId, kernel._image_policy_id, ImagePolicyIdParentSd, ImagePolicyIdMaximum, ImagePolicyIdDeviceId, ImagePolicyIdSvn, wdm/ImagePolicyIdDebug, ImagePolicyIdEtw, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdParentSdRev, wdm/ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdSvn, ImagePolicyIdParentSdRev, ImagePolicyIdCrashDump, IMAGE_POLICY_ID, wdm/ImagePolicyIdCapability, wdm/ImagePolicyIdMaximum, ImagePolicyIdScenarioId, ImagePolicyIdCapability, _IMAGE_POLICY_ID, ImagePolicyIdDebug, wdm/ImagePolicyIdCrashDumpKey, ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdScenarioId, wdm/ImagePolicyIdCrashDump, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: ImagePolicyIdParentSd, wdm/ImagePolicyIdParentSd, wdm/ImagePolicyIdCrashDump, _IMAGE_POLICY_ID, ImagePolicyIdParentSdRev, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], wdm/IMAGE_POLICY_ID, kernel._image_policy_id, wdm/ImagePolicyIdParentSdRev, ImagePolicyIdDebug, ImagePolicyIdSvn, wdm/ImagePolicyIdSvn, wdm/ImagePolicyIdDebug, wdm/ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDumpKey, ImagePolicyIdScenarioId, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdDeviceId, wdm/ImagePolicyIdEtw, ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdMaximum, ImagePolicyIdEtw, ImagePolicyIdCrashDump, ImagePolicyIdDeviceId, wdm/ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdCapability, ImagePolicyIdCrashDumpKey, IMAGE_POLICY_ID, wdm/ImagePolicyIdScenarioId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IMAGE_POLICY_ID
 product: Windows
 targetos: Windows

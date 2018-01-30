@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_SEND_CHALLENGE_KEY
-title: _AACS_SEND_CHALLENGE_KEY
+title: "_AACS_SEND_CHALLENGE_KEY"
 author: windows-driver-content
 description: The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
 old-location: storage\aacs_send_challenge_key.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3985c396-7e85-46b6-8790-1ec45931a4ab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AACS_SEND_CHALLENGE_KEY structure [Storage Devices], structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml, storage.aacs_send_challenge_key, AACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices], PAACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, _AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY
+ms.keywords: structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml, *PAACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY structure [Storage Devices], _AACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY, storage.aacs_send_challenge_key, PAACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	AACS_SEND_CHALLENGE_KEY
 product: Windows
 targetos: Windows
-req.typenames: *PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY
+req.typenames: AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY
 ---
 
 # _AACS_SEND_CHALLENGE_KEY structure
@@ -87,11 +87,11 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
-
 <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
 
  
 

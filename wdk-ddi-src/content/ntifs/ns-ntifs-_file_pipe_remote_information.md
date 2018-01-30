@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_REMOTE_INFORMATION
-title: _FILE_PIPE_REMOTE_INFORMATION
+title: "_FILE_PIPE_REMOTE_INFORMATION"
 author: windows-driver-content
 description: The FILE_PIPE_REMOTE_INFORMATION structure contains information about the remote end of a named pipe.
 old-location: ifsk\file_pipe_remote_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e0e62227-5e84-45bd-9127-f5bbb30ba6f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PFILE_PIPE_REMOTE_INFORMATION, ifsk.file_pipe_remote_information, FILE_PIPE_REMOTE_INFORMATION structure [Installable File System Drivers], FILE_PIPE_REMOTE_INFORMATION, _FILE_PIPE_REMOTE_INFORMATION, PFILE_PIPE_REMOTE_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_PIPE_REMOTE_INFORMATION, PFILE_PIPE_REMOTE_INFORMATION, ntifs/FILE_PIPE_REMOTE_INFORMATION
+ms.keywords: PFILE_PIPE_REMOTE_INFORMATION structure pointer [Installable File System Drivers], *PFILE_PIPE_REMOTE_INFORMATION, FILE_PIPE_REMOTE_INFORMATION, ifsk.file_pipe_remote_information, _FILE_PIPE_REMOTE_INFORMATION, FILE_PIPE_REMOTE_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_REMOTE_INFORMATION, ntifs/FILE_PIPE_REMOTE_INFORMATION, ntifs/PFILE_PIPE_REMOTE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_PIPE_REMOTE_INFORMATION
 product: Windows
 targetos: Windows

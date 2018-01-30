@@ -40,7 +40,8 @@ apiname:
 -	EvtVhfReadyForNextReadReport
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
+req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
+req.product: Windows 10 or later.
 ---
 
 # EVT_VHF_READY_FOR_NEXT_READ_REPORT callback

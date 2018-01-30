@@ -2,13 +2,13 @@
 UID: NE:ks.KSPROPERTY_GM
 title: KSPROPERTY_GM
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksproperty_gm.htm
 old-project: stream
 ms.assetid: 723A64D3-30E0-4B8C-8CAB-3D7B685860F3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPROPERTY_GM_RENDER_CLOCK, ks/KSPROPERTY_GM_TIMESTAMP_CLOCK, ks/KSPROPERTY_GM, KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM_RENDER_CLOCK, KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM_TIMESTAMP_CLOCK, ks/KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM, ks/KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM enumeration [Streaming Media Devices], stream.ksproperty_gm
+ms.keywords: ks/KSPROPERTY_GM, KSPROPERTY_GM_TIMESTAMP_CLOCK, KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM_RENDER_CLOCK, ks/KSPROPERTY_GM_RENDER_CLOCK, KSPROPERTY_GM, ks/KSPROPERTY_GM_GRAPHMANAGER, ks/KSPROPERTY_GM_TIMESTAMP_CLOCK, KSPROPERTY_GM enumeration [Streaming Media Devices], stream.ksproperty_gm, ks/KSPROPERTY_GM_RATEMATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_GM
 product: Windows
 targetos: Windows

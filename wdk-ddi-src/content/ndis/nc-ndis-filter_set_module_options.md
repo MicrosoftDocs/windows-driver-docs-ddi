@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
 product: Windows
 targetos: Windows
@@ -237,17 +237,17 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
 <mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
    NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
 <mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
    NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
  
 

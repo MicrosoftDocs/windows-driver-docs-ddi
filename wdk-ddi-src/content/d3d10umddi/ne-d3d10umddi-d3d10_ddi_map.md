@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f544ae60-b9c4-497c-8cb5-a2f9500a0cde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_MAP, D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP_WRITE_DISCARD, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, d3d10umddi/D3D10_DDI_MAP, D3D10_DDI_MAP enumeration [Display Devices], D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP_READWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, display.d3d10_ddi_map, d3d10umddi/D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE_NOOVERWRITE, d3d10umddi/D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE
+ms.keywords: d3d10umddi/D3D10_DDI_MAP_WRITE_NOOVERWRITE, display.d3d10_ddi_map, D3D10_DDI_MAP_WRITE_NOOVERWRITE, d3d10umddi/D3D10_DDI_MAP_WRITE_DISCARD, D3D10_DDI_MAP_READ, d3d10umddi/D3D10_DDI_MAP, D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE_DISCARD, UMDisplayDriver_Dx10param_Structs_7bf6d24a-def5-4d66-9b15-fee9a619597b.xml, d3d10umddi/D3D10_DDI_MAP_WRITE, D3D10_DDI_MAP enumeration [Display Devices], D3D10_DDI_MAP, d3d10umddi/D3D10_DDI_MAP_READWRITE, D3D10_DDI_MAP_WRITE, d3d10umddi/D3D10_DDI_MAP_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

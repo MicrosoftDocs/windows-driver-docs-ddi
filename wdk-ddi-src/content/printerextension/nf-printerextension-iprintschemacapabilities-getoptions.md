@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetOptions method, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities::GetOptions, GetOptions, GetOptions method [Print Devices], IPrintSchemaCapabilities, GetOptions method [Print Devices], IPrintSchemaCapabilities interface
+ms.keywords: GetOptions method [Print Devices], IPrintSchemaCapabilities interface, GetOptions method [Print Devices], print.iprintschemacapabilities_getoptions, IPrintSchemaCapabilities, GetOptions, printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities interface [Print Devices], GetOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaCapabilities.GetOptions
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoptioncollection.md">IPrintSchemaOptionCollection</a>
+
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/IPPARAMS, *PIPPARAMS, print.ipparams, printoem/PIPPARAMS, IPPARAMS, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, IPPARAMS structure [Print Devices], PIPPARAMS structure pointer [Print Devices], PIPPARAMS
+ms.keywords: print.ipparams, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, IPPARAMS structure [Print Devices], IPPARAMS, printoem/PIPPARAMS, printoem/IPPARAMS, PIPPARAMS structure pointer [Print Devices], PIPPARAMS, *PIPPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	IPPARAMS
 product: Windows
 targetos: Windows

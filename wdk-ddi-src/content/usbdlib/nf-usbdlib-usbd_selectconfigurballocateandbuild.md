@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2B2F721C-9201-472B-8629-352CB212235C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild, buses.usbd_selectconfigurballocateandbuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses]
+ms.keywords: usbdlib/USBD_SelectConfigUrbAllocateAndBuild, buses.usbd_selectconfigurballocateandbuild, USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname: 
+apiname:
 -	USBD_SelectConfigUrbAllocateAndBuild
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

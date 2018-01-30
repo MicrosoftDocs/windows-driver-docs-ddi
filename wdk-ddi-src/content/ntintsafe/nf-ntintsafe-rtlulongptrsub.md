@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E8F9A1B0-5E87-4CB0-8C9E-5C2494F07C39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulongptrsub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongPtrSub, RtlULongPtrSub
+ms.keywords: RtlULongPtrSub, kernel.rtlulongptrsub, ntintsafe/RtlULongPtrSub, RtlULongPtrSub function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongPtrSub
 product: Windows
 targetos: Windows

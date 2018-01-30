@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GdiGetPageCount function [Print Devices], print.gdigetpagecount, GdiGetPageCount, winppi/GdiGetPageCount, gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml
+ms.keywords: gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, print.gdigetpagecount, GdiGetPageCount function [Print Devices], GdiGetPageCount, winppi/GdiGetPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiGetPageCount
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

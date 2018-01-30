@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml
+ms.keywords: NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMAllocateSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMAllocateSharedMemory function
@@ -232,32 +232,32 @@ If a miniport driver calls
 
 ## -see-also
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
 <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
-
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
-
-<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
 
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
+   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
+   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
 
 <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

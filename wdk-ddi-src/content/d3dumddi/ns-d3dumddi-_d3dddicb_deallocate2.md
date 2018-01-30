@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2, d3dumddi/D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], display.d3dddicb_deallocate2"
+ms.keywords: display.d3dddicb_deallocate2, D3DDDICB_DEALLOCATE2 structure [Display Devices], d3dumddi/D3DDDICB_DEALLOCATE2, _D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

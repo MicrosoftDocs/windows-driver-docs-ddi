@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATE_DELEGATED
-title: _TCP_OFFLOAD_STATE_DELEGATED
+title: "_TCP_OFFLOAD_STATE_DELEGATED"
 author: windows-driver-content
 description: The TCP_OFFLOAD_STATE_DELEGATED structure contains the delegated variables of a TCP connection state object.
 old-location: netvista\tcp_offload_state_delegated.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED
+ms.keywords: "_TCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	TCP_OFFLOAD_STATE_DELEGATED
 product: Windows
 targetos: Windows
-req.typenames: TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED
+req.typenames: "*PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED"
 ---
 
 # _TCP_OFFLOAD_STATE_DELEGATED structure
@@ -271,6 +271,66 @@ The current state of the TCP connection (see RFC 793) as one of the following
      connection regardless of the connection state.
 
 
+#### TcpConnectionClosed
+
+No connection state.
+
+
+#### TcpConnectionListen
+
+Waiting for a connection request from any remote TCP and port.
+
+
+#### TcpConnectionSynSent
+
+Waiting for a matching connection request after having sent a connection request.
+
+
+#### TcpConnectionSynRcvd
+
+Waiting for a confirming connection request acknowledgment after having both received and sent a
+       connection request.
+
+
+#### TcpConnectionEstablished
+
+An open connection: data received can be delivered to the user. The normal state for the data
+       transfer phase of the connection.
+
+
+#### TcpConnectionFinWait1
+
+Waiting for a connection termination request from the remote TCP, or an acknowledgment of the
+       connection termination request that was previously sent.
+
+
+#### TcpConnectionFinWait2
+
+Waiting for a connection termination request from the remote TCP.
+
+
+#### TcpConnectionCloseWait
+
+Waiting for a connection termination request from the local user.
+
+
+#### TcpConnectionClosing
+
+Waiting for a connection termination request acknowledgment from the remote TCP.
+
+
+#### TcpConnectionLastAck
+
+Waiting for an acknowledgment of the connection termination request previously sent to the
+       remote TCP, which includes an acknowledgment of its connection termination request.
+
+
+#### TcpConnectionTimeWait
+
+Waiting for enough time to pass to ensure that the remote TCP received the acknowledgment of its
+       connection termination request.
+
+
 ### -field Flags
 
 Reserved for system use.
@@ -375,66 +435,6 @@ The current send window probe round. For a description of the send window probe 
 
 
 
-##### - State.TcpConnectionFinWait1
-
-Waiting for a connection termination request from the remote TCP, or an acknowledgment of the
-       connection termination request that was previously sent.
-
-
-##### - State.TcpConnectionEstablished
-
-An open connection: data received can be delivered to the user. The normal state for the data
-       transfer phase of the connection.
-
-
-##### - State.TcpConnectionClosing
-
-Waiting for a connection termination request acknowledgment from the remote TCP.
-
-
-##### - State.TcpConnectionSynRcvd
-
-Waiting for a confirming connection request acknowledgment after having both received and sent a
-       connection request.
-
-
-##### - State.TcpConnectionFinWait2
-
-Waiting for a connection termination request from the remote TCP.
-
-
-##### - State.TcpConnectionTimeWait
-
-Waiting for enough time to pass to ensure that the remote TCP received the acknowledgment of its
-       connection termination request.
-
-
-##### - State.TcpConnectionListen
-
-Waiting for a connection request from any remote TCP and port.
-
-
-##### - State.TcpConnectionCloseWait
-
-Waiting for a connection termination request from the local user.
-
-
-##### - State.TcpConnectionLastAck
-
-Waiting for an acknowledgment of the connection termination request previously sent to the
-       remote TCP, which includes an acknowledgment of its connection termination request.
-
-
-##### - State.TcpConnectionSynSent
-
-Waiting for a matching connection request after having sent a connection request.
-
-
-##### - State.TcpConnectionClosed
-
-No connection state.
-
-
 ## -remarks
 
 
@@ -464,15 +464,15 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
 <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
  
 

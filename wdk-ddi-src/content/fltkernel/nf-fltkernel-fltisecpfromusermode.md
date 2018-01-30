@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d00cb2b1-b579-43c9-9e4d-cbdefd8a343a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsEcpFromUserMode routine [Installable File System Drivers], FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, fltkernel/FltIsEcpFromUserMode, FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
+ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode, FltIsEcpFromUserMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	FltMgr.sys
-apiname: 
+apiname:
 -	FltIsEcpFromUserMode
 product: Windows
 targetos: Windows
@@ -87,17 +87,17 @@ The routine returns <b>TRUE</b> if the ECP originated in user mode and <b>FALSE<
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltacknowledgeecp.md">FltAcknowledgeEcp</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
  
 

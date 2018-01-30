@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfcompanion._WDF_TASK_QUEUE_DISPATCH_TYPE
-title: _WDF_TASK_QUEUE_DISPATCH_TYPE
+title: "_WDF_TASK_QUEUE_DISPATCH_TYPE"
 author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_queue_dispatch_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27cc4067-33de-4f2d-abad-05c73c875458
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcompanion/WdfTaskQueueDispatchSequential, WdfTaskQueueDispatchInvalid, wdfcompanion/WdfTaskQueueDispatchInvalid, wdfcompanion/WdfTaskQueueDispatchParallel, WDF_TASK_QUEUE_DISPATCH_TYPE enumeration, WdfTaskQueueDispatchSequential, _WDF_TASK_QUEUE_DISPATCH_TYPE, WdfTaskQueueDispatchParallel, wdfcompanion/WdfTaskQueueDispatchMax, wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE, wdf.wdf_task_queue_dispatch_type, WdfTaskQueueDispatchMax, WDF_TASK_QUEUE_DISPATCH_TYPE
+ms.keywords: WdfTaskQueueDispatchSequential, wdfcompanion/WdfTaskQueueDispatchMax, WdfTaskQueueDispatchInvalid, wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE, wdfcompanion/WdfTaskQueueDispatchSequential, wdfcompanion/WdfTaskQueueDispatchParallel, wdf.wdf_task_queue_dispatch_type, WDF_TASK_QUEUE_DISPATCH_TYPE, wdfcompanion/WdfTaskQueueDispatchInvalid, WdfTaskQueueDispatchParallel, WdfTaskQueueDispatchMax, _WDF_TASK_QUEUE_DISPATCH_TYPE, WDF_TASK_QUEUE_DISPATCH_TYPE enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcompanion.h
-apiname: 
+apiname:
 -	WDF_TASK_QUEUE_DISPATCH_TYPE
 product: Windows
 targetos: Windows

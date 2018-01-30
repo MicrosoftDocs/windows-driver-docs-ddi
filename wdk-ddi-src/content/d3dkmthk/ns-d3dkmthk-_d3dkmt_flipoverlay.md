@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_FLIPOVERLAY structure [Display Devices], _D3DKMT_FLIPOVERLAY, d3dkmthk/D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay, OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, D3DKMT_FLIPOVERLAY
+ms.keywords: D3DKMT_FLIPOVERLAY structure [Display Devices], d3dkmthk/D3DKMT_FLIPOVERLAY, OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay, _D3DKMT_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

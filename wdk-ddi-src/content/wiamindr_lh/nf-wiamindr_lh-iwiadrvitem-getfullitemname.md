@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 810faf49-faa9-45f2-af94-af576f4c1075
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaDrvItem::GetFullItemName, GetFullItemName method [Imaging Devices], IWiaDrvItem interface, GetFullItemName method [Imaging Devices], IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetFullItemName method
+ms.keywords: GetFullItemName method [Imaging Devices], IWiaDrvItem interface [Imaging Devices], GetFullItemName method, wiamindr_lh/IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, IWiaDrvItem::GetFullItemName, GetFullItemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.GetFullItemName
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 

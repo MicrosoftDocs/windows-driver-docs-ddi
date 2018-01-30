@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b0ca123-8847-4dc3-b0f5-9788104381ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PVP_SCATTER_GATHER_ELEMENT, _VP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], display.vp_scatter_gather_element, Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml, VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT, video/VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices]
+ms.keywords: video/PVP_SCATTER_GATHER_ELEMENT, _VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml, video/VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices], display.vp_scatter_gather_element, VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PVP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT"
+req.product: Windows 10 or later.
 ---
 
 # _VP_SCATTER_GATHER_ELEMENT structure

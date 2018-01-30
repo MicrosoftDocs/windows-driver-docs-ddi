@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], SOUNDDETECTOR_PATTERNHEADER, ksmedia/SOUNDDETECTOR_PATTERNHEADER, audio.sounddetector_patternheader
+ms.keywords: audio.sounddetector_patternheader, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], ksmedia/SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

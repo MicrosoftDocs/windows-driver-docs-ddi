@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DisableEvents method [Print Devices], IPrinterExtensionManager interface [Print Devices], DisableEvents method, print.iprinterextensionmanager_disableevents, DisableEvents method [Print Devices], IPrinterExtensionManager interface, IPrinterExtensionManager::DisableEvents, DisableEvents, printerextension/IPrinterExtensionManager::DisableEvents, IPrinterExtensionManager
+ms.keywords: print.iprinterextensionmanager_disableevents, IPrinterExtensionManager::DisableEvents, DisableEvents method [Print Devices], printerextension/IPrinterExtensionManager::DisableEvents, DisableEvents, IPrinterExtensionManager interface [Print Devices], DisableEvents method, DisableEvents method [Print Devices], IPrinterExtensionManager interface, IPrinterExtensionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterExtensionManager.DisableEvents
 product: Windows
 targetos: Windows
@@ -83,9 +83,9 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406706">EnableEvents</a>
-
 <a href="https://msdn.microsoft.com/918AE3F6-2AC4-42AD-9581-E87AD7E79BAD">IPrinterExtensionManager</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406706">EnableEvents</a>
 
  
 

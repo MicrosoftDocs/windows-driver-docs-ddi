@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, stream.kswave_input_capabilities, KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], *PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES, ksmedia/KSWAVE_INPUT_CAPABILITIES
+ms.keywords: ksmedia/PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES, ksmedia/KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, stream.kswave_input_capabilities, KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSWAVE_INPUT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES
+req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 ---
 
 # KSWAVE_INPUT_CAPABILITIES structure

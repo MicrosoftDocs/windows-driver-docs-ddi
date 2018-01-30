@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, AllocateBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, IMiniportWaveRTStreamNotification, AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, audio.iminiportwavertstreamnotification_allocatebufferwithnotification
+ms.keywords: IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, AllocateBufferWithNotification, IMiniportWaveRTStreamNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,15 +157,15 @@ The device is not ready.
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
 
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
  
 

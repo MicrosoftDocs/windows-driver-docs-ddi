@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.probeforwrite, ProbeForWrite, k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, ProbeForWrite routine [Kernel-Mode Driver Architecture], wdm/ProbeForWrite
+ms.keywords: k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, wdm/ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], ProbeForWrite, kernel.probeforwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ProbeForWrite
 product: Windows
 targetos: Windows

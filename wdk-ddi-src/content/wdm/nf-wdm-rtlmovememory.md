@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlMoveMemory, k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, RtlMoveMemory, kernel.rtlmovememory, RtlMoveMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlMoveMemory, kernel.rtlmovememory, wdm/RtlMoveMemory, k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, RtlMoveMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlMoveMemory
 product: Windows
 targetos: Windows

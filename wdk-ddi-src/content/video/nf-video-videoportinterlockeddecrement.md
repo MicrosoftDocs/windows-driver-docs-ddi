@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b72e3b7d-000b-4827-aa06-699a0bcc1840
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml, video/VideoPortInterlockedDecrement, VideoPortInterlockedDecrement function [Display Devices], display.videoportinterlockeddecrement, VideoPortInterlockedDecrement
+ms.keywords: display.videoportinterlockeddecrement, VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml, VideoPortInterlockedDecrement function [Display Devices], VideoPortInterlockedDecrement, video/VideoPortInterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortInterlockedDecrement function
@@ -90,9 +91,9 @@ This function is atomic only with respect to other <b>VideoPortInterlocked</b><i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
-
 <a href="..\video\nf-video-videoportinterlockedexchange.md">VideoPortInterlockedExchange</a>
+
+<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
 
  
 

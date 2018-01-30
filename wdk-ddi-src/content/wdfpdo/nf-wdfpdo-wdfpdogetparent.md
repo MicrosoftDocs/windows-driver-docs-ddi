@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdogetparent, PFN_WDFPDOGETPARENT, wdfpdo/WdfPdoGetParent, WdfPdoGetParent, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, wdf.wdfpdogetparent, WdfPdoGetParent method
+ms.keywords: kmdf.wdfpdogetparent, WdfPdoGetParent, wdf.wdfpdogetparent, WdfPdoGetParent method, PFN_WDFPDOGETPARENT, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, wdfpdo/WdfPdoGetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfPdoGetParent
 product: Windows
 targetos: Windows

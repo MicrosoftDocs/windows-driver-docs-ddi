@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_NIC_PARAMETERS
-title: _NDIS_SWITCH_NIC_PARAMETERS
+title: "_NDIS_SWITCH_NIC_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_SWITCH_NIC_PARAMETERS structure specifies the configuration parameters for a network adapter (NIC) that is connected to a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_nic_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 52B9DD8B-E96F-464C-9D98-5EF8B6C050C5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS, _NDIS_SWITCH_NIC_PARAMETERS, netvista.ndis_switch_nic_parameters, ntddndis/PNDIS_SWITCH_NIC_PARAMETERS, ntddndis/NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING
+ms.keywords: netvista.ndis_switch_nic_parameters, _NDIS_SWITCH_NIC_PARAMETERS, ntddndis/PNDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING, ntddndis/NDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_NIC_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_NIC_PARAMETERS
 product: Windows
 targetos: Windows
@@ -93,6 +93,13 @@ The type, revision, and size of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
 
+
+
+#### NDIS_SWITCH_NIC_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_SWITCH_NIC_PARAMETERS_REVISION_1</b>.
 
 
 ### -field Flags
@@ -228,13 +235,6 @@ For more information, see the Remarks section.
 
 
 
-##### - Header.NDIS_SWITCH_NIC_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_SWITCH_NIC_PARAMETERS_REVISION_1</b>.
-
-
 #### - VMFriendlyName
 
 An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
@@ -318,31 +318,31 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598206">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_state.md">NDIS_SWITCH_NIC_STATE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_type.md">NDIS_SWITCH_NIC_TYPE</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_state.md">NDIS_SWITCH_NIC_STATE</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_type.md">NDIS_SWITCH_NIC_TYPE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598262">OID_SWITCH_NIC_CONNECT</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598206">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8d03a63-4b6a-4e84-994b-0e205401e531
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, storport/StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, StorPortAllocateRegistryBuffer
+ms.keywords: StorPortAllocateRegistryBuffer, storport/StorPortAllocateRegistryBuffer, storage.storportallocateregistrybuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, StorPortAllocateRegistryBuffer routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortAllocateRegistryBuffer
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_PATCH_CODE_INFO
-title: _WIA_PATCH_CODE_INFO
+title: "_WIA_PATCH_CODE_INFO"
 author: windows-driver-content
 description: The WIA_PATCH_CODE_INFO structure stores information for one decoded patch code.
 old-location: image\wia_patch_code_info.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 476C9269-7A88-4D06-80E8-C80E5F29B6CF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiadef/WIA_PATCH_CODE_INFO, image.wia_patch_code_info, _WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices]
+ms.keywords: image.wia_patch_code_info, WIA_PATCH_CODE_INFO structure [Imaging Devices], _WIA_PATCH_CODE_INFO, wiadef/WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiadef.h
-apiname: 
+apiname:
 -	WIA_PATCH_CODE_INFO
 product: Windows
 targetos: Windows

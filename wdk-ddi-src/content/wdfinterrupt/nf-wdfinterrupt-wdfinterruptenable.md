@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e2ffab7f-b6bf-4707-9a3d-9619330b2af1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfinterruptenable, PFN_WDFINTERRUPTENABLE, kmdf.wdfinterruptenable, wdfinterrupt/WdfInterruptEnable, WdfInterruptEnable method, DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, WdfInterruptEnable
+ms.keywords: kmdf.wdfinterruptenable, DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, wdf.wdfinterruptenable, PFN_WDFINTERRUPTENABLE, WdfInterruptEnable method, wdfinterrupt/WdfInterruptEnable, WdfInterruptEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfInterruptEnable
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 

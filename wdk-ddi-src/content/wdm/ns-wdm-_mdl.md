@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._MDL
-title: _MDL
+title: "_MDL"
 author: windows-driver-content
 description: An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL).
 old-location: kernel\mdl.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71524333-dd5d-4f0b-8dd3-034ea926bc93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MDL, *PMDLX, _MDL, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, PMDL, kernel.mdl, wdm/MDL, MDL structure [Kernel-Mode Driver Architecture]
+ms.keywords: MDL structure [Kernel-Mode Driver Architecture], wdm/MDL, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, MDL, kernel.mdl, PMDL, _MDL, *PMDLX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MDL
 product: Windows
 targetos: Windows
@@ -128,17 +128,17 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
+
+<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
 
  
 

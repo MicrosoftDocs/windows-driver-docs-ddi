@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, DeviceCapabilities, print.iprintoemui_devicecapabilities, IPrintOemUI interface [Print Devices], DeviceCapabilities method, DeviceCapabilities method [Print Devices], IPrintOemUI, IPrintOemUI::DeviceCapabilities, DeviceCapabilities method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DeviceCapabilities
+ms.keywords: prcomoem/IPrintOemUI::DeviceCapabilities, IPrintOemUI, DeviceCapabilities method [Print Devices], DeviceCapabilities, DeviceCapabilities method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, IPrintOemUI interface [Print Devices], DeviceCapabilities method, IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.DeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

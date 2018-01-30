@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3a688fe-928c-458e-ac47-59a9ae61bc5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo, ntddrilapitypes/RILUICCAPPINFO, *LPRILUICCAPPINFO
+ms.keywords: "*LPRILUICCAPPINFO, ntddrilapitypes/RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], RILUICCAPPINFO, netvista.riluiccappinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILUICCAPPINFO
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCAPPINFO, RILUICCAPPINFO
+req.typenames: "*LPRILUICCAPPINFO, RILUICCAPPINFO"
 ---
 
 # RILUICCAPPINFO structure

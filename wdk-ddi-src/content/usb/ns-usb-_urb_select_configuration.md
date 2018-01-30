@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_SELECT_CONFIGURATION
-title: _URB_SELECT_CONFIGURATION
+title: "_URB_SELECT_CONFIGURATION"
 author: windows-driver-content
 description: The _URB_SELECT_CONFIGURATION structure is used by client drivers to select a configuration for a USB device.
 old-location: buses\_urb_select_configuration.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a6a4963b-64d7-4f46-bc19-16925929e7c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_SELECT_CONFIGURATION, usb/_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml, buses._urb_select_configuration
+ms.keywords: usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml, _URB_SELECT_CONFIGURATION structure [Buses], usb/_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION, buses._urb_select_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_SELECT_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -116,17 +116,17 @@ Other members that are part of this structure but not described here should be t
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
 <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e189d2f6-ef1c-45ed-8b55-8aae0661a426
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2 interface, GetQueryInformationParameters method, umdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method, IWDFIoRequest2 interface, IWDFIoRequest2::GetQueryInformationParameters, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, GetQueryInformationParameters, IWDFIoRequest2, wdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method
+ms.keywords: IWDFIoRequest2, umdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters method, UMDFRequestObjectRef_595d2b4c-1286-4243-b440-0efaae03980d.xml, GetQueryInformationParameters method, IWDFIoRequest2 interface, IWDFIoRequest2::GetQueryInformationParameters, IWDFIoRequest2 interface, GetQueryInformationParameters method, wudfddi/IWDFIoRequest2::GetQueryInformationParameters, wdf.iwdfiorequest2_getqueryinformationparameters, GetQueryInformationParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest2.GetQueryInformationParameters
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ void GetQueryInformationParameters(
 
 ### -param pInformationClass [out, optional]
 
-A pointer to a driver-allocated variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
+A pointer to a driver-allocated variable that receives a <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
 
 
 ### -param pSizeInBytes [out, optional]

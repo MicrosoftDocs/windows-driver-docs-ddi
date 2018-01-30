@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsVolumeSnapshot, FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, fltkernel/FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], ifsk.fltisvolumesnapshot
+ms.keywords: FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, fltkernel/FltIsVolumeSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: FltMgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	FltMgr.sys
-apiname: 
+apiname:
 -	FltIsVolumeSnapshot
 product: Windows
 targetos: Windows

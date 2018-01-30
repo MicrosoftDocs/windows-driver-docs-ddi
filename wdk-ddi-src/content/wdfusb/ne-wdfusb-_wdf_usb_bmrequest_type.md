@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_BMREQUEST_TYPE
-title: _WDF_USB_BMREQUEST_TYPE
+title: "_WDF_USB_BMREQUEST_TYPE"
 author: windows-driver-content
 description: The WDF_USB_BMREQUEST_TYPE enumeration identifies the data transfer type for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c20e7aec-32e7-401d-8c40-aa6ac191e857
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_BMREQUEST_TYPE, wdfusb/WDF_USB_BMREQUEST_TYPE, wdfusb/BmRequestStandard, BmRequestStandard, BmRequestVendor, _WDF_USB_BMREQUEST_TYPE, wdf.wdf_usb_bmrequest_type, wdfusb/BmRequestVendor, wdfusb/BmRequestClass, kmdf.wdf_usb_bmrequest_type, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, WDF_USB_BMREQUEST_TYPE enumeration, BmRequestClass
+ms.keywords: BmRequestVendor, wdfusb/WDF_USB_BMREQUEST_TYPE, wdfusb/BmRequestClass, WDF_USB_BMREQUEST_TYPE, kmdf.wdf_usb_bmrequest_type, _WDF_USB_BMREQUEST_TYPE, BmRequestClass, wdfusb/BmRequestVendor, BmRequestStandard, wdfusb/BmRequestStandard, WDF_USB_BMREQUEST_TYPE enumeration, wdf.wdf_usb_bmrequest_type, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_BMREQUEST_TYPE
 product: Windows
 targetos: Windows

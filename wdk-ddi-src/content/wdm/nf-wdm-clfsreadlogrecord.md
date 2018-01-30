@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsreadlogrecord, ClfsReadLogRecord, wdm/ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml
+ms.keywords: wdm/ClfsReadLogRecord, kernel.clfsreadlogrecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], ClfsReadLogRecord, Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsReadLogRecord
 product: Windows
 targetos: Windows

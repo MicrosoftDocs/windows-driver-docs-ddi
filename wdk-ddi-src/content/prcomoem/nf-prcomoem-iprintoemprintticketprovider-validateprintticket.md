@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, ValidatePrintTicket, IPrintOemPrintTicketProvider, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket method [Print Devices], print.iprintoemprintticketprovider_validateprintticket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket
+ms.keywords: print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, print.iprintoemprintticketprovider_validateprintticket, ValidatePrintTicket method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

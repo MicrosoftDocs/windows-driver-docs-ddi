@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_INQUIRY_DATA
-title: _SCSI_INQUIRY_DATA
+title: "_SCSI_INQUIRY_DATA"
 author: windows-driver-content
 description: The SCSI_INQUIRY_DATA structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_inquiry_data.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f62c35dd-791d-4c21-9836-308cc5fb102b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSCSI_INQUIRY_DATA structure pointer [Storage Devices], SCSI_INQUIRY_DATA structure [Storage Devices], storage.scsi_inquiry_data, ntddscsi/SCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, SCSI_INQUIRY_DATA, _SCSI_INQUIRY_DATA
+ms.keywords: ntddscsi/PSCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, _SCSI_INQUIRY_DATA, storage.scsi_inquiry_data, SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA structure [Storage Devices], PSCSI_INQUIRY_DATA, ntddscsi/SCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	SCSI_INQUIRY_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA
+req.typenames: "*PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA"
 ---
 
 # _SCSI_INQUIRY_DATA structure

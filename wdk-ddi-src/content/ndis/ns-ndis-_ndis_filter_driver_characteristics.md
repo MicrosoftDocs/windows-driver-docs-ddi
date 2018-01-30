@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_DRIVER_CHARACTERISTICS
-title: _NDIS_FILTER_DRIVER_CHARACTERISTICS
+title: "_NDIS_FILTER_DRIVER_CHARACTERISTICS"
 author: windows-driver-content
 description: To specify its driver characteristics, a filter driver initializes an NDIS_FILTER_DRIVER_CHARACTERISTICS structure and passes it to NDIS.
 old-location: netvista\ndis_filter_driver_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1eb2bae0-70b9-4bc0-9d93-4fc9467f9532
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics, PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NDIS_FILTER_DRIVER_CHARACTERISTICS, *PNDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS
+ms.keywords: ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics, filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, _NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_FILTER_DRIVER_CHARACTERISTICS, *PNDIS_FILTER_DRIVER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_FILTER_DRIVER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS
+req.typenames: "*PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS"
 ---
 
 # _NDIS_FILTER_DRIVER_CHARACTERISTICS structure
@@ -115,6 +115,34 @@ To indicate the version of the NDIS_FILTER_DRIVER_CHARACTERISTICS structure, set
      <b>Revision</b> member to one of the following values:
 
 
+
+
+#### NDIS_FILTER_CHARACTERISTICS_REVISION_3
+
+Added the 
+        <b>SynchronousOidRequestHandler</b> and <b>SynchronousOidRequestHandlerComplete</b> members for NDIS 6.80.
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_3.
+
+
+#### NDIS_FILTER_CHARACTERISTICS_REVISION_2
+
+Added the 
+        <b>DirectOidRequestHandler</b>, 
+        <b>DirectOidRequestCompleteHandler</b>, and 
+        <b>CancelDirectOidRequestHandler</b> members for NDIS 6.1.
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_2.
+
+
+#### NDIS_FILTER_CHARACTERISTICS_REVISION_1
+
+Original version.
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_1.
 
 
 ### -field MajorNdisVersion
@@ -413,37 +441,9 @@ The entry point of the caller's
 
 
 
-##### - Header.NDIS_FILTER_CHARACTERISTICS_REVISION_3
-
-Added the 
-        <b>SynchronousOidRequestHandler</b> and <b>SynchronousOidRequestHandlerComplete</b> members for NDIS 6.80.
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_3.
-
-
 #### - SynchronousOidRequestHandlerComplete
 
 <div class="alert"><b>Warning</b>  In Windows 10, version 1709, Synchronous OID requests are supported only for miniport and protocol drivers. Filter drivers cannot make Synchronous OID request calls in Windows 10, version 1709.</div><div> </div>This member is reserved.
-
-
-##### - Header.NDIS_FILTER_CHARACTERISTICS_REVISION_2
-
-Added the 
-        <b>DirectOidRequestHandler</b>, 
-        <b>DirectOidRequestCompleteHandler</b>, and 
-        <b>CancelDirectOidRequestHandler</b> members for NDIS 6.1.
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_2.
-
-
-##### - Header.NDIS_FILTER_CHARACTERISTICS_REVISION_1
-
-Original version.
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_1.
 
 
 ## -remarks
@@ -461,60 +461,60 @@ A filter driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
-
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
-   FilterDirectOidRequestComplete</i></mshelp:link>
-
-<a href="https://msdn.microsoft.com/e2714e67-62ac-4d9a-bec3-971d1c8b5bd8">INF File Settings for Filter Drivers</a>
-
-<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
-   FilterCancelSendNetBufferLists</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
-
-<a href="..\ndis\nc-ndis-filter_cancel_oid_request.md">FilterCancelOidRequest</a>
 
 <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
    FilterSendNetBufferListsComplete</i></mshelp:link>
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-<mshelp:link keywords="netvista.filtercanceldirectoidrequest" tabindex="0"><i>
-   FilterCancelDirectOidRequest</i></mshelp:link>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
 
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
+   FilterCancelSendNetBufferLists</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
 
+<mshelp:link keywords="netvista.filterdirectoidrequestcomplete" tabindex="0"><i>
+   FilterDirectOidRequestComplete</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+<a href="..\ndis\nc-ndis-filter_cancel_oid_request.md">FilterCancelOidRequest</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+<a href="https://msdn.microsoft.com/e2714e67-62ac-4d9a-bec3-971d1c8b5bd8">INF File Settings for Filter Drivers</a>
+
+<mshelp:link keywords="netvista.filtercanceldirectoidrequest" tabindex="0"><i>
+   FilterCancelDirectOidRequest</i></mshelp:link>
 
  
 

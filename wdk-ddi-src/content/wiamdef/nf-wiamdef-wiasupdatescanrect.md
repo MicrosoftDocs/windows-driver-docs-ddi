@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f8184ae1-878f-46fc-bddc-66c065bc9e75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect function [Imaging Devices], wiamdef/wiasUpdateScanRect, image.wiasupdatescanrect, wiasUpdateScanRect
+ms.keywords: wiasUpdateScanRect function [Imaging Devices], wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect, wiasUpdateScanRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasUpdateScanRect
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -107,9 +107,9 @@ This helper method is called to update the properties making up the scan rectang
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
 
  
 

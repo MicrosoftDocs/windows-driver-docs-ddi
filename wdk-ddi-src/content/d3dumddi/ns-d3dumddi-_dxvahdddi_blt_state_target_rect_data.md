@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d6b76b6b-59d9-441f-846e-fe89d26f631d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_blt_state_target_rect_data, DXVA2_Structs_bb978cee-d80a-429b-ac2c-1704539c55f7.xml, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
+ms.keywords: "_DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, DXVA2_Structs_bb978cee-d80a-429b-ac2c-1704539c55f7.xml, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure [Display Devices], DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, display.dxvahdddi_blt_state_target_rect_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

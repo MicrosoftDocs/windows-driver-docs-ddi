@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._VENDOR_ATTR
-title: _VENDOR_ATTR
+title: "_VENDOR_ATTR"
 author: windows-driver-content
 description: The VENDOR_ATTR structure defines the data that is stored in the VendorAttr member of the SMARTCARD_EXTENSION structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number.
 old-location: smartcrd\vendor_attr.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: f166ced5-2d63-4e35-af77-78ca80c888d7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PVENDOR_ATTR, *PVENDOR_ATTR, _VENDOR_ATTR, PVENDOR_ATTR structure pointer [Smart Card Reader Devices], smclib/VENDOR_ATTR, VENDOR_ATTR, smclib/PVENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], smartcrd.vendor_attr, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml
+ms.keywords: smclib/PVENDOR_ATTR, _VENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], VENDOR_ATTR, *PVENDOR_ATTR, smartcrd.vendor_attr, PVENDOR_ATTR structure pointer [Smart Card Reader Devices], smclib/VENDOR_ATTR, PVENDOR_ATTR, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	smclib.h
-apiname: 
+apiname:
 -	VENDOR_ATTR
 product: Windows
 targetos: Windows
-req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
+req.typenames: "*PVENDOR_ATTR, VENDOR_ATTR"
 req.product: Windows 10 or later.
 ---
 

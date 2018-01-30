@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ReleaseController
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_RELEASE_CONTROLLER callback

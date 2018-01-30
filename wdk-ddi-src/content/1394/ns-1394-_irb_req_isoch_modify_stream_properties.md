@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
-title: _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
+title: "_IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES"
 author: windows-driver-content
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochModifyStreamProperties request.
 old-location: ieee\irb_req_isoch_modify_stream_properties.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 06CA5F26-8042-4EAC-A381-A0C6E7023BFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], IEEE.irb_req_isoch_modify_stream_properties, 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
+ms.keywords: 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], IEEE.irb_req_isoch_modify_stream_properties, _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 product: Windows
 targetos: Windows

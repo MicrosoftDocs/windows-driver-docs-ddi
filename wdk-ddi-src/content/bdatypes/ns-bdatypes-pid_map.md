@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f71045e8-2928-40b8-b8f7-bc954a753aff
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PID_MAP structure [Streaming Media Devices], bdaref_54fdf358-1957-4e84-a5a4-9929395f105b.xml, PID_MAP, bdatypes/PID_MAP, stream.pid_map
+ms.keywords: stream.pid_map, bdaref_54fdf358-1957-4e84-a5a4-9929395f105b.xml, PID_MAP, bdatypes/PID_MAP, PID_MAP structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdatypes.h
-apiname: 
+apiname:
 -	PID_MAP
 product: Windows
 targetos: Windows
@@ -82,9 +82,9 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
-
 <a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
  
 

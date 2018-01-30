@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54a5009d-9893-4766-b9fd-7e7474b55949
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/InitializePrintProvidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, print.initializeprintprovidor, InitializePrintProvidor function [Print Devices], InitializePrintProvidor
+ms.keywords: InitializePrintProvidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, print.initializeprintprovidor, InitializePrintProvidor function [Print Devices], winsplp/InitializePrintProvidor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	InitializePrintProvidor
 product: Windows
 targetos: Windows

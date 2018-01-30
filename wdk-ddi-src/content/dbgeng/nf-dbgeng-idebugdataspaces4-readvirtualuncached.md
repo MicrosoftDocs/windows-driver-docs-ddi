@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 91674220-3160-40d2-9d68-56d854244711
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadVirtualUncached method [Windows Debugging], dbgeng/IDebugDataSpaces3::ReadVirtualUncached, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces::ReadVirtualUncached, debugger.readvirtualuncached, dbgeng/IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces4::ReadVirtualUncached, ReadVirtualUncached, dbgeng/IDebugDataSpaces2::ReadVirtualUncached, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces_265817a7-d690-4b8c-957f-06ec5d4f2f08.xml, IDebugDataSpaces3::ReadVirtualUncached, IDebugDataSpaces interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces::ReadVirtualUncached, IDebugDataSpaces2::ReadVirtualUncached
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces3::ReadVirtualUncached, dbgeng/IDebugDataSpaces::ReadVirtualUncached, IDebugDataSpaces2::ReadVirtualUncached, IDebugDataSpaces interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces4::ReadVirtualUncached, dbgeng/IDebugDataSpaces2::ReadVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, ReadVirtualUncached, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, debugger.readvirtualuncached, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces::ReadVirtualUncached, dbgeng/IDebugDataSpaces3::ReadVirtualUncached, ReadVirtualUncached method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces_265817a7-d690-4b8c-957f-06ec5d4f2f08.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadVirtualUncached
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadVirtualUncached method
@@ -129,15 +129,15 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561473">WriteVirtualUncached</a>
 

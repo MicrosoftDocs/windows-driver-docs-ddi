@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03e922af-f42a-4801-adc5-fc7a0b90f4a7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WNODE_SINGLE_INSTANCE structure [Kernel-Mode Driver Architecture], kstruct_d_c6ae2ea3-5e64-466d-b479-02a9eea71b20.xml, tagWNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE, wmistr/WNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE, wmistr/PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_single_instance
+ms.keywords: PWNODE_SINGLE_INSTANCE structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_SINGLE_INSTANCE, kstruct_d_c6ae2ea3-5e64-466d-b479-02a9eea71b20.xml, WNODE_SINGLE_INSTANCE structure [Kernel-Mode Driver Architecture], tagWNODE_SINGLE_INSTANCE, wmistr/PWNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE, kernel.wnode_single_instance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wmistr.h
-apiname: 
+apiname:
 -	WNODE_SINGLE_INSTANCE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58530a72-6e07-44f5-9d7d-04bc37ff1ec9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices], stream.ksproperty_item, ks/KSPROPERTY_ITEM, ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, KSPROPERTY_ITEM, PKSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices]
+ms.keywords: KSPROPERTY_ITEM, *PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, stream.ksproperty_item, ks/PKSPROPERTY_ITEM, PKSPROPERTY_ITEM, ks/KSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_ITEM, KSPROPERTY_ITEM
+req.typenames: "*PKSPROPERTY_ITEM, KSPROPERTY_ITEM"
 ---
 
 # KSPROPERTY_ITEM structure
@@ -223,19 +223,19 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>
-
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
+<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568204">SRB_SET_DEVICE_PROPERTY</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
 
  
 

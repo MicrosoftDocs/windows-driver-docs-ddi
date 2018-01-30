@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_KPROCESSOR_MODE
-title: _WDF_KPROCESSOR_MODE
+title: "_WDF_KPROCESSOR_MODE"
 author: windows-driver-content
 description: The WDF_KPROCESSOR_MODE enumeration type identifies the processor modes in which a thread can execute.
 old-location: wdf\wdf_kprocessor_mode.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfKernelMode, WdfKernelMode, wudfddi_types/WDF_KPROCESSOR_MODE, _WDF_KPROCESSOR_MODE, WdfKProcessorModeInvalid, WdfUserMode, wudfddi_types/WdfUserMode, WDF_KPROCESSOR_MODE enumeration, WdfKProcessorModeMaximum, wudfddi_types/PWDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, wdf.wdf_kprocessor_mode, PWDF_KPROCESSOR_MODE enumeration pointer, wudfddi_types/WdfKProcessorModeMaximum, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, *PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid
+ms.keywords: "*PWDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, wdf.wdf_kprocessor_mode, WDF_KPROCESSOR_MODE, wudfddi_types/WdfUserMode, WdfKProcessorModeInvalid, WdfKernelMode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, WdfUserMode, WDF_KPROCESSOR_MODE enumeration, wudfddi_types/WdfKProcessorModeMaximum, PWDF_KPROCESSOR_MODE, _WDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE enumeration pointer, WdfKProcessorModeMaximum, wudfddi_types/WdfKernelMode, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_KPROCESSOR_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE
+req.typenames: "*PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE"
 req.product: Windows 10 or later.
 ---
 

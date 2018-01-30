@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, storport/StorPortWritePortBufferUlong, storage.storportwriteportbufferulong, StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices]
+ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, storport/StorPortWritePortBufferUlong, storage.storportwriteportbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortWritePortBufferUlong
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
-
 <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
+
+<a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
 
  
 

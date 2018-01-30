@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Fwpsk.h
-apiname: 
+apiname:
 -	completionFn
 product: Windows
 targetos: Windows
@@ -93,18 +93,18 @@ A value that indicates the IRQL at which the
      <i>completionFn</i> callout function is being called at an IRQL &lt; DISPATCH_LEVEL.
 
 
-#### - netBufferList [in, out]
-
-The pointer passed in the 
-     <i>netBufferList</i> parameter of one of the 
-     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
-     by the callout driver.
-
-
 #### - context [in]
 
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
+     by the callout driver.
+
+
+#### - netBufferList [in, out]
+
+The pointer passed in the 
+     <i>netBufferList</i> parameter of one of the 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> called
      by the callout driver.
 
@@ -161,19 +161,19 @@ The filter engine calls a callout's
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
  
 

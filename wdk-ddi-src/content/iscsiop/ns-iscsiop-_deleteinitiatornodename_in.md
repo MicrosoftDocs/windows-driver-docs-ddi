@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._DeleteInitiatorNodeName_IN
-title: _DeleteInitiatorNodeName_IN
+title: "_DeleteInitiatorNodeName_IN"
 author: windows-driver-content
 description: The DeleteInitiatorNodeName_IN structure holds the input data for the DeleteInitiatorNodeName method, which is used to delete an initiator node name.
 old-location: storage\deleteinitiatornodename_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10b6660c-7f48-4717-89d4-d6a5eb6594c8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN, DeleteInitiatorNodeName_IN, storage.deleteinitiatornodename_in, iscsiop/PDeleteInitiatorNodeName_IN, PDeleteInitiatorNodeName_IN structure pointer [Storage Devices], structs-iSCSI_2b687a5a-17af-4eda-b48f-8e7ca06024f2.xml, DeleteInitiatorNodeName_IN structure [Storage Devices], _DeleteInitiatorNodeName_IN, iscsiop/DeleteInitiatorNodeName_IN
+ms.keywords: DeleteInitiatorNodeName_IN structure [Storage Devices], _DeleteInitiatorNodeName_IN, storage.deleteinitiatornodename_in, structs-iSCSI_2b687a5a-17af-4eda-b48f-8e7ca06024f2.xml, PDeleteInitiatorNodeName_IN structure pointer [Storage Devices], DeleteInitiatorNodeName_IN, iscsiop/PDeleteInitiatorNodeName_IN, iscsiop/DeleteInitiatorNodeName_IN, PDeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	DeleteInitiatorNodeName_IN
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07f652f2-d370-4f88-a7f0-f6946fd50c79
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::GetDisassembleEffectiveOffset, dbgeng/IDebugControl::GetDisassembleEffectiveOffset, IDebugControl_5593ec3a-31f4-4775-9356-49f1757323c0.xml, IDebugControl3, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl2 interface [Windows Debugging], GetDisassembleEffectiveOffset method, dbgeng/IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl3::GetDisassembleEffectiveOffset, IDebugControl3 interface [Windows Debugging], GetDisassembleEffectiveOffset method, debugger.getdisassembleeffectiveoffset, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetDisassembleEffectiveOffset, GetDisassembleEffectiveOffset method [Windows Debugging], GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::GetDisassembleEffectiveOffset, GetDisassembleEffectiveOffset
+ms.keywords: GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl interface, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetDisassembleEffectiveOffset, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetDisassembleEffectiveOffset method, dbgeng/IDebugControl::GetDisassembleEffectiveOffset, debugger.getdisassembleeffectiveoffset, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl2 interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl::GetDisassembleEffectiveOffset, IDebugControl interface [Windows Debugging], GetDisassembleEffectiveOffset method, dbgeng/IDebugControl3::GetDisassembleEffectiveOffset, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl_5593ec3a-31f4-4775-9356-49f1757323c0.xml, GetDisassembleEffectiveOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetDisassembleEffectiveOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetDisassembleEffectiveOffset method
@@ -109,13 +109,13 @@ For more information about using assembly with the debugger engine API, see <a h
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

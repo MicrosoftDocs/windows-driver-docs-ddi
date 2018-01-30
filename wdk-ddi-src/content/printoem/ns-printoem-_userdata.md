@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._USERDATA
-title: _USERDATA
+title: "_USERDATA"
 author: windows-driver-content
 description: The USERDATA structure is used by Unidrv and Pscript to specify additional information about printer features. A USERDATA structure pointer is supplied as the UserData member for each OPTITEM structure.
 old-location: print\userdata.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5d4e5454-f44f-483a-a389-c8973263fbaa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/USERDATA, USERDATA structure [Print Devices], print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, printoem/PUSERDATA, print.userdata, PUSERDATA structure pointer [Print Devices], *PUSERDATA, USERDATA, _USERDATA, PUSERDATA
+ms.keywords: "_USERDATA, USERDATA, PUSERDATA structure pointer [Print Devices], USERDATA structure [Print Devices], *PUSERDATA, PUSERDATA, print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, print.userdata, printoem/PUSERDATA, printoem/USERDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	USERDATA
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinDataIntersectionEx function [Streaming Media Devices], ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, ks/KsPinDataIntersectionEx, stream.kspindataintersectionex, KsPinDataIntersectionEx
+ms.keywords: stream.kspindataintersectionex, ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsPinDataIntersectionEx
 product: Windows
 targetos: Windows

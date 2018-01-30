@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GdiResetDCEMF, winppi/GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf
+ms.keywords: gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, GdiResetDCEMF function [Print Devices], winppi/GdiResetDCEMF, GdiResetDCEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiResetDCEMF
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

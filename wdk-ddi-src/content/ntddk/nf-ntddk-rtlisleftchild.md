@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6ccdcc68-f03f-4972-91de-c8ab7f4389fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_2692597e-5133-48f2-b978-c8ac5f2280fe.xml, ifsk.rtlisleftchild, RtlIsLeftChild routine [Installable File System Drivers], ntddk/RtlIsLeftChild, RtlIsLeftChild
+ms.keywords: ifsk.rtlisleftchild, RtlIsLeftChild routine [Installable File System Drivers], ntddk/RtlIsLeftChild, RtlIsLeftChild, rtlref_2692597e-5133-48f2-b978-c8ac5f2280fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ntddk.h
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	RtlIsLeftChild
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsLeftChild macro
@@ -85,7 +85,7 @@ Callers of <b>RtlIsLeftChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 <a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
@@ -93,7 +93,7 @@ Callers of <b>RtlIsLeftChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 <a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
  
 

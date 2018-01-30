@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportInterrupt
 product: Windows
 targetos: Windows
@@ -285,32 +285,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
+   MiniportSynchronizeInterrupt</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
+
+<mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
+
 <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
    NdisMSynchronizeWithInterruptEx</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 <mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
    OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-   MiniportSynchronizeInterrupt</i></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-<mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 

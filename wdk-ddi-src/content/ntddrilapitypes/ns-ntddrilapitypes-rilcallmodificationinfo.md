@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 568603d9-0f96-49f7-a6f8-3c69d889cea7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO, netvista.rilcallmodificationinfo, ntddrilapitypes/RILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilcallmodificationinfo, RILCALLMODIFICATIONINFO, *LPRILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLMODIFICATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMODIFICATIONINFO
 product: Windows
 targetos: Windows

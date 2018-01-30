@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/WritePhysicalWithFlags, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, debugger.writephysicalwithflags
+ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags function [Windows Debugging], WritePhysicalWithFlags, debugger.writephysicalwithflags, wdbgexts/WritePhysicalWithFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # WritePhysicalWithFlags function

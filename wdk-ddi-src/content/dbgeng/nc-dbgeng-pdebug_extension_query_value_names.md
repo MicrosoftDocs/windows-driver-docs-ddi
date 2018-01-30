@@ -40,7 +40,7 @@ apiname:
 -	DebugExtensionQueryValueNames
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback
@@ -147,15 +147,15 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 ## -see-also
 
-<i>DebugExtensionUninitialize</i>
-
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-<i>DebugExtensionProvideValue</i>
-
 <i>KnownStructOutput</i>
 
 <i>DebugExtensionNotify</i>
+
+<i>DebugExtensionProvideValue</i>
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+<i>DebugExtensionUninitialize</i>
 
  
 

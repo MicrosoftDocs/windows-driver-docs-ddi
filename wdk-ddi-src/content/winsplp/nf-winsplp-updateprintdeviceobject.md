@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/UpdatePrintDeviceObject, print.updateprintdeviceobject, UpdatePrintDeviceObject function [Print Devices], UpdatePrintDeviceObject
+ms.keywords: UpdatePrintDeviceObject function [Print Devices], winsplp/UpdatePrintDeviceObject, print.updateprintdeviceobject, UpdatePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WinSpool.drv
-apiname: 
+apiname:
 -	UpdatePrintDeviceObject
 product: Windows
 targetos: Windows
@@ -99,9 +99,9 @@ The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
+
+<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
 
  
 

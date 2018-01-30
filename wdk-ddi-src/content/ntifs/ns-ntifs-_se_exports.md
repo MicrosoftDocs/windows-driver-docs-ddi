@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SE_EXPORTS
-title: _SE_EXPORTS
+title: "_SE_EXPORTS"
 author: windows-driver-content
 description: The SeExports structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 old-location: ifsk\seexports.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e6c398b4-f38f-4819-96f9-cefc3a728dbc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PSE_EXPORTS, SeExports structure [Installable File System Drivers], _SE_EXPORTS, SE_EXPORTS, ifsk.seexports, SE_EXPORTS structure [Installable File System Drivers], PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], *PSE_EXPORTS, SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml, ntifs/SeExports
+ms.keywords: SeExports, _SE_EXPORTS, *PSE_EXPORTS, PSE_EXPORTS, ifsk.seexports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml, SeExports structure [Installable File System Drivers], ntifs/PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], SE_EXPORTS, ntifs/SeExports, SE_EXPORTS structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SE_EXPORTS
 product: Windows
 targetos: Windows
-req.typenames: *PSE_EXPORTS, SE_EXPORTS
+req.typenames: SE_EXPORTS, *PSE_EXPORTS
 ---
 
 # _SE_EXPORTS structure
@@ -729,9 +729,9 @@ The SID for a group that represents all application packages.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

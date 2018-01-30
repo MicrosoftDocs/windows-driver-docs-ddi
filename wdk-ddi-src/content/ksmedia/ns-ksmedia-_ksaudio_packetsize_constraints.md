@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6BD3E98A-A2A5-4285-8F41-1445F90DD8EB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: FILE_128_BYTE_ALIGNMENT, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_256_BYTE_ALIGNMENT, _KSAUDIO_PACKETSIZE_CONSTRAINTS, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_BYTE_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS, audio.ksaudio_packetsize_constraints, FILE_QUAD_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_WORD_ALIGNMENT, FILE_LONG_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices]
+ms.keywords: KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], FILE_64_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_128_BYTE_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_32_BYTE_ALIGNMENT, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, _KSAUDIO_PACKETSIZE_CONSTRAINTS, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, PKSAUDIO_PACKETSIZE_CONSTRAINTS, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], FILE_BYTE_ALIGNMENT, FILE_WORD_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints, FILE_LONG_ALIGNMENT, FILE_OCTA_ALIGNMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -150,9 +150,9 @@ For WaveRT drivers, this data structure describes the constraints for a WaveRT p
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_signalprocessingmode_constraint.md">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a>
-
 <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+
+<a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_signalprocessingmode_constraint.md">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e87a4078-dbd4-4df2-bbfb-efbf76fc6279
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], ExIsResourceAcquiredLite, k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite
+ms.keywords: ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], ExIsResourceAcquiredLite, k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, ExIsResourceAcquiredSharedLite, wdm/ExIsResourceAcquiredSharedLite, kernel.exisresourceacquiredsharedlite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExIsResourceAcquiredSharedLite
 product: Windows
 targetos: Windows
@@ -89,11 +89,11 @@ The system considers exclusive access to be a subset of shared access. Therefore
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
 <a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
 
 <a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
 
 <a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
 

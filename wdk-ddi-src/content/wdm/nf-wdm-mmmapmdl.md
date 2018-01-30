@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapMdl function [Kernel-Mode Driver Architecture], wdm/MmMapMdl, kernel.mmmapmdl, MmMapMdl
+ms.keywords: MmMapMdl, wdm/MmMapMdl, kernel.mmmapmdl, MmMapMdl function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmMapMdl
 product: Windows
 targetos: Windows

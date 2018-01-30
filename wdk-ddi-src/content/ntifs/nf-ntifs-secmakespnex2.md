@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: abb8d45a-a698-41b0-94b3-c658fe3105bb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.secmakespnex2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, SecMakeSPNEx2 function [Installable File System Drivers], ntifs/SecMakeSPNEx2, SecMakeSPNEx2
+ms.keywords: SecMakeSPNEx2 function [Installable File System Drivers], SecMakeSPNEx2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ntifs/SecMakeSPNEx2, ifsk.secmakespnex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ksecdd.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ksecdd.lib
 -	Ksecdd.dll
-apiname: 
+apiname:
 -	SecMakeSPNEx2
 product: Windows
 targetos: Windows
@@ -107,21 +107,6 @@ A Boolean variable that indicates if the memory that is used to store the <i>Spn
 A Boolean variable that indicates that the caller provided a marshaled <i>InTargetInfo</i> structure.  If <i>IsTargetInfoMarshaled</i> is <b>TRUE</b>, <i>InTargetInfo</i>-&gt;Buffer points to a string representation of the CREDENTIAL_TARGET_INFORMATION structure as returned by the <b>CredMarshalTargetInfo</b> function.
 
 
-#### - TotalSize [out]
-
-A pointer to an optional variable that receives the length of the security service provider name string that is created by this function.
-
-
-#### - TargetInfo [in]
-
-A pointer to an optional Unicode string that specifies target information that is used to connect with the security service provider. 
-
-
-#### - Referrer [in]
-
-A pointer to an optional Unicode string that specifies the referrer name that is used to connect with the security service provider. 
-
-
 #### - InstanceName [in]
 
 A pointer to an optional Unicode string that specifies the instance name that is used to connect with the security service provider. 
@@ -130,6 +115,21 @@ A pointer to an optional Unicode string that specifies the instance name that is
 #### - InstancePort [in]
 
 An optional variable that specifies the instance port that is used to connect with the security service provider. 
+
+
+#### - Referrer [in]
+
+A pointer to an optional Unicode string that specifies the referrer name that is used to connect with the security service provider. 
+
+
+#### - TargetInfo [in]
+
+A pointer to an optional Unicode string that specifies target information that is used to connect with the security service provider. 
+
+
+#### - TotalSize [out]
+
+A pointer to an optional variable that receives the length of the security service provider name string that is created by this function.
 
 
 ## -returns

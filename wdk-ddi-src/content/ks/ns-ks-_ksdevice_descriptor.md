@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSDEVICE_DESCRIPTOR
-title: _KSDEVICE_DESCRIPTOR
+title: "_KSDEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: The KSDEVICE_DESCRIPTOR structure describes the characteristics of a particular device.
 old-location: stream\ksdevice_descriptor.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dc68f6d8-a2d5-4940-a708-fe761c3a8a0d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDEVICE_DESCRIPTOR structure [Streaming Media Devices], stream.ksdevice_descriptor, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], ks/PKSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR, _KSDEVICE_DESCRIPTOR, avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, KSDEVICE_DESCRIPTOR, ks/KSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR
+ms.keywords: "*PKSDEVICE_DESCRIPTOR, ks/PKSDEVICE_DESCRIPTOR, _KSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR, stream.ksdevice_descriptor, avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], ks/KSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSDEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PKSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR
+req.typenames: "*PKSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR"
 ---
 
 # _KSDEVICE_DESCRIPTOR structure
@@ -72,30 +72,19 @@ typedef struct _KSDEVICE_DESCRIPTOR {
 
 
 
+#### - Dispatch
+
+A pointer to the client dispatch table for this device. This dispatch table contains client dispatch functions for PNP messages such as <b>Add</b>, <b>Start</b>, <b>Stop</b>, <b>Remove</b>. Clients are not required to supply a dispatch table unless they want to receive callbacks for the PNP messages described in the dispatch table. Any member of the dispatch table can be <b>NULL</b> to indicate that the client does not want to receive notification for that particular message. For more information, see <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>.
+
+
+#### - FilterDescriptorsCount
+
+This member contains the number of filter descriptors for this device that will be provided in the <b>FilterDescriptors</b> member. Zero is a legal value for this member; clients can create filter factories dynamically with the <a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a> function instead of statically describing them in the device descriptor.
+
+
 #### - FilterDescriptors
 
 A pointer to an array of filter descriptors that describe filters that can be created by this device. This member may be <b>NULL</b> if <b>FilterDescriptorsCount</b> is zero. For more information, see <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>.
-
-
-#### - Flags
-
-A value of type ULONG. There is only one flag currently defined.
-<table>
-<tr>
-<th>Flag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-KSDEVICE_FLAG_ENABLE_REMOTE_WAKEUP
-
-</td>
-<td>
-Indicates that the device supports remote wakeup.
-
-</td>
-</tr>
-</table> 
 
 
 #### - Version
@@ -129,14 +118,25 @@ Indicates support of the <b>Flags</b> member of KSDEVICE_DESCRIPTOR.
 </table> 
 
 
-#### - Dispatch
+#### - Flags
 
-A pointer to the client dispatch table for this device. This dispatch table contains client dispatch functions for PNP messages such as <b>Add</b>, <b>Start</b>, <b>Stop</b>, <b>Remove</b>. Clients are not required to supply a dispatch table unless they want to receive callbacks for the PNP messages described in the dispatch table. Any member of the dispatch table can be <b>NULL</b> to indicate that the client does not want to receive notification for that particular message. For more information, see <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>.
+A value of type ULONG. There is only one flag currently defined.
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+KSDEVICE_FLAG_ENABLE_REMOTE_WAKEUP
 
+</td>
+<td>
+Indicates that the device supports remote wakeup.
 
-#### - FilterDescriptorsCount
-
-This member contains the number of filter descriptors for this device that will be provided in the <b>FilterDescriptors</b> member. Zero is a legal value for this member; clients can create filter factories dynamically with the <a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a> function instead of statically describing them in the device descriptor.
+</td>
+</tr>
+</table> 
 
 
 ## -remarks
@@ -152,15 +152,15 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
-
 <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
 
 <a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
  
 

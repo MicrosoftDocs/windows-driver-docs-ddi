@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], winsplp/BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull, print.branchofficelogofflinefilefull, BranchOfficeLogOfflineFileFull structure [Print Devices]
+ms.keywords: print.branchofficelogofflinefilefull, winsplp/PBranchOfficeLogOfflineFileFull, winsplp/BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	BranchOfficeLogOfflineFileFull
 product: Windows
 targetos: Windows
-req.typenames: *PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull
+req.typenames: BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull
 req.product: Windows 10 or later.
 ---
 

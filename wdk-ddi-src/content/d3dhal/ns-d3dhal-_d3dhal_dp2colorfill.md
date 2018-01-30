@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6cec8639-1d5e-4b24-8e02-a7ae62740fea
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2COLORFILL structure pointer [Display Devices], D3DHAL_DP2COLORFILL structure [Display Devices], d3dhal/D3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL, _D3DHAL_DP2COLORFILL, d3dstrct_41b1733a-0f94-4e04-9f7d-dac688c2bc56.xml, display.d3dhal_dp2colorfill, *LPD3DHAL_DP2COLORFILL, d3dhal/LPD3DHAL_DP2COLORFILL
+ms.keywords: d3dhal/LPD3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL, d3dhal/D3DHAL_DP2COLORFILL, display.d3dhal_dp2colorfill, *LPD3DHAL_DP2COLORFILL, _D3DHAL_DP2COLORFILL, d3dstrct_41b1733a-0f94-4e04-9f7d-dac688c2bc56.xml, LPD3DHAL_DP2COLORFILL structure pointer [Display Devices], D3DHAL_DP2COLORFILL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ For more information about D3DCOLOR, see the DirectX SDK documentation.
 
 ## -see-also
 
-D3DDP2OP_COLORFILL
+<a href="https://msdn.microsoft.com/28e0c827-33f1-4b83-9f20-bbb66bc0e14a">DdBlt</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="https://msdn.microsoft.com/28e0c827-33f1-4b83-9f20-bbb66bc0e14a">DdBlt</a>
+D3DDP2OP_COLORFILL
 
  
 

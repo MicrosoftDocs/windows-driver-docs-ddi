@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1db89a5a-641b-4fca-bd60-217c9be8f19f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOffsetExpressionWide method [Windows Debugging], debugger.setoffsetexpressionwide, IDebugBreakpoint2, SetOffsetExpressionWide, IDebugBreakpoint2::SetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpressionWide method, SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: IDebugBreakpoint2, SetOffsetExpressionWide, IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], debugger.setoffsetexpressionwide, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpressionWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugBreakpoint2.SetOffsetExpressionWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::SetOffsetExpressionWide method

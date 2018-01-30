@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskSocket
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -111,6 +111,21 @@ For more information about the socket types that are supported for each supporte
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
+#### SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
+#### SOCK_DGRAM
+
+Supports unreliable connectionless datagram communication.
+
+
+#### SOCK_RAW
+
+Supports raw access to the transport protocol.
+
+
 ### -param Protocol [in]
 
 The transport protocol for the socket that is being created. For more information about the
@@ -129,6 +144,34 @@ A flag that specifies the WSK
 
 If a WSK application does not specify any of the preceding flags, 
      <b>WskSocket</b> creates a basic socket.
+
+
+#### WSK_FLAG_BASIC_SOCKET
+
+A basic socket will be created that can be used only to get and set transport stack socket
+       options or to perform socket I/O control operations.
+
+
+#### WSK_FLAG_LISTEN_SOCKET
+
+A listening socket will be created that can be used to listen for incoming connections from
+       remote transport addresses.
+
+
+#### WSK_FLAG_DATAGRAM_SOCKET
+
+A datagram socket will be created that can be used to send and receive datagrams.
+
+
+#### WSK_FLAG_CONNECTION_SOCKET
+
+A connection-oriented socket will be created that can be used to send and receive network data
+       over a connection.
+
+
+#### WSK_FLAG_STREAM_SOCKET
+
+A stream socket will be created that can either be used to listen for incoming connections from remote transport addresses, or send and receive network data over a connection.
 
 
 ### -param SocketContext [in, optional]
@@ -183,28 +226,6 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
      new socket asynchronously. For more information about using IRPs with WSK functions, see 
      <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
      Kernel Functions</mshelp:link>.
-
-
-##### - SocketType.SOCK_RAW
-
-Supports raw access to the transport protocol.
-
-
-##### - SocketType.SOCK_DGRAM
-
-Supports unreliable connectionless datagram communication.
-
-
-##### - Flags.WSK_FLAG_LISTEN_SOCKET
-
-A listening socket will be created that can be used to listen for incoming connections from
-       remote transport addresses.
-
-
-##### - Flags.WSK_FLAG_CONNECTION_SOCKET
-
-A connection-oriented socket will be created that can be used to send and receive network data
-       over a connection.
 
 
 #### - Dispatch [in, optional]
@@ -277,27 +298,6 @@ If the WSK application will not be enabling all of the event callback functions 
      not enable. If the WSK application will not be enabling any event callback functions on the new socket,
      it should set the 
      <i>Dispatch</i> pointer to <b>NULL</b>. For a basic socket, this pointer should always be <b>NULL</b>.
-
-
-##### - Flags.WSK_FLAG_DATAGRAM_SOCKET
-
-A datagram socket will be created that can be used to send and receive datagrams.
-
-
-##### - SocketType.SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
-
-
-##### - Flags.WSK_FLAG_BASIC_SOCKET
-
-A basic socket will be created that can be used only to get and set transport stack socket
-       options or to perform socket I/O control operations.
-
-
-##### - Flags.WSK_FLAG_STREAM_SOCKET
-
-A stream socket will be created that can either be used to listen for incoming connections from remote transport addresses, or send and receive network data over a connection.
 
 
 ## -returns
@@ -384,30 +384,30 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
 <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
+
+<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 <mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
    WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
  
 

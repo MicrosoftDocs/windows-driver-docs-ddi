@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtSetEvent, ntifs/NtSetEvent, k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, ZwSetEvent, kernel.zwsetevent, ntifs/ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture]
+ms.keywords: k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, ntifs/NtSetEvent, ntifs/ZwSetEvent, NtSetEvent, kernel.zwsetevent, ZwSetEvent routine [Kernel-Mode Driver Architecture], ZwSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwSetEvent
 -	NtSetEvent
 product: Windows
@@ -135,25 +135,25 @@ The supplied <i>EventHandle</i> parameter was invalid.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
-
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
+<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a0d86c7-1d42-4312-a4f9-9b9ea092ebec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwsetinformationresourcemanager, wdm/, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, wdm/NtSetInformationResourceManager, function [Kernel-Mode Driver Architecture], NtSetInformationResourceManager
+ms.keywords: function [Kernel-Mode Driver Architecture], kernel.zwsetinformationresourcemanager, wdm/, wdm/NtSetInformationResourceManager, NtSetInformationResourceManager, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	ZwSetInformationResourceManager
 -	NtSetInformationResourceManager
 product: Windows

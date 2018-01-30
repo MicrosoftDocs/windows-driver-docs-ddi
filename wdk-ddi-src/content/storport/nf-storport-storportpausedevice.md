@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b656882a-1cc7-45e8-bda4-c1450b599b4b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_5506e943-789f-49d7-a9bc-c837fcd1bba2.xml, StorPortPauseDevice, StorPortPauseDevice routine [Storage Devices], storage.storportpausedevice, storport/StorPortPauseDevice
+ms.keywords: storage.storportpausedevice, StorPortPauseDevice, StorPortPauseDevice routine [Storage Devices], storport/StorPortPauseDevice, storprt_5506e943-789f-49d7-a9bc-c837fcd1bba2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortPauseDevice
 product: Windows
 targetos: Windows

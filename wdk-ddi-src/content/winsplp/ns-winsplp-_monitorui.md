@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITORUI
-title: _MONITORUI
+title: "_MONITORUI"
 author: windows-driver-content
 description: The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
 old-location: print\monitorui.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _MONITORUI, PMONITORUI structure pointer [Print Devices], *PMONITORUI, winsplp/PMONITORUI, MONITORUI, winsplp/MONITORUI, print.monitorui, PMONITORUI, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, MONITORUI structure [Print Devices]
+ms.keywords: MONITORUI structure [Print Devices], PMONITORUI structure pointer [Print Devices], winsplp/MONITORUI, PMONITORUI, winsplp/PMONITORUI, *PMONITORUI, print.monitorui, _MONITORUI, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, MONITORUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	MONITORUI
 product: Windows
 targetos: Windows
-req.typenames: *PMONITORUI, MONITORUI
+req.typenames: "*PMONITORUI, MONITORUI"
 req.product: Windows 10 or later.
 ---
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddsysenv.h
-apiname: 
+apiname:
 -	IOCTL_SYSENV_ENUM_VARIABLES
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
+req.typenames: "*PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP"
 ---
 
 # IOCTL_SYSENV_ENUM_VARIABLES IOCTL

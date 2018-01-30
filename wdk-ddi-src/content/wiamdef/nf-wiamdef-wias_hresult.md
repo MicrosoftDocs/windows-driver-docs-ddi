@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e340eb98-34d4-49e7-92cd-4f57d8b6efb8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, wiamdef/WIAS_HRESULT, image.wias_hresult, WIAS_HRESULT macro [Imaging Devices], WIAS_HRESULT
+ms.keywords: WIAS_HRESULT macro [Imaging Devices], WIAS_HRESULT, IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, image.wias_hresult, wiamdef/WIAS_HRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_HRESULT
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

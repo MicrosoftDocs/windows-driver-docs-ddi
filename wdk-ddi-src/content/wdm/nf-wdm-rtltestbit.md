@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 52f892a8-e82d-465d-aef5-630f5e971e8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlTestBit, kernel.rtltestbit, wdm/RtlTestBit, k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, RtlTestBit routine [Kernel-Mode Driver Architecture]
+ms.keywords: k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, RtlTestBit routine [Kernel-Mode Driver Architecture], RtlTestBit, kernel.rtltestbit, wdm/RtlTestBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlTestBit
 product: Windows
 targetos: Windows

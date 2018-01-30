@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TCP_CONNECTION_OFFLOAD
-title: _NDIS_TCP_CONNECTION_OFFLOAD
+title: "_NDIS_TCP_CONNECTION_OFFLOAD"
 author: windows-driver-content
 description: The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offload information for current settings and for supported capabilities.
 old-location: netvista\ndis_tcp_connection_offload.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD
+ms.keywords: ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, NDIS_TCP_CONNECTION_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_TCP_CONNECTION_OFFLOAD
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD
+req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
 ---
 
 # _NDIS_TCP_CONNECTION_OFFLOAD structure
@@ -249,24 +249,24 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
 <mshelp:link keywords="netvista.oid_tcp_connection_offload_current_config" tabindex="0">
    OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <mshelp:link keywords="netvista.oid_tcp_connection_offload_hardware_capabilities" tabindex="0">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</mshelp:link>
 
+<mshelp:link keywords="netvista.ndis_status_tcp_connection_offload_hardware_capabilities" tabindex="0"><b>
+   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</b></mshelp:link>
+
 <mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
 <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_status_tcp_connection_offload_hardware_capabilities" tabindex="0"><b>
-   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</b></mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

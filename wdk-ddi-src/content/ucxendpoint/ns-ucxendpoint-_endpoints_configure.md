@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._ENDPOINTS_CONFIGURE
-title: _ENDPOINTS_CONFIGURE
+title: "_ENDPOINTS_CONFIGURE"
 author: windows-driver-content
 description: Describes endpoints to enable or disable endpoints. This structure is passed by UCX in the EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function.
 old-location: buses\_endpoints_configure.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._endpoints_configure, _ENDPOINTS_CONFIGURE, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses]
+ms.keywords: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], buses._endpoints_configure, _ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	ENDPOINTS_CONFIGURE
 product: Windows
 targetos: Windows
-req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
+req.typenames: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetPersistentEntry_IN
-title: _SetPersistentEntry_IN
+title: "_SetPersistentEntry_IN"
 author: windows-driver-content
 description: The SetPersistentEntry_IN structure is used by a WMI client to deliver the input parameter data of the SetPersistentEntry WMI method to the HBA miniport driver.
 old-location: storage\setpersistententry_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetPersistentEntry_IN, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, hbapiwmi/PSetPersistentEntry_IN, storage.setpersistententry_in, SetPersistentEntry_IN structure [Storage Devices], PSetPersistentEntry_IN structure pointer [Storage Devices], hbapiwmi/SetPersistentEntry_IN, _SetPersistentEntry_IN, *PSetPersistentEntry_IN, SetPersistentEntry_IN
+ms.keywords: storage.setpersistententry_in, hbapiwmi/SetPersistentEntry_IN, PSetPersistentEntry_IN, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, SetPersistentEntry_IN structure [Storage Devices], *PSetPersistentEntry_IN, hbapiwmi/PSetPersistentEntry_IN, _SetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], SetPersistentEntry_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SetPersistentEntry_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSetPersistentEntry_IN, SetPersistentEntry_IN
+req.typenames: "*PSetPersistentEntry_IN, SetPersistentEntry_IN"
 ---
 
 # _SetPersistentEntry_IN structure

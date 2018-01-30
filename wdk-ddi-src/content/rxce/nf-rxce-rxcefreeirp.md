@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71e3283c-2dbc-4579-a374-e51e123b852f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxcefreeirp, RxCeFreeIrp, rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml, RxCeFreeIrp function [Installable File System Drivers], rxce/RxCeFreeIrp
+ms.keywords: ifsk.rxcefreeirp, rxce/RxCeFreeIrp, RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeFreeIrp
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bc64b3d6-8c86-4f99-b3b9-de31f576988c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice interface [Imaging Devices], RawWriteData method, IStiDevice, RawWriteData, image.istidevice_rawwritedata, RawWriteData method [Imaging Devices], stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, IStiDevice::RawWriteData, RawWriteData method [Imaging Devices], IStiDevice interface, sti/IStiDevice::RawWriteData
+ms.keywords: IStiDevice interface [Imaging Devices], RawWriteData method, IStiDevice::RawWriteData, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, image.istidevice_rawwritedata, RawWriteData method [Imaging Devices], IStiDevice interface, RawWriteData, IStiDevice, RawWriteData method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.RawWriteData
 product: Windows
 targetos: Windows

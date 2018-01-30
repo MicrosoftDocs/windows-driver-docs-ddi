@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_BULK_OR_INTERRUPT_TRANSFER
-title: _URB_BULK_OR_INTERRUPT_TRANSFER
+title: "_URB_BULK_OR_INTERRUPT_TRANSFER"
 author: windows-driver-content
 description: The _URB_BULK_OR_INTERRUPT_TRANSFER structure is used by USB client drivers to send or receive data on a bulk pipe or on an interrupt pipe.
 old-location: buses\_urb_bulk_or_interrupt_transfer.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 398f50ad-4c58-4585-8fb8-c523b74793e9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], USBD_TRANSFER_DIRECTION_OUT, buses._urb_bulk_or_interrupt_transfer, _URB_BULK_OR_INTERRUPT_TRANSFER, usb/_URB_BULK_OR_INTERRUPT_TRANSFER, USBD_SHORT_TRANSFER_OK, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml, USBD_TRANSFER_DIRECTION_IN
+ms.keywords: USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, USBD_SHORT_TRANSFER_OK, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], _URB_BULK_OR_INTERRUPT_TRANSFER, buses._urb_bulk_or_interrupt_transfer, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml, usb/_URB_BULK_OR_INTERRUPT_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_BULK_OR_INTERRUPT_TRANSFER
 product: Windows
 targetos: Windows
@@ -190,11 +190,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], ifsk.fsrtlarevolumestartupapplicationscomplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete
+ms.keywords: ifsk.fsrtlarevolumestartupapplicationscomplete, fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, FsRtlAreVolumeStartupApplicationsComplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlAreVolumeStartupApplicationsComplete
 product: Windows
 targetos: Windows

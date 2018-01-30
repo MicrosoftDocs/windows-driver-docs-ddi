@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7db82e70-3090-4526-ba10-792ccdbef660
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlnotifyinitializesync, FsRtlNotifyInitializeSync, ntifs/FsRtlNotifyInitializeSync, FsRtlNotifyInitializeSync routine [Installable File System Drivers], fsrtlref_3a247139-1c76-4947-8e6f-a5beeae504cd.xml
+ms.keywords: FsRtlNotifyInitializeSync, ntifs/FsRtlNotifyInitializeSync, fsrtlref_3a247139-1c76-4947-8e6f-a5beeae504cd.xml, FsRtlNotifyInitializeSync routine [Installable File System Drivers], ifsk.fsrtlnotifyinitializesync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNotifyInitializeSync
 product: Windows
 targetos: Windows

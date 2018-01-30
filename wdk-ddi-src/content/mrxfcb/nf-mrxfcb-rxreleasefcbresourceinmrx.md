@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 48308dcd-e423-4c25-9fec-3a423043e988
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxReleaseFcbResourceInMRx, mrxfcb/RxReleaseFcbResourceInMRx, ifsk.rxreleasefcbresourceinmrx, RxReleaseFcbResourceInMRx function [Installable File System Drivers], rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml
+ms.keywords: RxReleaseFcbResourceInMRx function [Installable File System Drivers], rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml, ifsk.rxreleasefcbresourceinmrx, mrxfcb/RxReleaseFcbResourceInMRx, RxReleaseFcbResourceInMRx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mrxfcb.h
-apiname: 
+apiname:
 -	RxReleaseFcbResourceInMRx
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # RxReleaseFcbResourceInMRx function
@@ -96,11 +96,11 @@ The <b>RxReleaseFcbResourceInMRx</b> routine will release an FCB resource previo
 
 ## -see-also
 
+<a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrx.md">RxAcquireSharedFcbResourceInMRx</a>
+
 <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
 
 <a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
-
-<a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrx.md">RxAcquireSharedFcbResourceInMRx</a>
 
 <a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 

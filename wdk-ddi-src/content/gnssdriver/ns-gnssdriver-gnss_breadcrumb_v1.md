@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BE1D09C4-8EC0-4BF3-A943-20EDD44F9CF1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_BREADCRUMB_V1 structure [Sensor Devices], GNSS_BREADCRUMB_V1, gnssdriver/GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1, PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices], PGNSS_BREADCRUMB_V1, gnssdriver/PGNSS_BREADCRUMB_V1, sensors.gnss_breadcrumb_v1
+ms.keywords: GNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1 structure [Sensor Devices], *PGNSS_BREADCRUMB_V1, gnssdriver/PGNSS_BREADCRUMB_V1, sensors.gnss_breadcrumb_v1, PGNSS_BREADCRUMB_V1, gnssdriver/GNSS_BREADCRUMB_V1, PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_BREADCRUMB_V1
 product: Windows
 targetos: Windows
-req.typenames: GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1
+req.typenames: "*PGNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1"
 ---
 
 # GNSS_BREADCRUMB_V1 structure

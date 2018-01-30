@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c792d021-3c64-4341-878c-08a7e163447c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.field_offset, FIELD_OFFSET function [Kernel-Mode Driver Architecture], FIELD_OFFSET, ntdef/FIELD_OFFSET, k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml
+ms.keywords: k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, FIELD_OFFSET function [Kernel-Mode Driver Architecture], FIELD_OFFSET, kernel.field_offset, ntdef/FIELD_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdm.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdef.h
-apiname: 
+apiname:
 -	FIELD_OFFSET
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_VALID_DATA_LENGTH_INFORMATION
-title: _FILE_VALID_DATA_LENGTH_INFORMATION
+title: "_FILE_VALID_DATA_LENGTH_INFORMATION"
 author: windows-driver-content
 description: The FILE_VALID_DATA_LENGTH_INFORMATION structure is used as an argument to ZwSetInformationFile.
 old-location: kernel\file_valid_data_length_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 78badbac-9f77-4911-a42b-c0421be47f20
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_VALID_DATA_LENGTH_INFORMATION structure [Kernel-Mode Driver Architecture], *PFILE_VALID_DATA_LENGTH_INFORMATION, ntddk/FILE_VALID_DATA_LENGTH_INFORMATION, kstruct_b_4db45831-d238-4274-b0f3-f1945e187eb5.xml, ntddk/PFILE_VALID_DATA_LENGTH_INFORMATION, _FILE_VALID_DATA_LENGTH_INFORMATION, PFILE_VALID_DATA_LENGTH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION, kernel.file_valid_data_length_information
+ms.keywords: "*PFILE_VALID_DATA_LENGTH_INFORMATION, kstruct_b_4db45831-d238-4274-b0f3-f1945e187eb5.xml, _FILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION, PFILE_VALID_DATA_LENGTH_INFORMATION, kernel.file_valid_data_length_information, ntddk/FILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_VALID_DATA_LENGTH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/PFILE_VALID_DATA_LENGTH_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	FILE_VALID_DATA_LENGTH_INFORMATION
 product: Windows
 targetos: Windows

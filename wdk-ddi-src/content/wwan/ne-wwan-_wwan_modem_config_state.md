@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_STATE
-title: _WWAN_MODEM_CONFIG_STATE
+title: "_WWAN_MODEM_CONFIG_STATE"
 author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_STATE enumeration lists definitions used by the modem to inform the OS about its modem configuration state.
 old-location: netvista\wwan_modem_config_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_MODEM_CONFIG_STATE, PWWAN_MODEM_CONFIG_STATE, WwanModemConfigStatePending, WwanModemConfigStateActivated, netvista.wwan_modem_config_state, wwan/WWAN_MODEM_CONFIG_STATE, *PWWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStatePending, _WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateActivated, wwan/WwanModemConfigStateUnknown, WwanModemConfigStateUnknown, wwan/WwanModemConfigStateMax, WwanModemConfigStateMax
+ms.keywords: netvista.wwan_modem_config_state, WwanModemConfigStatePending, WwanModemConfigStateActivated, WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateMax, PWWAN_MODEM_CONFIG_STATE, WwanModemConfigStateUnknown, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanModemConfigStateMax, *PWWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStatePending, wwan/WwanModemConfigStateActivated, wwan/WWAN_MODEM_CONFIG_STATE, _WWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigStateUnknown, wwan/PWWAN_MODEM_CONFIG_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_MODEM_CONFIG_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE
+req.typenames: "*PWWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE"
 req.product: Windows 10 or later.
 ---
 

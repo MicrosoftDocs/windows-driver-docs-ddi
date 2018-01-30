@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_COPY_PROTECT_KEY
-title: _DVD_COPY_PROTECT_KEY
+title: "_DVD_COPY_PROTECT_KEY"
 author: windows-driver-content
 description: The DVD_COPY_PROTECT_KEY structure is used in conjunction with the IOCTL_DVD_READ_KEY request to execute a report key command of the specified type.
 old-location: storage\dvd_copy_protect_key.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, _DVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, DVD_COPY_PROTECT_KEY structure [Storage Devices], storage.dvd_copy_protect_key, ntddcdvd/DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
+ms.keywords: PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], DVD_COPY_PROTECT_KEY structure [Storage Devices], PDVD_COPY_PROTECT_KEY, _DVD_COPY_PROTECT_KEY, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, storage.dvd_copy_protect_key, ntddcdvd/DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	DVD_COPY_PROTECT_KEY
 product: Windows
 targetos: Windows
-req.typenames: *PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY
+req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 ---
 
 # _DVD_COPY_PROTECT_KEY structure
@@ -110,105 +110,17 @@ Indicates the key type. The DVD device driver uses this information to determine
 
 
 
+####  This member can have any of the following values:
+
+
+
+#### 
+
+
+
 ### -field KeyData
 
 Contains the key data that was returned. 
-
-
-####### - KeyFlags.Contains copy generation management system (CGMS) data. For devices that implement a CGMS protection scheme, the CGMS data is returned with the title key data in the KeyFlags member. This member can have any of the following values:
-
-
-
-################# - KeyFlags.Value
-Meaning
-
-
-
-DVD_CGMS_RESERVED_MASK
-
-
-Mask of reserved bits. 
-
-
-
-
-DVD_CGMS_COPY_PROTECT_MASK
-
-
-Copy protection bitmask. 
-
-
-
-
-DVD_CGMS_COPY_PERMITTED
-
-
-Copying is permitted, within limits of copyright restrictions. 
-
-
-
-
-DVD_CGMS_COPY_ONCE
-
-
-One generation of copies can be made.
-
-
-
-
-DVD_CGMS_NO_COPY
-
-
-No copying is allowed.
-
-
-
-
-DVD_COPYRIGHT_MASK
-
-
-Copyright bitmask. 
-
-
-
-
-DVD_NOT_COPYRIGHTED
-
-
-Copying is permitted without restriction.
-
-
-
-
-DVD_COPYRIGHTED
-
-
-Data is copyrighted. 
-
-
-
-
-DVD_SECTOR_PROTECT_MASK
-
-
-Sector protection bitmask. 
-
-
-
-
-DVD_SECTOR_NOT_PROTECTED
-
-
-Title key data is not encrypted. No decryption necessary. 
-
-
-
-
-DVD_SECTOR_PROTECTED
-
-
-Title key data must be decrypted.
-
 
 
 ## -see-also

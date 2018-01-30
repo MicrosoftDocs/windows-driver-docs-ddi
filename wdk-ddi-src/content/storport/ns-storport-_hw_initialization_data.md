@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._HW_INITIALIZATION_DATA
-title: _HW_INITIALIZATION_DATA
+title: "_HW_INITIALIZATION_DATA"
 author: windows-driver-content
 description: The HW_INITIALIZATION_DATA (Storport) structure contains information particular to each miniport driver and the hardware that the miniport driver manages.
 old-location: storage\hw_initialization_data__storport_.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54f460da-2dfb-4a9d-9b25-edb90f3bfdd5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml, ADDRESS_TYPE_FLAG_BTL8, storport/PHW_INITIALIZATION_DATA, STOR_FEATURE_VIRTUAL_MINIPORT, storage.hw_initialization_data__storport_, _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, *PHW_INITIALIZATION_DATA, STOR_FEATURE_DUMP_POINTERS, STOR_MAP_NO_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_MAP_ALL_BUFFERS, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_RESUME_CAPABLE, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA structure pointer [Storage Devices], storport/HW_INITIALIZATION_DATA, SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, HW_INITIALIZATION_DATA, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, PHW_INITIALIZATION_DATA, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_MAP_NON_READ_WRITE_BUFFERS
+ms.keywords: STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, *PHW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, storport/HW_INITIALIZATION_DATA, STOR_MAP_ALL_BUFFERS, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_RESUME_CAPABLE, storport/PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, _HW_INITIALIZATION_DATA, ADDRESS_TYPE_FLAG_BTL8, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_ATA_PASS_THROUGH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	HW_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA
+req.typenames: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -297,11 +297,6 @@ Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_adapter_con
 Pointer to an optional <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine. 
 
 
-#### - HwTracingEnabled
-
-A pointer to an optional <a href="..\storport\nc-storport-hw_tracing_enabled.md">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
-
-
 #### - HwFreeAdapterResources
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
@@ -309,9 +304,9 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 
-#### - HwCleanupTracing
+#### - HwProcessServiceRequest
 
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
 
 This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
@@ -323,37 +318,6 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 
-#### - SrbTypeFlags
-
-Flags indicating the SRB types supported by the miniport. <b>SrbTypeFlags</b> is set to 0 or a combination of the following values:
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK"></a><a id="srb_type_flag_scsi_request_block"></a><dl>
-<dt><b>SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The miniport uses standard SRBs.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK"></a><a id="srb_type_flag_storage_request_block"></a><dl>
-<dt><b>SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The miniport supports extended SRBs.
-
-</td>
-</tr>
-</table> 
-
-
 #### - HwInitializeTracing
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
@@ -361,9 +325,16 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
 
 
-#### - HwUnitControl
+#### - HwCleanupTracing
 
-A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port driver calls this routine with a control request for a storage unit device.
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+
+
+#### - HwTracingEnabled
+
+A pointer to an optional <a href="..\storport\nc-storport-hw_tracing_enabled.md">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
 
 
 #### - FeatureSupport
@@ -457,11 +428,35 @@ The Storport driver sets the adapter interface type.
 </table> 
 
 
-#### - HwProcessServiceRequest
+#### - SrbTypeFlags
 
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+Flags indicating the SRB types supported by the miniport. <b>SrbTypeFlags</b> is set to 0 or a combination of the following values:
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK"></a><a id="srb_type_flag_scsi_request_block"></a><dl>
+<dt><b>SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The miniport uses standard SRBs.
 
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK"></a><a id="srb_type_flag_storage_request_block"></a><dl>
+<dt><b>SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The miniport supports extended SRBs.
+
+</td>
+</tr>
+</table> 
 
 
 #### - AddressTypeFlags
@@ -490,6 +485,11 @@ Bus, Target, and LUN (BTL) 8-bit addressing.
 Reserved, set to 0.
 
 
+#### - HwUnitControl
+
+A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port driver calls this routine with a control request for a storage unit device.
+
+
 ## -remarks
 
 
@@ -503,23 +503,23 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
-
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
  
 

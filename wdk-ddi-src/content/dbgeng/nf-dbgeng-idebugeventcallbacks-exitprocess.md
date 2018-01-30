@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 050b747e-5570-4e25-81e4-eccdde4f6995
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, ExitProcess method [Windows Debugging], debugger.idebugeventcallbacks_exitprocess, ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, IDebugEventCallbacks, dbgeng/IDebugEventCallbacks::ExitProcess, IDebugEventCallbacks::ExitProcess, ExitProcess method [Windows Debugging], IDebugEventCallbacks interface, ExitProcess
+ms.keywords: ExitProcess method [Windows Debugging], IDebugEventCallbacks, dbgeng/IDebugEventCallbacks::ExitProcess, ExitProcess, ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, IDebugEventCallbacks::ExitProcess, debugger.idebugeventcallbacks_exitprocess, IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, ExitProcess method [Windows Debugging], IDebugEventCallbacks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.ExitProcess
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::ExitProcess method

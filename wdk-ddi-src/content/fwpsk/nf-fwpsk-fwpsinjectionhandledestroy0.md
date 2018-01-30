@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a00917b-36e8-4e06-a001-d8e6ac2e3573
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsinjectionhandledestroy0, FwpsInjectionHandleDestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleDestroy0
+ms.keywords: fwpsk/FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsInjectionHandleDestroy0
 product: Windows
 targetos: Windows

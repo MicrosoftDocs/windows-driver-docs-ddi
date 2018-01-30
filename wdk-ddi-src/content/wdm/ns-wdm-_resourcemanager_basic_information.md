@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._RESOURCEMANAGER_BASIC_INFORMATION
-title: _RESOURCEMANAGER_BASIC_INFORMATION
+title: "_RESOURCEMANAGER_BASIC_INFORMATION"
 author: windows-driver-content
 description: The RESOURCEMANAGER_BASIC INFORMATION structure contains information about a resource manager object.
 old-location: kernel\resourcemanager_basic_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5295760-7f0e-4973-9ce3-4aa35ea5211b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION, _RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION, ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, PRESOURCEMANAGER_BASIC_INFORMATION, kernel.resourcemanager_basic_information, wdm/PRESOURCEMANAGER_BASIC_INFORMATION
+ms.keywords: "_RESOURCEMANAGER_BASIC_INFORMATION, wdm/PRESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION, ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, kernel.resourcemanager_basic_information, RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	RESOURCEMANAGER_BASIC_INFORMATION
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ The resource manager's description string, which the <b>Description</b> member r
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
-
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_RADIO_STATE
-title: _WWAN_RADIO_STATE
+title: "_WWAN_RADIO_STATE"
 author: windows-driver-content
 description: The WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\wwan_radio_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15c02819-bae8-48f5-8782-97823b6907bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, *PWWAN_RADIO_STATE, WWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_RADIO_STATE, PWWAN_RADIO_STATE, netvista.wwan_radio_state, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_RADIO_STATE
+ms.keywords: netvista.wwan_radio_state, wwan/WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_RADIO_STATE, WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, PWWAN_RADIO_STATE, wwan/PWWAN_RADIO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_RADIO_STATE, WWAN_RADIO_STATE
+req.typenames: WWAN_RADIO_STATE, *PWWAN_RADIO_STATE
 req.product: Windows 10 or later.
 ---
 

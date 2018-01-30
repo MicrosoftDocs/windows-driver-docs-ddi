@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_SELECT_INTERFACE
-title: _URB_SELECT_INTERFACE
+title: "_URB_SELECT_INTERFACE"
 author: windows-driver-content
 description: The _URB_SELECT_INTERFACE structure is used by USB client drivers to select an alternate setting for an interface or to change the maximum packet size of a pipe in the current configuration on a USB device.
 old-location: buses\_urb_select_interface.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 48f80c80-49af-4cda-961b-8967e8d4897a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_SELECT_INTERFACE, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml, usb/_URB_SELECT_INTERFACE, buses._urb_select_interface, _URB_SELECT_INTERFACE structure [Buses]
+ms.keywords: buses._urb_select_interface, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml, _URB_SELECT_INTERFACE, usb/_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_SELECT_INTERFACE
 product: Windows
 targetos: Windows
@@ -103,15 +103,15 @@ The <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORM
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-<a href="https://msdn.microsoft.com/710b4f96-eeee-4313-b068-b2f2e718f8d2">Configuring USB Devices</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/710b4f96-eeee-4313-b068-b2f2e718f8d2">Configuring USB Devices</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

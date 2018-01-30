@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e8e53a6d-8b8b-49ed-947b-d0bb69a4d050
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioqueuedrainsynchronously, wdfio/WdfIoQueueDrainSynchronously, WdfIoQueueDrainSynchronously, PFN_WDFIOQUEUEDRAINSYNCHRONOUSLY, DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, WdfIoQueueDrainSynchronously method, kmdf.wdfioqueuedrainsynchronously
+ms.keywords: WdfIoQueueDrainSynchronously method, WdfIoQueueDrainSynchronously, PFN_WDFIOQUEUEDRAINSYNCHRONOUSLY, DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, wdf.wdfioqueuedrainsynchronously, kmdf.wdfioqueuedrainsynchronously, wdfio/WdfIoQueueDrainSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueDrainSynchronously
 product: Windows
 targetos: Windows

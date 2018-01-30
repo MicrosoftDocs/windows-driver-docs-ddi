@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeGetType, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, wdf.wdfusbtargetpipegettype, PFN_WDFUSBTARGETPIPEGETTYPE, WdfUsbTargetPipeGetType method, wdfusb/WdfUsbTargetPipeGetType, kmdf.wdfusbtargetpipegettype
+ms.keywords: kmdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, wdf.wdfusbtargetpipegettype, WdfUsbTargetPipeGetType method, PFN_WDFUSBTARGETPIPEGETTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetPipeGetType
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ For more information about the <b>WdfUsbTargetPipeGetType</b> method and USB I/O
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
 <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
  
 

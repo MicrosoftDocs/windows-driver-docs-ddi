@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_PERFORMANCE_TYPE
-title: _CDROM_PERFORMANCE_TYPE
+title: "_CDROM_PERFORMANCE_TYPE"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_TYPE enumeration defines the read and write performance data requests. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, ntddcdrm/ CdromWritePerformance, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_TYPE, CdromWritePerformance, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], CdromReadPerformance, storage.cdrom_performance_type, CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE
+ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, CdromWritePerformance, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], storage.cdrom_performance_type, ntddcdrm/ CdromWritePerformance, CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE, _CDROM_PERFORMANCE_TYPE, CdromReadPerformance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_PERFORMANCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE
+req.typenames: CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE
 ---
 
 # _CDROM_PERFORMANCE_TYPE enumeration
@@ -80,9 +80,9 @@ Requests streaming write performance data.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
 
  
 

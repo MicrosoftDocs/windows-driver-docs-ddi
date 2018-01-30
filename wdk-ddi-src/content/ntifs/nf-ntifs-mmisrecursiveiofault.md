@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c445c016-2781-4a82-ac2d-4c6eaff3b4c8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, MmIsRecursiveIoFault, ntifs/MmIsRecursiveIoFault, ifsk.mmisrecursiveiofault, MmIsRecursiveIoFault routine [Installable File System Drivers]
+ms.keywords: ifsk.mmisrecursiveiofault, ntifs/MmIsRecursiveIoFault, MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmIsRecursiveIoFault
 product: Windows
 targetos: Windows

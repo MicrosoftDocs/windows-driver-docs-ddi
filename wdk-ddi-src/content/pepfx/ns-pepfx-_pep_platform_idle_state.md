@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PLATFORM_IDLE_STATE
-title: _PEP_PLATFORM_IDLE_STATE
+title: "_PEP_PLATFORM_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0503B73-EDFA-4742-BAFA-4FEE56F0A3C8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PLATFORM_IDLE_STATE, *PPEP_PLATFORM_IDLE_STATE, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE, PPEP_PLATFORM_IDLE_STATE, pepfx/PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state
+ms.keywords: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE, pepfx/PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE, _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PLATFORM_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE
+req.typenames: PEP_PLATFORM_IDLE_STATE, *PPEP_PLATFORM_IDLE_STATE
 ---
 
 # _PEP_PLATFORM_IDLE_STATE structure
@@ -119,11 +119,11 @@ This structure is used in conjunction with the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
+<a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_ppm_query_idle_states_v2.md">PEP_PPM_QUERY_IDLE_STATES_V2</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_ppm_query_platform_state.md">PEP_PPM_QUERY_PLATFORM_STATE</a>
 

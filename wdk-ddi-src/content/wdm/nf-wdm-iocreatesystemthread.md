@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateSystemThread, kernel.iocreatesystemthread, wdm/IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoCreateSystemThread, wdm/IoCreateSystemThread, kernel.iocreatesystemthread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoCreateSystemThread
 product: Windows
 targetos: Windows
@@ -191,9 +191,11 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
@@ -201,13 +203,11 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
 <a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

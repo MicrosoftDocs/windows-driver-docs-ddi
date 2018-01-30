@@ -1,6 +1,6 @@
 ---
 UID: NS:hpmi._HPMI_BATTERY_UTILIZATION_HINT
-title: _HPMI_BATTERY_UTILIZATION_HINT
+title: "_HPMI_BATTERY_UTILIZATION_HINT"
 author: windows-driver-content
 description: This hint indicates if the OEM Battery Manager should attempt to save as much charge as possible in the non-hot swappable batteries (i.e.
 old-location: powermeter\hpmi_battery_utilization_hint.htm
@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: A974998F-C9AF-496E-88B1-510413C17C4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], _HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, *PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices]
+ms.keywords: HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], PHPMI_BATTERY_UTILIZATION_HINT, _HPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], powermeter.hpmi_battery_utilization_hint, *PHPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hpmi.h
-apiname: 
+apiname:
 -	HPMI_BATTERY_UTILIZATION_HINT
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
 <a href="..\hpmi\ne-hpmi-_hpmi_hint_bool.md">HPMI_HINT_BOOL</a>
 
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
 
  
 

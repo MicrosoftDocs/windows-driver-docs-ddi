@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19A066BD-1099-475C-BF81-F1BE7C7778E5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_RPMB_UNIT_DESCRIPTOR, *PUFS_RPMB_UNIT_DESCRIPTOR, ufs/UFS_RPMB_UNIT_DESCRIPTOR, storage.ufs_rpmb_unit_descriptor, ufs/PUFS_RPMB_UNIT_DESCRIPTOR
+ms.keywords: PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], ufs/PUFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_rpmb_unit_descriptor, *PUFS_RPMB_UNIT_DESCRIPTOR, ufs/UFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ufs.h
-apiname: 
+apiname:
 -	UFS_RPMB_UNIT_DESCRIPTOR
 product: Windows
 targetos: Windows

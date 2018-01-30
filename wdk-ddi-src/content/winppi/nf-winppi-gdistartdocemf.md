@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aca4534a-871e-4d86-b329-cb4f84611a29
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, GdiStartDocEMF function [Print Devices], print.gdistartdocemf, GdiStartDocEMF, winppi/GdiStartDocEMF
+ms.keywords: winppi/GdiStartDocEMF, GdiStartDocEMF function [Print Devices], gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, GdiStartDocEMF, print.gdistartdocemf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiStartDocEMF
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

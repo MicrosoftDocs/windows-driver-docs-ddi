@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler::KsIsMediaTypeInRanges, stream.iksdatatypehandler_ksismediatypeinranges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, IKsDataTypeHandler
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, stream.iksdatatypehandler_ksismediatypeinranges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface, KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsDataTypeHandler.KsIsMediaTypeInRanges
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension class [Windows Debugging], OnSessionActive method, OnSessionActive, OnSessionActive method [Windows Debugging], ExtExtension class, ExtExtension, ExtExtension::OnSessionActive, OnSessionActive method [Windows Debugging], EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, debugger.onsessionactive
+ms.keywords: OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging], ExtExtension class, ExtExtension::OnSessionActive, OnSessionActive, ExtExtension class [Windows Debugging], OnSessionActive method, debugger.onsessionactive, EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.OnSessionActive
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtExtension::OnSessionActive method
@@ -94,15 +94,15 @@ If a target is suspended, <a href="..\engextcpp\nf-engextcpp-extextension-onsess
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md">OnSessionInactive</a>
+<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
 <a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a>
+
+<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md">OnSessionInactive</a>
 
  
 

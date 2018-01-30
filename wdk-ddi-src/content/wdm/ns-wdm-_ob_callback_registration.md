@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_CALLBACK_REGISTRATION
-title: _OB_CALLBACK_REGISTRATION
+title: "_OB_CALLBACK_REGISTRATION"
 author: windows-driver-content
 description: The OB_CALLBACK_REGISTRATION structure specifies the parameters when the ObRegisterCallbacks routine registers ObjectPreCallback and ObjectPostCallback callback routines.
 old-location: kernel\ob_callback_registration.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION, *POB_CALLBACK_REGISTRATION, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, kernel.ob_callback_registration, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], wdm/POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION, *POB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, OB_CALLBACK_REGISTRATION, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/OB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	OB_CALLBACK_REGISTRATION
 product: Windows
 targetos: Windows
@@ -106,13 +106,13 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 <a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a>
 
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
  
 

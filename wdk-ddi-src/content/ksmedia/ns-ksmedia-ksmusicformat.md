@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 836e2eb5-b8cf-4c12-a855-f63709622c74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PKSMUSICFORMAT, PKSMUSICFORMAT structure pointer [Audio Devices], PKSMUSICFORMAT, audio.ksmusicformat, aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, KSMUSICFORMAT structure [Audio Devices], ksmedia/KSMUSICFORMAT, ksmedia/PKSMUSICFORMAT, KSMUSICFORMAT"
+ms.keywords: audio.ksmusicformat, KSMUSICFORMAT structure [Audio Devices], ksmedia/PKSMUSICFORMAT, *PKSMUSICFORMAT, ksmedia/KSMUSICFORMAT, PKSMUSICFORMAT structure pointer [Audio Devices], PKSMUSICFORMAT, aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, KSMUSICFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -70,7 +70,7 @@ typedef struct {
 
 ### -field TimeDeltaMs
 
-Indicates when this series of MIDI data bytes should be played. If this is the first KSMUSICFORMAT structure in the buffer, this field represents the delta (time change, in milliseconds) from the <b>PresentationTime</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structure. Otherwise, the field represents the delta offset (in milliseconds) from the previous message (KSMUSICFORMAT structure). If this time is in the past, then the message is played immediately.
+Indicates when this series of MIDI data bytes should be played. If this is the first KSMUSICFORMAT structure in the buffer, this field represents the delta (time change, in milliseconds) from the <b>PresentationTime</b> in the <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure. Otherwise, the field represents the delta offset (in milliseconds) from the previous message (KSMUSICFORMAT structure). If this time is in the past, then the message is played immediately.
 
 
 ### -field ByteCount
@@ -157,7 +157,7 @@ Will be played at 140 milliseconds.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
  
 

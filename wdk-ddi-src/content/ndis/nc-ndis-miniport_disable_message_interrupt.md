@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportDisableMessageInterrupt
 product: Windows
 targetos: Windows
@@ -162,20 +162,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
 
 <mshelp:link keywords="netvista.miniportenablemessageinterrupt" tabindex="0"><i>
    MiniportEnableMessageInterrupt</i></mshelp:link>
 
-<mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
-   IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+<mshelp:link keywords="kernel.io_interrupt_message_info_entry" tabindex="0"><b>
+   IO_INTERRUPT_MESSAGE_INFO_ENTRY</b></mshelp:link>
 
  
 

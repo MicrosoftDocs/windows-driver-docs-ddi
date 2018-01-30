@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0664199b-da65-4b07-958e-d7972b39cefd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentthreadaddr, GetCurrentThreadAddr function [Windows Debugging], WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, wdbgexts/GetCurrentThreadAddr, GetCurrentThreadAddr
+ms.keywords: wdbgexts/GetCurrentThreadAddr, GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], debugger.getcurrentthreadaddr, WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # GetCurrentThreadAddr function

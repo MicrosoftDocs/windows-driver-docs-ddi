@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32a61103-5f2f-4b73-a299-bf6a14c3bec9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterAddTopologyConnections, stream.ksfilteraddtopologyconnections, ks/KsFilterAddTopologyConnections, avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, KsFilterAddTopologyConnections function [Streaming Media Devices]
+ms.keywords: stream.ksfilteraddtopologyconnections, KsFilterAddTopologyConnections function [Streaming Media Devices], avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, ks/KsFilterAddTopologyConnections, KsFilterAddTopologyConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFilterAddTopologyConnections
 product: Windows
 targetos: Windows

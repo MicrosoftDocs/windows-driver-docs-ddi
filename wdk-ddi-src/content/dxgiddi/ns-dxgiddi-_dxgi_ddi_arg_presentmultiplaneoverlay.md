@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d965c9b-1d71-4ef5-9b76-391b36b1d8c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], display.dxgi_ddi_arg_presentmultiplaneoverlay, dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY"
+ms.keywords: DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, display.dxgi_ddi_arg_presentmultiplaneoverlay, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,19 +118,19 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
+<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_present_multiplane_overlay.md">DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY</a>
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a>
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present_multiplane_overlay.md">DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY</a>
-
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_flip_interval_type.md">DXGI_DDI_FLIP_INTERVAL_TYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
-<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_present_multiplane_overlay.md">DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present_multiplane_overlay.md">DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY</a>
 
  
 

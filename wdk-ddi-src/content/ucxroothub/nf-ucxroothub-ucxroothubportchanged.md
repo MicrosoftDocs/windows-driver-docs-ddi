@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
+ms.keywords: buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], UcxRootHubPortChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	UcxRootHubPortChanged
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGES_INPUT
-title: _SRIOV_MITIGATED_RANGES_INPUT
+title: "_SRIOV_MITIGATED_RANGES_INPUT"
 author: windows-driver-content
 description: This structure is the input buffer in the IOCTL_SRIOV_QUERY_MITIGATED_RANGES request to get the specific ranges on which intercepts must be placed.
 old-location: pci\sriov_mitigated_ranges_input.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 40b81630-997f-4427-8d02-5004de6fc943
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: SRIOV_MITIGATED_RANGES_INPUT, *PSRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT structure [Buses], pcivirt/SRIOV_MITIGATED_RANGES_INPUT, PCI.sriov_mitigated_ranges_input, _SRIOV_MITIGATED_RANGES_INPUT
+ms.keywords: pcivirt/SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT structure [Buses], _SRIOV_MITIGATED_RANGES_INPUT, *PSRIOV_MITIGATED_RANGES_INPUT, PCI.sriov_mitigated_ranges_input, SRIOV_MITIGATED_RANGES_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pcivirt.h
-apiname: 
+apiname:
 -	SRIOV_MITIGATED_RANGES_INPUT
 product: Windows
 targetos: Windows

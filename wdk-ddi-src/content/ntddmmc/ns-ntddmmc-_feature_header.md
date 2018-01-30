@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_HEADER
-title: _FEATURE_HEADER
+title: "_FEATURE_HEADER"
 author: windows-driver-content
 description: The FEATURE_HEADER structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to report header information for both feature and profile descriptors.
 old-location: storage\feature_header.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml, FEATURE_HEADER, _FEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], *PFEATURE_HEADER, storage.feature_header, ntddmmc/FEATURE_HEADER, PFEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], ntddmmc/PFEATURE_HEADER
+ms.keywords: FEATURE_HEADER structure [Storage Devices], ntddmmc/PFEATURE_HEADER, ntddmmc/FEATURE_HEADER, _FEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], *PFEATURE_HEADER, storage.feature_header, FEATURE_HEADER, PFEATURE_HEADER, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PFEATURE_HEADER, FEATURE_HEADER
+req.typenames: "*PFEATURE_HEADER, FEATURE_HEADER"
 ---
 
 # _FEATURE_HEADER structure
@@ -104,11 +104,11 @@ Indicates the number of bytes of feature information that follow this header. Th
 
 ## -see-also
 
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
 
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
-
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
  
 

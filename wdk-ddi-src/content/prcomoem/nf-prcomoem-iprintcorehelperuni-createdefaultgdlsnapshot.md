@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintcorehelperuni_createdefaultgdlsnapshot, CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, CreateDefaultGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, IPrintCoreHelperUni
+ms.keywords: CreateDefaultGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, IPrintCoreHelperUni, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperUni.CreateDefaultGDLSnapshot
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

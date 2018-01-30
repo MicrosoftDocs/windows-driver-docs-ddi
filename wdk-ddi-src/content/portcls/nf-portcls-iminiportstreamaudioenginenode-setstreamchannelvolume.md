@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0110979E-8C57-4394-B43E-BCC7B178A0AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelVolume method, audio.iminiportstreamaudioenginenode_setstreamchannelvolume
+ms.keywords: SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelVolume method, SetStreamChannelVolume method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

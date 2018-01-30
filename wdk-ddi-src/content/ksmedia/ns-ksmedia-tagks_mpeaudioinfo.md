@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_MPEGAUDIOINFO, ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, tagKS_MPEAUDIOINFO, KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, ksmedia/KS_MPEGAUDIOINFO
+ms.keywords: tagKS_MPEAUDIOINFO, stream.ks_mpegaudioinfo, ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, PKS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO, ksmedia/KS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_MPEGAUDIOINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
+req.typenames: "*PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO"
 ---
 
 # tagKS_MPEAUDIOINFO structure

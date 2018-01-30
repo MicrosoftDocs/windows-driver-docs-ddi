@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_REPLACE_KEY_INFORMATION
-title: _REG_REPLACE_KEY_INFORMATION
+title: "_REG_REPLACE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_REPLACE_KEY_INFORMATION structure describes the metadata that is about to be replaced for a key.
 old-location: kernel\reg_replace_key_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bbe60db6-85ae-480c-8852-80935a52697e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.reg_replace_key_information, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_REPLACE_KEY_INFORMATION, _REG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION, wdm/PREG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION, wdm/REG_REPLACE_KEY_INFORMATION
+ms.keywords: wdm/REG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, REG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_REPLACE_KEY_INFORMATION, _REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_replace_key_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REG_REPLACE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: REG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION
+req.typenames: "*PREG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

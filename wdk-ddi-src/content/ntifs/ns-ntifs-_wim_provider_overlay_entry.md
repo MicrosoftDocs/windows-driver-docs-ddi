@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_OVERLAY_ENTRY
-title: _WIM_PROVIDER_OVERLAY_ENTRY
+title: "_WIM_PROVIDER_OVERLAY_ENTRY"
 author: windows-driver-content
 description: Contains the a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
 old-location: ifsk\wim_provider_overlay_entry.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8D1C9C8B-0545-42D7-860F-E2263457E61F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: WIM_BOOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_OVERLAY_ENTRY, ntifs/WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY, _WIM_PROVIDER_OVERLAY_ENTRY, ifsk.wim_provider_overlay_entry, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], PWIM_PROVIDER_OVERLAY_ENTRY, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY, WIM_BOOT_NOT_OS_WIM
+ms.keywords: WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], *PWIM_PROVIDER_OVERLAY_ENTRY, WIM_BOOT_NOT_OS_WIM, ifsk.wim_provider_overlay_entry, WIM_BOOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, _WIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, ntifs/WIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_OVERLAY_ENTRY, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	WIM_PROVIDER_OVERLAY_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY
+req.typenames: "*PWIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_OVERLAY_ENTRY"
 ---
 
 # _WIM_PROVIDER_OVERLAY_ENTRY structure

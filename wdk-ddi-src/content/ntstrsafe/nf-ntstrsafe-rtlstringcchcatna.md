@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNA, RtlStringCchCatNW, kernel.rtlstringcchcatn, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], RtlStringCchCatN, ntstrsafe/RtlStringCchCatNW
+ms.keywords: safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, ntstrsafe/RtlStringCchCatNA, RtlStringCchCatN, RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCatNW, kernel.rtlstringcchcatn, RtlStringCchCatNA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchCatNW
 -	RtlStringCchCatNA
 -	RtlStringCchCatNW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCatNA function
@@ -218,9 +218,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatw.md">RtlStringCchCat</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
 
  
 

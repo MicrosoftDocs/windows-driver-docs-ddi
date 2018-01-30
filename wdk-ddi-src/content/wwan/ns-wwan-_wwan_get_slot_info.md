@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GET_SLOT_INFO
-title: _WWAN_GET_SLOT_INFO
+title: "_WWAN_GET_SLOT_INFO"
 author: windows-driver-content
 description: The WWAN_GET_SLOT_INFO structure contains the slot index to specify which slot's status a query request is for.
 old-location: netvista\wwan_get_slot_info_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62955CA4-8631-4A85-8E78-5A91A9DA0069
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO, _WWAN_GET_SLOT_INFO, wwan/PWWAN_GET_SLOT_INFO, netvista.wwan_get_slot_info_status, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_GET_SLOT_INFO, netvista.wwan_get_slot_info_status, WWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], wwan/WWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_GET_SLOT_INFO
 product: Windows
 targetos: Windows

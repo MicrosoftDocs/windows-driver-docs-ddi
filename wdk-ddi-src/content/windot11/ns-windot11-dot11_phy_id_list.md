@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_ID_LIST, windot11/DOT11_PHY_ID_LIST, netvista.dot11_phy_id_list, DOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], *PDOT11_PHY_ID_LIST, Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, windot11/PDOT11_PHY_ID_LIST
+ms.keywords: windot11/DOT11_PHY_ID_LIST, *PDOT11_PHY_ID_LIST, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_id_list, PDOT11_PHY_ID_LIST, Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, DOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_PHY_ID_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PHY_ID_LIST
 product: Windows
 targetos: Windows
-req.typenames: DOT11_PHY_ID_LIST, *PDOT11_PHY_ID_LIST
+req.typenames: "*PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -86,6 +86,22 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       sizeof(DOT11_PHY_ID_LIST).
+
+
 ### -field uNumOfEntries
 
 The number of entries in the 
@@ -101,22 +117,6 @@ The maximum number of entries that the
 ### -field dot11PhyId
 
 The list of PHY identifiers (IDs).
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       sizeof(DOT11_PHY_ID_LIST).
 
 
 ## -remarks
@@ -222,9 +222,9 @@ Return NDIS_STATUS_SUCCESS from its
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

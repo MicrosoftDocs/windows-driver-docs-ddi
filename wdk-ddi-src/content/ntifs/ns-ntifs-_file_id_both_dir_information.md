@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ID_BOTH_DIR_INFORMATION
-title: _FILE_ID_BOTH_DIR_INFORMATION
+title: "_FILE_ID_BOTH_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_ID_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
 old-location: ifsk\file_id_both_dir_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57a66b41-f9f6-42e1-95d7-010cacd1374a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_ID_BOTH_DIR_INFORMATION, ifsk.file_id_both_dir_information, FILE_ID_BOTH_DIR_INFORMATION, ntifs/FILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_ID_BOTH_DIR_INFORMATION, *PFILE_ID_BOTH_DIR_INFORMATION
+ms.keywords: ntifs/PFILE_ID_BOTH_DIR_INFORMATION, fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, *PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION, _FILE_ID_BOTH_DIR_INFORMATION, ntifs/FILE_ID_BOTH_DIR_INFORMATION, ifsk.file_id_both_dir_information, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_ID_BOTH_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION
+req.typenames: "*PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION"
 ---
 
 # _FILE_ID_BOTH_DIR_INFORMATION structure
@@ -196,9 +196,9 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
 <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
  
 

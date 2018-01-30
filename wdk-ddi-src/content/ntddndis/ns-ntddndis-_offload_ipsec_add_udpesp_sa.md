@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_IPSEC_ADD_UDPESP_SA
-title: _OFFLOAD_IPSEC_ADD_UDPESP_SA
+title: "_OFFLOAD_IPSEC_ADD_UDPESP_SA"
 author: windows-driver-content
 description: The OFFLOAD_IPSEC_ADD_UDPESP_SA structure contains information for each security association (SA) that a miniport driver adds for UDP-encapsulated ESP packets to a NIC.
 old-location: netvista\offload_ipsec_add_udpesp_sa.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d3f554f-2733-4896-827c-14e92e8034ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _OFFLOAD_IPSEC_ADD_UDPESP_SA, OFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA, 216offload_081b17de-1f16-44c7-9888-5d0388c081d9.xml, OFFLOAD_IPSEC_ADD_UDPESP_SA structure [Network Drivers Starting with Windows Vista], *POFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA, netvista.offload_ipsec_add_udpesp_sa, ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA
+ms.keywords: ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA, ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_IPSEC_ADD_UDPESP_SA structure [Network Drivers Starting with Windows Vista], netvista.offload_ipsec_add_udpesp_sa, _OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA, 216offload_081b17de-1f16-44c7-9888-5d0388c081d9.xml, OFFLOAD_IPSEC_ADD_UDPESP_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	OFFLOAD_IPSEC_ADD_UDPESP_SA
 product: Windows
 targetos: Windows
@@ -156,6 +156,16 @@ A bitmask that indicates whether the SA that is being added is an inbound or out
 
 
 
+#### OFFLOAD_INBOUND_SA
+
+Specifies an inbound SA.
+
+
+#### OFFLOAD_OUTBOUND_SA
+
+Specifies an outbound SA.
+
+
 ### -field NumSAs
 
 The number of elements in the 
@@ -259,16 +269,6 @@ The length of each key in the buffer at
      OFFLOAD_SECURITY_ASSOCIATION structure.)
 
 
-##### - Flags.OFFLOAD_INBOUND_SA
-
-Specifies an inbound SA.
-
-
-##### - Flags.OFFLOAD_OUTBOUND_SA
-
-Specifies an outbound SA.
-
-
 ## -remarks
 
 
@@ -288,21 +288,21 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+
 <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-
-<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_add_udpesp_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</mshelp:link>
 
 <mshelp:link keywords="netvista.offload_ipsec_udpesp_encaptype_entry" tabindex="0"><b>
    OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<mshelp:link keywords="netvista.oid_tcp_task_ipsec_add_udpesp_sa" tabindex="0">
+   OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
+
+<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
 

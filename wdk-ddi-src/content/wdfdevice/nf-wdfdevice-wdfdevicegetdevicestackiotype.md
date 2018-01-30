@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceGetDeviceStackIoType, wdf.wdfdevicegetdevicestackiotype, WdfDeviceGetDeviceStackIoType method, WdfDeviceGetDeviceStackIoType, PFN_WDFDEVICEGETDEVICESTACKIOTYPE
+ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, PFN_WDFDEVICEGETDEVICESTACKIOTYPE, wdfdevice/WdfDeviceGetDeviceStackIoType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfDeviceGetDeviceStackIoType
 product: Windows
 targetos: Windows

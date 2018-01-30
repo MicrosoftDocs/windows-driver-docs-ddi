@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_INTERFACE_INFORMATION
-title: _USBD_INTERFACE_INFORMATION
+title: "_USBD_INTERFACE_INFORMATION"
 author: windows-driver-content
 description: The USBD_INTERFACE_INFORMATION structure holds information about an interface for a configuration on a USB device.
 old-location: buses\usbd_interface_information.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION structure [Buses], USBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, _USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, buses.usbd_interface_information, *PUSBD_INTERFACE_INFORMATION, usb/PUSBD_INTERFACE_INFORMATION
+ms.keywords: USBD_INTERFACE_INFORMATION structure [Buses], usb/PUSBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], PUSBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION, _USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	USBD_INTERFACE_INFORMATION
 product: Windows
 targetos: Windows
@@ -138,9 +138,9 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

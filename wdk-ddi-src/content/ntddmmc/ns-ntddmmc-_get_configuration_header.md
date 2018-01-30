@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._GET_CONFIGURATION_HEADER
-title: _GET_CONFIGURATION_HEADER
+title: "_GET_CONFIGURATION_HEADER"
 author: windows-driver-content
 description: The GET_CONFIGURATION_HEADER structure is used to format the output data retrieved by the IOCTL_CDROM_GET_CONFIGURATION request.
 old-location: storage\get_configuration_header.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8de19f1b-faca-4b27-9287-20edc12f2c83
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PGET_CONFIGURATION_HEADER, PGET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER, *PGET_CONFIGURATION_HEADER, ntddmmc/GET_CONFIGURATION_HEADER, PGET_CONFIGURATION_HEADER structure pointer [Storage Devices], GET_CONFIGURATION_HEADER structure [Storage Devices], _GET_CONFIGURATION_HEADER, structs-CD-ROM_f15044b6-5bbe-4d82-9826-dbe0c96a488c.xml, storage.get_configuration_header
+ms.keywords: PGET_CONFIGURATION_HEADER structure pointer [Storage Devices], storage.get_configuration_header, _GET_CONFIGURATION_HEADER, *PGET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER structure [Storage Devices], GET_CONFIGURATION_HEADER, ntddmmc/GET_CONFIGURATION_HEADER, PGET_CONFIGURATION_HEADER, ntddmmc/PGET_CONFIGURATION_HEADER, structs-CD-ROM_f15044b6-5bbe-4d82-9826-dbe0c96a488c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	GET_CONFIGURATION_HEADER
 product: Windows
 targetos: Windows
@@ -92,9 +92,9 @@ Contains the feature data, beginning with the <a href="..\ntddmmc\ns-ntddmmc-_fe
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
 
 <a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
 

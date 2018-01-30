@@ -2,13 +2,13 @@
 UID: NF:srb.ScsiPortGetVirtualAddress
 title: ScsiPortGetVirtualAddress function
 author: windows-driver-content
-description: The ScsiPortGetVirtualAddress routine returns a virtual address associated with a physical address if the physical address was obtained by a call to ScsiPortGetPhysicalAddress.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The ScsiPortGetVirtualAddress routine returns a virtual address associated with a physical address if the physical address was obtained by a call to ScsiPortGetPhysicalAddress.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportgetvirtualaddress.htm
 old-project: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetVirtualAddress, storage.scsiportgetvirtualaddress, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, ScsiPortGetVirtualAddress routine [Storage Devices], srb/ScsiPortGetVirtualAddress
+ms.keywords: ScsiPortGetVirtualAddress routine [Storage Devices], ScsiPortGetVirtualAddress, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, storage.scsiportgetvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortGetVirtualAddress
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -107,9 +107,9 @@ Specifies the physical address to be mapped. This value must have been returned 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
-
 <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
  
 

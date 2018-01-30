@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 177B4509-A0EC-4F71-AF21-916A7A5F06DB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelpacketfail, VmbChannelPacketFail, VmbChannelPacketFail function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelPacketFail
+ms.keywords: VmbChannelPacketFail function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketfail, VmbChannelPacketFail, vmbuskernelmodeclientlibapi/VmbChannelPacketFail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelPacketFail
 product: Windows
 targetos: Windows

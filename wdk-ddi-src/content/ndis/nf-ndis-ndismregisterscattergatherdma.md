@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMRegisterScatterGatherDma, NdisMRegisterScatterGatherDma, NdisMRegisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis_sgdma_ref_4c89dae9-d6bc-44a5-9b8b-8efcb69ecc75.xml, netvista.ndismregisterscattergatherdma
+ms.keywords: NdisMRegisterScatterGatherDma function [Network Drivers Starting with Windows Vista], NdisMRegisterScatterGatherDma, ndis/NdisMRegisterScatterGatherDma, netvista.ndismregisterscattergatherdma, ndis_sgdma_ref_4c89dae9-d6bc-44a5-9b8b-8efcb69ecc75.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMRegisterScatterGatherDma
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMRegisterScatterGatherDma function
@@ -106,14 +106,7 @@ A pointer to an NDIS_SG_DMA_DESCRIPTION structure. This structure describes the 
 
 
 
-### -param NdisMiniportDmaHandle [out]
-
-A pointer to a variable that the caller supplies and that NDIS fills with a handle. The handle
-     identifies a context area that NDIS uses to manage this DMA resource. The miniport driver passes this
-     handle to NDIS in subsequent calls to NDIS that involve this DMA resource.
-
-
-##### - DmaDescription.Header
+#### Header
 
 The 
        <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
@@ -124,29 +117,33 @@ The
        <b>Size</b> member to NDIS_SIZEOF_SG_DMA_DESCRIPTION_REVISION_1.
 
 
-##### - DmaDescription.ProcessSGListHandler
+#### Flags
 
-The 
-       <a href="..\ndis\nc-ndis-miniport_process_sg_list.md">MiniportProcessSGList</a> function
-       that NDIS calls when HAL is done building the scatter/gather list.
+A set of bit flags that define scatter/gather characteristics. Set this member to the bitwise OR
+       of all the required flags. 
+       
 
+The NDIS_SG_DMA_64_BIT_ADDRESS flag specifies that the NIC can use 64-bit addressing for DMA
+       operations. Otherwise, the NIC uses 32-bit addressing.
 
-##### - DmaDescription.ScatterGatherListSize
-
-The size, in bytes, of the memory that is required to hold a scatter/gather list. NDIS sets this
-       value before it returns from 
-       <b>NdisMRegisterScatterGatherDma</b>. Miniport drivers should use this size to preallocate memory for
-       each scatter/gather list.
+Set this member to zero if 64-bit addressing is not required.
 
 
-##### - DmaDescription.MaximumPhysicalMapping
+#### MaximumPhysicalMapping
 
 The maximum number of bytes that the NIC can transfer in a single DMA operation. NDIS provides
        this value to the hardware abstraction layer (HAL) when allocating a DMA channel, and HAL uses this
        value to determine the maximum number of map registers to reserve for the NIC.
 
 
-##### - DmaDescription.SharedMemAllocateCompleteHandler
+#### ProcessSGListHandler
+
+The 
+       <a href="..\ndis\nc-ndis-miniport_process_sg_list.md">MiniportProcessSGList</a> function
+       that NDIS calls when HAL is done building the scatter/gather list.
+
+
+#### SharedMemAllocateCompleteHandler
 
 The 
        <mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
@@ -157,16 +154,19 @@ The
        <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 
-##### - DmaDescription.Flags
+#### ScatterGatherListSize
 
-A set of bit flags that define scatter/gather characteristics. Set this member to the bitwise OR
-       of all the required flags. 
-       
+The size, in bytes, of the memory that is required to hold a scatter/gather list. NDIS sets this
+       value before it returns from 
+       <b>NdisMRegisterScatterGatherDma</b>. Miniport drivers should use this size to preallocate memory for
+       each scatter/gather list.
 
-The NDIS_SG_DMA_64_BIT_ADDRESS flag specifies that the NIC can use 64-bit addressing for DMA
-       operations. Otherwise, the NIC uses 32-bit addressing.
 
-Set this member to zero if 64-bit addressing is not required.
+### -param NdisMiniportDmaHandle [out]
+
+A pointer to a variable that the caller supplies and that NDIS fills with a handle. The handle
+     identifies a context area that NDIS uses to manage this DMA resource. The miniport driver passes this
+     handle to NDIS in subsequent calls to NDIS that involve this DMA resource.
 
 
 ## -returns
@@ -290,34 +290,34 @@ Miniport drivers call the
 
 ## -see-also
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
-
 <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
 
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
+<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
 
 <a href="..\ndis\nc-ndis-miniport_process_sg_list.md">MiniportProcessSGList</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.ndismderegisterscattergatherdma" tabindex="0"><b>
    NdisMDeregisterScatterGatherDma</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
+   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+
+<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
 
-<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

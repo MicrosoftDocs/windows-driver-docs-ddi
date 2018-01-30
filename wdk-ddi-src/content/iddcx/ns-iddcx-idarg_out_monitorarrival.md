@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], IDARG_OUT_MONITORARRIVAL, display.idarg_out_monitorarrival
+ms.keywords: IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, IDARG_OUT_MONITORARRIVAL, iddcx/IDARG_OUT_MONITORARRIVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ac705ff9-8019-47f9-8842-05f9152af29c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceInitSetRequestAttributes, PFN_WDFDEVICEINITSETREQUESTATTRIBUTES, DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml, kmdf.wdfdeviceinitsetrequestattributes, WdfDeviceInitSetRequestAttributes method, WdfDeviceInitSetRequestAttributes, wdf.wdfdeviceinitsetrequestattributes
+ms.keywords: WdfDeviceInitSetRequestAttributes method, kmdf.wdfdeviceinitsetrequestattributes, WdfDeviceInitSetRequestAttributes, wdfdevice/WdfDeviceInitSetRequestAttributes, wdf.wdfdeviceinitsetrequestattributes, PFN_WDFDEVICEINITSETREQUESTATTRIBUTES, DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetRequestAttributes
 product: Windows
 targetos: Windows

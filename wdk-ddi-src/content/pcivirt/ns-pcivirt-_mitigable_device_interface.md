@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._MITIGABLE_DEVICE_INTERFACE
-title: _MITIGABLE_DEVICE_INTERFACE
+title: "_MITIGABLE_DEVICE_INTERFACE"
 author: windows-driver-content
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver for the mitigable device interface.
 old-location: pci\mitigable_device_interface.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MITIGABLE_DEVICE_INTERFACE structure [Buses], *PMITIGABLE_DEVICE_INTERFACE, PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
+ms.keywords: MITIGABLE_DEVICE_INTERFACE structure [Buses], _MITIGABLE_DEVICE_INTERFACE, PCI.mitigable_device_interface, *PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	MITIGABLE_DEVICE_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
+req.typenames: "*PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE"
 ---
 
 # _MITIGABLE_DEVICE_INTERFACE structure

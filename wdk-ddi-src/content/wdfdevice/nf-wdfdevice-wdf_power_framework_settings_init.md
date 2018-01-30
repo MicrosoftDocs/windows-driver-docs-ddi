@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26F872A2-7727-4346-BA80-779D082EAE9D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT function, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT, kmdf.wdf_power_framework_settings_init, WDF_POWER_FRAMEWORK_SETTINGS_INIT, wdf.wdf_power_framework_settings_init
+ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT, wdf.wdf_power_framework_settings_init, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT, kmdf.wdf_power_framework_settings_init, WDF_POWER_FRAMEWORK_SETTINGS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_POWER_FRAMEWORK_SETTINGS_INIT
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplaySetDescriptorData
-title: _LineDisplaySetDescriptorData
+title: "_LineDisplaySetDescriptorData"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetdescriptordata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 60E2379E-BF42-4290-98AA-5E6E8DE0A922
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplaySetDescriptorData structure, pointofservicedriverinterface/LineDisplaySetDescriptorData, pointofservicedriverinterface/PLineDisplaySetDescriptorData, _LineDisplaySetDescriptorData, LineDisplaySetDescriptorData, PLineDisplaySetDescriptorData structure pointer, PLineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata
+ms.keywords: LineDisplaySetDescriptorData, pointofservicedriverinterface/LineDisplaySetDescriptorData, _LineDisplaySetDescriptorData, pointofservicedriverinterface/PLineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata, PLineDisplaySetDescriptorData structure pointer, LineDisplaySetDescriptorData structure, PLineDisplaySetDescriptorData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	LineDisplaySetDescriptorData
 product: Windows
 targetos: Windows

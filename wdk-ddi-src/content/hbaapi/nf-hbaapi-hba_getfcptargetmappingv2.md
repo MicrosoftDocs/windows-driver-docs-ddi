@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 970475d7-dd81-4189-bd2b-2a22c4f732dc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetFcpTargetMappingV2, storage.hba_getfcptargetmappingv2, HBA_GetFcpTargetMappingV2, HBA_GetFcpTargetMappingV2 routine [Storage Devices], fibreHBA_rtns_c0f700bf-da1f-4480-8fa0-8441f924e351.xml
+ms.keywords: storage.hba_getfcptargetmappingv2, HBA_GetFcpTargetMappingV2 routine [Storage Devices], hbaapi/HBA_GetFcpTargetMappingV2, fibreHBA_rtns_c0f700bf-da1f-4480-8fa0-8441f924e351.xml, HBA_GetFcpTargetMappingV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetFcpTargetMappingV2
 product: Windows
 targetos: Windows
@@ -163,11 +163,11 @@ The difference between the <b>HBA_GetFcpTargetMappingV2</b> routine and the <a h
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcptargetmappingv2.md">HBA_FCPTargetMappingV2</a>
 
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_getfcptargetmapping.md">HBA_GetFcpTargetMapping</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f704899-eb5e-4632-a76d-eb474f3273f9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilrange, RILRANGE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRANGE, RILRANGE, *LPRILRANGE
+ms.keywords: RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], *LPRILRANGE, ntddrilapitypes/RILRANGE, netvista.rilrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRANGE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRANGE, RILRANGE
+req.typenames: "*LPRILRANGE, RILRANGE"
 ---
 
 # RILRANGE structure

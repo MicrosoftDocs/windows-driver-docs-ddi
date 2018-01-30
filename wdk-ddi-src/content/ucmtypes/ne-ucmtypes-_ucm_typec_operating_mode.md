@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_TYPEC_OPERATING_MODE
-title: _UCM_TYPEC_OPERATING_MODE
+title: "_UCM_TYPEC_OPERATING_MODE"
 author: windows-driver-content
 description: Defines operating modes of a USB Type-C connector.
 old-location: buses\ucm_type_c_operating_mode.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeUfp, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDrp, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UCM_TYPEC_OPERATING_MODE
+ms.keywords: UcmTypeCOperatingModeInvalid, buses.ucm_type_c_operating_mode, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeDfp, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDrp, _UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_TYPEC_OPERATING_MODE
 product: Windows
 targetos: Windows

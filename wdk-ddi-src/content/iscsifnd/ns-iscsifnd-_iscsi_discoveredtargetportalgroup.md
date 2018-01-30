@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortalGroup
-title: _ISCSI_DiscoveredTargetPortalGroup
+title: "_ISCSI_DiscoveredTargetPortalGroup"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTargetPortalGroup structure contains information about a discovered target portal group.
 old-location: storage\iscsi_discoveredtargetportalgroup.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5c90dbc2-f42a-4c04-8c77-0ef3a712416c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_DiscoveredTargetPortalGroup, PISCSI_DiscoveredTargetPortalGroup structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortalGroup, structs-iSCSI_aa46b46a-73cf-4d06-a5ff-9abc5794f965.xml, *PISCSI_DiscoveredTargetPortalGroup, iscsifnd/PISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup structure [Storage Devices], ISCSI_DiscoveredTargetPortalGroup, storage.iscsi_discoveredtargetportalgroup, _ISCSI_DiscoveredTargetPortalGroup
+ms.keywords: PISCSI_DiscoveredTargetPortalGroup, *PISCSI_DiscoveredTargetPortalGroup, structs-iSCSI_aa46b46a-73cf-4d06-a5ff-9abc5794f965.xml, storage.iscsi_discoveredtargetportalgroup, ISCSI_DiscoveredTargetPortalGroup, _ISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTargetPortalGroup, PISCSI_DiscoveredTargetPortalGroup structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortalGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsifnd.h
-apiname: 
+apiname:
 -	ISCSI_DiscoveredTargetPortalGroup
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup
+req.typenames: "*PISCSI_DiscoveredTargetPortalGroup, ISCSI_DiscoveredTargetPortalGroup"
 ---
 
 # _ISCSI_DiscoveredTargetPortalGroup structure
@@ -87,11 +87,11 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561523">ISCSI_DiscoveredTargetPortalGroup WMI Class</a>
+
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup2.md">ISCSI_DiscoveredTargetPortalGroup2</a>
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561523">ISCSI_DiscoveredTargetPortalGroup WMI Class</a>
 
  
 

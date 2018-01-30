@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_CREATECONTEXTFLAGS, d3dkmddi/DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags, DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, DXGK_CREATECONTEXTFLAGS structure [Display Devices]"
+ms.keywords: DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags, DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, _DXGK_CREATECONTEXTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,9 +125,9 @@ A member in the union that DXGK_CREATECONTEXTFLAGS contains that can hold a 32-b
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
  
 

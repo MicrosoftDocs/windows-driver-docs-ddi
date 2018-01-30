@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlFreeUnicodeString, kernel.rtlfreeunicodestring, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], RtlFreeUnicodeString, k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml
+ms.keywords: k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, kernel.rtlfreeunicodestring, wdm/RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], RtlFreeUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlFreeUnicodeString
 product: Windows
 targetos: Windows

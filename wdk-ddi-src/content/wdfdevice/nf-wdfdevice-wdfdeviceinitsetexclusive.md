@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4bbcf4d3-e1f9-4e13-ac56-92ffddea1f67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetexclusive, DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive method, wdfdevice/WdfDeviceInitSetExclusive, kmdf.wdfdeviceinitsetexclusive, PFN_WDFDEVICEINITSETEXCLUSIVE
+ms.keywords: wdfdevice/WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive, DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, kmdf.wdfdeviceinitsetexclusive, WdfDeviceInitSetExclusive method, wdf.wdfdeviceinitsetexclusive, PFN_WDFDEVICEINITSETEXCLUSIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetExclusive
 product: Windows
 targetos: Windows
@@ -105,9 +105,9 @@ For more information about calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicec
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
  
 

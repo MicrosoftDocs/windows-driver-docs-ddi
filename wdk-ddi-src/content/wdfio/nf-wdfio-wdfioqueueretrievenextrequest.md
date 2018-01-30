@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1cde2e20-5ce6-4c5b-b40c-0b04da76980c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioqueueretrievenextrequest, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, wdfio/WdfIoQueueRetrieveNextRequest, kmdf.wdfioqueueretrievenextrequest, PFN_WDFIOQUEUERETRIEVENEXTREQUEST
+ms.keywords: wdfio/WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, PFN_WDFIOQUEUERETRIEVENEXTREQUEST, wdf.wdfioqueueretrievenextrequest, kmdf.wdfioqueueretrievenextrequest, DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueRetrieveNextRequest
 product: Windows
 targetos: Windows
@@ -160,9 +160,9 @@ For more information about the <b>WdfIoQueueRetrieveNextRequest</b> method, see 
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
  
 

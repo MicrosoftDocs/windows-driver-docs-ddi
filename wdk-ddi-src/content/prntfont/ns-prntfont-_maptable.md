@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._MAPTABLE
-title: _MAPTABLE
+title: "_MAPTABLE"
 author: windows-driver-content
 description: The MAPTABLE structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\maptable.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, MAPTABLE, prntfont/MAPTABLE, print.maptable, *PMAPTABLE, MAPTABLE structure [Print Devices], PMAPTABLE, PMAPTABLE structure pointer [Print Devices], _MAPTABLE, prntfont/PMAPTABLE
+ms.keywords: MAPTABLE structure [Print Devices], PMAPTABLE, PMAPTABLE structure pointer [Print Devices], print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, *PMAPTABLE, prntfont/MAPTABLE, MAPTABLE, _MAPTABLE, prntfont/PMAPTABLE, print.maptable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	MAPTABLE
 product: Windows
 targetos: Windows
-req.typenames: MAPTABLE, *PMAPTABLE
+req.typenames: "*PMAPTABLE, MAPTABLE"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 6b59fa86-3c3b-4ab9-98e2-f62f028d53df
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_COMPLEX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, acpi-meth-eval-ref_e853be71-ec5f-41d6-82fc-6351a0847be8.xml, acpi.acpi_eval_input_buffer_complex, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1
+ms.keywords: acpi-meth-eval-ref_e853be71-ec5f-41d6-82fc-6351a0847be8.xml, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX, acpi.acpi_eval_input_buffer_complex, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,9 +139,9 @@ Set <b>Argument</b> to the array of ACPI_METHOD_ARGUMENT structures.
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
-
 <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
 

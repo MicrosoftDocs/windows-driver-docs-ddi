@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_READ_CAPACITY
-title: _STORAGE_READ_CAPACITY
+title: "_STORAGE_READ_CAPACITY"
 author: windows-driver-content
 description: The STORAGE_READ_CAPACITY contains the disk read capacity information returned from a IOCTL_STORAGE_READ_CAPACITIY request.
 old-location: storage\storage_read_capacity.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 891F04C5-277B-4197-942E-68ED21019950
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], ntddstor/PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], storage.storage_read_capacity, _STORAGE_READ_CAPACITY
+ms.keywords: "_STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY, storage.storage_read_capacity, STORAGE_READ_CAPACITY structure [Storage Devices], STORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_READ_CAPACITY
 product: Windows
 targetos: Windows

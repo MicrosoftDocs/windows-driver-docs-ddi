@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetTopLevelIrp, ifsk.iogettoplevelirp, ntifs/IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml
+ms.keywords: ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, IoGetTopLevelIrp, ntifs/IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ifsk.iogettoplevelirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetTopLevelIrp
 product: Windows
 targetos: Windows

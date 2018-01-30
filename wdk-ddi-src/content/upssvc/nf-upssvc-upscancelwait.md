@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 8ac611fc-5634-4857-8533-6e170fe884b2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: battery.upscancelwait, UPSCancelWait function [Battery Devices], UPSCancelWait, upssvc/UPSCancelWait, UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml
+ms.keywords: UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, UPSCancelWait, battery.upscancelwait, UPSCancelWait function [Battery Devices], upssvc/UPSCancelWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
+req.product: Windows 10 or later.
 ---
 
 # UPSCancelWait function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6db72f2c-af24-4807-b90b-65dc2b309dc7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: HalExamineMBR, k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, HalExamineMBR routine [Kernel-Mode Driver Architecture], kernel.halexaminembr, ntddk/HalExamineMBR
+ms.keywords: k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, kernel.halexaminembr, HalExamineMBR, HalExamineMBR routine [Kernel-Mode Driver Architecture], ntddk/HalExamineMBR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	HalExamineMBR
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # HalExamineMBR function
@@ -87,7 +87,7 @@ MBR partition type identifier. This parameter specifies the type of MBR that may
 
 ### -param Buffer [out]
 
-A pointer to a location to which <b>HalExamineMBR</b> writes a pointer to a buffer that contains data from the MBR. The layout of the buffer depends on the MBR partition type. <b>HalExamineMBR</b> allocates the storage for this buffer. The caller must deallocate this buffer as soon as possible by calling the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine.
+A pointer to a location to which <b>HalExamineMBR</b> writes a pointer to a buffer that contains data from the MBR. The layout of the buffer depends on the MBR partition type. <b>HalExamineMBR</b> allocates the storage for this buffer. The caller must deallocate this buffer as soon as possible by calling the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine.
 
 <b>HalExamineMBR</b> sets *<i>Buffer</i> = <b>NULL</b> if the MBR partition type of the disk does not match that specified by <i>MBRTypeIdentifier</i> or if there is an error.
 
@@ -108,9 +108,9 @@ For a list of system-defined MBR partition type identifiers, see the table in <a
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
 
  
 

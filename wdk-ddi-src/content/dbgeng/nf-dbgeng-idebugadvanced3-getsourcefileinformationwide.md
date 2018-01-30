@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsourcefileinformationwide, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, IDebugAdvanced3, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformationWide method [Windows Debugging]
+ms.keywords: IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, IDebugAdvanced3, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugAdvanced3.GetSourceFileInformationWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::GetSourceFileInformationWide method

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfcradiodev.h
-apiname: 
+apiname:
 -	IOCTL_NFCRM_QUERY_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG
+req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
 ---
 
 # IOCTL_NFCRM_QUERY_RADIO_STATE IOCTL

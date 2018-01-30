@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0985589E-074A-45C8-9F8A-384DC42EC884
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keregisterboundcallback, wdm/KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], KeRegisterBoundCallback
+ms.keywords: wdm/KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.keregisterboundcallback, KeRegisterBoundCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRegisterBoundCallback
 product: Windows
 targetos: Windows

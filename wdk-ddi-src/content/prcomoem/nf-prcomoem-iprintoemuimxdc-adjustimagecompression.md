@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, AdjustImageCompression method [Print Devices], AdjustImageCompression, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, IPrintOemUIMXDC::AdjustImageCompression, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, print.iprintoemuimxdc_adjustimagecompression
+ms.keywords: print.iprintoemuimxdc_adjustimagecompression, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, AdjustImageCompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, AdjustImageCompression method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUIMXDC.AdjustImageCompression
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

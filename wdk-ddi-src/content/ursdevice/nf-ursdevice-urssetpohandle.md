@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle, UrsSetPoHandle function [Buses]
+ms.keywords: UrsSetPoHandle, buses.urssetpohandle, ursdevice/UrsSetPoHandle, UrsSetPoHandle function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Urscxstub.lib
 -	Urscxstub.dll
-apiname: 
+apiname:
 -	UrsSetPoHandle
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ In the client driver's implementation of the <a href="..\wdfdevice\nc-wdfdevice-
 
 ## -see-also
 
-<i>EvtDeviceWdmPrePoFxUnregisterDevice</i>
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
+<i>EvtDeviceWdmPrePoFxUnregisterDevice</i>
 
  
 

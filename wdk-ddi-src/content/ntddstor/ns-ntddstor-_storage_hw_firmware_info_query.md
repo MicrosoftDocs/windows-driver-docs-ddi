@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_INFO_QUERY
-title: _STORAGE_HW_FIRMWARE_INFO_QUERY
+title: "_STORAGE_HW_FIRMWARE_INFO_QUERY"
 author: windows-driver-content
 description: This structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info_query.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7B58F050-2AF4-4BD5-95AB-254BCAA865F6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], *PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], storage.storage_hw_firmware_info_query, _STORAGE_HW_FIRMWARE_INFO_QUERY
+ms.keywords: STORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query, *PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], PSTORAGE_HW_FIRMWARE_INFO_QUERY, _STORAGE_HW_FIRMWARE_INFO_QUERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_HW_FIRMWARE_INFO_QUERY
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY
+req.typenames: "*PSTORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY"
 ---
 
 # _STORAGE_HW_FIRMWARE_INFO_QUERY structure

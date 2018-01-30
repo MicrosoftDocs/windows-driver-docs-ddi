@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], *LPRILEUTRAMRL, netvista.rileutramrl, rilapitypes/RILEUTRAMRL, RILEUTRAMRL
+ms.keywords: rilapitypes/RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl, RILEUTRAMRL, *LPRILEUTRAMRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEUTRAMRL
 product: Windows
 targetos: Windows
-req.typenames: *LPRILEUTRAMRL, RILEUTRAMRL
+req.typenames: "*LPRILEUTRAMRL, RILEUTRAMRL"
 req.product: Windows 10 or later.
 ---
 

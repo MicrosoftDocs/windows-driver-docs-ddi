@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OPTITEM
-title: _OPTITEM
+title: "_OPTITEM"
 author: windows-driver-content
 description: The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one property sheet option on a property sheet page, if the page is described by a COMPROPSHEETUI structure.
 old-location: print\optitem.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _OPTITEM, print.optitem, OPTITEM structure [Print Devices], cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, POPTITEM, POPTITEM structure pointer [Print Devices], compstui/POPTITEM, *POPTITEM, compstui/OPTITEM, OPTITEM
+ms.keywords: "_OPTITEM, print.optitem, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, OPTITEM, *POPTITEM, POPTITEM structure pointer [Print Devices], POPTITEM, OPTITEM structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	OPTITEM
 product: Windows
 targetos: Windows
-req.typenames: OPTITEM, *POPTITEM
+req.typenames: "*POPTITEM, OPTITEM"
 ---
 
 # _OPTITEM structure
@@ -171,6 +171,99 @@ Optional bit flags that modify the option's characteristics. The OPTIF_CHANGEONC
 
 
 
+
+
+#### OPTIF_CALLBACK
+
+When a user modifies the option, CPSUI should call the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function specified in the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
+
+
+#### OPTIF_CHANGED
+
+The <b>_CPSUICALLBACK</b>-typed callback function should set this flag if it modified the option, so that CPSUI will redisplay it.
+
+
+#### OPTIF_CHANGEONCE
+
+CPSUI sets this bit if a user modified the option.
+
+
+#### OPTIF_COLLAPSE
+
+Collapse this option and its children so that it is not expanded in the treeview.
+
+
+#### OPTIF_DISABLED
+
+Disables the option so that it is not user-modifiable.
+
+
+#### OPTIF_ECB_CHECKED
+
+The associated extended check box is in the checked state.
+
+
+#### OPTIF_EXT_IS_EXTPUSH
+
+If set, the <b>pExtPush</b> member is valid (unless <b>NULL</b>).
+
+If not set, the <b>pExtChkBox</b> member is valid (unless <b>NULL</b>).
+
+
+#### OPTIF_EXT_DISABLED
+
+The extended check box or extended push button is not selectable.
+
+
+#### OPTIF_EXT_HIDE
+
+CPSUI will not display the extended check box or extended push button.
+
+
+#### OPTIF_HAS_POIEXT
+
+If set, the <b>pOIExt</b> member is valid.
+
+
+#### OPTIF_HIDE
+
+CPSUI will not display this option in the treeview. CPSUI examines this flag only when initially creating the treeview, so changing the flag from its initial value has no effect.
+
+
+#### OPTIF_INITIAL_TVITEM
+
+If set, CPSUI sets the initial window focus to this option when it displays the treeview. CPSUI expands tree nodes and scrolls the option into view as necessary. If the option is hidden, or if this flag is not set for any OPTITEM structure, CPSUI chooses the initial focus.
+
+
+#### OPTIF_NO_GROUPBOX_NAME
+
+If not set, and <b>pOptype</b> is not zero, CPSUI uses the <b>pName</b> string as the groupbox title.
+
+If set, CPSUI provides a groupbox title.
+
+
+#### OPTIF_OVERLAY_NO_ICON
+
+If set CPSUI overlays its IDI_CPSUI_NO icon onto the icon associated with the option. (See the <b>Sel/pSel</b> member.)
+
+
+#### OPTIF_OVERLAY_STOP_ICON
+
+If set, CPSUI overlays its IDI_CPSUI_STOP icon onto the icon associated with the option. (See the <b>Sel/pSel</b> member.)
+
+
+#### OPTIF_OVERLAY_WARNING_ICON
+
+If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon associated with the option. (See the <b>Sel/pSel</b> member.)
+
+
+#### OPTIF_SEL_AS_HICON
+
+If set, the <b>Sel</b> member contains an icon handle.
+
+If not set, the <b>Sel</b> member contains an icon resource identifier.
+
+This flag can only be used when <b>pOptType</b> contains <b>NULL</b>.
 
 
 ### -field UserData
@@ -496,19 +589,11 @@ Pointer to an optional <a href="..\compstui\ns-compstui-_oiext.md">OIEXT</a> str
 Reserved, must be initialized to zero.
 
 
-##### - Flags.OPTIF_EXT_HIDE
+#### - Sel
 
-CPSUI will not display the extended check box or extended push button.
+This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
 
-
-##### - Flags.OPTIF_CHANGEONCE
-
-CPSUI sets this bit if a user modified the option.
-
-
-##### - Flags.OPTIF_EXT_DISABLED
-
-The extended check box or extended push button is not selectable.
+If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
 
 
 #### - pSel
@@ -518,70 +603,9 @@ This union indicates the option's currently selected parameter value. Its usage 
 If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
 
 
-##### - Flags.OPTIF_OVERLAY_WARNING_ICON
+#### - pExtChkBox
 
-If set, CPSUI overlays its IDI_CPSUI_WARNING icon onto the icon associated with the option. (See the <b>Sel/pSel</b> member.)
-
-
-##### - Flags.OPTIF_CALLBACK
-
-When a user modifies the option, CPSUI should call the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function specified in the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
-
-
-##### - Flags.OPTIF_CHANGED
-
-The <b>_CPSUICALLBACK</b>-typed callback function should set this flag if it modified the option, so that CPSUI will redisplay it.
-
-
-##### - Flags.OPTIF_EXT_IS_EXTPUSH
-
-If set, the <b>pExtPush</b> member is valid (unless <b>NULL</b>).
-
-If not set, the <b>pExtChkBox</b> member is valid (unless <b>NULL</b>).
-
-
-#### - Sel
-
-This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
-
-If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
-
-
-##### - Flags.OPTIF_HAS_POIEXT
-
-If set, the <b>pOIExt</b> member is valid.
-
-
-##### - Flags.OPTIF_HIDE
-
-CPSUI will not display this option in the treeview. CPSUI examines this flag only when initially creating the treeview, so changing the flag from its initial value has no effect.
-
-
-##### - Flags.OPTIF_NO_GROUPBOX_NAME
-
-If not set, and <b>pOptype</b> is not zero, CPSUI uses the <b>pName</b> string as the groupbox title.
-
-If set, CPSUI provides a groupbox title.
-
-
-##### - Flags.OPTIF_OVERLAY_NO_ICON
-
-If set CPSUI overlays its IDI_CPSUI_NO icon onto the icon associated with the option. (See the <b>Sel/pSel</b> member.)
-
-
-##### - Flags.OPTIF_DISABLED
-
-Disables the option so that it is not user-modifiable.
-
-
-##### - Flags.OPTIF_COLLAPSE
-
-Collapse this option and its children so that it is not expanded in the treeview.
-
-
-##### - Flags.OPTIF_INITIAL_TVITEM
-
-If set, CPSUI sets the initial window focus to this option when it displays the treeview. CPSUI expands tree nodes and scrolls the option into view as necessary. If the option is hidden, or if this flag is not set for any OPTITEM structure, CPSUI chooses the initial focus.
+Pointer to EXTCHKBOX structure
 
 
 #### - pExtPush
@@ -589,30 +613,6 @@ If set, CPSUI sets the initial window focus to this option when it displays the 
 This union can be a pointer to an <a href="..\compstui\ns-compstui-_extchkbox.md">EXTCHKBOX</a> structure, a pointer to an <a href="..\compstui\ns-compstui-_extpush.md">EXTPUSH</a> structure, or <b>NULL</b>.
 
 An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not <b>NULL</b>, and if OPTIF_EXT_IS_EXTPUSH is set in <b>Flags</b>, <b>pExtPush</b> is valid. If the flag is not set, <b>pExtChkBox</b> is valid.
-
-
-##### - Flags.OPTIF_OVERLAY_STOP_ICON
-
-If set, CPSUI overlays its IDI_CPSUI_STOP icon onto the icon associated with the option. (See the <b>Sel/pSel</b> member.)
-
-
-##### - Flags.OPTIF_SEL_AS_HICON
-
-If set, the <b>Sel</b> member contains an icon handle.
-
-If not set, the <b>Sel</b> member contains an icon resource identifier.
-
-This flag can only be used when <b>pOptType</b> contains <b>NULL</b>.
-
-
-##### - Flags.OPTIF_ECB_CHECKED
-
-The associated extended check box is in the checked state.
-
-
-#### - pExtChkBox
-
-Pointer to EXTCHKBOX structure
 
 
 ## -remarks

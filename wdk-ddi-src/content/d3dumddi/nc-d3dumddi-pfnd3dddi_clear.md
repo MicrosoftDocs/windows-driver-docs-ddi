@@ -136,11 +136,11 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> &gt; 0) and D
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_clear.md">D3DDDIARG_CLEAR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_clear.md">D3DDDIARG_CLEAR</a>
 
  
 

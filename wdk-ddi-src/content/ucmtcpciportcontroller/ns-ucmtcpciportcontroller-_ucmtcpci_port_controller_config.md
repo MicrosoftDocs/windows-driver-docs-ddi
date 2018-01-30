@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_CONFIG
-title: _UCMTCPCI_PORT_CONTROLLER_CONFIG
+title: "_UCMTCPCI_PORT_CONTROLLER_CONFIG"
 author: windows-driver-content
 description: Contains configuration options for the port controller object, passed by the client driver in the call to UcmTcpciPortControllerCreate. Call UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT to initialize this structure.
 old-location: buses\ucmtcpci_port_controller_config.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a9027cda-0851-46e2-9006-0d757109fc3a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], buses.ucmtcpci_port_controller_config, UCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], PUCMTCPCI_PORT_CONTROLLER_CONFIG, _UCMTCPCI_PORT_CONTROLLER_CONFIG, *PUCMTCPCI_PORT_CONTROLLER_CONFIG
+ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], buses.ucmtcpci_port_controller_config, UCMTCPCI_PORT_CONTROLLER_CONFIG, _UCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtcpciportcontroller.h
-apiname: 
+apiname:
 -	UCMTCPCI_PORT_CONTROLLER_CONFIG
 product: Windows
 targetos: Windows

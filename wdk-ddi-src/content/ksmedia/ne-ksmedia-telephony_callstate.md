@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8191418A-7139-4BF4-9869-F21AA54EA8B3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/TELEPHONY_CALLSTATE_ENABLED, ksmedia/TELEPHONY_CALLSTATE, TELEPHONY_CALLSTATE, ksmedia/TELEPHONY_CALLSTATE_DISABLED, TELEPHONY_CALLSTATE_HOLD, ksmedia/TELEPHONY_CALLSTATE_HOLD, TELEPHONY_CALLSTATE_PROVIDERTRANSITION, ksmedia/TELEPHONY_CALLSTATE_PROVIDERTRANSITION, audio.telephony_callstate, TELEPHONY_CALLSTATE_DISABLED, TELEPHONY_CALLSTATE_ENABLED, TELEPHONY_CALLSTATE enumeration [Audio Devices]
+ms.keywords: TELEPHONY_CALLSTATE, ksmedia/TELEPHONY_CALLSTATE, TELEPHONY_CALLSTATE_ENABLED, TELEPHONY_CALLSTATE enumeration [Audio Devices], TELEPHONY_CALLSTATE_PROVIDERTRANSITION, ksmedia/TELEPHONY_CALLSTATE_DISABLED, ksmedia/TELEPHONY_CALLSTATE_PROVIDERTRANSITION, TELEPHONY_CALLSTATE_HOLD, audio.telephony_callstate, ksmedia/TELEPHONY_CALLSTATE_HOLD, TELEPHONY_CALLSTATE_DISABLED, ksmedia/TELEPHONY_CALLSTATE_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetThreadForOperation function [Windows Debugging], SetThreadForOperation, WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, wdbgexts/SetThreadForOperation, debugger.setthreadforoperation
+ms.keywords: debugger.setthreadforoperation, wdbgexts/SetThreadForOperation, SetThreadForOperation, WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, SetThreadForOperation function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # SetThreadForOperation function

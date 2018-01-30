@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc7baff1-7e74-4666-805b-33b524c89c1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_createpixelshader, _D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER, d3dumddi/D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml
+ms.keywords: d3dumddi/D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], _D3DDDIARG_CREATEPIXELSHADER, display.d3dddiarg_createpixelshader, UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml, D3DDDIARG_CREATEPIXELSHADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_OBJECT
-title: _FILE_OBJECT
+title: "_FILE_OBJECT"
 author: windows-driver-content
 description: The Common Log File System (CLFS) uses the LOG_FILE_OBJECT structure to represent logs.
 old-location: kernel\log_file_object.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6eefdbbb-59de-4cc8-a309-8353a05cba41
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], FILE_OBJECT, kstruct_c_4e9e4766-1e68-4972-92c4-3d13cdbc4cb2.xml, kernel.log_file_object, wdm/LOG_FILE_OBJECT, _FILE_OBJECT, *PFILE_OBJECT, *PLOG_FILE_OBJECT, LOG_FILE_OBJECT
+ms.keywords: LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], wdm/LOG_FILE_OBJECT, kstruct_c_4e9e4766-1e68-4972-92c4-3d13cdbc4cb2.xml, *PFILE_OBJECT, *PLOG_FILE_OBJECT, _FILE_OBJECT, LOG_FILE_OBJECT, FILE_OBJECT, kernel.log_file_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	LOG_FILE_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: FILE_OBJECT, *PFILE_OBJECT
+req.typenames: "*PFILE_OBJECT, FILE_OBJECT"
 req.product: Windows 10 or later.
 ---
 

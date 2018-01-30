@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B96B17E1-911F-442F-811F-294AB14D7058
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8ToUIntPtr, kernel.rtlint8touintptr, RtlInt8ToUIntPtr, RtlInt8ToUIntPtr function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlInt8ToUIntPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8ToUIntPtr, RtlInt8ToUIntPtr, kernel.rtlint8touintptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlInt8ToUIntPtr
 product: Windows
 targetos: Windows

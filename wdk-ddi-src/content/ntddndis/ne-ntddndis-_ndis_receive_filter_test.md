@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_FILTER_TEST
-title: _NDIS_RECEIVE_FILTER_TEST
+title: "_NDIS_RECEIVE_FILTER_TEST"
 author: windows-driver-content
 description: The NDIS_RECEIVE_FILTER_TEST enumeration identifies the type of test that the receive filter performs.
 old-location: netvista\ndis_receive_filter_test.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 064d8335-3ebf-4bc2-901e-10ce46bf7732
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestUndefined, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_TEST, netvista.ndis_receive_filter_test, *PNDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestEqual, ntddndis/NDIS_RECEIVE_FILTER_TEST, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestMaximum, ntddndis/PNDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestNotEqual, NdisReceiveFilterTestMaximum, NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestEqual, ntddndis/NdisReceiveFilterTestUndefined
+ms.keywords: ntddndis/NdisReceiveFilterTestMaskEqual, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, ntddndis/NdisReceiveFilterTestMaximum, NdisReceiveFilterTestNotEqual, NdisReceiveFilterTestUndefined, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_test, NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestUndefined, ntddndis/NdisReceiveFilterTestEqual, ntddndis/PNDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestEqual, PNDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, *PNDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestNotEqual, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestMaximum, ntddndis/NDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_FILTER_TEST
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST
+req.typenames: "*PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST"
 ---
 
 # _NDIS_RECEIVE_FILTER_TEST enumeration

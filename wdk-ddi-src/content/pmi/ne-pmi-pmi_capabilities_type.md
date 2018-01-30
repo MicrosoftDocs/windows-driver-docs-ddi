@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 6857f85b-c79a-4e80-a63f-1414aff61d1f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PMI_CAPABILITIES_TYPE, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, pmi/PmiCapabilitiesMax, powermeter.pmi_capabilities_type, PmiReportedCapabilities, PmiMeteredHardware, pmi/PmiReportedCapabilities, PmiCapabilitiesMax, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeteredHardware, PMI_CAPABILITIES_TYPE
+ms.keywords: PmiReportedCapabilities, pmi/PmiMeteredHardware, pmi/PMI_CAPABILITIES_TYPE, PmiCapabilitiesMax, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, PmiMeteredHardware, pmi/PmiReportedCapabilities, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], PMI_CAPABILITIES_TYPE, powermeter.pmi_capabilities_type, pmi/PmiCapabilitiesMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_CAPABILITIES_TYPE
 product: Windows
 targetos: Windows

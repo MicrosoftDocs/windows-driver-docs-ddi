@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatisticsHeader
-title: _PosStatisticsHeader
+title: "_PosStatisticsHeader"
 author: windows-driver-content
 description: This structure defines Unified Point of Service (UPOS) standard information about a device. This structure is the header for an incoming statistic.
 old-location: pos\posstatisticsheader.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosStatisticsHeader, PosStatisticsHeader, pos.posstatisticsheader, PosStatisticsHeader structure, _PosStatisticsHeader
+ms.keywords: PosStatisticsHeader, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, PosStatisticsHeader structure, pos.posstatisticsheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosStatisticsHeader
 product: Windows
 targetos: Windows

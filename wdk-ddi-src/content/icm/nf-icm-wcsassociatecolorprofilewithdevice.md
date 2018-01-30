@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WcsAssociateColorProfileWithDevice function [Print Devices], icm/WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice, print.wcsassociatecolorprofilewithdevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml
+ms.keywords: icm/WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice function [Print Devices], colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, print.wcsassociatecolorprofilewithdevice, WcsAssociateColorProfileWithDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	WcsAssociateColorProfileWithDevice
 product: Windows
 targetos: Windows

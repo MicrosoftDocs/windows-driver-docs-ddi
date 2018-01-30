@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45bc4d3f-d573-4a11-8d25-160cb8f233f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, _D3DDDIARG_CREATECRYPTOSESSION, UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices]
+ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, _D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession, UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], d3dumddi/D3DDDIARG_CREATECRYPTOSESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

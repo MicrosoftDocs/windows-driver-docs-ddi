@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24f77f16-e043-4d58-87ef-6c834e61cb5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlags, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlag_ColorData_Changed, DXVA_SampleFlagsMask, display.dxva_sampleflags, _DXVA_SampleFlags, dxva/DXVA_SampleFlag_Palette_Changed, dxva/DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlagsMask, DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_SrcRect_Changed, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, dxva/DXVA_SampleFlags
+ms.keywords: dxva/DXVA_SampleFlag_Palette_Changed, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlagsMask, dxva/DXVA_SampleFlagsMask, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, _DXVA_SampleFlags, dxva/DXVA_SampleFlags, DXVA_SampleFlags, display.dxva_sampleflags, dxva/DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlag_ColorData_Changed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,11 +98,11 @@ Indicates that the color data of the sample frame changed.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
+
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
 <a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
 
  
 

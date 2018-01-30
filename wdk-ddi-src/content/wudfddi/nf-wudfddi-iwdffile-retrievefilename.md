@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFFile::RetrieveFileName, RetrieveFileName method, IWDFFile interface, wdf.iwdffile_retrievefilename, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, RetrieveFileName, umdf.iwdffile_retrievefilename, IWDFFile, IWDFFile::RetrieveFileName, IWDFFile interface, RetrieveFileName method, RetrieveFileName method
+ms.keywords: wudfddi/IWDFFile::RetrieveFileName, umdf.iwdffile_retrievefilename, RetrieveFileName, IWDFFile, IWDFFile::RetrieveFileName, RetrieveFileName method, IWDFFile interface, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, IWDFFile interface, RetrieveFileName method, RetrieveFileName method, wdf.iwdffile_retrievefilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFFile.RetrieveFileName
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

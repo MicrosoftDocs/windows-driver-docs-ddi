@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.semarklogonsessionforterminationnotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, SeMarkLogonSessionForTerminationNotification
+ms.keywords: SeMarkLogonSessionForTerminationNotification, ifsk.semarklogonsessionforterminationnotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeMarkLogonSessionForTerminationNotification
 product: Windows
 targetos: Windows

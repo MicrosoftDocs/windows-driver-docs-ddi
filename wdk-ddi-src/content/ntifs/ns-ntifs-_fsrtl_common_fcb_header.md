@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_COMMON_FCB_HEADER
-title: _FSRTL_COMMON_FCB_HEADER
+title: "_FSRTL_COMMON_FCB_HEADER"
 author: windows-driver-content
 description: Do not use the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtl_common_fcb_header.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b0b199ea-d72f-4de3-a6b1-bd22140d13cb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FSRTL_COMMON_FCB_HEADER, contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers], PFSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER, _FSRTL_COMMON_FCB_HEADER, ntifs/PFSRTL_COMMON_FCB_HEADER, *PFSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], ifsk.fsrtl_common_fcb_header
+ms.keywords: FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers], FSRTL_COMMON_FCB_HEADER, *PFSRTL_COMMON_FCB_HEADER, contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, ifsk.fsrtl_common_fcb_header, ntifs/PFSRTL_COMMON_FCB_HEADER, _FSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], ntifs/FSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FSRTL_COMMON_FCB_HEADER
 product: Windows
 targetos: Windows
@@ -95,6 +95,46 @@ Bitmask of flags that indicate support for various features. This member must be
 
 
 
+#### FSRTL_FLAG_FILE_MODIFIED
+
+Reserved for system use. 
+
+
+#### FSRTL_FLAG_FILE_LENGTH_CHANGED
+
+Reserved for system use. 
+
+
+#### FSRTL_FLAG_LIMIT_MODIFIED_PAGES
+
+Reserved for system use.  File system drivers (except for filter drivers) that must set or clear a limit of modified data for a file should call <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>.
+
+
+#### FSRTL_FLAG_ACQUIRE_MAIN_RSRC_EX
+
+Reserved for system use. 
+
+
+#### FSRTL_FLAG_ACQUIRE_MAIN_RSRC_SH
+
+Reserved for system use. 
+
+
+#### FSRTL_FLAG_USER_MAPPED_FILE
+
+The Cache Manager sets this flag to indicate that a view is mapped to a file. 
+
+
+#### FSRTL_FLAG_ADVANCED_HEADER
+
+This flag indicates that the file system is using <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its file control block (FCB) structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
+
+
+#### FSRTL_FLAG_EOF_ADVANCE_ACTIVE
+
+Reserved for system use. 
+
+
 ### -field IsFastIoPossible
 
 This member must be one of the following values: 
@@ -145,6 +185,30 @@ Bitmask of flags that the file system sets to indicate support for various featu
 
 
 
+#### FSRTL_FLAG2_DO_MODIFIED_WRITE
+
+This flag is used together with the <b>FsContext2</b> member of the file object for the file stream as follows: 
+<ul>
+<li>If the <b>FsContext2</b> member of the file object is non-<b>NULL</b>, the file stream represents an open instance of a file or a directory, and the value of this flag is ignored by the operating system.</li>
+<li>If the <b>FsContext2</b> member of the file object is <b>NULL</b>, and this flag is not set, the file object is a stream file object, and the stream is a modified-no-write (MNW) stream.</li>
+<li>If the <b>FsContext2</b> member of the file object is <b>NULL</b>, and this flag is set, the file object is a stream file object, and the stream is writable.</li>
+</ul>
+
+#### FSRTL_FLAG2_PURGE_WHEN_MAPPED
+
+If this flag is set, the Cache Manager will flush and purge the cache map when a user first maps a file. 
+
+
+#### FSRTL_FLAG2_SUPPORTS_FILTER_CONTEXTS
+
+This flag indicates that the file system is using <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its FCB structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
+
+
+#### FSRTL_FLAG2_IS_PAGING_FILE
+
+If set, this FCB header is associated with a page file.
+
+
 ### -field Reserved
 
 Reserved for system use. Drivers must set this bit-field to zero. 
@@ -186,70 +250,6 @@ File size of the file stream.
 Valid data length of the file stream. 
 
 
-##### - Flags.FSRTL_FLAG_FILE_MODIFIED
-
-Reserved for system use. 
-
-
-##### - Flags2.FSRTL_FLAG2_DO_MODIFIED_WRITE
-
-This flag is used together with the <b>FsContext2</b> member of the file object for the file stream as follows: 
-<ul>
-<li>If the <b>FsContext2</b> member of the file object is non-<b>NULL</b>, the file stream represents an open instance of a file or a directory, and the value of this flag is ignored by the operating system.</li>
-<li>If the <b>FsContext2</b> member of the file object is <b>NULL</b>, and this flag is not set, the file object is a stream file object, and the stream is a modified-no-write (MNW) stream.</li>
-<li>If the <b>FsContext2</b> member of the file object is <b>NULL</b>, and this flag is set, the file object is a stream file object, and the stream is writable.</li>
-</ul>
-
-##### - Flags2.FSRTL_FLAG2_PURGE_WHEN_MAPPED
-
-If this flag is set, the Cache Manager will flush and purge the cache map when a user first maps a file. 
-
-
-##### - Flags2.FSRTL_FLAG2_IS_PAGING_FILE
-
-If set, this FCB header is associated with a page file.
-
-
-##### - Flags.FSRTL_FLAG_ACQUIRE_MAIN_RSRC_EX
-
-Reserved for system use. 
-
-
-##### - Flags2.FSRTL_FLAG2_SUPPORTS_FILTER_CONTEXTS
-
-This flag indicates that the file system is using <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its FCB structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
-
-
-##### - Flags.FSRTL_FLAG_EOF_ADVANCE_ACTIVE
-
-Reserved for system use. 
-
-
-##### - Flags.FSRTL_FLAG_FILE_LENGTH_CHANGED
-
-Reserved for system use. 
-
-
-##### - Flags.FSRTL_FLAG_USER_MAPPED_FILE
-
-The Cache Manager sets this flag to indicate that a view is mapped to a file. 
-
-
-##### - Flags.FSRTL_FLAG_ADVANCED_HEADER
-
-This flag indicates that the file system is using <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its file control block (FCB) structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
-
-
-##### - Flags.FSRTL_FLAG_ACQUIRE_MAIN_RSRC_SH
-
-Reserved for system use. 
-
-
-##### - Flags.FSRTL_FLAG_LIMIT_MODIFIED_PAGES
-
-Reserved for system use.  File system drivers (except for filter drivers) that must set or clear a limit of modified data for a file should call <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>.
-
-
 ## -remarks
 
 
@@ -260,19 +260,19 @@ File systems must set the <b>FsContext</b> member of every file object to point 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlaretherecurrentfilelocks.md">FsRtlAreThereCurrentFileLocks</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlaretherecurrentfilelocks.md">FsRtlAreThereCurrentFileLocks</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
  
 

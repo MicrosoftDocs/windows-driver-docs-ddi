@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E4626CF9-5E76-4C48-9B38-274178E41E30
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsIsDiskCountersEnabled routine [Installable File System Drivers], ntifs/PsIsDiskCountersEnabled, ifsk.psisdiskcountersenabled, PsIsDiskCountersEnabled
+ms.keywords: PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ntifs/PsIsDiskCountersEnabled, ifsk.psisdiskcountersenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsIsDiskCountersEnabled
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5ab82378-ff12-46cc-814b-dc533db15a37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauPropInPropSpec function [Imaging Devices], image.wiaupropinpropspec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiautil/wiauPropInPropSpec, wiauPropInPropSpec
+ms.keywords: wiautil/wiauPropInPropSpec, image.wiaupropinpropspec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiauPropInPropSpec function [Imaging Devices], wiauPropInPropSpec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauPropInPropSpec
 product: Windows
 targetos: Windows

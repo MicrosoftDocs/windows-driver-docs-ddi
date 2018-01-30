@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
-title: _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+title: "_NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS"
 author: windows-driver-content
 description: The NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure specifies an offload target's TCP chimney offload-specific entry points.
 old-location: netvista\ndis_provider_chimney_offload_tcp_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3eabbad5-b84b-4034-a0b6-d4d515cbc117
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_provider_chimney_offload_tcp_characteristics, ndischimney/PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, tcp_chim_struct_f701c1a0-6057-4cf3-ae27-6e72352b4829.xml, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndischimney/NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, tcp_chim_struct_f701c1a0-6057-4cf3-ae27-6e72352b4829.xml, ndischimney/NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, netvista.ndis_provider_chimney_offload_tcp_characteristics, ndischimney/PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+req.typenames: "*PNDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS, NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS"
 ---
 
 # _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure
@@ -148,21 +148,21 @@ To register its TCP chimney offload-specific entry points, an offload target cal
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 <mshelp:link keywords="netvista.miniporttcpoffloadreceivereturn" tabindex="0"><i>
    MiniportTcpOffloadReceiveReturn</i></mshelp:link>
 
+<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
+   MiniportTcpOffloadDisconnect</i></mshelp:link>
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-   MiniportTcpOffloadDisconnect</i></mshelp:link>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

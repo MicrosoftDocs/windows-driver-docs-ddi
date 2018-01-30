@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0fa761c-8e28-4067-ae9e-d39e2853fb05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILNETWORKCODE, RILNETWORKCODE, *LPRILNETWORKCODE, netvista.rilnetworkcode, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode, RILNETWORKCODE, *LPRILNETWORKCODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILNETWORKCODE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILNETWORKCODE, RILNETWORKCODE
+req.typenames: RILNETWORKCODE, *LPRILNETWORKCODE
 req.product: Windows 10 or later.
 ---
 

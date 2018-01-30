@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_STANDARD_INFORMATION_EX
-title: _FILE_STANDARD_INFORMATION_EX
+title: "_FILE_STANDARD_INFORMATION_EX"
 author: windows-driver-content
 description: The FILE_STANDARD_INFORMATION_EX structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_standard_information_ex.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION_EX, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], *PFILE_STANDARD_INFORMATION_EX
+ms.keywords: FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	FILE_STANDARD_INFORMATION_EX
 product: Windows
 targetos: Windows
@@ -118,11 +118,11 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

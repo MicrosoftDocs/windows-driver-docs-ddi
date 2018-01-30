@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrintDocumentOnPrintProcessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor
+ms.keywords: PrintDocumentOnPrintProcessor function [Print Devices], PrintDocumentOnPrintProcessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, print.printdocumentonprintprocessor, winsplp/PrintDocumentOnPrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Nwprint.lib
 -	Nwprint.dll
-apiname: 
+apiname:
 -	PrintDocumentOnPrintProcessor
 product: Windows
 targetos: Windows
@@ -102,9 +102,9 @@ The <code>PrintDocumentOnPrintProcessor</code> function must be written to handl
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
-
 <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
+
+<a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
 
  
 

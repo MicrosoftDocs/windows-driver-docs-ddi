@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
-title: _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+title: "_NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure specifies the parameters for a write operation on the configuration block of a network adapter's PCI Express (PCIe) Virtual Function (VF).
 old-location: netvista\ndis_sriov_write_vf_config_block_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bcf20a21-46a8-41e6-ae6e-bef8d6735c82
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_sriov_write_vf_config_block_parameters, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+ms.keywords: NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_write_vf_config_block_parameters, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+req.typenames: "*PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
 ---
 
 # _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure
@@ -80,6 +80,13 @@ The driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_
 
 
 
+#### NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1.
+
+
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
@@ -103,13 +110,6 @@ A ULONG value that specifies the length, in units of bytes, of the write operati
 ### -field BufferOffset
 
 A ULONG value that specifies the offset, in units of bytes, from the beginning of this structure to a buffer that contains the data to be written to the specified VF configuration block.
-
-
-##### - Header.NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1.
 
 
 ## -remarks
@@ -137,9 +137,9 @@ This operating system runs within the Hyper-V parent partition.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451918">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451918">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
 
 <b></b>
 

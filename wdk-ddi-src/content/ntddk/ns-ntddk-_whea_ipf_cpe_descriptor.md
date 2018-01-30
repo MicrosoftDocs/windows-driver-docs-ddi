@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_IPF_CPE_DESCRIPTOR
-title: _WHEA_IPF_CPE_DESCRIPTOR
+title: "_WHEA_IPF_CPE_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_IPF_CPE_DESCRIPTOR structure describes a corrected platform error (CPE) error source for an Itanium processor.
 old-location: whea\whea_ipf_cpe_descriptor.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: ffe1c550-a7cc-4d27-9a1e-287fdc7e08eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR, whea.whea_ipf_cpe_descriptor, ntddk/PWHEA_IPF_CPE_DESCRIPTOR, _WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR, whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/WHEA_IPF_CPE_DESCRIPTOR
+ms.keywords: WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR, _WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR, whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml, WHEA_IPF_CPE_DESCRIPTOR, ntddk/WHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whea.whea_ipf_cpe_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_IPF_CPE_DESCRIPTOR
 product: Windows
 targetos: Windows

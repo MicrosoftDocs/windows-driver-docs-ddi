@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0ab2d417-56d8-4047-846d-6ae4cbaa8409
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.exdisableresourceboostlite, ExDisableResourceBoostLite function [Installable File System Drivers], exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ExDisableResourceBoostLite, ntifs/ExDisableResourceBoostLite
+ms.keywords: ExDisableResourceBoostLite, ifsk.exdisableresourceboostlite, exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ExDisableResourceBoostLite function [Installable File System Drivers], ntifs/ExDisableResourceBoostLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	ExDisableResourceBoostLite
 product: Windows
 targetos: Windows

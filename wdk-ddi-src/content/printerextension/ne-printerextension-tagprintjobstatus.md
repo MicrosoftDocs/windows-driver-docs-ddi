@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PrintJobStatus_Deleting, PrintJobStatus, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Complete, PrintJobStatus_Error, tagPrintJobStatus, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus, printerextension/PrintJobStatus_Printed, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_UserIntervention, PrintJobStatus_Printed, PrintJobStatus_Retained, PrintJobStatus_Spooling, PrintJobStatus_Deleted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Deleting, PrintJobStatus_Offline, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Offline, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_PaperOut, print.printjobstatus, PrintJobStatus_Paused, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_Restarted, PrintJobStatus_Restarted, printerextension/PrintJobStatus_Deleted, PrintJobStatus_Complete, PrintJobStatus_Printing
+ms.keywords: PrintJobStatus_Retained, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Deleted, PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Spooling, PrintJobStatus, printerextension/PrintJobStatus, PrintJobStatus_Spooling, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Deleted, printerextension/PrintJobStatus_Printed, printerextension/PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Complete, tagPrintJobStatus, PrintJobStatus_Printed, printerextension/PrintJobStatus_Deleting, PrintJobStatus_Offline, PrintJobStatus_Complete, PrintJobStatus_Error, PrintJobStatus enumeration [Print Devices], print.printjobstatus, PrintJobStatus_Printing, printerextension/PrintJobStatus_PaperOut, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Restarted, PrintJobStatus_Deleting, PrintJobStatus_Paused, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Offline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	PrintJobStatus
 product: Windows
 targetos: Windows

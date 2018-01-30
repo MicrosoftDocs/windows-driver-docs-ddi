@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/ USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], USBD_BuildRegisterCompositeDevice, buses.usbd_buildregistercompositedriver
+ms.keywords: buses.usbd_buildregistercompositedriver, USBD_BuildRegisterCompositeDevice routine [Buses], USBD_BuildRegisterCompositeDevice, usbdlib/ USBD_BuildRegisterCompositeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Usbdex.lib
 req.dll: 
-req.irql: < = DISPATCH_LEVEL
-topictype: 
+req.irql: "< = DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname: 
+apiname:
 -	USBD_BuildRegisterCompositeDevice
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d94e3b80-b151-4b3a-a37d-bfba2850b28f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_managecalls, RIL_ManageCalls, rilapi/RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_managecalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista], RIL_ManageCalls, rilapi/RIL_ManageCalls
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_ManageCalls
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

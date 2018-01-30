@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6e89030-835e-4f7f-8bec-6cd19f598f9d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, RIL_PARAM_CLPL_ALL, netvista.rilcapslockingpwdlengthparammask, RILCAPSLOCKINGPWDLENGTHPARAMMASK, RIL_PARAM_CLPL_PASSWORDLENGTH, ntddrilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CLPL_ALL
+ms.keywords: ntddrilapitypes/RIL_PARAM_CLPL_ALL, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilcapslockingpwdlengthparammask, RIL_PARAM_CLPL_PASSWORDLENGTH, ntddrilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH, RIL_PARAM_CLPL_ALL, RILCAPSLOCKINGPWDLENGTHPARAMMASK, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCAPSLOCKINGPWDLENGTHPARAMMASK
 product: Windows
 targetos: Windows

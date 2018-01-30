@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
-title: _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+title: "_NDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure specifies an array. Each element in the array specifies the attributes of a virtual port (VPort) that has been created on a network adapter's network adapter switch.
 old-location: netvista\ndis_nic_switch_vport_info_array.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64bb0edf-b281-40cc-b36e-6ae1fb71ccb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_vport_info_array, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ms.keywords: NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, netvista.ndis_nic_switch_vport_info_array, *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 product: Windows
 targetos: Windows
@@ -82,12 +82,29 @@ NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. T
 
 
 
+#### NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1.
+
+
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of the following flags: 
 
 
 <div class="alert"><b>Note</b>  These flags are mutually exclusive. Only one flag can be set in the <b>Flags</b> member.</div><div> </div>
+
+#### NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION
+
+This flag specifies to enumerate the VPorts attached to a specific PCI Express (PCIe) function. The function is specified in the <b>AttachedFunctionId</b> member. This flag can be used to enumerate the VPorts attached to the PCIe Physical Function (PF) or a specified PCIe Virtual Function (VF).
+
+
+#### NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_SWITCH
+
+This flag specifies to enumerate the VPorts created on a specific switch, specified by the SwitchId. This enumerates all the VPorts created on the switch.
+
 
 ### -field SwitchId
 
@@ -121,23 +138,6 @@ A ULONG value that specifies the number of elements that follow the <b>NDIS_NIC_
 A ULONG value that specifies the size, in bytes, of each element that follows the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure.
 
 
-##### - Flags.NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION
-
-This flag specifies to enumerate the VPorts attached to a specific PCI Express (PCIe) function. The function is specified in the <b>AttachedFunctionId</b> member. This flag can be used to enumerate the VPorts attached to the PCIe Physical Function (PF) or a specified PCIe Virtual Function (VF).
-
-
-##### - Flags.NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_SWITCH
-
-This flag specifies to enumerate the VPorts created on a specific switch, specified by the SwitchId. This enumerates all the VPorts created on the switch.
-
-
-##### - Header.NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1.
-
-
 ## -remarks
 
 
@@ -152,11 +152,11 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451821">OID_NIC_SWITCH_ENUM_VPORTS</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451821">OID_NIC_SWITCH_ENUM_VPORTS</a>
 
 <b></b>
 

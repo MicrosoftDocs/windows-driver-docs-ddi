@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_InitializeReportForID, HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hid.hidp_initializereportforid
+ms.keywords: hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hid.hidp_initializereportforid, hidpi/HidP_InitializeReportForID, HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,9 +190,9 @@ Sets the bitfield of all controls with null values to their corresponding null v
 
 <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
  
 

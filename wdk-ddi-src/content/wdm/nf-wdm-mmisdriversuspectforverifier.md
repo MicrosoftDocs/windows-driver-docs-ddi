@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 049BDC6E-2FB2-421F-9229-320F2ED98663
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmIsDriverSuspectForVerifier, kernel.mmisdriversuspectforverifier, MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/MmIsDriverSuspectForVerifier, kernel.mmisdriversuspectforverifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], MmIsDriverSuspectForVerifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmIsDriverSuspectForVerifier
 product: Windows
 targetos: Windows
@@ -97,11 +97,11 @@ Another related routine, <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md"
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
 
 <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
 
-<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
  
 

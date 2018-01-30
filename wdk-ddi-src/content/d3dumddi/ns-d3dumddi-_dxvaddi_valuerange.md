@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3013da9-8db4-4346-9be8-77b2c6de3f59
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVADDI_VALUERANGE, display.dxvaddi_valuerange, DXVADDI_VALUERANGE, DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, DXVADDI_VALUERANGE structure [Display Devices], d3dumddi/DXVADDI_VALUERANGE"
+ms.keywords: DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, display.dxvaddi_valuerange, DXVADDI_VALUERANGE structure [Display Devices], _DXVADDI_VALUERANGE, d3dumddi/DXVADDI_VALUERANGE, DXVADDI_VALUERANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ typedef struct _DXVADDI_VALUERANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_queryprocampinput.md">DXVADDI_QUERYPROCAMPINPUT</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
@@ -100,7 +100,7 @@ typedef struct _DXVADDI_VALUERANGE {
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_queryprocampinput.md">DXVADDI_QUERYPROCAMPINPUT</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
  
 

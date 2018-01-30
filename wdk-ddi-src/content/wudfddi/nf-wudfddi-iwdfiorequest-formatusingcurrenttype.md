@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_formatusingcurrenttype, IWDFIoRequest, IWDFIoRequest interface, FormatUsingCurrentType method, FormatUsingCurrentType method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, FormatUsingCurrentType, IWDFIoRequest::FormatUsingCurrentType, FormatUsingCurrentType method, umdf.iwdfiorequest_formatusingcurrenttype
+ms.keywords: umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, IWDFIoRequest::FormatUsingCurrentType, wudfddi/IWDFIoRequest::FormatUsingCurrentType, FormatUsingCurrentType method, IWDFIoRequest interface, IWDFIoRequest, FormatUsingCurrentType, IWDFIoRequest interface, FormatUsingCurrentType method, FormatUsingCurrentType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.FormatUsingCurrentType
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

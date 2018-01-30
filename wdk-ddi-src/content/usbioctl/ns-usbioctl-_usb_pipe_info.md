@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PIPE_INFO
-title: _USB_PIPE_INFO
+title: "_USB_PIPE_INFO"
 author: windows-driver-content
 description: The USB_PIPE_INFO structure is used in conjunction with the USB_NODE_CONNECTION_INFORMATION_EX structure and the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request to obtain information about a connection and its associated pipes.
 old-location: buses\usb_pipe_info.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9da16cd4-bd5f-4713-83ce-4302f6807476
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_PIPE_INFO, PUSB_PIPE_INFO, *PUSB_PIPE_INFO, buses.usb_pipe_info, USB_PIPE_INFO structure [Buses], usbioctl/USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml, _USB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], usbioctl/PUSB_PIPE_INFO
+ms.keywords: USB_PIPE_INFO, _USB_PIPE_INFO, PUSB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml, USB_PIPE_INFO structure [Buses], PUSB_PIPE_INFO structure pointer [Buses], buses.usb_pipe_info, usbioctl/USB_PIPE_INFO, usbioctl/PUSB_PIPE_INFO, *PUSB_PIPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_PIPE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_PIPE_INFO, USB_PIPE_INFO
+req.typenames: USB_PIPE_INFO, *PUSB_PIPE_INFO
 req.product: Windows 10 or later.
 ---
 

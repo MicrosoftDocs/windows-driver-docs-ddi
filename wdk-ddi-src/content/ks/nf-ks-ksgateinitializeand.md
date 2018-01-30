@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac03889a-1e02-4852-8ed9-487674c6e0de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgateinitializeand, avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, KsGateInitializeAnd function [Streaming Media Devices], ks/KsGateInitializeAnd, KsGateInitializeAnd
+ms.keywords: stream.ksgateinitializeand, ks/KsGateInitializeAnd, KsGateInitializeAnd, KsGateInitializeAnd function [Streaming Media Devices], avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateInitializeAnd
 product: Windows
 targetos: Windows
@@ -96,15 +96,15 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
-
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxcontroller/UcxControllerResetComplete, buses._ucxcontrollerresetcomplete, UcxControllerResetComplete method [Buses], UcxControllerResetComplete
+ms.keywords: UcxControllerResetComplete, buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete, UcxControllerResetComplete method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UcxControllerResetComplete
 product: Windows
 targetos: Windows

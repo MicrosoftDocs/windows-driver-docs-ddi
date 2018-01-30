@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_WRITE_CACHE_PROPERTY
-title: _STORAGE_WRITE_CACHE_PROPERTY
+title: "_STORAGE_WRITE_CACHE_PROPERTY"
 author: windows-driver-content
 description: The STORAGE_WRITE_CACHE_PROPERTY structure is used with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve information about a device's write cache property.
 old-location: storage\storage_write_cache_property.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4abc44ab-1729-46c3-befd-5f917e10953c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, _STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, storage.storage_write_cache_property, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY
+ms.keywords: STORAGE_WRITE_CACHE_PROPERTY, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, _STORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], PSTORAGE_WRITE_CACHE_PROPERTY, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], storage.storage_write_cache_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_WRITE_CACHE_PROPERTY
 product: Windows
 targetos: Windows

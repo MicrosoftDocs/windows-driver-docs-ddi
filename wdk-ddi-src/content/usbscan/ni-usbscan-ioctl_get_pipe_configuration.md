@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbscan.h
-apiname: 
+apiname:
 -	IOCTL_GET_PIPE_CONFIGURATION
 product: Windows
 targetos: Windows

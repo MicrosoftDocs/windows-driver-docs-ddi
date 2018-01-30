@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetRNIDMgmtInfo_OUT
-title: _SM_GetRNIDMgmtInfo_OUT
+title: "_SM_GetRNIDMgmtInfo_OUT"
 author: windows-driver-content
 description: The SM_GetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_GetRNIDMgmtInfo method.
 old-location: storage\sm_getrnidmgmtinfo_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e12bd494-4d2a-44a9-95dc-0bc78fa73a97
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, SM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], *PSM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml
+ms.keywords: SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, *PSM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT, hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml, hbapiwmi/SM_GetRNIDMgmtInfo_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_GetRNIDMgmtInfo_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_GetRNIDMgmtInfo_OUT, *PSM_GetRNIDMgmtInfo_OUT
+req.typenames: "*PSM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT"
 ---
 
 # _SM_GetRNIDMgmtInfo_OUT structure

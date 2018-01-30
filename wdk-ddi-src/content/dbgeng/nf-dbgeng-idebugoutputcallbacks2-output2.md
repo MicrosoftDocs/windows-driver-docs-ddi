@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Output2 method [Windows Debugging], DEBUG_OUTCBI_DML, IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, dbgeng/IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_TEXT, debugger.idebugoutputcallbacks2_output2, DEBUG_OUTCBI_ANY_FORMAT, Output2
+ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, debugger.idebugoutputcallbacks2_output2, dbgeng/IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], DEBUG_OUTCBI_DML, Output2, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugOutputCallbacks2.Output2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugOutputCallbacks2::Output2 method

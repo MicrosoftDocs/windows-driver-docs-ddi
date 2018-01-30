@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ASYNC_LOCK
-title: _IRB_REQ_ASYNC_LOCK
+title: "_IRB_REQ_ASYNC_LOCK"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out an asychronous lock request.
 old-location: ieee\irb_req_async_lock.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 735C613E-BEAA-4E95-AF9D-A94A4BD940DE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK structure [Buses], IRB_REQ_ASYNC_LOCK, _IRB_REQ_ASYNC_LOCK, 1394/IRB_REQ_ASYNC_LOCK
+ms.keywords: IEEE.irb_req_async_lock, _IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], IRB_REQ_ASYNC_LOCK, 1394/IRB_REQ_ASYNC_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ASYNC_LOCK
 product: Windows
 targetos: Windows

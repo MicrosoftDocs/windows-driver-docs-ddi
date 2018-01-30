@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PLATFORM_IDLE_STATE_UPDATE
-title: _PEP_PLATFORM_IDLE_STATE_UPDATE
+title: "_PEP_PLATFORM_IDLE_STATE_UPDATE"
 author: windows-driver-content
 description: The PEP_PLATFORM_IDLE_STATE_UPDATE structure contains the updated properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state_update.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 488DA7B7-FB11-4AEF-902C-E461A281DF68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_platform_idle_state_update, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, _PEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE
+ms.keywords: PPEP_PLATFORM_IDLE_STATE_UPDATE, *PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], kernel.pep_platform_idle_state_update, pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, _PEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PLATFORM_IDLE_STATE_UPDATE
 product: Windows
 targetos: Windows

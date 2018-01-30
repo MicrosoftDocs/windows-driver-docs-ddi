@@ -40,6 +40,7 @@ apiname:
 -	IOCTL_ACPI_RELEASE_GLOBAL_LOCK
 product: Windows
 targetos: Windows
+req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
 ---
 
 # IOCTL_ACPI_RELEASE_GLOBAL_LOCK IOCTL

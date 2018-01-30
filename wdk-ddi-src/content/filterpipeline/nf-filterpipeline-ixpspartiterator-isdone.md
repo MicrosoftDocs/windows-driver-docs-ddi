@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 80877e8e-378f-4849-a8ce-b0651fdc2755
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IsDone method [Print Devices], IXpsPartIterator interface, IsDone, filterpipeline/IXpsPartIterator::IsDone, IXpsPartIterator, IXpsPartIterator::IsDone, filterpipeline_c3b7b22e-6a29-463a-a516-d7857413050e.xml, IXpsPartIterator interface [Print Devices], IsDone method, print.ixpspartiterator_isdone, IsDone method [Print Devices]
+ms.keywords: filterpipeline_c3b7b22e-6a29-463a-a516-d7857413050e.xml, IXpsPartIterator interface [Print Devices], IsDone method, print.ixpspartiterator_isdone, IXpsPartIterator, filterpipeline/IXpsPartIterator::IsDone, IsDone method [Print Devices], IsDone, IsDone method [Print Devices], IXpsPartIterator interface, IXpsPartIterator::IsDone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IXpsPartIterator.IsDone
 product: Windows
 targetos: Windows

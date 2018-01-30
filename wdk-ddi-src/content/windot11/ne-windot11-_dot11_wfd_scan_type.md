@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_WFD_SCAN_TYPE
-title: _DOT11_WFD_SCAN_TYPE
+title: "_DOT11_WFD_SCAN_TYPE"
 author: windows-driver-content
 description: The DOT11_WFD_SCAN_TYPE enumeration indicates the type of scan used during the scan phase of device discovery.
 old-location: netvista\dot11_wfd_scan_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E7F76E93-79B8-48AE-A1D1-E3215E2402F8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_passive, *PDOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, _DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_scan_type_auto, DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_passive, netvista.dot11_wfd_scan_type, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_active
+ms.keywords: dot11_wfd_scan_type_passive, *PDOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_active, windot11/dot11_wfd_scan_type_active, DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_scan_type_passive, dot11_wfd_scan_type_auto, netvista.dot11_wfd_scan_type, _DOT11_WFD_SCAN_TYPE, windot11/DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_auto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_WFD_SCAN_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE
+req.typenames: "*PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE"
 req.product: Windows 10 or later.
 ---
 

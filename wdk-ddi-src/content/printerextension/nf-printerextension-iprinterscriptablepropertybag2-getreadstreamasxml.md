@@ -2,13 +2,13 @@
 UID: NF:printerextension.IPrinterScriptablePropertyBag2.GetReadStreamAsXML
 title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML method
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
 old-project: print
 ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2, GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML
+ms.keywords: IPrinterScriptablePropertyBag2::GetReadStreamAsXML, GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML, IPrinterScriptablePropertyBag2, GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface, print.iprinterscriptablepropertybag2_getreadstreamasxml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptablePropertyBag2.GetReadStreamAsXML
 product: Windows
 targetos: Windows

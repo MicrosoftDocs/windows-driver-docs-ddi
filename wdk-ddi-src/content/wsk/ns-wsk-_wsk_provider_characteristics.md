@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_CHARACTERISTICS
-title: _WSK_PROVIDER_CHARACTERISTICS
+title: "_WSK_PROVIDER_CHARACTERISTICS"
 author: windows-driver-content
 description: The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteristics of the WSK subsystem.
 old-location: netvista\wsk_provider_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS
+ms.keywords: wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, _WSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
+req.typenames: "*PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS"
 req.product: Windows 10 or later.
 ---
 
@@ -142,14 +142,14 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
-<mshelp:link keywords="netvista.wskqueryprovidercharacteristics" tabindex="0"><b>
-   WskQueryProviderCharacteristics</b></mshelp:link>
-
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+<mshelp:link keywords="netvista.wskqueryprovidercharacteristics" tabindex="0"><b>
+   WskQueryProviderCharacteristics</b></mshelp:link>
 
  
 

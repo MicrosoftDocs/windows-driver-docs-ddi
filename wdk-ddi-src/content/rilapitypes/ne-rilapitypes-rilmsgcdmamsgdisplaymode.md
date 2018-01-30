@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ec37cf6-0d07-445b-9a5b-8d560069c612
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT, RIL_MSGDISPLAYMODE_MAX, rilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_USERDEFAULT, RILMSGCDMAMSGDISPLAYMODE, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, rilapitypes/RILMSGCDMAMSGDISPLAYMODE, netvista.rilmsgcdmamsgdisplaymode_2, rilapitypes/RIL_MSGDISPLAYMODE_MAX
+ms.keywords: rilapitypes/RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_USERDEFAULT, rilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, rilapitypes/RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE, netvista.rilmsgcdmamsgdisplaymode_2, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT, RIL_MSGDISPLAYMODE_MOBILEDEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAMSGDISPLAYMODE
 product: Windows
 targetos: Windows

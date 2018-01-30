@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._SID_NAME_USE
-title: _SID_NAME_USE
+title: "_SID_NAME_USE"
 author: windows-driver-content
 description: The SID_NAME_USE enumeration type contains values that specify the type of a security identifier (SID).
 old-location: ifsk\sid_name_use.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SidTypeInvalid, PSID_NAME_USE, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeDomain, ntifs/SidTypeUser, ntifs/SidTypeGroup, ntifs/SidTypeDeletedAccount, *PSID_NAME_USE, ntifs/SID_NAME_USE, SidTypeUnknown, ntifs/SidTypeAlias, SidTypeLabel, SidTypeWellKnownGroup, ntifs/PSID_NAME_USE, SidTypeInvalid, ntifs/SidTypeLabel, _SID_NAME_USE, SID_NAME_USE, SidTypeComputer, ntifs/SidTypeComputer, PSID_NAME_USE enumeration pointer [Installable File System Drivers], SidTypeUser, ntifs/SidTypeWellKnownGroup, SidTypeAlias, SidTypeGroup, SID_NAME_USE enumeration [Installable File System Drivers], ntifs/SidTypeDomain, SidTypeDeletedAccount, ntifs/SidTypeUnknown, ifsk.sid_name_use
+ms.keywords: ntifs/SidTypeInvalid, SidTypeInvalid, ntifs/PSID_NAME_USE, ifsk.sid_name_use, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeDomain, *PSID_NAME_USE, PSID_NAME_USE, ntifs/SidTypeUnknown, SidTypeDeletedAccount, PSID_NAME_USE enumeration pointer [Installable File System Drivers], ntifs/SID_NAME_USE, SidTypeGroup, ntifs/SidTypeUser, ntifs/SidTypeAlias, ntifs/SidTypeGroup, SidTypeLabel, SID_NAME_USE enumeration [Installable File System Drivers], SidTypeWellKnownGroup, ntifs/SidTypeDeletedAccount, ntifs/SidTypeDomain, ntifs/SidTypeComputer, SidTypeUser, SID_NAME_USE, SidTypeComputer, SidTypeAlias, SidTypeUnknown, _SID_NAME_USE, ntifs/SidTypeLabel, ntifs/SidTypeWellKnownGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SID_NAME_USE
 product: Windows
 targetos: Windows
-req.typenames: *PSID_NAME_USE, SID_NAME_USE
+req.typenames: "*PSID_NAME_USE, SID_NAME_USE"
 ---
 
 # _SID_NAME_USE enumeration
@@ -139,9 +139,9 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-
 <a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
 
  
 

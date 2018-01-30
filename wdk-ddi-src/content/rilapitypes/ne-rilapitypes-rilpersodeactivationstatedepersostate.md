@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e01aa9fb-a35e-41d4-994b-8a166372caaf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_DEPERSOSTATE_CK_REQUIRED, rilapitypes/RIL_DEPERSOSTATE_MAX, rilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RILPERSODEACTIVATIONSTATEDEPERSOSTATE, RIL_DEPERSOSTATE_PUK_BLOCKED, RIL_DEPERSOSTATE_PUK_REQUIRED, rilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED, rilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, RIL_DEPERSOSTATE_MAX, rilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], netvista.rilpersodeactivationstatedepersostate_2
+ms.keywords: RIL_DEPERSOSTATE_PUK_REQUIRED, rilapitypes/RILPERSODEACTIVATIONSTATEDEPERSOSTATE, rilapitypes/RIL_DEPERSOSTATE_CK_REQUIRED, rilapitypes/RIL_DEPERSOSTATE_PUK_REQUIRED, RIL_DEPERSOSTATE_PUK_BLOCKED, rilapitypes/RIL_DEPERSOSTATE_MAX, RILPERSODEACTIVATIONSTATEDEPERSOSTATE enumeration [Network Drivers Starting with Windows Vista], RILPERSODEACTIVATIONSTATEDEPERSOSTATE, netvista.rilpersodeactivationstatedepersostate_2, RIL_DEPERSOSTATE_MAX, RIL_DEPERSOSTATE_CK_REQUIRED, rilapitypes/RIL_DEPERSOSTATE_PUK_BLOCKED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c98c04c-246a-42a0-bb40-f7771f7ae968
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetMSIInfo routine [Storage Devices], storport/StorPortGetMSIInfo, StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, storage.storportgetmsiinfo
+ms.keywords: StorPortGetMSIInfo, storage.storportgetmsiinfo, StorPortGetMSIInfo routine [Storage Devices], storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml, storport/StorPortGetMSIInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortGetMSIInfo
 product: Windows
 targetos: Windows

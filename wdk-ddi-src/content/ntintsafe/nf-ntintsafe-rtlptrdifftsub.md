@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C87E3BD5-8CA7-443E-8CC3-F863CD4F321A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlPtrdiffTSub, kernel.rtlptrdifftsub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlPtrdiffTSub
+ms.keywords: RtlPtrdiffTSub, ntintsafe/RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlPtrdiffTSub
 product: Windows
 targetos: Windows

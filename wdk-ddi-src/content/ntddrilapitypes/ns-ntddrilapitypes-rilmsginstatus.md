@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 383ed544-c8c8-42a0-a7de-57f0f4072611
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsginstatus, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILMSGINSTATUS, ntddrilapitypes/RILMSGINSTATUS, RILMSGINSTATUS
+ms.keywords: RILMSGINSTATUS, ntddrilapitypes/RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus, *LPRILMSGINSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGINSTATUS
 product: Windows
 targetos: Windows

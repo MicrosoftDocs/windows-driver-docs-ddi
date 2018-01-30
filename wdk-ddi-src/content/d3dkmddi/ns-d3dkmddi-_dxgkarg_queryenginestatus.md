@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus, DXGKARG_QUERYENGINESTATUS structure [Display Devices], DXGKARG_QUERYENGINESTATUS, _DXGKARG_QUERYENGINESTATUS, *INOUT_PDXGKARG_QUERYENGINESTATUS
+ms.keywords: d3dkmddi/DXGKARG_QUERYENGINESTATUS, _DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS structure [Display Devices], display.dxgkarg_queryenginestatus, DXGKARG_QUERYENGINESTATUS, *INOUT_PDXGKARG_QUERYENGINESTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

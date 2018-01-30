@@ -2,13 +2,13 @@
 UID: NF:wdm.SeAssignSecurityEx
 title: SeAssignSecurityEx function
 author: windows-driver-content
-description: The SeAssignSecurityEx routine builds a self-relative security descriptor for a new object given the following optional parameters: a security descriptor of the object's parent directory, an explicit security descriptor for the object, and the object type.
+description: The SeAssignSecurityEx routine builds a self-relative security descriptor for a new object given the following optional parameters:\_a security descriptor of the object's parent directory, an explicit security descriptor for the object, and the object type.
 old-location: kernel\seassignsecurityex.htm
 old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, wdm/SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], SeAssignSecurityEx, kernel.seassignsecurityex
+ms.keywords: k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], wdm/SeAssignSecurityEx, SeAssignSecurityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeAssignSecurityEx
 product: Windows
 targetos: Windows
@@ -342,11 +342,11 @@ The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to
 
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
 
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
  
 

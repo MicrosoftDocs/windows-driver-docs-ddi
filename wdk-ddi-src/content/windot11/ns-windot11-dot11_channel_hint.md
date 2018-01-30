@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: B3E395C3-C642-4A5E-9005-88323A80F90E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], netvista.dot11_channel_hint, *PDOT11_CHANNEL_HINT, windot11/DOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, windot11/PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_CHANNEL_HINT, windot11/DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, netvista.dot11_channel_hint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_CHANNEL_HINT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT
+req.typenames: DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT
 req.product: Windows 10 or later.
 ---
 

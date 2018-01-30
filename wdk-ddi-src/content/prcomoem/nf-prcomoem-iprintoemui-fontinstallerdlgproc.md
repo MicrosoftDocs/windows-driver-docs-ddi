@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FontInstallerDlgProc method [Print Devices], IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, prcomoem/IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, FontInstallerDlgProc, IPrintOemUI, IPrintOemUI::FontInstallerDlgProc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface
+ms.keywords: prcomoem/IPrintOemUI::FontInstallerDlgProc, IPrintOemUI::FontInstallerDlgProc, IPrintOemUI, FontInstallerDlgProc method [Print Devices], print.iprintoemui_fontinstallerdlgproc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, FontInstallerDlgProc, IPrintOemUI interface [Print Devices], FontInstallerDlgProc method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.FontInstallerDlgProc
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

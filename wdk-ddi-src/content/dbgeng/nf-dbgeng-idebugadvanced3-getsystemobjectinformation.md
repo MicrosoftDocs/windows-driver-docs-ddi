@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7e95a16e-e62d-49df-9889-fab0a85f9cbc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, GetSystemObjectInformation, IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, debugger.getsystemobjectinformation, GetSystemObjectInformation method [Windows Debugging], GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced3, dbgeng/IDebugAdvanced3::GetSystemObjectInformation
+ms.keywords: IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced3::GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, debugger.getsystemobjectinformation, IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, GetSystemObjectInformation, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugAdvanced3.GetSystemObjectInformation
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::GetSystemObjectInformation method

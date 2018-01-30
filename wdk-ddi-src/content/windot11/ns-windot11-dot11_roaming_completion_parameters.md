@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 535857c5-dd71-4575-8475-ff6c7c934dbe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_roaming_completion_parameters, DOT11_ROAMING_COMPLETION_PARAMETERS, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, PDOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS
+ms.keywords: windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS, Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, netvista.dot11_roaming_completion_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_ROAMING_COMPLETION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS
+req.typenames: "*PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -89,26 +89,26 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
-### -field uStatus
-
-The completion status of the roaming operation formatted as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_ROAMING_COMPLETION_PARAMETERS_REVISION_1.
-
-
-##### - Header.Type
+#### Type
 
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
-##### - Header.Size
+#### Revision
+
+This member must be set to DOT11_ROAMING_COMPLETION_PARAMETERS_REVISION_1.
+
+
+#### Size
 
 This member must be set to 
        <code>sizeof(DOT11_ROAMING_COMPLETION_PARAMETERS)</code>.
+
+
+### -field uStatus
+
+The completion status of the roaming operation formatted as a 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
 
 
 ## -remarks
@@ -121,10 +121,10 @@ For more information about the roaming operation, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
 <mshelp:link keywords="netvista.ndis_status_dot11_roaming_completion" tabindex="0">
    NDIS_STATUS_DOT11_ROAMING_COMPLETION</mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
 
  
 

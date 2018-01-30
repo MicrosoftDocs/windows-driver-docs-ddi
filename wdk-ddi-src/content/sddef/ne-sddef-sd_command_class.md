@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SDCC_STANDARD, sddef/SDCC_APP_CMD, SD_COMMAND_CLASS, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD_COMMAND_CLASS enumeration [Buses], sddef/SD_COMMAND_CLASS, sddef/SDCC_STANDARD, SD.sd_command_class, SDCC_APP_CMD
+ms.keywords: sddef/SD_COMMAND_CLASS, SD_COMMAND_CLASS, SD.sd_command_class, sddef/SDCC_STANDARD, sddef/SDCC_APP_CMD, SDCC_APP_CMD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD_COMMAND_CLASS enumeration [Buses], SDCC_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	sddef.h
-apiname: 
+apiname:
 -	SD_COMMAND_CLASS
 product: Windows
 targetos: Windows

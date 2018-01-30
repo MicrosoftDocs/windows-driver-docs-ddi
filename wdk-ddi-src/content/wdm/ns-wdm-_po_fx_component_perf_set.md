@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_PERF_SET
-title: _PO_FX_COMPONENT_PERF_SET
+title: "_PO_FX_COMPONENT_PERF_SET"
 author: windows-driver-content
 description: The PO_FX_COMPONENT_PERF_SET structure represents a set of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_set.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set
+ms.keywords: PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_set, _PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PO_FX_COMPONENT_PERF_SET
 product: Windows
 targetos: Windows
-req.typenames: *PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET
+req.typenames: "*PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET"
 req.product: Windows 10 or later.
 ---
 
@@ -142,11 +142,11 @@ Most drivers are expected to define a single set of performance states per compo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
  
 

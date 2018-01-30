@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintschemaasyncoperation_start, printerextension/IPrintSchemaAsyncOperation::Start, IPrintSchemaAsyncOperation::Start, Start method [Print Devices], IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices], Start method, Start, Start method [Print Devices], IPrintSchemaAsyncOperation
+ms.keywords: print.iprintschemaasyncoperation_start, Start method [Print Devices], IPrintSchemaAsyncOperation interface, printerextension/IPrintSchemaAsyncOperation::Start, Start, IPrintSchemaAsyncOperation, Start method [Print Devices], IPrintSchemaAsyncOperation::Start, IPrintSchemaAsyncOperation interface [Print Devices], Start method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaAsyncOperation.Start
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetprocessorinformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, NdisGetProcessorInformation
+ms.keywords: netvista.ndisgetprocessorinformation, ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetProcessorInformation
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetProcessorInformation function
@@ -134,16 +134,16 @@ RSS-capable miniport drivers that support MSI-X call
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
-   NdisGetRssProcessorInformation</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
-
 <mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
    NdisGetProcessorInformationEx</b></mshelp:link>
 
 <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
    MiniportFilterResourceRequirements</i></mshelp:link>
+
+<mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
+   NdisGetRssProcessorInformation</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
  
 

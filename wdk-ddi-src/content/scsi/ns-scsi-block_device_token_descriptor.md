@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], *PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR
+ms.keywords: BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	BLOCK_DEVICE_TOKEN_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
+req.typenames: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 

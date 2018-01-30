@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: acc4051f-dcd4-443d-ad6b-02e6b0c1cad4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchCopyUnicodeString, RtlStringCchCopyUnicodeString function [Kernel-Mode Driver Architecture], safestrings_99b6e156-5c40-41e1-a02b-400a20cbd74d.xml, kernel.rtlstringcchcopyunicodestring, ntstrsafe/RtlStringCchCopyUnicodeString
+ms.keywords: RtlStringCchCopyUnicodeString function [Kernel-Mode Driver Architecture], RtlStringCchCopyUnicodeString, ntstrsafe/RtlStringCchCopyUnicodeString, kernel.rtlstringcchcopyunicodestring, safestrings_99b6e156-5c40-41e1-a02b-400a20cbd74d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchCopyUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCopyUnicodeString function

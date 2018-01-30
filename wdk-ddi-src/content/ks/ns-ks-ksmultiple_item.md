@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f8a15cb0-92c5-4637-934e-021fa7969208
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSMULTIPLE_ITEM, stream.ksmultiple_item, KSMULTIPLE_ITEM, KSMULTIPLE_ITEM structure [Streaming Media Devices], PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks/PKSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM, ks/KSMULTIPLE_ITEM, ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml
+ms.keywords: ks/KSMULTIPLE_ITEM, PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks/PKSMULTIPLE_ITEM, stream.ksmultiple_item, KSMULTIPLE_ITEM structure [Streaming Media Devices], KSMULTIPLE_ITEM, PKSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM, ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSMULTIPLE_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM
+req.typenames: "*PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM"
 ---
 
 # KSMULTIPLE_ITEM structure
@@ -82,9 +82,9 @@ Specifies the number of buffers that follow this header.
 
 <a href="https://msdn.microsoft.com/23c020e8-b778-4784-9dc0-21920557e1c1">Kernel Streaming Property Sets</a>
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
  
 

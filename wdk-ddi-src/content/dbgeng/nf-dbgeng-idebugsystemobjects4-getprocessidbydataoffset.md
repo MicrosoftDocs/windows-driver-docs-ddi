@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a2c094f4-f54d-4c3c-95e7-75df717db8cc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects2::GetProcessIdByDataOffset, IDebugSystemObjects3::GetProcessIdByDataOffset, IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByDataOffset method, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByDataOffset method, GetProcessIdByDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects4, GetProcessIdByDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects4::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetProcessIdByDataOffset, debugger.getprocessidbydataoffset, IDebugSystemObjects_8c7f276b-9a12-41ac-8c56-4e37b68d491d.xml, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects2::GetProcessIdByDataOffset
+ms.keywords: GetProcessIdByDataOffset method [Windows Debugging], GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects::GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByDataOffset method, debugger.getprocessidbydataoffset, IDebugSystemObjects3::GetProcessIdByDataOffset, IDebugSystemObjects4::GetProcessIdByDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByDataOffset method, dbgeng/IDebugSystemObjects3::GetProcessIdByDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByDataOffset method, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects_8c7f276b-9a12-41ac-8c56-4e37b68d491d.xml, IDebugSystemObjects2::GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects2::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects4::GetProcessIdByDataOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetProcessIdByDataOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetProcessIdByDataOffset method

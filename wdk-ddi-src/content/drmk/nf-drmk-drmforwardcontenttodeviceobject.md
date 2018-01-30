@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: DrmForwardContentToDeviceObject function [Audio Devices], audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject, aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml
+ms.keywords: drmk/DrmForwardContentToDeviceObject, audio.drmforwardcontenttodeviceobject, DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
 ---
 
 # DrmForwardContentToDeviceObject function
@@ -97,7 +97,7 @@ Pointer to a <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a> structure
 
 Before allowing protected content to flow through a data path, the system verifies that the data path is secure. To do so, the system authenticates each module in the data path beginning at the upstream end of the data path and moving downstream. As each module is authenticated, that module gives the system information about the next module in the data path so that it can also be authenticated. To be successfully authenticated, a module's binary file must be signed as DRM-compliant.
 
-Two adjacent modules in the data path can communicate with each other in one of several ways. If the upstream module calls the downstream module through <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>, the downstream module is part of a WDM driver. In this case, the upstream module calls the <code>DrmForwardContentToDeviceObject</code> function to provide the system with the device object representing the downstream module. (If the two modules communicate through the downstream module's COM interface or content handlers, the upstream module calls <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a> or <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a> instead.)
+Two adjacent modules in the data path can communicate with each other in one of several ways. If the upstream module calls the downstream module through <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, the downstream module is part of a WDM driver. In this case, the upstream module calls the <code>DrmForwardContentToDeviceObject</code> function to provide the system with the device object representing the downstream module. (If the two modules communicate through the downstream module's COM interface or content handlers, the upstream module calls <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a> or <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a> instead.)
 
 The caller fills in the <b>DeviceObject</b>, <b>FileObject</b>, and <b>Context</b> members of the <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a> structure that parameter <i>DrmForward</i> points to. <code>DrmForwardContentToDeviceObject</code> uses these values as follows:
 <ul>
@@ -197,19 +197,19 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
 <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+
+<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
  
 

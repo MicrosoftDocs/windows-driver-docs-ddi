@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportisdeviceoperationallowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storport/StorPortIsDeviceOperationAllowed, STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed
+ms.keywords: storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortIsDeviceOperationAllowed
 product: Windows
 targetos: Windows

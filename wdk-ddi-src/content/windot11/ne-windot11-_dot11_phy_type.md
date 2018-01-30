@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_PHY_TYPE
-title: _DOT11_PHY_TYPE
+title: "_DOT11_PHY_TYPE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45ef8085-512e-4f9b-a7ea-e4f445555cf8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_phy_type_unknown, dot11_phy_type_fhss, dot11_phy_type_irbaseband, windot11/DOT11_PHY_TYPE, windot11/dot11_phy_type_dsss, dot11_phy_type_ht, dot11_phy_type_dsss, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_IHV_start, windot11/dot11_phy_type_fhss, _DOT11_PHY_TYPE, dot11_phy_type_IHV_start, dot11_phy_type_hrdsss, windot11/dot11_phy_type_any, PDOT11_PHY_TYPE, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_phy_type_ht, *PDOT11_PHY_TYPE, DOT11_PHY_TYPE, netvista.dot11_phy_type, dot11_phy_type_any, windot11/dot11_phy_type_irbaseband, dot11_phy_type_erp, windot11/dot11_phy_type_erp, dot11_phy_type_ofdm, dot11_phy_type_vht, windot11/dot11_phy_type_IHV_end, dot11_phy_type_IHV_end, windot11/PDOT11_PHY_TYPE, windot11/dot11_phy_type_vht, dot11_phy_type_unknown, Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, windot11/dot11_phy_type_hrdsss
+ms.keywords: PDOT11_PHY_TYPE, dot11_phy_type_erp, *PDOT11_PHY_TYPE, windot11/dot11_phy_type_erp, dot11_phy_type_ofdm, windot11/dot11_phy_type_irbaseband, dot11_phy_type_vht, dot11_phy_type_any, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_phy_type_IHV_end, dot11_phy_type_ht, windot11/dot11_phy_type_IHV_start, _DOT11_PHY_TYPE, windot11/dot11_phy_type_unknown, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_phy_type_irbaseband, dot11_phy_type_unknown, windot11/DOT11_PHY_TYPE, dot11_phy_type_dsss, windot11/PDOT11_PHY_TYPE, dot11_phy_type_IHV_start, windot11/dot11_phy_type_ht, Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, windot11/dot11_phy_type_any, DOT11_PHY_TYPE, windot11/dot11_phy_type_dsss, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_fhss, dot11_phy_type_IHV_end, dot11_phy_type_fhss, windot11/dot11_phy_type_vht, dot11_phy_type_hrdsss, windot11/dot11_phy_type_hrdsss, netvista.dot11_phy_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PHY_TYPE
 product: Windows
 targetos: Windows
@@ -175,12 +175,12 @@ An IHV can assign a value for its proprietary PHY types from
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569407">OID_DOT11_RECV_SENSITIVITY_LIST</a>
 
+<mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-<mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
 
  
 

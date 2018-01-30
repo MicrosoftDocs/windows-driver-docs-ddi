@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
-title: _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
+title: "_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state.
 old-location: wdf\wdf_power_policy_sx_wake_user_control.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d5f4eb5f-28bb-4906-b9f5-3adae31cac80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WakeUserControlInvalid, DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WakeDoNotAllowUserControl, wudfddi_types/WakeAllowUserControl, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeUserControlInvalid, wdfdevice/WakeDoNotAllowUserControl, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wdf.wdf_power_policy_sx_wake_user_control, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WakeUserControlInvalid, wdfdevice/WakeAllowUserControl, kmdf.wdf_power_policy_sx_wake_user_control, wudfddi_types/WakeDoNotAllowUserControl, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, WakeAllowUserControl
+ms.keywords: kmdf.wdf_power_policy_sx_wake_user_control, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, wudfddi_types/WakeDoNotAllowUserControl, wdf.wdf_power_policy_sx_wake_user_control, wdfdevice/WakeDoNotAllowUserControl, WakeUserControlInvalid, wdfdevice/WakeAllowUserControl, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wdfdevice/WakeUserControlInvalid, WakeAllowUserControl, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WakeDoNotAllowUserControl, wudfddi_types/WakeAllowUserControl, wudfddi_types/WakeUserControlInvalid, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_MONITOR_INFO
-title: _CMP_MONITOR_INFO
+title: "_CMP_MONITOR_INFO"
 author: windows-driver-content
 description: The CMP_MONITOR_INFO structure is used in conjunction with the Av61883_MonitorPlugs request to allow a driver to monitor access to local oPCR and iPCR plugs.
 old-location: ieee\cmp_monitor_info.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 258bcd6f-0536-48d3-a06a-10277f8bef87
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CMP_MONITOR_INFO, *PCMP_MONITOR_INFO, IEEE.cmp_monitor_info, PCMP_MONITOR_INFO structure pointer [Buses], _CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, PCMP_MONITOR_INFO
+ms.keywords: "_CMP_MONITOR_INFO, PCMP_MONITOR_INFO, CMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, 61883/PCMP_MONITOR_INFO, IEEE.cmp_monitor_info, 61883/CMP_MONITOR_INFO, *PCMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_MONITOR_INFO
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, ChangerInitialize function [Storage Devices], mcd/ChangerInitialize, storage.changerinitialize, ChangerInitialize
+ms.keywords: ChangerInitialize function [Storage Devices], ChangerInitialize, storage.changerinitialize, mcd/ChangerInitialize, chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerInitialize
 product: Windows
 targetos: Windows

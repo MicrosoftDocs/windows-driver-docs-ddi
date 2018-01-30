@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyWrite, storage.ataportregistrychannelsubkeywrite
+ms.keywords: atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, irb/AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], storage.ataportregistrychannelsubkeywrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaPortRegistryChannelSubkeyWrite
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3131dde-95fc-447c-9451-5c8af074ed24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetWdmGetTargetFileObject, WdfIoTargetWdmGetTargetFileObject method, wdf.wdfiotargetwdmgettargetfileobject, WdfIoTargetWdmGetTargetFileObject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml, kmdf.wdfiotargetwdmgettargetfileobject
+ms.keywords: kmdf.wdfiotargetwdmgettargetfileobject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml, wdfiotarget/WdfIoTargetWdmGetTargetFileObject, WdfIoTargetWdmGetTargetFileObject method, WdfIoTargetWdmGetTargetFileObject, wdf.wdfiotargetwdmgettargetfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoTargetWdmGetTargetFileObject
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -102,13 +102,13 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetdeviceobject.md">WdfIoTargetWdmGetTargetDeviceObject</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
 
  
 

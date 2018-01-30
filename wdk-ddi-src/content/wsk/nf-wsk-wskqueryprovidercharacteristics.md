@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wsk/WskQueryProviderCharacteristics, netvista.wskqueryprovidercharacteristics, WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
+ms.keywords: WskQueryProviderCharacteristics, netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	netio.lib
 -	netio.dll
-apiname: 
+apiname:
 -	WskQueryProviderCharacteristics
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -140,9 +140,9 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
-
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d5dfc37-682e-41a0-9c61-76ae8f70b154
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CD_LAYER_MAX, RILCALLDISCONNECTDETAILSASCODE, rilapitypes/RIL_CD_L3, RIL_CD_L2, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetailsascode_2, rilapitypes/RILCALLDISCONNECTDETAILSASCODE, rilapitypes/RIL_CD_LAYER_MAX, RIL_CD_L3, rilapitypes/RIL_CD_L2
+ms.keywords: rilapitypes/RIL_CD_LAYER_MAX, RIL_CD_L2, netvista.rilcalldisconnectdetailsascode_2, RIL_CD_L3, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_LAYER_MAX, rilapitypes/RIL_CD_L3, RILCALLDISCONNECTDETAILSASCODE, rilapitypes/RILCALLDISCONNECTDETAILSASCODE, rilapitypes/RIL_CD_L2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLDISCONNECTDETAILSASCODE
 product: Windows
 targetos: Windows

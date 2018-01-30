@@ -40,7 +40,7 @@ apiname:
 -	FreeStackSymFrames
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback

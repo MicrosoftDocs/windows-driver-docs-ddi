@@ -2,7 +2,7 @@
 UID: NN:prcomoem.IPrintOemEngine
 title: IPrintOemEngine
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\iprintoemengine.htm
 old-project: print
 ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemEngine
 -	IPrintOemEngine.EnableDriver
 -	IPrintOemEngine.DisableDriver
@@ -45,7 +45,7 @@ apiname:
 -	IPrintOemEngine.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_RF_DISCOVERY_CONFIG
-title: _NFC_CX_RF_DISCOVERY_CONFIG
+title: "_NFC_CX_RF_DISCOVERY_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling NfcDxDeviceInitialize, otherwise an error is returned.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 4EF45183-335C-40FC-8693-BF3D17B18DF2
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], NFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG, _NFC_CX_RF_DISCOVERY_CONFIG
+ms.keywords: nfccx/NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG, _NFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfccx.h
-apiname: 
+apiname:
 -	NFC_CX_RF_DISCOVERY_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG
+req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
 ---
 
 # _NFC_CX_RF_DISCOVERY_CONFIG structure
@@ -122,9 +122,9 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
  
 

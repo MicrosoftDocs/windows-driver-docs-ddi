@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/XcvDataPort, XcvDataPort, print.xcvdataport, XcvDataPort function [Print Devices], spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml
+ms.keywords: XcvDataPort, XcvDataPort function [Print Devices], spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, winsplp/XcvDataPort, print.xcvdataport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	XcvDataPort
 product: Windows
 targetos: Windows
@@ -195,13 +195,13 @@ Validate the contents of the buffer pointed to by the <i>pInputData</i> paramete
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-<a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a>
+<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
 <a href="..\winsplp\nf-winsplp-deleteportui.md">DeletePortUI</a>
 
-<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+<a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a>
 
 <a href="..\winsplp\nf-winsplp-configureportui.md">ConfigurePortUI</a>
 

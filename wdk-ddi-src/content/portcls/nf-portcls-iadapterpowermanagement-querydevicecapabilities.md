@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, portcls/IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement
+ms.keywords: IAdapterPowerManagement, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, QueryDeviceCapabilities method [Audio Devices], audio.iadapterpowermanagement_querydevicecapabilities, QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ NTSTATUS QueryDeviceCapabilities(
 
 ### -param PowerDeviceCaps [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
+Pointer to a <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
 
 
 ## -returns
@@ -110,11 +110,11 @@ In order to change the mappings between system power states and device power sta
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>
 
 <a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
 

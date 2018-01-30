@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_DiscoveryConfig
-title: _MSiSCSI_DiscoveryConfig
+title: "_MSiSCSI_DiscoveryConfig"
 author: windows-driver-content
 description: The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 old-location: storage\msiscsi_discoveryconfig.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe2f4a93-3fdd-422b-afce-8def3ed6688e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsicfg/PMSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, _MSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], *PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], iscsicfg/MSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig
+ms.keywords: structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, iscsicfg/MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], iscsicfg/PMSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, _MSiSCSI_DiscoveryConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsicfg.h
-apiname: 
+apiname:
 -	MSiSCSI_DiscoveryConfig
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig
+req.typenames: MSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig
 ---
 
 # _MSiSCSI_DiscoveryConfig structure

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportDriverUnload
 product: Windows
 targetos: Windows
@@ -163,18 +163,18 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
+   NdisMDeregisterMiniportDriver</b></mshelp:link>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
-<mshelp:link keywords="netvista.ndismderegisterminiportdriver" tabindex="0"><b>
-   NdisMDeregisterMiniportDriver</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

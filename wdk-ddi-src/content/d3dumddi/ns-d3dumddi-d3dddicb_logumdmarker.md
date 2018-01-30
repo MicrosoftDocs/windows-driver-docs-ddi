@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D953C714-6C11-4F8A-A7F9-416A00C518B4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_logumdmarker, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER
+ms.keywords: display.d3dddicb_logumdmarker, D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

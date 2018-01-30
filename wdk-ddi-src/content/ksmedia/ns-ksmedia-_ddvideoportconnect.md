@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], display.ddvideoportconnect, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, DDVIDEOPORTCONNECT, ksmedia/DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT"
+ms.keywords: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT, display.ddvideoportconnect, DDVIDEOPORTCONNECT structure [Display Devices], ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, ksmedia/DDVIDEOPORTCONNECT, _DDVIDEOPORTCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -267,9 +267,9 @@ The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
-
 <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a>
+
+<a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
 
  
 

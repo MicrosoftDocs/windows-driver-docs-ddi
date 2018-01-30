@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IOCTL_KS_READ_STREAM
 product: Windows
 targetos: Windows
@@ -103,9 +103,9 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_write_stream.md">IOCTL_KS_WRITE_STREAM</a>
-
 <a href="..\ks\nf-ks-ksprobestreamirp.md">KsProbeStreamIrp</a>
+
+<a href="..\ks\ni-ks-ioctl_ks_write_stream.md">IOCTL_KS_WRITE_STREAM</a>
 
  
 

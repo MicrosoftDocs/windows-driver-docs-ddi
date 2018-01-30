@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 274bdd80-e898-42c7-8adc-8eae4e895b5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DEVICE_ESCAPE structure [Display Devices], OpenGL_Structs_38febe04-ae75-475a-ab69-81995acb567b.xml, D3DKMT_DEVICE_ESCAPE, _D3DKMT_DEVICE_ESCAPE, d3dkmthk/D3DKMT_DEVICE_ESCAPE, display.d3dkmt_device_escape
+ms.keywords: D3DKMT_DEVICE_ESCAPE structure [Display Devices], D3DKMT_DEVICE_ESCAPE, _D3DKMT_DEVICE_ESCAPE, OpenGL_Structs_38febe04-ae75-475a-ab69-81995acb567b.xml, d3dkmthk/D3DKMT_DEVICE_ESCAPE, display.d3dkmt_device_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

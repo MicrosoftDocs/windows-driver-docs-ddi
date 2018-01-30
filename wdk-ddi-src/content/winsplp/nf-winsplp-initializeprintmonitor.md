@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: InitializePrintMonitor, spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, winsplp/InitializePrintMonitor, InitializePrintMonitor function [Print Devices], print.initializeprintmonitor
+ms.keywords: winsplp/InitializePrintMonitor, InitializePrintMonitor function [Print Devices], spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, print.initializeprintmonitor, InitializePrintMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	InitializePrintMonitor
 product: Windows
 targetos: Windows

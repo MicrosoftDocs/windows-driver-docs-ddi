@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_ENDPOINT_INIT_AND_METADATA
-title: _UDECX_USB_ENDPOINT_INIT_AND_METADATA
+title: "_UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 author: windows-driver-content
 description: Contains the descriptors supported by an endpoint of a virtual USB device.
 old-location: buses\udecx_usb_endpoint_init_and_metadata.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B68FD95B-E7B8-4748-A1D0-09A1F9763626
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, buses.udecx_usb_endpoint_init_and_metadata, _UDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA, udecxusbdevice/PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA structure [Buses], PUDECX_USB_ENDPOINT_INIT_AND_METADATA structure pointer [Buses]
+ms.keywords: PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA structure [Buses], UDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA structure pointer [Buses], udecxusbdevice/PUDECX_USB_ENDPOINT_INIT_AND_METADATA, _UDECX_USB_ENDPOINT_INIT_AND_METADATA, buses.udecx_usb_endpoint_init_and_metadata, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UdecxUsbDevice.h
-apiname: 
+apiname:
 -	UDECX_USB_ENDPOINT_INIT_AND_METADATA
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA
+req.typenames: "*PUDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 req.product: Windows 10 or later.
 ---
 

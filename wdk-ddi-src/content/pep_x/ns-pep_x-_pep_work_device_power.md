@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_DEVICE_POWER
-title: _PEP_WORK_DEVICE_POWER
+title: "_PEP_WORK_DEVICE_POWER"
 author: windows-driver-content
 description: The PEP_WORK_DEVICE_POWER structure describes the new power requirements for the specified device.
 old-location: kernel\pep_work_device_power.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK_DEVICE_POWER
+ms.keywords: PPEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER, pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pep_x.h
-apiname: 
+apiname:
 -	PEP_WORK_DEVICE_POWER
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
+req.typenames: "*PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER"
 ---
 
 # _PEP_WORK_DEVICE_POWER structure

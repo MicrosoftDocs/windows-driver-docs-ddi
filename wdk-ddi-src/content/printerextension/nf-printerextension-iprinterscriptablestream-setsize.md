@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterScriptableStream::SetSize, IPrinterScriptableStream interface [Print Devices], SetSize method, SetSize method [Print Devices], SetSize method [Print Devices], IPrinterScriptableStream interface, print.iprinterscriptablestream__setsize, SetSize, printerextension/IPrinterScriptableStream::SetSize, IPrinterScriptableStream
+ms.keywords: print.iprinterscriptablestream__setsize, IPrinterScriptableStream interface [Print Devices], SetSize method, IPrinterScriptableStream::SetSize, IPrinterScriptableStream, printerextension/IPrinterScriptableStream::SetSize, SetSize method [Print Devices], SetSize, SetSize method [Print Devices], IPrinterScriptableStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptableStream.SetSize
 product: Windows
 targetos: Windows

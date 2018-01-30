@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._VPB
-title: _VPB
+title: "_VPB"
 author: windows-driver-content
 description: The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
 old-location: ifsk\vpb.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: VPB structure [Installable File System Drivers], *PVPB, VPB_MOUNTED, _VPB, wdm/PVPB, wdm/VPB, VPB_DIRECT_WRITES_ALLOWED, ifsk.vpb, PVPB structure pointer [Installable File System Drivers], PVPB, VPB_LOCKED, VPB_REMOVE_PENDING, VPB_RAW_MOUNT, VPB_PERSISTENT, VPB
+ms.keywords: "_VPB, *PVPB, VPB_DIRECT_WRITES_ALLOWED, PVPB, VPB_LOCKED, VPB_REMOVE_PENDING, VPB_RAW_MOUNT, VPB structure [Installable File System Drivers], VPB, wdm/PVPB, wdm/VPB, ifsk.vpb, VPB_PERSISTENT, VPB_MOUNTED, PVPB structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	VPB
 product: Windows
 targetos: Windows
-req.typenames: VPB, *PVPB
+req.typenames: "*PVPB, VPB"
 req.product: Windows 10 or later.
 ---
 
@@ -218,11 +218,11 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
-
-<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
 
  
 

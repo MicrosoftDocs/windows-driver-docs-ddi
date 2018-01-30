@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, StorPortGetGroupAffinity routine [Storage Devices]
+ms.keywords: StorPortGetGroupAffinity routine [Storage Devices], storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, StorPortGetGroupAffinity, storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortGetGroupAffinity
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_INSTALL_STATE
-title: _DEVICE_INSTALL_STATE
+title: "_DEVICE_INSTALL_STATE"
 author: windows-driver-content
 description: The DEVICE_INSTALL_STATE enumeration describes a device's installation state.
 old-location: kernel\device_install_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PDEVICE_INSTALL_STATE, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/DEVICE_INSTALL_STATE, wdm/PDEVICE_INSTALL_STATE, _DEVICE_INSTALL_STATE, wdm/InstallStateFinishInstall, kernel.device_install_state, wdm/InstallStateNeedsReinstall, wdm/InstallStateInstalled, InstallStateFinishInstall, InstallStateFailedInstall, wdm/InstallStateFailedInstall, InstallStateInstalled, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml
+ms.keywords: wdm/PDEVICE_INSTALL_STATE, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/InstallStateFailedInstall, InstallStateInstalled, _DEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, InstallStateFailedInstall, PDEVICE_INSTALL_STATE, kernel.device_install_state, *PDEVICE_INSTALL_STATE, InstallStateNeedsReinstall, wdm/InstallStateNeedsReinstall, wdm/InstallStateFinishInstall, wdm/DEVICE_INSTALL_STATE, InstallStateFinishInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	DEVICE_INSTALL_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE
+req.typenames: "*PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE"
 req.product: Windows 10 or later.
 ---
 

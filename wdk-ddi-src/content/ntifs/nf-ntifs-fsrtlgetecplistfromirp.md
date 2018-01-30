@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e225f00-f830-488f-8bf0-666290dc40b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlGetEcpListFromIrp routine [Installable File System Drivers], FsRtlGetEcpListFromIrp, ntifs/FsRtlGetEcpListFromIrp, ifsk.fsrtlgetecplistfromirp, fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml
+ms.keywords: FsRtlGetEcpListFromIrp routine [Installable File System Drivers], ntifs/FsRtlGetEcpListFromIrp, ifsk.fsrtlgetecplistfromirp, FsRtlGetEcpListFromIrp, fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlGetEcpListFromIrp
 product: Windows
 targetos: Windows

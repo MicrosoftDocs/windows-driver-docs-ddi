@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 05f3fa93-389e-4ecc-b7c0-71f43691232f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide::UnloadModule, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, dbgeng/IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide, UnloadModule
+ms.keywords: UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, UnloadModule method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::UnloadModule, IDebugEventCallbacksWide, UnloadModule, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.UnloadModule
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::UnloadModule method

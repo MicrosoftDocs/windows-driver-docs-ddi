@@ -2,7 +2,7 @@
 UID: NI:ntddscsi.IOCTL_ATA_PASS_THROUGH
 title: IOCTL_ATA_PASS_THROUGH
 author: windows-driver-content
-description: Allows an application to send almost any ATA command to a target device, with the following restrictions: If a class driver for the target type of device exists, the application must send the request to the class driver.
+description: Allows an application to send almost any ATA command to a target device, with the following restrictions:\_If a class driver for the target type of device exists, the application must send the request to the class driver.
 old-location: storage\ioctl_ata_pass_through.htm
 old-project: storage
 ms.assetid: 350d9777-18d7-412a-ab60-1e17070a12af
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddscsi.h
-apiname: 
+apiname:
 -	IOCTL_ATA_PASS_THROUGH
 product: Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
 ---
 
 # IOCTL_ATA_PASS_THROUGH IOCTL
@@ -144,9 +144,9 @@ The <b>Information</b> member is set to the number of bytes returned in the outp
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
 
  
 

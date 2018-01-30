@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c47b025b-1be9-4fdc-965a-a9a82a394177
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SelectSetting, IWDFUsbInterface::SelectSetting, IWDFUsbInterface, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, SelectSetting method, IWDFUsbInterface interface, wdf.iwdfusbinterface_selectsetting, SelectSetting method, umdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting, IWDFUsbInterface interface, SelectSetting method
+ms.keywords: IWDFUsbInterface, SelectSetting, wdf.iwdfusbinterface_selectsetting, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, SelectSetting method, IWDFUsbInterface interface, IWDFUsbInterface interface, SelectSetting method, IWDFUsbInterface::SelectSetting, wudfusb/IWDFUsbInterface::SelectSetting, umdf.iwdfusbinterface_selectsetting, SelectSetting method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbInterface.SelectSetting
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlRemovePerFileObjectContext, ifsk.fsrtlremoveperfileobjectcontext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ntifs/FsRtlRemovePerFileObjectContext
+ms.keywords: fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], ntifs/FsRtlRemovePerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlRemovePerFileObjectContext
 product: Windows
 targetos: Windows
@@ -110,9 +110,9 @@ To retrieve a per-file-object context structure that is associated with a file o
 
 <a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
-
 <a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
 
 <a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, ntddk/SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/SeSinglePrivilegeCheck, k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeSinglePrivilegeCheck
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # SeSinglePrivilegeCheck function
@@ -95,15 +95,15 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
 <a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
 <a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertUlongToLuid</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
 
  
 

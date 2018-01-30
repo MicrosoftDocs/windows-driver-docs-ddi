@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 828bb255-4640-4508-866e-e3641ca05773
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PDS3DVECTOR structure pointer [Audio Devices], audio.ds3dvector, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, DS3DVECTOR structure [Audio Devices], DS3DVECTOR, *PDS3DVECTOR, ksmedia/PDS3DVECTOR, ksmedia/DS3DVECTOR, PDS3DVECTOR, _DS3DVECTOR
+ms.keywords: PDS3DVECTOR structure pointer [Audio Devices], audio.ds3dvector, _DS3DVECTOR, ksmedia/DS3DVECTOR, *PDS3DVECTOR, PDS3DVECTOR, ksmedia/PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -110,11 +110,11 @@ Specifies the z-component of the vector.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksds3d_listener_all.md">KSDS3D_LISTENER_ALL</a>
+<a href="..\ksmedia\ns-ksmedia-ksds3d_listener_orientation.md">KSDS3D_LISTENER_ORIENTATION</a>
 
 <a href="..\ksmedia\ns-ksmedia-ksds3d_buffer_all.md">KSDS3D_BUFFER_ALL</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksds3d_listener_orientation.md">KSDS3D_LISTENER_ORIENTATION</a>
+<a href="..\ksmedia\ns-ksmedia-ksds3d_listener_all.md">KSDS3D_LISTENER_ALL</a>
 
  
 

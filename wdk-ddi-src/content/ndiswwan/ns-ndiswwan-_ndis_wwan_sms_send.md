@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_SEND
-title: _NDIS_WWAN_SMS_SEND
+title: "_NDIS_WWAN_SMS_SEND"
 author: windows-driver-content
 description: The NDIS_WWAN_SMS_SEND structure represents an SMS message to send.
 old-location: netvista\ndis_wwan_sms_send.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d92c0ebe-4a11-49d9-95aa-182e99ca8dcf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_WWAN_SMS_SEND, _NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND, WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, ndiswwan/NDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_sms_send, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista]
+ms.keywords: WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, netvista.ndis_wwan_sms_send, PNDIS_WWAN_SMS_SEND, _NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_SMS_SEND
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND
+req.typenames: "*PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND"
 ---
 
 # _NDIS_WWAN_SMS_SEND structure
@@ -126,9 +126,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

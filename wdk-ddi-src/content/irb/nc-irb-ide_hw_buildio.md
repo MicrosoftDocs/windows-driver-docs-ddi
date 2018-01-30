@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IdeHwBuildIo
 product: Windows
 targetos: Windows
@@ -107,9 +107,9 @@ The <b><i>IdeHwBuildIo</i></b> routine resembles Storport's <a href="..\storport
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
-
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
 
  
 

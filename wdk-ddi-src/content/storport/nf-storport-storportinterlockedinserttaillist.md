@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist
+ms.keywords: storage.storportinterlockedinserttaillist, StorPortInterlockedInsertTailList routine [Storage Devices], storport/StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortInterlockedInsertTailList
 product: Windows
 targetos: Windows
@@ -154,15 +154,15 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
 
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc5dc9f4-53a6-468a-907c-9b271fed83aa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, AddSyntheticModuleWide, debugger.addsyntheticmodulewide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AddSyntheticModuleWide, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method, AddSyntheticModuleWide method [Windows Debugging], dbgeng/IDebugSymbols3::AddSyntheticModuleWide
+ms.keywords: AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, IDebugSymbols3::AddSyntheticModuleWide, debugger.addsyntheticmodulewide, AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.AddSyntheticModuleWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::AddSyntheticModuleWide method
@@ -134,9 +134,9 @@ For more information about synthetic modules, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

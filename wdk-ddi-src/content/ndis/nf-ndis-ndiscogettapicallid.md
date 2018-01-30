@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cb47545-177f-46ef-aff6-33ad8c9a6974
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], NdisCoGetTapiCallId, condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml, ndis/NdisCoGetTapiCallId, netvista.ndiscogettapicallid
+ms.keywords: netvista.ndiscogettapicallid, NdisCoGetTapiCallId, ndis/NdisCoGetTapiCallId, NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCoGetTapiCallId
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCoGetTapiCallId function

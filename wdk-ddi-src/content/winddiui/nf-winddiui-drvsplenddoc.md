@@ -2,13 +2,13 @@
 UID: NF:winddiui.DrvSplEndDoc
 title: DrvSplEndDoc function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\drvsplenddoc.htm
 old-project: print
 ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winddiui/DrvSplEndDoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, DrvSplEndDoc, print.drvsplenddoc, DrvSplEndDoc function [Print Devices]
+ms.keywords: DrvSplEndDoc, print.drvsplenddoc, winddiui/DrvSplEndDoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, DrvSplEndDoc function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DrvSplEndDoc
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

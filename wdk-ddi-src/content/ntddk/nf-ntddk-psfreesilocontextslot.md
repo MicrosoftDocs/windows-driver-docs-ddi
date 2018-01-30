@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 659B92A6-8582-468F-8CDD-119832A95230
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsFreeSiloContextSlot, PsFreeSiloContextSlot, kernel.psfreesilocontextslot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.psfreesilocontextslot, PsFreeSiloContextSlot, ntddk/PsFreeSiloContextSlot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsFreeSiloContextSlot
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsFreeSiloContextSlot function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_READ, ntifs/FsRtlCheckUpperOplock, ifsk.fsrtlcheckupperoplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_WRITE
+ms.keywords: ifsk.fsrtlcheckupperoplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, ntifs/FsRtlCheckUpperOplock, FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: IRQL <= APC_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlCheckUpperOplock
 product: Windows
 targetos: Windows
@@ -146,6 +146,16 @@ This routine is declared as follows:
 
 
 
+#### Context
+
+A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. 
+
+
+#### Irp
+
+A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b> will always set this to NULL. 
+
+
 ### -param PrePendRoutine
 
 TBD
@@ -158,29 +168,14 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 
 
 
-##### - Flags.OPLOCK_UPPER_FLAG_NOTIFY_REFRESH_READ   (0x00020000)
-
-Break only Read (R) upper oplocks and notify R holders that they may again request R.  All other upper oplock checks it will return STATUS_CANNOT_BREAK_OPLOCK.
-
-
-##### - Flags.OPLOCK_UPPER_FLAG_CHECK_NO_BREAK   (0x00010000)
+#### OPLOCK_UPPER_FLAG_CHECK_NO_BREAK   (0x00010000)
 
 Return STATUS_CANNOT_BREAK_OPLOCK if the value of <i>NewLowerOplockState</i> results in any oplock break.
 
 
-##### - PrePendIrpRoutine.Context
+#### OPLOCK_UPPER_FLAG_NOTIFY_REFRESH_READ   (0x00020000)
 
-A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. 
-
-
-##### - PrePendIrpRoutine.Irp
-
-A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
-
-
-##### - CompletionRoutine.Irp
-
-A optional pointer to the IRP for the I/O operation <b>FsRtlCheckUpperOplock</b> will always set this to NULL. 
+Break only Read (R) upper oplocks and notify R holders that they may again request R.  All other upper oplock checks it will return STATUS_CANNOT_BREAK_OPLOCK.
 
 
 #### - PrePendIrpRoutine [in, optional]
@@ -204,9 +199,14 @@ This routine is declared as follows:
 </table></span></div>
 
 
-##### - CompletionRoutine.Context
+#### Context
 
 A context information pointer that was passed in the <i>CompletionRoutineContext</i> parameter to <b>FsRtlCheckUpperOplock</b>. 
+
+
+#### Irp
+
+A optional pointer to the IRP for the I/O operation. <b>FsRtlCheckUpperOplock</b> will always set this to NULL.
 
 
 ## -returns
@@ -257,9 +257,9 @@ An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> i
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl~r4.md">FsRtlUpperOplockFsctrl</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl~r4.md">FsRtlUpperOplockFsctrl</a>
 
  
 

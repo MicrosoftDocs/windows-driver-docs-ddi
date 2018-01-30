@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_SEND_PHY_PACKET
-title: _IRB_REQ_SEND_PHY_PACKET
+title: "_IRB_REQ_SEND_PHY_PACKET"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a SendPhyPacket request.
 old-location: ieee\irb_req_send_phy_packet.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_SEND_PHY_PACKET, _IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], IEEE.irb_req_send_phy_packet
+ms.keywords: "_IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], 1394/IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_SEND_PHY_PACKET
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMDisablePDEV function [Print Devices], print.oemdisablepdev, OEMDisablePDEV, printoem/OEMDisablePDEV, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml
+ms.keywords: printoem/OEMDisablePDEV, print.oemdisablepdev, OEMDisablePDEV function [Print Devices], OEMDisablePDEV, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMDisablePDEV
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 451D1CE2-A50D-4E42-BD93-879503EDE4B5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_createcontextvirtual, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], D3DDDICB_CREATECONTEXTVIRTUAL, _D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL
+ms.keywords: "_D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

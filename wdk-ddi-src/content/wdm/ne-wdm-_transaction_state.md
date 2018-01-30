@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_STATE
-title: _TRANSACTION_STATE
+title: "_TRANSACTION_STATE"
 author: windows-driver-content
 description: The TRANSACTION_STATE enumeration defines the states that KTM can assign to a transaction.
 old-location: kernel\transaction_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TRANSACTION_STATE, wdm/TransactionStateIndoubt, TransactionStateNormal, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, _TRANSACTION_STATE, wdm/TransactionStateNormal, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/TransactionStateCommittedNotify, TransactionStateIndoubt, TransactionStateCommittedNotify, TRANSACTION_STATE, kernel.transaction_state
+ms.keywords: ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, wdm/TransactionStateCommittedNotify, _TRANSACTION_STATE, wdm/TransactionStateNormal, kernel.transaction_state, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], TransactionStateCommittedNotify, wdm/TRANSACTION_STATE, wdm/TransactionStateIndoubt, TRANSACTION_STATE, TransactionStateIndoubt, TransactionStateNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	TRANSACTION_STATE
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_CO_CHARACTERISTICS
-title: _NDIS_PROTOCOL_CO_CHARACTERISTICS
+title: "_NDIS_PROTOCOL_CO_CHARACTERISTICS"
 author: windows-driver-content
 description: The NDIS_PROTOCOL_CO_CHARACTERISTICS structure specifies CoNDIS entry points for CoNDIS protocol drivers.
 old-location: netvista\ndis_protocol_co_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 855e3231-502c-4c6f-99f9-7ad85354ccd5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_PROTOCOL_CO_CHARACTERISTICS, netvista.ndis_protocol_co_characteristics, NDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/NDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS, condis_structures_ref_a4228b74-0f76-4800-ad95-e7ef3d92df42.xml, *PNDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PROTOCOL_CO_CHARACTERISTICS
+ms.keywords: NDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_CO_CHARACTERISTICS, PNDIS_PROTOCOL_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_protocol_co_characteristics, _NDIS_PROTOCOL_CO_CHARACTERISTICS, ndis/NDIS_PROTOCOL_CO_CHARACTERISTICS, *PNDIS_PROTOCOL_CO_CHARACTERISTICS, condis_structures_ref_a4228b74-0f76-4800-ad95-e7ef3d92df42.xml, PNDIS_PROTOCOL_CO_CHARACTERISTICS, NDIS_PROTOCOL_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_PROTOCOL_CO_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PROTOCOL_CO_CHARACTERISTICS, NDIS_PROTOCOL_CO_CHARACTERISTICS
+req.typenames: "*PNDIS_PROTOCOL_CO_CHARACTERISTICS, NDIS_PROTOCOL_CO_CHARACTERISTICS"
 ---
 
 # _NDIS_PROTOCOL_CO_CHARACTERISTICS structure
@@ -133,12 +133,12 @@ The protocol driver calls
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
+
 <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
    ProtocolCoReceiveNetBufferLists</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
 
 <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 

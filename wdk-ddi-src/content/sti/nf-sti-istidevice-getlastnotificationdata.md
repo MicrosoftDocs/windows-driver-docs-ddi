@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: sti/IStiDevice::GetLastNotificationData, GetLastNotificationData, GetLastNotificationData method [Imaging Devices], stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, IStiDevice, IStiDevice::GetLastNotificationData, GetLastNotificationData method [Imaging Devices], IStiDevice interface, image.istidevice_getlastnotificationdata, IStiDevice interface [Imaging Devices], GetLastNotificationData method
+ms.keywords: stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, IStiDevice interface [Imaging Devices], GetLastNotificationData method, sti/IStiDevice::GetLastNotificationData, GetLastNotificationData method [Imaging Devices], GetLastNotificationData, GetLastNotificationData method [Imaging Devices], IStiDevice interface, IStiDevice, image.istidevice_getlastnotificationdata, IStiDevice::GetLastNotificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.GetLastNotificationData
 product: Windows
 targetos: Windows

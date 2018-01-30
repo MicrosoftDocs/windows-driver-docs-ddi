@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_drvupdateuisetting, IPrintCoreUI2, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, IPrintCoreUI2::DrvUpdateUISetting, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, DrvUpdateUISetting
+ms.keywords: DrvUpdateUISetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, IPrintCoreUI2::DrvUpdateUISetting, IPrintCoreUI2, DrvUpdateUISetting method [Print Devices], prcomoem/IPrintCoreUI2::DrvUpdateUISetting, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, print.iprintcoreui2_drvupdateuisetting, DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.DrvUpdateUISetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -184,9 +184,9 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
  
 

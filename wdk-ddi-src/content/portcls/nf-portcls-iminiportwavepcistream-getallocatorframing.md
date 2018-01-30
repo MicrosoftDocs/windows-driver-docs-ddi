@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0b140ddc-52b5-4aee-afeb-5b2be57fe7b7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, GetAllocatorFraming, portcls/IMiniportWavePciStream::GetAllocatorFraming, IMiniportWavePciStream::GetAllocatorFraming, GetAllocatorFraming method [Audio Devices], audio.iminiportwavepcistream_getallocatorframing, IMiniportWavePciStream, GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface
+ms.keywords: GetAllocatorFraming method [Audio Devices], audio.iminiportwavepcistream_getallocatorframing, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, IMiniportWavePciStream, GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, portcls/IMiniportWavePciStream::GetAllocatorFraming, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, IMiniportWavePciStream::GetAllocatorFraming, GetAllocatorFraming
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,7 @@ NTSTATUS GetAllocatorFraming(
 
 ### -param AllocatorFraming [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
+Pointer to a <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
 
 
 ## -returns
@@ -90,9 +90,9 @@ See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
 
  
 

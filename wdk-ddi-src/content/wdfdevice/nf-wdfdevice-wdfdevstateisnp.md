@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49584600-e470-4be8-9111-3e890a9fedfd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevStateIsNP, kmdf.wdfdevstateisnp, wdf.wdfdevstateisnp, PFN_WDFDEVSTATEISNP, WdfDevStateIsNP method, DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, wdfdevice/WdfDevStateIsNP
+ms.keywords: WdfDevStateIsNP, WdfDevStateIsNP method, DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, PFN_WDFDEVSTATEISNP, wdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP, kmdf.wdfdevstateisnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDevStateIsNP
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ To obtain the current state of the framework's power state machine, a driver can
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md">WdfDeviceInitSetPowerPageable</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
 
  
 

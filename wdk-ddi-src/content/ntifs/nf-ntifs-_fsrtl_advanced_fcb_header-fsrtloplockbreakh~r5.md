@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlOplockBreakH, fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers]
+ms.keywords: FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH, fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlOplockBreakH
 product: Windows
 targetos: Windows
@@ -89,6 +89,18 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 
 
 
+#### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
+
+Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
+
+
+#### OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
+
+Supported in Windows 7 and later versions.
+
+Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
+
+
 ### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
@@ -117,6 +129,16 @@ This routine is declared as follows:
 
 
 
+#### Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
+
+
+#### Irp
+
+A pointer to the IRP for the I/O operation. 
+
+
 ### -param PostIrpRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
@@ -138,36 +160,14 @@ This routine is declared as follows:
 </table></span></div>
 
 
-##### - Flags.OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
-
-Supported in Windows 7 and later versions.
-
-Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
-
-
-##### - PostIrpRoutine.Irp
-
-A pointer to the IRP for the I/O operation. 
-
-
-##### - PostIrpRoutine.Context
+#### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
 
 
-##### - CompletionRoutine.Irp
+#### Irp
 
 A pointer to the IRP for the I/O operation. 
-
-
-##### - Flags.OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
-
-Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
-
-
-##### - CompletionRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
 
 
 ## -returns

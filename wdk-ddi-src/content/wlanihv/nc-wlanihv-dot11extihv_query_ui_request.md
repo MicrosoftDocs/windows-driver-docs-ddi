@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtIhvQueryUIRequest
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,27 @@ The current connection phase. The data type for this member is the
 
 
 
+#### connection_phase_any
+
+Specifies any connection phase.
+
+
+#### connection_phase_initial_connection
+
+Specifies the connection phase before the IHV Extensions DLL initiates a pre-association
+       operation. For more information about the pre-association operation, see 
+       <mshelp:link keywords="netvista.pre_association_operations" tabindex="0">Pre-Association
+       Operations</mshelp:link>.
+
+
+#### connection_phase_post_l3_connection
+
+Specifies the connection phase after the IHV Extensions DLL completes a post-association
+       operation. For more information about the post-association operation, see 
+       <mshelp:link keywords="netvista.post_association_operations" tabindex="0">Post-Association
+       Operations</mshelp:link>.
+
+
 ### -param *ppIhvUIRequest
 
 
@@ -107,27 +128,6 @@ The address of a pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
      The IHV Extensions DLL must allocate a buffer for the DOT11EXT_IHV_UI_REQUEST structure by calling 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>.
-
-
-##### - connectionPhase.connection_phase_any
-
-Specifies any connection phase.
-
-
-##### - connectionPhase.connection_phase_initial_connection
-
-Specifies the connection phase before the IHV Extensions DLL initiates a pre-association
-       operation. For more information about the pre-association operation, see 
-       <mshelp:link keywords="netvista.pre_association_operations" tabindex="0">Pre-Association
-       Operations</mshelp:link>.
-
-
-##### - connectionPhase.connection_phase_post_l3_connection
-
-Specifies the connection phase after the IHV Extensions DLL completes a post-association
-       operation. For more information about the post-association operation, see 
-       <mshelp:link keywords="netvista.post_association_operations" tabindex="0">Post-Association
-       Operations</mshelp:link>.
 
 
 ## -returns
@@ -174,13 +174,13 @@ For example, if
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
  
 

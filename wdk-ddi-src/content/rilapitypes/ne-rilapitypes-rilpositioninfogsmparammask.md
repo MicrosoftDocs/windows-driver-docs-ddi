@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9785ef86-8a2f-4e08-8caf-aa25f52a76ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_POSITION_GSM_MNC, rilapitypes/RIL_PARAM_POSITION_GSM_RXLEVEL, rilapitypes/RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_ARFCN, RIL_PARAM_POSITION_GSM_RXLEVEL, netvista.rilpositioninfogsmparammask, RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_MCC, rilapitypes/RIL_PARAM_POSITION_GSM_BSID, RIL_PARAM_POSITION_GSM_ARFCN, RIL_PARAM_POSITION_GSM_ALL, rilapitypes/RIL_PARAM_POSITION_GSM_TA, rilapitypes/RIL_PARAM_POSITION_GSM_CELLID, RIL_PARAM_POSITION_GSM_MCC, rilapitypes/RIL_PARAM_POSITION_GSM_ALL, RIL_PARAM_POSITION_GSM_BSID, rilapitypes/RIL_PARAM_POSITION_GSM_LAC, RIL_PARAM_POSITION_GSM_TA, RIL_PARAM_POSITION_GSM_LAC, RIL_PARAM_POSITION_GSM_MNC, RILPOSITIONINFOGSMPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_GSM_CELLID
+ms.keywords: RIL_PARAM_POSITION_GSM_LAC, rilapitypes/RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_CELLID, rilapitypes/RIL_PARAM_POSITION_GSM_ALL, RIL_PARAM_POSITION_GSM_ALL, RIL_PARAM_POSITION_GSM_CELLID, RILPOSITIONINFOGSMPARAMMASK, rilapitypes/RIL_PARAM_POSITION_GSM_RXLEVEL, rilapitypes/RIL_PARAM_POSITION_GSM_MCC, RIL_PARAM_POSITION_GSM_MCC, netvista.rilpositioninfogsmparammask, RIL_PARAM_POSITION_GSM_RXLEVEL, rilapitypes/RIL_PARAM_POSITION_GSM_LAC, RIL_PARAM_POSITION_GSM_BSID, RILPOSITIONINFOGSMPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_GSM_TA, rilapitypes/RIL_PARAM_POSITION_GSM_BSID, RIL_PARAM_POSITION_GSM_ARFCN, rilapitypes/RIL_PARAM_POSITION_GSM_MNC, rilapitypes/RIL_PARAM_POSITION_GSM_ARFCN, RIL_PARAM_POSITION_GSM_MNC, rilapitypes/RIL_PARAM_POSITION_GSM_TA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFOGSMPARAMMASK
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwnotifychangekey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], ntifs/ZwNotifyChangeKey, NtNotifyChangeKey, ntifs/NtNotifyChangeKey, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, ZwNotifyChangeKey
+ms.keywords: k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, ZwNotifyChangeKey, ntifs/ZwNotifyChangeKey, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, NtNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwNotifyChangeKey
 -	NtNotifyChangeKey
 product: Windows
@@ -121,6 +121,26 @@ Bitmask of operations that cause the driver to be notified. Specify one or more 
 
 
 
+#### REG_NOTIFY_CHANGE_NAME
+
+Notify the caller if a subkey is added or deleted.
+
+
+#### REG_NOTIFY_CHANGE_ATTRIBUTES
+
+Notify the caller of changes to the attributes of the key, such as the security descriptor information.
+
+
+#### REG_NOTIFY_CHANGE_LAST_SET
+
+Notify the caller of changes to a value of the key. This can include adding or deleting a value, or changing an existing value. (The caller receives no notification if the new value written to the key matches the previous value of the key.)
+
+
+#### REG_NOTIFY_CHANGE_SECURITY
+
+Notify the caller of changes to the security descriptor of the key.
+
+
 ### -param WatchTree [in]
 
 If <b>TRUE</b>, the driver is notified about changes to all subkeys of the specified key. If <b>FALSE</b>, the driver is only notified for changes to the specified key.
@@ -141,26 +161,6 @@ Reserved. Specify zero.
 If <b>FALSE</b>, the routine does not return until the specified event occurs. If <b>TRUE</b>, the routine returns immediately. 
 
 
-##### - CompletionFilter.REG_NOTIFY_CHANGE_ATTRIBUTES
-
-Notify the caller of changes to the attributes of the key, such as the security descriptor information.
-
-
-##### - CompletionFilter.REG_NOTIFY_CHANGE_LAST_SET
-
-Notify the caller of changes to a value of the key. This can include adding or deleting a value, or changing an existing value. (The caller receives no notification if the new value written to the key matches the previous value of the key.)
-
-
-##### - CompletionFilter.REG_NOTIFY_CHANGE_SECURITY
-
-Notify the caller of changes to the security descriptor of the key.
-
-
-##### - CompletionFilter.REG_NOTIFY_CHANGE_NAME
-
-Notify the caller if a subkey is added or deleted.
-
-
 ## -returns
 
 
@@ -179,17 +179,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
 <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
 
  
 

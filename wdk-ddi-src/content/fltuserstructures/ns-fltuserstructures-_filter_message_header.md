@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_MESSAGE_HEADER
-title: _FILTER_MESSAGE_HEADER
+title: "_FILTER_MESSAGE_HEADER"
 author: windows-driver-content
 description: The FILTER_MESSAGE_HEADER structure contains message header information.
 old-location: ifsk\filter_message_header.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PFILTER_MESSAGE_HEADER, _FILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], ifsk.filter_message_header, fltuserstructures/PFILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml
+ms.keywords: fltuserstructures/FILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header, _FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, *PFILTER_MESSAGE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltuserstructures.h
-apiname: 
+apiname:
 -	FILTER_MESSAGE_HEADER
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_LIST
-title: _PHYSICAL_COUNTER_RESOURCE_LIST
+title: "_PHYSICAL_COUNTER_RESOURCE_LIST"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_LIST structure describes an array of PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structures.
 old-location: kernel\physical_counter_resource_list.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8b22839-6a5d-48e2-a0e5-dae811d729ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, PHYSICAL_COUNTER_RESOURCE_LIST, _PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml
+ms.keywords: kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml, ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST, _PHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PHYSICAL_COUNTER_RESOURCE_LIST
 product: Windows
 targetos: Windows

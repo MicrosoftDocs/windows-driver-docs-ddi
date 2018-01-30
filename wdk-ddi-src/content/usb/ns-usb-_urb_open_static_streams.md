@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_OPEN_STATIC_STREAMS
-title: _URB_OPEN_STATIC_STREAMS
+title: "_URB_OPEN_STATIC_STREAMS"
 author: windows-driver-content
 description: The _URB_OPEN_STATIC_STREAMS structure is used by a USB client driver to open streams in the specified bulk endpoint.
 old-location: buses\_urb_open_basic_streams.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B3C329D6-541B-410D-A9AB-AF91F1141DFD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/_URB_OPEN_STATIC_STREAMS, buses._urb_open_basic_streams, _URB_OPEN_STATIC_STREAMS structure [Buses], _URB_OPEN_STATIC_STREAMS
+ms.keywords: "_URB_OPEN_STATIC_STREAMS structure [Buses], buses._urb_open_basic_streams, usb/_URB_OPEN_STATIC_STREAMS, _URB_OPEN_STATIC_STREAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usb.h
-apiname: 
+apiname:
 -	_URB_OPEN_STATIC_STREAMS
 product: Windows
 targetos: Windows
@@ -132,13 +132,13 @@ When the client driver is finished using the streams, the driver can close all s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

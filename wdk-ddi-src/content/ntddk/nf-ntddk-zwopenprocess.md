@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 261d7676-9ce7-4e15-a58f-0439434f202b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenProcess, k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, ZwOpenProcess routine [Kernel-Mode Driver Architecture], ntddk/ZwOpenProcess, kernel.zwopenprocess, ntddk/NtOpenProcess, NtOpenProcess
+ms.keywords: kernel.zwopenprocess, k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, ZwOpenProcess, NtOpenProcess, ntddk/NtOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], ntddk/ZwOpenProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenProcess
 -	NtOpenProcess
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # ZwOpenProcess function
@@ -160,9 +160,9 @@ In Windows Server 2003, Windows XP, and Windows 2000, the caller has the option 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 

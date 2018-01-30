@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, storage.changerclassinitialize, mcd/ChangerClassInitialize, ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices]
+ms.keywords: ChangerClassInitialize routine [Storage Devices], storage.changerclassinitialize, ChangerClassInitialize, mcd/ChangerClassInitialize, chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+apiname:
 -	ChangerClassInitialize
 product: Windows
 targetos: Windows

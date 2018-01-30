@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2dcb7703-df66-4795-bf59-d0851c4ccf0f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdBySystemId method, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2::GetThreadIdBySystemId, dbgeng/IDebugSystemObjects::GetThreadIdBySystemId, IDebugSystemObjects interface [Windows Debugging], GetThreadIdBySystemId method, dbgeng/IDebugSystemObjects2::GetThreadIdBySystemId, IDebugSystemObjects4, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetThreadIdBySystemId, IDebugSystemObjects_d9c3c65f-9078-4be8-b301-dddc789cd8b0.xml, IDebugSystemObjects::GetThreadIdBySystemId, GetThreadIdBySystemId method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetThreadIdBySystemId, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdBySystemId method, GetThreadIdBySystemId, debugger.getthreadidbysystemid, dbgeng/IDebugSystemObjects4::GetThreadIdBySystemId, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdBySystemId method, IDebugSystemObjects4::GetThreadIdBySystemId
+ms.keywords: IDebugSystemObjects_d9c3c65f-9078-4be8-b301-dddc789cd8b0.xml, IDebugSystemObjects2::GetThreadIdBySystemId, IDebugSystemObjects interface [Windows Debugging], GetThreadIdBySystemId method, dbgeng/IDebugSystemObjects::GetThreadIdBySystemId, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdBySystemId method, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdBySystemId method, IDebugSystemObjects::GetThreadIdBySystemId, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetThreadIdBySystemId, dbgeng/IDebugSystemObjects3::GetThreadIdBySystemId, IDebugSystemObjects3::GetThreadIdBySystemId, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects2::GetThreadIdBySystemId, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetThreadIdBySystemId, GetThreadIdBySystemId method [Windows Debugging], debugger.getthreadidbysystemid, GetThreadIdBySystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdBySystemId method, IDebugSystemObjects4::GetThreadIdBySystemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetThreadIdBySystemId
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetThreadIdBySystemId method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, print.iprintcoreui2_querysimulationsupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport
+ms.keywords: IPrintCoreUI2, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, print.iprintcoreui2_querysimulationsupport, QuerySimulationSupport method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.QuerySimulationSupport
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

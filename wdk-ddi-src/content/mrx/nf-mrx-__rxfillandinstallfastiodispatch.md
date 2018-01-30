@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.__RxFillAndInstallFastIoDispatch
-title: __RxFillAndInstallFastIoDispatch function
+title: "__RxFillAndInstallFastIoDispatch function"
 author: windows-driver-content
 description: RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
 old-location: ifsk\__rxfillandinstallfastiodispatch.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: __RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch
+ms.keywords: mrx/__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, __RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mrx.h
-apiname: 
+apiname:
 -	__RxFillAndInstallFastIoDispatch
 product: Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: "*PSetDSMCounters_IN, SetDSMCounters_IN"
 ---
 
 # __RxFillAndInstallFastIoDispatch function
@@ -104,13 +104,13 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
 <a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
  
 

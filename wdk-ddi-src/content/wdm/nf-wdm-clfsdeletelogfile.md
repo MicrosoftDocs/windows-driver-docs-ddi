@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8c90199-e938-45bb-9356-48591e127eed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], wdm/ClfsDeleteLogFile, ClfsDeleteLogFile, kernel.clfsdeletelogfile, Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml
+ms.keywords: Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, wdm/ClfsDeleteLogFile, ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], kernel.clfsdeletelogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsDeleteLogFile
 product: Windows
 targetos: Windows
@@ -129,13 +129,13 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
-
 <a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
 
 <a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
 
  
 

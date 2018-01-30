@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO_V1
-title: _DMA_TRANSFER_INFO_V1
+title: "_DMA_TRANSFER_INFO_V1"
 author: windows-driver-content
 description: The DMA_TRANSFER_INFO_V1 structure contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 old-location: kernel\dma_transfer_info_v1.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01EAF66D-F4E8-4D0F-A52C-900EF338FCA1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ DMA_ TRANSFER _INFO_V1, _DMA_TRANSFER_INFO_V1, DMA_ TRANSFER _INFO_V1 structure [Kernel-Mode Driver Architecture], wdm/PDMA_ TRANSFER _INFO_V1, PDMA_ TRANSFER _INFO_V1, PDMA_ TRANSFER _INFO_V1 structure pointer [Kernel-Mode Driver Architecture], *PDMA_TRANSFER_INFO_V1, DMA_TRANSFER_INFO_V1, DMA_TRANSFER_INFO_V1 structure [Kernel-Mode Driver Architecture], kernel.dma_transfer_info_v1, DMA_ TRANSFER _INFO_V1
+ms.keywords: PDMA_ TRANSFER _INFO_V1 structure pointer [Kernel-Mode Driver Architecture], *PDMA_TRANSFER_INFO_V1, PDMA_ TRANSFER _INFO_V1, DMA_TRANSFER_INFO_V1, DMA_TRANSFER_INFO_V1 structure [Kernel-Mode Driver Architecture], wdm/ DMA_ TRANSFER _INFO_V1, kernel.dma_transfer_info_v1, DMA_ TRANSFER _INFO_V1 structure [Kernel-Mode Driver Architecture], DMA_ TRANSFER _INFO_V1, wdm/PDMA_ TRANSFER _INFO_V1, _DMA_TRANSFER_INFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DMA_ TRANSFER _INFO_V1
 product: Windows
 targetos: Windows
-req.typenames: DMA_TRANSFER_INFO_V1, *PDMA_TRANSFER_INFO_V1
+req.typenames: "*PDMA_TRANSFER_INFO_V1, DMA_TRANSFER_INFO_V1"
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,11 @@ The <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters to the <a href="..\w
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_transfer_info.md">DMA_TRANSFER_INFO</a>
-
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 <a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+<a href="..\wdm\ns-wdm-_dma_transfer_info.md">DMA_TRANSFER_INFO</a>
 
  
 

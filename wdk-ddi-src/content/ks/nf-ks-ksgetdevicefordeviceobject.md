@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2fe72d9d-1423-4db9-be38-f2bca7dbc56d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject function [Streaming Media Devices], avfunc_2bc27061-02ce-488f-94b4-087e9f264614.xml, stream.ksgetdevicefordeviceobject
+ms.keywords: avfunc_2bc27061-02ce-488f-94b4-087e9f264614.xml, ks/KsGetDeviceForDeviceObject, stream.ksgetdevicefordeviceobject, KsGetDeviceForDeviceObject function [Streaming Media Devices], KsGetDeviceForDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetDeviceForDeviceObject
 product: Windows
 targetos: Windows
@@ -82,13 +82,13 @@ A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
-
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+<a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
 
  
 

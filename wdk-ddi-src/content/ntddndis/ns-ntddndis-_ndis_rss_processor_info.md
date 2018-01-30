@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_PROCESSOR_INFO
-title: _NDIS_RSS_PROCESSOR_INFO
+title: "_NDIS_RSS_PROCESSOR_INFO"
 author: windows-driver-content
 description: The NDIS_RSS_PROCESSOR_INFO structure specifies information about the CPU receive side scaling (RSS) processor set on the local computer.
 old-location: netvista\ndis_rss_processor_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f40a815-0247-428c-a46f-d3cdbf7e8058
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO, *PNDIS_RSS_PROCESSOR_INFO, _NDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RSS_PROCESSOR_INFO, ntddndis/NDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, netvista.ndis_rss_processor_info
+ms.keywords: NDIS_RSS_PROCESSOR_INFO, _NDIS_RSS_PROCESSOR_INFO, netvista.ndis_rss_processor_info, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO, ntddndis/NDIS_RSS_PROCESSOR_INFO, ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, ntddndis/PNDIS_RSS_PROCESSOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RSS_PROCESSOR_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RSS_PROCESSOR_INFO, *PNDIS_RSS_PROCESSOR_INFO
+req.typenames: "*PNDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO"
 ---
 
 # _NDIS_RSS_PROCESSOR_INFO structure
@@ -180,14 +180,14 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+
 <mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
    NdisGetRssProcessorInformation</b></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

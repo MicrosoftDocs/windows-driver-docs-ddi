@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PRIVILEGE_SET
-title: _PRIVILEGE_SET
+title: "_PRIVILEGE_SET"
 author: windows-driver-content
 description: The PRIVILEGE_SET structure specifies a set of security privileges. For more information, see the reference page for PRIVILEGE_SET in the Microsoft Windows SDK documentation.
 old-location: kernel\privilege_set.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d5c8c4f-78f4-4e98-9e76-a9896b5c9124
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, _PRIVILEGE_SET, kernel.privilege_set, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], PRIVILEGE_SET, wdm/PPRIVILEGE_SET, PPRIVILEGE_SET, *PPRIVILEGE_SET, wdm/PNP_BUS_INFORMATION
+ms.keywords: wdm/PPRIVILEGE_SET, PPRIVILEGE_SET, _PRIVILEGE_SET, *PPRIVILEGE_SET, PRIVILEGE_SET, kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, wdm/PNP_BUS_INFORMATION, kernel.privilege_set, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], PRIVILEGE_SET structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PRIVILEGE_SET
 product: Windows
 targetos: Windows
-req.typenames: PRIVILEGE_SET, *PPRIVILEGE_SET
+req.typenames: "*PPRIVILEGE_SET, PRIVILEGE_SET"
 req.product: Windows 10 or later.
 ---
 

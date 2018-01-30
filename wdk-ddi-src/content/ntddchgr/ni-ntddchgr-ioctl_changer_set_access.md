@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddchgr.h
-apiname: 
+apiname:
 -	IOCTL_CHANGER_SET_ACCESS
 product: Windows
 targetos: Windows
@@ -107,9 +107,9 @@ The <b>Information</b> field is set to the number of bytes set. The <b>Status</b
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_set_access.md">CHANGER_SET_ACCESS</a>
+
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
 
  
 

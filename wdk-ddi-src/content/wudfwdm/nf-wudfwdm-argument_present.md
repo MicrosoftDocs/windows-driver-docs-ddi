@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, wudfwdm/ARGUMENT_PRESENT, ARGUMENT_PRESENT, kernel.argument_present, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture]
+ms.keywords: k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], ARGUMENT_PRESENT, kernel.argument_present, wudfwdm/ARGUMENT_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfwdm.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfwdm.h
-apiname: 
+apiname:
 -	ARGUMENT_PRESENT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

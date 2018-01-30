@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9b5b9cdf-06a9-410f-87c3-b87318c25a11
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Initialize method [Sensor Devices], ISensorClassExtension, sensors.isensorclassextension_initialize, ISensorClassExtension::Initialize, Initialize
+ms.keywords: sensors.isensorclassextension_initialize, Initialize method [Sensor Devices], Initialize, ISensorClassExtension::Initialize, ISensorClassExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	Initialize
 product: Windows
 targetos: Windows

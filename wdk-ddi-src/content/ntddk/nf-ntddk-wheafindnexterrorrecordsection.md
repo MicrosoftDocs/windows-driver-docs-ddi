@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 36a0ca45-2601-4b7f-9f2b-35e2a7047520
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.wheafindnexterrorrecordsection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml, WheaFindNextErrorRecordSection, ntddk/WheaFindNextErrorRecordSection
+ms.keywords: whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml, ntddk/WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], whea.wheafindnexterrorrecordsection, WheaFindNextErrorRecordSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WheaFindNextErrorRecordSection
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # WheaFindNextErrorRecordSection function
@@ -154,13 +154,13 @@ The format of the hardware error data depends upon the <b>SectionType </b>member
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
  
 

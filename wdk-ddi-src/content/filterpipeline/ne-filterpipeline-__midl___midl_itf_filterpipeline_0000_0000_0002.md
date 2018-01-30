@@ -1,6 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0002
-title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0002
+title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0002"
 author: windows-driver-content
 description: The EXpsFontOptions enumeration describes the font options for an XPS part.
 old-location: print\expsfontoptions.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, EXpsFontOptions enumeration [Print Devices], __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/Font_Obfusticate, print.expsfontoptions, filterpipeline/EXpsFontOptions, Font_Normal, filterpipeline/Font_Normal, EXpsFontOptions
+ms.keywords: filterpipeline/Font_Normal, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/Font_Obfusticate, Font_Obfusticate, print.expsfontoptions, filterpipeline/EXpsFontOptions, Font_Normal, EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	EXpsFontOptions
 product: Windows
 targetos: Windows

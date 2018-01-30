@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cebef749-f7f1-4a33-81fd-1d42da7afafe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetUiccServiceLock, netvista.ril_getuiccservicelock
+ms.keywords: RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, RIL_GetUiccServiceLock, rilapi/RIL_GetUiccServiceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetUiccServiceLock
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_LB_PROVISIONING_DESCRIPTOR
-title: _DEVICE_LB_PROVISIONING_DESCRIPTOR
+title: "_DEVICE_LB_PROVISIONING_DESCRIPTOR"
 author: windows-driver-content
 description: The DEVICE_LB_PROVISIONING_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request. This structure contains the thin provisioning capabilities for a storage device.
 old-location: storage\device_lb_provisioning_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PDEVICE_LB_PROVISIONING_DESCRIPTOR, _DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], storage.device_lb_provisioning_descriptor, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR
+ms.keywords: DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], storage.device_lb_provisioning_descriptor, _DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_LB_PROVISIONING_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR
+req.typenames: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR"
 ---
 
 # _DEVICE_LB_PROVISIONING_DESCRIPTOR structure
@@ -250,12 +250,12 @@ Maximum amount of LBAs that can be unmapped in a single UNMAP command, in units 
 Maximum number of descriptors allowed in a single UNMAP command. This is valid only in Windows 10 and above.
 
 
-#### - Reserverd1
+#### - Reserverd0
 
 Reserved.
 
 
-#### - Reserverd0
+#### - Reserverd1
 
 Reserved.
 
@@ -275,9 +275,9 @@ If the underlying storage device is a SCSI device, unmapping capability can be q
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
  
 

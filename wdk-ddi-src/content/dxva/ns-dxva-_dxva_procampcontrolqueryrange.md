@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 934b69cd-f54d-4706-bcb6-8d9e25ea3367
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange structure [Display Devices], LPDXVA_ProcAmpControlQueryRange, display.dxva_procampcontrolqueryrange, *LPDXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, dxva/DXVA_ProcAmpControlQueryRange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], _DXVA_ProcAmpControlQueryRange
+ms.keywords: LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], _DXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange structure [Display Devices], *LPDXVA_ProcAmpControlQueryRange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml, display.dxva_procampcontrolqueryrange, DXVA_ProcAmpControlQueryRange, dxva/DXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> stru
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
-
 <a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
+
+<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
 
  
 

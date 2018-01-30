@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_GET_SLOT_INFO
-title: _NDIS_WWAN_GET_SLOT_INFO
+title: "_NDIS_WWAN_GET_SLOT_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_GET_SLOT_INFO structure represents the status of a slot in the modem of the MB device.
 old-location: netvista\ndis_wwan_get_slot_info_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 214AFAD3-B211-4D66-8CFC-58F8EB407B83
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_GET_SLOT_INFO, ndiswwan/NDIS_WWAN_GET_SLOT_INFO, netvista.ndis_wwan_get_slot_info_status, NDIS_WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_GET_SLOT_INFO, PNDIS_WWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_SLOT_INFO, ndiswwan/PNDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO
+ms.keywords: PNDIS_WWAN_GET_SLOT_INFO, _NDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO, netvista.ndis_wwan_get_slot_info_status, PNDIS_WWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_GET_SLOT_INFO, ndiswwan/PNDIS_WWAN_GET_SLOT_INFO, NDIS_WWAN_GET_SLOT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_GET_SLOT_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_GET_SLOT_INFO, NDIS_WWAN_GET_SLOT_INFO
+req.typenames: NDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO
 ---
 
 # _NDIS_WWAN_GET_SLOT_INFO structure

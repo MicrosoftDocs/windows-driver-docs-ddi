@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1581cbfd-bdab-40ed-9978-f60ec220c17a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterdmachannel, ndis/NdisMDeregisterDmaChannel, dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel
+ms.keywords: dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDeregisterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMDeregisterDmaChannel function

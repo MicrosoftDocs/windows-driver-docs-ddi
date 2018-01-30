@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnattach._USBFN_ATTACH_ACTION
-title: _USBFN_ATTACH_ACTION
+title: "_USBFN_ATTACH_ACTION"
 author: windows-driver-content
 description: Defines the actions that the Universal Serial Bus (USB) function stack takes when a device is attached to a USB port.
 old-location: buses\usbfn_attach_action.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4470EBAB-6B1F-43D3-B036-F0DD07BC8321
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnattach/UsbfnProceedWithAttach, UsbfnPortDetected, buses.usbfn_attach_action, UsbfnPortDetectedNoCad, usbfnattach/UsbfnDetectProprietaryCharger, *PUSBFN_ATTACH_ACTION, usbfnattach/USBFN_ATTACH_ACTION, usbfnattach/UsbfnPortDetected, usbfnattach/UsbfnIgnoreAttach, USBFN_ATTACH_ACTION enumeration [Buses], usbfnattach/UsbfnPortDetectedNoCad, UsbfnProceedWithAttach, UsbfnDetectProprietaryCharger, UsbfnIgnoreAttach, _USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION
+ms.keywords: usbfnattach/UsbfnIgnoreAttach, UsbfnProceedWithAttach, USBFN_ATTACH_ACTION enumeration [Buses], usbfnattach/UsbfnPortDetected, USBFN_ATTACH_ACTION, usbfnattach/USBFN_ATTACH_ACTION, usbfnattach/UsbfnPortDetectedNoCad, UsbfnDetectProprietaryCharger, _USBFN_ATTACH_ACTION, buses.usbfn_attach_action, *PUSBFN_ATTACH_ACTION, UsbfnPortDetected, usbfnattach/UsbfnProceedWithAttach, UsbfnIgnoreAttach, UsbfnPortDetectedNoCad, usbfnattach/UsbfnDetectProprietaryCharger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnattach.h
-apiname: 
+apiname:
 -	USBFN_ATTACH_ACTION
 product: Windows
 targetos: Windows

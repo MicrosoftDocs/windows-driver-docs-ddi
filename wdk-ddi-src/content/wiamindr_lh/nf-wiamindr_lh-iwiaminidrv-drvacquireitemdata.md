@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ab49643b-ab77-49ea-9a3b-e3a184cd29d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv::drvAcquireItemData, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvacquireitemdata, IWiaMiniDrv
+ms.keywords: drvAcquireItemData method [Imaging Devices], IWiaMiniDrv::drvAcquireItemData, IWiaMiniDrv, image.iwiaminidrv_drvacquireitemdata, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvAcquireItemData
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -92,14 +92,9 @@ HRESULT drvAcquireItemData(
 
 
 
-#### - plDevErrVal [out]
+#### - pWiasContext [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
-#### - pmdtc [in, out]
-
-Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
+Pointer to a WIA item context.
 
 
 #### - lFlags [in]
@@ -107,9 +102,14 @@ Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md"
 Is currently unused. 
 
 
-#### - pWiasContext [in]
+#### - pmdtc [in, out]
 
-Pointer to a WIA item context.
+Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -200,13 +200,13 @@ Other error code
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
+<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

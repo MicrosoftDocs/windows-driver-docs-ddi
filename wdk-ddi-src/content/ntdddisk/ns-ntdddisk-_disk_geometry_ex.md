@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_GEOMETRY_EX
-title: _DISK_GEOMETRY_EX
+title: "_DISK_GEOMETRY_EX"
 author: windows-driver-content
 description: The DISK_GEOMETRY_EX structure is a variable-length structure composed of a DISK_GEOMETRY structure followed by a DISK_PARTITION_INFO structure followed, in turn, by a DISK_DETECTION_INFO structure.
 old-location: storage\disk_geometry_ex.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6397c0dd-4dc7-49fa-85a7-841f6c2b30d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, storage.disk_geometry_ex, ntdddisk/DISK_GEOMETRY_EX, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml, PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Storage Devices], PDISK_GEOMETRY_EX structure pointer [Storage Devices]
+ms.keywords: DISK_GEOMETRY_EX structure [Storage Devices], PDISK_GEOMETRY_EX, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml, _DISK_GEOMETRY_EX, ntdddisk/DISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX, storage.disk_geometry_ex, PDISK_GEOMETRY_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DISK_GEOMETRY_EX
 product: Windows
 targetos: Windows
@@ -111,13 +111,13 @@ Because the partition and detect information are not at fixed locations within t
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
 
  
 

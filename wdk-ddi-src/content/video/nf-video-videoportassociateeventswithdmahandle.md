@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8a64a06-41b9-429b-a5ac-6de4996c702b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, VideoPortAssociateEventsWithDmaHandle function [Display Devices], video/VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle, display.videoportassociateeventswithdmahandle
+ms.keywords: video/VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], display.videoportassociateeventswithdmahandle, VideoPortAssociateEventsWithDmaHandle, VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortAssociateEventsWithDmaHandle function

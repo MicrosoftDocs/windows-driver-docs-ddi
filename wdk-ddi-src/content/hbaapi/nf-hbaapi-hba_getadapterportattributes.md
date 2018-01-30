@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetAdapterPortAttributes, hbaapi/HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes, HBA_GetAdapterPortAttributes routine [Storage Devices], fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml
+ms.keywords: hbaapi/HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes, fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, HBA_GetAdapterPortAttributes routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetAdapterPortAttributes
 product: Windows
 targetos: Windows
@@ -105,11 +105,11 @@ The <b>HBA_GetAdapterPortAttributes</b> routine retrieves attributes for remote 
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
 <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

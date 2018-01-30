@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_IPSEC_DELETE_SA
-title: _OFFLOAD_IPSEC_DELETE_SA
+title: "_OFFLOAD_IPSEC_DELETE_SA"
 author: windows-driver-content
 description: The OFFLOAD_IPSEC_DELETE_SA structure contains information for each security association (SA) that a miniport driver deletes from a NIC.
 old-location: netvista\offload_ipsec_delete_sa.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8c34bf8-1f3a-4aa3-834b-5824402bd88c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OFFLOAD_IPSEC_DELETE_SA, ntddndis/POFFLOAD_IPSEC_DELETE_SA, 216offload_1e6bbc64-755a-4da3-a7d2-ce57c4b98ce6.xml, _OFFLOAD_IPSEC_DELETE_SA, POFFLOAD_IPSEC_DELETE_SA, ntddndis/OFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA structure [Network Drivers Starting with Windows Vista], *POFFLOAD_IPSEC_DELETE_SA, netvista.offload_ipsec_delete_sa, POFFLOAD_IPSEC_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_OFFLOAD_IPSEC_DELETE_SA, 216offload_1e6bbc64-755a-4da3-a7d2-ce57c4b98ce6.xml, netvista.offload_ipsec_delete_sa, POFFLOAD_IPSEC_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_IPSEC_DELETE_SA, *POFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA structure [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_IPSEC_DELETE_SA, POFFLOAD_IPSEC_DELETE_SA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	OFFLOAD_IPSEC_DELETE_SA
 product: Windows
 targetos: Windows

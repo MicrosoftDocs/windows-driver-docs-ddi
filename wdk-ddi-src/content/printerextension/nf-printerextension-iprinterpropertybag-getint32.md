@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AFB73FA6-0979-4CED-8AB9-9D0FDD6C37E8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterpropertybag_getint32, IPrinterPropertyBag::GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices], IPrinterPropertyBag interface, GetInt32, IPrinterPropertyBag interface [Print Devices], GetInt32 method, printerextension/IPrinterPropertyBag::GetInt32, IPrinterPropertyBag
+ms.keywords: GetInt32 method [Print Devices], IPrinterPropertyBag, GetInt32, GetInt32 method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices], GetInt32 method, print.iprinterpropertybag_getint32, printerextension/IPrinterPropertyBag::GetInt32, IPrinterPropertyBag::GetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterPropertyBag.GetInt32
 product: Windows
 targetos: Windows

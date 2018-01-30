@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0df0fcba-9ae8-4c69-957a-5685ea40c378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keinitializedevicequeue, k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, KeInitializeDeviceQueue, wdm/KeInitializeDeviceQueue, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeInitializeDeviceQueue, wdm/KeInitializeDeviceQueue, kernel.keinitializedevicequeue, k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeInitializeDeviceQueue
 product: Windows
 targetos: Windows
@@ -91,9 +91,9 @@ A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> ro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
-
 <a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 

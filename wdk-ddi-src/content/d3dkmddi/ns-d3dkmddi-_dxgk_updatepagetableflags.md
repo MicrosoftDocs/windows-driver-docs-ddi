@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_updatepagetableflags, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], _DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS
+ms.keywords: d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, _DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], DXGK_UPDATEPAGETABLEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

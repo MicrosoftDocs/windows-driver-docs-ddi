@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_KERNEL_INFORMATION_STRUCT_V1
-title: _PEP_KERNEL_INFORMATION_STRUCT_V1
+title: "_PEP_KERNEL_INFORMATION_STRUCT_V1"
 author: windows-driver-content
 description: The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx).
 old-location: kernel\pep_kernel_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4FBBEF08-3BDA-43B2-A05B-B6BFC2787FC6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_KERNEL_INFORMATION, PPEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PEP_KERNEL_INFORMATION, _PEP_KERNEL_INFORMATION_STRUCT_V1, kernel.pep_kernel_information, PEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1 structure pointer [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION_STRUCT_V1 structure [Kernel-Mode Driver Architecture], pep_x/PPEP_KERNEL_INFORMATION_STRUCT_V1, *PPEP_KERNEL_INFORMATION, *PPEP_KERNEL_INFORMATION_STRUCT_V1
+ms.keywords: PEP_KERNEL_INFORMATION_STRUCT_V1, _PEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PEP_KERNEL_INFORMATION, *PPEP_KERNEL_INFORMATION_STRUCT_V1, *PPEP_KERNEL_INFORMATION, pep_x/PPEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION, PEP_KERNEL_INFORMATION_STRUCT_V1 structure [Kernel-Mode Driver Architecture], pep_x/PEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1 structure pointer [Kernel-Mode Driver Architecture], kernel.pep_kernel_information, PEP_KERNEL_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pep_x.h
-apiname: 
+apiname:
 -	PEP_KERNEL_INFORMATION_STRUCT_V1
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION_STRUCT_V1
+req.typenames: PEP_KERNEL_INFORMATION_STRUCT_V1, *PPEP_KERNEL_INFORMATION_STRUCT_V1
 ---
 
 # _PEP_KERNEL_INFORMATION_STRUCT_V1 structure
@@ -120,9 +120,19 @@ A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md">Reque
 A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a> routine. PoFx sets the value of this member. The <b>TransitionCriticalResource</b> routine is implemented by PoFx. The PEP calls this routine to transition critical system resources to the idle condition.
 
 
+#### - ProcessorIdleVeto
+
+A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a> routine. PoFx sets the value of this member. The <b>ProcessorIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
+
+
 #### - PlatformIdleVeto
 
 A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a> routine. PoFx sets the value of this member. The <b>PlatformIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a platform idle state.
+
+
+#### - UpdateProcessorIdleState
+
+A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a> routine. PoFx sets the value of this member. The <b>UpdateProcessorIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
 
 
 #### - UpdatePlatformIdleState
@@ -140,16 +150,6 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt1
 A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
 
 
-#### - UpdateProcessorIdleState
-
-A pointer to an <a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a> routine. PoFx sets the value of this member. The <b>UpdateProcessorIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
-
-
-#### - ProcessorIdleVeto
-
-A pointer to a <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a> routine. PoFx sets the value of this member. The <b>ProcessorIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
-
-
 ## -remarks
 
 
@@ -161,29 +161,29 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 <a href="..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md">ProcessorIdleVeto</a>
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a>
-
-<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md">RequestInterrupt</a>
-
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a>
-
-<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
-
 <a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
 
 <a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a>
+
+<a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md">TransitionCriticalResource</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md">UpdatePlatformIdleState</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md">RequestInterrupt</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md">RequestCommon</a>
+
+<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md">UpdateProcessorIdleState</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a>
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackrequestworker.md">RequestWorker</a>
 
  
 

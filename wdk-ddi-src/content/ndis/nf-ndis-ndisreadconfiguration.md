@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_STATUS_FAILURE, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NdisReadConfiguration, ndis/NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], NDIS_STATUS_SUCCESS, NDIS_STATUS_RESOURCES, netvista.ndisreadconfiguration
+ms.keywords: NDIS_STATUS_FAILURE, netvista.ndisreadconfiguration, ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NDIS_STATUS_SUCCESS, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], NdisReadConfiguration, NDIS_STATUS_RESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisReadConfiguration
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisReadConfiguration function
@@ -254,41 +254,41 @@ For more information about setup and installation files, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 <a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
 
-<mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
-   NdisUnicodeStringToAnsiString</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-
-<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
 <a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+
+<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
+   NdisAnsiStringToUnicodeString</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisopenconfigurationkeybyindex" tabindex="0"><b>
    NdisOpenConfigurationKeyByIndex</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
+<mshelp:link keywords="netvista.ndisunicodestringtoansistring" tabindex="0"><b>
+   NdisUnicodeStringToAnsiString</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
+
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
 <mshelp:link keywords="netvista.ndisopenconfigurationkeybyname" tabindex="0"><b>
    NdisOpenConfigurationKeyByName</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndisansistringtounicodestring" tabindex="0"><b>
-   NdisAnsiStringToUnicodeString</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
  
 

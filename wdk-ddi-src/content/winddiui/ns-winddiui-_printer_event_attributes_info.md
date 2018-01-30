@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._PRINTER_EVENT_ATTRIBUTES_INFO
-title: _PRINTER_EVENT_ATTRIBUTES_INFO
+title: "_PRINTER_EVENT_ATTRIBUTES_INFO"
 author: windows-driver-content
 description: The PRINTER_EVENT_ATTRIBUTES_INFO structure contains the former attributes and the new attributes for a printer.
 old-location: print\printer_event_attributes_info.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.printer_event_attributes_info, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], PPRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, _PRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO
+ms.keywords: "*PPRINTER_EVENT_ATTRIBUTES_INFO, winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], _PRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, PRINTER_EVENT_ATTRIBUTES_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	PRINTER_EVENT_ATTRIBUTES_INFO
 product: Windows
 targetos: Windows

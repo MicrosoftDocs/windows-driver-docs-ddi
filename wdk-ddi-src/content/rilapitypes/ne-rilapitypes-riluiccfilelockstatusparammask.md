@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 341e11bb-957b-4745-9892-f1274ff97f44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_UFLS_ALL, RIL_PARAM_UFLS_PINREFERENCE, rilapitypes/RIL_PARAM_UFLS_ALL, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UFLS_ACCESSCONDITION, RILUICCFILELOCKSTATUSPARAMMASK, RIL_PARAM_UFLS_ACCESSCONDITION, netvista.riluiccfilelockstatusparammask, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE
+ms.keywords: rilapitypes/RIL_PARAM_UFLS_ALL, RIL_PARAM_UFLS_PINREFERENCE, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE, rilapitypes/RIL_PARAM_UFLS_ACCESSCONDITION, RIL_PARAM_UFLS_ACCESSCONDITION, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, RIL_PARAM_UFLS_ALL, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILUICCFILELOCKSTATUSPARAMMASK, netvista.riluiccfilelockstatusparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCFILELOCKSTATUSPARAMMASK
 product: Windows
 targetos: Windows

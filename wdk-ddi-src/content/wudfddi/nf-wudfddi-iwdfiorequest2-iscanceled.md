@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IsCanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled, umdf.iwdfiorequest2_iscanceled, IWDFIoRequest2::IsCanceled, IsCanceled method, IWDFIoRequest2 interface, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, IWDFIoRequest2 interface, IsCanceled method, IWDFIoRequest2, IsCanceled method
+ms.keywords: wdf.iwdfiorequest2_iscanceled, IWDFIoRequest2, IWDFIoRequest2::IsCanceled, IsCanceled, IWDFIoRequest2 interface, IsCanceled method, wudfddi/IWDFIoRequest2::IsCanceled, IsCanceled method, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, umdf.iwdfiorequest2_iscanceled, IsCanceled method, IWDFIoRequest2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest2.IsCanceled
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -100,13 +100,13 @@ For more information about <b>IsCanceled</b>, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
  
 

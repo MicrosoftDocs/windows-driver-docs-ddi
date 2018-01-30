@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH_DIRECT_EX
-title: _SCSI_PASS_THROUGH_DIRECT_EX
+title: "_SCSI_PASS_THROUGH_DIRECT_EX"
 author: windows-driver-content
 description: The SCSI_PASS_THROUGH_DIRECT_EX structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_DIRECT_EX request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through_direct_ex.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FE699F78-99AC-46E0-9C51-6F69A5C4932C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], storage.scsi_pass_through_direct_ex, ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], PSCSI_PASS_THROUGH_DIRECT_EX, *PSCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX, _SCSI_PASS_THROUGH_DIRECT_EX
+ms.keywords: ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX, _SCSI_PASS_THROUGH_DIRECT_EX, *PSCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	SCSI_PASS_THROUGH_DIRECT_EX
 product: Windows
 targetos: Windows
@@ -116,6 +116,14 @@ Indicates the size in bytes of the request-sense buffer. This member is optional
 
 
 
+####  This field must have one of these values:
+
+
+
+#### 
+
+
+
 ### -field Reserved
 
 Reserved. Set to 0.
@@ -161,46 +169,6 @@ A pointer to a input data buffer.
 Specifies the SCSI command descriptor block to be sent to the target device.
 
 
-###### - DataDirection.Indicates whether the SCSI command will read data, write data, or both. This field must have one of these values:
-
-
-
-######### - DataDirection.Data Transfer Type
-Meaning
-
-
-
-SCSI_IOCTL_DATA_IN
-
-
-Read data from the device.
-
-
-
-
-SCSI_IOCTL_DATA_OUT
-
-
-Write data to the device.
-
-
-
-
-SCSI_IOCTL_DATA_UNSPECIFIED
-
-
-No data is transferred.
-
-
-
-
-SCSI_IOCTL_DATA_BIDIRECTIONAL
-
-
-Data is valid for both input and output.
-
-
-
 ## -remarks
 
 
@@ -210,13 +178,13 @@ The <b>SCSI_PASS_THROUGH_DIRECT_EX</b> structure is used with <a href="..\ntddsc
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
-
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
-
 <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
 
  
 

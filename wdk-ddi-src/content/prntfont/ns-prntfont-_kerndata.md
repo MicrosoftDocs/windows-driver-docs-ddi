@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._KERNDATA
-title: _KERNDATA
+title: "_KERNDATA"
 author: windows-driver-content
 description: The KERNDATA structure is used for describing printer kerning pairs.
 old-location: print\kerndata.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: KERNDATA, prntfont/KERNDATA, KERNDATA structure [Print Devices], PKERNDATA, print.kerndata, _KERNDATA, print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, *PKERNDATA, prntfont/PKERNDATA, PKERNDATA structure pointer [Print Devices]
+ms.keywords: prntfont/PKERNDATA, PKERNDATA structure pointer [Print Devices], KERNDATA structure [Print Devices], print.kerndata, print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, prntfont/KERNDATA, _KERNDATA, KERNDATA, *PKERNDATA, PKERNDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	KERNDATA
 product: Windows
 targetos: Windows
-req.typenames: *PKERNDATA, KERNDATA
+req.typenames: "*PKERNDATA, KERNDATA"
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,9 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a hre
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a>
+
+<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
 
  
 

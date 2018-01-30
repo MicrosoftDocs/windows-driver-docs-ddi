@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, RtlCaptureStackBackTrace
+ms.keywords: ntifs/RtlCaptureStackBackTrace, RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, ifsk.rtlcapturestackbacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtDll.dll
 -	NtosKrnl.exe
 -	API-MS-Win-Core-RTLSupport-l1-1-0.dll
 -	API-MS-Win-Core-RTLSupport-l1-2-0.dll
-apiname: 
+apiname:
 -	RtlCaptureStackBackTrace
 product: Windows
 targetos: Windows

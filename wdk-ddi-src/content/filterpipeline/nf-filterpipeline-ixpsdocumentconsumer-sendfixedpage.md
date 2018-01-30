@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ef11161d-5e73-44a8-b802-e3706b78950e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filterpipeline_fbf758b4-801f-4c68-879c-2820736e459e.xml, print.ixpsdocumentconsumer_sendfixedpage, IXpsDocumentConsumer::SendFixedPage, SendFixedPage, filterpipeline/IXpsDocumentConsumer::SendFixedPage, SendFixedPage method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendFixedPage method, SendFixedPage method [Print Devices]
+ms.keywords: IXpsDocumentConsumer::SendFixedPage, filterpipeline/IXpsDocumentConsumer::SendFixedPage, IXpsDocumentConsumer interface [Print Devices], SendFixedPage method, filterpipeline_fbf758b4-801f-4c68-879c-2820736e459e.xml, print.ixpsdocumentconsumer_sendfixedpage, IXpsDocumentConsumer, SendFixedPage method [Print Devices], SendFixedPage method [Print Devices], IXpsDocumentConsumer interface, SendFixedPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.SendFixedPage
 product: Windows
 targetos: Windows

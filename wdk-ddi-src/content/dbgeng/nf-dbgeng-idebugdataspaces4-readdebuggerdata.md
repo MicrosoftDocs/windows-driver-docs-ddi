@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 54e4d3b9-db9d-4844-938f-c8ca8819d182
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces3 interface, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadDebuggerData, IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces4 interface [Windows Debugging], ReadDebuggerData method, debugger.readdebuggerdata, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadDebuggerData, dbgeng/IDebugDataSpaces::ReadDebuggerData, ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces3::ReadDebuggerData, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, IDebugDataSpaces interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces2::ReadDebuggerData, IDebugDataSpaces3 interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces2 interface, ReadDebuggerData method [Windows Debugging], dbgeng/IDebugDataSpaces3::ReadDebuggerData
+ms.keywords: IDebugDataSpaces4::ReadDebuggerData, IDebugDataSpaces3::ReadDebuggerData, IDebugDataSpaces2 interface [Windows Debugging], ReadDebuggerData method, dbgeng/IDebugDataSpaces2::ReadDebuggerData, dbgeng/IDebugDataSpaces3::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, IDebugDataSpaces interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData, IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], ReadDebuggerData method, debugger.readdebuggerdata, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::ReadDebuggerData, ReadDebuggerData method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadDebuggerData
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadDebuggerData method

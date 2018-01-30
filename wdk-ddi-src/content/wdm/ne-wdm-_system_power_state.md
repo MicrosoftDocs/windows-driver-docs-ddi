@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._SYSTEM_POWER_STATE
-title: _SYSTEM_POWER_STATE
+title: "_SYSTEM_POWER_STATE"
 author: windows-driver-content
 description: The SYSTEM_POWER_STATE enumeration type is used to indicate a system power state.
 old-location: kernel\system_power_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerSystemSleeping3, PowerSystemUnspecified, kernel.system_power_state, wdm/PowerSystemShutdown, wdm/PowerSystemUnspecified, SYSTEM_POWER_STATE, wdm/PowerSystemHibernate, PowerSystemSleeping1, *PSYSTEM_POWER_STATE, PowerSystemSleeping2, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PowerSystemShutdown, wdm/PowerSystemMaximum, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, wdm/PowerSystemSleeping2, wdm/PSYSTEM_POWER_STATE, PowerSystemSleeping3, PSYSTEM_POWER_STATE, wdm/PowerSystemSleeping1, _SYSTEM_POWER_STATE, wdm/SYSTEM_POWER_STATE, PowerSystemWorking, wdm/PowerSystemWorking, PowerSystemMaximum
+ms.keywords: wdm/PowerSystemShutdown, PowerSystemUnspecified, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PowerSystemSleeping2, _SYSTEM_POWER_STATE, PowerSystemSleeping1, PowerSystemSleeping2, wdm/PowerSystemUnspecified, wdm/PowerSystemMaximum, wdm/PowerSystemSleeping3, kernel.system_power_state, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PowerSystemWorking, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PSYSTEM_POWER_STATE, wdm/SYSTEM_POWER_STATE, PowerSystemSleeping3, wdm/PowerSystemWorking, wdm/PowerSystemHibernate, SYSTEM_POWER_STATE, PowerSystemHibernate, wdm/PowerSystemSleeping1, PowerSystemShutdown, PowerSystemMaximum, PSYSTEM_POWER_STATE, wdm/PSYSTEM_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	SYSTEM_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
+req.typenames: "*PSYSTEM_POWER_STATE, SYSTEM_POWER_STATE"
 req.product: Windows 10 or later.
 ---
 

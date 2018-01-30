@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c82cfde4-f214-4722-8f59-d727ad5bfe7e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetPersoDeactivationState, netvista.ril_getpersodeactivationstate, rilapi/RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_getpersodeactivationstate, rilapi/RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetPersoDeactivationState
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

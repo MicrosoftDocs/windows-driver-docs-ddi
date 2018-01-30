@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writephysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical
+ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, dbgeng/WritePhysical, debugger.writephysical, WritePhysical, WritePhysical function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # WritePhysical function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tagPrintSchemaParameterDataType, PrintSchemaParameterDataType_String, PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType enumeration [Print Devices], print.tagprintschemaparameterdatatype, PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_String, printerextension/PrintSchemaParameterDataType_Integer
+ms.keywords: printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices], PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_String, tagPrintSchemaParameterDataType, PrintSchemaParameterDataType, PrintSchemaParameterDataType_String, PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_NumericString, print.tagprintschemaparameterdatatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	PrintSchemaParameterDataType
 product: Windows
 targetos: Windows

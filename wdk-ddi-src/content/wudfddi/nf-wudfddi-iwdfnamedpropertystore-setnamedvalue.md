@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1fd075c9-7d0e-4670-bac0-b7b8ba0a714f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFNamedPropertyStore::SetNamedValue, SetNamedValue, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, SetNamedValue method, IWDFNamedPropertyStore interface, umdf.iwdfnamedpropertystore_setnamedvalue, wdf.iwdfnamedpropertystore_setnamedvalue, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue method, IWDFNamedPropertyStore
+ms.keywords: IWDFNamedPropertyStore, SetNamedValue method, IWDFNamedPropertyStore interface, wdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue, umdf.iwdfnamedpropertystore_setnamedvalue, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, wudfddi/IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore interface, SetNamedValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFNamedPropertyStore.SetNamedValue
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

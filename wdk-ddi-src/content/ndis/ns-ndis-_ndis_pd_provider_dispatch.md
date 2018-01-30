@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_PROVIDER_DISPATCH
-title: _NDIS_PD_PROVIDER_DISPATCH
+title: "_NDIS_PD_PROVIDER_DISPATCH"
 author: windows-driver-content
 description: This structure is used as input for the OID_PD_OPEN_PROVIDER and serves as a container for all the provider's driver routines.
 old-location: netvista\ndis_pd_provider_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E93B8A07-7C06-470B-9B26-8D59C2685D2C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_PD_PROVIDER_DISPATCH, _NDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH, netvista.ndis_pd_provider_dispatch, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH
+ms.keywords: PNDIS_PD_PROVIDER_DISPATCH, ndis/PNDIS_PD_PROVIDER_DISPATCH, _NDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH, ndis/NDIS_PD_PROVIDER_DISPATCH, netvista.ndis_pd_provider_dispatch, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_PROVIDER_DISPATCH
 product: Windows
 targetos: Windows

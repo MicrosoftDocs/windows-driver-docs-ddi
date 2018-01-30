@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+title: "_PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_root_capabilities_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d4e6cc35-f6f1-4983-b4d6-2a524245fd15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml, _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+ms.keywords: pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml, *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+req.typenames: "*PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
 ---
 
 # _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure

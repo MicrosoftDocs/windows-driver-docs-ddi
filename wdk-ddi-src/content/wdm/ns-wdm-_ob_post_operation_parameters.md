@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_OPERATION_PARAMETERS
-title: _OB_POST_OPERATION_PARAMETERS
+title: "_OB_POST_OPERATION_PARAMETERS"
 author: windows-driver-content
 description: The OB_POST_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_parameters.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], kernel.ob_post_operation_parameters, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], *POB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, wdm/OB_POST_OPERATION_PARAMETERS, _OB_POST_OPERATION_PARAMETERS
+ms.keywords: POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], wdm/OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, wdm/POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, *POB_POST_OPERATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	OB_POST_OPERATION_PARAMETERS
 product: Windows
 targetos: Windows

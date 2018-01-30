@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetOptions method [Print Devices], IPrintCoreUI2 interface, SetOptions, SetOptions method [Print Devices], IPrintCoreUI2::SetOptions, print.iprintcoreui2_setoptions, IPrintCoreUI2 interface [Print Devices], SetOptions method, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml, IPrintCoreUI2, prcomoem/IPrintCoreUI2::SetOptions
+ms.keywords: prcomoem/IPrintCoreUI2::SetOptions, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml, SetOptions method [Print Devices], IPrintCoreUI2, SetOptions, IPrintCoreUI2 interface [Print Devices], SetOptions method, print.iprintcoreui2_setoptions, IPrintCoreUI2::SetOptions, SetOptions method [Print Devices], IPrintCoreUI2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.SetOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -243,13 +243,13 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553069">IPrintCoreUI2::GetOptions</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553069">IPrintCoreUI2::GetOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
  
 

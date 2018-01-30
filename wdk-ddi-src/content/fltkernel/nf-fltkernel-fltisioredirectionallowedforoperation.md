@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 601a155d-587f-47fc-960e-d1162eabd4b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowedForOperation, ifsk.fltisioredirectionallowedforoperation, FltIsIoRedirectionAllowedForOperation
+ms.keywords: ifsk.fltisioredirectionallowedforoperation, fltkernel/FltIsIoRedirectionAllowedForOperation, FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], FltIsIoRedirectionAllowedForOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltIsIoRedirectionAllowedForOperation
 product: Windows
 targetos: Windows
@@ -112,9 +112,9 @@ If <i>RedirectionAllowed</i> is <b>FALSE</b>, the minifilter needs to allocate a
 
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltadjustdevicestacksizeforioredirection.md">FltAdjustDeviceStackSizeForIoRedirection</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 

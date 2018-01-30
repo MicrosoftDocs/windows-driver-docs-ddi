@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbTargetPipe::Abort, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, wdf.iwdfusbtargetpipe_abort, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Abort method, umdf.iwdfusbtargetpipe_abort, Abort, Abort method, Abort method, IWDFUsbTargetPipe interface
+ms.keywords: UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, IWDFUsbTargetPipe, Abort, IWDFUsbTargetPipe::Abort, Abort method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort, Abort method, IWDFUsbTargetPipe interface, Abort method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetPipe.Abort
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -128,9 +128,9 @@ For more information about how <b>Abort</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a>
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a>
 
  
 

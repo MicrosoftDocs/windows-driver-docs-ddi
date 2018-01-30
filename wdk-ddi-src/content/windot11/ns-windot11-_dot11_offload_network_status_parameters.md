@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
-title: _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
+title: "_DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS"
 author: windows-driver-content
 description: The DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure indicates the success of the discovery of networks in the offload list.
 old-location: netvista\dot11_offload_network_status_parameters.htm
@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: 4A911BFF-5515-4E51-953D-86CECA123DA0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, netvista.dot11_offload_network_status_parameters, *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, windot11/DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, netvista.dot11_offload_network_status_parameters, windot11/PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
+req.typenames: "*PDOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS, DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 

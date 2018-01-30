@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], TTDownloadMethod method, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, print.iprintoemuni_ttdownloadmethod, prcomoem/IPrintOemUni::TTDownloadMethod, TTDownloadMethod method [Print Devices], IPrintOemUni interface, IPrintOemUni::TTDownloadMethod, TTDownloadMethod method [Print Devices], TTDownloadMethod
+ms.keywords: IPrintOemUni::TTDownloadMethod, prcomoem/IPrintOemUni::TTDownloadMethod, TTDownloadMethod, IPrintOemUni interface [Print Devices], TTDownloadMethod method, print.iprintoemuni_ttdownloadmethod, TTDownloadMethod method [Print Devices], print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, IPrintOemUni, TTDownloadMethod method [Print Devices], IPrintOemUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.TTDownloadMethod
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -196,11 +196,11 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566001">FONTOBJ_pvTrueTypeFontFile</a>
-
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
 
  
 

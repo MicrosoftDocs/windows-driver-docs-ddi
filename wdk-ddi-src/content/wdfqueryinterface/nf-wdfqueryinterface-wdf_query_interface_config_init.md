@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG_INIT, DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, kmdf.wdf_query_interface_config_init, wdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT function, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
+ms.keywords: DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT, wdf.wdf_query_interface_config_init, kmdf.wdf_query_interface_config_init, WDF_QUERY_INTERFACE_CONFIG_INIT, WDF_QUERY_INTERFACE_CONFIG_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfqueryinterface.h
-apiname: 
+apiname:
 -	WDF_QUERY_INTERFACE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
+req.typenames: "*PWDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 

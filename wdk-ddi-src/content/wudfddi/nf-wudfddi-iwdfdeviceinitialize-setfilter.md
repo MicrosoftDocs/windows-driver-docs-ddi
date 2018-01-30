@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDeviceInitialize::SetFilter, IWDFDeviceInitialize interface, SetFilter method, umdf.iwdfdeviceinitialize_setfilter, SetFilter method, SetFilter, SetFilter method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, wdf.iwdfdeviceinitialize_setfilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, IWDFDeviceInitialize::SetFilter
+ms.keywords: umdf.iwdfdeviceinitialize_setfilter, SetFilter method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::SetFilter, IWDFDeviceInitialize, SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, IWDFDeviceInitialize interface, SetFilter method, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter, SetFilter method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDeviceInitialize.SetFilter
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

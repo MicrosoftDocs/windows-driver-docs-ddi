@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxendpointnopingresponseerror, UcxEndpointNoPingResponseError, ucxendpoint/UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses]
+ms.keywords: UcxEndpointNoPingResponseError method [Buses], UcxEndpointNoPingResponseError, ucxendpoint/UcxEndpointNoPingResponseError, buses._ucxendpointnopingresponseerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxEndpointNoPingResponseError
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, VerifyUserKeyword, audio.ikeyworddetectoroemadapter_verifyuserkeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices]
+ms.keywords: keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword, audio.ikeyworddetectoroemadapter_verifyuserkeyword, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices], VerifyUserKeyword method, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -205,9 +205,9 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 <a href="..\keyworddetectoroemadapter\ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002.md">KEYWORDID</a>
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
 <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUI::CommonUIProp, CommonUIProp method [Print Devices], print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml, CommonUIProp, print.iprintoemui_commonuiprop, IPrintOemUI::CommonUIProp, IPrintOemUI, CommonUIProp method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], CommonUIProp method
+ms.keywords: prcomoem/IPrintOemUI::CommonUIProp, IPrintOemUI::CommonUIProp, IPrintOemUI, CommonUIProp method [Print Devices], CommonUIProp, print.iprintoemui_commonuiprop, IPrintOemUI interface [Print Devices], CommonUIProp method, CommonUIProp method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.CommonUIProp
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

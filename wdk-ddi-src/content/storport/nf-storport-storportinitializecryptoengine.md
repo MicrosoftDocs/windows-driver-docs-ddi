@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 49F4EEA1-BFA6-4A91-8306-E25569C679A6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeCryptoEngine, storport/StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storage.storportinitializecryptoengine
+ms.keywords: StorPortInitializeCryptoEngine routine [Storage Devices], StorPortInitializeCryptoEngine, storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortInitializeCryptoEngine
 product: Windows
 targetos: Windows

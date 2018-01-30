@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdpcwdmgetdpc, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, wdf.wdfdpcwdmgetdpc, PFN_WDFDPCWDMGETDPC, wdfdpc/WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, WdfDpcWdmGetDpc
+ms.keywords: kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, PFN_WDFDPCWDMGETDPC, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc method, WdfDpcWdmGetDpc, wdfdpc/WdfDpcWdmGetDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDpcWdmGetDpc
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -100,11 +100,11 @@ The pointer that <b>WdfDpcWdmGetDpc</b> returns is valid until the framework DPC
 
 ## -see-also
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
-
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 

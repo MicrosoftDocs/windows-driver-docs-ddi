@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.PCAPTURE_MEMORY_ALLOCATION_FLAGS
-title: *PCAPTURE_MEMORY_ALLOCATION_FLAGS
+title: "*PCAPTURE_MEMORY_ALLOCATION_FLAGS"
 author: windows-driver-content
 description: The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces to which AVStream minidrivers can capture audio and video data.
 old-location: stream\capture_memory_allocation_flags.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3b96301a-28a5-494b-bd12-8d3d4516730e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_CAPTURE_ALLOC_INVALID, stream.capture_memory_allocation_flags, ksmedia/KS_CAPTURE_ALLOC_SYSTEM_AGP, KS_CAPTURE_ALLOC_SYSTEM_AGP, KS_CAPTURE_ALLOC_VRAM_MAPPED, ksmedia/KS_CAPTURE_ALLOC_SYSTEM, *PCAPTURE_MEMORY_ALLOCATION_FLAGS, CAPTURE_MEMORY_ALLOCATION_FLAGS, ksmedia/CAPTURE_MEMORY_ALLOCATION_FLAGS, PCAPTURE_MEMORY_ALLOCATION_FLAGS, KS_CAPTURE_ALLOC_SYSTEM, ksmedia/KS_CAPTURE_ALLOC_VRAM, KS_CAPTURE_ALLOC_VRAM, ksmedia/KS_CAPTURE_ALLOC_VRAM_MAPPED, PCAPTURE_MEMORY_ALLOCATION_FLAGS enumeration pointer [Streaming Media Devices], CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration [Streaming Media Devices], ksmedia/PCAPTURE_MEMORY_ALLOCATION_FLAGS, avstruct_2c1411b2-f4a6-44f9-ba68-63f2f5654105.xml, ksmedia/KS_CAPTURE_ALLOC_INVALID
+ms.keywords: CAPTURE_MEMORY_ALLOCATION_FLAGS, ksmedia/CAPTURE_MEMORY_ALLOCATION_FLAGS, KS_CAPTURE_ALLOC_INVALID, ksmedia/KS_CAPTURE_ALLOC_SYSTEM, KS_CAPTURE_ALLOC_VRAM_MAPPED, ksmedia/KS_CAPTURE_ALLOC_VRAM_MAPPED, PCAPTURE_MEMORY_ALLOCATION_FLAGS enumeration pointer [Streaming Media Devices], KS_CAPTURE_ALLOC_SYSTEM, ksmedia/PCAPTURE_MEMORY_ALLOCATION_FLAGS, ksmedia/KS_CAPTURE_ALLOC_SYSTEM_AGP, *PCAPTURE_MEMORY_ALLOCATION_FLAGS, avstruct_2c1411b2-f4a6-44f9-ba68-63f2f5654105.xml, ksmedia/KS_CAPTURE_ALLOC_VRAM, PCAPTURE_MEMORY_ALLOCATION_FLAGS, stream.capture_memory_allocation_flags, KS_CAPTURE_ALLOC_VRAM, CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration [Streaming Media Devices], KS_CAPTURE_ALLOC_SYSTEM_AGP, ksmedia/KS_CAPTURE_ALLOC_INVALID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	CAPTURE_MEMORY_ALLOCATION_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: CAPTURE_MEMORY_ALLOCATION_FLAGS, *PCAPTURE_MEMORY_ALLOCATION_FLAGS
+req.typenames: "*PCAPTURE_MEMORY_ALLOCATION_FLAGS, CAPTURE_MEMORY_ALLOCATION_FLAGS"
 ---
 
 # *PCAPTURE_MEMORY_ALLOCATION_FLAGS enumeration
@@ -103,9 +103,9 @@ Not currently supported.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565130">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565209">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565130">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a>
 
  
 

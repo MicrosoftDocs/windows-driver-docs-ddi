@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_DISPATCH
-title: _WSK_CLIENT_DISPATCH
+title: "_WSK_CLIENT_DISPATCH"
 author: windows-driver-content
 description: The WSK_CLIENT_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for events that are not specific to a particular socket.
 old-location: netvista\wsk_client_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6a6116b0-2070-4b46-8359-3c84529cd1c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_CLIENT_DISPATCH structure [Network Drivers Starting with Windows Vista], wsk/PWSK_CLIENT_DISPATCH, _WSK_CLIENT_DISPATCH, wsk/WSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH, *PWSK_CLIENT_DISPATCH, netvista.wsk_client_dispatch, PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wskref_59bad29c-be6f-4a0d-8bf6-7112cd2c8855.xml
+ms.keywords: netvista.wsk_client_dispatch, PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wskref_59bad29c-be6f-4a0d-8bf6-7112cd2c8855.xml, wsk/PWSK_CLIENT_DISPATCH, _WSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH, wsk/WSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH structure [Network Drivers Starting with Windows Vista], *PWSK_CLIENT_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_CLIENT_DISPATCH
 product: Windows
 targetos: Windows
@@ -134,13 +134,13 @@ Minor = WSK_MINOR_VERSION(Version);</pre>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_client_event.md">WskClientEvent</a>
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_client_event.md">WskClientEvent</a>
 
  
 

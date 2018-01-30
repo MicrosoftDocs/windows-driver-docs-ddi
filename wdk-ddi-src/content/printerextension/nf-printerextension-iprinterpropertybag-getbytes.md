@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F75E182D-90FA-4597-95E0-60A6326CF68D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprinterpropertybag_getbytes, IPrinterPropertyBag interface [Print Devices], GetBytes method, printerextension/IPrinterPropertyBag::GetBytes, GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag
+ms.keywords: GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag, print.iprinterpropertybag_getbytes, IPrinterPropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices], GetBytes method, printerextension/IPrinterPropertyBag::GetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterPropertyBag.GetBytes
 product: Windows
 targetos: Windows

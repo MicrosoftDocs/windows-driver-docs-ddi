@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._LOCK_STATE
-title: _LOCK_STATE
+title: "_LOCK_STATE"
 author: windows-driver-content
 description: The LOCK_STATE structure tracks the state of a read/write lock.
 old-location: netvista\lock_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d23c7824-b2ab-4316-8d4c-474619a22223
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PLOCK_STATE, ndis/LOCK_STATE, ndis/PLOCK_STATE, *PLOCK_STATE, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], LOCK_STATE, netvista.lock_state, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, _LOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.lock_state, LOCK_STATE structure [Network Drivers Starting with Windows Vista], ndis/LOCK_STATE, LOCK_STATE, _LOCK_STATE, PLOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], *PLOCK_STATE, ndis/PLOCK_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	LOCK_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PLOCK_STATE, LOCK_STATE
+req.typenames: "*PLOCK_STATE, LOCK_STATE"
 ---
 
 # _LOCK_STATE structure

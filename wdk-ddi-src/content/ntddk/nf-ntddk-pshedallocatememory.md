@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e489601e-b016-4681-97a0-78f42004909f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, PshedAllocateMemory function [WHEA Drivers and Applications], PshedAllocateMemory, whea.pshedallocatememory, ntddk/PshedAllocateMemory
+ms.keywords: ntddk/PshedAllocateMemory, whea.pshedallocatememory, PshedAllocateMemory function [WHEA Drivers and Applications], whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, PshedAllocateMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: Pshed.lib
 req.dll: Pshed.dll
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Pshed.dll
-apiname: 
+apiname:
 -	PshedAllocateMemory
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PshedAllocateMemory function

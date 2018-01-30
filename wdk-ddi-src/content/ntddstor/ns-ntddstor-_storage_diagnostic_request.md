@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DIAGNOSTIC_REQUEST
-title: _STORAGE_DIAGNOSTIC_REQUEST
+title: "_STORAGE_DIAGNOSTIC_REQUEST"
 author: windows-driver-content
 description: Describes a diagnostic request about the storage driver stack. The STORAGE_DIAGNOSTIC_REQUEST structure is provided in the input buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_request.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BAC83B5C-4F14-430D-9CEF-46812FC4DFED
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSTORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST, _STORAGE_DIAGNOSTIC_REQUEST, ntddstor/STORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], PSTORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST
+ms.keywords: PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_REQUEST, *PSTORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/STORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST, _STORAGE_DIAGNOSTIC_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_DIAGNOSTIC_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DIAGNOSTIC_REQUEST, *PSTORAGE_DIAGNOSTIC_REQUEST
+req.typenames: "*PSTORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST"
 ---
 
 # _STORAGE_DIAGNOSTIC_REQUEST structure
@@ -98,13 +98,13 @@ Specifies the Diagnostic level. See definitions for <a href="..\ntddstor\ne-ntdd
 
 ## -see-also
 
-<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>
-
-<a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_data.md">STORAGE_DIAGNOSTIC_DATA</a>
+<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
 
 <a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a>
 
-<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>
+
+<a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_data.md">STORAGE_DIAGNOSTIC_DATA</a>
 
  
 

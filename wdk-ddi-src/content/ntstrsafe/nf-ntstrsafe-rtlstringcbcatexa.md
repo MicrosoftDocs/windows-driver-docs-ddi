@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9105d6b5-bee3-4fcd-b548-4d403731654d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_FILL_BEHIND_NULL, RtlStringCbCatExW, STRSAFE_NO_TRUNCATION, RtlStringCbCatExA, RtlStringCbCatEx, STRSAFE_NULL_ON_FAILURE, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatExA, STRSAFE_FILL_ON_FAILURE, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, STRSAFE_IGNORE_NULLS, kernel.rtlstringcbcatex, ntstrsafe/RtlStringCbCatExW
+ms.keywords: STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, RtlStringCbCatEx, RtlStringCbCatExA, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCatExW, STRSAFE_FILL_ON_FAILURE, STRSAFE_NULL_ON_FAILURE, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatExW, ntstrsafe/RtlStringCbCatExA, kernel.rtlstringcbcatex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCbCatExW
 -	RtlStringCbCatExA
 -	RtlStringCbCatExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbCatExA function
@@ -285,11 +285,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
 
  
 

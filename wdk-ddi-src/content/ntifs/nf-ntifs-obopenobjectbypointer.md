@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OBJ_KERNEL_HANDLE, OBJ_FORCE_ACCESS_CHECK, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, ObOpenObjectByPointer function [Installable File System Drivers], ifsk.obopenobjectbypointer, ntifs/ObOpenObjectByPointer, OBJ_INHERIT, ObOpenObjectByPointer, OBJ_EXCLUSIVE
+ms.keywords: ntifs/ObOpenObjectByPointer, ifsk.obopenobjectbypointer, OBJ_FORCE_ACCESS_CHECK, OBJ_INHERIT, ObOpenObjectByPointer function [Installable File System Drivers], obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, ObOpenObjectByPointer, OBJ_EXCLUSIVE, OBJ_KERNEL_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObOpenObjectByPointer
 product: Windows
 targetos: Windows
@@ -84,6 +84,26 @@ Pointer to the object to be opened.
 Bitmask of flags specifying the desired attributes for the object handle. If the caller is not running in the system process context, these flags must include OBJ_KERNEL_HANDLE. This parameter is optional and can be zero. Otherwise, it is an ORed combination of one or more of the following: 
 
 
+#### OBJ_EXCLUSIVE
+
+The object is to be opened for exclusive access. If this flag is set and the call to <b>ObOpenObjectByPointer</b> succeeds, the object cannot be shared and cannot be opened again until the handle is closed. This flag is incompatible with the OBJ_INHERIT flag. This flag is invalid for file objects. 
+
+
+#### OBJ_FORCE_ACCESS_CHECK
+
+All access checks are to be enforced for the object, even if the object is being opened in kernel mode. If this flag is specified, the value of the <i>AccessMode</i> parameter is ignored. 
+
+
+#### OBJ_INHERIT
+
+The handle can be inherited by child processes of the current process. This flag is incompatible with the OBJ_EXCLUSIVE flag. 
+
+
+#### OBJ_KERNEL_HANDLE
+
+The handle can only be accessed in kernel mode. This flag must be specified if the caller is not running in the system process context. 
+
+
 ### -param PassedAccessState [in, optional]
 
 Pointer to an <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp-&gt;Parameters.Create.SecurityContext-&gt;AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.) 
@@ -108,26 +128,6 @@ Access mode to be used for the access check. This parameter is required and must
 ### -param Handle [out]
 
 Pointer to a caller-allocated variable that receives a handle to the object. 
-
-
-##### - HandleAttributes.OBJ_INHERIT
-
-The handle can be inherited by child processes of the current process. This flag is incompatible with the OBJ_EXCLUSIVE flag. 
-
-
-##### - HandleAttributes.OBJ_EXCLUSIVE
-
-The object is to be opened for exclusive access. If this flag is set and the call to <b>ObOpenObjectByPointer</b> succeeds, the object cannot be shared and cannot be opened again until the handle is closed. This flag is incompatible with the OBJ_INHERIT flag. This flag is invalid for file objects. 
-
-
-##### - HandleAttributes.OBJ_KERNEL_HANDLE
-
-The handle can only be accessed in kernel mode. This flag must be specified if the caller is not running in the system process context. 
-
-
-##### - HandleAttributes.OBJ_FORCE_ACCESS_CHECK
-
-All access checks are to be enforced for the object, even if the object is being opened in kernel mode. If this flag is specified, the value of the <i>AccessMode</i> parameter is ignored. 
 
 
 ## -returns
@@ -235,17 +235,17 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 

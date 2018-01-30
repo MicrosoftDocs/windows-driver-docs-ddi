@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, PcUnregisterIoTimeout, audio.pcunregisteriotimeout, portcls/PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices]
+ms.keywords: portcls/PcUnregisterIoTimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, audio.pcunregisteriotimeout, PcUnregisterIoTimeout function [Audio Devices], PcUnregisterIoTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ NTSTATUS PcUnregisterIoTimeout(
 
 ### -param pDeviceObject [in]
 
-Pointer to the same device object that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>. The device object is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the same device object that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>. The device object is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
 ### -param pTimerRoutine [in]
@@ -122,7 +122,7 @@ This call succeeds only if a time-out callback with the same device object, time
 
 <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

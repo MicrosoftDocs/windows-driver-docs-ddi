@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoUpdateAddressDescription, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, WdfPdoUpdateAddressDescription, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, kmdf.wdfpdoupdateaddressdescription, WdfPdoUpdateAddressDescription method, wdf.wdfpdoupdateaddressdescription
+ms.keywords: kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, WdfPdoUpdateAddressDescription method, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, wdfpdo/WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfPdoUpdateAddressDescription
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceCreateIsochUrb method, WdfUsbTargetDeviceCreateIsochUrb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb, PFN_WDFUSBTARGETDEVICECREATEISOCHURB, wdf.wdfusbtargetdevicecreateisochurb, kmdf.wdfusbtargetdevicecreateisochurb
+ms.keywords: WdfUsbTargetDeviceCreateIsochUrb method, wdfusb/WdfUsbTargetDeviceCreateIsochUrb, kmdf.wdfusbtargetdevicecreateisochurb, PFN_WDFUSBTARGETDEVICECREATEISOCHURB, wdf.wdfusbtargetdevicecreateisochurb, WdfUsbTargetDeviceCreateIsochUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceCreateIsochUrb
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -167,9 +167,9 @@ For related information, see the Remarks section of <a href="..\wdfusb\nf-wdfusb
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>
 
  
 

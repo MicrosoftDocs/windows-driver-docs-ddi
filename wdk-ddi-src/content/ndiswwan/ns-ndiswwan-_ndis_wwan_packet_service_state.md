@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PACKET_SERVICE_STATE
-title: _NDIS_WWAN_PACKET_SERVICE_STATE
+title: "_NDIS_WWAN_PACKET_SERVICE_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet service attachment state of the MB device.
 old-location: netvista\ndis_wwan_packet_service_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, netvista.ndis_wwan_packet_service_state, PNDIS_WWAN_PACKET_SERVICE_STATE
+ms.keywords: ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state, NDIS_WWAN_PACKET_SERVICE_STATE, WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, _NDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_PACKET_SERVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE
+req.typenames: "*PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE"
 ---
 
 # _NDIS_WWAN_PACKET_SERVICE_STATE structure

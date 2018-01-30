@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, storage.scsiportreadregisterbufferuchar, ScsiPortReadRegisterBufferUchar, srb/ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices]
+ms.keywords: storage.scsiportreadregisterbufferuchar, ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], srb/ScsiPortReadRegisterBufferUchar, scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortReadRegisterBufferUchar
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ACTIVATION_STATE
-title: _WWAN_ACTIVATION_STATE
+title: "_WWAN_ACTIVATION_STATE"
 author: windows-driver-content
 description: The WWAN_ACTIVATION_STATE enumeration lists the different Packet Data Protocol (PDP) context activation states that are supported by the MB device.
 old-location: netvista\wwan_activation_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca5caf9d-5c73-4516-bbc9-ee3ff9511e99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_activation_state, WwanActivationStateMax, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, WwanActivationStateUnknown, wwan/WwanActivationStateActivating, PWWAN_ACTIVATION_STATE, WwanActivationStateActivating, wwan/WwanActivationStateDeactivating, wwan/WwanActivationStateDeactivated, *PWWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, wwan/PWWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE, _WWAN_ACTIVATION_STATE, WwanActivationStateDeactivated, wwan/WwanActivationStateUnknown, wwan/WwanActivationStateMax, WwanActivationStateDeactivating, WwanActivationStateActivated, wwan/WWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WwanActivationStateUnknown, WWAN_ACTIVATION_STATE, *PWWAN_ACTIVATION_STATE, wwan/WwanActivationStateDeactivated, wwan/WwanActivationStateActivated, WwanActivationStateDeactivated, _WWAN_ACTIVATION_STATE, wwan/WwanActivationStateMax, WwanActivationStateActivating, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanActivationStateActivated, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, WwanActivationStateUnknown, PWWAN_ACTIVATION_STATE, netvista.wwan_activation_state, WwanActivationStateMax, wwan/WWAN_ACTIVATION_STATE, wwan/PWWAN_ACTIVATION_STATE, wwan/WwanActivationStateDeactivating, wwan/WwanActivationStateActivating, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanActivationStateDeactivating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_ACTIVATION_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE
+req.typenames: WWAN_ACTIVATION_STATE, *PWWAN_ACTIVATION_STATE
 req.product: Windows 10 or later.
 ---
 

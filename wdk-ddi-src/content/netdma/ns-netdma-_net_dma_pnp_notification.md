@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PNP_NOTIFICATION
-title: _NET_DMA_PNP_NOTIFICATION
+title: "_NET_DMA_PNP_NOTIFICATION"
 author: windows-driver-content
 description: The NET_DMA_PNP_NOTIFICATION structure specifies a power management notification in the NetDMA interface.
 old-location: netvista\net_dma_pnp_notification.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a505077-dec6-47cc-8730-d68e19309d3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.net_dma_pnp_notification, *PNET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml
+ms.keywords: netvista.net_dma_pnp_notification, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], netdma/NET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION, _NET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NET_DMA_PNP_NOTIFICATION
 product: Windows
 targetos: Windows

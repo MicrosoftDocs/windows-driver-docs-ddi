@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FC4STATISTICS
-title: _MSFC_FC4STATISTICS
+title: "_MSFC_FC4STATISTICS"
 author: windows-driver-content
 description: The MSFC_FC4STATISTICS structure is used in conjunction with the GetFC4Statistics WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
 old-location: storage\msfc_fc4statistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a46a9aff-9bc9-4328-85b2-90f8f80b2e65
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PMSFC_FC4STATISTICS, storage.msfc_fc4statistics, MSFC_FC4STATISTICS structure [Storage Devices], _MSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml, hbapiwmi/MSFC_FC4STATISTICS, MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS
+ms.keywords: hbapiwmi/PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml, MSFC_FC4STATISTICS structure [Storage Devices], _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, PMSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], storage.msfc_fc4statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_FC4STATISTICS
 product: Windows
 targetos: Windows
@@ -107,11 +107,11 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_in.md">GetFC4Statistics_IN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
 
 <a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_in.md">GetFC4Statistics_IN</a>
 
  
 

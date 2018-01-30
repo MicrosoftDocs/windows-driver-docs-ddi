@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 395e4a37-ea14-4dc0-926d-2b2336aa5221
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportwriteportulong, VideoPort_Functions_83cb0bbd-0dba-4cd6-b9f5-b8b0091371cd.xml, VideoPortWritePortUlong function [Display Devices], VideoPortWritePortUlong, video/VideoPortWritePortUlong
+ms.keywords: VideoPortWritePortUlong function [Display Devices], VideoPort_Functions_83cb0bbd-0dba-4cd6-b9f5-b8b0091371cd.xml, video/VideoPortWritePortUlong, display.videoportwriteportulong, VideoPortWritePortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortWritePortUlong function

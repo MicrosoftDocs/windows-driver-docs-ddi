@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, CORRELATION_VECTOR, ntddk/CORRELATION_VECTOR, *PCORRELATION_VECTOR
+ms.keywords: CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], *PCORRELATION_VECTOR, kernel.correlation_vector, ntddk/CORRELATION_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	CORRELATION_VECTOR
 product: Windows
 targetos: Windows

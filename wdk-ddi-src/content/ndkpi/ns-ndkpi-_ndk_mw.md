@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MW
-title: _NDK_MW
+title: "_NDK_MW"
 author: windows-driver-content
 description: The NDK_MW structure specifies the attributes of an NDK memory window (MW) object.
 old-location: netvista\ndk_mw.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C304A6AA-6ABA-40DF-8EE1-ABDEBEE3B006
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_MW, PNDK_MW structure pointer [Network Drivers Starting with Windows Vista], _NDK_MW, netvista.ndk_mw, PNDK_MW, ndkpi/NDK_MW, ndkpi/PNDK_MW, NDK_MW structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_MW, _NDK_MW, ndkpi/NDK_MW, netvista.ndk_mw, PNDK_MW, NDK_MW structure [Network Drivers Starting with Windows Vista], PNDK_MW structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_MW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_MW
 product: Windows
 targetos: Windows
@@ -89,15 +89,15 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw_dispatch.md">NDK_MW_DISPATCH</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw_dispatch.md">NDK_MW_DISPATCH</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
  
 

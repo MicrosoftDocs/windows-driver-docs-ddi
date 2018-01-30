@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cf79661f-afe8-4154-8302-e5018172c6ec
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAddCompatibleID, wdfpdo/WdfPdoInitAddCompatibleID, PFN_WDFPDOINITADDCOMPATIBLEID, DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, wdf.wdfpdoinitaddcompatibleid, kmdf.wdfpdoinitaddcompatibleid, WdfPdoInitAddCompatibleID method
+ms.keywords: DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, kmdf.wdfpdoinitaddcompatibleid, PFN_WDFPDOINITADDCOMPATIBLEID, WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, wdfpdo/WdfPdoInitAddCompatibleID, wdf.wdfpdoinitaddcompatibleid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfPdoInitAddCompatibleID
 product: Windows
 targetos: Windows
@@ -130,11 +130,11 @@ The driver must call <b>WdfPdoInitAddCompatibleID</b> before calling <a href="..
 
 ## -see-also
 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md">WdfPdoInitAssignInstanceID</a>
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
-
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
 
  
 

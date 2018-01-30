@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ShutdownOperation, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter, ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, print.iprintpipelinefilter_shutdownoperation, filterpipeline/IPrintPipelineFilter::ShutdownOperation, IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, ShutdownOperation method [Print Devices]
+ms.keywords: filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, ShutdownOperation method [Print Devices], ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, IPrintPipelineFilter::ShutdownOperation, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter, print.iprintpipelinefilter_shutdownoperation, ShutdownOperation, filterpipeline/IPrintPipelineFilter::ShutdownOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IPrintPipelineFilter.ShutdownOperation
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
 
  
 

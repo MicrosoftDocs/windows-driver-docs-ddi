@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC_TYPE
-title: _UCX_ENDPOINT_CHARACTERISTIC_TYPE
+title: "_UCX_ENDPOINT_CHARACTERISTIC_TYPE"
 author: windows-driver-content
 description: Defines values that indicates the type of endpoint characteristic.
 old-location: buses\ucx_endpoint_characteristic_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1F49C8CA-51CE-49B2-AC37-C114A688B1DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type
+ms.keywords: UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, buses.ucx_endpoint_characteristic_type, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxendpoint.h
-apiname: 
+apiname:
 -	UCX_ENDPOINT_CHARACTERISTIC_TYPE
 product: Windows
 targetos: Windows

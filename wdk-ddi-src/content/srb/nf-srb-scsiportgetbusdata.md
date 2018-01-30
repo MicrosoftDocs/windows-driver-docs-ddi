@@ -2,13 +2,13 @@
 UID: NF:srb.ScsiPortGetBusData
 title: ScsiPortGetBusData function
 author: windows-driver-content
-description: The ScsiPortGetBusData routine returns bus-type-specific configuration information that a miniport driver's HwScsiFindAdapter routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The ScsiPortGetBusData routine returns bus-type-specific configuration information that a miniport driver's HwScsiFindAdapter routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportgetbusdata.htm
 old-project: storage
 ms.assetid: 43d30c99-9f9e-4516-8c50-e096f760a774
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetBusData routine [Storage Devices], srb/ScsiPortGetBusData, scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, ScsiPortGetBusData, storage.scsiportgetbusdata
+ms.keywords: ScsiPortGetBusData routine [Storage Devices], srb/ScsiPortGetBusData, storage.scsiportgetbusdata, scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, ScsiPortGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortGetBusData
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -154,11 +154,11 @@ Configuration data returned by <b>ScsiPortGetBusData</b> is valid only until the
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+
 <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_HOSTFONT_ENABLED
-title: _PDEV_HOSTFONT_ENABLED
+title: "_PDEV_HOSTFONT_ENABLED"
 author: windows-driver-content
 description: The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
 old-location: print\pdev_hostfont_enabled.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f7fc7e33-e80b-449e-a1d1-a93740cd967c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printoem/PDEV_HOSTFONT_ENABLED, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, print.pdev_hostfont_enabled, _PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED structure [Print Devices], PDEV_HOSTFONT_ENABLED
+ms.keywords: printoem/PDEV_HOSTFONT_ENABLED, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, PDEV_HOSTFONT_ENABLED structure [Print Devices], print.pdev_hostfont_enabled, _PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	PDEV_HOSTFONT_ENABLED
 product: Windows
 targetos: Windows

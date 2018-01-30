@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren, _D3DKMT_POLLDISPLAYCHILDREN, d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN
+ms.keywords: OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren, D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], _D3DKMT_POLLDISPLAYCHILDREN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,9 +126,9 @@ Supported beginning with Windows 7 operating system.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a>
 
  
 

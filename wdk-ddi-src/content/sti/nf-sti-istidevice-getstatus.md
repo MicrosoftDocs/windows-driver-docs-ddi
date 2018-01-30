@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e9539565-e13f-42ea-9566-066e2c9ae2ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, GetStatus, GetStatus method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], GetStatus method, GetStatus method [Imaging Devices], sti/IStiDevice::GetStatus, image.istidevice_getstatus, IStiDevice, IStiDevice::GetStatus
+ms.keywords: image.istidevice_getstatus, GetStatus method [Imaging Devices], IStiDevice interface, IStiDevice::GetStatus, GetStatus method [Imaging Devices], stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, sti/IStiDevice::GetStatus, GetStatus, IStiDevice interface [Imaging Devices], GetStatus method, IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.GetStatus
 product: Windows
 targetos: Windows

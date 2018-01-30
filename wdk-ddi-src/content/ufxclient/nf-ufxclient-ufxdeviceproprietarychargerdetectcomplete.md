@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDeviceProprietaryChargerDetectComplete method [Buses], ufxclient/UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete, buses.ufxdeviceproprietarychargerdetectcomplete
+ms.keywords: UfxDeviceProprietaryChargerDetectComplete, buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDeviceProprietaryChargerDetectComplete
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

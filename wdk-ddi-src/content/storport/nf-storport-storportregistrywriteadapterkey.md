@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D995FB36-177A-44BF-9326-EB2820DB0962
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportregistrywriteadapterkey, storport/StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices]
+ms.keywords: storage.storportregistrywriteadapterkey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storport/StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortRegistryWriteAdapterKey
 product: Windows
 targetos: Windows

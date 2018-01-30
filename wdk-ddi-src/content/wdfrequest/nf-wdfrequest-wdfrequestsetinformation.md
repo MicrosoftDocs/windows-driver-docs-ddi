@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2a5cccb3-24aa-404a-b887-2ccbe98a0673
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTSETINFORMATION, WdfRequestSetInformation method, wdfrequest/WdfRequestSetInformation, kmdf.wdfrequestsetinformation, WdfRequestSetInformation, wdf.wdfrequestsetinformation, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml
+ms.keywords: WdfRequestSetInformation method, wdf.wdfrequestsetinformation, kmdf.wdfrequestsetinformation, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation, PFN_WDFREQUESTSETINFORMATION, wdfrequest/WdfRequestSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestSetInformation
 product: Windows
 targetos: Windows

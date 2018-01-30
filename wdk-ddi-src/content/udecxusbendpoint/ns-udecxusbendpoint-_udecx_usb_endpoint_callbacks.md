@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbendpoint._UDECX_USB_ENDPOINT_CALLBACKS
-title: _UDECX_USB_ENDPOINT_CALLBACKS
+title: "_UDECX_USB_ENDPOINT_CALLBACKS"
 author: windows-driver-content
 description: Contains function pointers to endpoint callback functions implemented by the UDE client driver. Initialize this structure by calling UDECX_USB_ENDPOINT_CALLBACKS_INIT.
 old-location: buses\udecx_usb_endpoint_callbacks.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5AAB4474-9FDF-4ACF-AC38-F84D2682B5E0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], *PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, _UDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], buses.udecx_usb_endpoint_callbacks, PUDECX_USB_ENDPOINT_CALLBACKS
+ms.keywords: PUDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], UDECX_USB_ENDPOINT_CALLBACKS, _UDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], buses.udecx_usb_endpoint_callbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	udecxusbendpoint.h
-apiname: 
+apiname:
 -	UDECX_USB_ENDPOINT_CALLBACKS
 product: Windows
 targetos: Windows
@@ -93,9 +93,9 @@ Optional. A pointer to an <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_u
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks.md">UdecxUsbEndpointInitSetCallbacks</a>
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
  
 

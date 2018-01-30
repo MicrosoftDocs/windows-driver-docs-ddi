@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, SpoolerCopyFileEvent, winsplp/SpoolerCopyFileEvent
+ms.keywords: winsplp/SpoolerCopyFileEvent, SpoolerCopyFileEvent, poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, SpoolerCopyFileEvent function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	SpoolerCopyFileEvent
 product: Windows
 targetos: Windows

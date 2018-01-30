@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: abe43441-3e00-4d85-ae84-dd738303ab1b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ArrayElement method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_arrayelement, ExtRemoteTyped, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ArrayElement, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ExtRemoteTyped::ArrayElement, ArrayElement method [Windows Debugging]
+ms.keywords: ArrayElement, ExtRemoteTyped::ArrayElement, ArrayElement method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ArrayElement method [Windows Debugging], debugger.extremotetyped_arrayelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.ArrayElement
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::ArrayElement method
@@ -90,9 +90,9 @@ The <a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">Ex
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
 <a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">ExtRemoteTyped::operator[]</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 39a216f8-297d-45cc-9bec-4c0ee9941441
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, stream.ksfastpropertyhandler, KsFastPropertyHandler function [Streaming Media Devices], KsFastPropertyHandler
+ms.keywords: stream.ksfastpropertyhandler, KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, KsFastPropertyHandler function [Streaming Media Devices], ks/KsFastPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFastPropertyHandler
 product: Windows
 targetos: Windows

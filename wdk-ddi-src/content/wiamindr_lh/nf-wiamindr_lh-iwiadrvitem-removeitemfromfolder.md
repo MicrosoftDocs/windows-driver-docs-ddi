@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiadrvitem_removeitemfromfolder, RemoveItemFromFolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, IWiaDrvItem, IWiaDrvItem::RemoveItemFromFolder
+ms.keywords: wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder, image.iwiadrvitem_removeitemfromfolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem, RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.RemoveItemFromFolder
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 

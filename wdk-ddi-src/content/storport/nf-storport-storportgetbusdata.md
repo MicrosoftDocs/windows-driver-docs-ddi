@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, storport/StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata
+ms.keywords: storage.storportgetbusdata, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, StorPortGetBusData routine [Storage Devices], storport/StorPortGetBusData, StorPortGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortGetBusData
 product: Windows
 targetos: Windows

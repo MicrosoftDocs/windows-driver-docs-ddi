@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
-title: _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
+title: "_SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
 author: windows-driver-content
 description: The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT.
 old-location: nfpdrivers\secure_element_event_subscription_info.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1ADA8430-86B4-4885-B20A-EBA8CDAC5449
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: *PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure [Near-Field Proximity Drivers], PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure pointer [Near-Field Proximity Drivers], PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfpdrivers.secure_element_event_subscription_info, nfcsedev/PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
+ms.keywords: "*PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure [Near-Field Proximity Drivers], nfpdrivers.secure_element_event_subscription_info, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfcsedev.h
-apiname: 
+apiname:
 -	SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
+req.typenames: SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, *PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
 ---
 
 # _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure

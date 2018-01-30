@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], MmGetSystemRoutineAddress
+ms.keywords: wdm/MmGetSystemRoutineAddress, k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], MmGetSystemRoutineAddress, kernel.mmgetsystemroutineaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmGetSystemRoutineAddress
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: afa27127-b427-4831-b5f5-3e293738c275
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/KeExpandKernelStackAndCallout, kernel.keexpandkernelstackandcallout, k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], kernel.keexpandkernelstackandcallout, ntddk/KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeExpandKernelStackAndCallout
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeExpandKernelStackAndCallout function
@@ -104,9 +104,9 @@ The calling thread must not call the <a href="..\wdm\nf-wdm-psterminatesystemthr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545494">ExpandedStackCall</a>
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552036">KeExpandKernelStackAndCalloutEx</a>
 

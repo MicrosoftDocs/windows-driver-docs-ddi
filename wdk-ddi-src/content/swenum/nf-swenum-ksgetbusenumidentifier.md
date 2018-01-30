@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 50e14e01-5879-4a84-a8c2-f03c953dbeec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetBusEnumIdentifier, swenum/KsGetBusEnumIdentifier, ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, KsGetBusEnumIdentifier function [Streaming Media Devices]
+ms.keywords: KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, KsGetBusEnumIdentifier, swenum/KsGetBusEnumIdentifier, stream.ksgetbusenumidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetBusEnumIdentifier
 product: Windows
 targetos: Windows

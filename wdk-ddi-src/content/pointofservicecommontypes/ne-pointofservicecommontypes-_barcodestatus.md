@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._BarcodeStatus
-title: _BarcodeStatus
+title: "_BarcodeStatus"
 author: windows-driver-content
 description: This enumeration indicates barcode scanner status values.
 old-location: pos\barcodestatus.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b89ee18b-229d-4ec7-8c69-1b75ad0f3448
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.barcodestatus, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, BarcodeStatus, BarcodeStatusUpdateType_OffOrOffline, _BarcodeStatus, BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Online, pointofservicecommontypes/BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Online, BarcodeStatusUpdateType_Offline, BarcodeStatus enumeration
+ms.keywords: pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_Online, BarcodeStatusUpdateType_Extended, BarcodeStatus enumeration, BarcodeStatusUpdateType_Online, pos.barcodestatus, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatus, _BarcodeStatus, BarcodeStatusUpdateType_Offline, BarcodeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicecommontypes.h
-apiname: 
+apiname:
 -	BarcodeStatus
 product: Windows
 targetos: Windows

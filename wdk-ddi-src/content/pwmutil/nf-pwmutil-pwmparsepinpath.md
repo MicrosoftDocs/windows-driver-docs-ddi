@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PwmParsePinPath function [Kernel-Mode Driver Architecture], PwmParsePinPath, pwmutil/PwmParsePinPath, kernel.pwmparsepinpath
+ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], pwmutil/PwmParsePinPath, kernel.pwmparsepinpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PwmParsePinPath
 product: Windows
 targetos: Windows

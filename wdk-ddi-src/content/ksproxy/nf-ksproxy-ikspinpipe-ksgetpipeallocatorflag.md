@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EBF5B615-A7B1-4B44-855C-7956334AAF75
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag, IKsPinPipe::KsGetPipeAllocatorFlag, IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetPipeAllocatorFlag method, KsGetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, stream.ikspinpipe_ksgetpipeallocatorflag, KsGetPipeAllocatorFlag method [Streaming Media Devices]
+ms.keywords: KsGetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsGetPipeAllocatorFlag method, IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, stream.ikspinpipe_ksgetpipeallocatorflag, IKsPinPipe, KsGetPipeAllocatorFlag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsGetPipeAllocatorFlag
 product: Windows
 targetos: Windows

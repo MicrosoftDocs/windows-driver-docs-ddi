@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	IOCTL_GET_TUPLE_DATA
 product: Windows
 targetos: Windows
@@ -111,11 +111,11 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551769">IRP_MN_WRITE_CONFIG</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551769">IRP_MN_WRITE_CONFIG</a>
 
  
 

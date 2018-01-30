@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1282f158-9e41-4789-abe9-181f367ea235
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CMI_NEWCALLTYPE, ntddrilapitypes/RIL_PARAM_CMI_OLDCALLTYPE, RIL_PARAM_CMI_OLDCALLTYPE, ntddrilapitypes/RIL_PARAM_CMI_ADDRESS, RILCALLMODIFICATIONINFOPARAMMASK, RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ALPHAIDENTIFIER, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, RIL_PARAM_CMI_ADDRESS, ntddrilapitypes/RIL_PARAM_CMI_ALL, ntddrilapitypes/RIL_PARAM_CMI_ID, ntddrilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, netvista.rilcallmodificationinfoparammask, ntddrilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, RIL_PARAM_CMI_MODIFICATIONTYPE, ntddrilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, RIL_PARAM_CMI_ID
+ms.keywords: ntddrilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, ntddrilapitypes/RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ADDRESS, ntddrilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, ntddrilapitypes/RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_ALPHAIDENTIFIER, ntddrilapitypes/RIL_PARAM_CMI_ID, RIL_PARAM_CMI_MODIFICATIONTYPE, netvista.rilcallmodificationinfoparammask, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMI_ID, RIL_PARAM_CMI_OLDCALLTYPE, ntddrilapitypes/RIL_PARAM_CMI_OLDCALLTYPE, RIL_PARAM_CMI_NEWCALLTYPE, RILCALLMODIFICATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, ntddrilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, RIL_PARAM_CMI_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMODIFICATIONINFOPARAMMASK
 product: Windows
 targetos: Windows

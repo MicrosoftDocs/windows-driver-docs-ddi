@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66157bc7-8094-481f-8aae-a438031b61d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], NdisMCmModifyCallQoSComplete, ndis/NdisMCmModifyCallQoSComplete, condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, netvista.ndismcmmodifycallqoscomplete
+ms.keywords: NdisMCmModifyCallQoSComplete, condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmModifyCallQoSComplete, netvista.ndismcmmodifycallqoscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmModifyCallQoSComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmModifyCallQoSComplete macro
@@ -87,14 +87,6 @@ TBD
 
 
 
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
-     acceptable to the MCM driver if 
-     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
-
-
 #### - Status [in]
 
 Specifies the final status of the client's request to modify the QoS on this VC, either
@@ -107,6 +99,14 @@ Specifies the handle to the VC, obtained from the per-VC state designated by the
      <i>CallMgrVcContext</i> passed in to the MCM driver's 
      <mshelp:link keywords="netvista.protocolcmmodifycallqos" tabindex="0"><i>
      ProtocolCmModifyCallQoS</i></mshelp:link> function for this request.
+
+
+#### - CallParameters [in]
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
+     acceptable to the MCM driver if 
+     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
 
 
 ## -remarks
@@ -137,18 +137,18 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
-   ProtocolClModifyCallQoSComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
 
 <a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQosComplete</a>
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+<mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
+   ProtocolClModifyCallQoSComplete</i></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQosComplete</a>
 
  
 

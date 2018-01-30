@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PEER_DO_LIST
-title: _AVC_PEER_DO_LIST
+title: "_AVC_PEER_DO_LIST"
 author: windows-driver-content
 description: The AVC_PEER_DO_LIST describes all nonvirtual (peer) instances of avc.sys.
 old-location: stream\avc_peer_do_list.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], avc/PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, stream.avc_peer_do_list
+ms.keywords: PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST, avc/PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, stream.avc_peer_do_list, AVC_PEER_DO_LIST structure [Streaming Media Devices], avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	AVC_PEER_DO_LIST
 product: Windows
 targetos: Windows
-req.typenames: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST
+req.typenames: "*PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST"
 ---
 
 # _AVC_PEER_DO_LIST structure
@@ -91,11 +91,11 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a>
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iinterfiltercommunicator_requestreader, IInterFilterCommunicator, filterpipeline/IInterFilterCommunicator::RequestReader, IInterFilterCommunicator::RequestReader, RequestReader method [Print Devices], filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, IInterFilterCommunicator interface [Print Devices], RequestReader method, RequestReader, RequestReader method [Print Devices], IInterFilterCommunicator interface
+ms.keywords: IInterFilterCommunicator::RequestReader, IInterFilterCommunicator, RequestReader method [Print Devices], IInterFilterCommunicator interface, print.iinterfiltercommunicator_requestreader, RequestReader method [Print Devices], filterpipeline/IInterFilterCommunicator::RequestReader, IInterFilterCommunicator interface [Print Devices], RequestReader method, RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IInterFilterCommunicator.RequestReader
 product: Windows
 targetos: Windows

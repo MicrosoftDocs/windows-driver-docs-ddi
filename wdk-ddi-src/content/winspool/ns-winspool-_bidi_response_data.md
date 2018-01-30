@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_RESPONSE_DATA
-title: _BIDI_RESPONSE_DATA
+title: "_BIDI_RESPONSE_DATA"
 author: windows-driver-content
 description: The BIDI_RESPONSE_DATA structure holds a single bidi response.
 old-location: print\bidi_response_data.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8e56ef0a-c652-4fca-ad87-4a0495c8de2e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], *PBIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, BIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], print.bidi_response_data, winspool/PBIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, _BIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA, winspool/BIDI_RESPONSE_DATA, winspool/LPBIDI_RESPONSE_DATA
+ms.keywords: BIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], _BIDI_RESPONSE_DATA, spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, LPBIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], print.bidi_response_data, winspool/LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], winspool/BIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BIDI_RESPONSE_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PBIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA
+req.typenames: BIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -102,11 +102,11 @@ When the bidi action is BIDI_ACTION_GETALL, the <b>dwReqNumber</b> member holds 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
+<a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
 
 <a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
 
-<a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
+<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
 
  
 

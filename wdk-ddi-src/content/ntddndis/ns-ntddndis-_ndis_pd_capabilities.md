@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CAPABILITIES
-title: _NDIS_PD_CAPABILITIES
+title: "_NDIS_PD_CAPABILITIES"
 author: windows-driver-content
 description: This structure indicates the PD capabilities for a provider.
 old-location: netvista\ndis_pd_capabilities.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, ntddndis/NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, ntddndis/NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PD_CAPABILITIES
 product: Windows
 targetos: Windows

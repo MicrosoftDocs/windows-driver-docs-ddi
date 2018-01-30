@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PROPERTY_ENUM_INFO
-title: _NDIS_SWITCH_PROPERTY_ENUM_INFO
+title: "_NDIS_SWITCH_PROPERTY_ENUM_INFO"
 author: windows-driver-content
 description: The NDIS_SWITCH_PROPERTY_ENUM_INFO structure specifies information about a profile property for the Hyper-V extensible switch.
 old-location: netvista\ndis_switch_property_enum_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1b990bc5-3ff4-4e37-b011-258c4dbe8f22
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_ENUM_INFO, netvista.ndis_switch_property_enum_info, _NDIS_SWITCH_PROPERTY_ENUM_INFO
+ms.keywords: ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO, netvista.ndis_switch_property_enum_info, PNDIS_SWITCH_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_ENUM_INFO, _NDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_PROPERTY_ENUM_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO
+req.typenames: "*PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO"
 ---
 
 # _NDIS_SWITCH_PROPERTY_ENUM_INFO structure
@@ -82,6 +82,13 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+#### NDIS_SWITCH_PROPERTY_ENUM_INFO_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_REVISION_1.
+
+
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
@@ -116,13 +123,6 @@ A ULONG value that specifies the actual size, in bytes, of the property buffer.
 A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PROPERTY_ENUM_INFO</b> structure. The offset is measured from the start of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a> structure up to the beginning of the property buffer.
 
 
-##### - Header.NDIS_SWITCH_PROPERTY_ENUM_INFO_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_REVISION_1.
-
-
 ## -remarks
 
 
@@ -138,15 +138,15 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598251">NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598252">NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598282">OID_SWITCH_PROPERTY_ENUM</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598252">NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 

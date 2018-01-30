@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
-title: _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
+title: "_WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_processor_generic_error_section_validbits.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: f7173767-a177-4a79-917b-41acc9eff758
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, whea.whea_processor_generic_error_section_validbits, _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_GENERIC_PROCESSOR_ERROR_VALIDBITS, whearef_83372975-ce45-44e7-be0a-85f3394528b3.xml, *PWHEA_GENERIC_PROCESSOR_ERROR_VALIDBITS, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
+ms.keywords: whearef_83372975-ce45-44e7-be0a-85f3394528b3.xml, whea.whea_processor_generic_error_section_validbits, WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], *PWHEA_GENERIC_PROCESSOR_ERROR_VALIDBITS, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, WHEA_GENERIC_PROCESSOR_ERROR_VALIDBITS, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
+req.typenames: WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
 ---
 
 # _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS structure
@@ -163,19 +163,9 @@ typedef union _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS {
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union.
 
 
-#### - Reserved
+#### - ProcessorType
 
-Reserved for system use.
-
-
-#### - Level
-
-A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - Operation
-
-A single bit that indicates that the <b>Operation</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>ProcessorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
 #### - InstructionSet
@@ -188,19 +178,9 @@ A single bit that indicates that the <b>InstructionSet</b> member of the WHEA_PR
 A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - RequesterId
+#### - Operation
 
-A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - ProcessorType
-
-A single bit that indicates that the <b>ProcessorType</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
-
-
-#### - CPUVersion
-
-A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>Operation</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
 #### - Flags
@@ -208,9 +188,19 @@ A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCES
 A single bit that indicates that the <b>Flags</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - ResponderId
+#### - Level
 
-A single bit that indicates that the <b>ResponderId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+A single bit that indicates that the <b>Level</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - CPUVersion
+
+A single bit that indicates that the <b>CPUVersion</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - CPUBrandString
+
+A single bit that indicates that the <b>CPUBrandString</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
 #### - ProcessorId
@@ -223,14 +213,24 @@ A single bit that indicates that the <b>ProcessorId</b> member of the WHEA_PROCE
 A single bit that indicates that the <b>TargetAddress</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
+#### - RequesterId
+
+A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
+#### - ResponderId
+
+A single bit that indicates that the <b>ResponderId</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+
+
 #### - InstructionPointer
 
 A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
 
 
-#### - CPUBrandString
+#### - Reserved
 
-A single bit that indicates that the <b>CPUBrandString</b> member of the WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contains valid data.
+Reserved for system use.
 
 
 ## -remarks

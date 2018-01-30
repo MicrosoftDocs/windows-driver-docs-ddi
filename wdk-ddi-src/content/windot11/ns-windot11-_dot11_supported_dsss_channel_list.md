@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_DSSS_CHANNEL_LIST
-title: _DOT11_SUPPORTED_DSSS_CHANNEL_LIST
+title: "_DOT11_SUPPORTED_DSSS_CHANNEL_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_dsss_channel_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45941a4d-12e0-4a80-b04e-9e349126f5ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, netvista.dot11_supported_dsss_channel_list, _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST
+ms.keywords: netvista.dot11_supported_dsss_channel_list, _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_SUPPORTED_DSSS_CHANNEL_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST
+req.typenames: "*PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST"
 req.product: Windows 10 or later.
 ---
 

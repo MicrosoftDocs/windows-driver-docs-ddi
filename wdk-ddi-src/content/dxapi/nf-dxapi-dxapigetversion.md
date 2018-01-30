@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9d441a5-46b5-4da8-aa7e-f4f45eb733d4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxapigetversion, ddfncs_72fbedfa-d63f-462a-a6c4-862c6815f1c1.xml, DxApiGetVersion function [Display Devices], dxapi/DxApiGetVersion, DxApiGetVersion
+ms.keywords: ddfncs_72fbedfa-d63f-462a-a6c4-862c6815f1c1.xml, DxApiGetVersion, dxapi/DxApiGetVersion, display.dxapigetversion, DxApiGetVersion function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_METERED_HARDWARE_INFORMATION
-title: _PMI_METERED_HARDWARE_INFORMATION
+title: "_PMI_METERED_HARDWARE_INFORMATION"
 author: windows-driver-content
 description: The PMI_METERED_HARDWARE_INFORMATION structure contains information about one or more power supplies that are monitored by the power meter.
 old-location: powermeter\pmi_metered_hardware_information.htm
@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 44dcfd41-7f0e-487e-8b08-5f301f17e7c1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PPMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, PPMI_METERED_HARDWARE_INFORMATION, _PMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information, PMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], *PPMI_METERED_HARDWARE_INFORMATION, pmi/PMI_METERED_HARDWARE_INFORMATION
+ms.keywords: PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], *PPMI_METERED_HARDWARE_INFORMATION, PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, PPMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information, pmi/PMI_METERED_HARDWARE_INFORMATION, pmi/PPMI_METERED_HARDWARE_INFORMATION, _PMI_METERED_HARDWARE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_METERED_HARDWARE_INFORMATION
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
  
 

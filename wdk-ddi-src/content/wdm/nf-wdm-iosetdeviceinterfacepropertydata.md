@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdeviceinterfacepropertydata
+ms.keywords: IoSetDeviceInterfacePropertyData, kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetDeviceInterfacePropertyData
 product: Windows
 targetos: Windows
@@ -157,11 +157,11 @@ Callers of <b>IoSetDeviceInterfacePropertyData</b> must be running at IRQL &lt;=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+<a href="..\wdm\nf-wdm-iogetdeviceinterfacepropertydata.md">IoGetDeviceInterfacePropertyData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfacepropertydata.md">IoGetDeviceInterfacePropertyData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OSVERSIONINFOEXW
-title: _OSVERSIONINFOEXW
+title: "_OSVERSIONINFOEXW"
 author: windows-driver-content
 description: The RTL_OSVERSIONINFOEXW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfoexw.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOEXW, wdm/PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, _OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, kernel.rtl_osversioninfoexw
+ms.keywords: "*PRTL_OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, *POSVERSIONINFOEXW, _OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, wdm/PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOEXW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	RTL_OSVERSIONINFOEXW
 product: Windows
 targetos: Windows
-req.typenames: RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, OSVERSIONINFOEXW
+req.typenames: OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 req.product: Windows 10 or later.
 ---
 
@@ -595,11 +595,11 @@ Not applicable
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
  
 

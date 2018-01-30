@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f8c21813-9bfd-46a5-abb2-78ac2f2301af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvUniTextOut method, IPrintOemDriverUni, print.iprintoemdriveruni_drvunitextout, DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvUniTextOut, print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml, DrvUniTextOut, IPrintOemDriverUni::DrvUniTextOut
+ms.keywords: print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml, IPrintOemDriverUni::DrvUniTextOut, DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvunitextout, DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvUniTextOut method, prcomoem/IPrintOemDriverUni::DrvUniTextOut, IPrintOemDriverUni, DrvUniTextOut
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvUniTextOut
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

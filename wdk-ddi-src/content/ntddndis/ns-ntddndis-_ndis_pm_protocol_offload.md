@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_PROTOCOL_OFFLOAD
-title: _NDIS_PM_PROTOCOL_OFFLOAD
+title: "_NDIS_PM_PROTOCOL_OFFLOAD"
 author: windows-driver-content
 description: The NDIS_PM_PROTOCOL_OFFLOAD structure specifies parameters for a low power protocol offload to a network adapter.
 old-location: netvista\ndis_pm_protocol_offload.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1ae68e5c-f9ea-4454-b015-82e3af0f7ccd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, _NDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_protocol_offload
+ms.keywords: NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD, _NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, NDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PM_PROTOCOL_OFFLOAD
 product: Windows
 targetos: Windows
@@ -245,6 +245,21 @@ A ULONG value that contains the priority of the protocol offload. If an overlyin
 
 
 
+#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_LOWEST
+
+Specifies the lowest priority protocol offload.
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_NORMAL
+
+Specifies a normal priority protocol offload.
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_HIGHEST
+
+Specifies the highest priority protocol offload.
+
+
 ### -field ProtocolOffloadType
 
 An 
@@ -277,21 +292,6 @@ A ULONG value that contains an offset, in bytes. The
      <b>NextProtocolOffloadOffset</b> is zero, the current structure is the last structure in the list.
 
 
-##### - Priority.NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_HIGHEST
-
-Specifies the highest priority protocol offload.
-
-
-##### - Priority.NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_NORMAL
-
-Specifies a normal priority protocol offload.
-
-
-##### - Priority.NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_LOWEST
-
-Specifies the lowest priority protocol offload.
-
-
 ## -remarks
 
 
@@ -304,15 +304,15 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

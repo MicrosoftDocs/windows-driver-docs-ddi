@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols2::GetModuleNames, GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, IDebugSymbols::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols3, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, debugger.getmodulenames, dbgeng/IDebugSymbols2::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, dbgeng/IDebugSymbols::GetModuleNames, IDebugSymbols3::GetModuleNames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames, dbgeng/IDebugSymbols3::GetModuleNames, GetModuleNames method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols2::GetModuleNames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetModuleNames
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetModuleNames method

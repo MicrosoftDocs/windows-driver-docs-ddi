@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SCSI_PNP_REQUEST_BLOCK
-title: _SCSI_PNP_REQUEST_BLOCK
+title: "_SCSI_PNP_REQUEST_BLOCK"
 author: windows-driver-content
 description: TheSCSI_PNP_REQUEST_BLOCK structure is a special version of a SCSI_REQUEST_BLOCK that is used for plug and play (PNP) requests.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsi_pnp_request_block.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorStopDevice, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorRemoveDevice, storage.scsi_pnp_request_block, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], *PSCSI_PNP_REQUEST_BLOCK, StorSupriseRemoval, SCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, PSCSI_PNP_REQUEST_BLOCK, StorQueryResourceRequirements, StorQueryCapabilities, StorStartDevice, storport/PSCSI_PNP_REQUEST_BLOCK, StorFilterResourceRequirements, _SCSI_PNP_REQUEST_BLOCK
+ms.keywords: structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, StorQueryCapabilities, storport/SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorRemoveDevice, StorFilterResourceRequirements, storport/PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], StorStartDevice, StorSupriseRemoval, *PSCSI_PNP_REQUEST_BLOCK, StorQueryResourceRequirements, StorStopDevice, _SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	SCSI_PNP_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: *PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK
+req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -284,9 +284,9 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
-
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
  
 

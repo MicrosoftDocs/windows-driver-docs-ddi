@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_MODEM_CONFIG_STATUS
-title: _WWAN_MODEM_CONFIG_STATUS
+title: "_WWAN_MODEM_CONFIG_STATUS"
 author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_STATUS structure represents a modem's configuration (config) status.
 old-location: netvista\wwan_modem_config_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], netvista.wwan_modem_config_status, wwan/WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATUS, wwan/PWWAN_MODEM_CONFIG_STATUS, _WWAN_MODEM_CONFIG_STATUS
+ms.keywords: "_WWAN_MODEM_CONFIG_STATUS, wwan/PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_MODEM_CONFIG_STATUS
 product: Windows
 targetos: Windows
-req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
+req.typenames: "*PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_LoginOptions
-title: _ISCSI_LoginOptions
+title: "_ISCSI_LoginOptions"
 author: windows-driver-content
 description: The ISCSI_LoginOptions structure defines the characteristics of a logon session. The LoginToTarget_IN routines use these defined characteristics while it logs into an iSCSI target.
 old-location: storage\iscsi_loginoptions.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsidef/ISCSI_LoginOptions, ISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, ISCSI_LoginOptions structure [Storage Devices], storage.iscsi_loginoptions, PISCSI_LoginOptions, _ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, *PISCSI_LoginOptions
+ms.keywords: ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, storage.iscsi_loginoptions, PISCSI_LoginOptions, *PISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], iscsidef/ISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, _ISCSI_LoginOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsidef.h
-apiname: 
+apiname:
 -	ISCSI_LoginOptions
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_LoginOptions, ISCSI_LoginOptions
+req.typenames: ISCSI_LoginOptions, *PISCSI_LoginOptions
 ---
 
 # _ISCSI_LoginOptions structure

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStopAndPurgeSynchronously, PFN_WDFIOQUEUESTOPANDPURGESYNCHRONOUSLY, wdfio/WdfIoQueueStopAndPurgeSynchronously, kmdf.wdfioqueuestopandpurgesynchronously, WdfIoQueueStopAndPurgeSynchronously method, wdf.wdfioqueuestopandpurgesynchronously
+ms.keywords: PFN_WDFIOQUEUESTOPANDPURGESYNCHRONOUSLY, wdfio/WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously method, WdfIoQueueStopAndPurgeSynchronously, wdf.wdfioqueuestopandpurgesynchronously, kmdf.wdfioqueuestopandpurgesynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueStopAndPurgeSynchronously
 product: Windows
 targetos: Windows

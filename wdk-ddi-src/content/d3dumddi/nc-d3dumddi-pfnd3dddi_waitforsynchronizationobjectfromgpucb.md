@@ -108,9 +108,9 @@ This function semantics are similar to existing <a href="..\d3dumddi\nc-d3dumddi
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
 
-<i>pfnWaitForSynchronizationObject2Cb</i>
-
 <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_waitforsynchronizationobjectfromgpu.md">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
+
+<i>pfnWaitForSynchronizationObject2Cb</i>
 
  
 

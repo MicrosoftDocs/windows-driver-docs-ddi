@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_AddTarget_IN
-title: _SM_AddTarget_IN
+title: "_SM_AddTarget_IN"
 author: windows-driver-content
 description: The SM_AddTarget_IN structure is used to provide input parameters to the SM_AddTarget WMI method.
 old-location: storage\sm_addtarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02bf5e91-bce0-4b8d-aec6-659ed1efd2b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], storage.sm_addtarget_in, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml, PSM_AddTarget_IN, *PSM_AddTarget_IN, _SM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices], hbapiwmi/SM_AddTarget_IN, hbapiwmi/PSM_AddTarget_IN
+ms.keywords: hbapiwmi/SM_AddTarget_IN, SM_AddTarget_IN, PSM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], *PSM_AddTarget_IN, hbapiwmi/PSM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices], _SM_AddTarget_IN, storage.sm_addtarget_in, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_AddTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSM_AddTarget_IN, SM_AddTarget_IN
+req.typenames: SM_AddTarget_IN, *PSM_AddTarget_IN
 ---
 
 # _SM_AddTarget_IN structure

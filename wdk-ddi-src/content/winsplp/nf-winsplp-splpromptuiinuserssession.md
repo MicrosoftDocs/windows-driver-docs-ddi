@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, SplPromptUIInUsersSession, print.splpromptuiinuserssession
+ms.keywords: print.splpromptuiinuserssession, SplPromptUIInUsersSession function [Print Devices], spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession, SplPromptUIInUsersSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	SplPromptUIInUsersSession
 product: Windows
 targetos: Windows

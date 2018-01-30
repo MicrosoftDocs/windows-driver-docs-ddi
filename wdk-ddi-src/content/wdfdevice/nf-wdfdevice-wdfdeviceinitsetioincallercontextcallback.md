@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0104e8b-9a2f-4f52-a431-bec7de3be968
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceinitsetioincallercontextcallback, WdfDeviceInitSetIoInCallerContextCallback method, PFN_WDFDEVICEINITSETIOINCALLERCONTEXTCALLBACK, DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml, wdf.wdfdeviceinitsetioincallercontextcallback, WdfDeviceInitSetIoInCallerContextCallback, wdfdevice/WdfDeviceInitSetIoInCallerContextCallback
+ms.keywords: wdfdevice/WdfDeviceInitSetIoInCallerContextCallback, DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml, WdfDeviceInitSetIoInCallerContextCallback method, wdf.wdfdeviceinitsetioincallercontextcallback, PFN_WDFDEVICEINITSETIOINCALLERCONTEXTCALLBACK, WdfDeviceInitSetIoInCallerContextCallback, kmdf.wdfdeviceinitsetioincallercontextcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetIoInCallerContextCallback
 product: Windows
 targetos: Windows

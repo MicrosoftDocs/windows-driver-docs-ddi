@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
-title: _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+title: "_NDIS_RECEIVE_QUEUE_FREE_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure identifies a receive queue to free.
 old-location: netvista\ndis_receive_queue_free_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b67e7929-e6b3-4d0b-aff9-943a7fbae8ee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_6084d20e-050b-4e7c-af0e-6ab23269abb0.xml, netvista.ndis_receive_queue_free_parameters, ntddndis/NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+ms.keywords: netvista.ndis_receive_queue_free_parameters, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, virtual_machine_queue_ref_6084d20e-050b-4e7c-af0e-6ab23269abb0.xml, _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
+req.typenames: "*PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS"
 ---
 
 # _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure

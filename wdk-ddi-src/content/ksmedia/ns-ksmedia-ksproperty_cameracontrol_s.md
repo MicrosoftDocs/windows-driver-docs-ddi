@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 203c6452-26d4-4dbf-89d4-c7e6d47e7c16
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSPROPERTY_CAMERACONTROL_S, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], *PKSPROPERTY_CAMERACONTROL_S, ksmedia/KSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], stream.ksproperty_cameracontrol_s, KSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S
+ms.keywords: stream.ksproperty_cameracontrol_s, PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml, ksmedia/PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CAMERACONTROL_S
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S
+req.typenames: "*PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S"
 ---
 
 # KSPROPERTY_CAMERACONTROL_S structure
@@ -186,9 +186,9 @@ Indicates that the device settings are in relative values.
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
 
  
 

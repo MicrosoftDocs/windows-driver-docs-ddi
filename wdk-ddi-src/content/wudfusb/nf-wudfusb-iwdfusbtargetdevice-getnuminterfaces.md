@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4da2f2b0-f2ad-465d-b63e-f11406d4c210
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, IWDFUsbTargetDevice::GetNumInterfaces, GetNumInterfaces method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetNumInterfaces method, umdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces method
+ms.keywords: IWDFUsbTargetDevice::GetNumInterfaces, umdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces, wdf.iwdfusbtargetdevice_getnuminterfaces, IWDFUsbTargetDevice interface, GetNumInterfaces method, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, GetNumInterfaces method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, GetNumInterfaces method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.GetNumInterfaces
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

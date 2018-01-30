@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetRADIUSSharedSecret_IN
-title: _SetRADIUSSharedSecret_IN
+title: "_SetRADIUSSharedSecret_IN"
 author: windows-driver-content
 description: The SetRADIUSSharedSecret_IN structure holds the input data for the SetRADIUSSharedSecret method.
 old-location: storage\setradiussharedsecret_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948475eb-0670-4fab-b831-2fdb3ec86032
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.setradiussharedsecret_in, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], iscsiop/SetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, iscsiop/PSetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], _SetRADIUSSharedSecret_IN
+ms.keywords: iscsiop/PSetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], *PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, iscsiop/SetRADIUSSharedSecret_IN, _SetRADIUSSharedSecret_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetRADIUSSharedSecret_IN
 product: Windows
 targetos: Windows
-req.typenames: SetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN
+req.typenames: "*PSetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN"
 ---
 
 # _SetRADIUSSharedSecret_IN structure
@@ -87,9 +87,9 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
-
 <a href="..\iscsiop\ns-iscsiop-_setradiussharedsecret_out.md">SetRADIUSSharedSecret_OUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
 
  
 

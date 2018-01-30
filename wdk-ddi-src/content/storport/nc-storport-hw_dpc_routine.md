@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	HwStorDpcRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 
@@ -131,15 +131,15 @@ HW_DPC_ROUTINE (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
-
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
-
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
-
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+
+<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+
+<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
  
 

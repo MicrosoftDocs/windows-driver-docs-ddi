@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._INQUIRYDATA
-title: _INQUIRYDATA
+title: "_INQUIRYDATA"
 author: windows-driver-content
 description: The INQUIRYDATA structure is used in conjunction with the TapeMiniExtensionInit and TapeMiniVerifyInquiry routines to report SCSI inquiry data associated with a tape device.
 old-location: storage\inquirydata.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2389fb1e-b16a-4d0a-b347-8b8a0f1cf061
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PINQUIRYDATA, INQUIRYDATA structure [Storage Devices], scsi/INQUIRYDATA, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml, _INQUIRYDATA, *PINQUIRYDATA, INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, PINQUIRYDATA structure pointer [Storage Devices]
+ms.keywords: scsi/INQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml, *PINQUIRYDATA, _INQUIRYDATA, INQUIRYDATA, storage.inquirydata, PINQUIRYDATA, scsi/PINQUIRYDATA, INQUIRYDATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	INQUIRYDATA
 product: Windows
 targetos: Windows
-req.typenames: *PINQUIRYDATA, INQUIRYDATA
+req.typenames: INQUIRYDATA, *PINQUIRYDATA
 req.product: Windows 10 or later.
 ---
 
@@ -279,44 +279,9 @@ Reserved.
 
 
 
-#### - TerminateTask
-
-Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
-
-
-#### - ISOVersion
-
-Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
-
-
 #### - ANSIVersion
 
 Indicates the ANSI version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
-
-
-#### - ReservedBit2
-
-Reserved. 
-
-
-#### - AckReqQ
-
-Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
-
-
-#### - ReservedBit3
-
-Reserved. 
-
-
-#### - MediumChanger
-
-Indicates, when set to one, that the device is embedded within or attached to a medium transport element. A value of zero indicates that the device is not embedded within or attached to a medium transport element.
-
-
-#### - EnclosureServices
-
-Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
 
 
 #### - ECMAVersion
@@ -324,19 +289,14 @@ Indicates, when set to one, that the device contains an embedded enclosure servi
 Indicates the ECMA version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - MultiPort
+#### - ISOVersion
 
-Indicates, when set to one, that the target device is a multiport (2 or more ports) device that conforms to the SCSI-3 multiport device requirements. A value of zero indicates that this device has a single port and does not implement the multiport requirements. 
-
-
-#### - Addr32
-
-Indicates, when set to one, that the target supports 32-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
+Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - TransferDisable
+#### - TerminateTask
 
-Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and TARGET TRANSFER DISABLE messages. A value of zero indicates that the device does not support one or both of these messages.  For more information about the CONTINUE TASK and TARGET TRANSFER DISABLE messages, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
 
 
 #### - Addr16
@@ -344,11 +304,51 @@ Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and 
 Indicates, when set to one, that the target supports 16-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
 
 
+#### - Addr32
+
+Indicates, when set to one, that the target supports 32-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
+
+
+#### - AckReqQ
+
+Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
+
+
+#### - MediumChanger
+
+Indicates, when set to one, that the device is embedded within or attached to a medium transport element. A value of zero indicates that the device is not embedded within or attached to a medium transport element.
+
+
+#### - MultiPort
+
+Indicates, when set to one, that the target device is a multiport (2 or more ports) device that conforms to the SCSI-3 multiport device requirements. A value of zero indicates that this device has a single port and does not implement the multiport requirements. 
+
+
+#### - ReservedBit2
+
+Reserved. 
+
+
+#### - EnclosureServices
+
+Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
+
+
+#### - ReservedBit3
+
+Reserved. 
+
+
+#### - TransferDisable
+
+Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and TARGET TRANSFER DISABLE messages. A value of zero indicates that the device does not support one or both of these messages.  For more information about the CONTINUE TASK and TARGET TRANSFER DISABLE messages, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+
+
 ## -see-also
 
-<a href="..\minitape\nc-minitape-tape_extension_init_routine.md">TapeMiniExtensionInit</a>
-
 <a href="..\minitape\nc-minitape-tape_verify_inquiry_routine.md">TapeMiniVerifyInquiry</a>
+
+<a href="..\minitape\nc-minitape-tape_extension_init_routine.md">TapeMiniExtensionInit</a>
 
  
 

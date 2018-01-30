@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ded74c48-b9a8-4ee4-8df9-3dc99892d41d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILNITZINFO_V1, rilapitypes/RILNITZINFO_V1, netvista.rilnitzinfo_v1_2, *LPRILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILNITZINFO_V1, *LPRILNITZINFO_V1, rilapitypes/RILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILNITZINFO_V1
 product: Windows
 targetos: Windows

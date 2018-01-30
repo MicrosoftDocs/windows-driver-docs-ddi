@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_PROTOCOL
-title: _WWAN_AUTH_PROTOCOL
+title: "_WWAN_AUTH_PROTOCOL"
 author: windows-driver-content
 description: The WWAN_AUTH_PROTOCOL enumeration lists the different types of authentication protocols that are supported by the MB device.
 old-location: netvista\wwan_auth_protocol.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33c9523e-3195-456f-8e17-b9539475bc67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanAuthProtocolNone, WwanAuthProtocolChap, WwanAuthProtocolMsChapV2, _WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, netvista.wwan_auth_protocol, WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolMsChapV2, WwanAuthProtocolMax, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolPap, wwan/WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolChap, wwan/PWWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolMax, WwanAuthProtocolNone, WwanAuthProtocolPap, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: WwanAuthProtocolMsChapV2, WwanAuthProtocolNone, netvista.wwan_auth_protocol, WWAN_AUTH_PROTOCOL, WwanAuthProtocolPap, WwanAuthProtocolMax, wwan/WwanAuthProtocolMax, wwan/WwanAuthProtocolNone, PWWAN_AUTH_PROTOCOL, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, wwan/WwanAuthProtocolMsChapV2, _WWAN_AUTH_PROTOCOL, wwan/PWWAN_AUTH_PROTOCOL, wwan/WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolPap, *PWWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], WwanAuthProtocolChap, wwan/WwanAuthProtocolChap, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_PROTOCOL
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL
+req.typenames: "*PWWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL"
 req.product: Windows 10 or later.
 ---
 

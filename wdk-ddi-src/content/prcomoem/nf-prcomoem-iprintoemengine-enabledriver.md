@@ -2,13 +2,13 @@
 UID: NF:prcomoem.IPrintOemEngine.EnableDriver
 title: IPrintOemEngine::EnableDriver method
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\iprintoemengine_enabledriver.htm
 old-project: print
 ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemengine_enabledriver, IPrintOemEngine::EnableDriver, EnableDriver, EnableDriver method [Print Devices], IPrintOemEngine interface, EnableDriver method [Print Devices], IPrintOemEngine, IPrintOemEngine interface [Print Devices], EnableDriver method, prcomoem/IPrintOemEngine::EnableDriver
+ms.keywords: EnableDriver method [Print Devices], IPrintOemEngine interface, IPrintOemEngine::EnableDriver, EnableDriver method [Print Devices], EnableDriver, IPrintOemEngine interface [Print Devices], EnableDriver method, prcomoem/IPrintOemEngine::EnableDriver, IPrintOemEngine, print.iprintoemengine_enabledriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemEngine.EnableDriver
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

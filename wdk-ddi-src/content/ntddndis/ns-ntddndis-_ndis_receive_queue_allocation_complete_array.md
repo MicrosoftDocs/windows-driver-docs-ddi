@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
-title: _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
+title: "_NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY"
 author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure contains information about the allocation status of a batch of receive queues.
 old-location: netvista\ndis_receive_queue_allocation_complete_array.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f071569f-fa99-4614-96a7-edf73a85d96a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, virtual_machine_queue_ref_2b5d6225-cfe9-4ed0-8a4b-02135f4b37c8.xml, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_receive_queue_allocation_complete_array, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_2b5d6225-cfe9-4ed0-8a4b-02135f4b37c8.xml, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, netvista.ndis_receive_queue_allocation_complete_array, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
+req.typenames: "*PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY"
 ---
 
 # _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure
@@ -122,13 +122,13 @@ Each element in the array that follows this structure is an
 
 ## -see-also
 
+<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
+
 <mshelp:link keywords="netvista.ndis_receive_queue_allocation_complete_parameters" tabindex="0"><b>
    NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b></mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
 
  
 

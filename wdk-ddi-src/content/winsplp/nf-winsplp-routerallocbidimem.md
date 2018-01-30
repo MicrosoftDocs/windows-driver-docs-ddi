@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/RouterAllocBidiMem, print.routerallocbidimem, RouterAllocBidiMem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, RouterAllocBidiMem function [Print Devices]
+ms.keywords: spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, RouterAllocBidiMem function [Print Devices], winsplp/RouterAllocBidiMem, RouterAllocBidiMem, print.routerallocbidimem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	RouterAllocBidiMem
 product: Windows
 targetos: Windows

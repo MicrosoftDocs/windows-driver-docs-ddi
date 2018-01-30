@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_BMREQUEST_DIRECTION
-title: _WDF_USB_BMREQUEST_DIRECTION
+title: "_WDF_USB_BMREQUEST_DIRECTION"
 author: windows-driver-content
 description: The WDF_USB_BMREQUEST_DIRECTION enumeration identifies the data transfer direction for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_direction.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e39748b8-d84c-4f9e-a790-bff192a6769c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_BMREQUEST_DIRECTION enumeration, wdf.wdf_usb_bmrequest_direction, _WDF_USB_BMREQUEST_DIRECTION, BmRequestDeviceToHost, wdfusb/BmRequestHostToDevice, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, WDF_USB_BMREQUEST_DIRECTION, kmdf.wdf_usb_bmrequest_direction, BmRequestHostToDevice, wdfusb/BmRequestDeviceToHost, wdfusb/WDF_USB_BMREQUEST_DIRECTION
+ms.keywords: BmRequestDeviceToHost, wdfusb/BmRequestDeviceToHost, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, _WDF_USB_BMREQUEST_DIRECTION, wdf.wdf_usb_bmrequest_direction, WDF_USB_BMREQUEST_DIRECTION, wdfusb/BmRequestHostToDevice, WDF_USB_BMREQUEST_DIRECTION enumeration, kmdf.wdf_usb_bmrequest_direction, wdfusb/WDF_USB_BMREQUEST_DIRECTION, BmRequestHostToDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_BMREQUEST_DIRECTION
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e38d297-1e26-4605-a242-3f0180ac0360
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_sendlirr, HBA_SendLIRR routine [Storage Devices], HBA_SendLIRR, fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml, hbaapi/HBA_SendLIRR
+ms.keywords: fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml, HBA_SendLIRR routine [Storage Devices], storage.hba_sendlirr, hbaapi/HBA_SendLIRR, HBA_SendLIRR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendLIRR
 product: Windows
 targetos: Windows
@@ -244,9 +244,9 @@ Returned if an unspecified error occurred that prevented the execution of the LI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

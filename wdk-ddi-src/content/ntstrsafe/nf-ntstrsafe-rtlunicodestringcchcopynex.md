@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7ed5af4-7731-4f1d-8802-a932c26d276a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCchCopyNEx, safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml, kernel.rtlunicodestringcchcopynex, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCchCopyNEx
+ms.keywords: ntstrsafe/RtlUnicodeStringCchCopyNEx, kernel.rtlunicodestringcchcopynex, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringCchCopyNEx, safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringCchCopyNEx
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCchCopyNEx function
@@ -99,34 +99,34 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
 
 
 
-##### - dwFlags.STRSAFE_FILL_BEHIND
+#### STRSAFE_FILL_BEHIND
 
 If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
 
 
-##### - dwFlags.STRSAFE_IGNORE_NULLS
+#### STRSAFE_IGNORE_NULLS
 
 If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringCchCopyNEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
 
 
-##### - dwFlags.STRSAFE_NULL_ON_FAILURE
-
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
-
-
-##### - dwFlags.STRSAFE_ZERO_LENGTH_ON_FAILURE
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
-
-
-##### - dwFlags.STRSAFE_FILL_ON_FAILURE
+#### STRSAFE_FILL_ON_FAILURE
 
 If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
 
 
-##### - dwFlags.STRSAFE_NO_TRUNCATION
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+
+
+#### STRSAFE_NO_TRUNCATION
 
 If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
+
+
+#### STRSAFE_ZERO_LENGTH_ON_FAILURE
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
 
 
 ## -returns
@@ -203,11 +203,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopynex.md">RtlUnicodeStringCbCopyNEx</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
 
  
 

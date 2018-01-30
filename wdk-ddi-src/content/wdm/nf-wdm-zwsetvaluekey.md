@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/NtSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], NtSetValueKey, kernel.zwsetvaluekey, wdm/ZwSetValueKey, ZwSetValueKey
+ms.keywords: wdm/ZwSetValueKey, kernel.zwsetvaluekey, ZwSetValueKey, NtSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/NtSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwSetValueKey
 -	NtSetValueKey
 product: Windows
@@ -251,23 +251,23 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 <a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
 
  
 

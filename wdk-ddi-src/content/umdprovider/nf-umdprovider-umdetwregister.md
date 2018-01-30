@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.umdetwregister, UMDEtwRegister function [Display Devices], UMDEtwRegister, umdprovider/UMDEtwRegister
+ms.keywords: UMDEtwRegister function [Display Devices], umdprovider/UMDEtwRegister, UMDEtwRegister, display.umdetwregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_SEMANTIC
+req.product: Windows 10 or later.
 ---
 
 # UMDEtwRegister function

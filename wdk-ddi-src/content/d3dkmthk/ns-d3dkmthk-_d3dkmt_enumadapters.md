@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices], display.d3dkmt_enumadapters, _D3DKMT_ENUMADAPTERS
+ms.keywords: d3dkmthk/D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices], D3DKMT_ENUMADAPTERS, _D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

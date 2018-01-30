@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._POWER_THROTTLING_PROCESS_STATE
-title: _POWER_THROTTLING_PROCESS_STATE
+title: "_POWER_THROTTLING_PROCESS_STATE"
 author: windows-driver-content
 description: Stores the throttling policies and how to apply them to a target process when that process is subject to power management.
 old-location: kernel\power_throttling_process_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.power_throttling_process_state, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, ntddk/POWER_THROTTLING_PROCESS_STATE
+ms.keywords: "_POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, ntddk/POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], *PPOWER_THROTTLING_PROCESS_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	POWER_THROTTLING_PROCESS_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE
+req.typenames: "*PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE"
 ---
 
 # _POWER_THROTTLING_PROCESS_STATE structure

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba0e11d9-3bb1-412c-9b33-9362d774adee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmdroppartycomplete, NdisMCmDropPartyComplete, ndis/NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml
+ms.keywords: NdisMCmDropPartyComplete, netvista.ndismcmdroppartycomplete, ndis/NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmDropPartyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDropPartyComplete macro
@@ -81,6 +81,13 @@ TBD
 
 
 
+#### - Status [in]
+
+Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
+     caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
+
+
 #### - NdisPartyHandle [in]
 
 Specifies the handle to the party that the client requested be dropped. The MCM driver obtained
@@ -88,13 +95,6 @@ Specifies the handle to the party that the client requested be dropped. The MCM 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 
      <mshelp:link keywords="netvista.protocolcmdropparty" tabindex="0"><i>
      ProtocolCmDropParty</i></mshelp:link> function.
-
-
-#### - Status [in]
-
-Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
-     caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -127,13 +127,13 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
-
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
  
 

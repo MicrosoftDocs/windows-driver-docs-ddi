@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFC4Statistics_OUT
-title: _GetFC4Statistics_OUT
+title: "_GetFC4Statistics_OUT"
 author: windows-driver-content
 description: The GetFC4Statistics_OUT structure is used to report the output parameter data of the GetFC4Statistics WMI method to the WMI client.
 old-location: storage\getfc4statistics_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.getfc4statistics_out, PGetFC4Statistics_OUT, *PGetFC4Statistics_OUT, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, hbapiwmi/PGetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], GetFC4Statistics_OUT, hbapiwmi/GetFC4Statistics_OUT, _GetFC4Statistics_OUT, GetFC4Statistics_OUT structure [Storage Devices]
+ms.keywords: GetFC4Statistics_OUT structure [Storage Devices], hbapiwmi/PGetFC4Statistics_OUT, storage.getfc4statistics_out, GetFC4Statistics_OUT, _GetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], hbapiwmi/GetFC4Statistics_OUT, PGetFC4Statistics_OUT, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, *PGetFC4Statistics_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetFC4Statistics_OUT
 product: Windows
 targetos: Windows

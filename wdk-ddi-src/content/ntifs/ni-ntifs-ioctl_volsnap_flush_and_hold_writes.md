@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 product: Windows
 targetos: Windows
@@ -109,14 +109,14 @@ The <b>Status</b> member is set to STATUS_SUCCESS on success or an appropriate N
 
 
 
-#### -STATUS_FILE_LOCK_CONFLICT
-
-A file lock conflict was encountered. This error can be returned by the filter manager.
-
-
 #### -STATUS_VOLUME_DISMOUNTED
 
 The volume was dismounted.
+
+
+#### -STATUS_FILE_LOCK_CONFLICT
+
+A file lock conflict was encountered. This error can be returned by the filter manager.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_SCAN_CONTEXT
-title: _CLS_SCAN_CONTEXT
+title: "_CLS_SCAN_CONTEXT"
 author: windows-driver-content
 description: The CLFS_SCAN_CONTEXT structure holds context information to support a scan of the containers in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_scan_context.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f10abc6-1c86-4401-9af7-26d6c30f6fe8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PCLS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT, *PCLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLS_SCAN_CONTEXT, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, PPCLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/CLS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_scan_context, *PCLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], CLFS_SCAN_CONTEXT, wdm/CLFS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
+ms.keywords: wdm/CLS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PCLS_SCAN_CONTEXT, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_scan_context, *PCLFS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_SCAN_CONTEXT, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], wdm/PPCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	CLS_SCAN_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
+req.typenames: PPCLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT
 req.product: Windows 10 or later.
 ---
 

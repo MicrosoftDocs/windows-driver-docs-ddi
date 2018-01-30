@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._STREAMING_CONTROL_REQUEST_TYPE
-title: _STREAMING_CONTROL_REQUEST_TYPE
+title: "_STREAMING_CONTROL_REQUEST_TYPE"
 author: windows-driver-content
 description: The STREAMING_CONTROL_REQUEST_TYPE enumeration defines the CDROM streaming modes.
 old-location: storage\streaming_control_request_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A17F0E3C-402B-4484-B4AE-0583773AEDA8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], CdromStreamingEnableForReadOnly, _STREAMING_CONTROL_REQUEST_TYPE, PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadWrite, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingDisable, storage.streaming_control_request_type, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/CdromStreamingEnableForReadOnly, CdromStreamingEnableForWriteOnly, CdromStreamingEnableForReadWrite, ntddcdrm/ CdromStreamingEnableForWriteOnly, STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingDisable
+ms.keywords: storage.streaming_control_request_type, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], *PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadWrite, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], CdromStreamingDisable, STREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForWriteOnly, ntddcdrm/ CdromStreamingEnableForWriteOnly, PSTREAMING_CONTROL_REQUEST_TYPE, _STREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForReadWrite, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingDisable, CdromStreamingEnableForReadOnly, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	STREAMING_CONTROL_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE
+req.typenames: "*PSTREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE"
 ---
 
 # _STREAMING_CONTROL_REQUEST_TYPE enumeration

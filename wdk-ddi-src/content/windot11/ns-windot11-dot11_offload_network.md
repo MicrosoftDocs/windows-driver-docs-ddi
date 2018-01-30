@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: 75DC558F-801B-42ED-9282-127E86E78923
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK, windot11/DOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network
+ms.keywords: PDOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK, PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_OFFLOAD_NETWORK, netvista.dot11_offload_network, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], *PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8
+req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_OFFLOAD_NETWORK
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK
+req.typenames: "*PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, print.ixpsdocumentconsumer_sendxpsunknown, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml
+ms.keywords: SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer::SendXpsUnknown, print.ixpsdocumentconsumer_sendxpsunknown, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, IXpsDocumentConsumer, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], SendXpsUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.SendXpsUnknown
 product: Windows
 targetos: Windows

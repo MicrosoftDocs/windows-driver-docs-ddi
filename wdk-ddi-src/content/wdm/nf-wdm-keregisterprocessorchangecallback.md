@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
+ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], wdm/KeRegisterProcessorChangeCallback, k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRegisterProcessorChangeCallback
 product: Windows
 targetos: Windows
@@ -92,6 +92,21 @@ A pointer to a driver-supplied processor change callback function that is to be 
 The processor change callback function is called at IRQL = PASSIVE_LEVEL.
 
 
+#### CallbackContext
+
+The context that was supplied in the <i>CallbackContext</i> parameter to the <b>KeRegisterProcessorChangeCallback</b> routine when the callback function was registered with the operating system.
+
+
+#### ChangeContext
+
+A pointer to a <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that describes the processor change notification event.
+
+
+#### OperationStatus
+
+A pointer to a variable that contains an NTSTATUS code. A device driver must not change the value of this variable except if an error occurs during the processing of the callback function when the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>.
+
+
 ### -param CallbackContext [in, optional]
 
 A driver-supplied context that is passed to the callback function. This parameter can be <b>NULL</b>.
@@ -104,24 +119,9 @@ Optional flags that modify the behavior of the <b>KeRegisterProcessorChangeCallb
 
 
 
-##### - CallbackFunction.CallbackContext
-
-The context that was supplied in the <i>CallbackContext</i> parameter to the <b>KeRegisterProcessorChangeCallback</b> routine when the callback function was registered with the operating system.
-
-
-##### - Flags.KE_PROCESSOR_CHANGE_ADD_EXISTING
+#### KE_PROCESSOR_CHANGE_ADD_EXISTING
 
 If this flag is set, the registered callback function is immediately called for each active processor that currently exists in the hardware partition, in addition to being called whenever a new processor is added to the hardware partition. If this flag is not set, the registered callback function is only called whenever a new processor is added to the system.
-
-
-##### - CallbackFunction.OperationStatus
-
-A pointer to a variable that contains an NTSTATUS code. A device driver must not change the value of this variable except if an error occurs during the processing of the callback function when the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>.
-
-
-##### - CallbackFunction.ChangeContext
-
-A pointer to a <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that describes the processor change notification event.
 
 
 ## -returns
@@ -153,9 +153,9 @@ A device driver typically calls the <b>KeRegisterProcessorChangeCallback</b> rou
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a>
-
 <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
+
+<a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53270599-7e8e-491a-8d7b-05f550f100d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreadregisteruchar, VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, VideoPortReadRegisterUchar, video/VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices]
+ms.keywords: VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, video/VideoPortReadRegisterUchar, VideoPortReadRegisterUchar, display.videoportreadregisteruchar, VideoPortReadRegisterUchar function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadRegisterUchar function

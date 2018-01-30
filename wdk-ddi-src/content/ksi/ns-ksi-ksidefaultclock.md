@@ -2,13 +2,13 @@
 UID: NS:ksi.KSIDEFAULTCLOCK
 title: KSIDEFAULTCLOCK
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksidefaultclock.htm
 old-project: stream
 ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK, ksi/KSIDEFAULTCLOCK, stream.ksidefaultclock, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], ksi/PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices]
+ms.keywords: stream.ksidefaultclock, *PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK, ksi/KSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], ksi/PKSIDEFAULTCLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksi.h
-apiname: 
+apiname:
 -	KSIDEFAULTCLOCK
 product: Windows
 targetos: Windows

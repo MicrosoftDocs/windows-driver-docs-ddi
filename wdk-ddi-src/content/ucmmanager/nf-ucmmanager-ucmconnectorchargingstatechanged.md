@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged, buses.ucmconnectorchargingstatechanged, UcmConnectorChargingStateChanged method [Buses]
+ms.keywords: buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	UcmCxstub.lib
 -	UcmCxstub.dll
-apiname: 
+apiname:
 -	UcmConnectorChargingStateChanged
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 

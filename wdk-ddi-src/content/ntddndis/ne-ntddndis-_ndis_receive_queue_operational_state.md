@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
-title: _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
+title: "_NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE"
 author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration identifies the current queue state of a receive queue.
 old-location: netvista\ndis_receive_queue_operational_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisReceiveQueueOperationalStateDmaStopped, ntddndis/NdisReceiveQueueOperationalStateUndefined, ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NdisReceiveQueueOperationalStateRunning, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, netvista.ndis_receive_queue_operational_state, ntddndis/NdisReceiveQueueOperationalStateMaximum, NdisReceiveQueueOperationalStateDmaStopped, _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NdisReceiveQueueOperationalStateMaximum, virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml, *PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NdisReceiveQueueOperationalStatePaused, NdisReceiveQueueOperationalStateUndefined, ntddndis/NdisReceiveQueueOperationalStatePaused, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveQueueOperationalStateRunning
+ms.keywords: PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, netvista.ndis_receive_queue_operational_state, ntddndis/NdisReceiveQueueOperationalStateRunning, ntddndis/NdisReceiveQueueOperationalStateUndefined, NdisReceiveQueueOperationalStatePaused, ntddndis/NdisReceiveQueueOperationalStateDmaStopped, ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NdisReceiveQueueOperationalStateMaximum, ntddndis/NdisReceiveQueueOperationalStateMaximum, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStatePaused, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveQueueOperationalStateUndefined, NdisReceiveQueueOperationalStateDmaStopped, NdisReceiveQueueOperationalStateRunning, virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, *PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
+req.typenames: "*PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE"
 ---
 
 # _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration
@@ -127,20 +127,20 @@ The <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
-
-<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_status_receive_queue_state" tabindex="0"><b>
-   NDIS_STATUS_RECEIVE_QUEUE_STATE</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a>
 
 <mshelp:link keywords="netvista.oid_receive_filter_allocate_queue" tabindex="0">
    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</mshelp:link>
 
+<mshelp:link keywords="netvista.ndis_status_receive_queue_state" tabindex="0"><b>
+   NDIS_STATUS_RECEIVE_QUEUE_STATE</b></mshelp:link>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
 
-<a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a>
+<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
 
  
 

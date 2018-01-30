@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c1ded22b-a5bf-4755-903a-4797c6a65713
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetTrappedEmulatorPorts, VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml, VideoPortSetTrappedEmulatorPorts function [Display Devices], video/VideoPortSetTrappedEmulatorPorts, display.videoportsettrappedemulatorports
+ms.keywords: VideoPortSetTrappedEmulatorPorts, display.videoportsettrappedemulatorports, VideoPortSetTrappedEmulatorPorts function [Display Devices], video/VideoPortSetTrappedEmulatorPorts, VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortSetTrappedEmulatorPorts function
@@ -112,15 +113,15 @@ Calling <b>VideoPortSetTrappedEmulatorPorts</b> again and resetting the <b>Range
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 <a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
 <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 

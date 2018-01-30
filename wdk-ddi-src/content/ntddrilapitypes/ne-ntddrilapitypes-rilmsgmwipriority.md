@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a974af39-a4a6-44f2-9010-e612f50c83df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGMWIPRIORITY_NORMAL, ntddrilapitypes/RIL_MSGMWIPRIORITY_URGENT, netvista.rilmsgmwipriority, RIL_MSGMWIPRIORITY_LOW, ntddrilapitypes/RILMSGMWIPRIORITY, RILMSGMWIPRIORITY, RIL_MSGMWIPRIORITY_NORMAL, ntddrilapitypes/RIL_MSGMWIPRIORITY_LOW, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_MAX, ntddrilapitypes/RIL_MSGMWIPRIORITY_MAX, RIL_MSGMWIPRIORITY_URGENT
+ms.keywords: RIL_MSGMWIPRIORITY_URGENT, netvista.rilmsgmwipriority, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWIPRIORITY_NORMAL, ntddrilapitypes/RIL_MSGMWIPRIORITY_NORMAL, RILMSGMWIPRIORITY, ntddrilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGMWIPRIORITY_MAX, RIL_MSGMWIPRIORITY_LOW, ntddrilapitypes/RILMSGMWIPRIORITY, ntddrilapitypes/RIL_MSGMWIPRIORITY_URGENT, RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_MAX, ntddrilapitypes/RIL_MSGMWIPRIORITY_LOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGMWIPRIORITY
 product: Windows
 targetos: Windows

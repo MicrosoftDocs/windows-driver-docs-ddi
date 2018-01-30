@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 7A93C53C-8E60-4C57-BDEC-6868AB5E400D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure pointer [Parallel Ports], *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, gpioclx/GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure [Parallel Ports], GPIO.gpio_save_restore_bank_hardware_context_parameters, gpioclx/PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS"
+ms.keywords: gpioclx/GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure [Parallel Ports], PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure pointer [Parallel Ports], gpioclx/PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO.gpio_save_restore_bank_hardware_context_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ The <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: dc9acd16-c515-4e47-9a0b-9dec46e30f74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.synthvoicepriority_instance, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, SYNTHVOICEPRIORITY_INSTANCE, _SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE, dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices]
+ms.keywords: dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, audio.synthvoicepriority_instance, *PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], PSYNTHVOICEPRIORITY_INSTANCE, _SYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

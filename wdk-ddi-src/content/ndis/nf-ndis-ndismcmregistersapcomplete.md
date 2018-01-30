@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53f94e25-ca6c-4230-8447-d36774322dc7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete, NdisMCmRegisterSapComplete
+ms.keywords: ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete, condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, NdisMCmRegisterSapComplete, NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmRegisterSapComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmRegisterSapComplete macro
@@ -89,14 +89,6 @@ TBD
 
 
 
-#### - CallMgrSapContext [in]
-
-Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
-     state for this SAP if the registration is successful. If so, NDIS passes this handle back to the to the
-     MCM driver in all subsequent calls concerning this SAP. If 
-     <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
-
-
 #### - Status [in]
 
 Specifies the final status for the client's original request to register the SAP, either
@@ -108,6 +100,14 @@ Specifies the final status for the client's original request to register the SAP
 Specifies the NDIS-supplied handle to the SAP if the registration is successful. The call manager
      obtained this handle as an input parameter to its 
      <i>ProtocolCmRegisterSap</i> function.
+
+
+#### - CallMgrSapContext [in]
+
+Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
+     state for this SAP if the registration is successful. If so, NDIS passes this handle back to the to the
+     MCM driver in all subsequent calls concerning this SAP. If 
+     <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
 
 
 ## -remarks
@@ -138,19 +138,19 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 <mshelp:link keywords="netvista.protocolclregistersapcomplete" tabindex="0"><i>
    ProtocolClRegisterSapComplete</i></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
+   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
  
 

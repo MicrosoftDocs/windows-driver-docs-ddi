@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, wdm/MmMapIoSpace, kernel.mmmapiospace
+ms.keywords: wdm/MmMapIoSpace, MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmmapiospace, k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmMapIoSpace
 product: Windows
 targetos: Windows
@@ -105,13 +105,13 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
-<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
-
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
 
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
+<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
  
 

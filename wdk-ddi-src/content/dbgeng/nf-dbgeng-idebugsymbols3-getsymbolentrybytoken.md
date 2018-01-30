@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C5BAED6C-223F-4D1B-A9A4-323C93DD5AD9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, GetSymbolEntryByToken, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method, GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, debugger.idebugsymbols3_getsymbolentrybytoken, GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3::GetSymbolEntryByToken
+ms.keywords: GetSymbolEntryByToken, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, GetSymbolEntryByToken method [Windows Debugging], GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolEntryByToken, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method, IDebugSymbols3, debugger.idebugsymbols3_getsymbolentrybytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolEntryByToken
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSymbolEntryByToken method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 350ec4b2-a96a-420a-bb52-d09cc8c5029e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml, ksmedia/TUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], *PTUNER_ANALOG_CAPS_S, ksmedia/PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices]
+ms.keywords: "*PTUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml, PTUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, ksmedia/PTUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], ksmedia/TUNER_ANALOG_CAPS_S"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	TUNER_ANALOG_CAPS_S
 product: Windows
 targetos: Windows
-req.typenames: *PTUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S
+req.typenames: TUNER_ANALOG_CAPS_S, *PTUNER_ANALOG_CAPS_S
 ---
 
 # TUNER_ANALOG_CAPS_S structure
@@ -174,9 +174,9 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
-
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
 

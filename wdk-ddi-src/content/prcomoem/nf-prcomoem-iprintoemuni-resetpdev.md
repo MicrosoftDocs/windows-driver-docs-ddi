@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni::ResetPDEV, prcomoem/IPrintOemUni::ResetPDEV, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, IPrintOemUni, IPrintOemUni interface [Print Devices], ResetPDEV method, print.iprintoemuni_resetpdev, ResetPDEV method [Print Devices], IPrintOemUni interface, ResetPDEV, ResetPDEV method [Print Devices]
+ms.keywords: ResetPDEV method [Print Devices], IPrintOemUni interface, ResetPDEV, print.iprintoemuni_resetpdev, IPrintOemUni, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], prcomoem/IPrintOemUni::ResetPDEV, IPrintOemUni interface [Print Devices], ResetPDEV method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

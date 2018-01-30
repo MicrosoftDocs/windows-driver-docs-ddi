@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_LOCAL_ENDPOINTS
-title: _NDIS_NDK_LOCAL_ENDPOINTS
+title: "_NDIS_NDK_LOCAL_ENDPOINTS"
 author: windows-driver-content
 description: The NDIS_NDK_LOCAL_ENDPOINTS structure describes the NDK local endpoints that are on a miniport adapter.
 old-location: netvista\ndis_ndk_local_endpoints.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AF14B883-780E-42BE-9D8F-75C17011425B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_NDK_LOCAL_ENDPOINTS, PNDIS_NDK_LOCAL_ENDPOINTS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NDK_LOCAL_ENDPOINTS, NDIS_NDK_LOCAL_ENDPOINTS, PNDIS_NDK_LOCAL_ENDPOINTS, _NDIS_NDK_LOCAL_ENDPOINTS, NDIS_NDK_LOCAL_ENDPOINTS structure [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_local_endpoints
+ms.keywords: NDIS_NDK_LOCAL_ENDPOINTS structure [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_local_endpoints, NDIS_NDK_LOCAL_ENDPOINTS, PNDIS_NDK_LOCAL_ENDPOINTS, _NDIS_NDK_LOCAL_ENDPOINTS, ntddndis/NDIS_NDK_LOCAL_ENDPOINTS, ntddndis/PNDIS_NDK_LOCAL_ENDPOINTS, PNDIS_NDK_LOCAL_ENDPOINTS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NDK_LOCAL_ENDPOINTS
 product: Windows
 targetos: Windows
@@ -124,11 +124,11 @@ If the RDMA technology for the NDK provider requires the provider to map ND loca
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoint_entry.md">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451811">OID_NDK_LOCAL_ENDPOINTS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

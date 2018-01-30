@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_SEND_RESPONSE
-title: _FCP_SEND_RESPONSE
+title: "_FCP_SEND_RESPONSE"
 author: windows-driver-content
 description: This structure is used for a send response.
 old-location: ieee\fcp_send_response.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], FCP_SEND_RESPONSE, IEEE.fcp_send_response, _FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses]
+ms.keywords: PFCP_SEND_RESPONSE, _FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], FCP_SEND_RESPONSE, IEEE.fcp_send_response, PFCP_SEND_RESPONSE structure pointer [Buses], 61883/PFCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	FCP_SEND_RESPONSE
 product: Windows
 targetos: Windows

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dsound.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dsound.h
-apiname: 
+apiname:
 -	IKsPropertySet
 product: Windows
 targetos: Windows

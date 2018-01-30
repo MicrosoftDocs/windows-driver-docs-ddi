@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a796bb9-7d55-47da-9a57-2829cd193e23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterCreateNode, KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, stream.ksfiltercreatenode
+ms.keywords: stream.ksfiltercreatenode, KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, ks/KsFilterCreateNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFilterCreateNode
 product: Windows
 targetos: Windows

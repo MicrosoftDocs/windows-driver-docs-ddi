@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxbase._UFX_DEVICE_CAPABILITIES
-title: _UFX_DEVICE_CAPABILITIES
+title: "_UFX_DEVICE_CAPABILITIES"
 author: windows-driver-content
 description: The UFX_DEVICE_CAPABILITIES structure is used USB to define properties of the Universal Serial Bus (USB) device created by the controller.
 old-location: buses\ufx_device_capabilities.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UFX_DEVICE_CAPABILITIES structure [Buses], buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], ufxbase/UFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
+ms.keywords: PUFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], ufxbase/PUFX_DEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxbase.h
-apiname: 
+apiname:
 -	UFX_DEVICE_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
+req.typenames: "*PUFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES"
 req.product: Windows 10 or later.
 ---
 

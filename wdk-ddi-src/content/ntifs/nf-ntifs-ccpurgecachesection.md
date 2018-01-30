@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers], ntifs/CcPurgeCacheSection, ifsk.ccpurgecachesection
+ms.keywords: CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers], ntifs/CcPurgeCacheSection, ifsk.ccpurgecachesection, ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcPurgeCacheSection
 product: Windows
 targetos: Windows
@@ -120,15 +120,15 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 <a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11ca7db9-8e84-4d55-9ea9-7e2ecfa563e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilhideidsettings, *LPRILHIDEIDSETTINGS, ntddrilapitypes/RILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RILHIDEIDSETTINGS, RILHIDEIDSETTINGS, *LPRILHIDEIDSETTINGS, netvista.rilhideidsettings, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILHIDEIDSETTINGS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS
+req.typenames: "*LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS"
 ---
 
 # RILHIDEIDSETTINGS structure

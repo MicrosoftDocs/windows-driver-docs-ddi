@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_IPV6_HEADER_FIELD
-title: _NDIS_IPV6_HEADER_FIELD
+title: "_NDIS_IPV6_HEADER_FIELD"
 author: windows-driver-content
 description: The NDIS_IPV6_HEADER_FIELD enumeration identifies the type of a field in an IP version 6 (IPv6) header to be filtered.
 old-location: netvista\ndis_ipv6_header_field.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 753BBA25-B0D5-4EBC-BA47-07ABEBCBA47D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIPv6HeaderFieldMaximum, NdisIPv6HeaderFieldUndefined, *PNDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldMaximum, NDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv6HeaderFieldProtocol, _NDIS_IPV6_HEADER_FIELD, PNDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldProtocol, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldUndefined, ntddndis/NDIS_IPV6_HEADER_FIELD, netvista.ndis_ipv6_header_field
+ms.keywords: PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldMaximum, ntddndis/NdisIPv6HeaderFieldUndefined, NdisIPv6HeaderFieldUndefined, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldProtocol, netvista.ndis_ipv6_header_field, _NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldProtocol, ntddndis/NDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_IPV6_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD
+req.typenames: "*PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD"
 ---
 
 # _NDIS_IPV6_HEADER_FIELD enumeration

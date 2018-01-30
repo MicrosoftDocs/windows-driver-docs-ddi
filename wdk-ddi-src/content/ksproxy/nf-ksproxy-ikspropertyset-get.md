@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ikspropertyset_get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, IKsPropertySet::Get, Get method [Streaming Media Devices], IKsPropertySet interface, ksproxy/IKsPropertySet::Get, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Get method, Get method [Streaming Media Devices], Get
+ms.keywords: stream.ikspropertyset_get, Get, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Get method, Get method [Streaming Media Devices], IKsPropertySet interface, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, Get method [Streaming Media Devices], ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPropertySet.Get
 product: Windows
 targetos: Windows

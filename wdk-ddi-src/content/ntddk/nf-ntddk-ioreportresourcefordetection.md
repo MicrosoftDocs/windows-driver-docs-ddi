@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportResourceForDetection, kernel.ioreportresourcefordetection, k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], ntddk/IoReportResourceForDetection
+ms.keywords: kernel.ioreportresourcefordetection, IoReportResourceForDetection, ntddk/IoReportResourceForDetection, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReportResourceForDetection
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoReportResourceForDetection function
@@ -178,9 +178,9 @@ Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
-
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+<a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
 
  
 

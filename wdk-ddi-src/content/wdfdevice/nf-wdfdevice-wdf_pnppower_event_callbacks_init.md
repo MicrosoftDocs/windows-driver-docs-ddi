@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f84e200b-542d-4885-a091-9e311b4ab697
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_pnppower_event_callbacks_init, WDF_PNPPOWER_EVENT_CALLBACKS_INIT, WDF_PNPPOWER_EVENT_CALLBACKS_INIT function, DFDeviceObjectGeneralRef_f8e5ea12-489b-4217-b05f-43a31ef891d0.xml, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS_INIT, kmdf.wdf_pnppower_event_callbacks_init
+ms.keywords: DFDeviceObjectGeneralRef_f8e5ea12-489b-4217-b05f-43a31ef891d0.xml, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS_INIT, wdf.wdf_pnppower_event_callbacks_init, WDF_PNPPOWER_EVENT_CALLBACKS_INIT, kmdf.wdf_pnppower_event_callbacks_init, WDF_PNPPOWER_EVENT_CALLBACKS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._DATA_HEADER
-title: _DATA_HEADER
+title: "_DATA_HEADER"
 author: windows-driver-content
 description: The DATA_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
 old-location: print\data_header.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, prntfont/PDATA_HEADER, PDATA_HEADER, prntfont/DATA_HEADER, _DATA_HEADER, DATA_HEADER structure [Print Devices], *PDATA_HEADER, DATA_HEADER, PDATA_HEADER structure pointer [Print Devices]
+ms.keywords: print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, PDATA_HEADER structure pointer [Print Devices], PDATA_HEADER, *PDATA_HEADER, DATA_HEADER structure [Print Devices], DATA_HEADER, prntfont/DATA_HEADER, prntfont/PDATA_HEADER, _DATA_HEADER, print.data_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	DATA_HEADER
 product: Windows
 targetos: Windows
-req.typenames: DATA_HEADER, *PDATA_HEADER
+req.typenames: "*PDATA_HEADER, DATA_HEADER"
 req.product: Windows 10 or later.
 ---
 

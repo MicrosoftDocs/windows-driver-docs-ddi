@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION_MBR
-title: _PARTITION_INFORMATION_MBR
+title: "_PARTITION_INFORMATION_MBR"
 author: windows-driver-content
 description: PARTITION_INFORMATION_MBR contains information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition.
 old-location: storage\partition_information_mbr.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 846f3a1c-ee0a-42d2-bdf1-7bf09406c955
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR, ntdddisk/PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR, ntdddisk/PARTITION_INFORMATION_MBR, storage.partition_information_mbr, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices], structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml
+ms.keywords: storage.partition_information_mbr, ntdddisk/PPARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml, ntdddisk/PARTITION_INFORMATION_MBR, _PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	PARTITION_INFORMATION_MBR
 product: Windows
 targetos: Windows
-req.typenames: *PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR
+req.typenames: "*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR"
 ---
 
 # _PARTITION_INFORMATION_MBR structure

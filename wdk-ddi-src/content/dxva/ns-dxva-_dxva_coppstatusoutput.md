@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71d16b59-3e5c-4a2a-9217-5e0f7a2d4478
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_COPPStatusOutput, *LPDXVA_COPPStatusOutput, dxva/LPDXVA_COPPStatusOutput, DXVA_COPPStatusOutput structure [Display Devices], DXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput structure pointer [Display Devices], _DXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput, dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml, display.dxva_coppstatusoutput
+ms.keywords: dxva/DXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput, _DXVA_COPPStatusOutput, DXVA_COPPStatusOutput structure [Display Devices], LPDXVA_COPPStatusOutput structure pointer [Display Devices], dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml, DXVA_COPPStatusOutput, display.dxva_coppstatusoutput, *LPDXVA_COPPStatusOutput, dxva/LPDXVA_COPPStatusOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,17 +147,17 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+
 <a href="..\dxva\ns-dxva-_dxva_coppstatusdisplaydata.md">DXVA_COPPStatusDisplayData</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatushdcpkeydata.md">DXVA_COPPStatusHDCPKeyData</a>
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_COPPStatusSignalingCmdData</a>
-
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 

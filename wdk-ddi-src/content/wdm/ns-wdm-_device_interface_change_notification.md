@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_INTERFACE_CHANGE_NOTIFICATION
-title: _DEVICE_INTERFACE_CHANGE_NOTIFICATION
+title: "_DEVICE_INTERFACE_CHANGE_NOTIFICATION"
 author: windows-driver-content
 description: The DEVICE_INTERFACE_CHANGE_NOTIFICATION structure describes a device interface that has been enabled (arrived) or disabled (removed).
 old-location: kernel\device_interface_change_notification.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5d67c0-eb3f-4ac1-9f85-f9c673314458
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], PDEVICE_INTERFACE_CHANGE_NOTIFICATION, kernel.device_interface_change_notification, PDEVICE_INTERFACE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _DEVICE_INTERFACE_CHANGE_NOTIFICATION, *PDEVICE_INTERFACE_CHANGE_NOTIFICATION, wdm/PDEVICE_INTERFACE_CHANGE_NOTIFICATION, kstruct_a_43e52fa7-54ee-49bd-b822-4daf39ebcdc2.xml, DEVICE_INTERFACE_CHANGE_NOTIFICATION
+ms.keywords: wdm/DEVICE_INTERFACE_CHANGE_NOTIFICATION, kernel.device_interface_change_notification, PDEVICE_INTERFACE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], PDEVICE_INTERFACE_CHANGE_NOTIFICATION, kstruct_a_43e52fa7-54ee-49bd-b822-4daf39ebcdc2.xml, DEVICE_INTERFACE_CHANGE_NOTIFICATION, _DEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], *PDEVICE_INTERFACE_CHANGE_NOTIFICATION, wdm/PDEVICE_INTERFACE_CHANGE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	DEVICE_INTERFACE_CHANGE_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION
+req.typenames: DEVICE_INTERFACE_CHANGE_NOTIFICATION, *PDEVICE_INTERFACE_CHANGE_NOTIFICATION
 req.product: Windows 10 or later.
 ---
 
@@ -106,11 +106,11 @@ This structure is allocated from paged memory.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
+<a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
 
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
-<a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
+<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
 
 <a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
 

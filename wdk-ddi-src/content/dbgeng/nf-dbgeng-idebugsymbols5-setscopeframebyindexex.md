@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E0638C55-4160-48A5-9378-6AA9AAC8DC36
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, SetScopeFrameByIndexEx method [Windows Debugging], debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5::SetScopeFrameByIndexEx, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, IDebugSymbols5
+ms.keywords: IDebugSymbols5, SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5::SetScopeFrameByIndexEx, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols5.SetScopeFrameByIndexEx
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols5::SetScopeFrameByIndexEx method

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, FilterPreviewImage method [Imaging Devices], FilterPreviewImage, IWiaImageFilter::FilterPreviewImage, IWiaImageFilter, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage, FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface
+ms.keywords: FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage, FilterPreviewImage, IWiaImageFilter, IWiaImageFilter::FilterPreviewImage, FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wia_lh.h
-apiname: 
+apiname:
 -	IWiaImageFilter.FilterPreviewImage
 product: Windows
 targetos: Windows

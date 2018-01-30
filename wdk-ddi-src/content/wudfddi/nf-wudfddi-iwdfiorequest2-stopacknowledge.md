@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2 interface, StopAcknowledge method, StopAcknowledge method, wdf.iwdfiorequest2_stopacknowledge, umdf.iwdfiorequest2_stopacknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, IWDFIoRequest2, wudfddi/IWDFIoRequest2::StopAcknowledge, StopAcknowledge, IWDFIoRequest2::StopAcknowledge, StopAcknowledge method, IWDFIoRequest2 interface
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, IWDFIoRequest2::StopAcknowledge, umdf.iwdfiorequest2_stopacknowledge, StopAcknowledge method, wdf.iwdfiorequest2_stopacknowledge, StopAcknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest2.StopAcknowledge
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

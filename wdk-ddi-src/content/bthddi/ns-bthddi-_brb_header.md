@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BRB_HEADER, _BRB_HEADER, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bltooth.brb_header, BRB_HEADER structure [Bluetooth Devices], bthddi/BRB_HEADER
+ms.keywords: bltooth.brb_header, BRB_HEADER structure [Bluetooth Devices], bthddi/BRB_HEADER, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, BRB_HEADER, _BRB_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -222,11 +222,11 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
 <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
  
 

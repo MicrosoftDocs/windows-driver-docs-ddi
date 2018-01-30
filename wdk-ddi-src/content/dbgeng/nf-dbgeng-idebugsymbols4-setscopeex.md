@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 22844EBB-9BE7-47C0-BE1F-075473430F11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::SetScopeEx, IDebugSymbols4::SetScopeEx, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, SetScopeEx method [Windows Debugging], SetScopeEx, debugger.idebugsymbols4_setscopeex
+ms.keywords: debugger.idebugsymbols4_setscopeex, IDebugSymbols4::SetScopeEx, SetScopeEx, SetScopeEx method [Windows Debugging], dbgeng/IDebugSymbols4::SetScopeEx, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols4.SetScopeEx
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols4::SetScopeEx method

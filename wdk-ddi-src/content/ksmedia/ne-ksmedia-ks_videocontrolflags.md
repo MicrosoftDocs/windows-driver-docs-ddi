@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7f8b3727-132c-41c8-a252-0f9c8812002f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_VideoControlFlag_ExternalTriggerEnable, KS_VideoControlFlag_Trigger, KS_VideoControlFlag_StartPhotoSequenceCapture, KS_VideoControlFlag_IndependentImagePin, ksmedia/KS_VideoControlFlags, ksmedia/KS_VideoControlFlag_FlipHorizontal, ksmedia/KS_VideoControlFlag_IndependentImagePin, KS_VideoControlFlags, ksmedia/KS_VideoControlFlag_Trigger, KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, KS_VideoControlFlags enumeration [Streaming Media Devices], KS_VideoControlFlag_FlipHorizontal, vidcapstruct_ae01591c-4ee4-4e70-bfc2-c78ad73a296f.xml, KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlag_FlipVertical, KS_VideoControlFlag_FlipVertical, ksmedia/KS_VideoControlFlag_StillCapturePreviewFrame, stream.ks_videocontrolflags, ksmedia/KS_VideoControlFlag_StartPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_StopPhotoSequenceCapture, KS_VideoControlFlag_StillCapturePreviewFrame, KS_VideoControlFlag_StopPhotoSequenceCapture
+ms.keywords: KS_VideoControlFlag_FlipVertical, ksmedia/KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlag_Trigger, KS_VideoControlFlags, KS_VideoControlFlag_IndependentImagePin, KS_VideoControlFlag_StillCapturePreviewFrame, ksmedia/KS_VideoControlFlag_StopPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_VideoControlFlag_StartPhotoSequenceCapture, KS_VideoControlFlag_FlipHorizontal, KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, vidcapstruct_ae01591c-4ee4-4e70-bfc2-c78ad73a296f.xml, KS_VideoControlFlags enumeration [Streaming Media Devices], ksmedia/KS_VideoControlFlag_FlipVertical, KS_Obsolete_VideoControlFlag_Trigger, KS_VideoControlFlag_StopPhotoSequenceCapture, KS_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_VideoControlFlags, KS_VideoControlFlag_StartPhotoSequenceCapture, KS_VideoControlFlag_Trigger, stream.ks_videocontrolflags, ksmedia/KS_VideoControlFlag_StillCapturePreviewFrame, ksmedia/KS_VideoControlFlag_FlipHorizontal, ksmedia/KS_VideoControlFlag_IndependentImagePin, ksmedia/KS_Obsolete_VideoControlFlag_ExternalTriggerEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_VideoControlFlags
 product: Windows
 targetos: Windows

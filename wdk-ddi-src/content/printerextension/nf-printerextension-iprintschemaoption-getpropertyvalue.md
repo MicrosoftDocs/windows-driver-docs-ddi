@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrintSchemaOption::GetPropertyValue, GetPropertyValue, GetPropertyValue method [Print Devices], print.iprintschemaoption_getpropertyvalue, IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], GetPropertyValue method
+ms.keywords: IPrintSchemaOption, GetPropertyValue method [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices], GetPropertyValue method, IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue, printerextension/IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrintSchemaOption.GetPropertyValue
 product: Windows
 targetos: Windows
@@ -111,9 +111,9 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
  
 

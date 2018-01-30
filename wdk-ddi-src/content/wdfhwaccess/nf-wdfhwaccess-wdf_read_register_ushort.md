@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EC3D7812-4EAB-419D-B736-47AE148FC61C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_USHORT function, wdfhwaccess/WDF_READ_REGISTER_USHORT, wdf.wdf_read_register_ushort, WDF_READ_REGISTER_USHORT
+ms.keywords: wdfhwaccess/WDF_READ_REGISTER_USHORT, WDF_READ_REGISTER_USHORT, wdf.wdf_read_register_ushort, WDF_READ_REGISTER_USHORT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfhwaccess.h
-apiname: 
+apiname:
 -	WDF_READ_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

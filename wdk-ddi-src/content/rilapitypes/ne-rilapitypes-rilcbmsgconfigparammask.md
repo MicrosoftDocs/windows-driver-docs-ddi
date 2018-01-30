@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec2a26a0-4325-41d9-a6b4-5b9c2f22dd4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CBMC_ALL, rilapitypes/RIL_PARAM_CBMC_CDMASIZE, RIL_PARAM_CBMC_GWLINFO, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_ALL, rilapitypes/RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_GWLINFO, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE, rilapitypes/RIL_PARAM_CBMC_CDMAINFO, netvista.rilcbmsgconfigparammask_2
+ms.keywords: netvista.rilcbmsgconfigparammask_2, RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_GWLINFO, RIL_PARAM_CBMC_CDMASIZE, rilapitypes/RIL_PARAM_CBMC_CDMAINFO, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CBMC_CDMASIZE, RIL_PARAM_CBMC_ALL, rilapitypes/RIL_PARAM_CBMC_ALL, RIL_PARAM_CBMC_GWLINFO, RIL_PARAM_CBMC_CDMAINFO, rilapitypes/RILCBMSGCONFIGPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCBMSGCONFIGPARAMMASK
 product: Windows
 targetos: Windows

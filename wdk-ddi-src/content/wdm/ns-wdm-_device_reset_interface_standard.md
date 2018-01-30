@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_RESET_INTERFACE_STANDARD
-title: _DEVICE_RESET_INTERFACE_STANDARD
+title: "_DEVICE_RESET_INTERFACE_STANDARD"
 author: windows-driver-content
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_interface_standard.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD, _DEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], *PDEVICE_RESET_INTERFACE_STANDARD, wdm/DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/DEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], kernel.device_reset_interface_standard, *PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, _DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DEVICE_RESET_INTERFACE_STANDARD
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD
+req.typenames: DEVICE_RESET_INTERFACE_STANDARD, *PDEVICE_RESET_INTERFACE_STANDARD
 req.product: Windows 10 or later.
 ---
 
@@ -125,15 +125,15 @@ For more information about the purpose of this interface, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
 

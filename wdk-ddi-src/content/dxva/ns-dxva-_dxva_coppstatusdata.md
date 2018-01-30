@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f459cfa7-9fda-4b46-9fc9-05bdc9e5c964
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPStatusData, display.dxva_coppstatusdata, dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml, dxva/DXVA_COPPStatusData, DXVA_COPPStatusData structure [Display Devices], _DXVA_COPPStatusData
+ms.keywords: dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml, DXVA_COPPStatusData structure [Display Devices], display.dxva_coppstatusdata, DXVA_COPPStatusData, dxva/DXVA_COPPStatusData, _DXVA_COPPStatusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -228,11 +228,11 @@ The display driver returns status information through the <i>pOutput</i> paramet
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 

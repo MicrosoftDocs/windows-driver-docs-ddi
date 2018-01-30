@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83fadb77-90c2-4331-949c-5d8828ce33e2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init
+ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT, wdf.wdf_companion_event_callbacks_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcompanion.h
-apiname: 
+apiname:
 -	WDF_COMPANION_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows

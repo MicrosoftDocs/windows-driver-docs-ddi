@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cf81a653-19fd-45fc-ad38-3f701241fd80
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIdentifierAuthoritySid, rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml, ntifs/RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid function [Installable File System Drivers], ifsk.rtlidentifierauthoritysid
+ms.keywords: RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid function [Installable File System Drivers], ifsk.rtlidentifierauthoritysid, rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml, ntifs/RtlIdentifierAuthoritySid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlIdentifierAuthoritySid
 product: Windows
 targetos: Windows

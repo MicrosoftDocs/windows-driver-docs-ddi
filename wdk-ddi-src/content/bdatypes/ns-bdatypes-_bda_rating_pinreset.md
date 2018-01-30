@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_RATING_PINRESET
-title: _BDA_RATING_PINRESET
+title: "_BDA_RATING_PINRESET"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_rating_pinreset.htm
 old-project: stream
 ms.assetid: 237463EC-3C57-4DCA-9757-870B5F55C584
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], stream.bda_rating_pinreset, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], *PBDA_RATING_PINRESET, bdatypes/PBDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, _BDA_RATING_PINRESET, BDA_RATING_PINRESET
+ms.keywords: "_BDA_RATING_PINRESET, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], *PBDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], PBDA_RATING_PINRESET, stream.bda_rating_pinreset, bdatypes/PBDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, BDA_RATING_PINRESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bdatypes.h
-apiname: 
+apiname:
 -	BDA_RATING_PINRESET
 product: Windows
 targetos: Windows
-req.typenames: BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
+req.typenames: "*PBDA_RATING_PINRESET, BDA_RATING_PINRESET"
 ---
 
 # _BDA_RATING_PINRESET structure

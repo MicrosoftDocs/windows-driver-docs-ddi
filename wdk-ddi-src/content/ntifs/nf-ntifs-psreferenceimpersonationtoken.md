@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PsReferenceImpersonationToken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, PsReferenceImpersonationToken, ifsk.psreferenceimpersonationtoken, PsReferenceImpersonationToken routine [Installable File System Drivers]
+ms.keywords: PsReferenceImpersonationToken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, ntifs/PsReferenceImpersonationToken, ifsk.psreferenceimpersonationtoken, PsReferenceImpersonationToken routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsReferenceImpersonationToken
 product: Windows
 targetos: Windows
@@ -120,11 +120,11 @@ If the thread is currently impersonating a client, <b>PsReferenceImpersonationTo
 
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+
+<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b7cf8765-6f24-4b65-9171-6bfad7214013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlCurrentOplock function [Installable File System Drivers], ifsk.fsrtlcurrentoplock, ntifs/FsRtlCurrentOplock, FsRtlCurrentOplock, fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml
+ms.keywords: fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml, FsRtlCurrentOplock function [Installable File System Drivers], ifsk.fsrtlcurrentoplock, FsRtlCurrentOplock, ntifs/FsRtlCurrentOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlCurrentOplock
 product: Windows
 targetos: Windows

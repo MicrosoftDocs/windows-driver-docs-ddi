@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1bf6f5b-c23d-40ed-b6e2-788066fcf0fc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList class [Windows Debugging], Next method, ExtRemoteList::Next, ExtRemoteList, debugger.extremotelist_next, Next method [Windows Debugging], Next, Next method [Windows Debugging], ExtRemoteList class, EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml
+ms.keywords: ExtRemoteList::Next, EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, Next method [Windows Debugging], Next method [Windows Debugging], ExtRemoteList class, ExtRemoteList, ExtRemoteList class [Windows Debugging], Next method, Next, debugger.extremotelist_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.Next
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::Next method
@@ -82,9 +82,9 @@ If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https:/
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
 
  
 

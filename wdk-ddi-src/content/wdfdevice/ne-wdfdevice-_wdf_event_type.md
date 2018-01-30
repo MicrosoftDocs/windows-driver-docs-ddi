@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_EVENT_TYPE
-title: _WDF_EVENT_TYPE
+title: "_WDF_EVENT_TYPE"
 author: windows-driver-content
 description: The WDF_EVENT_TYPE enumeration specifies.
 old-location: wdf\wdf_event_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfEventReserved, wudfddi_types/WdfEventBroadcast, WDF_EVENT_TYPE enumeration, wdfdevice/WdfEventMaximum, wudfddi_types/WdfEventMaximum, WDF_EVENT_TYPE, WdfEventBroadcast, _WDF_EVENT_TYPE, wudfddi_types/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, WdfEventReserved, WdfEventMaximum, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved
+ms.keywords: "_WDF_EVENT_TYPE, WdfEventReserved, wdfdevice/WDF_EVENT_TYPE, WdfEventBroadcast, wdfdevice/WdfEventMaximum, WdfEventMaximum, wudfddi_types/WDF_EVENT_TYPE, wdf.wdf_event_type, wudfddi_types/WdfEventReserved, wudfddi_types/WdfEventMaximum, WDF_EVENT_TYPE enumeration, wudfddi_types/WdfEventBroadcast, wdfdevice/WdfEventReserved, wdfdevice/WdfEventBroadcast, WDF_EVENT_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_EVENT_TYPE
 product: Windows
 targetos: Windows

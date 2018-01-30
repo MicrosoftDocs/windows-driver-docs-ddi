@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 943a9139-f3b8-468e-9357-26b7b6bfed32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.getnearnamebyoffsetwide, GetNearNameByOffsetWide, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, IDebugSymbols3::GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging]
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3::GetNearNameByOffsetWide, IDebugSymbols3, debugger.getnearnamebyoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetNearNameByOffsetWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetNearNameByOffsetWide method

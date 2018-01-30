@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlVerifyVersionInfo, RtlVerifyVersionInfo, kernel.rtlverifyversioninfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml
+ms.keywords: RtlVerifyVersionInfo, wdm/RtlVerifyVersionInfo, k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], kernel.rtlverifyversioninfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlVerifyVersionInfo
 product: Windows
 targetos: Windows
@@ -202,7 +202,7 @@ Set the <i>TypeBitMask</i> and <i>ComparisonType</i> parameters for each call to
 </ul>
 
 
-##### - ConditionMask.TypeBitMask
+#### TypeBitMask
 
 Indicates the <i>VersionInfo</i> member for which the comparison type is set. <i>TypeBitMask</i> can be one of the following values.
         
@@ -294,7 +294,7 @@ VER_PRODUCT_TYPE
 </table> 
 
 
-##### - ConditionMask.ComparisonType
+#### ComparisonType
 
 Specifies the comparison type that <b>RtlVerifyVersionInfo</b> uses to compare the <b>VersionInfo</b> member specified by <i>TypeBitMask</i> with the corresponding attribute of the currently running operating system.
         
@@ -457,11 +457,11 @@ If the major service pack version exceeds the minimum required, then the minor s
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
-
-<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
 
  
 

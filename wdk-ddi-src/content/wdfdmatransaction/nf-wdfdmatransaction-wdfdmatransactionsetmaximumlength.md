@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b195c6df-79c4-427d-b722-309f43a4e150
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONSETMAXIMUMLENGTH, kmdf.wdfdmatransactionsetmaximumlength, WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength method, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, wdf.wdfdmatransactionsetmaximumlength, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml
+ms.keywords: WdfDmaTransactionSetMaximumLength method, wdf.wdfdmatransactionsetmaximumlength, PFN_WDFDMATRANSACTIONSETMAXIMUMLENGTH, WdfDmaTransactionSetMaximumLength, kmdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaTransactionSetMaximumLength
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

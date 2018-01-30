@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_PERF_STATE_UNIT
-title: _PEP_PERF_STATE_UNIT
+title: "_PEP_PERF_STATE_UNIT"
 author: windows-driver-content
 description: The PEP_PERF_STATE_UNIT enumeration indicates the measurement units in which the performance state (P-state) of a component is specified.
 old-location: kernel\pep_perf_state_unit.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitMax, PepPerfStateUnitMax, PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT, PepPerfStateUnitFrequency, _PEP_PERF_STATE_UNIT, PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitOther, kernel.pep_perf_state_unit, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], pepfx/PepPerfStateUnitBandwidth, PepPerfStateUnitOther, pepfx/PepPerfStateUnitFrequency
+ms.keywords: kernel.pep_perf_state_unit, PepPerfStateUnitOther, *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, _PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitOther, pepfx/PepPerfStateUnitFrequency, PepPerfStateUnitFrequency, PepPerfStateUnitMax, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitMax, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PERF_STATE_UNIT
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT
+req.typenames: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT"
 ---
 
 # _PEP_PERF_STATE_UNIT enumeration

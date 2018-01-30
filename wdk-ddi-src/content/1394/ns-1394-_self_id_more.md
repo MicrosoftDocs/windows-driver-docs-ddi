@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SELF_ID_MORE
-title: _SELF_ID_MORE
+title: "_SELF_ID_MORE"
 author: windows-driver-content
 description: The SELF_ID_MORE structure contains a raw packet one, two, or three self-ID packet. See the IEEE 1394 specification for details.
 old-location: ieee\self_id_more.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: d3c164a6-4830-4f1f-9fa5-5cd61e796e31
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSELF_ID_MORE structure pointer [Buses], _SELF_ID_MORE, 1394/SELF_ID_MORE, 1394/PSELF_ID_MORE, SELF_ID_MORE structure [Buses], *PSELF_ID_MORE, IEEE.self_id_more, 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, PSELF_ID_MORE, SELF_ID_MORE
+ms.keywords: PSELF_ID_MORE, 1394/SELF_ID_MORE, SELF_ID_MORE structure [Buses], 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, IEEE.self_id_more, 1394/PSELF_ID_MORE, SELF_ID_MORE, *PSELF_ID_MORE, _SELF_ID_MORE, PSELF_ID_MORE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	SELF_ID_MORE
 product: Windows
 targetos: Windows
-req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
+req.typenames: "*PSELF_ID_MORE, SELF_ID_MORE"
 ---
 
 # _SELF_ID_MORE structure

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 06affa2e-d22c-4d24-8c5f-6ef52e3051fa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winsplp/GetJobAttributes, GetJobAttributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, print.getjobattributes, GetJobAttributes function [Print Devices]
+ms.keywords: GetJobAttributes function [Print Devices], spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, winsplp/GetJobAttributes, print.getjobattributes, GetJobAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	GetJobAttributes
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ Caller-supplied pointer to an <a href="..\winddiui\ns-winddiui-_attribute_info_3
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
-
 <a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
  
 

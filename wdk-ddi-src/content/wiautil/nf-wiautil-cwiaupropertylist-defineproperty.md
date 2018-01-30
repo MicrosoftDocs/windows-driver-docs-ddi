@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 599c97af-1285-4fb9-af0b-edcd48249692
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices], DefineProperty method, wiautil/CWiauPropertyList::DefineProperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], image.cwiaupropertylist_defineproperty, CWiauPropertyList, DefineProperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface
+ms.keywords: DefineProperty method [Imaging Devices], wiautil/CWiauPropertyList::DefineProperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, image.cwiaupropertylist_defineproperty, CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList, DefineProperty, CWiauPropertyList interface [Imaging Devices], DefineProperty method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.DefineProperty
 product: Windows
 targetos: Windows

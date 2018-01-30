@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.appendtaillist, wdm/AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], AppendTailList
+ms.keywords: kernel.appendtaillist, wdm/AppendTailList, AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	AppendTailList
 product: Windows
 targetos: Windows
@@ -105,13 +105,13 @@ Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailLis
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
-
 <a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
 <a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
  
 

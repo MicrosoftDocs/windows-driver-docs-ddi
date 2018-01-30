@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10d169bc-4476-4d7f-8eeb-49941c12a7a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfChildListAddOrUpdateChildDescriptionAsPresent method, WdfChildListAddOrUpdateChildDescriptionAsPresent, PFN_WDFCHILDLISTADDORUPDATECHILDDESCRIPTIONASPRESENT, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdf.wdfchildlistaddorupdatechilddescriptionaspresent, DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent
+ms.keywords: WdfChildListAddOrUpdateChildDescriptionAsPresent, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, WdfChildListAddOrUpdateChildDescriptionAsPresent method, DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent, PFN_WDFCHILDLISTADDORUPDATECHILDDESCRIPTIONASPRESENT, wdf.wdfchildlistaddorupdatechilddescriptionaspresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfChildListAddOrUpdateChildDescriptionAsPresent
 product: Windows
 targetos: Windows
@@ -183,17 +183,17 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
-
 <a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
 

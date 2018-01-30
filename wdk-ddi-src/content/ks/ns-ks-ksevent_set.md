@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0cfe3674-2261-44f5-a916-fb786bb25fe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_SET, *PKSEVENT_SET, ks/PKSEVENT_SET, KSEVENT_SET structure [Streaming Media Devices], KSEVENT_SET, stream.ksevent_set, ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, PKSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices]
+ms.keywords: ks/KSEVENT_SET, stream.ksevent_set, ks/PKSEVENT_SET, KSEVENT_SET, PKSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices], ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, *PKSEVENT_SET, KSEVENT_SET structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSEVENT_SET
 product: Windows
 targetos: Windows

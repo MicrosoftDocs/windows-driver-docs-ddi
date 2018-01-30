@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_PortalInfoClass
-title: _MSiSCSI_PortalInfoClass
+title: "_MSiSCSI_PortalInfoClass"
 author: windows-driver-content
 description: The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 old-location: storage\msiscsi_portalinfoclass.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], storage.msiscsi_portalinfoclass, iscsimgt/MSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml
+ms.keywords: MSiSCSI_PortalInfoClass, iscsimgt/MSiSCSI_PortalInfoClass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml, PMSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass, _MSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], storage.msiscsi_portalinfoclass, MSiSCSI_PortalInfoClass structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	MSiSCSI_PortalInfoClass
 product: Windows
 targetos: Windows

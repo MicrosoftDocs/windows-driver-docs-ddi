@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.urs_config_init, ursdevice/URS_CONFIG_INIT, URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses]
+ms.keywords: URS_CONFIG_INIT, ursdevice/URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ursdevice.h
-apiname: 
+apiname:
 -	URS_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
-
 <a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
+
+<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
 
  
 

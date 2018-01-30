@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._timecode
-title: _timecode
+title: "_timecode"
 author: windows-driver-content
 description: The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 old-location: stream\timecode.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TIMECODE union [Streaming Media Devices], PTIMECODE, *PTIMECODE, TIMECODE, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, PTIMECODE union pointer [Streaming Media Devices], _timecode, ksmedia/TIMECODE, stream.timecode, ksmedia/PTIMECODE
+ms.keywords: "_timecode, PTIMECODE union pointer [Streaming Media Devices], ksmedia/PTIMECODE, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, TIMECODE union [Streaming Media Devices], stream.timecode, *PTIMECODE, PTIMECODE, ksmedia/TIMECODE, TIMECODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	TIMECODE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ntifs/FsRtlNotifyFilterReportChange, ifsk.fsrtlnotifyfilterreportchange
+ms.keywords: ntifs/FsRtlNotifyFilterReportChange, fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, FsRtlNotifyFilterReportChange function [Installable File System Drivers], ifsk.fsrtlnotifyfilterreportchange, FsRtlNotifyFilterReportChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < APC_LEVEL
-topictype: 
+req.irql: "< APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlNotifyFilterReportChange
 product: Windows
 targetos: Windows

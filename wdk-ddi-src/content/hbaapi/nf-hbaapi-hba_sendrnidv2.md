@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml, hbaapi/HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], HBA_SendRNIDV2, storage.hba_sendrnidv2
+ms.keywords: hbaapi/HBA_SendRNIDV2, storage.hba_sendrnidv2, HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendRNIDV2
 product: Windows
 targetos: Windows
@@ -109,11 +109,6 @@ TBD
 
 
 
-#### - destFCID [in]
-
-Contains the fibre channel identifier of the destination port specified by <i>destWWN. </i>If no fibre channel identifier for the destination port is available, the caller should set this member to 0. 
-
-
 #### - handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. 
@@ -127,6 +122,11 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies a port from whic
 #### - destWWN [in]
 
 Contains a WWN for the destination port on the fabric configuration server that will provide the node identification data. 
+
+
+#### - destFCID [in]
+
+Contains the fibre channel identifier of the destination port specified by <i>destWWN. </i>If no fibre channel identifier for the destination port is available, the caller should set this member to 0. 
 
 
 #### - RspBufferSize [in, out]
@@ -152,11 +152,11 @@ The <b>HBA_SendRNIDV2</b> library routine serves a purpose very similar to the <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
 
  
 

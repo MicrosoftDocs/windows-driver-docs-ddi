@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MW_DISPATCH
-title: _NDK_MW_DISPATCH
+title: "_NDK_MW_DISPATCH"
 author: windows-driver-content
 description: The NDK_MW_DISPATCH structure specifies dispatch function entry points for the NDK memory window (MW) object.
 old-location: netvista\ndk_mw_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B35BDBBC-C8AB-4837-8637-30BA2E31831C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_MW_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_MW_DISPATCH, netvista.ndk_mw_dispatch, _NDK_MW_DISPATCH, NDK_MW_DISPATCH, NDK_MW_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_MW_DISPATCH, ndkpi/NDK_MW_DISPATCH
+ms.keywords: PNDK_MW_DISPATCH, _NDK_MW_DISPATCH, netvista.ndk_mw_dispatch, NDK_MW_DISPATCH structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_MW_DISPATCH, ndkpi/PNDK_MW_DISPATCH, PNDK_MW_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_MW_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_MW_DISPATCH
 product: Windows
 targetos: Windows
@@ -93,13 +93,13 @@ The <b>NDK_MW_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mw.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
  
 

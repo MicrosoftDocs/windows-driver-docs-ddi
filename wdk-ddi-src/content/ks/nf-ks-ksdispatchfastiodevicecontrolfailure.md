@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7fb83c8d-e815-46c6-8011-75b25a4c0dd7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], KsDispatchFastIoDeviceControlFailure, ks/KsDispatchFastIoDeviceControlFailure, stream.ksdispatchfastiodevicecontrolfailure
+ms.keywords: ks/KsDispatchFastIoDeviceControlFailure, KsDispatchFastIoDeviceControlFailure, ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], stream.ksdispatchfastiodevicecontrolfailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDispatchFastIoDeviceControlFailure
 product: Windows
 targetos: Windows

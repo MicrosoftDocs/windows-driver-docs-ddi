@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdmsec/WdmlibIoValidateDeviceIoControlAccess, wdmsec/IoValidateDeviceIoControlAccess, FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], WdmlibIoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess
+ms.keywords: WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], WdmlibIoValidateDeviceIoControlAccess, FILE_READ_ACCESS, IoValidateDeviceIoControlAccess, FILE_WRITE_ACCESS, kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WdmlibIoValidateDeviceIoControlAccess
 -	IoValidateDeviceIoControlAccess
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
 req.product: Windows 10 or later.
 ---
 

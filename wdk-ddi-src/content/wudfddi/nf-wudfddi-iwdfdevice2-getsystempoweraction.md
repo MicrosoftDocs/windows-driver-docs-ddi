@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice2::GetSystemPowerAction, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, GetSystemPowerAction, GetSystemPowerAction method, IWDFDevice2 interface, wdf.iwdfdevice2_getsystempoweraction, IWDFDevice2 interface, GetSystemPowerAction method, IWDFDevice2, umdf.iwdfdevice2_getsystempoweraction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml
+ms.keywords: GetSystemPowerAction, wdf.iwdfdevice2_getsystempoweraction, IWDFDevice2::GetSystemPowerAction, umdf.iwdfdevice2_getsystempoweraction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, GetSystemPowerAction method, IWDFDevice2 interface, IWDFDevice2 interface, GetSystemPowerAction method, GetSystemPowerAction method, wudfddi/IWDFDevice2::GetSystemPowerAction, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice2.GetSystemPowerAction
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

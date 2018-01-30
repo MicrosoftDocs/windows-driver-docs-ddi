@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTOpenResource, D3DKMTOpenResource, D3DKMTOpenResource function [Display Devices], display.d3dkmtopenresource, OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml
+ms.keywords: display.d3dkmtopenresource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, D3DKMTOpenResource, d3dkmthk/D3DKMTOpenResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

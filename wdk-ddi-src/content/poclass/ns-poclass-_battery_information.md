@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: poclass/PBATTERY_INFORMATION, battery.battery_information, _BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], PBATTERY_INFORMATION structure pointer [Battery Devices], *PBATTERY_INFORMATION, BATTERY_INFORMATION, bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, PBATTERY_INFORMATION, poclass/BATTERY_INFORMATION
+ms.keywords: BATTERY_INFORMATION structure [Battery Devices], PBATTERY_INFORMATION, battery.battery_information, PBATTERY_INFORMATION structure pointer [Battery Devices], poclass/PBATTERY_INFORMATION, poclass/BATTERY_INFORMATION, BATTERY_INFORMATION, _BATTERY_INFORMATION, bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, *PBATTERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

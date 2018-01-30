@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5CE3F1B5-9C6D-4061-ADF4-B388C81C0674
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxDefaultEndpointInitSetEventCallbacks, buses._ucxdefaultendpointinitseteventcallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses]
+ms.keywords: buses._ucxdefaultendpointinitseteventcallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], UcxDefaultEndpointInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxDefaultEndpointInitSetEventCallbacks
 product: Windows
 targetos: Windows

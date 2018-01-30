@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 196555c8-74a6-4dae-ac4d-52654015ffeb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRequestDpc routine [Kernel-Mode Driver Architecture], wdm/IoRequestDpc, kernel.iorequestdpc, IoRequestDpc, k104_37f449eb-de3d-4932-b845-388c73c55d01.xml
+ms.keywords: IoRequestDpc routine [Kernel-Mode Driver Architecture], wdm/IoRequestDpc, k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, IoRequestDpc, kernel.iorequestdpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DIRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoRequestDpc
 product: Windows
 targetos: Windows

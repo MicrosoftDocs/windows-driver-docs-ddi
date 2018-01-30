@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_RELATED_CONTEXTS_EX
-title: _FLT_RELATED_CONTEXTS_EX
+title: "_FLT_RELATED_CONTEXTS_EX"
 author: windows-driver-content
 description: The FLT_RELATED_CONTEXTS_EX structure contains a minifilter driver's contexts for the objects associated with an I/O operation.
 old-location: ifsk\flt_related_contexts_ex.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9D3E77AE-C63D-4253-8520-6A9ACCBB89CC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FLT_RELATED_CONTEXTS_EX, *PFLT_RELATED_CONTEXTS_EX, fltkernel/PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX structure [Installable File System Drivers], PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX, PFLT_RELATED_CONTEXTS_EX structure pointer [Installable File System Drivers], _FLT_RELATED_CONTEXTS_EX, ifsk.flt_related_contexts_ex
+ms.keywords: PFLT_RELATED_CONTEXTS_EX, PFLT_RELATED_CONTEXTS_EX structure pointer [Installable File System Drivers], FLT_RELATED_CONTEXTS_EX, fltkernel/PFLT_RELATED_CONTEXTS_EX, *PFLT_RELATED_CONTEXTS_EX, ifsk.flt_related_contexts_ex, fltkernel/FLT_RELATED_CONTEXTS_EX, _FLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltkernel.h
-apiname: 
+apiname:
 -	FLT_RELATED_CONTEXTS_EX
 product: Windows
 targetos: Windows
-req.typenames: *PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX
+req.typenames: FLT_RELATED_CONTEXTS_EX, *PFLT_RELATED_CONTEXTS_EX
 ---
 
 # _FLT_RELATED_CONTEXTS_EX structure
@@ -123,15 +123,15 @@ For more information about using contexts, see the reference entry for <a href="
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
  
 

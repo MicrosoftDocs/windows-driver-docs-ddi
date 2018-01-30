@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_PARTIAL_RESOURCE_DESCRIPTOR
-title: _CM_PARTIAL_RESOURCE_DESCRIPTOR
+title: "_CM_PARTIAL_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device.
 old-location: kernel\cm_partial_resource_descriptor.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96bf7bab-b8f5-439c-8717-ea6956ed0213
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, CmResourceShareDeviceExclusive, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CmResourceShareShared, PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, CmResourceShareDriverExclusive, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, kernel.cm_partial_resource_descriptor, PCM_PARTIAL_RESOURCE_DESCRIPTOR, _CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
+ms.keywords: PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, kernel.cm_partial_resource_descriptor, CM_PARTIAL_RESOURCE_DESCRIPTOR, _CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_CONNECTION_CLASS_SERIAL, *PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CmResourceShareDeviceExclusive, CmResourceShareDriverExclusive, CmResourceShareShared, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_CLASS_GPIO, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, PCM_PARTIAL_RESOURCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	CM_PARTIAL_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR
+req.typenames: CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -246,6 +246,62 @@ Specifies a message-signaled interrupt. This member is a union. Use <b>u.Message
 For more information about raw and translated resources, see Remarks.
 
 The <b>u.MessageInterrupt.Raw</b> member has the following members:
+
+
+#### MessageInterrupt.Raw
+
+
+
+#### Raw.Group
+
+Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Group</b> and <b>Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Group</b> to ALL_PROCESSOR_GROUPS.
+
+
+#### Raw.Reserved
+
+Not used.
+
+
+#### Raw.MessageCount
+
+Specifies the number of message-signaled interrupts generated for this driver.
+
+
+#### Raw.Vector
+
+Specifies the device's interrupt vector.
+
+
+#### Raw.Affinity
+
+Specifies a KAFFINITY value that indicates the processors that receive the device's interrupts.
+
+
+#### MessageInterrupt.Translated
+
+The <b>u.MessageInterrupt.Translated</b> member has the following members:
+
+
+#### Translated.Level
+
+Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
+
+Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
+
+
+#### Translated.Group
+
+Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Translated.Group</b> and <b>Translated.Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Translated.Group</b> to ALL_PROCESSOR_GROUPS.
+
+
+#### Translated.Vector
+
+Specifies the device's interrupt vector.
+
+
+#### Translated.Affinity
+
+Specifies a KAFFINITY value that identifies the processors that receive the device's interrupts.
 
 
 ### -field u.MessageInterrupt.DUMMYUNIONNAME
@@ -1206,62 +1262,6 @@ Use the <b>DmaV3</b> member instead of the <b>Dma</b> member. The <b>DmaV3</b> m
 </table> 
 
 
-####### - u.MessageInterrupt.Translated.Vector
-
-Specifies the device's interrupt vector.
-
-
-####### - u.MessageInterrupt.Translated.Level
-
-Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
-
-Specifies the device IRQL (DIRQL) assigned to the device's interrupts.
-
-
-####### - u.MessageInterrupt.Raw.Vector
-
-Specifies the device's interrupt vector.
-
-
-####### - u.MessageInterrupt.Raw.Affinity
-
-Specifies a KAFFINITY value that indicates the processors that receive the device's interrupts.
-
-
-####### - u.MessageInterrupt.Raw.MessageCount
-
-Specifies the number of message-signaled interrupts generated for this driver.
-
-
-####### - u.MessageInterrupt.Raw.Reserved
-
-Not used.
-
-
-####### - u.MessageInterrupt.Translated.Affinity
-
-Specifies a KAFFINITY value that identifies the processors that receive the device's interrupts.
-
-
-####### - u.MessageInterrupt.Translated.Group
-
-Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Translated.Group</b> and <b>Translated.Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Translated.Group</b> to ALL_PROCESSOR_GROUPS.
-
-
-####### - u.MessageInterrupt.Raw.Group
-
-Specifies a processor group number. This member exists only if NT_PROCESSOR_GROUPS is defined at compile time. This member can be nonzero only on Windows 7 and later versions of Windows. The <b>Group</b> and <b>Affinity</b> members together specify a group affinity that indicates which processors can receive the device's interrupts. To specify an affinity for any group, set <b>Group</b> to ALL_PROCESSOR_GROUPS.
-
-
-###### - u.MessageInterrupt.Translated
-
-The <b>u.MessageInterrupt.Translated</b> member has the following members:
-
-
-###### - u.MessageInterrupt.Raw
-
-
-
 ## -remarks
 
 
@@ -1271,37 +1271,37 @@ A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
 <a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
-
-<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
-
-<a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
-
-<a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
-<a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
+<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
 
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
-<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
+<a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
+<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+
 <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
 
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
+
+<a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
+
+<a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
 
  
 

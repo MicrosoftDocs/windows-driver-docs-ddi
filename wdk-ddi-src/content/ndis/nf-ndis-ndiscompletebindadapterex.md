@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, NdisCompleteBindAdapterEx, ndis/NdisCompleteBindAdapterEx
+ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, netvista.ndiscompletebindadapterex, ndis/NdisCompleteBindAdapterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCompleteBindAdapterEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCompleteBindAdapterEx function
@@ -86,7 +86,12 @@ The final status of the completed bind operation. This parameter can be one of t
 
 
 
-##### - Status.NDIS_STATUS_XXX or NTSTATUS_XXX
+#### NDIS_STATUS_SUCCESS
+
+The driver successfully completed the binding to the underlying NIC.
+
+
+#### NDIS_STATUS_XXX or NTSTATUS_XXX
 
 The protocol driver's attempt to set up a binding failed or the protocol driver could not
        allocate the resources it needed to carry out network I/O operations. Usually, such an error status is
@@ -100,11 +105,6 @@ The handle that NDIS passed to the
      <i>BindContext</i> parameter of the 
      <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
      ProtocolBindAdapterEx</i></mshelp:link> function.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The driver successfully completed the binding to the underlying NIC.
 
 
 ## -returns

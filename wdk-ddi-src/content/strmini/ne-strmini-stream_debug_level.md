@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/DebugLevelInfo, DebugLevelMaximum, strmini/DebugLevelVerbose, stream.stream_debug_level, DebugLevelInfo, STREAM_DEBUG_LEVEL, strmini/DebugLevelFatal, strmini/DebugLevelWarning, strmini/DebugLevelTrace, DebugLevelVerbose, strmini/DebugLevelMaximum, strmini/DebugLevelError, DebugLevelWarning, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, DebugLevelFatal, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], DebugLevelTrace, DebugLevelError, strmini/STREAM_DEBUG_LEVEL
+ms.keywords: DebugLevelFatal, strmini/STREAM_DEBUG_LEVEL, DebugLevelTrace, DebugLevelWarning, strmini/DebugLevelInfo, strmini/DebugLevelVerbose, DebugLevelMaximum, ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, DebugLevelVerbose, stream.stream_debug_level, DebugLevelInfo, DebugLevelError, strmini/DebugLevelTrace, STREAM_DEBUG_LEVEL, strmini/DebugLevelError, strmini/DebugLevelMaximum, strmini/DebugLevelWarning, strmini/DebugLevelFatal, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	STREAM_DEBUG_LEVEL
 product: Windows
 targetos: Windows

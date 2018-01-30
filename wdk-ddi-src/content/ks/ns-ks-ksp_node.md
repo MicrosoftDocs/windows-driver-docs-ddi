@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSP_NODE, ks/KSP_NODE, stream.ksp_node, PKSP_NODE structure pointer [Streaming Media Devices], KSP_NODE, ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, *PKSP_NODE, KSP_NODE structure [Streaming Media Devices], PKSP_NODE
+ms.keywords: stream.ksp_node, ks/PKSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], PKSP_NODE, ks/KSP_NODE, KSP_NODE structure [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, *PKSP_NODE, KSP_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSP_NODE
 product: Windows
 targetos: Windows

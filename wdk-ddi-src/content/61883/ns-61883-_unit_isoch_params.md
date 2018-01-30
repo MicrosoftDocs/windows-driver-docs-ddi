@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._UNIT_ISOCH_PARAMS
-title: _UNIT_ISOCH_PARAMS
+title: "_UNIT_ISOCH_PARAMS"
 author: windows-driver-content
 description: The UNIT_ISOCH_PARAMS structure is used to get or set the parameters that the IEC-61883 protocol driver uses when capturing or transmitting isochronous packets.
 old-location: ieee\unit_isoch_params.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1c661a35-8209-49c5-9987-b4b6e9e710b4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, PUNIT_ISOCH_PARAMS structure pointer [Buses], 61883/PUNIT_ISOCH_PARAMS, IEEE.unit_isoch_params, UNIT_ISOCH_PARAMS structure [Buses], PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, _UNIT_ISOCH_PARAMS
+ms.keywords: UNIT_ISOCH_PARAMS structure [Buses], 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, *PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, _UNIT_ISOCH_PARAMS, IEEE.unit_isoch_params, PUNIT_ISOCH_PARAMS structure pointer [Buses], 61883/PUNIT_ISOCH_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	UNIT_ISOCH_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
+req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
 ---
 
 # _UNIT_ISOCH_PARAMS structure

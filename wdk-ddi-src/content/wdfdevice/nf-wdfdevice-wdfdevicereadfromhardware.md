@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WdfDeviceReadFromHardware, WdfDeviceReadFromHardware, wdf.wdfdevicereadfromhardware, WdfDeviceReadFromHardware method, PFN_WDFDEVICEREADFROMHARDWARE, wdfdevice/WdfDeviceReadFromHardware
+ms.keywords: wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, WdfDeviceReadFromHardware, PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware method, wdfhwaccess/WdfDeviceReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceReadFromHardware
 product: Windows
 targetos: Windows

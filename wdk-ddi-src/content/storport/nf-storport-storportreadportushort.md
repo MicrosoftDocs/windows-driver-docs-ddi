@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5c9e91a-96b7-4774-8bb4-7519968ce072
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, storport/StorPortReadPortUshort, StorPortReadPortUshort routine [Storage Devices], StorPortReadPortUshort, storage.storportreadportushort
+ms.keywords: StorPortReadPortUshort, storport/StorPortReadPortUshort, storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, storage.storportreadportushort, StorPortReadPortUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadPortUshort
 product: Windows
 targetos: Windows

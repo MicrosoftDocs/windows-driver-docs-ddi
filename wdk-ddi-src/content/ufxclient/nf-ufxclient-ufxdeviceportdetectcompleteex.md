@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDevicePortDetectCompleteEx, buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses]
+ms.keywords: UfxDevicePortDetectCompleteEx method [Buses], ufxclient/UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx, buses.ufxdeviceportdetectcompleteex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDevicePortDetectCompleteEx
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf89ee80-d19d-4d97-b71f-8ebee4b96562
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], windot11/DOT11_KEY_ALGO_CCMP, netvista.dot11_key_algo_ccmp, windot11/PDOT11_KEY_ALGO_CCMP, PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_KEY_ALGO_CCMP, Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml, PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP
+ms.keywords: windot11/PDOT11_KEY_ALGO_CCMP, PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], DOT11_KEY_ALGO_CCMP, netvista.dot11_key_algo_ccmp, windot11/DOT11_KEY_ALGO_CCMP, Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_KEY_ALGO_CCMP
 product: Windows
 targetos: Windows
-req.typenames: DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP
+req.typenames: "*PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP"
 req.product: Windows 10 or later.
 ---
 

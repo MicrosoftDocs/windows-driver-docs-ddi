@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, display.d3d12ddiarg_create_video_decoder, D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices]
+ms.keywords: display.d3d12ddiarg_create_video_decoder, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0021, D3D12DDIARG_CREATE_VIDEO_DECODER_0021 structure [Display Devices], D3D12DDIARG_CREATE_VIDEO_DECODER_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

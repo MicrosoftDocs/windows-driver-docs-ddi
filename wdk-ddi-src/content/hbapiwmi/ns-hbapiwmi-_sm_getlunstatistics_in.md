@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetLUNStatistics_IN
-title: _SM_GetLUNStatistics_IN
+title: "_SM_GetLUNStatistics_IN"
 author: windows-driver-content
 description: The SM_GetLUNStatistics_IN structure is used to provide input parameters to the SM_GetLUNStatistics_IN method.
 old-location: storage\sm_getlunstatistics_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c551a376-2148-4fc4-ba4e-9c1ce1eea1d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml, hbapiwmi/SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], hbapiwmi/PSM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], PSM_GetLUNStatistics_IN
+ms.keywords: hbapiwmi/PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], _SM_GetLUNStatistics_IN, hbapiwmi/SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], PSM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_GetLUNStatistics_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN
+req.typenames: "*PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN"
 ---
 
 # _SM_GetLUNStatistics_IN structure

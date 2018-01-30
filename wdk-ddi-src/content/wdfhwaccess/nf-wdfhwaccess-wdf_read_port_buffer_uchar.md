@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1A205DD3-FCE2-4EA1-A6B3-CE60300EC651
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_PORT_BUFFER_UCHAR function, WDF_READ_PORT_BUFFER_UCHAR, wdf.wdf_read_port_buffer_uchar, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
+ms.keywords: WDF_READ_PORT_BUFFER_UCHAR function, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR, WDF_READ_PORT_BUFFER_UCHAR, wdf.wdf_read_port_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfhwaccess.h
-apiname: 
+apiname:
 -	WDF_READ_PORT_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

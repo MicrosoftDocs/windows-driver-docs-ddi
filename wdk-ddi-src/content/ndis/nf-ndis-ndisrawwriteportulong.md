@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24abe892-7d49-4bc4-8862-e375f9862a5f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_port_raw_ref_54b23b9a-fb43-4591-a123-6c564850f5cf.xml, NdisRawWritePortUlong, NdisRawWritePortUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRawWritePortUlong, netvista.ndisrawwriteportulong
+ms.keywords: NdisRawWritePortUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisrawwriteportulong, ndis/NdisRawWritePortUlong, miniport_port_raw_ref_54b23b9a-fb43-4591-a123-6c564850f5cf.xml, NdisRawWritePortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisRawWritePortUlong
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRawWritePortUlong macro
@@ -92,15 +92,15 @@ Specifies the ULONG to be written.
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
+
 <a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
 
  
 

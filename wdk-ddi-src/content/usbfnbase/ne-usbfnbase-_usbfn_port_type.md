@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_PORT_TYPE
-title: _USBFN_PORT_TYPE
+title: "_USBFN_PORT_TYPE"
 author: windows-driver-content
 description: Defines the possible port types that can be returned by the client driver during port detection.
 old-location: buses\usbfn_port_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnStandardDownstreamPort, UsbfnDedicatedChargingPort, UsbfnPortTypeMaximum, USBFN_PORT_TYPE enumeration [Buses], buses.usbfn_port_type, usbfnbase/UsbfnUnknownPort, UsbfnStandardDownstreamPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnChargingDownstreamPort, UsbfnInvalidDedicatedChargingPort, *PUSBFN_PORT_TYPE, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/USBFN_PORT_TYPE, UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnDedicatedChargingPort, UsbfnUnknownPort, _USBFN_PORT_TYPE, USBFN_PORT_TYPE
+ms.keywords: USBFN_PORT_TYPE enumeration [Buses], usbfnbase/UsbfnInvalidDedicatedChargingPort, buses.usbfn_port_type, usbfnbase/UsbfnPortTypeMaximum, UsbfnStandardDownstreamPort, usbfnbase/UsbfnProprietaryDedicatedChargingPort, _USBFN_PORT_TYPE, usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnStandardDownstreamPort, usbfnbase/UsbfnDedicatedChargingPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnUnknownPort, UsbfnInvalidDedicatedChargingPort, UsbfnPortTypeMaximum, UsbfnDedicatedChargingPort, USBFN_PORT_TYPE, usbfnbase/UsbfnChargingDownstreamPort, UsbfnProprietaryDedicatedChargingPort, UsbfnUnknownPort, *PUSBFN_PORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_PORT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_PORT_TYPE, USBFN_PORT_TYPE
+req.typenames: USBFN_PORT_TYPE, *PUSBFN_PORT_TYPE
 req.product: Windows 10 or later.
 ---
 

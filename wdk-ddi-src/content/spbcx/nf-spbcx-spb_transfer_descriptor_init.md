@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 96A069B5-BD89-4B8E-88D9-57944F4C9DB8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT, SPB_TRANSFER_DESCRIPTOR_INIT, SPB.spb_transfer_descriptor_init
+ms.keywords: spbcx/SPB_TRANSFER_DESCRIPTOR_INIT, SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], SPB_TRANSFER_DESCRIPTOR_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spbcx.h
-apiname: 
+apiname:
 -	SPB_TRANSFER_DESCRIPTOR_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 

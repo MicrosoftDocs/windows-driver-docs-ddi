@@ -1,6 +1,6 @@
 ---
 UID: NE:usb._USBD_PIPE_TYPE
-title: _USBD_PIPE_TYPE
+title: "_USBD_PIPE_TYPE"
 author: windows-driver-content
 description: The USBD_PIPE_TYPE enumerator indicates the type of pipe.
 old-location: buses\usbd_pipe_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeControl, usb/USBD_PIPE_TYPE, _USBD_PIPE_TYPE, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, buses.usbd_pipe_type, USBD_PIPE_TYPE enumeration [Buses], usb/UsbdPipeTypeIsochronous, UsbdPipeTypeBulk, UsbdPipeTypeIsochronous, usb/UsbdPipeTypeBulk, UsbdPipeTypeControl, USBD_PIPE_TYPE, UsbdPipeTypeInterrupt
+ms.keywords: UsbdPipeTypeIsochronous, _USBD_PIPE_TYPE, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, UsbdPipeTypeControl, buses.usbd_pipe_type, usb/UsbdPipeTypeControl, UsbdPipeTypeInterrupt, usb/UsbdPipeTypeBulk, usb/UsbdPipeTypeInterrupt, USBD_PIPE_TYPE, usb/UsbdPipeTypeIsochronous, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeBulk, usb/USBD_PIPE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	USBD_PIPE_TYPE
 product: Windows
 targetos: Windows

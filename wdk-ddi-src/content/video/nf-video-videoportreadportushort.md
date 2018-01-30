@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5277cee-40e8-4c87-8521-8ae59c9b33a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadPortUshort function [Display Devices], video/VideoPortReadPortUshort, VideoPort_Functions_cb14aa82-3092-4982-83c5-4682d7a487c0.xml, display.videoportreadportushort, VideoPortReadPortUshort
+ms.keywords: VideoPort_Functions_cb14aa82-3092-4982-83c5-4682d7a487c0.xml, display.videoportreadportushort, video/VideoPortReadPortUshort, VideoPortReadPortUshort function [Display Devices], VideoPortReadPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadPortUshort function

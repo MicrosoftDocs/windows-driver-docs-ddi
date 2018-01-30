@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 13c136f9-079a-414e-a40b-1938899024a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ~CWiauDbgFn, CWiauDbgFn, ~CWiauDbgFn method [Imaging Devices], ~CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, image.cwiaudbgfn__cwiaudbgfn, wiauFncs_5fc25385-87e3-4664-9df6-be2c6bef7d75.xml, CWiauDbgFn::~CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], ~CWiauDbgFn method, wiautil/CWiauDbgFn::~CWiauDbgFn
+ms.keywords: "~CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, image.cwiaudbgfn__cwiaudbgfn, CWiauDbgFn::~CWiauDbgFn, ~CWiauDbgFn, CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], ~CWiauDbgFn method, wiauFncs_5fc25385-87e3-4664-9df6-be2c6bef7d75.xml, ~CWiauDbgFn method [Imaging Devices], wiautil/CWiauDbgFn::~CWiauDbgFn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauDbgFn.~CWiauDbgFn
 product: Windows
 targetos: Windows

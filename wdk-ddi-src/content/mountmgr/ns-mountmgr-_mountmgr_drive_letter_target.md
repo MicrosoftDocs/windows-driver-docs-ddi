@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_DRIVE_LETTER_TARGET
-title: _MOUNTMGR_DRIVE_LETTER_TARGET
+title: "_MOUNTMGR_DRIVE_LETTER_TARGET"
 author: windows-driver-content
 description: The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request to furnish a nonpersistent target device name to the mount manager.
 old-location: storage\mountmgr_drive_letter_target.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3bbfd3f8-9530-4c9f-99e3-a1fcbb956b51
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mountmgr/PMOUNTMGR_DRIVE_LETTER_TARGET, _MOUNTMGR_DRIVE_LETTER_TARGET, structs-mntmgr_66751bbf-3c3a-407d-9faf-1ef190c9c7a2.xml, storage.mountmgr_drive_letter_target, MOUNTMGR_DRIVE_LETTER_TARGET structure [Storage Devices], mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET, PMOUNTMGR_DRIVE_LETTER_TARGET structure pointer [Storage Devices], PMOUNTMGR_DRIVE_LETTER_TARGET
+ms.keywords: MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET, _MOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET, PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET structure [Storage Devices], structs-mntmgr_66751bbf-3c3a-407d-9faf-1ef190c9c7a2.xml, PMOUNTMGR_DRIVE_LETTER_TARGET structure pointer [Storage Devices], mountmgr/PMOUNTMGR_DRIVE_LETTER_TARGET, storage.mountmgr_drive_letter_target
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mountmgr.h
-apiname: 
+apiname:
 -	MOUNTMGR_DRIVE_LETTER_TARGET
 product: Windows
 targetos: Windows
-req.typenames: MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET
+req.typenames: "*PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET"
 ---
 
 # _MOUNTMGR_DRIVE_LETTER_TARGET structure

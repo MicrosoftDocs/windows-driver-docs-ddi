@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dca2b12-0542-43a9-abff-203ea34cff90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_videosampleflags, DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml, _DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices], d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS
+ms.keywords: d3dumddi/DXVADDI_VIDEOSAMPLEFLAGS, display.dxvaddi_videosampleflags, DXVADDI_VIDEOSAMPLEFLAGS, DXVADDI_VIDEOSAMPLEFLAGS structure [Display Devices], _DXVADDI_VIDEOSAMPLEFLAGS, DXVA2_Structs_8e0fce9f-8473-4bbc-9403-fb8755090a7d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

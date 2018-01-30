@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_VIDEO_UNMAP_VIDEO_MEMORY
 product: Windows
 targetos: Windows
-req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_UNMAP_VIDEO_MEMORY IOCTL
@@ -110,9 +110,9 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
+
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
  
 

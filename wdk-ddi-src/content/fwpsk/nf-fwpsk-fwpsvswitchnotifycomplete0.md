@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5e40a31f-7730-48f0-899f-f59be654c991
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsvSwitchNotifyComplete0, netvista.fwpsvswitchnotifycomplete0, fwpsk/FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwpsvswitchnotifycomplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], FwpsvSwitchNotifyComplete0, fwpsk/FwpsvSwitchNotifyComplete0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsvSwitchNotifyComplete0
 product: Windows
 targetos: Windows

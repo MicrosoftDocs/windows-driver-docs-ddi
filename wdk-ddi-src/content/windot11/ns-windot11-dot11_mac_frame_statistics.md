@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57c75a4c-7224-45d5-af96-6e969548248a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS, netvista.dot11_mac_frame_statistics, PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_MAC_FRAME_STATISTICS, Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml, DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_MAC_FRAME_STATISTICS, PDOT11_MAC_FRAME_STATISTICS
+ms.keywords: "*PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS, windot11/DOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_MAC_FRAME_STATISTICS, netvista.dot11_mac_frame_statistics, PDOT11_MAC_FRAME_STATISTICS, PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_MAC_FRAME_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS
+req.typenames: DOT11_MAC_FRAME_STATISTICS, *PDOT11_MAC_FRAME_STATISTICS
 req.product: Windows 10 or later.
 ---
 

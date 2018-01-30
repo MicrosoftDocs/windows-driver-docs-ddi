@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihvtypes._DOT11_MSSECURITY_SETTINGS
-title: _DOT11_MSSECURITY_SETTINGS
+title: "_DOT11_MSSECURITY_SETTINGS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_mssecurity_settings.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b80a06f0-7774-4bf1-9101-a466999246d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOT11_MSSECURITY_SETTINGS, netvista.dot11_mssecurity_settings, wlanihvtypes/DOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista], PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, _DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS
+ms.keywords: DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista], PDOT11_MSSECURITY_SETTINGS, _DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_MSSECURITY_SETTINGS, wlanihvtypes/DOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS, Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, netvista.dot11_mssecurity_settings, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihvtypes.h
-apiname: 
+apiname:
 -	DOT11_MSSECURITY_SETTINGS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS
+req.typenames: "*PDOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS"
 req.product: Windows 10 or later.
 ---
 
@@ -124,9 +124,9 @@ A pointer to the EAP connection data buffer.
 
 ## -see-also
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
  
 

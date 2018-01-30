@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface
+ms.keywords: OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wudfusb.h
-apiname: 
+apiname:
 -	IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

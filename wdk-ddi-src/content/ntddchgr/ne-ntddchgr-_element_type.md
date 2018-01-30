@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddchgr._ELEMENT_TYPE
-title: _ELEMENT_TYPE
+title: "_ELEMENT_TYPE"
 author: windows-driver-content
 description: The ELEMENT_TYPE enumeration provides a list of changer element types defined by the SCSI-3 specification.
 old-location: storage\element_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ELEMENT_TYPE, ntddchgr/AllElements, storage.element_type, ChangerMaxElement, ntddchgr/ChangerTransport, ChangerSlot, ChangerIEPort, ChangerKeypad, ELEMENT_TYPE, *PELEMENT_TYPE, PELEMENT_TYPE, ntddchgr/ChangerIEPort, PELEMENT_TYPE enumeration pointer [Storage Devices], structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ntddchgr/ChangerKeypad, ntddchgr/ChangerDrive, AllElements, ChangerDoor, ChangerDrive, ntddchgr/ELEMENT_TYPE, ntddchgr/ChangerSlot, ELEMENT_TYPE enumeration [Storage Devices], ntddchgr/ChangerDoor, ntddchgr/ChangerMaxElement, ntddchgr/PELEMENT_TYPE, ChangerTransport
+ms.keywords: storage.element_type, AllElements, ntddchgr/AllElements, ChangerKeypad, ChangerDoor, ChangerIEPort, *PELEMENT_TYPE, ntddchgr/PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer [Storage Devices], ChangerDrive, ChangerSlot, _ELEMENT_TYPE, ntddchgr/ChangerDoor, PELEMENT_TYPE, ntddchgr/ChangerMaxElement, ntddchgr/ChangerSlot, ChangerMaxElement, ChangerTransport, ntddchgr/ChangerKeypad, ntddchgr/ChangerTransport, ELEMENT_TYPE, ntddchgr/ChangerDrive, ELEMENT_TYPE enumeration [Storage Devices], structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ntddchgr/ELEMENT_TYPE, ntddchgr/ChangerIEPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddchgr.h
-apiname: 
+apiname:
 -	ELEMENT_TYPE
 product: Windows
 targetos: Windows
@@ -116,11 +116,11 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 <a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
 
  
 

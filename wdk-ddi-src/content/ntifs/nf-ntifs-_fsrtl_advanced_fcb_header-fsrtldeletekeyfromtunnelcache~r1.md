@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], ntifs/FsRtlDeleteKeyFromTunnelCache, ifsk.fsrtldeletekeyfromtunnelcache, FsRtlDeleteKeyFromTunnelCache
+ms.keywords: FsRtlDeleteKeyFromTunnelCache, fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], ntifs/FsRtlDeleteKeyFromTunnelCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlDeleteKeyFromTunnelCache
 product: Windows
 targetos: Windows
@@ -106,9 +106,9 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
  
 

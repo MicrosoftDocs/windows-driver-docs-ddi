@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5dea6764-9ca0-4d38-9900-174637c4f648
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlConvertSidToUnicodeString, ifsk.rtlconvertsidtounicodestring, RtlConvertSidToUnicodeString routine [Installable File System Drivers], rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString
+ms.keywords: ntifs/RtlConvertSidToUnicodeString, rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString routine [Installable File System Drivers], ifsk.rtlconvertsidtounicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlConvertSidToUnicodeString
 product: Windows
 targetos: Windows
@@ -172,11 +172,11 @@ If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

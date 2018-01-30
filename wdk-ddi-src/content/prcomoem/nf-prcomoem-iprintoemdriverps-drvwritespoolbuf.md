@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml, IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, DrvWriteSpoolBuf, IPrintOemDriverPS::DrvWriteSpoolBuf
+ms.keywords: print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml, IPrintOemDriverPS::DrvWriteSpoolBuf, IPrintOemDriverPS, DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverPS.DrvWriteSpoolBuf
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

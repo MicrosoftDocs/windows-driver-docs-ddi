@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_UART_RESOURCE
-title: _PEP_ACPI_SPB_UART_RESOURCE
+title: "_PEP_ACPI_SPB_UART_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource.
 old-location: kernel\pep_acpi_spb_uart_resource.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 5, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE, _PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, 3, pepfx/PEP_ACPI_SPB_UART_RESOURCE, 0, 1, 7, 2, 6, kernel.pep_acpi_spb_uart_resource, 4, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_UART_RESOURCE, 7, *PPEP_ACPI_SPB_UART_RESOURCE, pepfx/PEP_ACPI_SPB_UART_RESOURCE, 3, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], 6, 5, PPEP_ACPI_SPB_UART_RESOURCE, 0, 1, kernel.pep_acpi_spb_uart_resource, 4, _PEP_ACPI_SPB_UART_RESOURCE, 2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
+req.typenames: "*PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE"
 ---
 
 # _PEP_ACPI_SPB_UART_RESOURCE structure

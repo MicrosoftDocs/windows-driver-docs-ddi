@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.gdigetdevmodeforpage, GdiGetDevmodeForPage function [Print Devices], winppi/GdiGetDevmodeForPage, GdiGetDevmodeForPage, gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml
+ms.keywords: gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, winppi/GdiGetDevmodeForPage, GdiGetDevmodeForPage, print.gdigetdevmodeforpage, GdiGetDevmodeForPage function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiGetDevmodeForPage
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._GET_UNIT_INFO
-title: _GET_UNIT_INFO
+title: "_GET_UNIT_INFO"
 author: windows-driver-content
 description: This structure is used to get unit information.
 old-location: ieee\get_unit_info.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2FE13A53-5B88-40B8-B129-8DD141F1B160
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PGET_UNIT_INFO, IEEE.get_unit_info, 61883/PGET_UNIT_INFO, GET_UNIT_INFO, _GET_UNIT_INFO, PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], GET_UNIT_INFO structure [Buses], 61883/GET_UNIT_INFO
+ms.keywords: GET_UNIT_INFO structure [Buses], _GET_UNIT_INFO, 61883/PGET_UNIT_INFO, *PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], PGET_UNIT_INFO, 61883/GET_UNIT_INFO, GET_UNIT_INFO, IEEE.get_unit_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	GET_UNIT_INFO
 product: Windows
 targetos: Windows
-req.typenames: GET_UNIT_INFO, *PGET_UNIT_INFO
+req.typenames: "*PGET_UNIT_INFO, GET_UNIT_INFO"
 ---
 
 # _GET_UNIT_INFO structure

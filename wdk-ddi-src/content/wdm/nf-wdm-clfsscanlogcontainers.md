@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76f97976-f48b-4ead-88d6-a9e1fdb21f08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsscanlogcontainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], wdm/ClfsScanLogContainers, ClfsScanLogContainers, Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml
+ms.keywords: ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], ClfsScanLogContainers, wdm/ClfsScanLogContainers, kernel.clfsscanlogcontainers, Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsScanLogContainers
 product: Windows
 targetos: Windows
@@ -144,9 +144,9 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cls_container_information.md">CLFS_CONTAINER_INFORMATION</a>
-
 <a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
+
+<a href="..\wdm\ns-wdm-_cls_container_information.md">CLFS_CONTAINER_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_SPEC_VERSION
-title: _STORAGE_SPEC_VERSION
+title: "_STORAGE_SPEC_VERSION"
 author: windows-driver-content
 description: Indicates the specification of the storage device.
 old-location: storage\storage_spec_version.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PSTORAGE_SPEC_VERSION, _STORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION union [Storage Devices], ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version, PSTORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION
+ms.keywords: PSTORAGE_SPEC_VERSION union pointer [Storage Devices], ntddstor/STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION, _STORAGE_SPEC_VERSION, storage.storage_spec_version, PSTORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_SPEC_VERSION
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION
+req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 ---
 
 # _STORAGE_SPEC_VERSION structure

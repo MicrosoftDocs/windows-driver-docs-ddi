@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f237e8a-c0d3-4812-a96d-4cdc6f8e31df
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPointerTo method [Windows Debugging], EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, ExtRemoteTyped, GetPointerTo method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetPointerTo method, ExtRemoteTyped::GetPointerTo, debugger.extremotetyped_getpointerto, GetPointerTo
+ms.keywords: GetPointerTo method [Windows Debugging], EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, GetPointerTo method [Windows Debugging], ExtRemoteTyped interface, GetPointerTo, debugger.extremotetyped_getpointerto, ExtRemoteTyped, ExtRemoteTyped::GetPointerTo, ExtRemoteTyped interface [Windows Debugging], GetPointerTo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetPointerTo
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetPointerTo method

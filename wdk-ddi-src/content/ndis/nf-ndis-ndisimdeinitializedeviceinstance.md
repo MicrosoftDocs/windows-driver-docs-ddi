@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIMDeInitializeDeviceInstance, intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, netvista.ndisimdeinitializedeviceinstance, ndis/NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance, intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIMDeInitializeDeviceInstance
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIMDeInitializeDeviceInstance function
@@ -111,10 +111,10 @@ The call to
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
 <mshelp:link keywords="netvista.ndisiminitializedeviceinstanceex" tabindex="0"><b>
    NdisIMInitializeDeviceInstanceEx</b></mshelp:link>
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
  
 

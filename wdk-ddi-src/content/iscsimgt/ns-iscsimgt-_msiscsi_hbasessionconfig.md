@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_HBASessionConfig
-title: _MSiSCSI_HBASessionConfig
+title: "_MSiSCSI_HBASessionConfig"
 author: windows-driver-content
 description: The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device.
 old-location: storage\msiscsi_hbasessionconfig.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PMSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml, _MSiSCSI_HBASessionConfig, storage.msiscsi_hbasessionconfig, MSiSCSI_HBASessionConfig, iscsimgt/MSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], PMSiSCSI_HBASessionConfig
+ms.keywords: "*PMSiSCSI_HBASessionConfig, _MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml, MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], storage.msiscsi_hbasessionconfig, iscsimgt/MSiSCSI_HBASessionConfig"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	MSiSCSI_HBASessionConfig
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig
+req.typenames: MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig
 ---
 
 # _MSiSCSI_HBASessionConfig structure

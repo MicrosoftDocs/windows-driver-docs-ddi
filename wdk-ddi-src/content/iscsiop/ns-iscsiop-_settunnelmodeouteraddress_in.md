@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetTunnelModeOuterAddress_IN
-title: _SetTunnelModeOuterAddress_IN
+title: "_SetTunnelModeOuterAddress_IN"
 author: windows-driver-content
 description: The SetTunnelModeOuterAddress_IN structure holds the input data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f698252-213f-482c-8c8f-624f0c370705
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices], *PSetTunnelModeOuterAddress_IN, iscsiop/PSetTunnelModeOuterAddress_IN, storage.settunnelmodeouteraddress_in, SetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN, _SetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml
+ms.keywords: structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml, PSetTunnelModeOuterAddress_IN, storage.settunnelmodeouteraddress_in, SetTunnelModeOuterAddress_IN, *PSetTunnelModeOuterAddress_IN, _SetTunnelModeOuterAddress_IN, iscsiop/PSetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetTunnelModeOuterAddress_IN
 product: Windows
 targetos: Windows
-req.typenames: SetTunnelModeOuterAddress_IN, *PSetTunnelModeOuterAddress_IN
+req.typenames: "*PSetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN"
 ---
 
 # _SetTunnelModeOuterAddress_IN structure

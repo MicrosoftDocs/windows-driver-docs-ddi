@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 211d41ae-18d3-4ca5-b9f5-868d97fab6fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iowmideviceobjecttoproviderid, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], wdm/IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml
+ms.keywords: wdm/IoWMIDeviceObjectToProviderId, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], kernel.iowmideviceobjecttoproviderid, IoWMIDeviceObjectToProviderId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMIDeviceObjectToProviderId
 product: Windows
 targetos: Windows
@@ -93,9 +93,9 @@ When running on a 32-bit operating system, the provider ID and the device object
 
 <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
  
 

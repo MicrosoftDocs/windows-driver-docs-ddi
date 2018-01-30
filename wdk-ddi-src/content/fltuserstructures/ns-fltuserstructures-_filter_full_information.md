@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_FULL_INFORMATION
-title: _FILTER_FULL_INFORMATION
+title: "_FILTER_FULL_INFORMATION"
 author: windows-driver-content
 description: The FILTER_FULL_INFORMATION structure contains full information for a minifilter driver.
 old-location: ifsk\filter_full_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb592350-76e2-4655-b6db-854fd48aa827
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSystemStructures_e72c2545-4938-4a3e-b3c8-95fd7f46239a.xml, _FILTER_FULL_INFORMATION, ifsk.filter_full_information, fltuserstructures/PFILTER_FULL_INFORMATION, *PFILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION structure pointer [Installable File System Drivers], FILTER_FULL_INFORMATION structure [Installable File System Drivers], fltuserstructures/FILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION
+ms.keywords: FILTER_FULL_INFORMATION structure [Installable File System Drivers], *PFILTER_FULL_INFORMATION, ifsk.filter_full_information, fltuserstructures/PFILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION, fltuserstructures/FILTER_FULL_INFORMATION, FltSystemStructures_e72c2545-4938-4a3e-b3c8-95fd7f46239a.xml, PFILTER_FULL_INFORMATION structure pointer [Installable File System Drivers], _FILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltuserstructures.h
-apiname: 
+apiname:
 -	FILTER_FULL_INFORMATION
 product: Windows
 targetos: Windows
@@ -107,21 +107,21 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540485">FilterFindFirst</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WcsTranslateColors, colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, WcsTranslateColors function [Print Devices], print.wcstranslatecolors, icm/WcsTranslateColors
+ms.keywords: WcsTranslateColors function [Print Devices], icm/WcsTranslateColors, colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, WcsTranslateColors, print.wcstranslatecolors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Mscms.dll
-apiname: 
+apiname:
 -	WcsTranslateColors
 product: Windows
 targetos: Windows

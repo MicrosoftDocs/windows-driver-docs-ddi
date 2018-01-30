@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6502E3AE-5841-41C9-BEB7-B00620DBF02D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQueryPerformanceCounter routine [Storage Devices], StorPortQueryPerformanceCounter, storage.storportqueryperformancecounter, storport/StorPortQueryPerformanceCounter
+ms.keywords: StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter routine [Storage Devices], storport/StorPortQueryPerformanceCounter, storage.storportqueryperformancecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortQueryPerformanceCounter
 product: Windows
 targetos: Windows

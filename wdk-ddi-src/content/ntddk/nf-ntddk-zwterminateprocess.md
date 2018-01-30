@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwTerminateProcess, kernel.zwterminateprocess, NtTerminateProcess, k111_72c76674-5372-4662-9097-53d850d49afe.xml, ntddk/NtTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], ntddk/ZwTerminateProcess
+ms.keywords: ntddk/ZwTerminateProcess, kernel.zwterminateprocess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, ntddk/NtTerminateProcess, ZwTerminateProcess, NtTerminateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwTerminateProcess
 -	NtTerminateProcess
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # ZwTerminateProcess function

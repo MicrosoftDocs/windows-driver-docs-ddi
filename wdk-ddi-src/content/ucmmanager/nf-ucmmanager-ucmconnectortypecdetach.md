@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], UcmConnectorTypeCDetach
+ms.keywords: UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	UcmCxstub.lib
 -	UcmCxstub.dll
-apiname: 
+apiname:
 -	UcmConnectorTypeCDetach
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa598c4b-e840-41cb-81a3-719a5b1ee48b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmForceSectionClosed, ifsk.mmforcesectionclosed, MmForceSectionClosed routine [Installable File System Drivers], ntifs/MmForceSectionClosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml
+ms.keywords: MmForceSectionClosed routine [Installable File System Drivers], MmForceSectionClosed, ntifs/MmForceSectionClosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml, ifsk.mmforcesectionclosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmForceSectionClosed
 product: Windows
 targetos: Windows
@@ -98,9 +98,9 @@ For more information about creating mapped sections and views of memory, see <a 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
-
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
  
 

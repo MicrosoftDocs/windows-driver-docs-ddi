@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbbuildgetstatusrequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, usbdlib/UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], UsbBuildGetStatusRequest
+ms.keywords: usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, UsbBuildGetStatusRequest, usbdlib/UsbBuildGetStatusRequest, buses.usbbuildgetstatusrequest, UsbBuildGetStatusRequest routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: usbdlib.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbdlib.h
-apiname: 
+apiname:
 -	UsbBuildGetStatusRequest
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -106,9 +106,9 @@ TBD
 
 
 
-##### - Op.URB_FUNCTION_GET_STATUS_FROM_DEVICE
+#### - Urb [in, out]
 
-Retrieves status from a USB device.
+Pointer to an <a href="..\usb\ns-usb-_urb.md">URB</a> to be formatted as an status request.
 
 
 #### - Op [in]
@@ -118,29 +118,24 @@ Specifies one of the following values:
 
 
 
-##### - Op.URB_FUNCTION_GET_STATUS_FROM_ENDPOINT
+#### URB_FUNCTION_GET_STATUS_FROM_DEVICE
 
-Retrieves status from an endpoint for an interface on a USB device.
-
-
-##### - Op.URB_FUNCTION_GET_STATUS_FROM_OTHER
-
-Retrieves status from a device-defined target on a USB device.
+Retrieves status from a USB device.
 
 
-#### - TransferBuffer [in, optional]
-
-Pointer to a resident buffer to receive the status data or is <b>NULL</b> if an MDL is supplied in <i>TransferBufferMDL</i>.
-
-
-##### - Op.URB_FUNCTION_GET_STATUS_FROM_INTERFACE
+#### URB_FUNCTION_GET_STATUS_FROM_INTERFACE
 
 Retrieves status from an interface on a USB device.
 
 
-#### - Link [in]
+#### URB_FUNCTION_GET_STATUS_FROM_ENDPOINT
 
-Reserved. Must be set to <b>NULL</b>. 
+Retrieves status from an endpoint for an interface on a USB device.
+
+
+#### URB_FUNCTION_GET_STATUS_FROM_OTHER
+
+Retrieves status from a device-defined target on a USB device.
 
 
 #### - Index [in]
@@ -148,23 +143,28 @@ Reserved. Must be set to <b>NULL</b>.
 Specifies the device-defined index, returned by a successful configuration request, if the request is for an endpoint or interface. Otherwise, <i>Index</i> must be zero.
 
 
+#### - TransferBuffer [in, optional]
+
+Pointer to a resident buffer to receive the status data or is <b>NULL</b> if an MDL is supplied in <i>TransferBufferMDL</i>.
+
+
 #### - TransferBufferMDL [in, optional]
 
 Pointer to an MDL that describes a resident buffer to receive the status data or is <b>NULL</b> if a buffer is supplied in <i>TransferBuffer</i>.
 
 
-#### - Urb [in, out]
+#### - Link [in]
 
-Pointer to an <a href="..\usb\ns-usb-_urb.md">URB</a> to be formatted as an status request.
+Reserved. Must be set to <b>NULL</b>. 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
 <a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
  
 

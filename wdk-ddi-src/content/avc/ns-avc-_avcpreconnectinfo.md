@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVCPRECONNECTINFO
-title: _AVCPRECONNECTINFO
+title: "_AVCPRECONNECTINFO"
 author: windows-driver-content
 description: The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcpreconnectinfo.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/PAVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], avc/AVCPRECONNECTINFO, PAVCPRECONNECTINFO, stream.avcpreconnectinfo, _AVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], *PAVCPRECONNECTINFO, AVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml
+ms.keywords: PAVCPRECONNECTINFO, _AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, AVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], avc/AVCPRECONNECTINFO, *PAVCPRECONNECTINFO, stream.avcpreconnectinfo, AVCPRECONNECTINFO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	AVCPRECONNECTINFO
 product: Windows
 targetos: Windows
-req.typenames: *PAVCPRECONNECTINFO, AVCPRECONNECTINFO
+req.typenames: "*PAVCPRECONNECTINFO, AVCPRECONNECTINFO"
 ---
 
 # _AVCPRECONNECTINFO structure

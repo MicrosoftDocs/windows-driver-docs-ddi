@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCheckBit, kernel.rtlcheckbit, k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, RtlCheckBit routine [Kernel-Mode Driver Architecture], wdm/RtlCheckBit
+ms.keywords: RtlCheckBit routine [Kernel-Mode Driver Architecture], wdm/RtlCheckBit, k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, kernel.rtlcheckbit, RtlCheckBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	RtlCheckBit
 product: Windows
 targetos: Windows
@@ -97,15 +97,15 @@ Callers of <b>RtlCheckBit</b> must be running at IRQL &lt;= APC_LEVEL if the mem
 
 <a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
 <a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
 
  
 

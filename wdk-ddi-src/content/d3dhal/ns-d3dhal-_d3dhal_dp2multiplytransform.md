@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c7c0d40-a51e-4656-b262-233f0af8db0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, _D3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], display.d3dhal_dp2multiplytransform, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM, *LPD3DHAL_DP2MULTIPLYTRANSFORM
+ms.keywords: d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, *LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], D3DHAL_DP2MULTIPLYTRANSFORM, display.d3dhal_dp2multiplytransform, LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], LPD3DHAL_DP2MULTIPLYTRANSFORM, _D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,9 +127,9 @@ This structure is used with hardware transform and lighting and is used by the D
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2settransform.md">D3DHAL_DP2SETTRANSFORM</a>
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

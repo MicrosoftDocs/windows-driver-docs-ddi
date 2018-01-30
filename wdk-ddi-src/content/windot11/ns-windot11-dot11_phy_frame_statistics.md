@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2adf102b-52aa-40e4-b3de-9189803339bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_PHY_FRAME_STATISTICS, netvista.dot11_phy_frame_statistics, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], *PDOT11_PHY_FRAME_STATISTICS
+ms.keywords: PDOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], netvista.dot11_phy_frame_statistics, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, windot11/PDOT11_PHY_FRAME_STATISTICS, windot11/DOT11_PHY_FRAME_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PHY_FRAME_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS
+req.typenames: DOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS
 req.product: Windows 10 or later.
 ---
 
@@ -290,9 +290,9 @@ The members of this structure are used to record PHY-level statistics for:
 <mshelp:link keywords="netvista.extensible_station_phy_statistics" tabindex="0">Extensible Station PHY
    Statistics</mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
-
 <a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 162b3a05-dccd-4df4-8728-801a8fb39afc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeName method [Windows Debugging], ExtRemoteTyped, ExtRemoteTyped::GetTypeName, GetTypeName, debugger.extremotetyped_gettypename, GetTypeName method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeName method, EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml
+ms.keywords: GetTypeName, GetTypeName method [Windows Debugging], debugger.extremotetyped_gettypename, ExtRemoteTyped::GetTypeName, GetTypeName method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeName method, ExtRemoteTyped, EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetTypeName
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetTypeName method
@@ -75,13 +75,13 @@ PSTR GetTypeName();
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
  
 

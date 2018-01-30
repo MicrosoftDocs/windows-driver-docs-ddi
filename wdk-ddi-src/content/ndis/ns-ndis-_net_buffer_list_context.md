@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_CONTEXT
-title: _NET_BUFFER_LIST_CONTEXT
+title: "_NET_BUFFER_LIST_CONTEXT"
 author: windows-driver-content
 description: The NET_BUFFER_LIST_CONTEXT structure stores context information for a NET_BUFFER_LIST structure.
 old-location: netvista\net_buffer_list_context.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5d70be6-daa5-4d2e-94fd-5739edd8821e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], netvista.net_buffer_list_context, PNET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT
+ms.keywords: ndis/PNET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, netvista.net_buffer_list_context, _NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, *PNET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NET_BUFFER_LIST_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: NET_BUFFER_LIST_CONTEXT, *PNET_BUFFER_LIST_CONTEXT
+req.typenames: "*PNET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT"
 ---
 
 # _NET_BUFFER_LIST_CONTEXT structure
@@ -174,23 +174,23 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<mshelp:link keywords="netvista.net_buffer_list_context_data_start" tabindex="0"><b>
-   NET_BUFFER_LIST_CONTEXT_DATA_START</b></mshelp:link>
+<mshelp:link keywords="netvista.ndisallocatenetbufferlistcontext" tabindex="0"><b>
+   NdisAllocateNetBufferListContext</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistcontext" tabindex="0"><b>
-   NdisAllocateNetBufferListContext</b></mshelp:link>
+<mshelp:link keywords="netvista.net_buffer_list_context_data_start" tabindex="0"><b>
+   NET_BUFFER_LIST_CONTEXT_DATA_START</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
    NdisAllocateNetBufferListPool</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <mshelp:link keywords="netvista.net_buffer_list_context_data_size" tabindex="0"><b>
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
  
 

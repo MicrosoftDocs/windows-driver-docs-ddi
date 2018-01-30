@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_HUB_NODE
-title: _USB_HUB_NODE
+title: "_USB_HUB_NODE"
 author: windows-driver-content
 description: The USB_HUB_NODE enumerator indicates whether a device is a hub or a composite device.
 old-location: buses\usb_hub_node.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fdd69121-2b3c-4394-b67e-c29f43daf113
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/USB_HUB_NODE, UsbHub, _USB_HUB_NODE, usbioctl/UsbMIParent, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml, UsbMIParent, USB_HUB_NODE, USB_HUB_NODE enumeration [Buses], buses.usb_hub_node, usbioctl/UsbHub
+ms.keywords: UsbMIParent, USB_HUB_NODE, usbioctl/UsbHub, USB_HUB_NODE enumeration [Buses], _USB_HUB_NODE, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml, usbioctl/USB_HUB_NODE, UsbHub, buses.usb_hub_node, usbioctl/UsbMIParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_HUB_NODE
 product: Windows
 targetos: Windows
@@ -88,9 +88,9 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
  
 

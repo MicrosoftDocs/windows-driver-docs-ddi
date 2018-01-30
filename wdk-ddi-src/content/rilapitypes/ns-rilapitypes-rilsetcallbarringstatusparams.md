@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6116e564-93e6-45ba-8759-aab7d82783b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsetcallbarringstatusparams_2, rilapitypes/RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETCALLBARRINGSTATUSPARAMS
+ms.keywords: "*LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSETCALLBARRINGSTATUSPARAMS, netvista.rilsetcallbarringstatusparams_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSETCALLBARRINGSTATUSPARAMS
 product: Windows
 targetos: Windows

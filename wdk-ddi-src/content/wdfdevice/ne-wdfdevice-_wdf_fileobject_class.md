@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_FILEOBJECT_CLASS
-title: _WDF_FILEOBJECT_CLASS
+title: "_WDF_FILEOBJECT_CLASS"
 author: windows-driver-content
 description: The WDF_FILEOBJECT_CLASS enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open.
 old-location: wdf\wdf_fileobject_class.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0887061-eafe-4dba-bb7a-58bf949e2d08
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_fileobject_class, WdfFileObjectCanBeOptional, PWDF_FILEOBJECT_CLASS enumeration pointer, WDF_FILEOBJECT_CLASS enumeration, WDF_FILEOBJECT_CLASS, _WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectWdfCanUseFsContext2, kmdf.wdf_fileobject_class, wdfdevice/WdfFileObjectInvalid, WdfFileObjectWdfCanUseFsContext, *PWDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, WdfFileObjectNotRequired, wdfdevice/PWDF_FILEOBJECT_CLASS, WdfFileObjectWdfCanUseFsContext2, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectNotRequired, WdfFileObjectWdfCannotUseFsContexts, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, WdfFileObjectInvalid, PWDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml
+ms.keywords: kmdf.wdf_fileobject_class, WdfFileObjectWdfCannotUseFsContexts, wdf.wdf_fileobject_class, wdfdevice/WdfFileObjectNotRequired, *PWDF_FILEOBJECT_CLASS, WdfFileObjectWdfCanUseFsContext, _WDF_FILEOBJECT_CLASS, WdfFileObjectInvalid, wdfdevice/PWDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, PWDF_FILEOBJECT_CLASS enumeration pointer, WdfFileObjectNotRequired, WDF_FILEOBJECT_CLASS enumeration, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, wdfdevice/WdfFileObjectCanBeOptional, wdfdevice/WdfFileObjectWdfCanUseFsContext2, WdfFileObjectWdfCanUseFsContext2, wdfdevice/WDF_FILEOBJECT_CLASS, WdfFileObjectCanBeOptional, wdfdevice/WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectInvalid, PWDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_FILEOBJECT_CLASS
 product: Windows
 targetos: Windows

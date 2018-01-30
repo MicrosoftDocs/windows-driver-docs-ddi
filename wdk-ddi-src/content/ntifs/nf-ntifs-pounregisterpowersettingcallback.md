@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 900db70b-4cdb-41e7-a4cf-0dc435b9fe7d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoUnregisterPowerSettingCallback, kernel.pounregisterpowersettingcallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, PoUnregisterPowerSettingCallback
+ms.keywords: PoUnregisterPowerSettingCallback, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, kernel.pounregisterpowersettingcallback, wdm/PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoUnregisterPowerSettingCallback
 product: Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="..\wdm\nf-wdm-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a> routine.
+The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="..\ntifs\nf-ntifs-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a> routine.
 
 
 ## -syntax
@@ -118,7 +118,7 @@ A driver must call <b>PoUnregisterPowerSettingCallback</b> to unregister each ca
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a>
+<a href="..\ntifs\nf-ntifs-poregisterpowersettingcallback.md">PoRegisterPowerSettingCallback</a>
 
  
 

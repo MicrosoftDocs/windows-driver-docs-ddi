@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, debugger.idebugsymbols3_getsourceentryoffsetregions, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3::GetSourceEntryOffsetRegions, GetSourceEntryOffsetRegions
+ms.keywords: IDebugSymbols3::GetSourceEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, debugger.idebugsymbols3_getsourceentryoffsetregions, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSourceEntryOffsetRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourceEntryOffsetRegions
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSourceEntryOffsetRegions method

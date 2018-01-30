@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f55cc21-606d-4c7c-8650-51cb686700b3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], debugger.getnextdifferentlyvalidoffsetvirtual, IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
+ms.keywords: GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, debugger.getnextdifferentlyvalidoffsetvirtual, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual method
@@ -111,9 +111,9 @@ The size of regions of validity depends on the target.  For example, in live use
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549471">GetValidRegionVirtual</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549471">GetValidRegionVirtual</a>
 
  
 

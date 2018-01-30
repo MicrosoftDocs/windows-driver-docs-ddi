@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_register_server, bthddi/_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER
+ms.keywords: "_BRB_SCO_REGISTER_SERVER, bthddi/_BRB_SCO_REGISTER_SERVER, bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,8 +148,8 @@ The context passed to the function that is defined in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> functions to
+     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
+     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> functions to
      maintain a reference count of. Profile drivers should provide this object in such a way that the
      Bluetooth driver stack can increase the count of the object for as long as the driver stack can call the
      callback function specified in the 
@@ -203,17 +203,17 @@ To stop receiving remote connection notifications, a profile driver should
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
  
 

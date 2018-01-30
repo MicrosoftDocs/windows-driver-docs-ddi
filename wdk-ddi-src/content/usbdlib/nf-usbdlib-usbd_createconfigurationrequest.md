@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e1f397f6-2f33-4352-9bbc-2b2a49dcd067
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml, USBD_CreateConfigurationRequest, usbdlib/USBD_CreateConfigurationRequest, buses.usbd_createconfigurationrequest, USBD_CreateConfigurationRequest routine [Buses]
+ms.keywords: USBD_CreateConfigurationRequest routine [Buses], usbdlib/USBD_CreateConfigurationRequest, buses.usbd_createconfigurationrequest, USBD_CreateConfigurationRequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbd.lib
 -	Usbd.dll
-apiname: 
+apiname:
 -	USBD_CreateConfigurationRequest
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

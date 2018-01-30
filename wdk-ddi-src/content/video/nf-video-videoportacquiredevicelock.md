@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eeb2d1ad-ad99-4099-9560-8653a627aa08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAcquireDeviceLock function [Display Devices], VideoPortAcquireDeviceLock, display.videoportacquiredevicelock, VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, video/VideoPortAcquireDeviceLock
+ms.keywords: VideoPortAcquireDeviceLock function [Display Devices], video/VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock, display.videoportacquiredevicelock, VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortAcquireDeviceLock function

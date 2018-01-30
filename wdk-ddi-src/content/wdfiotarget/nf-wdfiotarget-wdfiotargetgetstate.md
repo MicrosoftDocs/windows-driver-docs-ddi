@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 38e22922-d9de-4dfd-9da9-c131b789f5d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOTARGETGETSTATE, WdfIoTargetGetState, wdf.wdfiotargetgetstate, kmdf.wdfiotargetgetstate, DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, wdfiotarget/WdfIoTargetGetState, WdfIoTargetGetState method
+ms.keywords: kmdf.wdfiotargetgetstate, WdfIoTargetGetState method, wdfiotarget/WdfIoTargetGetState, DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, PFN_WDFIOTARGETGETSTATE, wdf.wdfiotargetgetstate, WdfIoTargetGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoTargetGetState
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
 req.product: Windows 10 or later.
 ---
 

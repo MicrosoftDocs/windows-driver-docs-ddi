@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._HYBRID_INFORMATION
-title: _HYBRID_INFORMATION
+title: "_HYBRID_INFORMATION"
 author: windows-driver-content
 description: The HYBRID_INFORMATION structure contains hybrid disk capability information.
 old-location: storage\hybrid_information.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: NvCacheTypeWriteThrough, HYBRID_INFORMATION structure [Storage Devices], storage.hybrid_information, NvCacheNone, NvCacheStatusDisabling, NvCacheStatusUnknown, NvCacheStatusEnabled, PHYBRID_INFORMATION, NvCacheTypeWriteBack, *PHYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, NvCacheTypeUnknown, _HYBRID_INFORMATION, ntddscsi/HYBRID_INFORMATION, HYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], NvCacheStatusDisabled
+ms.keywords: ntddscsi/HYBRID_INFORMATION, NvCacheStatusDisabled, PHYBRID_INFORMATION structure pointer [Storage Devices], NvCacheTypeWriteThrough, NvCacheTypeWriteBack, PHYBRID_INFORMATION, *PHYBRID_INFORMATION, _HYBRID_INFORMATION, storage.hybrid_information, NvCacheTypeUnknown, ntddscsi/PHYBRID_INFORMATION, HYBRID_INFORMATION, NvCacheStatusEnabled, NvCacheStatusDisabling, NvCacheStatusUnknown, HYBRID_INFORMATION structure [Storage Devices], NvCacheNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddscsi.h
-apiname: 
+apiname:
 -	HYBRID_INFORMATION
 product: Windows
 targetos: Windows

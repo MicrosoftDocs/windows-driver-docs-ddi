@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequestcompletionparams_getwriteparameters, IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, GetWriteParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams, GetWriteParameters, IWDFIoRequestCompletionParams interface, GetWriteParameters method, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, umdf.iwdfiorequestcompletionparams_getwriteparameters
+ms.keywords: GetWriteParameters method, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetWriteParameters method, wdf.iwdfiorequestcompletionparams_getwriteparameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, umdf.iwdfiorequestcompletionparams_getwriteparameters, GetWriteParameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, IWDFIoRequestCompletionParams interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequestCompletionParams.GetWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -102,9 +102,9 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
 
  
 

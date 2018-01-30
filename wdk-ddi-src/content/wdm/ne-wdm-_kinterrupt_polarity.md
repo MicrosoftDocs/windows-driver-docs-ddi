@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KINTERRUPT_POLARITY
-title: _KINTERRUPT_POLARITY
+title: "_KINTERRUPT_POLARITY"
 author: windows-driver-content
 description: The KINTERRUPT_POLARITY enumeration indicates how a device signals an interrupt request on an interrupt line.
 old-location: kernel\kinterrupt_polarity.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterruptActiveBoth, wdm/InterruptActiveBothTriggerLow, *PKINTERRUPT_POLARITY, InterruptPolarityUnknown, wdm/InterruptRisingEdge, InterruptActiveLow, InterruptFallingEdge, PKINTERRUPT_POLARITY, InterruptActiveBothTriggerHigh, InterruptActiveHigh, wdm/InterruptActiveBothTriggerHigh, _KINTERRUPT_POLARITY, InterruptActiveBothTriggerLow, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], wdm/InterruptPolarityUnknown, wdm/KINTERRUPT_POLARITY, wdm/PKINTERRUPT_POLARITY, wdm/InterruptActiveHigh, KINTERRUPT_POLARITY, wdm/InterruptActiveBoth, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], wdm/InterruptFallingEdge, wdm/InterruptActiveLow, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, InterruptRisingEdge, kernel.kinterrupt_polarity
+ms.keywords: PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], wdm/PKINTERRUPT_POLARITY, wdm/InterruptFallingEdge, PKINTERRUPT_POLARITY, InterruptPolarityUnknown, InterruptActiveBoth, kernel.kinterrupt_polarity, KINTERRUPT_POLARITY, InterruptFallingEdge, wdm/InterruptPolarityUnknown, wdm/InterruptActiveLow, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY, InterruptActiveBothTriggerHigh, wdm/InterruptRisingEdge, InterruptActiveLow, InterruptRisingEdge, wdm/InterruptActiveBoth, wdm/InterruptActiveBothTriggerLow, InterruptActiveBothTriggerLow, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptActiveHigh, _KINTERRUPT_POLARITY, InterruptActiveHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KINTERRUPT_POLARITY
 product: Windows
 targetos: Windows

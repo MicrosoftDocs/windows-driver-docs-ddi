@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ChangeEngineState method [Windows Debugging], ChangeEngineState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_changeenginestate, IDebugEventCallbacksWide
+ms.keywords: ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeEngineState method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], ChangeEngineState method, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate, ChangeEngineState, IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ChangeEngineState
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeEngineState method

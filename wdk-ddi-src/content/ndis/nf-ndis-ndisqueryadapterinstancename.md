@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd6fade6-9b9b-4b38-8e53-c70c40c1165f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndisqueryadapterinstancename, NdisQueryAdapterInstanceName, ndis/NdisQueryAdapterInstanceName
+ms.keywords: NdisQueryAdapterInstanceName, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndisqueryadapterinstancename, ndis/NdisQueryAdapterInstanceName, protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisQueryAdapterInstanceName
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisQueryAdapterInstanceName function
@@ -126,11 +126,11 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

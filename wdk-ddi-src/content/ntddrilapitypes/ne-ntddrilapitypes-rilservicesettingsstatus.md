@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69340d17-900f-4c46-aafb-866edcb03d77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SVCSTAT_MAX, RIL_SVCSTAT_DISABLED, ntddrilapitypes/RILSERVICESETTINGSSTATUS, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_DEFAULT, netvista.rilservicesettingsstatus, ntddrilapitypes/RIL_SVCSTAT_MAX, RIL_SVCSTAT_ENABLED, RILSERVICESETTINGSSTATUS, ntddrilapitypes/RIL_SVCSTAT_DEFAULT, ntddrilapitypes/RIL_SVCSTAT_DISABLED, ntddrilapitypes/RIL_SVCSTAT_ENABLED
+ms.keywords: RIL_SVCSTAT_MAX, RIL_SVCSTAT_DEFAULT, netvista.rilservicesettingsstatus, ntddrilapitypes/RIL_SVCSTAT_ENABLED, ntddrilapitypes/RILSERVICESETTINGSSTATUS, ntddrilapitypes/RIL_SVCSTAT_MAX, ntddrilapitypes/RIL_SVCSTAT_DISABLED, RILSERVICESETTINGSSTATUS, RIL_SVCSTAT_DISABLED, ntddrilapitypes/RIL_SVCSTAT_DEFAULT, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSERVICESETTINGSSTATUS
 product: Windows
 targetos: Windows

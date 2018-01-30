@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58ed8f04-616f-4eea-b6e1-07f322c37dbb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], IDDCX_CURSOR_SHAPE_INFO, iddcx/IDDCX_CURSOR_SHAPE_INFO, display.iddcx_cursor_shape_info
+ms.keywords: IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

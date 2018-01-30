@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
-title: _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+title: "_WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
 author: windows-driver-content
 description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure is a header structure that must be the first member of every identification description structure.
 old-location: wdf\wdf_child_identification_description_header.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdf.wdf_child_identification_description_header, kmdf.wdf_child_identification_description_header, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure
+ms.keywords: wdf.wdf_child_identification_description_header, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, kmdf.wdf_child_identification_description_header, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfchildlist.h
-apiname: 
+apiname:
 -	WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
+req.typenames: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, *PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
 req.product: Windows 10 or later.
 ---
 

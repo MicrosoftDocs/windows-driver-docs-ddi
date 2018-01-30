@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_MEDIUM
-title: _NDIS_MEDIUM
+title: "_NDIS_MEDIUM"
 author: windows-driver-content
 description: The NDIS_MEDIUM enumeration type identifies the medium types that NDIS drivers support.
 old-location: netvista\ndis_medium.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMediumInfiniBand, _NDIS_MEDIUM, ntddndis/NdisMediumBpc, NdisMediumWirelessWan, ntddndis/NdisMediumLoopback, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisMediumAtm, ntddndis/NDIS_MEDIUM, ntddndis/NdisMedium802_3, ntddndis/NdisMediumLocalTalk, NdisMediumLocalTalk, NdisMediumMax, ntddndis/NdisMedium802_5, NdisMediumCoWan, ntddndis/NdisMediumDix, NdisMediumBpc, NdisMediumNative802_11, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_MEDIUM, NdisMediumWan, NdisMedium1394, NDIS_MEDIUM, NdisMedium802_5, NdisMediumIP, ntddndis/NdisMediumIP, NdisMediumDix, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumTunnel, NdisMediumIrda, NdisMedium802_3, NdisMediumAtm, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMediumTunnel, netvista.ndis_medium, ntddndis/NdisMediumWirelessWan, ntddndis/NdisMediumCoWan, NdisMediumArcnet878_2, ntddndis/NdisMediumMax, ntddndis/NdisMedium1394, ntddndis/NdisMediumWan, NdisMediumFddi, ntddndis/NdisMediumFddi, PNDIS_MEDIUM, ntddndis/NdisMediumNative802_11, NdisMediumLoopback, ntddndis/NdisMediumIrda, ntddndis/NdisMediumArcnet878_2, *PNDIS_MEDIUM, NdisMediumArcnetRaw
+ms.keywords: ntddndis/NdisMedium802_3, NdisMediumFddi, netvista.ndis_medium, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumWirelessWan, NdisMediumTunnel, NdisMediumCoWan, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_MEDIUM, ntddndis/NdisMediumLocalTalk, NdisMediumLoopback, NDIS_MEDIUM, NdisMediumIP, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMedium802_5, _NDIS_MEDIUM, NdisMediumLocalTalk, NdisMediumMax, NdisMediumArcnetRaw, NdisMediumAtm, ntddndis/PNDIS_MEDIUM, NdisMediumDix, ntddndis/NdisMediumBpc, ntddndis/NdisMediumArcnet878_2, NdisMediumInfiniBand, NdisMediumBpc, ntddndis/NDIS_MEDIUM, NdisMedium802_3, NdisMediumWirelessWan, NdisMediumNative802_11, PNDIS_MEDIUM, ntddndis/NdisMediumDix, NdisMedium1394, NdisMediumWan, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisMediumIrda, ntddndis/NdisMediumNative802_11, NdisMediumIrda, ntddndis/NdisMediumWan, NdisMedium802_5, ntddndis/NdisMediumFddi, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumMax, ntddndis/NdisMediumIP, ntddndis/NdisMediumAtm, NdisMediumArcnet878_2, ntddndis/NdisMedium1394, ntddndis/NdisMediumLoopback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_MEDIUM
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_MEDIUM, NDIS_MEDIUM
+req.typenames: "*PNDIS_MEDIUM, NDIS_MEDIUM"
 ---
 
 # _NDIS_MEDIUM enumeration

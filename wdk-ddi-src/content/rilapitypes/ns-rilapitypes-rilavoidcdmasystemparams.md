@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd938bd9-479a-434c-91d6-93ec76ebe5d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilavoidcdmasystemparams_2, RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS, rilapitypes/RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], RILAVOIDCDMASYSTEMPARAMS, netvista.rilavoidcdmasystemparams_2, rilapitypes/RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILAVOIDCDMASYSTEMPARAMS
 product: Windows
 targetos: Windows

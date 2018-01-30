@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
-title: _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
+title: "_NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO"
 author: windows-driver-content
 description: Defines the group network virtualization information for a network buffer list (NBL).
 old-location: netvista\ndis_net_buffer_list_virtual_subnet_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E87F9FC0-D408-43D2-A09F-F921617CF3DA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, netvista.ndis_net_buffer_list_virtual_subnet_info, ndis/NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndis_net_buffer_list_virtual_subnet_info, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, *PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
+req.typenames: "*PNDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO, NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO"
 ---
 
 # _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO structure
@@ -97,27 +97,27 @@ A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNE
       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
 
 
-##### - ( unnamed struct ).ReservedVsidBits
-
-This member is reserved and should be set to zero.
-
-
-##### - ( unnamed struct ).VirtualSubnetId
-
-The originating virtual switch port ID for the network buffer list.
-
-
-##### - ( unnamed struct ).Reserved
-
-This member is reserved and should be set to zero.
-
-
 #### - ( unnamed struct )
 
 A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</b>. Ethernet
       miniport drivers use 
       this member to access the originating virtual switch port ID for the network buffer list. 
       This member is a bit field with the following members:
+
+
+#### VirtualSubnetId
+
+The originating virtual switch port ID for the network buffer list.
+
+
+#### ReservedVsidBits
+
+This member is reserved and should be set to zero.
+
+
+#### Reserved
+
+This member is reserved and should be set to zero.
 
 
 ## -remarks
@@ -131,19 +131,19 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
 
 <a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
-
-<a href="https://msdn.microsoft.com/6BAE348D-B5BA-4B74-8D9B-79B146427D8C">Cloning Packet Traffic</a>
+<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
+<a href="https://msdn.microsoft.com/6BAE348D-B5BA-4B74-8D9B-79B146427D8C">Cloning Packet Traffic</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8584c60-57ba-4b9c-949f-041bb37dfb13
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], wdm/RtlUpcaseUnicodeChar, kernel.rtlupcaseunicodechar, k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml
+ms.keywords: RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], kernel.rtlupcaseunicodechar, k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, RtlUpcaseUnicodeChar, wdm/RtlUpcaseUnicodeChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlUpcaseUnicodeChar
 product: Windows
 targetos: Windows

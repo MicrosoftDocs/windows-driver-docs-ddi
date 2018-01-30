@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26cf2630-9602-4c70-a326-11e72f188ef9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsStreamContinue0, netvista.fwpsstreamcontinue0, FwpsStreamContinue0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_R-Z_c2e0bb3b-854a-4e88-9378-e78e48cb19f2.xml, fwpsk/FwpsStreamContinue0
+ms.keywords: wfp_ref_2_funct_3_fwps_R-Z_c2e0bb3b-854a-4e88-9378-e78e48cb19f2.xml, fwpsk/FwpsStreamContinue0, FwpsStreamContinue0, netvista.fwpsstreamcontinue0, FwpsStreamContinue0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Fwpkclnt.lib
 -	Fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsStreamContinue0
 product: Windows
 targetos: Windows
@@ -163,16 +163,16 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 <mshelp:link keywords="netvista.fwps_stream_callout_io_packet0" tabindex="0"><b>
    FWPS_STREAM_CALLOUT_IO_PACKET0</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
  
 

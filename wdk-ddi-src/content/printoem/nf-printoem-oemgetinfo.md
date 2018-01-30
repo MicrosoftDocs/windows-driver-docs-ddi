@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMGetInfo function [Print Devices], print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, print.oemgetinfo, OEMGetInfo, printoem/OEMGetInfo
+ms.keywords: print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, OEMGetInfo function [Print Devices], printoem/OEMGetInfo, OEMGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMGetInfo
 product: Windows
 targetos: Windows

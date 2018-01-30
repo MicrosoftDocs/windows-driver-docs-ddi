@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOTARGETCLOSEFORQUERYREMOVE, wdf.wdfiotargetcloseforqueryremove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, wdfiotarget/WdfIoTargetCloseForQueryRemove, kmdf.wdfiotargetcloseforqueryremove, WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove method
+ms.keywords: WdfIoTargetCloseForQueryRemove method, wdf.wdfiotargetcloseforqueryremove, WdfIoTargetCloseForQueryRemove, wdfiotarget/WdfIoTargetCloseForQueryRemove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, kmdf.wdfiotargetcloseforqueryremove, PFN_WDFIOTARGETCLOSEFORQUERYREMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoTargetCloseForQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
 req.product: Windows 10 or later.
 ---
 

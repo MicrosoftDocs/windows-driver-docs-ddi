@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5054cc41-06af-48f0-b273-276bd639c16c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ntifs/FsRtlPostPagingFileStackOverflow, ifsk.fsrtlpostpagingfilestackoverflow, FsRtlPostPagingFileStackOverflow
+ms.keywords: ntifs/FsRtlPostPagingFileStackOverflow, ifsk.fsrtlpostpagingfilestackoverflow, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], FsRtlPostPagingFileStackOverflow, fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlPostPagingFileStackOverflow
 product: Windows
 targetos: Windows
@@ -105,13 +105,13 @@ A file system typically calls <b>FsRtlPostPagingFileStackOverflow</b> during a p
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpoststackoverflow~r2.md">FsRtlPostStackOverflow</a>
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
 
 <a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
  
 

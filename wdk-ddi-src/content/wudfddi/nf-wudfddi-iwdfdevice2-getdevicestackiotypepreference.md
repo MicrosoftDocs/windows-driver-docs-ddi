@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, umdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference, wdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference method, IWDFDevice2 interface
+ms.keywords: GetDeviceStackIoTypePreference method, IWDFDevice2 interface, GetDeviceStackIoTypePreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2::GetDeviceStackIoTypePreference, wdf.iwdfdevice2_getdevicestackiotypepreference, umdf.iwdfdevice2_getdevicestackiotypepreference, IWDFDevice2, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice2.GetDeviceStackIoTypePreference
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

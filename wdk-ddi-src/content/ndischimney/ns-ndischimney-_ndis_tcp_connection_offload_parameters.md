@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
-title: _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+title: "_NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offload information in the OID_TCP_CONNECTION_OFFLOAD_PARAMETERS OIDs:
 old-location: netvista\ndis_tcp_connection_offload_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8d3f971-2abc-425d-9929-518f093262a7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_tcp_connection_offload_parameters, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+ms.keywords: ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+req.typenames: "*PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS"
 ---
 
 # _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure
@@ -215,16 +215,16 @@ The
 
 <a href="..\ndis\ns-ndis-_ndis_offload_encapsulation.md">NDIS_OFFLOAD_ENCAPSULATION</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <mshelp:link keywords="netvista.oid_tcp_connection_offload_parameters" tabindex="0">
    OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</mshelp:link>
 
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

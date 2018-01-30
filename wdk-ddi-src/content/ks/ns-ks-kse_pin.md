@@ -2,13 +2,13 @@
 UID: NS:ks.KSE_PIN
 title: KSE_PIN
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\kse_pin.htm
 old-project: stream
 ms.assetid: 6936F732-ECAA-4CA7-B2AF-CA22A5C93FC9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSE_PIN, *PKSE_PIN, stream.kse_pin, ks/KSE_PIN, PKSE_PIN, KSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], KSE_PIN structure [Streaming Media Devices]
+ms.keywords: "*PKSE_PIN, ks/PKSE_PIN, KSE_PIN structure [Streaming Media Devices], KSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], stream.kse_pin, PKSE_PIN, ks/KSE_PIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSE_PIN
 product: Windows
 targetos: Windows
-req.typenames: *PKSE_PIN, KSE_PIN
+req.typenames: "*PKSE_PIN, KSE_PIN"
 ---
 
 # KSE_PIN structure

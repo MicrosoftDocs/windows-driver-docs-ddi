@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SCARD_CARD_CAPABILITIES
-title: _SCARD_CARD_CAPABILITIES
+title: "_SCARD_CARD_CAPABILITIES"
 author: windows-driver-content
 description: The SCARD_CARD_CAPABILITIES structure declaration defines the data that is stored in the CardCapabilites member of the SMARTCARD_EXTENSION structure and holds all information that is specific to the particular smart card that is currently used.
 old-location: smartcrd\scard_card_capabilities.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 8cc223be-a692-4141-81f6-4cca9e2fccf1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SCARD_CARD_CAPABILITIES, smartcrd.scard_card_capabilities, smclib/SCARD_CARD_CAPABILITIES, smclib/PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, *PSCARD_CARD_CAPABILITIES, _SCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices]
+ms.keywords: smclib/PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], *PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, SCARD_CARD_CAPABILITIES, _SCARD_CARD_CAPABILITIES, smartcrd.scard_card_capabilities, smclib/SCARD_CARD_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	smclib.h
-apiname: 
+apiname:
 -	SCARD_CARD_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
+req.typenames: "*PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES"
 req.product: Windows 10 or later.
 ---
 

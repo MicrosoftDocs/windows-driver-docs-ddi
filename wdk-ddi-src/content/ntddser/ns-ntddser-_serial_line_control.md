@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_LINE_CONTROL
-title: _SERIAL_LINE_CONTROL
+title: "_SERIAL_LINE_CONTROL"
 author: windows-driver-content
 description: The SERIAL_LINE_CONTROL structure describes the control settings for the serial line.
 old-location: serports\serial_line_control.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddser/SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], serports.serial_line_control, _SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL
+ms.keywords: PSERIAL_LINE_CONTROL structure pointer [Serial Ports], PSERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, serports.serial_line_control, *PSERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, _SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	SERIAL_LINE_CONTROL
 product: Windows
 targetos: Windows
@@ -137,9 +137,9 @@ This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_li
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 
  
 

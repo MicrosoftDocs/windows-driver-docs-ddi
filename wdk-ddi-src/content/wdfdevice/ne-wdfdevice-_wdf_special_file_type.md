@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_SPECIAL_FILE_TYPE
-title: _WDF_SPECIAL_FILE_TYPE
+title: "_WDF_SPECIAL_FILE_TYPE"
 author: windows-driver-content
 description: The WDF_SPECIAL_FILE_TYPE enumeration identifies special file types that a device can support.
 old-location: wdf\wdf_special_file_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_SPECIAL_FILE_TYPE, wdf.wdf_special_file_type, *PWDF_SPECIAL_FILE_TYPE, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, WdfSpecialFileHibernation, WDF_SPECIAL_FILE_TYPE enumeration, WdfSpecialFileMax, wdfdevice/WdfSpecialFileDump, wdfdevice/WdfSpecialFileHibernation, WDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFilePaging, wdfdevice/WdfSpecialFileBoot, wdfdevice/WdfSpecialFileMax, WdfSpecialFileDump, WdfSpecialFilePaging, _WDF_SPECIAL_FILE_TYPE, WdfSpecialFileBoot, WdfSpecialFileUndefined, kmdf.wdf_special_file_type, wdfdevice/WdfSpecialFileUndefined
+ms.keywords: DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, wdfdevice/WdfSpecialFileHibernation, *PWDF_SPECIAL_FILE_TYPE, WdfSpecialFileUndefined, WdfSpecialFileMax, WdfSpecialFileHibernation, wdfdevice/WdfSpecialFileDump, wdfdevice/WdfSpecialFileBoot, wdfdevice/WdfSpecialFileMax, WDF_SPECIAL_FILE_TYPE enumeration, wdfdevice/WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileUndefined, wdfdevice/WdfSpecialFilePaging, WdfSpecialFileBoot, WdfSpecialFileDump, wdf.wdf_special_file_type, _WDF_SPECIAL_FILE_TYPE, WdfSpecialFilePaging, kmdf.wdf_special_file_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_SPECIAL_FILE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE
+req.typenames: "*PWDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE"
 req.product: Windows 10 or later.
 ---
 

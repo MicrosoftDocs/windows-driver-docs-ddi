@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._HUB_INFO_FROM_PARENT
-title: _HUB_INFO_FROM_PARENT
+title: "_HUB_INFO_FROM_PARENT"
 author: windows-driver-content
 description: Describes information about a hub from its parent device.
 old-location: buses\_hub_info_from_parent.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxroothub/_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], *PHUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent
+ms.keywords: HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT, buses._hub_info_from_parent, P_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], ucxroothub/_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	HUB_INFO_FROM_PARENT
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OIEXT
-title: _OIEXT
+title: "_OIEXT"
 author: windows-driver-content
 description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
 old-location: print\oiext.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _OIEXT, POIEXT structure pointer [Print Devices], OIEXT structure [Print Devices], OIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext, *POIEXT, compstui/POIEXT, POIEXT, compstui/OIEXT
+ms.keywords: POIEXT, POIEXT structure pointer [Print Devices], *POIEXT, OIEXT structure [Print Devices], cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext, compstui/OIEXT, OIEXT, compstui/POIEXT, _OIEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	OIEXT
 product: Windows
 targetos: Windows
-req.typenames: OIEXT, *POIEXT
+req.typenames: "*POIEXT, OIEXT"
 ---
 
 # _OIEXT structure

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 359b1096-f987-4884-ab67-2290bf5196b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortCompleteServiceIrp routine [Storage Devices], storprt_439990ea-8133-4114-b417-1c88e53cce14.xml, storage.storportcompleteserviceirp, StorPortCompleteServiceIrp, storport/StorPortCompleteServiceIrp
+ms.keywords: storprt_439990ea-8133-4114-b417-1c88e53cce14.xml, storport/StorPortCompleteServiceIrp, StorPortCompleteServiceIrp routine [Storage Devices], StorPortCompleteServiceIrp, storage.storportcompleteserviceirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortCompleteServiceIrp
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetPowerPolicyOwnership method, wdf.wdfdeviceinitsetpowerpolicyownership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership, kmdf.wdfdeviceinitsetpowerpolicyownership, WdfDeviceInitSetPowerPolicyOwnership, DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, PFN_WDFDEVICEINITSETPOWERPOLICYOWNERSHIP
+ms.keywords: wdfdevice/WdfDeviceInitSetPowerPolicyOwnership, wdf.wdfdeviceinitsetpowerpolicyownership, kmdf.wdfdeviceinitsetpowerpolicyownership, DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, WdfDeviceInitSetPowerPolicyOwnership method, WdfDeviceInitSetPowerPolicyOwnership, PFN_WDFDEVICEINITSETPOWERPOLICYOWNERSHIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetPowerPolicyOwnership
 product: Windows
 targetos: Windows

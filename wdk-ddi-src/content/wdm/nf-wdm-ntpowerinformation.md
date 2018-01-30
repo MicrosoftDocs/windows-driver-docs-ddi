@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], wdm/NtPowerInformation, PlatformInformation, NtPowerInformation, kernel.zwpowerinformation, wdm/ZwPowerInformation
+ms.keywords: ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, NtPowerInformation, wdm/NtPowerInformation, wdm/ZwPowerInformation, PlatformInformation, ZwPowerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.lib
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.lib
-apiname: 
+apiname:
 -	ZwPowerInformation
 -	NtPowerInformation
 product: Windows
@@ -172,9 +172,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._PSPINFO
-title: _PSPINFO
+title: "_PSPINFO"
 author: windows-driver-content
 description: The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a DLGPAGE structure.
 old-location: print\pspinfo.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.pspinfo, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, PPSPINFO, PPSPINFO structure pointer [Print Devices], *PPSPINFO, PSPINFO, _PSPINFO, PSPINFO structure [Print Devices], compstui/PPSPINFO
+ms.keywords: print.pspinfo, PPSPINFO, compstui/PPSPINFO, *PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO structure [Print Devices], _PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, compstui/PSPINFO, PSPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	PSPINFO
 product: Windows
 targetos: Windows
-req.typenames: *PPSPINFO, PSPINFO
+req.typenames: PSPINFO, *PPSPINFO
 ---
 
 # _PSPINFO structure

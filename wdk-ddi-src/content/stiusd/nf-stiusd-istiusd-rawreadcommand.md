@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 603f8b76-eb3b-41aa-932c-322f5405a29b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawReadCommand method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::RawReadCommand, IStiUSD interface [Imaging Devices], RawReadCommand method, RawReadCommand method [Imaging Devices], image.istiusd_rawreadcommand, IStiUSD, stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, RawReadCommand, IStiUSD::RawReadCommand
+ms.keywords: IStiUSD, image.istiusd_rawreadcommand, IStiUSD::RawReadCommand, RawReadCommand method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::RawReadCommand, RawReadCommand method [Imaging Devices], stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, RawReadCommand, IStiUSD interface [Imaging Devices], RawReadCommand method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.RawReadCommand
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

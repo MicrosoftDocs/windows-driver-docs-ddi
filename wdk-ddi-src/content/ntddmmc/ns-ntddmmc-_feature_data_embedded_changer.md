@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_EMBEDDED_CHANGER
-title: _FEATURE_DATA_EMBEDDED_CHANGER
+title: "_FEATURE_DATA_EMBEDDED_CHANGER"
 author: windows-driver-content
 description: The FEATURE_DATA_EMBEDDED_CHANGER structure holds data for the Embedded Changer feature.
 old-location: storage\feature_data_embedded_changer.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1335d1fa-af96-4a31-a1cf-266f7a3325ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices], PFEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, storage.feature_data_embedded_changer, FEATURE_DATA_EMBEDDED_CHANGER, _FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml, ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER
+ms.keywords: FEATURE_DATA_EMBEDDED_CHANGER, _FEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER, structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml, PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices], storage.feature_data_embedded_changer, *PFEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, PFEATURE_DATA_EMBEDDED_CHANGER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_EMBEDDED_CHANGER
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER
+req.typenames: "*PFEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER"
 ---
 
 # _FEATURE_DATA_EMBEDDED_CHANGER structure

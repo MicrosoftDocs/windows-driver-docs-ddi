@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 96e309ca-1267-4a5d-97c6-1b15de9190d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension class [Windows Debugging], SetUnnamedArgStr method, ExtExtension::SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], ExtExtension class, ExtExtension, SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, debugger.setunnamedargstr
+ms.keywords: SetUnnamedArgStr method [Windows Debugging], ExtExtension class, ExtExtension::SetUnnamedArgStr, ExtExtension class [Windows Debugging], SetUnnamedArgStr method, debugger.setunnamedargstr, SetUnnamedArgStr, EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, ExtExtension, SetUnnamedArgStr method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtExtension.SetUnnamedArgStr
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtExtension::SetUnnamedArgStr method
@@ -102,9 +102,9 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
 <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aa7d8d32-7bbe-4091-82a2-32ade463dd9e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, icm/COLOR_8_CHANNEL, icm/COLORTYPE, COLOR_5_CHANNEL, COLOR_6_CHANNEL, icm/COLOR_GRAY, *PCOLORTYPE, COLOR_3_CHANNEL, icm/COLOR_3_CHANNEL, COLOR_8_CHANNEL, icm/COLOR_6_CHANNEL, icm/COLOR_XYZ, COLOR_RGB, COLOR_7_CHANNEL, COLOR_XYZ, icm/COLOR_RGB, icm/COLOR_7_CHANNEL, COLOR_NAMED, icm/COLOR_CMYK, COLOR_Lab, COLOR_CMYK, COLORTYPE enumeration [Print Devices], icm/COLOR_NAMED, icm/COLOR_Yxy, icm/COLOR_Lab, icm/COLOR_5_CHANNEL, COLORTYPE, print.colortype, COLOR_GRAY, COLOR_Yxy
+ms.keywords: COLOR_Yxy, icm/COLOR_7_CHANNEL, icm/COLOR_3_CHANNEL, COLOR_3_CHANNEL, COLOR_Lab, icm/COLOR_5_CHANNEL, COLORTYPE enumeration [Print Devices], icm/COLOR_CMYK, icm/COLOR_GRAY, COLOR_XYZ, icm/COLOR_XYZ, icm/COLOR_NAMED, icm/COLOR_Lab, print.colortype, COLOR_6_CHANNEL, COLOR_7_CHANNEL, COLOR_5_CHANNEL, COLOR_GRAY, icm/COLOR_6_CHANNEL, COLOR_8_CHANNEL, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, COLORTYPE, icm/COLORTYPE, *PCOLORTYPE, COLOR_RGB, COLOR_CMYK, icm/COLOR_Yxy, COLOR_NAMED, icm/COLOR_8_CHANNEL, icm/COLOR_RGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	icm.h
-apiname: 
+apiname:
 -	COLORTYPE
 product: Windows
 targetos: Windows

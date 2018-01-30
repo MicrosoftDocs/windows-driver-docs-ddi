@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled, kernel.rtlisstateseparationenabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], RtlIsStateSeparationEnabled, kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlIsStateSeparationEnabled
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsStateSeparationEnabled function

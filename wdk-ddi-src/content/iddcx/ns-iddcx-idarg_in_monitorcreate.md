@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0de9686f-69e6-4aac-8f58-9e61bcfe3827
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_monitorcreate, IDARG_IN_MONITORCREATE, iddcx/IDARG_IN_MONITORCREATE, IDARG_IN_MONITORCREATE structure [Display Devices]
+ms.keywords: display.idarg_in_monitorcreate, iddcx/IDARG_IN_MONITORCREATE, IDARG_IN_MONITORCREATE, IDARG_IN_MONITORCREATE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

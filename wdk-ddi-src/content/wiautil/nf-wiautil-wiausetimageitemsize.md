@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiausetimageitemsize, wiauSetImageItemSize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiautil/wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices]
+ms.keywords: wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], image.wiausetimageitemsize, wiautil/wiauSetImageItemSize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauSetImageItemSize
 product: Windows
 targetos: Windows

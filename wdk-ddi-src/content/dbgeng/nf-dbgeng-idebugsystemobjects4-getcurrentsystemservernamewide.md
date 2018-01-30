@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemServerNameWide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method, debugger.idebugsystemobjects4_getcurrentsystemservernamewide, IDebugSystemObjects4, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging]
+ms.keywords: dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method, debugger.idebugsystemobjects4_getcurrentsystemservernamewide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentSystemServerNameWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetCurrentSystemServerNameWide method
@@ -110,9 +110,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
  
 

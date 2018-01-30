@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f9b50dc2-1af7-47c3-87c6-d33858569eed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceRemoveRemovalRelationsPhysicalDevice method, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, PFN_WDFDEVICEREMOVEREMOVALRELATIONSPHYSICALDEVICE, WdfDeviceRemoveRemovalRelationsPhysicalDevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice
+ms.keywords: WdfDeviceRemoveRemovalRelationsPhysicalDevice method, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, PFN_WDFDEVICEREMOVEREMOVALRELATIONSPHYSICALDEVICE, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceRemoveRemovalRelationsPhysicalDevice
 product: Windows
 targetos: Windows

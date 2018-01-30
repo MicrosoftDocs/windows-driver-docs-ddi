@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: de2f8897-c75f-4c37-aecb-f36d0f9933f9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istidevice_getlasterrorinfo, IStiDevice::GetLastErrorInfo, sti/IStiDevice::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, GetLastErrorInfo, IStiDevice, IStiDevice interface [Imaging Devices], GetLastErrorInfo method, GetLastErrorInfo method [Imaging Devices]
+ms.keywords: IStiDevice::GetLastErrorInfo, IStiDevice interface [Imaging Devices], GetLastErrorInfo method, image.istidevice_getlasterrorinfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, IStiDevice, sti/IStiDevice::GetLastErrorInfo, stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, GetLastErrorInfo method [Imaging Devices], GetLastErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.GetLastErrorInfo
 product: Windows
 targetos: Windows

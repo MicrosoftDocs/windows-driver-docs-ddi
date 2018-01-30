@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 71949653-08c7-4f22-951d-6e1595b10700
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LERROR macro [Imaging Devices], wiamdef/WIAS_LERROR, WIAS_LERROR, IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, image.wias_lerror
+ms.keywords: WIAS_LERROR macro [Imaging Devices], IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, image.wias_lerror, wiamdef/WIAS_LERROR, WIAS_LERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_LERROR
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -124,13 +124,13 @@ The following is an example of how the macro can be used:
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
 <a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
 <a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
  
 

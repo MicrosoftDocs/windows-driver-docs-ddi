@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c5e5dae-14f6-47b9-8c27-48ecc73a43ef
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES structure [Display Devices], display.d3dddiarg_offerresources, _D3DDDIARG_OFFERRESOURCES
+ms.keywords: display.d3dddiarg_offerresources, D3DDDIARG_OFFERRESOURCES structure [Display Devices], _D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES, d3dumddi/D3DDDIARG_OFFERRESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,9 +93,9 @@ This structure is pointed to by  the <i>pData</i> parameter of the <a href="..\d
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a>
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], wdm/ZwQuerySymbolicLinkObject, kernel.zwquerysymboliclinkobject, ZwQuerySymbolicLinkObject, k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, wdm/NtQuerySymbolicLinkObject
+ms.keywords: ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, kernel.zwquerysymboliclinkobject, wdm/ZwQuerySymbolicLinkObject, wdm/NtQuerySymbolicLinkObject, k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwQuerySymbolicLinkObject
 -	NtQuerySymbolicLinkObject
 product: Windows
@@ -105,9 +105,9 @@ If <b>ZwQuerySymbolicLinkObject</b> returns STATUS_BUFFER_TOO_SMALL drivers shou
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
 
  
 

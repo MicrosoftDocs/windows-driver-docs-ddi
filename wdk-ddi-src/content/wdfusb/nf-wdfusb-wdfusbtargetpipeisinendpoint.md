@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431d8f18-18db-460c-9f2f-454a5378825c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, wdfusb/WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint, kmdf.wdfusbtargetpipeisinendpoint, PFN_WDFUSBTARGETPIPEISINENDPOINT, WdfUsbTargetPipeIsInEndpoint method, wdf.wdfusbtargetpipeisinendpoint
+ms.keywords: DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, wdf.wdfusbtargetpipeisinendpoint, WdfUsbTargetPipeIsInEndpoint, wdfusb/WdfUsbTargetPipeIsInEndpoint, kmdf.wdfusbtargetpipeisinendpoint, PFN_WDFUSBTARGETPIPEISINENDPOINT, WdfUsbTargetPipeIsInEndpoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetPipeIsInEndpoint
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ For more information about the <b>WdfUsbTargetPipeIsInEndpoint</b> method and US
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md">WdfUsbTargetPipeIsOutEndpoint</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md">WdfUsbTargetPipeIsOutEndpoint</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_in.md">WDF_USB_PIPE_DIRECTION_IN</a>
 

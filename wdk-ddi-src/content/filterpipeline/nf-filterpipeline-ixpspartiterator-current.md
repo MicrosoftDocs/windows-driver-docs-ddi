@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Current method [Print Devices], IXpsPartIterator interface, Current, Current method [Print Devices], filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, IXpsPartIterator, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, IXpsPartIterator interface [Print Devices], Current method, print.ixpspartiterator_current
+ms.keywords: Current method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Current method, print.ixpspartiterator_current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, Current, Current method [Print Devices], filterpipeline/IXpsPartIterator::Current, IXpsPartIterator::Current, IXpsPartIterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsPartIterator.Current
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_REMOVABLE_MEDIUM
-title: _FEATURE_DATA_REMOVABLE_MEDIUM
+title: "_FEATURE_DATA_REMOVABLE_MEDIUM"
 author: windows-driver-content
 description: The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature.
 old-location: storage\feature_data_removable_medium.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b25feb68-75bb-4a9d-b842-e15f619a18c4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PFEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, _FEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices]
+ms.keywords: ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], *PFEATURE_DATA_REMOVABLE_MEDIUM, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, _FEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], PFEATURE_DATA_REMOVABLE_MEDIUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_REMOVABLE_MEDIUM
 product: Windows
 targetos: Windows
-req.typenames: *PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM
+req.typenames: "*PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM"
 ---
 
 # _FEATURE_DATA_REMOVABLE_MEDIUM structure
@@ -114,12 +114,12 @@ Indicates the type of loading mechanism. See the <i>SCSI Multimedia - 4 (MMC-4)<
 Reserved. 
 
 
-#### - Reserved2
+#### - Reserved1
 
 Reserved. 
 
 
-#### - Reserved1
+#### - Reserved2
 
 Reserved. 
 

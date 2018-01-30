@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7fc67320-6943-4e39-8474-28c24265eae2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestCreateFromIrp, PFN_WDFREQUESTCREATEFROMIRP, wdf.wdfrequestcreatefromirp, WdfRequestCreateFromIrp method, kmdf.wdfrequestcreatefromirp, WdfRequestCreateFromIrp, DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml
+ms.keywords: wdfrequest/WdfRequestCreateFromIrp, PFN_WDFREQUESTCREATEFROMIRP, DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, wdf.wdfrequestcreatefromirp, WdfRequestCreateFromIrp method, WdfRequestCreateFromIrp, kmdf.wdfrequestcreatefromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfRequestCreateFromIrp
 product: Windows
 targetos: Windows
@@ -125,15 +125,15 @@ Framework-based drivers must not use the <b>Tail.Overlay.DriverContext</b> membe
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa0b36bf-0628-4136-9ca7-1d20823969ff
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, PcCompleteIrp, PcCompleteIrp function [Audio Devices], portcls/PcCompleteIrp, audio.pccompleteirp
+ms.keywords: PcCompleteIrp function [Audio Devices], PcCompleteIrp, portcls/PcCompleteIrp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, audio.pccompleteirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,12 +88,12 @@ TBD
 
 #### - DeviceObject [in]
 
-Pointer to the device object for the device. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the device object for the device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
 
 
 #### - Irp [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> that is to be completed
+Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that is to be completed
 
 
 #### - Status [in]
@@ -119,13 +119,13 @@ The IRP handler should not call this function. An adapter driver's IRP handler i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
  
 

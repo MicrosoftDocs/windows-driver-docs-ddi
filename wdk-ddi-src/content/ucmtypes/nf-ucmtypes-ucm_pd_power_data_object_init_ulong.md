@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F5520F9F-159E-42D9-A7F4-426CB935D29D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_power_data_object_init_ulong
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_power_data_object_init_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
 product: Windows
 targetos: Windows

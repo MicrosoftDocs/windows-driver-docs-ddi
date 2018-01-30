@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_VIDEO_STREAM_CONFIG_CAPS
-title: _KS_VIDEO_STREAM_CONFIG_CAPS
+title: "_KS_VIDEO_STREAM_CONFIG_CAPS"
 author: windows-driver-content
 description: The KS_VIDEO_STREAM_CONFIG_CAPS structure describes the configuration and capabilities of a video stream, including analog video standard (for example, NTSC, PAL or SECAM), scaling, and cropping capabilities; minimum and maximum frame rates; and minimum and maximum data rates.
 old-location: stream\ks_video_stream_config_caps.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a8089653-a14b-4542-bf20-b1b596b1b4ea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, stream.ks_video_stream_config_caps, PKS_VIDEO_STREAM_CONFIG_CAPS, vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], _KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], KS_VIDEO_STREAM_CONFIG_CAPS
+ms.keywords: ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, _KS_VIDEO_STREAM_CONFIG_CAPS, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml, ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS, stream.ks_video_stream_config_caps, KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], PKS_VIDEO_STREAM_CONFIG_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_VIDEO_STREAM_CONFIG_CAPS
 product: Windows
 targetos: Windows
@@ -449,9 +449,9 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 

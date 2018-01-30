@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 004046d1-552e-43a5-94b1-30b113e8b40e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_authenticated_configure_shared_resource, D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE
+ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE structure [Display Devices], display.d3d11_1ddi_authenticated_configure_shared_resource, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE, D3D11_1DDI_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

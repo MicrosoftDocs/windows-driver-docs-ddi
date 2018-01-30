@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._ENDPOINTS_CONFIGURE_FAILURE_FLAGS
-title: _ENDPOINTS_CONFIGURE_FAILURE_FLAGS
+title: "_ENDPOINTS_CONFIGURE_FAILURE_FLAGS"
 author: windows-driver-content
 description: This structure provides failure flags to indicate errors, if any, that might have occurred during a request to an EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function.
 old-location: buses\_endpoints_configure_failure_flags.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D605A20B-3747-458E-BA9D-F723F884F130
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure pointer [Buses], ucxendpoint/_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, buses._endpoints_configure_failure_flags, ENDPOINTS_CONFIGURE_FAILURE_FLAGS, _ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ucxendpoint/P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure [Buses]
+ms.keywords: buses._endpoints_configure_failure_flags, ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure [Buses], _ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ucxendpoint/_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure pointer [Buses], ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ucxendpoint/P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 product: Windows
 targetos: Windows

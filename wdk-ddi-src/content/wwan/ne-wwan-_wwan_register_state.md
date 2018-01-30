@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_STATE
-title: _WWAN_REGISTER_STATE
+title: "_WWAN_REGISTER_STATE"
 author: windows-driver-content
 description: The WWAN_REGISTER_STATE enumeration lists the different provider network registration states that are supported by the MB device.
 old-location: netvista\wwan_register_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba4e60e-c247-4466-9b0f-c8e7ffa594d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_register_state, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterStateDenied, WwanRegisterStatePartner, wwan/WwanRegisterStateSearching, wwan/WwanRegisterStateRoaming, WwanRegisterStateUnknown, PWWAN_REGISTER_STATE, WwanRegisterStateSearching, WwanRegisterStateDenied, WwanRegisterStateHome, _WWAN_REGISTER_STATE, wwan/WwanRegisterStatePartner, WWAN_REGISTER_STATE, WwanRegisterStateRoaming, WwanRegisterStateDeregistered, wwan/WwanRegisterStateHome, wwan/WwanRegisterStateMax, *PWWAN_REGISTER_STATE, wwan/PWWAN_REGISTER_STATE, wwan/WwanRegisterStateUnknown, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterStateMax, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateDeregistered
+ms.keywords: wwan/PWWAN_REGISTER_STATE, wwan/WwanRegisterStateSearching, wwan/WWAN_REGISTER_STATE, WwanRegisterStateDeregistered, wwan/WwanRegisterStateHome, WwanRegisterStateSearching, WwanRegisterStateMax, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanRegisterStatePartner, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterStateDeregistered, PWWAN_REGISTER_STATE, WwanRegisterStateRoaming, WWAN_REGISTER_STATE, WwanRegisterStateUnknown, wwan/WwanRegisterStateDenied, WwanRegisterStateDenied, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStatePartner, _WWAN_REGISTER_STATE, wwan/WwanRegisterStateRoaming, wwan/WwanRegisterStateUnknown, netvista.wwan_register_state, *PWWAN_REGISTER_STATE, WwanRegisterStateHome, wwan/WwanRegisterStateMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_REGISTER_STATE, WWAN_REGISTER_STATE
+req.typenames: WWAN_REGISTER_STATE, *PWWAN_REGISTER_STATE
 req.product: Windows 10 or later.
 ---
 

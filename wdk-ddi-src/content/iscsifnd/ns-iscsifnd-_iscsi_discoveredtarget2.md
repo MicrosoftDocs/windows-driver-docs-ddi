@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTarget2
-title: _ISCSI_DiscoveredTarget2
+title: "_ISCSI_DiscoveredTarget2"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTarget2 structure contains information that is related to a discovered target device.
 old-location: storage\iscsi_discoveredtarget2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 77fb2942-5836-44cb-9a5e-e45f6a022264
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_DiscoveredTarget2 structure [Storage Devices], storage.iscsi_discoveredtarget2, *PISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], _ISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2, iscsifnd/ISCSI_DiscoveredTarget2, iscsifnd/PISCSI_DiscoveredTarget2
+ms.keywords: storage.iscsi_discoveredtarget2, iscsifnd/ISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], iscsifnd/PISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, *PISCSI_DiscoveredTarget2, _ISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2 structure [Storage Devices], PISCSI_DiscoveredTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsifnd.h
-apiname: 
+apiname:
 -	ISCSI_DiscoveredTarget2
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2
+req.typenames: "*PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2"
 ---
 
 # _ISCSI_DiscoveredTarget2 structure
@@ -101,13 +101,13 @@ The only difference between the ISCSI_DiscoveredTarget2 structure and the <a hre
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561505">ISCSI_DiscoveredTarget2 WMI Class</a>
+
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561505">ISCSI_DiscoveredTarget2 WMI Class</a>
 
  
 

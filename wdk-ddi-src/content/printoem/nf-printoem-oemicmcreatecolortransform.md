@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 995fdac4-e958-4eed-ba3a-7be0349dec59
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.oemicmcreatecolortransform, OEMIcmCreateColorTransform function [Print Devices], print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, printoem/OEMIcmCreateColorTransform, OEMIcmCreateColorTransform
+ms.keywords: print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, print.oemicmcreatecolortransform, OEMIcmCreateColorTransform, printoem/OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMIcmCreateColorTransform
 product: Windows
 targetos: Windows

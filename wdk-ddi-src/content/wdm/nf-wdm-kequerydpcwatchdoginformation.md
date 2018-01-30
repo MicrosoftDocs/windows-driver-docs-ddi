@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryDpcWatchdogInformation, kernel.kequerydpcwatchdoginformation, wdm/KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml
+ms.keywords: k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], kernel.kequerydpcwatchdoginformation, KeQueryDpcWatchdogInformation, wdm/KeQueryDpcWatchdogInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQueryDpcWatchdogInformation
 product: Windows
 targetos: Windows

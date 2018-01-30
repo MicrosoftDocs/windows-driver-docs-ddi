@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 63cd938c-1ccd-4f67-a4eb-2898002ae762
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX, audio.ksaudio_positionex, PKSAUDIO_POSITIONEX structure pointer [Audio Devices], aud-prop_9a418d76-9a4f-4626-b6db-64ed4fcedb18.xml, KSAUDIO_POSITIONEX, ksmedia/KSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX structure [Audio Devices], *PKSAUDIO_POSITIONEX
+ms.keywords: aud-prop_9a418d76-9a4f-4626-b6db-64ed4fcedb18.xml, ksmedia/PKSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX structure pointer [Audio Devices], *PKSAUDIO_POSITIONEX, audio.ksaudio_positionex, KSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX structure [Audio Devices], ksmedia/KSAUDIO_POSITIONEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

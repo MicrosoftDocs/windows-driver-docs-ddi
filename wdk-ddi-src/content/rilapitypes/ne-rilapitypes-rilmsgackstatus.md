@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 412d9a0b-429b-4ce5-bf74-f602533174d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGACKSTATUS, rilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, RIL_MSGACKSTATUS_MAX, netvista.rilmsgackstatus_2, RIL_MSGACKSTATUS_ERROR, RILMSGACKSTATUS, rilapitypes/RIL_MSGACKSTATUS_MAX, RIL_MSGACKSTATUS_FAIL_MEM_FULL, rilapitypes/RIL_MSGACKSTATUS_ERROR
+ms.keywords: RIL_MSGACKSTATUS_FAIL_MEM_FULL, rilapitypes/RIL_MSGACKSTATUS_MAX, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGACKSTATUS, RIL_MSGACKSTATUS_MAX, rilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, netvista.rilmsgackstatus_2, RILMSGACKSTATUS, RIL_MSGACKSTATUS_ERROR, rilapitypes/RIL_MSGACKSTATUS_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGACKSTATUS
 product: Windows
 targetos: Windows

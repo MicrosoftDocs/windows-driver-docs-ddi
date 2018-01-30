@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_IP_TYPE
-title: _WWAN_IP_TYPE
+title: "_WWAN_IP_TYPE"
 author: windows-driver-content
 description: The WWAN_IP_TYPE enumeration lists the different levels of supported IP.
 old-location: netvista\wwan_ip_type.htm
@@ -8,14 +8,14 @@ old-project: netvista
 ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanIPTypeIPv4, wwan/WwanIPTypeDefault, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WWAN_IP_TYPE, WwanIPTypeIPv4, wwan/WwanIPTypeIpv4v6, *PWWAN_IP_TYPE, WwanIPTypeIPv6, wwan/WwanIPTypeIPv6, _WWAN_IP_TYPE, WwanIPTypeIpv4v6, WwanIPTypeDefault
+ms.keywords: WwanIPTypeIpv4v6, netvista.wwan_ip_type, *PWWAN_IP_TYPE, WWAN_IP_TYPE, WwanIPTypeDefault, wwan/WwanIPTypeIPv4, wwan/WwanIPTypeIpv4v6, wwan/WwanIPTypeDefault, WwanIPTypeIPv6, _WWAN_IP_TYPE, WwanIPTypeIPv4, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeIPv6, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows.
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_IP_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_IP_TYPE, WWAN_IP_TYPE
+req.typenames: "*PWWAN_IP_TYPE, WWAN_IP_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -98,9 +98,9 @@ IPv4 with IPv6
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
-
 <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
+
+<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
  
 

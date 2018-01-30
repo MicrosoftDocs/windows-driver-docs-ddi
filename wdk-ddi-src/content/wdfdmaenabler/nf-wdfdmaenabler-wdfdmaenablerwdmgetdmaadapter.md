@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2546303a-53c3-4c6b-a230-eb1ebd74cb76
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmaenablerwdmgetdmaadapter, WdfDmaEnablerWdmGetDmaAdapter method, WdfDmaEnablerWdmGetDmaAdapter, PFN_WDFDMAENABLERWDMGETDMAADAPTER, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, kmdf.wdfdmaenablerwdmgetdmaadapter
+ms.keywords: WdfDmaEnablerWdmGetDmaAdapter, PFN_WDFDMAENABLERWDMGETDMAADAPTER, wdf.wdfdmaenablerwdmgetdmaadapter, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter, WdfDmaEnablerWdmGetDmaAdapter method, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, kmdf.wdfdmaenablerwdmgetdmaadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaEnablerWdmGetDmaAdapter
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ The pointer that <b>WdfDmaEnablerWdmGetDmaAdapter</b> returns is valid until the
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SDEV_IDENTIFIER_INTERFACE
-title: _SDEV_IDENTIFIER_INTERFACE
+title: "_SDEV_IDENTIFIER_INTERFACE"
 author: windows-driver-content
 description: TBD.
 old-location: kernel\_sdev_identifier_interface.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ead624cc-8aff-4a87-bdeb-066534caa61b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture], wdm/SDEV_IDENTIFIER_INTERFACE, _SDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, *PSDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface
+ms.keywords: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture], _SDEV_IDENTIFIER_INTERFACE, wdm/SDEV_IDENTIFIER_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	SDEV_IDENTIFIER_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: SDEV_IDENTIFIER_INTERFACE, *PSDEV_IDENTIFIER_INTERFACE
+req.typenames: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE"
 req.product: Windows 10 or later.
 ---
 

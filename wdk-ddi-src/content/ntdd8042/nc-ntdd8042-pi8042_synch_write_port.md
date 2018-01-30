@@ -40,7 +40,7 @@ apiname:
 -	SynchWritePort
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
 ---
 
 # PI8042_SYNCH_WRITE_PORT callback

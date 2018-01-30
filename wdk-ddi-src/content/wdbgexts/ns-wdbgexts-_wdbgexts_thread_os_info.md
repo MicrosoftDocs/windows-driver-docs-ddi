@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5cd1ba71-af2f-4662-b37d-88f4e4aa7624
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "_WDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], *PWDBGEXTS_THREAD_OS_INFO, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, wdbgexts/WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO"
+ms.keywords: WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], wdbgexts/WDBGEXTS_THREAD_OS_INFO, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, PWDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], _WDBGEXTS_THREAD_OS_INFO, wdbgexts/PWDBGEXTS_THREAD_OS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO"
+req.product: Windows 10 or later.
 ---
 
 # _WDBGEXTS_THREAD_OS_INFO structure

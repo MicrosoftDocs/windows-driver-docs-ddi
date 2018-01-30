@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, NdisMCmRegisterAddressFamilyEx, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMCmRegisterAddressFamilyEx, condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, netvista.ndismcmregisteraddressfamilyex, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], ndis/NdisMCmRegisterAddressFamilyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMCmRegisterAddressFamilyEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmRegisterAddressFamilyEx function
@@ -200,27 +200,27 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
+<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
+   ProtocolCoOidRequestComplete</i></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
    NdisCmRegisterAddressFamilyEx</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
-
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 

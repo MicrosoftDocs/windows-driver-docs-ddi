@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfobject._WDF_SYNCHRONIZATION_SCOPE
-title: _WDF_SYNCHRONIZATION_SCOPE
+title: "_WDF_SYNCHRONIZATION_SCOPE"
 author: windows-driver-content
 description: The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions.
 old-location: wdf\wdf_synchronization_scope.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_SYNCHRONIZATION_SCOPE, wdfobject/WDF_SYNCHRONIZATION_SCOPE, WdfSynchronizationScopeInvalid, kmdf.wdf_synchronization_scope, _WDF_SYNCHRONIZATION_SCOPE, WDF_SYNCHRONIZATION_SCOPE enumeration, wdfobject/WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeDevice, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, wdfobject/WdfSynchronizationScopeNone, wdfobject/WdfSynchronizationScopeQueue, WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeInvalid, wdf.wdf_synchronization_scope, WdfSynchronizationScopeQueue, wdfobject/WdfSynchronizationScopeDevice, WdfSynchronizationScopeNone
+ms.keywords: "_WDF_SYNCHRONIZATION_SCOPE, WdfSynchronizationScopeQueue, WdfSynchronizationScopeDevice, wdfobject/WdfSynchronizationScopeDevice, WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeQueue, WdfSynchronizationScopeNone, kmdf.wdf_synchronization_scope, WDF_SYNCHRONIZATION_SCOPE enumeration, WdfSynchronizationScopeInvalid, wdfobject/WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeNone, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdf.wdf_synchronization_scope, wdfobject/WdfSynchronizationScopeInvalid, WDF_SYNCHRONIZATION_SCOPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfobject.h
-apiname: 
+apiname:
 -	WDF_SYNCHRONIZATION_SCOPE
 product: Windows
 targetos: Windows

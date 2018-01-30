@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
-title: _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
+title: "_NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES"
 author: windows-driver-content
 description: An NDIS miniport driver sets up an NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure to define registration attributes that are associated with a miniport adapter.
 old-location: netvista\ndis_miniport_adapter_registration_attributes.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, netvista.ndis_miniport_adapter_registration_attributes, ndis/PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], miniport_structures_ref_e7ef8530-9b42-45a5-8d51-db76d399b437.xml, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
+ms.keywords: PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, netvista.ndis_miniport_adapter_registration_attributes, PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, miniport_structures_ref_e7ef8530-9b42-45a5-8d51-db76d399b437.xml, ndis/NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
+req.typenames: "*PNDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES"
 ---
 
 # _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure
@@ -81,6 +81,20 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+#### NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_2
+
+Added <b>AttributeFlags</b> flags for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_2.
+
+
+#### NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_1
+
+Original version for NDIS 6.0.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_1.
+
+
 ### -field MiniportAdapterContext
 
 A handle to a context area that the miniport driver allocated in its 
@@ -95,6 +109,79 @@ A bitmask of flags that are combined with a bitwise OR. NDIS miniport drivers sh
      
 
 
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_HARDWARE_DEVICE
+
+Set if the miniport driver directly controls a physical device. The physical device is assigned
+       hardware resources such as interrupts, I/O ports, memory-mapped I/O, or DMA channels that the miniport
+       driver should claim from the 
+       <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
+       MiniportInitializeEx</i></mshelp:link> function.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_NDIS_WDM
+
+Set if the lower-level interface of the miniport adapter is a WDM bus driver such as USB or IEEE
+       1394. In this case, the miniport driver does not allocate hardware resources such as I/O ports,
+       interrupts, memory-mapped I/O, or DMA channels. Instead, the driver communicates with the device
+       through the underlying bus driver's WDM interface.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_BUS_MASTER
+
+Set if the caller's NIC is a bus-master DMA device.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_NO_HALT_ON_SUSPEND
+
+Set if NDIS should not call a miniport driver's 
+       <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function before the
+       system transitions to a low-power (sleeping) state. Drivers that rely on hardware-maintained state
+       should not set this flag.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_SURPRISE_REMOVE_OK
+
+Set if the miniport driver can handle removal of its NIC without user notification. NDIS drivers receive
+       surprise removal notifications at the 
+       <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
+       MiniportDevicePnPEventNotify</i></mshelp:link> function.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_NOT_CO_NDIS
+
+Set by a miniport driver that can support both connection-oriented and connectionless devices to indicate
+       that the device is a connectionless device.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_DO_NOT_BIND_TO_ALL_CO
+
+Set by a CoNDIS miniport driver that does not provide TAPI services. Setting
+       NDIS_MINIPORT_ATTRIBUTES_DO_NOT_BIND_TO_ALL_CO prevents NDIS from binding the miniport driver to the
+       NDIS TAPI proxy driver (NDPROXY). By default, NDIS binds NDPROXY to all CoNDIS miniport
+       drivers.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_CONTROLS_DEFAULT_PORT
+
+Set by a miniport driver that calls the 
+       <a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a> function to activate
+       its default port. If NDIS_MINIPORT_ATTRIBUTES_CONTROLS_DEFAULT_PORT is not set, the default port is
+       active. NDIS does not bind protocol drivers or attach filter modules to a miniport adapter if its
+       default port is not active.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND
+
+Starting with NDIS 6.30, this flag is set if the miniport driver  is able to transition to a low-power state without being paused. 
+
+For more information about this flag, see the Remarks section.
+
+
+#### NDIS_MINIPORT_ATTRIBUTES_REGISTER_BUGCHECK_CALLBACK
+
+Starting with NDIS 6.30 miniports, NDIS will not invoke the miniport's MiniportShutdownEx handler during a BugCheck unless this flag is set.  Most miniports should not set this flag. 
 
 
 ### -field CheckForHangTimeInSeconds
@@ -126,164 +213,77 @@ This parameter is irrelevant for intermediate drivers, which should specify 0 fo
      member.
 
 
-##### - InterfaceType.NdisInterfaceCBus
-
-Specifies the CBus.
-
-
-##### - InterfaceType.NdisInterfaceMca
-
-Refers to the MCA bus, which is no longer supported. This interface type is not supported in
-       NDIS 6.0 and later versions.
-
-
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND
-
-Starting with NDIS 6.30, this flag is set if the miniport driver  is able to transition to a low-power state without being paused. 
-
-For more information about this flag, see the Remarks section.
-
-
-##### - Header.NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_1
-
-Original version for NDIS 6.0.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_1.
-
-
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_DO_NOT_BIND_TO_ALL_CO
-
-Set by a CoNDIS miniport driver that does not provide TAPI services. Setting
-       NDIS_MINIPORT_ATTRIBUTES_DO_NOT_BIND_TO_ALL_CO prevents NDIS from binding the miniport driver to the
-       NDIS TAPI proxy driver (NDPROXY). By default, NDIS binds NDPROXY to all CoNDIS miniport
-       drivers.
-
-
-##### - InterfaceType.NdisInterfaceTurboChannel
-
-Specifies the Turbo Channel interface.
-
-
-##### - InterfaceType.NdisInterfaceInternalPowerBus
-
-Specifies the internal power bus.
-
-
-##### - InterfaceType.NdisInterfaceInternal
+#### NdisInterfaceInternal
 
 Specifies a host-specific internal interface.
 
 
-##### - InterfaceType.NdisInterfaceMPSABus
+#### NdisInterfaceIsa
 
-Specifies the MPSABus.
-
-
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_SURPRISE_REMOVE_OK
-
-Set if the miniport driver can handle removal of its NIC without user notification. NDIS drivers receive
-       surprise removal notifications at the 
-       <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-       MiniportDevicePnPEventNotify</i></mshelp:link> function.
+Specifies the ISA interface.
 
 
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_NDIS_WDM
-
-Set if the lower-level interface of the miniport adapter is a WDM bus driver such as USB or IEEE
-       1394. In this case, the miniport driver does not allocate hardware resources such as I/O ports,
-       interrupts, memory-mapped I/O, or DMA channels. Instead, the driver communicates with the device
-       through the underlying bus driver's WDM interface.
-
-
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_HARDWARE_DEVICE
-
-Set if the miniport driver directly controls a physical device. The physical device is assigned
-       hardware resources such as interrupts, I/O ports, memory-mapped I/O, or DMA channels that the miniport
-       driver should claim from the 
-       <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-       MiniportInitializeEx</i></mshelp:link> function.
-
-
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_REGISTER_BUGCHECK_CALLBACK
-
-Starting with NDIS 6.30 miniports, NDIS will not invoke the miniport's MiniportShutdownEx handler during a BugCheck unless this flag is set.  Most miniports should not set this flag. 
-
-
-##### - InterfaceType.NdisInterfaceEisa
+#### NdisInterfaceEisa
 
 Specifies the extended ISA (EISA) interface. This interface type is not supported in NDIS 6.0
        and later versions.
 
 
-##### - InterfaceType.NdisInterfacePcMcia
+#### NdisInterfaceMca
+
+Refers to the MCA bus, which is no longer supported. This interface type is not supported in
+       NDIS 6.0 and later versions.
+
+
+#### NdisInterfaceTurboChannel
+
+Specifies the Turbo Channel interface.
+
+
+#### NdisInterfacePci
+
+Specifies the Peripheral Component Interconnect (PCI) interface.
+
+
+#### NdisInterfacePcMcia
 
 Specifies the Personal Computer Memory Card International Association (PC Card)
        interface.
 
 
-##### - InterfaceType.NdisInterfacePNPBus
+#### NdisInterfaceCBus
 
-Specifies the PNPBus.
-
-
-##### - InterfaceType.NdisInterfaceIsa
-
-Specifies the ISA interface.
+Specifies the CBus.
 
 
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_CONTROLS_DEFAULT_PORT
-
-Set by a miniport driver that calls the 
-       <a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a> function to activate
-       its default port. If NDIS_MINIPORT_ATTRIBUTES_CONTROLS_DEFAULT_PORT is not set, the default port is
-       active. NDIS does not bind protocol drivers or attach filter modules to a miniport adapter if its
-       default port is not active.
-
-
-##### - InterfaceType.NdisInterfacePci
-
-Specifies the Peripheral Component Interconnect (PCI) interface.
-
-
-##### - InterfaceType.NdisInterfacePNPISABus
-
-Specifies the PNPISABus.
-
-
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_NOT_CO_NDIS
-
-Set by a miniport driver that can support both connection-oriented and connectionless devices to indicate
-       that the device is a connectionless device.
-
-
-##### - InterfaceType.NdisInterfaceMPIBus
+#### NdisInterfaceMPIBus
 
 Specifies the MPIBus.
 
 
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_NO_HALT_ON_SUSPEND
+#### NdisInterfaceMPSABus
 
-Set if NDIS should not call a miniport driver's 
-       <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function before the
-       system transitions to a low-power (sleeping) state. Drivers that rely on hardware-maintained state
-       should not set this flag.
+Specifies the MPSABus.
 
 
-##### - InterfaceType.NdisInterfaceProcessorInternal
+#### NdisInterfaceProcessorInternal
 
 Specifies the processor internal bus.
 
 
-##### - Header.NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_2
+#### NdisInterfaceInternalPowerBus
 
-Added <b>AttributeFlags</b> flags for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES_REVISION_2.
+Specifies the internal power bus.
 
 
-##### - AttributeFlags.NDIS_MINIPORT_ATTRIBUTES_BUS_MASTER
+#### NdisInterfacePNPISABus
 
-Set if the caller's NIC is a bus-master DMA device.
+Specifies the PNPISABus.
+
+
+#### NdisInterfacePNPBus
+
+Specifies the PNPBus.
 
 
 ## -remarks
@@ -320,28 +320,28 @@ If the <b>NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND</b> flag is  set, NDIS do
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+<a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
    MiniportDevicePnPEventNotify</i></mshelp:link>
 
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a>
+<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
  
 

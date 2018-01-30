@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxbase.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_ACTION, USBFN_ACTION
+req.typenames: "*PUSBFN_ACTION, USBFN_ACTION"
 req.product: Windows 10 or later.
 ---
 

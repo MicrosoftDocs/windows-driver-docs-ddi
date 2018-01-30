@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_EMERGENCY_MODE
-title: _WWAN_EMERGENCY_MODE
+title: "_WWAN_EMERGENCY_MODE"
 author: windows-driver-content
 description: The WWAN_EMERGENCY_MODE enumeration lists the different types of emergency modes that are supported by the MB device.
 old-location: netvista\wwan_emergency_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d901e763-5e1c-443d-ba9c-9d1e4413bd47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_emergency_mode, wwan/WwanEmergencyModeOff, PWWAN_EMERGENCY_MODE, wwan/PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, WwanEmergencyModeOff, _WWAN_EMERGENCY_MODE, WwanEmergencyModeOn, WWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_EMERGENCY_MODE, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, wwan/WWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeOn, WwanEmergencyModeMax
+ms.keywords: WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, _WWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], WwanEmergencyModeOff, wwan/WwanEmergencyModeOff, netvista.wwan_emergency_mode, wwan/WwanEmergencyModeOn, *PWWAN_EMERGENCY_MODE, WwanEmergencyModeMax, wwan/PWWAN_EMERGENCY_MODE, PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanEmergencyModeMax, WwanEmergencyModeOn, PWWAN_EMERGENCY_MODE, wwan/WWAN_EMERGENCY_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_EMERGENCY_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE
+req.typenames: WWAN_EMERGENCY_MODE, *PWWAN_EMERGENCY_MODE
 req.product: Windows 10 or later.
 ---
 

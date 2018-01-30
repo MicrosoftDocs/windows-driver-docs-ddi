@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], StorPortIsCurrentOsInstallationUpgrade, storport/StorPortIsCurrentOsInstallationUpgrade, storage.storportiscurrentosinstallationupgrade
+ms.keywords: storport/StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade, storage.storportiscurrentosinstallationupgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortIsCurrentOsInstallationUpgrade
 product: Windows
 targetos: Windows

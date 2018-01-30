@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, wdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount, kmdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount method, wdfresource/WdfIoResourceRequirementsListGetCount
+ms.keywords: kmdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount method, wdfresource/WdfIoResourceRequirementsListGetCount, wdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount, PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceRequirementsListGetCount
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

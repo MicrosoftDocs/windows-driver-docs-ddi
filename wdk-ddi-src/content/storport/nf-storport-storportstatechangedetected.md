@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortStateChangeDetected, StorPortStateChangeDetected, STATE_CHANGE_LUN, STATE_CHANGE_TARGET, ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, storage.storportstatechangedetected, StorPortStateChangeDetected routine [Storage Devices]
+ms.keywords: storport/StorPortStateChangeDetected, STATE_CHANGE_TARGET, STATE_CHANGE_LUN, STATE_CHANGE_BUS, ATTRIBUTE_VM_PASSTHROUGH_LUN, StorPortStateChangeDetected routine [Storage Devices], StorPortStateChangeDetected, storage.storportstatechangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortStateChangeDetected
 product: Windows
 targetos: Windows

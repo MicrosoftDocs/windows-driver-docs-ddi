@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_SCATTER_GATHER_LIST
-title: _STOR_SCATTER_GATHER_LIST
+title: "_STOR_SCATTER_GATHER_LIST"
 author: windows-driver-content
 description: The STOR_SCATTER_GATHER_LIST structure is used in conjunction with the StorPortGetScatterGatherList routine to retrieve the scatter/gather list for a SCSI request block (SRB).
 old-location: storage\stor_scatter_gather_list.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9fbb8dea-67d3-4bb9-afc2-d623bea2ca8d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_scatter_gather_list, PSTOR_SCATTER_GATHER_LIST, STOR_SCATTER_GATHER_LIST, *PSTOR_SCATTER_GATHER_LIST, _STOR_SCATTER_GATHER_LIST, PSTOR_SCATTER_GATHER_LIST structure pointer [Storage Devices], structs-storport_eac06620-81b1-42e8-9517-3a2ce1b6623a.xml, storport/STOR_SCATTER_GATHER_LIST, STOR_SCATTER_GATHER_LIST structure [Storage Devices], storport/PSTOR_SCATTER_GATHER_LIST
+ms.keywords: "_STOR_SCATTER_GATHER_LIST, structs-storport_eac06620-81b1-42e8-9517-3a2ce1b6623a.xml, PSTOR_SCATTER_GATHER_LIST structure pointer [Storage Devices], storport/STOR_SCATTER_GATHER_LIST, storage.stor_scatter_gather_list, STOR_SCATTER_GATHER_LIST structure [Storage Devices], PSTOR_SCATTER_GATHER_LIST, STOR_SCATTER_GATHER_LIST, *PSTOR_SCATTER_GATHER_LIST, storport/PSTOR_SCATTER_GATHER_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_SCATTER_GATHER_LIST
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ Miniport drivers that work with the Storport driver call the Storport support ro
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_scatter_gather_element.md">STOR_SCATTER_GATHER_ELEMENT</a>
-
 <a href="..\storport\nf-storport-storportgetscattergatherlist.md">StorPortGetScatterGatherList</a>
+
+<a href="..\storport\ns-storport-_stor_scatter_gather_element.md">STOR_SCATTER_GATHER_ELEMENT</a>
 
  
 

@@ -118,7 +118,7 @@ The entry point for the <i>DxgkCbAcquirePostDisplayOwnership</i> function is par
 <li>
 The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwnership</i> function if the driver is running under Windows 8 or a later version of the Windows operating system.
 
-<div class="alert"><b>Note</b>  The display miniport driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a> to determine the version of the operating system.</div>
+<div class="alert"><b>Note</b>  The display miniport driver can call <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a> to determine the version of the operating system.</div>
 <div> </div>
 </li>
 <li>
@@ -130,17 +130,17 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
  
 

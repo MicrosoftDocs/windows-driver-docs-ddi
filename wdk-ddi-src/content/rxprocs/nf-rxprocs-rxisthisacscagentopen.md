@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b3bd9b9f-e859-4d7f-9735-5995cb3ef6e8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxIsThisACscAgentOpen, ifsk.rxisthisacscagentopen, RxIsThisACscAgentOpen function [Installable File System Drivers], rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml, rxprocs/RxIsThisACscAgentOpen
+ms.keywords: rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml, RxIsThisACscAgentOpen, ifsk.rxisthisacscagentopen, rxprocs/RxIsThisACscAgentOpen, RxIsThisACscAgentOpen function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxprocs.h
-apiname: 
+apiname:
 -	RxIsThisACscAgentOpen
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ The <b>RxIsThisACscAgentOpen</b> routine is called internally by RDBSS when init
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
-
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
 
  
 

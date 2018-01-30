@@ -2,13 +2,13 @@
 UID: NS:fwpsk.FWPS_STREAM_CALLOUT_IO_PACKET0_
 title: FWPS_STREAM_CALLOUT_IO_PACKET0_
 author: windows-driver-content
-description: The FWPS_STREAM_CALLOUT_IO_PACKET0 structure describes the data passed by the filter engine to a callout's classifyFn callout function when filtering a data stream.Note  FWPS_STREAM_CALLOUT_IO_PACKET0 is a specific version of FWPS_STREAM_CALLOUT_IO_PACKET. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. 
+description: The FWPS_STREAM_CALLOUT_IO_PACKET0 structure describes the data passed by the filter engine to a callout's classifyFn callout function when filtering a data stream.Note  FWPS_STREAM_CALLOUT_IO_PACKET0 is a specific version of FWPS_STREAM_CALLOUT_IO_PACKET. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_stream_callout_io_packet0.htm
 old-project: netvista
 ms.assetid: 2c0539f0-116e-4344-9584-db7416d258e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_CALLOUT_IO_PACKET0, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0_, netvista.fwps_stream_callout_io_packet0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwps_stream_callout_io_packet0, FWPS_STREAM_CALLOUT_IO_PACKET0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0_, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_STREAM_CALLOUT_IO_PACKET0
 product: Windows
 targetos: Windows
@@ -139,7 +139,22 @@ If a callout's
      ignored by the filter engine.
 
 
-##### - streamAction.FWPS_STREAM_ACTION_DROP_CONNECTION
+#### FWPS_STREAM_ACTION_NONE
+
+No stream-specific action is required.
+
+
+#### FWPS_STREAM_ACTION_ALLOW_CONNECTION
+
+Indicates that all future data segments belonging to a flow are permitted. In this case, WFP stops classifying any data segments to the callout and attempts to offload the flow to the hardware such that no more inspection overhead is incurred.
+
+
+#### FWPS_STREAM_ACTION_NEED_MORE_DATA
+
+More stream data is required by the callout function.
+
+
+#### FWPS_STREAM_ACTION_DROP_CONNECTION
 
 The stream connection should be dropped. A callout's 
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function should only set
@@ -155,22 +170,7 @@ The stream connection should be dropped. A callout's
        <b>FWP_ACTION_CALLOUT_INSPECTION</b>, the connection will not be dropped.
 
 
-##### - streamAction.FWPS_STREAM_ACTION_NONE
-
-No stream-specific action is required.
-
-
-##### - streamAction.FWPS_STREAM_ACTION_NEED_MORE_DATA
-
-More stream data is required by the callout function.
-
-
-##### - streamAction.FWPS_STREAM_ACTION_ALLOW_CONNECTION
-
-Indicates that all future data segments belonging to a flow are permitted. In this case, WFP stops classifying any data segments to the callout and attempts to offload the flow to the hardware such that no more inspection overhead is incurred.
-
-
-##### - streamAction.FWPS_STREAM_ACTION_DEFER
+#### FWPS_STREAM_ACTION_DEFER
 
 Processing of the stream data will be deferred until the callout driver calls the 
        <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a> function. This
@@ -193,13 +193,13 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
 <a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netioddk/NmrRegisterClient, netvista.nmrregisterclient, NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista]
+ms.keywords: nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netvista.nmrregisterclient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, NmrRegisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	NmrRegisterClient
 product: Windows
 targetos: Windows

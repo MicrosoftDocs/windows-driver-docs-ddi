@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
-title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
+title: "_PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"
 author: windows-driver-content
 description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) uncorrectable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_uncorrectable_error_status.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 9d7dcdee-052a-4082-a337-be3a35c5eef9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI.pci_express_uncorrectable_error_status, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], pci_struct_9341a010-06c8-46ee-931f-2a67756c12d2.xml, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
+ms.keywords: wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union [Buses], PCI.pci_express_uncorrectable_error_status, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS union pointer [Buses], wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, pci_struct_9341a010-06c8-46ee-931f-2a67756c12d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
+req.typenames: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS, PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -195,14 +195,14 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - Reserved2
+#### - Undefined
+
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
+
+
+#### - Reserved1
 
 Reserved.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that a surprise down error has occurred.
 
 
 #### - DataLinkProtocolError
@@ -210,44 +210,14 @@ A single bit that indicates that a surprise down error has occurred.
 A single bit that indicates that a data link protocol error has occurred.
 
 
-#### - UnsupportedRequestError
+#### - SurpriseDownError
 
-A single bit that indicates that an unsupported request error has occurred.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
+A single bit that indicates that a surprise down error has occurred.
 
 
-#### - CompleterAbort
+#### - Reserved2
 
-A single bit that indicates that a completer abort has occurred.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that a flow control protocol error has occurred.
-
-
-#### - Undefined
-
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a link training error has occurred.
-
-
-#### - CompletionTimeout
-
-A single bit that indicates that a completion timeout has occurred.
-
-
-#### - ECRCError
-
-A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) error has occurred.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that an unexpected completion has occurred.
+Reserved.
 
 
 #### - PoisonedTLP
@@ -255,14 +225,44 @@ A single bit that indicates that an unexpected completion has occurred.
 A single bit that indicates that a poisoned transaction layer packet (TLP) has been detected.
 
 
+#### - FlowControlProtocolError
+
+A single bit that indicates that a flow control protocol error has occurred.
+
+
+#### - CompletionTimeout
+
+A single bit that indicates that a completion timeout has occurred.
+
+
+#### - CompleterAbort
+
+A single bit that indicates that a completer abort has occurred.
+
+
+#### - UnexpectedCompletion
+
+A single bit that indicates that an unexpected completion has occurred.
+
+
 #### - ReceiverOverflow
 
 A single bit that indicates that the receiver has overflowed.
 
 
-#### - Reserved1
+#### - MalformedTLP
 
-Reserved.
+A single bit that indicates that a malformed transaction layer packet (TLP) has been detected.
+
+
+#### - ECRCError
+
+A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) error has occurred.
+
+
+#### - UnsupportedRequestError
+
+A single bit that indicates that an unsupported request error has occurred.
 
 
 #### - Reserved3
@@ -281,11 +281,11 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.getjobattributesex, GetJobAttributesEx, GetJobAttributesEx function [Print Devices], winsplp/GetJobAttributesEx, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml
+ms.keywords: spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, GetJobAttributesEx, GetJobAttributesEx function [Print Devices], print.getjobattributesex, winsplp/GetJobAttributesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Spoolss.dll
-apiname: 
+apiname:
 -	GetJobAttributesEx
 product: Windows
 targetos: Windows
@@ -212,13 +212,13 @@ This function first checks whether the driver supports the attribute level that 
 
 ## -see-also
 
+<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
-
-<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
 
  
 

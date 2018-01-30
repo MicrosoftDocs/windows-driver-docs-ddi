@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
-title: _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+title: "_WWAN_DEVICE_SERVICE_SESSION_CAPABILITY"
 author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration lists the different device service session operations that are supported by the device service.
 old-location: netvista\wwan_device_service_session_capability.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionReadSupported, wwan/WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionWriteSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionReadSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ms.keywords: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionReadSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, WwanDeviceServiceSessionWriteSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionReadSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+req.typenames: "*PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY"
 req.product: Windows 10 or later.
 ---
 

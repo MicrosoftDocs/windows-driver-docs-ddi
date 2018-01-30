@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, FsRtlCopyRead, ifsk.fsrtlcopyread, FsRtlCopyRead routine [Installable File System Drivers], ntifs/FsRtlCopyRead
+ms.keywords: FsRtlCopyRead, ifsk.fsrtlcopyread, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ntifs/FsRtlCopyRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlCopyRead
 product: Windows
 targetos: Windows
@@ -159,9 +159,9 @@ To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcI
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 

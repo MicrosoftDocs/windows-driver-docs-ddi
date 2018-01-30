@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e5dc54a6-e26a-455b-9990-92f5cfece923
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, stream.iksdevicefunctions_registeradapterobjectex, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, IKsDeviceFunctions, RegisterAdapterObjectEx method [Streaming Media Devices], ks/IKsDeviceFunctions::RegisterAdapterObjectEx, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method
+ms.keywords: RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method, IKsDeviceFunctions::RegisterAdapterObjectEx, stream.iksdevicefunctions_registeradapterobjectex, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, IKsDeviceFunctions, ks/IKsDeviceFunctions::RegisterAdapterObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsDeviceFunctions.RegisterAdapterObjectEx
 product: Windows
 targetos: Windows

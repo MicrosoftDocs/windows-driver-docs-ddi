@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 12ea0460-30c1-4ce0-9a3b-c59a71493fe7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_CALIBRATION_INFO structure [Biometric Devices], _WINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO structure pointer [Biometric Devices], winbio_ioctl/PWINBIO_CALIBRATION_INFO, biometric_ref_15065b26-3c1d-49f5-8546-b8962f848072.xml, *PWINBIO_CALIBRATION_INFO, biometric.winbio_calibration_info, PWINBIO_CALIBRATION_INFO, WINBIO_CALIBRATION_INFO, winbio_ioctl/WINBIO_CALIBRATION_INFO
+ms.keywords: biometric.winbio_calibration_info, _WINBIO_CALIBRATION_INFO, winbio_ioctl/PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO, biometric_ref_15065b26-3c1d-49f5-8546-b8962f848072.xml, *PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO structure pointer [Biometric Devices], WINBIO_CALIBRATION_INFO, WINBIO_CALIBRATION_INFO structure [Biometric Devices], winbio_ioctl/WINBIO_CALIBRATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
+req.product: Windows 10 or later.
 ---
 
 # _WINBIO_CALIBRATION_INFO structure

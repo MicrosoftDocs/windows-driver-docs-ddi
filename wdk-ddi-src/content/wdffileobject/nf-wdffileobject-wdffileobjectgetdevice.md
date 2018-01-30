@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10bb8bbd-0347-4ceb-844e-87f049813684
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFILEOBJECTGETDEVICE, kmdf.wdffileobjectgetdevice, WdfFileObjectGetDevice, wdffileobject/WdfFileObjectGetDevice, wdf.wdffileobjectgetdevice, WdfFileObjectGetDevice method, DFFileObjectRef_4986a619-be10-4eca-84dd-9ae1dcac423f.xml
+ms.keywords: DFFileObjectRef_4986a619-be10-4eca-84dd-9ae1dcac423f.xml, PFN_WDFFILEOBJECTGETDEVICE, wdf.wdffileobjectgetdevice, kmdf.wdffileobjectgetdevice, wdffileobject/WdfFileObjectGetDevice, WdfFileObjectGetDevice, WdfFileObjectGetDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfFileObjectGetDevice
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

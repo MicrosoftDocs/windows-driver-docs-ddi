@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_RESOURCE_ATTRIBUTE_ACE
-title: _SYSTEM_RESOURCE_ATTRIBUTE_ACE
+title: "_SYSTEM_RESOURCE_ATTRIBUTE_ACE"
 author: windows-driver-content
 description: The SYSTEM_RESOURCE_ATTRIBUTE_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what rights a particular claim has to a resource.
 old-location: ifsk\system_resource_attribute_ace.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E4A6A738-F7AB-4EA2-8CC6-E1F595F35870
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ifsk.system_resource_attribute_ace, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Installable File System Drivers], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Installable File System Drivers], ntifs/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE
+ms.keywords: ntifs/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Installable File System Drivers], *PSYSTEM_RESOURCE_ATTRIBUTE_ACE, _SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Installable File System Drivers], PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ifsk.system_resource_attribute_ace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SYSTEM_RESOURCE_ATTRIBUTE_ACE
 product: Windows
 targetos: Windows
-req.typenames: *PSYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE
+req.typenames: SYSTEM_RESOURCE_ATTRIBUTE_ACE, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE
 ---
 
 # _SYSTEM_RESOURCE_ATTRIBUTE_ACE structure
@@ -95,13 +95,13 @@ Following the <b>SidStart</b> member begins a <b>CLAIM_SECURITY_ATTRIBUTE_RELATI
 
 <a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

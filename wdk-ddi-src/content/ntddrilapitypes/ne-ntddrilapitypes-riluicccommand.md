@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c2ded31-9d2d-46e4-a23f-a48528fd448f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_READRECORD, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_MAX, RIL_UICCCMD_MAX, RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_READRECORD, netvista.riluicccommand
+ms.keywords: RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand, RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RILUICCCOMMAND, RIL_UICCCMD_MAX, RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_READRECORD, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_UICCCMD_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILUICCCOMMAND
 product: Windows
 targetos: Windows

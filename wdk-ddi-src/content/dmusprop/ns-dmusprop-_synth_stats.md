@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusprop/PSYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, dmusprop/SYNTH_STATS, audio.synth_stats, PSYNTH_STATS structure pointer [Audio Devices], SYNTH_STATS structure [Audio Devices], *PSYNTH_STATS, _SYNTH_STATS, SYNTH_STATS, PSYNTH_STATS
+ms.keywords: SYNTH_STATS, audio.synth_stats, dmusprop/PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, PSYNTH_STATS structure pointer [Audio Devices], _SYNTH_STATS, dmusprop/SYNTH_STATS, *PSYNTH_STATS, PSYNTH_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,9 +151,9 @@ The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
 
  
 

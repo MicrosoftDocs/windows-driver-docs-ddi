@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_ACTION
-title: _REFS_SMR_VOLUME_GC_ACTION
+title: "_REFS_SMR_VOLUME_GC_ACTION"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_ACTION enum contains the available garbage collection commands for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_action.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9A9D174A-0E9E-4B3A-BF91-3000128C58C7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/SmrGcActionPause, SmrGcActionPause, ntifs/SmrGcActionStart, REFS_SMR_VOLUME_GC_ACTION, SmrGcActionStartFullSpeed, ntifs/REFS_SMR_VOLUME_GC_ACTION, SmrGcActionStart, _REFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, ntifs/PREFS_SMR_VOLUME_GC_ACTION, SmrGcActionStop, *PREFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStartFullSpeed, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], ntifs/SmrGcActionStop
+ms.keywords: "*PREFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], ntifs/PREFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStartFullSpeed, ntifs/SmrGcActionStart, SmrGcActionStartFullSpeed, SmrGcActionPause, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], ntifs/SmrGcActionPause, REFS_SMR_VOLUME_GC_ACTION, ntifs/REFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, SmrGcActionStop, _REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionStop, SmrGcActionStart, PREFS_SMR_VOLUME_GC_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	REFS_SMR_VOLUME_GC_ACTION
 product: Windows
 targetos: Windows

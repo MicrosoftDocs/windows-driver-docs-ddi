@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_FILTER_PARAMETERS
-title: _NDIS_PD_FILTER_PARAMETERS
+title: "_NDIS_PD_FILTER_PARAMETERS"
 author: windows-driver-content
 description: This structure holds metadata for a packet filter.
 old-location: netvista\ndis_pd_filter_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE220435-C8EC-408E-8177-A88FC858FA5A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS, ndis/NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters
+ms.keywords: "_NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters, ndis/NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_FILTER_PARAMETERS
 product: Windows
 targetos: Windows

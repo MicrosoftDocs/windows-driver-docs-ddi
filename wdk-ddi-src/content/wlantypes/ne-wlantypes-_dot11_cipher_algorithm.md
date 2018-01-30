@@ -1,6 +1,6 @@
 ---
 UID: NE:wlantypes._DOT11_CIPHER_ALGORITHM
-title: _DOT11_CIPHER_ALGORITHM
+title: "_DOT11_CIPHER_ALGORITHM"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_cipher_algorithm.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5fc1af01-7dd5-43dd-aefe-99dec0b5aa6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlantypes/DOT11_CIPHER_ALGO_TKIP, DOT11_CIPHER_ALGO_IHV_END, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_CIPHER_ALGO_NONE, DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_CCMP, wlantypes/DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP104, DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGO_IHV_START, _DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, wlantypes/DOT11_CIPHER_ALGO_WEP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml, DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_BIP, PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP40, DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGO_WEP, DOT11_CIPHER_ALGO_NONE, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_BIP, wlantypes/PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WPA_USE_GROUP, netvista.dot11_cipher_algorithm, DOT11_CIPHER_ALGO_IHV_START, DOT11_CIPHER_ALGO_WEP40, *PDOT11_CIPHER_ALGORITHM
+ms.keywords: wlantypes/DOT11_CIPHER_ALGO_TKIP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_IHV_START, wlantypes/DOT11_CIPHER_ALGO_NONE, DOT11_CIPHER_ALGO_NONE, DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_WEP40, _DOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WPA_USE_GROUP, DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_WEP40, wlantypes/PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, *PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_TKIP, DOT11_CIPHER_ALGO_IHV_START, DOT11_CIPHER_ALGO_CCMP, netvista.dot11_cipher_algorithm, DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WEP, wlantypes/DOT11_CIPHER_ALGO_CCMP, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_CIPHER_ALGO_WEP, Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlantypes.h
-apiname: 
+apiname:
 -	DOT11_CIPHER_ALGORITHM
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGORITHM
+req.typenames: DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM
 req.product: Windows 10 or later.
 ---
 
@@ -229,19 +229,19 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
 
+<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
+
+<mshelp:link keywords="netvista.dot11_association_completion_parameters" tabindex="0"><b>
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</b></mshelp:link>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569135">OID_DOT11_CURRENT_PHY_ID</a>
 
-<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
+<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
 
  
 

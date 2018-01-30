@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5f7a92ee-ebaf-442f-a197-2fb58dd65a25
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KefReleaseSpinLockFromDpcLevel, wdm/KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, wdm/KefReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], kernel.kereleasespinlockfromdpclevel
+ms.keywords: KefReleaseSpinLockFromDpcLevel, kernel.kereleasespinlockfromdpclevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, wdm/KefReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], wdm/KeReleaseSpinLockFromDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeReleaseSpinLockFromDpcLevel
 -	KefReleaseSpinLockFromDpcLevel
 product: Windows
@@ -94,11 +94,11 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
  
 

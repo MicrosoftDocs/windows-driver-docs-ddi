@@ -40,7 +40,7 @@ apiname:
 -	MouseIsr
 product: Windows
 targetos: Windows
-req.typenames: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE"
+req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
 ---
 
 # PI8042_MOUSE_ISR callback
@@ -139,13 +139,13 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 ## -see-also
 
-<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
 
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
-
 <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
+
+<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidD_GetPreparsedData routine [Human Input Devices], HidD_GetPreparsedData, hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
+ms.keywords: HidD_GetPreparsedData, hid.hidd_getpreparseddata, HidD_GetPreparsedData routine [Human Input Devices], hidsdi/HidD_GetPreparsedData, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

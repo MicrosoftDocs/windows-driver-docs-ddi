@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ff22498e-404f-42f6-82fd-f0178f6c7789
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.gdideletespoolfilehandle, winppi/GdiDeleteSpoolFileHandle, gdifnc_76c1c0cf-2a48-44eb-9b48-1d0a5bf4548b.xml, GdiDeleteSpoolFileHandle, GdiDeleteSpoolFileHandle function [Print Devices]
+ms.keywords: winppi/GdiDeleteSpoolFileHandle, gdifnc_76c1c0cf-2a48-44eb-9b48-1d0a5bf4548b.xml, print.gdideletespoolfilehandle, GdiDeleteSpoolFileHandle, GdiDeleteSpoolFileHandle function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiDeleteSpoolFileHandle
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

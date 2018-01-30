@@ -40,7 +40,7 @@ apiname:
 -	BthReuseBrb
 product: Windows
 targetos: Windows
-req.typenames: "*PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY"
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # PFNBTH_REUSE_BRB callback

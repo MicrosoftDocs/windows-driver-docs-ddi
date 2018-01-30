@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisoffloadtcpdisconnect, NdisOffloadTcpDisconnect, ndischimney/NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisOffloadTcpDisconnect
 product: Windows
 targetos: Windows
@@ -101,15 +101,15 @@ As one of the following values, the type of disconnect to be performed:
 
 
 
-##### - Flags.TCP_DISCONNECT_GRACEFUL_CLOSE
-
-Specifies that the offload target perform a graceful disconnect by sending a FIN segment.
-
-
-##### - Flags.TCP_DISCONNECT_ABORTIVE_CLOSE
+#### TCP_DISCONNECT_ABORTIVE_CLOSE
 
 Specifies that the offload target perform an abortive disconnect by sending an RST
        segment.
+
+
+#### TCP_DISCONNECT_GRACEFUL_CLOSE
+
+Specifies that the offload target perform a graceful disconnect by sending a FIN segment.
 
 
 ## -returns
@@ -165,17 +165,17 @@ The same
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.protocoltcpoffloaddisconnectcomplete" tabindex="0"><i>
-   ProtocolTcpOffloadDisconnectComplete</i></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
    MiniportTcpOffloadDisconnect</i></mshelp:link>
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<mshelp:link keywords="netvista.protocoltcpoffloaddisconnectcomplete" tabindex="0"><i>
+   ProtocolTcpOffloadDisconnectComplete</i></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndistcpoffloaddisconnectcomplete" tabindex="0"><b>
    NdisTcpOffloadDisconnectComplete</b></mshelp:link>

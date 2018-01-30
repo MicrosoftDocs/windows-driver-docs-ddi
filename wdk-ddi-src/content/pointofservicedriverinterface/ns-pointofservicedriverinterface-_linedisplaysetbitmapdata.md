@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplaySetBitmapData
-title: _LineDisplaySetBitmapData
+title: "_LineDisplaySetBitmapData"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetbitmapdata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8674FD34-65FB-4B69-B43C-0D21133E35AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.linedisplaysetbitmapdata, PLineDisplaySetBitmapData structure pointer, LineDisplaySetBitmapData, pointofservicedriverinterface/LineDisplaySetBitmapData, pointofservicedriverinterface/PLineDisplaySetBitmapData, LineDisplaySetBitmapData structure, PLineDisplaySetBitmapData, _LineDisplaySetBitmapData
+ms.keywords: LineDisplaySetBitmapData, pointofservicedriverinterface/LineDisplaySetBitmapData, pointofservicedriverinterface/PLineDisplaySetBitmapData, PLineDisplaySetBitmapData, PLineDisplaySetBitmapData structure pointer, _LineDisplaySetBitmapData, pos.linedisplaysetbitmapdata, LineDisplaySetBitmapData structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	LineDisplaySetBitmapData
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CONTEXT_STATE
-title: _WWAN_CONTEXT_STATE
+title: "_WWAN_CONTEXT_STATE"
 author: windows-driver-content
 description: The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_context_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_CONTEXT_STATE, netvista.wwan_context_state, WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE, wwan/PWWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PWWAN_CONTEXT_STATE
+ms.keywords: wwan/PWWAN_CONTEXT_STATE, _WWAN_CONTEXT_STATE, WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, wwan/WWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE, netvista.wwan_context_state, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CONTEXT_STATE
 product: Windows
 targetos: Windows
@@ -236,11 +236,11 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
-
 <a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
 
 <a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
 
  
 

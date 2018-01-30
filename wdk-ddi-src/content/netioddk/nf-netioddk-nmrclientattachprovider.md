@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrClientAttachProvider, netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
+ms.keywords: NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, netioddk/NmrClientAttachProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	netio.lib
 -	netio.dll
-apiname: 
+apiname:
 -	NmrClientAttachProvider
 product: Windows
 targetos: Windows
@@ -213,9 +213,9 @@ If the
 
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
-
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
  
 

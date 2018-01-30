@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CONNECTION_ENTRY
-title: _NDIS_NDK_CONNECTION_ENTRY
+title: "_NDIS_NDK_CONNECTION_ENTRY"
 author: windows-driver-content
 description: The NDIS_NDK_CONNECTION_ENTRY structure specifies a connection entry for an active NDK connection on a miniport adapter.
 old-location: netvista\ndis_ndk_connection_entry.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58BA2AE1-9F48-4B3B-A545-EECC9B3E858C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_NDK_CONNECTION_ENTRY, ntddndis/NDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY, _NDIS_NDK_CONNECTION_ENTRY, NDIS_NDK_CONNECTION_ENTRY structure [Network Drivers Starting with Windows Vista], netvista.ndis_ndk_connection_entry, PNDIS_NDK_CONNECTION_ENTRY structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTION_ENTRY
+ms.keywords: ntddndis/NDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY, netvista.ndis_ndk_connection_entry, _NDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTION_ENTRY, NDIS_NDK_CONNECTION_ENTRY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTION_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NDK_CONNECTION_ENTRY
 product: Windows
 targetos: Windows

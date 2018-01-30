@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0b93f32-4c5c-472c-8c13-3e441f86475f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ioreleasevpbspinlock, IoReleaseVpbSpinLock routine [Installable File System Drivers], ntifs/IoReleaseVpbSpinLock, IoReleaseVpbSpinLock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml
+ms.keywords: IoReleaseVpbSpinLock, ntifs/IoReleaseVpbSpinLock, IoReleaseVpbSpinLock routine [Installable File System Drivers], ifsk.ioreleasevpbspinlock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReleaseVpbSpinLock
 product: Windows
 targetos: Windows

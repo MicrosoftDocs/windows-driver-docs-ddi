@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 731ae55e-8cfb-4b76-b811-dbdabd8dd067
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterUchar routine [Storage Devices], StorPortWriteRegisterUchar, storage.storportwriteregisteruchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, storport/StorPortWriteRegisterUchar
+ms.keywords: storport/StorPortWriteRegisterUchar, storage.storportwriteregisteruchar, StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml, StorPortWriteRegisterUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortWriteRegisterUchar
 product: Windows
 targetos: Windows

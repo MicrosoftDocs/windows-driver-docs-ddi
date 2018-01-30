@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ASYNC_STREAM
-title: _IRB_REQ_ASYNC_STREAM
+title: "_IRB_REQ_ASYNC_STREAM"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out an asynchronous write request.
 old-location: ieee\irb_req_async_stream.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ASYNC_STREAM, IEEE.irb_req_async_stream, 1394/IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses]
+ms.keywords: 1394/IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], IEEE.irb_req_async_stream, IRB_REQ_ASYNC_STREAM, _IRB_REQ_ASYNC_STREAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ASYNC_STREAM
 product: Windows
 targetos: Windows

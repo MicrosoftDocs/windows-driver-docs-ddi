@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_DELETE_SA
-title: _IPSEC_OFFLOAD_V2_DELETE_SA
+title: "_IPSEC_OFFLOAD_V2_DELETE_SA"
 author: windows-driver-content
 description: The IPSEC_OFFLOAD_V2_DELETE_SA structure specifies a security association (SA) that should be deleted from a NIC and a pointer to the next IPSEC_OFFLOAD_V2_DELETE_SA structure in a linked list.
 old-location: netvista\ipsec_offload_v2_delete_sa.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a75088e8-c7a5-4ca4-a8fc-8e88f9e20bb9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: task_offload_IPsecv2_ref_98d355a4-b502-4601-a419-815d4de90c6f.xml, PIPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_DELETE_SA, IPSEC_OFFLOAD_V2_DELETE_SA, netvista.ipsec_offload_v2_delete_sa, ndis/IPSEC_OFFLOAD_V2_DELETE_SA, _IPSEC_OFFLOAD_V2_DELETE_SA, *PIPSEC_OFFLOAD_V2_DELETE_SA
+ms.keywords: "_IPSEC_OFFLOAD_V2_DELETE_SA, ndis/IPSEC_OFFLOAD_V2_DELETE_SA, task_offload_IPsecv2_ref_98d355a4-b502-4601-a419-815d4de90c6f.xml, *PIPSEC_OFFLOAD_V2_DELETE_SA, PIPSEC_OFFLOAD_V2_DELETE_SA, ndis/PIPSEC_OFFLOAD_V2_DELETE_SA, netvista.ipsec_offload_v2_delete_sa, PIPSEC_OFFLOAD_V2_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_DELETE_SA structure [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_DELETE_SA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	IPSEC_OFFLOAD_V2_DELETE_SA
 product: Windows
 targetos: Windows
@@ -108,13 +108,13 @@ The IPSEC_OFFLOAD_V2_DELETE_SA structure defines a handle for a SA that should b
 
 ## -see-also
 
+<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
+
 <mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_add_sa" tabindex="0">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</mshelp:link>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<mshelp:link keywords="netvista.oid_tcp_task_ipsec_offload_v2_delete_sa" tabindex="0">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</mshelp:link>
 
  
 

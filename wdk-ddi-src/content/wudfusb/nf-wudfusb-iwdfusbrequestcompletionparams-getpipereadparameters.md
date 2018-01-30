@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, IWDFUsbRequestCompletionParams::GetPipeReadParameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, GetPipeReadParameters method, GetPipeReadParameters
+ms.keywords: IWDFUsbRequestCompletionParams, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, IWDFUsbRequestCompletionParams::GetPipeReadParameters, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, GetPipeReadParameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, wdf.iwdfusbrequestcompletionparams_getpipereadparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbRequestCompletionParams.GetPipeReadParameters
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -96,9 +96,9 @@ None
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
  
 

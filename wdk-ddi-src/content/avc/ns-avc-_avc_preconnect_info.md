@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PRECONNECT_INFO
-title: _AVC_PRECONNECT_INFO
+title: "_AVC_PRECONNECT_INFO"
 author: windows-driver-content
 description: The AVC_PRECONNECT_INFO structure specifies the preconnection information for the specified pin ID (zero-based offset) on an AV/C subunit device.
 old-location: stream\avc_preconnect_info.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _AVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], avc/AVC_PRECONNECT_INFO, stream.avc_preconnect_info, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], avc/PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml
+ms.keywords: avc/PAVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO, _AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, stream.avc_preconnect_info, AVC_PRECONNECT_INFO structure [Streaming Media Devices], PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], AVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, avc/AVC_PRECONNECT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	AVC_PRECONNECT_INFO
 product: Windows
 targetos: Windows
-req.typenames: AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO
+req.typenames: "*PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO"
 ---
 
 # _AVC_PRECONNECT_INFO structure
@@ -91,11 +91,11 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
 
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
  
 

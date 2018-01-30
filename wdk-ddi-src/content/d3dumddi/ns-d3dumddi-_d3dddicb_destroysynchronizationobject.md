@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d950e290-3acb-4a89-86a4-ae5117781998
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_destroysynchronizationobject, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml
+ms.keywords: display.d3dddicb_destroysynchronizationobject, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

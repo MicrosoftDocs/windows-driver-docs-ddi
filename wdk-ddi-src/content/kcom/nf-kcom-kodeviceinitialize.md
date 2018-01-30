@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68ae87c5-7d71-4e85-8052-4e5c422340fb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: kcom/KoDeviceInitialize, KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], stream.kodeviceinitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml
+ms.keywords: KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml, kcom/KoDeviceInitialize, stream.kodeviceinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KoDeviceInitialize
 product: Windows
 targetos: Windows
-req.typenames: CONNECT_DATA, *PCONNECT_DATA
+req.typenames: "*PCONNECT_DATA, CONNECT_DATA"
 ---
 
 # KoDeviceInitialize function

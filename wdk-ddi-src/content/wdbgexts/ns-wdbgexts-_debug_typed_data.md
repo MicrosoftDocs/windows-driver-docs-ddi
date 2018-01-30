@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], DEBUG_TYPED_DATA structure [Windows Debugging], debugger.debug_typed_data, wdbgexts/PDEBUG_TYPED_DATA"
+ms.keywords: wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], *PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, wdbgexts/PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, debugger.debug_typed_data, DEBUG_TYPED_DATA structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA"
+req.product: Windows 10 or later.
 ---
 
 # _DEBUG_TYPED_DATA structure
@@ -202,9 +203,9 @@ There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_A
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: NewStream method [Audio Devices], IMiniportDMus interface, IMiniportDMus interface [Audio Devices], NewStream method, dmusicks/IMiniportDMus::NewStream, IMiniportDMus, NewStream method [Audio Devices], NewStream, IMiniportDMus::NewStream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, audio.iminiportdmus_newstream
+ms.keywords: IMiniportDMus, dmusicks/IMiniportDMus::NewStream, NewStream method [Audio Devices], NewStream, NewStream method [Audio Devices], IMiniportDMus interface, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, audio.iminiportdmus_newstream, IMiniportDMus interface [Audio Devices], NewStream method, IMiniportDMus::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,7 +88,7 @@ NTSTATUS NewStream(
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> enumeration values.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration values.
 
 
 ### -param PinID
@@ -163,7 +163,7 @@ Specifies the pin ID. This parameter identifies the pin that is to be opened. If
 
 #### - pDataFormat [in]
 
-Pointer to a kernel streaming <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure specifying the data format to use for this instance
+Pointer to a kernel streaming <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure specifying the data format to use for this instance
 
 
 #### - ppServiceGroup [out]
@@ -216,27 +216,27 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
-
-<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
-
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
-
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
 
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
 <a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+
+<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
+
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
+
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
 
  
 

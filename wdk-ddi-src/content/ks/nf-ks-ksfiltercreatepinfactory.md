@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterCreatePinFactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, stream.ksfiltercreatepinfactory, KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices]
+ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], stream.ksfiltercreatepinfactory, ks/KsFilterCreatePinFactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFilterCreatePinFactory
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0B78562C-25DD-4CF2-9804-6DBEDE8B5F69
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo, ntddk/PsGetHostSilo, PsGetHostSilo
+ms.keywords: PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo, PsGetHostSilo, ntddk/PsGetHostSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsGetHostSilo
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetHostSilo function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9cc76bf7-a744-46f9-89d5-5277744221e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsinjectnetworksendasync0, FwpsInjectNetworkSendAsync0 function [Network Drivers Starting with Windows Vista], FwpsInjectNetworkSendAsync0, wfp_ref_2_funct_3_fwps_I_33cd70a5-56b6-4cb7-bebf-621e180aaa9b.xml, fwpsk/FwpsInjectNetworkSendAsync0
+ms.keywords: fwpsk/FwpsInjectNetworkSendAsync0, FwpsInjectNetworkSendAsync0, netvista.fwpsinjectnetworksendasync0, FwpsInjectNetworkSendAsync0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_I_33cd70a5-56b6-4cb7-bebf-621e180aaa9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsInjectNetworkSendAsync0
 product: Windows
 targetos: Windows
@@ -240,31 +240,31 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-   FwpsQueryPacketInjectionState0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
-   FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+<mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
+   FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
 
 <mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
    FwpsAllocateCloneNetBufferList0</b></mshelp:link>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
+   FwpsQueryPacketInjectionState0</b></mshelp:link>
+
+<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
+   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
  
 

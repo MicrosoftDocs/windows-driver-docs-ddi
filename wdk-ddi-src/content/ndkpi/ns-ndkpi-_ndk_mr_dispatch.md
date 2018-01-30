@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MR_DISPATCH
-title: _NDK_MR_DISPATCH
+title: "_NDK_MR_DISPATCH"
 author: windows-driver-content
 description: The NDK_MR_DISPATCH structure specifies dispatch function entry points for the NDK memory region (MR) object.
 old-location: netvista\ndk_mr_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C0EC5488-B08D-40A6-9E90-48E59B45B116
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_MR_DISPATCH, NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista], netvista.ndk_mr_dispatch, ndkpi/PNDK_MR_DISPATCH, _NDK_MR_DISPATCH, NDK_MR_DISPATCH, PNDK_MR_DISPATCH
+ms.keywords: ndkpi/NDK_MR_DISPATCH, NDK_MR_DISPATCH, PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], netvista.ndk_mr_dispatch, _NDK_MR_DISPATCH, ndkpi/PNDK_MR_DISPATCH, NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_MR_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_MR_DISPATCH
 product: Windows
 targetos: Windows
@@ -117,21 +117,21 @@ The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mr.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a>
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mr.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
  
 

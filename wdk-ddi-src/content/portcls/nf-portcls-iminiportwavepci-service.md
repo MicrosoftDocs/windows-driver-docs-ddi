@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1c30293f-1516-47a7-bb2c-29f9dc682777
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Service method [Audio Devices], IMiniportWavePci, Service method [Audio Devices], IMiniportWavePci interface, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, IMiniportWavePci interface [Audio Devices], Service method, audio.iminiportwavepci_service, IMiniportWavePci::Service, Service, portcls/IMiniportWavePci::Service
+ms.keywords: audio.iminiportwavepci_service, Service, Service method [Audio Devices], IMiniportWavePci interface, IMiniportWavePci interface [Audio Devices], Service method, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, portcls/IMiniportWavePci::Service, IMiniportWavePci, IMiniportWavePci::Service, Service method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

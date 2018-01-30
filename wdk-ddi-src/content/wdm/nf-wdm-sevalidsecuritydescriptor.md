@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], wdm/SeValidSecurityDescriptor, SeValidSecurityDescriptor
+ms.keywords: k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], SeValidSecurityDescriptor, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeValidSecurityDescriptor
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 66d90248-c496-44c8-98f4-5eb3e2cae130
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauStrC2W, image.wiaustrc2w, wiautil/wiauStrC2W, wiauFncs_acd27425-a431-42a0-8317-514ea7904ace.xml, wiauStrC2W function [Imaging Devices]
+ms.keywords: image.wiaustrc2w, wiauStrC2W, wiautil/wiauStrC2W, wiauStrC2W function [Imaging Devices], wiauFncs_acd27425-a431-42a0-8317-514ea7904ace.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauStrC2W
 product: Windows
 targetos: Windows

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	minitape.h
-apiname: 
+apiname:
 -	(*TAPE_ERROR_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: *PPROCESSOR_NUMBER, PROCESSOR_NUMBER
+req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
 ---
 
 # TAPE_ERROR_ROUTINE callback
@@ -109,13 +109,13 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
 <a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
 
 <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
+
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 

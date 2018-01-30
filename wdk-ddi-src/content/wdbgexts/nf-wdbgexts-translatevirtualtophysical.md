@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: TranslateVirtualToPhysical function [Windows Debugging], debugger.translatevirtualtophysical, WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, wdbgexts/TranslateVirtualToPhysical, TranslateVirtualToPhysical
+ms.keywords: WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, TranslateVirtualToPhysical function [Windows Debugging], wdbgexts/TranslateVirtualToPhysical, debugger.translatevirtualtophysical, TranslateVirtualToPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # TranslateVirtualToPhysical function

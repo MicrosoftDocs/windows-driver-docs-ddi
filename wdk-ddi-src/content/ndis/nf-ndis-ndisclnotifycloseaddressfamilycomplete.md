@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2bbf08-ea5c-4dad-8c30-9a655d25222a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, NdisClNotifyCloseAddressFamilyComplete, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
+ms.keywords: NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], NdisClNotifyCloseAddressFamilyComplete, condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisClNotifyCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClNotifyCloseAddressFamilyComplete function
@@ -90,12 +90,12 @@ The completion status for close AF notification.
 
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_SUCCESS
 
 The client successfully closed its address family.
 
 
-##### - Status.NDIS_STATUS_XXX
+#### NDIS_STATUS_XXX
 
 The client failed the request for some driver-determined reason.
 

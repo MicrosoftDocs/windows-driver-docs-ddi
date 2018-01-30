@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxcontx/RxCreateRxContext, RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml, ifsk.rxcreaterxcontext, RxCreateRxContext function [Installable File System Drivers]
+ms.keywords: RxCreateRxContext function [Installable File System Drivers], RxCreateRxContext, ifsk.rxcreaterxcontext, rxcontx/RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxcontx.h
-apiname: 
+apiname:
 -	RxCreateRxContext
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -87,17 +87,17 @@ The set of initial values for the <b>Flags</b> member of the RX_CONTEXT data str
 
 
 
-##### - InitialContextFlags.RX_CONTEXT_FLAG_WAIT
+#### RX_CONTEXT_FLAG_WAIT
 
 When this value is set, the IRP should be not be posted for later execution by the file system process, but should be waited on to complete.
 
 
-##### - InitialContextFlags.RX_CONTEXT_FLAG_MUST_SUCCEED
+#### RX_CONTEXT_FLAG_MUST_SUCCEED
 
 When this value is set, the operation must succeed. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
 
 
-##### - InitialContextFlags.RX_CONTEXT_FLAG_MUST_SUCCEED_NONBLOCKING
+#### RX_CONTEXT_FLAG_MUST_SUCCEED_NONBLOCKING
 
 When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
 
@@ -124,25 +124,25 @@ When this value is set, the RX_CONTEXT structure was allocated from non-paged po
 
 ## -see-also
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 <a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 <a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
 
  
 

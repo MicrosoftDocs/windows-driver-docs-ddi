@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a8e0be5-8eed-47f1-88df-43f3776def7f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadRegisterBufferUshort function [Display Devices], VideoPortReadRegisterBufferUshort, VideoPort_Functions_f10955b1-ab90-46dc-8e53-1c395af6f0bc.xml, display.videoportreadregisterbufferushort, video/VideoPortReadRegisterBufferUshort
+ms.keywords: VideoPort_Functions_f10955b1-ab90-46dc-8e53-1c395af6f0bc.xml, video/VideoPortReadRegisterBufferUshort, VideoPortReadRegisterBufferUshort function [Display Devices], VideoPortReadRegisterBufferUshort, display.videoportreadregisterbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadRegisterBufferUshort function

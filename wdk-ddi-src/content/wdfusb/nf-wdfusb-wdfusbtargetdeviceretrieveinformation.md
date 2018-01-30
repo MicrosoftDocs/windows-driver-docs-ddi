@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceRetrieveInformation, PFN_WDFUSBTARGETDEVICERETRIEVEINFORMATION, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, wdf.wdfusbtargetdeviceretrieveinformation, kmdf.wdfusbtargetdeviceretrieveinformation, wdfusb/WdfUsbTargetDeviceRetrieveInformation, WdfUsbTargetDeviceRetrieveInformation method
+ms.keywords: WdfUsbTargetDeviceRetrieveInformation, kmdf.wdfusbtargetdeviceretrieveinformation, PFN_WDFUSBTARGETDEVICERETRIEVEINFORMATION, wdf.wdfusbtargetdeviceretrieveinformation, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, WdfUsbTargetDeviceRetrieveInformation method, wdfusb/WdfUsbTargetDeviceRetrieveInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceRetrieveInformation
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -125,9 +125,9 @@ In framework versions 1.11 and later, the driver  can call <a href="..\wdfusb\nf
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md">WdfUsbTargetDeviceQueryUsbCapability</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md">WdfUsbTargetDeviceQueryUsbCapability</a>
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d8ef9e7f-8ce0-48df-973f-170c47e55777
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.pcnewregistrykey, portcls/PcNewRegistryKey, PcNewRegistryKey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, PcNewRegistryKey function [Audio Devices]
+ms.keywords: audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey, PcNewRegistryKey, PcNewRegistryKey function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,7 +98,7 @@ Specifies an access-control mask. This parameter is a structure of type <a href=
 
 ### -param DeviceObject [in, optional]
 
-Pointer to the adapter driver's device object. This pointer is cast to type PVOID. If <i>RegistryKeyType</i> is any value other than <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>. If the value of <i>RegistryKeyType</i> is <b>GeneralRegistryKey</b>, the <b>PcNewRegistryKey</b> function does not use this parameter. For more information, see the following Remarks section.
+Pointer to the adapter driver's device object. This pointer is cast to type PVOID. If <i>RegistryKeyType</i> is any value other than <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. If the value of <i>RegistryKeyType</i> is <b>GeneralRegistryKey</b>, the <b>PcNewRegistryKey</b> function does not use this parameter. For more information, see the following Remarks section.
 
 
 ### -param SubDevice [in, optional]
@@ -108,7 +108,7 @@ Specifies the aspect of the device that is to be offered to clients. Adapter dri
 
 ### -param ObjectAttributes [in, optional]
 
-Pointer to the object attributes of the key being created or opened. If <i>RegistryKeyType</i> has the value <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> with a valid <i>ObjectName</i> string for the key; otherwise, the function does not use this parameter. For more information, see the following Remarks section.
+Pointer to the object attributes of the key being created or opened. If <i>RegistryKeyType</i> has the value <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> with a valid <i>ObjectName</i> string for the key; otherwise, the function does not use this parameter. For more information, see the following Remarks section.
 
 
 ### -param CreateOptions [in, optional]
@@ -133,7 +133,7 @@ Pointer to a variable that receives a value indicating whether a key was created
 
 If the <i>RegistryKeyType</i> parameter's value is <b>GeneralRegistryKey</b>, then the <b>PcNewRegistryKey</b> function either opens an existing key or creates a new key in the registry, as indicated by the value that the function outputs through the <i>Disposition</i> parameter. If the key is of any type other than <b>GeneralRegistryKey</b>, then the function opens an already existing key that was previously created during Plug and Play device enumeration.
 
-The <i>DesiredAccess</i>, <i>ObjectAttributes</i>, <i>CreateOptions</i>, and <i>Disposition</i> parameters take on the values that are defined for the parameters with the same names in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> call.
+The <i>DesiredAccess</i>, <i>ObjectAttributes</i>, <i>CreateOptions</i>, and <i>Disposition</i> parameters take on the values that are defined for the parameters with the same names in the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> call.
 
 The <i>RegistryKeyType</i> parameter should be set to one of the enumeration values shown in the following table.
 <table>
@@ -195,7 +195,7 @@ Not used with <b>PcNewRegistryKey</b>. See <a href="https://msdn.microsoft.com/l
 
 For a <i>RegistryKeyType</i> value of <b>GeneralRegistryKey</b>, the caller must provide a valid <i>ObjectAttributes</i> parameter value, and the <i>CreateOptions</i> and <i>Disposition</i> parameters are optional. For any other <i>RegistryKeyType</i> value, the caller must provide a valid <i>DeviceObject</i> parameter value, and the <i>CreateOptions</i> and <i>Disposition</i> parameters are not used.
 
-The <i>ObjectAttributes</i> parameter points to an opaque structure of type OBJECT_ATTRIBUTES that contains object attributes such as key name and security descriptor. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro to initialize the structure. In the <i>Attributes</i> parameter for this macro, set the OBJ_KERNEL_HANDLE flag unless you intend to allow non-secure, user-mode applications to have read/write access to the registry key.
+The <i>ObjectAttributes</i> parameter points to an opaque structure of type OBJECT_ATTRIBUTES that contains object attributes such as key name and security descriptor. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize the structure. In the <i>Attributes</i> parameter for this macro, set the OBJ_KERNEL_HANDLE flag unless you intend to allow non-secure, user-mode applications to have read/write access to the registry key.
 
 The <i>DesiredAccess</i> parameter is an access-control mask. It specifies the type of access control that the caller needs to have to the new registry key when accessing it through the <i>OutRegistryKey</i> object. This mask should not be confused with the access control list (ACL) that controls access by users to the registry key. When calling <b>PcNewRegistryKey</b> to create a registry key of type <b>GeneralRegistryKey</b>, the <i>ObjectAttributes </i>parameter specifies the key's attributes, including a security descriptor that contains the ACL. However, if the new key is of type <b>GeneralRegistryKey</b> and either the security descriptor pointer in the <i>ObjectAttributes </i>structure is <b>NULL</b> or the ACL pointer in the security descriptor is <b>NULL</b>, then the new key will inherit the parent key's ACL by default.
 
@@ -209,19 +209,19 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

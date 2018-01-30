@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER_VALIDBITS
-title: _WHEA_ERROR_RECORD_HEADER_VALIDBITS
+title: "_WHEA_ERROR_RECORD_HEADER_VALIDBITS"
 author: windows-driver-content
 description: The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_HEADER structure contain valid data.
 old-location: whea\whea_error_record_header_validbits.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: b16dd19f-1a67-4066-9dae-b36ff6f44d43
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whea.whea_error_record_header_validbits, _WHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS union pointer [WHEA Drivers and Applications], ntddk/WHEA_ERROR_RECORD_HEADER_VALIDBITS, *PWHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS union [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS, whearef_66b0c2f7-6fad-4cdb-ac15-f4d942d208e1.xml
+ms.keywords: WHEA_ERROR_RECORD_HEADER_VALIDBITS union [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_HEADER_VALIDBITS, whearef_66b0c2f7-6fad-4cdb-ac15-f4d942d208e1.xml, ntddk/WHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS union pointer [WHEA Drivers and Applications], PWHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS, *PWHEA_ERROR_RECORD_HEADER_VALIDBITS, whea.whea_error_record_header_validbits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_RECORD_HEADER_VALIDBITS
 product: Windows
 targetos: Windows
@@ -103,11 +103,6 @@ typedef union _WHEA_ERROR_RECORD_HEADER_VALIDBITS {
 A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - PlatformId
 
 A single bit that indicates that the <b>PlatformId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
@@ -121,6 +116,11 @@ A single bit that indicates that the <b>Timestamp</b> member of the WHEA_ERROR_R
 #### - PartitionId
 
 A single bit that indicates that the <b>PartitionId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

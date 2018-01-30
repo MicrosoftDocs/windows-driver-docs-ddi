@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._PARENT_HUB_FLAGS
-title: _PARENT_HUB_FLAGS
+title: "_PARENT_HUB_FLAGS"
 author: windows-driver-content
 description: This structure is used by the HUB_INFO_FROM_PARENT structure to get hub information from the parent.
 old-location: buses\_parent_hub_flags.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, ucxroothub/_PARENT_HUB_FLAGS, buses._parent_hub_flags
+ms.keywords: "*PPARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS, _PARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	PARENT_HUB_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: *PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS
+req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 req.product: Windows 10 or later.
 ---
 

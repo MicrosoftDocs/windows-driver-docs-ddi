@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcIsThereDirtyDataEx routine [Installable File System Drivers], ifsk.ccistheredirtydataex, CcIsThereDirtyDataEx, ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, ntifs/CcIsThereDirtyDataEx
+ms.keywords: ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, CcIsThereDirtyDataEx routine [Installable File System Drivers], ifsk.ccistheredirtydataex, CcIsThereDirtyDataEx, ntifs/CcIsThereDirtyDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcIsThereDirtyDataEx
 product: Windows
 targetos: Windows
@@ -96,9 +96,9 @@ This routine will return <b>TRUE</b> if any dirty pages exist including temporar
 
 <a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
  
 

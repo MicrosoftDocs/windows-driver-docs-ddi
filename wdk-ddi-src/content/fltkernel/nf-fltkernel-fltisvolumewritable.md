@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9347bc8d-e8fb-440c-8ceb-ce5e8cb1429e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsVolumeWritable, FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, ifsk.fltisvolumewritable, FltIsVolumeWritable routine [Installable File System Drivers], fltkernel/FltIsVolumeWritable
+ms.keywords: FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, FltIsVolumeWritable, ifsk.fltisvolumewritable, fltkernel/FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltIsVolumeWritable
 product: Windows
 targetos: Windows

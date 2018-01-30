@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5da7c762-ad5c-45bd-aebe-dc3526005569
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauDbgLegacyWarning, image.wiaudbglegacywarning, wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiauDbgLegacyWarning function [Imaging Devices], wiauDbgLegacyWarning
+ms.keywords: wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiauDbgLegacyWarning, wiauDbgLegacyWarning function [Imaging Devices], image.wiaudbglegacywarning, wiautil/wiauDbgLegacyWarning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	wiauDbgLegacyWarning
 product: Windows
 targetos: Windows

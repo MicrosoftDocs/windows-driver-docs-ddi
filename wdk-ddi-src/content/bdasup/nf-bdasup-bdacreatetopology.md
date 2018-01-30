@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], bdasup/BdaCreateTopology, stream.bdacreatetopology
+ms.keywords: stream.bdacreatetopology, BdaCreateTopology, bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaCreateTopology
 product: Windows
 targetos: Windows
@@ -103,13 +103,13 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
 
 <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.md">BdaMethodCreateTopology</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
  
 

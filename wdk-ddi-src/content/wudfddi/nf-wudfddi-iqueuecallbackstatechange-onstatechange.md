@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69a422a1-b878-496e-b1b9-e04b7c3db121
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iqueuecallbackstatechange_onstatechange, IQueueCallbackStateChange, IQueueCallbackStateChange::OnStateChange, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, OnStateChange method, OnStateChange method, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, OnStateChange method, umdf.iqueuecallbackstatechange_onstatechange, wudfddi/IQueueCallbackStateChange::OnStateChange, OnStateChange
+ms.keywords: wdf.iqueuecallbackstatechange_onstatechange, umdf.iqueuecallbackstatechange_onstatechange, OnStateChange, wudfddi/IQueueCallbackStateChange::OnStateChange, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, OnStateChange method, IQueueCallbackStateChange, OnStateChange method, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, OnStateChange method, IQueueCallbackStateChange::OnStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IQueueCallbackStateChange.OnStateChange
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -99,11 +99,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
  
 

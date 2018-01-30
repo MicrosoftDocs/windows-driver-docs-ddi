@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 596bfba5-7025-4cdc-b1f9-c8df546f6dac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_RegisterForAdapterPortEvents, fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, storage.hba_registerforadapterportevents, HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices]
+ms.keywords: HBA_RegisterForAdapterPortEvents, hbaapi/HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices], storage.hba_registerforadapterportevents, fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_RegisterForAdapterPortEvents
 product: Windows
 targetos: Windows
@@ -167,13 +167,13 @@ For a list of port events, see <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
 
  
 

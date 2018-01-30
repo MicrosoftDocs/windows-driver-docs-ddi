@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D5D8D994-0BB6-44FC-A696-F2E0264445C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, VmbPacketInitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize
+ms.keywords: VmbPacketInitialize function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketInitialize, VmbPacketInitialize, netvista.vmbpacketinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketInitialize
 product: Windows
 targetos: Windows
@@ -144,9 +144,9 @@ sending the packet.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md">VmbChannelSizeofPacket</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md">VmbChannelSizeofPacket</a>
 
  
 

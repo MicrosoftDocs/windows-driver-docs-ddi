@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9b785bee-289f-4f91-8183-c1dc2fa1fa6d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11ddi_handlesize, D3D11DDI_HANDLESIZE, UMDisplayDriver_Dx11param_Structs_4eedfbd5-b87d-42bb-9ec9-2efc75ad3464.xml, d3d10umddi/D3D11DDI_HANDLESIZE, D3D11DDI_HANDLESIZE structure [Display Devices]
+ms.keywords: display.d3d11ddi_handlesize, D3D11DDI_HANDLESIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4eedfbd5-b87d-42bb-9ec9-2efc75ad3464.xml, d3d10umddi/D3D11DDI_HANDLESIZE, D3D11DDI_HANDLESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,9 +87,9 @@ The driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_checkdeferredconte
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_checkdeferredcontexthandlesizes.md">CheckDeferredContextHandleSizes</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
 
  
 

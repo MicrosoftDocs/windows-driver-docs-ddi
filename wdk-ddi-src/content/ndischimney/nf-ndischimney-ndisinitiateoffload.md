@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a1979227-a447-4dd3-8a5d-7986362020cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInitiateOffload function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml, NdisInitiateOffload, ndischimney/NdisInitiateOffload, netvista.ndisinitiateoffload
+ms.keywords: NdisInitiateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisInitiateOffload, netvista.ndisinitiateoffload, NdisInitiateOffload, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisInitiateOffload
 product: Windows
 targetos: Windows
@@ -119,20 +119,20 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<mshelp:link keywords="netvista.protocolinitiateoffloadcomplete" tabindex="0"><i>
-   ProtocolInitiateOffloadComplete</i></mshelp:link>
-
 <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+
+<mshelp:link keywords="netvista.protocolinitiateoffloadcomplete" tabindex="0"><i>
+   ProtocolInitiateOffloadComplete</i></mshelp:link>
 
  
 

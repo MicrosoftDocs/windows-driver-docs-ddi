@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], _WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR, biometric.winbio_set_indicator, WINBIO_SET_INDICATOR structure [Biometric Devices], biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, winbio_ioctl/WINBIO_SET_INDICATOR, winbio_ioctl/PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR
+ms.keywords: winbio_ioctl/PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR, winbio_ioctl/WINBIO_SET_INDICATOR, biometric.winbio_set_indicator, _WINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, WINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], *PWINBIO_SET_INDICATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
+req.product: Windows 10 or later.
 ---
 
 # _WINBIO_SET_INDICATOR structure

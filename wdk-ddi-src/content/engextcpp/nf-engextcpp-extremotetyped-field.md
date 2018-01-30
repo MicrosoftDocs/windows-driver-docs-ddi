@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Field method [Windows Debugging], ExtRemoteTyped, ExtRemoteTyped::Field, ExtRemoteTyped interface [Windows Debugging], Field method, debugger.extremotetyped_field, Field, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, Field method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging], Field method, Field, Field method [Windows Debugging], ExtRemoteTyped interface, Field method [Windows Debugging], ExtRemoteTyped, ExtRemoteTyped::Field, debugger.extremotetyped_field
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.Field
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::Field method

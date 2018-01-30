@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SECTION_OBJECT_POINTERS
-title: _SECTION_OBJECT_POINTERS
+title: "_SECTION_OBJECT_POINTERS"
 author: windows-driver-content
 description: The SECTION_OBJECT_POINTERS structure, allocated by a file system or a redirector driver, is used by the memory manager and cache manager to store file-mapping and cache-related information for a file stream.
 old-location: kernel\section_object_pointers.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce867f4f-f091-4a85-96b8-7da6b528a6cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PSECTION_OBJECT_POINTERS, kernel.section_object_pointers, wdm/SECTION_OBJECT_POINTERS, wdm/PSECTION_OBJECT_POINTERS, kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml, PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture], SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], *PSECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS, _SECTION_OBJECT_POINTERS
+ms.keywords: PSECTION_OBJECT_POINTERS, wdm/SECTION_OBJECT_POINTERS, kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml, *PSECTION_OBJECT_POINTERS, wdm/PSECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture], _SECTION_OBJECT_POINTERS, kernel.section_object_pointers, SECTION_OBJECT_POINTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	SECTION_OBJECT_POINTERS
 product: Windows
 targetos: Windows
@@ -112,21 +112,21 @@ Initialize all members of the allocated <b>SECTION_OBJECT_POINTERS</b> structure
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
-
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
  
 

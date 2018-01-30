@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4863fe31-2c89-47af-99ed-02055e67621d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateMdl, NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml, netvista.ndisallocatemdl
+ms.keywords: netvista.ndisallocatemdl, NdisAllocateMdl, ndis/NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAllocateMdl
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateMdl function
@@ -123,13 +123,13 @@ All MDLs that are allocated by calling
 
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
-
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
-
 <a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
 

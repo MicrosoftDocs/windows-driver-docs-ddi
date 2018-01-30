@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ACE32ED-75C5-440D-BAA1-470C4E043299
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_UNLOCK2, D3DDDICB_UNLOCK2 structure [Display Devices], display.d3dddicb_unlock2, d3dumddi/D3DDDICB_UNLOCK2, _D3DDDICB_UNLOCK2
+ms.keywords: d3dumddi/D3DDDICB_UNLOCK2, _D3DDDICB_UNLOCK2, D3DDDICB_UNLOCK2 structure [Display Devices], display.d3dddicb_unlock2, D3DDDICB_UNLOCK2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

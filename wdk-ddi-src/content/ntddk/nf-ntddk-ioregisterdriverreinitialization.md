@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], ntddk/IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, IoRegisterDriverReinitialization
+ms.keywords: kernel.ioregisterdriverreinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], ntddk/IoRegisterDriverReinitialization, IoRegisterDriverReinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoRegisterDriverReinitialization
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoRegisterDriverReinitialization function

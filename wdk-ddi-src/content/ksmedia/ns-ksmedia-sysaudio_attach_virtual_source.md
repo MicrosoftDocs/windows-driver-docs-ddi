@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1215cf8e-8e94-4da4-9fb9-2212e8386abd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.sysaudio_attach_virtual_source, SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_5fce938d-a784-46cf-a65b-3eb0d19db2f8.xml, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE
+ms.keywords: PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure [Audio Devices], PSYSAUDIO_ATTACH_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_ATTACH_VIRTUAL_SOURCE, aud-prop_5fce938d-a784-46cf-a65b-3eb0d19db2f8.xml, audio.sysaudio_attach_virtual_source, ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE, *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -71,7 +71,7 @@ typedef struct {
 
 ### -field Property
 
-Specifies the property. This parameter is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
+Specifies the property. This parameter is a structure of type <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
 
 
 ### -field MixerPinId

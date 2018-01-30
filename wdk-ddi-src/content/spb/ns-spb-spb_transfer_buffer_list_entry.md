@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: C53F4F44-5338-4BEF-8055-AE4AC37002AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/SPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], PSPB_TRANSFER_BUFFER_LIST_ENTRY, SPB.spb_transfer_buffer_list_entry, *PSPB_TRANSFER_BUFFER_LIST_ENTRY, spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY
+ms.keywords: SPB.spb_transfer_buffer_list_entry, SPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], *PSPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], spb/SPB_TRANSFER_BUFFER_LIST_ENTRY, spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spb.h
-apiname: 
+apiname:
 -	SPB_TRANSFER_BUFFER_LIST_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY
+req.typenames: "*PSPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY"
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,11 @@ If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSF
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 

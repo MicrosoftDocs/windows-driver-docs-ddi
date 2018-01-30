@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ID_GLOBAL_TX_DIR_INFORMATION
-title: _FILE_ID_GLOBAL_TX_DIR_INFORMATION
+title: "_FILE_ID_GLOBAL_TX_DIR_INFORMATION"
 author: windows-driver-content
 description: The FILE_ID_GLOBAL_TX_DIR_INFORMATION structure contains information about transactional visibility for the files in a directory.
 old-location: ifsk\file_id_global_tx_dir_information.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION
+ms.keywords: ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_ID_GLOBAL_TX_DIR_INFORMATION, _FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_ID_GLOBAL_TX_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION
+req.typenames: "*PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION"
 ---
 
 # _FILE_ID_GLOBAL_TX_DIR_INFORMATION structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_ARRAY
-title: _NDIS_PORT_ARRAY
+title: "_NDIS_PORT_ARRAY"
 author: windows-driver-content
 description: The NDIS_PORT_ARRAY structure specifies a list of NDIS ports and their associated characteristics.
 old-location: netvista\ndis_port_array.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_PORT_ARRAY, ntddndis/NDIS_PORT_ARRAY, _NDIS_PORT_ARRAY, netvista.ndis_port_array, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, *PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY, netvista.ndis_port_array, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PORT_ARRAY, _NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, ntddndis/NDIS_PORT_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PORT_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY
+req.typenames: "*PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY"
 ---
 
 # _NDIS_PORT_ARRAY structure
@@ -125,9 +125,9 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

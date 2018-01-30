@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_UPDATE_DRIVE_SIZE
 product: Windows
 targetos: Windows

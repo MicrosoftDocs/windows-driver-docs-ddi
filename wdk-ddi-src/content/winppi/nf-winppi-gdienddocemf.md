@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.gdienddocemf, GdiEndDocEMF, winppi/GdiEndDocEMF, GdiEndDocEMF function [Print Devices], gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml
+ms.keywords: gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, GdiEndDocEMF, winppi/GdiEndDocEMF, GdiEndDocEMF function [Print Devices], print.gdienddocemf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 -	GDI32Full.dll
-apiname: 
+apiname:
 -	GdiEndDocEMF
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME
+req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
 req.product: Windows 10 or later.
 ---
 

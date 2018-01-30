@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 981596AB-0E39-49B3-8586-B2D9C2762D80
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPinFramingCache method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsGetPinFramingCache method, IKsPinPipe, stream.ikspinpipe_ksgetpinframingcache, KsGetPinFramingCache method [Streaming Media Devices], IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache, ksproxy/IKsPinPipe::KsGetPinFramingCache
+ms.keywords: ksproxy/IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache, IKsPinPipe interface [Streaming Media Devices], KsGetPinFramingCache method, KsGetPinFramingCache method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe, stream.ikspinpipe_ksgetpinframingcache, IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsGetPinFramingCache
 product: Windows
 targetos: Windows

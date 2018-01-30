@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_CONFIG
-title: _UCM_CONNECTOR_CONFIG
+title: "_UCM_CONNECTOR_CONFIG"
 author: windows-driver-content
 description: Describes the configuration options for a Type-C connector object. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_connector_config.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8FE8B7E2-1CC0-4540-86D5-A09BA249D62A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], ucmmanager/UCM_CONNECTOR_CONFIG, *PUCM_CONNECTOR_CONFIG, _UCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG, buses.ucm_connector_config, UCM_CONNECTOR_CONFIG structure [Buses], UCM_CONNECTOR_CONFIG
+ms.keywords: buses.ucm_connector_config, UCM_CONNECTOR_CONFIG structure [Buses], *PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG, _UCM_CONNECTOR_CONFIG, ucmmanager/UCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], ucmmanager/PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmmanager.h
-apiname: 
+apiname:
 -	UCM_CONNECTOR_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: UCM_CONNECTOR_CONFIG, *PUCM_CONNECTOR_CONFIG
+req.typenames: "*PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6AE59150-8A10-43B6-B910-AEBEDC2FD272
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, *PKSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, stream.kscamera_extendedprop_metadatainfo, PKSCAMERA_EXTENDEDPROP_METADATAINFO, tagKSCAMERA_EXTENDEDPROP_METADATAINFO
+ms.keywords: tagKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], stream.kscamera_extendedprop_metadatainfo, *PKSCAMERA_EXTENDEDPROP_METADATAINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_EXTENDEDPROP_METADATAINFO
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO
+req.typenames: KSCAMERA_EXTENDEDPROP_METADATAINFO, *PKSCAMERA_EXTENDEDPROP_METADATAINFO
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_METADATAINFO structure

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 61901d4d-7821-40b4-aaef-fd679985abb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni2::WritePrinter, IPrintOemUni2 interface [Print Devices], WritePrinter method, print.iprintoemuni2_writeprinter, prcomoem/IPrintOemUni2::WritePrinter, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml, WritePrinter method [Print Devices], WritePrinter, IPrintOemUni2, WritePrinter method [Print Devices], IPrintOemUni2 interface
+ms.keywords: WritePrinter method [Print Devices], IPrintOemUni2 interface [Print Devices], WritePrinter method, WritePrinter method [Print Devices], IPrintOemUni2 interface, prcomoem/IPrintOemUni2::WritePrinter, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml, print.iprintoemuni2_writeprinter, IPrintOemUni2, WritePrinter, IPrintOemUni2::WritePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni2.WritePrinter
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

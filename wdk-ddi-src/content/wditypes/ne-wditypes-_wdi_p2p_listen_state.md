@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_LISTEN_STATE
-title: _WDI_P2P_LISTEN_STATE
+title: "_WDI_P2P_LISTEN_STATE"
 author: windows-driver-content
 description: The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
 old-location: netvista\wdi_p2p_listen_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 68798F3D-B708-4DCD-AB3F-D8DE4A8A0CF2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_p2p_listen_state, WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, netvista.wifi_p2p_listen_state, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, WDI_P2P_LISTEN_STATE, _WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY
+ms.keywords: WDI_P2P_LISTEN_STATE_OFF, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], _WDI_P2P_LISTEN_STATE, WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_OFF, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, netvista.wifi_p2p_listen_state, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, netvista.wdi_p2p_listen_state, wditypes/WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, WDI_P2P_LISTEN_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_P2P_LISTEN_STATE
 product: Windows
 targetos: Windows

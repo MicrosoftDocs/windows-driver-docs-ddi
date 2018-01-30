@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_QUERY_SOC_SUBSYSTEM_METADATA
-title: _PEP_QUERY_SOC_SUBSYSTEM_METADATA
+title: "_PEP_QUERY_SOC_SUBSYSTEM_METADATA"
 author: windows-driver-content
 description: The PEP_QUERY_SOC_SUBSYSTEM_METADATA structure is used with the PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
 old-location: kernel\pep_query_soc_subsystem_metadata.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA
+ms.keywords: kernel.pep_query_soc_subsystem_metadata, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, _PEP_QUERY_SOC_SUBSYSTEM_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_QUERY_SOC_SUBSYSTEM_METADATA
 product: Windows
 targetos: Windows
@@ -104,9 +104,9 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b>
-
 <a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
+
+<b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b>
 
  
 

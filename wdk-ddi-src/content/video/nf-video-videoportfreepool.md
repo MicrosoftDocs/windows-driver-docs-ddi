@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortFreePool, display.videoportfreepool, video/VideoPortFreePool, VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, VideoPortFreePool function [Display Devices]
+ms.keywords: display.videoportfreepool, VideoPortFreePool, VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, video/VideoPortFreePool, VideoPortFreePool function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortFreePool function
@@ -96,9 +97,9 @@ Callers of <b>VideoPortFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
-
 <a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>
+
+<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
 
  
 

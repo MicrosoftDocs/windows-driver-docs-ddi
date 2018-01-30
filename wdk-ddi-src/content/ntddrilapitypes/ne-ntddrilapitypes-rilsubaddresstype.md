@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18c4f26a-6463-4157-bd81-6bbb2100eff2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSUBADDRESSTYPE, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, netvista.rilsubaddresstype, ntddrilapitypes/RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE, RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX
+ms.keywords: ntddrilapitypes/RIL_SUBADDRTYPE_USER, RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, RILSUBADDRESSTYPE, RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSUBADDRESSTYPE
 product: Windows
 targetos: Windows

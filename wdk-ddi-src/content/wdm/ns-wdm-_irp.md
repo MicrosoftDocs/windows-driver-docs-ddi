@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IRP
-title: _IRP
+title: "_IRP"
 author: windows-driver-content
 description: The IRP structure is a partially opaque structure that represents an I/O request packet. Drivers can use the following members of the IRP structure.
 old-location: kernel\irp.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IRP, PIRP, wdm/PIRP, wdm/IRP, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, kernel.irp, IRP, PIRP structure pointer [Kernel-Mode Driver Architecture], *PIRP, IRP structure [Kernel-Mode Driver Architecture]
+ms.keywords: PIRP structure pointer [Kernel-Mode Driver Architecture], IRP, IRP structure [Kernel-Mode Driver Architecture], kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, _IRP, kernel.irp, wdm/PIRP, PIRP, wdm/IRP, *PIRP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IRP
 product: Windows
 targetos: Windows
@@ -117,6 +117,37 @@ If the driver is using buffered I/O, the buffer's purpose is determined by the I
 If the driver is using direct I/O, the buffer's purpose is determined by the IRP major function code, as follows:
 
 
+
+
+#### SystemBuffer.IRP_MJ_READ
+
+The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure.
+
+<b>NULL</b>.
+
+
+#### SystemBuffer.IRP_MJ_WRITE
+
+The buffer supplies data for the device or driver. The buffer's length is specified by <b>Parameters.Write.Length</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
+
+<b>NULL</b>.
+
+
+#### SystemBuffer.IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
+
+The buffer represents both the input and output buffers that are supplied to <b>DeviceIoControl</b> and <b>IoBuildDeviceIoControlRequest</b>. Output data overwrites input data.
+
+For input, the buffer's length is specified by <b>Parameters.DeviceIoControl.InputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
+
+For output, the buffer's length is specified by <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
+
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
+
+The buffer represents the input buffer that is supplied to <b>DeviceIoControl</b> and <b>IoBuildDeviceIoControlRequest</b>.
+
+The buffer's length is specified by <b>Parameters.DeviceIoControl.InputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
+
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
 
 
 ### -field Overlay
@@ -229,6 +260,25 @@ Pointer to an MDL describing a user buffer, if the driver is using direct I/O, a
 
 
 If the driver is not using direct I/O, this pointer is <b>NULL</b>.
+
+
+#### IRP_MJ_READ
+
+The MDL describes an empty buffer that the device or driver fills in.
+
+
+#### IRP_MJ_WRITE
+
+The MDL describes a buffer that contains data for the device or driver.
+
+
+#### IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
+
+If the IOCTL code specifies the METHOD_IN_DIRECT transfer type, the MDL describes a buffer that contains data for the device or driver.
+
+If the IOCTL code specifies the METHOD_OUT_DIRECT transfer type, the MDL describes an empty buffer that the device or driver fills in.
+
+For more information about the buffers that are associated with METHOD_IN_DIRECT and METHOD_OUT_DIRECT transfer types in IOCTL codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
 
 
 ### -field Flags
@@ -344,56 +394,6 @@ Contains the address of an output buffer if both of the following conditions app
 </ul>For METHOD_BUFFERED, the driver should use the buffer pointed to by <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> as the output buffer. When the driver completes the request, the I/O manager copies the contents of this buffer to the output buffer that is pointed to by <b>Irp-&gt;UserBuffer</b>. The driver should not write directly to the buffer pointed to by <b>Irp-&gt;UserBuffer</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
 
 
-###### - AssociatedIrp.SystemBuffer.IRP_MJ_READ
-
-The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure.
-
-<b>NULL</b>.
-
-
-##### - MdlAddress.IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
-
-If the IOCTL code specifies the METHOD_IN_DIRECT transfer type, the MDL describes a buffer that contains data for the device or driver.
-
-If the IOCTL code specifies the METHOD_OUT_DIRECT transfer type, the MDL describes an empty buffer that the device or driver fills in.
-
-For more information about the buffers that are associated with METHOD_IN_DIRECT and METHOD_OUT_DIRECT transfer types in IOCTL codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
-
-
-##### - MdlAddress.IRP_MJ_READ
-
-The MDL describes an empty buffer that the device or driver fills in.
-
-
-###### - AssociatedIrp.SystemBuffer.IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
-
-The buffer represents both the input and output buffers that are supplied to <b>DeviceIoControl</b> and <b>IoBuildDeviceIoControlRequest</b>. Output data overwrites input data.
-
-For input, the buffer's length is specified by <b>Parameters.DeviceIoControl.InputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
-
-For output, the buffer's length is specified by <b>Parameters.DeviceIoControl.OutputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
-
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
-
-The buffer represents the input buffer that is supplied to <b>DeviceIoControl</b> and <b>IoBuildDeviceIoControlRequest</b>.
-
-The buffer's length is specified by <b>Parameters.DeviceIoControl.InputBufferLength</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
-
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540663">Buffer Descriptions for I/O Control Codes</a>.
-
-
-###### - AssociatedIrp.SystemBuffer.IRP_MJ_WRITE
-
-The buffer supplies data for the device or driver. The buffer's length is specified by <b>Parameters.Write.Length</b> in the driver's <b>IO_STACK_LOCATION</b> structure.
-
-<b>NULL</b>.
-
-
-##### - MdlAddress.IRP_MJ_WRITE
-
-The MDL describes a buffer that contains data for the device or driver.
-
-
 ## -remarks
 
 
@@ -415,19 +415,19 @@ An IRP is the basic I/O manager structure used to communicate with drivers and t
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
-
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
 <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
 
  
 

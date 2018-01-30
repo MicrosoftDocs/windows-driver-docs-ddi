@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92748e47-c536-4bf2-be10-91b8c5f1206d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced3::FindSourceFileAndToken, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced2::FindSourceFileAndToken, debugger.findsourcefileandtoken, IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced3, FindSourceFileAndToken
+ms.keywords: IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method, FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken, IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, FindSourceFileAndToken method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugAdvanced3.FindSourceFileAndToken
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::FindSourceFileAndToken method
@@ -267,17 +267,17 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
  
 

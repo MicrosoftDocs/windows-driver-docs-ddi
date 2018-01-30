@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: FF204AC6-0D01-4C19-A852-0CC12095C43C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: battery.cad_power_source_info, _CAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO, *PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], charging/BATTERY_INFORMATION
+ms.keywords: charging/BATTERY_INFORMATION, _CAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], battery.cad_power_source_info, *PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

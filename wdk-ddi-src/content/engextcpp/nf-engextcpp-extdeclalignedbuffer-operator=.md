@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtDeclAlignedBuffer::operator=, ExtCheckedPointer::operator=, ExtBuffer, operator= method [Windows Debugging], debugger.extremotetyped_operatorequals_debug_typed_data, ExtBuffer::operator=, ExtDeclAlignedBuffer, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, operator=, operator= method [Windows Debugging], ExtRemoteTyped class
+ms.keywords: ExtBuffer, operator= method [Windows Debugging], ExtDeclAlignedBuffer, ExtRemoteTyped class [Windows Debugging], operator= method, operator=, ExtDeclAlignedBuffer::operator=, ExtCheckedPointer, ExtBuffer::operator=, ExtCheckedPointer::operator=, operator= method [Windows Debugging], ExtRemoteTyped class, debugger.extremotetyped_operatorequals_debug_typed_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.operator=
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtDeclAlignedBuffer::operator= method
@@ -96,9 +96,9 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
 
  
 

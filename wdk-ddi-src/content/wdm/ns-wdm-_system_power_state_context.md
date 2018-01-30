@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SYSTEM_POWER_STATE_CONTEXT
-title: _SYSTEM_POWER_STATE_CONTEXT
+title: "_SYSTEM_POWER_STATE_CONTEXT"
 author: windows-driver-content
 description: The SYSTEM_POWER_STATE_CONTEXT structure is a partially opaque system structure that contains information about the previous system power states of a computer.
 old-location: kernel\system_power_state_context.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PSYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT, _SYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], wdm/PSYSTEM_POWER_STATE_CONTEXT
+ms.keywords: "_SYSTEM_POWER_STATE_CONTEXT, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kernel.system_power_state_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	SYSTEM_POWER_STATE_CONTEXT
 product: Windows
 targetos: Windows
@@ -145,9 +145,9 @@ The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._PHY_CONFIGURATION_PACKET
-title: _PHY_CONFIGURATION_PACKET
+title: "_PHY_CONFIGURATION_PACKET"
 author: windows-driver-content
 description: The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
 old-location: ieee\phy_configuration_packet.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PHY_CONFIGURATION_PACKET, _PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, *PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], 1394/PHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PPHY_CONFIGURATION_PACKET structure pointer [Buses]
+ms.keywords: "_PHY_CONFIGURATION_PACKET, IEEE.phy_configuration_packet, PHY_CONFIGURATION_PACKET structure [Buses], PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], 1394/PPHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	PHY_CONFIGURATION_PACKET
 product: Windows
 targetos: Windows
-req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
+req.typenames: "*PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET"
 ---
 
 # _PHY_CONFIGURATION_PACKET structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._WDIAG_IHV_WLAN_ID
-title: _WDIAG_IHV_WLAN_ID
+title: "_WDIAG_IHV_WLAN_ID"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\wdiag_ihv_wlan_id.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72dc7128-fcbc-4ad8-ac81-e2767ac6ffa2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdiag_ihv_wlan_id, WDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], wlanihv/WDIAG_IHV_WLAN_ID, wlanihv/PWDIAG_IHV_WLAN_ID, *PWDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], _WDIAG_IHV_WLAN_ID, Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml
+ms.keywords: WDIAG_IHV_WLAN_ID, wlanihv/WDIAG_IHV_WLAN_ID, Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml, _WDIAG_IHV_WLAN_ID, netvista.wdiag_ihv_wlan_id, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], wlanihv/PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], *PWDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	WDIAG_IHV_WLAN_ID
 product: Windows
 targetos: Windows
-req.typenames: WDIAG_IHV_WLAN_ID, *PWDIAG_IHV_WLAN_ID
+req.typenames: "*PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID"
 req.product: Windows 10 or later.
 ---
 
@@ -105,9 +105,9 @@ An error reason code, when available.
 
 ## -see-also
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
-
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
  
 

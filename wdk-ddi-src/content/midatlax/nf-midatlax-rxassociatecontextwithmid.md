@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxAssociateContextWithMid, ifsk.rxassociatecontextwithmid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml, midatlax/RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers]
+ms.keywords: midatlax/RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], ifsk.rxassociatecontextwithmid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml, RxAssociateContextWithMid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	midatlax.h
-apiname: 
+apiname:
 -	RxAssociateContextWithMid
 product: Windows
 targetos: Windows
-req.typenames: *PMCD_INIT_DATA, MCD_INIT_DATA
+req.typenames: "*PMCD_INIT_DATA, MCD_INIT_DATA"
 ---
 
 # RxAssociateContextWithMid function
@@ -85,9 +85,9 @@ TBD
 
 
 
-#### - pNewMid
+#### - pMidAtlas
 
-A pointer to the multiplex ID to be associated with the context.
+A pointer to the MID_ATLAS data structure.
 
 
 #### - pContext
@@ -95,9 +95,9 @@ A pointer to the multiplex ID to be associated with the context.
 A pointer to the context.
 
 
-#### - pMidAtlas
+#### - pNewMid
 
-A pointer to the MID_ATLAS data structure.
+A pointer to the multiplex ID to be associated with the context.
 
 
 ## -returns
@@ -146,15 +146,15 @@ The <i>pContext</i> parameter can be any opaque context but it is commonly an RX
 
 ## -see-also
 
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+
+<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
 <a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
 
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
-
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
 
  
 

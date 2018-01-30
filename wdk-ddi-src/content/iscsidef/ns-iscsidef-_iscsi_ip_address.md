@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_IP_Address
-title: _ISCSI_IP_Address
+title: "_ISCSI_IP_Address"
 author: windows-driver-content
 description: The ISCSI_IP_Address structure defines an IP address.
 old-location: storage\iscsi_ip_address.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec4c2add-33e0-4e3d-8f19-892cca4720a7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ISCSI_IP_Address, iscsidef/PISCSI_IP_Address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml, PISCSI_IP_Address structure pointer [Storage Devices], ISCSI_IP_Address structure [Storage Devices], iscsidef/ISCSI_IP_Address, *PISCSI_IP_Address, storage.iscsi_ip_address, ISCSI_IP_Address, PISCSI_IP_Address
+ms.keywords: ISCSI_IP_Address structure [Storage Devices], PISCSI_IP_Address structure pointer [Storage Devices], iscsidef/PISCSI_IP_Address, ISCSI_IP_Address, _ISCSI_IP_Address, *PISCSI_IP_Address, PISCSI_IP_Address, storage.iscsi_ip_address, iscsidef/ISCSI_IP_Address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsidef.h
-apiname: 
+apiname:
 -	ISCSI_IP_Address
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_IP_Address, ISCSI_IP_Address
+req.typenames: "*PISCSI_IP_Address, ISCSI_IP_Address"
 ---
 
 # _ISCSI_IP_Address structure
@@ -104,9 +104,9 @@ If <b>Type</b> = <b>ISCSI_IP_ADDRESS_TEXT</b>, the DNS or dotted decimal text ad
 
 ## -see-also
 
-<a href="..\iscsidef\ne-iscsidef-piscsiipaddresstype.md">ISCSIIPADDRESSTYPE</a>
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+<a href="..\iscsidef\ne-iscsidef-piscsiipaddresstype.md">ISCSIIPADDRESSTYPE</a>
 
  
 

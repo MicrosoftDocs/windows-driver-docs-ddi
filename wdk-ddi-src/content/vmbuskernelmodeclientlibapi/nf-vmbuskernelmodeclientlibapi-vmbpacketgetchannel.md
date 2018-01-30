@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BE5BB8CD-6B2F-4CFE-8A1E-B13BD9D7DBE7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbpacketgetchannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel, VmbPacketGetChannel, VmbPacketGetChannel function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbPacketGetChannel function [Network Drivers Starting with Windows Vista], netvista.vmbpacketgetchannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel, VmbPacketGetChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketGetChannel
 product: Windows
 targetos: Windows

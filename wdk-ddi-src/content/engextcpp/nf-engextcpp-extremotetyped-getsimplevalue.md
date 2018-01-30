@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::Clear, ExtRemoteTyped::ErtIoctl, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, Clear, ExtRemoteTyped::Copy, ExtRemoteTyped::GetSimpleValue, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], Copy, ErtIoctl, ExtRemoteTyped class [Windows Debugging], described, debugger.extremotetyped, engextcpp/ExtRemoteTyped, GetSimpleValue
+ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped class [Windows Debugging], EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::GetSimpleValue, GetSimpleValue, debugger.extremotetyped, engextcpp/ExtRemoteTyped, ExtRemoteTyped::Copy, ErtIoctl, ExtRemoteTyped::Clear, Clear, ExtRemoteTyped, Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetSimpleValue method
@@ -63,13 +63,13 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">operator=</a>
+<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">operator=</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">operator=</a>
+<a href="..\arrayofelements\nf-arrayofelements-arrayofelements-operator=.md">operator=</a>
 
 
 </dd>

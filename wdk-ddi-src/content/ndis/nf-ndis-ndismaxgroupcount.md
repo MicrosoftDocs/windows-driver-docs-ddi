@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 080707c5-cf46-4066-a241-684cdae37fee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, ndis/NdisMaxGroupCount, NdisMaxGroupCount, netvista.ndismaxgroupcount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisMaxGroupCount, NdisMaxGroupCount, netvista.ndismaxgroupcount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMaxGroupCount
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMaxGroupCount function

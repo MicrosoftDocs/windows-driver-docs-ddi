@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8fd7aeea-f8b2-4f53-b4b6-65240ff0c7b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers], ifsk.fsrtlfastunlocksingle, ntifs/FsRtlFastUnlockSingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml
+ms.keywords: FsRtlFastUnlockSingle routine [Installable File System Drivers], FsRtlFastUnlockSingle, ntifs/FsRtlFastUnlockSingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, ifsk.fsrtlfastunlocksingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlFastUnlockSingle
 product: Windows
 targetos: Windows
@@ -123,9 +123,9 @@ The <b>FsRtlFastUnlockSingle</b> routine returns STATUS_SUCCESS or an error stat
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
  
 

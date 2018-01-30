@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	MiniportTcpOffloadForward
 product: Windows
 targetos: Windows
@@ -176,9 +176,9 @@ The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
    NdisTcpOffloadForwardComplete</b></mshelp:link>

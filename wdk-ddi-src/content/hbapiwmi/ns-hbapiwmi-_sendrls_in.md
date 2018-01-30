@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRLS_IN
-title: _SendRLS_IN
+title: "_SendRLS_IN"
 author: windows-driver-content
 description: The SendRLS_IN structure is used to deliver input parameter data to the SendRLS WMI method.
 old-location: storage\sendrls_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, *PSendRLS_IN, PSendRLS_IN structure pointer [Storage Devices], hbapiwmi/PSendRLS_IN, storage.sendrls_in, hbapiwmi/SendRLS_IN, SendRLS_IN structure [Storage Devices], _SendRLS_IN, SendRLS_IN, PSendRLS_IN
+ms.keywords: structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, PSendRLS_IN, hbapiwmi/SendRLS_IN, *PSendRLS_IN, SendRLS_IN structure [Storage Devices], storage.sendrls_in, SendRLS_IN, hbapiwmi/PSendRLS_IN, _SendRLS_IN, PSendRLS_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRLS_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSendRLS_IN, SendRLS_IN
+req.typenames: "*PSendRLS_IN, SendRLS_IN"
 ---
 
 # _SendRLS_IN structure

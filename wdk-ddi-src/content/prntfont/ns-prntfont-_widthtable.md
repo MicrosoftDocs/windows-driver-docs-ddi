@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._WIDTHTABLE
-title: _WIDTHTABLE
+title: "_WIDTHTABLE"
 author: windows-driver-content
 description: The WIDTHTABLE structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\widthtable.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.widthtable, WIDTHTABLE structure [Print Devices], PWIDTHTABLE structure pointer [Print Devices], _WIDTHTABLE, prntfont/WIDTHTABLE, *PWIDTHTABLE, PWIDTHTABLE, prntfont/PWIDTHTABLE, WIDTHTABLE, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml
+ms.keywords: WIDTHTABLE structure [Print Devices], PWIDTHTABLE structure pointer [Print Devices], _WIDTHTABLE, WIDTHTABLE, *PWIDTHTABLE, prntfont/PWIDTHTABLE, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, prntfont/WIDTHTABLE, PWIDTHTABLE, print.widthtable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	WIDTHTABLE
 product: Windows
 targetos: Windows
-req.typenames: *PWIDTHTABLE, WIDTHTABLE
+req.typenames: "*PWIDTHTABLE, WIDTHTABLE"
 req.product: Windows 10 or later.
 ---
 

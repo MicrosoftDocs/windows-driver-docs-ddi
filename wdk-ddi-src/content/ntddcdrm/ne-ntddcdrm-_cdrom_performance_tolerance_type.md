@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_PERFORMANCE_TOLERANCE_TYPE
-title: _CDROM_PERFORMANCE_TOLERANCE_TYPE
+title: "_CDROM_PERFORMANCE_TOLERANCE_TYPE"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration defines the allowable tolerances for performance data. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_tolerance_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2369582F-D042-474D-9191-F9E7BDD3725E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_TOLERANCE_TYPE, Cdrom10Nominal20Exceptions, PCDROM_PERFORMANCE_TOLERANCE_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_TOLERANCE_TYPE, storage.cdrom_performance_tolerance_type, PCDROM_PERFORMANCE_TOLERANCE_TYPE, *PCDROM_PERFORMANCE_TOLERANCE_TYPE, _CDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/ Cdrom10Nominal20Exceptions, CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration [Storage Devices]
+ms.keywords: "_CDROM_PERFORMANCE_TOLERANCE_TYPE, Cdrom10Nominal20Exceptions, CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration [Storage Devices], *PCDROM_PERFORMANCE_TOLERANCE_TYPE, PCDROM_PERFORMANCE_TOLERANCE_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_TOLERANCE_TYPE, PCDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE, storage.cdrom_performance_tolerance_type, ntddcdrm/PCDROM_PERFORMANCE_TOLERANCE_TYPE, ntddcdrm/ Cdrom10Nominal20Exceptions"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_PERFORMANCE_TOLERANCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE
+req.typenames: "*PCDROM_PERFORMANCE_TOLERANCE_TYPE, CDROM_PERFORMANCE_TOLERANCE_TYPE"
 ---
 
 # _CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration
@@ -74,9 +74,9 @@ Specifies that the descriptors returned have a 10% performance tolerance for the
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
 
  
 

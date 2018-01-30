@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_RAW_DATA_FORMAT
-title: _WHEA_RAW_DATA_FORMAT
+title: "_WHEA_RAW_DATA_FORMAT"
 author: windows-driver-content
 description: The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
 old-location: whea\whea_raw_data_format.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 809f2d72-e769-48c1-9ecf-6fa9020f6cdb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WheaRawDataFormatIA32MCA, WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatPCIExpress, WheaRawDataFormatIntel64MCA, WheaRawDataFormatGeneric, WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatMax, WheaRawDataFormatPCIExpress, WheaRawDataFormatMax, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml, ntddk/WheaRawDataFormatNMIPort, ntddk/PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatMemory, _WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatGeneric, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatIntel64MCA, *PWHEA_RAW_DATA_FORMAT, ntddk/WHEA_RAW_DATA_FORMAT, WheaRawDataFormatIPFSalRecord, whea.whea_raw_data_format, WHEA_RAW_DATA_FORMAT, WheaRawDataFormatIA32MCA, WheaRawDataFormatPCIXDevice, PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatPCIXDevice, ntddk/WheaRawDataFormatIPFSalRecord, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications]
+ms.keywords: "*PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatNMIPort, WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatAMD64MCA, ntddk/PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatMax, ntddk/WheaRawDataFormatNMIPort, WheaRawDataFormatIntel64MCA, whea.whea_raw_data_format, ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatIntel64MCA, WheaRawDataFormatPCIExpress, WheaRawDataFormatMemory, WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatPCIExpress, WheaRawDataFormatIPFSalRecord, WheaRawDataFormatPCIXDevice, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], ntddk/WheaRawDataFormatPCIXBus, _WHEA_RAW_DATA_FORMAT, WheaRawDataFormatAMD64MCA, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], ntddk/WHEA_RAW_DATA_FORMAT, WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatIA32MCA, ntddk/WheaRawDataFormatPCIXDevice, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml, WheaRawDataFormatIA32MCA, PWHEA_RAW_DATA_FORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_RAW_DATA_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # _WHEA_RAW_DATA_FORMAT enumeration
@@ -141,9 +141,9 @@ The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a>
 

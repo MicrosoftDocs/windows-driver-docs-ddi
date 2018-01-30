@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, MmGetSystemAddressForMdl, kernel.mmgetsystemaddressformdl, wdm/MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl, MmGetSystemAddressForMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: wdm.h
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	MmGetSystemAddressForMdl
 product: Windows
 targetos: Windows
@@ -99,9 +99,9 @@ Windows 2000 issues a bug check if the attempt to map to system space fails. (Th
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
  
 

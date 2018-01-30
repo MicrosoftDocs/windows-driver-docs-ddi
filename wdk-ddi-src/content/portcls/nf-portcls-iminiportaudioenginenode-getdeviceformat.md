@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6EA01AE7-E5D5-4182-862D-2901185C2BF8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportaudioenginenode_getdeviceformat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceFormat, IMiniportAudioEngineNode::GetDeviceFormat, GetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::GetDeviceFormat, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, IMiniportAudioEngineNode
+ms.keywords: GetDeviceFormat method [Audio Devices], portcls/IMiniportAudioEngineNode::GetDeviceFormat, GetDeviceFormat, GetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getdeviceformat, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceFormat method, IMiniportAudioEngineNode::GetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f4beff75-6177-40c7-a62c-6e24bc54ea58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml, StorPortWriteRegisterUshort, storage.storportwriteregisterushort, StorPortWriteRegisterUshort routine [Storage Devices], storport/StorPortWriteRegisterUshort
+ms.keywords: StorPortWriteRegisterUshort routine [Storage Devices], storage.storportwriteregisterushort, storport/StorPortWriteRegisterUshort, storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml, StorPortWriteRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortWriteRegisterUshort
 product: Windows
 targetos: Windows

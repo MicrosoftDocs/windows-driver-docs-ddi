@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmGetMaximumFileSectionSize, ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers]
+ms.keywords: ntifs/MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmGetMaximumFileSectionSize
 product: Windows
 targetos: Windows

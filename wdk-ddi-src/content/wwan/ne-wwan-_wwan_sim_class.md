@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SIM_CLASS
-title: _WWAN_SIM_CLASS
+title: "_WWAN_SIM_CLASS"
 author: windows-driver-content
 description: The WWAN_SIM_CLASS enumeration lists the different types of Subscriber Identity Modules (SIMs) that are supported by the MB device.
 old-location: netvista\wwan_sim_class.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d66874b-bb1d-43e5-a4b2-525face7de81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SIM_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SIM_CLASS, WwanRef_8c5184eb-4ac5-40a7-bb52-875554517f70.xml, WwanSimClassMax, _WWAN_SIM_CLASS, WWAN_SIM_CLASS, WwanSimClassUnknown, WWAN_SIM_CLASS enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_sim_class, wwan/WwanSimClassSimLogical, PWWAN_SIM_CLASS, WwanSimClassSimLogical, wwan/WwanSimClassSimRemote, wwan/WwanSimClassMax, wwan/PWWAN_SIM_CLASS, *PWWAN_SIM_CLASS, wwan/WwanSimClassSimRemovable, wwan/WwanSimClassUnknown, WwanSimClassSimRemote, WwanSimClassSimRemovable
+ms.keywords: WwanSimClassSimRemote, netvista.wwan_sim_class, WwanSimClassSimRemovable, *PWWAN_SIM_CLASS, WwanSimClassSimLogical, wwan/WwanSimClassSimRemote, PWWAN_SIM_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSimClassSimRemovable, wwan/WwanSimClassSimLogical, PWWAN_SIM_CLASS, WwanSimClassUnknown, _WWAN_SIM_CLASS, wwan/WwanSimClassUnknown, wwan/WwanSimClassMax, WWAN_SIM_CLASS, WwanRef_8c5184eb-4ac5-40a7-bb52-875554517f70.xml, WwanSimClassMax, wwan/WWAN_SIM_CLASS, wwan/PWWAN_SIM_CLASS, WWAN_SIM_CLASS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SIM_CLASS
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SIM_CLASS, WWAN_SIM_CLASS
+req.typenames: WWAN_SIM_CLASS, *PWWAN_SIM_CLASS
 req.product: Windows 10 or later.
 ---
 

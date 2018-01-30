@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9537D56C-920E-478E-9061-C4909240D7A0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusprop/PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS structure pointer [Audio Devices], SYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS structure [Audio Devices], _SYNTH_REVERB_PARAMS, audio.synth_reverb_params, dmusprop/SYNTH_REVERB_PARAMS, *PSYNTH_REVERB_PARAMS
+ms.keywords: dmusprop/PSYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS, *PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS structure pointer [Audio Devices], audio.synth_reverb_params, dmusprop/SYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS, _SYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 71DC78B0-F987-4FFB-B3D0-E7AD88EECDA3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_clear_active_interrupts_parameters, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], gpioclx/PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
+ms.keywords: "_GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_clear_active_interrupts_parameters, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], gpioclx/PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,9 +95,9 @@ The <i>ClearParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
  
 

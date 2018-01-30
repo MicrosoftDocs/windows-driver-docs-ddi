@@ -2,13 +2,13 @@
 UID: NE:ks.KSEVENT_VOLUMELIMIT
 title: KSEVENT_VOLUMELIMIT
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksevent_volumelimit.htm
 old-project: stream
 ms.assetid: B03477A0-B7ED-491F-9D6F-B32A0E719475
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_VOLUMELIMIT_CHANGED, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT, stream.ksevent_volumelimit, ks/KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT
+ms.keywords: ks/KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit, KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSEVENT_VOLUMELIMIT
 product: Windows
 targetos: Windows

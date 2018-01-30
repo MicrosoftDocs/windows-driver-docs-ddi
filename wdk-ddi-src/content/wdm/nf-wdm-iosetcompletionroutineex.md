@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe84e542-c8b2-4631-9ffb-dde471311871
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, kernel.iosetcompletionroutineex, IoSetCompletionRoutineEx, wdm/IoSetCompletionRoutineEx
+ms.keywords: IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, kernel.iosetcompletionroutineex, wdm/IoSetCompletionRoutineEx, IoSetCompletionRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetCompletionRoutineEx
 product: Windows
 targetos: Windows
@@ -136,21 +136,21 @@ The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="..\w
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
 
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
  
 

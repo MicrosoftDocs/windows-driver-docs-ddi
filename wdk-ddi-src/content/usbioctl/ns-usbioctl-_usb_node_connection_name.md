@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_NAME
-title: _USB_NODE_CONNECTION_NAME
+title: "_USB_NODE_CONNECTION_NAME"
 author: windows-driver-content
 description: The USB_NODE_CONNECTION_NAME structure is used with the IOCTL_USB_GET_NODE_CONNECTION_NAME I/O control request to retrieve the symbolic link of the downstream hub that is attached to the port.
 old-location: buses\usb_node_connection_name.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f38248fb-b2aa-417a-9d9b-36ff069bf78f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], *PUSB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME structure [Buses], usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, USB_NODE_CONNECTION_NAME, usbioctl/PUSB_NODE_CONNECTION_NAME
+ms.keywords: USB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, usbioctl/PUSB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, *PUSB_NODE_CONNECTION_NAME, _USB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME structure [Buses], PUSB_NODE_CONNECTION_NAME structure pointer [Buses], PUSB_NODE_CONNECTION_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_NODE_CONNECTION_NAME
 product: Windows
 targetos: Windows
@@ -87,9 +87,9 @@ A Unicode symbolic link for the downstream hub that is attached to the port that
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_name.md">IOCTL_USB_GET_NODE_CONNECTION_NAME</a>
 
  
 

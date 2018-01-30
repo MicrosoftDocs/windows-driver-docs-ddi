@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dbea07e1-f987-45d8-91cb-bde45df0672b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList, k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, ExInterlockedPopEntrySList
+ms.keywords: kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList, k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], ExInterlockedPopEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExInterlockedPopEntrySList
 product: Windows
 targetos: Windows
@@ -99,15 +99,15 @@ On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
-
-<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BBABE50B-98FF-440E-B5B0-11C8F901D8FE
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName, ifsk.fltenumerateinstanceinformationbyvolumename, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers]
+ms.keywords: ifsk.fltenumerateinstanceinformationbyvolumename, fltkernel/FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+apiname:
 -	FltEnumerateInstanceInformationByVolumeName
 product: Windows
 targetos: Windows
@@ -269,11 +269,11 @@ This routine will return both legacy filter driver information and minifilter dr
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbydeviceobject.md">FltEnumerateInstanceInformationByDeviceObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
 
  
 

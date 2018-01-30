@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_TARGET_SENT_IO_ACTION
-title: _WDF_IO_TARGET_SENT_IO_ACTION
+title: "_WDF_IO_TARGET_SENT_IO_ACTION"
 author: windows-driver-content
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls IWDFIoTargetStateManagement::Stop or IWDFRemoteTarget::Stop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action__umdf_.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetSentIoUndefined, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, WdfIoTargetSentIoMaximum, WdfIoTargetLeaveSentIoPending, _WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, wdf.wdf_io_target_sent_io_action__umdf_, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, umdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetSentIoMaximum, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration
+ms.keywords: wdf.wdf_io_target_sent_io_action__umdf_, WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, umdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetSentIoUndefined, _WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetWaitForSentIoToComplete, WDF_IO_TARGET_SENT_IO_ACTION enumeration, wudfddi_types/WdfIoTargetSentIoMaximum, WdfIoTargetLeaveSentIoPending, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, wudfddi_types/WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoMaximum, WdfIoTargetSentIoUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_IO_TARGET_SENT_IO_ACTION
 product: Windows
 targetos: Windows

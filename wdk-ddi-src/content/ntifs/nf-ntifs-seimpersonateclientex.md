@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.seimpersonateclientex, SeImpersonateClientEx routine [Installable File System Drivers], ntifs/SeImpersonateClientEx, SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml
+ms.keywords: seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, SeImpersonateClientEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeImpersonateClientEx
 product: Windows
 targetos: Windows
@@ -143,13 +143,13 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
+<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
 
 <a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
-
 <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
 
  
 

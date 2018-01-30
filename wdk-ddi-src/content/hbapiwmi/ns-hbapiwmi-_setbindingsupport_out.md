@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetBindingSupport_OUT
-title: _SetBindingSupport_OUT
+title: "_SetBindingSupport_OUT"
 author: windows-driver-content
 description: The SetBindingSupport_OUT structure is used to report the output parameter data of the SetBindingSupport WMI method to the WMI client.
 old-location: storage\setbindingsupport_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b37780-0b33-4af9-9634-571b49be5791
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_95e0c3db-69d5-406f-98ea-6554eed922ef.xml, hbapiwmi/PSetBindingSupport_OUT, storage.setbindingsupport_out, SetBindingSupport_OUT structure [Storage Devices], _SetBindingSupport_OUT, *PSetBindingSupport_OUT, hbapiwmi/SetBindingSupport_OUT, PSetBindingSupport_OUT, SetBindingSupport_OUT, PSetBindingSupport_OUT structure pointer [Storage Devices]
+ms.keywords: "*PSetBindingSupport_OUT, storage.setbindingsupport_out, PSetBindingSupport_OUT, SetBindingSupport_OUT, structs-Fibre_95e0c3db-69d5-406f-98ea-6554eed922ef.xml, hbapiwmi/PSetBindingSupport_OUT, hbapiwmi/SetBindingSupport_OUT, SetBindingSupport_OUT structure [Storage Devices], _SetBindingSupport_OUT, PSetBindingSupport_OUT structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SetBindingSupport_OUT
 product: Windows
 targetos: Windows

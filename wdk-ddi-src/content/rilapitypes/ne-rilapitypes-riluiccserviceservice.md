@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc3df2dd-caa7-4614-a243-3df13e3c0e84
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluiccserviceservice_2, rilapitypes/RIL_UICCOPERATION_SERVICE_MAX, RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RILUICCSERVICESERVICE, RIL_UICCOPERATION_SERVICE_MAX, RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_ACL
+ms.keywords: netvista.riluiccserviceservice_2, RIL_UICCOPERATION_SERVICE_BDN, rilapitypes/RIL_UICCOPERATION_SERVICE_MAX, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, rilapitypes/RILUICCSERVICESERVICE, RILUICCSERVICESERVICE, RIL_UICCOPERATION_SERVICE_MAX, rilapitypes/RIL_UICCOPERATION_SERVICE_ACL, rilapitypes/RIL_UICCOPERATION_SERVICE_BDN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCSERVICESERVICE
 product: Windows
 targetos: Windows

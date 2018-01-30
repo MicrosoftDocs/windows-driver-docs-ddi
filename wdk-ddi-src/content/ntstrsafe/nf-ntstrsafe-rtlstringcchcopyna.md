@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86ec1a98-d70f-437c-9c8b-005bf78375ba
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml, RtlStringCchCopyNW, RtlStringCchCopyNA, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCopyNW, RtlStringCchCopyN, kernel.rtlstringcchcopyn
+ms.keywords: ntstrsafe/RtlStringCchCopyNW, RtlStringCchCopyNW, RtlStringCchCopyN, safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml, RtlStringCchCopyNA, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchCopyNW
 -	RtlStringCchCopyNW
 -	RtlStringCchCopyNW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCopyNA function
@@ -211,9 +211,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
 
  
 

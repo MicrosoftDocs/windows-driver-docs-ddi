@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioqueuestopsynchronously, kmdf.wdfioqueuestopsynchronously, PFN_WDFIOQUEUESTOPSYNCHRONOUSLY, wdfio/WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, WdfIoQueueStopSynchronously, DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml
+ms.keywords: wdf.wdfioqueuestopsynchronously, wdfio/WdfIoQueueStopSynchronously, DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, PFN_WDFIOQUEUESTOPSYNCHRONOUSLY, kmdf.wdfioqueuestopsynchronously, WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfIoQueueStopSynchronously
 product: Windows
 targetos: Windows
@@ -101,9 +101,9 @@ Do not call <b>WdfIoQueueStopSynchronously</b> from the following queue object e
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
  
 

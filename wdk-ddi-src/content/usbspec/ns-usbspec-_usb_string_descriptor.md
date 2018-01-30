@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_STRING_DESCRIPTOR
-title: _USB_STRING_DESCRIPTOR
+title: "_USB_STRING_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_STRING_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined string descriptor.
 old-location: buses\usb_string_descriptor.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usb_string_descriptor, _USB_STRING_DESCRIPTOR, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], PUSB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, PUSB_STRING_DESCRIPTOR structure pointer [Buses]
+ms.keywords: PUSB_STRING_DESCRIPTOR structure pointer [Buses], usbspec/PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbspec.h
-apiname: 
+apiname:
 -	USB_STRING_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -96,11 +96,11 @@ Strings returned in <b>bString</b> are in Unicode format and the contents of the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
  
 

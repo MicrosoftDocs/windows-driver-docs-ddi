@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	scsiwmi.h
-apiname: 
+apiname:
 -	HwScsiWmiQueryReginfo
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx._SERCX_ACTIVITY
-title: _SERCX_ACTIVITY
+title: "_SERCX_ACTIVITY"
 author: windows-driver-content
 description: The SERCX_ACTIVITY structure contains a summary of work items that are ready for the serial controller driver to process.
 old-location: serports\sercx_activity.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SERCX_ACTIVITY, *PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], serports.sercx_activity, _SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], SERCX_ACTIVITY, PSERCX_ACTIVITY
+ms.keywords: PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], 1/PSERCX_ACTIVITY, serports.sercx_activity, SERCX_ACTIVITY, 1/SERCX_ACTIVITY, *PSERCX_ACTIVITY, _SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX_ACTIVITY
 product: Windows
 targetos: Windows
-req.typenames: *PSERCX_ACTIVITY, SERCX_ACTIVITY
+req.typenames: SERCX_ACTIVITY, *PSERCX_ACTIVITY
 req.product: Windows 10 or later.
 ---
 
@@ -98,15 +98,15 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
+<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
 
 <a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
 
-<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
+<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
  
 

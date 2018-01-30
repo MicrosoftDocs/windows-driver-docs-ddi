@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_CAPABILITY
-title: _STOR_CRYPTO_CAPABILITY
+title: "_STOR_CRYPTO_CAPABILITY"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_capability.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AC8EBE07-92D6-4985-A575-8AD3321D29FB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_crypto_capability, PSTOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY, storport/PSTOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY structure [Storage Devices], storport/STOR_CRYPTO_CAPABILITY, _STOR_CRYPTO_CAPABILITY, *PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY structure pointer [Storage Devices]
+ms.keywords: "*PSTOR_CRYPTO_CAPABILITY, _STOR_CRYPTO_CAPABILITY, storport/STOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY structure pointer [Storage Devices], STOR_CRYPTO_CAPABILITY structure [Storage Devices], STOR_CRYPTO_CAPABILITY, storage.stor_crypto_capability, storport/PSTOR_CRYPTO_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_CRYPTO_CAPABILITY
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._GET_MEDIA_TYPES
-title: _GET_MEDIA_TYPES
+title: "_GET_MEDIA_TYPES"
 author: windows-driver-content
 description: The GET_MEDIA_TYPES structure is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to retrieve information about the types of media supported by a device.
 old-location: storage\get_media_types.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e803505f-37a0-4b20-bd6f-ce0f79eead03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PGET_MEDIA_TYPES, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml, PGET_MEDIA_TYPES, _GET_MEDIA_TYPES, storage.get_media_types, GET_MEDIA_TYPES, GET_MEDIA_TYPES structure [Storage Devices], ntddstor/GET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices], *PGET_MEDIA_TYPES
+ms.keywords: PGET_MEDIA_TYPES, GET_MEDIA_TYPES structure [Storage Devices], ntddstor/GET_MEDIA_TYPES, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml, _GET_MEDIA_TYPES, *PGET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices], ntddstor/PGET_MEDIA_TYPES, GET_MEDIA_TYPES, storage.get_media_types
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	GET_MEDIA_TYPES
 product: Windows
 targetos: Windows
-req.typenames: *PGET_MEDIA_TYPES, GET_MEDIA_TYPES
+req.typenames: "*PGET_MEDIA_TYPES, GET_MEDIA_TYPES"
 ---
 
 # _GET_MEDIA_TYPES structure

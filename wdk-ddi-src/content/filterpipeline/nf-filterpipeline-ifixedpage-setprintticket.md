@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d899211a-e98d-45f6-9574-8b5f51658edf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.ifixedpage_setprintticket, IFixedPage::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], IFixedPage interface [Print Devices], SetPrintTicket method, SetPrintTicket method [Print Devices], IFixedPage interface, IFixedPage, filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, filterpipeline/IFixedPage::SetPrintTicket
+ms.keywords: filterpipeline/IFixedPage::SetPrintTicket, IFixedPage, SetPrintTicket, SetPrintTicket method [Print Devices], IFixedPage interface [Print Devices], SetPrintTicket method, SetPrintTicket method [Print Devices], IFixedPage interface, filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, IFixedPage::SetPrintTicket, print.ifixedpage_setprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedPage.SetPrintTicket
 product: Windows
 targetos: Windows

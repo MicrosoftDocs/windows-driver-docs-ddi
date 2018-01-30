@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b20db9e-807d-40f5-844f-f9726e3a854f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], kernel.obdereferenceobjectdeferdelete, k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, wdm/ObDereferenceObjectDeferDelete
+ms.keywords: kernel.obdereferenceobjectdeferdelete, wdm/ObDereferenceObjectDeferDelete, k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObDereferenceObjectDeferDelete
 product: Windows
 targetos: Windows
@@ -95,9 +95,9 @@ To avoid such deadlocks, use <b>ObDereferenceObjectDeferDelete</b> instead of <b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
  
 

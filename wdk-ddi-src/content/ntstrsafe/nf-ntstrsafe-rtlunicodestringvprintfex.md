@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringVPrintfEx, kernel.rtlunicodestringvprintfex, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml, RtlUnicodeStringVPrintfEx
+ms.keywords: kernel.rtlunicodestringvprintfex, RtlUnicodeStringVPrintfEx, ntstrsafe/RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml, RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringVPrintfEx
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringVPrintfEx function
@@ -89,6 +89,36 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
 
 
 
+#### STRSAFE_FILL_BEHIND
+
+If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
+
+
+#### STRSAFE_IGNORE_NULLS
+
+If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringVPrintfEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
+
+
+#### STRSAFE_FILL_ON_FAILURE
+
+If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
+
+
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+
+
+#### STRSAFE_NO_TRUNCATION
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
+
+
+#### STRSAFE_ZERO_LENGTH_ON_FAILURE
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
+
+
 ### -param pszFormat [in]
 
 A pointer to a nul-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
@@ -97,36 +127,6 @@ A pointer to a nul-terminated text string that contains <b>printf</b>-styled for
 ### -param argList [in]
 
 A <b>va_list</b>-typed argument list. Arguments in this argument list will be interpreted by the using formatting string that <i>pszFormat</i> supplies.
-
-
-##### - dwFlags.STRSAFE_FILL_BEHIND
-
-If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
-
-
-##### - dwFlags.STRSAFE_IGNORE_NULLS
-
-If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringVPrintfEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
-
-
-##### - dwFlags.STRSAFE_NULL_ON_FAILURE
-
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
-
-
-##### - dwFlags.STRSAFE_ZERO_LENGTH_ON_FAILURE
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
-
-
-##### - dwFlags.STRSAFE_FILL_ON_FAILURE
-
-If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
-
-
-##### - dwFlags.STRSAFE_NO_TRUNCATION
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
 
 
 ## -returns
@@ -204,9 +204,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintf.md">RtlUnicodeStringPrintf</a>
 

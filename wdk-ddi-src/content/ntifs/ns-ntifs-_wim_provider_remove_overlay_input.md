@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_REMOVE_OVERLAY_INPUT
-title: _WIM_PROVIDER_REMOVE_OVERLAY_INPUT
+title: "_WIM_PROVIDER_REMOVE_OVERLAY_INPUT"
 author: windows-driver-content
 description: A Windows Image File (WIM) data source to remove from the WIM provider is specified in the WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_remove_overlay_input.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8E228EA7-06ED-4BFB-AB15-E86334B9B0E8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: WIM_PROVIDER_ADD_OVERLAY_INPUT, ifsk.wim_provider_remove_overlay_input, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_REMOVE_OVERLAY_INPUT, *PWIM_PROVIDER_REMOVE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_PROVIDER_REMOVE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT, _WIM_PROVIDER_REMOVE_OVERLAY_INPUT, WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure [Installable File System Drivers]
+ms.keywords: "*PWIM_PROVIDER_REMOVE_OVERLAY_INPUT, ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], PWIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_REMOVE_OVERLAY_INPUT, WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure [Installable File System Drivers], ifsk.wim_provider_remove_overlay_input, WIM_PROVIDER_REMOVE_OVERLAY_INPUT, _WIM_PROVIDER_REMOVE_OVERLAY_INPUT, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], WIM_PROVIDER_ADD_OVERLAY_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	WIM_PROVIDER_ADD_OVERLAY_INPUT
 product: Windows
 targetos: Windows
@@ -83,11 +83,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632437">FSCTL_ADD_OVERLAY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
 
  
 

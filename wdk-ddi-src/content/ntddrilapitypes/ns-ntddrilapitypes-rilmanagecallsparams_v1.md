@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e89e417-59aa-4bcd-a6a9-0eaaa6a7a776
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMANAGECALLSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], *LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1, ntddrilapitypes/RILMANAGECALLSPARAMS_V1, netvista.rilmanagecallsparams_v1
+ms.keywords: ntddrilapitypes/RILMANAGECALLSPARAMS_V1, *LPRILMANAGECALLSPARAMS_V1, netvista.rilmanagecallsparams_v1, RILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMANAGECALLSPARAMS_V1
 product: Windows
 targetos: Windows
-req.typenames: *LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1
+req.typenames: RILMANAGECALLSPARAMS_V1, *LPRILMANAGECALLSPARAMS_V1
 ---
 
 # RILMANAGECALLSPARAMS_V1 structure

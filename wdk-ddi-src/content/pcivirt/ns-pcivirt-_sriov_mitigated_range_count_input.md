@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGE_COUNT_INPUT
-title: _SRIOV_MITIGATED_RANGE_COUNT_INPUT
+title: "_SRIOV_MITIGATED_RANGE_COUNT_INPUT"
 author: windows-driver-content
 description: This structure is used as an input buffer to the IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT request to determine the ranges of memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_count_input.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7de35a35-2b90-421d-bbde-4c5cb760070a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT
+ms.keywords: "_SRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	SRIOV_MITIGATED_RANGE_COUNT_INPUT
 product: Windows
 targetos: Windows

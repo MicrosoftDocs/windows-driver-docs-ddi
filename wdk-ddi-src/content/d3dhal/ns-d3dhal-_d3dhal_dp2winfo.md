@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da4cdaff-4418-4b88-bf47-5a1567e940e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2WINFO structure [Display Devices], LPD3DHAL_DP2WINFO structure pointer [Display Devices], *LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO, _D3DHAL_DP2WINFO, d3dhal/LPD3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, display.d3dhal_dp2winfo, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, LPD3DHAL_DP2WINFO
+ms.keywords: LPD3DHAL_DP2WINFO structure pointer [Display Devices], D3DHAL_DP2WINFO, display.d3dhal_dp2winfo, *LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO, _D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], d3dhal/LPD3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

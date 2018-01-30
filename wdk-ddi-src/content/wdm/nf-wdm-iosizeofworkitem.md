@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], kernel.iosizeofworkitem, wdm/IoSizeofWorkItem, IoSizeofWorkItem, k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml
+ms.keywords: wdm/IoSizeofWorkItem, k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSizeofWorkItem
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.isensordriver_onclientdisconnect, OnClientDisconnect method [Sensor Devices], ISensorDriver interface, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, OnClientDisconnect, sensorsclassextension/ISensorDriver::OnClientDisconnect, ISensorDriver, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, OnClientDisconnect method [Sensor Devices], ISensorDriver::OnClientDisconnect
+ms.keywords: OnClientDisconnect, ISensorDriver, sensors.isensordriver_onclientdisconnect, OnClientDisconnect method [Sensor Devices], sensorsclassextension/ISensorDriver::OnClientDisconnect, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, ISensorDriver::OnClientDisconnect, OnClientDisconnect method [Sensor Devices], ISensorDriver interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	ISensorDriver.OnClientDisconnect
 product: Windows
 targetos: Windows

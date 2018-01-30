@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._ATTRIBUTE_INFO_2
-title: _ATTRIBUTE_INFO_2
+title: "_ATTRIBUTE_INFO_2"
 author: windows-driver-content
 description: The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_2.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ATTRIBUTE_INFO_2 structure [Print Devices], _ATTRIBUTE_INFO_2, winddiui/ATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], print.attribute_info_2, PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, *PATTRIBUTE_INFO_2
+ms.keywords: winddiui/ATTRIBUTE_INFO_2, print.attribute_info_2, ATTRIBUTE_INFO_2 structure [Print Devices], _ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2, *PATTRIBUTE_INFO_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, ATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], PATTRIBUTE_INFO_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	ATTRIBUTE_INFO_2
 product: Windows
 targetos: Windows
-req.typenames: *PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2
+req.typenames: "*PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2"
 req.product: Windows 10 or later.
 ---
 
@@ -216,11 +216,11 @@ For more information about other structure members, see <a href="..\winddiui\ns-
 
 ## -see-also
 
+<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
+
 <a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
 
  
 

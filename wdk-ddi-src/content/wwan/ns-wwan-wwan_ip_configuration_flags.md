@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], WWAN_IP_CONFIGURATION_FLAGS, netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
+ms.keywords: WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], wwan/WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS, netvista.wwan_ip_configuration_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_IP_CONFIGURATION_FLAGS
 product: Windows
 targetos: Windows
@@ -99,16 +99,6 @@ typedef union {
 Reserved. Do not use.
 
 
-##### - ( unnamed struct ).DnsServerAvailable:1
-
-A DNS server is available.
-
-
-##### - ( unnamed struct ).GatewayAvailable:1
-
-A gateway is available.
-
-
 #### - ( unnamed struct )
 
 <div class="code"><span codelanguage=""><table>
@@ -129,12 +119,22 @@ struct
 </tr>
 </table></span></div>
 
-##### - ( unnamed struct ).AddressAvailable:1
+#### AddressAvailable:1
 
 An address is available.
 
 
-##### - ( unnamed struct ).MTUAvailable:1
+#### GatewayAvailable:1
+
+A gateway is available.
+
+
+#### DnsServerAvailable:1
+
+A DNS server is available.
+
+
+#### MTUAvailable:1
 
 An MTU is available.
 

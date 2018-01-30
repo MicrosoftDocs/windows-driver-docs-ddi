@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26a101c5-0866-44e3-948b-8d3ca4dd9d00
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "_DEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS structure [Windows Debugging], DEBUG_EXCEPTION_FILTER_PARAMETERS, debugger.debug_exception_filter_parameters, dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/PDEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAMETERS, Structures_f3f2b1ac-e10c-439e-9de9-6b4161bf3c28.xml, PDEBUG_EXCEPTION_FILTER_PARAMETERS structure pointer [Windows Debugging]"
+ms.keywords: PDEBUG_EXCEPTION_FILTER_PARAMETERS structure pointer [Windows Debugging], _DEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS, debugger.debug_exception_filter_parameters, DEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS structure [Windows Debugging], Structures_f3f2b1ac-e10c-439e-9de9-6b4161bf3c28.xml, dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/PDEBUG_EXCEPTION_FILTER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,9 +104,9 @@ The exception code for the exception filter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
 
  
 

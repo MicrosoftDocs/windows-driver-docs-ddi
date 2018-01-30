@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0f39e50-8bf1-4ac9-8610-18915b375797
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceinitsetpowernotpageable, wdf.wdfdeviceinitsetpowernotpageable, wdfdevice/WdfDeviceInitSetPowerNotPageable, PFN_WDFDEVICEINITSETPOWERNOTPAGEABLE, WdfDeviceInitSetPowerNotPageable method, WdfDeviceInitSetPowerNotPageable, DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml
+ms.keywords: DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, wdfdevice/WdfDeviceInitSetPowerNotPageable, WdfDeviceInitSetPowerNotPageable method, kmdf.wdfdeviceinitsetpowernotpageable, WdfDeviceInitSetPowerNotPageable, wdf.wdfdeviceinitsetpowernotpageable, PFN_WDFDEVICEINITSETPOWERNOTPAGEABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetPowerNotPageable
 product: Windows
 targetos: Windows

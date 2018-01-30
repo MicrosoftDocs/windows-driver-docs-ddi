@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee75cf74-def7-4705-ae61-c2472bd4446e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, RIL_MSGDISPLAYMODE_MAX, netvista.rilmsgcdmamsgdisplaymode, ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_USERDEFAULT, RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT
+ms.keywords: RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_USERDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT, RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmamsgdisplaymode, ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MOBILEDEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAMSGDISPLAYMODE
 product: Windows
 targetos: Windows

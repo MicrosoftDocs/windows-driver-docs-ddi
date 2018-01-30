@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1243f679-76c3-4d2e-8d57-b9d652b21a05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml, IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, ConvertPrintTicketToDevMode
+ms.keywords: ConvertPrintTicketToDevMode method [Print Devices], prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml, ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

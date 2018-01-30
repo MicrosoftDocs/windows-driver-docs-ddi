@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0809a013-9977-44fc-b800-576b4fd983e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, FwpsInjectTransportReceiveAsync0, netvista.fwpsinjecttransportreceiveasync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml
+ms.keywords: FwpsInjectTransportReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportReceiveAsync0, wfp_ref_2_funct_3_fwps_I_2d92a340-1ab7-4eb2-b0c4-47ce8de3daa4.xml, netvista.fwpsinjecttransportreceiveasync0, FwpsInjectTransportReceiveAsync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsInjectTransportReceiveAsync0
 product: Windows
 targetos: Windows
@@ -113,6 +113,16 @@ One of the following address families:
 
 
 
+#### AF_INET
+
+The IPv4 address family.
+
+
+#### AF_INET6
+
+The IPv6 address family.
+
+
 ### -param compartmentId [in]
 
 The identifier of the routing compartment into which the packet data is injected, specified as a 
@@ -169,16 +179,6 @@ A pointer to a
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
      by the 
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.
-
-
-##### - addressFamily.AF_INET6
-
-The IPv6 address family.
-
-
-##### - addressFamily.AF_INET
-
-The IPv4 address family.
 
 
 ## -returns
@@ -335,49 +335,49 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwps_packet_list_inbound_ipsec_information0" tabindex="0"><b>
-   FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
-   FwpsQueryPacketInjectionState0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsgetpacketlistsecurityinformation0" tabindex="0"><b>
-   FwpsGetPacketListSecurityInformation0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworksendasync0.md">FwpsInjectNetworkSendAsync0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-<a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+<mshelp:link keywords="netvista.fwps_packet_list_inbound_ipsec_information0" tabindex="0"><b>
+   FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b></mshelp:link>
 
 <mshelp:link keywords="netvista.fwpsallocatenetbufferandnetbufferlist0" tabindex="0"><b>
    FwpsAllocateNetBufferAndNetBufferList0</b></mshelp:link>
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectnetworksendasync0.md">FwpsInjectNetworkSendAsync0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+<a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552391">FWPS_FILTER_CONDITION0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+<mshelp:link keywords="netvista.fwpsquerypacketinjectionstate0" tabindex="0"><b>
+   FwpsQueryPacketInjectionState0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
 <mshelp:link keywords="netvista.fwpsallocateclonenetbufferlist0" tabindex="0"><b>
    FwpsAllocateCloneNetBufferList0</b></mshelp:link>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
+<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
+   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+
+<mshelp:link keywords="netvista.fwpsgetpacketlistsecurityinformation0" tabindex="0"><b>
+   FwpsGetPacketListSecurityInformation0</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552391">FWPS_FILTER_CONDITION0</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
  
 

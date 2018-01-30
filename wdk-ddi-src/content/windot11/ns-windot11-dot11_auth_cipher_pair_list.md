@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1440041-a7cd-45c6-8aa5-445d6de2bc20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_AUTH_CIPHER_PAIR_LIST, Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, *PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST, windot11/DOT11_AUTH_CIPHER_PAIR_LIST, netvista.dot11_auth_cipher_pair_list, DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PDOT11_AUTH_CIPHER_PAIR_LIST, netvista.dot11_auth_cipher_pair_list, Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, windot11/PDOT11_AUTH_CIPHER_PAIR_LIST, windot11/DOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_AUTH_CIPHER_PAIR_LIST
 product: Windows
 targetos: Windows
-req.typenames: DOT11_AUTH_CIPHER_PAIR_LIST, *PDOT11_AUTH_CIPHER_PAIR_LIST
+req.typenames: "*PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,22 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_AUTH_CIPHER_PAIR_LIST_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       <code>sizeof(DOT11_AUTH_CIPHER_PAIR_LIST)</code>.
+
+
 ### -field uNumOfEntries
 
 The number of entries in the 
@@ -104,22 +120,6 @@ The maximum number of entries that the
 The list of 
      <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
      DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structures.
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_AUTH_CIPHER_PAIR_LIST_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <code>sizeof(DOT11_AUTH_CIPHER_PAIR_LIST)</code>.
 
 
 ## -remarks
@@ -210,15 +210,15 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
 
 <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
 <mshelp:link keywords="netvista.oid_dot11_supported_unicast_algorithm_pair" tabindex="0">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</mshelp:link>
 
-<mshelp:link keywords="netvista.oid_dot11_supported_multicast_algorithm_pair" tabindex="0">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

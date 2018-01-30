@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], AttachKernelWide method, IDebugClient5::AttachKernelWide, debugger.attachkernelwide, dbgeng/IDebugClient5::AttachKernelWide, AttachKernelWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, AttachKernelWide method [Windows Debugging], AttachKernelWide
+ms.keywords: debugger.attachkernelwide, IDebugClient5, dbgeng/IDebugClient5::AttachKernelWide, IDebugClient5::AttachKernelWide, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, AttachKernelWide, AttachKernelWide method [Windows Debugging], IDebugClient5 interface, AttachKernelWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.AttachKernelWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::AttachKernelWide method
@@ -149,13 +149,13 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
  
 

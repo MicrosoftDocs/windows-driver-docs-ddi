@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes, kmdf.wdfusbinterfacegetnumconfiguredpipes, PFN_WDFUSBINTERFACEGETNUMCONFIGUREDPIPES, DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes method, wdf.wdfusbinterfacegetnumconfiguredpipes
+ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, wdf.wdfusbinterfacegetnumconfiguredpipes, kmdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes, PFN_WDFUSBINTERFACEGETNUMCONFIGUREDPIPES, WdfUsbInterfaceGetNumConfiguredPipes method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbInterfaceGetNumConfiguredPipes
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -100,9 +100,9 @@ For more information about the <b>WdfUsbInterfaceGetNumConfiguredPipes</b> metho
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
  
 

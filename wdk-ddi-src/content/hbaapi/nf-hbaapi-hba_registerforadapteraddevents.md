@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7395ccb8-2608-46ae-a378-987bd757761b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RegisterForAdapterAddEvents, storage.hba_registerforadapteraddevents, hbaapi/HBA_RegisterForAdapterAddEvents, fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, HBA_RegisterForAdapterAddEvents routine [Storage Devices]
+ms.keywords: hbaapi/HBA_RegisterForAdapterAddEvents, storage.hba_registerforadapteraddevents, HBA_RegisterForAdapterAddEvents routine [Storage Devices], fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, HBA_RegisterForAdapterAddEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_RegisterForAdapterAddEvents
 product: Windows
 targetos: Windows
@@ -139,11 +139,11 @@ When a new adapter is added to the system, an event of type HBA_EVENT_ADAPTER_AD
 
 ## -see-also
 
+<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556045">HBA_ADAPTER_CALLBACK</a>
-
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
  
 

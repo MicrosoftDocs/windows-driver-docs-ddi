@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE_DISPATCH
-title: _NDIS_PD_QUEUE_DISPATCH
+title: "_NDIS_PD_QUEUE_DISPATCH"
 author: windows-driver-content
 description: This structure contains a provider's driver routines for receive or transmit queues.
 old-location: netvista\ndis_pd_queue_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F9738CF9-AAC8-413C-A890-D6FAD7EEFD54
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_QUEUE_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_DISPATCH, PNDIS_PD_QUEUE_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_QUEUE_DISPATCH, NDIS_PD_QUEUE_DISPATCH, PNDIS_PD_QUEUE_DISPATCH, ndis/PNDIS_PD_QUEUE_DISPATCH, netvista.ndis_pd_queue_dispatch
+ms.keywords: ndis/NDIS_PD_QUEUE_DISPATCH, ndis/PNDIS_PD_QUEUE_DISPATCH, NDIS_PD_QUEUE_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_DISPATCH, NDIS_PD_QUEUE_DISPATCH, PNDIS_PD_QUEUE_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pd_queue_dispatch, PNDIS_PD_QUEUE_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_QUEUE_DISPATCH
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_POWER_CONTROL_COMPLETE
-title: _PEP_POWER_CONTROL_COMPLETE
+title: "_PEP_POWER_CONTROL_COMPLETE"
 author: windows-driver-content
 description: The PEP_POWER_CONTROL_COMPLETE structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed.
 old-location: kernel\pep_power_control_complete.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_power_control_complete, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PEP_POWER_CONTROL_COMPLETE, _PEP_POWER_CONTROL_COMPLETE, pepfx/PEP_POWER_CONTROL_COMPLETE
+ms.keywords: pepfx/PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, PEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_POWER_CONTROL_COMPLETE, _PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_POWER_CONTROL_COMPLETE
 product: Windows
 targetos: Windows

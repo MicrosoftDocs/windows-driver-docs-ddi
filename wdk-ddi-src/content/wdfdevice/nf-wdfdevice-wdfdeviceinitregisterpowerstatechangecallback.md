@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f3c09dfb-d327-488b-8e5d-77a579d1e1f0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitregisterpowerstatechangecallback, PFN_WDFDEVICEINITREGISTERPOWERSTATECHANGECALLBACK, kmdf.wdfdeviceinitregisterpowerstatechangecallback, WdfDeviceInitRegisterPowerStateChangeCallback method, DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback
+ms.keywords: wdf.wdfdeviceinitregisterpowerstatechangecallback, WdfDeviceInitRegisterPowerStateChangeCallback method, DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, kmdf.wdfdeviceinitregisterpowerstatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback, PFN_WDFDEVICEINITREGISTERPOWERSTATECHANGECALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitRegisterPowerStateChangeCallback
 product: Windows
 targetos: Windows

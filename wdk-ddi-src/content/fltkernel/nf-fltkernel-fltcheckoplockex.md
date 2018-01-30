@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2af1f496-48cf-4f99-a22b-cf7d1837617e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCheckOplockEx routine [Installable File System Drivers], ifsk.fltcheckoplockex, fltkernel/FltCheckOplockEx, FltCheckOplockEx, FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml
+ms.keywords: FltCheckOplockEx routine [Installable File System Drivers], FltCheckOplockEx, FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, ifsk.fltcheckoplockex, fltkernel/FltCheckOplockEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	FltMgr.lib
 -	FltMgr.dll
-apiname: 
+apiname:
 -	FltCheckOplockEx
 product: Windows
 targetos: Windows
@@ -90,6 +90,26 @@ A bitmask for the associated file I/O operation. A minifilter driver sets bits t
 
 
 
+#### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
+
+Allows an opportunistic lock break to proceed without blocking or pending the operation that caused the oplock break. 
+
+
+#### OPLOCK_FLAG_OPLOCK_KEY_CHECK_ONLY (0x00000002)
+
+Specifies that <b>FltCheckOplockEx</b> should only check for an opportunistic lock key on the FILE_OBJECT that is associated with the I/O operation. This I/O operations is represented by the callback data that the <i>CallbackData</i> parameter points to. <b>FltCheckOplockEx </b>must then add the key if one is provided in the I/O operation. No other oplock processing occurs; that is, no opportunistic lock break will occur. 
+
+
+#### OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK (0x00000004)
+
+Specifies that <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a> should revert any state that was previously set up through a call to the <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a> routine. <b>FltOplockFsctrl</b> is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed. 
+
+
+#### OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
+
+Allows all opportunistic lock breaks to proceed regardless of the opportunistic lock key. 
+
+
 ### -param Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that <i>WaitCompletionRoutine</i> and <i>PrePostCallbackDataRoutine </i>point to. The Filter Manager treats this information as opaque. 
@@ -118,6 +138,16 @@ This routine is declared as follows:
 
 
 
+#### CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+#### Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplockEx</b>. 
+
+
 ### -param PrePostCallbackDataRoutine [in, optional]
 
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. 
@@ -139,42 +169,12 @@ This routine is declared as follows:
 </table></span></div>
 
 
-##### - WaitCompletionRoutine.CallbackData
+#### CallbackData
 
 A pointer to the callback data structure for the I/O operation. 
 
 
-##### - Flags.OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
-
-Allows all opportunistic lock breaks to proceed regardless of the opportunistic lock key. 
-
-
-##### - Flags.OPLOCK_FLAG_OPLOCK_KEY_CHECK_ONLY (0x00000002)
-
-Specifies that <b>FltCheckOplockEx</b> should only check for an opportunistic lock key on the FILE_OBJECT that is associated with the I/O operation. This I/O operations is represented by the callback data that the <i>CallbackData</i> parameter points to. <b>FltCheckOplockEx </b>must then add the key if one is provided in the I/O operation. No other oplock processing occurs; that is, no opportunistic lock break will occur. 
-
-
-##### - PrePostCallbackDataRoutine.CallbackData
-
-A pointer to the callback data structure for the I/O operation. 
-
-
-##### - Flags.OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
-
-Allows an opportunistic lock break to proceed without blocking or pending the operation that caused the oplock break. 
-
-
-##### - Flags.OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK (0x00000004)
-
-Specifies that <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a> should revert any state that was previously set up through a call to the <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a> routine. <b>FltOplockFsctrl</b> is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed. 
-
-
-##### - WaitCompletionRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplockEx</b>. 
-
-
-##### - PrePostCallbackDataRoutine.Context
+#### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltCheckOplockEx</b>. 
 
@@ -266,19 +266,19 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
 <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
  
 

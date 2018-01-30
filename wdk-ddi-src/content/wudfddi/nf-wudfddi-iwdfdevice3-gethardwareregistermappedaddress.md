@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, IWDFDevice3, wdf.iwdfdevice3_gethardwareregistermappedaddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, GetHardwareRegisterMappedAddress method
+ms.keywords: IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, IWDFDevice3, GetHardwareRegisterMappedAddress method, umdf.iwdfdevice3_gethardwareregistermappedaddress, wdf.iwdfdevice3_gethardwareregistermappedaddress, IWDFDevice3::GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice3.GetHardwareRegisterMappedAddress
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

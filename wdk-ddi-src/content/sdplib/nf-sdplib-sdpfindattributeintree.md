@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 26c71c08-3b9a-474f-a232-d7f675582d27
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: sdplib/SdpFindAttributeInTree, bltooth.sdpfindattributeintree, SdpFindAttributeInTree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, SdpFindAttributeInTree function [Bluetooth Devices]
+ms.keywords: SdpFindAttributeInTree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, bltooth.sdpfindattributeintree, SdpFindAttributeInTree function [Bluetooth Devices], sdplib/SdpFindAttributeInTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,8 @@ apiname:
 -	SdpFindAttributeInTree
 product: Windows
 targetos: Windows
-req.typenames: PRINTIFI32, *PPRINTIFI32
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.product: Windows 10 or later.
 ---
 
 # SdpFindAttributeInTree function

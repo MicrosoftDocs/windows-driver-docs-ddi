@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush interface [Print Devices], FlushData method, print.iprintwritestreamflush_flushdata, FlushData method [Print Devices], IPrintWriteStreamFlush, FlushData, FlushData method [Print Devices], IPrintWriteStreamFlush interface, filterpipeline/IPrintWriteStreamFlush::FlushData
+ms.keywords: FlushData method [Print Devices], IPrintWriteStreamFlush interface, FlushData method [Print Devices], print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush interface [Print Devices], FlushData method, filterpipeline/IPrintWriteStreamFlush::FlushData, FlushData, IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintWriteStreamFlush.FlushData
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ Only the last filter in the print filter pipeline benefits from the flush. The d
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
 
  
 

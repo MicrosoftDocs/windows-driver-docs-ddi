@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_ENABLER_CONFIG_FLAGS
-title: _WDF_DMA_ENABLER_CONFIG_FLAGS
+title: "_WDF_DMA_ENABLER_CONFIG_FLAGS"
 author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG_FLAGS enumeration type defines flags that are used in a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8F8C97B2-5C77-4AD0-9434-22108111F5A8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, _WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS
+ms.keywords: wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS, wdf.wdf_dma_enabler_config_flags, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, kmdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_FLAGS, _WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdmaenabler.h
-apiname: 
+apiname:
 -	WDF_DMA_ENABLER_CONFIG_FLAGS
 product: Windows
 targetos: Windows

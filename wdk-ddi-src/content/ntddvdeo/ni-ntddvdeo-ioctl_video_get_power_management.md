@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_VIDEO_GET_POWER_MANAGEMENT
 product: Windows
 targetos: Windows
-req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_GET_POWER_MANAGEMENT IOCTL
@@ -112,9 +112,9 @@ If the miniport driver successfully returns the power-consumption information, i
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
-
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
 
  
 

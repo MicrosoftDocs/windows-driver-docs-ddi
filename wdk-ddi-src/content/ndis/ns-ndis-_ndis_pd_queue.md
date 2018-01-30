@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE
-title: _NDIS_PD_QUEUE
+title: "_NDIS_PD_QUEUE"
 author: windows-driver-content
 description: This structure represents a provider's receive or transmit queue.
 old-location: netvista\ndis_pd_queue.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5405A9A6-243B-4E80-85D7-46C6FCC8339F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_PD_QUEUE, netvista.ndis_pd_queue, _NDIS_PD_QUEUE, ndis/PNDIS_PD_QUEUE, PNDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_PD_QUEUE, netvista.ndis_pd_queue, NDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE, ndis/NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_QUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_QUEUE
 product: Windows
 targetos: Windows

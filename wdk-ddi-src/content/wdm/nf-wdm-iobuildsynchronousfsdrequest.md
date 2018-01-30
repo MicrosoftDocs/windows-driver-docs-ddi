@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6d257cb-5384-44fe-bcff-67c67439ad08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest, k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], kernel.iobuildsynchronousfsdrequest
+ms.keywords: kernel.iobuildsynchronousfsdrequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, IoBuildSynchronousFsdRequest, wdm/IoBuildSynchronousFsdRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoBuildSynchronousFsdRequest
 product: Windows
 targetos: Windows
@@ -135,21 +135,21 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4424be3a-6e73-449c-b5fb-5cbc1109490d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER, stream.ks_vbiinfoheader, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml, KS_VBIINFOHEADER structure [Streaming Media Devices], ksmedia/PKS_VBIINFOHEADER, tagKS_VBIINFOHEADER, ksmedia/KS_VBIINFOHEADER, PKS_VBIINFOHEADER
+ms.keywords: stream.ks_vbiinfoheader, vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml, ksmedia/PKS_VBIINFOHEADER, ksmedia/KS_VBIINFOHEADER, tagKS_VBIINFOHEADER, KS_VBIINFOHEADER, KS_VBIINFOHEADER structure [Streaming Media Devices], PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], PKS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_VBIINFOHEADER
 product: Windows
 targetos: Windows
-req.typenames: *PKS_VBIINFOHEADER, KS_VBIINFOHEADER
+req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 ---
 
 # tagKS_VBIINFOHEADER structure

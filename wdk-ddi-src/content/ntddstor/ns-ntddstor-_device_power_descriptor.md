@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_POWER_DESCRIPTOR
-title: _DEVICE_POWER_DESCRIPTOR
+title: "_DEVICE_POWER_DESCRIPTOR"
 author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to describes the power capabilities of a storage device.
 old-location: storage\device_power_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_POWER_DESCRIPTOR structure [Storage Devices], ntddstor/PDEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor, *PDEVICE_POWER_DESCRIPTOR
+ms.keywords: PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], DEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor, PDEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], ntddstor/PDEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, _DEVICE_POWER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_POWER_DESCRIPTOR
 product: Windows
 targetos: Windows

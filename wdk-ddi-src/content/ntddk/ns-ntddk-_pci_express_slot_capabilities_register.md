@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+title: "_PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) slot capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_slot_capabilities_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: a5548777-a88e-40f8-891d-662e0892fd37
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, pci_struct_095f0907-dfff-491b-8734-28b42794c46b.xml, ntddk/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI.pci_express_slot_capabilities_register, _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union [Buses]
+ms.keywords: ntddk/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI.pci_express_slot_capabilities_register, pci_struct_095f0907-dfff-491b-8734-28b42794c46b.xml, _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
+req.typenames: "*PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER"
 ---
 
 # _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure
@@ -151,14 +151,39 @@ typedef union _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure.
 
 
-##### - SlotPowerLimitScale.0
+#### - AttentionButtonPresent
 
-Multiply the value in the <b>SlotPowerLimit</b> member by 1.0.
+A single bit that indicates that an attention button exists for the slot.
 
 
 #### - PowerControllerPresent
 
 A single bit that indicates that a software programmable power controller exists for the slot or for the adapter that is plugged into the slot.
+
+
+#### - MRLSensorPresent
+
+A single bit that indicates that a manually operated retention latch (MRL) sensor exists for the slot.
+
+
+#### - AttentionIndicatorPresent
+
+A single bit that indicates that an attention indicator exists for the slot.
+
+
+#### - PowerIndicatorPresent
+
+A single bit that indicates that a power indicator exists for the slot.
+
+
+#### - HotPlugSurprise
+
+A single bit that indicates that an adapter that is present in the slot can be removed from the system without any prior notification.
+
+
+#### - HotPlugCapable
+
+A single bit that indicates that the slot is capable of supporting hot-plug operations.
 
 
 #### - SlotPowerLimit
@@ -173,17 +198,22 @@ The scale used for the value contained in the <b>SlotPowerLimit</b> member to co
 
 
 
-#### - HotPlugCapable
+#### 0
 
-A single bit that indicates that the slot is capable of supporting hot-plug operations.
-
-
-#### - PowerIndicatorPresent
-
-A single bit that indicates that a power indicator exists for the slot.
+Multiply the value in the <b>SlotPowerLimit</b> member by 1.0.
 
 
-##### - SlotPowerLimitScale.3
+#### 1
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.1.
+
+
+#### 2
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
+
+
+#### 3
 
 Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
 
@@ -193,39 +223,9 @@ Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
 A single bit that indicates that an electromechanical interlock exists for the slot.
 
 
-#### - MRLSensorPresent
-
-A single bit that indicates that a manually operated retention latch (MRL) sensor exists for the slot.
-
-
-##### - SlotPowerLimitScale.1
-
-Multiply the value in the <b>SlotPowerLimit</b> member by 0.1.
-
-
 #### - NoCommandCompletedSupport
 
 A single bit that indicates that the slot does not generate software notification when an issued command is completed by the hot-plug controller.
-
-
-#### - AttentionButtonPresent
-
-A single bit that indicates that an attention button exists for the slot.
-
-
-#### - HotPlugSurprise
-
-A single bit that indicates that an adapter that is present in the slot can be removed from the system without any prior notification.
-
-
-##### - SlotPowerLimitScale.2
-
-Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
-
-
-#### - AttentionIndicatorPresent
-
-A single bit that indicates that an attention indicator exists for the slot.
 
 
 #### - PhysicalSlotNumber

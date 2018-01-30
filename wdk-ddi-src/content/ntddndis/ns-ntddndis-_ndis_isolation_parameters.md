@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ISOLATION_PARAMETERS
-title: _NDIS_ISOLATION_PARAMETERS
+title: "_NDIS_ISOLATION_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_ISOLATION_PARAMETERS structure is used by the OID_GEN_ISOLATION_PARAMETERS OID to return the isolation parameters that are set on a VM network adapter's port.
 old-location: netvista\ndis_isolation_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 71A01647-3415-4F76-A67C-D1022C8A11D9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS, ntddndis/NDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_isolation_parameters, _NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS
+ms.keywords: NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, _NDIS_ISOLATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_ISOLATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS
+req.typenames: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS"
 ---
 
 # _NDIS_ISOLATION_PARAMETERS structure
@@ -81,6 +81,13 @@ The <b>Type</b> member of <b>Header</b> must be set to <b>NDIS_OBJECT_TYPE_DEFAU
 
 
 
+#### NDIS_ISOLATION_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.40 and later.
+
+Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_ISOLATION_PARAMETERS_REVISION_1</b>.
+
+
 ### -field Flags
 
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
@@ -108,26 +115,19 @@ A <b>ULONG</b> value that specifies the number of <a href="..\ntddndis\ns-ntddnd
 A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a> element in the array that follows the <b>NDIS_ISOLATION_PARAMETERS</b> structure. The offset is measured from the start of the <b>NDIS_ISOLATION_PARAMETERS</b> structure to the beginning of the first element of the array.
 <div class="alert"><b>Note</b>  If the value of <b>NumRoutingDomainEntries</b> is zero, this member is ignored.</div><div> </div>
 
-##### - Header.NDIS_ISOLATION_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.40 and later.
-
-Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_ISOLATION_PARAMETERS_REVISION_1</b>.
-
-
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383690">OID_GEN_ISOLATION_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn383680">NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn383690">OID_GEN_ISOLATION_PARAMETERS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

@@ -2,13 +2,13 @@
 UID: NF:fwpsk.FwpsAleEndpointCreateEnumHandle0
 title: FwpsAleEndpointCreateEnumHandle0 function
 author: windows-driver-content
-description: The FwpsAleEndpointCreateEnumHandle0 function creates a handle that can be used with other application layer enforcement (ALE) endpoint functions to enumerate endpoint data.Note  FwpsAleEndpointCreateEnumHandle0 is a specific version of FwpsAleEndpointCreateEnumHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. 
+description: The FwpsAleEndpointCreateEnumHandle0 function creates a handle that can be used with other application layer enforcement (ALE) endpoint functions to enumerate endpoint data.Note  FwpsAleEndpointCreateEnumHandle0 is a specific version of FwpsAleEndpointCreateEnumHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsaleendpointcreateenumhandle0.htm
 old-project: netvista
 ms.assetid: 5daa3dd4-e499-4a72-b784-8a0e1ef3e92b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml
+ms.keywords: wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml, netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointCreateEnumHandle0, fwpsk/FwpsAleEndpointCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsAleEndpointCreateEnumHandle0
 product: Windows
 targetos: Windows

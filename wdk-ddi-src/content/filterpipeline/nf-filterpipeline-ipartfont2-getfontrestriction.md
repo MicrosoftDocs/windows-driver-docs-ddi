@@ -2,13 +2,13 @@
 UID: NF:filterpipeline.IPartFont2.GetFontRestriction
 title: IPartFont2::GetFontRestriction method
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\ipartfont2_getfontrestriction.htm
 old-project: print
 ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFontRestriction method [Print Devices], IPartFont2 interface [Print Devices], GetFontRestriction method, print.ipartfont2_getfontrestriction, GetFontRestriction method [Print Devices], IPartFont2 interface, IPartFont2, filterpipeline/IPartFont2::GetFontRestriction, GetFontRestriction, IPartFont2::GetFontRestriction
+ms.keywords: IPartFont2, print.ipartfont2_getfontrestriction, GetFontRestriction method [Print Devices], IPartFont2 interface, GetFontRestriction method [Print Devices], GetFontRestriction, IPartFont2::GetFontRestriction, IPartFont2 interface [Print Devices], GetFontRestriction method, filterpipeline/IPartFont2::GetFontRestriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IPartFont2.GetFontRestriction
 product: Windows
 targetos: Windows

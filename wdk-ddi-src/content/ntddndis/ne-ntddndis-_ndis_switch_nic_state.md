@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_NIC_STATE
-title: _NDIS_SWITCH_NIC_STATE
+title: "_NDIS_SWITCH_NIC_STATE"
 author: windows-driver-content
 description: The NDIS_SWITCH_NIC_STATE enumeration specifies the current state of the Hyper-V extensible switch network adapter.
 old-location: netvista\ndis_switch_nic_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchNicStateDisconnected, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateDeleted, NdisSwitchNicStateUnknown, _NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateCreated, NdisSwitchNicStateCreated, NdisSwitchNicStateDeleted, ntddndis/NDIS_SWITCH_NIC_STATE, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchNicStateDisconnected, netvista.ndis_switch_nic_state, NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateUnknown
+ms.keywords: NdisSwitchNicStateConnected, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchNicStateDisconnected, NdisSwitchNicStateDeleted, netvista.ndis_switch_nic_state, ntddndis/NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateUnknown, NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateCreated, ntddndis/NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateDisconnected, NdisSwitchNicStateUnknown, ntddndis/NdisSwitchNicStateDeleted, _NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_NIC_STATE
 product: Windows
 targetos: Windows

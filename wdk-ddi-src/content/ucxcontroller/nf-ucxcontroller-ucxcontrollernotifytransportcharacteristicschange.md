@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, UcxControllerNotifyTransportCharacteristicsChange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
+ms.keywords: ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, UcxControllerNotifyTransportCharacteristicsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ucxstubs.lib
 -	Ucxstubs.dll
-apiname: 
+apiname:
 -	UcxControllerNotifyTransportCharacteristicsChange
 product: Windows
 targetos: Windows

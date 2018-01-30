@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDeviceName, umdf.iwdfdevice_retrievedevicename, IWDFDevice, wudfddi/IWDFDevice::RetrieveDeviceName, IWDFDevice interface, RetrieveDeviceName method, RetrieveDeviceName method, IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, IWDFDevice::RetrieveDeviceName, RetrieveDeviceName method, wdf.iwdfdevice_retrievedevicename
+ms.keywords: umdf.iwdfdevice_retrievedevicename, IWDFDevice interface, RetrieveDeviceName method, wudfddi/IWDFDevice::RetrieveDeviceName, RetrieveDeviceName, RetrieveDeviceName method, IWDFDevice, wdf.iwdfdevice_retrievedevicename, RetrieveDeviceName method, IWDFDevice interface, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, IWDFDevice::RetrieveDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.RetrieveDeviceName
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

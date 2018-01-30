@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_gdiarg_stretchblt, WHITEONBLACK, BLACKONWHITE, _DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, d3dkmddi/DXGK_GDIARG_STRETCHBLT
+ms.keywords: DXGK_GDIARG_STRETCHBLT, BLACKONWHITE, d3dkmddi/DXGK_GDIARG_STRETCHBLT, DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, display.dxgk_gdiarg_stretchblt, _DXGK_GDIARG_STRETCHBLT, WHITEONBLACK, DXGK_GDIARG_STRETCHBLT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -221,13 +221,13 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
 
  
 

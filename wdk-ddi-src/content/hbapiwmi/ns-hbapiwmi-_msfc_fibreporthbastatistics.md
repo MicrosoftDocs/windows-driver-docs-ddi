@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FibrePortHBAStatistics
-title: _MSFC_FibrePortHBAStatistics
+title: "_MSFC_FibrePortHBAStatistics"
 author: windows-driver-content
 description: The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 old-location: storage\msfc_fibreporthbastatistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSFC_FibrePortHBAStatistics structure [Storage Devices], hbapiwmi/PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, _MSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], *PMSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, MSFC_FibrePortHBAStatistics
+ms.keywords: hbapiwmi/PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], hbapiwmi/MSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, _MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_FibrePortHBAStatistics
 product: Windows
 targetos: Windows

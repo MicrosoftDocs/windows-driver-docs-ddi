@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIORESOURCELISTREMOVE, WdfIoResourceListRemove, WdfIoResourceListRemove method, wdfresource/WdfIoResourceListRemove, kmdf.wdfioresourcelistremove, wdf.wdfioresourcelistremove, DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml
+ms.keywords: WdfIoResourceListRemove, PFN_WDFIORESOURCELISTREMOVE, WdfIoResourceListRemove method, DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, wdfresource/WdfIoResourceListRemove, kmdf.wdfioresourcelistremove, wdf.wdfioresourcelistremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceListRemove
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

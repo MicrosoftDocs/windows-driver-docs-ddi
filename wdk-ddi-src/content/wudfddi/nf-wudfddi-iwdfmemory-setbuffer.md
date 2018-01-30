@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1399922d-684c-44a4-8bc7-b9e45ba05086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory::SetBuffer, IWDFMemory interface, SetBuffer method, wudfddi/IWDFMemory::SetBuffer, SetBuffer, SetBuffer method, IWDFMemory interface, wdf.iwdfmemory_setbuffer, SetBuffer method, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, IWDFMemory, umdf.iwdfmemory_setbuffer
+ms.keywords: SetBuffer method, SetBuffer, umdf.iwdfmemory_setbuffer, wdf.iwdfmemory_setbuffer, IWDFMemory, wudfddi/IWDFMemory::SetBuffer, IWDFMemory::SetBuffer, IWDFMemory interface, SetBuffer method, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, SetBuffer method, IWDFMemory interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFMemory.SetBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

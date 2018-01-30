@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE0D4A9A-F85D-4AA4-8A21-1BEC86837444
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG, sensors.gnss_selftestconfig, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], GNSS_SELFTESTCONFIG structure [Sensor Devices], gnssdriver/PGNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG
+ms.keywords: sensors.gnss_selftestconfig, *PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], PGNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], gnssdriver/GNSS_SELFTESTCONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_SELFTESTCONFIG
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4fbb4d4b-b98a-4d10-b9b2-7ad8fc4ada6e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtUnloadDriver, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], kernel.zwunloaddriver, k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, wdm/ZwUnloadDriver, NtUnloadDriver, ZwUnloadDriver
+ms.keywords: k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, ZwUnloadDriver, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], wdm/NtUnloadDriver, NtUnloadDriver, kernel.zwunloaddriver, wdm/ZwUnloadDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwUnloadDriver
 -	NtUnloadDriver
 product: Windows
@@ -97,15 +97,15 @@ A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">F
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\wdm\nf-wdm-zwloaddriver.md">ZwLoadDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+<a href="..\wdm\nf-wdm-zwloaddriver.md">ZwLoadDriver</a>
 
  
 

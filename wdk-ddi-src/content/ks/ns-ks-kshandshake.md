@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kshandshake, ks/PKSHANDSHAKE, ks/KSHANDSHAKE, KSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], PKSHANDSHAKE, *PKSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml
+ms.keywords: stream.kshandshake, KSHANDSHAKE, avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, KSHANDSHAKE structure [Streaming Media Devices], *PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], ks/KSHANDSHAKE, ks/PKSHANDSHAKE, PKSHANDSHAKE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSHANDSHAKE
 product: Windows
 targetos: Windows
-req.typenames: KSHANDSHAKE, *PKSHANDSHAKE
+req.typenames: "*PKSHANDSHAKE, KSHANDSHAKE"
 ---
 
 # KSHANDSHAKE structure

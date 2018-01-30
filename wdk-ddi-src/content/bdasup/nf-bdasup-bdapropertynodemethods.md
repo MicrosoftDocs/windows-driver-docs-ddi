@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 52cb13a6-6efe-4934-a6ec-178d4b2afb0a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaPropertyNodeMethods function [Streaming Media Devices], BdaPropertyNodeMethods, bdasup/BdaPropertyNodeMethods, bdaref_15a0d157-4e7d-43ae-9f1f-6ffb70bd4f9b.xml, stream.bdapropertynodemethods
+ms.keywords: stream.bdapropertynodemethods, bdaref_15a0d157-4e7d-43ae-9f1f-6ffb70bd4f9b.xml, bdasup/BdaPropertyNodeMethods, BdaPropertyNodeMethods function [Streaming Media Devices], BdaPropertyNodeMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaPropertyNodeMethods
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ A BDA minidriver calls the <b>BdaPropertyNodeMethods</b> function to retrieve th
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564328">KSPROPERTY_BDA_NODE_METHODS</a>
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
  
 

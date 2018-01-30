@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_AUDIT_ACE
-title: _SYSTEM_AUDIT_ACE
+title: "_SYSTEM_AUDIT_ACE"
 author: windows-driver-content
 description: The SYSTEM_AUDIT_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what types of access cause system-level notifications.
 old-location: ifsk\system_audit_ace.htm
@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 03806d36-0066-4603-ba53-10149778b4e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], PSYSTEM_AUDIT_ACE, ntifs/PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml, *PSYSTEM_AUDIT_ACE, ntifs/SYSTEM_AUDIT_ACE
+ms.keywords: ntifs/PSYSTEM_AUDIT_ACE, securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml, _SYSTEM_AUDIT_ACE, *PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], ntifs/SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], PSYSTEM_AUDIT_ACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SYSTEM_AUDIT_ACE
 product: Windows
 targetos: Windows
@@ -97,19 +97,19 @@ This structure must be aligned on a 32-bit boundary.
 
 <a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
 <a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

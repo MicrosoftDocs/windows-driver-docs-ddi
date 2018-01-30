@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2DE78869-9AFC-423A-BCB0-B7BBAB0C06BC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], UcmConnectorPdConnectionStateChanged, buses.ucmconnectorpdconnectionstatechanged
+ms.keywords: buses.ucmconnectorpdconnectionstatechanged, UcmConnectorPdConnectionStateChanged, ucmmanager/UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	UcmCxstub.lib
 -	UcmCxstub.dll
-apiname: 
+apiname:
 -	UcmConnectorPdConnectionStateChanged
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 

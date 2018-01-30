@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A95A88B6-066F-4489-B5C0-B012E831D7AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongMult, RtlLongMult, kernel.rtllongmult
+ms.keywords: RtlLongMult, RtlLongMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongMult, kernel.rtllongmult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongMult
 product: Windows
 targetos: Windows

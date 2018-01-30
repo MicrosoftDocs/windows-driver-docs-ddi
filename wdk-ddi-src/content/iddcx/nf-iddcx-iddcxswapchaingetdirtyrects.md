@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ffe3c46-f729-4088-b69e-f39bc00f40a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxswapchaingetdirtyrects, IddCxSwapChainGetDirtyRects, iddcx/IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices]
+ms.keywords: iddcx/IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects, display.iddcxswapchaingetdirtyrects, IddCxSwapChainGetDirtyRects method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SLOT_INFO
-title: _WWAN_SLOT_INFO
+title: "_WWAN_SLOT_INFO"
 author: windows-driver-content
 description: The WWAN_SLOT_INFO structure represents the status of a specific SIM card slot on the modem.
 old-location: netvista\wwan_slot_info_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F45D253E-E7D7-4600-AF8C-6D4EB096030D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WWAN_SLOT_INFO, netvista.wwan_slot_info_status, wwan/PWWAN_SLOT_INFO, PWWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SLOT_INFO, *PWWAN_SLOT_INFO, WWAN_SLOT_INFO, WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_SLOT_INFO
+ms.keywords: PWWAN_SLOT_INFO, wwan/PWWAN_SLOT_INFO, _WWAN_SLOT_INFO, wwan/WWAN_SLOT_INFO, PWWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SLOT_INFO, netvista.wwan_slot_info_status, WWAN_SLOT_INFO, WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SLOT_INFO
 product: Windows
 targetos: Windows
@@ -83,9 +83,9 @@ The state of the slot being queried, a member of the  <a href="..\wwan\ne-wwan-_
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_slot_info.md">NDIS_WWAN_SLOT_INFO</a>
 
-<a href="..\wwan\ne-wwan-_wwan_uiccslot_state.md">WWAN_UICCSLOT_STATE</a>
-
 <a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
+
+<a href="..\wwan\ne-wwan-_wwan_uiccslot_state.md">WWAN_UICCSLOT_STATE</a>
 
 <a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
 

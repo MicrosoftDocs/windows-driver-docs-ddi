@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BF8C1D85-6C88-4F4C-ADDB-CCE603D420F2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceSignalWake, UdecxUsbDeviceSignalWake function [Buses], buses.udecxusbdevicesignalwake, UdecxUsbDeviceSignalWake
+ms.keywords: udecxusbdevice/UdecxUsbDeviceSignalWake, UdecxUsbDeviceSignalWake, buses.udecxusbdevicesignalwake, UdecxUsbDeviceSignalWake function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Udecxstub.lib
 -	Udecxstub.dll
-apiname: 
+apiname:
 -	UdecxUsbDeviceSignalWake
 product: Windows
 targetos: Windows
@@ -92,9 +92,9 @@ The client driver for the device must have enabled wake capability in the most r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
 

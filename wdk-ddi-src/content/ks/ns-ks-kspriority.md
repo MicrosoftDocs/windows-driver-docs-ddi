@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bbef5f6-f859-4528-b044-baf8f99c2c2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPRIORITY, *PKSPRIORITY, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], ks/PKSPRIORITY, ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, PKSPRIORITY structure pointer [Streaming Media Devices], stream.kspriority, ks/KSPRIORITY
+ms.keywords: ks/PKSPRIORITY, stream.kspriority, KSPRIORITY, *PKSPRIORITY, PKSPRIORITY, PKSPRIORITY structure pointer [Streaming Media Devices], ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, KSPRIORITY structure [Streaming Media Devices], ks/KSPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPRIORITY
 product: Windows
 targetos: Windows
-req.typenames: KSPRIORITY, *PKSPRIORITY
+req.typenames: "*PKSPRIORITY, KSPRIORITY"
 ---
 
 # KSPRIORITY structure

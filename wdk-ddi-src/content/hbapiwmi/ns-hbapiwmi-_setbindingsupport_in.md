@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetBindingSupport_IN
-title: _SetBindingSupport_IN
+title: "_SetBindingSupport_IN"
 author: windows-driver-content
 description: The SetBindingSupport_IN structure is used to deliver input parameter data to the SetBindingSupport WMI method.
 old-location: storage\setbindingsupport_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bdcd6f76-9a45-4687-b3ab-ece3e9419c44
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetBindingSupport_IN, _SetBindingSupport_IN, storage.setbindingsupport_in, hbapiwmi/PSetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], PSetBindingSupport_IN structure pointer [Storage Devices], *PSetBindingSupport_IN, structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml, hbapiwmi/SetBindingSupport_IN, PSetBindingSupport_IN
+ms.keywords: SetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml, PSetBindingSupport_IN, storage.setbindingsupport_in, hbapiwmi/SetBindingSupport_IN, hbapiwmi/PSetBindingSupport_IN, _SetBindingSupport_IN, *PSetBindingSupport_IN, PSetBindingSupport_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SetBindingSupport_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSetBindingSupport_IN, SetBindingSupport_IN
+req.typenames: "*PSetBindingSupport_IN, SetBindingSupport_IN"
 ---
 
 # _SetBindingSupport_IN structure

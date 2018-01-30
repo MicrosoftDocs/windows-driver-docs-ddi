@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e38c6d5-bd61-455e-a628-b4e6ef9c936c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS, ntddrilapitypes/RILMANAGECALLSPARAMS_V4, netvista.rilmanagecallsparams_v4, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilmanagecallsparams_v4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], RILMANAGECALLSPARAMS_V4, ntddrilapitypes/RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMANAGECALLSPARAMS_V4
 product: Windows
 targetos: Windows
-req.typenames: RILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS
+req.typenames: RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS
 ---
 
 # RILMANAGECALLSPARAMS_V4 structure

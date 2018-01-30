@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ced1d848-fb6e-4207-bdb0-29ca82249d06
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_CAMERACONTROL_NODE_S structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_S, stream.ksproperty_cameracontrol_node_s, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S, KSPROPERTY_CAMERACONTROL_NODE_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S, vidcapstruct_fbe0c251-5c32-49b7-978c-67b52c920613.xml, KSPROPERTY_CAMERACONTROL_NODE_S
+ms.keywords: ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S, vidcapstruct_fbe0c251-5c32-49b7-978c-67b52c920613.xml, ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S, KSPROPERTY_CAMERACONTROL_NODE_S structure [Streaming Media Devices], stream.ksproperty_cameracontrol_node_s, PKSPROPERTY_CAMERACONTROL_NODE_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CAMERACONTROL_NODE_S
 product: Windows
 targetos: Windows
@@ -191,11 +191,11 @@ See related information about the <a href="https://msdn.microsoft.com/84b5302d-c
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
 
  
 

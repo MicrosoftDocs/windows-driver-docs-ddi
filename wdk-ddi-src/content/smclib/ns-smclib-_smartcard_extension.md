@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SMARTCARD_EXTENSION
-title: _SMARTCARD_EXTENSION
+title: "_SMARTCARD_EXTENSION"
 author: windows-driver-content
 description: The SMARTCARD_EXTENSION structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
 old-location: smartcrd\smartcard_extension.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], smartcrd.smartcard_extension, smclib/SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, _SMARTCARD_EXTENSION, SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smclib/PSMARTCARD_EXTENSION
+ms.keywords: smartcrd.smartcard_extension, smclib/SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, _SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, *PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], SMARTCARD_EXTENSION, smclib/PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	smclib.h
-apiname: 
+apiname:
 -	SMARTCARD_EXTENSION
 product: Windows
 targetos: Windows
-req.typenames: *PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION
+req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
 req.product: Windows 10 or later.
 ---
 

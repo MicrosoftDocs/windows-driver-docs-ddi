@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH_DIRECT
-title: _SCSI_PASS_THROUGH_DIRECT
+title: "_SCSI_PASS_THROUGH_DIRECT"
 author: windows-driver-content
 description: The SCSI_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through_direct.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 306babe7-393f-4b4a-9d8a-4c973cb3eaa2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ntddscsi/PSCSI_PASS_THROUGH_DIRECT, storage.scsi_pass_through_direct, structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml, _SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT
+ms.keywords: "*PSCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], PSCSI_PASS_THROUGH_DIRECT, ntddscsi/PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_DIRECT, storage.scsi_pass_through_direct, _SCSI_PASS_THROUGH_DIRECT, structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml, SCSI_PASS_THROUGH_DIRECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	SCSI_PASS_THROUGH_DIRECT
 product: Windows
 targetos: Windows
-req.typenames: SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT
+req.typenames: "*PSCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT"
 ---
 
 # _SCSI_PASS_THROUGH_DIRECT structure
@@ -118,6 +118,14 @@ Indicates the size in bytes of the request-sense buffer.
 
 
 
+####  This field must have one of three values:
+
+
+
+#### 
+
+
+
 ### -field DataTransferLength
 
 Indicates the size in bytes of the data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
@@ -143,38 +151,6 @@ Contains an offset from the beginning of this structure to the request-sense buf
 Specifies the SCSI command descriptor block to be sent to the target device. 
 
 
-######## - DataIn.Data Transfer Type
-Meaning
-
-
-
-SCSI_IOCTL_DATA_IN
-
-
-Read data from the device.
-
-
-
-
-SCSI_IOCTL_DATA_OUT
-
-
-Write data to the device.
-
-
-
-
-SCSI_IOCTL_DATA_UNSPECIFIED
-
-
-No data transferred.
-
-
-
-###### - DataIn.Indicates whether the SCSI command will read or write data. This field must have one of three values:
-
-
-
 ## -remarks
 
 
@@ -186,11 +162,11 @@ The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a <
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
-
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
 

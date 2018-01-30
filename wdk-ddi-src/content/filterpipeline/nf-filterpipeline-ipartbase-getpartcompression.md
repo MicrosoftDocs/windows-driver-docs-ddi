@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPartBase interface [Print Devices], GetPartCompression method, GetPartCompression, filterpipeline/IPartBase::GetPartCompression, print.ipartbase_getpartcompression, IPartBase::GetPartCompression, GetPartCompression method [Print Devices], IPartBase interface, IPartBase, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, GetPartCompression method [Print Devices]
+ms.keywords: IPartBase interface [Print Devices], GetPartCompression method, GetPartCompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, IPartBase::GetPartCompression, filterpipeline/IPartBase::GetPartCompression, IPartBase, GetPartCompression method [Print Devices], IPartBase interface, print.ipartbase_getpartcompression, GetPartCompression method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartBase.GetPartCompression
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._TRACK_MODE_TYPE
-title: _TRACK_MODE_TYPE
+title: "_TRACK_MODE_TYPE"
 author: windows-driver-content
 description: The TRACK_MODE_TYPE enumeration type is used in conjunction with the IOCTL_CDROM_RAW_READ request and the RAW_READ_INFO structure to read data from a CD-ROM in raw mode.
 old-location: storage\track_mode_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices], storage.track_mode_type, RawWithC2AndSubCode, ntddcdrm/XAForm2, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/RawWithC2, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, ntddcdrm/YellowMode2, YellowMode2, *PTRACK_MODE_TYPE, ntddcdrm/PTRACK_MODE_TYPE, CDDA, RawWithC2, ntddcdrm/RawWithC2AndSubCode, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], _TRACK_MODE_TYPE, ntddcdrm/CDDA, XAForm2, RawWithSubCode, PTRACK_MODE_TYPE, ntddcdrm/RawWithSubCode
+ms.keywords: ntddcdrm/CDDA, ntddcdrm/RawWithSubCode, YellowMode2, RawWithC2, ntddcdrm/TRACK_MODE_TYPE, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, PTRACK_MODE_TYPE, TRACK_MODE_TYPE, RawWithSubCode, _TRACK_MODE_TYPE, ntddcdrm/RawWithC2AndSubCode, *PTRACK_MODE_TYPE, XAForm2, TRACK_MODE_TYPE enumeration [Storage Devices], ntddcdrm/RawWithC2, ntddcdrm/YellowMode2, storage.track_mode_type, ntddcdrm/XAForm2, ntddcdrm/PTRACK_MODE_TYPE, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], RawWithC2AndSubCode, CDDA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	TRACK_MODE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PTRACK_MODE_TYPE, TRACK_MODE_TYPE
+req.typenames: TRACK_MODE_TYPE, *PTRACK_MODE_TYPE
 ---
 
 # _TRACK_MODE_TYPE enumeration

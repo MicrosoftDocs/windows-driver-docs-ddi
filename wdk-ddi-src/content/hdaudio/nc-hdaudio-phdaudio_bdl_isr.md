@@ -40,7 +40,7 @@ apiname:
 -	HDAudioBdlIsr
 product: Windows
 targetos: Windows
-req.typenames: GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS
+req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 ---
 
 # PHDAUDIO_BDL_ISR callback

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09fc48eb-b124-45b1-a796-71d9a6961e07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFontSubstitution method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices], GetFontSubstitution method, print.iprintcorehelper_getfontsubstitution, IPrintCoreHelper, prcomoem/IPrintCoreHelper::GetFontSubstitution, IPrintCoreHelper::GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml
+ms.keywords: IPrintCoreHelper interface [Print Devices], GetFontSubstitution method, GetFontSubstitution, IPrintCoreHelper, GetFontSubstitution method [Print Devices], IPrintCoreHelper::GetFontSubstitution, print.iprintcorehelper_getfontsubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml, prcomoem/IPrintCoreHelper::GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelper interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelper.GetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

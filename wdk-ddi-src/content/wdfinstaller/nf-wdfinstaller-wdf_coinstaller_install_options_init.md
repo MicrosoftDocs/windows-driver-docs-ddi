@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 65fd2c27-7d9e-4dad-adef-8cb2bea9d9f2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_COINSTALLER_INSTALL_OPTIONS_INIT, WDF_COINSTALLER_INSTALL_OPTIONS_INIT function, DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, kmdf.wdf_coinstaller_install_options_init, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT, wdf.wdf_coinstaller_install_options_init
+ms.keywords: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function, kmdf.wdf_coinstaller_install_options_init, DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, wdf.wdf_coinstaller_install_options_init, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT, WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfinstaller.h
-apiname: 
+apiname:
 -	WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

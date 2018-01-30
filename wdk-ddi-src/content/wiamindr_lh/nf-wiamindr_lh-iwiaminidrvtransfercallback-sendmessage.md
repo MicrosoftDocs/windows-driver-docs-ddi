@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9C4800E6-0F5F-4895-AD19-635C7F784462
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrvTransferCallback, SendMessage, IWiaMiniDrvTransferCallback::SendMessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage, SendMessage method [Imaging Devices], image.iwiaminidrvtransfercallback_sendmessage, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method
+ms.keywords: SendMessage method [Imaging Devices], image.iwiaminidrvtransfercallback_sendmessage, IWiaMiniDrvTransferCallback, SendMessage, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback::SendMessage, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrvTransferCallback.SendMessage
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 

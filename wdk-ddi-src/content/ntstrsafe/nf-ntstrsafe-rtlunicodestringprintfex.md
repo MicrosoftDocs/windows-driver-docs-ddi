@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a08cb8d-d933-4dc6-8bf2-8f435ffc9eb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringprintfex, RtlUnicodeStringPrintfEx, safestrings_06495952-554e-4e33-8610-dc34b7f1b879.xml, RtlUnicodeStringPrintfEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringPrintfEx
+ms.keywords: RtlUnicodeStringPrintfEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringPrintfEx, safestrings_06495952-554e-4e33-8610-dc34b7f1b879.xml, kernel.rtlunicodestringprintfex, ntstrsafe/RtlUnicodeStringPrintfEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnicodeStringPrintfEx
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringPrintfEx function
@@ -89,6 +89,36 @@ One or more flags and, optionally, a fill byte. The flags are defined as follows
 
 
 
+#### STRSAFE_FILL_BEHIND
+
+If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
+
+
+#### STRSAFE_IGNORE_NULLS
+
+If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringPrintfEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
+
+
+#### STRSAFE_FILL_ON_FAILURE
+
+If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
+
+
+#### STRSAFE_NULL_ON_FAILURE
+
+If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
+
+
+#### STRSAFE_NO_TRUNCATION
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
+
+
+#### STRSAFE_ZERO_LENGTH_ON_FAILURE
+
+If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
+
+
 ### -param pszFormat [in]
 
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
@@ -103,36 +133,6 @@ TBD
 ####### - ...
 
 Optional. A list of arguments that <b>RtlUnicodeStringPrintfEx</b> interprets, based on formatting directives that the <i>pszFormat</i> string specifies.
-
-
-##### - dwFlags.STRSAFE_FILL_BEHIND
-
-If this flag is set and the function succeeds, the low byte of <i>dwFlags</i> is used to fill the portion of the destination buffer that follows the last character in the string.
-
-
-##### - dwFlags.STRSAFE_IGNORE_NULLS
-
-If this flag is set, the source or destination pointer, or both, can be <b>NULL</b>. <b>RtlUnicodeStringPrintfEx</b> treats <b>NULL</b> source buffer pointers like empty strings (TEXT("")), which can be copied. <b>NULL</b> destination buffer pointers cannot receive nonempty strings.
-
-
-##### - dwFlags.STRSAFE_NULL_ON_FAILURE
-
-If this flag is set and the function fails, the destination buffer is set to an empty string (TEXT("")). This operation overwrites any preexisting buffer contents.
-
-
-##### - dwFlags.STRSAFE_ZERO_LENGTH_ON_FAILURE
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destination string length is set to zero bytes.
-
-
-##### - dwFlags.STRSAFE_FILL_ON_FAILURE
-
-If this flag is set and the function fails, the low byte of <i>dwFlags</i> is used to fill the entire destination buffer. This operation overwrites any preexisting buffer contents.
-
-
-##### - dwFlags.STRSAFE_NO_TRUNCATION
-
-If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the destination buffer are not modified.
 
 
 ## -returns

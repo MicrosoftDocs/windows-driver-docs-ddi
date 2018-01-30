@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], PoFxSetDeviceIdleTimeout, kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
+ms.keywords: PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], wdm/PoFxSetDeviceIdleTimeout, kernel.pofxsetdeviceidletimeout, PoFxSetDeviceIdleTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxSetDeviceIdleTimeout
 product: Windows
 targetos: Windows

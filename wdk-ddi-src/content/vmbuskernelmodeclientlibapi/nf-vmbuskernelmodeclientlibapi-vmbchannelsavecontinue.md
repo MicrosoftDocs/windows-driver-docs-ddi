@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57266CAE-C069-4379-92FD-0F93FECC6EB5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelsavecontinue, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], VmbChannelSaveContinue
+ms.keywords: netvista.vmbchannelsavecontinue, VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSaveContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbChannelSaveContinue
 product: Windows
 targetos: Windows

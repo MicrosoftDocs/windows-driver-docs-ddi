@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, VhfReadReportSubmit, vhf/VhfReadReportSubmit
+ms.keywords: hid.vhfreadreportsubmit, VhfReadReportSubmit method [Human Input Devices], vhf/VhfReadReportSubmit, VhfReadReportSubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,8 @@ apiname:
 -	VhfReadReportSubmit
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSIDEBANDAUDIO_VOLUME_PARAMS, USBSIDEBANDAUDIO_VOLUME_PARAMS"
+req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
+req.product: Windows 10 or later.
 ---
 
 # VhfReadReportSubmit function

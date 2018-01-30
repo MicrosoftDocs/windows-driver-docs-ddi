@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8d17de44-2fd9-4e20-8a9b-2647c9917709
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmCommitTransaction routine [Kernel-Mode Driver Architecture], TmCommitTransaction, wdm/TmCommitTransaction, kernel.tmcommittransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml
+ms.keywords: ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, kernel.tmcommittransaction, TmCommitTransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], wdm/TmCommitTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmCommitTransaction
 product: Windows
 targetos: Windows
@@ -162,13 +162,13 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
  
 

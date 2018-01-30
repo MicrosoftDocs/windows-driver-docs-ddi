@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], FltQueryEaFile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, ifsk.fltqueryeafile
+ms.keywords: fltkernel/FltQueryEaFile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, FltQueryEaFile function [Installable File System Drivers], ifsk.fltqueryeafile, FltQueryEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltQueryEaFile
 product: Windows
 targetos: Windows
@@ -174,11 +174,11 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+
+<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
 

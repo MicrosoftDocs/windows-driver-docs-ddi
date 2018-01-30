@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	ComPropSheet
 product: Windows
 targetos: Windows
-req.typenames: *PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # PFNCOMPROPSHEET callback

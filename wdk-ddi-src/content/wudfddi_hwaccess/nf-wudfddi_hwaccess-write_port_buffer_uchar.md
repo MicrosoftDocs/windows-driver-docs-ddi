@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E0E0BD93-6A5B-4D60-B08C-8862D9F2670D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.write_port_buffer_uchar, wdf.write_port_buffer_uchar, wudfddi_hwaccess/WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR function
+ms.keywords: WRITE_PORT_BUFFER_UCHAR, wdf.write_port_buffer_uchar, umdf.write_port_buffer_uchar, WRITE_PORT_BUFFER_UCHAR function, wudfddi_hwaccess/WRITE_PORT_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_hwaccess.h
-apiname: 
+apiname:
 -	WRITE_PORT_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

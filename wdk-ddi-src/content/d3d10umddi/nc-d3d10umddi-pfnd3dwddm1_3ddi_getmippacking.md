@@ -40,7 +40,7 @@ apiname:
 -	GetMipPacking
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_GETMIPPACKING callback

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 301e9c21-69e7-48d3-b170-de01684f4a12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOT11_AUTH_CIPHER_PAIR, netvista.dot11_auth_cipher_pair, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], wlantypes/PDOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_CIPHER_PAIR
+ms.keywords: DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], PDOT11_AUTH_CIPHER_PAIR, Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, wlantypes/DOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_AUTH_CIPHER_PAIR, wlantypes/PDOT11_AUTH_CIPHER_PAIR, netvista.dot11_auth_cipher_pair, DOT11_AUTH_CIPHER_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlantypes.h
-apiname: 
+apiname:
 -	DOT11_AUTH_CIPHER_PAIR
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR
+req.typenames: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR
 req.product: Windows 10 or later.
 ---
 

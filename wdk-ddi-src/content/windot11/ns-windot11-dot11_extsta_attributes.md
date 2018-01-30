@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_EXTSTA_ATTRIBUTES, Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, windot11/PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES, windot11/DOT11_EXTSTA_ATTRIBUTES, netvista.dot11_extsta_attributes, *PDOT11_EXTSTA_ATTRIBUTES
+ms.keywords: "*PDOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES, netvista.dot11_extsta_attributes, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, DOT11_EXTSTA_ATTRIBUTES, windot11/DOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_EXTSTA_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_EXTSTA_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES
+req.typenames: DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -114,6 +114,46 @@ The miniport driver must set the members of
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+
+
+#### Type
+
+This member must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.
+
+
+#### Revision
+
+This member must be set to one of the following values according to the operating system that
+       the driver is intended to run on:
+       
+
+
+
+These values determine how the operating system interprets the 
+       <b>bSafeModeImplemented</b> member.
+
+
+#### DOT11_EXTSTA_ATTRIBUTES_REVISION_1
+
+Windows Vista
+
+
+#### DOT11_EXTSTA_ATTRIBUTES_REVISION_2
+
+Windows Vista with Service Pack 1 (SP1) or later versions of the Windows operating
+         systems
+
+
+#### DOT11_EXTSTA_ATTRIBUTES_REVISION_3
+
+Windows 8 or later versions of the Windows operating
+         systems
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(<b>DOT11_EXTSTA_ATTRIBUTES</b>).
 
 
 ### -field uScanSSIDListSize
@@ -294,6 +334,16 @@ A set of flags that specify the quality of service (QoS) protocols that the NIC 
 
 
 
+#### DOT11_QOS_PROTOCOL_FLAG_WMM
+
+The NIC implements the 802.11 WMM QoS protocol.
+
+
+#### DOT11_QOS_PROTOCOL_FLAG_11E
+
+The NIC implements the 802.11e QoS protocol.
+
+
 ### -field bSafeModeImplemented
 
 The safe mode support capability of the NIC/miniport driver combination. The operating system
@@ -307,6 +357,33 @@ This member is used in conjunction with
      <mshelp:link keywords="netvista.oid_dot11_safe_mode_enabled" tabindex="0">
      OID_DOT11_SAFE_MODE_ENABLED</mshelp:link>.
 
+
+#### Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_1
+
+The operating system interprets the 
+       <b>bSafeModeImplemented</b> member as a Boolean value. If this value is <b>TRUE</b>, the NIC implements the
+       802.11 safe mode of operation. Otherwise, the value is <b>FALSE</b>.
+
+
+#### Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_2 or higher
+
+The operating system interprets the 
+       <b>bSafeModeImplemented</b> member as a bit field with the following possible bit values set:
+       
+<ul>
+<li>
+If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_OID_SUPPORTED</b> with no other bits set,
+         the miniport driver implements the 802.11 safe mode of operation.
+
+</li>
+<li>
+If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_CERTIFIED</b>, the NIC/miniport
+         combination has received a validation certificate from the National Institute of Standards and
+         Technology (NIST) under Federal Information Processing Standards (FIPS) Publication 140-2, 
+         <i>Security Requirements for Cryptographic Modules</i>.
+
+</li>
+</ul>
 
 ### -field uNumSupportedCountryOrRegionStrings
 
@@ -518,83 +595,6 @@ A pointer to an array of authentication and cipher algorithm pair which the devi
 
 
 
-##### - bSafeModeImplemented.Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_1
-
-The operating system interprets the 
-       <b>bSafeModeImplemented</b> member as a Boolean value. If this value is <b>TRUE</b>, the NIC implements the
-       802.11 safe mode of operation. Otherwise, the value is <b>FALSE</b>.
-
-
-##### - ucSupportedQoSProtocolFlags.DOT11_QOS_PROTOCOL_FLAG_WMM
-
-The NIC implements the 802.11 WMM QoS protocol.
-
-
-##### - ucSupportedQoSProtocolFlags.DOT11_QOS_PROTOCOL_FLAG_11E
-
-The NIC implements the 802.11e QoS protocol.
-
-
-##### - Header.Revision
-
-This member must be set to one of the following values according to the operating system that
-       the driver is intended to run on:
-       
-
-
-
-These values determine how the operating system interprets the 
-       <b>bSafeModeImplemented</b> member.
-
-
-##### - Header.Type
-
-This member must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.
-
-
-###### - Header.Revision.DOT11_EXTSTA_ATTRIBUTES_REVISION_3
-
-Windows 8 or later versions of the Windows operating
-         systems
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(<b>DOT11_EXTSTA_ATTRIBUTES</b>).
-
-
-###### - Header.Revision.DOT11_EXTSTA_ATTRIBUTES_REVISION_1
-
-Windows Vista
-
-
-##### - bSafeModeImplemented.Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_2 or higher
-
-The operating system interprets the 
-       <b>bSafeModeImplemented</b> member as a bit field with the following possible bit values set:
-       
-<ul>
-<li>
-If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_OID_SUPPORTED</b> with no other bits set,
-         the miniport driver implements the 802.11 safe mode of operation.
-
-</li>
-<li>
-If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_CERTIFIED</b>, the NIC/miniport
-         combination has received a validation certificate from the National Institute of Standards and
-         Technology (NIST) under Federal Information Processing Standards (FIPS) Publication 140-2, 
-         <i>Security Requirements for Cryptographic Modules</i>.
-
-</li>
-</ul>
-
-###### - Header.Revision.DOT11_EXTSTA_ATTRIBUTES_REVISION_2
-
-Windows Vista with Service Pack 1 (SP1) or later versions of the Windows operating
-         systems
-
-
 ## -remarks
 
 
@@ -617,40 +617,40 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
    Mode</mshelp:link>
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
+
+<mshelp:link keywords="netvista.dot11_country_or_region_string" tabindex="0"><b>
+   DOT11_COUNTRY_OR_REGION_STRING</b></mshelp:link>
+
 <mshelp:link keywords="netvista.oid_dot11_excluded_mac_address_list" tabindex="0">
    OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</mshelp:link>
 
-<mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 <a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
 <mshelp:link keywords="netvista.ndis_miniport_adapter_native_802_11_attributes" tabindex="0"><b>
    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+<mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
+   OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>
 
 <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-<mshelp:link keywords="netvista.dot11_country_or_region_string" tabindex="0"><b>
-   DOT11_COUNTRY_OR_REGION_STRING</b></mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

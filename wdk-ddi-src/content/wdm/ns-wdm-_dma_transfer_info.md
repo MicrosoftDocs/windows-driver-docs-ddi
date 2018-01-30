@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO
-title: _DMA_TRANSFER_INFO
+title: "_DMA_TRANSFER_INFO"
 author: windows-driver-content
 description: The DMA_TRANSFER_INFO structure is a container for a DMA_TRANSFER_INFO_XXX structure that describes the allocation requirements for a scatter/gather list.
 old-location: kernel\dma_transfer_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1CD5CE6F-5179-40D5-BCD9-3587914C8139
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDMA_TRANSFER_INFO, kernel.dma_transfer_info, DMA_TRANSFER_INFO, *PDMA_TRANSFER_INFO, wdm/DMA_TRANSFER_INFO, PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO, wdm/PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture]
+ms.keywords: "*PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture], PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], PDMA_TRANSFER_INFO, wdm/DMA_TRANSFER_INFO, kernel.dma_transfer_info, wdm/PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO, _DMA_TRANSFER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DMA_TRANSFER_INFO
 product: Windows
 targetos: Windows
-req.typenames: DMA_TRANSFER_INFO, *PDMA_TRANSFER_INFO
+req.typenames: "*PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO"
 req.product: Windows 10 or later.
 ---
 

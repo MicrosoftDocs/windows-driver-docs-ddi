@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f149e86-7855-4a10-8e0c-8b1aff261946
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportregistrywrite, StorPortRegistryWrite routine [Storage Devices], storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storport/StorPortRegistryWrite, StorPortRegistryWrite
+ms.keywords: storage.storportregistrywrite, StorPortRegistryWrite, StorPortRegistryWrite routine [Storage Devices], storport/StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortRegistryWrite
 product: Windows
 targetos: Windows

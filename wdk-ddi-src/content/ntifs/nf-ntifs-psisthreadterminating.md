@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2b82b060-79ea-4add-b559-af37c954537e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml, ifsk.psisthreadterminating, PsIsThreadTerminating
+ms.keywords: psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml, ntifs/PsIsThreadTerminating, PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], ifsk.psisthreadterminating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsIsThreadTerminating
 product: Windows
 targetos: Windows

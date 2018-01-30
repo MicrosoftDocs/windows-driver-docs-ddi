@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/PrintSchemaConstrainedSetting_None, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting enumeration [Print Devices], tagPrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting_Admin, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_PrintTicket, printerextension/PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_Device
+ms.keywords: printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting_Admin, tagPrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	PrintSchemaConstrainedSetting
 product: Windows
 targetos: Windows

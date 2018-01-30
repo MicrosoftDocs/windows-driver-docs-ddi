@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemovePort_IN
-title: _RemovePort_IN
+title: "_RemovePort_IN"
 author: windows-driver-content
 description: The Remove_IN structure is used by a WMI client to deliver input parameter data to the RemovePort WMI method.
 old-location: storage\removeport_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.removeport_in, *PRemovePort_IN, hbapiwmi/PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, _RemovePort_IN, RemovePort_IN structure [Storage Devices], hbapiwmi/RemovePort_IN, RemovePort_IN, PRemovePort_IN
+ms.keywords: "*PRemovePort_IN, hbapiwmi/RemovePort_IN, RemovePort_IN structure [Storage Devices], PRemovePort_IN structure pointer [Storage Devices], structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, _RemovePort_IN, RemovePort_IN, hbapiwmi/PRemovePort_IN, storage.removeport_in, PRemovePort_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	RemovePort_IN
 product: Windows
 targetos: Windows
-req.typenames: RemovePort_IN, *PRemovePort_IN
+req.typenames: "*PRemovePort_IN, RemovePort_IN"
 ---
 
 # _RemovePort_IN structure

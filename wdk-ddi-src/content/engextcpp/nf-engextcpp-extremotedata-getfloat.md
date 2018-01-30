@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f2781f6b-cc3e-427c-8181-908639613270
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData class [Windows Debugging], GetFloat method, ExtRemoteData, EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, GetFloat method [Windows Debugging], ExtRemoteData class, GetFloat, GetFloat method [Windows Debugging], debugger.extremotedata_getfloat, ExtRemoteData::GetFloat
+ms.keywords: GetFloat method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_getfloat, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetFloat method, GetFloat, ExtRemoteData::GetFloat, GetFloat method [Windows Debugging], EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetFloat
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetFloat method
@@ -82,11 +82,11 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544022">ExtRemoteData::GetDouble</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544022">ExtRemoteData::GetDouble</a>
 
  
 

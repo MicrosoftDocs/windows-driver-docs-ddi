@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b683518c-b4f4-4ae4-945d-8a2d064a5390
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], NdisMGetDmaAlignment, dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, netvista.ndismgetdmaalignment, ndis/NdisMGetDmaAlignment
+ms.keywords: NdisMGetDmaAlignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], ndis/NdisMGetDmaAlignment, dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, netvista.ndismgetdmaalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: = PASSIVE_LEVEL
-topictype: 
+req.irql: "= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMGetDmaAlignment
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMGetDmaAlignment function
@@ -99,10 +99,10 @@ Returns a value that specifies the alignment requirements of the DMA system. The
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
    NdisMRegisterScatterGatherDma</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

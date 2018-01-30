@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9bc6607-3222-45d0-a0d8-18c815a41771
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_lockflags, _D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS structure [Display Devices], D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml
+ms.keywords: D3DDDI_LOCKFLAGS, D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, D3DDDI_LOCKFLAGS structure [Display Devices], display.d3dddi_lockflags, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

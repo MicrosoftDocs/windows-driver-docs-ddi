@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni interface [Print Devices], EnableDriver method, IPrintOemUni::EnableDriver, IPrintOemUni, EnableDriver, EnableDriver method [Print Devices], IPrintOemUni interface, print.iprintoemuni_enabledriver, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml, EnableDriver method [Print Devices], prcomoem/IPrintOemUni::EnableDriver
+ms.keywords: EnableDriver method [Print Devices], print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml, IPrintOemUni interface [Print Devices], EnableDriver method, prcomoem/IPrintOemUni::EnableDriver, print.iprintoemuni_enabledriver, EnableDriver method [Print Devices], IPrintOemUni interface, IPrintOemUni, EnableDriver, IPrintOemUni::EnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.EnableDriver
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

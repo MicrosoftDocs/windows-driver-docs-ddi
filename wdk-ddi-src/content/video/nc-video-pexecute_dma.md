@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.product: Windows 10 or later.
 ---
 
 # PEXECUTE_DMA callback
@@ -115,13 +116,13 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
 
 <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
+<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
-<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
+<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a>
 

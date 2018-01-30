@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 312DED8E-570E-4DEC-B084-36894970F49F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSendSynchronousRequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsendsynchronousrequest
+ms.keywords: netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista], VmbChannelSendSynchronousRequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelSendSynchronousRequest
 product: Windows
 targetos: Windows

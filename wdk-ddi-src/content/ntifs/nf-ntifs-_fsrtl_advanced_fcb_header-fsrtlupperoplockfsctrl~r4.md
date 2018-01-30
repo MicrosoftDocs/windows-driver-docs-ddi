@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlUpperOplockFsctrl routine [Installable File System Drivers], ifsk.fsrtlupperoplockfsctrl, OPLOCK_LEVEL_CACHE_READ, FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_WRITE, ntifs/FsRtlUpperOplockFsctrl
+ms.keywords: ntifs/FsRtlUpperOplockFsctrl, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlupperoplockfsctrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: IRQL <= APC_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlUpperOplockFsctrl
 product: Windows
 targetos: Windows
@@ -134,7 +134,7 @@ A bitmask for the associated oplock operations. A file system or filter driver s
 
 
 
-##### - Flags.OPLOCK_FSCTRL_FLAG_ALL_KEYS_MATCH (0x00000001)
+#### OPLOCK_FSCTRL_FLAG_ALL_KEYS_MATCH (0x00000001)
 
 Specifies that the file system verified that all oplock keys on any currently open handles match. By specifying this flag, you allow the oplock package to grant an oplock of level RW or RWH when more than one open handle to the file exists. For more information about oplock types, see the <a href="https://msdn.microsoft.com/e9a45ae0-0ec8-4d6c-8486-ae88bdaa1f8c">Oplock Semantics Overview</a> page. 
 

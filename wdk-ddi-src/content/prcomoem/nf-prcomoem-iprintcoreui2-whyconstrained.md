@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, IPrintCoreUI2 interface [Print Devices], WhyConstrained method, WhyConstrained method [Print Devices], IPrintCoreUI2, WhyConstrained method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::WhyConstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml, WhyConstrained
+ms.keywords: print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml, IPrintCoreUI2, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, WhyConstrained method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], WhyConstrained method, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreUI2::WhyConstrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -198,13 +198,13 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553045">IPrintCoreUI2::EnumConstrainedOptions</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553045">IPrintCoreUI2::EnumConstrainedOptions</a>
 
  
 

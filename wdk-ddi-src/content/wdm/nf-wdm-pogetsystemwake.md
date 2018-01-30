@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pogetsystemwake, PoGetSystemWake, wdm/PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], portn_0762df5c-0956-4561-9984-83c680bdd764.xml
+ms.keywords: PoGetSystemWake routine [Kernel-Mode Driver Architecture], kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, wdm/PoGetSystemWake, PoGetSystemWake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoGetSystemWake
 product: Windows
 targetos: Windows

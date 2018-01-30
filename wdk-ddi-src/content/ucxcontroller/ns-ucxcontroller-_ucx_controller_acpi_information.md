@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_ACPI_INFORMATION
-title: _UCX_CONTROLLER_ACPI_INFORMATION
+title: "_UCX_CONTROLLER_ACPI_INFORMATION"
 author: windows-driver-content
 description: This structure provides information about an advanced Configuration and power interface (ACPI) USB controller.
 old-location: buses\_ucx_controller_acpi_information.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: P_UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], buses._ucx_controller_acpi_information, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses]
+ms.keywords: UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], P_UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, *PUCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucxcontroller.h
-apiname: 
+apiname:
 -	UCX_CONTROLLER_ACPI_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION
+req.typenames: "*PUCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

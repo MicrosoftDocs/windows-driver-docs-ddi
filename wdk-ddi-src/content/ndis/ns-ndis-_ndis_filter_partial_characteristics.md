@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_PARTIAL_CHARACTERISTICS
-title: _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+title: "_NDIS_FILTER_PARTIAL_CHARACTERISTICS"
 author: windows-driver-content
 description: To specify optional entry points for a filter module, a filter driver initializes an NDIS_FILTER_PARTIAL_CHARACTERISTICS structure and passes it to the NdisSetOptionalHandlers function.
 old-location: netvista\ndis_filter_partial_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a7f365c-a252-4d8e-bddf-684b3298db5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_FILTER_PARTIAL_CHARACTERISTICS, netvista.ndis_filter_partial_characteristics, PNDIS_FILTER_PARTIAL_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS, PNDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/PNDIS_FILTER_PARTIAL_CHARACTERISTICS, _NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], filter_structures_ref_34b4c497-9a4c-4d15-9d25-672a7580456b.xml
+ms.keywords: ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS, _NDIS_FILTER_PARTIAL_CHARACTERISTICS, PNDIS_FILTER_PARTIAL_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_filter_partial_characteristics, filter_structures_ref_34b4c497-9a4c-4d15-9d25-672a7580456b.xml, NDIS_FILTER_PARTIAL_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/PNDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_FILTER_PARTIAL_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS
+req.typenames: "*PNDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS"
 ---
 
 # _NDIS_FILTER_PARTIAL_CHARACTERISTICS structure
@@ -143,26 +143,26 @@ This structure specifies optional
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+<mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
+   NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
+
 <mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
    FilterSendNetBufferListsComplete</i></mshelp:link>
 
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
 <mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
    FilterCancelSendNetBufferLists</i></mshelp:link>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
-<mshelp:link keywords="netvista.ndis_filter_driver_characteristics" tabindex="0"><b>
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

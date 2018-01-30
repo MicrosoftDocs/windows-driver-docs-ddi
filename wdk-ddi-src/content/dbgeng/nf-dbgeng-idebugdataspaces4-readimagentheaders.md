@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2735aabf-b8b0-4eb1-89a2-4733d0b346ed
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces4, debugger.readimagentheaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces4::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, debugger.readimagentheaders, IDebugDataSpaces3::ReadImageNtHeaders, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugDataSpaces4.ReadImageNtHeaders
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::ReadImageNtHeaders method

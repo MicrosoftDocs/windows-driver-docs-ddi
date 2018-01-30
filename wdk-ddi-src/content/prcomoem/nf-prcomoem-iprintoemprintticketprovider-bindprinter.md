@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: print.iprintoemprintticketprovider_bindprinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::BindPrinter, BindPrinter, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, BindPrinter method [Print Devices]
+ms.keywords: IPrintOemPrintTicketProvider::BindPrinter, BindPrinter, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.BindPrinter
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,16 @@ A pointer to a variable that receives one of the following enumerated values:
 The OEM object that is being called should set the value pointed to by this parameter.
 
 
+#### OEMPT_DEFAULT
+
+The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
+
+
+#### OEMPT_NOSNAPSHOT
+
+The system will not place a binary encoding (a BLOB) of the private DEVMODEW structure into the print ticket in a conversion of a DEVMODEW to a print ticket. Use this value if all of the public and private DEVMODEW members are fully represented in the print ticket.
+
+
 ### -param cNamespaces [out]
 
 A pointer to a variable that receives the number of private namespace URIs that are used in the plug-in. This number represents the count of strings in the array that is pointed to by *<i>ppNamespaces</i>.
@@ -99,16 +109,6 @@ A pointer to a variable that receives the number of private namespace URIs that 
 ### -param ppNamespaces [out]
 
 A pointer to a variable that receives the address of the first element of a BSTR array. The plug-in fills each array position with a namespace URI. For more information about this parameter, see the following Remarks section.
-
-
-##### - pOptions.OEMPT_DEFAULT
-
-The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
-
-
-##### - pOptions.OEMPT_NOSNAPSHOT
-
-The system will not place a binary encoding (a BLOB) of the private DEVMODEW structure into the print ticket in a conversion of a DEVMODEW to a print ticket. Use this value if all of the public and private DEVMODEW members are fully represented in the print ticket.
 
 
 ## -returns
@@ -159,11 +159,11 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553170">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
 
  
 

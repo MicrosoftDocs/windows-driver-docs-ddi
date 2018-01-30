@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceAssignProperty method, wdfdevice/WdfDeviceAssignProperty, WdfDeviceAssignProperty, wdf.wdfdeviceassignproperty, PFN_WDFDEVICEASSIGNPROPERTY
+ms.keywords: PFN_WDFDEVICEASSIGNPROPERTY, WdfDeviceAssignProperty, wdf.wdfdeviceassignproperty, WdfDeviceAssignProperty method, wdfdevice/WdfDeviceAssignProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: APC_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceAssignProperty
 product: Windows
 targetos: Windows

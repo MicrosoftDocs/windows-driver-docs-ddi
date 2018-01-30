@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrinterPropertyBag::SetString, printerextension/IPrinterPropertyBag::SetString, SetString method [Print Devices], SetString, SetString method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices], SetString method, print.iprinterpropertybag_setstring, IPrinterPropertyBag
+ms.keywords: IPrinterPropertyBag interface [Print Devices], SetString method, IPrinterPropertyBag, SetString, SetString method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::SetString, print.iprinterpropertybag_setstring, SetString method [Print Devices], IPrinterPropertyBag::SetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterPropertyBag.SetString
 product: Windows
 targetos: Windows

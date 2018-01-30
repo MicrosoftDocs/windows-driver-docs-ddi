@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f90af220-6e48-49dd-b785-55da37894906
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKADDITIONALNUMBER, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBER, *LPRILPHONEBOOKADDITIONALNUMBER, netvista.rilphonebookadditionalnumber, RILPHONEBOOKADDITIONALNUMBER structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilphonebookadditionalnumber, RILPHONEBOOKADDITIONALNUMBER structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILPHONEBOOKADDITIONALNUMBER
 product: Windows
 targetos: Windows
-req.typenames: RILPHONEBOOKADDITIONALNUMBER, *LPRILPHONEBOOKADDITIONALNUMBER
+req.typenames: "*LPRILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER"
 ---
 
 # RILPHONEBOOKADDITIONALNUMBER structure

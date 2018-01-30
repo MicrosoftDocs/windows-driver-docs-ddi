@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_QUERY_RESOURCES
-title: _IRB_REQ_ISOCH_QUERY_RESOURCES
+title: "_IRB_REQ_ISOCH_QUERY_RESOURCES"
 author: windows-driver-content
 description: This structure contains the fields necessary to carry out a IsochQueryResources request.
 old-location: ieee\irb_req_isoch_query_resources.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: B9CDFB62-32CF-497A-BF0F-1E4FBCA36E82
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_QUERY_RESOURCES, IEEE.irb_req_isoch_query_resources, 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses]
+ms.keywords: "_IRB_REQ_ISOCH_QUERY_RESOURCES, 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses], IEEE.irb_req_isoch_query_resources, IRB_REQ_ISOCH_QUERY_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ISOCH_QUERY_RESOURCES
 product: Windows
 targetos: Windows

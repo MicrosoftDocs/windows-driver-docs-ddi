@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f6c28ad-d3dd-4be4-a637-10958a9cbd20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksprocesspinupdate, KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], ks/KsProcessPinUpdate, avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml
+ms.keywords: avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, KsProcessPinUpdate, ks/KsProcessPinUpdate, stream.ksprocesspinupdate, KsProcessPinUpdate function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsProcessPinUpdate
 product: Windows
 targetos: Windows

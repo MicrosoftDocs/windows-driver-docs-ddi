@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._COMPROPSHEETUI
-title: _COMPROPSHEETUI
+title: "_COMPROPSHEETUI"
 author: windows-driver-content
 description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_ADD_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
 old-location: print\compropsheetui.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: compstui/PCOMPROPSHEETUI, print.compropsheetui, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, _COMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI structure pointer [Print Devices], *PCOMPROPSHEETUI, PCOMPROPSHEETUI, compstui/COMPROPSHEETUI
+ms.keywords: PCOMPROPSHEETUI, compstui/COMPROPSHEETUI, COMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, COMPROPSHEETUI structure [Print Devices], compstui/PCOMPROPSHEETUI, print.compropsheetui, *PCOMPROPSHEETUI, _COMPROPSHEETUI, PCOMPROPSHEETUI structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	COMPROPSHEETUI
 product: Windows
 targetos: Windows
-req.typenames: *PCOMPROPSHEETUI, COMPROPSHEETUI
+req.typenames: COMPROPSHEETUI, *PCOMPROPSHEETUI
 ---
 
 # _COMPROPSHEETUI structure
@@ -96,6 +96,23 @@ Optional caller-supplied bit flags, as described in the following list:
 
 
 
+
+
+#### CPSUIF_ABOUT_CALLBACK
+
+If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
+
+
+#### CPSUIF_ICONID_AS_HICON
+
+If set, the structure's <b>IconID</b> member contains an icon handle.
+
+If not set, the <b>IconID</b> member contains an icon resource identifier.
+
+
+#### CPSUIF_UPDATE_PERMISSION
+
+If set, the page's option values can be modified by the user.
 
 
 ### -field hInstCaller
@@ -231,21 +248,4 @@ Caller-supplied version number, representing the root-level option item's curren
 ### -field dwReserved
 
 Reserved. This array must be set to zero.
-
-
-##### - Flags.CPSUIF_ABOUT_CALLBACK
-
-If set, the page's callback function (pointed to by the structure's <b>pfnCallback</b> member), supports CPSUICB_REASON_ABOUT, so CPSUI will call the callback function if the user clicks on the page's <b>About</b> button. (CPSUI supplies an <b>About</b> button for each treeview root node.)
-
-
-##### - Flags.CPSUIF_UPDATE_PERMISSION
-
-If set, the page's option values can be modified by the user.
-
-
-##### - Flags.CPSUIF_ICONID_AS_HICON
-
-If set, the structure's <b>IconID</b> member contains an icon handle.
-
-If not set, the <b>IconID</b> member contains an icon resource identifier.
 

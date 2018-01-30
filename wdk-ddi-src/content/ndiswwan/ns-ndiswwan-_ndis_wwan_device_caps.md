@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_CAPS
-title: _NDIS_WWAN_DEVICE_CAPS
+title: "_NDIS_WWAN_DEVICE_CAPS"
 author: windows-driver-content
 description: The NDIS_WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 old-location: netvista\ndis_wwan_device_caps.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a0e1e46-8bb1-4292-bd33-17ed4cc33c60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, _NDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, netvista.ndis_wwan_device_caps
+ms.keywords: ndiswwan/NDIS_WWAN_DEVICE_CAPS, _NDIS_WWAN_DEVICE_CAPS, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, *PNDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS, netvista.ndis_wwan_device_caps, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_DEVICE_CAPS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS
+req.typenames: NDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS
 ---
 
 # _NDIS_WWAN_DEVICE_CAPS structure
@@ -171,9 +171,9 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

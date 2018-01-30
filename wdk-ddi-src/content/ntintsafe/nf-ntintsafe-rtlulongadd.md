@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd, RtlULongAdd, ntintsafe/RtlULongAdd
+ms.keywords: kernel.rtlulongadd, ntintsafe/RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], RtlULongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongAdd
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
-title: _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+title: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
 author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: storage\storage_medium_product_type_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AC0C09DF-EFD4-457B-8ABC-C60890D3AF6A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], storage.storage_medium_product_type_descriptor
+ms.keywords: ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 product: Windows
 targetos: Windows

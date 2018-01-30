@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, wdf.wdf_wmi_buffer_append_string, WDF_WMI_BUFFER_APPEND_STRING
+ms.keywords: kmdf.wdf_wmi_buffer_append_string, WDF_WMI_BUFFER_APPEND_STRING function, WDF_WMI_BUFFER_APPEND_STRING, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING, DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, wdf.wdf_wmi_buffer_append_string
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_WMI_BUFFER_APPEND_STRING
 product: Windows
 targetos: Windows
@@ -112,9 +112,9 @@ When <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns, the location that the <i>Requi
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
 
  
 

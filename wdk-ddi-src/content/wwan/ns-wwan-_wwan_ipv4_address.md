@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IPV4_ADDRESS
-title: _WWAN_IPV4_ADDRESS
+title: "_WWAN_IPV4_ADDRESS"
 author: windows-driver-content
 description: The WWAN_IPV4_ADDRESS structure represents an IPV4 address of a PDP context.
 old-location: netvista\wwan_ipv4_address.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D75EAC9E-8E65-437E-83AA-59B422527C6C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_IPV4_ADDRESS, wwan/WWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_IPV4_ADDRESS, netvista.wwan_ipv4_address, *PWWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_IPV4_ADDRESS
+ms.keywords: wwan/PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS, _WWAN_IPV4_ADDRESS, *PWWAN_IPV4_ADDRESS, netvista.wwan_ipv4_address, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV4_ADDRESS, wwan/WWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_IPV4_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS
+req.typenames: "*PWWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS"
 req.product: Windows 10 or later.
 ---
 

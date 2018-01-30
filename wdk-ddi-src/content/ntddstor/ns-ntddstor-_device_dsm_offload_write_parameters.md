@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
-title: _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+title: "_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
 author: windows-driver-content
 description: The DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure specifies the parameters for an offload write action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_write_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B0E9DABD-0D5B-4F5D-8CB0-470AC126F9C0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices], DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, storage.device_dsm_offload_write_parameters, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+ms.keywords: storage.device_dsm_offload_write_parameters, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices], ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+req.typenames: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 ---
 
 # _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure

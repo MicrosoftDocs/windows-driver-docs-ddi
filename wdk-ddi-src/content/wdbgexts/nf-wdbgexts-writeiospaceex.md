@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteIoSpaceEx, wdbgexts/WriteIoSpaceEx, WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx function [Windows Debugging], debugger.writeiospaceex
+ms.keywords: WriteIoSpaceEx function [Windows Debugging], wdbgexts/WriteIoSpaceEx, WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, debugger.writeiospaceex, WriteIoSpaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: EXT_TDOP
+req.product: Windows 10 or later.
 ---
 
 # WriteIoSpaceEx function

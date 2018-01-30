@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BIDI_BOOL, BIDI_FLOAT, bidispl/IBidiRequest::IBidiRequest::SetInputData, IBidiRequest, BIDI_ENUM, BIDI_BLOB, IBidiRequest::SetInputData, IBidiRequest interface [Print Devices], IBidiRequest::SetInputData method, BIDI_STRING, IBidiRequest::SetInputData method [Print Devices], BIDI_TEXT, print.ibidirequest_ibidirequest__setinputdata, BIDI_INT, _win32_IBidiRequest_SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, BIDI_NULL, IBidiRequest::SetInputData method [Print Devices], IBidiRequest interface, SetInputData, IBidiRequest::IBidiRequest::SetInputData
+ms.keywords: BIDI_FLOAT, BIDI_NULL, gdi.ibidirequest_ibidirequest__setinputdata, BIDI_BLOB, IBidiRequest::IBidiRequest::SetInputData, _win32_IBidiRequest_SetInputData, SetInputData, BIDI_ENUM, print.ibidirequest_ibidirequest__setinputdata, bidispl/IBidiRequest::IBidiRequest::SetInputData, IBidiRequest::SetInputData method [Print Devices], IBidiRequest, IBidiRequest::SetInputData method [Print Devices], IBidiRequest interface, BIDI_STRING, IBidiRequest::SetInputData, IBidiRequest interface [Print Devices], IBidiRequest::SetInputData method, BIDI_TEXT, BIDI_BOOL, BIDI_INT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
+apiname:
 -	IBidiRequest.IBidiRequest::SetInputData
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiRequest::SetInputData method
@@ -247,11 +247,11 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
  
 

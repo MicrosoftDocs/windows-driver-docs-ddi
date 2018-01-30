@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 64f15528-e934-4bdd-a9f7-6790eef7c7c5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetPnpCapability method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_getpnpcapability, GetPnpCapability method, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, wdf.iwdfdeviceinitialize_getpnpcapability, IWDFDeviceInitialize, GetPnpCapability, IWDFDeviceInitialize::GetPnpCapability, IWDFDeviceInitialize interface, GetPnpCapability method, wudfddi/IWDFDeviceInitialize::GetPnpCapability
+ms.keywords: wudfddi/IWDFDeviceInitialize::GetPnpCapability, umdf.iwdfdeviceinitialize_getpnpcapability, IWDFDeviceInitialize, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, IWDFDeviceInitialize interface, GetPnpCapability method, IWDFDeviceInitialize::GetPnpCapability, GetPnpCapability, wdf.iwdfdeviceinitialize_getpnpcapability, GetPnpCapability method, IWDFDeviceInitialize interface, GetPnpCapability method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDeviceInitialize.GetPnpCapability
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -125,9 +125,9 @@ The capability is set.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
  
 

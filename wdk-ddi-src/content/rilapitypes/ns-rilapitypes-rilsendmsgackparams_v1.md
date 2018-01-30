@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6e1f0283-76de-4c21-8205-cab83250dfae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSENDMSGACKPARAMS_V1, netvista.rilsendmsgackparams_v1_2
+ms.keywords: rilapitypes/RILSENDMSGACKPARAMS_V1, netvista.rilsendmsgackparams_v1_2, RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSENDMSGACKPARAMS_V1
 product: Windows
 targetos: Windows

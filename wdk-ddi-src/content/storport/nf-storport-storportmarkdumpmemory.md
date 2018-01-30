@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, storport/StorPortMarkDumpMemory, StorPortMarkDumpMemory, storage.storportmarkdumpmemory, StorPortMarkDumpMemory routine [Storage Devices]
+ms.keywords: StorPortMarkDumpMemory, storport/StorPortMarkDumpMemory, storage.storportmarkdumpmemory, StorPortMarkDumpMemory routine [Storage Devices], MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortMarkDumpMemory
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5C6D2FFC-DBFF-4C44-8757-ED87593A584F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPBranchOfficeJobDataContainer structure pointer [Print Devices], BranchOfficeJobDataContainer structure [Print Devices], print.branchofficejobdatacontainer, *PBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer, PBranchOfficeJobDataContainer, winsplp/PBranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer, winsplp/BranchOfficeJobDataContainer, PBranchOfficeJobDataContainer structure pointer [Print Devices], BranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer
+ms.keywords: "*PBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], winsplp/LPBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, BranchOfficeJobDataContainer structure [Print Devices], PBranchOfficeJobDataContainer, print.branchofficejobdatacontainer, winsplp/BranchOfficeJobDataContainer, winsplp/PBranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer, PBranchOfficeJobDataContainer structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	BranchOfficeJobDataContainer
 product: Windows
 targetos: Windows
-req.typenames: BranchOfficeJobDataContainer, *PBranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer
+req.typenames: "*PBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer"
 req.product: Windows 10 or later.
 ---
 

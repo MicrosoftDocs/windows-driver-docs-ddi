@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_CRYPTO_KEY_SIZE
-title: _STOR_CRYPTO_KEY_SIZE
+title: "_STOR_CRYPTO_KEY_SIZE"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_size.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5CBE8A2B-E2E1-4B76-A76F-51DA9F301DAA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], storage.stor_crypto_key_size, storport/PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], _STOR_CRYPTO_KEY_SIZE, storport/, storport/STOR_CRYPTO_KEY_SIZE
+ms.keywords: "_STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], storport/, *PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], PSTOR_CRYPTO_KEY_SIZE, storport/STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE, storage.stor_crypto_key_size, storport/PSTOR_CRYPTO_KEY_SIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_CRYPTO_KEY_SIZE
 product: Windows
 targetos: Windows
-req.typenames: *PSTOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE
+req.typenames: STOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE
 req.product: Windows 10 or later.
 ---
 

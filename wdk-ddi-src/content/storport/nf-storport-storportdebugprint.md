@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 46845a10-c44b-4d11-b82e-986bfc066b97
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortDebugPrint routine [Storage Devices], storage.storportdebugprint, storport/StorPortDebugPrint, StorPortDebugPrint, storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml
+ms.keywords: storport/StorPortDebugPrint, storage.storportdebugprint, StorPortDebugPrint routine [Storage Devices], storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml, StorPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortDebugPrint
 product: Windows
 targetos: Windows

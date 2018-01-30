@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 529ef33a-adad-4242-96a8-01cdd273cc35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnexttagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, GetNextTagged, IDebugDataSpaces4, dbgeng/IDebugDataSpaces3::GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces4::GetNextTagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method
+ms.keywords: IDebugDataSpaces4, GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetNextTagged, debugger.getnexttagged, IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method, dbgeng/IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces3::GetNextTagged, GetNextTagged, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, GetNextTagged method [Windows Debugging], dbgeng/IDebugDataSpaces4::GetNextTagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugDataSpaces4.GetNextTagged
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::GetNextTagged method
@@ -122,13 +122,13 @@ There are no more blocks of tagged data available in this enumeration.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
  
 

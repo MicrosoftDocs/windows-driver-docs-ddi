@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 134d224a-d472-4d74-be3e-069dbb46a65c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices], drvUnLockWiaDevice, image.iwiaminidrv_drvunlockwiadevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvUnLockWiaDevice, IWiaMiniDrv
+ms.keywords: IWiaMiniDrv::drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, drvUnLockWiaDevice, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, image.iwiaminidrv_drvunlockwiadevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvUnLockWiaDevice
 product: Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
+req.typenames: "*PSCANWINDOW, SCANWINDOW"
 req.product: Windows 10 or later.
 ---
 
@@ -86,9 +86,9 @@ HRESULT drvUnLockWiaDevice(
 
 
 
-#### - plDevErrVal [out]
+#### - pWiasContext [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+Pointer to a WIA item context.
 
 
 #### - lFlags [in]
@@ -96,9 +96,9 @@ Points to a memory location that will receive a status code for this method. If 
 Is currently unused. 
 
 
-#### - pWiasContext [in]
+#### - plDevErrVal [out]
 
-Pointer to a WIA item context.
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns
@@ -121,11 +121,11 @@ The minidriver's implementation of the <b>IWiaMiniDrv::drvUnLockWiaDevice</b> me
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544995">IWiaMiniDrv::drvLockWiaDevice</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

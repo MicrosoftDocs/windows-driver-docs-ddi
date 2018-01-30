@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A16980CD-3F2F-4A67-902A-F3D72AA042D9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, REQ_HFP_BYPASS_CODEC_ID_V1, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, _HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices]
+ms.keywords: HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], *PHFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_VERSION, _HFP_BYPASS_CODEC_ID_VERSION, REQ_HFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,9 +74,9 @@ Codec ID structure version 1.
 
 ## -see-also
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id.md">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
-
 <a href="..\bthhfpddi\ns-bthhfpddi-_hfp_bypass_codec_id_v1.md">HFP_BYPASS_CODEC_ID_V1</a>
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id.md">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
 
  
 

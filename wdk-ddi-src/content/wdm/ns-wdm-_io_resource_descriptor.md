@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_RESOURCE_DESCRIPTOR
-title: _IO_RESOURCE_DESCRIPTOR
+title: "_IO_RESOURCE_DESCRIPTOR"
 author: windows-driver-content
 description: The IO_RESOURCE_DESCRIPTOR structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of IO_RESOURCE_DESCRIPTOR structures is contained within each IO_RESOURCE_LIST structure.
 old-location: kernel\io_resource_descriptor.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03e3a656-c691-4aff-bcc8-4e0bc8390fd7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_GPIO, wdm/PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_WAKE_HINT, CM_RESOURCE_CONNECTION_CLASS_SERIAL, _IO_RESOURCE_DESCRIPTOR, 0, IO_RESOURCE_ALTERNATIVE, kernel.io_resource_descriptor, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, IO_RESOURCE_DEFAULT, IO_RESOURCE_PREFERRED, CM_RESOURCE_INTERRUPT_LATCHED, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, CM_RESOURCE_INTERRUPT_MESSAGE, *PIO_RESOURCE_DESCRIPTOR, wdm/IO_RESOURCE_DESCRIPTOR, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml
+ms.keywords: CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, IO_RESOURCE_PREFERRED, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, *PIO_RESOURCE_DESCRIPTOR, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, kernel.io_resource_descriptor, CM_RESOURCE_INTERRUPT_WAKE_HINT, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_INTERRUPT_MESSAGE, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_INTERRUPT_LATCHED, 0, wdm/IO_RESOURCE_DESCRIPTOR, wdm/PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_GPIO, IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, _IO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, IO_RESOURCE_DEFAULT, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, IO_RESOURCE_ALTERNATIVE, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PIO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR
+req.typenames: IO_RESOURCE_DESCRIPTOR, *PIO_RESOURCE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -157,6 +157,33 @@ typedef struct _IO_RESOURCE_DESCRIPTOR {
 
 ### -field u
 
+
+
+#### port
+
+Specifies a range of I/O port addresses, using the following members.
+
+Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
+
+
+#### Length
+
+The length, in bytes, of the range of assignable I/O port addresses.
+
+
+#### Alignment
+
+The alignment, in bytes, that the assigned starting address must adhere to. The assigned starting address must be an integer multiple of <i>Alignment</i>. 
+
+
+#### MinimumAddress
+
+The minimum bus-relative I/O port address that can be assigned to the device.
+
+
+#### MaximumAddress
+
+The maximum bus-relative I/O port address that can be assigned to the device.
 
 
 ### -field u.Port
@@ -716,42 +743,15 @@ For a list of valid flags for other resource types, see the description of the <
 
 
 
-###### - u.port.Alignment
-
-The alignment, in bytes, that the assigned starting address must adhere to. The assigned starting address must be an integer multiple of <i>Alignment</i>. 
-
-
-###### - u.port.MaximumAddress
-
-The maximum bus-relative I/O port address that can be assigned to the device.
-
-
-###### - u.port.Length
-
-The length, in bytes, of the range of assignable I/O port addresses.
-
-
-##### - u.port
-
-Specifies a range of I/O port addresses, using the following members.
-
-Drivers for Windows Vista and later versions of the Windows operating system must use <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a> and <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
-
-
-###### - u.port.MinimumAddress
-
-The minimum bus-relative I/O port address that can be assigned to the device.
-
-
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 
 <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
 
-<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
  
 

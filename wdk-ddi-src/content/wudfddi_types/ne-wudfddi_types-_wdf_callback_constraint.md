@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_CALLBACK_CONSTRAINT
-title: _WDF_CALLBACK_CONSTRAINT
+title: "_WDF_CALLBACK_CONSTRAINT"
 author: windows-driver-content
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfLevelReserved, None, wdf.wdf_callback_constraint, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_CALLBACK_CONSTRAINT, wudfddi_types/None, WdfDeviceLevel, wudfddi_types/WdfLevelReserved, wudfddi_types/WdfDeviceLevel, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, _WDF_CALLBACK_CONSTRAINT
+ms.keywords: wudfddi_types/WdfDeviceLevel, wdf.wdf_callback_constraint, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfLevelReserved, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfLevelReserved, wudfddi_types/None, WdfDeviceLevel, _WDF_CALLBACK_CONSTRAINT, WDF_CALLBACK_CONSTRAINT, None
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_CALLBACK_CONSTRAINT
 product: Windows
 targetos: Windows

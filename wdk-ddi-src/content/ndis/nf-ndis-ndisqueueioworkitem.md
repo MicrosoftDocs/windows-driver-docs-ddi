@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5065217-a74e-41b6-bc23-59b39948a450
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisqueueioworkitem, ndis/NdisQueueIoWorkItem, NdisQueueIoWorkItem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisqueueioworkitem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], NdisQueueIoWorkItem, ndis/NdisQueueIoWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisQueueIoWorkItem
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisQueueIoWorkItem function
@@ -88,25 +88,25 @@ The entry point to the function that NDIS calls to process the work item. NDIS c
 
 
 
-### -param WorkItemContext [in]
+#### WorkItemContext
 
-A pointer to a caller-supplied context area that NDIS passes through to the callback routine. 
-     <i>WorkItemContext</i> can be any caller-specified data that the driver requires to manage the work
-     item.
+A pointer to the context area that the driver passed to the 
+       <i>WorkItemContext</i> parameter of 
+       <b>NdisQueueIoWorkItem</b>.
 
 
-##### - Routine.NdisIoWorkItemHandle
+#### NdisIoWorkItemHandle
 
 A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
        <mshelp:link keywords="netvista.ndisallocateioworkitem" tabindex="0"><b>
      NdisAllocateIoWorkItem</b></mshelp:link> function.
 
 
-##### - Routine.WorkItemContext
+### -param WorkItemContext [in]
 
-A pointer to the context area that the driver passed to the 
-       <i>WorkItemContext</i> parameter of 
-       <b>NdisQueueIoWorkItem</b>.
+A pointer to a caller-supplied context area that NDIS passes through to the callback routine. 
+     <i>WorkItemContext</i> can be any caller-specified data that the driver requires to manage the work
+     item.
 
 
 ## -returns
@@ -166,13 +166,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
-
 <a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
 
 <a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 

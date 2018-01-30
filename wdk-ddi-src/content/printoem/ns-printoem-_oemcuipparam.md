@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMCUIPPARAM
-title: _OEMCUIPPARAM
+title: "_OEMCUIPPARAM"
 author: windows-driver-content
 description: The OEMCUIPPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::CommonUIProp method.
 old-location: print\oemcuipparam.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], printoem/OEMCUIPPARAM, print.oemcuipparam, OEMCUIPPARAM, *POEMCUIPPARAM, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml
+ms.keywords: "_OEMCUIPPARAM, printoem/OEMCUIPPARAM, OEMCUIPPARAM, *POEMCUIPPARAM, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, OEMCUIPPARAM structure [Print Devices], print.oemcuipparam"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMCUIPPARAM
 product: Windows
 targetos: Windows
-req.typenames: *POEMCUIPPARAM, OEMCUIPPARAM
+req.typenames: OEMCUIPPARAM, *POEMCUIPPARAM
 req.product: Windows 10 or later.
 ---
 
@@ -127,6 +127,16 @@ Pointer to the user interface plug-in's private DEVMODEW members. Valid only if 
 
 
 
+#### For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_DOCPROP:
+
+Contains the contents of the <b>fMode</b> member of the <a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a> structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+
+
+#### For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_PRNPROP:
+
+Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
+
+
 ### -field pDrvOptItems
 
 Pointer to the printer driver's <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> array. Not valid the first time <b>IPrintOemUI::CommonUIProp</b> is called. Supplied by the Unidrv or Pscript5 driver.
@@ -167,16 +177,6 @@ Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is calle
 ### -field OEMCUIPCallback
 
 Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is called, to return the address of a callback function of type <a href="..\printoem\nc-printoem-oemcuipcallback.md">OEMCUIPCALLBACK</a>.
-
-
-##### - dwFlags.For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_DOCPROP:
-
-Contains the contents of the <b>fMode</b> member of the <a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a> structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
-
-
-##### - dwFlags.For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_PRNPROP:
-
-Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2a7eda-343b-4713-9481-6f54f713811f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_FIELDS_IKEEXT_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, wfp_ref_5_const_3_data_fields_c891b6cd-82a0-45f1-9284-97d89aaeef6e.xml, FWPS_FIELDS_IKEEXT_V4_, FWPS_FIELD_IKEEXT_V4_PROFILE_ID, FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELDS_IKEEXT_V4, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V4_MAX, FWPS_FIELDS_IKEEXT_V4, netvista.fwps_fields_ikeext_v4, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_PROFILE_ID, fwpsk/FWPS_FIELD_IKEEXT_V4_MAX
+ms.keywords: wfp_ref_5_const_3_data_fields_c891b6cd-82a0-45f1-9284-97d89aaeef6e.xml, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELDS_IKEEXT_V4_, fwpsk/FWPS_FIELD_IKEEXT_V4_MAX, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, FWPS_FIELDS_IKEEXT_V4 enumeration [Network Drivers Starting with Windows Vista], netvista.fwps_fields_ikeext_v4, fwpsk/FWPS_FIELDS_IKEEXT_V4, FWPS_FIELD_IKEEXT_V4_MAX, FWPS_FIELD_IKEEXT_V4_PROFILE_ID, FWPS_FIELDS_IKEEXT_V4, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_PROFILE_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_FIELDS_IKEEXT_V4
 product: Windows
 targetos: Windows

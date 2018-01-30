@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DFB59020-1F4A-4ABB-8BBE-85F9C8615249
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxquerycurrentcomponentperfstate, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], PoFxQueryCurrentComponentPerfState, wdm/PoFxQueryCurrentComponentPerfState
+ms.keywords: PoFxQueryCurrentComponentPerfState, wdm/PoFxQueryCurrentComponentPerfState, kernel.pofxquerycurrentcomponentperfstate, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxQueryCurrentComponentPerfState
 product: Windows
 targetos: Windows
@@ -134,11 +134,11 @@ A driver can call the <b>PoFxQueryCurrentComponentPerfState</b> routine to retri
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 

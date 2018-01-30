@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIssueDeviceIoControl routine [Installable File System Drivers], ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl
+ms.keywords: ifsk.fsrtlissuedeviceiocontrol, FsRtlIssueDeviceIoControl, ntifs/FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	FsRtlIssueDeviceIoControl
 product: Windows
 targetos: Windows

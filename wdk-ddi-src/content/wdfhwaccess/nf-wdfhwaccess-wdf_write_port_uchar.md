@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F7F40415-87E9-4870-8B10-83009159543E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_PORT_UCHAR function, WDF_WRITE_PORT_UCHAR, wdfhwaccess/WDF_WRITE_PORT_UCHAR, wdf.wdf_write_port_uchar
+ms.keywords: wdf.wdf_write_port_uchar, wdfhwaccess/WDF_WRITE_PORT_UCHAR, WDF_WRITE_PORT_UCHAR function, WDF_WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfhwaccess.h
-apiname: 
+apiname:
 -	WDF_WRITE_PORT_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

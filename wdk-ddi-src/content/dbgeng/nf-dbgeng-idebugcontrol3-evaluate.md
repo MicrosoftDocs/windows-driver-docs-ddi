@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::Evaluate, IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging], Evaluate method, IDebugControl3, Evaluate method [Windows Debugging], Evaluate method [Windows Debugging], IDebugControl3 interface, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl3::Evaluate, IDebugControl3::Evaluate, Evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, IDebugControl::Evaluate, IDebugControl2 interface [Windows Debugging], Evaluate method, debugger.evaluate, IDebugControl interface [Windows Debugging], Evaluate method, Evaluate method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::Evaluate
+ms.keywords: Evaluate method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], Evaluate method, IDebugControl interface [Windows Debugging], Evaluate method, Evaluate method [Windows Debugging], IDebugControl interface, debugger.evaluate, dbgeng/IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging], Evaluate method, dbgeng/IDebugControl::Evaluate, dbgeng/IDebugControl3::Evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, Evaluate, Evaluate method [Windows Debugging], IDebugControl2::Evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.Evaluate
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::Evaluate method
@@ -142,15 +142,15 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
  
 

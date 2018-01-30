@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortReadPortBufferUchar, display.videoportreadportbufferuchar, VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml
+ms.keywords: VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, VideoPortReadPortBufferUchar function [Display Devices], video/VideoPortReadPortBufferUchar, display.videoportreadportbufferuchar, VideoPortReadPortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortReadPortBufferUchar function

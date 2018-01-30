@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf8c2140-8917-42af-86bf-c2f25b0c42b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OEMDitherColor function [Print Devices], printoem/OEMDitherColor, OEMDitherColor, print.oemdithercolor, print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml
+ms.keywords: print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, OEMDitherColor function [Print Devices], print.oemdithercolor, OEMDitherColor, printoem/OEMDitherColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMDitherColor
 product: Windows
 targetos: Windows

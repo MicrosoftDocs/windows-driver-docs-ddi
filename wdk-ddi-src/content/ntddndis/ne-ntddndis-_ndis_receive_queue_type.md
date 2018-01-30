@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_QUEUE_TYPE
-title: _NDIS_RECEIVE_QUEUE_TYPE
+title: "_NDIS_RECEIVE_QUEUE_TYPE"
 author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_TYPE enumeration identifies the type of a receive queue.
 old-location: netvista\ndis_receive_queue_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ee28daf-2719-42bc-ab2e-6dcfa7f0e04b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReceiveQueueTypeUnspecified, ntddndis/NdisReceiveQueueTypeUnspecified, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, PNDIS_RECEIVE_QUEUE_TYPE, *PNDIS_RECEIVE_QUEUE_TYPE, NdisReceiveQueueTypeMaximum, ntddndis/NdisReceiveQueueTypeVMQueue, NdisReceiveQueueTypeVMQueue, NDIS_RECEIVE_QUEUE_TYPE, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, ntddndis/NdisReceiveQueueTypeMaximum, netvista.ndis_receive_queue_type, virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml, PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NdisReceiveQueueTypeVMQueue, NdisReceiveQueueTypeMaximum, ntddndis/NdisReceiveQueueTypeMaximum, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveQueueTypeUnspecified, _NDIS_RECEIVE_QUEUE_TYPE, NdisReceiveQueueTypeVMQueue, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, ntddndis/NdisReceiveQueueTypeUnspecified, PNDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE, netvista.ndis_receive_queue_type, *PNDIS_RECEIVE_QUEUE_TYPE, virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_QUEUE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_QUEUE_TYPE, *PNDIS_RECEIVE_QUEUE_TYPE
+req.typenames: "*PNDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE"
 ---
 
 # _NDIS_RECEIVE_QUEUE_TYPE enumeration

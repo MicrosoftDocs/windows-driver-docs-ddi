@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_TM
-title: _MSFC_TM
+title: "_MSFC_TM"
 author: windows-driver-content
 description: The MSFC_TM structure is used by WMI providers to timestamp events.
 old-location: storage\msfc_tm.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSFC_TM, _MSFC_TM, PMSFC_TM structure pointer [Storage Devices], PMSFC_TM, hbapiwmi/PMSFC_TM, *PMSFC_TM, hbapiwmi/MSFC_TM, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, MSFC_TM structure [Storage Devices], storage.msfc_tm
+ms.keywords: hbapiwmi/PMSFC_TM, MSFC_TM, *PMSFC_TM, hbapiwmi/MSFC_TM, storage.msfc_tm, PMSFC_TM structure pointer [Storage Devices], structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, MSFC_TM structure [Storage Devices], PMSFC_TM, _MSFC_TM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_TM
 product: Windows
 targetos: Windows
-req.typenames: MSFC_TM, *PMSFC_TM
+req.typenames: "*PMSFC_TM, MSFC_TM"
 ---
 
 # _MSFC_TM structure

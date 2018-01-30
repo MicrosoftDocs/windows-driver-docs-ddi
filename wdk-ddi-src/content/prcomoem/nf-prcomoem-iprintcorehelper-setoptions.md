@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0441558c-db3d-46d1-a251-a32e98098e9e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintCoreHelper interface [Print Devices], SetOptions method, SetOptions, SetOptions method [Print Devices], prcomoem/IPrintCoreHelper::SetOptions, IPrintCoreHelper, IPrintCoreHelper::SetOptions, print_unidrv-pscript_allplugins_ad900ead-2d1f-41ab-9ee5-fc5e9f8130d7.xml, print.iprintcorehelper_setoptions, SetOptions method [Print Devices], IPrintCoreHelper interface
+ms.keywords: prcomoem/IPrintCoreHelper::SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelper interface, SetOptions, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], SetOptions method, print_unidrv-pscript_allplugins_ad900ead-2d1f-41ab-9ee5-fc5e9f8130d7.xml, IPrintCoreHelper::SetOptions, print.iprintcorehelper_setoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelper.SetOptions
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

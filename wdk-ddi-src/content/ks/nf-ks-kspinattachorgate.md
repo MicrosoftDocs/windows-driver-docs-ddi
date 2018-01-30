@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14fb5b30-7169-4d8a-ad72-d0ee86da7f98
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinAttachOrGate, stream.kspinattachorgate, KsPinAttachOrGate, avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml, KsPinAttachOrGate function [Streaming Media Devices]
+ms.keywords: stream.kspinattachorgate, KsPinAttachOrGate, KsPinAttachOrGate function [Streaming Media Devices], ks/KsPinAttachOrGate, avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinAttachOrGate
 product: Windows
 targetos: Windows

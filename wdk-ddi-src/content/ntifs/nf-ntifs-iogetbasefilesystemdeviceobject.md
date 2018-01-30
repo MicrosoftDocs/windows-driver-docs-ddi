@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 12a326d8-8628-496d-96e7-8c680aeb1a03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoGetBaseFileSystemDeviceObject, ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], ntifs/IoGetBaseFileSystemDeviceObject, ifsk.iogetbasefilesystemdeviceobject
+ms.keywords: ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml, IoGetBaseFileSystemDeviceObject, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], ntifs/IoGetBaseFileSystemDeviceObject, ifsk.iogetbasefilesystemdeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	IoGetBaseFileSystemDeviceObject
 product: Windows
 targetos: Windows

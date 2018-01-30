@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c10e46a5-62e4-4d78-a672-34fc218800eb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, fltkernel/FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], FltSetStreamContext, ifsk.fltsetstreamcontext
+ms.keywords: fltkernel/FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext, ifsk.fltsetstreamcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltSetStreamContext
 product: Windows
 targetos: Windows
@@ -88,6 +88,16 @@ A flag that specifies details of the operation to be performed. This parameter m
 
 
 
+#### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
+
+If a context is already set for this <i>Instance</i>, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream. 
+
+
+#### FLT_SET_CONTEXT_KEEP_IF_EXISTS
+
+If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream. 
+
+
 ### -param NewContext [in]
 
 A pointer to the new context to be set for the file stream. This parameter is required and cannot be <b>NULL</b>. 
@@ -96,16 +106,6 @@ A pointer to the new context to be set for the file stream. This parameter is re
 ### -param OldContext [out]
 
 A pointer to a caller-allocated variable that receives the address of the existing stream context pointed to by the <i>Instance</i>parameter. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
-
-
-##### - Operation.FLT_SET_CONTEXT_KEEP_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream. 
-
-
-##### - Operation.FLT_SET_CONTEXT_REPLACE_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the file stream. 
 
 
 ## -returns
@@ -213,15 +213,15 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletestreamcontext.md">FltDeleteStreamContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
 
  
 

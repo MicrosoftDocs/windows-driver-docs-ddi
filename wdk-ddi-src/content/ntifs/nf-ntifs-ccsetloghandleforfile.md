@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile, CcSetLogHandleForFile, LogHandle, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, Lsn, CcSetLogHandleForFile routine [Installable File System Drivers]
+ms.keywords: CcSetLogHandleForFile routine [Installable File System Drivers], LogHandle, ifsk.ccsetloghandleforfile, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ntifs/CcSetLogHandleForFile, CcSetLogHandleForFile, Lsn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcSetLogHandleForFile
 product: Windows
 targetos: Windows
@@ -97,12 +97,12 @@ VOID (*PFLUSH_TO_LSN) (
 </tr>
 </table></span></div>
 
-##### - FlushToLsnRoutine.LogHandle
+#### LogHandle
 
 Pointer to an opaque structure that is used to identify this client. 
 
 
-##### - FlushToLsnRoutine.Lsn
+#### Lsn
 
 This is the LSN that must be on the disk on return from this callback routine. 
 

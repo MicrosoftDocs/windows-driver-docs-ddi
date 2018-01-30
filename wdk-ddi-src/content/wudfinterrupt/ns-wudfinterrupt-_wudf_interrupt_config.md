@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfinterrupt._WUDF_INTERRUPT_CONFIG
-title: _WUDF_INTERRUPT_CONFIG
+title: "_WUDF_INTERRUPT_CONFIG"
 author: windows-driver-content
 description: The WUDF_INTERRUPT_CONFIG structure contains configuration information for a device interrupt.
 old-location: wdf\wudf_interrupt_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, PWUDF_INTERRUPT_CONFIG, wdf.wudf_interrupt_config, PWUDF_INTERRUPT_CONFIG structure pointer, *PWUDF_INTERRUPT_CONFIG, _WUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG
+ms.keywords: wdf.wudf_interrupt_config, PWUDF_INTERRUPT_CONFIG structure pointer, wudfinterrupt/WUDF_INTERRUPT_CONFIG, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, WUDF_INTERRUPT_CONFIG structure, *PWUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG, _WUDF_INTERRUPT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WUDF_INTERRUPT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PWUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG
+req.typenames: WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -142,11 +142,11 @@ UMDF supports edge-triggered, line-based interrupts and message-signaled interru
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556991">IWDFDeviceInitialize::SetLockingConstraint</a>
+<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
 
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
 
-<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556991">IWDFDeviceInitialize::SetLockingConstraint</a>
 
  
 

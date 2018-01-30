@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c724a4f5-55ef-413d-bd1a-9cd39d3e42f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, image.wiasparseendorserstring, wiasParseEndorserString function [Imaging Devices], wiamdef/wiasParseEndorserString, wiasParseEndorserString
+ms.keywords: wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, image.wiasparseendorserstring, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices], wiamdef/wiasParseEndorserString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasParseEndorserString
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

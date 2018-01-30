@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8aa7aec3-85d7-40a2-a63d-bee8c5ce1ff9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsDeleteMarshallingArea, kernel.clfsdeletemarshallingarea, ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_a015edd3-4625-4b24-995f-75217a711528.xml
+ms.keywords: wdm/ClfsDeleteMarshallingArea, Clfs_a015edd3-4625-4b24-995f-75217a711528.xml, ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], kernel.clfsdeletemarshallingarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsDeleteMarshallingArea
 product: Windows
 targetos: Windows

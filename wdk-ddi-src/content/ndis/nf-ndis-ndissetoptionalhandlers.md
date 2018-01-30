@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers, ndis/NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], NdisSetOptionalHandlers
+ms.keywords: ndis/NdisSetOptionalHandlers, NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisSetOptionalHandlers
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisSetOptionalHandlers function
@@ -370,45 +370,45 @@ For more information on the 4 chimney offload structures, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
+   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
 <mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
    NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
 
 <mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
    NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
+<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
 
  
 

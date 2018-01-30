@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d60ef96b-d145-48e5-be56-7f0bc4d1d0f3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-routines_f0bb32ce-019d-4c2f-90f6-cf6d54e2fb08.xml, StreamClassAbortOutstandingRequests routine [Streaming Media Devices], strmini/StreamClassAbortOutstandingRequests, StreamClassAbortOutstandingRequests, stream.streamclassabortoutstandingrequests
+ms.keywords: stream.streamclassabortoutstandingrequests, StreamClassAbortOutstandingRequests, strmini/StreamClassAbortOutstandingRequests, StreamClassAbortOutstandingRequests routine [Streaming Media Devices], strclass-routines_f0bb32ce-019d-4c2f-90f6-cf6d54e2fb08.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: > DISPATCH_LEVEL
-topictype: 
+req.irql: "> DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassAbortOutstandingRequests
 product: Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
+req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
 req.product: Windows 10 or later.
 ---
 

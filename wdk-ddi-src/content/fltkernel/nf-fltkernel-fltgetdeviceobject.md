@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1351efd1-1f7f-4f4b-b0ce-d9f08fba6613
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetDeviceObject, ifsk.fltgetdeviceobject, fltkernel/FltGetDeviceObject, FltApiRef_e_to_o_0ef7e26f-6eb6-42e3-a469-4d4fa0c8e659.xml, FltGetDeviceObject routine [Installable File System Drivers]
+ms.keywords: FltApiRef_e_to_o_0ef7e26f-6eb6-42e3-a469-4d4fa0c8e659.xml, fltkernel/FltGetDeviceObject, FltGetDeviceObject routine [Installable File System Drivers], ifsk.fltgetdeviceobject, FltGetDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetDeviceObject
 product: Windows
 targetos: Windows

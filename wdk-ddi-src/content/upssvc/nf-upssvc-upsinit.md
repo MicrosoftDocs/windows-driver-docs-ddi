@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: abcb1f9c-3de3-430c-87e0-6648d60ca420
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, upssvc/UPSInit, UPSInit, battery.upsinit
+ms.keywords: UPSInit, upssvc/UPSInit, UPSInit function [Battery Devices], battery.upsinit, UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
+req.product: Windows 10 or later.
 ---
 
 # UPSInit function

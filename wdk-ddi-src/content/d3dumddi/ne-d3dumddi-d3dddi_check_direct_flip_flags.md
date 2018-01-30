@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72b49af8-4d98-4fc0-ab40-72f1e19eef96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], display.d3dddi_check_direct_flip_flags, D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, d3dumddi/D3DDDI_CHECKDIRECTFLIP_IMMEDIATE
+ms.keywords: D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, display.d3dddi_check_direct_flip_flags, d3dumddi/D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

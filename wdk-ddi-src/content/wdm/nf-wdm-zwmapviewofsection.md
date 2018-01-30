@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtMapViewOfSection, ZwMapViewOfSection, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], kernel.zwmapviewofsection, NtMapViewOfSection, wdm/ZwMapViewOfSection
+ms.keywords: NtMapViewOfSection, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, ZwMapViewOfSection, wdm/ZwMapViewOfSection, kernel.zwmapviewofsection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], wdm/NtMapViewOfSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwMapViewOfSection
 -	NtMapViewOfSection
 product: Windows
@@ -124,6 +124,16 @@ Specifies how the view is to be shared with child processes. The possible values
 Drivers should typically specify <b>ViewUnmap</b> for this parameter.
 
 
+#### ViewShare
+
+The view will be mapped into any child processes that are created in the future.
+
+
+#### ViewUnmap
+
+The view will not be mapped into child processes.
+
+
 ### -param AllocationType [in]
 
 Specifies a set of flags that describes the type of allocation to be performed for the specified region of pages. The valid flags are MEM_LARGE_PAGES, MEM_RESERVE, and MEM_TOP_DOWN. Although MEM_COMMIT is not allowed, it is implied unless MEM_RESERVE is specified. For more information about the MEM_<i>XXX</i> flags, see the description of the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> routine.
@@ -132,16 +142,6 @@ Specifies a set of flags that describes the type of allocation to be performed f
 ### -param Win32Protect [in]
 
 Specifies the type of protection for the region of initially committed pages. Device and intermediate drivers should set this value to PAGE_READWRITE.
-
-
-##### - InheritDisposition.ViewShare
-
-The view will be mapped into any child processes that are created in the future.
-
-
-##### - InheritDisposition.ViewUnmap
-
-The view will not be mapped into child processes.
 
 
 ## -returns
@@ -219,19 +219,19 @@ For more information about section objects, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
 
 <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
 
  
 

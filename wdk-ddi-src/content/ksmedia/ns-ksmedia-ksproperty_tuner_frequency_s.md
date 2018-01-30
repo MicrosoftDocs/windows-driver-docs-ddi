@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19d2c3cc-69e3-4216-9eb7-32b522fe058b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], KSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S, ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s
+ms.keywords: ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s, KSPROPERTY_TUNER_FREQUENCY_S, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml, PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], *PKSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_FREQUENCY_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_TUNER_FREQUENCY_S
 product: Windows
 targetos: Windows
@@ -116,13 +116,13 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565833">KSPROPERTY_TUNER_FREQUENCY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565833">KSPROPERTY_TUNER_FREQUENCY</a>
+<a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a>
 
  
 

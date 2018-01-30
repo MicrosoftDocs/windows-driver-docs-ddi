@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_HUB_TYPE
-title: _USB_HUB_TYPE
+title: "_USB_HUB_TYPE"
 author: windows-driver-content
 description: The USB_HUB_TYPE enumeration defines constants that indicate the type of USB hub. The hub type is retrieved by the IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request.
 old-location: buses\usb_hub_type.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F7516B20-B30F-47BE-BBF3-AB5758D5CF73
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_HUB_TYPE, usbioctl/Usb20Hub, Usb20Hub, _USB_HUB_TYPE, USB_HUB_TYPE enumeration [Buses], Usb30Hub, usbioctl/Usb30Hub, UsbRootHub, usbioctl/USB_HUB_TYPE, buses.usb_hub_type, usbioctl/UsbRootHub
+ms.keywords: UsbRootHub, Usb20Hub, buses.usb_hub_type, USB_HUB_TYPE enumeration [Buses], _USB_HUB_TYPE, usbioctl/Usb20Hub, Usb30Hub, usbioctl/USB_HUB_TYPE, USB_HUB_TYPE, usbioctl/Usb30Hub, usbioctl/UsbRootHub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_HUB_TYPE
 product: Windows
 targetos: Windows
@@ -91,9 +91,9 @@ Indicates that the retrieved hub descriptor is defined in USB 3.0 specification.
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, WskDeregister function [Network Drivers Starting with Windows Vista], WskDeregister, netvista.wskderegister, wsk/WskDeregister
+ms.keywords: WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, WskDeregister, wsk/WskDeregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	WskDeregister
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 

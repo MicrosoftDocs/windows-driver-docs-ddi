@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4a4cc4b-8f23-4dd6-81d3-4cb2c861ba4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQueryInformationTransaction routine [Kernel-Mode Driver Architecture], ZwQueryInformationTransaction, wdm/ZwQueryInformationTransaction, wdm/NtQueryInformationTransaction, ktm_ref_ffef2acc-e180-4adf-8aa5-31ee7dae0592.xml, kernel.zwqueryinformationtransaction, NtQueryInformationTransaction
+ms.keywords: ZwQueryInformationTransaction, kernel.zwqueryinformationtransaction, wdm/ZwQueryInformationTransaction, ktm_ref_ffef2acc-e180-4adf-8aa5-31ee7dae0592.xml, NtQueryInformationTransaction, ZwQueryInformationTransaction routine [Kernel-Mode Driver Architecture], wdm/NtQueryInformationTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwQueryInformationTransaction
 -	NtQueryInformationTransaction
 product: Windows
@@ -206,23 +206,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
+<a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
+
 <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
-
-<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
  
 

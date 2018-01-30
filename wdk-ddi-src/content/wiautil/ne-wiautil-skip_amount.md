@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4e21b3e9-0383-4464-b87e-beea88123124
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/SKIP_OFF, SKIP_AMOUNT enumeration [Imaging Devices], image.skip_amount, wiauFncs_8f521aa0-0663-4f84-a9c9-91747fcb13e8.xml, SKIP_BOTHHDR, wiautil/SKIP_AMOUNT, SKIP_FILEHDR, SKIP_OFF, wiautil/SKIP_FILEHDR, wiautil/SKIP_BOTHHDR, SKIP_AMOUNT
+ms.keywords: SKIP_FILEHDR, SKIP_AMOUNT enumeration [Imaging Devices], SKIP_AMOUNT, SKIP_OFF, wiautil/SKIP_FILEHDR, wiauFncs_8f521aa0-0663-4f84-a9c9-91747fcb13e8.xml, wiautil/SKIP_BOTHHDR, wiautil/SKIP_OFF, image.skip_amount, wiautil/SKIP_AMOUNT, SKIP_BOTHHDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	SKIP_AMOUNT
 product: Windows
 targetos: Windows

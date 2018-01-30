@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0fce82e9-0932-4838-b247-af0b2b8642d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_AYUVSAMPLE8, _DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8, DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, display.dxvaddi_ayuvsample8, DXVADDI_AYUVSAMPLE8 structure [Display Devices]
+ms.keywords: DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, d3dumddi/DXVADDI_AYUVSAMPLE8, _DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8 structure [Display Devices], display.dxvaddi_ayuvsample8, DXVADDI_AYUVSAMPLE8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

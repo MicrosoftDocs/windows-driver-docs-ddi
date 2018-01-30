@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3::GetSymbolInformationWide, GetSymbolInformationWide, debugger.getsymbolinformationwide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method
+ms.keywords: debugger.getsymbolinformationwide, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method, IDebugAdvanced3::GetSymbolInformationWide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformationWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugAdvanced3.GetSymbolInformationWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::GetSymbolInformationWide method

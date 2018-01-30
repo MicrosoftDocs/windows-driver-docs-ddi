@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_DEVICE_PLUG_IN_OPTIONS
-title: _UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+title: "_UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
 author: windows-driver-content
 description: Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT method.
 old-location: buses\udecx_usb_device_plug_in_options.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D09A124A-82F6-4B0A-B60F-E60EB54B0EC1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], UDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+ms.keywords: udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS, _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UdecxUsbDevice.h
-apiname: 
+apiname:
 -	UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 product: Windows
 targetos: Windows
-req.typenames: *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+req.typenames: "*PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

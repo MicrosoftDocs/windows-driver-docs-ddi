@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0fc60bae-2191-4e19-85c5-ed06f09225f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_PACKET_INJECTION_STATE_, FWPS_PACKET_INJECTION_STATE_MAX, fwpsk/FWPS_PACKET_INJECTION_STATE, FWPS_PACKET_INJECTION_STATE, fwpsk/FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, netvista.fwps_packet_injection_state, FWPS_PACKET_INJECTION_STATE enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_PACKET_INJECTED_BY_SELF, fwpsk/FWPS_PACKET_INJECTED_BY_OTHER, fwpsk/FWPS_PACKET_INJECTION_STATE_MAX, FWPS_PACKET_NOT_INJECTED, fwpsk/FWPS_PACKET_NOT_INJECTED, FWPS_PACKET_INJECTED_BY_SELF, FWPS_PACKET_INJECTED_BY_OTHER, FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, wfp_ref_4_enum_d8d574f4-6323-43e0-924f-09639f6aec10.xml
+ms.keywords: fwpsk/FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, FWPS_PACKET_INJECTION_STATE_, FWPS_PACKET_INJECTION_STATE enumeration [Network Drivers Starting with Windows Vista], FWPS_PACKET_NOT_INJECTED, FWPS_PACKET_INJECTION_STATE, netvista.fwps_packet_injection_state, FWPS_PACKET_INJECTION_STATE_MAX, fwpsk/FWPS_PACKET_INJECTION_STATE_MAX, fwpsk/FWPS_PACKET_INJECTION_STATE, fwpsk/FWPS_PACKET_INJECTED_BY_SELF, wfp_ref_4_enum_d8d574f4-6323-43e0-924f-09639f6aec10.xml, fwpsk/FWPS_PACKET_INJECTED_BY_OTHER, fwpsk/FWPS_PACKET_NOT_INJECTED, FWPS_PACKET_INJECTED_BY_SELF, FWPS_PACKET_INJECTED_BY_OTHER, FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_PACKET_INJECTION_STATE
 product: Windows
 targetos: Windows

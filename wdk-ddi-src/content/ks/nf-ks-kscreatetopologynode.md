@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, KsCreateTopologyNode function [Streaming Media Devices], KsCreateTopologyNode, stream.kscreatetopologynode, ks/KsCreateTopologyNode
+ms.keywords: ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, KsCreateTopologyNode function [Streaming Media Devices], KsCreateTopologyNode, stream.kscreatetopologynode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsCreateTopologyNode
 product: Windows
 targetos: Windows

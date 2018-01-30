@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchlength, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], RtlStringCchLengthA, RtlStringCchLength, ntstrsafe/RtlStringCchLengthW, ntstrsafe/RtlStringCchLengthA, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
+ms.keywords: RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthA, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchlength, RtlStringCchLength, ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchLengthW
 -	RtlStringCchLengthA
 -	RtlStringCchLengthW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchLengthA function

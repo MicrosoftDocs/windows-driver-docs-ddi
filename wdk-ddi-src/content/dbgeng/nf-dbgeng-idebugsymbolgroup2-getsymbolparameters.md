@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e6390a7c-bbe1-47d7-9411-d710c4ab58a8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, dbgeng/IDebugSymbolGroup::GetSymbolParameters, IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters, debugger.getsymbolparameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup::GetSymbolParameters
+ms.keywords: GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup::GetSymbolParameters, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup2::GetSymbolParameters, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymbolparameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.GetSymbolParameters
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::GetSymbolParameters method
@@ -119,13 +119,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_parameters.md">DEBUG_SYMBOL_PARAMETERS</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
  
 

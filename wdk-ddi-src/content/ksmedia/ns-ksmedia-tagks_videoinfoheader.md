@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], stream.ks_videoinfoheader, PKS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER
+ms.keywords: PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], ksmedia/PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, stream.ks_videoinfoheader, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, tagKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_VIDEOINFOHEADER, ksmedia/KS_VIDEOINFOHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_VIDEOINFOHEADER
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1DA632FF-FD5F-4C4C-8B8E-5AC26069094A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, MmProbeAndLockSelectedPages, wdm/MmProbeAndLockSelectedPages
+ms.keywords: MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], wdm/MmProbeAndLockSelectedPages, kernel.mmprobeandlockselectedpages_, MmProbeAndLockSelectedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MmProbeAndLockSelectedPages
 product: Windows
 targetos: Windows

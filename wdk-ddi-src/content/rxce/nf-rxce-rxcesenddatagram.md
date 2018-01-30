@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, rxce/RxCeSendDatagram, RxCeSendDatagram, ifsk.rxcesenddatagram, RxCeSendDatagram function [Installable File System Drivers]
+ms.keywords: rxce/RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], ifsk.rxcesenddatagram, RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeSendDatagram
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -104,14 +104,14 @@ The length of data to be sent.
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 
 
-#### - pAddress [in]
-
-A pointer to the local transport address.
-
-
 #### - pTransport [in]
 
 A pointer to the transport along which the TSDU is to be sent.
+
+
+#### - pAddress [in]
+
+A pointer to the local transport address.
 
 
 #### - Options [in]
@@ -121,12 +121,12 @@ The desired options for transmitting the data on this send operation by the tran
 
 
 
-##### - Options.RXCE_SEND_PARTIAL
+#### RXCE_SEND_PARTIAL
 
 Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only portions of it need to be sent. This option requests that the transport allow the send operation to transmit part of the data if the transport and MDL allow this behavior.
 
 
-##### - Options.RXCE_SEND_SYNCHRONOUS
+#### RXCE_SEND_SYNCHRONOUS
 
 Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
 
@@ -185,11 +185,11 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
 <a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
  
 

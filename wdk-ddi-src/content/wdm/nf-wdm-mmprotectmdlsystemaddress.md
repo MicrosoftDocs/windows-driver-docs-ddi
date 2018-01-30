@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmprotectmdlsystemaddress, k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, wdm/MmProtectMdlSystemAddress, MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture]
+ms.keywords: k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, MmProtectMdlSystemAddress, wdm/MmProtectMdlSystemAddress, kernel.mmprotectmdlsystemaddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmProtectMdlSystemAddress
 product: Windows
 targetos: Windows
@@ -81,34 +81,34 @@ Specifies the new protection setting for the memory pages. Drivers should specif
 
 
 
-##### - NewProtect.PAGE_EXECUTE_READWRITE
-
-The underlying memory pages can be executed, read, or written.
-
-
-##### - NewProtect.PAGE_NOACCESS
+#### PAGE_NOACCESS
 
 The underlying memory pages cannot be read or written. 
 
 
-##### - NewProtect.PAGE_READWRITE
+#### PAGE_READONLY
+
+The underlying memory pages can only be read, not written. 
+
+
+#### PAGE_READWRITE
 
 The underlying memory pages can be read or written. 
 
 
-##### - NewProtect.PAGE_EXECUTE
+#### PAGE_EXECUTE
 
 The underlying memory pages can be executed, but not read or written.
 
 
-##### - NewProtect.PAGE_EXECUTE_READ
+#### PAGE_EXECUTE_READ
 
 The underlying memory pages can be executed or read, but not written.
 
 
-##### - NewProtect.PAGE_READONLY
+#### PAGE_EXECUTE_READWRITE
 
-The underlying memory pages can only be read, not written. 
+The underlying memory pages can be executed, read, or written.
 
 
 ## -returns

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_OPERATIONS
-title: _DMA_OPERATIONS
+title: "_DMA_OPERATIONS"
 author: windows-driver-content
 description: The DMA_OPERATIONS structure provides a table of pointers to functions that control the operation of a DMA controller.
 old-location: kernel\dma_operations.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4a5d830-252b-410e-be2c-390371af971c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DMA_OPERATIONS, wdm/DMA_OPERATIONS, *PDMA_OPERATIONS, kernel.dma_operations, PDMA_OPERATIONS, PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], _DMA_OPERATIONS, wdm/PDMA_OPERATIONS, kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PDMA_OPERATIONS, kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml, _DMA_OPERATIONS, PDMA_OPERATIONS, DMA_OPERATIONS, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], wdm/DMA_OPERATIONS, *PDMA_OPERATIONS, kernel.dma_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DMA_OPERATIONS
 product: Windows
 targetos: Windows
@@ -276,63 +276,63 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
-
-<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
-
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
-
-<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
-
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
-
-<a href="..\wdm\nc-wdm-pconfigure_adapter_channel.md">ConfigureAdapterChannel</a>
-
-<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
-
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
-
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-
-<a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a>
-
-<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
-<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
-
-<a href="..\wdm\nc-wdm-pget_dma_alignment.md">GetDmaAlignment</a>
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
 
 <a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
 
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
+
+<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
 
-<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
-
 <a href="..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md">BuildMdlFromScatterGatherList</a>
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a>
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
 
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+<a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a>
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
+
+<a href="..\wdm\nc-wdm-pget_dma_alignment.md">GetDmaAlignment</a>
+
+<a href="..\wdm\nc-wdm-pconfigure_adapter_channel.md">ConfigureAdapterChannel</a>
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a>
+
+<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
 
 <a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 

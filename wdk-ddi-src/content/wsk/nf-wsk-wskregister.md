@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, WskRegister, WskRegister function [Network Drivers Starting with Windows Vista]
+ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, netvista.wskregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	WskRegister
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -158,11 +158,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
-
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+
+<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
 
  
 

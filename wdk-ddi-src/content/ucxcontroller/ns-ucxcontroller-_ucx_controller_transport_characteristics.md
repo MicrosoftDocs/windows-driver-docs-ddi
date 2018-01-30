@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
-title: _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+title: "_UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
 author: windows-driver-content
 description: Stores the transport characteristics at relevant points in time. This structure is used in the EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function.
 old-location: buses\ucx_controller_transport_characteristics.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9F267427-8D70-45D5-A8E6-67A1C6B73CDB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, buses.ucx_controller_transport_characteristics, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses], UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ms.keywords: buses.ucx_controller_transport_characteristics, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses], ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UcxController.h
-apiname: 
+apiname:
 -	UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+req.typenames: "*PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
 req.product: Windows 10 or later.
 ---
 

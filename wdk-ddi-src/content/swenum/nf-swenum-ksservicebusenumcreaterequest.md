@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksservicebusenumcreaterequest, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, KsServiceBusEnumCreateRequest, swenum/KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices]
+ms.keywords: ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, swenum/KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest, stream.ksservicebusenumcreaterequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsServiceBusEnumCreateRequest
 product: Windows
 targetos: Windows

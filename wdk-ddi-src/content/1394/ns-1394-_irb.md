@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB
-title: _IRB
+title: "_IRB"
 author: windows-driver-content
 description: Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 old-location: ieee\irb.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB, PIRB structure pointer [Buses], _IRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, *PIRB, 1394/PIRB, IRB structure [Buses], IEEE.irb, PIRB, 1394/IRB
+ms.keywords: 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IRB, 1394/IRB, *PIRB, PIRB, _IRB, 1394/PIRB, PIRB structure pointer [Buses], IEEE.irb, IRB structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB
 product: Windows
 targetos: Windows
-req.typenames: IRB, *PIRB
+req.typenames: "*PIRB, IRB"
 ---
 
 # _IRB structure

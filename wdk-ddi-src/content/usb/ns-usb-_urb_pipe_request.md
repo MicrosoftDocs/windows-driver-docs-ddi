@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_PIPE_REQUEST
-title: _URB_PIPE_REQUEST
+title: "_URB_PIPE_REQUEST"
 author: windows-driver-content
 description: The _URB_PIPE_REQUEST structure is used by USB client drivers to clear a stall condition on an endpoint.
 old-location: buses\_urb_pipe_request.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 611bddf9-befd-4d2f-8e7d-7b5fe0744c03
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _URB_PIPE_REQUEST structure [Buses], usb/_URB_PIPE_REQUEST, _URB_PIPE_REQUEST, usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml, buses._urb_pipe_request
+ms.keywords: "_URB_PIPE_REQUEST, buses._urb_pipe_request, _URB_PIPE_REQUEST structure [Buses], usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml, usb/_URB_PIPE_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_PIPE_REQUEST
 product: Windows
 targetos: Windows
@@ -106,11 +106,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

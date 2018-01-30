@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskControlClient
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,43 @@ The control operation that is being performed. A WSK application can specify one
 
 
 
+#### WSK_TRANSPORT_LIST_QUERY
+
+Retrieve a list of available network transports.
+
+
+#### WSK_TRANSPORT_LIST_CHANGE
+
+Receive notification of a change to the list of available network transports.
+
+
+#### WSK_CACHE_SD
+
+Obtain a cached copy of a security descriptor.
+
+
+#### WSK_RELEASE_SD
+
+Release a cached copy of a security descriptor.
+
+
+#### WSK_SET_STATIC_EVENT_CALLBACKS
+
+Enable specified event callback functions automatically on all sockets.
+
+
+#### WSK_TDI_DEVICENAME_MAPPING
+
+Map combinations of address family, socket type, and protocol to device names of 
+       <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transports.
+
+
+#### WSK_TDI_BEHAVIOR
+
+Control whether the WSK subsystem will divert network I/O to 
+       <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transports.
+
+
 ### -param InputSize [in]
 
 The number of bytes of data in the buffer that is pointed to by the 
@@ -145,31 +182,6 @@ This parameter is required, is optional, or must be <b>NULL</b>, depending on th
      Operations</mshelp:link>.
 
 
-##### - ControlCode.WSK_SET_STATIC_EVENT_CALLBACKS
-
-Enable specified event callback functions automatically on all sockets.
-
-
-##### - ControlCode.WSK_CACHE_SD
-
-Obtain a cached copy of a security descriptor.
-
-
-##### - ControlCode.WSK_TRANSPORT_LIST_CHANGE
-
-Receive notification of a change to the list of available network transports.
-
-
-##### - ControlCode.WSK_RELEASE_SD
-
-Release a cached copy of a security descriptor.
-
-
-##### - ControlCode.WSK_TRANSPORT_LIST_QUERY
-
-Retrieve a list of available network transports.
-
-
 #### - OutputSizeReturned [out, optional]
 
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
@@ -194,18 +206,6 @@ The number of bytes of output data that is returned by the operation that is bei
 
 </li>
 </ul>
-
-##### - ControlCode.WSK_TDI_DEVICENAME_MAPPING
-
-Map combinations of address family, socket type, and protocol to device names of 
-       <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transports.
-
-
-##### - ControlCode.WSK_TDI_BEHAVIOR
-
-Control whether the WSK subsystem will divert network I/O to 
-       <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transports.
-
 
 ## -returns
 
@@ -296,17 +296,17 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
 
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
-<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
  
 

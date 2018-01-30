@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_PAGING_PRIORITY
-title: _IO_PAGING_PRIORITY
+title: "_IO_PAGING_PRIORITY"
 author: windows-driver-content
 description: The IO_PAGING_PRIORITY enumeration describes the priority value for a paging I/O IRP.
 old-location: kernel\io_paging_priority.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoPagingPriorityInvalid, wdm/IoPagingPriorityNormal, IoPagingPriorityNormal, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved1, wdm/IO_PAGING_PRIORITY, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, kernel.io_paging_priority, _IO_PAGING_PRIORITY, IoPagingPriorityReserved2, IoPagingPriorityHigh, IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved2, IoPagingPriorityInvalid, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved1, IoPagingPriorityHigh, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityReserved2, _IO_PAGING_PRIORITY, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, wdm/IoPagingPriorityInvalid, IO_PAGING_PRIORITY, IoPagingPriorityReserved2, IoPagingPriorityInvalid, IoPagingPriorityNormal, IoPagingPriorityReserved1, kernel.io_paging_priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_PAGING_PRIORITY
 product: Windows
 targetos: Windows

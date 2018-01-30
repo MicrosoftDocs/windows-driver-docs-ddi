@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_LB_PROVISIONING_MAP_RESOURCES
-title: _STORAGE_LB_PROVISIONING_MAP_RESOURCES
+title: "_STORAGE_LB_PROVISIONING_MAP_RESOURCES"
 author: windows-driver-content
 description: The STORAGE_LB_PROVISIONING_MAP_RESOURCES structure contains, when valid, the count of available and used bytes mapped to a storage device. This structure is returned from an IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request.
 old-location: storage\storage_lb_provisioning_map_resources.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6F7DE233-D002-4927-80FC-307A3A33653A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], STORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, storage.storage_lb_provisioning_map_resources, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED, *PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, _STORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN
+ms.keywords: PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, *PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED, _STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN, storage.storage_lb_provisioning_map_resources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_LB_PROVISIONING_MAP_RESOURCES
 product: Windows
 targetos: Windows

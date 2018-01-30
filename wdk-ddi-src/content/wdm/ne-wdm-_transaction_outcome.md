@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_OUTCOME
-title: _TRANSACTION_OUTCOME
+title: "_TRANSACTION_OUTCOME"
 author: windows-driver-content
 description: The TRANSACTION_OUTCOME enumeration defines the outcomes (results) that KTM can assign to a transaction.
 old-location: kernel\transaction_outcome.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TransactionOutcomeUndetermined, TransactionOutcomeUndetermined, kernel.transaction_outcome, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted, _TRANSACTION_OUTCOME, wdm/TRANSACTION_OUTCOME, TRANSACTION_OUTCOME, TransactionOutcomeCommitted, TransactionOutcomeAborted
+ms.keywords: ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], wdm/TRANSACTION_OUTCOME, wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted, _TRANSACTION_OUTCOME, kernel.transaction_outcome, TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, wdm/TransactionOutcomeUndetermined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	TRANSACTION_OUTCOME
 product: Windows
 targetos: Windows

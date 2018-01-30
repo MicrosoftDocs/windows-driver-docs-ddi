@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4E810EAD-3864-44C1-9845-60DAB288BB48
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, IKeywordDetectorOemAdapter, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices], ComputeAndAddUserModelData method
+ms.keywords: keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, IKeywordDetectorOemAdapter, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices], ComputeAndAddUserModelData method, ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -155,9 +155,9 @@ The processing was unable to complete.
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
-
 <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
+
+<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 
  
 

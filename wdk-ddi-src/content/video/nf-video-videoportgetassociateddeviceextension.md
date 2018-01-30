@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 825e2b61-6b51-4553-88e1-0aff2e9e3cce
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension
+ms.keywords: video/VideoPortGetAssociatedDeviceExtension, VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, VideoPortGetAssociatedDeviceExtension, display.videoportgetassociateddeviceextension, VideoPortGetAssociatedDeviceExtension function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortGetAssociatedDeviceExtension function

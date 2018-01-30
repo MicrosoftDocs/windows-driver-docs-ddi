@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCreateAllocator2, KsCreateAllocator2, stream.kscreateallocator2, KsCreateAllocator2 function [Streaming Media Devices]
+ms.keywords: KsCreateAllocator2 function [Streaming Media Devices], stream.kscreateallocator2, ks/KsCreateAllocator2, KsCreateAllocator2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KsCreateAllocator2
 product: Windows
 targetos: Windows
@@ -104,9 +104,9 @@ This is a new version of the <a href="..\ks\nf-ks-kscreateallocator.md">KsCreate
 
 <a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
 
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
  
 

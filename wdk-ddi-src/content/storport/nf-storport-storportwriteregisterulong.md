@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 12ed5f88-26af-43a4-82c7-5f36d9388cc8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportwriteregisterulong, StorPortWriteRegisterUlong routine [Storage Devices], StorPortWriteRegisterUlong, storport/StorPortWriteRegisterUlong, storprt_64890de0-32e7-4e07-bcbc-35a11acd6896.xml
+ms.keywords: storprt_64890de0-32e7-4e07-bcbc-35a11acd6896.xml, StorPortWriteRegisterUlong routine [Storage Devices], storage.storportwriteregisterulong, StorPortWriteRegisterUlong, storport/StorPortWriteRegisterUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortWriteRegisterUlong
 product: Windows
 targetos: Windows

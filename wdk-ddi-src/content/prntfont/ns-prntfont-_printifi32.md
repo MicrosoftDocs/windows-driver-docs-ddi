@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPRINTIFI32 structure pointer [Display Devices], *PPRINTIFI32, prntfont/PPRINTIFI32, display.printifi32, PRINTIFI32 structure [Display Devices], PPRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, _PRINTIFI32, PRINTIFI32, prntfont/PRINTIFI32
+ms.keywords: prntfont/PRINTIFI32, *PPRINTIFI32, PRINTIFI32 structure [Display Devices], PPRINTIFI32, display.printifi32, PRINTIFI32, prntfont/PPRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, PPRINTIFI32 structure pointer [Display Devices], _PRINTIFI32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: PRINTIFI32, *PPRINTIFI32
+req.product: Windows 10 or later.
 ---
 
 # _PRINTIFI32 structure

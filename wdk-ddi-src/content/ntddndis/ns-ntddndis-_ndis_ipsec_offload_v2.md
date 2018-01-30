@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_IPSEC_OFFLOAD_V2
-title: _NDIS_IPSEC_OFFLOAD_V2
+title: "_NDIS_IPSEC_OFFLOAD_V2"
 author: windows-driver-content
 description: The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Internet protocol security (IPsec) version 2 task offload capabilities in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_ipsec_offload_v2.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2319fe88-8f32-415c-bea1-4b7e723f6dbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2, ntddndis/NDIS_IPSEC_OFFLOAD_V2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml, NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2
+ms.keywords: ntddndis/NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], NDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2, _NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml, PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_IPSEC_OFFLOAD_V2
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2
+req.typenames: NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2
 ---
 
 # _NDIS_IPSEC_OFFLOAD_V2 structure
@@ -185,6 +185,35 @@ The types of UDP-encapsulated ESP data packets that the NIC can parse. For a des
 
 
 
+#### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_NONE
+
+IPsec offload processing is not available for any UDP encapsulation type.
+
+
+#### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TRANSPORT
+
+IPsec offload is supported for an ESP-encapsulated transport-mode packet that is encapsulated by
+       UDP.
+
+
+#### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TUNNEL
+
+IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-encapsulated. The
+       transport-mode portion of the packet is not UDP-encapsulated and is not ESP-protected.
+
+
+#### IPSEC_OFFLOAD_V2_TRANSPORT_OVER_UDP_ESP_ENCAPSULATION_TUNNEL
+
+IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-encapsulated. The
+       transport-mode portion of a packet is not UDP-encapsulated but is ESP-protected.
+
+
+#### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TRANSPORT_OVER_TUNNEL
+
+IPsec offload is supported for the tunnel-mode portion of a packet that is not UDP-encapsulated.
+       The transport-mode portion of a packet is UDP-encapsulated and ESP-protected.
+
+
 ### -field AuthenticationAlgorithms
 
 A bit mask that identifies the IPsec authentication algorithms that the NIC supports. Miniport
@@ -192,6 +221,42 @@ A bit mask that identifies the IPsec authentication algorithms that the NIC supp
      
 
 
+
+
+#### IPSEC_OFFLOAD_V2_AUTHENTICATION_MD5
+
+The NIC can use the keyed message digest 5 (MD5) algorithm for computing or validating a
+       cryptographic checksum.
+
+
+#### IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_1
+
+The NIC can use the secure hash algorithm (SHA) 1 algorithm for computing or validating a
+       cryptographic checksum.
+
+
+#### IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_256
+
+The NIC can use the SHA 256 algorithm for computing or validating a cryptographic
+       checksum.
+
+
+#### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_128
+
+The NIC can use the Advanced Encryption Standard - Galois/Counter Mode (AES-GMAC) 128 algorithm
+       for computing or validating a cryptographic checksum.
+
+
+#### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_192
+
+The NIC can use the AES-GMAC 192 algorithm for computing or validating a cryptographic
+       checksum.
+
+
+#### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_256
+
+The NIC can use the AES-GMAC 256 algorithm for computing or validating a cryptographic
+       checksum.
 
 
 ### -field EncryptionAlgorithms
@@ -203,129 +268,64 @@ A bit mask that identifies the IPsec encryption algorithms that the NIC supports
 
 
 
-### -field SaOffloadCapacity
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_NONE
 
-The number of SA bundles, which might include ESP or AH or both, that can be offloaded to the NIC.
-     The TCP/IP maintains a count of the number of offloaded SA bundles and should not add more than the
-     maximum number of SA bundles that the miniport driver reported.
-
-
-##### - AuthenticationAlgorithms.IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_256
-
-The NIC can use the SHA 256 algorithm for computing or validating a cryptographic
-       checksum.
+The NIC can use null encryption--that is, the ESP payload without encryption but with
+       authentication information.
 
 
-##### - UdpEsp.IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TUNNEL
-
-IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-encapsulated. The
-       transport-mode portion of the packet is not UDP-encapsulated and is not ESP-protected.
-
-
-##### - AuthenticationAlgorithms.IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_1
-
-The NIC can use the secure hash algorithm (SHA) 1 algorithm for computing or validating a
-       cryptographic checksum.
-
-
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_DES_CBC
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_DES_CBC
 
 The NIC can use the DES algorithm for encrypting and decrypting ESP payloads.
 
 
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_128
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_3_DES_CBC
 
-The NIC can use the Advanced Encryption Standard - cipher-block chaining mode (AES-CBC) 128
-       algorithm for encrypting and decrypting ESP payloads.
-
-
-##### - AuthenticationAlgorithms.IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_128
-
-The NIC can use the Advanced Encryption Standard - Galois/Counter Mode (AES-GMAC) 128 algorithm
-       for computing or validating a cryptographic checksum.
+The NIC can use the triple-DES algorithm for encrypting and decrypting ESP payloads.
 
 
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_192
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_128
 
-The NIC can use the AES-CBC 192 algorithm for encrypting and decrypting ESP payloads.
-
-
-##### - UdpEsp.IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TRANSPORT
-
-IPsec offload is supported for an ESP-encapsulated transport-mode packet that is encapsulated by
-       UDP.
+The NIC can use the AES-GCM 128 algorithm for encrypting and computing a cryptographic checksum
+       or decrypting and validating a cryptographic checksum for an ESP payload. Note that this algorithm is
+       a combined mode algorithm.
 
 
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_192
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_192
 
 The NIC can use the AES-GCM 192 algorithm for encrypting and computing a cryptographic checksum
        or decrypting and validating a cryptographic checksum for an ESP payload. Note that this algorithm is
        a combined mode algorithm.
 
 
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_3_DES_CBC
-
-The NIC can use the triple-DES algorithm for encrypting and decrypting ESP payloads.
-
-
-##### - UdpEsp.IPSEC_OFFLOAD_V2_TRANSPORT_OVER_UDP_ESP_ENCAPSULATION_TUNNEL
-
-IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-encapsulated. The
-       transport-mode portion of a packet is not UDP-encapsulated but is ESP-protected.
-
-
-##### - UdpEsp.IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_NONE
-
-IPsec offload processing is not available for any UDP encapsulation type.
-
-
-##### - UdpEsp.IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TRANSPORT_OVER_TUNNEL
-
-IPsec offload is supported for the tunnel-mode portion of a packet that is not UDP-encapsulated.
-       The transport-mode portion of a packet is UDP-encapsulated and ESP-protected.
-
-
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_NONE
-
-The NIC can use null encryption--that is, the ESP payload without encryption but with
-       authentication information.
-
-
-##### - AuthenticationAlgorithms.IPSEC_OFFLOAD_V2_AUTHENTICATION_MD5
-
-The NIC can use the keyed message digest 5 (MD5) algorithm for computing or validating a
-       cryptographic checksum.
-
-
-##### - AuthenticationAlgorithms.IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_192
-
-The NIC can use the AES-GMAC 192 algorithm for computing or validating a cryptographic
-       checksum.
-
-
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_256
-
-The NIC can use the AES-CBC 256 algorithm for encrypting and decrypting ESP payloads.
-
-
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_256
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_256
 
 The NIC can use the AES-GCM 256 algorithm for encrypting and computing a cryptographic checksum
        or decrypting and validating a cryptographic checksum for an ESP payload. Note that this algorithm is
        a combined mode algorithm.
 
 
-##### - AuthenticationAlgorithms.IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_256
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_128
 
-The NIC can use the AES-GMAC 256 algorithm for computing or validating a cryptographic
-       checksum.
+The NIC can use the Advanced Encryption Standard - cipher-block chaining mode (AES-CBC) 128
+       algorithm for encrypting and decrypting ESP payloads.
 
 
-##### - EncryptionAlgorithms.IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_128
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_192
 
-The NIC can use the AES-GCM 128 algorithm for encrypting and computing a cryptographic checksum
-       or decrypting and validating a cryptographic checksum for an ESP payload. Note that this algorithm is
-       a combined mode algorithm.
+The NIC can use the AES-CBC 192 algorithm for encrypting and decrypting ESP payloads.
+
+
+#### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_256
+
+The NIC can use the AES-CBC 256 algorithm for encrypting and decrypting ESP payloads.
+
+
+### -field SaOffloadCapacity
+
+The number of SA bundles, which might include ESP or AH or both, that can be offloaded to the NIC.
+     The TCP/IP maintains a count of the number of offloaded SA bundles and should not add more than the
+     maximum number of SA bundles that the miniport driver reported.
 
 
 ## -remarks
@@ -381,25 +381,25 @@ The following flags are defined for the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
 
 <mshelp:link keywords="netvista.ndis_status_task_offload_current_config" tabindex="0"><b>
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</b></mshelp:link>
 
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+
+<mshelp:link keywords="netvista.ndis_miniport_adapter_offload_attributes" tabindex="0"><b>
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</b></mshelp:link>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7C2847F-D095-4A79-ADBB-DA0745E3192A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue, _D3DKMT_CREATEPAGINGQUEUE, d3dkmthk/D3DKMT_CREATEPAGINGQUEUE
+ms.keywords: d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], _D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

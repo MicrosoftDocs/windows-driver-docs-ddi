@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e03b5f4d-58d5-43d5-a0c3-8a3cc83bd38a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml, TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], TmDereferenceEnlistmentKey, kernel.tmdereferenceenlistmentkey, wdm/TmDereferenceEnlistmentKey
+ms.keywords: TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], TmDereferenceEnlistmentKey, kernel.tmdereferenceenlistmentkey, wdm/TmDereferenceEnlistmentKey, ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,17 +28,17 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmDereferenceEnlistmentKey
 product: Windows
 targetos: Windows
@@ -118,17 +118,17 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-tmreferenceenlistmentkey.md">TmReferenceEnlistmentKey</a>
-
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+<a href="..\wdm\nf-wdm-tmreferenceenlistmentkey.md">TmReferenceEnlistmentKey</a>
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
  
 

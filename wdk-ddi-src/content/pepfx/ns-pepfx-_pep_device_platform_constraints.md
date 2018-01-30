@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_DEVICE_PLATFORM_CONSTRAINTS
-title: _PEP_DEVICE_PLATFORM_CONSTRAINTS
+title: "_PEP_DEVICE_PLATFORM_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constraints for entry to the various Dx power states that are supported by a device.
 old-location: kernel\pep_device_platform_constraints.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C9CC652F-16D4-4F88-BE8F-6CC7008F65DB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_DEVICE_PLATFORM_CONSTRAINTS, _PEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], PEP_DEVICE_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], pepfx/PPEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS, kernel.pep_device_platform_constraints, *PPEP_DEVICE_PLATFORM_CONSTRAINTS
+ms.keywords: PEP_DEVICE_PLATFORM_CONSTRAINTS, *PPEP_DEVICE_PLATFORM_CONSTRAINTS, pepfx/PEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], _PEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], kernel.pep_device_platform_constraints, pepfx/PPEP_DEVICE_PLATFORM_CONSTRAINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_DEVICE_PLATFORM_CONSTRAINTS
 product: Windows
 targetos: Windows

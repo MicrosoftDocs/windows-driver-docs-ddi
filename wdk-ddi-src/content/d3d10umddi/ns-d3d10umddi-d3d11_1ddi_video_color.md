@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 200ca1d5-cbfd-4ad8-aa41-8238ea7ea5cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_COLOR, display.d3d11_1ddi_video_color, D3D11_1DDI_VIDEO_COLOR, D3D11_1DDI_VIDEO_COLOR structure [Display Devices]
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_COLOR, D3D11_1DDI_VIDEO_COLOR structure [Display Devices], display.d3d11_1ddi_video_color, D3D11_1DDI_VIDEO_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

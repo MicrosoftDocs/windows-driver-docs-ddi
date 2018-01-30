@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FC4B1B4D-31D8-4E63-A3A5-07A1099997A8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice, PoFxUnregisterDevice
+ms.keywords: PoFxUnregisterDevice, kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxUnregisterDevice
 product: Windows
 targetos: Windows

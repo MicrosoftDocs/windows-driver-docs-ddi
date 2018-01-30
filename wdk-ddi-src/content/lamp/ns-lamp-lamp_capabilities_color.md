@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BCF2171C-93CB-4DAC-AA78-C272D5445F99
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LAMP_CAPABILITIES_COLOR, lamp/LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], stream.lamp_capabilities_color
+ms.keywords: stream.lamp_capabilities_color, lamp/LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	lamp.h
-apiname: 
+apiname:
 -	LAMP_CAPABILITIES_COLOR
 product: Windows
 targetos: Windows

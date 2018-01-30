@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtRemovePolicy, Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, kernel.clfsmgmtremovepolicy, wdm/ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.clfsmgmtremovepolicy, ClfsMgmtRemovePolicy, wdm/ClfsMgmtRemovePolicy, Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsMgmtRemovePolicy
 product: Windows
 targetos: Windows

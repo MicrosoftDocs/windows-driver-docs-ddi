@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3603bc82-0058-43bd-9d45-90c198a20040
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILCALLFORWARDINGSETTINGS, netvista.rilcallforwardingsettings, ntddrilapitypes/RILCALLFORWARDINGSETTINGS
+ms.keywords: "*LPRILCALLFORWARDINGSETTINGS, netvista.rilcallforwardingsettings, ntddrilapitypes/RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLFORWARDINGSETTINGS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS
+req.typenames: "*LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS"
 ---
 
 # RILCALLFORWARDINGSETTINGS structure

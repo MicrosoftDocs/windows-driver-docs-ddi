@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, OutputSymbolByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, OutputSymbolByOffset
+ms.keywords: dbgeng/IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, debugger.outputsymbolbyoffset, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.OutputSymbolByOffset
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::OutputSymbolByOffset method

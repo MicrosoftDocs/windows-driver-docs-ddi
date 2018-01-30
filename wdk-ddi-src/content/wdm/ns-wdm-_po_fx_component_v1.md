@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_V1
-title: _PO_FX_COMPONENT_V1
+title: "_PO_FX_COMPONENT_V1"
 author: windows-driver-content
 description: The PO_FX_COMPONENT structure describes the power state attributes of a component in a device.
 old-location: kernel\po_fx_component.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPO_FX_COMPONENT_V2, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], kernel.po_fx_component, PO_FX_COMPONENT, wdm/PPO_FX_COMPONENT_V2, wdm/PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V1, PO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_V1, _PO_FX_COMPONENT_V1, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT, *PPO_FX_COMPONENT
+ms.keywords: kernel.po_fx_component, PO_FX_COMPONENT, wdm/PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V1, PO_FX_COMPONENT_V1, wdm/PO_FX_COMPONENT_V2, *PPO_FX_COMPONENT_V1, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, *PPO_FX_COMPONENT, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], wdm/PPO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PO_FX_COMPONENT_V2
 product: Windows
 targetos: Windows
-req.typenames: *PPO_FX_COMPONENT_V1, PO_FX_COMPONENT_V1
+req.typenames: PO_FX_COMPONENT_V1, *PPO_FX_COMPONENT_V1
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,6 @@ The index of the deepest Fx state from which the component can wake. Specify 0 f
 A pointer to a <a href="..\wdm\ns-wdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a> array. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an Fx power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
 
 
-#### - Providers
-
-A pointer to an array of component indexes this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
-
-
 #### - Flags
 
 This member can be set to the following flag bit: <b>PO_FX_COMPONENT_FLAG_F0_ON_DX</b>. For more information, see Remarks.
@@ -111,6 +106,11 @@ This member can be set to the following flag bit: <b>PO_FX_COMPONENT_FLAG_F0_ON_
 #### - ProviderCount
 
 A value that specifies the number of components this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
+
+
+#### - Providers
+
+A pointer to an array of component indexes this component depends on. For more information, see <i>Component dependencies</i> under Remarks.
 
 
 ## -remarks
@@ -138,9 +138,9 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
 

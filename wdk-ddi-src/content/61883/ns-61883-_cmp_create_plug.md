@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_CREATE_PLUG
-title: _CMP_CREATE_PLUG
+title: "_CMP_CREATE_PLUG"
 author: windows-driver-content
 description: This structure is used to create a plug.
 old-location: ieee\cmp_create_plug.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CMP_CREATE_PLUG structure [Buses], 61883/CMP_CREATE_PLUG, PCMP_CREATE_PLUG, _CMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], *PCMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, CMP_CREATE_PLUG, IEEE.cmp_create_plug
+ms.keywords: IEEE.cmp_create_plug, PCMP_CREATE_PLUG structure pointer [Buses], PCMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, _CMP_CREATE_PLUG, CMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, *PCMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_CREATE_PLUG
 product: Windows
 targetos: Windows
-req.typenames: CMP_CREATE_PLUG, *PCMP_CREATE_PLUG
+req.typenames: "*PCMP_CREATE_PLUG, CMP_CREATE_PLUG"
 ---
 
 # _CMP_CREATE_PLUG structure
@@ -79,6 +79,16 @@ On input, the type of plug to create. Can be one of the following:
 
 
 
+#### CMP_PlugOut
+
+An output plug, which transmits data from the device to the bus.
+
+
+#### CMP_PlugIn
+
+An input plug, which receives data sent by the bus to the device.
+
+
 ### -field Pcr
 
 On input, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a> structure that contains values used by the protocol driver to initialize the plug. 
@@ -113,16 +123,6 @@ On output, the handle of the created plug
     
 
 .
-
-
-##### - PlugType.CMP_PlugIn
-
-An input plug, which receives data sent by the bus to the device.
-
-
-##### - PlugType.CMP_PlugOut
-
-An output plug, which transmits data from the device to the bus.
 
 
 ## -remarks

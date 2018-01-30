@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeBuildAddress, ifsk.rxcebuildaddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers]
+ms.keywords: rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, ifsk.rxcebuildaddress, RxCeBuildAddress function [Installable File System Drivers], rxce/RxCeBuildAddress, RxCeBuildAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxce.h
-apiname: 
+apiname:
 -	RxCeBuildAddress
 product: Windows
 targetos: Windows
-req.typenames: *LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 

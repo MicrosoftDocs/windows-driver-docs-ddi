@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_PROTOCOLSTATISTICS
-title: _MS_SMHBA_PROTOCOLSTATISTICS
+title: "_MS_SMHBA_PROTOCOLSTATISTICS"
 author: windows-driver-content
 description: The MS_SMHBA_PROTOCOLSTATISTICS structure is used to report protocol traffic statistics on a port.
 old-location: storage\ms_smhba_protocolstatistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb992a5e-41fe-4bb3-9f53-785135af8a32
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml, MS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices], storage.ms_smhba_protocolstatistics, _MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS
+ms.keywords: MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], _MS_SMHBA_PROTOCOLSTATISTICS, storage.ms_smhba_protocolstatistics, PMS_SMHBA_PROTOCOLSTATISTICS, structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MS_SMHBA_PROTOCOLSTATISTICS
 product: Windows
 targetos: Windows
-req.typenames: MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS
+req.typenames: "*PMS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS"
 ---
 
 # _MS_SMHBA_PROTOCOLSTATISTICS structure

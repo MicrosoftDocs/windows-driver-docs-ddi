@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetUnitAttributes, storport/StorPortSetUnitAttributes, storage.storportsetunitattributes, StorPortSetUnitAttributes routine [Storage Devices]
+ms.keywords: StorPortSetUnitAttributes routine [Storage Devices], StorPortSetUnitAttributes, storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortSetUnitAttributes
 product: Windows
 targetos: Windows
@@ -141,9 +141,9 @@ A miniport driver will call this routine to register the unit attributes with St
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
-
 <a href="..\storport\ns-storport-_stor_unit_attributes.md">STOR_UNIT_ATTRIBUTES</a>
+
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
  
 

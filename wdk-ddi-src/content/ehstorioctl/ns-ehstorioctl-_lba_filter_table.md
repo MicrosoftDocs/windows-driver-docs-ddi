@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._LBA_FILTER_TABLE
-title: _LBA_FILTER_TABLE
+title: "_LBA_FILTER_TABLE"
 author: windows-driver-content
 description: The LBA_FILTER_TABLE structure contains the LBA ranges whose access is controlled by a silo driver.
 old-location: storage\lba_filter_table.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/LBA_FILTER_TABLE, PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], storage.lba_filter_table, PLBA_FILTER_TABLE structure pointer [Storage Devices], *PLBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, LBA_FILTER_TABLE, _LBA_FILTER_TABLE
+ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], LBA_FILTER_TABLE, _LBA_FILTER_TABLE, storage.lba_filter_table, ehstorioctl/PLBA_FILTER_TABLE, PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], ehstorioctl/LBA_FILTER_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	LBA_FILTER_TABLE
 product: Windows
 targetos: Windows
-req.typenames: LBA_FILTER_TABLE, *PLBA_FILTER_TABLE
+req.typenames: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE"
 ---
 
 # _LBA_FILTER_TABLE structure
@@ -131,9 +131,9 @@ Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
-
 <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a>
+
+<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
  
 

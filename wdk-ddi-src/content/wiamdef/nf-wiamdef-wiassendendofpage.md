@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107cd468-bc39-4672-9356-e5329b36277b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiamdef/wiasSendEndOfPage, wiasSendEndOfPage function [Imaging Devices], image.wiassendendofpage, wiasSendEndOfPage
+ms.keywords: wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage function [Imaging Devices], image.wiassendendofpage, wiasSendEndOfPage, wiamdef/wiasSendEndOfPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasSendEndOfPage
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

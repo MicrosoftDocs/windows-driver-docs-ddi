@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskDisconnectEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -113,18 +113,18 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
-##### - Flags.WSK_FLAG_AT_DISPATCH_LEVEL
+#### WSK_FLAG_ABORTIVE
+
+The remote application performed an abortive disconnect of the socket. If this flag is not set,
+       the remote application performed a graceful disconnect of the socket.
+
+
+#### WSK_FLAG_AT_DISPATCH_LEVEL
 
 The WSK subsystem called the 
        <i>WskDisconnectEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set,
        the WSK subsystem might have called the 
        <i>WskDisconnectEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
-
-
-##### - Flags.WSK_FLAG_ABORTIVE
-
-The remote application performed an abortive disconnect of the socket. If this flag is not set,
-       the remote application performed a graceful disconnect of the socket.
 
 
 ## -returns
@@ -164,24 +164,24 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
+   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
  
 

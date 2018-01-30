@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fa1e2915-3cb5-4634-a8fb-0d2d565c1c00
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessPeb method, GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetCurrentProcessPeb, dbgeng/IDebugSystemObjects4::GetCurrentProcessPeb, debugger.getcurrentprocesspeb, dbgeng/IDebugSystemObjects3::GetCurrentProcessPeb, IDebugSystemObjects::GetCurrentProcessPeb, IDebugSystemObjects4, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessPeb method, dbgeng/IDebugSystemObjects::GetCurrentProcessPeb, IDebugSystemObjects4::GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessPeb method, IDebugSystemObjects3::GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects_fd672d78-9254-4f24-9f10-99a91d825f2e.xml, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2::GetCurrentProcessPeb, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessPeb method
+ms.keywords: GetCurrentProcessPeb, IDebugSystemObjects2::GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessPeb method, dbgeng/IDebugSystemObjects2::GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects::GetCurrentProcessPeb, IDebugSystemObjects_fd672d78-9254-4f24-9f10-99a91d825f2e.xml, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessPeb method, dbgeng/IDebugSystemObjects4::GetCurrentProcessPeb, IDebugSystemObjects3::GetCurrentProcessPeb, debugger.getcurrentprocesspeb, dbgeng/IDebugSystemObjects::GetCurrentProcessPeb, IDebugSystemObjects4::GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::GetCurrentProcessPeb, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessPeb method, GetCurrentProcessPeb method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessPeb method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentProcessPeb
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessPeb method

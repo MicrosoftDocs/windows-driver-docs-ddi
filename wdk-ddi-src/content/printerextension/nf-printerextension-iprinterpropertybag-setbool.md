@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SetBool method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_setbool, printerextension/IPrinterPropertyBag::SetBool, IPrinterPropertyBag interface [Print Devices], SetBool method, SetBool, SetBool method [Print Devices], IPrinterPropertyBag, IPrinterPropertyBag::SetBool
+ms.keywords: SetBool method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag, IPrinterPropertyBag::SetBool, SetBool method [Print Devices], printerextension/IPrinterPropertyBag::SetBool, SetBool, print.iprinterpropertybag_setbool, IPrinterPropertyBag interface [Print Devices], SetBool method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterPropertyBag.SetBool
 product: Windows
 targetos: Windows

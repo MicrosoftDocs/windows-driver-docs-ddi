@@ -1,6 +1,6 @@
 ---
 UID: NS:vpci._VPCI_INVALIDATE_BLOCK_OUTPUT
-title: _VPCI_INVALIDATE_BLOCK_OUTPUT
+title: "_VPCI_INVALIDATE_BLOCK_OUTPUT"
 author: windows-driver-content
 description: The VPCI_INVALIDATE_BLOCK_OUTPUT structure is used in an IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request.
 old-location: kernel\vpci_invalidate_block_output.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: vpci/VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], *PVPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, _VPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture]
+ms.keywords: vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], kernel.vpci_invalidate_block_output, PVPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], _VPCI_INVALIDATE_BLOCK_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Vpci.h
-apiname: 
+apiname:
 -	VPCI_INVALIDATE_BLOCK_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT
+req.typenames: "*PVPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT"
 req.product: Windows 10 or later.
 ---
 

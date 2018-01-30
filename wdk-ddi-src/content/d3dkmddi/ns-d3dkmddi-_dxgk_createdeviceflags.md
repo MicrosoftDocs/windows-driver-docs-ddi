@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices], _DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags, d3dkmddi/DXGK_CREATEDEVICEFLAGS, DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml
+ms.keywords: "_DXGK_CREATEDEVICEFLAGS, DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags, DXGK_CREATEDEVICEFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATEDEVICEFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_CONTROLLER_NUMBER
-title: _DISK_CONTROLLER_NUMBER
+title: "_DISK_CONTROLLER_NUMBER"
 author: windows-driver-content
 description: DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk.
 old-location: storage\disk_controller_number.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5dc9f04b-8d7c-4ac7-9518-8836d56d5eed
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], ntdddisk/DISK_CONTROLLER_NUMBER, _DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, ntdddisk/PDISK_CONTROLLER_NUMBER, structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml, PDISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], storage.disk_controller_number
+ms.keywords: ntdddisk/DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], _DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER, storage.disk_controller_number, ntdddisk/PDISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DISK_CONTROLLER_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: *PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER
+req.typenames: DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER
 ---
 
 # _DISK_CONTROLLER_NUMBER structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-title: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 author: windows-driver-content
 description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure specifies a management action for the data-set attributes for a device.
 old-location: storage\device_manage_data_set_attributes.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], DeviceDsmActionFlag_NonDestructive, storage.device_manage_data_set_attributes, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ms.keywords: ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], storage.device_manage_data_set_attributes, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+req.typenames: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 ---
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
@@ -198,9 +198,9 @@ The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
 
  
 

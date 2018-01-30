@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PWMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, PWMIREGINFOW, wmistr/WMIREGINFOW, WMIREGINFO, WMIREGINFOW structure [Kernel-Mode Driver Architecture], PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], kernel.wmireginfo, WMIREGINFOW, wmistr/PWMIREGINFOW
+ms.keywords: WMIREGINFO, wmistr/WMIREGINFOW, PWMIREGINFOW, kernel.wmireginfo, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFOW structure [Kernel-Mode Driver Architecture], WMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, *PWMIREGINFOW, wmistr/PWMIREGINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wmistr.h
-apiname: 
+apiname:
 -	WMIREGINFOW
 product: Windows
 targetos: Windows
-req.typenames: *PWMIREGINFOW, WMIREGINFOW
+req.typenames: "*PWMIREGINFOW, WMIREGINFOW"
 req.product: Windows 10 or later.
 ---
 
@@ -116,11 +116,11 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 <a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.network_open_integrity_qualifier, NetworkOpenIntegritySigned, NetworkOpenIntegrityNone, NetworkOpenIntegrityEncrypted, NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegritySigned, NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityNone, NetworkOpenIntegrityAny, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, ntifs/NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityEncrypted
+ms.keywords: ntifs/NetworkOpenIntegritySigned, ntifs/NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityMaximum, NetworkOpenIntegrityMaximum, NETWORK_OPEN_INTEGRITY_QUALIFIER, ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], ntifs/NetworkOpenIntegrityAny, NetworkOpenIntegritySigned, NetworkOpenIntegrityEncrypted, NetworkOpenIntegrityAny, ifsk.network_open_integrity_qualifier, ntifs/NetworkOpenIntegrityNone, NetworkOpenIntegrityNone, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	NETWORK_OPEN_INTEGRITY_QUALIFIER
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_ABORTIO
-title: _USBDEVICE_ABORTIO
+title: "_USBDEVICE_ABORTIO"
 author: windows-driver-content
 description: Contains a handle for the Universal Serial Bus (USB) hub or device for which to abort data transfers.
 old-location: buses\_usbdevice_abortio.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO, buses._usbdevice_abortio, USBDEVICE_ABORTIO structure [Buses], *PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, ucxusbdevice/P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses]
+ms.keywords: ucxusbdevice/_USBDEVICE_ABORTIO, buses._usbdevice_abortio, USBDEVICE_ABORTIO, _USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], ucxusbdevice/P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	USBDEVICE_ABORTIO
 product: Windows
 targetos: Windows
-req.typenames: *PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO
+req.typenames: USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,11 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
 
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
  
 

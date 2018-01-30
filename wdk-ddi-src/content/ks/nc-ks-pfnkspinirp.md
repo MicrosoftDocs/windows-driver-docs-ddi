@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniPinCreate
 product: Windows
 targetos: Windows
@@ -140,11 +140,11 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
  
 

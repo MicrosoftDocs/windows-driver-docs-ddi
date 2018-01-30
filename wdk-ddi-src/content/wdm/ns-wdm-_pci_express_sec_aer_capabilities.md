@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SEC_AER_CAPABILITIES
-title: _PCI_EXPRESS_SEC_AER_CAPABILITIES
+title: "_PCI_EXPRESS_SEC_AER_CAPABILITIES"
 author: windows-driver-content
 description: The PCI_EXPRESS_SEC_AER_CAPABILITIES structure describes a PCI Express (PCIe) secondary error capabilities and control register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_aer_capabilities.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: fdfc0157-699e-4927-8186-b76b2e2bbda1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, *PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES, _PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses]
+ms.keywords: PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], *PPCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES, _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_SEC_AER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES
+req.typenames: PCI_EXPRESS_SEC_AER_CAPABILITIES, *PPCI_EXPRESS_SEC_AER_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 
@@ -92,14 +92,14 @@ typedef union _PCI_EXPRESS_SEC_AER_CAPABILITIES {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_AER_CAPABILITIES structure.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
 #### - SecondaryUncorrectableFirstErrorPtr
 
 The bit position of the first error that was reported in the PCIe secondary uncorrectable error status register.
+
+
+#### - Reserved
+
+Reserved for system use.
 
 
 ## -remarks

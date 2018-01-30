@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BMF_24BPP, BMF_8RLE, SetBandSize, BMF_1BPP, IPrintOemUni3::SetBandSize, SetBandSize method [Print Devices], BMF_4RLE, BMF_4BPP, prcomoem/IPrintOemUni3::SetBandSize, BMF_8BPP, SetBandSize method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices], SetBandSize method, IPrintOemUni3, BMF_16BPP, print.iprintoemuni3_setbandsize, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, BMF_32BPP
+ms.keywords: IPrintOemUni3::SetBandSize, BMF_32BPP, IPrintOemUni3, print.iprintoemuni3_setbandsize, BMF_24BPP, BMF_8RLE, SetBandSize method [Print Devices], IPrintOemUni3 interface, SetBandSize, BMF_8BPP, prcomoem/IPrintOemUni3::SetBandSize, BMF_4RLE, BMF_16BPP, BMF_1BPP, BMF_4BPP, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, IPrintOemUni3 interface [Print Devices], SetBandSize method, SetBandSize method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni3.SetBandSize
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

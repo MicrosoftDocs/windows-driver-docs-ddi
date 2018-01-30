@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed29c80a-7a42-46e3-8a18-d66dfddb9659
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices], ksmedia/PKS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video, PKS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO, ksmedia/KS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml
+ms.keywords: ksmedia/KS_DATARANGE_MPEG2_VIDEO, vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml, *PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], stream.ks_datarange_mpeg2_video, ksmedia/PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DATARANGE_MPEG2_VIDEO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO
+req.typenames: KS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO
 ---
 
 # tagKS_DATARANGE_MPEG2_VIDEO structure
@@ -110,9 +110,9 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
+
+<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 

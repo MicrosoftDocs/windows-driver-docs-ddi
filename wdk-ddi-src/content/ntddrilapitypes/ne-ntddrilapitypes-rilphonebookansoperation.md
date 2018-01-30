@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 29dcc5c0-0b07-49d7-b2ab-bdac7333baf7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, netvista.rilphonebookansoperation, RIL_PHONEBOOK_MAX, RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_MAX, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSMODIFIED
+ms.keywords: RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_MAX, RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_ANSMODIFIED, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation, RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RILPHONEBOOKANSOPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILPHONEBOOKANSOPERATION
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POEMMEMORYUSAGE, printoem/OEMMEMORYUSAGE, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, POEMMEMORYUSAGE structure pointer [Print Devices], print.oemmemoryusage, *POEMMEMORYUSAGE, OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices]
+ms.keywords: OEMMEMORYUSAGE, POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], OEMMEMORYUSAGE structure [Print Devices], print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, print.oemmemoryusage, *POEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMMEMORYUSAGE
 product: Windows
 targetos: Windows
-req.typenames: *POEMMEMORYUSAGE, OEMMEMORYUSAGE
+req.typenames: OEMMEMORYUSAGE, *POEMMEMORYUSAGE
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PSHED_PLUGIN_CALLBACKS
-title: _WHEA_PSHED_PLUGIN_CALLBACKS
+title: "_WHEA_PSHED_PLUGIN_CALLBACKS"
 author: windows-driver-content
 description: The WHEA_PSHED_PLUGIN_CALLBACKS structure describes the callback functions for a PSHED plug-in.
 old-location: whea\whea_pshed_plugin_callbacks.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 3b99f2bf-0ebc-40b2-a586-acc89200132b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_PSHED_PLUGIN_CALLBACKS, PWHEA_PSHED_PLUGIN_CALLBACKS structure pointer [WHEA Drivers and Applications], WHEA_PSHED_PLUGIN_CALLBACKS structure [WHEA Drivers and Applications], whea.whea_pshed_plugin_callbacks, *PWHEA_PSHED_PLUGIN_CALLBACKS, ntddk/PWHEA_PSHED_PLUGIN_CALLBACKS, WHEA_PSHED_PLUGIN_CALLBACKS, PWHEA_PSHED_PLUGIN_CALLBACKS, _WHEA_PSHED_PLUGIN_CALLBACKS, whearef_85037502-834f-412c-96e0-0a8d81cdd004.xml
+ms.keywords: PWHEA_PSHED_PLUGIN_CALLBACKS structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_PSHED_PLUGIN_CALLBACKS, _WHEA_PSHED_PLUGIN_CALLBACKS, WHEA_PSHED_PLUGIN_CALLBACKS, WHEA_PSHED_PLUGIN_CALLBACKS structure [WHEA Drivers and Applications], ntddk/WHEA_PSHED_PLUGIN_CALLBACKS, PWHEA_PSHED_PLUGIN_CALLBACKS, *PWHEA_PSHED_PLUGIN_CALLBACKS, whea.whea_pshed_plugin_callbacks, whearef_85037502-834f-412c-96e0-0a8d81cdd004.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_PSHED_PLUGIN_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: WHEA_PSHED_PLUGIN_CALLBACKS, *PWHEA_PSHED_PLUGIN_CALLBACKS
+req.typenames: "*PWHEA_PSHED_PLUGIN_CALLBACKS, WHEA_PSHED_PLUGIN_CALLBACKS"
 ---
 
 # _WHEA_PSHED_PLUGIN_CALLBACKS structure
@@ -165,35 +165,35 @@ A WHEA_PSHED_PLUGIN_CALLBACKS structure is contained within the <a href="..\ntdd
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_attempt_error_recovery.md">AttemptRecovery</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_error_source_info.md">GetErrorSourceInfo</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_disable_error_source.md">DisableErrorSource</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_set_error_source_info.md">SetErrorSourceInfo</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_all_error_sources.md">GetAllErrorSources</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_retrieve_error_info.md">RetrieveErrorInfo</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
-
 <a href="..\ntddk\nc-ntddk-pshed_pi_enable_error_source.md">EnableErrorSource</a>
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_finalize_error_record.md">FinalizeErrorRecord</a>
 
 <a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_set_error_source_info.md">SetErrorSourceInfo</a>
 
 <a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_status.md">ClearErrorStatus</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_error_source_info.md">GetErrorSourceInfo</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_retrieve_error_info.md">RetrieveErrorInfo</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_attempt_error_recovery.md">AttemptRecovery</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_finalize_error_record.md">FinalizeErrorRecord</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_disable_error_source.md">DisableErrorSource</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_read_error_record.md">ReadErrorRecord</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_all_error_sources.md">GetAllErrorSources</a>
 
  
 

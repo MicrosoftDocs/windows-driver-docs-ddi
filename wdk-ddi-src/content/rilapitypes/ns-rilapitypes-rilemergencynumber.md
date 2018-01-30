@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70759d23-b5ab-4c51-b73f-32021b9ae6fb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEMERGENCYNUMBER, rilapitypes/RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber_2, *LPRILEMERGENCYNUMBER
+ms.keywords: netvista.rilemergencynumber_2, *LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER, rilapitypes/RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEMERGENCYNUMBER
 product: Windows
 targetos: Windows
-req.typenames: *LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER
+req.typenames: RILEMERGENCYNUMBER, *LPRILEMERGENCYNUMBER
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2c38ab6a-c583-45a5-93a5-6a5882411b6c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetVolumeFromInstance routine [Installable File System Drivers], FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, fltkernel/FltGetVolumeFromInstance, ifsk.fltgetvolumefrominstance, FltGetVolumeFromInstance
+ms.keywords: fltkernel/FltGetVolumeFromInstance, ifsk.fltgetvolumefrominstance, FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, FltGetVolumeFromInstance routine [Installable File System Drivers], FltGetVolumeFromInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltGetVolumeFromInstance
 product: Windows
 targetos: Windows
@@ -117,13 +117,13 @@ To get detailed information about the volume that a given instance is attached t
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
  
 

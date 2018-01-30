@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44a5b4dd-c654-4af1-afd6-6e59d2cd1ff8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_TIMER_CONFIG_INIT_PERIODIC function, DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, wdf.wdf_timer_config_init_periodic, kmdf.wdf_timer_config_init_periodic
+ms.keywords: DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, wdf.wdf_timer_config_init_periodic, WDF_TIMER_CONFIG_INIT_PERIODIC function, kmdf.wdf_timer_config_init_periodic, WDF_TIMER_CONFIG_INIT_PERIODIC, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_TIMER_CONFIG_INIT_PERIODIC
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -106,9 +106,9 @@ The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function zeros the specified <a href="
 
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
-
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
+
+<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
 
  
 

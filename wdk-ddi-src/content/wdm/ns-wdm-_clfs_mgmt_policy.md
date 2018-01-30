@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLFS_MGMT_POLICY
-title: _CLFS_MGMT_POLICY
+title: "_CLFS_MGMT_POLICY"
 author: windows-driver-content
 description: The CLFS_MGMT_POLICY structure holds a description of a policy for managing a CLFS log.
 old-location: kernel\clfs_mgmt_policy.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], kernel.clfs_mgmt_policy, PCLFS_MGMT_POLICY, _CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_MGMT_POLICY
+ms.keywords: CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], *PCLFS_MGMT_POLICY, wdm/CLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], CLFS_MGMT_POLICY, _CLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/PCLFS_MGMT_POLICY, kernel.clfs_mgmt_policy, PCLFS_MGMT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	CLFS_MGMT_POLICY
 product: Windows
 targetos: Windows
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.typenames: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -267,11 +267,11 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
 <a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
 
 <a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
-
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
 
 <a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
 

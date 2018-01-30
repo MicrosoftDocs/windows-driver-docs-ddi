@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bfdea6dd-1f94-45ea-906c-9d17fc784a53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_OPENADAPTER, UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, display.d3dddiarg_openadapter, D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER structure [Display Devices], _D3DDDIARG_OPENADAPTER
+ms.keywords: D3DDDIARG_OPENADAPTER structure [Display Devices], _D3DDDIARG_OPENADAPTER, UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, d3dumddi/D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter, D3DDDIARG_OPENADAPTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,13 +107,13 @@ with the Windows 7 WDK (Version 7600), make sure that the driver returns D3D_UM
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adaptercallbacks.md">D3DDDI_ADAPTERCALLBACKS</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adaptercallbacks.md">D3DDDI_ADAPTERCALLBACKS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
  
 

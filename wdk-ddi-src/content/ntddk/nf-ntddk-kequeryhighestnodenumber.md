@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e92387db-0c35-40c8-8342-4b1bf498aa1a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryHighestNodeNumber routine [Kernel-Mode Driver Architecture], k105_3d91d159-3bbb-445b-874b-a6d1a8b078df.xml, kernel.kequeryhighestnodenumber, wdm/KeQueryHighestNodeNumber, KeQueryHighestNodeNumber
+ms.keywords: wdm/KeQueryHighestNodeNumber, KeQueryHighestNodeNumber routine [Kernel-Mode Driver Architecture], kernel.kequeryhighestnodenumber, k105_3d91d159-3bbb-445b-874b-a6d1a8b078df.xml, KeQueryHighestNodeNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQueryHighestNodeNumber
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeQueryHighestNodeNumber function

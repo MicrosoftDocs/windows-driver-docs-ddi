@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetPresharedKeyForId_IN
-title: _SetPresharedKeyForId_IN
+title: "_SetPresharedKeyForId_IN"
 author: windows-driver-content
 description: The SetPresharedKeyForId_IN structure holds the input data for the SetPresharedKeyForId method.
 old-location: storage\setpresharedkeyforid_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.setpresharedkeyforid_in, _SetPresharedKeyForId_IN, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml, *PSetPresharedKeyForId_IN, SetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], SetPresharedKeyForId_IN structure [Storage Devices], iscsiop/SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN
+ms.keywords: SetPresharedKeyForId_IN structure [Storage Devices], iscsiop/SetPresharedKeyForId_IN, _SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, SetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, storage.setpresharedkeyforid_in, PSetPresharedKeyForId_IN structure pointer [Storage Devices], structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetPresharedKeyForId_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSetPresharedKeyForId_IN, SetPresharedKeyForId_IN
+req.typenames: SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
 ---
 
 # _SetPresharedKeyForId_IN structure

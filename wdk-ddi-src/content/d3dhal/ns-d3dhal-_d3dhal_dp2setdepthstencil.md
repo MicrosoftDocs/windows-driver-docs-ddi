@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb57b1c0-6cb2-42e4-bf67-239ac6c0548c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2SETDEPTHSTENCIL, _D3DHAL_DP2SETDEPTHSTENCIL, d3dstrct_6eda96cd-64bc-4ba1-acc3-0166ccfbd401.xml, D3DHAL_DP2SETDEPTHSTENCIL structure [Display Devices], D3DHAL_DP2SETDEPTHSTENCIL, LPD3DHAL_DP2SETDEPTHSTENCIL, display.d3dhal_dp2setdepthstencil, *LPD3DHAL_DP2SETDEPTHSTENCIL, d3dhal/LPD3DHAL_DP2SETDEPTHSTENCIL, LPD3DHAL_DP2SETDEPTHSTENCIL structure pointer [Display Devices]
+ms.keywords: "_D3DHAL_DP2SETDEPTHSTENCIL, d3dhal/LPD3DHAL_DP2SETDEPTHSTENCIL, d3dstrct_6eda96cd-64bc-4ba1-acc3-0166ccfbd401.xml, LPD3DHAL_DP2SETDEPTHSTENCIL, d3dhal/D3DHAL_DP2SETDEPTHSTENCIL, D3DHAL_DP2SETDEPTHSTENCIL, *LPD3DHAL_DP2SETDEPTHSTENCIL, LPD3DHAL_DP2SETDEPTHSTENCIL structure pointer [Display Devices], display.d3dhal_dp2setdepthstencil, D3DHAL_DP2SETDEPTHSTENCIL structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,9 +85,9 @@ The driver should store the depth buffer identified by <b>hZBuffer</b> in the dr
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
 D3DDP2OP_SETDEPTHSTENCIL
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

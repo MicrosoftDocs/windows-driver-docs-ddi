@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0ab18ea-4447-4eee-bdf3-d251d4d4952f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getframeoffset2, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, GetFrameOffset2, IDebugRegisters2::GetFrameOffset2, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2, dbgeng/IDebugRegisters2::GetFrameOffset2
+ms.keywords: GetFrameOffset2 method [Windows Debugging], dbgeng/IDebugRegisters2::GetFrameOffset2, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetFrameOffset2, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, GetFrameOffset2, debugger.getframeoffset2, IDebugRegisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetFrameOffset2
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetFrameOffset2 method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunalignedstringcblength, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml, RtlUnalignedStringCbLength
+ms.keywords: RtlUnalignedStringCbLength, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlUnalignedStringCbLengthW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnalignedStringCbLengthW function

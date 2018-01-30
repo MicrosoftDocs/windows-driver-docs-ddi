@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4373f7b-cc88-45da-a140-ead1c6891c11
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwopensection, NtOpenSection, wdm/ZwOpenSection, ZwOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture], k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, wdm/NtOpenSection
+ms.keywords: ZwOpenSection, wdm/NtOpenSection, wdm/ZwOpenSection, kernel.zwopensection, k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, ZwOpenSection routine [Kernel-Mode Driver Architecture], NtOpenSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenSection
 -	NtOpenSection
 product: Windows
@@ -107,7 +107,7 @@ If the caller is not running in a system thread context, it must ensure that any
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
@@ -117,7 +117,7 @@ If the caller is not running in a system thread context, it must ensure that any
 
 <a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

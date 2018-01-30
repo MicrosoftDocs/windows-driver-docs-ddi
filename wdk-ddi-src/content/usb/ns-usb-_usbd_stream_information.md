@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_STREAM_INFORMATION
-title: _USBD_STREAM_INFORMATION
+title: "_USBD_STREAM_INFORMATION"
 author: windows-driver-content
 description: The USBD_STREAM_INFORMATION structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\usbd_stream_information.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AFB502BF-4BC2-439E-BF1F-5D1DE3172362
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], usb/PUSBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], USBD_STREAM_INFORMATION, buses.usbd_stream_information, _USBD_STREAM_INFORMATION
+ms.keywords: USBD_STREAM_INFORMATION structure [Buses], PUSBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION, _USBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usb.h
-apiname: 
+apiname:
 -	USBD_STREAM_INFORMATION
 product: Windows
 targetos: Windows
@@ -100,15 +100,15 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 <a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

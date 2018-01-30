@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddscsi._IO_SCSI_CAPABILITIES
-title: _IO_SCSI_CAPABILITIES
+title: "_IO_SCSI_CAPABILITIES"
 author: windows-driver-content
-description: The IO_SCSI_CAPABILITIES structure is used in conjunction with the IOCTL_SCSI_GET_CAPABILITIES request to retrieve the capabilities and limitations of the underlying SCSI host adapter.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The IO_SCSI_CAPABILITIES structure is used in conjunction with the IOCTL_SCSI_GET_CAPABILITIES request to retrieve the capabilities and limitations of the underlying SCSI host adapter.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\io_scsi_capabilities.htm
 old-project: storage
 ms.assetid: cc348bc8-137a-4abd-9f0e-4c5fb521428f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml, _IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], ntddscsi/PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices]
+ms.keywords: ntddscsi/PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], ntddscsi/IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], _IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, PIO_SCSI_CAPABILITIES, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml, *PIO_SCSI_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	IO_SCSI_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PIO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES
+req.typenames: IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES
 ---
 
 # _IO_SCSI_CAPABILITIES structure

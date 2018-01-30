@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setcommand, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, IDebugBreakpoint2, SetCommand, dbgeng/IDebugBreakpoint::SetCommand, IDebugBreakpoint2::SetCommand, IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint interface, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], SetCommand method, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml
+ms.keywords: IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, IDebugBreakpoint2::SetCommand, IDebugBreakpoint interface [Windows Debugging], SetCommand method, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, dbgeng/IDebugBreakpoint2::SetCommand, debugger.setcommand, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, SetCommand, dbgeng/IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, SetCommand method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.SetCommand
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::SetCommand method

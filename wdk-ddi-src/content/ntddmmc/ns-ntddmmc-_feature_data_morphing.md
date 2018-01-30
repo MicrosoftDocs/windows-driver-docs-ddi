@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MORPHING
-title: _FEATURE_DATA_MORPHING
+title: "_FEATURE_DATA_MORPHING"
 author: windows-driver-content
 description: The FEATURE_DATA_MORPHING structure contains information about the morphing feature.
 old-location: storage\feature_data_morphing.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b3eaabdf-0163-4679-9b22-d8ec53abed59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _FEATURE_DATA_MORPHING, storage.feature_data_morphing, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], FEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING structure [Storage Devices], ntddmmc/PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING, ntddmmc/FEATURE_DATA_MORPHING, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml
+ms.keywords: storage.feature_data_morphing, FEATURE_DATA_MORPHING structure [Storage Devices], ntddmmc/PFEATURE_DATA_MORPHING, _FEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], PFEATURE_DATA_MORPHING, ntddmmc/FEATURE_DATA_MORPHING, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml, *PFEATURE_DATA_MORPHING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_MORPHING
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING
+req.typenames: "*PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING"
 ---
 
 # _FEATURE_DATA_MORPHING structure

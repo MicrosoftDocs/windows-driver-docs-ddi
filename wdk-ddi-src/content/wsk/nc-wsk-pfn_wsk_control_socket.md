@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskControlSocket
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,21 @@ A value that specifies the type of control operation that is being performed. A 
      
 
 
+
+
+#### WskSetOption
+
+Set the state or value for a socket option.
+
+
+#### WskGetOption
+
+Get the state or value of a socket option.
+
+
+#### WskIoctl
+
+Perform an I/O control operation.
 
 
 ### -param ControlCode [in]
@@ -189,21 +204,6 @@ If the
      <i>Irp</i> parameter for each of the supported I/O control operations, see 
      <mshelp:link keywords="netvista.wsk_socket_ioctl_operations" tabindex="0">WSK Socket IOCTL
      Operations</mshelp:link>.
-
-
-##### - RequestType.WskIoctl
-
-Perform an I/O control operation.
-
-
-##### - RequestType.WskGetOption
-
-Get the state or value of a socket option.
-
-
-##### - RequestType.WskSetOption
-
-Set the state or value for a socket option.
 
 
 #### - OutputSizeReturned [out, optional]
@@ -355,23 +355,23 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
 <mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
    WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
 
 <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
+<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
+   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
  
 

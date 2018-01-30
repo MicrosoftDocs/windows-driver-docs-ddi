@@ -97,9 +97,9 @@ __checkReturn HRESULT APIENTRY SetViewport(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_viewportinfo.md">D3DDDIARG_VIEWPORTINFO</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_viewportinfo.md">D3DDDIARG_VIEWPORTINFO</a>
 
  
 

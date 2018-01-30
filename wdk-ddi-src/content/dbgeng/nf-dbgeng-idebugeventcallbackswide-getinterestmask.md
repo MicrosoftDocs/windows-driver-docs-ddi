@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide, GetInterestMask method [Windows Debugging]
+ms.keywords: dbgeng/IDebugEventCallbacksWide::GetInterestMask, GetInterestMask, GetInterestMask method [Windows Debugging], debugger.idebugeventcallbackswide_getinterestmask, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide::GetInterestMask, GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::GetInterestMask method

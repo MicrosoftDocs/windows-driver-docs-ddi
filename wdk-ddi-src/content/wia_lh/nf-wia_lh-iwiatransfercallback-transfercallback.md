@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: TransferCallback method [Imaging Devices], IWiaTransferCallback interface, IWiaTransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, wia_lh/IWiaTransferCallback::TransferCallback, TransferCallback, IWiaTransferCallback::TransferCallback, image.iwiatransfercallback_transfercallback, TransferCallback method [Imaging Devices], IWiaTransferCallback interface [Imaging Devices], TransferCallback method
+ms.keywords: TransferCallback, TransferCallback method [Imaging Devices], IWiaTransferCallback interface [Imaging Devices], TransferCallback method, TransferCallback method [Imaging Devices], IWiaTransferCallback interface, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, wia_lh/IWiaTransferCallback::TransferCallback, IWiaTransferCallback::TransferCallback, IWiaTransferCallback, image.iwiatransfercallback_transfercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wia_lh.h
-apiname: 
+apiname:
 -	IWiaTransferCallback.TransferCallback
 product: Windows
 targetos: Windows

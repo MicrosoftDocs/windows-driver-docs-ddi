@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_TYPEC_CURRENT
-title: _UCM_TYPEC_CURRENT
+title: "_UCM_TYPEC_CURRENT"
 author: windows-driver-content
 description: Defines different Type-C current levels, as defined in the Type-C specification.
 old-location: buses\ucm_type_c_current.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5A603C0E-BBB8-4909-B7B0-EAADF428CB5F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _UCM_TYPEC_CURRENT, UCM_TYPEC_CURRENT enumeration [Buses], UCM_TYPEC_CURRENT, buses.ucm_type_c_current, UcmTypeCCurrentDefaultUsb, UcmTypeCCurrent3000mA, UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrent3000mA, ucmtypes/UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrentDefaultUsb, ucmtypes/UcmTypeCCurrentInvalid, UcmTypeCCurrent1500mA, ucmtypes/UCM_TYPEC_CURRENT
+ms.keywords: ucmtypes/UcmTypeCCurrent3000mA, ucmtypes/UCM_TYPEC_CURRENT, UcmTypeCCurrentDefaultUsb, UcmTypeCCurrent3000mA, buses.ucm_type_c_current, ucmtypes/UcmTypeCCurrentDefaultUsb, _UCM_TYPEC_CURRENT, UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrentInvalid, UCM_TYPEC_CURRENT enumeration [Buses], UCM_TYPEC_CURRENT, ucmtypes/UcmTypeCCurrent1500mA, UcmTypeCCurrent1500mA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ucmtypes.h
-apiname: 
+apiname:
 -	UCM_TYPEC_CURRENT
 product: Windows
 targetos: Windows

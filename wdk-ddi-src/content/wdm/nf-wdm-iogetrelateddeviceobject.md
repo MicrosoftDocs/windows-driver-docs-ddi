@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetrelateddeviceobject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], wdm/IoGetRelatedDeviceObject, IoGetRelatedDeviceObject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml
+ms.keywords: IoGetRelatedDeviceObject, wdm/IoGetRelatedDeviceObject, kernel.iogetrelateddeviceobject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetRelatedDeviceObject
 product: Windows
 targetos: Windows

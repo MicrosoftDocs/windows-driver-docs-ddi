@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_SERIAL_NUMBER
-title: _AACS_SERIAL_NUMBER
+title: "_AACS_SERIAL_NUMBER"
 author: windows-driver-content
 description: The AACS_SERIAL_NUMBER structure contains an Advanced Access Content System (AACS) serial number and corresponding message authentication code (MAC).
 old-location: storage\aacs_serial_number.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1436c8a5-9160-41d8-acc1-0af6acadfdba
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AACS_SERIAL_NUMBER, storage.aacs_serial_number, *PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER structure [Storage Devices], PAACS_SERIAL_NUMBER structure pointer [Storage Devices], PAACS_SERIAL_NUMBER, structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml, _AACS_SERIAL_NUMBER, ntddcdvd/PAACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER
+ms.keywords: "*PAACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER, structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml, AACS_SERIAL_NUMBER structure [Storage Devices], PAACS_SERIAL_NUMBER, _AACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], ntddcdvd/PAACS_SERIAL_NUMBER, storage.aacs_serial_number"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	AACS_SERIAL_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: *PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER
+req.typenames: "*PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER"
 ---
 
 # _AACS_SERIAL_NUMBER structure

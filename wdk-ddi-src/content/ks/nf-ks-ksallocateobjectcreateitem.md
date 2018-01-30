@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], ks/KsAllocateObjectCreateItem, stream.ksallocateobjectcreateitem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml
+ms.keywords: ks/KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], stream.ksallocateobjectcreateitem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, KsAllocateObjectCreateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAllocateObjectCreateItem
 product: Windows
 targetos: Windows

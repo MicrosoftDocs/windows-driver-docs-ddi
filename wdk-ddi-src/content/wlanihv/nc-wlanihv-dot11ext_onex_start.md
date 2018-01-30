@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtStartOneX
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -161,22 +161,22 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
 
 ## -see-also
 
+<mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
+   Dot11ExtPostAssociateCompletion</b></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
+   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <mshelp:link keywords="netvista.dot11extihvperformpostassociate" tabindex="0"><i>
    Dot11ExtIhvPerformPostAssociate</i></mshelp:link>
-
-<mshelp:link keywords="netvista.dot11extihvonexindicateresult" tabindex="0"><i>
-   Dot11ExtIhvOneXIndicateResult</i></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
-
-<mshelp:link keywords="netvista.dot11extpostassociatecompletion" tabindex="0"><b>
-   Dot11ExtPostAssociateCompletion</b></mshelp:link>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiInquiry_OUT
-title: _ScsiInquiry_OUT
+title: "_ScsiInquiry_OUT"
 author: windows-driver-content
 description: The ScsiInquiry_OUT structure holds the output data for the ScsiInquiry method.
 old-location: storage\scsiinquiry_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, PScsiInquiry_OUT, *PScsiInquiry_OUT, storage.scsiinquiry_out, iscsiop/PScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], ScsiInquiry_OUT, _ScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices]
+ms.keywords: iscsiop/ScsiInquiry_OUT, ScsiInquiry_OUT, storage.scsiinquiry_out, _ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], *PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], PScsiInquiry_OUT, structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, iscsiop/PScsiInquiry_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	ScsiInquiry_OUT
 product: Windows
 targetos: Windows
-req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
+req.typenames: "*PScsiInquiry_OUT, ScsiInquiry_OUT"
 ---
 
 # _ScsiInquiry_OUT structure
@@ -105,11 +105,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_in.md">ScsiInquiry_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_in.md">ScsiInquiry_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtSendUIRequest
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -133,17 +133,17 @@ The operating system can query the completion status of the request through a ca
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
+   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 <mshelp:link keywords="netvista.dot11extihvisuirequestpending" tabindex="0"><i>
    Dot11ExtIhvIsUIRequestPending</i></mshelp:link>
 
-<mshelp:link keywords="netvista.dot11extihvprocessuiresponse" tabindex="0"><i>
-   Dot11ExtIhvProcessUIResponse</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
 
  
 

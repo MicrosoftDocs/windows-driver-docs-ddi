@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2196971-47ad-4ac4-a3e9-c8f7f6b05321
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerError function [Storage Devices], mcd/ChangerError, chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, ChangerError, storage.changererror
+ms.keywords: ChangerError function [Storage Devices], mcd/ChangerError, chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, storage.changererror, ChangerError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerError
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltpropagateactivityidtothread, FltPropagateActivityIdToThread routine [Installable File System Drivers], FltPropagateActivityIdToThread, fltkernel/FltPropagateActivityIdToThread
+ms.keywords: FltPropagateActivityIdToThread routine [Installable File System Drivers], FltPropagateActivityIdToThread, fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltPropagateActivityIdToThread
 product: Windows
 targetos: Windows

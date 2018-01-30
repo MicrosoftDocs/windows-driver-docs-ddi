@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointCreate, buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate, UcxEndpointCreate method [Buses]
+ms.keywords: UcxEndpointCreate method [Buses], UcxEndpointCreate, ucxendpoint/UcxEndpointCreate, buses._ucxendpointcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxEndpointCreate
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0D0B06FE-BE88-4FB2-92FC-8B6D396CEFE8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PSENSOR_VALUE_PAIR, sensors.sensor_value_pair, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensorsdef/PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR
+ms.keywords: PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], sensors.sensor_value_pair, PSENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensorsdef/PSENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	SENSOR_VALUE_PAIR
 product: Windows
 targetos: Windows
-req.typenames: *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
+req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
 ---
 

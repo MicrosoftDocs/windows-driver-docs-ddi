@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0C95831F-2E20-461C-8478-9A40C1F063E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, UcxUsbDeviceRemoteWakeNotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
+ms.keywords: ucxusbdevice/UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification method [Buses], UcxUsbDeviceRemoteWakeNotification, buses._ucxusbdeviceremotewakenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	UcxUsbDeviceRemoteWakeNotification
 product: Windows
 targetos: Windows

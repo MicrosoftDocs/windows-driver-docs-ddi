@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], video/VideoPortAcquireSpinLockAtDpcLevel, display.videoportacquirespinlockatdpclevel
+ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, video/VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], display.videoportacquirespinlockatdpclevel, VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,6 +41,7 @@ apiname:
 product: Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
+req.product: Windows 10 or later.
 ---
 
 # VideoPortAcquireSpinLockAtDpcLevel function
@@ -104,9 +105,9 @@ The caller should release the spin lock with <a href="..\video\nf-video-videopor
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportreleasespinlockfromdpclevel.md">VideoPortReleaseSpinLockFromDpcLevel</a>
-
 <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
+
+<a href="..\video\nf-video-videoportreleasespinlockfromdpclevel.md">VideoPortReleaseSpinLockFromDpcLevel</a>
 
  
 

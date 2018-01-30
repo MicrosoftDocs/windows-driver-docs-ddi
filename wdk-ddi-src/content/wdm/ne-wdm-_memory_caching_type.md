@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._MEMORY_CACHING_TYPE
-title: _MEMORY_CACHING_TYPE
+title: "_MEMORY_CACHING_TYPE"
 author: windows-driver-content
 description: The MEMORY_CACHING_TYPE enumeration type specifies the permitted caching behavior when allocating or mapping memory.
 old-location: kernel\memory_caching_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmNonCached, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MmNonCachedUnordered, wdm/MmHardwareCoherentCached, MEMORY_CACHING_TYPE, MmNonCachedUnordered, wdm/MmWriteCombined, wdm/MmMaximumCacheType, wdm/MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], MmCached, MmWriteCombined, MmHardwareCoherentCached, kernel.memory_caching_type, MmUSWCCached, MmNonCached, MmMaximumCacheType, _MEMORY_CACHING_TYPE, wdm/MmCached, wdm/MmUSWCCached
+ms.keywords: kernel.memory_caching_type, MEMORY_CACHING_TYPE, wdm/MmNonCachedUnordered, MmUSWCCached, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MEMORY_CACHING_TYPE, wdm/MmNonCached, _MEMORY_CACHING_TYPE, MmWriteCombined, wdm/MmUSWCCached, MmHardwareCoherentCached, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], MmCached, MmNonCachedUnordered, MmNonCached, wdm/MmHardwareCoherentCached, MmMaximumCacheType, wdm/MmWriteCombined, wdm/MmMaximumCacheType, wdm/MmCached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MEMORY_CACHING_TYPE
 product: Windows
 targetos: Windows
@@ -123,15 +123,15 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
-
-<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
+<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
  
 

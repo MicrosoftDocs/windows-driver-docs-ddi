@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], display.dxgk_colorimetry, d3dkmddi/DXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY"
+ms.keywords: DXGK_COLORIMETRY structure [Display Devices], d3dkmddi/DXGK_COLORIMETRY, display.dxgk_colorimetry, _DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, *PDXGK_COLORIMETRY, DXGK_COLORIMETRY, PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

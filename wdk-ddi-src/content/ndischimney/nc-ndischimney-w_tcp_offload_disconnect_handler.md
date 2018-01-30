@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	MiniportTcpOffloadDisconnect
 product: Windows
 targetos: Windows
@@ -113,14 +113,14 @@ As one of the following values, the type of disconnect that the offload target m
 
 
 
-##### - Flags.TCP_DISCONNECT_GRACEFUL_CLOSE
-
-The offload target must perform a graceful disconnect by sending a FIN segment.
-
-
-##### - Flags.TCP_DISCONNECT_ABORTIVE_CLOSE
+#### TCP_DISCONNECT_ABORTIVE_CLOSE
 
 The offload target must perform an abortive disconnect by sending an RST segment.
+
+
+#### TCP_DISCONNECT_GRACEFUL_CLOSE
+
+The offload target must perform a graceful disconnect by sending a FIN segment.
 
 
 ## -returns
@@ -230,27 +230,27 @@ The offload target must not free resources for the connection on which it has is
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
+<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
+   NdisAdvanceNetBufferDataStart</b></mshelp:link>
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <mshelp:link keywords="netvista.ndistcpoffloaddisconnectcomplete" tabindex="0"><b>
    NdisTcpOffloadDisconnectComplete</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
  
 

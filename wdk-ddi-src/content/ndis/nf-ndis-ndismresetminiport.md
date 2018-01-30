@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 614C6E21-00D0-4F57-9E09-D1BAB166BA42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMResetMiniport function [Network Drivers Starting with Windows Vista], netvista.ndismresetminiport, NdisMResetMiniport, ndis/NdisMResetMiniport
+ms.keywords: ndis/NdisMResetMiniport, netvista.ndismresetminiport, NdisMResetMiniport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMResetMiniport
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMResetMiniport function

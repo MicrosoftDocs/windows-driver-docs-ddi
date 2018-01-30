@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], ntifs/FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks, ifsk.fsrtlaretherecurrentorinprogressfilelocks
+ms.keywords: ntifs/FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks, fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlAreThereCurrentOrInProgressFileLocks
 product: Windows
 targetos: Windows
@@ -88,7 +88,7 @@ File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock~r1.md">FsRtlGetNextFileLock</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
@@ -96,7 +96,7 @@ File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routin
 
 <a href="https://msdn.microsoft.com/5cbbfecc-2182-40f6-9f54-a8146c1f663f">Oplock Semantics</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock~r1.md">FsRtlGetNextFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
 
  
 

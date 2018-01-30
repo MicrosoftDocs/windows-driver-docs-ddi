@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ntdd8042/XMovement, ntdd8042/PMOUSE_STATE, MouseIdle, ntdd8042/MouseExpectingACK, hid.mouse_state, YMovement, MOUSE_STATE, ntdd8042/ZMovement, PMOUSE_STATE enumeration pointer [Human Input Devices], XMovement, MOUSE_STATE enumeration [Human Input Devices], ZMovement, _MOUSE_STATE, *PMOUSE_STATE, ntdd8042/MouseResetting, MouseExpectingACK, ntdd8042/YMovement, MouseResetting, ntdd8042/MOUSE_STATE, PMOUSE_STATE, ntdd8042/MouseIdle, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml
+ms.keywords: i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, ZMovement, YMovement, MOUSE_STATE, MouseResetting, ntdd8042/MouseExpectingACK, ntdd8042/MouseResetting, hid.mouse_state, ntdd8042/PMOUSE_STATE, XMovement, MouseIdle, ntdd8042/ZMovement, PMOUSE_STATE, _MOUSE_STATE, *PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], ntdd8042/MOUSE_STATE, ntdd8042/XMovement, ntdd8042/MouseIdle, ntdd8042/YMovement, MouseExpectingACK, MOUSE_STATE enumeration [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

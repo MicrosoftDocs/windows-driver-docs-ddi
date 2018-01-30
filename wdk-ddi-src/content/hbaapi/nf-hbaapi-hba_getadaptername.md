@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec17efca-2cb9-4ab4-b98f-7319f6145e4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetAdapterName, storage.hba_getadaptername, hbaapi/HBA_GetAdapterName, HBA_GetAdapterName routine [Storage Devices], fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml
+ms.keywords: hbaapi/HBA_GetAdapterName, storage.hba_getadaptername, fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml, HBA_GetAdapterName routine [Storage Devices], HBA_GetAdapterName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetAdapterName
 product: Windows
 targetos: Windows
@@ -109,9 +109,9 @@ The <b>HBA_GetAdapterName</b> routine returns a value of type <a href="https://m
 
 <a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

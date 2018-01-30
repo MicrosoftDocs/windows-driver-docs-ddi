@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.psupdatediskcounters, PsUpdateDiskCounters, ntifs/PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers]
+ms.keywords: ntifs/PsUpdateDiskCounters, ifsk.psupdatediskcounters, PsUpdateDiskCounters routine [Installable File System Drivers], PsUpdateDiskCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsUpdateDiskCounters
 product: Windows
 targetos: Windows

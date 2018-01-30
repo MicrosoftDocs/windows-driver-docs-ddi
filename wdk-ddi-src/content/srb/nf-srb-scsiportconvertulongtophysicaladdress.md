@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 98d491f8-eeb5-4152-9bb6-fffabcba0360
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortConvertUlongToPhysicalAddress, ScsiPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.scsiportconvertulongtophysicaladdress, ScsiPortConvertUlongToPhysicalAddress, scsiprt_9dc27865-55c2-4599-913c-babe77c62af9.xml
+ms.keywords: ScsiPortConvertUlongToPhysicalAddress routine [Storage Devices], ScsiPortConvertUlongToPhysicalAddress, storage.scsiportconvertulongtophysicaladdress, scsiprt_9dc27865-55c2-4599-913c-babe77c62af9.xml, srb/ScsiPortConvertUlongToPhysicalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortConvertUlongToPhysicalAddress
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

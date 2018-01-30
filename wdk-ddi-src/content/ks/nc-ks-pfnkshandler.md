@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KStrMethodHandler
 product: Windows
 targetos: Windows
@@ -140,11 +140,11 @@ The following code snippet shows an example of an implementation of a method han
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
 <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 

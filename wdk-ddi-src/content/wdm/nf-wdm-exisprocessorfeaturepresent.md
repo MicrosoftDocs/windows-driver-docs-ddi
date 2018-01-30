@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8c4d1d7-3510-48c4-b1a6-062157f4632e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, ExIsProcessorFeaturePresent
+ms.keywords: ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, ExIsProcessorFeaturePresent, kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExIsProcessorFeaturePresent
 product: Windows
 targetos: Windows
@@ -75,79 +75,79 @@ Specifies one of the following constant values:
 
 
 
-##### - ProcessorFeature.PF_FLOATING_POINT_EMULATED
-
-The processor does not have floating-point hardware.
-
-
-##### - ProcessorFeature.PF_SSE3_INSTRUCTIONS_AVAILABLE
-
-The processor supports SSE3 instructions. This parameter value is supported only in Windows Vista and later versions of Windows.
-
-
-##### - ProcessorFeature.PF_3DNOW_INSTRUCTIONS_AVAILABLE
-
-The processor supports AMD 3DNow instructions.
-
-
-##### - ProcessorFeature.PF_COMPARE_EXCHANGE_DOUBLE
-
-The processor has an 8-byte, memory-locked compare and exchange (CMPXCHG8B) instruction.
-
-
-##### - ProcessorFeature.PF_NX_ENABLED
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
-
-
-##### - ProcessorFeature.PF_RDTSC_INSTRUCTION_AVAILABLE
-
-The processor supports a read-timestamp-counter (RDTSC) instruction.
-
-
-##### - ProcessorFeature.PF_XSAVE_ENABLED
-
-The processor supports the XSAVE and XRSTOR instructions. This parameter value is supported only in Windows 7 and later versions of Windows.
-
-
-##### - ProcessorFeature.PF_PAE_ENABLED
-
-The processor implements Physical Address Extension (PAE) support.
-
-
-##### - ProcessorFeature.PF_XMMI64_INSTRUCTIONS_AVAILABLE
-
-The processor supports SSE2 instructions in hardware. This parameter value is supported only in Windows XP and later versions of Windows.
-
-
-##### - ProcessorFeature.PF_COMPARE64_EXCHANGE128
-
-The atomic compare 64-bit and exchange 128-bit operation (CMP8XCHG16) is available. This parameter value is supported only in Windows Vista and later versions of Windows.
-
-
-##### - ProcessorFeature.PF_MMX_INSTRUCTIONS_AVAILABLE
-
-The processor supports MMX instructions in hardware.
-
-
-##### - ProcessorFeature.PF_COMPARE_EXCHANGE128
-
-The atomic compare and exchange 128-bit operation (CMPXCHG16B) is available. This parameter value is supported only in Windows Vista and later versions of Windows.
-
-
-##### - ProcessorFeature.PF_FLOATING_POINT_PRECISION_ERRATA
+#### PF_FLOATING_POINT_PRECISION_ERRATA
 
 The processor has the Pentium floating-point divide bug.
 
 
-##### - ProcessorFeature.PF_SSE_DAZ_MODE_AVAILABLE
+#### PF_FLOATING_POINT_EMULATED
+
+The processor does not have floating-point hardware.
+
+
+#### PF_COMPARE_EXCHANGE_DOUBLE
+
+The processor has an 8-byte, memory-locked compare and exchange (CMPXCHG8B) instruction.
+
+
+#### PF_MMX_INSTRUCTIONS_AVAILABLE
+
+The processor supports MMX instructions in hardware.
+
+
+#### PF_XMMI_INSTRUCTIONS_AVAILABLE
+
+The processor supports SSE instructions in hardware.
+
+
+#### PF_3DNOW_INSTRUCTIONS_AVAILABLE
+
+The processor supports AMD 3DNow instructions.
+
+
+#### PF_RDTSC_INSTRUCTION_AVAILABLE
+
+The processor supports a read-timestamp-counter (RDTSC) instruction.
+
+
+#### PF_PAE_ENABLED
+
+The processor implements Physical Address Extension (PAE) support.
+
+
+#### PF_XMMI64_INSTRUCTIONS_AVAILABLE
+
+The processor supports SSE2 instructions in hardware. This parameter value is supported only in Windows XP and later versions of Windows.
+
+
+#### PF_SSE_DAZ_MODE_AVAILABLE
 
 The processor supports the denormals-are-zero (DAZ) mode for SSE instructions. This parameter value is supported only in Windows Vista and later versions of Windows.
 
 
-##### - ProcessorFeature.PF_XMMI_INSTRUCTIONS_AVAILABLE
+#### PF_NX_ENABLED
 
-The processor supports SSE instructions in hardware.
+<a href="http://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
+
+
+#### PF_SSE3_INSTRUCTIONS_AVAILABLE
+
+The processor supports SSE3 instructions. This parameter value is supported only in Windows Vista and later versions of Windows.
+
+
+#### PF_COMPARE_EXCHANGE128
+
+The atomic compare and exchange 128-bit operation (CMPXCHG16B) is available. This parameter value is supported only in Windows Vista and later versions of Windows.
+
+
+#### PF_COMPARE64_EXCHANGE128
+
+The atomic compare 64-bit and exchange 128-bit operation (CMP8XCHG16) is available. This parameter value is supported only in Windows Vista and later versions of Windows.
+
+
+#### PF_XSAVE_ENABLED
+
+The processor supports the XSAVE and XRSTOR instructions. This parameter value is supported only in Windows 7 and later versions of Windows.
 
 
 ## -returns

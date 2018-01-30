@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTIMPERSONATE, wdfrequest/WdfRequestImpersonate, WdfRequestImpersonate, wdf.wdfrequestimpersonate, WdfRequestImpersonate method
+ms.keywords: WdfRequestImpersonate method, wdfrequest/WdfRequestImpersonate, PFN_WDFREQUESTIMPERSONATE, wdf.wdfrequestimpersonate, WdfRequestImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfRequestImpersonate
 product: Windows
 targetos: Windows

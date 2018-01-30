@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 69860DFE-DDA6-4889-B796-CEAEE59A10CC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode, GetStreamChannelPeakMeter method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelPeakMeter method, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
+ms.keywords: portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelPeakMeter method, GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, IMiniportStreamAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

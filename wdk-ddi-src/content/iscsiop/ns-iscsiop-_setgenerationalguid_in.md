@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetGenerationalGuid_IN
-title: _SetGenerationalGuid_IN
+title: "_SetGenerationalGuid_IN"
 author: windows-driver-content
 description: The SetGenerationalGuid_IN structure holds the input data for the SetGenerationalGuid method.
 old-location: storage\setgenerationalguid_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetGenerationalGuid_IN structure [Storage Devices], iscsiop/PSetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, _SetGenerationalGuid_IN, *PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], iscsiop/SetGenerationalGuid_IN, PSetGenerationalGuid_IN, storage.setgenerationalguid_in, SetGenerationalGuid_IN
+ms.keywords: "_SetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], iscsiop/SetGenerationalGuid_IN, PSetGenerationalGuid_IN, storage.setgenerationalguid_in, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], iscsiop/PSetGenerationalGuid_IN, *PSetGenerationalGuid_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetGenerationalGuid_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSetGenerationalGuid_IN, SetGenerationalGuid_IN
+req.typenames: SetGenerationalGuid_IN, *PSetGenerationalGuid_IN
 ---
 
 # _SetGenerationalGuid_IN structure

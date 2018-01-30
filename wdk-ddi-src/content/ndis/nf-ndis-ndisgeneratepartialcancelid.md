@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
+ms.keywords: NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml, NdisGeneratePartialCancelId, ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGeneratePartialCancelId
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGeneratePartialCancelId function
@@ -109,11 +109,11 @@ Typically, an overlying driver calls
 <mshelp:link keywords="netvista.ndis_set_net_buffer_list_cancel_id" tabindex="0"><b>
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
 
 <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

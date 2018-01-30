@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdpc._WDF_DPC_CONFIG
-title: _WDF_DPC_CONFIG
+title: "_WDF_DPC_CONFIG"
 author: windows-driver-content
 description: The WDF_DPC_CONFIG structure contains configuration information for a DPC object.
 old-location: wdf\wdf_dpc_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e4203a9d-98f4-47f2-80ea-51074e4c0713
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, wdfdpc/WDF_DPC_CONFIG, wdfdpc/PWDF_DPC_CONFIG, WDF_DPC_CONFIG, *PWDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer, WDF_DPC_CONFIG structure, wdf.wdf_dpc_config, _WDF_DPC_CONFIG, PWDF_DPC_CONFIG, kmdf.wdf_dpc_config
+ms.keywords: DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, wdf.wdf_dpc_config, PWDF_DPC_CONFIG, *PWDF_DPC_CONFIG, kmdf.wdf_dpc_config, WDF_DPC_CONFIG structure, wdfdpc/WDF_DPC_CONFIG, _WDF_DPC_CONFIG, wdfdpc/PWDF_DPC_CONFIG, WDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdpc.h
-apiname: 
+apiname:
 -	WDF_DPC_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_DPC_CONFIG, WDF_DPC_CONFIG
+req.typenames: "*PWDF_DPC_CONFIG, WDF_DPC_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -106,11 +106,11 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
-
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+<a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
 
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 

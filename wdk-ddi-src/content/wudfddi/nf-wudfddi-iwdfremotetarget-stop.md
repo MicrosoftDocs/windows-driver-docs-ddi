@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Stop method, IWDFRemoteTarget::Stop, wudfddi/IWDFRemoteTarget::Stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, umdf.iwdfremotetarget_stop, Stop, wdf.iwdfremotetarget_stop, IWDFRemoteTarget, IWDFRemoteTarget interface, Stop method, Stop method, IWDFRemoteTarget interface
+ms.keywords: umdf.iwdfremotetarget_stop, IWDFRemoteTarget interface, Stop method, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, Stop method, IWDFRemoteTarget interface, Stop, IWDFRemoteTarget::Stop, Stop method, wdf.iwdfremotetarget_stop, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.Stop
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab80e0a2-d404-4333-8a3e-f8e74d8c7f20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_LTEKIND_TDD, rilapitypes/RIL_LTEKIND_FDD_CA, RIL_LTEKIND_MAX, rilapitypes/RIL_LTEKIND_FDD, RILLTEKIND, rilapitypes/RILLTEKIND, RIL_LTEKIND_RESERVED, RIL_LTEKIND_TDD_CA, RIL_LTEKIND_FDD, rilapitypes/RIL_LTEKIND_UNKNOWN_CA, netvista.rilltekind_2, RIL_LTEKIND_FDD_CA, rilapitypes/RIL_LTEKIND_RESERVED, RIL_LTEKIND_UNKNOWN_CA, RILLTEKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_LTEKIND_TDD_CA, rilapitypes/RIL_LTEKIND_TDD, rilapitypes/RIL_LTEKIND_MAX
+ms.keywords: rilapitypes/RIL_LTEKIND_RESERVED, netvista.rilltekind_2, RIL_LTEKIND_RESERVED, RIL_LTEKIND_FDD, rilapitypes/RIL_LTEKIND_FDD, rilapitypes/RIL_LTEKIND_TDD, rilapitypes/RIL_LTEKIND_TDD_CA, RILLTEKIND, rilapitypes/RIL_LTEKIND_FDD_CA, RIL_LTEKIND_TDD, RIL_LTEKIND_UNKNOWN_CA, rilapitypes/RIL_LTEKIND_UNKNOWN_CA, RIL_LTEKIND_MAX, RILLTEKIND enumeration [Network Drivers Starting with Windows Vista], RIL_LTEKIND_TDD_CA, RIL_LTEKIND_FDD_CA, rilapitypes/RIL_LTEKIND_MAX, rilapitypes/RILLTEKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILLTEKIND
 product: Windows
 targetos: Windows

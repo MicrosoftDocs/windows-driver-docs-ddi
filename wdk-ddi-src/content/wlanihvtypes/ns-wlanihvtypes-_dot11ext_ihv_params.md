@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihvtypes._DOT11EXT_IHV_PARAMS
-title: _DOT11EXT_IHV_PARAMS
+title: "_DOT11EXT_IHV_PARAMS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_params.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1264bfe7-3ab6-4ba0-aa41-cf81bc9bb687
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, _DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_PARAMS, *PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], wlanihvtypes/PDOT11EXT_IHV_PARAMS, wlanihvtypes/DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS, netvista.dot11ext_ihv_params
+ms.keywords: wlanihvtypes/PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_params, DOT11EXT_IHV_PARAMS, Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, _DOT11EXT_IHV_PARAMS, wlanihvtypes/DOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11EXT_IHV_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlanihvtypes.h
-apiname: 
+apiname:
 -	DOT11EXT_IHV_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS
+req.typenames: DOT11EXT_IHV_PARAMS, *PDOT11EXT_IHV_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -105,9 +105,9 @@ The operating system passes the GUID and other data related to the WLAN adapter 
 
 ## -see-also
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
  
 

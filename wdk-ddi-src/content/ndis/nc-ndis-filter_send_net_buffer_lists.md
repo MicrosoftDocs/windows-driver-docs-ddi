@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	FilterSendNetBufferLists
 product: Windows
 targetos: Windows
@@ -103,18 +103,35 @@ Flags that define attributes for the send operation. The flags can be combined w
 
 
 
-##### - SendFlags.NDIS_SEND_FLAGS_SWITCH_DESTINATION_GROUP
+#### NDIS_SEND_FLAGS_DISPATCH_LEVEL
+
+Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
+        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
+
+#### NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK
+
+Specifies that NDIS should check for loopback. By default, NDIS does not loop back data to the
+        driver that submitted the send request. An overlying driver can override this behavior by setting
+        this flag. When this flag is set, NDIS identifies all the <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that contain data
+        that matches the receive criteria for the binding. NDIS indicates <b>NET_BUFFER</b> structures that match
+        the criteria to the overlying driver. This flag has no affect on checking for loopback, or looping
+        back, on other bindings.
+
+
+#### NDIS_SEND_FLAGS_SWITCH_SINGLE_SOURCE
+
+If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
+
+For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_SEND_COMPLETE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>SendCompleteFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">NdisFSendNetBufferListsComplete</a> when it completes the send request.</div><div> </div><div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div><div> </div>
+
+#### NDIS_SEND_FLAGS_SWITCH_DESTINATION_GROUP
 
 If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures are to be forwarded to the same extensible switch destination port.
 
 For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div><div> </div>
-
-##### - SendFlags.NDIS_SEND_FLAGS_DISPATCH_LEVEL
-
-Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
-        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
-
 
 #### - NetBufferLists [in]
 
@@ -123,23 +140,6 @@ A pointer to a linked list of
      lists of 
      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> in the
      list maps a chain of MDLs that contain the transmit data.
-
-
-##### - SendFlags.NDIS_SEND_FLAGS_SWITCH_SINGLE_SOURCE
-
-If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
-
-For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_SEND_COMPLETE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>SendCompleteFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">NdisFSendNetBufferListsComplete</a> when it completes the send request.</div><div> </div><div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div><div> </div>
-
-##### - SendFlags.NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK
-
-Specifies that NDIS should check for loopback. By default, NDIS does not loop back data to the
-        driver that submitted the send request. An overlying driver can override this behavior by setting
-        this flag. When this flag is set, NDIS identifies all the <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that contain data
-        that matches the receive criteria for the binding. NDIS indicates <b>NET_BUFFER</b> structures that match
-        the criteria to the overlying driver. This flag has no affect on checking for loopback, or looping
-        back, on other bindings.
 
 
 ## -returns
@@ -268,31 +268,31 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
-   FilterSendNetBufferListsComplete</i></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<mshelp:link keywords="netvista.filtersendnetbufferlistscomplete" tabindex="0"><i>
+   FilterSendNetBufferListsComplete</i></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
 
 <mshelp:link keywords="netvista.filtercancelsendnetbufferlists" tabindex="0"><i>
    FilterCancelSendNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
 
 <mshelp:link keywords="netvista.ndisfsendnetbufferlistscomplete" tabindex="0"><b>
    NdisFSendNetBufferListsComplete</b></mshelp:link>

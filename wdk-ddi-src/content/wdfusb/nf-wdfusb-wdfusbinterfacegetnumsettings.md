@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07de1b64-bafb-4b5b-8ef3-24b87ae0c273
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceGetNumSettings, DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml, WdfUsbInterfaceGetNumSettings, WdfUsbInterfaceGetNumSettings method, wdf.wdfusbinterfacegetnumsettings, kmdf.wdfusbinterfacegetnumsettings
+ms.keywords: kmdf.wdfusbinterfacegetnumsettings, wdfusb/WdfUsbInterfaceGetNumSettings, DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml, WdfUsbInterfaceGetNumSettings, WdfUsbInterfaceGetNumSettings method, wdf.wdfusbinterfacegetnumsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbInterfaceGetNumSettings
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -102,9 +102,9 @@ For more information about the <b>WdfUsbInterfaceGetNumSettings</b> method and U
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
  
 

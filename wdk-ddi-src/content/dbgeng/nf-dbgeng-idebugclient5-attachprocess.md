@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0787da49-23e0-43e3-bb32-1221db32a449
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient2 interface [Windows Debugging], AttachProcess method, AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging], IDebugClient interface, debugger.attachprocess, dbgeng/IDebugClient4::AttachProcess, IDebugClient5, AttachProcess method [Windows Debugging], IDebugClient4 interface, IDebugClient4::AttachProcess, IDebugClient5::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient2 interface, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, IDebugClient::AttachProcess, IDebugClient4 interface [Windows Debugging], AttachProcess method, IDebugClient3::AttachProcess, AttachProcess, IDebugClient interface [Windows Debugging], AttachProcess method, IDebugClient3 interface [Windows Debugging], AttachProcess method, IDebugClient5 interface [Windows Debugging], AttachProcess method, dbgeng/IDebugClient3::AttachProcess, IDebugClient2::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient5 interface, AttachProcess method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient::AttachProcess
+ms.keywords: IDebugClient4 interface [Windows Debugging], AttachProcess method, debugger.attachprocess, dbgeng/IDebugClient::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient2 interface, AttachProcess method [Windows Debugging], IDebugClient2 interface [Windows Debugging], AttachProcess method, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, IDebugClient::AttachProcess, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient4::AttachProcess, IDebugClient3::AttachProcess, IDebugClient2::AttachProcess, IDebugClient5 interface [Windows Debugging], AttachProcess method, AttachProcess method [Windows Debugging], IDebugClient4 interface, AttachProcess method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], AttachProcess method, dbgeng/IDebugClient3::AttachProcess, AttachProcess, IDebugClient5::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient interface, IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, AttachProcess method [Windows Debugging], IDebugClient5 interface, IDebugClient interface [Windows Debugging], AttachProcess method, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.AttachProcess
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::AttachProcess method
@@ -192,37 +192,37 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+<a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

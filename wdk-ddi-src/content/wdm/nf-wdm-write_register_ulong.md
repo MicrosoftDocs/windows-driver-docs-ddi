@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d1f3d510-5b2c-4956-b9e0-cd26b2d818a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], WRITE_REGISTER_ULONG, k103_af58a3ec-4102-4a89-9c58-e56f99d793d0.xml, kernel.write_register_ulong
+ms.keywords: wdm/WRITE_REGISTER_ULONG, k103_af58a3ec-4102-4a89-9c58-e56f99d793d0.xml, WRITE_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], kernel.write_register_ulong, WRITE_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WRITE_REGISTER_ULONG
 product: Windows
 targetos: Windows

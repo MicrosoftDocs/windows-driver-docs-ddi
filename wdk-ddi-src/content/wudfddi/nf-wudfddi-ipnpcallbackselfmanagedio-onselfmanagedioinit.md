@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 41b12fef-dbc7-4b91-a2d3-9fb1aafff237
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoInit method, OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoInit, wdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, umdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, UMDFDeviceObjectRef_17a86796-71ff-4ca3-897b-da7780614f24.xml
+ms.keywords: OnSelfManagedIoInit, IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoInit method, OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo interface, wdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, IPnpCallbackSelfManagedIo, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, UMDFDeviceObjectRef_17a86796-71ff-4ca3-897b-da7780614f24.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, OnSelfManagedIoInit method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IPnpCallbackSelfManagedIo.OnSelfManagedIoInit
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,9 +96,9 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 

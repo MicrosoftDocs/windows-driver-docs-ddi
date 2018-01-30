@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_FILTER_COUNTER
-title: _NDIS_PD_FILTER_COUNTER
+title: "_NDIS_PD_FILTER_COUNTER"
 author: windows-driver-content
 description: This structure is used to hold counter information for a filter.
 old-location: netvista\ndis_pd_filter_counter.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74660B47-0219-4724-AD7E-B20A2BB520EB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_filter_counter, PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_FILTER_COUNTER, ndis/NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER
+ms.keywords: "_NDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER, ndis/NDIS_PD_FILTER_COUNTER, netvista.ndis_pd_filter_counter, ndis/PNDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_FILTER_COUNTER
 product: Windows
 targetos: Windows

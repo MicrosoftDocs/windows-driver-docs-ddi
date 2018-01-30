@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._ALTERNATE_INTERFACE
-title: _ALTERNATE_INTERFACE
+title: "_ALTERNATE_INTERFACE"
 author: windows-driver-content
 description: The ALTERNATE_INTERFACE structure provides information about alternate settings for a Universal Serial Bus (USB) interface.
 old-location: buses\alternate_interface.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _ALTERNATE_INTERFACE, ALTERNATE_INTERFACE, buses.alternate_interface, PALTERNATE_INTERFACE structure pointer [Buses], ALTERNATE_INTERFACE structure [Buses], *PALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE, usbfnbase/ALTERNATE_INTERFACE, PALTERNATE_INTERFACE
+ms.keywords: usbfnbase/ALTERNATE_INTERFACE, buses.alternate_interface, PALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE structure pointer [Buses], usbfnbase/PALTERNATE_INTERFACE, _ALTERNATE_INTERFACE, ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	ALTERNATE_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PALTERNATE_INTERFACE, ALTERNATE_INTERFACE
+req.typenames: ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE
 req.product: Windows 10 or later.
 ---
 

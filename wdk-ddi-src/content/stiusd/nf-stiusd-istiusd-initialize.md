@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stiusd/IStiUSD::Initialize, IStiUSD::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStiUSD interface, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, IStiUSD, image.istiusd_initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method
+ms.keywords: IStiUSD::Initialize, Initialize method [Imaging Devices], IStiUSD, stiusd/IStiUSD::Initialize, Initialize, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, Initialize method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Initialize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.Initialize
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

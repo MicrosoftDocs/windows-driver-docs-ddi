@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5C2BF433-11C0-425A-B14A-7A0275F7DF51
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete, serports.sercx2customtransmittransactioninitializecomplete, SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports]
+ms.keywords: SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports], SerCx2CustomTransmitTransactionInitializeComplete, serports.sercx2customtransmittransactioninitializecomplete, 2/SerCx2CustomTransmitTransactionInitializeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SerCx2CustomTransmitTransactionInitializeComplete
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_HEADER
-title: _EVENT_TRACE_HEADER
+title: "_EVENT_TRACE_HEADER"
 author: windows-driver-content
 description: The EVENT_TRACE_HEADER structure is used to pass a WMI event to the WMI event logger.
 old-location: kernel\event_trace_header.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER, kernel.event_trace_header, evntrace/EVENT_TRACE_HEADER, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], *PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], EVENT_TRACE_HEADER
+ms.keywords: EVENT_TRACE_HEADER, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml, *PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], _EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], kernel.event_trace_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Evntrace.h
-apiname: 
+apiname:
 -	EVENT_TRACE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
+req.typenames: "*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER"
 ---
 
 # _EVENT_TRACE_HEADER structure
@@ -230,14 +230,14 @@ Process identifier.
 The time at which the driver event occurred. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. If the WNODE_FLAG_USE_TIMESTAMP is set in <b>Flags,</b> the system logger will leave the value of <b>TimeStamp</b> unchanged. Otherwise, the system logger will set the value of <b>TimeStamp</b> at the time it receives the event. A driver can call <b>KeQuerySystemTime</b> to set the value of <b>TimeStamp</b>. 
 
 
-##### - Class.Version
-
-Version of trace record. Version information that can be used by the driver to track different event formats.
-
-
 #### - FieldTypeFlags
 
 Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are valid.
+
+
+#### - HeaderType
+
+Reserved for internal use.
 
 
 #### - MarkerFlags
@@ -245,12 +245,43 @@ Flags to indicate which fields in the <b>EVENT_TRACE_HEADER</b> structure are va
 Reserved for internal use.
 
 
-##### - Class.Level
+#### - Version
+
+Drivers can use this member to store version information. This information is not interpreted by the event logger.
+
+
+#### - Class
+
+
+       Event class information.
+
+
+#### Type
+
+Trace event type. This can be one of the predefined EVENT_TRACE_TYPE_<i>XXX</i> values contained in Evntrace.h or can be a driver-defined value. Callers are free to define private event types with values greater than the reserved values in Evntrace.h.
+
+
+#### Level
 
 Trace instrumentation level. A driver-defined value meant to represent the degree of detail of the trace instrumentation. Drivers are free to give this value meaning. This value should be 0 by default. More information about how consumers can request different levels of trace information will be provided in a future version of the documentation.
 
 
-#### - HeaderType
+#### Version
+
+Version of trace record. Version information that can be used by the driver to track different event formats.
+
+
+#### - Guid
+
+The GUID that identifies the data block for the event. 
+
+
+#### - GuidPtr
+
+If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> points to the GUID that identifies the data block for the event.
+
+
+#### - KernelTime
 
 Reserved for internal use.
 
@@ -260,9 +291,9 @@ Reserved for internal use.
 Reserved for internal use.
 
 
-##### - Class.Type
+#### - ProcessorTime
 
-Trace event type. This can be one of the predefined EVENT_TRACE_TYPE_<i>XXX</i> values contained in Evntrace.h or can be a driver-defined value. Callers are free to define private event types with values greater than the reserved values in Evntrace.h.
+Reserved for internal use.
 
 
 #### - ClientContext
@@ -273,37 +304,6 @@ Reserved for internal use.
 #### - Flags
 
 Provides information about the contents of this structure. For information about <b>EVENT_TRACE_HEADER</b><b> Flags</b> values, see the <b>Flags</b> description in <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>.
-
-
-#### - Version
-
-Drivers can use this member to store version information. This information is not interpreted by the event logger.
-
-
-#### - GuidPtr
-
-If the WNODE_FLAG_USE_GUID_PTR flag bit is set in <b>Flags</b>, <b>GuidPtr</b> points to the GUID that identifies the data block for the event.
-
-
-#### - Guid
-
-The GUID that identifies the data block for the event. 
-
-
-#### - ProcessorTime
-
-Reserved for internal use.
-
-
-#### - KernelTime
-
-Reserved for internal use.
-
-
-#### - Class
-
-
-       Event class information.
 
 
 ## -remarks
@@ -319,11 +319,11 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
 
  
 

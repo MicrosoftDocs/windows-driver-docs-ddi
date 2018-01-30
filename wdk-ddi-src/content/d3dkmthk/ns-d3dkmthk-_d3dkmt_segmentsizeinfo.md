@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16c7b4bd-efc9-4cce-8677-8046038d1c76
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], d3dkmthk/D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO, OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml, display.d3dkmt_segmentsizeinfo"
+ms.keywords: "_D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], display.d3dkmt_segmentsizeinfo, D3DKMT_SEGMENTSIZEINFO, d3dkmthk/D3DKMT_SEGMENTSIZEINFO, OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

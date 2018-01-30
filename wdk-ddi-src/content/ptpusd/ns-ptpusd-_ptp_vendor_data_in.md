@@ -1,6 +1,6 @@
 ---
 UID: NS:ptpusd._PTP_VENDOR_DATA_IN
-title: _PTP_VENDOR_DATA_IN
+title: "_PTP_VENDOR_DATA_IN"
 author: windows-driver-content
 description: The PTP_VENDOR_DATA_IN structure contains information about an arbitrary command that an application issues to the device.
 old-location: image\ptp_vendor_data_in.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 896209d0-d545-495b-b743-98c0b9d976ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _PTP_VENDOR_DATA_IN, ptpusd/PPTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml, image.ptp_vendor_data_in, PPTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], PTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN
+ms.keywords: PTP_VENDOR_DATA_IN structure [Imaging Devices], ptpusd/PPTP_VENDOR_DATA_IN, _PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml, *PPTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ptpusd.h
-apiname: 
+apiname:
 -	PTP_VENDOR_DATA_IN
 product: Windows
 targetos: Windows
-req.typenames: *PPTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN
+req.typenames: "*PPTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN"
 req.product: Windows 10 or later.
 ---
 

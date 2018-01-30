@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, storport/StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar, storage.storportreadregisterbufferuchar, StorPortReadRegisterBufferUchar routine [Storage Devices]
+ms.keywords: storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, storport/StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadRegisterBufferUchar
 product: Windows
 targetos: Windows
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
-
 <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
+
+<a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
 
  
 

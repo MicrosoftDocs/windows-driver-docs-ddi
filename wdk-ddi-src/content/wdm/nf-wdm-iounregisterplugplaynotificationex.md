@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72545150-5fd8-4770-aab2-b49d80c1e865
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoUnregisterPlugPlayNotificationEx, k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, IoUnregisterPlugPlayNotificationEx, kernel.iounregisterplugplaynotificationex, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoUnregisterPlugPlayNotificationEx, kernel.iounregisterplugplaynotificationex, k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], IoUnregisterPlugPlayNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoUnregisterPlugPlayNotificationEx
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fcb/RxpTrackReference, RxpTrackReference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, RxpTrackReference function [Installable File System Drivers], ifsk.rxptrackreference
+ms.keywords: ifsk.rxptrackreference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, fcb/RxpTrackReference, RxpTrackReference function [Installable File System Drivers], RxpTrackReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fcb.h
-apiname: 
+apiname:
 -	RxpTrackReference
 product: Windows
 targetos: Windows
@@ -77,6 +77,36 @@ The value that determines which reference request type is tracked. This value ca
 
 
 
+#### RDBSS_REF_TRACK_SRVCALL
+
+A reference request on a SRV_CALL structure.
+
+
+#### RDBSS_REF_TRACK_NETROOT
+
+A reference request on a NET_ROOT structure.
+
+
+#### RDBSS_REF_TRACK_VNETROOT
+
+A reference request on a V_NET_ROOT structure.
+
+
+#### RDBSS_REF_TRACK_NETFOBX
+
+A reference request on an FOBX structure.
+
+
+#### RDBSS_REF_TRACK_NETFCB
+
+A reference request on an FCB structure.
+
+
+#### RDBSS_REF_TRACK_SRVOPEN
+
+A reference request on a SRV_OPEN structure.
+
+
 ### -param FileName [in]
 
 The name of the source file where this routine was called.
@@ -93,39 +123,9 @@ TBD
 
 
 
-##### - TraceType.RDBSS_REF_TRACK_VNETROOT
-
-A reference request on a V_NET_ROOT structure.
-
-
 #### - pInstance [in]
 
 A pointer to the structure to be referenced.
-
-
-##### - TraceType.RDBSS_REF_TRACK_NETFCB
-
-A reference request on an FCB structure.
-
-
-##### - TraceType.RDBSS_REF_TRACK_NETROOT
-
-A reference request on a NET_ROOT structure.
-
-
-##### - TraceType.RDBSS_REF_TRACK_SRVCALL
-
-A reference request on a SRV_CALL structure.
-
-
-##### - TraceType.RDBSS_REF_TRACK_NETFOBX
-
-A reference request on an FOBX structure.
-
-
-##### - TraceType.RDBSS_REF_TRACK_SRVOPEN
-
-A reference request on a SRV_OPEN structure.
 
 
 ## -returns
@@ -152,13 +152,13 @@ For retail builds, this function does nothing.
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 <a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
 

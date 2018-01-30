@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f8ccc6e-ceb5-49df-bf1f-7a804850728a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS, *LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetmsginuiccstatusparams, RILGETMSGINUICCSTATUSPARAMS
+ms.keywords: RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETMSGINUICCSTATUSPARAMS, ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS, netvista.rilgetmsginuiccstatusparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILGETMSGINUICCSTATUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS
+req.typenames: "*LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS"
 ---
 
 # RILGETMSGINUICCSTATUSPARAMS structure

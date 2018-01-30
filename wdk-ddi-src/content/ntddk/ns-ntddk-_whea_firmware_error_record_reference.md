@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
-title: _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
+title: "_WHEA_FIRMWARE_ERROR_RECORD_REFERENCE"
 author: windows-driver-content
 description: The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes a reference to a firmware error record that is specific to the Itanium processor architecture.
 old-location: whea\whea_firmware_error_record_reference.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 950a9b93-ef69-4075-9231-eb481a53c617
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure pointer [WHEA Drivers and Applications], _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_RECORD, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure [WHEA Drivers and Applications], whearef_b43d8c6f-f768-47a1-9494-4a4bfac7d586.xml, *PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, whea.whea_firmware_error_record_reference, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_RECORD, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE
+ms.keywords: WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_RECORD, ntddk/WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, whearef_b43d8c6f-f768-47a1-9494-4a4bfac7d586.xml, whea.whea_firmware_error_record_reference, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure [WHEA Drivers and Applications], PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure pointer [WHEA Drivers and Applications], WHEA_FIRMWARE_RECORD, _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
+req.typenames: "*PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE"
 ---
 
 # _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure

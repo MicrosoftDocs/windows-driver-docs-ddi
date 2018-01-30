@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, GetTypedNode method [Windows Debugging], ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, GetTypedNode, GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, ExtRemoteTypedList, ExtRemoteTypedList::GetTypedNode, debugger.extremotetypedlist_gettypednode
+ms.keywords: GetTypedNode method [Windows Debugging], ExtRemoteTypedList::GetTypedNode, GetTypedNode method [Windows Debugging], ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednode, EngExtCpp_Ref_d00ee135-bef4-4326-97e5-374d52fd20a6.xml, ExtRemoteTypedList class [Windows Debugging], GetTypedNode method, GetTypedNode, ExtRemoteTypedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTypedList.GetTypedNode
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTypedList::GetTypedNode method

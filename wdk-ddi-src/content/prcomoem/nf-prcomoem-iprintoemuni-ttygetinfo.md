@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPrintOemUni::TTYGetInfo, IPrintOemUni, TTYGetInfo method [Print Devices], IPrintOemUni interface [Print Devices], TTYGetInfo method, prcomoem/IPrintOemUni::TTYGetInfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, print.iprintoemuni_ttygetinfo, TTYGetInfo method [Print Devices], IPrintOemUni interface, TTYGetInfo
+ms.keywords: IPrintOemUni, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml, IPrintOemUni::TTYGetInfo, TTYGetInfo method [Print Devices], TTYGetInfo, TTYGetInfo method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, IPrintOemUni interface [Print Devices], TTYGetInfo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.TTYGetInfo
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,26 @@ Caller-supplied constant identifying the type of information being requested. Th
 
 
 
+#### OEMTTY_INFO_CODEPAGE
+
+The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of the code page to be used.
+
+
+#### OEMTTY_INFO_MARGINS
+
+The <i>pOutputBuf</i> parameter points to a RECT structure in which the method should return page margin widths, in tenths of millimeters (for example, 20 represents 2 mm). If the entire page is printable, all margin values must be 0.
+
+
+#### OEMTTY_INFO_NUM_UFMS
+
+The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of resource IDs of the <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFMs</a> for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY_INFO_UFM_IDS.
+
+
+#### OEMTTY_INFO_UFM_IDS
+
+The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFMs</a> for 10,12, and 17 CPI fonts. 
+
+
 ### -param pOutputBuf
 
 Caller-supplied pointer to a buffer to receive the requested information.
@@ -103,26 +123,6 @@ Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputBuf</i>.
 ### -param pcbcNeeded
 
 Caller-supplied pointer to a location to receive the number of bytes written into the buffer pointed to by <i>pOutputBuf</i>. If the number of bytes required is smaller than the number specified by <i>dwSize</i>, the method should supply the required size and return E_FAIL.
-
-
-##### - dwInfoIndex.OEMTTY_INFO_UFM_IDS
-
-The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFMs</a> for 10,12, and 17 CPI fonts. 
-
-
-##### - dwInfoIndex.OEMTTY_INFO_NUM_UFMS
-
-The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of resource IDs of the <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFMs</a> for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY_INFO_UFM_IDS.
-
-
-##### - dwInfoIndex.OEMTTY_INFO_MARGINS
-
-The <i>pOutputBuf</i> parameter points to a RECT structure in which the method should return page margin widths, in tenths of millimeters (for example, 20 represents 2 mm). If the entire page is printable, all margin values must be 0.
-
-
-##### - dwInfoIndex.OEMTTY_INFO_CODEPAGE
-
-The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of the code page to be used.
 
 
 ## -returns

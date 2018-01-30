@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::GetFieldOffset, debugger.extremotetyped_getfieldoffset, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped, GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: ExtRemoteTyped::GetFieldOffset, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, GetFieldOffset method [Windows Debugging], GetFieldOffset, debugger.extremotetyped_getfieldoffset, ExtRemoteTyped, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetFieldOffset method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IBidiSpl::MultiSendRecv, IBidiSpl interface [Print Devices], IBidiSpl::MultiSendRecv method, print.ibidispl_ibidispl__multisendrecv, IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl interface, gdi.ibidispl_ibidispl__multisendrecv, MultiSendRecv, IBidiSpl::IBidiSpl::MultiSendRecv, _win32_IBidiSpl_MultiSendRecv, IBidiSpl::MultiSendRecv method [Print Devices], bidispl/IBidiSpl::IBidiSpl::MultiSendRecv, IBidiSpl
+ms.keywords: IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl interface, IBidiSpl::IBidiSpl::MultiSendRecv, _win32_IBidiSpl_MultiSendRecv, IBidiSpl, IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl interface [Print Devices], IBidiSpl::MultiSendRecv method, gdi.ibidispl_ibidispl__multisendrecv, MultiSendRecv, bidispl/IBidiSpl::IBidiSpl::MultiSendRecv, print.ibidispl_ibidispl__multisendrecv, IBidiSpl::MultiSendRecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
+apiname:
 -	IBidiSpl.IBidiSpl::MultiSendRecv
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiSpl::MultiSendRecv method
@@ -162,11 +162,11 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
  
 

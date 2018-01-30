@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fcf2409a-aedf-4de3-ad17-7edbc810f7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPseudoDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetPseudoDescriptionWide, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescriptionWide method, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], debugger.getpseudodescriptionwide, GetPseudoDescriptionWide, IDebugRegisters2
+ms.keywords: dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescriptionWide method, GetPseudoDescriptionWide, IDebugRegisters2::GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], IDebugRegisters2, debugger.getpseudodescriptionwide, GetPseudoDescriptionWide method [Windows Debugging], IDebugRegisters2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetPseudoDescriptionWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetPseudoDescriptionWide method
@@ -148,11 +148,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
 
  
 

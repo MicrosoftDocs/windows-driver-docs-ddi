@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetAdditionalCacheAttributesEx, ntifs/CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers]
+ms.keywords: ntifs/CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], CcSetAdditionalCacheAttributesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcSetAdditionalCacheAttributesEx
 product: Windows
 targetos: Windows
@@ -94,9 +94,9 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
  
 

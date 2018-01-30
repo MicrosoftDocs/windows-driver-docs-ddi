@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a2b3bdd-4955-4293-b4e7-65da20b0d369
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILFUNCTIONRESULTS, netvista.rilfunctionresults, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_RESULT_ERROR, RIL_RESULT_ERROR, RILFUNCTIONRESULTS
+ms.keywords: netvista.rilfunctionresults, RILFUNCTIONRESULTS, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILFUNCTIONRESULTS, ntddrilapitypes/RIL_RESULT_ERROR, RIL_RESULT_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILFUNCTIONRESULTS
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTH_SDP_RECORD structure pointer [Bluetooth Devices], BTH_SDP_RECORD structure [Bluetooth Devices], bltooth.bth_sdp_record, bthioctl/BTH_SDP_RECORD, *PBTH_SDP_RECORD, BTH_SDP_RECORD, PBTH_SDP_RECORD, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, _BTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD
+ms.keywords: BTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], PBTH_SDP_RECORD, _BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], bthioctl/BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, *PBTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

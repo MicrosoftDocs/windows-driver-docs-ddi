@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6691AB8B-EC6E-483B-A10A-6F9C5A97FEC9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR, audio.ksaudioengine_descriptor, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], *PKSAUDIOENGINE_DESCRIPTOR, _tagKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], PKSAUDIOENGINE_DESCRIPTOR
+ms.keywords: KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], PKSAUDIOENGINE_DESCRIPTOR, ksmedia/KSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], *PKSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR, audio.ksaudioengine_descriptor, _tagKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: KeywordDetectorOemAdapter.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

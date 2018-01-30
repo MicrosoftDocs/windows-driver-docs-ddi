@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], print.iprintcoreui2_getfeatureattribute, IPrintCoreUI2 interface [Print Devices], GetFeatureAttribute method, IPrintCoreUI2::GetFeatureAttribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml, GetFeatureAttribute method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2, prcomoem/IPrintCoreUI2::GetFeatureAttribute
+ms.keywords: IPrintCoreUI2 interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute method [Print Devices], prcomoem/IPrintCoreUI2::GetFeatureAttribute, IPrintCoreUI2, GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, GetFeatureAttribute method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml, IPrintCoreUI2::GetFeatureAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreUI2.GetFeatureAttribute
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -193,13 +193,13 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
 
  
 

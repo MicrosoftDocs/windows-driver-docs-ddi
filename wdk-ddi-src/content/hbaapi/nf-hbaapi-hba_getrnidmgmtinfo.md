@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8018d52d-4454-4826-933f-a34a70243547
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_73ba5195-497c-4105-9b4c-eccd637962b9.xml, HBA_GetRNIDMgmtInfo routine [Storage Devices], HBA_GetRNIDMgmtInfo, hbaapi/HBA_GetRNIDMgmtInfo, storage.hba_getrnidmgmtinfo
+ms.keywords: hbaapi/HBA_GetRNIDMgmtInfo, fibreHBA_rtns_73ba5195-497c-4105-9b4c-eccd637962b9.xml, HBA_GetRNIDMgmtInfo routine [Storage Devices], HBA_GetRNIDMgmtInfo, storage.hba_getrnidmgmtinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetRNIDMgmtInfo
 product: Windows
 targetos: Windows
@@ -79,14 +79,14 @@ TBD
 
 
 
-#### - HbaMgmtInfo [out]
-
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a> that holds the RNID management information. 
-
-
 #### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA to query for RNID. 
+
+
+#### - HbaMgmtInfo [out]
+
+Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a> that holds the RNID management information. 
 
 
 ## -returns
@@ -126,11 +126,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the ma
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

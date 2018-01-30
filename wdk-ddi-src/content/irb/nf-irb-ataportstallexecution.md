@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, AtaPortStallExecution, irb/AtaPortStallExecution, storage.ataportstallexecution
+ms.keywords: irb/AtaPortStallExecution, storage.ataportstallexecution, AtaPortStallExecution, atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, AtaPortStallExecution function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortStallExecution
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SRQ_DISPATCH
-title: _NDK_SRQ_DISPATCH
+title: "_NDK_SRQ_DISPATCH"
 author: windows-driver-content
 description: The NDK_SRQ_DISPATCH structure specifies dispatch function entry points for the NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_srq_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 13297898-A72B-4771-A022-FDCBC281CEA0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH, netvista.ndk_srq_dispatch, ndkpi/NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndkpi/NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SRQ_DISPATCH, netvista.ndk_srq_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_SRQ_DISPATCH
 product: Windows
 targetos: Windows
@@ -99,11 +99,11 @@ The <b>NDK_SRQ_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_receive.md">NDK_FN_SRQ_RECEIVE</a>
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: winspool/FreePrintPropertyValue, print.freeprintpropertyvalue, FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices]
+ms.keywords: FreePrintPropertyValue, winspool/FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	spoolss.dll
 -	WinSpool.drv
-apiname: 
+apiname:
 -	FreePrintPropertyValue
 product: Windows
 targetos: Windows

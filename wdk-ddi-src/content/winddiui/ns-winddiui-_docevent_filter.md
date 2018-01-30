@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCEVENT_FILTER
-title: _DOCEVENT_FILTER
+title: "_DOCEVENT_FILTER"
 author: windows-driver-content
 description: The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.
 old-location: print\docevent_filter.htm
@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], winddiui/PDOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], _DOCEVENT_FILTER, winddiui/DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, DOCEVENT_FILTER, PDOCEVENT_FILTER
+ms.keywords: PDOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER, print.docevent_filter, *PDOCEVENT_FILTER, DOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DOCEVENT_FILTER
 product: Windows
 targetos: Windows
-req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
+req.typenames: "*PDOCEVENT_FILTER, DOCEVENT_FILTER"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_MODE
-title: _WWAN_PIN_MODE
+title: "_WWAN_PIN_MODE"
 author: windows-driver-content
 description: The WWAN_PIN_MODE enumeration lists the different states of a Personal Identification Number (PIN) type.
 old-location: netvista\wwan_pin_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55fa9dd4-370e-4f72-be40-4f14373cee27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPinModeDisabled, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], WWAN_PIN_MODE, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WwanPinModeNotSupported, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, _WWAN_PIN_MODE, *PWWAN_PIN_MODE, wwan/WwanPinModeMax, wwan/WwanPinModeEnabled, netvista.wwan_pin_mode, WwanPinModeDisabled, PWWAN_PIN_MODE, WwanPinModeMax, wwan/PWWAN_PIN_MODE, WwanPinModeEnabled, wwan/WWAN_PIN_MODE, wwan/WwanPinModeNotSupported
+ms.keywords: netvista.wwan_pin_mode, WwanPinModeDisabled, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPinModeDisabled, wwan/PWWAN_PIN_MODE, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, WwanPinModeNotSupported, WwanPinModeEnabled, wwan/WwanPinModeNotSupported, PWWAN_PIN_MODE, _WWAN_PIN_MODE, wwan/WWAN_PIN_MODE, WwanPinModeMax, *PWWAN_PIN_MODE, wwan/WwanPinModeMax, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], WWAN_PIN_MODE, wwan/WwanPinModeEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PIN_MODE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_PIN_MODE, *PWWAN_PIN_MODE
+req.typenames: "*PWWAN_PIN_MODE, WWAN_PIN_MODE"
 req.product: Windows 10 or later.
 ---
 

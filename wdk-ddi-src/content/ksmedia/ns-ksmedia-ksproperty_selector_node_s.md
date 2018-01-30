@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 37dc9f4a-1e9c-42f2-8894-4972562f5898
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S, ksmedia/KSPROPERTY_SELECTOR_NODE_S, ksmedia/PKSPROPERTY_SELECTOR_NODE_S, PKSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S structure [Streaming Media Devices], stream.ksproperty_selector_node_s, vidcapstruct_f7f566f9-2eea-44f5-8a4b-33769d99576f.xml, PKSPROPERTY_SELECTOR_NODE_S structure pointer [Streaming Media Devices]
+ms.keywords: ksmedia/KSPROPERTY_SELECTOR_NODE_S, PKSPROPERTY_SELECTOR_NODE_S structure pointer [Streaming Media Devices], *PKSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S structure [Streaming Media Devices], PKSPROPERTY_SELECTOR_NODE_S, stream.ksproperty_selector_node_s, ksmedia/PKSPROPERTY_SELECTOR_NODE_S, vidcapstruct_f7f566f9-2eea-44f5-8a4b-33769d99576f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_SELECTOR_NODE_S
 product: Windows
 targetos: Windows

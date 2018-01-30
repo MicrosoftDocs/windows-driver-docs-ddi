@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlIsPartialPlaceholder, ifsk.rtlispartialplaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers], ntifs/RtlIsPartialPlaceholder
+ms.keywords: RtlIsPartialPlaceholder, ifsk.rtlispartialplaceholder, ntifs/RtlIsPartialPlaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	RtlIsPartialPlaceholder
 product: Windows
 targetos: Windows
@@ -89,9 +89,9 @@ This function returns <b>TRUE</b> if the file or directory is a partial placehol
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfilehandle.md">RtlIsPartialPlaceholderFileHandle</a>
-
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfileinfo.md">RtlIsPartialPlaceholderFileInfo</a>
+
+<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfilehandle.md">RtlIsPartialPlaceholderFileHandle</a>
 
  
 

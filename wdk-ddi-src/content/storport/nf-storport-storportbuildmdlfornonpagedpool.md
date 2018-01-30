@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f22dbf1e-4b40-4294-bca5-3011f0a97644
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storport/StorPortBuildMdlForNonPagedPool, storage.storportbuildmdlfornonpagedpool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
+ms.keywords: storport/StorPortBuildMdlForNonPagedPool, storage.storportbuildmdlfornonpagedpool, StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortBuildMdlForNonPagedPool
 product: Windows
 targetos: Windows

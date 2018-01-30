@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_CACHE_CHECK
-title: _WHEA_XPF_CACHE_CHECK
+title: "_WHEA_XPF_CACHE_CHECK"
 author: windows-driver-content
 description: The WHEA_XPF_CACHE_CHECK union describes cache error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_cache_check.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 61dd30b9-5290-4c72-b053-586066c58108
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], whea.whea_xpf_cache_check, WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, ntddk/PWHEA_XPF_CACHE_CHECK, _WHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], ntddk/WHEA_XPF_CACHE_CHECK, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml
+ms.keywords: PWHEA_XPF_CACHE_CHECK, ntddk/PWHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml, whea.whea_xpf_cache_check, WHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_XPF_CACHE_CHECK
 product: Windows
 targetos: Windows
@@ -192,18 +192,44 @@ A ULONGLONG representation of the contents of the WHEA_XPF_CACHE_CHECK union.
 A single bit that indicates that the <b>TransactionType</b> member contains valid data.
 
 
-#### - Operation
+#### - OperationValid
 
-The type of cache operation that caused the error. Possible values are:
-
-
-
-This member contains valid data only if the <b>OperationValid</b> bit is set.
+A single bit that indicates that the <b>Operation</b> member contains valid data.
 
 
-##### - Operation.XPF_CACHE_CHECK_OPERATION_SNOOP
+#### - LevelValid
 
-A snoop operation.
+A single bit that indicates that the <b>Level</b> member contains valid data.
+
+
+#### - ProcessorContextCorruptValid
+
+A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+
+
+#### - UncorrectedValid
+
+A single bit that indicates that the <b>Uncorrected </b>member contains valid data.
+
+
+#### - PreciseIPValid
+
+A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+
+
+#### - RestartableIPValid
+
+A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+
+
+#### - OverflowValid
+
+A single bit that indicates that the <b>Overflow</b> member contains valid data.
+
+
+#### - ReservedValid
+
+Reserved for system use.
 
 
 #### - TransactionType
@@ -215,33 +241,73 @@ The type of transaction that was in progress when the error occurred. Possible v
 This member contains valid data only if the <b>TransactionTypeValid</b> bit is set.
 
 
-#### - Overflow
+#### XPF_CACHE_CHECK_TRANSACTIONTYPE_INSTRUCTION
 
-A single bit that indicates that an error overflow occurred.
-
-This member contains valid data only if the <b>OverflowValid</b> bit is set.
+A processor instruction transaction.
 
 
-#### - UncorrectedValid
-
-A single bit that indicates that the <b>Uncorrected </b>member contains valid data.
-
-
-#### - LevelValid
-
-A single bit that indicates that the <b>Level</b> member contains valid data.
-
-
-#### - ProcessorContextCorrupt
-
-A single bit that indicates that the processor context might have been corrupted.
-
-This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
-
-
-##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_DATAACCESS
+#### XPF_CACHE_CHECK_TRANSACTIONTYPE_DATAACCESS
 
 A data access transaction.
+
+
+#### XPF_CACHE_CHECK_TRANSACTIONTYPE_GENERIC
+
+A generic transaction.
+
+
+#### - Operation
+
+The type of cache operation that caused the error. Possible values are:
+
+
+
+This member contains valid data only if the <b>OperationValid</b> bit is set.
+
+
+#### XPF_CACHE_CHECK_OPERATION_GENERIC
+
+The type of operation cannot be determined.
+
+
+#### XPF_CACHE_CHECK_OPERATION_GENREAD
+
+A generic read operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_GENWRITE
+
+A generic write operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_DATAREAD
+
+A data read operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_DATAWRITE
+
+A data write operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_INSTRUCTIONFETCH
+
+An instruction fetch operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_PREFETCH
+
+An instruction prefetch operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_EVICTION
+
+An eviction operation.
+
+
+#### XPF_CACHE_CHECK_OPERATION_SNOOP
+
+A snoop operation.
 
 
 #### - Level
@@ -251,19 +317,11 @@ The level of the cache where the error occurred.
 This member contains valid data only if the <b>LevelValid</b> bit is set.
 
 
-#### - RestartableIPValid
+#### - ProcessorContextCorrupt
 
-A single bit that indicates that the <b>RestartableIP</b> member contains valid data.
+A single bit that indicates that the processor context might have been corrupted.
 
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_EVICTION
-
-An eviction operation.
-
-
-#### - OperationValid
-
-A single bit that indicates that the <b>Operation</b> member contains valid data.
+This member contains valid data only if the <b>ProcessorContextCorruptValid</b> bit is set.
 
 
 #### - Uncorrected
@@ -273,9 +331,11 @@ A single bit that indicates that the error has not been corrected.
 This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
 
 
-#### - ProcessorContextCorruptValid
+#### - PreciseIP
 
-A single bit that indicates that the <b>ProcessorContextCorrupt</b> member contains valid data.
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_CACHE_CHECK union is directly associated with the error.
+
+This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
 
 
 #### - RestartableIP
@@ -285,76 +345,16 @@ A single bit that indicates that program execution can be restarted reliably at 
 This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
 
 
-##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_GENERIC
+#### - Overflow
 
-A generic transaction.
+A single bit that indicates that an error overflow occurred.
 
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_GENERIC
-
-The type of operation cannot be determined.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_DATAREAD
-
-A data read operation.
-
-
-#### - PreciseIPValid
-
-A single bit that indicates that the <b>PreciseIP</b> member contains valid data.
+This member contains valid data only if the <b>OverflowValid</b> bit is set.
 
 
 #### - Reserved
 
 Reserved for system use.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_GENWRITE
-
-A generic write operation.
-
-
-##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_INSTRUCTION
-
-A processor instruction transaction.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_INSTRUCTIONFETCH
-
-An instruction fetch operation.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_DATAWRITE
-
-A data write operation.
-
-
-#### - ReservedValid
-
-Reserved for system use.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_GENREAD
-
-A generic read operation.
-
-
-#### - PreciseIP
-
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_CACHE_CHECK union is directly associated with the error.
-
-This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
-
-
-#### - OverflowValid
-
-A single bit that indicates that the <b>Overflow</b> member contains valid data.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_PREFETCH
-
-An instruction prefetch operation.
 
 
 ## -remarks

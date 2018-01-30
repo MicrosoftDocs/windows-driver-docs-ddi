@@ -1,6 +1,6 @@
 ---
 UID: NS:usbdlib._REQUEST_REMOTE_WAKE_NOTIFICATION
-title: _REQUEST_REMOTE_WAKE_NOTIFICATION
+title: "_REQUEST_REMOTE_WAKE_NOTIFICATION"
 author: windows-driver-content
 description: The purpose of the REQUEST_REMOTE_WAKE_NOTIFICATION structure is to specify input parameters for the IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION I/O control request.
 old-location: buses\usbdevice_remote_wake_notification.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 229B22AC-8252-4D94-BDB5-F1132BF4AE4C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/PREQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION structure [Buses], PREQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION, buses.usbdevice_remote_wake_notification, *PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION structure pointer [Buses], usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION, _REQUEST_REMOTE_WAKE_NOTIFICATION
+ms.keywords: buses.usbdevice_remote_wake_notification, usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION, *PREQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION, usbdlib/PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION structure pointer [Buses], PREQUEST_REMOTE_WAKE_NOTIFICATION, _REQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbdlib.h
-apiname: 
+apiname:
 -	REQUEST_REMOTE_WAKE_NOTIFICATION
 product: Windows
 targetos: Windows

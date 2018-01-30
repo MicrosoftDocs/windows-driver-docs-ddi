@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IQueueCallbackDefaultIoHandler, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, OnDefaultIoHandler, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler method, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method
+ms.keywords: OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, IQueueCallbackDefaultIoHandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler method, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, OnDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -97,13 +97,13 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohan
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md">IQueueCallbackDefaultIoHandler</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md">IQueueCallbackDefaultIoHandler</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
  
 

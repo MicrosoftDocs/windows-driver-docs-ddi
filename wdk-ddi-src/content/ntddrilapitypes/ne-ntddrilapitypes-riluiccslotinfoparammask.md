@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f99fc76e-a569-4a7e-9f8d-3f604ccfa6a3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_SLOTINFO_ALL, ntddrilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RIL_PARAM_SLOTINFO_SLOTSTATE, RILUICCSLOTINFOPARAMMASK, RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCSLOTINFOPARAMMASK, netvista.riluiccslotinfoparammask
+ms.keywords: RIL_PARAM_SLOTINFO_ALL, netvista.riluiccslotinfoparammask, RILUICCSLOTINFOPARAMMASK, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_SLOTINFO_ALL, ntddrilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, ntddrilapitypes/RILUICCSLOTINFOPARAMMASK, RIL_PARAM_SLOTINFO_SLOTSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILUICCSLOTINFOPARAMMASK
 product: Windows
 targetos: Windows

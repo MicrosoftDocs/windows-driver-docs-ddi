@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtladdace, RtlAddAce routine [Installable File System Drivers], RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, ntifs/RtlAddAce
+ms.keywords: rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, RtlAddAce routine [Installable File System Drivers], RtlAddAce, ifsk.rtladdace, ntifs/RtlAddAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlAddAce
 product: Windows
 targetos: Windows
@@ -191,15 +191,15 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
 
 <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 

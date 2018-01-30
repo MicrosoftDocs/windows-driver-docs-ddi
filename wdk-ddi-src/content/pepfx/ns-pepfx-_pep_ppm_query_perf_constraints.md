@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_PERF_CONSTRAINTS
-title: _PEP_PPM_QUERY_PERF_CONSTRAINTS
+title: "_PEP_PPM_QUERY_PERF_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_PPM_PERF_CONSTRAINTS structure describes the performance limits to apply to the processor.
 old-location: kernel\pep_ppm_perf_constraints.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PEP_PPM_PERF_CONSTRAINTS, _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, PPEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_THERMAL, PERFORMANCE_LIMIT_POWER, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_PERF_CONSTRAINTS
+ms.keywords: PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_THERMAL, pepfx/PPEP_PPM_PERF_CONSTRAINTS, _PEP_PPM_QUERY_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, PEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_POWER, *PPEP_PPM_PERF_CONSTRAINTS, pepfx/PEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_PERF_CONSTRAINTS
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS
+req.typenames: PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS
 ---
 
 # _PEP_PPM_QUERY_PERF_CONSTRAINTS structure

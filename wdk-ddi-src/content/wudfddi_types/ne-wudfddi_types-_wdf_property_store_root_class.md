@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_ROOT_CLASS
-title: _WDF_PROPERTY_STORE_ROOT_CLASS
+title: "_WDF_PROPERTY_STORE_ROOT_CLASS"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_ROOT_CLASS enumeration identifies the registry keys that UMDF property stores represent.
 old-location: wdf\wdf_property_store_root_class.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_PROPERTY_STORE_ROOT_CLASS, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, _WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, WdfPropertyStoreRootClassDeviceInterfaceKey, WdfPropertyStoreRootClassLegacyHardwareKey, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, WdfPropertyStoreRootClassSoftwareKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wdf.wdf_property_store_root_class, WdfPropertyStoreRootClassHardwareKey, umdf.wdf_property_store_root_class, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey
+ms.keywords: WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, wdf.wdf_property_store_root_class, WdfPropertyStoreRootClassLegacyHardwareKey, WdfPropertyStoreRootClassSoftwareKey, WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, umdf.wdf_property_store_root_class, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, _WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_PROPERTY_STORE_ROOT_CLASS
 product: Windows
 targetos: Windows

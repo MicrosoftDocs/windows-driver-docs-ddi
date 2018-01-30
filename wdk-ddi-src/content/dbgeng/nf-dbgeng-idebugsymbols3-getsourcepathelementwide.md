@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 724ee7a6-a0ef-440b-a0d4-5eecda77338a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourcePathElementWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSourcePathElementWide, IDebugSymbols3, GetSourcePathElementWide, IDebugSymbols3::GetSourcePathElementWide, IDebugSymbols3 interface [Windows Debugging], GetSourcePathElementWide method, debugger.getsourcepathelementwide, GetSourcePathElementWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetSourcePathElementWide method [Windows Debugging], IDebugSymbols3::GetSourcePathElementWide, dbgeng/IDebugSymbols3::GetSourcePathElementWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourcePathElementWide method, GetSourcePathElementWide, GetSourcePathElementWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getsourcepathelementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourcePathElementWide
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetSourcePathElementWide method

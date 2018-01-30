@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportSharedMemoryAllocateComplete
 product: Windows
 targetos: Windows
@@ -176,13 +176,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
-
 <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
+   NdisMRegisterScatterGatherDma</b></mshelp:link>
 
  
 

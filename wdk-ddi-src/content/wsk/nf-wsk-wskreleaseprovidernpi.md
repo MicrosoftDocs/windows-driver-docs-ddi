@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wskreleaseprovidernpi, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], WskReleaseProviderNPI, wsk/WskReleaseProviderNPI
+ms.keywords: wsk/WskReleaseProviderNPI, WskReleaseProviderNPI, netvista.wskreleaseprovidernpi, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	WskReleaseProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -101,9 +101,9 @@ For each call to
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
  
 

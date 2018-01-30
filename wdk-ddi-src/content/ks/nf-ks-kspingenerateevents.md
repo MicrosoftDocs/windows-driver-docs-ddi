@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGenerateEvents, KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, stream.kspingenerateevents, ks/KsPinGenerateEvents
+ms.keywords: avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, KsPinGenerateEvents, ks/KsPinGenerateEvents, stream.kspingenerateevents, KsPinGenerateEvents function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinGenerateEvents
 product: Windows
 targetos: Windows

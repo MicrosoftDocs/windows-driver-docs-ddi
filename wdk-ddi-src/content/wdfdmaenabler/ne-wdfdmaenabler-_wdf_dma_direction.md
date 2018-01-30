@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_DIRECTION
-title: _WDF_DMA_DIRECTION
+title: "_WDF_DMA_DIRECTION"
 author: windows-driver-content
 description: The WDF_DMA_DIRECTION enumeration defines the direction of a DMA transfer.
 old-location: wdf\wdf_dma_direction.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 813414fa-17b6-4b69-a3dd-f3a2e5190305
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_DMA_DIRECTION, wdfdmaenabler/WDF_DMA_DIRECTION, WDF_DMA_DIRECTION enumeration, DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, WdfDmaDirectionReadFromDevice, kmdf.wdf_dma_direction, WdfDmaDirectionWriteToDevice, wdfdmaenabler/WdfDmaDirectionWriteToDevice, wdfdmaenabler/WdfDmaDirectionReadFromDevice, wdf.wdf_dma_direction, WDF_DMA_DIRECTION
+ms.keywords: wdfdmaenabler/WdfDmaDirectionWriteToDevice, WDF_DMA_DIRECTION, wdfdmaenabler/WdfDmaDirectionReadFromDevice, WdfDmaDirectionWriteToDevice, _WDF_DMA_DIRECTION, DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, kmdf.wdf_dma_direction, WdfDmaDirectionReadFromDevice, WDF_DMA_DIRECTION enumeration, wdfdmaenabler/WDF_DMA_DIRECTION, wdf.wdf_dma_direction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdmaenabler.h
-apiname: 
+apiname:
 -	WDF_DMA_DIRECTION
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https:
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
 
 <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
 

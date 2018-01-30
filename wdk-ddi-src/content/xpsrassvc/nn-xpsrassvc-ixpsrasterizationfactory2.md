@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	xpsrassvc.h
-apiname: 
+apiname:
 -	IXpsRasterizationFactory2
 product: Windows
 targetos: Windows

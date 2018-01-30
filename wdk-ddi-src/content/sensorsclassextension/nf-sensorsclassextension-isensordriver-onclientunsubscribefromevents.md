@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OnClientUnsubscribeFromEvents, ISensorDriver::OnClientUnsubscribeFromEvents, ISensorDriver, sensors.isensordriver_onclientunsubscribefromevents, OnClientUnsubscribeFromEvents method [Sensor Devices]
+ms.keywords: ISensorDriver::OnClientUnsubscribeFromEvents, ISensorDriver, OnClientUnsubscribeFromEvents, sensors.isensordriver_onclientunsubscribefromevents, OnClientUnsubscribeFromEvents method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	OnClientUnsubscribeFromEvents
 product: Windows
 targetos: Windows

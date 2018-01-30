@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_USB_DEVICE_FUNCTION_POWER
-title: _UDECX_USB_DEVICE_FUNCTION_POWER
+title: "_UDECX_USB_DEVICE_FUNCTION_POWER"
 author: windows-driver-content
 description: Defines values for function wake capability of a virtual USB 3.0 device.
 old-location: buses\udecx_usb_device_function_power.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7EE6D8AE-E001-4BC9-A617-682202A297E7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, UdecxUsbDeviceFunctionSuspendedCannotWake, UdecxUsbDeviceFunctionSuspendedCanWake, PUDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER, _UDECX_USB_DEVICE_FUNCTION_POWER, buses.udecx_usb_device_function_power, UDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses], UdecxUsbDeviceFunctionNotSuspended, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended
+ms.keywords: PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses], UdecxUsbDeviceFunctionNotSuspended, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, UdecxUsbDeviceFunctionSuspendedCannotWake, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake, _UDECX_USB_DEVICE_FUNCTION_POWER, UdecxUsbDeviceFunctionSuspendedCanWake, PUDECX_USB_DEVICE_FUNCTION_POWER, buses.udecx_usb_device_function_power, *PUDECX_USB_DEVICE_FUNCTION_POWER, UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	UdecxUsbDevice.h
-apiname: 
+apiname:
 -	UDECX_USB_DEVICE_FUNCTION_POWER
 product: Windows
 targetos: Windows

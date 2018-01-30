@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
-title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
+title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY"
 author: windows-driver-content
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (PCIe) secondary uncorrectable error severity register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_severity.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: b00aeced-037b-4bc5-97b7-96501262700f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PCI.pci_express_sec_uncorrectable_error_severity, _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_94eb07f5-9b90-414b-a331-075c61f507a4.xml, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
+ms.keywords: PCI.pci_express_sec_uncorrectable_error_severity, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_94eb07f5-9b90-414b-a331-075c61f507a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
 product: Windows
 targetos: Windows
@@ -170,7 +170,27 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - Reserved
+#### - TargetAbortOnSplitCompletion
+
+A single bit that indicates that a reported target abort on split completion is a fatal error.
+
+
+#### - MasterAbortOnSplitCompletion
+
+A single bit that indicates that a reported master abort on split completion is a fatal error.
+
+
+#### - ReceivedTargetAbort
+
+A single bit that indicates that a reported target abort is a fatal error.
+
+
+#### - ReceivedMasterAbort
+
+A single bit that indicates that a reported master abort is a fatal error.
+
+
+#### - RsvdZ
 
 Reserved for system use.
 
@@ -180,19 +200,14 @@ Reserved for system use.
 A single bit that indicates that a reported unexpected split completion error is a fatal error.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+#### - UncorrectableSplitCompletion
 
-A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
-
-
-#### - RsvdZ
-
-Reserved for system use.
+A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
 
 
-#### - ReceivedTargetAbort
+#### - UncorrectableDataError
 
-A single bit that indicates that a reported target abort is a fatal error.
+A single bit that indicates that a reported uncorrectable data error is a fatal error.
 
 
 #### - UncorrectableAttributeError
@@ -205,14 +220,9 @@ A single bit that indicates that a reported uncorrectable attribute error is a f
 A single bit that indicates that a reported uncorrectable address error is a fatal error.
 
 
-#### - UncorrectableDataError
+#### - DelayedTransactionDiscardTimerExpired
 
-A single bit that indicates that a reported uncorrectable data error is a fatal error.
-
-
-#### - InternalBridgeError
-
-A single bit that indicates that a reported internal bridge error is a fatal error.
+A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
 
 
 #### - PERRAsserted
@@ -220,29 +230,19 @@ A single bit that indicates that a reported internal bridge error is a fatal err
 A single bit that indicates that a reported PERR# assertion is a fatal error.
 
 
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
-
-
 #### - SERRAsserted
 
 A single bit that indicates that a reported SERR# assertion is a fatal error.
 
 
-#### - MasterAbortOnSplitCompletion
+#### - InternalBridgeError
 
-A single bit that indicates that a reported master abort on split completion is a fatal error.
-
-
-#### - ReceivedMasterAbort
-
-A single bit that indicates that a reported master abort is a fatal error.
+A single bit that indicates that a reported internal bridge error is a fatal error.
 
 
-#### - TargetAbortOnSplitCompletion
+#### - Reserved
 
-A single bit that indicates that a reported target abort on split completion is a fatal error.
+Reserved for system use.
 
 
 ## -remarks

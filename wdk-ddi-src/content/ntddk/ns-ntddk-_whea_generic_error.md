@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR
-title: _WHEA_GENERIC_ERROR
+title: "_WHEA_GENERIC_ERROR"
 author: windows-driver-content
 description: The WHEA_GENERIC_ERROR structure describes error status data for a generic error source.
 old-location: whea\whea_generic_error.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7d624645-0199-4376-b84a-83d7da3ba981
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_GENERIC_ERROR, whea.whea_generic_error, WHEA_GENERIC_ERROR structure [WHEA Drivers and Applications], *PWHEA_GENERIC_ERROR, _WHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR, whearef_60117ecc-4c3f-438f-aba2-cd2d4268df27.xml, ntddk/PWHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR structure pointer [WHEA Drivers and Applications]
+ms.keywords: WHEA_GENERIC_ERROR structure [WHEA Drivers and Applications], ntddk/PWHEA_GENERIC_ERROR, whea.whea_generic_error, _WHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR structure pointer [WHEA Drivers and Applications], PWHEA_GENERIC_ERROR, whearef_60117ecc-4c3f-438f-aba2-cd2d4268df27.xml, WHEA_GENERIC_ERROR, *PWHEA_GENERIC_ERROR, ntddk/WHEA_GENERIC_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_GENERIC_ERROR
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR
+req.typenames: "*PWHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR"
 ---
 
 # _WHEA_GENERIC_ERROR structure
@@ -115,11 +115,11 @@ A WHEA_GENERIC_ERROR structure is included in the <b>RawData</b> member of a <a 
 
 <a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
-
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
 
  
 

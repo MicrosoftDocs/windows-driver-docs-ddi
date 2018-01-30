@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a59daf60-43d9-4fe4-af72-dc031f259133
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_NUMBER, RIL_PARAM_ENUM_UICC, netvista.rilemergencynumberparammask_2, RILEMERGENCYNUMBERPARAMMASK, rilapitypes/RILEMERGENCYNUMBERPARAMMASK, rilapitypes/RIL_PARAM_ENUM_UICC, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_ENUM_CATEGORY, rilapitypes/RIL_PARAM_ENUM_NUMBER, rilapitypes/RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_CATEGORY
+ms.keywords: RIL_PARAM_ENUM_ALL, rilapitypes/RIL_PARAM_ENUM_CATEGORY, netvista.rilemergencynumberparammask_2, RIL_PARAM_ENUM_UICC, RIL_PARAM_ENUM_CATEGORY, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ENUM_NUMBER, rilapitypes/RIL_PARAM_ENUM_UICC, rilapitypes/RIL_PARAM_ENUM_ALL, rilapitypes/RIL_PARAM_ENUM_NUMBER, RILEMERGENCYNUMBERPARAMMASK, rilapitypes/RILEMERGENCYNUMBERPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEMERGENCYNUMBERPARAMMASK
 product: Windows
 targetos: Windows

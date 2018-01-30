@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16ecddf7-6c79-4e95-957d-19f27c3e3cf5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CPISTAT_MEDIA, RIL_CPISTAT_ONHOLD, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, rilapitypes/RIL_CPISTAT_MAX, RIL_CPISTAT_NEW_OUTGOING, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_HANDOVER, rilapitypes/RIL_CPISTAT_HANDOVER, RILCALLINFOSTATUS, rilapitypes/RIL_CPISTAT_ONHOLD, RIL_CPISTAT_MAX, rilapitypes/RIL_CPISTAT_CONNECTED, RIL_CPISTAT_CONNECTED, rilapitypes/RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_DISCONNECTED, rilapitypes/RIL_CPISTAT_DISCONNECTED, netvista.rilcallinfostatus_2, rilapitypes/RILCALLINFOSTATUS
+ms.keywords: rilapitypes/RIL_CPISTAT_MAX, RIL_CPISTAT_ONHOLD, rilapitypes/RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_CONNECTED, rilapitypes/RIL_CPISTAT_CONNECTED, RIL_CPISTAT_MAX, rilapitypes/RIL_CPISTAT_NEW_OUTGOING, RILCALLINFOSTATUS, RIL_CPISTAT_DISCONNECTED, rilapitypes/RILCALLINFOSTATUS, rilapitypes/RIL_CPISTAT_DISCONNECTED, rilapitypes/RIL_CPISTAT_ONHOLD, rilapitypes/RIL_CPISTAT_HANDOVER, netvista.rilcallinfostatus_2, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_HANDOVER, rilapitypes/RIL_CPISTAT_NEW_INCOMING, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLINFOSTATUS
 product: Windows
 targetos: Windows

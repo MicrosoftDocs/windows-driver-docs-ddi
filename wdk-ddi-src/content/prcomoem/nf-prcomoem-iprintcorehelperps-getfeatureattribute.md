@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetFeatureAttribute, IPrintCoreHelperPS, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface
+ms.keywords: IPrintCoreHelperPS::GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintCoreHelperPS.GetFeatureAttribute
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

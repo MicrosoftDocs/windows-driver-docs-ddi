@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef4fcb57-2960-4cd3-9abc-f8c5bc46e1a3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExLocalTimeToSystemTime, wdm/ExLocalTimeToSystemTime, k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, kernel.exlocaltimetosystemtime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture]
+ms.keywords: k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, kernel.exlocaltimetosystemtime, ExLocalTimeToSystemTime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture], wdm/ExLocalTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExLocalTimeToSystemTime
 product: Windows
 targetos: Windows

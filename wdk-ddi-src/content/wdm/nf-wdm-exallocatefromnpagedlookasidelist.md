@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f62c63f0-cf17-4308-97f1-84bb668d2d51
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_43919c0e-8140-4fc8-80f5-1955e39aa493.xml, wdm/ExAllocateFromNPagedLookasideList, kernel.exallocatefromnpagedlookasidelist, ExAllocateFromNPagedLookasideList, ExAllocateFromNPagedLookasideList routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exallocatefromnpagedlookasidelist, ExAllocateFromNPagedLookasideList routine [Kernel-Mode Driver Architecture], ExAllocateFromNPagedLookasideList, k102_43919c0e-8140-4fc8-80f5-1955e39aa493.xml, wdm/ExAllocateFromNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExAllocateFromNPagedLookasideList
 product: Windows
 targetos: Windows
@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exfreetonpagedlookasidelist.md">ExFreeToNPagedLookasideList</a>
+
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-<a href="..\wdm\nf-wdm-exfreetonpagedlookasidelist.md">ExFreeToNPagedLookasideList</a>
 
 <a href="..\wdm\nf-wdm-exallocatefrompagedlookasidelist.md">ExAllocateFromPagedLookasideList</a>
 

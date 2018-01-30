@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 844AB898-E6F0-4C75-9364-1BE31AAB88E7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelPacketGetExternalData function [Network Drivers Starting with Windows Vista], VmbChannelPacketGetExternalData, VMBUS_CHANNEL_PACKET_EXTERNAL_DATA_FLAG_READ_ONLY, vmbuskernelmodeclientlibapi/VmbChannelPacketGetExternalData, netvista.vmbchannelpacketgetexternaldata
+ms.keywords: VmbChannelPacketGetExternalData function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelPacketGetExternalData, netvista.vmbchannelpacketgetexternaldata, VmbChannelPacketGetExternalData, VMBUS_CHANNEL_PACKET_EXTERNAL_DATA_FLAG_READ_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelPacketGetExternalData
 product: Windows
 targetos: Windows
@@ -138,13 +138,13 @@ An alternative to using a virtual address would be to just pass the MDL on down 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 <a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 

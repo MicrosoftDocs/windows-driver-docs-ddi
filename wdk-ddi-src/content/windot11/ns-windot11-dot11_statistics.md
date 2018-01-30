@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_STATISTICS, *PDOT11_STATISTICS, netvista.dot11_statistics, windot11/DOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, windot11/PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_STATISTICS
+ms.keywords: DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_STATISTICS, *PDOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, windot11/DOT11_STATISTICS, DOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATISTICS, netvista.dot11_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_STATISTICS
 product: Windows
 targetos: Windows
@@ -87,6 +87,22 @@ The miniport driver must set the members of
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_STATISTICS_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       sizeof(DOT11_STATISTICS).
 
 
 ### -field ullFourWayHandshakeFailures
@@ -158,22 +174,6 @@ Entries within the
      when queried by 
      <mshelp:link keywords="netvista.oid_dot11_supported_phy_types" tabindex="0">
      OID_DOT11_SUPPORTED_PHY_TYPES</mshelp:link>.
-
-
-##### - Header.Revision
-
-This member must be set to DOT11_STATISTICS_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       sizeof(DOT11_STATISTICS).
 
 
 ## -remarks

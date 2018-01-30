@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58281b50-14b6-4e24-972a-ab3b1d88eb50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_bf409d47-cdd4-467e-88f1-4358bf8934d4.xml, stream.iksclockpropertyset_kssetcorrelatedtime, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedTime method, KsSetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet::KsSetCorrelatedTime, IKsClockPropertySet, KsSetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetCorrelatedTime, KsSetCorrelatedTime
+ms.keywords: IKsClockPropertySet, KsSetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetCorrelatedTime, KsSetCorrelatedTime, stream.iksclockpropertyset_kssetcorrelatedtime, ksproxy_bf409d47-cdd4-467e-88f1-4358bf8934d4.xml, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedTime method, IKsClockPropertySet::KsSetCorrelatedTime, KsSetCorrelatedTime method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsSetCorrelatedTime
 product: Windows
 targetos: Windows
@@ -88,11 +88,11 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
-
 <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559738">IKsClockPropertySet::KsGetCorrelatedTime</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
 
  
 

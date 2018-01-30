@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	SensorsCx.h
-apiname: 
+apiname:
 -	EVT_SENSOR_DRIVER_DISABLE_WAKE
 product: Windows
 targetos: Windows

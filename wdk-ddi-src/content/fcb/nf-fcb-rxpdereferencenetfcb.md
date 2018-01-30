@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6e59a1c7-ddd4-40a6-8e75-879cbef010db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxpdereferencenetfcb, fcb/RxpDereferenceNetFcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml, RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers]
+ms.keywords: RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers], ifsk.rxpdereferencenetfcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml, fcb/RxpDereferenceNetFcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fcb.h
-apiname: 
+apiname:
 -	RxpDereferenceNetFcb
 product: Windows
 targetos: Windows
@@ -92,13 +92,13 @@ On checked builds, <b>RxpDereferenceNetFcb</b> causes the system to ASSERT if th
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
-
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
+<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
+
 <a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
  
 

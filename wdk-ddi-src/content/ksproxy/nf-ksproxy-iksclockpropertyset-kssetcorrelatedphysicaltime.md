@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 208fecc5-f01f-41f3-80d3-d811b3f4173a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, stream.iksclockpropertyset_kssetcorrelatedphysicaltime
+ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], KsSetCorrelatedPhysicalTime, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsSetCorrelatedPhysicalTime
 product: Windows
 targetos: Windows
@@ -90,9 +90,9 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564461">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559733">IKsClockPropertySet::KsGetCorrelatedPhysicalTime</a>
+
+<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
 
  
 

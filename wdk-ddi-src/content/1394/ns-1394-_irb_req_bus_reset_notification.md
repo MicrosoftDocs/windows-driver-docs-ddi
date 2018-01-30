@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_BUS_RESET_NOTIFICATION
-title: _IRB_REQ_BUS_RESET_NOTIFICATION
+title: "_IRB_REQ_BUS_RESET_NOTIFICATION"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a bus reset notification request.
 old-location: ieee\irb_req_bus_reset_notification.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 3EF9BB26-81B2-4ED7-A934-AF3E73B650A0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification, IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses], 1394/IRB_REQ_BUS_RESET_NOTIFICATION
+ms.keywords: IRB_REQ_BUS_RESET_NOTIFICATION, 1394/IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification, _IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_BUS_RESET_NOTIFICATION
 product: Windows
 targetos: Windows

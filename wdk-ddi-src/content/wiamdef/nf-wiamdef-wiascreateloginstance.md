@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7a340187-51c5-4997-b4d0-5b89ea8e16c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml, image.wiascreateloginstance, wiasCreateLogInstance, wiamdef/wiasCreateLogInstance, wiasCreateLogInstance function [Imaging Devices]
+ms.keywords: wiasCreateLogInstance, wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml, wiasCreateLogInstance function [Imaging Devices], image.wiascreateloginstance, wiamdef/wiasCreateLogInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasCreateLogInstance
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

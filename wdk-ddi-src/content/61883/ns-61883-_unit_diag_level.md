@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._UNIT_DIAG_LEVEL
-title: _UNIT_DIAG_LEVEL
+title: "_UNIT_DIAG_LEVEL"
 author: windows-driver-content
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current diag level
 old-location: ieee\unit_diag_level.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2759486f-7eaa-4af4-b9a9-2e44354f411b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL structure pointer [Buses], IEEE.unit_diag_level, UNIT_DIAG_LEVEL structure [Buses], 61883/UNIT_DIAG_LEVEL, _UNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml
+ms.keywords: "_UNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses], 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, 61883/PUNIT_DIAG_LEVEL, 61883/UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL, IEEE.unit_diag_level, PUNIT_DIAG_LEVEL structure pointer [Buses], PUNIT_DIAG_LEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	UNIT_DIAG_LEVEL
 product: Windows
 targetos: Windows
-req.typenames: *PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL
+req.typenames: "*PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL"
 ---
 
 # _UNIT_DIAG_LEVEL structure
@@ -74,27 +74,27 @@ The bitmask representing the diaglevel. Possible settings are:
 
 
 
-##### - DiagLevel.DIAGLEVEL_NONE
+#### DIAGLEVEL_NONE
 
 Nothing set.
 
 
-##### - DiagLevel.DIAGLEVEL_IGNORE_OPLUG
+#### DIAGLEVEL_IGNORE_OPLUG
 
 Ignore programming of the oPCR plug on the device when set.
 
 
-##### - DiagLevel.DIAGLEVEL_SET_CHANNEL_63
-
-Set the channel to 63 when disconnecting from the device.
-
-
-##### - DiagLevel.DIAGLEVEL_IGNORE_IPLUG
+#### DIAGLEVEL_IGNORE_IPLUG
 
 Ignore programming of the iPCR on the device when set.
 
 
-##### - DiagLevel.DIAGLEVEL_IPCR_IGNORE_FREE
+#### DIAGLEVEL_SET_CHANNEL_63
+
+Set the channel to 63 when disconnecting from the device.
+
+
+#### DIAGLEVEL_IPCR_IGNORE_FREE
 
 Do not free isochronous resources when disconnecting from the device iPCR.
 

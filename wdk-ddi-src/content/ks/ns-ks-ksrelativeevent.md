@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4edb8b74-d5e5-49ee-85a7-9eb095f5a575
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksrelativeevent, KSRELATIVEEVENT structure [Streaming Media Devices], ks/KSRELATIVEEVENT, KSRELATIVEEVENT, ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml
+ms.keywords: ks/KSRELATIVEEVENT, KSRELATIVEEVENT structure [Streaming Media Devices], stream.ksrelativeevent, ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, KSRELATIVEEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSRELATIVEEVENT
 product: Windows
 targetos: Windows

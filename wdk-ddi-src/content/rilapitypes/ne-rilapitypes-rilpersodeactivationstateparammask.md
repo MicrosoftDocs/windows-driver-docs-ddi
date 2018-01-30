@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e7c74c78-80e8-485b-bee6-18175e73ab9a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILPERSODEACTIVATIONSTATEPARAMMASK, RIL_PARAM_PDS_CK_ATTEMPTS, rilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, RIL_PARAM_PDS_PUK_ATTEMPTS, rilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS, rilapitypes/RIL_PARAM_PDS_ALL, netvista.rilpersodeactivationstateparammask_2, RIL_PARAM_PDS_ALL
+ms.keywords: RIL_PARAM_PDS_PUK_ATTEMPTS, netvista.rilpersodeactivationstateparammask_2, rilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, RIL_PARAM_PDS_CK_ATTEMPTS, RIL_PARAM_PDS_ALL, RILPERSODEACTIVATIONSTATEPARAMMASK, rilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, rilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_PDS_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPERSODEACTIVATIONSTATEPARAMMASK
 product: Windows
 targetos: Windows

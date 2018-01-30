@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_PROCESSOR
-title: _NDIS_RSS_PROCESSOR
+title: "_NDIS_RSS_PROCESSOR"
 author: windows-driver-content
 description: The NDIS_RSS_PROCESSOR structure specifies information about a processor in the local computer for receive side scaling (RSS).
 old-location: netvista\ndis_rss_processor.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d823303-01ec-4587-a11c-f641cfd7c10f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR, ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, netvista.ndis_rss_processor, _NDIS_RSS_PROCESSOR, ntddndis/PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSS_PROCESSOR, PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_rss_processor, ntddndis/PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR, ntddndis/NDIS_RSS_PROCESSOR, _NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RSS_PROCESSOR
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR
+req.typenames: "*PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR"
 ---
 
 # _NDIS_RSS_PROCESSOR structure

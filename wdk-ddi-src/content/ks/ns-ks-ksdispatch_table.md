@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: baa45ce7-3dcd-4383-99f2-aeb664a03190
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDISPATCH_TABLE, PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, stream.ksdispatch_table, *PKSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE, ks/KSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE
+ms.keywords: ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, *PKSDISPATCH_TABLE, ks/KSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE, stream.ksdispatch_table, PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], KSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSDISPATCH_TABLE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterExtensionAsyncOperation::Cancel, IPrinterExtensionAsyncOperation, print.iprinterextensionasyncoperation_cancel, Cancel method [Print Devices], IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices], Cancel method, IPrinterExtensionAsyncOperation::Cancel, Cancel, Cancel method [Print Devices]
+ms.keywords: IPrinterExtensionAsyncOperation::Cancel, Cancel method [Print Devices], Cancel, IPrinterExtensionAsyncOperation interface [Print Devices], Cancel method, IPrinterExtensionAsyncOperation, Cancel method [Print Devices], IPrinterExtensionAsyncOperation interface, printerextension/IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Printerextension.h
-apiname: 
+apiname:
 -	IPrinterExtensionAsyncOperation.Cancel
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_HDAUDIO_CODEC_RESPONSE, hdaudio/HDAUDIO_CODEC_RESPONSE, audio.hdaudio_codec_response, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], hdaudio/PHDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, PHDAUDIO_CODEC_RESPONSE"
+ms.keywords: audio.hdaudio_codec_response, hdaudio/PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, hdaudio/HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

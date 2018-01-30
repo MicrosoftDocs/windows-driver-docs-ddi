@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_PACKET_DATA_FORMAT
-title: _WHEA_ERROR_PACKET_DATA_FORMAT
+title: "_WHEA_ERROR_PACKET_DATA_FORMAT"
 author: windows-driver-content
 description: The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.
 old-location: whea\whea_error_packet_data_format.htm
@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 612fbfb7-2f10-45e8-8f99-1aba8fe79a5a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WheaDataFormatMemory, WheaDataFormatIPFSalRecord, ntddk/PWHEA_ERROR_PACKET_DATA_FORMAT, *PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WHEA_ERROR_PACKET_DATA_FORMAT, WheaDataFormatPCIXBus, ntddk/WheaDataFormatNMIPort, ntddk/WheaDataFormatXPFMCA, PWHEA_ERROR_PACKET_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WheaDataFormatMemory, ntddk/WheaDataFormatPCIExpress, WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatPCIXBus, ntddk/WheaDataFormatMax, WheaDataFormatNMIPort, WheaDataFormatGeneric, ntddk/WheaDataFormatGeneric, WheaDataFormatMax, WheaDataFormatXPFMCA, WheaDataFormatPCIExpress, WheaDataFormatPCIXDevice, _WHEA_ERROR_PACKET_DATA_FORMAT, whearef_19f75c8f-94d0-4837-ab44-e9ba9fbe51f7.xml, whea.whea_error_packet_data_format, WHEA_ERROR_PACKET_DATA_FORMAT enumeration [WHEA Drivers and Applications], PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatPCIXDevice, ntddk/WheaDataFormatIPFSalRecord
+ms.keywords: ntddk/WheaDataFormatIPFSalRecord, ntddk/WheaDataFormatMax, ntddk/WheaDataFormatPCIXBus, WheaDataFormatIPFSalRecord, ntddk/WheaDataFormatPCIExpress, whearef_19f75c8f-94d0-4837-ab44-e9ba9fbe51f7.xml, WheaDataFormatMemory, WheaDataFormatPCIXBus, WheaDataFormatNMIPort, *PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatMemory, WheaDataFormatPCIXDevice, WHEA_ERROR_PACKET_DATA_FORMAT enumeration [WHEA Drivers and Applications], WHEA_ERROR_PACKET_DATA_FORMAT, WheaDataFormatGeneric, WheaDataFormatMax, ntddk/PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatGeneric, ntddk/WheaDataFormatPCIXDevice, whea.whea_error_packet_data_format, WheaDataFormatXPFMCA, ntddk/WheaDataFormatXPFMCA, WheaDataFormatPCIExpress, PWHEA_ERROR_PACKET_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], ntddk/WheaDataFormatNMIPort, _WHEA_ERROR_PACKET_DATA_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_PACKET_DATA_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_ERROR_PACKET_DATA_FORMAT, WHEA_ERROR_PACKET_DATA_FORMAT
+req.typenames: WHEA_ERROR_PACKET_DATA_FORMAT, *PWHEA_ERROR_PACKET_DATA_FORMAT
 ---
 
 # _WHEA_ERROR_PACKET_DATA_FORMAT enumeration
@@ -129,9 +129,9 @@ The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a>
 

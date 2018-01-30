@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DRIVER_CAPS
-title: _WWAN_DRIVER_CAPS
+title: "_WWAN_DRIVER_CAPS"
 author: windows-driver-content
 description: The WWAN_DRIVER_CAPS structure represents the capabilities of the miniport driver.
 old-location: netvista\wwan_driver_caps.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0696ac6-d35e-402a-8cb5-d4f23b3b8072
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], WWAN_DRIVER_CAPS, wwan/PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], PWWAN_DRIVER_CAPS, WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, _WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS, netvista.wwan_driver_caps, wwan/WWAN_DRIVER_CAPS
+ms.keywords: PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS, wwan/WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], netvista.wwan_driver_caps, WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, _WWAN_DRIVER_CAPS, wwan/PWWAN_DRIVER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_DRIVER_CAPS
 product: Windows
 targetos: Windows
-req.typenames: WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS
+req.typenames: "*PWWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS"
 req.product: Windows 10 or later.
 ---
 
@@ -91,7 +91,7 @@ This member is reserved for future use. Miniport drivers should set this member 
 
 
 
-##### - ulDriverCaps.WWAN_DRIVER_CAPS_NONE
+#### WWAN_DRIVER_CAPS_NONE
 
 The miniport driver has no special capabilities.
 

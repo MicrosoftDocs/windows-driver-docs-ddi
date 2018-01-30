@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemoveTarget_IN
-title: _RemoveTarget_IN
+title: "_RemoveTarget_IN"
 author: windows-driver-content
 description: The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the RemoveTarget WMI method.
 old-location: storage\removetarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml, *PRemoveTarget_IN, RemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN structure [Storage Devices], storage.removetarget_in, PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, _RemoveTarget_IN
+ms.keywords: hbapiwmi/PRemoveTarget_IN, storage.removetarget_in, PRemoveTarget_IN structure pointer [Storage Devices], hbapiwmi/RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], *PRemoveTarget_IN, PRemoveTarget_IN, _RemoveTarget_IN, RemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	RemoveTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: RemoveTarget_IN, *PRemoveTarget_IN
+req.typenames: "*PRemoveTarget_IN, RemoveTarget_IN"
 ---
 
 # _RemoveTarget_IN structure

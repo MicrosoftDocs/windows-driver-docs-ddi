@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml, NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver
+ms.keywords: protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml, ndis/NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], netvista.ndisregisterprotocoldriver, NdisRegisterProtocolDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisRegisterProtocolDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRegisterProtocolDriver function
@@ -206,13 +206,13 @@ Protocol drivers call the
 
 <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
-   Drivers</b></mshelp:link>
-
 <mshelp:link keywords="netvista.ndis_protocol_driver_characteristics" tabindex="0"><b>
    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+<mshelp:link keywords="netvista.driverentry_of_ndis_protocol_drivers" tabindex="0"><b>DriverEntry of NDIS Protocol
+   Drivers</b></mshelp:link>
 
  
 

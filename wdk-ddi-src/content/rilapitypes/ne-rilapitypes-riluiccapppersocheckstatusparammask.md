@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d722f10-d29d-4197-a2c1-5c2a77004abf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_UAPCS_PERSOFEATURE, rilapitypes/RIL_PARAM_UAPCS_ALL, rilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UAPCS_ALL, RIL_PARAM_UAPCS_PERSOCHECKSTATE, netvista.riluiccapppersocheckstatusparammask_2, rilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE, RILUICCAPPPERSOCHECKSTATUSPARAMMASK
+ms.keywords: RIL_PARAM_UAPCS_PERSOCHECKSTATE, netvista.riluiccapppersocheckstatusparammask_2, RIL_PARAM_UAPCS_ALL, rilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE, RILUICCAPPPERSOCHECKSTATUSPARAMMASK, RIL_PARAM_UAPCS_PERSOFEATURE, rilapitypes/RIL_PARAM_UAPCS_ALL, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCAPPPERSOCHECKSTATUSPARAMMASK
 product: Windows
 targetos: Windows

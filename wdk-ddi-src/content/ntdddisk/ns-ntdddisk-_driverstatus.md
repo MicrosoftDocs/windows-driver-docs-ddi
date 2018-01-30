@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVERSTATUS
-title: _DRIVERSTATUS
+title: "_DRIVERSTATUS"
 author: windows-driver-content
 description: The DRIVERSTATUS structure is used in conjunction with the SENDCMDOUTPARAMS structure and the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\driverstatus.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DRIVERSTATUS structure [Storage Devices], LPDRIVERSTATUS, _DRIVERSTATUS, *PDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], LPDRIVERSTATUS structure pointer [Storage Devices], *LPDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, ntdddisk/DRIVERSTATUS, DRIVERSTATUS, PDRIVERSTATUS, storage.driverstatus, ntdddisk/PDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml
+ms.keywords: ntdddisk/DRIVERSTATUS, *PDRIVERSTATUS, PDRIVERSTATUS, DRIVERSTATUS structure [Storage Devices], PDRIVERSTATUS structure pointer [Storage Devices], _DRIVERSTATUS, storage.driverstatus, ntdddisk/PDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, LPDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS, *LPDRIVERSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DRIVERSTATUS
 product: Windows
 targetos: Windows
-req.typenames: *LPDRIVERSTATUS, DRIVERSTATUS, *PDRIVERSTATUS
+req.typenames: DRIVERSTATUS, *PDRIVERSTATUS, *LPDRIVERSTATUS
 ---
 
 # _DRIVERSTATUS structure
@@ -92,9 +92,9 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
 
  
 

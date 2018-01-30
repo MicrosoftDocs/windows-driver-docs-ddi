@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c4968449-eba0-4f7a-98e6-6955d3333495
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfresource/WdfIoResourceListRemoveByDescriptor, kmdf.wdfioresourcelistremovebydescriptor, DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor method, wdf.wdfioresourcelistremovebydescriptor, WdfIoResourceListRemoveByDescriptor, PFN_WDFIORESOURCELISTREMOVEBYDESCRIPTOR
+ms.keywords: WdfIoResourceListRemoveByDescriptor method, DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor, wdf.wdfioresourcelistremovebydescriptor, PFN_WDFIORESOURCELISTREMOVEBYDESCRIPTOR, wdfresource/WdfIoResourceListRemoveByDescriptor, kmdf.wdfioresourcelistremovebydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceListRemoveByDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -106,9 +106,9 @@ For more information about resource requirements lists and logical configuration
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistremove.md">WdfIoResourceListRemove</a>
-
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistremove.md">WdfIoResourceListRemove</a>
 
  
 

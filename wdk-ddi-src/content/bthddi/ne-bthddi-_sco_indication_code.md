@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/SCO_INDICATION_CODE, bthddi/ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, bthddi/ScoIndicationAddReference, ScoIndicationAddReference, ScoIndicationRemoteConnect, SCO_INDICATION_CODE, bthddi/PSCO_INDICATION_CODE, bthddi/ScoIndicationRemoteDisconnect, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, _SCO_INDICATION_CODE, PSCO_INDICATION_CODE, bltooth.sco_indication_code, *PSCO_INDICATION_CODE, ScoIndicationReleaseReference, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/ScoIndicationReleaseReference, SCO_INDICATION_CODE enumeration [Bluetooth Devices]
+ms.keywords: PSCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationReleaseReference, *PSCO_INDICATION_CODE, bthddi/ScoIndicationAddReference, ScoIndicationAddReference, SCO_INDICATION_CODE, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, bthddi/ScoIndicationRemoteDisconnect, ScoIndicationRemoteConnect, _SCO_INDICATION_CODE, bltooth.sco_indication_code, bthddi/ScoIndicationRemoteConnect, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], ScoIndicationRemoteDisconnect, bthddi/ScoIndicationReleaseReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,11 +101,11 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
  
 

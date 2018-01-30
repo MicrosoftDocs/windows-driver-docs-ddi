@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8cbf75c4-d54c-45e0-9abb-bef8e76fb9fe
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestIsReserved, kmdf.wdfrequestisreserved, DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, PFN_WDFREQUESTISRESERVED, wdf.wdfrequestisreserved, WdfRequestIsReserved method, WdfRequestIsReserved
+ms.keywords: PFN_WDFREQUESTISRESERVED, wdf.wdfrequestisreserved, WdfRequestIsReserved, DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, kmdf.wdfrequestisreserved, WdfRequestIsReserved method, wdfrequest/WdfRequestIsReserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfRequestIsReserved
 product: Windows
 targetos: Windows

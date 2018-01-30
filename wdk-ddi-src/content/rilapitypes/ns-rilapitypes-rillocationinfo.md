@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 057f8cb0-0473-470e-b993-457de90d98fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILLOCATIONINFO, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rillocationinfo_2, RILLOCATIONINFO, *LPRILLOCATIONINFO
+ms.keywords: netvista.rillocationinfo_2, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], RILLOCATIONINFO, *LPRILLOCATIONINFO, rilapitypes/RILLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILLOCATIONINFO
 product: Windows
 targetos: Windows
-req.typenames: RILLOCATIONINFO, *LPRILLOCATIONINFO
+req.typenames: "*LPRILLOCATIONINFO, RILLOCATIONINFO"
 req.product: Windows 10 or later.
 ---
 

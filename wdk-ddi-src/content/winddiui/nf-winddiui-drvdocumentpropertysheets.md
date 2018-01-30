@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fc7e98ba-5c49-4c2d-af2e-b6c13757f6e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvDocumentPropertySheets, winddiui/DrvDocumentPropertySheets, print.drvdocumentpropertysheets, DrvDocumentPropertySheets function [Print Devices], print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml
+ms.keywords: DrvDocumentPropertySheets, print.drvdocumentpropertysheets, winddiui/DrvDocumentPropertySheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, DrvDocumentPropertySheets function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DrvDocumentPropertySheets
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_VERSION, WINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 
@@ -144,11 +144,11 @@ If the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is not zero, 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 <a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a>
+
+<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
 
  
 

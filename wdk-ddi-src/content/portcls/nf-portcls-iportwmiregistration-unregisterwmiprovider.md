@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51c43e1a-ec8e-4dd2-ab08-b90cd89d9b5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, IPortWMIRegistration, UnregisterWMIProvider method [Audio Devices], audio.iportwmiregistration_unregisterwmiprovider, UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, UnregisterWMIProvider, portcls/IPortWMIRegistration::UnregisterWMIProvider, IPortWMIRegistration::UnregisterWMIProvider
+ms.keywords: UnregisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, IPortWMIRegistration, audio.iportwmiregistration_unregisterwmiprovider, IPortWMIRegistration interface [Audio Devices], UnregisterWMIProvider method, portcls/IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,7 +70,7 @@ NTSTATUS UnregisterWMIProvider(
 
 #### - pDeviceObject
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter driver.
+Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter driver.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 <a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
 

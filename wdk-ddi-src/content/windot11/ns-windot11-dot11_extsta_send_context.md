@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, windot11/DOT11_EXTSTA_SEND_CONTEXT, Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_EXTSTA_SEND_CONTEXT, netvista.dot11_extsta_send_context
+ms.keywords: DOT11_EXTSTA_SEND_CONTEXT, windot11/DOT11_EXTSTA_SEND_CONTEXT, Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, *PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_send_context, *PDOT11_EXTAP_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], PDOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_EXTSTA_SEND_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT
+req.typenames: "*PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -93,12 +93,47 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+#### Revision
+
+This member must be set to DOT11_EXTSTA_SEND_CONTEXT_REVISION_1.
+
+
+#### Size
+
+This member must be set to 
+       sizeof(DOT11_EXTSTA_SEND_CONTEXT).
+
+
 ### -field usExemptionActionType
 
 The type of encryption exemption for the packet. The following exemption types are defined:
      
 
 
+
+
+#### DOT11_EXEMPT_NO_EXEMPTION
+
+The packet is not exempt from any cipher operations performed by the 802.11 station.
+
+
+#### DOT11_EXEMPT_ALWAYS
+
+The packet is exempt from any cipher operations performed by the 802.11 station. The 802.11
+       station must transmit the packet unencrypted.
+
+
+#### DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
+
+The packet is exempt from any cipher operations performed by the 802.11 station only if the
+       station does not have a key-mapping key for the packet's destination media access control (MAC)
+       address. For more information about key-mapping keys, see 
+       <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>.
 
 
 ### -field uPhyId
@@ -186,41 +221,6 @@ A set of flags that define send attributes. Currently, there are no flags define
      should be zero.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_EXTSTA_SEND_CONTEXT_REVISION_1.
-
-
-##### - usExemptionActionType.DOT11_EXEMPT_NO_EXEMPTION
-
-The packet is not exempt from any cipher operations performed by the 802.11 station.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       sizeof(DOT11_EXTSTA_SEND_CONTEXT).
-
-
-##### - usExemptionActionType.DOT11_EXEMPT_ALWAYS
-
-The packet is exempt from any cipher operations performed by the 802.11 station. The 802.11
-       station must transmit the packet unencrypted.
-
-
-##### - usExemptionActionType.DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
-
-The packet is exempt from any cipher operations performed by the 802.11 station only if the
-       station does not have a key-mapping key for the packet's destination media access control (MAC)
-       address. For more information about key-mapping keys, see 
-       <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>.
-
-
 ## -remarks
 
 
@@ -257,22 +257,22 @@ The _
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
    NdisMSendNetBufferListsComplete</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

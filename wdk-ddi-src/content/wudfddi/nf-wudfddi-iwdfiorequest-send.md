@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_send, Send method, IWDFIoRequest interface, Send method, IWDFIoRequest::Send, IWDFIoRequest, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, IWDFIoRequest interface, Send method, Send, wudfddi/IWDFIoRequest::Send
+ms.keywords: Send method, Send method, IWDFIoRequest interface, umdf.iwdfiorequest_send, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, IWDFIoRequest interface, Send method, IWDFIoRequest, wudfddi/IWDFIoRequest::Send, Send, IWDFIoRequest::Send, wdf.iwdfiorequest_send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.Send
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -125,15 +125,15 @@ A driver cannot call <b>Send</b> to send an I/O request to a USB pipe, if the dr
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>
 
  
 

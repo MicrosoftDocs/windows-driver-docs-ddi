@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4add891-e90e-4fad-b862-c5cad91a277d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltObjectDereference routine [Installable File System Drivers], FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference, fltkernel/FltObjectDereference, ifsk.fltobjectdereference
+ms.keywords: FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, fltkernel/FltObjectDereference, ifsk.fltobjectdereference, FltObjectDereference, FltObjectDereference routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltObjectDereference
 product: Windows
 targetos: Windows

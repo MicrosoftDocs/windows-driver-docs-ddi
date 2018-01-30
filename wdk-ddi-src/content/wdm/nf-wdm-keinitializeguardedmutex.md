@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28d45b36-c20d-40a5-bdf9-5fb754e36e74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], kernel.keinitializeguardedmutex, KeInitializeGuardedMutex, wdm/KeInitializeGuardedMutex, k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml
+ms.keywords: wdm/KeInitializeGuardedMutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], KeInitializeGuardedMutex, k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, kernel.keinitializeguardedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeInitializeGuardedMutex
 product: Windows
 targetos: Windows
@@ -91,9 +91,9 @@ For more information about guarded mutexes, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554235">KGUARDED_MUTEX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551892">KeAcquireGuardedMutex</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554235">KGUARDED_MUTEX</a>
 
  
 

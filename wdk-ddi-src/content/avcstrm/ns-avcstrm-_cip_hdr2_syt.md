@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_SYT
-title: _CIP_HDR2_SYT
+title: "_CIP_HDR2_SYT"
 author: windows-driver-content
 description: The CIP_HDR2_SYT structure describes the second quadlet of a CIP header pair for a DV format stream.
 old-location: stream\cip_hdr2_syt.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/CIP_HDR2_SYT, *PCIP_HDR2_SYT, CIP_HDR2_SYT, stream.cip_hdr2_syt, _CIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], PCIP_HDR2_SYT structure pointer [Streaming Media Devices], PCIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT
+ms.keywords: stream.cip_hdr2_syt, CIP_HDR2_SYT structure [Streaming Media Devices], avcstrm/CIP_HDR2_SYT, PCIP_HDR2_SYT, *PCIP_HDR2_SYT, _CIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/PCIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], CIP_HDR2_SYT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	CIP_HDR2_SYT
 product: Windows
 targetos: Windows
-req.typenames: *PCIP_HDR2_SYT, CIP_HDR2_SYT
+req.typenames: CIP_HDR2_SYT, *PCIP_HDR2_SYT
 ---
 
 # _CIP_HDR2_SYT structure

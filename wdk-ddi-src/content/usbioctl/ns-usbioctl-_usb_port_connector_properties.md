@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PORT_CONNECTOR_PROPERTIES
-title: _USB_PORT_CONNECTOR_PROPERTIES
+title: "_USB_PORT_CONNECTOR_PROPERTIES"
 author: windows-driver-content
 description: The USB_PORT_CONNECTOR_PROPERTIES structure is used with the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request to retrieve information about a port on a particular SuperSpeed hub.
 old-location: buses\usb_port_connector_properties.htm
@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], *PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses]
+ms.keywords: PUSB_PORT_CONNECTOR_PROPERTIES, _USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], USB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], *PUSB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/USB_PORT_CONNECTOR_PROPERTIES, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	USB_PORT_CONNECTOR_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES
+req.typenames: "*PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES"
 req.product: Windows 10 or later.
 ---
 
@@ -125,15 +125,15 @@ To get information about the operating speed of a device attached to a particula
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-
 <a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
 
  
 

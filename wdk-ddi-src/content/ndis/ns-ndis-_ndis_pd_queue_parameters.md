@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE_PARAMETERS
-title: _NDIS_PD_QUEUE_PARAMETERS
+title: "_NDIS_PD_QUEUE_PARAMETERS"
 author: windows-driver-content
 description: This structure is used to hold parameters for a transmit or receive queue when calling any of the queue routines.
 old-location: netvista\ndis_pd_queue_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_PARAMETERS
+ms.keywords: NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, _NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_QUEUE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -143,9 +143,9 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
-
 <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>
+
+<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
 
  
 

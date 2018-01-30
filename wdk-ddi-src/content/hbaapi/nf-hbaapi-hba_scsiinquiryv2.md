@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba82c6f1-f310-4258-8867-8309845320cc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_scsiinquiryv2, fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml, HBA_ScsiInquiryV2 routine [Storage Devices], HBA_ScsiInquiryV2, hbaapi/HBA_ScsiInquiryV2
+ms.keywords: HBA_ScsiInquiryV2 routine [Storage Devices], hbaapi/HBA_ScsiInquiryV2, HBA_ScsiInquiryV2, storage.hba_scsiinquiryv2, fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_ScsiInquiryV2
 product: Windows
 targetos: Windows
@@ -285,9 +285,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

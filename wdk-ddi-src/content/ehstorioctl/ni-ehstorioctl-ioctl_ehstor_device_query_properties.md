@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
 product: Windows
 targetos: Windows
@@ -91,14 +91,14 @@ The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>E
 </table></span></div>
 
 
-#### -BytesPerSector
-
-The size, in bytes, of a sector on the underlying storage device.
-
-
 #### -StructSize
 
 The size of the structure. This is set to <b>sizeof</b>(EHSTOR_DEVICE_PROPERTIES).
+
+
+#### -BytesPerSector
+
+The size, in bytes, of a sector on the underlying storage device.
 
 
 ### -output-buffer-length

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSaveExtendedProcessorState, kernel.kesaveextendedprocessorstate, XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, XSTATE_MASK_GSSE, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_FLOATING_POINT, wdm/KeSaveExtendedProcessorState, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml
+ms.keywords: XSTATE_MASK_GSSE, KeSaveExtendedProcessorState, XSTATE_MASK_LEGACY_FLOATING_POINT, kernel.kesaveextendedprocessorstate, wdm/KeSaveExtendedProcessorState, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_LEGACY_SSE, XSTATE_MASK_LEGACY, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	KeSaveExtendedProcessorState
 product: Windows
 targetos: Windows
@@ -170,15 +170,15 @@ The <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
-
-<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
+<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
 
 <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
-<a href="..\ntddk\nf-ntddk-rtlgetenabledextendedfeatures.md">RtlGetEnabledExtendedFeatures</a>
+<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
+
+<a href="..\wdm\nf-wdm-kerestoreextendedprocessorstate.md">KeRestoreExtendedProcessorState</a>
 
  
 

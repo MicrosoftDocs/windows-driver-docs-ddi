@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfinterruptreportinactive, PFN_WDFINTERRUPTREPORTINACTIVE, kmdf.wdfinterruptreportinactive, WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, wdfinterrupt/WdfInterruptReportInactive, WdfInterruptReportInactive
+ms.keywords: wdfinterrupt/WdfInterruptReportInactive, WdfInterruptReportInactive, wdf.wdfinterruptreportinactive, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, PFN_WDFINTERRUPTREPORTINACTIVE, WdfInterruptReportInactive method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfInterruptReportInactive
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 

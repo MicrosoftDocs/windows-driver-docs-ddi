@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetPresharedKeyForId_OUT
-title: _SetPresharedKeyForId_OUT
+title: "_SetPresharedKeyForId_OUT"
 author: windows-driver-content
 description: The SetPresharedKeyForId_OUT structure holds the output data for the SetPresharedKeyForId method.
 old-location: storage\setpresharedkeyforid_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetPresharedKeyForId_OUT, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, iscsiop/PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], SetPresharedKeyForId_OUT structure [Storage Devices], *PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, _SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT
+ms.keywords: SetPresharedKeyForId_OUT structure [Storage Devices], iscsiop/SetPresharedKeyForId_OUT, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, *PSetPresharedKeyForId_OUT, _SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], iscsiop/PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetPresharedKeyForId_OUT
 product: Windows
 targetos: Windows
-req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
+req.typenames: "*PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT"
 ---
 
 # _SetPresharedKeyForId_OUT structure
@@ -83,9 +83,9 @@ You must implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
 <a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
  
 

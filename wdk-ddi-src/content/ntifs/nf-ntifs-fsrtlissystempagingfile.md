@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BF92ADEA-4A9F-41E0-BE52-0794D1D827A1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlissystempagingfile, FsRtlIsSystemPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], ntifs/FsRtlIsPagingFile, FsRtlIsPagingFile
+ms.keywords: FsRtlIsPagingFile, ifsk.fsrtlissystempagingfile, FsRtlIsPagingFile routine [Installable File System Drivers], FsRtlIsSystemPagingFile, ntifs/FsRtlIsPagingFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlIsPagingFile
 product: Windows
 targetos: Windows
@@ -83,9 +83,9 @@ Pointer to a file object for the file.
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 
  
 

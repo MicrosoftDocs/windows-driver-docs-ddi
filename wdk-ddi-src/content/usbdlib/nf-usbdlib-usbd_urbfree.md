@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usbd_urbfree, usbdlib/USBD_UrbFree, USBD_UrbFree routine [Buses], USBD_UrbFree
+ms.keywords: USBD_UrbFree, usbdlib/USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Usbdex.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname: 
+apiname:
 -	USBD_UrbFree
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -101,9 +101,9 @@ For a code example, see <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
 
  
 

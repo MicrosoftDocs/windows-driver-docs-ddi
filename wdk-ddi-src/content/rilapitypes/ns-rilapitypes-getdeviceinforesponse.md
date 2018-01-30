@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 318927ab-6134-4a01-bf9c-a85619d2bbdf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.getdeviceinforesponse_2, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], *LPGETDEVICEINFORESPONSE, rilapitypes/GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE
+ms.keywords: "*LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE, rilapitypes/GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], netvista.getdeviceinforesponse_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	GETDEVICEINFORESPONSE
 product: Windows
 targetos: Windows

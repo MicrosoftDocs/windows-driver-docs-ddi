@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SMARTCARD_REPLY
-title: _SMARTCARD_REPLY
+title: "_SMARTCARD_REPLY"
 author: windows-driver-content
 description: Describes the reply buffer received from the smart card.
 old-location: smartcrd\smartcard_reply.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: DB41648B-8812-4358-BECE-8029016E5631
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/PSMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], smartcrd.smartcard_reply, smclib/SMARTCARD_REPLY, *PSMARTCARD_REPLY, _SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], SMARTCARD_REPLY, PSMARTCARD_REPLY
+ms.keywords: smclib/PSMARTCARD_REPLY, smartcrd.smartcard_reply, smclib/SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], _SMARTCARD_REPLY, SMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], *PSMARTCARD_REPLY, PSMARTCARD_REPLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Smclib.h
-apiname: 
+apiname:
 -	SMARTCARD_REPLY
 product: Windows
 targetos: Windows
-req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
+req.typenames: "*PSMARTCARD_REPLY, SMARTCARD_REPLY"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], ntifs/FsRtlDissectName, ifsk.fsrtldissectname, fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml
+ms.keywords: fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ntifs/FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], FsRtlDissectName, ifsk.fsrtldissectname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlDissectName
 product: Windows
 targetos: Windows

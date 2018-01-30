@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmconnectorcreate, UcmConnectorCreate, UcmConnectorCreate method [Buses], ucmmanager/UcmConnectorCreate
+ms.keywords: ucmmanager/UcmConnectorCreate, UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	UcmCxstub.lib
 -	UcmCxstub.dll
-apiname: 
+apiname:
 -	UcmConnectorCreate
 product: Windows
 targetos: Windows
-req.typenames: *PPORT_DATA_1, PORT_DATA_1
+req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 

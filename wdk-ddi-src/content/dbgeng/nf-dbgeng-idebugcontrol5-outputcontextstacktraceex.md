@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol5_outputcontextstacktraceex, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, dbgeng/IDebugControl5::OutputContextStackTraceEx
+ms.keywords: IDebugControl5::OutputContextStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, IDebugControl5, debugger.idebugcontrol5_outputcontextstacktraceex, OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.OutputContextStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl5::OutputContextStackTraceEx method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D43DA9A4-02F4-4C4E-83AE-DFADA0FCC73D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], wdm/PoFxCompleteIdleCondition, kernel.pofxcompleteidlecondition
+ms.keywords: PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], PoFxCompleteIdleCondition, wdm/PoFxCompleteIdleCondition, kernel.pofxcompleteidlecondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxCompleteIdleCondition
 product: Windows
 targetos: Windows
@@ -99,9 +99,9 @@ When PoFx calls the driver's <i>ComponentIdleConditionCallback</i> routine, the 
 
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df59e0f7-6e78-4098-9a2a-9a3143d66152
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_EVDOKIND_REVB, RIL_EVDOKIND_REVA, RILEVDOKIND, RIL_EVDOKIND_MAX, rilapitypes/RIL_EVDOKIND_REVA, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILEVDOKIND, rilapitypes/RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVB, netvista.rilevdokind_2
+ms.keywords: rilapitypes/RIL_EVDOKIND_REVA, RIL_EVDOKIND_REVB, netvista.rilevdokind_2, rilapitypes/RILEVDOKIND, RIL_EVDOKIND_REVA, RIL_EVDOKIND_MAX, rilapitypes/RIL_EVDOKIND_REVB, RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_EVDOKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEVDOKIND
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PDEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS structure pointer [Streaming Media Devices], stream.devcaps, DEVCAPS, PDEVCAPS, ksmedia/DEVCAPS, ksmedia/PDEVCAPS, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml
+ms.keywords: stream.devcaps, ksmedia/PDEVCAPS, tagDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, DEVCAPS, PDEVCAPS, DEVCAPS structure [Streaming Media Devices], *PDEVCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	DEVCAPS
 product: Windows
 targetos: Windows
-req.typenames: *PDEVCAPS, DEVCAPS
+req.typenames: "*PDEVCAPS, DEVCAPS"
 ---
 
 # tagDEVCAPS structure

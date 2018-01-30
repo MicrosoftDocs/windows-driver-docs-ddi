@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Scsiscan.h
-apiname: 
+apiname:
 -	IOCTL_SCSISCAN_CMD
 product: Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
+req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
 req.product: Windows 10 or later.
 ---
 

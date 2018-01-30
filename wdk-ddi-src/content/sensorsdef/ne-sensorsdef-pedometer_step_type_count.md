@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.pedometer_step_type_count, PedometerStepTypeCount, PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices]
+ms.keywords: sensors.pedometer_step_type_count, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], PedometerStepTypeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Sensorsdef.h
-apiname: 
+apiname:
 -	PEDOMETER_STEP_TYPE_COUNT
 product: Windows
 targetos: Windows

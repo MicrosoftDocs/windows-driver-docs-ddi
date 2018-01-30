@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f7b1f2a6-d57a-44ec-b14b-8b41b020935e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getpsmediaconfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], RIL_GetPSMediaConfiguration, rilapi/RIL_GetPSMediaConfiguration
+ms.keywords: RIL_GetPSMediaConfiguration, rilapi/RIL_GetPSMediaConfiguration, netvista.ril_getpsmediaconfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetPSMediaConfiguration
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

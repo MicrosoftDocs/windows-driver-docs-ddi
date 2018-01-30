@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 0DF5E1DA-35BA-406A-A708-461534373F12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxRetainDevice function, PosCxRetainDevice, poscx/PosCxRetainDevice, pos.poscxretaindevice
+ms.keywords: poscx/PosCxRetainDevice, PosCxRetainDevice, pos.poscxretaindevice, PosCxRetainDevice function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxRetainDevice
 product: Windows
 targetos: Windows

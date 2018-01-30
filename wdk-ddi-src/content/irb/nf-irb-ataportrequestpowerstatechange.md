@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 37cf1552-2cbe-4b80-b220-cfa853674e1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange
+ms.keywords: AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Irb.h
-apiname: 
+apiname:
 -	AtaPortRequestPowerStateChange
 product: Windows
 targetos: Windows

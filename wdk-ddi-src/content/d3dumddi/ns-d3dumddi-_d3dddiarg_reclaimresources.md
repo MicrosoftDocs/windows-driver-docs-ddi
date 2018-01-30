@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], display.d3dddiarg_reclaimresources, d3dumddi/D3DDDIARG_RECLAIMRESOURCES"
+ms.keywords: "_D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], d3dumddi/D3DDDIARG_RECLAIMRESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,9 +92,9 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, wdm/IoGetDeviceInterfaces, kernel.iogetdeviceinterfaces
+ms.keywords: IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfaces, k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, IoGetDeviceInterfaces, wdm/IoGetDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetDeviceInterfaces
 product: Windows
 targetos: Windows
@@ -108,7 +108,7 @@ A driver typically sets the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag to locate di
 
 ### -param SymbolicLinkList [out]
 
-A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
+A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
 
 If no device interface instances match the search criteria, this routine returns STATUS_SUCCESS and the string contains a single NULL character.
 
@@ -160,15 +160,15 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 <a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
 
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
  
 

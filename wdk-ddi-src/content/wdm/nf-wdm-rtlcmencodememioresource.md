@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlcmencodememioresource, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, wdm/RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource
+ms.keywords: RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, wdm/RtlCmEncodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlCmEncodeMemIoResource
 product: Windows
 targetos: Windows

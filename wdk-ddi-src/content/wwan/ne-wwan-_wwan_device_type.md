@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_TYPE
-title: _WWAN_DEVICE_TYPE
+title: "_WWAN_DEVICE_TYPE"
 author: windows-driver-content
 description: The WWAN_DEVICE_TYPE enumeration lists the different device types that describe the MB device.
 old-location: netvista\wwan_device_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad99b2b0-d62a-4e3e-a368-b9109f0fefb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_device_type, wwan/WWAN_DEVICE_TYPE, wwan/WwanDeviceTypeUnknown, WwanDeviceTypeEmbedded, wwan/WwanDeviceTypeRemovable, *PWWAN_DEVICE_TYPE, _WWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanDeviceTypeRemote, wwan/WwanDeviceTypeEmbedded, WwanDeviceTypeRemovable, PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE, WwanDeviceTypeRemote, WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, WwanDeviceTypeUnknown, WwanDeviceTypeMax, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_DEVICE_TYPE, wwan/WwanDeviceTypeMax
+ms.keywords: wwan/WwanDeviceTypeEmbedded, WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, wwan/WwanDeviceTypeMax, WwanDeviceTypeEmbedded, wwan/WwanDeviceTypeUnknown, wwan/WwanDeviceTypeRemovable, wwan/WwanDeviceTypeRemote, WwanDeviceTypeMax, WwanDeviceTypeRemote, PWWAN_DEVICE_TYPE, wwan/WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_device_type, WwanDeviceTypeUnknown, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_DEVICE_TYPE, _WWAN_DEVICE_TYPE, WwanDeviceTypeRemovable, WWAN_DEVICE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_DEVICE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE
+req.typenames: "*PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE"
 req.product: Windows 10 or later.
 ---
 

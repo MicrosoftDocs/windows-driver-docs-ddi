@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._CREATE_BAND_PARAMETERS
-title: _CREATE_BAND_PARAMETERS
+title: "_CREATE_BAND_PARAMETERS"
 author: windows-driver-content
 description: The parameters to create a band on a storage device for an IOCTL_EHSTOR_BANDMGMT_CREATE_BAND request are specified in a CREATE_BAND_PARAMETERS structure.
 old-location: storage\create_band_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.create_band_parameters, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], CREATE_BAND_PARAMETERS structure [Storage Devices], _CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, *PCREATE_BAND_PARAMETERS
+ms.keywords: PCREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, storage.create_band_parameters, CREATEBAND_AUTHKEY_CACHING_ENABLED, _CREATE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorBandMgmt.h
-apiname: 
+apiname:
 -	CREATE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
@@ -128,12 +128,12 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the author
 To assign a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
-##### - AuthKeyOffset.KeySize
+#### KeySize
 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-##### - AuthKeyOffset.Key
+#### Key
 
 A variable length byte array that contains the key data.
 
@@ -147,9 +147,9 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 

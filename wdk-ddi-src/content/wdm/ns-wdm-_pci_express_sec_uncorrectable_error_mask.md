@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
-title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
+title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK"
 author: windows-driver-content
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) secondary uncorrectable error mask register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_mask.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 99387bcc-301d-4406-bcff-fb5569c88c90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, pci_struct_80f14fae-7c43-4a78-bdb7-211abd0e43fd.xml, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union pointer [Buses], PCI.pci_express_sec_uncorrectable_error_mask, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union [Buses], _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
+ms.keywords: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_sec_uncorrectable_error_mask, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union pointer [Buses], *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK union [Buses], pci_struct_80f14fae-7c43-4a78-bdb7-211abd0e43fd.xml, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
+req.typenames: PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
 req.product: Windows 10 or later.
 ---
 
@@ -170,7 +170,27 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - Reserved
+#### - TargetAbortOnSplitCompletion
+
+A single bit that indicates that the reporting of target aborts on split completion is masked.
+
+
+#### - MasterAbortOnSplitCompletion
+
+A single bit that indicates that the reporting of master aborts on split completion is masked.
+
+
+#### - ReceivedTargetAbort
+
+A single bit that indicates that the reporting of target aborts is masked.
+
+
+#### - ReceivedMasterAbort
+
+A single bit that indicates that the reporting of master aborts is masked.
+
+
+#### - RsvdZ
 
 Reserved for system use.
 
@@ -180,19 +200,14 @@ Reserved for system use.
 A single bit that indicates that the reporting of unexpected split completion errors is masked.
 
 
-#### - DelayedTransactionDiscardTimerExpired
+#### - UncorrectableSplitCompletion
 
-A single bit that indicates that the reporting of the expiration of the delayed transaction discard timer is masked.
-
-
-#### - RsvdZ
-
-Reserved for system use.
+A single bit that indicates that the reporting of uncorrectable split completion message data errors is masked.
 
 
-#### - ReceivedTargetAbort
+#### - UncorrectableDataError
 
-A single bit that indicates that the reporting of target aborts is masked.
+A single bit that indicates that the reporting of uncorrectable data errors is masked.
 
 
 #### - UncorrectableAttributeError
@@ -205,14 +220,9 @@ A single bit that indicates that the reporting of uncorrectable attribute errors
 A single bit that indicates that the reporting of uncorrectable address errors is masked.
 
 
-#### - UncorrectableDataError
+#### - DelayedTransactionDiscardTimerExpired
 
-A single bit that indicates that the reporting of uncorrectable data errors is masked.
-
-
-#### - InternalBridgeError
-
-A single bit that indicates that the reporting of internal bridge errors is masked.
+A single bit that indicates that the reporting of the expiration of the delayed transaction discard timer is masked.
 
 
 #### - PERRAsserted
@@ -220,29 +230,19 @@ A single bit that indicates that the reporting of internal bridge errors is mask
 A single bit that indicates that the reporting of PERR# assertions is masked.
 
 
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that the reporting of uncorrectable split completion message data errors is masked.
-
-
 #### - SERRAsserted
 
 A single bit that indicates that the reporting of SERR# assertions is masked.
 
 
-#### - MasterAbortOnSplitCompletion
+#### - InternalBridgeError
 
-A single bit that indicates that the reporting of master aborts on split completion is masked.
-
-
-#### - ReceivedMasterAbort
-
-A single bit that indicates that the reporting of master aborts is masked.
+A single bit that indicates that the reporting of internal bridge errors is masked.
 
 
-#### - TargetAbortOnSplitCompletion
+#### - Reserved
 
-A single bit that indicates that the reporting of target aborts on split completion is masked.
+Reserved for system use.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ED85628-E5EA-4D51-97B0-383C606CCC42
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, wdf.wdf_read_port_buffer_ulong, WDF_READ_PORT_BUFFER_ULONG function, WDF_READ_PORT_BUFFER_ULONG
+ms.keywords: wdf.wdf_read_port_buffer_ulong, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, WDF_READ_PORT_BUFFER_ULONG, WDF_READ_PORT_BUFFER_ULONG function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfhwaccess.h
-apiname: 
+apiname:
 -	WDF_READ_PORT_BUFFER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

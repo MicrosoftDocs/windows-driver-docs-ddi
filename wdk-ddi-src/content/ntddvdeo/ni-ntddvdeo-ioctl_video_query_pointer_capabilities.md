@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
+req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES IOCTL
@@ -110,9 +110,9 @@ If the miniport driver successfully returns the pointer capabilities, it sets th
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_pointer_capabilities.md">VIDEO_POINTER_CAPABILITIES</a>
+
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
  
 

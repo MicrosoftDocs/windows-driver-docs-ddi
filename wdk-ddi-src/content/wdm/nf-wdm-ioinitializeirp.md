@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5cc1af-ab3b-4583-9ef9-39132789e74f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_5c9dc7a8-747c-4832-a31b-5936e2d3361d.xml, IoInitializeIrp, kernel.ioinitializeirp, wdm/IoInitializeIrp, IoInitializeIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.ioinitializeirp, IoInitializeIrp, k104_5c9dc7a8-747c-4832-a31b-5936e2d3361d.xml, IoInitializeIrp routine [Kernel-Mode Driver Architecture], wdm/IoInitializeIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoInitializeIrp
 product: Windows
 targetos: Windows
@@ -107,23 +107,23 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\ntifs\nf-ntifs-iosizeofirp.md">IoSizeOfIrp</a>
 
-<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
-
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-<a href="..\wdm\nf-wdm-iosizeofirp.md">IoSizeOfIrp</a>
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_outtypedefinition, OutTypeDefinition, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::OutTypeDefinition
+ms.keywords: ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, OutTypeDefinition, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped::OutTypeDefinition, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_outtypedefinition, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.OutTypeDefinition
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::OutTypeDefinition method
