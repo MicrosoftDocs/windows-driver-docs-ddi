@@ -64,7 +64,7 @@ NTSTATUS WdfDeviceQueryInterfaceProperty(
   _In_  PWDF_DEVICE_INTERFACE_PROPERTY_DATA PropertyData,
   _In_  ULONG                               BufferLength,
   _Out_ PVOID                               PropertyBuffer,
-  _Out_ WDFDEVICE                           ResultLength,
+  _Out_ PULONG                              ResultLength,
   _Out_ PDEVPROPTYPE                        Type
 );
 ````
